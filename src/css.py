@@ -6,6 +6,7 @@ CSS = r"""
    Setting dir="rtl" on <html> mirrors the whole layout.
    ═══════════════════════════════════════════════════════════════════════ */
 :root{
+  color-scheme:light;
   --ink:#1A1B1F; --ink-2:#565C61; --ink-3:#7C848A;
   --paper:#F4F7F6; --surface:#FFFFFF; --line:#E2E8E6; --line-2:#CBD5D2;
   --brand:#00ACA1;        /* logo teal — 2.83:1, fills and marks only      */
@@ -24,6 +25,7 @@ html[dir=rtl]{
   --lh:1.9;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:88px}
 body{margin:0;font-family:var(--sans);font-size:16px;line-height:var(--lh);
   color:var(--ink);background:var(--surface);-webkit-font-smoothing:antialiased}
@@ -75,6 +77,10 @@ html[dir=rtl] .mono{letter-spacing:0;font-size:.8125rem}
   padding:7px 10px;border-radius:2px;text-decoration:none;white-space:nowrap}
 .lang:hover{border-color:var(--ink-2)}
 .burger{display:none;padding:8px}
+.burger .x{display:none}
+.burger[aria-expanded=true] .x{display:block}
+.burger[aria-expanded=true] .bars{display:none}
+.menu-cta{display:none}
 
 /* ── page header block ───────────────────────────────────────────────── */
 .phead{background:linear-gradient(180deg,var(--mint),#fff);border-bottom:1px solid var(--line)}
@@ -119,6 +125,9 @@ html[dir=rtl] .eyebrow{letter-spacing:0}
 .stat b{display:block;font-size:clamp(2rem,3.4vw,2.75rem);font-weight:700;
   letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1;direction:ltr;
   text-align:start}
+/* the figure box is direction:ltr (digits), so in RTL its text-align must be
+   flipped by hand or the number hugs the wrong edge while its label sits right */
+html[dir=rtl] .stat b{text-align:end}
 .stat span{display:block;margin-top:10px;font-size:.875rem;color:#A6B0B2}
 .stat i{display:block;width:24px;height:2px;background:var(--brand);margin-bottom:16px}
 
@@ -133,9 +142,14 @@ html[dir=rtl] .eyebrow{letter-spacing:0}
 .sec-head.split p{margin-top:0}
 
 /* ── discipline cards ────────────────────────────────────────────────── */
-.disc{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
-  border:1px solid var(--line)}
-.disc article{background:var(--surface);padding:var(--s3);display:flex;flex-direction:column;gap:12px}
+/* Card grids use per-cell borders pulled under the container border with
+   -1px margins, NOT a 1px-gap over a dark background: with the gap trick a
+   partially-filled last row shows the container background as a grey hole. */
+.disc{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);
+  overflow:hidden}
+.disc article{background:var(--surface);padding:var(--s3);display:flex;flex-direction:column;
+  gap:12px;border-inline-end:1px solid var(--line);border-block-end:1px solid var(--line);
+  margin-inline-end:-1px;margin-block-end:-1px}
 .disc article:hover{background:var(--mint)}
 .disc h3{font-size:1.0625rem;font-weight:600}
 .disc h3 a{color:var(--ink);text-decoration:none}
@@ -154,17 +168,21 @@ html[dir=rtl] .eyebrow{letter-spacing:0}
   font-size:.875rem;text-decoration:none;color:var(--ink);background:var(--surface)}
 .filters a:hover,.filters button:hover{border-color:var(--ink)}
 .filters .on{background:var(--ink);color:#fff;border-color:var(--ink)}
-.cat{padding-block:var(--s5);border-bottom:1px solid var(--line)}
+.cat{padding-block:var(--s5);border-bottom:1px solid var(--line);
+  scroll-margin-top:150px /* clear the sticky header + chip bar on anchor jumps */}
 .cat:last-child{border-bottom:0}
+.disc article{scroll-margin-top:110px}
 .cat-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:var(--s4);
   align-items:start;margin-bottom:var(--s4)}
 .cat-head .num{font-family:var(--mono);font-size:.75rem;color:var(--accent);
   display:block;margin-bottom:10px}
 .cat-head h2{font-size:clamp(1.4rem,2.6vw,1.9rem)}
 .cat-head p{color:var(--ink-2)}
-.svcs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
-  border:1px solid var(--line)}
-.svc{background:var(--surface);padding:var(--s3);display:flex;flex-direction:column;gap:10px}
+.svcs{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);
+  overflow:hidden}
+.svc{background:var(--surface);padding:var(--s3);display:flex;flex-direction:column;gap:10px;
+  border-inline-end:1px solid var(--line);border-block-end:1px solid var(--line);
+  margin-inline-end:-1px;margin-block-end:-1px}
 .svc:hover{background:var(--mint)}
 .svc h3{font-size:1rem;font-weight:600}
 .svc h3 a{color:var(--ink);text-decoration:none}
@@ -205,19 +223,22 @@ html[dir=rtl] .tl time{text-align:start}
 .tl p{font-size:.875rem;color:var(--ink-2)}
 
 /* ── values ──────────────────────────────────────────────────────────── */
-.vals{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
-  border:1px solid var(--line)}
-.val{background:var(--surface);padding:var(--s3);display:flex;flex-direction:column;gap:10px}
+.vals{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);
+  overflow:hidden}
+.val{background:var(--surface);padding:var(--s3);display:flex;flex-direction:column;gap:10px;
+  border-inline-end:1px solid var(--line);border-block-end:1px solid var(--line);
+  margin-inline-end:-1px;margin-block-end:-1px}
 .val .n{font-family:var(--mono);font-size:.75rem;color:var(--accent)}
 .val h3{font-size:1.0625rem;font-weight:600}
 .val p{font-size:.9375rem;color:var(--ink-2)}
 
 /* ── partners ────────────────────────────────────────────────────────── */
-.partners{display:grid;grid-template-columns:repeat(7,1fr);gap:1px;background:var(--line);
-  border:1px solid var(--line)}
+.partners{display:grid;grid-template-columns:repeat(7,1fr);border:1px solid var(--line);
+  overflow:hidden}
 .partners span{background:var(--surface);padding:22px 10px;text-align:center;font-weight:600;
   font-size:.9375rem;color:var(--ink-2);display:flex;align-items:center;justify-content:center;
-  direction:ltr}
+  direction:ltr;border-inline-end:1px solid var(--line);border-block-end:1px solid var(--line);
+  margin-inline-end:-1px;margin-block-end:-1px}
 
 /* ── insights ────────────────────────────────────────────────────────── */
 .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s3)}
@@ -270,6 +291,11 @@ html[dir=rtl] .tl time{text-align:start}
 .map-face strong{font-size:1rem;font-weight:600}
 .map-face span{font-size:.875rem;color:var(--ink-2);max-width:44ch}
 .map-cap{margin-top:12px;font-size:.8125rem;color:var(--ink-3)}
+.map-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.map-tabs button{border:1px solid var(--line-2);border-radius:2px;padding:7px 14px;
+  font-size:.875rem;background:var(--surface)}
+.map-tabs button:hover{border-color:var(--ink)}
+.map-tabs button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
 .dirlink{display:inline-flex;align-items:center;gap:7px;font-size:.875rem;font-weight:500;
   text-decoration:none;margin-top:10px}
 .dirlink:hover{text-decoration:underline}
@@ -291,6 +317,7 @@ html[dir=rtl] .tl time{text-align:start}
 
 /* ── footer ──────────────────────────────────────────────────────────── */
 .ftr{background:var(--ink);color:#C6CCCF;font-size:.9375rem}
+.ftr-blurb{margin-top:16px;max-width:38ch;color:#9AA3A8;font-size:.9375rem}
 .ftr a{color:#C6CCCF;text-decoration:none}
 .ftr a:hover{color:#fff;text-decoration:underline}
 .ftr-top{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:var(--s4);
@@ -314,7 +341,8 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
 
 /* ── responsive ──────────────────────────────────────────────────────── */
 @media(max-width:1080px){
-  .disc,.partners,.svcs,.vals{grid-template-columns:repeat(2,1fr)}
+  .disc,.svcs,.vals{grid-template-columns:repeat(2,1fr)}
+  .partners{grid-template-columns:repeat(4,1fr)}
   .tl{grid-template-columns:repeat(2,1fr);gap:var(--s4)}
   .ftr-top{grid-template-columns:1fr 1fr}
   .cat-head{grid-template-columns:1fr;gap:var(--s2)}
@@ -324,13 +352,34 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
   .hero .wrap{grid-template-columns:1fr;gap:var(--s4);padding-block:var(--s4) var(--s5)}
   .mainnav,.hdr-cta .btn{display:none}
   .burger{display:block;margin-inline-start:auto}
+  .mainnav.open{display:flex;flex-direction:column;position:absolute;top:76px;
+    inset-inline:0;background:var(--surface);border-bottom:1px solid var(--line);
+    box-shadow:0 20px 32px -20px rgba(26,27,31,.35);
+    padding:10px var(--gutter) 22px;gap:0;margin:0}
+  .mainnav.open a{padding:13px 0;border-bottom:1px solid var(--line);font-size:1.0625rem}
+  .mainnav.open a:last-of-type{border-bottom:0}
+  .mainnav.open .menu-cta{display:inline-flex;margin-top:12px;background:var(--accent);
+    color:#fff;border-radius:2px;justify-content:center;font-weight:600;
+    padding:13px 20px;border-bottom:0}
   .stats .wrap{grid-template-columns:1fr 1fr;gap:var(--s3)}
-  .projs,.posts,.offices,.disc,.partners,.svcs,.vals,.two{grid-template-columns:1fr}
+  .projs,.posts,.offices,.disc,.svcs,.vals,.two{grid-template-columns:1fr}
+  .partners{grid-template-columns:repeat(2,1fr)}
   .post-lg{grid-column:auto;grid-template-columns:1fr;gap:var(--s2)}
   .sec-head.split,.cta .wrap{grid-template-columns:1fr;gap:var(--s2)}
   .tl{grid-template-columns:1fr}
   .sec{padding-block:var(--s5)}
   .partners span{padding:16px}
   .filters{position:static}
+}
+
+/* ── print ───────────────────────────────────────────────────────────── */
+@media print{
+  .hdr,.ftr,.cta,.map,.map-tabs,.filters,.skip,.hero-cta,.socrow,.soc,
+  .drawer,.scrim,.toast,.burger,.loadmore,.mobfilter{display:none!important}
+  body{background:#fff;color:#000}
+  .sec,.cat,.phead .wrap{padding-block:16px}
+  a{color:#000;text-decoration:none}
+  .stats{background:#fff;color:#000;border-block:1px solid #999}
+  .stat span{color:#333}
 }
 """

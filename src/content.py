@@ -5,6 +5,11 @@ Structure is identical between 'en' and 'ar' so the builder can render either
 without branching. Arabic is a first draft — see BUILD-NOTES.md.
 """
 
+# WhatsApp number, one place (footer + contact page). TODO: confirm with the
+# client — this is the Riyadh landline; if their WhatsApp Business runs on a
+# mobile number, put that here instead.
+WHATSAPP = "966115128888"
+
 # Social accounts — one place, used in the footer and on the contact page.
 SOCIALS = [
  ("linkedin",  "https://www.linkedin.com/company/datacore-solutions", "LinkedIn"),
@@ -23,6 +28,51 @@ OFFICE_GEO = [
 
 PARTNERS = ["Crestron","Extron","Shure","Bosch","Honeywell","Suprema","Logitech",
             "Yealink","Lenovo","CommScope","Eaton","ACTi","AET","SMART"]
+
+# EN service name -> slug on the live site (docs/RESEARCH-PROMPT.md is fetching
+# the copy for these). The 38 detail pages are not built yet, so the hub cards
+# render WITHOUT links — when the service-detail template lands, build.py
+# should link each card to service-details/<slug>.html using this map.
+SERVICE_SLUGS = {
+ 'Structured cabling':'structured-cabling-solutions',
+ 'Fibre optic':'fiber-optic-solutions',
+ 'IT networks':'it-network-solutions',
+ 'UPS systems':'ups-systems',
+ 'Wi-Fi':'wifi-solutions',
+ 'IP telephony':'ip-telephony-solutions',
+ 'Design & implementation':'data-center-design-amp-implementation-services',
+ 'Migration':'data-centre-migration-services-',
+ 'Assessment & recommendations':'data-centre-assessment-amp-recommendations',
+ 'Access control':'access-control-solutions',
+ 'Video surveillance & CCTV':'video-surveillance-solutions-amp-cctv',
+ 'Parking management':'parking-management-system',
+ 'GRMS':'grms-solutions-',
+ 'Video conferencing':'video-conference-solution',
+ 'Room & desk booking':'room-amp-desk-booking-system',
+ 'SOC / NOC rooms':'soc-noc-room-solution',
+ 'Acoustics & lighting':'acoustic-amp-lighting-solutions',
+ 'Boardrooms':'smart-meeting-room-amp-boardroom-solution',
+ 'Auditoriums':'auditorium',
+ 'Smart classrooms':'smart-class-rooms',
+ 'Smart buildings':'smart-building-solutions',
+ 'Control systems':'control-system',
+ 'Interpretation':'interpreter-system',
+ 'Home cinema':'home-cinema-solution',
+ 'Professional audio':'professional-audio',
+ 'Master clock':'master-clock-system',
+ 'Digital signage':'digital-signage-solutions',
+ 'Indoor LED':'indoor-led-video-wall',
+ 'Outdoor LED':'outdoor-led-video-wall',
+ 'Interactive walls':'interactive-video-walls-tiles',
+ 'PAVA voice evacuation':'pava-public-address-amp-voice-evacuation-system',
+ 'PAGA general alarm':'paga-public-address-and-general-alarm-system',
+ 'Fire alarm':'fire-alarm-systems',
+ 'Background music':'bgm-background-music-system',
+ 'IPTV':'iptv-solution',
+ 'MATV':'matv-solution',
+ 'Annual maintenance contracts':'annual-maintenance-contracts',
+ 'Full-time staffing':'full-time-staffing-solution',
+}
 
 C = {}
 
@@ -284,6 +334,7 @@ C['en'] = {
  'map_load':'Load the map',
  'map_note':'The map loads from Google only when you ask it to, so it does not slow the page '
             'down or set cookies before you choose.',
+ 'map_tabs':['Riyadh','Dubai','Kozhikode'],
  'directions':'Directions',
  'follow_h':'Follow us',
  'follow_p':'Project photos and company news go out on LinkedIn and Instagram.',
@@ -336,6 +387,16 @@ C['en'] = {
  'f_terms':'Terms of service','f_privacy':'Privacy policy',
  'f_rights':'© 2026 Datacore Solutions',
  'f_legal':'CR 0000000000 · VAT 300000000000003',
+
+ # ── utility pages ─────────────────────────────────────────────────────
+ 'nf_title':'Page not found',
+ 'nf_p':'The address you followed does not exist on this site. It may have moved when the '
+        'site was rebuilt.',
+ 'nf_home':'Go to the homepage',
+ 'legal_stub':'The final text of this page is being prepared and will be published before '
+              'launch. For anything you need in the meantime, write to '
+              'info@datacore.com.sa.',
+ 'mail_subject':'Website enquiry',
 }
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -373,7 +434,7 @@ C['ar'] = {
  'h_tl_title':'كيف اتسع نطاق عملنا',
  'h_tl_lede':('أضافت كل مرحلة تخصصاً ننفذه اليوم بكوادرنا، وهذا ما جعل تقديم حزمة تيار خفيف '
               'متكاملة أمراً ممكناً.'),
- 'h_part_title':'الشركات المصنعة المعتمدون لتركيب أنظمتها',
+ 'h_part_title':'الشركات المصنّعة المعتمدة لتركيب أنظمتها',
  'h_part_lede':('الاعتماد يهم في المناقصات: فهو يحدد سريان الضمان، وإمكانية الوصول إلى '
                 'التحديثات البرمجية، ومدى دعم المصنّع للنظام بعد التسليم.'),
  'h_ins_title':'ملاحظات تقنية',
@@ -573,6 +634,7 @@ C['ar'] = {
  'map_load':'تحميل الخريطة',
  'map_note':'تُحمَّل الخريطة من جوجل عند طلبك فقط، حتى لا تبطئ الصفحة أو تضع ملفات تعريف '
             'ارتباط قبل موافقتك.',
+ 'map_tabs':['الرياض','دبي','كوزيكود'],
  'directions':'الاتجاهات',
  'follow_h':'تابعنا',
  'follow_p':'صور المشاريع وأخبار الشركة تُنشر على لينكدإن وإنستغرام.',
@@ -615,4 +677,12 @@ C['ar'] = {
  'f_terms':'شروط الخدمة','f_privacy':'سياسة الخصوصية',
  'f_rights':'© 2026 داتاكور للحلول',
  'f_legal':'س.ت 0000000000 · الرقم الضريبي 300000000000003',
+
+ # ── utility pages ─────────────────────────────────────────────────────
+ 'nf_title':'الصفحة غير موجودة',
+ 'nf_p':'العنوان الذي اتبعته غير موجود على هذا الموقع. ربما تغيّر عند إعادة بناء الموقع.',
+ 'nf_home':'الانتقال إلى الصفحة الرئيسية',
+ 'legal_stub':'النص النهائي لهذه الصفحة قيد الإعداد وسيُنشر قبل الإطلاق. لأي أمر تحتاجه في '
+              'هذه الأثناء، راسلنا على info@datacore.com.sa.',
+ 'mail_subject':'استفسار من الموقع',
 }
