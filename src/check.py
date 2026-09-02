@@ -41,7 +41,8 @@ for line in css.splitlines():
         fails.append(f"CONTRAST: --brand carries text at 2.83:1 -> {line.strip()[:70]}")
 
 files = sorted(f for f in os.listdir(DIST) if f.endswith(".html"))
-if len(files) < 14: fails.append(f"BUILD: expected at least 14 pages, got {len(files)}")
+# 7 pages + terms/privacy/404 + 38 service details, in two languages
+if len(files) < 96: fails.append(f"BUILD: expected at least 96 pages, got {len(files)}")
 
 NODE = shutil.which("node")
 if not NODE: warns.append("node not found — inline JS syntax check skipped")
