@@ -135,6 +135,27 @@ automatically). Photos: `src/assets/products/<sku>.jpg|png|webp|svg` —
 cards fall back to the category icon where no photo exists. How-to for the
 team: `docs/PRODUCTS.md`.
 
+## Interaction layer (V2.8)
+
+Scroll-reveal on section entry, stat count-ups, and a brand-logo marquee —
+all first-party JS, all disabled under `prefers-reduced-motion`, real
+values kept in markup for no-JS visitors. The chat bubble on every page
+offers WhatsApp / call / email / enquiry instantly; "start live chat"
+loads the client's existing tawk.to widget only on that click, keeping
+the no-third-party-scripts-before-interaction rule intact. The brochure
+(`assets/DatacoreSolutions.pdf`) is linked from the CTA band, the about
+story and the footer.
+
+Imagery now comes from the client's own live site: project photos on the
+named project cards, blog art on insights, and the service illustration
+set (hub icons + detail heroes). Product photos are auto-sourced from
+manufacturer pages with provenance logged in
+`src/data/product-image-sources.json` — **confirm rights before launch**.
+
+One more live-site find: the production testimonials carousel is template
+dummy content (fictional VPN reviews, "LaslesVPN"). Not copied. Real
+client quotes are on the needed-from-client list.
+
 ## Still to build
 
 Service detail template (38 pages — cards are unlinked until then; slugs in

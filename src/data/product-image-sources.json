@@ -1,1 +1,191 @@
-{}
+{
+ "_meta": {
+  "_note": "Auto-sourced product imagery (manufacturer/distributor pages). Normal practice for an authorised reseller, but confirm rights before launch; replace any image with: python manage.py img <SKU> <file>.",
+  "_open_items": [
+   "760237041: SKU resolves at CommScope/distributors to CPP-UDDM-SL-2U-48 (2U panel), not the Cat6A cable box the entry describes — image removed; needs the client's real part number.",
+   "760152661: exact material ID unverified; image is CommScope's own LazrSPEED 550 OM4 MPO12 trunk family photo.",
+   "CN2-42U-800: reads as an internal code; image is the Panduit Net-Access N-Type 42U/800mm cabinet family (N8212B).",
+   "AMP4X125: no Bosch part by this code; image is the PRAESENSA PRA-AD604 4-channel amplifier.",
+   "MXA920-S: image shows MXA920W-S (white), the orderable variant.",
+   "DTP3 T 331: no image yet (extron.com blocks scripted fetching).",
+   "Watermarks: the five networktigers.com images carry a faint reseller watermark; BIOSTATION-3 carries a small reseller logo. Replace at will via manage.py img."
+  ]
+ },
+ "sources": {
+  "BIOSTATION-3": {
+   "host": "www.esecuritysales.com",
+   "source_page": "https://www.esecuritysales.com/product/suprema-biostation-3/",
+   "image_url": "https://www.esecuritysales.com/wp-content/uploads/2024/05/E3815-copy.png"
+  },
+  "C9200L-24P-4G-E": {
+   "host": "www.networktigers.com",
+   "source_page": "https://www.networktigers.com/products/c9200l-24p-4g-e-cisco-switch",
+   "image_url": "https://www.networktigers.com/cdn/shop/files/cisco-C9200L-24P-4G-E-2_f3080ea9-5325-48b2-bd08-57c867e39b0b.jpg?v=1780558133"
+  },
+  "C9300-48UXM-A": {
+   "host": "www.networktigers.com",
+   "source_page": "https://www.networktigers.com/products/c9300-48uxm-a-cisco-switch",
+   "image_url": "https://www.networktigers.com/cdn/shop/products/cisco-C9300-48UXM-A.jpg?v=1702522103"
+  },
+  "DS-2CD2386G2-ISU/SL": {
+   "host": "cctvsupply.us",
+   "source_page": "https://cctvsupply.us/products/hikvision-ip-camera-poe-ds-2cd2386g2-isu-sl-2-8mm-lens-4k-acusense-strobe-light-and-audible-warning-fixed-turret-network-camera-h-265-ip67-built-in-two-way-audio-original-english-version",
+   "image_url": "https://cctvsupply.us/cdn/shop/files/41O7NOTfd4L._AC_1200x1278.jpg?v=1736441668"
+  },
+  "DS-2DE7A425IW-AEB": {
+   "host": "www.ipsecuritydepot.com",
+   "source_page": "https://www.ipsecuritydepot.com/hikvision-ds-2de7a425iw-aeb-4mp-acusense-ai-ptz-indoor-dome-ip-camera/ds-2de7a425iw-aeb/",
+   "image_url": "https://cdn11.bigcommerce.com/s-j1idkp65fd/products/6706/images/51361/DS-2DE7A425IW-AEB__63402.1774415363.500.750.jpg?c=2"
+  },
+  "DS-96128NI-I16": {
+   "host": "netcamcenter.com",
+   "source_page": "https://netcamcenter.com/en/products/other-products/ds-96128ni-i16",
+   "image_url": "https://netcamcenter.com/media/images/transform_cache/productimages/2811293/9600NI-I16_1_20e96a10822e455516dd6e8c270767c9.jpg"
+  },
+  "FG-100F": {
+   "host": "www.networktigers.com",
+   "source_page": "https://www.networktigers.com/products/fg-100f-fortinet-firewall",
+   "image_url": "https://www.networktigers.com/cdn/shop/products/fortinet-FG-100F.jpg?v=1688468009"
+  },
+  "IPC-HDBW5442R-ASE": {
+   "host": "www.cctv-mall.com",
+   "source_page": "https://www.cctv-mall.com/products/dahua_ipc-hdbw5442r-ase_4mp_ir_fixed-focal_vandal-proof_dome_wizmind_network_camera",
+   "image_url": "https://www.cctv-mall.com/cdn/shop/products/IPC-HDBW5442R-ASE_2.png?v=1683288902"
+  },
+  "JL675A": {
+   "host": "www.networktigers.com",
+   "source_page": "https://www.networktigers.com/products/jl675a-hpe-switch",
+   "image_url": "https://www.networktigers.com/cdn/shop/products/aruba-JL675A.jpg?v=1663678939"
+  },
+  "MS130-24P-HW": {
+   "host": "www.networktigers.com",
+   "source_page": "https://www.networktigers.com/products/ms130-24p-hw-cisco-switch",
+   "image_url": "https://www.networktigers.com/cdn/shop/files/cisco-MS130-24P-HW.jpg?v=1737472191"
+  },
+  "P3268-LV": {
+   "host": "networkdevicesinc.com",
+   "source_page": "https://networkdevicesinc.com/products/02331-001",
+   "image_url": "https://networkdevicesinc.com/cdn/shop/products/02331-001.jpg?v=1700083160"
+  },
+  "PW6K1IC": {
+   "host": "esaitech.com",
+   "source_page": "https://esaitech.com/products/honeywell-pw6k1ic-prowatch-pw-6000-intelligent-modular-access-control-board",
+   "image_url": "https://esaitech.com/cdn/shop/files/honeywell_pw6k1ic_prowatch_pw-6000_intelligent_access_control_board.jpg?v=1771901320"
+  },
+  "Q6135-LE": {
+   "host": "networkcamerastore.com",
+   "source_page": "https://networkcamerastore.com/products/axis-q6135-le-60hz-high-speed-ptz-with-long-range-optimizedir",
+   "image_url": "https://networkcamerastore.com/cdn/shop/files/1600_q6135-le-angle-left-2001__53277.1660923461.1280.1280.png?v=1749007404&width=1024"
+  },
+  "R7J27A": {
+   "host": "www.newtownspares.com",
+   "source_page": "https://www.newtownspares.com/r7j27a/",
+   "image_url": "https://cdn11.bigcommerce.com/s-4jpol1blth/products/520771/images/777020/R7J27A__58650.1784580925.1280.1280.jpg?c=1"
+  },
+  "S3008": {
+   "host": "networkcamerastore.com",
+   "source_page": "https://networkcamerastore.com/products/axis-s3008-8-tb-recorder",
+   "image_url": "https://networkcamerastore.com/cdn/shop/files/s3008_angle_right_2003_1600__49289.1660590005.1280.1280.png?v=1749007479&width=1024"
+  },
+  "SIGNO-20K": {
+   "host": "tapeandmedia.com",
+   "source_page": "https://tapeandmedia.com/hid-signo-reader-20k-keypad-mullion-mount-pigtail-connection-black-with-silver-trim/",
+   "image_url": "https://cdn11.bigcommerce.com/s-xod9czzp97/products/2135/images/4621/HID-Signo-20K-keyboard-Reader-Right__88160.1723309811.386.513.png?c=1"
+  },
+  "U6-ENTERPRISE": {
+   "host": "store.ui.com",
+   "source_page": "https://store.ui.com/us/en/products/u6-enterprise",
+   "image_url": "https://cdn.ecomm.ui.com/products/f9118c0f-060b-4fd7-99ce-ace671c7a1fe/6f2a87a4-193d-43e0-b253-aa0ea0795694.png"
+  },
+  "USW-PRO-48-POE": {
+   "host": "store.ui.com",
+   "source_page": "https://store.ui.com/us/en/products/usw-pro-48-poe",
+   "image_url": "https://cdn.ecomm.ui.com/products/6e019f0c-26b5-4fdf-b4e1-994abd9ce6e1/483da8b5-c584-4100-a4f2-18d11fa7187e.png"
+  },
+  "DM-NVX-360": {
+   "host": "www.crestron.com",
+   "source_page": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-360",
+   "image_url": "https://embed.widencdn.net/img/crestron/k31uvrxqyq/334x240px/master_photo_a-DM-NVX-360_FrontRight.png?c=0"
+  },
+  "CORE-110F": {
+   "host": "www.qsys.com",
+   "source_page": "https://www.qsys.com/products-solutions/q-sys/processing/core-110f/",
+   "image_url": "https://www.qsys.com/resource-files/productresources/dn/dsp_cores/core_110f/q_dn_core_110f_img_new_herostacked.jpg"
+  },
+  "QM85R-B": {
+   "host": "www.samsung.com",
+   "source_page": "https://www.samsung.com/levant/business/smart-signage/uhd-4k-signage/qm85r-b-uhd-4k-500nit-ip5x-lh85qmrbbgcxen/",
+   "image_url": "https://images.samsung.com/is/image/samsung/p6pim/levant/lh85qmrbbgcxen/gallery/levant-smart-signage-qm85r-b-lh85qmrbbgcxen-531103483?$Q90_684_547_JPG$"
+  },
+  "TESIRAFORTE-X-400": {
+   "host": "www.proacousticsusa.com",
+   "source_page": "https://www.proacousticsusa.com/biamp-tesiraforte-x-400-meeting-room-dsp.html",
+   "image_url": "https://cdn11.bigcommerce.com/s-sath7bqsj0/products/15298/images/56623/biamp-tesirafortex-400-front-new__92956.1774171497.386.513.jpg?c=1"
+  },
+  "MXA920-S": {
+   "host": "creationnetworks.net",
+   "source_page": "https://creationnetworks.net/products/shure-mxa920w-s",
+   "image_url": "https://creationnetworks.net/cdn/shop/products/shure-mxa920w-s-square-ceiling-array-microphone-white-square-creation-networks-43972.png?crop=center&height=1200&v=1775844333&width=1200"
+  },
+  "CX-50-GEN2": {
+   "host": "www.barco.com",
+   "source_page": "https://www.barco.com/en/product/clickshare-cx-50-gen2",
+   "image_url": "https://assets.barco.com/transform/b3161a89-4ef3-4566-870e-5366dbc66321/CX-50-with-Buttons-top-view-jpg"
+  },
+  "55VH7J-H": {
+   "host": "solutions.lg.com",
+   "source_page": "https://solutions.lg.com/us/digital-signage/lg-55vh7j-h",
+   "image_url": "https://media.us.lg.com/m/8eacac5e5c0c8af/original/MD08004413-D-01.jpg"
+  },
+  "PRA-CSLD": {
+   "host": "catalog.boschbuildingtechnologies.com",
+   "source_page": "https://catalog.boschbuildingtechnologies.com/us/en/Desktop-LCD-call-station/p/F.01U.325.048/",
+   "image_url": "https://resources.keenfinity.tech/public/images/xlarge/ProductPhoto_Web_all_9007239988707339.jpg"
+  },
+  "LC1-UM24E8": {
+   "host": "catalog.boschbuildingtechnologies.com",
+   "source_page": "https://catalog.boschbuildingtechnologies.com/us/en/LC1-Modular-ceiling-loudspeaker-range/p/F.01U.075.449/",
+   "image_url": "https://resources.keenfinity.tech/public/images/xlarge/ProductPhoto_Web_enUS_1924326795.jpg"
+  },
+  "SRT5KRMXLI": {
+   "host": "www.markertek.com",
+   "source_page": "https://www.markertek.com/product/apc-srt5krmxli/apc-srt5krmxli-smart-ups-srt-5kva-4500w-5000va-230v-rackmounted-3ru",
+   "image_url": "https://www.markertek.com/productImage/alternate-1/450x450/APC-SRT5KRMXLI.JPG"
+  },
+  "AMP4X125": {
+   "host": "catalog.boschbuildingtechnologies.com",
+   "source_page": "https://catalog.boschbuildingtechnologies.com/gb/en/Amplifier-600W-4-channel/p/F.01U.325.043/",
+   "image_url": "https://resources.keenfinity.tech/public/images/xlarge/ProductPhoto_Web_all_9007239098589707.jpg"
+  },
+  "9PX3000IRT2U": {
+   "host": "www.senetic.co.uk",
+   "source_page": "https://www.senetic.co.uk/product/9PX3000IRT2U",
+   "image_url": "https://gfx3.senetic.com/akeneo-catalog/1/f/5/0/1f500ee22206c85197f98ae51692b3520337ec08_1041913__normalized_image1.jpg"
+  },
+  "AP8853": {
+   "host": "matrixsolutionsinc.com",
+   "source_page": "https://matrixsolutionsinc.com/apc-ap8853-power-distribution-unit-pdu-42-ac-outlet-s-0u-black/",
+   "image_url": "https://cdn11.bigcommerce.com/s-qrhqjbaszf/images/stencil/original/products/8509/4855219/36459f4089771fa2d59ac1ad7f9591eb778a47a8_tmp05_02urr__42533.1782685222.jpg"
+  },
+  "NK6X88MBU": {
+   "host": "www.graybar.com",
+   "source_page": "https://www.graybar.com/netkey-cat-6a-jack-module-blue/p/25694145",
+   "image_url": "https://images.salsify.com/image/upload/721c999c1b18e756e6738ba6941e19b3cdfaff2a.jpg"
+  },
+  "CN2-42U-800": {
+   "host": "www.pcnation.com",
+   "source_page": "https://www.pcnation.com/panduit-n8212bc-jj7809",
+   "image_url": "https://media.pcnation.net/cdn-cgi/image/width=1200,format=auto/f/6/1/d/f61daf59fa256e714b55b5479e2b719e8e3522d7_1033014883.jpg"
+  },
+  "760152661": {
+   "host": "www.commscope.com",
+   "source_page": "https://www.commscope.com/product-type/cable-assemblies/fiber-cable-assemblies/mpo-cable-assemblies/a3xmxmxaf/",
+   "image_url": "https://productresources.commscope.com/admin/ImageServer.php?ID=5514120d1aab1be35bd4a385edd84cfdeb829f5c799c6b81e804ce3067cb9d2a:75643@pjk349&class=Mamfile&rand=b23a3dbece76025a621acfa894cac805&downloadname=MPO%2BMale%2B12F%2BOM4%2B3.00mm.jpg&preset=7"
+  },
+  "CST-4DR-D2GK": {
+   "host": "silarius.com",
+   "source_page": "https://silarius.com/products/suprema-cst-4dr-d2gk-corestation-4-door-access-control-kit-cs-40-4-xpd2-gkdb",
+   "image_url": "https://silarius.com/cdn/shop/files/BS-CST4DRD2K_lg.jpg?v=1685779603"
+  }
+ }
+}
