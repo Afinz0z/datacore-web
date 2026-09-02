@@ -89,11 +89,15 @@ def head(l, page, title, desc, extra_css=""):
 <a class="skip" href="#main">{t['skip']}</a>
 """
 
+def nav_link(k, v, page, l):
+    # No backslash inside the f-string expression — that needs Python 3.12,
+    # and this repo promises 3.9+.
+    cur = ' aria-current="page"' if k == page else ''
+    return f'<a href="{url(k,l)}"{cur}>{v}</a>'
+
 def header(l, page):
     t = C[l]
-    nav = "".join(
-        f'<a href="{url(k,l)}"{" aria-current=\"page\"" if k==page or (k=="index" and page=="index") else ""}>{v}</a>'
-        for k, v in t['nav'])
+    nav = "".join(nav_link(k, v, page, l) for k, v in t['nav'])
     return f"""<header class="hdr">
   <div class="wrap">
     <a class="logo" href="{url('index',l)}" aria-label="Datacore Solutions">{LOGO}</a>
