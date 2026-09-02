@@ -32,16 +32,16 @@
  },
  {
   "sku": "JL675A",
-  "n": "Aruba CX 6300M 24-port PoE+ switch",
+  "n": "Aruba CX 6100 48-port PoE+ switch",
   "b": "Aruba",
   "c": "Networking",
   "g": "switch",
   "avail": "stock",
   "specs": {
-   "Ports": "24",
+   "Ports": "48",
    "PoE": "PoE+ 370W",
    "Speed": "1 Gigabit",
-   "Uplinks": "4 x 50G",
+   "Uplinks": "4 x 10G SFP+",
    "Rack": "1U"
   }
  },
@@ -266,8 +266,8 @@
   }
  },
  {
-  "sku": "AC-2000-4D",
-  "n": "4-door access controller with enclosure and PSU",
+  "sku": "CST-4DR-D2GK",
+  "n": "CoreStation 4-door access control kit",
   "b": "Suprema",
   "c": "Access control",
   "g": "controller",
@@ -293,8 +293,8 @@
   }
  },
  {
-  "sku": "DTP3-T-231",
-  "n": "DTP3 T 231 HDMI twisted pair transmitter",
+  "sku": "DTP3 T 331",
+  "n": "DTP3 T 331 HDMI twisted pair transmitter",
   "b": "Extron",
   "c": "Audio visual",
   "g": "extender",
