@@ -1,0 +1,79 @@
+# Backlog
+
+Ordered by what unblocks the most. The full 141-item audit of the old site is in
+`data/datacore-improvement-register.xlsx` — filter Impact = High, Effort = S for
+the quickest wins. This file is the build-side subset.
+
+## Blockers — cannot launch without
+
+- [ ] **CR and VAT numbers** in the footer are dummy digits. Legally required on
+      a Saudi commercial site. `content.py` → `f_legal`, both languages.
+- [ ] **Arabic technical review** by a native speaker who knows low-current
+      vocabulary. Particularly التيار الخفيف, النداء والإخلاء الصوتي, and the
+      nine discipline names. Compare against the client's existing `?lang=ar`
+      pages so terminology matches their tender documents.
+- [ ] **Client consent** to name Arab Open University, Prince Sattam bin
+      Abdulaziz University and TAQEEM, and to publish photographs of that work.
+- [ ] **Confirm the manufacturer list.** Services and About say "authorised to
+      install", which is stronger than a logo wall. Verify all 14 or soften.
+- [ ] **Confirm map pins** for Dubai and Kozhikode. Riyadh uses coordinates from
+      the old embed and is correct; the other two resolve by address query.
+
+## Templates still to build
+
+- [ ] **Service detail** (38 pages). Highest SEO value on the site. Needs:
+      hero, scope of work, standards, capability table, related projects,
+      related products, FAQ, and a pre-filled enquiry form carrying the service
+      name. Copy should come from `docs/RESEARCH-PROMPT.md` output rather than
+      being written from scratch.
+- [ ] **Project detail.** Standardise on client, sector, scope, systems,
+      equipment list linked to the catalogue, duration, outcome, client quote.
+- [ ] **Blog post.** Author, date, Article schema.
+- [ ] Careers + job detail, branded 404, human sitemap page.
+
+## RFQ back end
+
+The catalogue front end is complete and posts this to `POST /api/rfq`:
+
+```json
+{ "contact": {"name","company","email","phone"},
+  "project": "", "message": "",
+  "lines": [{"sku","qty","note"}],
+  "locale": "en|ar", "source": "web-catalogue" }
+```
+
+- [ ] Tables: `categories`, `brands`, `products`, `product_specs`
+      (product_id, key, value — this is what makes spec filtering work without
+      schema changes), `rfqs`, `rfq_lines`
+- [ ] Excel importer: staging table + validation pass reporting failures by row
+      number, importing the rest. Never all-or-nothing at 1,000 rows. Schema is
+      defined by `data/datacore-product-import-template.xlsx`.
+- [ ] Admin panel: product CRUD, per-category control over which spec keys
+      become filters, RFQ inbox
+- [ ] Index the filter columns; paginate server-side from day one
+- [ ] Log catalogue searches returning zero results — that list is the client's
+      stocking gap
+
+## Performance and SEO
+
+- [ ] Extract the inlined stylesheet to one cached `site.css` (currently inlined
+      per page; fine for a prototype, wrong for production)
+- [ ] Serve the logo as a cached external SVG rather than inlining it twice per
+      page (~40KB per page today)
+- [ ] Unique title + meta description per page — done for the 7, needed for the
+      38 service pages
+- [ ] Organization and LocalBusiness schema for all three offices; Service,
+      Product, Article and BreadcrumbList schema
+- [ ] `hreflang` — already on all 14 pages; extend to new templates
+- [ ] `sitemap.xml`, `robots.txt`, canonical tags
+- [ ] Location landing pages: Riyadh, Jeddah, Dammam, Dubai per major service
+- [ ] Capture four weeks of baseline analytics **before** launch, or you will
+      never be able to show the rebuild worked
+
+## Content still needed from the client
+
+- Real installation photography for the four named projects
+- Leadership names and photographs
+- Line card PDF of brands carried
+- Current company profile PDF
+- Actual FAQs from the sales team — the questions buyers really ask

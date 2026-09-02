@@ -1,0 +1,532 @@
+[
+ {
+  "sku": "C9200L-24P-4G-E",
+  "n": "Catalyst 9200L 24-port PoE+ switch, 4x1G uplink",
+  "b": "Cisco",
+  "c": "Networking",
+  "g": "switch",
+  "avail": "stock",
+  "specs": {
+   "Ports": "24",
+   "PoE": "PoE+ 370W",
+   "Speed": "1 Gigabit",
+   "Uplinks": "4 x 1G SFP",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "C9300-48UXM-A",
+  "n": "Catalyst 9300 48-port mGig UPOE switch",
+  "b": "Cisco",
+  "c": "Networking",
+  "g": "switch",
+  "avail": "lead",
+  "lead": 21,
+  "specs": {
+   "Ports": "48",
+   "PoE": "UPOE 1100W",
+   "Speed": "Multigigabit",
+   "Uplinks": "Modular",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "JL675A",
+  "n": "Aruba CX 6300M 24-port PoE+ switch",
+  "b": "Aruba",
+  "c": "Networking",
+  "g": "switch",
+  "avail": "stock",
+  "specs": {
+   "Ports": "24",
+   "PoE": "PoE+ 370W",
+   "Speed": "1 Gigabit",
+   "Uplinks": "4 x 50G",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "USW-PRO-48-POE",
+  "n": "UniFi Switch Pro 48 PoE",
+  "b": "Ubiquiti",
+  "c": "Networking",
+  "g": "switch",
+  "avail": "stock",
+  "specs": {
+   "Ports": "48",
+   "PoE": "PoE+ 600W",
+   "Speed": "1 Gigabit",
+   "Uplinks": "4 x 25G SFP28",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "R7J27A",
+  "n": "Aruba AP-635 Wi-Fi 6E tri-radio access point",
+  "b": "Aruba",
+  "c": "Networking",
+  "g": "ap",
+  "avail": "stock",
+  "specs": {
+   "Standard": "Wi-Fi 6E",
+   "Radios": "Tri-band",
+   "PoE": "802.3at",
+   "Mount": "Indoor ceiling"
+  }
+ },
+ {
+  "sku": "U6-ENTERPRISE",
+  "n": "UniFi U6 Enterprise access point",
+  "b": "Ubiquiti",
+  "c": "Networking",
+  "g": "ap",
+  "avail": "stock",
+  "specs": {
+   "Standard": "Wi-Fi 6E",
+   "Radios": "Tri-band",
+   "PoE": "802.3at",
+   "Mount": "Indoor ceiling"
+  }
+ },
+ {
+  "sku": "FG-100F",
+  "n": "FortiGate 100F next-generation firewall",
+  "b": "Fortinet",
+  "c": "Networking",
+  "g": "security",
+  "avail": "lead",
+  "lead": 14,
+  "specs": {
+   "Throughput": "20 Gbps",
+   "Ports": "22",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "MS130-24P-HW",
+  "n": "Meraki MS130 24-port PoE cloud-managed switch",
+  "b": "Cisco",
+  "c": "Networking",
+  "g": "switch",
+  "avail": "lead",
+  "lead": 30,
+  "specs": {
+   "Ports": "24",
+   "PoE": "PoE+ 370W",
+   "Speed": "1 Gigabit",
+   "Uplinks": "4 x 10G SFP+",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "DS-2CD2386G2-ISU/SL",
+  "n": "AcuSense 8MP fixed dome network camera",
+  "b": "Hikvision",
+  "c": "Surveillance",
+  "g": "camera",
+  "avail": "stock",
+  "specs": {
+   "Resolution": "8 MP / 4K",
+   "Type": "Dome",
+   "IP rating": "IP67",
+   "Lens": "2.8 mm",
+   "PoE": "802.3af"
+  }
+ },
+ {
+  "sku": "DS-2DE7A425IW-AEB",
+  "n": "4MP 25x IR network speed dome PTZ",
+  "b": "Hikvision",
+  "c": "Surveillance",
+  "g": "camera",
+  "avail": "stock",
+  "specs": {
+   "Resolution": "4 MP",
+   "Type": "PTZ",
+   "IP rating": "IP66",
+   "Zoom": "25x optical",
+   "PoE": "Hi-PoE"
+  }
+ },
+ {
+  "sku": "P3268-LV",
+  "n": "AXIS P3268-LV 4K fixed dome camera",
+  "b": "Axis",
+  "c": "Surveillance",
+  "g": "camera",
+  "avail": "lead",
+  "lead": 18,
+  "specs": {
+   "Resolution": "8 MP / 4K",
+   "Type": "Dome",
+   "IP rating": "IP52",
+   "Lens": "Varifocal",
+   "PoE": "802.3af"
+  }
+ },
+ {
+  "sku": "Q6135-LE",
+  "n": "AXIS Q6135-LE outdoor PTZ camera, 32x zoom",
+  "b": "Axis",
+  "c": "Surveillance",
+  "g": "camera",
+  "avail": "lead",
+  "lead": 25,
+  "specs": {
+   "Resolution": "2 MP / 1080p",
+   "Type": "PTZ",
+   "IP rating": "IP66",
+   "Zoom": "32x optical",
+   "PoE": "Hi-PoE"
+  }
+ },
+ {
+  "sku": "IPC-HDBW5442R-ASE",
+  "n": "WizMind 4MP IR fixed-focal dome camera",
+  "b": "Dahua",
+  "c": "Surveillance",
+  "g": "camera",
+  "avail": "stock",
+  "specs": {
+   "Resolution": "4 MP",
+   "Type": "Dome",
+   "IP rating": "IP67",
+   "Lens": "2.8 mm",
+   "PoE": "802.3af"
+  }
+ },
+ {
+  "sku": "DS-96128NI-I16",
+  "n": "128-channel 4K NVR, 16 SATA bays",
+  "b": "Hikvision",
+  "c": "Surveillance",
+  "g": "recorder",
+  "avail": "lead",
+  "lead": 20,
+  "specs": {
+   "Channels": "128",
+   "Storage": "16 x SATA",
+   "Rack": "3U"
+  }
+ },
+ {
+  "sku": "S3008",
+  "n": "AXIS S3008 recorder, 8 TB",
+  "b": "Axis",
+  "c": "Surveillance",
+  "g": "recorder",
+  "avail": "stock",
+  "specs": {
+   "Channels": "8",
+   "Storage": "8 TB",
+   "PoE": "120W switch built in"
+  }
+ },
+ {
+  "sku": "SIGNO-20K",
+  "n": "HID Signo 20 keypad smart card reader",
+  "b": "HID",
+  "c": "Access control",
+  "g": "reader",
+  "avail": "stock",
+  "specs": {
+   "Credential": "Seos / MIFARE / NFC",
+   "Form": "Mullion",
+   "Keypad": "Yes",
+   "IP rating": "IP65"
+  }
+ },
+ {
+  "sku": "BIOSTATION-3",
+  "n": "Suprema BioStation 3 face recognition terminal",
+  "b": "Suprema",
+  "c": "Access control",
+  "g": "reader",
+  "avail": "lead",
+  "lead": 15,
+  "specs": {
+   "Credential": "Face / card / mobile",
+   "Form": "Wall",
+   "Keypad": "Touchscreen",
+   "IP rating": "IP65"
+  }
+ },
+ {
+  "sku": "PW6K1IC",
+  "n": "Pro-Watch PW6000 intelligent controller",
+  "b": "Honeywell",
+  "c": "Access control",
+  "g": "controller",
+  "avail": "lead",
+  "lead": 28,
+  "specs": {
+   "Doors": "Up to 16",
+   "Enclosure": "Metal cabinet",
+   "Comms": "TCP/IP"
+  }
+ },
+ {
+  "sku": "AC-2000-4D",
+  "n": "4-door access controller with enclosure and PSU",
+  "b": "Suprema",
+  "c": "Access control",
+  "g": "controller",
+  "avail": "stock",
+  "specs": {
+   "Doors": "4",
+   "Enclosure": "Metal cabinet",
+   "Comms": "TCP/IP"
+  }
+ },
+ {
+  "sku": "DM-NVX-360",
+  "n": "DM NVX 4K60 AV-over-IP encoder/decoder",
+  "b": "Crestron",
+  "c": "Audio visual",
+  "g": "avoverip",
+  "avail": "stock",
+  "specs": {
+   "Resolution": "4K60 4:4:4",
+   "Transport": "1 GbE",
+   "Latency": "Sub-frame",
+   "Rack": "Half 1U"
+  }
+ },
+ {
+  "sku": "DTP3-T-231",
+  "n": "DTP3 T 231 HDMI twisted pair transmitter",
+  "b": "Extron",
+  "c": "Audio visual",
+  "g": "extender",
+  "avail": "stock",
+  "specs": {
+   "Resolution": "4K60",
+   "Transport": "Shielded CATx",
+   "Distance": "100 m"
+  }
+ },
+ {
+  "sku": "CORE-110F",
+  "n": "Q-SYS Core 110f integrated processor",
+  "b": "Q-SYS",
+  "c": "Audio visual",
+  "g": "dsp",
+  "avail": "lead",
+  "lead": 21,
+  "specs": {
+   "Channels": "128 x 128 network",
+   "Analog": "8 in / 8 out",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "MXA920-S",
+  "n": "MXA920 ceiling array microphone, square",
+  "b": "Shure",
+  "c": "Audio visual",
+  "g": "mic",
+  "avail": "lead",
+  "lead": 35,
+  "specs": {
+   "Pickup": "Automatic coverage",
+   "Mount": "Ceiling tile / flush",
+   "Network": "Dante"
+  }
+ },
+ {
+  "sku": "TESIRAFORTE-X-400",
+  "n": "TesiraFORTÉ X 400 AV DSP with AEC",
+  "b": "Biamp",
+  "c": "Audio visual",
+  "g": "dsp",
+  "avail": "stock",
+  "specs": {
+   "Channels": "12 x 8",
+   "Analog": "12 in / 8 out",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "QM85R-B",
+  "n": "85-inch QMR-B 4K commercial display, 500 nit",
+  "b": "Samsung",
+  "c": "Audio visual",
+  "g": "display",
+  "avail": "stock",
+  "specs": {
+   "Size": "85 inch",
+   "Resolution": "4K UHD",
+   "Brightness": "500 nit",
+   "Duty": "16/7"
+  }
+ },
+ {
+  "sku": "CX-50-GEN2",
+  "n": "ClickShare CX-50 Gen 2 wireless conferencing",
+  "b": "Barco",
+  "c": "Audio visual",
+  "g": "collab",
+  "avail": "stock",
+  "specs": {
+   "Resolution": "4K60",
+   "Users": "Up to 8",
+   "Mount": "Table / rack"
+  }
+ },
+ {
+  "sku": "55VH7J-H",
+  "n": "55-inch VH7J-H video wall display, 0.44 mm bezel",
+  "b": "LG",
+  "c": "Audio visual",
+  "g": "display",
+  "avail": "lead",
+  "lead": 24,
+  "specs": {
+   "Size": "55 inch",
+   "Resolution": "1080p",
+   "Brightness": "500 nit",
+   "Duty": "24/7"
+  }
+ },
+ {
+  "sku": "AMP4X125",
+  "n": "PRAESENSA 4 x 125W multichannel amplifier",
+  "b": "Bosch",
+  "c": "Public address",
+  "g": "amp",
+  "avail": "lead",
+  "lead": 30,
+  "specs": {
+   "Channels": "4",
+   "Power": "125 W per channel",
+   "Standard": "EN 54-16",
+   "Rack": "1U"
+  }
+ },
+ {
+  "sku": "PRA-CSLD",
+  "n": "PRAESENSA LCD call station with keypad",
+  "b": "Bosch",
+  "c": "Public address",
+  "g": "station",
+  "avail": "lead",
+  "lead": 30,
+  "specs": {
+   "Zones": "Expandable",
+   "Standard": "EN 54-16",
+   "Mount": "Desktop"
+  }
+ },
+ {
+  "sku": "LC1-UM24E8",
+  "n": "24W metal ceiling loudspeaker, EN 54-24",
+  "b": "Bosch",
+  "c": "Public address",
+  "g": "speaker",
+  "avail": "stock",
+  "specs": {
+   "Power": "24 W",
+   "Standard": "EN 54-24",
+   "Mount": "Ceiling flush"
+  }
+ },
+ {
+  "sku": "760237041",
+  "n": "GigaSPEED X10D 2091B Cat6A U/UTP cable, 305 m box",
+  "b": "CommScope",
+  "c": "Structured cabling",
+  "g": "copper",
+  "avail": "stock",
+  "specs": {
+   "Category": "Cat6A",
+   "Jacket": "LSZH",
+   "Length": "305 m",
+   "Pairs": "4"
+  }
+ },
+ {
+  "sku": "NK6X88MBU",
+  "n": "NetKey Cat6A UTP jack module, blue",
+  "b": "Panduit",
+  "c": "Structured cabling",
+  "g": "copper",
+  "avail": "stock",
+  "specs": {
+   "Category": "Cat6A",
+   "Termination": "Punch-down",
+   "Colour": "Blue"
+  }
+ },
+ {
+  "sku": "760152661",
+  "n": "OM4 12-fibre LazrSPEED 550 trunk, LC-LC",
+  "b": "CommScope",
+  "c": "Structured cabling",
+  "g": "fibre",
+  "avail": "lead",
+  "lead": 26,
+  "specs": {
+   "Category": "OM4 multimode",
+   "Fibres": "12",
+   "Connector": "LC",
+   "Jacket": "LSZH"
+  }
+ },
+ {
+  "sku": "CN2-42U-800",
+  "n": "Net-Access N-Type 42U cabinet, 800 x 1000 mm",
+  "b": "Panduit",
+  "c": "Structured cabling",
+  "g": "rack",
+  "avail": "stock",
+  "specs": {
+   "Height": "42U",
+   "Width": "800 mm",
+   "Depth": "1000 mm",
+   "IP rating": "IP20"
+  }
+ },
+ {
+  "sku": "SRT5KRMXLI",
+  "n": "Smart-UPS SRT 5000VA rack/tower online UPS",
+  "b": "APC",
+  "c": "Power",
+  "g": "ups",
+  "avail": "stock",
+  "specs": {
+   "Capacity": "5 kVA",
+   "Topology": "Double conversion",
+   "Phase": "Single",
+   "Rack": "3U"
+  }
+ },
+ {
+  "sku": "AP8853",
+  "n": "Rack PDU 2G metered-by-outlet, 16A, 21 x C13",
+  "b": "APC",
+  "c": "Power",
+  "g": "pdu",
+  "avail": "stock",
+  "specs": {
+   "Outlets": "21 x C13 / 3 x C19",
+   "Current": "16 A",
+   "Phase": "Single",
+   "Mount": "0U vertical"
+  }
+ },
+ {
+  "sku": "9PX3000IRT2U",
+  "n": "Eaton 9PX 3000VA rack/tower online UPS",
+  "b": "Eaton",
+  "c": "Power",
+  "g": "ups",
+  "avail": "lead",
+  "lead": 16,
+  "specs": {
+   "Capacity": "3 kVA",
+   "Topology": "Double conversion",
+   "Phase": "Single",
+   "Rack": "2U"
+  }
+ }
+]
