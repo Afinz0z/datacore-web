@@ -29,6 +29,68 @@ OFFICE_GEO = [
 PARTNERS = ["Crestron","Extron","Shure","Bosch","Honeywell","Suprema","Logitech",
             "Yealink","Lenovo","CommScope","Eaton","ACTi","AET","SMART"]
 
+# Photography from the client (Images folder, September 2026). Captions are
+# deliberately generic — none of these shots is attributed to a named client,
+# so they never over-claim. key: (file, w, h, EN alt/caption, AR alt/caption).
+PHOTOS = {
+ 'control-room': ("control-room-videowall.jpg", 960, 1280,
+   "Control-room video wall, commissioned and handed over",
+   "جدار شاشات في غرفة تحكم بعد التشغيل والتسليم"),
+ 'videowall-install': ("videowall-install.jpg", 1280, 960,
+   "Engineers aligning a video wall during installation",
+   "مهندسونا أثناء تركيب ومعايرة جدار شاشات"),
+ 'videowall-mounts': ("videowall-mounts.jpg", 800, 600,
+   "Mounting structure going up for a video wall",
+   "تجهيز هيكل تثبيت جدار الشاشات"),
+ 'terminal-site': ("terminal-site.jpg", 800, 1066,
+   "Fit-out under way on a large terminal project",
+   "أعمال تجهيز في موقع مشروع كبير"),
+ 'detector-testing': ("detector-testing.jpg", 800, 1000,
+   "Functional testing of ceiling smoke detectors",
+   "اختبار وظيفي لكواشف الدخان"),
+ 'fire-alarm-wiring': ("fire-alarm-wiring.jpg", 800, 1000,
+   "Fire-alarm devices terminated and verified",
+   "تمديد وتوصيل نقاط إنذار الحريق"),
+ 'site-survey': ("site-survey.jpg", 800, 600,
+   "Site walk during first fix — containment and pathways",
+   "جولة ميدانية أثناء مرحلة التمديدات الأولى"),
+ 'qsys-training': ("qsys-training.jpg", 1280, 960,
+   "Manufacturer training: Q-SYS architecture course",
+   "تدريب معتمد من المصنّع على منصة Q-SYS"),
+ 'maxhub-training': ("maxhub-training.jpg", 800, 1067,
+   "Product training session in our own meeting room",
+   "جلسة تدريب على المنتجات في قاعة اجتماعاتنا"),
+ 'huawei-briefing': ("huawei-briefing.jpg", 800, 600,
+   "Datacore engineers hosted at the Huawei KSA briefing centre",
+   "فريق داتاكور في مركز إحاطة هواوي في السعودية"),
+ 'ceo': ("ceo-abdul-salam.jpg", 1280, 1568,
+   "Abdul Salam, CEO, speaking at Datacore Connect",
+   "عبدالسلام، الرئيس التنفيذي، متحدثاً في لقاء داتاكور"),
+ 'team-riyadh': ("team-riyadh.jpg", 1280, 1568,
+   "The team together at Datacore Connect 2026, Riyadh",
+   "الفريق في لقاء داتاكور 2026 بالرياض"),
+ 'team-kozhikode': ("team-kozhikode.jpg", 800, 452,
+   "The engineering team at our Kozhikode office",
+   "فريق الهندسة في مكتبنا بكوزيكود"),
+ 'ise': ("ise-2026.jpg", 800, 1000,
+   "Our team at Integrated Systems Europe 2026",
+   "فريقنا في معرض ISE 2026"),
+}
+
+# service slug -> photo key, used as the hero image on that detail page.
+# Only mapped where the photo honestly matches the service.
+SERVICE_PHOTOS = {
+ 'soc-noc-room-solution': 'control-room',
+ 'indoor-led-video-wall': 'videowall-install',
+ 'interactive-video-walls-tiles': 'videowall-mounts',
+ 'fire-alarm-systems': 'fire-alarm-wiring',
+ 'pava-public-address-amp-voice-evacuation-system': 'detector-testing',
+ 'video-conference-solution': 'maxhub-training',
+ 'structured-cabling-solutions': 'site-survey',
+ 'professional-audio': 'qsys-training',
+ 'full-time-staffing-solution': 'terminal-site',
+}
+
 # EN service name -> slug on the live site (docs/RESEARCH-PROMPT.md is fetching
 # the copy for these). The 38 detail pages are not built yet, so the hub cards
 # render WITHOUT links — when the service-detail template lands, build.py
@@ -300,6 +362,9 @@ C['en'] = {
  'a_where':('Head office in Riyadh, a UAE entity in Dubai as DCS Advanced Technologies, and an '
             'engineering office in Kozhikode as Artifitia Solutions. Projects are delivered '
             'across the Kingdom from Riyadh.'),
+ 'a_team_h':'The people behind the projects',
+ 'a_team_p':('One hundred plus engineers and technicians across three countries — trained by '
+             'the manufacturers whose systems they install.'),
 
  # ── insights ──────────────────────────────────────────────────────────
  'i_title':'Technical notes',
@@ -365,6 +430,8 @@ C['en'] = {
  'pj_title':'Projects',
  'pj_lede':('Named clients, stated scope and the equipment deployed. Filter by sector or '
             'discipline.'),
+ 'pj_gal_h':'From our sites',
+ 'pj_gal_p':'Installation and commissioning by our in-house teams.',
  'pj_feat_h':'How we work on site',
  'pj_feat':[('Innovative engineering','Design decisions justified against the operational '
              'requirement, not the catalogue.'),
@@ -397,6 +464,12 @@ C['en'] = {
               'launch. For anything you need in the meantime, write to '
               'info@datacore.com.sa.',
  'mail_subject':'Website enquiry',
+
+ # ── service detail pages ──────────────────────────────────────────────
+ 'svc_related':'Related services',
+ 'svc_ask':'Ask about this service',
+ 'svc_enquiry_prefix':'Regarding',
+ 'svc_in_disc':'Part of',
 }
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -409,7 +482,7 @@ C['ar'] = {
  'font':"family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500",
 
  'nav':[('about','من نحن'),('services','خدماتنا'),('products','المنتجات'),
-        ('projects','مشاريعنا'),('insights','مقالات تقنية'),('contact','تواصل معنا')],
+        ('projects','مشاريعنا'),('insights','ملاحظات تقنية'),('contact','تواصل معنا')],
  'brand_line':'تكامل أنظمة التيار الخفيف في المملكة العربية السعودية والإمارات والهند. '
                'نعمل في هذا المجال منذ عام 2007.',
  'consult':'اطلب استشارة','see_projects':'اطّلع على مشاريعنا',
@@ -606,6 +679,8 @@ C['ar'] = {
  'a_where':('المقر الرئيسي في الرياض، وكيان في الإمارات بدبي باسم DCS Advanced Technologies، '
             'ومكتب هندسي في كوزيكود باسم Artifitia Solutions. وتُنفَّذ المشاريع في جميع '
             'أنحاء المملكة انطلاقاً من الرياض.'),
+ 'a_team_h':'الفريق وراء المشاريع',
+ 'a_team_p':'أكثر من مئة مهندس وفني في ثلاث دول — مدرَّبون لدى الشركات المصنّعة للأنظمة التي يركّبونها.',
 
  'i_title':'ملاحظات تقنية',
  'i_lede':('ملاحظات من مهندسينا حول القرارات التي تتكرر في المشاريع الفعلية. بلا إعلانات '
@@ -662,6 +737,8 @@ C['ar'] = {
 
  'pj_title':'مشاريعنا',
  'pj_lede':'عملاء بالاسم، ونطاق عمل محدد، والأجهزة المركّبة. صفِّ النتائج حسب القطاع أو التخصص.',
+ 'pj_gal_h':'من مواقعنا',
+ 'pj_gal_p':'أعمال تركيب وتشغيل بكوادرنا.',
  'pj_feat_h':'كيف نعمل في الموقع',
  'pj_feat':[('هندسة مبتكرة','قرارات تصميمية مبرَّرة بالمتطلب التشغيلي، لا بالكتالوج.'),
             ('بنية قابلة للتوسع','سعة المرحلة القادمة مصممة ضمن المرحلة الأولى.'),
@@ -673,7 +750,7 @@ C['ar'] = {
  'cta_p':('شارك جدول الكميات أو جدول المواد أو المخططات وسنعود إليك بنطاق مسعّر وبرنامج زمني. '
           'وإن كنت في مرحلة أبكر، فسنقوم بزيارة ومسح للموقع.'),
  'f_company':'الشركة','f_services':'الخدمات','f_touch':'تواصل معنا',
- 'f_links':[('about','من نحن'),('projects','مشاريعنا'),('insights','مقالات تقنية')],
+ 'f_links':[('about','من نحن'),('projects','مشاريعنا'),('insights','ملاحظات تقنية')],
  'f_careers':'الوظائف','f_catalogue':'كتالوج المنتجات','f_whatsapp':'واتساب',
  'f_all_disc':'جميع التخصصات التسعة',
  'f_terms':'شروط الخدمة','f_privacy':'سياسة الخصوصية',
@@ -687,4 +764,10 @@ C['ar'] = {
  'legal_stub':'النص النهائي لهذه الصفحة قيد الإعداد وسيُنشر قبل الإطلاق. لأي أمر تحتاجه في '
               'هذه الأثناء، راسلنا على info@datacore.com.sa.',
  'mail_subject':'استفسار من الموقع',
+
+ # ── service detail pages ──────────────────────────────────────────────
+ 'svc_related':'خدمات ذات صلة',
+ 'svc_ask':'استفسر عن هذه الخدمة',
+ 'svc_enquiry_prefix':'بخصوص',
+ 'svc_in_disc':'ضمن تخصص',
 }

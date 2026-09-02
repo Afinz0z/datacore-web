@@ -2,7 +2,8 @@
 import re, os, sys, html
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from css import CSS
-from content import C, PARTNERS, SOCIALS, OFFICE_GEO, WHATSAPP
+from content import (C, PARTNERS, SOCIALS, OFFICE_GEO, WHATSAPP,
+                     PHOTOS, SERVICE_PHOTOS, SERVICE_SLUGS)
 from urllib.parse import quote
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -69,6 +70,57 @@ if _img:
 
 P_DATA  = "const P = "     + _json.dumps(_products, ensure_ascii=False) + ";"
 P_GLYPH = "const GLYPH = " + _json.dumps(_load("glyphs.json"),   ensure_ascii=False) + ";"
+
+# ── site assets: brand images + photography ──────────────────────────────
+_ASSETS = os.path.join(OUT, "assets")
+os.makedirs(_ASSETS, exist_ok=True)
+for _fn in ("og-image.png", "apple-touch-icon.png", "favicon-32.png"):
+    _src = os.path.join(HERE, "assets", _fn)
+    if os.path.exists(_src):
+        _shutil.copy2(_src, os.path.join(_ASSETS, _fn))
+_PHOTO_DIR = os.path.join(HERE, "assets", "photos")
+if os.path.isdir(_PHOTO_DIR):
+    os.makedirs(os.path.join(_ASSETS, "photos"), exist_ok=True)
+    for _fn in os.listdir(_PHOTO_DIR):
+        _shutil.copy2(os.path.join(_PHOTO_DIR, _fn),
+                      os.path.join(_ASSETS, "photos", _fn))
+
+def photo(key, l, crop=False, lazy=True):
+    """Captioned <figure> for a client photo; alt/caption follow the language."""
+    f, w, h, en_alt, ar_alt = PHOTOS[key]
+    alt = ar_alt if l == "ar" else en_alt
+    cls = "ph crop" if crop else "ph"
+    loading = ' loading="lazy"' if lazy else ""
+    return (f'<figure class="{cls}"><img src="assets/photos/{f}" width="{w}" height="{h}"'
+            f'{loading} alt="{e(alt)}"><figcaption>{e(alt)}</figcaption></figure>')
+
+# ── service detail copy (fetched from the live site; AR authored in-repo) ─
+SVC_EN = _load("services-copy.json")["services"]
+SVC_AR = _load("services-copy-ar.json")["services"]
+assert set(SVC_EN) == set(SVC_AR) == set(SERVICE_SLUGS.values()), \
+    "service copy files and SERVICE_SLUGS have drifted apart"
+
+# hub-name lookup per slug and language (EN key position -> AR counterpart)
+_slug_names = {}
+for _di, _d in enumerate(C['en']['disc']):
+    for _si, _s in enumerate(_d[2]):
+        _slug = SERVICE_SLUGS[_s]
+        _slug_names[_slug] = {
+            "en": _s, "ar": C['ar']['disc'][_di][2][_si], "disc": _di}
+
+# the live site's H1s are inconsistent in a few places — display fixes only,
+# fetched data stays verbatim
+H1_FIX = {
+ 'wifi-solutions': 'Wi-Fi Solutions',
+ 'fire-alarm-systems': 'Fire Alarm Systems',
+ 'interactive-video-walls-tiles': 'Interactive Video Walls & Tiles',
+ 'pava-public-address-amp-voice-evacuation-system':
+     'PAVA — Public Address & Voice Evacuation',
+ 'paga-public-address-and-general-alarm-system':
+     'PAGA — Public Address & General Alarm',
+ 'full-time-staffing-solution': 'Full-Time Staffing Solution',
+ 'grms-solutions-': 'GRMS Solutions',
+}
 P_ICO   = ('const ico=(g,s)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" '
            'fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" '
            'stroke-linejoin="round">${GLYPH[g]||GLYPH.switch}</svg>`;\n')
@@ -128,6 +180,8 @@ def head(l, page, title, desc, extra_css="", noindex=False):
 <meta name="description" content="{e(desc)}">{robots}
 <meta name="theme-color" content="#00776F">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{FAVICON}">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="canonical" href="{BASE}{url(page,l)}">
 <link rel="alternate" hreflang="{t['other_lang']}" href="{BASE}{url(page,t['other'])}">
 <link rel="alternate" hreflang="{t['lang']}" href="{BASE}{url(page,l)}">
@@ -139,7 +193,11 @@ def head(l, page, title, desc, extra_css="", noindex=False):
 <meta property="og:url" content="{BASE}{url(page,l)}">
 <meta property="og:locale" content="{og_locale}">
 <meta property="og:locale:alternate" content="{og_alt}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{BASE}assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Datacore Technology Integrators">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{t['font']}&display=swap" rel="stylesheet">
@@ -372,9 +430,12 @@ def page_about(l):
     return f"""{phead(l,'about',t['a_title'],t['a_lede'])}
 <section class="stats"><div class="wrap">{stats}</div></section>
 <section class="sec"><div class="wrap">
-  <div class="sec-head split">
-    <h2>{t['a_story_h']}</h2>
-    <div style="color:var(--ink-2);font-size:1.0625rem">{story}</div>
+  <div class="duo" style="margin-bottom:var(--s5)">
+    <div>
+      <div class="sec-head" style="margin-bottom:var(--s3)"><h2>{t['a_story_h']}</h2></div>
+      <div style="color:var(--ink-2);font-size:1.0625rem">{story}</div>
+    </div>
+    {photo('ceo', l, crop=True)}
   </div>
   {timeline(l)}
 </div></section>
@@ -383,25 +444,31 @@ def page_about(l):
   <div class="vals">{vals}</div>
 </div></section>
 <section class="sec"><div class="wrap">
+  <div class="sec-head split"><h2>{t['a_team_h']}</h2><p>{t['a_team_p']}</p></div>
+  <div class="gal">{photo('team-riyadh', l, crop=True)}{photo('team-kozhikode', l, crop=True)}{photo('qsys-training', l, crop=True)}</div>
+</div></section>
+<section class="sec sec-alt"><div class="wrap">
   <div class="sec-head split"><h2>{t['a_where_h']}</h2><p>{t['a_where']}</p></div>
   {partners_grid()}
 </div></section>
 {cta(l)}"""
 
 def page_services(l):
-    # Cards are deliberately unlinked: the 38 detail pages are not built yet
-    # and the old build linked every card to /service-details/<index>, which
-    # 404s. content.SERVICE_SLUGS holds the future URLs — link the cards when
-    # the detail template exists.
+    # Every card links to its detail page (service-<slug>.html), whose slug
+    # matches the live site via content.SERVICE_SLUGS.
     t = C[l]
+    en_subs = C['en']['disc']
+    arr = "←" if l == "ar" else "→"
     chips = f'<a class="on" href="#svc-top" data-all="1">{t["s_all"]}</a>' + "".join(
         f'<a href="#{d[0]}">{d[1]}</a>' for d in t['disc'])
     cats = []
     for i, (slug, name, subs, std, blurb) in enumerate(t['disc']):
-        cards = "".join(
-            f'<article class="svc"><h3>{s}</h3>'
-            f'<p>{t["svc_blurbs"][s]}</p></article>'
-            for s in subs)
+        cards = ""
+        for j, s in enumerate(subs):
+            surl = url("service-" + SERVICE_SLUGS[en_subs[i][2][j]], l)
+            cards += (f'<article class="svc"><h3><a href="{surl}">{s}</a></h3>'
+                      f'<p>{t["svc_blurbs"][s]}</p>'
+                      f'<a class="more" href="{surl}">{t["read"]} {arr}</a></article>')
         cats.append(f"""<section class="cat" id="{slug}">
   <div class="cat-head">
     <div><span class="num">{i+1:02d} — {len(subs)}</span><h2>{name}</h2></div>
@@ -425,12 +492,19 @@ def page_projects(l):
     sectors = sorted({p[0] for p in t['proj']})
     chips = f'<button class="on" aria-pressed="true">{t["s_all"]}</button>' + "".join(
         f'<button data-sector="{e(s)}" aria-pressed="false">{s}</button>' for s in sectors)
+    gal = "".join(photo(k, l, crop=True) for k in
+                  ('control-room','videowall-install','videowall-mounts',
+                   'fire-alarm-wiring','detector-testing','site-survey'))
     return f"""{phead(l,'projects',t['pj_title'],t['pj_lede'])}
 <section class="sec"><div class="wrap">
   <div class="filters" id="pjFilters" style="margin-bottom:var(--s4)">{chips}</div>
   {proj_cards(l)}
 </div></section>
 <section class="sec sec-alt"><div class="wrap">
+  <div class="sec-head split"><h2>{t['pj_gal_h']}</h2><p>{t['pj_gal_p']}</p></div>
+  <div class="gal">{gal}</div>
+</div></section>
+<section class="sec"><div class="wrap">
   <div class="sec-head"><h2>{t['pj_feat_h']}</h2></div>
   <div class="vals">{feats}</div>
 </div></section>
@@ -458,50 +532,78 @@ def page_contact(l):
     import json
     t = C[l]
     f = t['c_f']
+    arr = "←" if l == "ar" else "→"
     title_js = json.dumps(t['map_h'], ensure_ascii=False)
     opts = "".join(f"<option>{o}</option>" for o in t['c_types'])
-    offices = "".join(f"""<div class="office-card"><h3>{o[0]}</h3>
+    # office cards double as the map switcher (data-off)
+    offices = "".join(f"""<div class="office-card{' on' if i == 0 else ''}" data-off="{i}"
+      role="button" tabindex="0" aria-pressed="{'true' if i == 0 else 'false'}">
+      <h3>{o[0]}</h3>
       <p>{o[1]}<br>{o[2]}<br>{o[3]}</p>
       <div class="rows"><a href="tel:{o[5]}" dir="ltr">{o[4]}</a></div>
       <a class="dirlink" href="{maps_link(i)}" rel="noopener" target="_blank">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
           stroke-width="1.8"><path d="M12 21s7-6.3 7-11a7 7 0 10-14 0c0 4.7 7 11 7 11z"/>
-          <circle cx="12" cy="10" r="2.6"/></svg>{t['directions']} →</a>
+          <circle cx="12" cy="10" r="2.6"/></svg>{t['directions']} {arr}</a>
       </div>""" for i, o in enumerate(t['offices']))
     tabs = "".join(
         ('<button class="on" aria-pressed="true"' if i == 0
          else '<button aria-pressed="false"')
         + f' data-off="{i}">{n}</button>'
         for i, n in enumerate(t['map_tabs']))
-    # office data for the map switcher: src, facade line, caption, directions
     map_off = json.dumps([
         {"src": maps_embed(i, l),
-         "head": f"{o[1]} — {o[3]}",
          "cap": f"{o[2]}, {o[3]}",
          "dir": maps_link(i)}
         for i, o in enumerate(t['offices'])], ensure_ascii=False)
     mail_meta = json.dumps({
         "to": "sales@datacore.com.sa",
         "subject": t['mail_subject'],
+        "regarding": t['svc_enquiry_prefix'],
         "labels": [f['name'], f['company'], f['email'], f['phone'],
                    f['type'], f['project'], f['msg']]}, ensure_ascii=False)
+    # LocalBusiness per office; Riyadh carries verified coordinates
+    lat, lng = OFFICE_GEO[0][0].split(",")
+    biz_ld = json.dumps([
+        {"@context": "https://schema.org", "@type": "LocalBusiness",
+         "name": "Datacore Solutions", "url": BASE,
+         "telephone": "+966115128888",
+         "geo": {"@type": "GeoCoordinates", "latitude": lat, "longitude": lng},
+         "address": {"@type": "PostalAddress",
+             "streetAddress": "Office 503, Dabbab Complex, Dabbab St",
+             "addressLocality": "Riyadh", "postalCode": "12626",
+             "addressCountry": "SA"}},
+        {"@context": "https://schema.org", "@type": "LocalBusiness",
+         "name": "DCS Advanced Technologies L.L.C", "url": BASE,
+         "telephone": "+971527536070",
+         "address": {"@type": "PostalAddress",
+             "streetAddress": "OF09-390, Um Hurair Second",
+             "addressLocality": "Dubai", "addressCountry": "AE"}},
+        {"@context": "https://schema.org", "@type": "LocalBusiness",
+         "name": "Artifitia Solutions LLP", "url": BASE,
+         "telephone": "+914953501154",
+         "address": {"@type": "PostalAddress",
+             "streetAddress": "No. 26, Sahya Building, Govt Cyberpark",
+             "addressLocality": "Kozhikode", "postalCode": "673016",
+             "addressCountry": "IN"}},
+    ], ensure_ascii=False)
     return f"""{phead(l,'contact',t['c_title'],t['c_lede'])}
-<section class="sec"><div class="wrap"><div class="contact-grid">
-  <div>
-    <div class="sec-head" style="margin-bottom:var(--s3)"><h2>{t['c_offices_h']}</h2></div>
-    <div class="offices-grid">{offices}</div>
-    <div class="sec-head" style="margin:var(--s4) 0 var(--s2)"><h2>{t['c_other_h']}</h2></div>
-    <div class="office-card"><div class="rows">
-      <a href="mailto:sales@datacore.com.sa" dir="ltr">sales@datacore.com.sa</a>
-      <a href="mailto:info@datacore.com.sa" dir="ltr">info@datacore.com.sa</a>
-      <a href="mailto:careers@datacore.com.sa" dir="ltr">careers@datacore.com.sa</a>
-      <a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">{t['f_whatsapp']}</a>
-    </div></div>
-
-    <div class="sec-head" style="margin:var(--s4) 0 var(--s2)"><h2>{t['follow_h']}</h2></div>
-    <p style="color:var(--ink-2)">{t['follow_p']}</p>
-    {soc_buttons()}
+<section class="sec"><div class="wrap">
+  <div class="sec-head" style="margin-bottom:var(--s3)"><h2>{t['c_offices_h']}</h2></div>
+  <div class="geo-grid">
+    <div class="offices-list" id="officeList">{offices}</div>
+    <div class="map-col">
+      <div class="map-tabs" id="mapTabs">{tabs}</div>
+      <div class="map" id="map"><iframe src="{maps_embed(0,l)}" loading="lazy"
+        title={title_js} referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe></div>
+      <p class="map-cap"><span id="mapCap">{t['offices'][0][2]}, {t['offices'][0][3]}</span> ·
+        <a id="mapDir" href="{maps_link(0)}" rel="noopener" target="_blank">{t['directions']}</a></p>
+    </div>
   </div>
+</div></section>
+
+<section class="sec sec-alt"><div class="wrap"><div class="contact-grid">
   <div>
     <form class="form" id="enquiry">
       <div class="sec-head" style="margin-bottom:var(--s3)"><h2>{t['c_form_h']}</h2></div>
@@ -527,66 +629,159 @@ def page_contact(l):
       <p class="formnote">{f['note']}</p>
     </form>
   </div>
-</div>
-
-<div class="sec-head" style="margin:var(--s6) 0 var(--s3)"><h2>{t['map_h']}</h2></div>
-<div class="map-tabs" id="mapTabs">{tabs}</div>
-<div class="map" id="map">
-  <button class="map-face" id="mapFace" aria-label="{t['map_load']}">
-    <span class="pin"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"
-      stroke="currentColor" stroke-width="2"><path d="M12 21s7-6.3 7-11a7 7 0 10-14 0c0 4.7 7 11 7 11z"/>
-      <circle cx="12" cy="10" r="2.6"/></svg></span>
-    <strong id="mapHead">{t['offices'][0][1]} — {t['offices'][0][3]}</strong>
-    <span>{t['map_note']}</span>
-    <span class="btn btn-s" aria-hidden="true">{t['map_load']}</span>
-  </button>
-</div>
-<p class="map-cap"><span id="mapCap">{t['offices'][0][2]}, {t['offices'][0][3]}</span> ·
-  <a id="mapDir" href="{maps_link(0)}" rel="noopener" target="_blank">{t['directions']}</a></p>
-</div></section>
+  <div>
+    <div class="sec-head" style="margin-bottom:var(--s2)"><h2>{t['c_other_h']}</h2></div>
+    <div class="office-card"><div class="rows">
+      <a href="mailto:sales@datacore.com.sa" dir="ltr">sales@datacore.com.sa</a>
+      <a href="mailto:info@datacore.com.sa" dir="ltr">info@datacore.com.sa</a>
+      <a href="mailto:careers@datacore.com.sa" dir="ltr">careers@datacore.com.sa</a>
+      <a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">{t['f_whatsapp']}</a>
+    </div></div>
+    <div class="sec-head" style="margin:var(--s4) 0 var(--s2)"><h2>{t['follow_h']}</h2></div>
+    <p style="color:var(--ink-2)">{t['follow_p']}</p>
+    {soc_buttons()}
+  </div>
+</div></div></section>
 <script>
-/* Map facade: nothing loads from Google until the visitor asks for it.
-   Keeps the embed off the critical path and out of pre-consent cookies.
-   The tabs switch between the three offices; before the first click they
-   only retarget the facade, after it they swap the iframe src. */
+/* The map now loads directly (owner decision, Sep 2026) but stays lazy, so
+   it never competes with first paint. Office cards and tabs both switch it. */
 const MOFF={map_off};
-const mw=document.getElementById('map'),tabs=document.getElementById('mapTabs');
-let cur=0;
-function mapFrame(src){{
-  const fr=document.createElement('iframe');
-  fr.src=src; fr.loading='lazy'; fr.title={title_js};
-  fr.referrerPolicy='no-referrer-when-downgrade';
-  fr.allowFullscreen=true; mw.innerHTML=''; mw.appendChild(fr); return fr;
-}}
-mw.addEventListener('click',ev=>{{
-  if(ev.target.closest('#mapFace')) mapFrame(MOFF[cur].src);
-}});
-tabs.addEventListener('click',ev=>{{
-  const b=ev.target.closest('button');if(!b)return;
-  cur=+b.dataset.off;
-  tabs.querySelectorAll('button').forEach(x=>{{x.classList.remove('on');
-    x.setAttribute('aria-pressed','false');}});
-  b.classList.add('on');b.setAttribute('aria-pressed','true');
-  document.getElementById('mapCap').textContent=MOFF[cur].cap;
-  document.getElementById('mapDir').href=MOFF[cur].dir;
-  const head=document.getElementById('mapHead');
-  if(head) head.textContent=MOFF[cur].head;      // facade not yet loaded
+const mw=document.getElementById('map'),tabs=document.getElementById('mapTabs'),
+      list=document.getElementById('officeList');
+function pick(i){{
+  tabs.querySelectorAll('button').forEach(x=>{{
+    const on=+x.dataset.off===i;
+    x.classList.toggle('on',on);x.setAttribute('aria-pressed',String(on));}});
+  list.querySelectorAll('.office-card').forEach(c=>{{
+    const on=+c.dataset.off===i;
+    c.classList.toggle('on',on);c.setAttribute('aria-pressed',String(on));}});
+  document.getElementById('mapCap').textContent=MOFF[i].cap;
+  document.getElementById('mapDir').href=MOFF[i].dir;
   const fr=mw.querySelector('iframe');
-  if(fr) fr.src=MOFF[cur].src;                   // already consented: swap
-}});
+  if(fr&&fr.src!==MOFF[i].src)fr.src=MOFF[i].src;
+}}
+tabs.addEventListener('click',ev=>{{
+  const b=ev.target.closest('button');if(b)pick(+b.dataset.off);}});
+list.addEventListener('click',ev=>{{
+  if(ev.target.closest('a'))return;          // tel/directions keep working
+  const c=ev.target.closest('.office-card');if(c)pick(+c.dataset.off);}});
+list.addEventListener('keydown',ev=>{{
+  if(ev.key!=='Enter'&&ev.key!==' ')return;
+  const c=ev.target.closest('.office-card');
+  if(c){{ev.preventDefault();pick(+c.dataset.off);}}}});
 /* No back end yet: submitting opens a pre-filled email to sales@ so the
    form genuinely works today. Swap for a POST when the RFQ service lands. */
 const eq=document.getElementById('enquiry');
+const M={mail_meta};
 eq.addEventListener('submit',ev=>{{
   ev.preventDefault();
-  const M={mail_meta};
   const vals=[eq.name.value,eq.company.value,eq.email.value,eq.phone.value,
               eq.type.value,eq.project.value,eq.message.value];
   const body=M.labels.map((lab,i)=>lab+": "+(vals[i]||"—")).join("\\r\\n");
   location.href="mailto:"+M.to+"?subject="+encodeURIComponent(M.subject+" — "+eq.type.value)
     +"&body="+encodeURIComponent(body);
 }});
-</script>"""
+/* arriving from a service page pre-fills the enquiry */
+const svc=new URLSearchParams(location.search).get('service');
+if(svc){{
+  eq.message.value=M.regarding+": "+svc;
+  eq.scrollIntoView({{block:'start'}});
+  eq.name.focus();
+}}
+</script>
+<script type="application/ld+json">{biz_ld}</script>"""
+
+# ── service detail pages ──────────────────────────────────────────────────
+def service_page(slug, l):
+    """One of the 38 service detail pages. EN body copy is the client's own
+    live-site text (src/data/services-copy.json); AR is its in-repo Arabic
+    edition (services-copy-ar.json) awaiting the same native review as the
+    rest of the Arabic."""
+    import json
+    t = C[l]
+    info = _slug_names[slug]
+    name = info[l]
+    disc = t['disc'][info['disc']]
+    d = SVC_EN[slug]['en'] if l == 'en' else SVC_AR[slug]
+    h1 = H1_FIX.get(slug, d['h1']) if l == 'en' else d['h1']
+
+    # the live site left ~10 pages with the generic site title/description —
+    # derive proper unique meta for those
+    title = d['title'].strip()
+    if title in ("Datacore Solutions", ""):
+        title = f"{h1} in Saudi Arabia | Datacore"
+    desc = d['desc'].strip()
+    if desc.startswith("DataCore provides integrated technology") or not desc:
+        desc = d['intro'] if len(d['intro']) <= 158 else d['intro'][:155] + "…"
+
+    body = []
+    for s in d['sections']:
+        lis = s.get('lis', [])
+        ps = [p for p in s.get('ps', []) if p not in lis]  # live pages repeat lists as <p>s
+        sec = f"<h2>{e(s['h'])}</h2>"
+        sec += "".join(f"<p>{e(p)}</p>" for p in ps)
+        if lis:
+            sec += "<ul>" + "".join(f"<li>{e(li)}</li>" for li in lis) + "</ul>"
+        body.append(sec)
+    ph = photo(SERVICE_PHOTOS[slug], l) if slug in SERVICE_PHOTOS else ""
+
+    rel = []
+    for s_en in C['en']['disc'][info['disc']][2]:
+        rslug = SERVICE_SLUGS[s_en]
+        if rslug == slug:
+            continue
+        rel.append(f'<li><a href="{url("service-" + rslug, l)}">'
+                   f'{_slug_names[rslug][l]}</a></li>')
+    rel_html = ("<ul>" + "".join(rel) + "</ul>") if rel else ""
+    ask = f'{url("contact", l)}?service={quote(name)}'
+
+    ld = json.dumps({
+        "@context": "https://schema.org", "@type": "Service",
+        "name": h1, "serviceType": info['en'],
+        "provider": {"@type": "Organization", "name": "Datacore Solutions",
+                     "url": BASE},
+        "areaServed": {"@type": "Country", "name": "Saudi Arabia"},
+        "description": desc, "url": f"{BASE}{url('service-' + slug, l)}",
+    }, ensure_ascii=False)
+    crumbs_ld = json.dumps({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": t['home'],
+             "item": f"{BASE}{url('index', l)}"},
+            {"@type": "ListItem", "position": 2, "name": t['nav'][1][1],
+             "item": f"{BASE}{url('services', l)}"},
+            {"@type": "ListItem", "position": 3, "name": h1},
+        ]}, ensure_ascii=False)
+
+    return f"""<section class="phead"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{url('index',l)}">{t['home']}</a>
+    <span>/</span><a href="{url('services',l)}">{t['nav'][1][1]}</a>
+    <span>/</span><span>{e(h1)}</span></nav>
+  <h1>{e(h1)}</h1><p>{e(d['intro'])}</p>
+</div></section>
+<div class="wrap"><div class="svc-grid">
+  <div class="svc-body">
+    {ph}
+    {"".join(body)}
+  </div>
+  <aside class="svc-aside">
+    <div class="box">
+      <h3>{t['svc_in_disc']}</h3>
+      <p style="font-weight:600"><a href="{url('services',l)}#{disc[0]}"
+        style="text-decoration:none">{disc[1]}</a></p>
+      <p class="mono" style="margin-top:10px" dir="ltr">{disc[3]}</p>
+    </div>
+    <div class="box">
+      <h3>{t['svc_related']}</h3>
+      {rel_html}
+    </div>
+    <a class="btn btn-p" href="{ask}">{t['svc_ask']}</a>
+    <a class="btn btn-s" href="{url('products',l)}">{t['f_catalogue']}</a>
+  </aside>
+</div></div>
+{cta(l)}
+<script type="application/ld+json">{ld}</script>
+<script type="application/ld+json">{crumbs_ld}</script>"""
 
 # ── products page (catalogue) ─────────────────────────────────────────────
 PROD_CSS = """
@@ -1140,6 +1335,21 @@ for l in ("en","ar"):
         doc = head(l,p,title,desc,extra) + header(l,p) + body + footer(l)
         write_page(url(p,l), doc)
 
+# ── 38 service detail pages per language ─────────────────────────────────
+for l in ("en","ar"):
+    for slug in SERVICE_SLUGS.values():
+        d = SVC_EN[slug]['en'] if l == 'en' else SVC_AR[slug]
+        h1 = H1_FIX.get(slug, d['h1']) if l == 'en' else d['h1']
+        title = d['title'].strip()
+        if title in ("Datacore Solutions", ""):
+            title = f"{h1} in Saudi Arabia | Datacore"
+        desc = d['desc'].strip()
+        if desc.startswith("DataCore provides integrated technology") or not desc:
+            desc = d['intro'] if len(d['intro']) <= 158 else d['intro'][:155] + "…"
+        doc = (head(l, 'service-' + slug, title, desc)
+               + header(l, 'services') + service_page(slug, l) + footer(l))
+        write_page(url('service-' + slug, l), doc)
+
 # ── utility pages ─────────────────────────────────────────────────────────
 # Legal stubs: the old site's /terms-service and /privacy-policy don't exist
 # in this build, and a dead footer link is worse than an honest placeholder.
@@ -1168,12 +1378,38 @@ today = datetime.date.today().isoformat()
 open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8").write(
     f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n")
 urls = [url(p, l) for l in ("en","ar") for p in PAGES]
+urls += [url('service-' + s, l) for l in ("en","ar") for s in SERVICE_SLUGS.values()]
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 for u in urls:
     sm.append(f"  <url><loc>{BASE}{u}</loc><lastmod>{today}</lastmod></url>")
 sm.append("</urlset>\n")
 open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
+
+# ── llms.txt: a concise, factual guide for AI answer engines (GEO) ───────
+_svc_lines = "\n".join(
+    f"- [{_slug_names[s]['en']}]({BASE}{url('service-' + s, 'en')})"
+    for s in SERVICE_SLUGS.values())
+open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8").write(f"""# Datacore Solutions
+
+> Low-current / ELV systems integrator headquartered in Riyadh, Saudi Arabia,
+> with entities in Dubai (DCS Advanced Technologies L.L.C) and Kozhikode,
+> India (Artifitia Solutions LLP). Founded in Jeddah in 2007. Nine
+> disciplines, 38 services, delivered in-house: design, supply, installation,
+> commissioning and maintenance. English pages: *.html — Arabic: *-ar.html.
+
+Contact: sales@datacore.com.sa · +966 11 512 8888 · {BASE}contact.html
+
+## Main pages
+- [Services]({BASE}services.html): nine disciplines, 38 services
+- [Products]({BASE}products.html): catalogue with request-for-quotation
+- [Projects]({BASE}projects.html): named case studies
+- [About]({BASE}about.html): history since 2007, offices, values
+- [Contact]({BASE}contact.html): offices, map, enquiry form
+
+## Services
+{_svc_lines}
+""")
 
 for n,k in written:
     print(f"{n:26s} {k:>7} KB")
