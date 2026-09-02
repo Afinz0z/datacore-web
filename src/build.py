@@ -3,7 +3,14 @@ import re, os, sys, html
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from css import CSS
 from content import (C, PARTNERS, SOCIALS, OFFICE_GEO, WHATSAPP,
-                     PHOTOS, SERVICE_PHOTOS, SERVICE_SLUGS)
+                     PHOTOS, SERVICE_PHOTOS, SERVICE_SLUGS,
+                     BRAND_LOGOS, PROJECT_PHOTOS, POST_PHOTOS)
+
+# Live chat (tawk.to) — the client's existing account, same widget as the
+# live site. It is NEVER loaded at page load: the chat panel offers a
+# "start live chat" button and only that click injects the script (rule 6:
+# no third-party scripts before interaction).
+TAWK_SRC = "https://embed.tawk.to/6971de344e6a21197c2fec61/1jfico00p"
 from urllib.parse import quote
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -78,12 +85,24 @@ for _fn in ("og-image.png", "apple-touch-icon.png", "favicon-32.png"):
     _src = os.path.join(HERE, "assets", _fn)
     if os.path.exists(_src):
         _shutil.copy2(_src, os.path.join(_ASSETS, _fn))
-_PHOTO_DIR = os.path.join(HERE, "assets", "photos")
-if os.path.isdir(_PHOTO_DIR):
-    os.makedirs(os.path.join(_ASSETS, "photos"), exist_ok=True)
-    for _fn in os.listdir(_PHOTO_DIR):
-        _shutil.copy2(os.path.join(_PHOTO_DIR, _fn),
-                      os.path.join(_ASSETS, "photos", _fn))
+for _sub in ("photos", "brands", "services"):
+    _dir = os.path.join(HERE, "assets", _sub)
+    if os.path.isdir(_dir):
+        os.makedirs(os.path.join(_ASSETS, _sub), exist_ok=True)
+        for _fn in os.listdir(_dir):
+            _shutil.copy2(os.path.join(_dir, _fn),
+                          os.path.join(_ASSETS, _sub, _fn))
+_pdf = os.path.join(HERE, "assets", "DatacoreSolutions.pdf")
+if os.path.exists(_pdf):
+    _shutil.copy2(_pdf, os.path.join(_ASSETS, "DatacoreSolutions.pdf"))
+BROCHURE = "assets/DatacoreSolutions.pdf"
+
+# service slug -> illustration file (the live site's own artwork)
+SVC_ART = {}
+_art_dir = os.path.join(HERE, "assets", "services")
+if os.path.isdir(_art_dir):
+    for _fn in os.listdir(_art_dir):
+        SVC_ART[os.path.splitext(_fn)[0]] = "assets/services/" + _fn
 
 def photo(key, l, crop=False, lazy=True):
     """Captioned <figure> for a client photo; alt/caption follow the language."""
@@ -253,17 +272,102 @@ def phead(l, page, title, lede):
 </div></section>"""
 
 def cta(l):
-    # TODO: restore the company-profile button when the client supplies the
-    # PDF (docs/BACKLOG.md — "Current company profile PDF"). The old link
-    # pointed at /assets1/... on the legacy site and 404s from this build.
+    # The brochure the client supplied (DatacoreSolutions.pdf) fills the
+    # secondary slot — resolving the old dead company-profile link for good.
     t = C[l]
     return f"""<section class="cta"><div class="wrap">
   <div><h2>{t['cta_h']}</h2><p>{t['cta_p']}</p></div>
   <div class="btns">
     <a class="btn btn-p" href="{url('contact',l)}">{t['consult']}</a>
-    <a class="btn btn-s" href="{url('products',l)}">{t['f_catalogue']}</a>
+    <a class="btn btn-s" href="{BROCHURE}" download>{t['brochure_btn']}</a>
   </div>
 </div></section>"""
+
+# Interaction layer, one plain-JS block shared by every page (kept out of the
+# f-strings so braces stay sane). Reveal-on-scroll + stat count-up are skipped
+# for reduced-motion users; live chat loads tawk.to only on demand.
+FOOT_JS = r"""
+(function(){
+var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* reveal on scroll */
+if(!RM&&'IntersectionObserver' in window){
+  var els=document.querySelectorAll(
+    '.sec-head,.disc article,.svc,.proj,.val,.post,figure.ph,.tl article,.office-card,.marq');
+  var io=new IntersectionObserver(function(es){es.forEach(function(x){
+    if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},
+    {threshold:.12,rootMargin:'0px 0px -4% 0px'});
+  els.forEach(function(el){el.classList.add('rev');io.observe(el);});
+}
+/* stat count-up */
+var cnt=document.querySelectorAll('.stat b[data-count]');
+if(cnt.length&&!RM&&'IntersectionObserver' in window){
+  var io2=new IntersectionObserver(function(es){es.forEach(function(x){
+    if(!x.isIntersecting)return;io2.unobserve(x.target);
+    var raw=x.target.getAttribute('data-count');
+    var m=raw.match(/^([\d,]+)(.*)$/);if(!m)return;
+    var target=parseInt(m[1].replace(/,/g,''),10),suf=m[2],grouped=m[1].indexOf(',')>-1;
+    var t0=performance.now(),D=1100;
+    var fmt=function(v){var s=String(Math.round(v));
+      if(grouped)s=s.replace(/\B(?=(\d{3})+(?!\d))/g,',');return s+suf;};
+    var step=function(ts){var p=Math.min(1,(ts-t0)/D),ease=1-Math.pow(1-p,3);
+      x.target.textContent=fmt(target*ease);
+      if(p<1)requestAnimationFrame(step);};
+    requestAnimationFrame(step);});},{threshold:.6});
+  cnt.forEach(function(b){io2.observe(b);});
+}
+/* chat bubble */
+var cb=document.getElementById('chatB'),cp=document.getElementById('chatP');
+if(cb&&cp){
+  var tog=function(o){cb.setAttribute('aria-expanded',String(o));
+    cp.classList.toggle('on',o);
+    if(o){var f=cp.querySelector('.acts a');f&&f.focus();}};
+  cb.addEventListener('click',function(){
+    tog(cb.getAttribute('aria-expanded')!=='true');});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape')tog(false);});
+  var lv=document.getElementById('chatLive');
+  lv&&lv.addEventListener('click',function(){
+    /* third-party chat, loaded only on this explicit click */
+    window.Tawk_API=window.Tawk_API||{};
+    window.Tawk_API.onLoad=function(){window.Tawk_API.maximize();};
+    var s=document.createElement('script');
+    s.src='__TAWK__';s.async=true;s.charset='UTF-8';
+    s.setAttribute('crossorigin','*');
+    document.head.appendChild(s);
+    tog(false);cb.hidden=true;});
+}
+})();
+"""
+
+def chat_widget(l):
+    t = C[l]
+    wa_text = quote("Hello Datacore" if l == "en" else "مرحباً داتاكور")
+    ic = ('<svg width="18" height="18" viewBox="0 0 24 24" fill="none" '
+          'stroke="currentColor" stroke-width="1.8">')
+    return f"""<button class="chatb" id="chatB" aria-expanded="false"
+  aria-controls="chatP" aria-label="{t['chat_label']}">
+  <svg class="bub" width="26" height="26" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="1.9"><path d="M21 12a8 8 0 01-8 8H4l2.5-2.7A8 8 0 1121 12z"/>
+    <path d="M8.5 11h.01M12 11h.01M15.5 11h.01" stroke-linecap="round" stroke-width="2.4"/></svg>
+  <svg class="x" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>
+</button>
+<div class="chatp" id="chatP" role="dialog" aria-label="{t['chat_label']}">
+  <header><strong>{t['chat_h']}</strong><p>{t['chat_p']}</p></header>
+  <div class="acts">
+    <a href="https://wa.me/{WHATSAPP}?text={wa_text}" rel="noopener" target="_blank">
+      {ic}<path d="M21 12a8 8 0 01-11.6 7.2L4 21l1.8-5.4A8 8 0 1121 12z"/></svg>{t['chat_wa']}</a>
+    <a href="tel:{C[l]['offices'][0][5]}">
+      {ic}<path d="M5 4h4l2 5-2.5 1.5a12 12 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>{t['chat_call']}</a>
+    <a href="mailto:sales@datacore.com.sa">
+      {ic}<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>{t['chat_mail']}</a>
+    <a href="{url('contact',l)}">
+      {ic}<path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6M9 14h6M9 17h4"/></svg>{t['chat_form']}</a>
+    <button id="chatLive" type="button">
+      {ic}<circle cx="12" cy="12" r="9"/><path d="M8 12h.01M12 12h.01M16 12h.01" stroke-linecap="round" stroke-width="2.4"/></svg>{t['chat_live']}</button>
+  </div>
+  <p class="note">{t['chat_live_note']}</p>
+</div>"""
 
 def footer(l):
     t = C[l]
@@ -293,6 +397,7 @@ def footer(l):
       <li><a href="mailto:sales@datacore.com.sa" dir="ltr">sales@datacore.com.sa</a></li>
       <li><a href="mailto:careers@datacore.com.sa" dir="ltr">careers@datacore.com.sa</a></li>
       <li><a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">{t['f_whatsapp']}</a></li>
+      <li><a href="{BROCHURE}" download>{t['brochure_btn']}</a></li>
     </ul></div>
   </div>
   <div class="offices">{offices}</div>
@@ -319,6 +424,8 @@ if(b){{
   matchMedia('(min-width:861px)').addEventListener('change',m=>{{if(m.matches)close();}});
 }}
 </script>
+{chat_widget(l)}
+<script>{FOOT_JS.replace("__TAWK__", TAWK_SRC)}</script>
 </body></html>"""
 
 # ── shared blocks ─────────────────────────────────────────────────────────
@@ -334,9 +441,13 @@ def disc_cards(l):
 def proj_cards(l):
     t = C[l]
     out = []
-    for sector, city, title, body, kit, client, scope in t['proj']:
+    for i, (sector, city, title, body, kit, client, scope) in enumerate(t['proj']):
         k = "".join(f'<a href="{url("products",l)}">{x}</a>' for x in kit)
+        pf, pw, phh, en_alt, ar_alt = PHOTOS[PROJECT_PHOTOS[i]]
+        alt = ar_alt if l == "ar" else en_alt
         out.append(f"""<article class="proj" data-sector="{e(sector)}">
+  <div class="pimg"><img src="assets/photos/{pf}" width="{pw}" height="{phh}"
+    loading="lazy" alt="{e(alt)}"></div>
   <div class="band"><span>{sector}</span><span>{city}</span></div>
   <div class="in"><h3>{title}</h3><p>{body}</p>
     <div class="kit">{k}</div>
@@ -347,6 +458,18 @@ def proj_cards(l):
 
 def partners_grid():
     return '<div class="partners">' + "".join(f"<span>{p}</span>" for p in PARTNERS) + '</div>'
+
+def brand_marquee():
+    """Continuous logo strip (the live site's 'brands' treatment). The track
+    is doubled for a seamless loop; the duplicate set is aria-hidden and
+    dropped entirely under prefers-reduced-motion."""
+    imgs = "".join(
+        f'<img src="assets/brands/{f}" alt="{n}" height="30" loading="lazy">'
+        for f, n in BRAND_LOGOS)
+    dups = "".join(
+        f'<img class="dup" src="assets/brands/{f}" alt="" aria-hidden="true" '
+        f'height="30" loading="lazy">' for f, _n in BRAND_LOGOS)
+    return f'<div class="marq"><div class="marq-track">{imgs}{dups}</div></div>'
 
 def timeline(l):
     return '<div class="tl">' + "".join(
@@ -364,9 +487,13 @@ def posts(l, on_insights=False):
         big = on_insights and i == 0
         cls = "post post-lg" if big else "post"
         h = title if on_insights else f'<a href="{url("insights",l)}">{title}</a>'
+        pf, pw, phh, en_alt, ar_alt = PHOTOS[POST_PHOTOS[i]]
+        alt = ar_alt if l == "ar" else en_alt
+        img = (f'<div class="pimg"><img src="assets/photos/{pf}" width="{pw}" '
+               f'height="{phh}" loading="lazy" alt="{e(alt)}"></div>')
         inner = (f'<div><span class="by">{date} · {by}</span><h3>{h}</h3></div>'
-                 f'<p>{body}</p>') if big else \
-                (f'<span class="by">{date} · {by}</span><h3>{h}</h3>'
+                 f'<div>{img}<p style="margin-top:12px">{body}</p></div>') if big else \
+                (f'{img}<span class="by">{date} · {by}</span><h3>{h}</h3>'
                  f'<p>{body}</p>')
         out.append(f'<article class="{cls}">{inner}</article>')
     return '<div class="posts">' + "".join(out) + '</div>'
@@ -374,6 +501,14 @@ def posts(l, on_insights=False):
 # ══════════════════════════════════════════════════════════════════════════
 #  PAGES
 # ══════════════════════════════════════════════════════════════════════════
+def stat_row(l):
+    # data-count drives the count-up animation (footer JS); the real value
+    # stays in the markup so no-JS and reduced-motion see it immediately.
+    return "".join(
+        f'<div class="stat"><i></i><b dir="ltr" data-count="{n}">{n}</b>'
+        f'<span>{s}</span></div>'
+        for n, s in C[l]['stats'])
+
 def page_index(l):
     t = C[l]
     stack = "".join(
@@ -381,8 +516,7 @@ def page_index(l):
         f'<span class="n">{i+1:02d}</span><span>{d[1]}</span>'
         f'<span class="c">{len(d[2])}</span></a>'
         for i, d in enumerate(t['disc']))
-    stats = "".join(f'<div class="stat"><i></i><b dir="ltr">{n}</b><span>{s}</span></div>'
-                    for n, s in t['stats'])
+    stats = stat_row(l)
     return f"""<section class="hero"><div class="wrap">
   <div>
     <span class="eyebrow">{t['h_eyebrow']}</span>
@@ -418,7 +552,7 @@ def page_index(l):
 
 <section class="sec sec-alt"><div class="wrap">
   <div class="sec-head"><h2>{t['h_part_title']}</h2><p>{t['h_part_lede']}</p></div>
-  {partners_grid()}
+  {brand_marquee()}
 </div></section>
 
 <section class="sec"><div class="wrap">
@@ -430,10 +564,11 @@ def page_index(l):
 def page_about(l):
     t = C[l]
     story = "".join(f"<p style='margin-bottom:var(--s2)'>{p}</p>" for p in t['a_story'])
+    story += (f'<a class="btn btn-s" href="{BROCHURE}" download '
+              f'style="margin-top:var(--s2)">{t["brochure_btn"]}</a>')
     vals = "".join(f'<div class="val"><span class="n">{i+1:02d}</span><h3>{h}</h3><p>{p}</p></div>'
                    for i, (h, p) in enumerate(t['a_vals']))
-    stats = "".join(f'<div class="stat"><i></i><b dir="ltr">{n}</b><span>{s}</span></div>'
-                    for n, s in t['stats'])
+    stats = stat_row(l)
     return f"""{phead(l,'about',t['a_title'],t['a_lede'])}
 <section class="stats"><div class="wrap">{stats}</div></section>
 <section class="sec"><div class="wrap">
@@ -472,8 +607,12 @@ def page_services(l):
     for i, (slug, name, subs, std, blurb) in enumerate(t['disc']):
         cards = ""
         for j, s in enumerate(subs):
-            surl = url("service-" + SERVICE_SLUGS[en_subs[i][2][j]], l)
-            cards += (f'<article class="svc"><h3><a href="{surl}">{s}</a></h3>'
+            sslug = SERVICE_SLUGS[en_subs[i][2][j]]
+            surl = url("service-" + sslug, l)
+            art = SVC_ART.get(sslug)
+            ico = (f'<span class="ico"><img src="{art}" alt="" loading="lazy"></span>'
+                   if art else "")
+            cards += (f'<article class="svc"><h3>{ico}<a href="{surl}">{s}</a></h3>'
                       f'<p>{t["svc_blurbs"][s]}</p>'
                       f'<a class="more" href="{surl}">{t["read"]} {arr}</a></article>')
         cats.append(f"""<section class="cat" id="{slug}">
@@ -730,7 +869,14 @@ def service_page(slug, l):
         if lis:
             sec += "<ul>" + "".join(f"<li>{e(li)}</li>" for li in lis) + "</ul>"
         body.append(sec)
-    ph = photo(SERVICE_PHOTOS[slug], l) if slug in SERVICE_PHOTOS else ""
+    if slug in SERVICE_PHOTOS:
+        ph = photo(SERVICE_PHOTOS[slug], l)
+    elif slug in SVC_ART:
+        # the live site's own illustration for this service
+        ph = (f'<figure class="ph svc-art"><img src="{SVC_ART[slug]}" '
+              f'alt="" loading="lazy"></figure>')
+    else:
+        ph = ""
 
     rel = []
     for s_en in C['en']['disc'][info['disc']][2]:

@@ -75,7 +75,50 @@ PHOTOS = {
  'ise': ("ise-2026.jpg", 800, 1000,
    "Our team at Integrated Systems Europe 2026",
    "فريقنا في معرض ISE 2026"),
+ # project photos — as published with these projects on the client's live site
+ 'project-aou-council': ("project-aou-council.jpg", 529, 500,
+   "Arab Open University council room",
+   "قاعة المجلس في الجامعة العربية المفتوحة"),
+ 'project-psau-classrooms': ("project-psau-classrooms.jpg", 529, 500,
+   "Smart classroom at Prince Sattam bin Abdulaziz University",
+   "فصل ذكي في جامعة الأمير سطام بن عبدالعزيز"),
+ 'project-taqeem-hq': ("project-taqeem-hq.jpg", 529, 500,
+   "Meeting room at TAQEEM headquarters",
+   "قاعة اجتماعات في مقر تقييم"),
+ 'project-aou-auditorium': ("project-aou-auditorium.jpg", 529, 500,
+   "University auditorium with LED video wall",
+   "مسرح جامعي بشاشة LED جدارية"),
+ # insights artwork (live blog images)
+ 'blog-pa-system': ("blog-pa-system.jpg", 561, 306,
+   "Public address loudspeaker", "مكبر صوت لنظام النداء الآلي"),
+ 'blog-5g-passive': ("blog-5g-passive.png", 561, 306,
+   "5G antenna site", "موقع هوائيات الجيل الخامس"),
+ 'blog-passive-network': ("blog-passive-network.png", 561, 306,
+   "Fibre patching in a network cabinet", "توصيلات ألياف في خزانة شبكات"),
 }
+
+# Brand logos for the marquee (from the client's own live site, "trusted
+# alliances" wall). Only brands that are ALSO on the authorised PARTNERS list
+# are shown, so the section heading stays truthful. The live wall also showed
+# Panduit and ATEIS (not on the authorised list) and omitted Bosch — flagged
+# for the client; files kept aside until confirmed.
+BRAND_LOGOS = [
+ ("crestron.png", "Crestron"), ("extron.png", "Extron"), ("shure.png", "Shure"),
+ ("honeywell.png", "Honeywell"), ("suprema.png", "Suprema"),
+ ("logitech.png", "Logitech"), ("yealink.png", "Yealink"),
+ ("lenovo.png", "Lenovo"), ("commscope.png", "CommScope"),
+ ("eaton.png", "Eaton"), ("acti.png", "ACTi"), ("aet.png", "AET"),
+ ("smart.png", "SMART"),
+]
+
+# project index (order of C[l]['proj']) -> photo key; these four photos are
+# published with these exact projects on the client's own live site, so the
+# attribution is theirs, not ours.
+PROJECT_PHOTOS = ['project-aou-council', 'project-psau-classrooms',
+                  'project-taqeem-hq', 'project-aou-auditorium']
+
+# post index (order of C[l]['posts']) -> photo key (live blog artwork)
+POST_PHOTOS = ['blog-pa-system', 'blog-5g-passive', 'blog-passive-network']
 
 # service slug -> photo key, used as the hero image on that detail page.
 # Only mapped where the photo honestly matches the service.
@@ -470,6 +513,19 @@ C['en'] = {
  'svc_ask':'Ask about this service',
  'svc_enquiry_prefix':'Regarding',
  'svc_in_disc':'Part of',
+
+ # ── chat bubble + brochure ────────────────────────────────────────────
+ 'chat_label':'Chat with us',
+ 'chat_h':'How can we help?',
+ 'chat_p':'Pick a channel and we will take it from there.',
+ 'chat_wa':'Chat on WhatsApp',
+ 'chat_call':'Call the Riyadh office',
+ 'chat_mail':'Email sales',
+ 'chat_form':'Send a project enquiry',
+ 'chat_live':'Start live chat',
+ 'chat_live_note':'Live chat loads from tawk.to only when you start it.',
+ 'chat_close':'Close chat',
+ 'brochure_btn':'Download brochure',
 }
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -770,4 +826,17 @@ C['ar'] = {
  'svc_ask':'استفسر عن هذه الخدمة',
  'svc_enquiry_prefix':'بخصوص',
  'svc_in_disc':'ضمن تخصص',
+
+ # ── chat bubble + brochure ────────────────────────────────────────────
+ 'chat_label':'تحدث معنا',
+ 'chat_h':'كيف نساعدك؟',
+ 'chat_p':'اختر وسيلة التواصل وسنكمل من هناك.',
+ 'chat_wa':'محادثة واتساب',
+ 'chat_call':'الاتصال بمكتب الرياض',
+ 'chat_mail':'مراسلة المبيعات',
+ 'chat_form':'إرسال استفسار مشروع',
+ 'chat_live':'بدء محادثة مباشرة',
+ 'chat_live_note':'تُحمَّل المحادثة المباشرة من tawk.to عند بدئها فقط.',
+ 'chat_close':'إغلاق المحادثة',
+ 'brochure_btn':'تحميل الملف التعريفي',
 }

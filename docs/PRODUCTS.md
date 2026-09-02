@@ -68,6 +68,16 @@ Flags duplicate SKUs, missing fields, unknown icons, missing lead times and
 orphaned photos. `build.py` also refuses to build broken data, so a bad
 hand-edit of `products.json` cannot silently ship.
 
+## Where the current photos came from
+
+The catalogue's initial photos were auto-sourced from manufacturer/product
+pages on the web; every one is logged in
+`src/data/product-image-sources.json` (SKU → image URL → source page).
+Using manufacturers' product imagery is normal practice for an authorised
+reseller, but **confirm rights before launch** and replace any image the
+client prefers by running `python manage.py img <SKU> <file>` — same
+command, new photo wins.
+
 ## Notes
 
 - Add `--no-build` to any command to skip the automatic rebuild.
