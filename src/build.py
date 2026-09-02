@@ -121,6 +121,13 @@ H1_FIX = {
  'full-time-staffing-solution': 'Full-Time Staffing Solution',
  'grms-solutions-': 'GRMS Solutions',
 }
+# same idea for a couple of glaring typos in live meta/headings
+TITLE_FIX = {
+ 'fire-alarm-systems': 'Fire Alarm Systems in Saudi Arabia | Datacore',
+}
+SEC_FIX = {
+ 'Why is Fire Alarm systems is Important?': 'Why Are Fire Alarm Systems Important?',
+}
 P_ICO   = ('const ico=(g,s)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" '
            'fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" '
            'stroke-linejoin="round">${GLYPH[g]||GLYPH.switch}</svg>`;\n')
@@ -707,7 +714,7 @@ def service_page(slug, l):
 
     # the live site left ~10 pages with the generic site title/description —
     # derive proper unique meta for those
-    title = d['title'].strip()
+    title = TITLE_FIX.get(slug) if l == 'en' and slug in TITLE_FIX else d['title'].strip()
     if title in ("Datacore Solutions", ""):
         title = f"{h1} in Saudi Arabia | Datacore"
     desc = d['desc'].strip()
@@ -718,7 +725,7 @@ def service_page(slug, l):
     for s in d['sections']:
         lis = s.get('lis', [])
         ps = [p for p in s.get('ps', []) if p not in lis]  # live pages repeat lists as <p>s
-        sec = f"<h2>{e(s['h'])}</h2>"
+        sec = f"<h2>{e(SEC_FIX.get(s['h'], s['h']))}</h2>"
         sec += "".join(f"<p>{e(p)}</p>" for p in ps)
         if lis:
             sec += "<ul>" + "".join(f"<li>{e(li)}</li>" for li in lis) + "</ul>"
@@ -1340,7 +1347,7 @@ for l in ("en","ar"):
     for slug in SERVICE_SLUGS.values():
         d = SVC_EN[slug]['en'] if l == 'en' else SVC_AR[slug]
         h1 = H1_FIX.get(slug, d['h1']) if l == 'en' else d['h1']
-        title = d['title'].strip()
+        title = TITLE_FIX.get(slug) if l == 'en' and slug in TITLE_FIX else d['title'].strip()
         if title in ("Datacore Solutions", ""):
             title = f"{h1} in Saudi Arabia | Datacore"
         desc = d['desc'].strip()

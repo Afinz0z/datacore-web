@@ -66,12 +66,19 @@ product data, with counts computed per dimension excluding that dimension
 no code change. At 1,000+ SKUs this is the difference between a usable
 catalogue and a dead one.
 
-## Map is a click-to-load facade
+## Map loads directly (supersedes: click-to-load facade)
 
-A Google Maps embed is roughly 700KB of third-party JavaScript and sets cookies
-on load. On the old contact page it loaded immediately, directly under the phone
-number someone came for. The facade costs nothing until clicked and sets no
-cookies pre-consent, which also matters under PDPL.
+**Changed 2 September 2026 by owner decision** ("load the map directly, no
+need to ask again"). The contact map is now a real iframe with
+`loading="lazy"`, so it still never competes with first paint — the browser
+only fetches it as the visitor approaches it. The original facade rationale
+(≈700KB of third-party JS + pre-consent cookies) is recorded below for
+context; the PDPL/consent aspect should be revisited with the cookie-consent
+banner at launch, since Google now sets cookies when the map loads.
+
+*Original rationale:* a Google Maps embed is roughly 700KB of third-party
+JavaScript and sets cookies on load. On the old contact page it loaded
+immediately, directly under the phone number someone came for.
 
 ## Social accounts are links, not embedded feeds
 
