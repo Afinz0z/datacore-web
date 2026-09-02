@@ -422,10 +422,78 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
   .filters{position:static}
 }
 
+/* ── brand marquee ───────────────────────────────────────────────────── */
+.marq{overflow:hidden;border:1px solid var(--line);background:var(--surface);
+  border-radius:3px;position:relative;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.marq-track{display:flex;align-items:center;gap:64px;padding:26px 32px;
+  width:max-content;animation:marq 36s linear infinite;direction:ltr}
+.marq:hover .marq-track{animation-play-state:paused}
+.marq img{height:30px;width:auto;flex:none;filter:grayscale(1);opacity:.75;
+  transition:filter .2s,opacity .2s}
+.marq img:hover{filter:none;opacity:1}
+@keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){
+  .marq-track{animation:none;width:auto;flex-wrap:wrap;justify-content:center}
+  .marq-track img.dup{display:none}
+  .marq{-webkit-mask-image:none;mask-image:none}}
+
+/* ── scroll reveal (JS adds .rev, then .in when visible) ─────────────── */
+.rev{opacity:0;transform:translateY(14px);
+  transition:opacity .5s ease,transform .5s ease}
+.rev.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rev{opacity:1;transform:none;transition:none}}
+
+/* ── chat bubble ─────────────────────────────────────────────────────── */
+.chatb{position:fixed;inset-inline-end:20px;bottom:20px;z-index:80;
+  width:56px;height:56px;border-radius:50%;background:var(--accent);color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 26px -8px rgba(0,90,84,.55)}
+.chatb:hover{background:var(--accent-d)}
+.chatb .x{display:none}
+.chatb[aria-expanded=true] .bub{display:none}
+.chatb[aria-expanded=true] .x{display:block}
+.chatp{position:fixed;inset-inline-end:20px;bottom:88px;z-index:80;
+  width:min(340px,calc(100vw - 40px));background:var(--surface);
+  border:1px solid var(--line);border-radius:6px;overflow:hidden;
+  box-shadow:0 24px 48px -16px rgba(26,27,31,.35);
+  transform:translateY(12px);opacity:0;visibility:hidden;
+  transition:opacity .22s,transform .22s,visibility 0s .22s}
+.chatp.on{opacity:1;transform:none;visibility:visible;
+  transition:opacity .22s,transform .22s}
+.chatp header{background:var(--ink);color:#fff;padding:14px 18px}
+.chatp header strong{font-size:1rem}
+.chatp header p{color:#A6B0B2;font-size:.8125rem;margin-top:3px}
+.chatp .acts{padding:14px;display:flex;flex-direction:column;gap:8px}
+.chatp .acts a,.chatp .acts button{display:flex;align-items:center;gap:11px;
+  border:1px solid var(--line);border-radius:3px;padding:11px 14px;
+  font-size:.9375rem;font-weight:500;text-decoration:none;color:var(--ink);
+  background:var(--surface);text-align:start;width:100%}
+.chatp .acts a:hover,.chatp .acts button:hover{border-color:var(--accent);
+  color:var(--accent);background:var(--mint)}
+.chatp .acts svg{flex:none;color:var(--accent)}
+.chatp .note{padding:0 16px 14px;font-size:.75rem;color:var(--ink-3)}
+@media (prefers-reduced-motion:reduce){.chatp{transition:none}}
+
+/* ── imagery on cards ────────────────────────────────────────────────── */
+.proj .pimg{border-bottom:1px solid var(--line);background:var(--paper)}
+.proj .pimg img{width:100%;height:190px;object-fit:cover;display:block}
+.post .pimg{border:1px solid var(--line);border-radius:3px;overflow:hidden;
+  background:var(--paper)}
+.post .pimg img{width:100%;aspect-ratio:561/306;object-fit:cover;display:block}
+.svc h3{display:flex;align-items:center;gap:10px}
+.svc .ico{width:34px;height:34px;flex:none;display:flex;align-items:center;
+  justify-content:center;background:var(--mint);border-radius:3px;padding:5px}
+.svc .ico img{max-width:100%;max-height:100%}
+.svc-art{background:var(--mint)}
+.svc-art img{aspect-ratio:16/9;object-fit:contain;padding:26px}
+
 /* ── print ───────────────────────────────────────────────────────────── */
 @media print{
   .hdr,.ftr,.cta,.map,.map-tabs,.filters,.skip,.hero-cta,.socrow,.soc,
-  .drawer,.scrim,.toast,.burger,.loadmore,.mobfilter{display:none!important}
+  .drawer,.scrim,.toast,.burger,.loadmore,.mobfilter,.chatb,.chatp{display:none!important}
+  .rev{opacity:1!important;transform:none!important}
   body{background:#fff;color:#000}
   .sec,.cat,.phead .wrap{padding-block:16px}
   a{color:#000;text-decoration:none}
