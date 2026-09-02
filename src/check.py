@@ -3,6 +3,10 @@
 import os, re, sys, subprocess, tempfile, shutil
 from html.parser import HTMLParser
 
+# cp1252 consoles/pipes cannot print the check marks — force UTF-8
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.normpath(os.path.join(HERE, "..", "dist"))
 VOID = {'br','img','input','meta','link','hr','path','circle','rect','source','use',

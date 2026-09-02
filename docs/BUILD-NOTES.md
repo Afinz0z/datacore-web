@@ -1,7 +1,8 @@
 # Datacore site rebuild — build notes
 
-14 static pages: 7 in English, 7 in Arabic. Everything is generated from `src/`,
-so the two languages cannot drift apart.
+20 static pages: 7 content pages plus terms/privacy stubs and a 404, in
+English and Arabic, plus robots.txt and sitemap.xml. Everything is generated
+from `src/`, so the two languages cannot drift apart.
 
 | | English | Arabic |
 |---|---|---|
@@ -113,8 +114,30 @@ Defined once in `content.py` as `SOCIALS`, rendered in two places:
 LinkedIn, Instagram and Facebook are all wired. The dead `#`, `yourhandle` and
 `yourchannel` links from the old footer are gone.
 
+## Map office switcher
+
+The Find-us map now has Riyadh / Dubai / Kozhikode buttons. Before the
+visitor consents, switching only retargets the facade; after the first
+click, switching swaps the iframe. Dubai and Kozhikode still resolve by
+address query — confirm both pins.
+
+## Forms without a back end
+
+The contact form opens a pre-filled email to sales@datacore.com.sa on
+submit, so it genuinely works today; swap for a POST when the back end
+lands. The RFQ drawer validates name + email-or-phone, persists the basket
+in localStorage, and shows the exact JSON it will POST to `/api/rfq`.
+
+## Catalogue management
+
+`python manage.py` adds/removes products and attaches photos (rebuilding
+automatically). Photos: `src/assets/products/<sku>.jpg|png|webp|svg` —
+cards fall back to the category icon where no photo exists. How-to for the
+team: `docs/PRODUCTS.md`.
+
 ## Still to build
 
-Service detail template (38 pages), project detail template, blog post
-template, careers, 404, sitemap.xml, and the RFQ back end. The catalogue front
-end is complete and posts a documented JSON payload to `POST /api/rfq`.
+Service detail template (38 pages — cards are unlinked until then; slugs in
+`content.SERVICE_SLUGS`), project detail template, blog post template,
+careers, and the RFQ back end. The catalogue front end is complete and
+posts a documented JSON payload to `POST /api/rfq`.

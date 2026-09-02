@@ -16,10 +16,15 @@ in production; nothing here is live yet.
 
 ```bash
 cd src
-python3 build.py                   # writes 14 files to dist/
+python3 build.py                   # writes 20 pages + robots/sitemap to dist/
 python3 check.py                   # verify — run this after every change
+python3 manage.py                  # catalogue: add/remove products, photos
 python3 -m http.server -d ../dist  # serve locally at :8000
 ```
+
+On Windows the interpreter is `python`. Both build.py and check.py run on
+3.9+ — do not use syntax newer than that (a backslash inside an f-string
+expression once broke the whole build on 3.11).
 
 `check.py` enforces the hard rules below mechanically: structure, internal
 links, lang/dir pairs, inline JS syntax, no physical CSS direction properties,
@@ -139,17 +144,28 @@ Use these rather than recalling them. They are also in `content.py`.
 ## Current state
 
 Done: all 7 pages in both languages, the products catalogue front end with
-faceted search and an RFQ basket, the click-to-load map, socials, breadcrumbs,
-skip links, focus rings, `tel:` links, WhatsApp.
+faceted search and an RFQ basket (persisted to localStorage), the
+click-to-load map with a three-office switcher, socials, breadcrumbs, skip
+links, focus rings, `tel:` links, WhatsApp, canonical/hreflang/OG meta, SVG
+favicon, Organization JSON-LD, robots.txt + sitemap.xml, a branded 404,
+terms/privacy stub pages (noindex, awaiting real legal text), a print
+stylesheet, and `manage.py` for catalogue add/remove/photos
+(`docs/PRODUCTS.md`).
 
-Not done: service detail template (38 pages), project detail template, blog post
-template, careers, 404, `sitemap.xml`, structured data, and the entire RFQ back
-end. See `docs/BACKLOG.md`.
+The contact form and the RFQ drawer have no back end yet: the contact form
+opens a pre-filled mailto to sales@, and the RFQ send renders the JSON
+payload it would POST to `/api/rfq`. Service cards on the services hub are
+deliberately unlinked — the 38 detail pages don't exist yet; their future
+slugs are in `content.SERVICE_SLUGS`.
 
-The catalogue front end posts a documented JSON payload to `POST /api/rfq`.
-Nothing receives it yet. Product data is 37 sample SKUs in
-`src/data/products.json`; production is 1,000+ via the Excel importer in
-`data/datacore-product-import-template.xlsx`, which defines the schema.
+Not done: service detail template (38 pages), project detail template, blog
+post template, careers, and the entire RFQ back end. See `docs/BACKLOG.md`.
+
+Product data is 37 sample SKUs in `src/data/products.json`; production is
+1,000+ via the Excel importer in `data/datacore-product-import-template.xlsx`,
+which defines the schema. Product photos: `src/assets/products/<sku>.jpg`
+(see `sku_file()` — `/` in a SKU becomes `_`), picked up automatically at
+build time.
 
 ## Gotchas
 
