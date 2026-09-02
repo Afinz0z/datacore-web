@@ -404,7 +404,9 @@ C['en'] = {
 # ══════════════════════════════════════════════════════════════════════════
 C['ar'] = {
  'dir':'rtl','lang':'ar','other':'en','other_label':'English','other_lang':'en',
- 'font':"family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Archivo:wght@400;600",
+ # Plex Mono is loaded here too: the catalogue sets SKUs/part numbers in it
+ # (0/O distinction) and that must hold on the Arabic pages as well.
+ 'font':"family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500",
 
  'nav':[('about','من نحن'),('services','خدماتنا'),('products','المنتجات'),
         ('projects','مشاريعنا'),('insights','مقالات تقنية'),('contact','تواصل معنا')],

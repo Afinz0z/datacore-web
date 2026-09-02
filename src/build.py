@@ -873,7 +873,8 @@ function fgroup(title,dim,counts,selected,limit){{
   list.forEach(v=>{{const c=counts[v]||0,on=selected.includes(v);
     h+=`<label class="${{c===0&&!on?"off":""}}"><input type="checkbox" data-dim="${{esc(dim)}}"
       value="${{esc(v)}}" ${{on?"checked":""}}><span>${{esc(v)}}</span><span>${{c}}</span></label>`;}});
-  if(all.length>list.length)h+=`<button class="more" data-more="${{esc(dim)}}">+${{all.length-list.length}}</button>`;
+  if(all.length>list.length)h+=`<button class="more" data-more="${{esc(dim)}}"
+    aria-expanded="false">+${{all.length-list.length}}</button>`;
   return h+`</div>`;}}
 function renderFacets(){{
   const n=S.cat.length+S.brand.length+S.avail.length+Object.values(S.spec).flat().length;
