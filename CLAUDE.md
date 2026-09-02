@@ -153,13 +153,23 @@ stylesheet, and `manage.py` for catalogue add/remove/photos
 (`docs/PRODUCTS.md`).
 
 The contact form and the RFQ drawer have no back end yet: the contact form
-opens a pre-filled mailto to sales@, and the RFQ send renders the JSON
-payload it would POST to `/api/rfq`. Service cards on the services hub are
-deliberately unlinked — the 38 detail pages don't exist yet; their future
-slugs are in `content.SERVICE_SLUGS`.
+opens a pre-filled mailto to sales@ (and reads `?service=` to prefill from a
+service page), and the RFQ send renders the JSON payload it would POST to
+`/api/rfq`.
 
-Not done: service detail template (38 pages), project detail template, blog
-post template, careers, and the entire RFQ back end. See `docs/BACKLOG.md`.
+**All 38 service detail pages exist in both languages**
+(`service-<slug>.html` / `-ar`). EN body copy is the client's own live-site
+text, fetched verbatim into `src/data/services-copy.json` — do not edit that
+file by hand. The live site's Arabic service pages are EMPTY shells, so the
+Arabic edition lives in `src/data/services-copy-ar.json`, written in-repo and
+awaiting the same native review as the rest of the Arabic. The map on
+contact loads directly with `loading="lazy"` — owner decision, see
+`docs/DECISIONS.md`. Client photography lives in `src/assets/photos/` with
+bilingual captions in `content.PHOTOS`; none of the photos claims a named
+client (`SERVICE_PHOTOS` maps 9 of them onto matching service pages).
+
+Not done: project detail template, blog post template, careers, and the
+entire RFQ back end. See `docs/BACKLOG.md`.
 
 Product data is 37 sample SKUs in `src/data/products.json`; production is
 1,000+ via the Excel importer in `data/datacore-product-import-template.xlsx`,

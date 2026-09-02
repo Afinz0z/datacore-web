@@ -21,11 +21,13 @@ the quickest wins. This file is the build-side subset.
 
 ## Templates still to build
 
-- [ ] **Service detail** (38 pages). Highest SEO value on the site. Needs:
-      hero, scope of work, standards, capability table, related projects,
-      related products, FAQ, and a pre-filled enquiry form carrying the service
-      name. Copy should come from `docs/RESEARCH-PROMPT.md` output rather than
-      being written from scratch.
+- [x] **Service detail** (38 pages, both languages) — done 2 Sep 2026. EN copy
+      fetched verbatim from the live site (`src/data/services-copy.json`); AR
+      edition authored in-repo (`services-copy-ar.json`, needs the native
+      review pass). Each page: hero, body sections, discipline sidebar,
+      related services, standards line, photo where one honestly fits, and an
+      ask-about CTA that pre-fills the contact form. Still worth adding
+      later: related products per service, FAQ blocks.
 - [ ] **Project detail.** Standardise on client, sector, scope, systems,
       equipment list linked to the catalogue, duration, outcome, client quote.
 - [ ] **Blog post.** Author, date, Article schema.
