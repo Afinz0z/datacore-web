@@ -27,6 +27,7 @@ html[dir=rtl]{
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:88px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 body{margin:0;font-family:var(--sans);font-size:16px;line-height:var(--lh);
   color:var(--ink);background:var(--surface);-webkit-font-smoothing:antialiased}
 img,svg{max-width:100%;display:block}
