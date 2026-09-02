@@ -85,7 +85,7 @@ for _fn in ("og-image.png", "apple-touch-icon.png", "favicon-32.png"):
     _src = os.path.join(HERE, "assets", _fn)
     if os.path.exists(_src):
         _shutil.copy2(_src, os.path.join(_ASSETS, _fn))
-for _sub in ("photos", "brands", "services"):
+for _sub in ("photos", "brands", "services", "about"):
     _dir = os.path.join(HERE, "assets", _sub)
     if os.path.isdir(_dir):
         os.makedirs(os.path.join(_ASSETS, _sub), exist_ok=True)
@@ -353,7 +353,10 @@ def chat_widget(l):
     stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>
 </button>
 <div class="chatp" id="chatP" role="dialog" aria-label="{t['chat_label']}">
-  <header><strong>{t['chat_h']}</strong><p>{t['chat_p']}</p></header>
+  <header>
+    <span class="cava"><img src="data:image/svg+xml,{FAVICON}" alt=""></span>
+    <div><strong>{t['chat_h']}</strong><p>{t['chat_p']}</p></div>
+  </header>
   <div class="acts">
     <a href="https://wa.me/{WHATSAPP}?text={wa_text}" rel="noopener" target="_blank">
       {ic}<path d="M21 12a8 8 0 01-11.6 7.2L4 21l1.8-5.4A8 8 0 1121 12z"/></svg>{t['chat_wa']}</a>
@@ -491,8 +494,10 @@ def posts(l, on_insights=False):
         alt = ar_alt if l == "ar" else en_alt
         img = (f'<div class="pimg"><img src="assets/photos/{pf}" width="{pw}" '
                f'height="{phh}" loading="lazy" alt="{e(alt)}"></div>')
-        inner = (f'<div><span class="by">{date} · {by}</span><h3>{h}</h3></div>'
-                 f'<div>{img}<p style="margin-top:12px">{body}</p></div>') if big else \
+        # big card: date/title/summary fill the start column, image the other —
+        # no dead space under the headline
+        inner = (f'<div><span class="by">{date} · {by}</span><h3>{h}</h3>'
+                 f'<p>{body}</p></div>{img}') if big else \
                 (f'{img}<span class="by">{date} · {by}</span><h3>{h}</h3>'
                  f'<p>{body}</p>')
         out.append(f'<article class="{cls}">{inner}</article>')
@@ -561,13 +566,21 @@ def page_index(l):
 </div></section>
 {cta(l)}"""
 
+VAL_ART = ["value-innovation.png", "value-clients.png", "value-integrity.png",
+           "value-security.png", "value-reliability.png", "value-progression.png"]
+
 def page_about(l):
     t = C[l]
     story = "".join(f"<p style='margin-bottom:var(--s2)'>{p}</p>" for p in t['a_story'])
     story += (f'<a class="btn btn-s" href="{BROCHURE}" download '
               f'style="margin-top:var(--s2)">{t["brochure_btn"]}</a>')
-    vals = "".join(f'<div class="val"><span class="n">{i+1:02d}</span><h3>{h}</h3><p>{p}</p></div>'
-                   for i, (h, p) in enumerate(t['a_vals']))
+    # the live about page pairs each core value with its illustration — same
+    # artwork, same order (fetched from the client's own site)
+    vals = "".join(
+        f'<div class="val"><div class="vico"><img src="assets/about/{VAL_ART[i]}" '
+        f'alt="" loading="lazy"></div>'
+        f'<span class="n">{i+1:02d}</span><h3>{h}</h3><p>{p}</p></div>'
+        for i, (h, p) in enumerate(t['a_vals']))
     stats = stat_row(l)
     return f"""{phead(l,'about',t['a_title'],t['a_lede'])}
 <section class="stats"><div class="wrap">{stats}</div></section>
@@ -590,8 +603,8 @@ def page_about(l):
   <div class="gal">{photo('team-riyadh', l, crop=True)}{photo('team-kozhikode', l, crop=True)}{photo('qsys-training', l, crop=True)}</div>
 </div></section>
 <section class="sec sec-alt"><div class="wrap">
-  <div class="sec-head split"><h2>{t['a_where_h']}</h2><p>{t['a_where']}</p></div>
-  {partners_grid()}
+  <div class="sec-head split"><h2>{t['a_alli_h']}</h2><p>{t['a_where']}</p></div>
+  {brand_marquee()}
 </div></section>
 {cta(l)}"""
 
@@ -610,11 +623,12 @@ def page_services(l):
             sslug = SERVICE_SLUGS[en_subs[i][2][j]]
             surl = url("service-" + sslug, l)
             art = SVC_ART.get(sslug)
-            ico = (f'<span class="ico"><img src="{art}" alt="" loading="lazy"></span>'
-                   if art else "")
-            cards += (f'<article class="svc"><h3>{ico}<a href="{surl}">{s}</a></h3>'
+            top = (f'<a class="svc-top" href="{surl}" tabindex="-1" aria-hidden="true">'
+                   f'<img src="{art}" alt="" loading="lazy"></a>' if art else "")
+            cards += (f'<article class="svc">{top}<div class="svc-in">'
+                      f'<h3><a href="{surl}">{s}</a></h3>'
                       f'<p>{t["svc_blurbs"][s]}</p>'
-                      f'<a class="more" href="{surl}">{t["read"]} {arr}</a></article>')
+                      f'<a class="more" href="{surl}">{t["read"]} {arr}</a></div></article>')
         cats.append(f"""<section class="cat" id="{slug}">
   <div class="cat-head">
     <div><span class="num">{i+1:02d} — {len(subs)}</span><h2>{name}</h2></div>
@@ -733,8 +747,30 @@ def page_contact(l):
              "addressLocality": "Kozhikode", "postalCode": "673016",
              "addressCountry": "IN"}},
     ], ensure_ascii=False)
-    return f"""{phead(l,'contact',t['c_title'],t['c_lede'])}
-<section class="sec"><div class="wrap">
+    ic = ('<svg width="17" height="17" viewBox="0 0 24 24" fill="none" '
+          'stroke="currentColor" stroke-width="1.8">')
+    return f"""<section class="phead"><div class="wrap chero">
+  <div>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="{url('index',l)}">{t['home']}</a>
+      <span>/</span><span>{t['c_title']}</span></nav>
+    <h1>{t['c_title']}</h1><p style="margin-top:var(--s3);color:var(--ink-2);
+      font-size:1.125rem;max-width:60ch">{t['c_lede']}</p>
+  </div>
+  <div class="quick">
+    <h3>{t['c_quick_h']}</h3>
+    <a href="tel:{t['offices'][0][5]}">
+      {ic}<path d="M5 4h4l2 5-2.5 1.5a12 12 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+      <span dir="ltr">{t['offices'][0][4]}</span></a>
+    <a href="mailto:sales@datacore.com.sa">
+      {ic}<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+      <span dir="ltr">sales@datacore.com.sa</span></a>
+    <a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">
+      {ic}<path d="M21 12a8 8 0 01-11.6 7.2L4 21l1.8-5.4A8 8 0 1121 12z"/></svg>
+      {t['f_whatsapp']}</a>
+    <p class="formnote">{f['note']}</p>
+  </div>
+</div></section>
+<section class="sec sec-tight"><div class="wrap">
   <div class="sec-head" style="margin-bottom:var(--s3)"><h2>{t['c_offices_h']}</h2></div>
   <div class="geo-grid">
     <div class="offices-list" id="officeList">{offices}</div>
