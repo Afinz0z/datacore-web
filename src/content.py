@@ -408,6 +408,8 @@ C['en'] = {
  'a_team_h':'The people behind the projects',
  'a_team_p':('One hundred plus engineers and technicians across three countries — trained by '
              'the manufacturers whose systems they install.'),
+ 'a_alli_h':'Our trusted alliances',
+ 'c_quick_h':'Reach us directly',
 
  # ── insights ──────────────────────────────────────────────────────────
  'i_title':'Technical notes',
@@ -737,6 +739,8 @@ C['ar'] = {
             'أنحاء المملكة انطلاقاً من الرياض.'),
  'a_team_h':'الفريق وراء المشاريع',
  'a_team_p':'أكثر من مئة مهندس وفني في ثلاث دول — مدرَّبون لدى الشركات المصنّعة للأنظمة التي يركّبونها.',
+ 'a_alli_h':'تحالفاتنا الموثوقة',
+ 'c_quick_h':'تواصل مباشرة',
 
  'i_title':'ملاحظات تقنية',
  'i_lede':('ملاحظات من مهندسينا حول القرارات التي تتكرر في المشاريع الفعلية. بلا إعلانات '
