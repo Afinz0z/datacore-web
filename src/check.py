@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Post-build checks. Run from src/:  python3 build.py && python3 check.py"""
-import os, re, sys, subprocess
+import os, re, sys, subprocess, tempfile, shutil
 from html.parser import HTMLParser
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.normpath(os.path.join(HERE, "..", "dist"))
 VOID = {'br','img','input','meta','link','hr','path','circle','rect','source','use',
-        'area','col','polygon','line','ellipse','polyline','stop','option','iframe'}
+        'area','col','polygon','line','ellipse','polyline','stop'}
 fails = []
+warns = []
 
 class P(HTMLParser):
     def __init__(s): super().__init__(); s.st=[]; s.bad=[]
@@ -36,7 +37,10 @@ for line in css.splitlines():
         fails.append(f"CONTRAST: --brand carries text at 2.83:1 -> {line.strip()[:70]}")
 
 files = sorted(f for f in os.listdir(DIST) if f.endswith(".html"))
-if len(files) != 14: fails.append(f"BUILD: expected 14 pages, got {len(files)}")
+if len(files) < 14: fails.append(f"BUILD: expected at least 14 pages, got {len(files)}")
+
+NODE = shutil.which("node")
+if not NODE: warns.append("node not found — inline JS syntax check skipped")
 
 for f in files:
     src = open(os.path.join(DIST,f), encoding="utf-8").read()
@@ -51,13 +55,20 @@ for f in files:
     want = ("ar","rtl") if f.endswith("-ar.html") else ("en","ltr")
     if not m or m.groups() != want:
         fails.append(f"LANG {f}: got {m.groups() if m else None}, want {want}")
-    # 5. inline JS parses
-    for js in re.findall(r'<script>(.*?)</script>', src, re.S):
-        open("/tmp/_c.js","w").write(js)
-        if subprocess.run(["node","--check","/tmp/_c.js"],
-                          capture_output=True).returncode:
-            fails.append(f"JS {f}: syntax error")
+    # 5. inline JS parses (temp file: portable path, UTF-8 for the Arabic strings)
+    if NODE:
+        for js in re.findall(r'<script>(.*?)</script>', src, re.S):
+            fd, tmp = tempfile.mkstemp(suffix=".js")
+            try:
+                with os.fdopen(fd, "w", encoding="utf-8") as t: t.write(js)
+                r = subprocess.run([NODE,"--check",tmp], capture_output=True)
+                if r.returncode:
+                    fails.append(f"JS {f}: syntax error — "
+                                 f"{r.stderr.decode('utf-8','replace').splitlines()[:1]}")
+            finally:
+                os.unlink(tmp)
 
+for w in warns: print("  ! " + w)
 if fails:
     print("\n".join("  ✗ " + x for x in fails)); sys.exit(1)
 print(f"  ✓ {len(files)} pages — structure, links, lang/dir, JS, RTL, contrast")

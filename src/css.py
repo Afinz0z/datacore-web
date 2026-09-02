@@ -36,7 +36,12 @@ html[dir=rtl] h1,html[dir=rtl] h2,html[dir=rtl] h3,html[dir=rtl] h4{
   line-height:1.45;letter-spacing:0}
 p,ul,ol,dl{margin:0}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  /* the hero stack items rest at opacity:0 and are revealed by the animation —
+     with animation off they must be shown outright or they never appear */
+  .stack a{opacity:1;transform:none}
+}
 
 .wrap{max-width:var(--shell);margin-inline:auto;padding-inline:var(--gutter)}
 .mono{font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;color:var(--ink-3)}
