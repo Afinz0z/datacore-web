@@ -616,6 +616,7 @@ def page_about(l):
         for i, (h, p) in enumerate(t['a_vals']))
     stats = stat_row(l)
     return f"""{phead(l,'about',t['a_title'],t['a_lede'])}
+<div class="band-img" role="img" aria-label="{t['a_band_alt']}"></div>
 <section class="stats"><div class="wrap">{stats}</div></section>
 <section class="sec"><div class="wrap">
   <div class="duo" style="margin-bottom:var(--s5)">

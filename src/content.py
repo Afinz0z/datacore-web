@@ -186,7 +186,8 @@ C = {}
 # ══════════════════════════════════════════════════════════════════════════
 C['en'] = {
  'dir':'ltr','lang':'en','other':'ar','other_label':'العربية','other_lang':'ar',
- 'font':"family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500",
+ 'font':"family=Archivo:wght@400;500;600;700&family=Bricolage+Grotesque:wght@700;800"
+        "&family=IBM+Plex+Mono:wght@400;500",
 
  'nav':[('about','About'),('services','Services'),('products','Products'),
         ('projects','Projects'),('insights','Insights'),('contact','Contact')],
@@ -411,6 +412,7 @@ C['en'] = {
  'a_alli_h':'Our trusted alliances',
  'c_quick_h':'Reach us directly',
  'theme_toggle':'Switch between light and dark mode',
+ 'a_band_alt':'Patched network ports in a structured cabling cabinet',
 
  # ── insights ──────────────────────────────────────────────────────────
  'i_title':'Technical notes',
@@ -743,6 +745,7 @@ C['ar'] = {
  'a_alli_h':'تحالفاتنا الموثوقة',
  'c_quick_h':'تواصل مباشرة',
  'theme_toggle':'التبديل بين الوضع الفاتح والداكن',
+ 'a_band_alt':'منافذ شبكة موصولة في خزانة تمديدات هيكلية',
 
  'i_title':'ملاحظات تقنية',
  'i_lede':('ملاحظات من مهندسينا حول القرارات التي تتكرر في المشاريع الفعلية. بلا إعلانات '
