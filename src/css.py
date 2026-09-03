@@ -468,9 +468,7 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
 .marq-track{display:flex;align-items:center;gap:64px;padding:26px 32px;
   width:max-content;animation:marq 36s linear infinite;direction:ltr}
 .marq:hover .marq-track{animation-play-state:paused}
-.marq img{height:30px;width:auto;flex:none;filter:grayscale(1);opacity:.75;
-  transition:filter .2s,opacity .2s}
-.marq img:hover{filter:none;opacity:1}
+.marq img{height:30px;width:auto;flex:none}
 @keyframes marq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){
   .marq-track{animation:none;width:auto;flex-wrap:wrap;justify-content:center}
