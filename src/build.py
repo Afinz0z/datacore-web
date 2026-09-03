@@ -104,11 +104,13 @@ if os.path.isdir(_art_dir):
     for _fn in os.listdir(_art_dir):
         SVC_ART[os.path.splitext(_fn)[0]] = "assets/services/" + _fn
 
-def photo(key, l, crop=False, lazy=True):
-    """Captioned <figure> for a client photo; alt/caption follow the language."""
+def photo(key, l, crop=False, lazy=True, wide=False):
+    """Captioned <figure> for a client photo; alt/caption follow the language.
+    crop unifies tiles to 4:3; wide spans the full gallery row UNCROPPED —
+    use it for panoramas where a crop would cut people out."""
     f, w, h, en_alt, ar_alt = PHOTOS[key]
     alt = ar_alt if l == "ar" else en_alt
-    cls = "ph crop" if crop else "ph"
+    cls = "ph" + (" crop" if crop else "") + (" wide" if wide else "")
     loading = ' loading="lazy"' if lazy else ""
     return (f'<figure class="{cls}"><img src="assets/photos/{f}" width="{w}" height="{h}"'
             f'{loading} alt="{e(alt)}"><figcaption>{e(alt)}</figcaption></figure>')
@@ -600,7 +602,7 @@ def page_about(l):
 </div></section>
 <section class="sec"><div class="wrap">
   <div class="sec-head split"><h2>{t['a_team_h']}</h2><p>{t['a_team_p']}</p></div>
-  <div class="gal">{photo('team-riyadh', l, crop=True)}{photo('team-kozhikode', l, crop=True)}{photo('qsys-training', l, crop=True)}</div>
+  <div class="gal">{photo('team-riyadh', l, crop=True)}{photo('qsys-training', l, crop=True)}{photo('huawei-briefing', l, crop=True)}{photo('team-kozhikode', l, wide=True)}</div>
 </div></section>
 <section class="sec sec-alt"><div class="wrap">
   <div class="sec-head split"><h2>{t['a_alli_h']}</h2><p>{t['a_where']}</p></div>
