@@ -308,7 +308,7 @@ var RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 /* reveal on scroll */
 if(!RM&&'IntersectionObserver' in window){
   var els=document.querySelectorAll(
-    '.sec-head,.disc article,.svc,.proj,.val,.post,figure.ph,.tl article,.office-card,.marq');
+    '.sec-head,.disc article,.svc,.proj,.val,.post,figure.ph,.tl article,.office-card,.marq,.ocard,.ocenter');
   var io=new IntersectionObserver(function(es){es.forEach(function(x){
     if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},
     {threshold:.12,rootMargin:'0px 0px -4% 0px'});
@@ -512,6 +512,21 @@ def timeline(l):
         f'<article><time datetime="{y}">{y}</time><h3>{h}</h3><p>{p}</p></article>'
         for y, h, p in C[l]['tl']) + '</div>'
 
+def orbit(l):
+    """The live about page's 'how we get started': a centred title inside
+    concentric circles with the five milestones orbiting it (stacks <1080px)."""
+    t = C[l]
+    pos = ["o-tl", "o-tr", "o-mr", "o-bc", "o-ml"]
+    cards = "".join(
+        f'<article class="ocard {pos[i]}"><header><h3>{h}</h3>'
+        f'<span class="n">{i+1:02d}</span></header>'
+        f'<p><span dir="ltr">{y}</span> · {p}</p></article>'
+        for i, (y, h, p) in enumerate(t['tl']))
+    return f"""<section class="sec orbit-sec"><div class="wrap"><div class="orbit">
+  <div class="ocenter"><h2>{t['h_tl_title']}</h2><p>{t['h_tl_lede']}</p></div>
+  {cards}
+</div></div></section>"""
+
 def posts(l, on_insights=False):
     # Post detail pages don't exist yet (docs/BACKLOG.md — blog template).
     # On the home page the titles lead to the insights listing; on the
@@ -626,9 +641,9 @@ def page_about(l):
     </div>
     {photo('ceo', l, crop=True)}
   </div>
-  {timeline(l)}
 </div></section>
-<section class="sec sec-alt"><div class="wrap">
+{orbit(l)}
+<section class="sec"><div class="wrap">
   <div class="sec-head"><h2>{t['a_vals_h']}</h2></div>
   <div class="vals">{vals}</div>
 </div></section>

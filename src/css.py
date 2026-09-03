@@ -63,8 +63,9 @@ html[dir=rtl]{
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:88px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{margin:0;font-family:var(--sans);font-size:17px;line-height:var(--lh);
+body{margin:0;font-family:var(--sans);font-size:18px;line-height:var(--lh);
   color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+@media(max-width:560px){body{font-size:17px}}
 img,svg{max-width:100%;display:block}
 button,input,select,textarea{font:inherit;color:inherit}
 button{cursor:pointer;border:0;background:none}
@@ -155,7 +156,7 @@ html[dir=rtl] .mono{letter-spacing:0;font-size:.8125rem}
 /* One cinematic moment: real rack photography under an ink veil with a
    slowly drifting teal aurora. Deliberately identical in both themes. */
 .hero{position:relative;border-bottom:1px solid var(--line);overflow:hidden;
-  background:#0C0E10 url('assets/photos/stock-datacentre.jpg') center/cover no-repeat}
+  background:#0C0E10 url('assets/photos/hero-live.jpg') center/cover no-repeat}
 .hero::before{content:"";position:absolute;inset:0;
   background:linear-gradient(100deg,rgba(9,11,13,.94) 26%,rgba(9,11,13,.62) 62%,
     rgba(0,90,84,.38) 100%)}
@@ -217,7 +218,7 @@ html[dir=rtl] .stat b{text-align:end}
 .sec-tight{padding-block:var(--s4) var(--s6)}
 .sec-alt{background:var(--paper);border-block:1px solid var(--line)}
 .sec-head{max-width:62ch;margin-bottom:var(--s4)}
-.sec-head h2{font-size:clamp(1.9rem,3.4vw,2.7rem)}
+.sec-head h2{font-size:clamp(2rem,3.5vw,2.9rem)}
 .sec-head p{margin-top:var(--s2);color:var(--ink-2);font-size:1.125rem}
 .sec-head.split{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
   gap:var(--s4);align-items:end}
@@ -260,13 +261,21 @@ html[dir=rtl] .stat b{text-align:end}
   display:block;margin-bottom:10px}
 .cat-head h2{font-size:clamp(1.6rem,2.9vw,2.2rem)}
 .cat-head p{color:var(--ink-2)}
-.svcs{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);
-  overflow:hidden}
+/* live-site structure: each discipline is a horizontally scrolling row of
+   image cards, snapping card by card (mirrors automatically in RTL) */
+.svcs{display:grid;grid-auto-flow:column;grid-auto-columns:min(340px,82vw);gap:16px;
+  overflow-x:auto;padding:6px 6px 18px;scroll-snap-type:x proximity;
+  scrollbar-width:thin;scrollbar-color:var(--line-2) transparent}
+.svcs::-webkit-scrollbar{height:8px}
+.svcs::-webkit-scrollbar-track{background:transparent}
+.svcs::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:4px}
 .svc{background:var(--surface);padding:0;display:flex;flex-direction:column;
-  border-inline-end:1px solid var(--line);border-block-end:1px solid var(--line);
-  margin-inline-end:-1px;margin-block-end:-1px}
-.svc-top{background:var(--well);height:120px;display:flex;align-items:center;
-  justify-content:center;padding:18px;border-bottom:1px solid var(--line)}
+  border:1px solid var(--line);border-radius:4px;scroll-snap-align:start;
+  overflow:hidden;transition:box-shadow .2s,border-color .2s}
+.svc:hover{border-color:var(--line-2);
+  box-shadow:0 22px 40px -28px rgba(26,27,31,.35)}
+.svc-top{background:var(--well);height:150px;display:flex;align-items:center;
+  justify-content:center;padding:20px;border-bottom:1px solid var(--line)}
 .svc-top img{max-height:100%;max-width:60%;transition:transform .25s}
 .svc:hover .svc-top img{transform:scale(1.06)}
 .svc-in{padding:var(--s3);display:flex;flex-direction:column;gap:10px;flex:1}
@@ -286,15 +295,15 @@ html[dir=rtl] .stat b{text-align:end}
 html[dir=rtl] .proj .band{letter-spacing:0;font-size:.8125rem}
 .proj .band span:last-child{color:var(--brand)} /* ok-on-dark: 5.8:1 on --ink */
 .proj .in{padding:var(--s3);display:flex;flex-direction:column;gap:14px;flex:1}
-.proj h3{font-size:1.375rem}
-.proj>.in>p{color:var(--ink-2);font-size:.9375rem}
+.proj h3{font-size:1.5rem}
+.proj>.in>p{color:var(--ink-2);font-size:1rem}
 .proj dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:.875rem;
   border-top:1px solid var(--line);padding-top:14px;margin-top:auto}
 .proj dt{color:var(--ink-3)}
 .proj dd{margin:0}
 .kit{display:flex;flex-wrap:wrap;gap:6px}
-.kit a{font-size:.75rem;font-family:var(--mono);border:1px solid var(--line-2);
-  padding:3px 8px;border-radius:2px;text-decoration:none;color:var(--accent)}
+.kit a{font-size:.8125rem;font-family:var(--mono);border:1px solid var(--line-2);
+  padding:4px 10px;border-radius:2px;text-decoration:none;color:var(--accent)}
 .kit a:hover{background:var(--mint)}
 
 /* ── timeline ────────────────────────────────────────────────────────── */
@@ -417,6 +426,37 @@ html[dir=rtl] .office-card.on{box-shadow:inset -3px 0 0 var(--brand)}
   text-decoration:none;margin-top:10px}
 .dirlink:hover{text-decoration:underline}
 
+/* ── orbital timeline (about) — the live site's "how we get started" ── */
+.orbit-sec{background:var(--mint);border-block:1px solid var(--line)}
+.orbit{position:relative;min-height:800px}
+.orbit::before,.orbit::after{content:"";position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-50%);border:1px solid var(--line-2);
+  border-radius:50%;opacity:.5;pointer-events:none}
+.orbit::before{width:min(690px,58vw);height:min(690px,58vw)}
+.orbit::after{width:min(520px,44vw);height:min(520px,44vw)}
+.ocenter{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  text-align:center;max-width:36ch;z-index:1}
+.ocenter h2{font-size:clamp(2.1rem,3.8vw,3.1rem)}
+.ocenter p{margin-top:14px;color:var(--ink-2);font-size:1.0625rem}
+.ocard{position:absolute;width:min(370px,31vw);background:var(--surface);
+  border:1px solid var(--line);border-radius:5px;padding:24px 26px;z-index:1;
+  box-shadow:0 26px 48px -32px rgba(26,27,31,.4)}
+.ocard header{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.ocard h3{font-size:1.125rem;letter-spacing:.04em;text-transform:uppercase}
+html[dir=rtl] .ocard h3{letter-spacing:0}
+.ocard .n{font-family:var(--mono);color:var(--accent);font-size:1.125rem;flex:none}
+.ocard p{margin-top:10px;color:var(--ink-2);font-size:.9375rem}
+.o-tl{top:0;inset-inline-start:5%}
+.o-tr{top:3%;inset-inline-end:3%}
+.o-mr{top:45%;inset-inline-end:0}
+.o-ml{top:40%;inset-inline-start:0}
+.o-bc{bottom:0;left:50%;transform:translateX(-50%)}
+@media(max-width:1080px){
+  .orbit{min-height:0}
+  .orbit::before,.orbit::after{display:none}
+  .ocenter{position:static;transform:none;margin:0 auto var(--s3);max-width:none}
+  .ocard{position:static;transform:none;width:auto;margin-bottom:14px}}
+
 /* ── full-width photo band (about) ───────────────────────────────────── */
 .band-img{height:clamp(220px,32vw,400px);border-bottom:1px solid var(--line);
   background:#101114 url('assets/photos/stock-patching.jpg') center/cover no-repeat}
@@ -512,7 +552,7 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
 
 /* ── responsive ──────────────────────────────────────────────────────── */
 @media(max-width:1080px){
-  .disc,.svcs,.vals{grid-template-columns:repeat(2,1fr)}
+  .disc,.vals{grid-template-columns:repeat(2,1fr)}
   .partners{grid-template-columns:repeat(4,1fr)}
   .tl{grid-template-columns:repeat(2,1fr);gap:var(--s4)}
   .ftr-top{grid-template-columns:1fr 1fr}
@@ -533,7 +573,7 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
     color:var(--accent-contrast);border-radius:2px;justify-content:center;font-weight:600;
     padding:13px 20px;border-bottom:0}
   .stats .wrap{grid-template-columns:1fr 1fr;gap:var(--s3)}
-  .projs,.posts,.offices,.disc,.svcs,.vals,.two{grid-template-columns:1fr}
+  .projs,.posts,.offices,.disc,.vals,.two{grid-template-columns:1fr}
   .partners{grid-template-columns:repeat(2,1fr)}
   .post-lg{grid-column:auto;grid-template-columns:1fr;gap:var(--s2)}
   .sec-head.split,.cta .wrap{grid-template-columns:1fr;gap:var(--s2)}
@@ -616,7 +656,7 @@ html[dir=rtl] .chatp .acts button::after{content:"‹"}
 
 /* ── imagery on cards ────────────────────────────────────────────────── */
 .proj .pimg{border-bottom:1px solid var(--line);background:var(--paper)}
-.proj .pimg img{width:100%;height:190px;object-fit:cover;display:block}
+.proj .pimg img{width:100%;height:236px;object-fit:cover;display:block}
 .post .pimg{border:1px solid var(--line);border-radius:3px;overflow:hidden;
   background:var(--paper)}
 .post .pimg img{width:100%;aspect-ratio:561/306;object-fit:cover;display:block}
