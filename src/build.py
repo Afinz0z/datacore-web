@@ -229,6 +229,13 @@ def head(l, page, title, desc, extra_css="", noindex=False):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{t['font']}&display=swap" rel="stylesheet">
+<script>
+/* apply the visitor's saved theme before first paint (no flash);
+   with nothing saved, the stylesheet follows the system preference */
+try{{var _t=localStorage.getItem('dc-theme');
+if(_t==='dark'||_t==='light')document.documentElement.setAttribute('data-theme',_t);
+}}catch(e){{}}
+</script>
 <style>{CSS}{extra_css}</style>
 </head>
 <body>
@@ -250,6 +257,13 @@ def header(l, page):
     <nav class="mainnav" id="mainnav" aria-label="Main">{nav}<a class="menu-cta"
       href="{url('contact',l)}">{t['consult']}</a></nav>
     <div class="hdr-cta">
+      <button class="tbtn" id="themeT" aria-label="{t['theme_toggle']}">
+        <svg class="tmoon" width="17" height="17" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8"><path d="M20.5 14.5A8.5 8.5 0 019.5 3.5a8.5 8.5 0 1011 11z"/></svg>
+        <svg class="tsun" width="17" height="17" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/>
+          <path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5 5l1.9 1.9M17.1 17.1L19 19M19 5l-1.9 1.9M6.9 17.1L5 19"/></svg>
+      </button>
       <a class="lang" href="{url(page,t['other'])}" lang="{t['other_lang']}"
          hreflang="{t['other_lang']}">{t['other_label']}</a>
       <a class="btn btn-p" href="{url('contact',l)}">{t['consult']}</a>
@@ -316,6 +330,23 @@ if(cnt.length&&!RM&&'IntersectionObserver' in window){
       if(p<1)requestAnimationFrame(step);};
     requestAnimationFrame(step);});},{threshold:.6});
   cnt.forEach(function(b){io2.observe(b);});
+}
+/* theme toggle */
+var tb=document.getElementById('themeT');
+if(tb){
+  var tmq=matchMedia('(prefers-color-scheme: dark)');
+  var teff=function(){var a=document.documentElement.getAttribute('data-theme');
+    return a||(tmq.matches?'dark':'light');};
+  var tmeta=document.querySelector('meta[name="theme-color"]');
+  var tsync=function(){if(tmeta)tmeta.setAttribute('content',
+    teff()==='dark'?'#131417':'#00776F');};
+  tsync();
+  tb.addEventListener('click',function(){
+    var n=teff()==='dark'?'light':'dark';
+    document.documentElement.setAttribute('data-theme',n);
+    try{localStorage.setItem('dc-theme',n);}catch(e){}
+    tsync();});
+  tmq.addEventListener&&tmq.addEventListener('change',tsync);
 }
 /* chat bubble */
 var cb=document.getElementById('chatB'),cp=document.getElementById('chatP');
@@ -998,7 +1029,7 @@ select.sort{border:1px solid var(--line-2);background:var(--surface);border-radi
 .vtog{display:flex;border:1px solid var(--line-2);border-radius:2px;overflow:hidden;
   background:var(--surface)}
 .vtog button{padding:7px 10px;display:flex;color:var(--ink-2)}
-.vtog button[aria-pressed=true]{background:var(--ink);color:#fff}
+.vtog button[aria-pressed=true]{background:var(--band);color:#fff}
 .chips{display:flex;gap:7px;flex-wrap:wrap;width:100%}
 .chip{background:var(--surface);border:1px solid var(--line-2);border-radius:20px;
   padding:3px 8px 3px 11px;font-size:.8125rem;display:flex;align-items:center;gap:6px}
@@ -1007,7 +1038,7 @@ select.sort{border:1px solid var(--line-2);background:var(--surface);border-radi
 .pcard{background:var(--surface);border:1px solid var(--line);border-radius:2px;
   display:flex;flex-direction:column;overflow:hidden}
 .pcard:hover{border-color:var(--line-2)}
-.pcard .thumb{background:var(--paper);height:132px;display:flex;align-items:center;
+.pcard .thumb{background:var(--well);height:132px;display:flex;align-items:center;
   justify-content:center;border-bottom:1px solid var(--line);cursor:pointer;color:#8A9299;
   width:100%;padding:0;overflow:hidden}
 .thumb img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
@@ -1029,14 +1060,14 @@ select.sort{border:1px solid var(--line-2);background:var(--surface);border-radi
 .add{display:flex;gap:7px;padding:0 12px 12px}
 .add input{width:56px;border:1px solid var(--line-2);border-radius:2px;padding:7px 8px;
   text-align:center;direction:ltr}
-.add button{flex:1;background:var(--ink);color:#fff;border-radius:2px;padding:7px 10px;
+.add button{flex:1;background:var(--band);color:#fff;border-radius:2px;padding:7px 10px;
   font-size:.875rem;font-weight:500}
 .add button:hover{background:var(--accent-d)}
 .add button.in{background:var(--accent)}
 .prow{background:var(--surface);border:1px solid var(--line);border-radius:2px;display:grid;
   grid-template-columns:56px minmax(0,2.2fr) minmax(0,1.6fr) 140px 150px;gap:14px;
   align-items:center;padding:10px 12px}
-.prow .thumb{height:44px;background:var(--paper);border:1px solid var(--line);border-radius:2px;
+.prow .thumb{height:44px;background:var(--well);border:1px solid var(--line);border-radius:2px;
   display:flex;align-items:center;justify-content:center;color:#8A9299;cursor:pointer;
   padding:0;overflow:hidden}
 .prow h4{margin:0;font-size:.9375rem;font-weight:500;cursor:pointer}
@@ -1061,7 +1092,7 @@ html[dir=rtl] .drawer{transform:translateX(-102%)}
 .drawer>header button{margin-inline-start:auto;font-size:1.5rem;line-height:1;color:var(--ink-2)}
 .dbody{overflow-y:auto;flex:1;padding:20px}
 .dfoot{border-top:1px solid var(--line);padding:16px 20px;background:var(--paper)}
-.pd-hero{background:var(--paper);border:1px solid var(--line);height:190px;display:flex;
+.pd-hero{background:var(--well);border:1px solid var(--line);height:190px;display:flex;
   align-items:center;justify-content:center;color:#8A9299;margin-bottom:16px}
 .stable{width:100%;border-collapse:collapse;margin-top:16px;font-size:.875rem}
 .stable th{text-align:start;font-weight:500;color:var(--ink-2);padding:8px 0;
@@ -1077,10 +1108,10 @@ html[dir=rtl] .drawer{transform:translateX(-102%)}
 .line .lctl button{font-size:.8125rem;color:var(--ink-2);text-decoration:underline}
 .line textarea{grid-column:1/-1;width:100%;border:1px solid var(--line-2);border-radius:2px;
   padding:7px 9px;font-size:.8125rem;min-height:34px;margin-top:6px}
-.payload{background:var(--ink);color:#9FE6D6;border-radius:2px;padding:14px;
+.payload{background:var(--band);color:#9FE6D6;border-radius:2px;padding:14px;
   font-family:'IBM Plex Mono',monospace;font-size:.75rem;line-height:1.6;overflow-x:auto;
   white-space:pre;margin-top:14px;direction:ltr;text-align:start}
-.toast{position:fixed;inset-inline-end:20px;bottom:20px;background:var(--ink);color:#fff;
+.toast{position:fixed;inset-inline-end:20px;bottom:20px;background:var(--band);color:#fff;
   padding:12px 18px;border-radius:2px;z-index:70;font-size:.875rem;transform:translateY(140%);
   transition:transform .22s;display:flex;gap:10px;align-items:center}
 .toast.on{transform:none}

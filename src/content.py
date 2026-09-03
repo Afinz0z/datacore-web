@@ -410,6 +410,7 @@ C['en'] = {
              'the manufacturers whose systems they install.'),
  'a_alli_h':'Our trusted alliances',
  'c_quick_h':'Reach us directly',
+ 'theme_toggle':'Switch between light and dark mode',
 
  # ── insights ──────────────────────────────────────────────────────────
  'i_title':'Technical notes',
@@ -741,6 +742,7 @@ C['ar'] = {
  'a_team_p':'أكثر من مئة مهندس وفني في ثلاث دول — مدرَّبون لدى الشركات المصنّعة للأنظمة التي يركّبونها.',
  'a_alli_h':'تحالفاتنا الموثوقة',
  'c_quick_h':'تواصل مباشرة',
+ 'theme_toggle':'التبديل بين الوضع الفاتح والداكن',
 
  'i_title':'ملاحظات تقنية',
  'i_lede':('ملاحظات من مهندسينا حول القرارات التي تتكرر في المشاريع الفعلية. بلا إعلانات '
