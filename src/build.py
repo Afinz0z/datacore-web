@@ -602,7 +602,8 @@ def page_about(l):
 </div></section>
 <section class="sec"><div class="wrap">
   <div class="sec-head split"><h2>{t['a_team_h']}</h2><p>{t['a_team_p']}</p></div>
-  <div class="gal">{photo('team-riyadh', l, crop=True)}{photo('qsys-training', l, crop=True)}{photo('huawei-briefing', l, crop=True)}{photo('team-kozhikode', l, wide=True)}</div>
+  <div class="gal-team">{photo('team-riyadh', l)}{photo('team-kozhikode', l)}</div>
+  <div class="gal gal-2" style="margin-top:14px">{photo('qsys-training', l, crop=True)}{photo('huawei-briefing', l, crop=True)}</div>
 </div></section>
 <section class="sec sec-alt"><div class="wrap">
   <div class="sec-head split"><h2>{t['a_alli_h']}</h2><p>{t['a_where']}</p></div>
