@@ -1,22 +1,55 @@
+# Colour tokens per theme. The dark set is a designed palette, not an
+# inversion: bands/footer stay dark in both themes (--band), and image
+# wells stay light in both (--well) so brand logos and white-background
+# product photos remain legible. The accent brightens in dark mode and its
+# button text flips to a deep teal-black (--accent-contrast) for contrast.
+_LIGHT = """
+  color-scheme:light;
+  --bg:#FFFFFF;
+  --ink:#1A1B1F; --ink-2:#565C61; --ink-3:#7C848A;
+  --paper:#F4F7F6; --surface:#FFFFFF; --line:#E2E8E6; --line-2:#CBD5D2;
+  --brand:#00ACA1;        /* logo teal - 2.83:1, fills and marks only      */
+  --accent:#00776F;       /* same hue at 5.43:1 - all text and buttons     */
+  --accent-d:#005A54; --accent-contrast:#FFFFFF;
+  --mint:#EAF6F4; --amber:#8A5A0F;
+  --band:#1A1B1F; --band-sub:#A6B0B2; --well:#F4F7F6;
+  --hdr-bg:rgba(255,255,255,.94);
+  --focus-ring:rgba(0,119,111,.13);
+"""
+_DARK = """
+  color-scheme:dark;
+  --bg:#131417;
+  --ink:#E8EAEB; --ink-2:#ABB3B6; --ink-3:#848C91;
+  --paper:#17181C; --surface:#1C1E23; --line:#2A2E33; --line-2:#3B4147;
+  --brand:#00ACA1;
+  --accent:#3BC0B3;       /* brightened for dark ground - 7.5:1 on --bg    */
+  --accent-d:#5FD9CC; --accent-contrast:#07211E;
+  --mint:#152220; --amber:#D9A54A;
+  --band:#101114; --band-sub:#8F979B; --well:#EDF1F0;
+  --hdr-bg:rgba(19,20,23,.92);
+  --focus-ring:rgba(59,192,179,.24);
+"""
+
 CSS = r"""
 /* ═══════════════════════════════════════════════════════════════════════
    Datacore — shared stylesheet
    Written entirely with CSS logical properties (margin-inline, inset-inline,
    text-align:start) so the Arabic build needs no separate RTL stylesheet.
    Setting dir="rtl" on <html> mirrors the whole layout.
+   Themes: light tokens on :root; dark tokens under [data-theme="dark"] and,
+   for no-JS visitors, under prefers-color-scheme (a head script resolves
+   the stored/system choice before first paint).
    ═══════════════════════════════════════════════════════════════════════ */
-:root{
-  color-scheme:light;
-  --ink:#1A1B1F; --ink-2:#565C61; --ink-3:#7C848A;
-  --paper:#F4F7F6; --surface:#FFFFFF; --line:#E2E8E6; --line-2:#CBD5D2;
-  --brand:#00ACA1;        /* logo teal — 2.83:1, fills and marks only      */
-  --accent:#00776F;       /* same hue at 5.43:1 — all text and buttons     */
-  --accent-d:#005A54; --mint:#EAF6F4; --amber:#8A5A0F;
+:root{@@LIGHT@@
   --sans:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif;
   --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
   --shell:1280px; --gutter:clamp(20px,5vw,56px);
   --s1:8px; --s2:16px; --s3:28px; --s4:48px; --s5:80px; --s6:120px;
   --lh:1.55;
+}
+:root[data-theme="dark"]{@@DARK@@}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){@@DARK@@}
 }
 /* Arabic: different family, looser leading, mono falls back to the Arabic sans */
 html[dir=rtl]{
@@ -29,7 +62,7 @@ html[dir=rtl]{
 html{scroll-behavior:smooth;scroll-padding-top:88px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 body{margin:0;font-family:var(--sans);font-size:16px;line-height:var(--lh);
-  color:var(--ink);background:var(--surface);-webkit-font-smoothing:antialiased}
+  color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
 img,svg{max-width:100%;display:block}
 button,input,select,textarea{font:inherit;color:inherit}
 button{cursor:pointer;border:0;background:none}
@@ -49,7 +82,7 @@ p,ul,ol,dl{margin:0}
 .wrap{max-width:var(--shell);margin-inline:auto;padding-inline:var(--gutter)}
 .mono{font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;color:var(--ink-3)}
 html[dir=rtl] .mono{letter-spacing:0;font-size:.8125rem}
-.skip{position:absolute;inset-inline-start:-9999px;top:0;background:var(--ink);
+.skip{position:absolute;inset-inline-start:-9999px;top:0;background:var(--band);
   color:#fff;padding:12px 20px;z-index:100;text-decoration:none}
 .skip:focus{inset-inline-start:0}
 .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
@@ -57,18 +90,23 @@ html[dir=rtl] .mono{letter-spacing:0;font-size:.8125rem}
 /* ── buttons ─────────────────────────────────────────────────────────── */
 .btn{display:inline-flex;align-items:center;gap:8px;border-radius:2px;font-weight:600;
   font-size:.9375rem;padding:11px 20px;text-decoration:none;white-space:nowrap}
-.btn-p{background:var(--accent);color:#fff}
+.btn-p{background:var(--accent);color:var(--accent-contrast)}
 .btn-p:hover{background:var(--accent-d)}
 .btn-s{border:1px solid var(--line-2);color:var(--ink)}
 .btn-s:hover{border-color:var(--ink)}
 
 /* ── header ──────────────────────────────────────────────────────────── */
-.hdr{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);
+.hdr{position:sticky;top:0;z-index:50;background:var(--hdr-bg);
   -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line)}
 .hdr .wrap{display:flex;align-items:center;gap:var(--s4);height:76px}
 .logo{flex:none;display:block}
 .logo svg{height:46px;width:auto}
+/* the inline logo's ink-coloured paths must lighten on a dark header */
+[data-theme="dark"] .hdr .logo svg [fill="#1A1B1F"]{fill:#EDEFEF}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .hdr .logo svg [fill="#1A1B1F"]{fill:#EDEFEF}
+}
 .mainnav{display:flex;gap:var(--s3);margin-inline-start:auto}
 .mainnav a{color:var(--ink);text-decoration:none;font-size:.9375rem;font-weight:500;
   padding:6px 0;border-bottom:2px solid transparent}
@@ -78,6 +116,17 @@ html[dir=rtl] .mono{letter-spacing:0;font-size:.8125rem}
 .lang{font-family:var(--mono);font-size:.75rem;color:var(--ink-2);border:1px solid var(--line);
   padding:7px 10px;border-radius:2px;text-decoration:none;white-space:nowrap}
 .lang:hover{border-color:var(--ink-2)}
+/* theme toggle: moon shown in light (click -> dark), sun shown in dark */
+.tbtn{display:flex;padding:8px;border:1px solid var(--line);border-radius:2px;
+  color:var(--ink-2)}
+.tbtn:hover{border-color:var(--ink-2);color:var(--ink)}
+.tbtn .tsun{display:none}
+[data-theme="dark"] .tbtn .tsun{display:block}
+[data-theme="dark"] .tbtn .tmoon{display:none}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .tbtn .tsun{display:block}
+  :root:not([data-theme="light"]) .tbtn .tmoon{display:none}
+}
 .burger{display:none;padding:8px}
 .burger .x{display:none}
 .burger[aria-expanded=true] .x{display:block}
@@ -85,7 +134,7 @@ html[dir=rtl] .mono{letter-spacing:0;font-size:.8125rem}
 .menu-cta{display:none}
 
 /* ── page header block ───────────────────────────────────────────────── */
-.phead{background:linear-gradient(180deg,var(--mint),#fff);border-bottom:1px solid var(--line)}
+.phead{background:linear-gradient(180deg,var(--mint),var(--bg));border-bottom:1px solid var(--line)}
 .phead .wrap{padding-block:var(--s5) var(--s4)}
 .phead h1{font-size:clamp(2rem,4.2vw,3.1rem);max-width:18ch}
 .phead p{margin-top:var(--s3);color:var(--ink-2);font-size:1.125rem;max-width:60ch}
@@ -96,7 +145,7 @@ html[dir=rtl] .mono{letter-spacing:0;font-size:.8125rem}
 
 /* ── hero (home) ─────────────────────────────────────────────────────── */
 .hero{border-bottom:1px solid var(--line);
-  background:linear-gradient(180deg,var(--mint) 0%,#fff 62%)}
+  background:linear-gradient(180deg,var(--mint) 0%,var(--bg) 62%)}
 .hero .wrap{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
   gap:var(--s6);padding-block:var(--s5);align-items:start}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);
@@ -122,7 +171,7 @@ html[dir=rtl] .eyebrow{letter-spacing:0}
 @keyframes rise{to{opacity:1;transform:none}}
 
 /* ── stats ───────────────────────────────────────────────────────────── */
-.stats{background:var(--ink);color:#fff}
+.stats{background:var(--band);color:#fff}
 .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s4);padding-block:var(--s4)}
 .stat b{display:block;font-size:clamp(2rem,3.4vw,2.75rem);font-weight:700;
   letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1;direction:ltr;
@@ -130,7 +179,7 @@ html[dir=rtl] .eyebrow{letter-spacing:0}
 /* the figure box is direction:ltr (digits), so in RTL its text-align must be
    flipped by hand or the number hugs the wrong edge while its label sits right */
 html[dir=rtl] .stat b{text-align:end}
-.stat span{display:block;margin-top:10px;font-size:.875rem;color:#A6B0B2}
+.stat span{display:block;margin-top:10px;font-size:.875rem;color:var(--band-sub)}
 .stat i{display:block;width:24px;height:2px;background:var(--brand);margin-bottom:16px}
 
 /* ── sections ────────────────────────────────────────────────────────── */
@@ -160,17 +209,17 @@ html[dir=rtl] .stat b{text-align:end}
 .disc ul{padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
 .disc li{font-size:.8125rem;color:var(--ink-2);background:var(--paper);
   border:1px solid var(--line);padding:2px 8px;border-radius:2px}
-.disc article:hover li{background:#fff}
+.disc article:hover li{background:var(--surface)}
 .disc .std{margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
 
 /* ── services hub ────────────────────────────────────────────────────── */
 .filters{display:flex;gap:8px;flex-wrap:wrap;padding-block:var(--s3);
-  border-bottom:1px solid var(--line);position:sticky;top:76px;background:rgba(255,255,255,.96);
+  border-bottom:1px solid var(--line);position:sticky;top:76px;background:var(--hdr-bg);
   -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);z-index:20}
 .filters a,.filters button{border:1px solid var(--line-2);border-radius:2px;padding:7px 14px;
   font-size:.875rem;text-decoration:none;color:var(--ink);background:var(--surface)}
 .filters a:hover,.filters button:hover{border-color:var(--ink)}
-.filters .on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.filters .on{background:var(--band);color:#fff;border-color:var(--band)}
 .cat{padding-block:var(--s5);border-bottom:1px solid var(--line);
   scroll-margin-top:150px /* clear the sticky header + chip bar on anchor jumps */}
 .cat:last-child{border-bottom:0}
@@ -186,7 +235,7 @@ html[dir=rtl] .stat b{text-align:end}
 .svc{background:var(--surface);padding:0;display:flex;flex-direction:column;
   border-inline-end:1px solid var(--line);border-block-end:1px solid var(--line);
   margin-inline-end:-1px;margin-block-end:-1px}
-.svc-top{background:var(--mint);height:120px;display:flex;align-items:center;
+.svc-top{background:var(--well);height:120px;display:flex;align-items:center;
   justify-content:center;padding:18px;border-bottom:1px solid var(--line)}
 .svc-top img{max-height:100%;max-width:60%;transition:transform .25s}
 .svc:hover .svc-top img{transform:scale(1.06)}
@@ -202,7 +251,7 @@ html[dir=rtl] .stat b{text-align:end}
 .projs{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s3)}
 .proj{border:1px solid var(--line);background:var(--surface);display:flex;flex-direction:column}
 .proj:hover{border-color:var(--line-2)}
-.proj .band{background:var(--ink);color:#fff;padding:10px 20px;display:flex;
+.proj .band{background:var(--band);color:#fff;padding:10px 20px;display:flex;
   justify-content:space-between;font-family:var(--mono);font-size:.75rem;letter-spacing:.05em}
 html[dir=rtl] .proj .band{letter-spacing:0;font-size:.8125rem}
 .proj .band span:last-child{color:var(--brand)} /* ok-on-dark: 5.8:1 on --ink */
@@ -224,7 +273,7 @@ html[dir=rtl] .proj .band{letter-spacing:0;font-size:.8125rem}
 .tl article{position:relative}
 .tl article::before{content:"";position:absolute;top:calc(-1 * var(--s3) - 6px);
   inset-inline-start:0;width:10px;height:10px;border-radius:50%;background:var(--brand);
-  outline:3px solid #fff}
+  outline:3px solid var(--bg)}
 .tl time{font-family:var(--mono);font-size:.8125rem;color:var(--accent);display:block;direction:ltr}
 html[dir=rtl] .tl time{text-align:start}
 .tl h3{font-size:1rem;font-weight:600;margin-block:8px 6px}
@@ -307,7 +356,7 @@ html[dir=rtl] .office-card.on{box-shadow:inset -3px 0 0 var(--brand)}
 .field input,.field select,.field textarea{width:100%;border:1px solid var(--line-2);
   border-radius:2px;padding:11px 13px;background:var(--surface)}
 .field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent);outline:0;
-  box-shadow:0 0 0 3px rgba(0,119,111,.13)}
+  box-shadow:0 0 0 3px var(--focus-ring)}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:var(--s2)}
 .form .btn-p{width:100%;justify-content:center;padding:14px}
 .formnote{margin-top:14px;font-size:.8125rem;color:var(--ink-2);text-align:center}
@@ -404,7 +453,7 @@ html[dir=rtl] .svc-aside h3{letter-spacing:0}
 .cta .btns{display:flex;gap:12px;flex-wrap:wrap}
 
 /* ── footer ──────────────────────────────────────────────────────────── */
-.ftr{background:var(--ink);color:#C6CCCF;font-size:.9375rem}
+.ftr{background:var(--band);color:#C6CCCF;font-size:.9375rem}
 .ftr-blurb{margin-top:16px;max-width:38ch;color:#9AA3A8;font-size:.9375rem}
 .ftr a{color:#C6CCCF;text-decoration:none}
 .ftr a:hover{color:#fff;text-decoration:underline}
@@ -447,7 +496,7 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
   .mainnav.open a{padding:13px 0;border-bottom:1px solid var(--line);font-size:1.0625rem}
   .mainnav.open a:last-of-type{border-bottom:0}
   .mainnav.open .menu-cta{display:inline-flex;margin-top:12px;background:var(--accent);
-    color:#fff;border-radius:2px;justify-content:center;font-weight:600;
+    color:var(--accent-contrast);border-radius:2px;justify-content:center;font-weight:600;
     padding:13px 20px;border-bottom:0}
   .stats .wrap{grid-template-columns:1fr 1fr;gap:var(--s3)}
   .projs,.posts,.offices,.disc,.svcs,.vals,.two{grid-template-columns:1fr}
@@ -461,7 +510,7 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
 }
 
 /* ── brand marquee ───────────────────────────────────────────────────── */
-.marq{overflow:hidden;border:1px solid var(--line);background:var(--surface);
+.marq{overflow:hidden;border:1px solid var(--line);background:var(--well);
   border-radius:3px;position:relative;
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);
   mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
@@ -483,7 +532,8 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
 
 /* ── chat bubble ─────────────────────────────────────────────────────── */
 .chatb{position:fixed;inset-inline-end:20px;bottom:20px;z-index:80;
-  width:56px;height:56px;border-radius:50%;background:var(--accent);color:#fff;
+  width:56px;height:56px;border-radius:50%;background:var(--accent);
+  color:var(--accent-contrast);
   display:flex;align-items:center;justify-content:center;
   box-shadow:0 10px 26px -8px rgba(0,90,84,.55)}
 .chatb::before{content:"";position:absolute;inset:0;border-radius:50%;
@@ -504,14 +554,14 @@ html[dir=rtl] .ftr h4{letter-spacing:0;font-size:.8125rem}
   transition:opacity .22s,transform .22s,visibility 0s .22s}
 .chatp.on{opacity:1;transform:none;visibility:visible;
   transition:opacity .22s,transform .22s}
-.chatp header{background:var(--ink);color:#fff;padding:16px 18px;
+.chatp header{background:var(--band);color:#fff;padding:16px 18px;
   display:flex;gap:12px;align-items:center}
 .chatp .cava{width:40px;height:40px;border-radius:50%;background:#fff;flex:none;
   display:flex;align-items:center;justify-content:center;position:relative}
 .chatp .cava img{width:24px;height:24px}
 .chatp .cava::after{content:"";position:absolute;inset-inline-end:0;bottom:0;
   width:10px;height:10px;border-radius:50%;background:var(--brand);
-  border:2px solid var(--ink)}
+  border:2px solid var(--band)}
 .chatp header strong{font-size:1rem;display:block}
 .chatp header p{color:#A6B0B2;font-size:.8125rem;margin-top:2px}
 .chatp .acts{padding:14px;display:flex;flex-direction:column;gap:8px}
@@ -538,15 +588,22 @@ html[dir=rtl] .chatp .acts button::after{content:"‹"}
 .post .pimg img{width:100%;aspect-ratio:561/306;object-fit:cover;display:block}
 .svc h3{display:flex;align-items:center;gap:10px}
 .svc .ico{width:34px;height:34px;flex:none;display:flex;align-items:center;
-  justify-content:center;background:var(--mint);border-radius:3px;padding:5px}
+  justify-content:center;background:var(--well);border-radius:3px;padding:5px}
 .svc .ico img{max-width:100%;max-height:100%}
 .svc-art{background:var(--mint)}
 .svc-art img{aspect-ratio:16/9;object-fit:contain;padding:26px}
 
 /* ── print ───────────────────────────────────────────────────────────── */
 @media print{
+  /* always print the light palette, whatever theme the screen used */
+  :root,:root[data-theme="dark"]{
+    --bg:#fff;--surface:#fff;--paper:#fff;--mint:#fff;--well:#fff;
+    --ink:#000;--ink-2:#333;--ink-3:#555;--line:#bbb;--line-2:#999;
+    --accent:#000;--accent-d:#000;--accent-contrast:#fff;--band:#fff;
+    --band-sub:#333}
   .hdr,.ftr,.cta,.map,.map-tabs,.filters,.skip,.hero-cta,.socrow,.soc,
-  .drawer,.scrim,.toast,.burger,.loadmore,.mobfilter,.chatb,.chatp{display:none!important}
+  .drawer,.scrim,.toast,.burger,.loadmore,.mobfilter,.chatb,.chatp,
+  .tbtn{display:none!important}
   .rev{opacity:1!important;transform:none!important}
   body{background:#fff;color:#000}
   .sec,.cat,.phead .wrap{padding-block:16px}
@@ -555,3 +612,6 @@ html[dir=rtl] .chatp .acts button::after{content:"‹"}
   .stat span{color:#333}
 }
 """
+
+# inject the per-theme token sets (kept as one source of truth above)
+CSS = CSS.replace("@@LIGHT@@", _LIGHT).replace("@@DARK@@", _DARK)
