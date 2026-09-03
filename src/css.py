@@ -346,6 +346,8 @@ figure.ph.crop img{aspect-ratio:4/3;object-fit:cover}
 figure.ph figcaption{font-size:.8125rem;color:var(--ink-3);padding:9px 14px;
   border-top:1px solid var(--line)}
 .gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gal figure.ph.wide{grid-column:1/-1}
+figure.ph.wide img{aspect-ratio:auto;object-fit:unset}
 .duo{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);
   gap:var(--s4);align-items:start}
 @media(max-width:860px){.gal{grid-template-columns:1fr 1fr}
