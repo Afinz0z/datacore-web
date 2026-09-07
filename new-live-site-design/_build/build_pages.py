@@ -63,7 +63,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "12"
+VER = "13"
 
 # ── page shell ──────────────────────────────────────────────────────────
 def shell(ar, active, title, desc, body, extra_head='', extra_js=''):
@@ -169,7 +169,8 @@ def build_projects(ar):
                    f'<h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
                    for i,(t,d) in enumerate(s['pj_feat']))
     gal = ''.join(f'<figure><img src="assets1/images/{g[0]}" alt="{esc(g[2] if ar else g[1])}" '
-                  f'loading="lazy" width="900" height="600"></figure>' for g in GAL_IMG)
+                  f'loading="lazy" width="900" height="600">'
+                  f'<figcaption>{esc(g[2] if ar else g[1])}</figcaption></figure>' for g in GAL_IMG)
     body = (
       hero(ar, 'WORK' if not ar else 'مشاريع', s['pj_title'], s['pj_title'], s['pj_lede'],
            f'<div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap">'
@@ -209,62 +210,83 @@ def build_contact(ar):
     for i, o in enumerate(s['offices']):
         head, org, addr1, addr2, phone, phone_raw = o
         on = ' on' if i == 0 else ''
-        offices += f"""<div class="dcp-office{on}" data-i="{i}">
+        offices += f"""<div class="dcp-office{on}" data-i="{i}" role="button" tabindex="0" aria-pressed="{'true' if i==0 else 'false'}">
   <h3>{esc(head)}</h3>
   <p>{esc(org)}<br>{esc(addr1)}<br>{esc(addr2)}</p>
-  <div class="rows"><span>{I_PHONE} <a href="tel:{esc(phone_raw)}">{esc(phone)}</a></span></div>
+  <div class="rows"><span>{I_PHONE} <a href="tel:{esc(phone_raw)}" dir="ltr">{esc(phone)}</a></span></div>
   <a class="dcp-dir" href="https://www.google.com/maps/search/?api=1&amp;query={MAP_Q[i]}" target="_blank" rel="noopener">{I_DIR} {esc(s['directions'])}</a>
 </div>"""
-    tabs = ''.join(f'<button type="button" class="{"on" if i==0 else ""}" data-i="{i}">{esc(t)}</button>'
+    tabs = ''.join(f'<button type="button" class="{"on" if i==0 else ""}" data-i="{i}" '
+                   f'aria-pressed="{"true" if i==0 else "false"}">{esc(t)}</button>'
                    for i,t in enumerate(s['map_tabs']))
     types = ''.join(f'<option>{esc(t)}</option>' for t in s['c_types'])
+    # Riyadh gets verified coordinates for a precise pin; the others use an
+    # address query. Map auto-loads to office 0 and switches on tab/card click.
+    map_val = ['24.6675676,46.7045394', MAP_Q[1], MAP_Q[2]]
+    map_src = ['https://www.google.com/maps?q=' + v + '&output=embed' for v in map_val]
+    map_dir = ['https://www.google.com/maps/search/?api=1&query=' + q for q in MAP_Q]
+    map_cap = [f'{o[2]}, {o[3]}' for o in s['offices']]
+    geo = (f'<section class="dcp-sec"><div class="dcp-wrap">'
+           f'<div class="dcp-head"><h2>{esc(s["c_offices_h"])}</h2></div>'
+           f'<div class="dcp-geo"><div class="dcp-offices-list" id="dcp-offices">{offices}</div>'
+           f'<div class="dcp-map-col"><div class="dcp-tabs" id="dcp-mtabs">{tabs}</div>'
+           f'<div class="dcp-map" id="dcp-map"><iframe title="{esc(s["map_h"])}" loading="lazy" '
+           f'src="{map_src[0]}" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>'
+           f'<p class="dcp-mapcap"><span id="dcp-mapcap">{esc(map_cap[0])}</span> &middot; '
+           f'<a id="dcp-mapdir" href="{map_dir[0]}" target="_blank" rel="noopener">{esc(s["directions"])}</a></p>'
+           f'</div></div></div></section>')
     form = f"""<form class="dcp-form" id="dcp-enq" novalidate>
-  <h2>{esc(s['c_form_h'])}</h2>
+  <div class="dcp-head"><h2>{esc(s['c_form_h'])}</h2></div>
   <div class="dcp-two">
     <div class="dcp-field"><label for="q-name">{esc(f['name'])}</label><input id="q-name" name="name" required></div>
     <div class="dcp-field"><label for="q-co">{esc(f['company'])}</label><input id="q-co" name="company"></div>
   </div>
   <div class="dcp-two">
-    <div class="dcp-field"><label for="q-mail">{esc(f['email'])}</label><input id="q-mail" name="email" type="email" required></div>
-    <div class="dcp-field"><label for="q-tel">{esc(f['phone'])}</label><input id="q-tel" name="phone" type="tel"></div>
+    <div class="dcp-field"><label for="q-mail">{esc(f['email'])}</label><input id="q-mail" name="email" type="email" dir="ltr" required></div>
+    <div class="dcp-field"><label for="q-tel">{esc(f['phone'])}</label><input id="q-tel" name="phone" type="tel" dir="ltr"></div>
   </div>
   <div class="dcp-field"><label for="q-type">{esc(f['type'])}</label><select id="q-type" name="type">{types}</select></div>
   <div class="dcp-field"><label for="q-proj">{esc(f['project'])}</label><input id="q-proj" name="project" placeholder="{esc(f['project_hint'])}"></div>
-  <div class="dcp-field"><label for="q-msg">{esc(f['msg'])}</label><textarea id="q-msg" name="message" rows="4" required></textarea></div>
+  <div class="dcp-field"><label for="q-msg">{esc(f['msg'])}</label><textarea id="q-msg" name="message" rows="5" required></textarea></div>
   <button class="dcp-btn" type="submit">{esc(f['send'])} {I_ARROW}</button>
   <p class="dcp-note">{esc(f['note'])}</p>
 </form>"""
-    map_block = (f'<div class="dcp-tabs" id="dcp-mtabs">{tabs}</div>'
-                 f'<div class="dcp-map" id="dcp-map"><button type="button" class="dcp-btn-o" id="dcp-mload" '
-                 f'style="margin:auto">{I_PIN} {esc(s["map_load"])}</button></div>'
-                 f'<p class="dcp-note" style="text-align:start">{esc(s["map_note"])}</p>')
+    other = (f'<div><div class="dcp-head"><h2>{esc(s["c_other_h"])}</h2></div>'
+             f'<div class="dcp-office"><div class="rows">'
+             f'<a href="mailto:sales@datacore.com.sa" dir="ltr">sales@datacore.com.sa</a>'
+             f'<a href="mailto:info@datacore.com.sa" dir="ltr">info@datacore.com.sa</a>'
+             f'<a href="mailto:careers@datacore.com.sa" dir="ltr">careers@datacore.com.sa</a>'
+             f'<a href="https://wa.me/966115128888" target="_blank" rel="noopener">{esc(s["f_whatsapp"])}</a>'
+             f'</div></div>'
+             f'<div class="dcp-head" style="margin-top:32px"><h2>{esc(s["follow_h"])}</h2></div>'
+             f'<p style="color:var(--dcp-ink2);margin-bottom:14px">{esc(s["follow_p"])}</p>'
+             f'<div class="dcp-socials">'
+             f'<a href="https://www.linkedin.com/company/datacore-solutions" target="_blank" rel="noopener">LinkedIn</a>'
+             f'<a href="https://www.instagram.com/datacore_sa" target="_blank" rel="noopener">Instagram</a>'
+             f'</div></div>')
+    formsec = (f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-cgrid">'
+               f'<div>{form}</div>{other}</div></div></section>')
     body = (hero(ar, 'TALK' if not ar else 'تواصل', s['c_title'], s['c_title'], s['c_lede'])
-      + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-cgrid">'
-        f'<div><div class="dcp-head"><h2>{esc(s["c_offices_h"])}</h2></div>'
-        f'<div class="dcp-offices" id="dcp-offices">{offices}</div>{map_block}</div>'
-        f'{form}</div></div></section>'
-      + footer(ar))
-    # office map query list + interactions (map loads only on click → privacy)
-    maps_js = json.dumps(MAP_Q)
+            + geo + formsec + footer(ar))
     js = f"""<script>
 (function(){{
-  var Q={maps_js}, cur=0, loaded=false;
+  var SRC={json.dumps(map_src)}, CAP={json.dumps(map_cap, ensure_ascii=False)}, DIR={json.dumps(map_dir)};
   var offs=document.querySelectorAll('#dcp-offices .dcp-office');
   var tabs=document.querySelectorAll('#dcp-mtabs button');
   var map=document.getElementById('dcp-map');
-  function render(){{
-    map.innerHTML='<iframe title="Datacore office location" loading="lazy" '
-      +'src="https://www.google.com/maps?q='+Q[cur]+'&output=embed"></iframe>';
-  }}
   function pick(i){{
-    cur=i;
-    offs.forEach(function(o,j){{o.classList.toggle('on',j===i);}});
-    tabs.forEach(function(t,j){{t.classList.toggle('on',j===i);}});
-    if(loaded) render();
+    offs.forEach(function(o,j){{var on=j===i;o.classList.toggle('on',on);o.setAttribute('aria-pressed',String(on));}});
+    tabs.forEach(function(t,j){{var on=j===i;t.classList.toggle('on',on);t.setAttribute('aria-pressed',String(on));}});
+    document.getElementById('dcp-mapcap').textContent=CAP[i];
+    document.getElementById('dcp-mapdir').href=DIR[i];
+    var fr=map.querySelector('iframe');
+    if(fr&&fr.src!==SRC[i])fr.src=SRC[i];
   }}
-  offs.forEach(function(o){{o.addEventListener('click',function(){{pick(+o.dataset.i);}});}});
   tabs.forEach(function(t){{t.addEventListener('click',function(){{pick(+t.dataset.i);}});}});
-  document.getElementById('dcp-mload').addEventListener('click',function(){{loaded=true;render();}});
+  offs.forEach(function(o){{
+    o.addEventListener('click',function(ev){{if(ev.target.closest('a'))return;pick(+o.dataset.i);}});
+    o.addEventListener('keydown',function(ev){{if(ev.key==='Enter'||ev.key===' '){{ev.preventDefault();pick(+o.dataset.i);}}}});
+  }});
   var form=document.getElementById('dcp-enq');
   form.addEventListener('submit',function(e){{
     e.preventDefault();
