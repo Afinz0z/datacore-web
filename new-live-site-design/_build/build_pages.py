@@ -65,10 +65,86 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Keep in sync with the value stamped into the 6 live core pages.
 VER = "15"
 
+# ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
+SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
+OG_IMG = SITE + "/assets1/images/dc-og.jpg"
+
+def _abs(base, ar):
+    return SITE + "/" + loc(base, ar)
+
+def seo_meta(ar, active, title, desc):
+    """Per-page canonical + hreflang alternates + Open Graph + Twitter cards."""
+    if active:
+        en_url, ar_url = _abs(active, False), _abs(active, True)
+        page_url = ar_url if ar else en_url
+        alts = (f'<link rel="canonical" href="{page_url}">'
+                f'<link rel="alternate" hreflang="en" href="{en_url}">'
+                f'<link rel="alternate" hreflang="ar" href="{ar_url}">'
+                f'<link rel="alternate" hreflang="x-default" href="{en_url}">')
+    else:
+        page_url, alts = SITE + "/", ''
+    lc = 'ar_SA' if ar else 'en_US'
+    return (alts +
+        '<meta property="og:type" content="website">'
+        '<meta property="og:site_name" content="Datacore Solutions">'
+        f'<meta property="og:locale" content="{lc}">'
+        f'<meta property="og:title" content="{esc(title)}">'
+        f'<meta property="og:description" content="{esc(desc)}">'
+        f'<meta property="og:url" content="{page_url}">'
+        f'<meta property="og:image" content="{OG_IMG}">'
+        '<meta name="twitter:card" content="summary_large_image">'
+        f'<meta name="twitter:title" content="{esc(title)}">'
+        f'<meta name="twitter:description" content="{esc(desc)}">'
+        f'<meta name="twitter:image" content="{OG_IMG}">')
+
+# Organization + three regional offices + WebSite — the entity graph that answer
+# engines (Google, ChatGPT, Perplexity) read. Facts only; no invented data.
+def site_jsonld(ar):
+    g = {"@context": "https://schema.org", "@graph": [
+        {"@type": "Organization", "@id": SITE + "/#org", "name": "Datacore Solutions",
+         "alternateName": "Datacore Technology Integrators", "url": "https://www.datacore.com.sa/",
+         "foundingDate": "2007", "logo": SITE + "/assets1/images/dc-logo-full.png", "image": OG_IMG,
+         "email": "info@datacore.com.sa", "telephone": "+966115128888",
+         "description": "Low-current (ELV) systems integrator delivering IT network infrastructure, "
+                        "audio-visual, data centre, surveillance, IPTV, and public-address & fire-alarm "
+                        "solutions across Saudi Arabia, the UAE and India since 2007.",
+         "areaServed": [{"@type": "Country", "name": "Saudi Arabia"},
+                        {"@type": "Country", "name": "United Arab Emirates"},
+                        {"@type": "Country", "name": "India"}],
+         "sameAs": ["https://www.linkedin.com/company/datacore-solutions",
+                    "https://www.instagram.com/datacore_sa",
+                    "https://www.facebook.com/www.datacore.com.sa"]},
+        {"@type": "LocalBusiness", "@id": SITE + "/#riyadh", "name": "Datacore Solutions — Riyadh",
+         "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+966115128888", "email": "sales@datacore.com.sa",
+         "address": {"@type": "PostalAddress", "streetAddress": "Office 503, Dabbab Complex, Dabbab St.",
+                     "addressLocality": "Riyadh", "postalCode": "12626", "addressCountry": "SA"},
+         "geo": {"@type": "GeoCoordinates", "latitude": 24.6675676, "longitude": 46.7045394}},
+        {"@type": "LocalBusiness", "@id": SITE + "/#dubai", "name": "Datacore Solutions — Dubai",
+         "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+971527536070",
+         "address": {"@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE"}},
+        {"@type": "LocalBusiness", "@id": SITE + "/#kozhikode", "name": "Datacore Solutions — Kozhikode",
+         "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+914953501154",
+         "address": {"@type": "PostalAddress", "streetAddress": "Government Cyberpark", "addressLocality": "Kozhikode",
+                     "addressRegion": "Kerala", "postalCode": "673016", "addressCountry": "IN"}},
+        {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "Datacore Solutions",
+         "publisher": {"@id": SITE + "/#org"}, "inLanguage": ["en", "ar"]}
+    ]}
+    return '<script type="application/ld+json">' + json.dumps(g, ensure_ascii=False) + '</script>'
+
+def breadcrumb_jsonld(ar, active, title):
+    if not active or active == 'index':
+        return ''
+    home = STR['ar' if ar else 'en'].get('home', 'Home')
+    g = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": home, "item": _abs('index', ar)},
+        {"@type": "ListItem", "position": 2, "name": title, "item": _abs(active, ar)}]}
+    return '<script type="application/ld+json">' + json.dumps(g, ensure_ascii=False) + '</script>'
+
 # ── page shell ──────────────────────────────────────────────────────────
-def shell(ar, active, title, desc, body, extra_head='', extra_js=''):
+def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None):
     lang = 'ar' if ar else 'en'
     dr = 'rtl' if ar else 'ltr'
+    c = canon or active   # canonical/hreflang base; service pages override via canon
     return f"""<!DOCTYPE html>
 <html lang="{lang}" dir="{dr}">
 <head>
@@ -83,6 +159,9 @@ def shell(ar, active, title, desc, body, extra_head='', extra_js=''):
 <link rel="preload" as="font" type="font/ttf" href="fonts/TextaBold.ttf" crossorigin>
 <link rel="stylesheet" href="dc-overlay.css?v={VER}">
 <link rel="stylesheet" href="dc-pages.css?v={VER}">
+{seo_meta(ar, c, title, desc)}
+{site_jsonld(ar)}
+{breadcrumb_jsonld(ar, c, title)}
 {extra_head}</head>
 <body class="dcp">
 {body}
