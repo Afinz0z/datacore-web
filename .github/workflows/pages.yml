@@ -29,6 +29,8 @@ jobs:
           python check.py
       - name: Disable Jekyll processing
         run: touch dist/.nojekyll
+      - name: Publish the New Live Site Design alongside the main site
+        run: cp -r new-live-site-design dist/new-live-site-design
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -26,21 +26,65 @@
     chat_form: 'Send a project enquiry', call: 'Call'
   };
 
+  // 9 disciplines, each with its own services (second-level fly-out)
   var subs = [
-    ['network-infrastructure-services', 'Network Infrastructure Services', 'البنية التحتية للشبكات'],
-    ['datacenter-solutions', 'Datacenter Solutions', 'حلول مراكز البيانات'],
-    ['surveillance-and-security-solutions', 'Surveillance & Security Solutions', 'حلول المراقبة والأمن'],
-    ['meeting-room-solutions', 'Meeting Room Solutions', 'حلول قاعات الاجتماعات'],
-    ['audio-visual-solutions', 'Audio-Visual Solutions', 'الحلول السمعية والبصرية'],
-    ['digital-signage-amp-video-walls', 'Digital Signage & Video Walls', 'اللافتات الرقمية وشاشات العرض'],
-    ['public-address-and-fire-alarm-system', 'Public Address & Fire Alarm', 'النداء الآلي وإنذار الحريق'],
-    ['iptv-solutions', 'IPTV Solutions', 'حلول IPTV'],
-    ['professional-services', 'Professional Services', 'الخدمات الاحترافية']
+  ['network-infrastructure-services','Network Infrastructure Services','البنية التحتية للشبكات',[
+    ['structured-cabling-solutions','Structured Cabling Solutions','التمديدات الهيكلية'],
+    ['fiber-optic-solutions','Fiber Optic Solutions','الألياف البصرية'],
+    ['it-network-solutions','IT Network Solutions','شبكات تقنية المعلومات'],
+    ['ups-systems','UPS Systems','أنظمة الطاقة غير المنقطعة'],
+    ['wifi-solutions','Wifi Solutions','شبكات الواي فاي'],
+    ['ip-telephony-solutions','IP Telephony Solutions','الهاتف عبر الشبكة']]],
+  ['datacenter-solutions','Datacenter Solutions','حلول مراكز البيانات',[
+    ['data-center-design-amp-implementation-services','Data Center Design & Implementation','تصميم وتنفيذ مراكز البيانات'],
+    ['data-centre-migration-services-','Data Centre Migration Services','ترحيل مراكز البيانات'],
+    ['data-centre-assessment-amp-recommendations','Assessment & Recommendations','التقييم والتوصيات']]],
+  ['surveillance-and-security-solutions','Surveillance & Security Solutions','حلول المراقبة والأمن',[
+    ['access-control-solutions','Access Control Solutions','التحكم في الدخول'],
+    ['video-surveillance-solutions-amp-cctv','Video Surveillance & CCTV','المراقبة بالكاميرات وأنظمة CCTV'],
+    ['parking-management-system','Parking Management System','إدارة المواقف'],
+    ['grms-solutions-','GRMS Solutions','أنظمة إدارة الغرف']]],
+  ['meeting-room-solutions','Meeting Room Solutions','حلول قاعات الاجتماعات',[
+    ['video-conference-solution','Video Conference Solution','الاجتماعات المرئية'],
+    ['room-amp-desk-booking-system','Room & Desk Booking System','حجز القاعات والمكاتب'],
+    ['soc-noc-room-solution','SOC / NOC Room Solution','غرف العمليات والمراقبة'],
+    ['acoustic-amp-lighting-solutions','Acoustic & Lighting Solutions','الصوتيات والإضاءة'],
+    ['smart-meeting-room-amp-boardroom-solution','Smart Meeting Room & Boardroom','قاعات مجالس الإدارة']]],
+  ['audio-visual-solutions','Audio-Visual Solutions','الحلول السمعية والبصرية',[
+    ['auditorium','Auditorium','المسارح والقاعات'],
+    ['smart-class-rooms','Smart Class Rooms','الفصول الذكية'],
+    ['smart-building-solutions','Smart Building Solutions','المباني الذكية'],
+    ['control-system','Control System','أنظمة التحكم'],
+    ['interpreter-system','Interpreter System','الترجمة الفورية'],
+    ['home-cinema-solution','Home Cinema Solution','السينما المنزلية'],
+    ['professional-audio','Professional Audio','الصوتيات الاحترافية'],
+    ['master-clock-system','Master Clock System','الساعة المركزية']]],
+  ['digital-signage-amp-video-walls','Digital Signage & Video Walls','اللافتات الرقمية وشاشات العرض',[
+    ['digital-signage-solutions','Digital Signage Solutions','اللافتات الرقمية'],
+    ['indoor-led-video-wall','Indoor LED Video Wall','شاشات LED الداخلية'],
+    ['outdoor-led-video-wall','Outdoor LED Video Wall','شاشات LED الخارجية'],
+    ['interactive-video-walls-tiles','Interactive Video Walls / Tiles','الشاشات التفاعلية']]],
+  ['public-address-and-fire-alarm-system','Public Address & Fire Alarm','النداء الآلي وإنذار الحريق',[
+    ['pava-public-address-amp-voice-evacuation-system','PAVA Voice Evacuation','النداء والإخلاء الصوتي'],
+    ['paga-public-address-and-general-alarm-system','PAGA General Alarm','النداء والإنذار العام'],
+    ['fire-alarm-systems','Fire Alarm Systems','إنذار الحريق'],
+    ['bgm-background-music-system','Background Music (BGM)','الموسيقى الخلفية']]],
+  ['iptv-solutions','IPTV Solutions','حلول IPTV',[
+    ['iptv-solution','IPTV Solution','حلول IPTV'],
+    ['matv-solution','MATV Solution','حلول MATV']]],
+  ['professional-services','Professional Services','الخدمات الاحترافية',[
+    ['annual-maintenance-contracts','Annual Maintenance Contracts','عقود الصيانة السنوية'],
+    ['full-time-staffing-solution','Full-time Staffing Solution','توفير الكوادر الدائمة']]]
   ];
-  var subHTML = subs.map(function (s) {
-    return '<a href="' + localName('services') + '?id=' + s[0] + '">' + (isAR ? s[2] : s[1]) + '</a>';
-  }).join('');
   var caret = '<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
+  var caretSide = '<svg class="dcx-c2" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="' + (isAR ? 'M15 6l-6 6 6 6' : 'M9 6l6 6-6 6') + '"/></svg>';
+  var subHTML = subs.map(function (s) {
+    var kids = s[3].map(function (k) {
+      return '<a href="service-' + k[0] + (isAR ? '-ar' : '') + '.html">' + (isAR ? k[2] : k[1]) + '</a>';
+    }).join('');
+    return '<div class="dcx-parent2"><a href="' + localName('services') + '?id=' + s[0] + '">' +
+      (isAR ? s[2] : s[1]) + caretSide + '</a><div class="dcx-sub2">' + kids + '</div></div>';
+  }).join('');
 
   function a(base, label, on) {
     return '<a href="' + localName(base) + '"' + (stem === on ? ' class="on"' : '') + '>' + label + '</a>';
@@ -143,8 +187,10 @@
     addEventListener('load', fixLinks);
     setTimeout(fixLinks, 1200);
     killWidgets();
-    setTimeout(killWidgets, 1500); setTimeout(killWidgets, 4000);
-    try { new MutationObserver(killWidgets).observe(document.body, { childList: true }); } catch (e) {}
+    setTimeout(killWidgets, 1500); setTimeout(killWidgets, 4000); setTimeout(killWidgets, 8000);
+    // subtree:true so tawk's greeting iframe (added late, nested in its own
+    // container) is caught too, not just direct children of <body>
+    try { new MutationObserver(killWidgets).observe(document.body, { childList: true, subtree: true }); } catch (e) {}
 
     document.getElementById('themeT').addEventListener('click', function () {
       var dark = document.documentElement.classList.toggle('dc-dark');
