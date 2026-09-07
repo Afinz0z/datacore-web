@@ -158,8 +158,9 @@
     });
     fabN.textContent = basket.length;
     fab.hidden = basket.length === 0;
-    if (lastN !== -1 && basket.length !== lastN) {   // pulse the badge when the count changes
+    if (lastN !== -1 && basket.length !== lastN) {   // pulse the badge + nudge the cart when the count changes
       fabN.classList.remove('dcp-bump'); void fabN.offsetWidth; fabN.classList.add('dcp-bump');
+      fab.classList.remove('dcp-added'); void fab.offsetWidth; fab.classList.add('dcp-added');
     }
     lastN = basket.length;
   }

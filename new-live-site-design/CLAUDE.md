@@ -76,10 +76,9 @@ a test-server quirk, not a defect — don't "fix" it by re-exporting images.
   insights, contact map switcher + form + schema), 38 service pages ×2 with
   methodology band + Service schema, terms/privacy/404, SEO scaffolding, chat
   bubble, sticky mobile CTA, stats band + brand marquee + scroll reveals.
-- **Pending:** `countUp()` in `dc-fx.js` is stubbed (stats show static numbers
-  until implemented); design polish passes (capability tables, project case-study
-  detail pages, FAQ + schema, self-hosted header font, image optimisation of the
-  blog PNGs); `?id=` on the Services links doesn't yet filter/scroll the hub.
+- **Pending:** project case-study detail pages, FAQ + schema, self-hosted header
+  font, image optimisation of the blog PNGs; `?id=` on the Services links doesn't
+  yet filter/scroll the hub. (`countUp()` is now implemented — see session log.)
 - **Backups:** `../backups/live-mirror-V{1,2,3}-*.zip` (one per pass, user's
   standing preference).
 
@@ -127,6 +126,47 @@ work on the real datacore.com.sa.
 - Chatbot: the live tawk.to widget + reCAPTCHA are hidden (`killWidgets()` in the
   overlay hides body-level iframes outside our chat / `#dc-content`; CSS hides the
   reCAPTCHA). Our own quick-contact bubble is the single chat.
+
+## Session log — chat bubble, animations, Arabic fix, photos, SEO (7 Sep 2026)
+Asset version is now **VER = "15"**. Deployed across several passes.
+- **Quick-contact bubble** moved bottom-left → **bottom-right**; now a 60px white
+  circle showing the Datacore logo mark (`assets1/images/dc-logo-chat.png`, from
+  `Images/LOGO DATACORE.png`). Products RFQ FAB stacks *above* it (96px desktop /
+  150px mobile) so they don't collide.
+- **Load optimisation** of the 6 live core pages: `about.css`/`services.css` made
+  non-render-blocking (`media=print` onload + `<noscript>`), duplicate Poppins
+  `<link>` removed, below-the-fold images `loading="lazy" decoding="async"` (first
+  5 kept eager to protect the LCP hero).
+- **Animations** (`dc-fx.js` + `dc-pages.css` + overlay), all
+  `prefers-reduced-motion` gated: stats **count-up** (ease-out cubic — `countUp()`
+  now implemented), product/project **card hover** lift + image zoom, gallery
+  figure lift, **header condense-on-scroll** (`dcx-scrolled` toggled by a scroll
+  listener in `dc-overlay.js`), **RFQ badge pulse** on count change, fail-safe
+  hero entrance (`animation-fill-mode:both`, no standalone `opacity:0`, keyframes
+  at top level — nested-in-@media keyframes don't resolve in some engines).
+- **Arabic "???" fix.** The 3 live-capture pages (index/about-us/services `-ar`)
+  inherited the live site's UTF-8 encoding fault: whole Arabic strings rendered as
+  "?" (plus some demo-template leftovers — LaslesVPN, Lorem Ipsum, fake
+  testimonials). Re-authored the visible corrupted text (~50 runs) from the English
+  siblings + the datacore-web rebuild's Arabic, applied by structural (tag+class+
+  index) pairing. **First draft — needs native review.** 0 visible "???" remain;
+  about-us-ar's corruption was entirely in the overlay-hidden header.
+- **Team photos.** `dc-team-kozhikode.jpg` ("Indian Team") rebuilt from the 48MP
+  `Images/Indian Team.DNG` (PIL reads it as MPO; trimmed 10% top/bottom, 1200px).
+  `dc-team-riyadh.jpg` ("Datacore Connect 2026, Riyadh") from
+  `Images/Annual Meet Riyadh.jpg` (the turf-field group), cropped to the slot's
+  3/2. *(First attempt used the indoor `#2.jpg` — user flagged it wrong.)*
+- **SEO / GEO / AEO / LLMO.** Central `seo_meta()` + `site_jsonld()` +
+  `breadcrumb_jsonld()` in `build_pages.shell()` → every generated page gets
+  canonical, hreflang en/ar/x-default, OG/Twitter (real 1200×630 `dc-og.jpg`), and
+  a JSON-LD graph: **Organization + three LocalBusiness offices (geo/phone/addr) +
+  WebSite + BreadcrumbList**; service pages self-canonicalise and link their
+  `Service` node to `#org` via `@id`. Live pages: fixed broken meta (description
+  URL leak, `&amp;amp;`, `@YOUR_TWITTER_HANDLE`, relative OG), Arabic titles +
+  `og:locale ar_SA`, injected the same graph. `SITE` in build_pages =
+  `build_extra` `BASE` = `https://www.datacore.com.sa` (all URLs consistent). New
+  `seo_live.py` (scratchpad) does the live-page pass; re-run it if the live heads
+  are regenerated.
 
 ## File map (mirror root)
 Flat by design — do not move pages into subfolders (breaks relative links + the

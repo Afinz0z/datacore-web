@@ -357,3 +357,6 @@ html[dir=rtl] .dcp-marquee .track{animation-direction:reverse}
   .dcp-hero .btns{animation-delay:.24s}
   .dcp-fabn.dcp-bump{animation:dcx-bump .34s ease}
 }
+.dcp-fab-ic{flex:none}
+@keyframes dcp-cart{0%{transform:translateY(0) scale(1)}35%{transform:translateY(-3px) scale(1.18)}70%{transform:translateY(0) scale(1)}}
+@media(prefers-reduced-motion:no-preference){.dcp-fab.dcp-added .dcp-fab-ic{animation:dcp-cart .45s ease}}

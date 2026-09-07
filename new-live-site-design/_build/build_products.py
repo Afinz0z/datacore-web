@@ -84,7 +84,7 @@ def build_products(ar):
   </div>
 </div>"""
 
-    drawer = f"""<button class="dcp-fab" id="dcp-fab" type="button" hidden>{esc(L['req_title'])}
+    drawer = f"""<button class="dcp-fab" id="dcp-fab" type="button" hidden><svg class="dcp-fab-ic" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.35"/><circle cx="18" cy="20" r="1.35"/><path d="M2.5 3h2.3l2.2 11.4a1.6 1.6 0 0 0 1.6 1.3h8.2a1.6 1.6 0 0 0 1.55-1.2L21.5 7H6.3"/></svg><span class="dcp-fab-t">{esc(L['req_title'])}</span>
   <span class="dcp-fabn" id="dcp-fabn">0</span></button>
 <div class="dcp-scrim" id="dcp-scrim" hidden></div>
 <aside class="dcp-drawer" id="dcp-drawer" role="dialog" aria-modal="true" aria-hidden="true" aria-label="{esc(L['req_title'])}">
