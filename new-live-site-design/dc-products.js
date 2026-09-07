@@ -149,6 +149,7 @@
   // position:fixed against it instead of the viewport)
   [fab, scrim, drawer].forEach(function (el) { if (el) document.body.appendChild(el); });
   function inBasket(sku) { return basket.indexOf(sku) > -1; }
+  var lastN = -1;
   function syncButtons() {
     grid.querySelectorAll('.dcp-add').forEach(function (btn) {
       var on = inBasket(btn.dataset.sku);
@@ -157,6 +158,10 @@
     });
     fabN.textContent = basket.length;
     fab.hidden = basket.length === 0;
+    if (lastN !== -1 && basket.length !== lastN) {   // pulse the badge when the count changes
+      fabN.classList.remove('dcp-bump'); void fabN.offsetWidth; fabN.classList.add('dcp-bump');
+    }
+    lastN = basket.length;
   }
   function renderList() {
     if (!basket.length) { list.innerHTML = '<p class="dcp-rempty">' + L.empty + '</p>'; return; }

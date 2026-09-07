@@ -245,6 +245,12 @@
         '<svg class="x" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>' +
       '</button>';
     document.body.appendChild(chat);
+    // condense the developed header once the page scrolls (toggles dcx-scrolled → CSS)
+    var onDcxScroll = function () {
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      document.documentElement.classList.toggle('dcx-scrolled', y > 24);
+    };
+    window.addEventListener('scroll', onDcxScroll, { passive: true }); onDcxScroll();
     var btn = chat.querySelector('#dcxChatB'), panel = chat.querySelector('#dcxChatP');
     btn.addEventListener('click', function () {
       var open = btn.getAttribute('aria-expanded') === 'true';
