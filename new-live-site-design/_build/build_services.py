@@ -7,7 +7,7 @@ pages stay byte-for-byte untouched. Adds the methodology band (design #4)."""
 import os, sys, json
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW
+from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE
 
 DATA = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data"
 SVC = json.load(open(os.path.join(DATA, "services-copy.json"), encoding="utf-8"))["services"]
@@ -122,11 +122,11 @@ def build(slug, ar):
     body = hero + method + body_sec + cta_band(ar) + footer(ar)
     # schema: Service + BreadcrumbList
     schema = {"@context": "https://schema.org", "@type": "Service", "name": h1,
-              "serviceType": disc_name, "provider": {"@type": "Organization", "name": "Datacore Solutions"},
+              "serviceType": disc_name, "provider": {"@id": SITE + "/#org"},
               "areaServed": ["SA", "AE", "IN"], "description": c.get("desc", intro)[:300]}
     head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
     title = c.get("title") or (h1 + (" | داتاكور" if ar else " | Datacore"))
-    return shell(ar, "services", title, c.get("desc", intro)[:180], body, extra_head=head)
+    return shell(ar, "services", title, c.get("desc", intro)[:180], body, extra_head=head, canon="service-" + slug)
 
 n = 0
 for slug in SLUGS:
