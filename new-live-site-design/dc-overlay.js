@@ -186,11 +186,11 @@
     fixLinks();
     addEventListener('load', fixLinks);
     setTimeout(fixLinks, 1200);
+    // tawk.to is now stripped from the live HTML entirely; this only hides the
+    // domain-locked reCAPTCHA challenge iframe (appended to <body> on demand)
     killWidgets();
-    setTimeout(killWidgets, 1500); setTimeout(killWidgets, 4000); setTimeout(killWidgets, 8000);
-    // subtree:true so tawk's greeting iframe (added late, nested in its own
-    // container) is caught too, not just direct children of <body>
-    try { new MutationObserver(killWidgets).observe(document.body, { childList: true, subtree: true }); } catch (e) {}
+    setTimeout(killWidgets, 2000);
+    try { new MutationObserver(killWidgets).observe(document.body, { childList: true }); } catch (e) {}
 
     document.getElementById('themeT').addEventListener('click', function () {
       var dark = document.documentElement.classList.toggle('dc-dark');
@@ -241,8 +241,8 @@
             cico('<path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6M9 14h6M9 17h4"/>') + T.chat_form + '</a>' +
         '</div></div>' +
       '<button class="chatb" id="dcxChatB" aria-expanded="false" aria-controls="dcxChatP" aria-label="' + T.chat_label + '">' +
-        '<svg class="bub" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 01-8 8H4l2.5-2.7A8 8 0 1121 12z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01" stroke-width="2.4"/></svg>' +
-        '<svg class="x" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>' +
+        '<span class="dcx-wm" aria-hidden="true"><span class="d1">Data</span><span class="d2">core</span></span>' +
+        '<svg class="x" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>' +
       '</button>';
     document.body.appendChild(chat);
     var btn = chat.querySelector('#dcxChatB'), panel = chat.querySelector('#dcxChatP');
