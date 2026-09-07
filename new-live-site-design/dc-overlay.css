@@ -1,0 +1,194 @@
+/* Datacore mirror overlay — the EXACT developed-site header grafted onto the
+   live pages, plus dark-mode and the injected About sections. The header uses
+   the developed site's own classes/values, scoped under #dcx-hdr so the live
+   page's Bootstrap CSS (.btn, .logo…) can't clash with it. */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* hide the live site's own top header (we replace it) */
+header.header{display:none!important}
+
+/* Hide the live site's domain-locked third-party widgets: the tawk.to chat
+   (duplicates our own bubble) and the reCAPTCHA (site key is locked to
+   datacore.com.sa, so it renders an error off-domain). Both work on the real
+   domain; here they only add a duplicate chatbot and a red error box. */
+#tawkchat-container,#tawkchat-minified,[id^="tawk"],div[class*="tawk"],
+iframe[title="chat widget" i],iframe[src*="tawk.to"],
+.grecaptcha-badge,.g-recaptcha,div[class*="recaptcha"],iframe[src*="recaptcha"]{
+  display:none!important;visibility:hidden!important}
+
+/* ── header tokens (developed-site palette, light + dark) ───────────── */
+#dcx-hdr{
+  --ink:#1A1B1F; --ink-2:#565C61; --line:#E2E8E6; --line-2:#CBD5D2;
+  --accent:#00776F; --accent-d:#005A54; --accent-contrast:#FFFFFF; --brand:#00ACA1;
+  --surface:#FFFFFF; --hdr-bg:rgba(255,255,255,.94);
+  --sans:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --s1:8px; --s3:30px; --s4:52px;
+  font-family:var(--sans);
+}
+html.dc-dark #dcx-hdr{
+  --ink:#E8EAEB; --ink-2:#ABB3B6; --line:#2A2E33; --line-2:#3B4147;
+  --accent:#3BC0B3; --accent-d:#5FD9CC; --accent-contrast:#07211E;
+  --surface:#1C1E23; --hdr-bg:rgba(19,20,23,.92);
+}
+
+/* ── header (exact developed styles, scoped) ───────────────────────── */
+#dcx-hdr.hdr{position:sticky;top:0;z-index:9999;background:var(--hdr-bg);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line)}
+#dcx-hdr .wrap{max-width:1280px;margin:0 auto;display:flex;align-items:center;
+  gap:var(--s4);height:76px;padding:0 clamp(20px,5vw,56px)}
+#dcx-hdr .logo{flex:none;display:block}
+#dcx-hdr .logo img{height:46px;width:auto;display:block}
+html.dc-dark #dcx-hdr .logo img{filter:invert(1) hue-rotate(180deg)}
+#dcx-hdr .mainnav{display:flex;align-items:center;gap:var(--s3);margin-inline-start:auto}
+#dcx-hdr .mainnav>a,#dcx-hdr .dcx-parent{color:var(--ink);text-decoration:none;
+  font-size:1rem;font-weight:500;padding:6px 0;border-bottom:2px solid transparent;
+  white-space:nowrap}
+#dcx-hdr .mainnav>a:hover,#dcx-hdr .dcx-drop:hover .dcx-parent{border-bottom-color:var(--line-2)}
+#dcx-hdr .mainnav a.on,#dcx-hdr .dcx-parent.on{font-weight:700;border-bottom-color:var(--accent)}
+#dcx-hdr .hdr-cta{display:flex;gap:var(--s1);align-items:center}
+#dcx-hdr .lang{font-family:var(--mono);font-size:.75rem;color:var(--ink-2);
+  border:1px solid var(--line);padding:7px 10px;border-radius:2px;text-decoration:none;
+  white-space:nowrap}
+#dcx-hdr .lang:hover{border-color:var(--ink-2)}
+#dcx-hdr .tbtn{display:flex;padding:8px;border:1px solid var(--line);border-radius:2px;
+  color:var(--ink-2);background:none;cursor:pointer}
+#dcx-hdr .tbtn:hover{border-color:var(--ink-2);color:var(--ink)}
+#dcx-hdr .tsun{display:none}
+html.dc-dark #dcx-hdr .tsun{display:block}
+html.dc-dark #dcx-hdr .tmoon{display:none}
+#dcx-hdr .btn{display:inline-flex;align-items:center;gap:8px;border-radius:2px;
+  font-weight:600;font-size:1rem;padding:13px 24px;text-decoration:none;white-space:nowrap}
+#dcx-hdr .btn-p{background:var(--accent);color:var(--accent-contrast)}
+#dcx-hdr .btn-p:hover{background:var(--accent-d)}
+#dcx-hdr .burger{display:none;padding:8px;background:none;border:0;color:var(--ink);cursor:pointer}
+#dcx-hdr .burger .x{display:none}
+#dcx-hdr .burger[aria-expanded="true"] .x{display:block}
+#dcx-hdr .burger[aria-expanded="true"] .bars{display:none}
+#dcx-hdr .menu-cta{display:none}
+
+/* Services dropdown */
+#dcx-hdr .dcx-drop{position:relative;display:flex;align-items:center}
+#dcx-hdr .dcx-parent{display:inline-flex;align-items:center;gap:5px;cursor:pointer}
+#dcx-hdr .dcx-parent svg{transition:transform .2s}
+#dcx-hdr .dcx-drop:hover .dcx-parent svg{transform:rotate(180deg)}
+#dcx-hdr .dcx-sub{position:absolute;top:100%;inset-inline-start:0;min-width:282px;
+  background:var(--surface);border:1px solid var(--line);border-radius:3px;
+  box-shadow:0 24px 44px -20px rgba(0,0,0,.28);padding:8px;display:flex;flex-direction:column;
+  opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:opacity .16s,transform .16s,visibility 0s .16s;z-index:50}
+#dcx-hdr .dcx-drop:hover .dcx-sub,#dcx-hdr .dcx-drop:focus-within .dcx-sub{
+  opacity:1;visibility:visible;transform:none;transition:opacity .16s,transform .16s}
+#dcx-hdr .dcx-sub a{font-size:.9375rem;font-weight:500;color:var(--ink);padding:9px 12px;
+  border-radius:2px;text-decoration:none;white-space:normal;line-height:1.3;border-bottom:0}
+#dcx-hdr .dcx-sub a:hover{background:var(--accent);color:var(--accent-contrast)}
+
+@media(max-width:900px){
+  #dcx-hdr .mainnav,#dcx-hdr .btn-p{display:none}
+  #dcx-hdr .burger{display:block;margin-inline-start:auto}
+  #dcx-hdr .mainnav.open{display:flex;flex-direction:column;align-items:stretch;
+    position:absolute;top:76px;inset-inline:0;background:var(--surface);
+    border-bottom:1px solid var(--line);box-shadow:0 20px 32px -20px rgba(0,0,0,.35);
+    padding:10px clamp(20px,5vw,56px) 22px;gap:0;margin:0;
+    max-height:calc(100vh - 76px);overflow:auto}
+  #dcx-hdr .mainnav.open>a,#dcx-hdr .mainnav.open .dcx-drop{padding:13px 0;
+    border-bottom:1px solid var(--line)}
+  #dcx-hdr .mainnav.open .dcx-drop{flex-direction:column;align-items:stretch}
+  #dcx-hdr .mainnav.open .dcx-parent{padding:13px 0}
+  #dcx-hdr .dcx-sub{position:static;opacity:1;visibility:visible;transform:none;
+    box-shadow:none;border:0;padding:2px 0 10px 14px;min-width:0}
+  html[dir=rtl] #dcx-hdr .dcx-sub{padding:2px 14px 10px 0}
+  #dcx-hdr .menu-cta{display:inline-flex;margin-top:12px;background:var(--accent);
+    color:var(--accent-contrast);border-radius:2px;justify-content:center;font-weight:600;
+    padding:13px 20px;text-decoration:none}
+}
+
+/* ── injected About sections (blend with the live look) ─────────────── */
+.dcx-story-img{margin-top:22px;border-radius:6px;overflow:hidden;border:1px solid #e6ebea}
+.dcx-story-img img{width:100%;height:auto;display:block}
+.dcx-story-img figcaption{font-size:.8rem;color:#7a848a;padding:9px 12px;background:#f7faf9}
+.dcx-team{padding:64px 0;background:#fff}
+.dcx-team .mxy{max-width:1200px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+.dcx-team h2{font-size:clamp(1.7rem,3vw,2.4rem);text-align:center;margin-bottom:10px;color:#1a1b1f}
+/* explicit size + line-height: the live page has a huge hero ".sub" (≈70px)
+   that this injected subtitle would otherwise inherit */
+.dcx-team .sub{font-size:clamp(1rem,1.5vw,1.12rem)!important;line-height:1.5;font-weight:400;
+  text-align:center;color:#565c61;max-width:60ch;margin:0 auto 34px}
+.dcx-team figure{min-width:0}
+.dcx-team-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+.dcx-team-grid .wide{grid-column:1 / -1}
+.dcx-team figure{margin:0;border-radius:6px;overflow:hidden;border:1px solid #e6ebea;background:#f4f7f6}
+.dcx-team figure img{width:100%;height:100%;object-fit:cover;display:block}
+.dcx-team .rcol{display:flex;flex-direction:column;gap:16px}
+.dcx-team .rcol figure{flex:1}
+.dcx-team figure.tall img{aspect-ratio:3/2}
+.dcx-team figure.wide img{aspect-ratio:auto;height:auto}
+@media(max-width:760px){.dcx-team-grid{grid-template-columns:1fr}}
+.dcx-feat{padding:66px 0;background:#f7faf9;text-align:center;border-top:1px solid #e6ebea}
+.dcx-feat .mxy{max-width:1150px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+.dcx-feat h2{font-size:clamp(1.7rem,3vw,2.4rem);color:#1a1b1f;margin-bottom:40px;line-height:1.2}
+.dcx-feat-row{display:grid;grid-template-columns:repeat(5,1fr);gap:22px}
+.dcx-feat-box{display:flex;flex-direction:column;align-items:center;gap:14px}
+.dcx-feat-ic{width:64px;height:64px;border-radius:50%;background:#eaf6f4;
+  display:flex;align-items:center;justify-content:center;color:#00776f}
+.dcx-feat-box p{font-weight:600;color:#1a1b1f;font-size:.9375rem;line-height:1.35}
+@media(max-width:820px){.dcx-feat-row{grid-template-columns:repeat(2,1fr);gap:26px}}
+@media(max-width:420px){.dcx-feat-row{grid-template-columns:1fr}}
+/* these injected sections live inside #dc-content, so the dark-mode filter
+   themes them automatically with the rest of the live page */
+
+/* ── quick-contact bubble + sticky mobile CTA (site-wide, outside #dc-content) ── */
+#dcx-chat{position:fixed;inset-block-end:22px;inset-inline-start:22px;z-index:9990;
+  font-family:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif}
+#dcx-chat .chatb{width:56px;height:56px;border-radius:50%;border:0;cursor:pointer;
+  background:#00776F;color:#fff;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 14px 30px -10px rgba(0,0,0,.45)}
+#dcx-chat .chatb:hover{background:#005A54}
+#dcx-chat .chatb .x{display:none}
+#dcx-chat .chatb[aria-expanded="true"] .x{display:block}
+#dcx-chat .chatb[aria-expanded="true"] .bub{display:none}
+#dcx-chat .chatp{position:absolute;inset-block-end:68px;inset-inline-start:0;width:290px;
+  background:#fff;border:1px solid #E2E8E6;border-radius:12px;overflow:hidden;
+  box-shadow:0 26px 50px -18px rgba(0,0,0,.4)}
+#dcx-chat .chatp header{padding:16px 18px;background:#00776F;color:#fff}
+#dcx-chat .chatp header strong{display:block;font-size:1.02rem;font-weight:600}
+#dcx-chat .chatp header p{margin:4px 0 0;font-size:.85rem;opacity:.9;line-height:1.35}
+#dcx-chat .acts{display:flex;flex-direction:column;padding:8px}
+#dcx-chat .acts a{display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:8px;
+  color:#1A1B1F;text-decoration:none;font-size:.94rem;font-weight:500}
+#dcx-chat .acts a:hover{background:#eaf6f4;color:#005A54}
+#dcx-chat .acts a svg{flex:none;color:#00776F}
+#dcx-sticky{display:none}
+@media(max-width:900px){
+  #dcx-sticky{position:fixed;inset-block-end:0;inset-inline:0;z-index:9985;display:flex;gap:10px;
+    padding:10px clamp(12px,4vw,18px);background:rgba(255,255,255,.96);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-top:1px solid #E2E8E6;
+    font-family:'Archivo',system-ui,sans-serif}
+  #dcx-sticky .s-call{flex:none;display:inline-flex;align-items:center;gap:7px;border:1px solid #E2E8E6;
+    border-radius:8px;padding:12px 16px;color:#1A1B1F;text-decoration:none;font-weight:600}
+  #dcx-sticky .s-call svg{color:#00776F}
+  #dcx-sticky .s-cta{flex:1;display:inline-flex;align-items:center;justify-content:center;
+    background:#00776F;color:#fff;border-radius:8px;padding:12px;text-decoration:none;font-weight:600}
+  #dcx-sticky .s-cta:hover{background:#005A54}
+  html.dcx-has-sticky #dcx-chat{inset-block-end:78px}
+}
+html.dc-dark #dcx-chat .chatp{background:#1C1E23;border-color:#2A2E33}
+html.dc-dark #dcx-chat .acts a{color:#E8EAEB}
+html.dc-dark #dcx-chat .acts a:hover{background:#22303029;color:#5FD9CC}
+html.dc-dark #dcx-chat .acts a svg{color:#3BC0B3}
+html.dc-dark #dcx-chat .chatb{background:#00897F}
+html.dc-dark #dcx-sticky{background:rgba(19,20,23,.96);border-color:#2A2E33}
+html.dc-dark #dcx-sticky .s-call{color:#E8EAEB;border-color:#2A2E33}
+html.dc-dark #dcx-sticky .s-call svg{color:#3BC0B3}
+
+/* ── dark mode: invert the live content, restore its media ──────────── */
+html.dc-dark #dc-content{filter:invert(1) hue-rotate(180deg)}
+html.dc-dark #dc-content img,
+html.dc-dark #dc-content video,
+html.dc-dark #dc-content iframe,
+html.dc-dark #dc-content picture,
+html.dc-dark #dc-content .swiper-slide img,
+html.dc-dark #dc-content .carousel-item img{filter:invert(1) hue-rotate(180deg)}
+html.dc-dark #dc-content iframe[title*="chat" i]{filter:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

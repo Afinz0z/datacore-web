@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# AI / answer engines are welcome to read the site summary
+Sitemap: https://www.datacore.com.sa/sitemap.xml
