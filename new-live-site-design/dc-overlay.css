@@ -227,3 +227,8 @@ html.dc-dark #dc-content .swiper-slide img,
 html.dc-dark #dc-content .carousel-item img{filter:invert(1) hue-rotate(180deg)}
 html.dc-dark #dc-content iframe[title*="chat" i]{filter:none}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Home-page project case-study images: hairline border + rounded corners + hover-lift (option B) */
+.project-card .image-project{box-sizing:border-box;border:1px solid #E2E8E6;border-radius:6px;
+  transition:transform .22s ease,box-shadow .22s ease}
+.project-card:hover .image-project{transform:translateY(-6px);box-shadow:0 18px 34px -18px rgba(20,24,28,.45)}
+@media (prefers-reduced-motion:reduce){.project-card:hover .image-project{transform:none}}
