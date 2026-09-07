@@ -32,11 +32,15 @@
     el.className = 'dcp-card';
     el.dataset.cat = p.c; el.dataset.brand = p.b; el.dataset.avail = p.avail;
     el.dataset.search = (p.n + ' ' + p.b + ' ' + p.sku + ' ' + cat).toLowerCase();
+    var photo = D.photos && D.photos[p.sku];
+    var media = photo
+      ? '<div class="dcp-card-photo"><img src="' + esc(photo) + '" alt="' + esc(p.n) + '" loading="lazy"></div>'
+      : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>';
     el.innerHTML =
-      '<div class="dcp-card-top"><span class="dcp-card-ic">' + glyph(p.g) + '</span>' +
-      '<span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span></div>' +
+      media +
+      '<div class="dcp-card-top"><span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span>' + av + '</div>' +
       '<h3>' + esc(p.n) + '</h3>' +
-      '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(cat) + '</span>' + av + '</div>' +
+      '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(cat) + '</span></div>' +
       '<dl class="dcp-specs">' + specs + '</dl>' +
       '<div class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</div>' +
       '<button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button>';
