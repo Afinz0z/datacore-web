@@ -41,8 +41,15 @@ DISCIPLINES = [  # (services.html?id=, EN, AR) — matches the header dropdown
   ('professional-services','Professional Services','الخدمات الاحترافية'),
 ]
 PROJ_IMG = ['dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
-GAL_IMG  = ['dc-proj-controlroom.jpg','dc-proj-videowall.jpg','dc-proj-survey.jpg',
-            'dc-proj-aou-council.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
+# "From our sites" gallery — real installation/site photos, (file, en alt, ar alt)
+GAL_IMG = [
+  ('dc-proj-controlroom.jpg', 'A control room we integrated', 'غرفة تحكم من تنفيذنا'),
+  ('dc-proj-videowall.jpg', 'A video wall we installed', 'شاشة عرض جدارية من تنفيذنا'),
+  ('dc-proj-survey.jpg', 'An on-site survey', 'مسح ميداني في الموقع'),
+  ('dc-proj-airport.jpg', 'Terminal fit-out on an airport project', 'تجهيزات في مشروع مطار'),
+  ('dc-proj-firealarm.jpg', 'Installing and testing a fire-alarm detector on site', 'تركيب واختبار كاشف إنذار حريق في الموقع'),
+  ('dc-proj-avmount.jpg', 'Mounting a video-wall array on site', 'تركيب حامل شاشة عرض جدارية في الموقع'),
+]
 POST_IMG = ['dc-blog-pa.jpg','dc-blog-5g.png','dc-blog-passive.png']
 # Google Maps "search + embed" (no API key, loads only when the user clicks)
 MAP_Q = ['Dabbab+Complex+Dabbab+Street+Riyadh+12626',
@@ -161,8 +168,8 @@ def build_projects(ar):
     feat = ''.join(f'<div class="dcp-featcell"><span class="dcp-featic">{FEAT_ICONS[i]}</span>'
                    f'<h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
                    for i,(t,d) in enumerate(s['pj_feat']))
-    gal = ''.join(f'<figure><img src="assets1/images/{g}" alt="" loading="lazy" width="900" height="600"></figure>'
-                  for g in GAL_IMG)
+    gal = ''.join(f'<figure><img src="assets1/images/{g[0]}" alt="{esc(g[2] if ar else g[1])}" '
+                  f'loading="lazy" width="900" height="600"></figure>' for g in GAL_IMG)
     body = (
       hero(ar, 'WORK' if not ar else 'مشاريع', s['pj_title'], s['pj_title'], s['pj_lede'],
            f'<div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap">'
