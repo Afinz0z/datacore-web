@@ -43,6 +43,16 @@
   // deceleration) and make sure the very last frame lands exactly on `target`
   // (never target-1 from rounding). Keep it to ~6-10 lines.
   function countUp(el, target, suffix) {
+    var t0 = null, dur = 1200;
+    function frame(ts) {
+      if (t0 === null) t0 = ts;
+      var p = Math.min((ts - t0) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);       // ease-out cubic: decelerates in
+      el.textContent = Math.round(eased * target) + suffix;
+      if (p < 1) requestAnimationFrame(frame);
+      else el.textContent = target + suffix;    // last frame lands exactly on target
+    }
+    requestAnimationFrame(frame);
   }
 
   if (nums.length) {

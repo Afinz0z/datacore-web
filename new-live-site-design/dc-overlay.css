@@ -37,10 +37,15 @@ html.dc-dark #dcx-hdr{
   -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line)}
 #dcx-hdr .wrap{max-width:1280px;margin:0 auto;display:flex;align-items:center;
-  gap:var(--s4);height:76px;padding:0 clamp(20px,5vw,56px)}
+  gap:var(--s4);height:76px;padding:0 clamp(20px,5vw,56px);transition:height .25s ease}
 #dcx-hdr .logo{flex:none;display:block}
-#dcx-hdr .logo img{height:46px;width:auto;display:block}
+#dcx-hdr .logo img{height:46px;width:auto;display:block;transition:height .25s ease}
 html.dc-dark #dcx-hdr .logo img{filter:invert(1) hue-rotate(180deg)}
+/* condense the header once the page is scrolled (dcx-scrolled toggled in dc-overlay.js) */
+html.dcx-scrolled #dcx-hdr.hdr{box-shadow:0 6px 22px -14px rgba(0,0,0,.4)}
+html.dcx-scrolled #dcx-hdr .wrap{height:60px}
+html.dcx-scrolled #dcx-hdr .logo img{height:38px}
+@media(prefers-reduced-motion:reduce){#dcx-hdr .wrap,#dcx-hdr .logo img{transition:none}}
 #dcx-hdr .mainnav{display:flex;align-items:center;gap:var(--s3);margin-inline-start:auto}
 #dcx-hdr .mainnav>a,#dcx-hdr .dcx-parent{color:var(--ink);text-decoration:none;
   font-size:1rem;font-weight:500;padding:6px 0;border-bottom:2px solid transparent;

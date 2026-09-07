@@ -332,3 +332,28 @@ html[dir=rtl] .dcp-marquee .track{animation-direction:reverse}
 .dcp-foot .legal{color:#6b7478}
 @media(max-width:860px){.dcp-foot-top{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.dcp-foot-top{grid-template-columns:1fr}}
+
+/* ── interactive motion: card hover, hero entrance, RFQ badge ──────── */
+.dcp-card{transition:transform .2s ease,box-shadow .2s ease}
+.dcp-card:hover{transform:translateY(-4px)}
+.dcp-card-photo img{transition:transform .35s ease}
+.dcp-card:hover .dcp-card-photo img{transform:scale(1.06)}
+.dcp-proj .ph{overflow:hidden}
+.dcp-proj .ph img{transition:transform .4s ease}
+.dcp-proj:hover .ph img{transform:scale(1.05)}
+.dcp-gal figure{transition:transform .2s ease}
+.dcp-gal figure:hover{transform:translateY(-3px)}
+.dcp-gal figure:hover img{border-color:var(--dcp-teal-d)}
+/* keyframes at top level (nested-in-@media keyframes fail to resolve in some engines) */
+@keyframes dcx-riseIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes dcx-bump{0%{transform:scale(1)}35%{transform:scale(1.35)}100%{transform:scale(1)}}
+@media(prefers-reduced-motion:no-preference){
+  /* no standalone opacity:0 — fill-mode `both` hides during the delay yet the
+     element defaults to visible if the animation never runs (fail-safe hero) */
+  .dcp-hero .dcp-crumb,.dcp-hero h1,.dcp-hero .dcp-lede,.dcp-hero .btns{
+    animation:dcx-riseIn .6s cubic-bezier(.22,.61,.36,1) both}
+  .dcp-hero h1{animation-delay:.08s}
+  .dcp-hero .dcp-lede{animation-delay:.16s}
+  .dcp-hero .btns{animation-delay:.24s}
+  .dcp-fabn.dcp-bump{animation:dcx-bump .34s ease}
+}
