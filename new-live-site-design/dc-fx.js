@@ -7,7 +7,10 @@
 
   // ── scroll reveal ───────────────────────────────────────────────
   if (!reduce && 'IntersectionObserver' in window) {
-    var sel = '.dcp-sec, .dcp-proj, .dcp-post, .dcp-card, .dcp-method-step, .dcp-featcell, .dcp-stat';
+    // NB: product catalogue cards (.dcp-card) are deliberately NOT revealed —
+    // there are 37 of them with lazy images, and a reveal that misfires would
+    // leave the catalogue blank. They render immediately; images lazy-load.
+    var sel = '.dcp-sec, .dcp-proj, .dcp-post, .dcp-method-step, .dcp-featcell, .dcp-stat';
     var items = [].slice.call(document.querySelectorAll(sel));
     items.forEach(function (el) { el.classList.add('dcx-reveal'); });
     var io = new IntersectionObserver(function (entries) {
@@ -16,6 +19,9 @@
       });
     }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
     items.forEach(function (el) { io.observe(el); });
+    // safety net: whatever the observer misses, reveal it so content is never
+    // stuck invisible (e.g. programmatic scrolls, background tabs, odd engines)
+    setTimeout(function () { items.forEach(function (el) { el.classList.add('dcx-in'); }); }, 2200);
   }
 
   // ── count-up on the stats band ──────────────────────────────────
