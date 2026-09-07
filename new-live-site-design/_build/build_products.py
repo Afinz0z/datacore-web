@@ -11,6 +11,18 @@ DATA = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\dat
 PRODUCTS = json.load(open(os.path.join(DATA, "products.json"), encoding="utf-8"))
 GLYPHS = json.load(open(os.path.join(DATA, "glyphs.json"), encoding="utf-8"))
 
+# real product photos live at assets1/images/products/<sku>.<ext>; filenames
+# sanitise "/" and spaces. Build sku -> local path (glyph fallback if absent).
+_PDIR = os.path.join(ROOT, "assets1", "images", "products")
+_PFILES = {os.path.splitext(f)[0]: f for f in os.listdir(_PDIR)} if os.path.isdir(_PDIR) else {}
+def _photo(sku):
+    for k in (sku, sku.replace('/', '_'), sku.replace(' ', '-'),
+              sku.replace('/', '_').replace(' ', '-'), sku.replace(' ', '')):
+        if k in _PFILES:
+            return "assets1/images/products/" + _PFILES[k]
+    return None
+PHOTOS = {p["sku"]: _photo(p["sku"]) for p in PRODUCTS if _photo(p["sku"])}
+
 CAT_AR = {
   "Access control": "التحكم في الدخول", "Audio visual": "الأنظمة السمعية والبصرية",
   "Networking": "الشبكات", "Power": "الطاقة", "Public address": "النداء الآلي",
@@ -95,7 +107,7 @@ def build_products(ar):
       + f'<section class="dcp-sec"><div class="dcp-wrap">{tools}</div></section>'
       + cta_band(ar) + footer(ar) + drawer)
 
-    data = {"lang": lang, "products": PRODUCTS, "glyphs": GLYPHS,
+    data = {"lang": lang, "products": PRODUCTS, "glyphs": GLYPHS, "photos": PHOTOS,
             "catMap": (CAT_AR if ar else {}), "labels": L}
     js = ('<script>window.DCP_DATA=' + json.dumps(data, ensure_ascii=False) + ';</script>'
           '<script src="dc-products.js?v=' + VER + '"></script>')

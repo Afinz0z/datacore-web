@@ -19,21 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Build the site
-        run: |
-          cd src
-          python build.py
-          python check.py
+      # Publish ONLY the New Live Site Design (the mirror) as the site root.
+      # The from-scratch rebuild in src/ is kept in the repo but no longer
+      # deployed — restore the python build + `path: dist` to bring it back.
       - name: Disable Jekyll processing
-        run: touch dist/.nojekyll
-      - name: Publish the New Live Site Design alongside the main site
-        run: cp -r new-live-site-design dist/new-live-site-design
+        run: touch new-live-site-design/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: new-live-site-design
 
   deploy:
     needs: build
