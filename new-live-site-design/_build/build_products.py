@@ -35,6 +35,7 @@ LABELS = {
    "in_stock": "In stock", "on_order": "On order",
    "showing": "Showing {n} of {t} products", "reset": "Reset filters",
    "empty": "No products match those filters.",
+   "refine": "Refine", "filters": "Filters", "product_one": "product", "product_many": "products",
    "add": "Add to request", "added": "Added \u2713",
    "req_title": "Your request", "remove": "Remove", "clear": "Clear all",
    "r_empty": "Your request is empty. Add products from the catalogue.",
@@ -48,6 +49,7 @@ LABELS = {
    "in_stock": "متوفر", "on_order": "حسب الطلب",
    "showing": "عرض {n} من {t} منتجاً", "reset": "إعادة تعيين",
    "empty": "لا توجد منتجات مطابقة لهذه المرشحات.",
+   "refine": "تصفية", "filters": "المرشحات", "product_one": "منتج", "product_many": "منتجاً",
    "add": "أضف إلى الطلب", "added": "أُضيف \u2713",
    "req_title": "طلبك", "remove": "إزالة", "clear": "مسح الكل",
    "r_empty": "طلبك فارغ. أضف منتجات من الكتالوج.",
@@ -64,24 +66,23 @@ def opts(values, cur_ar):
 def build_products(ar):
     lang = 'ar' if ar else 'en'
     s = STR[lang]; L = LABELS[lang]
-    cats = sorted(set(p['c'] for p in PRODUCTS))
-    brands = sorted(set(p['b'] for p in PRODUCTS))
-    tools = f"""<div class="dcp-tools">
-  <div class="fld"><label for="f-search">{esc(L['search'])}</label>
-    <input id="f-search" type="search" placeholder="{esc(L['search_ph'])}" autocomplete="off"></div>
-  <div class="fld"><label for="f-cat">{esc(L['category'])}</label>
-    <select id="f-cat"><option value="">{esc(L['all'])}</option>{opts(cats, CAT_AR if ar else None)}</select></div>
-  <div class="fld"><label for="f-brand">{esc(L['brand'])}</label>
-    <select id="f-brand"><option value="">{esc(L['all'])}</option>{opts(brands, None)}</select></div>
-  <div class="fld"><label for="f-avail">{esc(L['availability'])}</label>
-    <select id="f-avail"><option value="">{esc(L['all'])}</option>
-      <option value="stock">{esc(L['in_stock'])}</option>
-      <option value="lead">{esc(L['on_order'])}</option></select></div>
-</div>
-<div class="dcp-toolrow"><span class="dcp-count" id="dcp-count"></span>
-  <button class="dcp-clearbtn" id="dcp-reset" type="button">{esc(L['reset'])}</button></div>
-<div class="dcp-grid" id="dcp-grid"></div>
-<p id="dcp-empty" class="dcp-count" hidden>{esc(L['empty'])}</p>"""
+    search_svg = ('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+                  'stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>')
+    tools = f"""<div class="dcp-cat-shell">
+  <aside class="dcp-facets" id="dcp-facets" aria-label="{esc(L['refine'])}"></aside>
+  <div class="dcp-cat-main">
+    <div class="dcp-searchbar">
+      <div class="dcp-search-in">{search_svg}<input id="dcp-search" type="search"
+        placeholder="{esc(L['search_ph'])}" autocomplete="off" aria-label="{esc(L['search'])}"></div>
+      <button class="dcp-mobfilter" id="dcp-mobfilter" type="button" aria-expanded="false"
+        aria-controls="dcp-facets">{esc(L['filters'])}</button>
+    </div>
+    <div class="dcp-catbar"><span class="dcp-count" id="dcp-count"></span></div>
+    <div class="dcp-chips" id="dcp-chips"></div>
+    <div class="dcp-grid" id="dcp-grid"></div>
+    <p id="dcp-empty" class="dcp-count" hidden>{esc(L['empty'])}</p>
+  </div>
+</div>"""
 
     drawer = f"""<button class="dcp-fab" id="dcp-fab" type="button" hidden>{esc(L['req_title'])}
   <span class="dcp-fabn" id="dcp-fabn">0</span></button>

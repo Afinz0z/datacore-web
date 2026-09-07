@@ -1,46 +1,46 @@
-/* Datacore mirror — product catalogue engine. The page sets window.DCP_DATA
-   (products, glyphs, localized labels, lang) then loads this. Faceted filter
-   + text search + a request (RFQ) basket persisted per browser. No backend:
-   submitting the request shows a reference number, same as the contact form. */
+/* Datacore mirror — product catalogue engine. Left faceted sidebar (category /
+   brand / availability, multi-select, live cross-filtered counts) + a photo
+   grid + a request (RFQ) basket persisted per browser. No backend: submitting
+   the request shows a reference number, same as the contact form. */
 (function () {
   var D = window.DCP_DATA; if (!D) return;
   var L = D.labels, AR = D.lang === 'ar';
+  var P = D.products;
   var KEY = 'dcp-rfq';
   var basket = load();
 
   function load() { try { return JSON.parse(sessionStorage.getItem(KEY)) || []; } catch (e) { return []; } }
   function save() { try { sessionStorage.setItem(KEY, JSON.stringify(basket)); } catch (e) {} }
-  function bySku(s) { for (var i = 0; i < D.products.length; i++) if (D.products[i].sku === s) return D.products[i]; }
+  function bySku(s) { for (var i = 0; i < P.length; i++) if (P[i].sku === s) return P[i]; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
-
-  // ── build the grid ──────────────────────────────────────────────
-  var grid = document.getElementById('dcp-grid');
   function glyph(g) {
     return '<svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" ' +
       'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
       (D.glyphs[g] || D.glyphs.rack || '') + '</svg>';
   }
-  D.products.forEach(function (p) {
+  function catName(c) { return D.catMap[c] || c; }
+  function availName(a) { return a === 'stock' ? L.in_stock : L.on_order; }
+
+  // ── build every card once (photo grid); filtering just toggles .hidden ──
+  var grid = document.getElementById('dcp-grid');
+  P.forEach(function (p) {
     var specs = Object.keys(p.specs || {}).slice(0, 4).map(function (k) {
       return '<div><dt>' + esc(k) + '</dt><dd dir="ltr">' + esc(p.specs[k]) + '</dd></div>';
     }).join('');
     var av = p.avail === 'stock'
       ? '<span class="dcp-badge stock">' + L.in_stock + '</span>'
       : '<span class="dcp-badge lead">' + L.on_order + '</span>';
-    var cat = D.catMap[p.c] || p.c;
-    var el = document.createElement('article');
-    el.className = 'dcp-card';
-    el.dataset.cat = p.c; el.dataset.brand = p.b; el.dataset.avail = p.avail;
-    el.dataset.search = (p.n + ' ' + p.b + ' ' + p.sku + ' ' + cat).toLowerCase();
     var photo = D.photos && D.photos[p.sku];
     var media = photo
       ? '<div class="dcp-card-photo"><img src="' + esc(photo) + '" alt="' + esc(p.n) + '" loading="lazy"></div>'
       : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>';
+    var el = document.createElement('article');
+    el.className = 'dcp-card'; el._p = p;
     el.innerHTML =
       media +
       '<div class="dcp-card-top"><span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span>' + av + '</div>' +
       '<h3>' + esc(p.n) + '</h3>' +
-      '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(cat) + '</span></div>' +
+      '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(catName(p.c)) + '</span></div>' +
       '<dl class="dcp-specs">' + specs + '</dl>' +
       '<div class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</div>' +
       '<button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button>';
@@ -48,35 +48,105 @@
   });
   var cards = [].slice.call(grid.children);
 
-  // ── facets + search ─────────────────────────────────────────────
-  var fCat = document.getElementById('f-cat'), fBrand = document.getElementById('f-brand'),
-    fAvail = document.getElementById('f-avail'), fSearch = document.getElementById('f-search'),
-    count = document.getElementById('dcp-count'), empty = document.getElementById('dcp-empty');
-  function apply() {
-    var c = fCat.value, b = fBrand.value, a = fAvail.value, q = fSearch.value.trim().toLowerCase();
-    var shown = 0;
-    cards.forEach(function (el) {
-      var ok = (!c || el.dataset.cat === c) && (!b || el.dataset.brand === b) &&
-        (!a || el.dataset.avail === a) && (!q || el.dataset.search.indexOf(q) > -1);
-      el.hidden = !ok; if (ok) shown++;
-    });
-    count.textContent = L.showing.replace('{n}', shown).replace('{t}', cards.length);
-    empty.hidden = shown > 0;
+  // ── faceted state + filtering (multi-select) ────────────────────
+  var S = { q: '', cat: [], brand: [], avail: [] };
+  function match(p, skip) {
+    if (S.q) {
+      var t = (p.n + ' ' + p.b + ' ' + p.sku + ' ' + p.c + ' ' +
+        Object.keys(p.specs || {}).map(function (k) { return p.specs[k]; }).join(' ')).toLowerCase();
+      if (!S.q.toLowerCase().split(/\s+/).every(function (w) { return t.indexOf(w) > -1; })) return false;
+    }
+    if (skip !== 'cat' && S.cat.length && S.cat.indexOf(p.c) < 0) return false;
+    if (skip !== 'brand' && S.brand.length && S.brand.indexOf(p.b) < 0) return false;
+    if (skip !== 'avail' && S.avail.length && S.avail.indexOf(p.avail) < 0) return false;
+    return true;
   }
-  [fCat, fBrand, fAvail].forEach(function (s) { s.addEventListener('change', apply); });
-  fSearch.addEventListener('input', apply);
-  document.getElementById('dcp-reset').addEventListener('click', function () {
-    fCat.value = ''; fBrand.value = ''; fAvail.value = ''; fSearch.value = ''; apply();
+  // counts for a dimension ignore that dimension's own selection (so you can
+  // still see and add sibling options), but respect every other active filter
+  function tally(dim, get) {
+    var m = {};
+    P.forEach(function (p) { if (match(p, dim)) { var v = get(p); if (v != null) m[v] = (m[v] || 0) + 1; } });
+    return m;
+  }
+
+  // ── left sidebar ────────────────────────────────────────────────
+  var facetsEl = document.getElementById('dcp-facets');
+  function fgroup(title, dim, counts, selected, label, limit) {
+    var all = Object.keys(counts);
+    selected.forEach(function (s) { if (all.indexOf(s) < 0) all.push(s); });
+    all.sort();
+    var open = all.length <= (limit || 8) || S['_m_' + dim];
+    var list = open ? all : all.slice(0, limit || 8);
+    var h = '<div class="dcp-fgroup"><h4>' + esc(title) + '</h4>';
+    list.forEach(function (v) {
+      var c = counts[v] || 0, on = selected.indexOf(v) > -1;
+      h += '<label class="' + (c === 0 && !on ? 'off' : '') + '"><input type="checkbox" data-dim="' + esc(dim) +
+        '" value="' + esc(v) + '"' + (on ? ' checked' : '') + '><span>' + esc(label(v)) +
+        '</span><span class="dcp-fc">' + c + '</span></label>';
+    });
+    if (all.length > list.length)
+      h += '<button class="dcp-more" type="button" data-more="' + esc(dim) + '">+ ' + (all.length - list.length) + '</button>';
+    return h + '</div>';
+  }
+  function renderFacets() {
+    var n = S.cat.length + S.brand.length + S.avail.length;
+    var h = '<div class="dcp-fhead"><span>' + L.refine + '</span>' +
+      (n ? '<button class="dcp-clearall" type="button" id="dcp-clearall">' + L.clear + '</button>' : '') + '</div>';
+    h += fgroup(L.category, 'cat', tally('cat', function (p) { return p.c; }), S.cat, catName, 9);
+    h += fgroup(L.brand, 'brand', tally('brand', function (p) { return p.b; }), S.brand, function (v) { return v; }, 8);
+    h += fgroup(L.availability, 'avail', tally('avail', function (p) { return p.avail; }), S.avail, availName, 4);
+    facetsEl.innerHTML = h;
+  }
+
+  // ── results, count, active chips ────────────────────────────────
+  var countEl = document.getElementById('dcp-count'), chipsEl = document.getElementById('dcp-chips'),
+    emptyEl = document.getElementById('dcp-empty');
+  function apply() {
+    var shown = 0;
+    cards.forEach(function (el) { var ok = match(el._p, null); el.hidden = !ok; if (ok) shown++; });
+    countEl.innerHTML = '<b>' + shown + '</b> ' + (shown === 1 ? L.product_one : L.product_many);
+    emptyEl.hidden = shown > 0;
+    renderChips();
+  }
+  function renderChips() {
+    var ch = [];
+    S.cat.forEach(function (v) { ch.push(['cat', v, catName(v)]); });
+    S.brand.forEach(function (v) { ch.push(['brand', v, v]); });
+    S.avail.forEach(function (v) { ch.push(['avail', v, availName(v)]); });
+    chipsEl.innerHTML = ch.map(function (x) {
+      return '<span class="dcp-chip">' + esc(x[2]) + '<button type="button" data-chip="' + x[0] +
+        '" data-val="' + esc(x[1]) + '" aria-label="' + L.remove + '">&times;</button></span>';
+    }).join('');
+  }
+
+  facetsEl.addEventListener('change', function (ev) {
+    var d = ev.target.getAttribute('data-dim'); if (!d) return;
+    var v = ev.target.value, arr = S[d], i = arr.indexOf(v);
+    if (ev.target.checked) { if (i < 0) arr.push(v); } else if (i > -1) arr.splice(i, 1);
+    apply(); renderFacets();
+  });
+  facetsEl.addEventListener('click', function (ev) {
+    if (ev.target.id === 'dcp-clearall') { S.cat = []; S.brand = []; S.avail = []; apply(); renderFacets(); return; }
+    var m = ev.target.getAttribute('data-more'); if (m) { S['_m_' + m] = true; renderFacets(); }
+  });
+  chipsEl.addEventListener('click', function (ev) {
+    var b = ev.target.closest('[data-chip]'); if (!b) return;
+    var d = b.getAttribute('data-chip'), v = b.getAttribute('data-val'), i = S[d].indexOf(v);
+    if (i > -1) S[d].splice(i, 1); apply(); renderFacets();
+  });
+  var search = document.getElementById('dcp-search');
+  search.addEventListener('input', function () { S.q = search.value.trim(); apply(); renderFacets(); });
+  var mobBtn = document.getElementById('dcp-mobfilter');
+  if (mobBtn) mobBtn.addEventListener('click', function () {
+    var on = facetsEl.classList.toggle('open'); mobBtn.setAttribute('aria-expanded', String(on));
   });
 
   // ── request (RFQ) basket ────────────────────────────────────────
   var drawer = document.getElementById('dcp-drawer'), list = document.getElementById('dcp-rlist'),
     fab = document.getElementById('dcp-fab'), fabN = document.getElementById('dcp-fabn'),
     scrim = document.getElementById('dcp-scrim');
-  // The overlay wraps page content in #dc-content, which takes a `filter` in
-  // dark mode — and a filtered ancestor makes position:fixed resolve against
-  // it, not the viewport. Move these fixed overlays out to <body> so they
-  // float correctly and stay out of the invert (they're themed by hand).
+  // move fixed overlays out of #dc-content (its dark-mode filter would trap
+  // position:fixed against it instead of the viewport)
   [fab, scrim, drawer].forEach(function (el) { if (el) document.body.appendChild(el); });
   function inBasket(sku) { return basket.indexOf(sku) > -1; }
   function syncButtons() {
@@ -92,7 +162,7 @@
     if (!basket.length) { list.innerHTML = '<p class="dcp-rempty">' + L.empty + '</p>'; return; }
     list.innerHTML = basket.map(function (sku) {
       var p = bySku(sku); if (!p) return '';
-      return '<li><div><strong>' + esc(p.n) + '</strong><span dir="ltr">' + esc(p.b) + ' · ' + esc(p.sku) + '</span></div>' +
+      return '<li><div><strong>' + esc(p.n) + '</strong><span dir="ltr">' + esc(p.b) + ' &middot; ' + esc(p.sku) + '</span></div>' +
         '<button type="button" class="dcp-rrm" data-sku="' + esc(sku) + '" aria-label="' + L.remove + '">&times;</button></li>';
     }).join('');
   }
@@ -114,8 +184,6 @@
   document.getElementById('dcp-clear').addEventListener('click', function () {
     basket = []; save(); syncButtons(); renderList();
   });
-
-  // submit RFQ → reference number (no backend)
   var form = document.getElementById('dcp-rform');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -128,5 +196,5 @@
     basket = []; save(); syncButtons();
   });
 
-  syncButtons(); renderList(); apply();
+  renderFacets(); apply(); syncButtons(); renderList();
 })();
