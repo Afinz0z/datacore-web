@@ -220,11 +220,11 @@ html[dir=rtl] .dcp-fgroup h4{letter-spacing:0}
 .dcp-add:hover{background:#eaf6f4}
 .dcp-add.on{background:var(--dcp-teal-d);color:#fff}
 /* RFQ floating button + drawer */
-.dcp-fab{position:fixed;inset-block-end:22px;inset-inline-end:22px;z-index:1200;background:var(--dcp-teal-d);
+.dcp-fab{position:fixed;inset-block-end:96px;inset-inline-end:22px;z-index:1200;background:var(--dcp-teal-d);
   color:#fff;border:0;border-radius:40px;padding:14px 22px;font:inherit;font-weight:600;cursor:pointer;
   box-shadow:0 16px 30px -12px rgba(0,0,0,.4);display:inline-flex;gap:10px;align-items:center}
 .dcp-fab:hover{background:var(--dcp-teal-dd)}
-@media(max-width:900px){html.dcx-has-sticky .dcp-fab{inset-block-end:78px}}
+@media(max-width:900px){html.dcx-has-sticky .dcp-fab{inset-block-end:150px}}
 .dcp-fabn{background:#fff;color:var(--dcp-teal-d);border-radius:20px;min-width:22px;height:22px;
   display:inline-flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:700;padding:0 6px}
 .dcp-scrim{position:fixed;inset:0;background:rgba(10,12,14,.5);z-index:1300}

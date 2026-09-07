@@ -168,20 +168,17 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
    themes them automatically with the rest of the live page */
 
 /* ── quick-contact bubble + sticky mobile CTA (site-wide, outside #dc-content) ── */
-#dcx-chat{position:fixed;inset-block-end:22px;inset-inline-start:22px;z-index:9990;
+#dcx-chat{position:fixed;inset-block-end:22px;inset-inline-end:22px;z-index:9990;
   font-family:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif}
 #dcx-chat .chatb{display:inline-flex;align-items:center;justify-content:center;border:1px solid #E2E8E6;
-  cursor:pointer;background:#fff;border-radius:40px;padding:12px 20px;
-  box-shadow:0 14px 30px -10px rgba(0,0,0,.3)}
-#dcx-chat .chatb:hover{box-shadow:0 16px 34px -10px rgba(0,0,0,.4)}
-#dcx-chat .dcx-wm{font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:1.08rem;
-  letter-spacing:-.01em;line-height:1}
-#dcx-chat .dcx-wm .d1{color:#00776F}
-#dcx-chat .dcx-wm .d2{color:#12181C}
+  cursor:pointer;background:#fff;border-radius:50%;width:60px;height:60px;padding:0;
+  box-shadow:0 14px 30px -10px rgba(0,0,0,.3);transition:transform .18s ease,box-shadow .18s ease}
+#dcx-chat .chatb:hover{box-shadow:0 16px 34px -10px rgba(0,0,0,.4);transform:translateY(-2px)}
+#dcx-chat .dcx-logo{width:34px;height:34px;display:block;object-fit:contain}
 #dcx-chat .chatb .x{display:none;color:#12181C}
 #dcx-chat .chatb[aria-expanded="true"] .x{display:block}
-#dcx-chat .chatb[aria-expanded="true"] .dcx-wm{display:none}
-#dcx-chat .chatp{position:absolute;inset-block-end:68px;inset-inline-start:0;width:290px;
+#dcx-chat .chatb[aria-expanded="true"] .dcx-logo{display:none}
+#dcx-chat .chatp{position:absolute;inset-block-end:68px;inset-inline-end:0;width:290px;
   background:#fff;border:1px solid #E2E8E6;border-radius:12px;overflow:hidden;
   box-shadow:0 26px 50px -18px rgba(0,0,0,.4)}
 #dcx-chat .chatp header{padding:16px 18px;background:#00776F;color:#fff}

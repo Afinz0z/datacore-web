@@ -241,7 +241,7 @@
             cico('<path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6M9 14h6M9 17h4"/>') + T.chat_form + '</a>' +
         '</div></div>' +
       '<button class="chatb" id="dcxChatB" aria-expanded="false" aria-controls="dcxChatP" aria-label="' + T.chat_label + '">' +
-        '<span class="dcx-wm" aria-hidden="true"><span class="d1">Data</span><span class="d2">core</span></span>' +
+        '<img class="dcx-logo" src="assets1/images/dc-logo-chat.png" alt="" aria-hidden="true" width="34" height="34">' +
         '<svg class="x" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>' +
       '</button>';
     document.body.appendChild(chat);
