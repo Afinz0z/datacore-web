@@ -1,0 +1,29 @@
+# Datacore Solutions
+
+> Low-current (ELV) systems integrator operating in Saudi Arabia, the UAE and
+> India. In-house delivery — design, supply, installation, commissioning and
+> maintenance — across nine disciplines and 38 services. Integrating since 2007.
+
+## Disciplines
+- Network infrastructure — structured cabling, fibre, IT networks, UPS, Wi-Fi, IP telephony
+- Datacentre — design & implementation, migration, assessment
+- Surveillance & security — access control, CCTV, parking, GRMS
+- Meeting rooms — video conferencing, booking, SOC/NOC, acoustics, boardrooms
+- Audio-visual — auditoriums, smart classrooms, control systems, professional audio and more
+- Signage & video walls — digital signage, indoor/outdoor LED, interactive walls
+- Public address & fire alarm — PAVA voice evacuation (EN 54), PAGA, fire alarm, BGM
+- IPTV & MATV
+- Maintenance & staffing — SLA-backed contracts, resident engineers
+
+## Offices
+- Riyadh, Saudi Arabia (head office) — +966 11 512 8888
+- Dubai, United Arab Emirates — +971 52 753 6070
+- Kozhikode, India — +91 495 350 1154
+
+## Key pages
+- https://www.datacore.com.sa/services.html — all disciplines and services
+- https://www.datacore.com.sa/products.html — product catalogue and quotation requests
+- https://www.datacore.com.sa/projects.html — named project case studies
+- https://www.datacore.com.sa/contact.html — enquiry form and office locations
+
+Note: company registration (CR) and VAT numbers shown on the site are placeholders.

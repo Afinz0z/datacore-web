@@ -1,0 +1,90 @@
+DATACORE — LIVE-SITE MIRROR, ENHANCED INTO A COMPLETE OFFLINE SITE
+==================================================================
+
+This folder began as a byte-faithful offline copy of three pages from the
+live production site datacore.com.sa (captured 3 September 2026):
+
+    index.html       <- https://www.datacore.com.sa/            (Home)
+    about-us.html    <- https://www.datacore.com.sa/about-us
+    services.html    <- https://www.datacore.com.sa/services
+
+Those three page BODIES are still the live site's exact HTML/CSS/JS — not
+edited. Everything else here was added on top, so the site is now complete
+and works fully offline, in English + Arabic, light + dark.
+
+WHAT WAS ADDED
+--------------
+  * OUR HEADER (all pages) — the rebuilt site's header: logo, main nav with
+    a Services mega-dropdown (9 disciplines), language + theme buttons and a
+    "Request a consultation" button. The live site's own top header is
+    hidden. Controlled by dc-overlay.css / dc-overlay.js.
+  * ARABIC (RTL) — every page has an Arabic version (…-ar.html). The
+    "العربية / English" button switches between them.
+  * DARK MODE — the moon/sun button toggles a remembered dark theme.
+    Photographs keep their natural colours.
+  * ABOUT extras — the CEO photo in the Our-Story column, a "people behind
+    the projects" gallery, and the live "Unique features" strip.
+
+NEW FUNCTIONAL PAGES (rebuilt in the live "Texta" look)
+-------------------------------------------------------
+    products.html   Faceted catalogue: search + filter by category / brand /
+                    availability over 37 products, with a request (RFQ)
+                    basket — add items, then send a quotation request.
+    projects.html   Project case studies, "how we work" and a site gallery.
+    insights.html   Technical notes / articles.
+    contact.html    Enquiry form + a three-office map switcher (the map only
+                    loads from Google when you ask it to) + LocalBusiness
+                    schema.
+    service-<slug>.html   38 service detail pages, each with breadcrumb,
+                    standards, a "how we deliver" methodology band, the real
+                    service copy, sibling-service links and Service schema.
+
+    Each of the above also has an Arabic …-ar.html version (76 service pages
+    in total, EN+AR). The Arabic service copy was authored in-repo (the live
+    Arabic service pages are empty shells) and still needs a native review.
+
+HOW THE PIECES FIT
+------------------
+    dc-overlay.css / dc-overlay.js   the added header + dark/Arabic layer.
+                    The JS also rewrites the live "service-details/<slug>"
+                    links to the local service-<slug>.html files at runtime,
+                    so the live pages on disk are never modified.
+    dc-pages.css                     the live-look styles for the new pages.
+    dc-products.js                   the catalogue filter + RFQ basket.
+    assets1/        the site's own CSS, JS, libraries, icons and images.
+    fonts/          the Texta font family.
+    imgserver/      the project, service and section photographs.
+
+Assets are loaded with a "?v=N" version tag. If you change dc-overlay.* /
+dc-pages.css / dc-products.js, bump that number (VER in the build scripts,
+and the six core pages) so browsers fetch the new copy instead of a cached
+one.
+
+This is completely separate from the rebuilt site in the "datacore-web"
+folder.
+
+HOW TO OPEN IT
+--------------
+Serve the folder over a local web server (some browsers block a few things
+on file://). From this folder:
+
+    python -m http.server 8080
+
+then open  http://localhost:8080/index.html  in any browser.
+
+NOTE ON THE PYTHON TEST SERVER: under the live pages' ~40-image load,
+Python's http.server on Windows sometimes resets a few image connections,
+so an image can appear blank on first paint. The files themselves are valid
+and complete (they serve fine one at a time, and on real hosting such as
+GitHub Pages). It is a quirk of the tiny test server, not the site.
+
+NOTES
+-----
+- The live pages keep their own third-party pieces (Google Tag Manager, the
+  tawk.to chat widget, the reCAPTCHA on the contact form). These load from
+  the internet when online. reCAPTCHA shows a "localhost is not a supported
+  site key" note off-domain — expected; it disappears on datacore.com.sa.
+- Scroll animations (AOS) on the three live pages reveal sections as you
+  scroll, so some content starts faded until it comes into view.
+- CR / VAT numbers in the footer are placeholders, not the client's real
+  registration numbers.
