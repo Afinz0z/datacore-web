@@ -157,6 +157,24 @@
   [fab, scrim, drawer].forEach(function (el) { if (el) document.body.appendChild(el); });
   function inBasket(sku) { return basket[sku] > 0; }
   function count() { return Object.keys(basket).length; }
+  function flyToCart(btn) {
+    if (matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+    var card = btn.closest('.dcp-card'), ph = card && card.querySelector('.dcp-card-photo');
+    if (!ph || fab.hidden) return;
+    var r = ph.getBoundingClientRect(), t = fab.getBoundingClientRect();
+    var fly = document.createElement('div');
+    fly.style.cssText = 'position:fixed;z-index:2000;pointer-events:none;border-radius:8px;overflow:hidden;background:#12211f;'
+      + 'left:' + r.left + 'px;top:' + r.top + 'px;width:' + r.width + 'px;height:' + r.height + 'px;'
+      + 'transition:transform .6s cubic-bezier(.5,-.35,.35,1),opacity .6s';
+    var im = ph.querySelector('img');
+    if (im) { fly.style.backgroundImage = 'url(' + im.src + ')'; fly.style.backgroundSize = 'cover'; fly.style.backgroundPosition = 'center'; }
+    document.body.appendChild(fly);
+    requestAnimationFrame(function () {
+      var dx = t.left + t.width / 2 - (r.left + r.width / 2), dy = t.top + t.height / 2 - (r.top + r.height / 2);
+      fly.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(.12)'; fly.style.opacity = '.35';
+    });
+    setTimeout(function () { fly.remove(); }, 640);
+  }
   var lastN = -1;
   function syncButtons() {
     grid.querySelectorAll('.dcp-add').forEach(function (btn) {
@@ -199,10 +217,11 @@
       return;
     }
     var btn = e.target.closest('.dcp-add'); if (!btn) return;
-    var sku = btn.dataset.sku;
+    var sku = btn.dataset.sku, adding = !inBasket(sku);
     if (inBasket(sku)) { delete basket[sku]; }
     else { var qn = btn.parentNode.querySelector('.dcp-qn'); basket[sku] = Math.max(1, parseInt(qn.value, 10) || 1); }
     save(); syncButtons(); renderList();
+    if (adding) flyToCart(btn);
   });
   grid.addEventListener('change', function (e) {   // typed quantity
     var inp = e.target.closest('.dcp-qn'); if (!inp) return;

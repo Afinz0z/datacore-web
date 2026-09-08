@@ -245,10 +245,19 @@
         '<svg class="x" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>' +
       '</button>';
     document.body.appendChild(chat);
+    // scroll-progress bar + back-to-top button (outside #dc-content so position:fixed holds)
+    var dcxProg = document.createElement('div'); dcxProg.id = 'dcx-prog'; document.body.appendChild(dcxProg);
+    var dcxTop = document.createElement('button'); dcxTop.id = 'dcx-top'; dcxTop.type = 'button';
+    dcxTop.setAttribute('aria-label', isAR ? 'العودة إلى الأعلى' : 'Back to top');
+    dcxTop.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>';
+    document.body.appendChild(dcxTop);
+    dcxTop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
     // condense the developed header once the page scrolls (toggles dcx-scrolled → CSS)
     var onDcxScroll = function () {
-      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
-      document.documentElement.classList.toggle('dcx-scrolled', y > 24);
+      var de = document.documentElement, y = window.pageYOffset || de.scrollTop || 0;
+      de.classList.toggle('dcx-scrolled', y > 24);
+      dcxProg.style.transform = 'scaleX(' + (de.scrollHeight > de.clientHeight ? y / (de.scrollHeight - de.clientHeight) : 0) + ')';
+      dcxTop.classList.toggle('show', y > 500);
     };
     window.addEventListener('scroll', onDcxScroll, { passive: true }); onDcxScroll();
     var btn = chat.querySelector('#dcxChatB'), panel = chat.querySelector('#dcxChatP');

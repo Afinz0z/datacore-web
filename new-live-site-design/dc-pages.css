@@ -29,6 +29,10 @@ html[dir=rtl] .dcp h1{text-transform:none;line-height:1.3}
   color:#fff;font-weight:600;padding:13px 26px;border-radius:3px;border:0;cursor:pointer;
   font-size:1rem;font-family:inherit;text-decoration:none}
 .dcp .dcp-btn:hover{background:var(--dcp-teal-dd);color:#fff}
+.dcp .dcp-btn svg{transition:transform .25s ease}
+.dcp .dcp-btn:hover svg{transform:translateX(4px)}
+html[dir=rtl] .dcp .dcp-btn:hover svg{transform:translateX(-4px)}
+@media(prefers-reduced-motion:reduce){.dcp .dcp-btn:hover svg{transform:none}}
 .dcp .dcp-btn svg{flex:none}
 .dcp .dcp-btn-o{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--dcp-line);
   color:var(--dcp-ink);font-weight:600;padding:12px 24px;border-radius:3px;text-decoration:none;
@@ -221,11 +225,11 @@ html[dir=rtl] .dcp-fgroup h4{letter-spacing:0}
 .dcp-add.on{background:var(--dcp-teal-d);color:#fff}
 /* quantity stepper (left of "Add to request") + quantity in the RFQ drawer */
 .dcp-add-row{margin-top:auto;display:flex;gap:8px;align-items:stretch}
-.dcp-add-row .dcp-add{margin-top:0;flex:1}
+.dcp-add-row .dcp-add{margin-top:0;flex:1;white-space:nowrap;padding-inline:8px;min-width:0}
 .dcp-qty{display:inline-flex;align-items:center;border:1px solid var(--dcp-line);border-radius:8px;overflow:hidden;flex:none;background:#fff}
-.dcp-qb{width:32px;border:0;background:none;color:var(--dcp-teal-d);font-size:1.15rem;line-height:1;cursor:pointer;padding:0}
+.dcp-qb{width:28px;border:0;background:none;color:var(--dcp-teal-d);font-size:1.1rem;line-height:1;cursor:pointer;padding:0}
 .dcp-qb:hover{background:#eaf6f4}
-.dcp-qn{width:40px;border:0;border-inline:1px solid var(--dcp-line);text-align:center;font:inherit;font-weight:600;color:var(--dcp-ink);padding:9px 0;background:none}
+.dcp-qn{width:30px;border:0;border-inline:1px solid var(--dcp-line);text-align:center;font:inherit;font-weight:600;color:var(--dcp-ink);padding:9px 0;background:none}
 #dcp-rlist li>div:first-child{flex:1;min-width:0}
 .dcp-rqty{display:inline-flex;align-items:center;gap:9px;font-variant-numeric:tabular-nums;font-weight:600;flex:none}
 .dcp-rq{width:26px;height:26px;border:1px solid var(--dcp-line);border-radius:6px;background:#fff;color:var(--dcp-teal-d);cursor:pointer;font-size:1rem;line-height:1}
@@ -352,8 +356,7 @@ html[dir=rtl] .dcp-marquee .track{animation-direction:reverse}
 /* ── interactive motion: card hover, hero entrance, RFQ badge ──────── */
 .dcp-card{transition:transform .2s ease,box-shadow .2s ease}
 .dcp-card:hover{transform:translateY(-4px)}
-.dcp-card-photo img{transition:transform .35s ease}
-.dcp-card:hover .dcp-card-photo img{transform:scale(1.06)}
+/* product photos sit contained on white — the card lifts on hover, the image does not zoom */
 .dcp-proj .ph{overflow:hidden}
 .dcp-proj .ph img{transition:transform .4s ease}
 .dcp-proj:hover .ph img{transform:scale(1.05)}
