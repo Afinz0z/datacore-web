@@ -69,11 +69,21 @@ def build_legal(kind, ar):
     title, lede, sections = LEGAL[kind][lang]
     ghost = ("TERMS" if kind == "terms" else "PRIVACY") if not ar else ("شروط" if kind == "terms" else "خصوصية")
     body = hero(ar, ghost, title, title, lede)
+    def _slug(h):
+        out = ''.join(c if c.isalnum() else '-' for c in h.lower())
+        while '--' in out:
+            out = out.replace('--', '-')
+        return out.strip('-') or 'sec'
+    toc_label = 'الوصول السريع' if ar else 'Quick access'
+    toc = ''.join(f'<li><a href="#{_slug(h)}">{esc(h)}</a></li>' for h, _ in sections)
     inner = ""
     for h, ps in sections:
-        inner += "<section><h2>" + esc(h) + "</h2>" + "".join("<p>" + esc(p) + "</p>" for p in ps) + "</section>"
-    body += (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-svc-body" '
-             f'style="max-width:760px">{inner}</div></div></section>' + cta_band(ar) + footer(ar))
+        inner += (f'<section id="{_slug(h)}"><h2>{esc(h)}</h2>'
+                  + "".join("<p>" + esc(p) + "</p>" for p in ps) + "</section>")
+    body += (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-legal">'
+             f'<nav class="dcp-toc" aria-label="{esc(toc_label)}"><h2>{esc(toc_label)}</h2><ul>{toc}</ul></nav>'
+             f'<div class="dcp-legal-body">{inner}</div>'
+             f'</div></div></section>' + cta_band(ar) + footer(ar))
     tt = title + (" | داتاكور للحلول" if ar else " | Datacore Solutions")
     return shell(ar, kind, tt, lede, body)
 

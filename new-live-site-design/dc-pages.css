@@ -372,6 +372,18 @@ html[dir=rtl] .dcp-marquee .track{animation-direction:reverse}
 .dcp-fab-ic{flex:none}
 @keyframes dcp-cart{0%{transform:translateY(0) scale(1)}35%{transform:translateY(-3px) scale(1.18)}70%{transform:translateY(0) scale(1)}}
 @media(prefers-reduced-motion:no-preference){.dcp-fab.dcp-added .dcp-fab-ic{animation:dcp-cart .45s ease}}
+/* terms/privacy: Quick-access table of contents + body */
+.dcp-legal{display:grid;grid-template-columns:230px minmax(0,1fr);gap:40px;align-items:start;max-width:960px;margin:0 auto}
+.dcp-toc{position:sticky;top:92px;border:1px solid var(--dcp-line);border-radius:8px;padding:16px 18px;background:var(--dcp-soft)}
+.dcp-toc h2{font-size:.76rem;text-transform:uppercase;letter-spacing:.07em;color:var(--dcp-ink3);margin:0 0 10px;font-weight:700}
+.dcp-toc ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.dcp-toc a{display:block;padding:6px 0;color:var(--dcp-ink2);text-decoration:none;font-size:.9rem;line-height:1.35}
+.dcp-toc a:hover{color:var(--dcp-teal-d)}
+.dcp-legal-body{min-width:0}
+.dcp-legal-body section{scroll-margin-top:92px}
+.dcp-legal-body section+section{margin-top:28px}
+.dcp-legal-body h2{font-size:1.25rem;margin:0 0 10px}
+@media(max-width:800px){.dcp-legal{grid-template-columns:1fr;gap:24px}.dcp-toc{position:static}}
 /* service-page project photo band */
 .dcp-svc-shot{margin:0 auto;max-width:940px}
 .dcp-svc-shot img{width:100%;height:auto;display:block;border:1px solid var(--dcp-line);border-radius:8px;
