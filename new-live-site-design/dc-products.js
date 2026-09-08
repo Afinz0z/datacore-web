@@ -6,10 +6,10 @@
   var D = window.DCP_DATA; if (!D) return;
   var L = D.labels, AR = D.lang === 'ar';
   var P = D.products;
-  var KEY = 'dcp-rfq';
+  var KEY = 'dcp-rfq2';   // basket is now { sku: qty }
   var basket = load();
 
-  function load() { try { return JSON.parse(sessionStorage.getItem(KEY)) || []; } catch (e) { return []; } }
+  function load() { try { var v = JSON.parse(sessionStorage.getItem(KEY)); if (Array.isArray(v)) { var o = {}; v.forEach(function (s) { o[s] = 1; }); return o; } return (v && typeof v === 'object') ? v : {}; } catch (e) { return {}; } }
   function save() { try { sessionStorage.setItem(KEY, JSON.stringify(basket)); } catch (e) {} }
   function bySku(s) { for (var i = 0; i < P.length; i++) if (P[i].sku === s) return P[i]; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
@@ -43,7 +43,14 @@
       '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(catName(p.c)) + '</span></div>' +
       '<dl class="dcp-specs">' + specs + '</dl>' +
       '<div class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</div>' +
-      '<button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button>';
+      '<div class="dcp-add-row">' +
+        '<div class="dcp-qty">' +
+          '<button class="dcp-qb" type="button" data-q="-1" aria-label="Decrease quantity">−</button>' +
+          '<input class="dcp-qn" type="text" inputmode="numeric" value="1" aria-label="Quantity" data-sku="' + esc(p.sku) + '">' +
+          '<button class="dcp-qb" type="button" data-q="1" aria-label="Increase quantity">+</button>' +
+        '</div>' +
+        '<button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button>' +
+      '</div>';
     grid.appendChild(el);
   });
   var cards = [].slice.call(grid.children);
@@ -148,7 +155,8 @@
   // move fixed overlays out of #dc-content (its dark-mode filter would trap
   // position:fixed against it instead of the viewport)
   [fab, scrim, drawer].forEach(function (el) { if (el) document.body.appendChild(el); });
-  function inBasket(sku) { return basket.indexOf(sku) > -1; }
+  function inBasket(sku) { return basket[sku] > 0; }
+  function count() { return Object.keys(basket).length; }
   var lastN = -1;
   function syncButtons() {
     grid.querySelectorAll('.dcp-add').forEach(function (btn) {
@@ -156,31 +164,56 @@
       btn.classList.toggle('on', on);
       btn.textContent = on ? L.added : L.add;
     });
-    fabN.textContent = basket.length;
-    fab.hidden = basket.length === 0;
-    if (lastN !== -1 && basket.length !== lastN) {   // pulse the badge + nudge the cart when the count changes
+    grid.querySelectorAll('.dcp-qn').forEach(function (inp) {   // reflect a saved quantity on the card
+      if (inBasket(inp.dataset.sku)) inp.value = basket[inp.dataset.sku];
+    });
+    var n = count();
+    fabN.textContent = n;
+    fab.hidden = n === 0;
+    if (lastN !== -1 && n !== lastN) {   // pulse the badge + nudge the cart when the count changes
       fabN.classList.remove('dcp-bump'); void fabN.offsetWidth; fabN.classList.add('dcp-bump');
       fab.classList.remove('dcp-added'); void fab.offsetWidth; fab.classList.add('dcp-added');
     }
-    lastN = basket.length;
+    lastN = n;
   }
   function renderList() {
-    if (!basket.length) { list.innerHTML = '<p class="dcp-rempty">' + L.empty + '</p>'; return; }
-    list.innerHTML = basket.map(function (sku) {
+    var keys = Object.keys(basket);
+    if (!keys.length) { list.innerHTML = '<p class="dcp-rempty">' + L.empty + '</p>'; return; }
+    list.innerHTML = keys.map(function (sku) {
       var p = bySku(sku); if (!p) return '';
       return '<li><div><strong>' + esc(p.n) + '</strong><span dir="ltr">' + esc(p.b) + ' &middot; ' + esc(p.sku) + '</span></div>' +
+        '<div class="dcp-rqty">' +
+          '<button type="button" class="dcp-rq" data-sku="' + esc(sku) + '" data-q="-1" aria-label="Decrease quantity">−</button>' +
+          '<span>' + basket[sku] + '</span>' +
+          '<button type="button" class="dcp-rq" data-sku="' + esc(sku) + '" data-q="1" aria-label="Increase quantity">+</button>' +
+        '</div>' +
         '<button type="button" class="dcp-rrm" data-sku="' + esc(sku) + '" aria-label="' + L.remove + '">&times;</button></li>';
     }).join('');
   }
   grid.addEventListener('click', function (e) {
+    var qb = e.target.closest('.dcp-qb');
+    if (qb) {   // +/- on a card adjusts its quantity (and the basket if already added)
+      var inp = qb.parentNode.querySelector('.dcp-qn');
+      inp.value = Math.max(1, (parseInt(inp.value, 10) || 1) + (+qb.dataset.q));
+      if (inBasket(inp.dataset.sku)) { basket[inp.dataset.sku] = +inp.value; save(); syncButtons(); renderList(); }
+      return;
+    }
     var btn = e.target.closest('.dcp-add'); if (!btn) return;
     var sku = btn.dataset.sku;
-    if (inBasket(sku)) basket.splice(basket.indexOf(sku), 1); else basket.push(sku);
+    if (inBasket(sku)) { delete basket[sku]; }
+    else { var qn = btn.parentNode.querySelector('.dcp-qn'); basket[sku] = Math.max(1, parseInt(qn.value, 10) || 1); }
     save(); syncButtons(); renderList();
   });
+  grid.addEventListener('change', function (e) {   // typed quantity
+    var inp = e.target.closest('.dcp-qn'); if (!inp) return;
+    inp.value = Math.max(1, parseInt(inp.value, 10) || 1);
+    if (inBasket(inp.dataset.sku)) { basket[inp.dataset.sku] = +inp.value; save(); syncButtons(); renderList(); }
+  });
   list.addEventListener('click', function (e) {
+    var qb = e.target.closest('.dcp-rq');
+    if (qb) { var s = qb.dataset.sku; basket[s] = Math.max(1, (basket[s] || 1) + (+qb.dataset.q)); save(); syncButtons(); renderList(); return; }
     var btn = e.target.closest('.dcp-rrm'); if (!btn) return;
-    basket.splice(basket.indexOf(btn.dataset.sku), 1); save(); syncButtons(); renderList();
+    delete basket[btn.dataset.sku]; save(); syncButtons(); renderList();
   });
   function openD() { drawer.classList.add('open'); scrim.hidden = false; drawer.setAttribute('aria-hidden', 'false'); }
   function closeD() { drawer.classList.remove('open'); scrim.hidden = true; drawer.setAttribute('aria-hidden', 'true'); }
@@ -188,18 +221,18 @@
   document.getElementById('dcp-dclose').addEventListener('click', closeD);
   scrim.addEventListener('click', closeD);
   document.getElementById('dcp-clear').addEventListener('click', function () {
-    basket = []; save(); syncButtons(); renderList();
+    basket = {}; save(); syncButtons(); renderList();
   });
   var form = document.getElementById('dcp-rform');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     if (!form.checkValidity()) { form.reportValidity(); return; }
-    if (!basket.length) { alert(L.empty); return; }
+    if (!count()) { alert(L.empty); return; }
     var ref = 'RFQ-' + Date.now().toString(36).toUpperCase().slice(-6);
     var body = document.getElementById('dcp-dbody');
     body.innerHTML = '<div class="dcp-rok" role="status"><h3>' + L.ok_h + '</h3><p>' +
-      L.ok_p.replace('{ref}', '<strong>' + ref + '</strong>').replace('{n}', basket.length) + '</p></div>';
-    basket = []; save(); syncButtons();
+      L.ok_p.replace('{ref}', '<strong>' + ref + '</strong>').replace('{n}', count()) + '</p></div>';
+    basket = {}; save(); syncButtons();
   });
 
   renderFacets(); apply(); syncButtons(); renderList();
