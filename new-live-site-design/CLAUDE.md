@@ -102,7 +102,7 @@ runtime (so no page bounces the user back to the live header):
 | `/about-us` | about-us.html | |
 | `/services` | services.html | |
 | `/service-details/<slug>` | service-`<slug>`.html | 38 ×2 = 76 |
-| `/projects`, `/project/<slug>` | projects.html | no per-project detail pages |
+| `/projects`, `/project/<slug>` | projects.html | + 5 `project-<slug>.html` case-study pages (V21) |
 | `/blogs`, `/blog/<slug>` | insights.html | no per-post detail pages |
 | `/contact-us` | contact.html | |
 | `/career` | careers.html | added 7 Sep 2026 |
@@ -192,6 +192,38 @@ asset change, so no VER bump.** Deployed (mirror `e97ddcb` → datacore-web
   categories mislabeled against their ids (e.g. `#SER0cb934c0` is Audio-Visual in
   EN but was tagged "Meeting Rooms" in AR). **All rebuilt Arabic is first-draft —
   needs native review** (user chose to deploy now and refine later).
+
+## Session log — project case-study pages (8 Sep 2026, V21)
+Added **per-project case-study detail pages** — the first per-project pages in the
+mirror. Deployed (mirror `1a2d3bc` → datacore-web `8a742e5`, Pages success). Backup
+**V21** = `live-mirror-V21-project-case-studies.zip`. No `VER` bump (reused existing
+CSS classes; the "at a glance" facts panel is inline-styled).
+- **Source docs** (repo root): `OWIS_Riyadh_Case_Study.pdf` (text), `Taqeem Case
+  Study.pdf` (text + photos), `AOU-Auditorium Case Study.docx`, `PSAU Case Study.docx`,
+  and `Arab Open Unversity Case Study.pdf` (image-only, rendered via `fitz`). **Gotcha:**
+  that last PDF is the AET-vendor copy of the **auditorium**, not the council room — the
+  user's guess was wrong, the document won. So the auditorium got the extra source and
+  the **council page was built from its existing `proj[1]` summary** (no dedicated doc;
+  nothing invented).
+- **New generator** `build_case(slug, ar)` in `build_pages.py`, modelled on
+  `build_services.build()`: hero + `dcp-svc-shot` photo + inline-styled "At a glance"
+  facts + narrative sections + `dcp-gal` gallery + `cta_band` + `footer`, wrapped by
+  `shell(ar,'projects',…,canon='project-'+slug)` with per-case **CreativeWork** JSON-LD
+  (datePublished only where the doc states it — Taqeem 2024-04, auditorium 2023). Content
+  lives in **`_build/cases.json`** (5 cases × EN/AR). `CASE_SLUG` is index-aligned with
+  `proj`/`PROJ_IMG`. `wrap_ltr()` helper wraps Latin runs `dir="ltr"` in the AR pages.
+  `__main__` writes `project-<slug>.html` / `-ar.html` (10 files). **Arabic is first-draft.**
+- **Real photos** extracted from the docs (PIL crop→1200×750 card / 1100×700 gallery):
+  replaced the generic `dc-proj-{taqeem,psau,auditorium}.jpg` and added 8
+  `dc-proj-*-N.jpg` gallery shots. Council keeps its old image (no source photo).
+- **Links:** hub cards (`build_projects`) get a "Read the case study" `.dcp-dir` link;
+  the **homepage** project cards (EN `index.html` + AR `index-ar.html`) were repointed
+  from `datacore.com.sa/projects/<slug>` to the local `project-<slug>.html` (overlay
+  leaves local hrefs alone — verified post-overlay). Fixed the AR homepage's blank
+  "success stories" heading/lede + the `<?= SITE_URL ?>` leftover in both homepages.
+- **Known pre-existing (not touched):** `index(-ar).html` still have ~11 empty headings
+  (brand band / hidden hero) + one `cloudwaysapps` `pcm__…png` image — live-capture cruft,
+  unrelated to this task.
 
 ## File map (mirror root)
 Flat by design — do not move pages into subfolders (breaks relative links + the

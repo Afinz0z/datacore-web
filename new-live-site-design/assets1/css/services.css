@@ -291,7 +291,7 @@ color: #46484D;
 
 .scroll-container {
   position: sticky;   /* stick whole block */
-  top: 13%;           /* adjust to your need */
+  top: 77px;          /* flush under the fixed overlay header (77px) — was 13%, which left a gap that showed card content */
   z-index: 20;
   background: #fff;
   display: flex;
@@ -864,6 +864,12 @@ width: 100%;
 [dir="rtl"] .service-right-text,
 [dir="rtl"] .service-subtext {
   text-align: right;
+}
+
+/* RTL: mirror the hero watermark to the left so it doesn't sit behind the title */
+[dir="rtl"] .service-bg {
+  right: auto;
+  left: 0;
 }
 
 
