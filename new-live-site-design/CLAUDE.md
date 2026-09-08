@@ -225,6 +225,26 @@ CSS classes; the "at a glance" facts panel is inline-styled).
   (brand band / hidden hero) + one `cloudwaysapps` `pcm__…png` image — live-capture cruft,
   unrelated to this task.
 
+## Session log — services fixes + Arabic Our Story (8 Sep 2026, V22)
+Three reported bugs, mirror `eb7f194` → datacore-web `dbc5095` (Pages success), backup **V22**.
+- **Services tab-bar overlap:** `.scroll-container` in `assets1/css/services.css` was
+  `position:sticky; top:13%` — a viewport-% offset that lands *below* the fixed overlay
+  header (77px, doesn't condense here), leaving a gap where the service cards showed
+  through. Changed to `top:77px` (flush). Note: these live pages scroll on `body`
+  (`overflow:auto`), and the preview pane renders them at full height (no scroll viewport),
+  so sticky can't be shown in-pane — verified via the served CSS + header height instead.
+  Added `?v=2` to the `services.css` link on both services pages (it's outside the `VER`
+  system) so the fix isn't cached.
+- **Arabic hero watermark:** the `.service-bg` was `SERVICES.svg` (English wordmark as
+  paths) at `right:0`. Added **`assets1/images/SERVICES-ar.svg`** (an SVG `<text>` "خدماتنا",
+  5% opacity, RTL) and `[dir="rtl"] .service-bg{right:auto;left:0}` in services.css to
+  mirror it to the left. Verified rendered.
+- **Arabic About Us "Our Story":** `about-us-ar.html` had the `قصتنا` heading but an empty
+  `.about-story-text` body — filled from the English (Arabic first-draft). (Like the EN
+  page, the block nests `<h4>`/`<p>` inside a `<p>`, so the browser auto-closes the outer
+  `p` and the text renders as siblings — `.about-story-text.textContent` reads empty by
+  design; check `.xc-p-left`.)
+
 ## File map (mirror root)
 Flat by design — do not move pages into subfolders (breaks relative links + the
 overlay rewrite + Pages URLs). Loose files at root:

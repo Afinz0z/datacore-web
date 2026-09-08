@@ -40,6 +40,9 @@
   color: #1A202C;
 }
 
+/* RTL: mirror the hero watermark to the left so it doesn't sit behind the title */
+[dir="rtl"] .about-bg { right: auto; left: 0; }
+
 .about-bg {
   position: absolute;
   right: 0;
