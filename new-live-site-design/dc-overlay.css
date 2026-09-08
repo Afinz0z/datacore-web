@@ -228,6 +228,11 @@ html[dir=rtl] #dcx-prog{transform-origin:100% 50%}
 html.dc-dark #dcx-top{background:#fff}
 @media(max-width:900px){html.dcx-has-sticky #dcx-top{inset-block-end:78px}}
 @media(prefers-reduced-motion:reduce){#dcx-top{transition:none}}
+/* Ken Burns: a slow zoom on the home hero images (carousel clips the overflow) */
+@keyframes dcx-kenburns{from{transform:scale(1)}to{transform:scale(1.12)}}
+@media(prefers-reduced-motion:no-preference){
+  img[alt="Home Banner images"]{animation:dcx-kenburns 14s ease-in-out infinite alternate;transform-origin:50% 50%;will-change:transform}
+}
 html.dc-dark #dcx-sticky .s-call{color:#E8EAEB;border-color:#2A2E33}
 html.dc-dark #dcx-sticky .s-call svg{color:#3BC0B3}
 
