@@ -24,18 +24,25 @@
   // ── build every card once (photo grid); filtering just toggles .hidden ──
   var grid = document.getElementById('dcp-grid');
   P.forEach(function (p) {
-    var chips = Object.keys(p.specs || {}).slice(0, 3).map(function (k) {
-      return '<span class="dcp-chip" dir="ltr">' + esc(p.specs[k]) + '</span>';
+    var specs = Object.keys(p.specs || {}).slice(0, 4).map(function (k) {
+      return '<div><dt>' + esc(k) + '</dt><dd dir="ltr">' + esc(p.specs[k]) + '</dd></div>';
     }).join('');
+    var av = p.avail === 'stock'
+      ? '<span class="dcp-badge stock">' + L.in_stock + '</span>'
+      : '<span class="dcp-badge lead">' + L.on_order + '</span>';
+    var photo = D.photos && D.photos[p.sku];
+    var media = photo
+      ? '<div class="dcp-card-photo"><img src="' + esc(photo) + '" alt="' + esc(p.n) + '" loading="lazy"></div>'
+      : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>';
     var el = document.createElement('article');
     el.className = 'dcp-card'; el._p = p;
     el.innerHTML =
-      '<div class="dcp-card-media"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>' +
-      '<div class="dcp-card-sub" dir="ltr">' + esc(p.b) + ' &middot; ' + esc(catName(p.c)) + '</div>' +
+      media +
+      '<div class="dcp-card-top"><span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span>' + av + '</div>' +
       '<h3>' + esc(p.n) + '</h3>' +
+      '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(catName(p.c)) + '</span></div>' +
+      '<dl class="dcp-specs">' + specs + '</dl>' +
       '<div class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</div>' +
-      '<div class="dcp-chips">' + chips + '</div>' +
-      '<div class="dcp-avail ' + (p.avail === 'stock' ? 'stock' : 'lead') + '"><span class="dot"></span>' + esc(availName(p.avail)) + '</div>' +
       '<div class="dcp-add-row">' +
         '<div class="dcp-qty">' +
           '<button class="dcp-qb" type="button" data-q="-1" aria-label="Decrease quantity">−</button>' +
@@ -152,7 +159,7 @@
   function count() { return Object.keys(basket).length; }
   function flyToCart(btn) {
     if (matchMedia('(prefers-reduced-motion:reduce)').matches) return;
-    var card = btn.closest('.dcp-card'), ph = card && card.querySelector('.dcp-card-media');
+    var card = btn.closest('.dcp-card'), ph = card && card.querySelector('.dcp-card-photo');
     if (!ph || fab.hidden) return;
     var r = ph.getBoundingClientRect(), t = fab.getBoundingClientRect();
     var fly = document.createElement('div');
