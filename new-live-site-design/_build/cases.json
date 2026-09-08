@@ -1,0 +1,311 @@
+{
+  "owis": {
+    "img": "dc-proj-owis.jpg",
+    "en": {
+      "name": "One World International School — Riyadh Campus",
+      "client": "One World International School",
+      "sector": "Education",
+      "city": "Riyadh, Saudi Arabia",
+      "completed": "2026",
+      "date_iso": "2026",
+      "scope": "Design, supply, install, commission, hand over",
+      "lede": "A complete new international-school campus — network, security, access control and audio-visual — designed, supplied, installed and handed over by a single integrator.",
+      "sections": [
+        {"h": "Background", "ps": [
+          "One World International School opened a new Riyadh campus and needed every low-current discipline live on day one: the network and Wi-Fi, security and access control, power protection, classroom AV and an auditorium. Datacore delivered all of it as one integrator, with one handover."
+        ]},
+        {"h": "The challenge", "ps": [
+          "A new campus has no room for a phased, multi-vendor scramble. Classrooms had to be identical so teachers could move between rooms without relearning anything, wireless had to follow the children through every corridor and hall, and the auditorium had to be something staff could run themselves."
+        ]},
+        {"h": "The solution", "ps": [
+          "The network is built on a Huawei core with stacked access switches and AirEngine Wi-Fi 6 throughout, protected by a FortiGate next-generation firewall and a UPS-backed core. Suprema FaceStation F2 terminals combine face, fingerprint and card, with BioStar 2 for time attendance.",
+          "Every classroom is fitted the same way — an ELMO 65-inch 4K interactive panel at the same height, cabled, programmed and tested room by room. The auditorium and multipurpose hall centre on a 2.5 mm LED video wall with a Soundcraft Si Expression mixer, JBL powered loudspeakers and Shure wireless microphones, connected through a Crestron wall plate and racked in a single cabinet."
+        ]},
+        {"h": "The result", "ps": [
+          "One campus, one integrator, one handover. Staff who can use one classroom can use them all, wireless coverage reaches every shared space, and an assembly can be run from the auditorium without an engineer in the room."
+        ]}
+      ],
+      "kit": ["Huawei Wi-Fi 6 network", "FortiGate 200G firewall", "Suprema FaceStation F2", "ELMO 4K interactive panels", "2.5 mm LED video wall", "Soundcraft Si Expression"],
+      "gallery": [
+        {"img": "dc-proj-owis-auditorium.jpg", "cap": "Auditorium — 2.5 mm LED video wall"},
+        {"img": "dc-proj-owis-classroom.jpg", "cap": "An interactive-panel classroom, fitted the same way in every room"},
+        {"img": "dc-proj-owis-access.jpg", "cap": "Suprema face and fingerprint access at a classroom door"},
+        {"img": "dc-proj-owis-rack.jpg", "cap": "The communications rack behind it all"},
+        {"img": "dc-proj-owis-building.jpg", "cap": "The OWIS Riyadh campus"}
+      ]
+    },
+    "ar": {
+      "name": "مدرسة ون وورلد العالمية — حرم الرياض",
+      "client": "مدرسة ون وورلد العالمية",
+      "sector": "التعليم",
+      "city": "الرياض، السعودية",
+      "completed": "2026",
+      "date_iso": "2026",
+      "scope": "تصميم، توريد، تركيب، تشغيل، وتسليم",
+      "lede": "حرم مدرسة عالمية جديد بالكامل — الشبكة والأمن والتحكم في الدخول والأنظمة الصوتية والمرئية — صمّمه ووردّه وركّبه وسلّمه مكاملٌ واحد.",
+      "sections": [
+        {"h": "الخلفية", "ps": [
+          "افتتحت مدرسة ون وورلد العالمية حرمًا جديدًا في الرياض، واحتاجت إلى تشغيل كل تخصصات التيار المنخفض منذ اليوم الأول: الشبكة والواي فاي، والأمن والتحكم في الدخول، وحماية الطاقة، والأنظمة الصوتية والمرئية للفصول والمسرح. نفّذت داتاكور ذلك كله كمكاملٍ واحد وبتسليمٍ واحد."
+        ]},
+        {"h": "التحدّي", "ps": [
+          "الحرم الجديد لا يحتمل التنفيذ المُجزّأ متعدد المورّدين. كان لا بد أن تكون الفصول متطابقة حتى ينتقل المعلمون بينها دون إعادة تعلّم، وأن تغطي الشبكة اللاسلكية كل الممرات والقاعات، وأن يكون المسرح قابلًا للتشغيل من الكادر نفسه."
+        ]},
+        {"h": "الحل", "ps": [
+          "بُنيت الشبكة على نواة Huawei مع مبدّلات وصول مكدّسة ونقاط AirEngine Wi-Fi 6 في كل مكان، محميّة بجدار حماية FortiGate من الجيل التالي ونواة مدعومة بنظام UPS. تجمع أجهزة Suprema FaceStation F2 بين الوجه والبصمة والبطاقة، مع BioStar 2 لتسجيل الحضور.",
+          "جُهّز كل فصل بالطريقة نفسها — شاشة ELMO تفاعلية 65 بوصة بدقة 4K على الارتفاع نفسه، مع كبلات وبرمجة واختبار فصلًا بفصل. يتمحور المسرح والقاعة متعددة الأغراض حول جدار فيديو LED بمقاس 2.5 مم مع مازج Soundcraft Si Expression ومكبّرات JBL ومايكروفونات Shure اللاسلكية، موصولة عبر لوحة Crestron ومجمّعة في خزانةٍ واحدة."
+        ]},
+        {"h": "النتيجة", "ps": [
+          "حرمٌ واحد، مكاملٌ واحد، تسليمٌ واحد. من يجيد استخدام فصلٍ يجيد استخدامها جميعًا، وتصل التغطية اللاسلكية إلى كل مساحة مشتركة، ويمكن إدارة الاجتماع العام من المسرح دون مهندسٍ في القاعة."
+        ]}
+      ],
+      "kit": ["شبكة Huawei Wi-Fi 6", "جدار حماية FortiGate 200G", "Suprema FaceStation F2", "شاشات ELMO تفاعلية 4K", "جدار فيديو LED 2.5 مم", "Soundcraft Si Expression"],
+      "gallery": [
+        {"img": "dc-proj-owis-auditorium.jpg", "cap": "المسرح — جدار فيديو LED بمقاس 2.5 مم"},
+        {"img": "dc-proj-owis-classroom.jpg", "cap": "فصل بشاشة تفاعلية، مُجهّز بالطريقة نفسها في كل غرفة"},
+        {"img": "dc-proj-owis-access.jpg", "cap": "تحكّم Suprema بالوجه والبصمة عند باب فصل"},
+        {"img": "dc-proj-owis-rack.jpg", "cap": "خزانة الاتصالات وراء ذلك كله"},
+        {"img": "dc-proj-owis-building.jpg", "cap": "حرم مدرسة ون وورلد الرياض"}
+      ]
+    }
+  },
+  "aou-council": {
+    "img": "dc-proj-aou-council.jpg",
+    "en": {
+      "name": "Smart modernisation of the AOU council room",
+      "client": "Arab Open University",
+      "sector": "Education",
+      "city": "Riyadh, Saudi Arabia",
+      "scope": "Design, supply, install, commission",
+      "lede": "The Arab Open University council chamber, rebuilt around a single integrated AV system the secretariat can actually operate.",
+      "sections": [
+        {"h": "Background", "ps": [
+          "The Arab Open University's council chamber needed to work as a modern meeting space — clear to hear, simple to run, and compatible with the video-conferencing platforms the university already uses."
+        ]},
+        {"h": "The challenge", "ps": [
+          "A reverberant room made speech hard to follow, the AV was dated, and there was no single control anyone could pick up and use."
+        ]},
+        {"h": "The solution", "ps": [
+          "Datacore rebuilt the room around one integrated AV system: unified-communications compatibility, wireless BYOD presentation, ceiling microphones and acoustic correction for the reverberant space, all behind a single control interface."
+        ]},
+        {"h": "The result", "ps": [
+          "Clear audio in a difficult room, wireless sharing for any participant, and one interface the secretariat can operate without support."
+        ]}
+      ],
+      "kit": ["AV-over-IP", "Ceiling microphones", "Control processor"],
+      "gallery": []
+    },
+    "ar": {
+      "name": "تحديثٌ ذكي لقاعة المجلس في الجامعة العربية المفتوحة",
+      "client": "الجامعة العربية المفتوحة",
+      "sector": "التعليم",
+      "city": "الرياض، السعودية",
+      "scope": "تصميم، توريد، تركيب، تشغيل",
+      "lede": "أُعيد بناء قاعة المجلس في الجامعة العربية المفتوحة حول نظامٍ صوتي ومرئي متكامل يستطيع أمناء المجلس تشغيله فعليًا.",
+      "sections": [
+        {"h": "الخلفية", "ps": [
+          "احتاجت قاعة المجلس في الجامعة العربية المفتوحة إلى أن تعمل كمساحة اجتماعاتٍ حديثة — واضحة السماع، سهلة التشغيل، ومتوافقة مع منصات مؤتمرات الفيديو التي تستخدمها الجامعة."
+        ]},
+        {"h": "التحدّي", "ps": [
+          "جعل صدى الغرفة متابعة الكلام صعبة، وكانت الأنظمة الصوتية والمرئية قديمة، ولم يكن هناك تحكّمٌ موحّد يمكن لأي شخص استخدامه."
+        ]},
+        {"h": "الحل", "ps": [
+          "أعادت داتاكور بناء الغرفة حول نظامٍ صوتي ومرئي متكامل: توافق مع الاتصالات الموحّدة، وعرض لاسلكي بأسلوب BYOD، ومايكروفونات سقفية ومعالجة صوتية للمساحة ذات الصدى، وكل ذلك خلف واجهة تحكّمٍ واحدة."
+        ]},
+        {"h": "النتيجة", "ps": [
+          "صوتٌ واضح في غرفةٍ صعبة، ومشاركة لاسلكية لأي مشارك، وواجهةٌ واحدة يشغّلها أمناء المجلس دون دعم."
+        ]}
+      ],
+      "kit": ["AV-over-IP", "مايكروفونات سقفية", "معالج تحكّم"],
+      "gallery": []
+    }
+  },
+  "psau": {
+    "img": "dc-proj-psau.jpg",
+    "en": {
+      "name": "Smart classrooms across the PSAU campus",
+      "client": "Prince Sattam bin Abdulaziz University",
+      "sector": "Education",
+      "city": "Al-Kharj, Saudi Arabia",
+      "partner": "with ARCOM",
+      "scope": "Multi-building campus rollout",
+      "lede": "A campus-wide upgrade of classrooms, meeting rooms and an auditorium to an advanced, interactive audio-visual level — delivered by Datacore with ARCOM.",
+      "sections": [
+        {"h": "Background", "ps": [
+          "Prince Sattam bin Abdulaziz University set out to upgrade its classrooms, meeting spaces and auditorium across two buildings to an advanced, interactive AV level, so students and faculty could work together smoothly. Datacore delivered it in partnership with Arabian Computer Supplies (ARCOM)."
+        ]},
+        {"h": "The challenge", "ps": [
+          "Assigning wireless-microphone frequencies across more than 65 classrooms and meeting rooms in a two-storey building takes long-term planning. Digital signage had to run over the existing network, power and cabling had to reach an occupied building without disturbing finished interiors, and everything had to be ready before term restarted."
+        ]},
+        {"h": "The solution", "ps": [
+          "Classrooms received smart interactive displays with built-in OPS PCs, wireless head-worn and hand-held microphones and ceiling-array microphones for unified communications. The auditorium centres on a fine-pitch 2.5 mm LED video wall with recording and playback, a digital podium, motorised curtains and acoustic fit-out.",
+          "Digital signage is published centrally from a remote server across the building's lobbies, integrated with the university's existing Arabic-capable system."
+        ]},
+        {"h": "The result", "ps": [
+          "Flexible, interactive teaching and meeting spaces with unified communications in every room, centrally managed signage, and better collaboration for students and faculty across the campus."
+        ]}
+      ],
+      "kit": ["Interactive displays + OPS PC", "Ceiling-array microphones", "2.5 mm LED video wall", "Digital signage", "UC solution"],
+      "gallery": [
+        {"img": "dc-proj-psau-3.jpg", "cap": "Fine-pitch 2.5 mm LED video wall in the auditorium"},
+        {"img": "dc-proj-psau-2.jpg", "cap": "The campus building"},
+        {"img": "dc-proj-psau-4.jpg", "cap": "Centrally published digital signage in the lobby"}
+      ]
+    },
+    "ar": {
+      "name": "فصول ذكية في حرم جامعة الأمير سطام",
+      "client": "جامعة الأمير سطام بن عبدالعزيز",
+      "sector": "التعليم",
+      "city": "الخرج، السعودية",
+      "partner": "بالتعاون مع ARCOM",
+      "scope": "تنفيذ على مستوى الحرم متعدد المباني",
+      "lede": "تطوير شامل للفصول وقاعات الاجتماعات والمسرح إلى مستوى صوتي ومرئي تفاعلي متقدّم — نفّذته داتاكور بالتعاون مع ARCOM.",
+      "sections": [
+        {"h": "الخلفية", "ps": [
+          "عزمت جامعة الأمير سطام بن عبدالعزيز على تطوير فصولها ومساحات اجتماعاتها ومسرحها في مبنيين إلى مستوى صوتي ومرئي تفاعلي متقدّم، بما يتيح تعاونًا سلسًا بين الطلاب وأعضاء هيئة التدريس. نفّذت داتاكور المشروع بالشراكة مع شركة الحاسبات العربية (ARCOM)."
+        ]},
+        {"h": "التحدّي", "ps": [
+          "توزيع ترددات المايكروفونات اللاسلكية على أكثر من 65 فصلًا وقاعة اجتماعات في مبنى من طابقين يتطلّب تخطيطًا بعيد المدى. كان على اللافتات الرقمية أن تعمل عبر الشبكة القائمة، وأن تصل الطاقة والكبلات إلى مبنى مأهول دون الإضرار بالتشطيبات، وأن يكون كل شيء جاهزًا قبل بدء الفصل الدراسي."
+        ]},
+        {"h": "الحل", "ps": [
+          "زُوّدت الفصول بشاشات تفاعلية ذكية مع حواسيب OPS مدمجة، ومايكروفونات لاسلكية محمولة ومثبّتة على الرأس، ومايكروفونات مصفوفة سقفية للاتصالات الموحّدة. يتمحور المسرح حول جدار فيديو LED دقيق الخطوة 2.5 مم مع تسجيل وإعادة تشغيل، ومنصّة رقمية، وستائر آلية وتجهيزٍ صوتي.",
+          "تُنشر اللافتات الرقمية مركزيًا من خادمٍ بعيد عبر بهو المبنى، متكاملة مع نظام الجامعة القائم الداعم للعربية."
+        ]},
+        {"h": "النتيجة", "ps": [
+          "مساحات تعليم واجتماعات مرنة وتفاعلية باتصالات موحّدة في كل غرفة، ولافتات تُدار مركزيًا، وتعاونٌ أفضل بين الطلاب وهيئة التدريس عبر الحرم."
+        ]}
+      ],
+      "kit": ["شاشات تفاعلية + حاسوب OPS", "مايكروفونات مصفوفة سقفية", "جدار فيديو LED 2.5 مم", "لافتات رقمية", "حل اتصالات موحّدة"],
+      "gallery": [
+        {"img": "dc-proj-psau-3.jpg", "cap": "جدار فيديو LED دقيق الخطوة 2.5 مم في المسرح"},
+        {"img": "dc-proj-psau-2.jpg", "cap": "مبنى الحرم الجامعي"},
+        {"img": "dc-proj-psau-4.jpg", "cap": "لافتات رقمية تُنشر مركزيًا في البهو"}
+      ]
+    }
+  },
+  "taqeem": {
+    "img": "dc-proj-taqeem.jpg",
+    "en": {
+      "name": "Comprehensive AV solution for TAQEEM HQ",
+      "client": "TAQEEM — Saudi Authority for Accredited Valuers",
+      "sector": "Government",
+      "city": "Riyadh, Saudi Arabia",
+      "completed": "2024",
+      "date_iso": "2024-04",
+      "scope": "HQ-wide AV standardisation",
+      "lede": "A single, easy-to-use audio-visual standard applied across every space at the headquarters of Saudi Arabia's valuation regulator.",
+      "sections": [
+        {"h": "Background", "ps": [
+          "TAQEEM, the Saudi Authority for Accredited Valuers, regulates the valuation profession in the Kingdom. It partnered with Datacore to revamp the audio-visual infrastructure across its headquarters and turn it into a modern, tech-enabled workspace."
+        ]},
+        {"h": "The challenge", "ps": [
+          "One consistent AV experience had to work across very different spaces — a multipurpose room, meeting rooms, reception, a customer-care office, a control room, a thinkpod, executive offices and a theatre — while staying easy to use and ready to grow. Displays, controllers, digital-signage players and wireless presentation all had to be integrated and operate smoothly together."
+        ]},
+        {"h": "The solution", "ps": [
+          "Datacore designed a bespoke AV ecosystem on state-of-the-art equipment — Samsung and Epson displays, Shure audio, Bose, Barco, Televic conferencing, and AMX and Extron control and switching, with Dell — integrated so every room behaves the same way. Datacore also handled project management, system configuration, testing and user training for a seamless transition."
+        ]},
+        {"h": "The result", "ps": [
+          "A modern, tech-enabled workspace on a single AV standard, with distributed audio, wireless sharing and consistent control in every room — and headroom for future expansion."
+        ]}
+      ],
+      "kit": ["Samsung", "Epson", "Shure", "AMX", "Bose", "Barco", "Televic", "Extron"],
+      "gallery": [
+        {"img": "dc-proj-taqeem-2.jpg", "cap": "The multipurpose room"},
+        {"img": "dc-proj-taqeem-3.jpg", "cap": "A meeting room with wireless presentation"}
+      ]
+    },
+    "ar": {
+      "name": "حل سمعي بصري متكامل لمقر تقييم",
+      "client": "تقييم — الهيئة السعودية للمقيّمين المعتمدين",
+      "sector": "قطاع حكومي",
+      "city": "الرياض، السعودية",
+      "completed": "2024",
+      "date_iso": "2024-04",
+      "scope": "توحيد الأنظمة السمعية والبصرية على مستوى المقر",
+      "lede": "معيارٌ سمعي بصري واحد وسهل الاستخدام طُبّق عبر كل مساحة في مقر الجهة المنظّمة لمهنة التقييم في السعودية.",
+      "sections": [
+        {"h": "الخلفية", "ps": [
+          "تُنظّم «تقييم» — الهيئة السعودية للمقيّمين المعتمدين — مهنة التقييم في المملكة. تعاونت مع داتاكور لتجديد البنية السمعية والبصرية عبر مقرّها وتحويله إلى بيئة عملٍ حديثة ممكّنة تقنيًا."
+        ]},
+        {"h": "التحدّي", "ps": [
+          "كان لا بد من تجربةٍ سمعية بصرية متّسقة تعمل عبر مساحاتٍ شديدة الاختلاف — غرفة متعددة الأغراض، وقاعات اجتماعات، واستقبال، ومكتب خدمة عملاء، وغرفة تحكّم، وركن تفكير، ومكاتب تنفيذية، ومسرح — مع بقائها سهلة الاستخدام وقابلة للتوسّع. وكان لا بد من تكامل الشاشات ووحدات التحكّم ومشغّلات اللافتات الرقمية والعرض اللاسلكي وتشغيلها بسلاسة معًا."
+        ]},
+        {"h": "الحل", "ps": [
+          "صمّمت داتاكور منظومة سمعية بصرية مخصّصة على معدّاتٍ متطوّرة — شاشات Samsung وEpson، وصوتيات Shure، وBose، وBarco، وأنظمة مؤتمرات Televic، وتحكّم وتبديل AMX وExtron، مع Dell — متكاملة بحيث تتصرّف كل غرفةٍ بالطريقة نفسها. كما تولّت داتاكور إدارة المشروع وتهيئة الأنظمة والاختبار وتدريب المستخدمين لانتقالٍ سلس."
+        ]},
+        {"h": "النتيجة", "ps": [
+          "بيئة عملٍ حديثة ممكّنة تقنيًا على معيارٍ سمعي بصري واحد، مع صوتٍ موزّع ومشاركة لاسلكية وتحكّمٍ متّسق في كل غرفة — ومتّسعٌ للتوسّع مستقبلًا."
+        ]}
+      ],
+      "kit": ["Samsung", "Epson", "Shure", "AMX", "Bose", "Barco", "Televic", "Extron"],
+      "gallery": [
+        {"img": "dc-proj-taqeem-2.jpg", "cap": "الغرفة متعددة الأغراض"},
+        {"img": "dc-proj-taqeem-3.jpg", "cap": "قاعة اجتماعات بعرضٍ لاسلكي"}
+      ]
+    }
+  },
+  "auditorium": {
+    "img": "dc-proj-auditorium.jpg",
+    "en": {
+      "name": "University auditorium AV — Arab Open University",
+      "client": "Arab Open University",
+      "sector": "Education",
+      "city": "Riyadh, Saudi Arabia",
+      "completed": "2023",
+      "date_iso": "2023",
+      "scope": "Auditorium fit-out",
+      "lede": "A tired university auditorium rebuilt around a large direct-view LED wall and iPad control — modern, automated, and simple enough for staff to run themselves.",
+      "sections": [
+        {"h": "Background", "ps": [
+          "The Arab Open University set out to transform its Riyadh auditorium into a modern, innovative and automated space for every kind of event, and assigned Datacore to lead the technological transformation end to end."
+        ]},
+        {"h": "The challenge", "ps": [
+          "The outdated AV had to be stripped out and new cabling pulled through ceilings and concrete floors — quietly, while the university stayed open and classes continued, and all on a very tight timeline that meant procuring and delivering materials just in time."
+        ]},
+        {"h": "The solution", "ps": [
+          "Datacore installed a large 6 m × 3.375 m direct-view LED wall (AET, 1.2 mm pixel pitch, 4K), with a Crestron video matrix for switching and a Q-SYS DSP and control system tying every piece of equipment together, plus Shure microphones and a customised iPad interface.",
+          "BYOD USB connectivity lets presenters drive the large display, room camera, microphones and speakers from the stage or the control room, and works seamlessly with Microsoft Teams and Zoom. Control-room furniture and wooden cladding were added to match the existing interior."
+        ]},
+        {"h": "The result", "ps": [
+          "An adaptable, welcoming auditorium that non-technical users can run themselves — in daily use since 2023, backed by four quarterly Datacore maintenance visits and built to scale for future expansion."
+        ]}
+      ],
+      "kit": ["AET dLED 1.2 mm 4K", "Crestron video matrix", "Q-SYS DSP & control", "Shure microphones", "Apple iPad control"],
+      "gallery": [
+        {"img": "dc-proj-auditorium-2.jpg", "cap": "The podium control screen"},
+        {"img": "dc-proj-auditorium-3.jpg", "cap": "The 1.2 mm direct-view LED wall, up close"},
+        {"img": "dc-proj-auditorium-4.jpg", "cap": "The customised iPad control interface"}
+      ]
+    },
+    "ar": {
+      "name": "أنظمة سمعية وبصرية لمسرح جامعي — الجامعة العربية المفتوحة",
+      "client": "الجامعة العربية المفتوحة",
+      "sector": "التعليم",
+      "city": "الرياض، السعودية",
+      "completed": "2023",
+      "date_iso": "2023",
+      "scope": "تجهيز مسرح",
+      "lede": "أُعيد بناء مسرحٍ جامعي قديم حول جدار فيديو LED كبير بالعرض المباشر وتحكّمٍ عبر iPad — حديث وآلي وبسيطٌ بما يكفي ليشغّله الكادر بنفسه.",
+      "sections": [
+        {"h": "الخلفية", "ps": [
+          "عزمت الجامعة العربية المفتوحة على تحويل مسرحها في الرياض إلى مساحةٍ حديثة ومبتكرة وآلية لكل أنواع الفعاليات، وكلّفت داتاكور بقيادة التحوّل التقني من البداية إلى النهاية."
+        ]},
+        {"h": "التحدّي", "ps": [
+          "كان لا بد من إزالة الأنظمة القديمة ومدّ كبلاتٍ جديدة عبر الأسقف والأرضيات الخرسانية — بهدوء، بينما تبقى الجامعة مفتوحة وتستمر المحاضرات، وضمن جدولٍ زمني ضيّق للغاية استلزم توريد المواد وتسليمها في الوقت المناسب تمامًا."
+        ]},
+        {"h": "الحل", "ps": [
+          "ركّبت داتاكور جدار فيديو LED كبيرًا بالعرض المباشر بمقاس 6 م × 3.375 م (AET، خطوة بكسل 1.2 مم، دقة 4K)، مع مصفوفة فيديو Crestron للتبديل ونظام معالجة وتحكّم Q-SYS يربط كل المعدّات معًا، إضافةً إلى مايكروفونات Shure وواجهة iPad مخصّصة.",
+          "يتيح اتصال USB بأسلوب BYOD للمقدّمين التحكّم في الشاشة الكبيرة وكاميرا الغرفة والمايكروفونات والمكبّرات من المسرح أو غرفة التحكّم، ويعمل بسلاسة مع Microsoft Teams وZoom. وأُضيف أثاث غرفة التحكّم وكسوة خشبية لتتناسب مع الديكور القائم."
+        ]},
+        {"h": "النتيجة", "ps": [
+          "مسرحٌ مرن وودود يشغّله غير المتخصّصين بأنفسهم — قيد الاستخدام اليومي منذ 2023، مدعومٌ بأربع زيارات صيانة فصلية من داتاكور ومبنيٌّ للتوسّع مستقبلًا."
+        ]}
+      ],
+      "kit": ["AET dLED 1.2 مم 4K", "مصفوفة فيديو Crestron", "معالجة وتحكّم Q-SYS", "مايكروفونات Shure", "تحكّم Apple iPad"],
+      "gallery": [
+        {"img": "dc-proj-auditorium-2.jpg", "cap": "شاشة التحكّم عند المنصّة"},
+        {"img": "dc-proj-auditorium-3.jpg", "cap": "جدار LED بالعرض المباشر 1.2 مم عن قرب"},
+        {"img": "dc-proj-auditorium-4.jpg", "cap": "واجهة التحكّم المخصّصة على iPad"}
+      ]
+    }
+  }
+}
