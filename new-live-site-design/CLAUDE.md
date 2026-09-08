@@ -238,7 +238,9 @@ Three reported bugs, mirror `eb7f194` → datacore-web `dbc5095` (Pages success)
 - **Arabic hero watermark:** the `.service-bg` was `SERVICES.svg` (English wordmark as
   paths) at `right:0`. Added **`assets1/images/SERVICES-ar.svg`** (an SVG `<text>` "خدماتنا",
   5% opacity, RTL) and `[dir="rtl"] .service-bg{right:auto;left:0}` in services.css to
-  mirror it to the left. Verified rendered.
+  mirror it to the left. Verified rendered. **(V23)** Same fix for the About Us hero
+  watermark: `assets1/about/ABOUT.svg` → `ABOUT-ar.svg` (من نحن) + `[dir="rtl"] .about-bg`
+  → left, `about.css?v=2`.
 - **Arabic About Us "Our Story":** `about-us-ar.html` had the `قصتنا` heading but an empty
   `.about-story-text` body — filled from the English (Arabic first-draft). (Like the EN
   page, the block nests `<h4>`/`<p>` inside a `<p>`, so the browser auto-closes the outer
