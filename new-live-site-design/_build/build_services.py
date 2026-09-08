@@ -73,6 +73,18 @@ UI = {
 
 def svc_file(slug, ar): return "service-" + slug + ("-ar" if ar else "") + ".html"
 
+# Real OWIS Riyadh project photos shown on matching service pages: (img, en cap, ar cap)
+SVC_PHOTO = {
+ "auditorium": ("dc-proj-owis-auditorium.jpg", "Auditorium video wall — OWIS Riyadh", "جدار فيديو المسرح — مدرسة ون وورلد الرياض"),
+ "indoor-led-video-wall": ("dc-proj-owis-auditorium.jpg", "2.5 mm indoor LED video wall — OWIS Riyadh", "جدار فيديو LED داخلي 2.5 مم — مدرسة ون وورلد الرياض"),
+ "access-control-solutions": ("dc-proj-owis-access.jpg", "Suprema face & fingerprint access — OWIS Riyadh", "تحكّم في الدخول بالوجه والبصمة — مدرسة ون وورلد الرياض"),
+ "structured-cabling-solutions": ("dc-proj-owis-rack.jpg", "Communications rack — OWIS Riyadh", "خزانة الاتصالات — مدرسة ون وورلد الرياض"),
+ "it-network-solutions": ("dc-proj-owis-rack.jpg", "Network core — OWIS Riyadh", "نواة الشبكة — مدرسة ون وورلد الرياض"),
+ "smart-class-rooms": ("dc-proj-owis-classroom.jpg", "Interactive-panel classroom — OWIS Riyadh", "فصل بشاشة تفاعلية — مدرسة ون وورلد الرياض"),
+ "smart-meeting-room-amp-boardroom-solution": ("dc-proj-owis-panel.jpg", "Interactive display — OWIS Riyadh", "شاشة تفاعلية — مدرسة ون وورلد الرياض"),
+ "professional-audio": ("dc-proj-owis-mixer.jpg", "Soundcraft mixer, auditorium — OWIS Riyadh", "مازج صوت المسرح — مدرسة ون وورلد الرياض"),
+}
+
 def sections_html(sec):
     out = ""
     for s in sec:
@@ -119,7 +131,13 @@ def build(slug, ar):
     body_sec = (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-svc-grid">'
                 f'<div class="dcp-svc-body">{sections_html(c.get("sections", []))}</div>'
                 f'{aside}</div></div></section>')
-    body = hero + method + body_sec + cta_band(ar) + footer(ar)
+    ph = SVC_PHOTO.get(slug); photo = ''
+    if ph:
+        cap = ph[2] if ar else ph[1]
+        photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
+                 f'<img src="assets1/images/{ph[0]}" alt="{esc(cap)}" loading="lazy" width="1100" height="700">'
+                 f'<figcaption>{esc(cap)}</figcaption></figure></div></section>')
+    body = hero + photo + method + body_sec + cta_band(ar) + footer(ar)
     # schema: Service + BreadcrumbList
     schema = {"@context": "https://schema.org", "@type": "Service", "name": h1,
               "serviceType": disc_name, "provider": {"@id": SITE + "/#org"},

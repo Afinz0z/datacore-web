@@ -51,6 +51,7 @@ GAL_IMG = [
   ('dc-proj-avmount.jpg', 'Mounting a video-wall array on site', 'تركيب حامل شاشة عرض جدارية في الموقع'),
   ('dc-proj-owis-auditorium.jpg', 'OWIS Riyadh auditorium — 2.5 mm LED video wall', 'مسرح مدرسة ون وورلد الرياض — جدار فيديو LED بمقاس 2.5 مم'),
   ('dc-proj-owis-rack.jpg', 'The communications rack at OWIS Riyadh', 'خزانة الاتصالات في مدرسة ون وورلد الرياض'),
+  ('dc-proj-owis-building.jpg', 'OWIS Riyadh campus building', 'مبنى حرم مدرسة ون وورلد الرياض'),
 ]
 POST_IMG = ['dc-blog-pa.jpg','dc-blog-5g.png','dc-blog-passive.png']
 # Google Maps "search + embed" (no API key, loads only when the user clicks)
@@ -65,7 +66,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "18"
+VER = "19"
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -200,7 +201,12 @@ def footer(ar):
     return f"""<footer class="dcp-foot"><div class="dcp-wrap">
 <div class="dcp-foot-top">
   <div><a class="logo" href="{loc('index',ar)}"><img src="assets1/images/dc-logo.svg" alt="Datacore Solutions" style="height:40px"></a>
-    <p class="dcp-foot-blurb">{esc(s['brand_line'])}</p></div>
+    <p class="dcp-foot-blurb">{esc(s['brand_line'])}</p>
+    <div class="dcp-foot-social">
+      <a href="https://www.linkedin.com/company/datacore-solutions" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM10 9h3.84v1.64h.05c.53-.95 1.84-1.95 3.79-1.95 4.05 0 4.8 2.4 4.8 5.52V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4z"/></svg></a>
+      <a href="https://www.instagram.com/datacore_sa" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+      <a href="https://www.facebook.com/www.datacore.com.sa" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0022 12z"/></svg></a>
+    </div></div>
   <div><h4>{esc(s['f_company'])}</h4><ul>{comp}<li><a href="{loc('products',ar)}">{esc(s['f_catalogue'])}</a></li></ul></div>
   <div><h4>{esc(s['f_services'])}</h4><ul>{disc}<li><a href="{loc('services',ar)}">{esc(s['f_all_disc'])}</a></li></ul></div>
   <div><h4>{esc(s['f_touch'])}</h4><ul>{touch}</ul></div>
