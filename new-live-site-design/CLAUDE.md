@@ -168,6 +168,31 @@ Asset version is now **VER = "15"**. Deployed across several passes.
   `seo_live.py` (scratchpad) does the live-page pass; re-run it if the live heads
   are regenerated.
 
+## Session log — Arabic live-page parity repair (8 Sep 2026)
+The 3 live-capture Arabic pages had inherited corruption from a broken state of
+the live Arabic CMS (it was passing NULL service names into `htmlspecialchars()`,
+emitting empty tags + leaked PHP warnings). English captures were healthy, so the
+fix = port the English structure into Arabic. **HTML-body edits only — no overlay/
+asset change, so no VER bump.** Deployed (mirror `e97ddcb` → datacore-web
+`519ef35`, Pages success). Backup **V20** = `live-mirror-V20-arabic-pages-parity.zip`.
+- **index-ar** "How we help you succeed": 4th card was empty (`src=""`, empty
+  h3/p — the empty src is what rendered the broken-image glyph); other 3 pulled
+  from the `phpstack-…cloudwaysapps.com` staging box. Rebuilt all 4 to mirror
+  English's local images (`secure/frame/server/audio_*.png`) + added the Audio-
+  Visual card in Arabic.
+- **about-us-ar** Core Values: 6 value cards had local images but blank h2/p;
+  plus 3 extra junk cards (external imgs) absent from English. Filled the 6
+  (الابتكار/التركيز على العميل/النزاهة/الأمان/الموثوقية/التطوّر) + dropped the 3 junk cards → matches EN's 6.
+- **services-ar**: removed 5 leaked `Deprecated: htmlspecialchars()` lines; then
+  **full rebuild** of the tab region to match English — EN & AR share the 9
+  category `#SER…` ids, so it was a clean whole-region swap (`_build`-style script
+  in scratchpad `svc_ar.py`): 9 categories + 38 cards, Arabic titles+descriptions,
+  all-local icons, positional replacement (robust to the mojibake in EN source),
+  Latin acronyms auto-wrapped `dir="ltr"`. Fixed a capture drift where AR had
+  categories mislabeled against their ids (e.g. `#SER0cb934c0` is Audio-Visual in
+  EN but was tagged "Meeting Rooms" in AR). **All rebuilt Arabic is first-draft —
+  needs native review** (user chose to deploy now and refine later).
+
 ## File map (mirror root)
 Flat by design — do not move pages into subfolders (breaks relative links + the
 overlay rewrite + Pages URLs). Loose files at root:

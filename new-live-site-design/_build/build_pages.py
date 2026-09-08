@@ -3,13 +3,21 @@
 in the live Texta look. Each page loads the developed-site header + dark mode via
 dc-overlay.css/js and the live-look content styles via dc-pages.css. Live body
 HTML is not touched — these are brand-new pages the header's nav links point to."""
-import os, json, html, sys
+import os, json, html, sys, re
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-live-mirror"
 STR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mirror_strings.json"), encoding="utf-8"))
 
 def esc(s): return html.escape(str(s), quote=True)
+
+# wrap Latin/acronym runs in dir="ltr" for correct rendering inside RTL Arabic.
+# run on ALREADY-escaped text; only wraps runs that contain a letter.
+def wrap_ltr(t):
+    def r(m):
+        s = m.group(0)
+        return '<span dir="ltr">' + s + '</span>' if re.search(r'[A-Za-z]', s) else s
+    return re.sub(r'[A-Za-z0-9][A-Za-z0-9/.+\-]*(?:\s[A-Za-z0-9/.+\-]+)*', r, t)
 
 # ── inline icons (stroke=currentColor) ──────────────────────────────────
 def ic(p): return ('<svg viewBox="0 0 24 24" width="22" height="22" fill="none" '
@@ -53,6 +61,19 @@ GAL_IMG = [
   ('dc-proj-owis-rack.jpg', 'The communications rack at OWIS Riyadh', 'خزانة الاتصالات في مدرسة ون وورلد الرياض'),
   ('dc-proj-owis-building.jpg', 'OWIS Riyadh campus building', 'مبنى حرم مدرسة ون وورلد الرياض'),
 ]
+# case-study detail pages — slugs index-aligned with proj[] / PROJ_IMG
+CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium']
+CASES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "cases.json"), encoding="utf-8"))
+CASE_UI = {
+ 'en': {'read': 'Read the case study', 'projects': 'Projects', 'at_glance': 'At a glance',
+        'client': 'Client', 'sector': 'Sector', 'location': 'Location', 'completed': 'Completed',
+        'scope': 'Scope', 'kit': 'Systems delivered', 'gallery': 'On site',
+        'get': 'Start a project', 'get_p': 'Tell us the building and the stage you are at.'},
+ 'ar': {'read': 'اقرأ دراسة الحالة', 'projects': 'مشاريعنا', 'at_glance': 'لمحة سريعة',
+        'client': 'العميل', 'sector': 'القطاع', 'location': 'الموقع', 'completed': 'اكتمل',
+        'scope': 'النطاق', 'kit': 'الأنظمة المُنفّذة', 'gallery': 'من الموقع',
+        'get': 'ابدأ مشروعًا', 'get_p': 'أخبرنا بالمبنى والمرحلة التي أنت فيها.'},
+}
 POST_IMG = ['dc-blog-pa.jpg','dc-blog-5g.png','dc-blog-passive.png']
 # Google Maps "search + embed" (no API key, loads only when the user clicks)
 MAP_Q = ['Dabbab+Complex+Dabbab+Street+Riyadh+12626',
@@ -240,6 +261,7 @@ def stats_marquee(ar):
 # ── PROJECTS ────────────────────────────────────────────────────────────
 def build_projects(ar):
     s = STR['ar' if ar else 'en']
+    U = CASE_UI['ar' if ar else 'en']
     cards = ''
     for i, p in enumerate(s['proj']):
         sector, city, name, body, kit, client, scope = p
@@ -251,6 +273,7 @@ def build_projects(ar):
     <div class="dcp-kit">{kits}</div>
     <dl><dt>{esc(s['p_client'])}</dt><dd>{esc(client)}</dd>
         <dt>{esc(s['p_scope'])}</dt><dd>{esc(scope)}</dd></dl>
+    <a class="dcp-dir" href="{loc('project-'+CASE_SLUG[i], ar)}">{esc(U['read'])} {I_ARROW}</a>
   </div></article>"""
     feat = ''.join(f'<div class="dcp-featcell"><span class="dcp-featic">{FEAT_ICONS[i]}</span>'
                    f'<h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
@@ -272,6 +295,58 @@ def build_projects(ar):
       + cta_band(ar) + footer(ar))
     title = ('مشاريعنا | داتاكور للحلول' if ar else 'Projects | Datacore Solutions')
     return shell(ar, 'projects', title, s['pj_lede'], body)
+
+# ── CASE-STUDY DETAIL PAGES ───────────────────────────────────────────────
+def build_case(slug, ar):
+    lang = 'ar' if ar else 'en'
+    C = CASES[slug]; c = C[lang]; U = CASE_UI[lang]; s = STR[lang]
+    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> &rsaquo; '
+             f'<a href="{loc("projects",ar)}">{esc(U["projects"])}</a> &rsaquo; {E(c["name"])}</div>')
+    hero = (f'<section class="dcp-hero"><div class="dcp-wrap">{crumb}'
+            f'<h1>{E(c["name"])}</h1><p class="dcp-lede">{E(c["lede"])}</p></div></section>')
+    photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
+             f'<img src="assets1/images/{C["img"]}" alt="{esc(c["name"])}" loading="lazy" width="1200" height="750">'
+             f'</figure></div></section>')
+    # "At a glance" facts — styled inline so no new CSS / VER bump is needed
+    facts = [(U['client'], c.get('client')), (U['sector'], c.get('sector')), (U['location'], c.get('city'))]
+    if c.get('completed'): facts.append((U['completed'], c['completed']))
+    facts.append((U['scope'], c.get('scope')))
+    frows = ''.join(
+        '<div style="display:flex;justify-content:space-between;gap:14px;padding:8px 0;'
+        'border-block-start:1px solid rgba(128,128,128,.18)">'
+        f'<dt style="color:var(--dcp-ink3);font-size:.82rem">{esc(k)}</dt>'
+        f'<dd style="margin:0;text-align:end;font-weight:600">{E(v)}</dd></div>'
+        for k, v in facts if v)
+    kit = ''.join(f'<span>{E(k)}</span>' for k in c.get('kit', []))
+    kit_block = f'<h3 style="margin-top:18px">{esc(U["kit"])}</h3><div class="dcp-kit">{kit}</div>' if kit else ''
+    glance = (f'<div class="box"><h3>{esc(U["at_glance"])}</h3>'
+              f'<dl style="margin:.4rem 0 0">{frows}</dl>{kit_block}</div>'
+              f'<div class="box cta"><h3>{esc(U["get"])}</h3><p>{esc(U["get_p"])}</p>'
+              f'<a class="dcp-btn" href="{loc("contact",ar)}">{esc(s["consult"])} {I_ARROW}</a></div>')
+    secs = ''
+    for sec in c.get('sections', []):
+        ps = ''.join(f'<p>{E(p)}</p>' for p in sec.get('ps', []))
+        secs += f'<section><h2>{E(sec["h"])}</h2>{ps}</section>'
+    body_sec = (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-svc-grid">'
+                f'<div class="dcp-svc-body">{secs}</div>'
+                f'<aside class="dcp-aside">{glance}</aside></div></div></section>')
+    gal = ''
+    if c.get('gallery'):
+        figs = ''.join(f'<figure><img src="assets1/images/{g["img"]}" alt="{esc(g["cap"])}" '
+                       f'loading="lazy" width="1100" height="700"><figcaption>{E(g["cap"])}</figcaption></figure>'
+                       for g in c['gallery'])
+        gal = (f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+               f'<h2>{esc(U["gallery"])}</h2></div><div class="dcp-gal">{figs}</div></div></section>')
+    body = hero + photo + body_sec + gal + cta_band(ar) + footer(ar)
+    schema = {"@context": "https://schema.org", "@type": "CreativeWork", "name": c["name"],
+              "about": c.get("client"), "creator": {"@id": SITE + "/#org"},
+              "publisher": {"@id": SITE + "/#org"},
+              "image": SITE + "/assets1/images/" + C["img"], "inLanguage": lang}
+    if c.get("date_iso"): schema["datePublished"] = c["date_iso"]
+    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
+    title = c["name"] + (" | داتاكور للحلول" if ar else " | Datacore Solutions")
+    return shell(ar, "projects", title, c["lede"][:180], body, extra_head=head, canon="project-" + slug)
 
 # ── INSIGHTS ────────────────────────────────────────────────────────────
 def build_insights(ar):
@@ -411,4 +486,6 @@ if __name__ == "__main__":
         w(loc('projects', ar), build_projects(ar))
         w(loc('insights', ar), build_insights(ar))
         w(loc('contact', ar), build_contact(ar))
+        for slug in CASE_SLUG:
+            w(loc('project-' + slug, ar), build_case(slug, ar))
     print("done")
