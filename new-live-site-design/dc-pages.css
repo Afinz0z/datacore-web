@@ -219,6 +219,18 @@ html[dir=rtl] .dcp-fgroup h4{letter-spacing:0}
   border-radius:3px;padding:10px;font:inherit;font-weight:600;cursor:pointer;transition:.15s}
 .dcp-add:hover{background:#eaf6f4}
 .dcp-add.on{background:var(--dcp-teal-d);color:#fff}
+/* quantity stepper (left of "Add to request") + quantity in the RFQ drawer */
+.dcp-add-row{margin-top:auto;display:flex;gap:8px;align-items:stretch}
+.dcp-add-row .dcp-add{margin-top:0;flex:1}
+.dcp-qty{display:inline-flex;align-items:center;border:1px solid var(--dcp-line);border-radius:8px;overflow:hidden;flex:none;background:#fff}
+.dcp-qb{width:32px;border:0;background:none;color:var(--dcp-teal-d);font-size:1.15rem;line-height:1;cursor:pointer;padding:0}
+.dcp-qb:hover{background:#eaf6f4}
+.dcp-qn{width:40px;border:0;border-inline:1px solid var(--dcp-line);text-align:center;font:inherit;font-weight:600;color:var(--dcp-ink);padding:9px 0;background:none}
+#dcp-rlist li>div:first-child{flex:1;min-width:0}
+.dcp-rqty{display:inline-flex;align-items:center;gap:9px;font-variant-numeric:tabular-nums;font-weight:600;flex:none}
+.dcp-rq{width:26px;height:26px;border:1px solid var(--dcp-line);border-radius:6px;background:#fff;color:var(--dcp-teal-d);cursor:pointer;font-size:1rem;line-height:1}
+.dcp-rq:hover{background:#eaf6f4}
+html.dc-dark .dcp-rq{background:transparent;border-color:#2a2e33;color:#5fd9cc}
 /* RFQ floating button + drawer */
 .dcp-fab{position:fixed;inset-block-end:96px;inset-inline-end:22px;z-index:1200;background:var(--dcp-teal-d);
   color:#fff;border:0;border-radius:40px;padding:14px 22px;font:inherit;font-weight:600;cursor:pointer;
