@@ -233,6 +233,8 @@ html.dc-dark #dcx-top{background:#fff}
 @media(prefers-reduced-motion:no-preference){
   img[alt="Home Banner images"]{animation:dcx-kenburns 14s ease-in-out infinite alternate;transform-origin:50% 50%;will-change:transform}
 }
+/* round the home-page bottom CTAs ("Let's connect" / "Download brochure") to match the site */
+.btnn{border-radius:8px}
 html.dc-dark #dcx-sticky .s-call{color:#E8EAEB;border-color:#2A2E33}
 html.dc-dark #dcx-sticky .s-call svg{color:#3BC0B3}
 
