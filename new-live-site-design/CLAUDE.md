@@ -240,7 +240,9 @@ Three reported bugs, mirror `eb7f194` → datacore-web `dbc5095` (Pages success)
   5% opacity, RTL) and `[dir="rtl"] .service-bg{right:auto;left:0}` in services.css to
   mirror it to the left. Verified rendered. **(V23)** Same fix for the About Us hero
   watermark: `assets1/about/ABOUT.svg` → `ABOUT-ar.svg` (من نحن) + `[dir="rtl"] .about-bg`
-  → left, `about.css?v=2`.
+  → left, `about.css?v=2`. **(V24)** Fixed uneven shading in both AR watermark SVGs:
+  `<text fill-opacity="0.05">` double-painted overlapping Arabic glyph seams → wrapped
+  full-black text in `<g opacity="0.05">` (flatten then composite once); `?v=2` on the img refs.
 - **Arabic About Us "Our Story":** `about-us-ar.html` had the `قصتنا` heading but an empty
   `.about-story-text` body — filled from the English (Arabic first-draft). (Like the EN
   page, the block nests `<h4>`/`<p>` inside a `<p>`, so the browser auto-closes the outer
