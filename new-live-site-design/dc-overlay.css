@@ -65,8 +65,9 @@ html.dc-dark #dcx-hdr .tsun{display:block}
 html.dc-dark #dcx-hdr .tmoon{display:none}
 #dcx-hdr .btn{display:inline-flex;align-items:center;gap:8px;border-radius:2px;
   font-weight:600;font-size:1rem;padding:13px 24px;text-decoration:none;white-space:nowrap}
-#dcx-hdr .btn-p{background:var(--accent);color:var(--accent-contrast)}
-#dcx-hdr .btn-p:hover{background:var(--accent-d)}
+#dcx-hdr .btn-p{background:var(--accent);color:var(--accent-contrast);transition:background .2s,transform .18s,box-shadow .18s}
+#dcx-hdr .btn-p:hover{background:var(--accent-d);transform:translateY(-1px);box-shadow:0 9px 20px -9px var(--accent)}
+@media(prefers-reduced-motion:reduce){#dcx-hdr .btn-p:hover{transform:none}}
 #dcx-hdr .burger{display:none;padding:8px;background:none;border:0;color:var(--ink);cursor:pointer}
 #dcx-hdr .burger .x{display:none}
 #dcx-hdr .burger[aria-expanded="true"] .x{display:block}
@@ -214,6 +215,19 @@ html.dc-dark #dcx-chat .acts a:hover{background:#22303029;color:#5FD9CC}
 html.dc-dark #dcx-chat .acts a svg{color:#3BC0B3}
 html.dc-dark #dcx-chat .chatb{background:#fff;border-color:#fff}
 html.dc-dark #dcx-sticky{background:rgba(19,20,23,.96);border-color:#2A2E33}
+/* scroll-progress bar + back-to-top */
+#dcx-prog{position:fixed;inset-block-start:0;inset-inline:0;height:3px;z-index:10000;transform:scaleX(0);
+  transform-origin:0 50%;background:linear-gradient(90deg,#00776F,#00ACA1);pointer-events:none}
+html[dir=rtl] #dcx-prog{transform-origin:100% 50%}
+#dcx-top{position:fixed;inset-block-end:22px;inset-inline-start:22px;z-index:9990;width:44px;height:44px;
+  border-radius:50%;border:1px solid #E2E8E6;background:#fff;color:#00776F;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;box-shadow:0 14px 30px -12px rgba(0,0,0,.3);
+  opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .25s,transform .25s,visibility .25s,background .2s,color .2s}
+#dcx-top.show{opacity:1;visibility:visible;transform:none}
+#dcx-top:hover{background:#00776F;color:#fff;border-color:#00776F}
+html.dc-dark #dcx-top{background:#fff}
+@media(max-width:900px){html.dcx-has-sticky #dcx-top{inset-block-end:78px}}
+@media(prefers-reduced-motion:reduce){#dcx-top{transition:none}}
 html.dc-dark #dcx-sticky .s-call{color:#E8EAEB;border-color:#2A2E33}
 html.dc-dark #dcx-sticky .s-call svg{color:#3BC0B3}
 
