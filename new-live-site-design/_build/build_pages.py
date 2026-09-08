@@ -40,7 +40,7 @@ DISCIPLINES = [  # (services.html?id=, EN, AR) — matches the header dropdown
   ('iptv-solutions','IPTV Solutions','حلول IPTV'),
   ('professional-services','Professional Services','الخدمات الاحترافية'),
 ]
-PROJ_IMG = ['dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
+PROJ_IMG = ['dc-proj-owis.jpg','dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
 # "From our sites" gallery — real installation/site photos, (file, en alt, ar alt)
 GAL_IMG = [
   ('dc-proj-controlroom.jpg', 'A control room we integrated', 'غرفة تحكم من تنفيذنا'),
@@ -49,6 +49,8 @@ GAL_IMG = [
   ('dc-proj-airport.jpg', 'Terminal fit-out on an airport project', 'تجهيزات في مشروع مطار'),
   ('dc-proj-firealarm.jpg', 'Installing and testing a fire-alarm detector on site', 'تركيب واختبار كاشف إنذار حريق في الموقع'),
   ('dc-proj-avmount.jpg', 'Mounting a video-wall array on site', 'تركيب حامل شاشة عرض جدارية في الموقع'),
+  ('dc-proj-owis-auditorium.jpg', 'OWIS Riyadh auditorium — 2.5 mm LED video wall', 'مسرح مدرسة ون وورلد الرياض — جدار فيديو LED بمقاس 2.5 مم'),
+  ('dc-proj-owis-rack.jpg', 'The communications rack at OWIS Riyadh', 'خزانة الاتصالات في مدرسة ون وورلد الرياض'),
 ]
 POST_IMG = ['dc-blog-pa.jpg','dc-blog-5g.png','dc-blog-passive.png']
 # Google Maps "search + embed" (no API key, loads only when the user clicks)
