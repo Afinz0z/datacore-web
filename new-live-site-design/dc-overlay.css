@@ -232,3 +232,11 @@ html.dc-dark #dc-content iframe[title*="chat" i]{filter:none}
   transition:transform .22s ease,box-shadow .22s ease}
 .project-card:hover .image-project{transform:translateY(-6px);box-shadow:0 18px 34px -18px rgba(20,24,28,.45)}
 @media (prefers-reduced-motion:reduce){.project-card:hover .image-project{transform:none}}
+/* Same treatment for the index services image + insights (blog) images */
+.img-fluidz,.news-card .datacore-img{box-sizing:border-box;border:1px solid #E2E8E6;border-radius:6px;
+  transition:transform .22s ease,box-shadow .22s ease}
+.news-card{transition:transform .22s ease}
+.img-fluidz:hover{transform:translateY(-6px);box-shadow:0 18px 34px -18px rgba(20,24,28,.45)}
+.news-card:hover{transform:translateY(-6px)}
+.news-card:hover .datacore-img{box-shadow:0 18px 34px -18px rgba(20,24,28,.45)}
+@media (prefers-reduced-motion:reduce){.img-fluidz:hover,.news-card:hover{transform:none}}
