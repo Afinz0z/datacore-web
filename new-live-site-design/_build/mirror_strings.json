@@ -205,6 +205,14 @@
    [
     "insights",
     "Insights"
+   ],
+   [
+    "faq",
+    "FAQ"
+   ],
+   [
+    "glossary",
+    "Glossary"
    ]
   ],
   "f_careers": "Careers",
@@ -422,6 +430,14 @@
    [
     "insights",
     "ملاحظات تقنية"
+   ],
+   [
+    "faq",
+    "الأسئلة الشائعة"
+   ],
+   [
+    "glossary",
+    "مسرد المصطلحات"
    ]
   ],
   "f_careers": "الوظائف",

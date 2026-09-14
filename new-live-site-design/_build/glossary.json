@@ -1,0 +1,52 @@
+{
+  "en": {
+    "title": "Glossary of ELV, AV & ICT terms | Datacore Solutions",
+    "h1": "Glossary",
+    "lede": "Plain-language definitions of the low-current, audio-visual and IT terms used across our services — so a specification reads clearly whoever is in the room.",
+    "terms": [
+      ["ELV (Extra-Low Voltage)", "The low-current systems in a building — data networks, audio-visual, CCTV, access control, public address and fire alarm — that run on extra-low voltage rather than mains power. Datacore designs, installs and maintains them as a single integrator."],
+      ["Structured cabling", "A standardised, organised cabling system — to standards such as TIA-568 and ISO/IEC 11801 — that carries data, voice and video across a building on one common infrastructure, so any outlet can serve any service."],
+      ["Fibre optic", "Cabling that carries data as pulses of light through glass strands, giving very high bandwidth, low latency and long reach — used for backbones between floors, buildings and data centres."],
+      ["Network infrastructure", "The switches, routers, wireless access points and cabling that move data around an organisation — the foundation every other ELV and IT service runs on."],
+      ["Data centre", "A controlled facility that houses servers, storage and network equipment, with the power, cooling, cabling and physical security needed to keep them running reliably."],
+      ["CCTV / video surveillance", "Closed-circuit television: networked cameras and recording that let an organisation monitor and review activity across a site for safety and security."],
+      ["Access control", "Systems that decide who may enter which doors and areas — by card, PIN or biometrics — and keep an audit trail of every entry event."],
+      ["Public Address & Voice Alarm (PA/VA)", "Loudspeaker systems that deliver everyday announcements and, in an emergency, clear voice-evacuation messages. Life-safety PA/VA is designed to standards such as EN 54."],
+      ["Fire alarm system", "Detectors, call points, control panels and sounders that detect fire early and alert occupants; these commonly integrate with voice evacuation to standards such as EN 54."],
+      ["Audio-visual (AV)", "The displays, projectors, speakers, microphones, cameras and control systems that let people present, hear and collaborate in meeting rooms, auditoriums and public spaces."],
+      ["Video wall", "An array of tiled displays or fine-pitch LED panels that act as one large screen for control rooms, auditoriums, lobbies and digital signage."],
+      ["Digital signage", "Centrally-managed screens that show scheduled content — wayfinding, announcements, advertising — across a site from one content-management platform."],
+      ["IPTV", "Internet Protocol Television: live TV and video-on-demand delivered over a building's own data network, with centralised content management, instead of over aerials or coax."],
+      ["AV over IP", "Distributing audio and video as network data over standard IT infrastructure, so sources and displays can be matrixed flexibly across a building rather than wired point-to-point."],
+      ["Unified Communications (UC)", "Bringing voice, video, messaging and conferencing into one experience — often with room systems and BYOD connectivity so any device can join a meeting."],
+      ["BYOD (Bring Your Own Device)", "Room and network design that lets people connect and present from their own laptop or phone — wirelessly or with a single cable."],
+      ["UPS (Uninterruptible Power Supply)", "Battery-backed power that keeps critical equipment running through outages and rides through the switch to generator power."],
+      ["AMC (Annual Maintenance Contract)", "A service agreement combining scheduled preventive maintenance, proactive monitoring and response-time-backed support after a system is handed over."]
+    ]
+  },
+  "ar": {
+    "title": "مسرد مصطلحات التيار المنخفض والصوت والصورة وتقنية المعلومات | داتاكور للحلول",
+    "h1": "مسرد المصطلحات",
+    "lede": "تعريفات مبسّطة لمصطلحات التيار المنخفض والأنظمة السمعية والبصرية وتقنية المعلومات المستخدمة عبر خدماتنا — لتكون المواصفات واضحة لكل من في الاجتماع.",
+    "terms": [
+      ["التيار المنخفض (ELV)", "أنظمة التيار المنخفض في المبنى — شبكات البيانات، والأنظمة السمعية والبصرية، وكاميرات المراقبة، والتحكم في الدخول، والنداء العام وإنذار الحريق — التي تعمل بجهد منخفض جدًا بدل تيار الكهرباء الرئيسي. تصمّمها داتاكور وتركّبها وتصونها كمكاملٍ واحد."],
+      ["الكابلات المهيكلة", "نظام كابلات منظّم وموحّد — وفق معايير مثل TIA-568 وISO/IEC 11801 — ينقل البيانات والصوت والصورة عبر المبنى على بنية تحتية واحدة مشتركة، بحيث يخدم أي منفذٍ أي خدمة."],
+      ["الألياف الضوئية", "كابلات تنقل البيانات كنبضات ضوئية عبر خيوط زجاجية، فتمنح سعةً عالية جدًا وزمن استجابة منخفض ومدى طويل — تُستخدم كعمودٍ فقري بين الطوابق والمباني ومراكز البيانات."],
+      ["البنية التحتية للشبكات", "المبدّلات والموجّهات ونقاط الوصول اللاسلكية والكابلات التي تنقل البيانات داخل المؤسسة — وهي الأساس الذي تعمل عليه كل خدمات التيار المنخفض وتقنية المعلومات الأخرى."],
+      ["مركز البيانات", "منشأة محكومة تضم الخوادم والتخزين ومعدّات الشبكة، مع ما يلزم من طاقة وتبريد وكابلات وأمنٍ مادي لإبقائها تعمل بموثوقية."],
+      ["المراقبة بالكاميرات (CCTV)", "دائرة تلفزيونية مغلقة: كاميرات وتسجيل عبر الشبكة تتيح للمؤسسة مراقبة النشاط عبر الموقع ومراجعته لأغراض السلامة والأمن."],
+      ["التحكم في الدخول", "أنظمة تحدّد مَن يدخل أي الأبواب والمناطق — بالبطاقة أو الرمز أو السمات الحيوية — وتحتفظ بسجلٍ لكل حدث دخول."],
+      ["النداء العام وإنذار الصوت (PA/VA)", "أنظمة مكبّرات صوت تنقل الإعلانات اليومية، وفي الطوارئ رسائل إخلاءٍ صوتية واضحة. تُصمَّم أنظمة السلامة منها وفق معايير مثل EN 54."],
+      ["نظام إنذار الحريق", "كواشف ونقاط نداء ولوحات تحكم وصفّارات تكشف الحريق مبكرًا وتنبّه الشاغلين؛ وتتكامل عادةً مع الإخلاء الصوتي وفق معايير مثل EN 54."],
+      ["الأنظمة السمعية والبصرية (AV)", "الشاشات وأجهزة العرض والسمّاعات والميكروفونات والكاميرات وأنظمة التحكم التي تتيح للناس العرض والاستماع والتعاون في قاعات الاجتماعات والمسارح والأماكن العامة."],
+      ["جدار الفيديو", "مصفوفة من الشاشات المتجاورة أو ألواح LED دقيقة البكسل تعمل كشاشةٍ واحدة كبيرة لغرف التحكم والمسارح والبهو واللافتات الرقمية."],
+      ["اللافتات الرقمية", "شاشات مُدارة مركزيًا تعرض محتوى مجدولًا — إرشاد المسار والإعلانات والدعاية — عبر الموقع من منصّة إدارة محتوى واحدة."],
+      ["IPTV", "تلفزيون بروتوكول الإنترنت: بثٌّ تلفزيوني حي وفيديو حسب الطلب عبر شبكة بيانات المبنى نفسها، بإدارة محتوى مركزية، بدلًا من الهوائيات أو الكابل المحوري."],
+      ["الصوت والصورة عبر الشبكة (AV over IP)", "توزيع الصوت والصورة كبيانات شبكة عبر بنية تقنية المعلومات القياسية، بحيث يمكن ربط المصادر والشاشات بمرونة عبر المبنى بدل التوصيل من نقطة إلى نقطة."],
+      ["الاتصالات الموحّدة (UC)", "دمج الصوت والفيديو والمراسلة والمؤتمرات في تجربةٍ واحدة — غالبًا مع أنظمة القاعات وربط BYOD بحيث ينضم أي جهاز إلى الاجتماع."],
+      ["إحضار جهازك الخاص (BYOD)", "تصميم القاعة والشبكة بحيث يتمكّن الأشخاص من الاتصال والعرض من حواسيبهم أو هواتفهم — لاسلكيًا أو بكابلٍ واحد."],
+      ["مزوّد الطاقة غير المنقطعة (UPS)", "طاقة مدعومة ببطاريات تُبقي المعدّات الحرجة تعمل خلال انقطاع التيار وتجتاز لحظة التحوّل إلى طاقة المولّد."],
+      ["عقد الصيانة السنوية (AMC)", "اتفاقية خدمة تجمع بين الصيانة الوقائية المجدولة والمراقبة الاستباقية والدعم المدعوم بزمن استجابة بعد تسليم النظام."]
+    ]
+  }
+}

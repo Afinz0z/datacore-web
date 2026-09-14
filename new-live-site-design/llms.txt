@@ -24,6 +24,20 @@
 - https://www.datacore.com.sa/services.html — all disciplines and services
 - https://www.datacore.com.sa/products.html — product catalogue and quotation requests
 - https://www.datacore.com.sa/projects.html — named project case studies
+- https://www.datacore.com.sa/faq.html — frequently asked questions
+- https://www.datacore.com.sa/glossary.html — plain-language definitions of ELV, AV & ICT terms
 - https://www.datacore.com.sa/contact.html — enquiry form and office locations
+
+## Case studies
+- https://www.datacore.com.sa/project-owis.html — One World International School, Riyadh — AV, ICT & security for a new campus, one integrator
+- https://www.datacore.com.sa/project-psau.html — Prince Sattam bin Abdulaziz University, Al-Kharj — campus-wide smart classrooms & auditorium
+- https://www.datacore.com.sa/project-taqeem.html — TAQEEM (Saudi Authority for Accredited Valuers), Riyadh — HQ-wide AV standardisation
+- https://www.datacore.com.sa/project-auditorium.html — Arab Open University, Riyadh — auditorium rebuilt around a direct-view LED wall
+- https://www.datacore.com.sa/project-aou-council.html — Arab Open University, Riyadh — council-chamber AV modernisation
+
+## Insights (articles)
+- https://www.datacore.com.sa/insight-what-is-a-public-address-system.html — public address vs. voice evacuation (PA/VA) and the EN 54 standards
+- https://www.datacore.com.sa/insight-impact-of-5g-on-passive-networks.html — how 5G densification drives fibre counts, pathways and containment
+- https://www.datacore.com.sa/insight-active-vs-passive-network-infrastructure.html — the active/passive split and why the passive layer is the one to get right
 
 Note: company registration (CR) and VAT numbers shown on the site are placeholders.

@@ -249,6 +249,17 @@ Three reported bugs, mirror `eb7f194` → datacore-web `dbc5095` (Pages success)
   `p` and the text renders as siblings — `.about-story-text.textContent` reads empty by
   design; check `.xc-p-left`.)
 
+## Session log — ghost-watermark shading, VER 26 (8 Sep 2026, V25)
+Same shading class of bug as the SVG watermarks, but on the **generated** pages'
+`.dcp-ghost` hero watermark (products منتجات / projects مشاريع / insights ملاحظات /
+contact تواصل). It used a translucent color `color:#00b3a610` → connected Arabic glyph
+seams double-painted → uneven density. Fixed in `dc-pages.css`: `color:#00b3a6;opacity:.062`
+(solid color, flatten-then-composite once). Because `dc-pages.css` is VER-cache-busted,
+this bumped **VER 25 → 26** — regenerated all pages + re-stamped the 6 live core pages
+(`?v=25`→`?v=26`; the live pages don't load `dc-pages.css`, only `dc-overlay.*`, which is
+unchanged, so the re-stamp is just for version consistency). mirror `f5b9f2b` →
+datacore-web `e3b28e4`, Pages success. Backup **V25**. Case-study pages have no ghost.
+
 ## File map (mirror root)
 Flat by design — do not move pages into subfolders (breaks relative links + the
 overlay rewrite + Pages URLs). Loose files at root:

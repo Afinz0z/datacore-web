@@ -13,6 +13,7 @@
   var T = isAR ? {
     about: 'من نحن', services: 'خدماتنا', products: 'المنتجات', projects: 'مشاريعنا',
     insights: 'ملاحظات تقنية', contact: 'تواصل معنا', lang: 'English',
+    resources: 'مصادر', faq: 'الأسئلة الشائعة', glossary: 'مسرد المصطلحات',
     cta: 'اطلب استشارة', theme: 'التبديل بين الوضع الفاتح والداكن', menu: 'القائمة',
     chat_label: 'تحدث معنا', chat_h: 'كيف نساعدك؟', chat_p: 'اختر وسيلة التواصل وسنكمل من هناك.',
     chat_wa: 'محادثة واتساب', chat_call: 'الاتصال بمكتب الرياض', chat_mail: 'مراسلة المبيعات',
@@ -20,6 +21,7 @@
   } : {
     about: 'About', services: 'Services', products: 'Products', projects: 'Projects',
     insights: 'Insights', contact: 'Contact', lang: 'العربية',
+    resources: 'Resources', faq: 'FAQ', glossary: 'Glossary',
     cta: 'Request a consultation', theme: 'Switch between light and dark mode', menu: 'Open menu',
     chat_label: 'Chat with us', chat_h: 'How can we help?', chat_p: 'Pick a channel and we will take it from there.',
     chat_wa: 'Chat on WhatsApp', chat_call: 'Call the Riyadh office', chat_mail: 'Email sales',
@@ -97,6 +99,12 @@
     a('products', T.products, 'products') +
     a('projects', T.projects, 'projects') +
     a('insights', T.insights, 'insights') +
+    '<div class="dcx-drop"><a href="' + localName('faq') + '" class="dcx-parent' +
+      ((stem === 'faq' || stem === 'glossary') ? ' on' : '') + '" aria-haspopup="true">' + T.resources + ' ' + caret +
+      '</a><div class="dcx-sub dcx-sub-simple">' +
+        '<a href="' + localName('faq') + '"' + (stem === 'faq' ? ' class="on"' : '') + '>' + T.faq + '</a>' +
+        '<a href="' + localName('glossary') + '"' + (stem === 'glossary' ? ' class="on"' : '') + '>' + T.glossary + '</a>' +
+      '</div></div>' +
     a('contact', T.contact, 'contact') +
     '<a class="menu-cta" href="' + localName('contact') + '">' + T.cta + '</a>';
 
@@ -180,7 +188,13 @@
     if (document.getElementById('dc-content')) return;
     var wrap = document.createElement('div');
     wrap.id = 'dc-content';
+    wrap.tabIndex = -1;
     while (document.body.firstChild) wrap.appendChild(document.body.firstChild);
+    var skip = document.createElement('a');
+    skip.className = 'dcx-skip';
+    skip.href = '#dc-content';
+    skip.textContent = (document.documentElement.lang === 'ar') ? 'تخطَّ إلى المحتوى' : 'Skip to content';
+    document.body.appendChild(skip);
     document.body.appendChild(hdr);
     document.body.appendChild(wrap);
     fixLinks();
