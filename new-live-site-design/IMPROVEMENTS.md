@@ -16,6 +16,20 @@ Served locally at http://localhost:8138 for verification.
 ## Changelog
 _(newest first)_
 
+- **Dark mode: real token-based theme for generated pages (VER 30→31)** — the `filter:invert`
+  dark mode was flipping every intentionally-dark element to bright (footer → white band, product
+  photos → white squares) and muddying muted text ("too much white", products "very weird",
+  category filters unreadable). Replaced it on the generated `.dcp` pages with a **proper
+  token-based dark theme** in `dc-pages.css` (redefined `--dcp-*`; dark card/input/CTA surfaces;
+  bright teal for link/heading text with button backgrounds pinned to a readable mid-teal;
+  dark-tinted badges; product tiles kept light since photos are shot on white). The invert is now
+  **scoped to the 3 live-capture pages** (`body:not(.dcp)`), and their intentionally-dark footer +
+  buttons are counter-inverted so they stay dark (footer images neutralised to avoid triple-invert).
+  Verified: products + glossary render genuinely dark with legible filters/text, `#dc-content` has
+  no filter on `.dcp` pages. 128 pages, 0 broken refs. VER 30→31, re-stamped 6 live pages.
+
+- **Update company stats: 19+ years, 180+ team, 1,500+ customers** — homepage counters + about-us
+  stats + landing facts strip; fixed the "Year's experiense" typo → "Years of experience".
 - **Forms now deliver + bigger logo (VER 29→30)** — the RFQ basket and contact form were
   front-end-only demos (showed a ref number, sent nothing — silently dropping every lead). New
   **`dc-forms.js`** `dcpDeliver()`: if a Web3Forms `DCP_FORM_KEY` is set, submissions POST straight
