@@ -274,6 +274,35 @@ html.dc-dark .dcp-drawer .dcp-field select{background:#14161a;color:#e8eaeb;bord
 html.dc-dark .dcp-dclose,html.dc-dark #dcp-rlist span,html.dc-dark .dcp-rempty,
 html.dc-dark .dcp-drawer .dcp-field label,html.dc-dark .dcp-rok p{color:#abb3b6}
 
+/* ═══ DARK MODE — a real dark theme for the generated (.dcp) pages, replacing the
+   filter-invert (now scoped to the 3 live-capture pages in dc-overlay.css). Tokens
+   are redefined; the hard-coded surface / tint colours are overridden below. ═══ */
+html.dc-dark .dcp{
+  --dcp-ink:#e8ecef;--dcp-ink2:#a6b0b7;--dcp-ink3:#7d878f;
+  --dcp-line:#272e36;--dcp-bg:#0f1318;--dcp-soft:#161b21;
+  --dcp-teal-d:#33c3b5;                 /* bright teal for link / heading TEXT on dark */
+}
+/* card & panel surfaces that were hard-coded #fff */
+html.dc-dark .dcp-proj,html.dc-dark .dcp-post,html.dc-dark .dcp-office,html.dc-dark .dcp-card{background:#161b21}
+html.dc-dark .dcp-hero{background:linear-gradient(180deg,#141b22,#0f1318)}
+/* form & filter fields (were #fff) */
+html.dc-dark .dcp-field input,html.dc-dark .dcp-field select,html.dc-dark .dcp-field textarea,
+html.dc-dark .dcp-tools input,html.dc-dark .dcp-tools select,html.dc-dark .dcp-tabs button,
+html.dc-dark .dcp-mobfilter,html.dc-dark .dcp-qty,html.dc-dark .dcp-search-in{background:#12161c;color:var(--dcp-ink)}
+/* product image tiles stay light — product photos are shot on white, so a light tile is correct */
+html.dc-dark .dcp-card-photo:not(.dcp-noimg){background:#f2f4f5}
+/* teal tints (were #eaf6f4) -> subtle dark teal */
+html.dc-dark .dcp-featic,html.dc-dark .dcp-card-ic,
+html.dc-dark .dcp-add:hover,html.dc-dark .dcp-qb:hover{background:#123230}
+/* teal-d is now bright (great for text); pin the button BACKGROUNDS to a readable mid-teal */
+html.dc-dark .dcp .dcp-btn,html.dc-dark .dcp-add.on{background:#0c8074;border-color:#0c8074;color:#fff}
+html.dc-dark .dcp .dcp-btn:hover{background:#0fa090;color:#fff}
+/* stock / lead badges -> dark-tinted */
+html.dc-dark .dcp-badge.stock{background:#123322;color:#69d799}
+html.dc-dark .dcp-badge.lead{background:#33270f;color:#e3a559}
+/* CTA band -> dark surface */
+html.dc-dark .dcp-cta{background:#141b22}
+
 /* ── service detail pages ──────────────────────────────────────────── */
 .dcp-chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
 .dcp-chips span{font-size:.82rem;font-weight:600;color:var(--dcp-teal-d);background:#eaf6f4;
