@@ -295,6 +295,12 @@ html.dc-dark body:not(.dcp) #dc-content .project-card:hover{
 html.dc-dark body:not(.dcp) #dc-content .project-card .image-project{border:0!important;border-radius:0!important;width:100%!important;display:block!important}
 /* divider -> teal fade (teal survives the invert) */
 html.dc-dark body:not(.dcp) #dc-content .project-card .custom-hr{border:0!important;height:1.5px!important;opacity:1!important;background:linear-gradient(90deg,rgba(5,172,161,.6),transparent)!important}
+/* breathing room: image stays full-bleed, but the text content is inset from the card
+   edges (it was flush — 0 padding — which read as "stuffed"). */
+html.dc-dark body:not(.dcp) #dc-content .project-card .vertical-bar-heading,
+html.dc-dark body:not(.dcp) #dc-content .project-card .project-content,
+html.dc-dark body:not(.dcp) #dc-content .project-card .mt-3{padding-left:32px!important;padding-right:32px!important}
+html.dc-dark body:not(.dcp) #dc-content .project-card .mt-3{padding-bottom:28px!important}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 /* Home-page project case-study images: hairline border + rounded corners + hover-lift (option B) */
 .project-card .image-project{box-sizing:border-box;border:1px solid #E2E8E6;border-radius:6px;
