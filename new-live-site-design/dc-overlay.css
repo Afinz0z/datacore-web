@@ -256,7 +256,12 @@ html.dc-dark body:not(.dcp) #dc-content video,
 html.dc-dark body:not(.dcp) #dc-content iframe,
 html.dc-dark body:not(.dcp) #dc-content picture,
 html.dc-dark body:not(.dcp) #dc-content .swiper-slide img,
-html.dc-dark body:not(.dcp) #dc-content .carousel-item img{filter:invert(1) hue-rotate(180deg)}
+html.dc-dark body:not(.dcp) #dc-content .carousel-item img,
+/* hero parallax photos are CSS background-images on a <div class="jarallax-img">,
+   not <img>, so the img-only counter-invert misses them and the per-block invert
+   flips the photo to a negative (e.g. the About datacenter hero rendered white).
+   Counter-invert the layer div too so the photo stays true colour. */
+html.dc-dark body:not(.dcp) #dc-content .jarallax-img{filter:invert(1) hue-rotate(180deg)}
 html.dc-dark body:not(.dcp) #dc-content iframe[title*="chat" i]{filter:none}
 /* the source footer is ALREADY dark, so leave it un-inverted (and its logo);
    dark buttons sit inside inverted sections, so counter-invert them back to dark. */
