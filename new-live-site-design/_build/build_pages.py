@@ -78,9 +78,9 @@ CASE_UI = {
         'scope': 'النطاق', 'kit': 'الأنظمة المُنفّذة', 'gallery': 'من الموقع',
         'get': 'ابدأ مشروعًا', 'get_p': 'أخبرنا بالمبنى والمرحلة التي أنت فيها.'},
 }
-POST_IMG = ['dc-blog-pa.jpg','dc-blog-5g.webp','dc-blog-passive.webp']
-POST_SLUG = [p['slug'] for p in INSIGHTS['en']['posts']]   # index-aligned with POST_IMG / posts
-POST_ISO  = ['2026-03-03', '2026-02-16', '2026-03-03']      # datePublished for BlogPosting schema
+POST_SLUG = [p['slug'] for p in INSIGHTS['en']['posts']]   # insights.json is the single source of truth
+POST_IMG  = [p['img']  for p in INSIGHTS['en']['posts']]   # card / hero image per post
+POST_ISO  = [p['iso']  for p in INSIGHTS['en']['posts']]   # datePublished for BlogPosting schema
 # Google Maps "search + embed" (no API key, loads only when the user clicks)
 MAP_Q = ['Dabbab+Complex+Dabbab+Street+Riyadh+12626',
          'Um+Hurair+Second+Dubai+UAE',
@@ -419,16 +419,17 @@ def build_glossary(ar):
 
 # ── INSIGHTS ────────────────────────────────────────────────────────────
 def build_insights(ar):
-    s = STR['ar' if ar else 'en']
+    lang = 'ar' if ar else 'en'
+    s = STR[lang]
+    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    read = 'اقرأ المقال' if ar else 'Read the article'
     cards = ''
-    for i, p in enumerate(s['posts']):
-        date, team, ttl, body = p
-        read = 'اقرأ المقال' if ar else 'Read the article'
-    cards += f"""<article class="dcp-post">
-  <div class="ph"><a href="{loc('insight-'+POST_SLUG[i],ar)}"><img src="assets1/images/{POST_IMG[i]}" alt="{esc(ttl)}" loading="lazy" width="561" height="306"></a></div>
-  <div class="in"><span class="by">{esc(date)} &middot; {esc(team)}</span>
-    <h3><a href="{loc('insight-'+POST_SLUG[i],ar)}">{esc(ttl)}</a></h3><p>{esc(body)}</p>
-    <a class="dcp-dir" href="{loc('insight-'+POST_SLUG[i],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
+    for i, p in enumerate(INSIGHTS[lang]['posts']):
+        cards += f"""<article class="dcp-post">
+  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}" alt="{esc(p['title'])}" loading="lazy" width="561" height="306"></a></div>
+  <div class="in"><span class="by">{E(p['date'])} &middot; {E(p['team'])}</span>
+    <h3><a href="{loc('insight-'+p['slug'],ar)}">{E(p['title'])}</a></h3><p>{E(p['dek'])}</p>
+    <a class="dcp-dir" href="{loc('insight-'+p['slug'],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
     body = (hero(ar, 'NOTES' if not ar else 'ملاحظات', s['i_title'], s['i_title'], s['i_lede'])
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-posts">{cards}</div></div></section>'
       + cta_band(ar) + footer(ar))
@@ -469,23 +470,35 @@ def build_post(i, ar):
     fig = (f'<figure class="dcp-art-fig"><img src="assets1/images/{POST_IMG[i]}" '
            f'alt="{esc(P["title"])}" width="561" height="306"></figure>')
     blocks = ''.join(f'<{typ}>{E(txt)}</{typ}>' for typ, txt in P['blocks'])
+    faq = P.get('faq', [])
+    faq_html = ''
+    if faq:
+        items = ''.join(f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+                        f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>' for q, a in faq)
+        faq_h = 'أسئلة شائعة' if ar else 'Frequently asked'
+        faq_html = (f'<div class="dcp-faqwrap" style="max-width:720px;margin:36px auto 0">'
+                    f'<h2 style="font-size:1.4rem;margin:0 0 6px">{esc(faq_h)}</h2>{items}</div>')
     rel = ''.join(f'<a href="{loc("service-"+slug,ar)}">{E(anchor)} {I_ARROW}</a>'
                   for slug, anchor in P['related'])
     rel_h = 'خدمات ذات صلة' if ar else 'Related services'
     body = (hero_html
             + f'<section class="dcp-sec"><div class="dcp-wrap">{fig}'
-              f'<div class="dcp-article">{blocks}</div>'
+              f'<div class="dcp-article">{blocks}</div>{faq_html}'
               f'<div class="dcp-related"><h2>{esc(rel_h)}</h2>{rel}</div></div></section>'
             + cta_band(ar) + footer(ar))
     url = SITE + '/' + loc('insight-' + P['slug'], ar)
-    schema = {"@context": "https://schema.org", "@type": "BlogPosting",
-              "headline": P['title'], "description": P['meta'],
-              "datePublished": POST_ISO[i], "inLanguage": lang,
-              "image": SITE + '/assets1/images/' + POST_IMG[i],
-              "author": {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'},
-              "publisher": {"@id": SITE + '/#org'},
-              "mainEntityOfPage": {"@type": "WebPage", "@id": url}}
-    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + POST_CSS
+    schema = [{"@context": "https://schema.org", "@type": "BlogPosting",
+               "headline": P['title'], "description": P['meta'],
+               "datePublished": POST_ISO[i], "inLanguage": lang,
+               "image": SITE + '/assets1/images/' + POST_IMG[i],
+               "author": {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'},
+               "publisher": {"@id": SITE + '/#org'},
+               "mainEntityOfPage": {"@type": "WebPage", "@id": url}}]
+    if faq:
+        schema.append({"@context": "https://schema.org", "@type": "FAQPage",
+                       "mainEntity": [{"@type": "Question", "name": q,
+                                       "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
+    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + FAQ_CSS + POST_CSS
     title = P['title'] + (' | داتاكور للحلول' if ar else ' | Datacore Solutions')
     return shell(ar, 'insights', title, P['meta'], body, extra_head=head, canon='insight-' + P['slug'])
 

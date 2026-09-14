@@ -9,22 +9,63 @@
         "dek": "Where public address ends and voice evacuation begins, and why the distinction decides which standard your project has to meet.",
         "meta": "A public address system distributes clear speech and audio across a building. Learn how PA differs from voice alarm / voice evacuation, the EN 54 standards involved, and how PA/VA is designed for intelligibility.",
         "blocks": [
-          ["p", "A public address (PA) system distributes clear, intelligible speech and audio across a building or site — from a microphone or audio source, through amplifiers, to loudspeakers arranged in zones. It is how an airport pages a passenger, a school signals the end of a period, or a mall plays background music. But the plain term hides a distinction that decides which standard your project must meet, and how much it costs to get right."],
-          ["h2", "Public address vs. voice alarm (voice evacuation)"],
-          ["p", "Everyday PA handles announcements, paging and background music. A voice alarm — also called voice evacuation, together written PA/VA — is a life-safety system: in an emergency it delivers automatic, intelligible evacuation messages that take priority over everything else. That life-safety role is why PA/VA is held to the EN 54 family of standards (for example EN 54-16 for the voice-alarm control and indicating equipment and EN 54-24 for the loudspeakers), with continuously monitored cabling, standby power, and fault reporting. An everyday paging system is not held to those requirements; a voice-evacuation system is."],
-          ["h2", "How a PA/VA system is put together"],
-          ["p", "The building blocks are consistent: audio sources and emergency microphones; a controller or matrix that manages zones, message priority and the emergency logic; amplifiers sized to the connected loudspeaker load with spare capacity; and loudspeakers chosen for even coverage and speech clarity. In a life-safety system the loudspeaker lines are monitored end to end and backed by standby power, so a single fault is detected rather than discovered during an evacuation."],
-          ["h2", "Getting intelligibility right, not just volume"],
-          ["p", "The point of a PA system is that people understand the message, not merely hear a noise. Intelligibility is designed — loudspeaker layout and coverage, the room’s acoustics and reverberation, and a target speech transmission index (STI) all decide whether a message reads as words or as echo. Louder is not clearer; a well-designed quieter system beats an over-driven loud one."],
-          ["h2", "Integration with fire alarm"],
-          ["p", "In many buildings the voice-evacuation system integrates with the fire-alarm system, so that detection automatically triggers the correct evacuation message in the correct zones. The interface between the two systems, and the cause-and-effect matrix that maps detection to messaging, are as important as the audio itself — and are exactly where an integrator who owns both scopes removes risk."],
-          ["p", "Datacore designs, supplies, installs and commissions public address and PA/VA voice-evacuation systems to the relevant standard, with documented test results and intelligibility verification at handover. If you are specifying a system and are not sure whether you need PA or full voice evacuation, that is the first question worth settling — talk to our team."]
+          [
+            "p",
+            "A public address (PA) system distributes clear, intelligible speech and audio across a building or site — from a microphone or audio source, through amplifiers, to loudspeakers arranged in zones. It is how an airport pages a passenger, a school signals the end of a period, or a mall plays background music. But the plain term hides a distinction that decides which standard your project must meet, and how much it costs to get right."
+          ],
+          [
+            "h2",
+            "Public address vs. voice alarm (voice evacuation)"
+          ],
+          [
+            "p",
+            "Everyday PA handles announcements, paging and background music. A voice alarm — also called voice evacuation, together written PA/VA — is a life-safety system: in an emergency it delivers automatic, intelligible evacuation messages that take priority over everything else. That life-safety role is why PA/VA is held to the EN 54 family of standards (for example EN 54-16 for the voice-alarm control and indicating equipment and EN 54-24 for the loudspeakers), with continuously monitored cabling, standby power, and fault reporting. An everyday paging system is not held to those requirements; a voice-evacuation system is."
+          ],
+          [
+            "h2",
+            "How a PA/VA system is put together"
+          ],
+          [
+            "p",
+            "The building blocks are consistent: audio sources and emergency microphones; a controller or matrix that manages zones, message priority and the emergency logic; amplifiers sized to the connected loudspeaker load with spare capacity; and loudspeakers chosen for even coverage and speech clarity. In a life-safety system the loudspeaker lines are monitored end to end and backed by standby power, so a single fault is detected rather than discovered during an evacuation."
+          ],
+          [
+            "h2",
+            "Getting intelligibility right, not just volume"
+          ],
+          [
+            "p",
+            "The point of a PA system is that people understand the message, not merely hear a noise. Intelligibility is designed — loudspeaker layout and coverage, the room’s acoustics and reverberation, and a target speech transmission index (STI) all decide whether a message reads as words or as echo. Louder is not clearer; a well-designed quieter system beats an over-driven loud one."
+          ],
+          [
+            "h2",
+            "Integration with fire alarm"
+          ],
+          [
+            "p",
+            "In many buildings the voice-evacuation system integrates with the fire-alarm system, so that detection automatically triggers the correct evacuation message in the correct zones. The interface between the two systems, and the cause-and-effect matrix that maps detection to messaging, are as important as the audio itself — and are exactly where an integrator who owns both scopes removes risk."
+          ],
+          [
+            "p",
+            "Datacore designs, supplies, installs and commissions public address and PA/VA voice-evacuation systems to the relevant standard, with documented test results and intelligibility verification at handover. If you are specifying a system and are not sure whether you need PA or full voice evacuation, that is the first question worth settling — talk to our team."
+          ]
         ],
         "related": [
-          ["pava-public-address-amp-voice-evacuation-system", "PA/VA voice evacuation"],
-          ["fire-alarm-systems", "Fire alarm systems"],
-          ["paga-public-address-and-general-alarm-system", "PAGA general alarm"]
-        ]
+          [
+            "pava-public-address-amp-voice-evacuation-system",
+            "PA/VA voice evacuation"
+          ],
+          [
+            "fire-alarm-systems",
+            "Fire alarm systems"
+          ],
+          [
+            "paga-public-address-and-general-alarm-system",
+            "PAGA general alarm"
+          ]
+        ],
+        "img": "dc-blog-pa.jpg",
+        "iso": "2026-03-03"
       },
       {
         "slug": "impact-of-5g-on-passive-networks",
@@ -34,22 +75,63 @@
         "dek": "What denser radio deployment does to fibre counts, pathway sizing and containment in a building you are designing today.",
         "meta": "5G is a radio technology, but it lands on the passive network — cabling, pathways and containment. How densification drives fibre counts, PoE, pathway sizing and the headroom to design in now.",
         "blocks": [
-          ["p", "5G is usually discussed as a radio and spectrum story. For anyone designing a building, though, it is a passive-infrastructure story: the cabling, pathways and containment you commit to today are what every 5G radio point will depend on tomorrow. Denser radio changes the numbers, and the passive layer is the part you cannot cheaply revisit."],
-          ["h2", "Densification means more radio points"],
-          ["p", "To deliver 5G capacity and coverage — especially the higher frequency bands, indoors — you need more radio points, closer together: small cells, distributed antenna systems (DAS) and a denser grid of access points, rather than a handful of rooftop macro sites. Every one of those points needs to be fed and, increasingly, powered."],
-          ["h2", "Fibre counts go up"],
-          ["p", "More radio points fed over fibre — and the shift toward fibre-to-the-antenna — pushes fibre counts, splice capacity and termination density well beyond what a 4G-era backbone assumed. A riser sized for yesterday’s cell plan quietly becomes the constraint on tomorrow’s. Designing generous fibre backbones and splice/patching space early is far cheaper than re-pulling a live building."],
-          ["h2", "Pathways, containment and power"],
-          ["p", "More cable means more tray, conduit and riser capacity, and many radio points now draw power over the same infrastructure (PoE or remote DC power), which affects cable selection, bundle sizes and heat. Under-sizing containment is the expensive mistake: adding a fibre is easy when the pathway has room, and disruptive when it does not."],
-          ["h2", "Design for headroom now"],
-          ["p", "The practical response is headroom. Specify spare fibre, keep pathway fill below the point where the next addition means new containment, plan power for active radio points, and label everything so the next team can extend rather than rebuild. This is the passive counterpart to the active/passive split — the passive layer is designed for the life of the building, not for this year’s cell plan."],
-          ["p", "Datacore designs structured cabling and fibre backbones with that headroom built in, to TIA-568 and ISO/IEC 11801, so the passive network supports the radio plan you have and the one you will have. If you are planning a building or a refresh, we can review the passive design against where 5G is heading."]
+          [
+            "p",
+            "5G is usually discussed as a radio and spectrum story. For anyone designing a building, though, it is a passive-infrastructure story: the cabling, pathways and containment you commit to today are what every 5G radio point will depend on tomorrow. Denser radio changes the numbers, and the passive layer is the part you cannot cheaply revisit."
+          ],
+          [
+            "h2",
+            "Densification means more radio points"
+          ],
+          [
+            "p",
+            "To deliver 5G capacity and coverage — especially the higher frequency bands, indoors — you need more radio points, closer together: small cells, distributed antenna systems (DAS) and a denser grid of access points, rather than a handful of rooftop macro sites. Every one of those points needs to be fed and, increasingly, powered."
+          ],
+          [
+            "h2",
+            "Fibre counts go up"
+          ],
+          [
+            "p",
+            "More radio points fed over fibre — and the shift toward fibre-to-the-antenna — pushes fibre counts, splice capacity and termination density well beyond what a 4G-era backbone assumed. A riser sized for yesterday’s cell plan quietly becomes the constraint on tomorrow’s. Designing generous fibre backbones and splice/patching space early is far cheaper than re-pulling a live building."
+          ],
+          [
+            "h2",
+            "Pathways, containment and power"
+          ],
+          [
+            "p",
+            "More cable means more tray, conduit and riser capacity, and many radio points now draw power over the same infrastructure (PoE or remote DC power), which affects cable selection, bundle sizes and heat. Under-sizing containment is the expensive mistake: adding a fibre is easy when the pathway has room, and disruptive when it does not."
+          ],
+          [
+            "h2",
+            "Design for headroom now"
+          ],
+          [
+            "p",
+            "The practical response is headroom. Specify spare fibre, keep pathway fill below the point where the next addition means new containment, plan power for active radio points, and label everything so the next team can extend rather than rebuild. This is the passive counterpart to the active/passive split — the passive layer is designed for the life of the building, not for this year’s cell plan."
+          ],
+          [
+            "p",
+            "Datacore designs structured cabling and fibre backbones with that headroom built in, to TIA-568 and ISO/IEC 11801, so the passive network supports the radio plan you have and the one you will have. If you are planning a building or a refresh, we can review the passive design against where 5G is heading."
+          ]
         ],
         "related": [
-          ["fiber-optic-solutions", "Fibre optic solutions"],
-          ["structured-cabling-solutions", "Structured cabling"],
-          ["it-network-solutions", "IT network solutions"]
-        ]
+          [
+            "fiber-optic-solutions",
+            "Fibre optic solutions"
+          ],
+          [
+            "structured-cabling-solutions",
+            "Structured cabling"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ]
+        ],
+        "img": "dc-blog-5g.webp",
+        "iso": "2026-02-16"
       },
       {
         "slug": "active-vs-passive-network-infrastructure",
@@ -59,22 +141,1183 @@
         "dek": "A plain explanation of the split, and why the passive layer is the part you cannot cheaply revisit later.",
         "meta": "Network infrastructure splits into active and passive layers. What each includes, why the distinction matters for budgeting and future-proofing, and why the passive layer is the one to get generous.",
         "blocks": [
-          ["p", "Network infrastructure divides into two layers: active and passive. It is a simple distinction, but knowing which is which changes how you budget, procure and future-proof — and which decisions you can revisit cheaply later, and which you cannot."],
-          ["h2", "The passive layer"],
-          ["p", "The passive infrastructure is everything that carries signals but has no power or intelligence of its own: the structured cabling, fibre backbones, patch panels, outlets, racks, and the pathways and containment that hold it all. It is designed to standards such as TIA-568 and ISO/IEC 11801 and, once installed, it lives in the walls, risers and ceilings for the life of the building."],
-          ["h2", "The active layer"],
-          ["p", "The active infrastructure is the powered, intelligent equipment that moves and manages data: switches, routers, wireless access points, firewalls and controllers. It is what most people picture as “the network,” and it is refreshed regularly — typically every few years — as capacity needs grow and product cycles turn over."],
-          ["h2", "Why the split matters"],
-          ["p", "The two layers have completely different lifespans and economics. Active equipment is designed to be swapped: you plan for it, budget for it, and it gets faster and cheaper each cycle. The passive layer is the opposite — buried, disruptive to reach, and expensive to change once a building is occupied. Get the passive layer generous, standards-based and well documented, and the active layer has room to grow into it for years. Under-build the passive layer and every active upgrade runs into it."],
-          ["h2", "What it means for design"],
-          ["p", "Right-size the passive layer for the building’s life, not for today’s switch: specify category and fibre counts with headroom, keep pathways below full, and label and document everything so future work extends the system instead of guessing at it. Spend the extra care where it is hard to revisit, and keep the active layer free to evolve."],
-          ["p", "Datacore designs and installs both layers as one integrator — structured cabling and fibre sized for the long term, and the active network on top of it — with documented test results at handover. If you are planning new infrastructure or inherited one you are not sure about, we can assess it and tell you plainly where it stands."]
+          [
+            "p",
+            "Network infrastructure divides into two layers: active and passive. It is a simple distinction, but knowing which is which changes how you budget, procure and future-proof — and which decisions you can revisit cheaply later, and which you cannot."
+          ],
+          [
+            "h2",
+            "The passive layer"
+          ],
+          [
+            "p",
+            "The passive infrastructure is everything that carries signals but has no power or intelligence of its own: the structured cabling, fibre backbones, patch panels, outlets, racks, and the pathways and containment that hold it all. It is designed to standards such as TIA-568 and ISO/IEC 11801 and, once installed, it lives in the walls, risers and ceilings for the life of the building."
+          ],
+          [
+            "h2",
+            "The active layer"
+          ],
+          [
+            "p",
+            "The active infrastructure is the powered, intelligent equipment that moves and manages data: switches, routers, wireless access points, firewalls and controllers. It is what most people picture as “the network,” and it is refreshed regularly — typically every few years — as capacity needs grow and product cycles turn over."
+          ],
+          [
+            "h2",
+            "Why the split matters"
+          ],
+          [
+            "p",
+            "The two layers have completely different lifespans and economics. Active equipment is designed to be swapped: you plan for it, budget for it, and it gets faster and cheaper each cycle. The passive layer is the opposite — buried, disruptive to reach, and expensive to change once a building is occupied. Get the passive layer generous, standards-based and well documented, and the active layer has room to grow into it for years. Under-build the passive layer and every active upgrade runs into it."
+          ],
+          [
+            "h2",
+            "What it means for design"
+          ],
+          [
+            "p",
+            "Right-size the passive layer for the building’s life, not for today’s switch: specify category and fibre counts with headroom, keep pathways below full, and label and document everything so future work extends the system instead of guessing at it. Spend the extra care where it is hard to revisit, and keep the active layer free to evolve."
+          ],
+          [
+            "p",
+            "Datacore designs and installs both layers as one integrator — structured cabling and fibre sized for the long term, and the active network on top of it — with documented test results at handover. If you are planning new infrastructure or inherited one you are not sure about, we can assess it and tell you plainly where it stands."
+          ]
         ],
         "related": [
-          ["structured-cabling-solutions", "Structured cabling"],
-          ["it-network-solutions", "IT network solutions"],
-          ["fiber-optic-solutions", "Fibre optic solutions"]
-        ]
+          [
+            "structured-cabling-solutions",
+            "Structured cabling"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ],
+          [
+            "fiber-optic-solutions",
+            "Fibre optic solutions"
+          ]
+        ],
+        "img": "dc-blog-passive.webp",
+        "iso": "2026-03-03"
+      },
+      {
+        "slug": "choosing-an-elv-contractor-saudi-arabia",
+        "title": "How to Choose an ELV / Low-Current Contractor in Saudi Arabia",
+        "date": "12 August 2026",
+        "team": "Systems team",
+        "iso": "2026-08-12",
+        "dek": "A practical checklist for procurement teams: single-integrator scope, standards compliance, Civil Defense approval and the documented testing that separates a good ELV contractor from a risky one.",
+        "meta": "How to evaluate an ELV / low-current contractor in Saudi Arabia: scope, SBC 801 and Civil Defense compliance, documented testing, AMC and references.",
+        "blocks": [
+          [
+            "p",
+            "Extra-low-voltage (ELV) systems — structured cabling, networks, CCTV, access control, fire alarm, public address, AV — are the nervous system of a modern building in Saudi Arabia. When they are specified and installed well, nobody notices them; when they are not, the problems surface as failed inspections, retrofits and finger-pointing between trades. Choosing the right low-current contractor is therefore one of the highest-leverage procurement decisions on a project — and, with the pace of construction under Vision 2030, an increasingly common one. Here is a practical framework for evaluating one."
+          ],
+          [
+            "h2",
+            "Single integrator or split scope?"
+          ],
+          [
+            "p",
+            "The first decision is structural. Splitting ELV across several specialist subcontractors can look cheaper on paper, but it pushes the integration risk onto you and the main contractor. Interfaces between systems — the fire alarm triggering door releases, CCTV riding the same backbone as the network — are where projects fail. A single integrator that owns cabling, networks, fire, security and AV under one design removes those grey areas and gives you one accountable party for the whole low-current package. Ask whether a bidder can actually self-deliver the full scope or is quietly relying on others."
+          ],
+          [
+            "h2",
+            "Standards and statutory approval"
+          ],
+          [
+            "p",
+            "Competence shows up in the standards a contractor designs to. For structured cabling that means TIA-568 and ISO/IEC 11801; for fire detection and alarm, EN 54; and across the board, compliance with the Saudi Building Code (SBC 801) and the approvals required by the General Directorate of Civil Defense. These are not optional in the Kingdom — a fire or life-safety system that cannot secure Civil Defense approval will not hand over. Ask to see how a contractor documents compliance, not just whether they claim it."
+          ],
+          [
+            "h2",
+            "Testing, support and references"
+          ],
+          [
+            "p",
+            "A cable that is installed is not a cable that is certified. Insist on documented testing — channel and permanent-link certification for copper and fibre, with results you can archive — because that record is what protects you at handover and during the warranty period. Look too at what happens after go-live: a credible annual maintenance contract (AMC), spares strategy and response times matter more over a building's life than the install price. Finally, ask for references you can verify on comparable work, especially in education, government and enterprise fit-outs."
+          ],
+          [
+            "p",
+            "Datacore has integrated ELV, AV and IT-network systems from its Riyadh headquarters since 2007 — 19 years of designing to these standards and backing installations with documented testing and long-term support, on projects such as Prince Sattam bin Abdulaziz University (PSAU), Arab Open University and TAQEEM. If you are shortlisting contractors for an upcoming build, talk to our team early; the cheapest fixes are the ones designed in from the start."
+          ]
+        ],
+        "faq": [
+          [
+            "What is an ELV or low-current contractor?",
+            "An ELV (extra-low-voltage) or low-current contractor designs and installs the building systems that run below mains voltage — structured cabling, IT networks, CCTV, access control, fire alarm, public address and AV — and integrates them so they work as one system."
+          ],
+          [
+            "Is a single integrator better than separate subcontractors?",
+            "For most projects, yes. A single integrator owns the interfaces between systems and gives you one accountable party, which removes the grey areas where split-scope projects tend to fail during commissioning and handover."
+          ],
+          [
+            "Why does Civil Defense approval matter?",
+            "In Saudi Arabia, life-safety systems such as fire detection and alarm must meet the Saudi Building Code (SBC 801) and secure approval from the General Directorate of Civil Defense. Without it, a project cannot legally hand over."
+          ]
+        ],
+        "related": [
+          [
+            "structured-cabling-solutions",
+            "Structured cabling solutions"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ],
+          [
+            "annual-maintenance-contracts",
+            "Annual maintenance contracts"
+          ]
+        ],
+        "img": "dc-insight-choosing-an-elv-contractor-saudi-arabia.webp"
+      },
+      {
+        "slug": "structured-cabling-standards-explained",
+        "title": "Structured Cabling Standards Explained: TIA-568 and ISO/IEC 11801",
+        "date": "3 September 2026",
+        "team": "Network team",
+        "iso": "2026-09-03",
+        "dek": "What TIA-568 and ISO/IEC 11801 actually specify — categories and classes, permanent-link versus channel testing, and why headroom is the difference between passing today and passing in ten years.",
+        "meta": "TIA-568 and ISO/IEC 11801 explained: cabling categories and classes, certification testing, and why headroom future-proofs a structured cabling backbone.",
+        "blocks": [
+          [
+            "p",
+            "Structured cabling is the one part of a building's IT that is genuinely hard to change later. Active equipment gets swapped every few years; the cabling in the walls, risers and ceilings is expected to last a decade or more. Two families of standards govern how that cabling is designed, installed and tested: TIA-568 (North American, from TIA) and ISO/IEC 11801 (international). Understanding what they cover helps you specify a backbone that still performs long after the first switches are replaced."
+          ],
+          [
+            "h2",
+            "What the standards actually cover"
+          ],
+          [
+            "p",
+            "Both standards describe a generic cabling system — the topology, distances, connectors and performance a building should have regardless of the applications that will run over it. They define the familiar hierarchy of entrance facilities, equipment and telecommunications rooms, backbone and horizontal cabling, and work-area outlets. Crucially, they set the maximum channel length (100 metres for balanced twisted-pair horizontal cabling) and the performance every component must meet. TIA-568 and ISO/IEC 11801 are closely aligned, so a system designed correctly to one generally satisfies the other."
+          ],
+          [
+            "h2",
+            "Categories, classes and what they mean"
+          ],
+          [
+            "p",
+            "This is where the two standards use different vocabulary for the same idea. TIA-568 rates copper cabling by Category — Cat 6, Cat 6A, Cat 8 — while ISO/IEC 11801 rates the whole channel by Class — Class E, Class EA, Class I/II. Each step up raises the supported bandwidth and the data rate the cabling can carry: Cat 6A / Class EA, for example, supports 10GBASE-T to the full 100 metres, which is why it has become the default for enterprise and campus horizontal cabling. Choosing a category is really choosing how long the cabling will stay ahead of the network."
+          ],
+          [
+            "h2",
+            "Why testing, certification and headroom matter"
+          ],
+          [
+            "p",
+            "A standard is only meaningful if the installed link is proven to meet it. That is the job of certification testing: a field tester measures parameters such as insertion loss, near-end crosstalk and return loss across either the permanent link or the full channel, then passes or fails each run against the category's limits. The margin between the measured value and the limit is the headroom — and headroom is what absorbs future connectors, patch cords, heat and simple ageing. A link that only just passes today is a link that will fail as the building fills up. Insisting on documented, certified results is how you turn a standard on paper into a warranty you can rely on."
+          ],
+          [
+            "p",
+            "Datacore designs and certifies structured cabling to TIA-568 and ISO/IEC 11801, handing over the full test record so performance is documented rather than assumed — work we have delivered for more than 1,500 clients across the Kingdom and beyond. If you want a cabling backbone specified with real headroom for the next decade, our team is ready to help you get the category and the testing right from the outset."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the difference between TIA-568 and ISO/IEC 11801?",
+            "They are two structured cabling standards covering the same ground: TIA-568 is the North American standard and rates copper by Category, while ISO/IEC 11801 is the international standard and rates the channel by Class. A system designed correctly to one generally satisfies the other."
+          ],
+          [
+            "What does cabling certification testing prove?",
+            "Certification uses a field tester to measure parameters such as insertion loss, crosstalk and return loss on each link, then passes or fails it against the category's limits. It proves the installed cabling actually meets the standard, not just that approved products were used."
+          ],
+          [
+            "What is headroom and why does it matter?",
+            "Headroom is the margin between a link's measured performance and the standard's limit. Generous headroom absorbs future patch cords, heat and ageing, so a link with good headroom keeps passing for years, while one that barely passes at handover soon fails."
+          ]
+        ],
+        "related": [
+          [
+            "structured-cabling-solutions",
+            "Structured cabling solutions"
+          ],
+          [
+            "fiber-optic-solutions",
+            "Fibre optic solutions"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ]
+        ],
+        "img": "dc-insight-structured-cabling-standards-explained.webp"
+      },
+      {
+        "slug": "data-centre-design-essentials",
+        "title": "Data Centre Design Essentials: Power, Cooling, Cabling and Redundancy",
+        "date": "24 June 2026",
+        "team": "Data-centre team",
+        "iso": "2026-06-24",
+        "dek": "The four layers every resilient data centre gets right — power and UPS, cooling and airflow, structured cabling, and the N+1 redundancy that keeps it running when a component fails.",
+        "meta": "Data centre design essentials: UPS and power, hot/cold aisle cooling, structured cabling, N+1 redundancy and monitoring for a resilient facility.",
+        "blocks": [
+          [
+            "p",
+            "A data centre is only as strong as its weakest supporting system. The servers and storage get the attention, but availability is decided by four less glamorous layers — power, cooling, cabling and the redundancy woven through all of them. Whether you are building a small on-premise server room for a university or a full enterprise facility, the same design principles apply. Get them right and the room runs for years without drama; get them wrong and every heatwave or power dip becomes an incident."
+          ],
+          [
+            "h2",
+            "Power and cooling: the foundation"
+          ],
+          [
+            "p",
+            "Power design starts with clean, continuous supply. That means UPS systems sized for the real load with the right autonomy, backed by generators for extended outages, and distribution that can be maintained without shutting the room down. Cooling is the twin problem: every watt of power drawn becomes heat that must be removed. Modern rooms use hot-aisle/cold-aisle containment — racks arranged so cold supply air and hot exhaust never mix — which lets cooling run more efficiently and predictably. Sizing both power and cooling for the day-one load and a realistic growth curve is the single most important design decision."
+          ],
+          [
+            "h2",
+            "Structured cabling and airflow inside the room"
+          ],
+          [
+            "p",
+            "Cabling inside a data centre follows the same standards as the rest of the building, but the stakes are higher. Poorly planned cabling blocks airflow, traps heat behind racks and turns future changes into risky, disruptive work. A structured approach — proper containment, clearly labelled copper and fibre, sensible top-of-rack or end-of-row topology, and generous pathways — keeps the room cool, keeps changes safe, and keeps troubleshooting fast. The cabling plant should be documented as carefully as it is installed."
+          ],
+          [
+            "h2",
+            "Redundancy and monitoring"
+          ],
+          [
+            "p",
+            "Resilience comes from removing single points of failure. The common baseline is N+1 — one more of each critical component (UPS module, cooling unit, power path) than the load strictly needs — so any one unit can fail or be serviced without taking the room offline; higher tiers add fully independent paths. None of this is trustworthy unless it is watched, so environmental and power monitoring — temperature, humidity, UPS status, power draw — should alarm before a threshold becomes an outage. Redundancy handles the failure; monitoring makes sure you know about it in time."
+          ],
+          [
+            "p",
+            "Datacore designs, implements and assesses data centres as a single integrator — one of 38 services across our 9 disciplines — so power, cooling, cabling and monitoring are engineered to work together rather than bolted on in isolation. If you are planning a new server room or want an honest assessment of an existing one, our data-centre team can help you build in the right redundancy from the start."
+          ]
+        ],
+        "faq": [
+          [
+            "What does N+1 redundancy mean?",
+            "N+1 means providing one more of each critical component — a UPS module, cooling unit or power path — than the load strictly needs. Any single unit can then fail or be taken out for maintenance without bringing the data centre down."
+          ],
+          [
+            "Why is hot-aisle/cold-aisle containment used?",
+            "It arranges racks so cold supply air and hot exhaust air never mix. That lets cooling run more efficiently and predictably, avoids hot spots, and allows the room to support higher rack densities without over-cooling the whole space."
+          ],
+          [
+            "How important is cabling in a data centre?",
+            "Very. Poorly planned cabling blocks airflow, traps heat and makes changes risky. A structured, well-documented and clearly labelled cabling plant keeps the room cool, keeps moves and changes safe, and speeds up troubleshooting."
+          ]
+        ],
+        "related": [
+          [
+            "data-center-design-amp-implementation-services",
+            "Data centre design & implementation"
+          ],
+          [
+            "ups-systems",
+            "UPS systems"
+          ],
+          [
+            "data-centre-assessment-amp-recommendations",
+            "Data centre assessment & recommendations"
+          ]
+        ],
+        "img": "dc-insight-data-centre-design-essentials.webp"
+      },
+      {
+        "slug": "single-mode-vs-multimode-fibre",
+        "title": "Single-Mode vs Multimode Fibre: Choosing a Backbone That Lasts",
+        "date": "15 July 2026",
+        "team": "Systems team",
+        "iso": "2026-07-15",
+        "dek": "OS2, OM3, OM4 and OM5 compared — how distance, bandwidth and cost trade off, and a simple rule for choosing the fibre backbone that will still carry your network a decade from now.",
+        "meta": "Single-mode (OS2) vs multimode (OM3/OM4/OM5) fibre: distance, bandwidth, cost and future-proofing, plus when to use each for your backbone.",
+        "blocks": [
+          [
+            "p",
+            "Fibre is the backbone of almost every serious network — between buildings on a campus, between floors in a riser, and between the core and the data centre. But 'fibre' is not one thing. The choice between single-mode and multimode, and between the grades within each, sets the distance, speed and cost of the backbone for its whole life. Because backbone fibre is expensive and disruptive to replace, it is worth understanding the trade-offs before the trench is dug or the riser is pulled."
+          ],
+          [
+            "h2",
+            "How single-mode and multimode differ"
+          ],
+          [
+            "p",
+            "The difference is in the glass core. Multimode fibre has a wider core that lets light travel in several paths, or modes; single-mode has a very narrow core that carries a single path. That one physical difference drives everything else. Multimode works with cheaper light sources and is economical over short distances, but the multiple paths spread the signal and limit how far high speeds can travel. Single-mode carries a tighter signal over vastly longer distances and higher bandwidths, at the cost of more precise, more expensive optics."
+          ],
+          [
+            "h2",
+            "The grades: OS2, OM3, OM4 and OM5"
+          ],
+          [
+            "p",
+            "Within each family there are grades. Single-mode is graded OS2 for modern indoor/outdoor use, and its reach is measured in kilometres. Multimode has stepped through OM3, OM4 and OM5: OM3 and OM4 are laser-optimised for 10, 40 and 100 Gigabit over increasing distances — OM4 reaching further than OM3 — while OM5 adds support for short-wavelength division multiplexing to carry more channels on one fibre. As a rough guide, multimode's practical high-speed reach is measured in tens to a few hundred metres, where single-mode's is measured in kilometres."
+          ],
+          [
+            "h2",
+            "Which to choose — and when"
+          ],
+          [
+            "p",
+            "The honest answer is that it depends on distance, speed and budget. For links inside a building or across a small campus, laser-optimised multimode (OM4, or OM5 where extra channel capacity is wanted) is often the cost-effective choice, because the optics are cheaper and the distances are short. For campus backbones, links between buildings, connections to a data centre, or anywhere you want maximum headroom for future speed upgrades, single-mode OS2 is the future-proof choice — the fibre itself costs little more, and it removes distance and bandwidth as limits for decades. Many well-designed sites deploy both: single-mode for the long, strategic runs and multimode where it earns its place."
+          ],
+          [
+            "p",
+            "Backed by 180+ specialists, Datacore designs fibre backbones to match the distance, speed and growth plans of each site rather than defaulting to one type, and certifies every run at handover. If you are planning a campus or data-centre backbone and want it to still be fast in ten years, our team can help you choose the right fibre for each link."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the main difference between single-mode and multimode fibre?",
+            "Single-mode fibre has a very narrow core that carries a single light path over long distances and high bandwidths. Multimode has a wider core that carries several paths, which is cheaper over short distances but limits how far high speeds can travel."
+          ],
+          [
+            "What do OS2, OM3, OM4 and OM5 mean?",
+            "They are fibre grades. OS2 is modern single-mode fibre with reach measured in kilometres. OM3, OM4 and OM5 are laser-optimised multimode grades for 10 to 100 Gigabit over increasing short-range distances, with OM5 adding extra channel capacity."
+          ],
+          [
+            "When should I use single-mode instead of multimode?",
+            "Use single-mode OS2 for long runs — campus backbones, building-to-building links and data-centre connections — and where you want maximum headroom for future speed upgrades. Multimode is often more economical for short links inside a building."
+          ]
+        ],
+        "related": [
+          [
+            "fiber-optic-solutions",
+            "Fibre optic solutions"
+          ],
+          [
+            "structured-cabling-solutions",
+            "Structured cabling solutions"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ]
+        ],
+        "img": "dc-insight-single-mode-vs-multimode-fibre.webp"
+      },
+      {
+        "slug": "wifi-site-survey-guide",
+        "title": "Wi-Fi That Works: Why a Site Survey Beats Guesswork",
+        "date": "28 May 2026",
+        "team": "Network team",
+        "iso": "2026-05-28",
+        "dek": "Predictive versus on-site surveys, capacity versus coverage, and the validation step most projects skip — why a proper Wi-Fi site survey is the difference between full bars and constant complaints.",
+        "meta": "Why a Wi-Fi site survey matters: predictive vs on-site surveys, AP placement, capacity vs coverage, interference and post-install validation.",
+        "blocks": [
+          [
+            "p",
+            "Wi-Fi is the network most users actually judge you on, and it is the one most often deployed by guesswork — access points spaced evenly on a drawing and hoped for the best. In a lecture hall, an open-plan office or a school, that approach produces dead spots, dropped calls and slow connections exactly where density is highest. A site survey replaces the guessing with measurement and design, and it is the single biggest factor in whether a wireless network feels fast or frustrating."
+          ],
+          [
+            "h2",
+            "Predictive and on-site surveys"
+          ],
+          [
+            "p",
+            "There are two complementary kinds of survey. A predictive survey is done in software before installation: the floor plans, wall materials and access-point models are modelled to predict coverage and place APs. It is fast, cheap and ideal for design and new-build. An on-site survey uses real measurement in the actual space — either an active/passive walk-through with survey tools, or an AP-on-a-stick test that measures live signal in the real building. Predictive gets the design close; on-site confirms it against reality, catching the walls, glass and metal that a model never fully captures."
+          ],
+          [
+            "h2",
+            "Coverage is not the same as capacity"
+          ],
+          [
+            "p",
+            "The most common design mistake is planning for coverage when the real problem is capacity. Coverage asks 'can a device hear an access point here?' Capacity asks 'can this room serve two hundred devices at once?' A single AP might blanket a large hall with signal yet collapse when a class of students all connect. High-density spaces — auditoriums, classrooms, prayer halls, conference areas — need more access points at lower power, carefully channelled, so each one serves fewer clients. Designing for the busy-hour device count, not just the floor area, is what separates a survey from a sketch."
+          ],
+          [
+            "h2",
+            "Interference and validation"
+          ],
+          [
+            "p",
+            "Wireless shares the air with neighbours, other APs and non-Wi-Fi noise, so a good survey also plans channel allocation and power levels to minimise co-channel interference — APs stepping on each other is a leading cause of poor performance. Just as important is the step many projects skip: a post-installation validation survey. Once the APs are mounted and live, you walk the space again and measure the real signal, throughput and roaming against the design targets. That validation is what turns 'we installed the access points' into 'we can prove the coverage and capacity are there.'"
+          ],
+          [
+            "p",
+            "Datacore designs wireless networks from a proper survey and validates them after installation, so coverage and capacity are documented rather than assumed — the same design-to-standard, prove-it discipline we bring to structured cabling, on projects such as One World International School (OWIS) Riyadh. If your Wi-Fi is being planned or is not living up to its promise, our team can survey, design and validate it."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the difference between a predictive and an on-site Wi-Fi survey?",
+            "A predictive survey models coverage in software from floor plans and materials before installation, which is fast and ideal for design. An on-site survey measures real signal in the actual building, confirming the design against walls, glass and metal a model cannot fully predict."
+          ],
+          [
+            "What is the difference between coverage and capacity?",
+            "Coverage is whether a device can hear an access point in a given spot. Capacity is whether the network can serve all the devices in a busy space at once. High-density areas need designing for the device count, not just the floor area."
+          ],
+          [
+            "Why is a post-installation validation survey important?",
+            "Once access points are live, a validation survey walks the space and measures real signal, throughput and roaming against the design targets. It proves the coverage and capacity are actually there rather than assuming the install matched the plan."
+          ]
+        ],
+        "related": [
+          [
+            "wifi-solutions",
+            "Wi-Fi solutions"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ],
+          [
+            "structured-cabling-solutions",
+            "Structured cabling solutions"
+          ]
+        ],
+        "img": "dc-insight-wifi-site-survey-guide.webp"
+      },
+      {
+        "slug": "designing-cctv-for-coverage",
+        "title": "Designing CCTV for coverage, not just cameras",
+        "date": "12 February 2026",
+        "team": "Security team",
+        "iso": "2026-02-12",
+        "dek": "A camera count is not a coverage plan. Good CCTV design starts with what each zone must see, then works back to lenses, light, storage and the VMS.",
+        "meta": "How to design CCTV for real coverage: camera types, resolution and field of view, IR and lighting, retention and the VMS, and positioning that removes blind spots.",
+        "blocks": [
+          [
+            "p",
+            "It is tempting to judge a surveillance system by how many cameras it has. Yet a building can be full of cameras and still miss the one image an investigation needs. Coverage is not a headcount; it is the ability to see a defined scene, in the light it actually has, and to recover that footage later. Good design begins with a question for every zone: what must this camera prove, that something happened, who was there, or exactly what they did?"
+          ],
+          [
+            "h2",
+            "Match the camera to the task"
+          ],
+          [
+            "p",
+            "Resolution and field of view work together, and neither alone guarantees a usable image. A wide lens spreading four megapixels across an entire lobby gives useful situational awareness but will not identify a face at the far door. The practical measure is pixel density on target, and the DORI concept of detect, observe, recognise and identify sets very different requirements. Fixed cameras suit defined scenes; PTZ units cover large open areas but only look one way at a time; multisensor and panoramic cameras replace several fixed units at a corner. Choose the type per scene, not per catalogue."
+          ],
+          [
+            "h2",
+            "Light, lenses and the real environment"
+          ],
+          [
+            "p",
+            "Cameras see light, not scenes, so the environment decides image quality as much as the sensor. Entrances with bright backlight need wide dynamic range or faces become silhouettes. Car parks and perimeters after dark depend on infrared or white light, and a published IR range is a best case that shortens with distance and weather. Reflections, glare and moving foliage generate false events for analytics. Selecting the right lens, mounting angle and lighting for each location is unglamorous work, but it is where coverage is won or lost."
+          ],
+          [
+            "h2",
+            "Storage, retention and the VMS"
+          ],
+          [
+            "p",
+            "Retention requirements drive storage more than any other factor, and they are often set by regulation or incident-review needs rather than preference. The maths is simple but unforgiving: resolution, frame rate and scene activity set the bitrate, modern H.265 compression reduces it, and multiplying by the days retained gives the capacity. A video management system, the VMS, ties it together with live monitoring, fast forensic search, health alerts and controlled access, while redundancy protects the recording that matters most."
+          ],
+          [
+            "h2",
+            "Positioning to remove blind spots"
+          ],
+          [
+            "p",
+            "Blind spots hide in the gaps between well-aimed cameras: the base of a mounting pole, the area directly beneath a dome, the reverse of an entry lane. Overlapping fields of view, sensible mounting heights and cameras that watch other cameras against tampering close those gaps. A brief walk of the site with the design overlaid on reality catches more problems than any desk study."
+          ],
+          [
+            "p",
+            "As a single integrator working to standards since 2007, Datacore designs CCTV around coverage objectives and documents the testing that proves them; talk to our security team about a coverage review of your site."
+          ]
+        ],
+        "faq": [
+          [
+            "How many cameras do I need for a site?",
+            "There is no fixed ratio. Start from the scenes each area must capture and the detail required, then position cameras to cover those scenes with overlap. The count follows the coverage plan, not the other way round."
+          ],
+          [
+            "What resolution should I choose?",
+            "Enough pixels on the target for the task. A situational overview tolerates lower density, while identifying a face or a plate needs a tighter field of view or a higher-resolution sensor at that spot."
+          ],
+          [
+            "How long should footage be retained?",
+            "Retention is usually set by regulation or investigation needs. Once you fix the number of days, resolution, frame rate and compression determine the storage required."
+          ]
+        ],
+        "related": [
+          [
+            "video-surveillance-solutions-amp-cctv",
+            "Video surveillance and CCTV"
+          ],
+          [
+            "access-control-solutions",
+            "Access control"
+          ],
+          [
+            "parking-management-system",
+            "Parking management"
+          ]
+        ],
+        "img": "dc-insight-designing-cctv-for-coverage.webp"
+      },
+      {
+        "slug": "access-control-credentials-compared",
+        "title": "Access control: cards, PIN, biometrics or mobile?",
+        "date": "5 March 2026",
+        "team": "Security team",
+        "iso": "2026-03-05",
+        "dek": "Every credential trades security against convenience. The right choice, often a combination, depends on the door, the throughput and what else the system must talk to.",
+        "meta": "Cards, PIN, biometrics and mobile credentials compared for access control, plus anti-passback, audit trails and integration with CCTV and fire alarm.",
+        "blocks": [
+          [
+            "p",
+            "Choosing an access credential looks like a product decision but is really a risk decision. Every option sits somewhere on a line between security and convenience, and the honest answer for most buildings is a mix, a quick tap at the main lobby and something stronger on a server room or cash office. The classic framing still helps: authenticate by something you have, something you know, or something you are."
+          ],
+          [
+            "h2",
+            "The credential options"
+          ],
+          [
+            "p",
+            "Cards and fobs are familiar and cheap to issue, but older proximity formats are easily cloned, while modern encrypted smart cards close that gap. A PIN adds nothing to carry yet is shared, shoulder-surfed and forgotten. Biometrics, whether fingerprint, face or iris, cannot be lent or left at home and tie an event to a person, at the cost of enrolment, throughput and privacy care. Mobile credentials on a phone, over Bluetooth or NFC, remove physical issuance entirely and are simple to grant or revoke remotely."
+          ],
+          [
+            "h2",
+            "Security versus convenience"
+          ],
+          [
+            "p",
+            "No single credential is right everywhere. A busy entrance rewards speed, so a smart card or phone keeps queues moving. A high-security door justifies two factors, a card plus a PIN or a card plus a fingerprint, so that a lost credential alone opens nothing. The trap is applying maximum security to every door, which frustrates users until they prop doors open and defeat the system. Match the factor count to the risk behind each door. In practice the best schemes are quiet about security, protecting the doors that matter without slowing the ones that do not."
+          ],
+          [
+            "h2",
+            "Beyond the door: anti-passback and audit trails"
+          ],
+          [
+            "p",
+            "A credential is only the front end. Anti-passback stops one card being passed back for a second entry and underpins accurate occupancy for mustering. Time schedules limit who enters when, and a complete audit trail records every grant and denial by person, door and time. These features turn a set of locks into a system you can question after an event and report on with confidence."
+          ],
+          [
+            "h2",
+            "Talking to CCTV and fire alarm"
+          ],
+          [
+            "p",
+            "Access control earns its place when it integrates. Linking each access event to camera footage lets an operator see, not just read, who used a credential and settles tailgating disputes quickly. Integration with the fire alarm is not optional but life safety: on alarm, doors on escape routes must fail safe and release so that egress is never blocked, whatever the credential policy says."
+          ],
+          [
+            "p",
+            "Datacore integrates access control with CCTV and fire systems as one designed, documented whole rather than three products bolted together; ask our security team to map the right credential mix for each door in your building."
+          ]
+        ],
+        "faq": [
+          [
+            "Are biometrics more secure than cards?",
+            "They bind an event to a person and cannot be lent, which helps. But throughput, enrolment and privacy handling matter, and the strongest doors often pair a biometric or card with a second factor rather than relying on one."
+          ],
+          [
+            "Can staff use their phones instead of cards?",
+            "Yes. Mobile credentials over Bluetooth or NFC avoid printing and posting cards and can be issued or revoked remotely, which suits contractors and rotating staff."
+          ],
+          [
+            "What happens to the doors in a fire?",
+            "Doors on escape routes are configured to fail safe and unlock on a fire alarm so people can always get out. This life-safety behaviour overrides normal access rules."
+          ]
+        ],
+        "related": [
+          [
+            "access-control-solutions",
+            "Access control"
+          ],
+          [
+            "video-surveillance-solutions-amp-cctv",
+            "Video surveillance and CCTV"
+          ],
+          [
+            "fire-alarm-systems",
+            "Fire alarm systems"
+          ]
+        ],
+        "img": "dc-insight-access-control-credentials-compared.webp"
+      },
+      {
+        "slug": "voice-evacuation-en54-sbc801",
+        "title": "Voice evacuation & fire alarm: EN 54, SBC 801 and Civil Defense",
+        "date": "9 April 2026",
+        "team": "Systems team",
+        "iso": "2026-04-09",
+        "dek": "A tone tells people something is wrong; a clear voice tells them what to do. Voice evacuation is life-safety equipment, and the standards that govern it are not optional.",
+        "meta": "How PAVA voice evacuation differs from ordinary PA, the EN 54 parts that apply, Saudi Building Code SBC 801 and Civil Defense approval, plus speech intelligibility and STI.",
+        "blocks": [
+          [
+            "p",
+            "When a building has to be cleared, a ringing tone only says that something is wrong. A clear spoken instruction says what to do, where to go and which exits to avoid, and people act on it faster and with less panic. That is why voice evacuation has become the expected approach in larger and higher-risk buildings, and why it is treated as life-safety equipment rather than audio."
+          ],
+          [
+            "h2",
+            "PA is not PAVA"
+          ],
+          [
+            "p",
+            "An ordinary public address system for announcements or background music is engineered for convenience; a PAVA voice-alarm system is engineered to keep working when things fail. The difference is in the details that regulators care about: continuously monitored loudspeaker lines, standby batteries that ride through a mains failure, fault-tolerant wiring and supervised amplifiers with redundancy. A system that plays music perfectly may still not be lawful for evacuation, because it was never built to those rules."
+          ],
+          [
+            "h2",
+            "The standards: EN 54, SBC 801 and Civil Defense"
+          ],
+          [
+            "p",
+            "EN 54 is the European family of fire-detection and alarm standards, and several parts apply here: EN 54-16 for the voice-alarm control equipment, EN 54-24 for the loudspeakers and EN 54-4 for power supplies, alongside the detection devices under other parts. In the Kingdom this sits within Saudi Building Code SBC 801, the fire-protection requirements, and the system must gain Civil Defense approval before a building can be occupied. Designing to these from the outset, in step with Vision 2030 safety expectations, avoids costly rework at handover."
+          ],
+          [
+            "h2",
+            "Speech you can actually understand"
+          ],
+          [
+            "p",
+            "A voice message only works if people can make out the words over the alarm, the echo and their own stress. Intelligibility is measured objectively as STI, and reaching a passing score depends on loudspeaker spacing, room acoustics, reverberation and sensible zoning, not on sheer volume. It is verified by measurement at commissioning, so intelligibility is proven for the finished room rather than assumed from the design."
+          ],
+          [
+            "h2",
+            "Working with fire detection"
+          ],
+          [
+            "p",
+            "Voice evacuation is one half of a pair; fire detection is the other. A cause-and-effect plan links detected events to the right response: targeted messages to the affected zones, phased evacuation where a full clearance is not wanted at once, and a firefighters microphone that overrides automatic messages for live instructions. The two systems are commissioned and documented together so their behaviour is predictable on the day it matters."
+          ],
+          [
+            "p",
+            "Datacore designs PAVA and fire systems to EN 54 and SBC 801, carries them through Civil Defense approval and documents the intelligibility testing that proves them; speak to our systems team early in your project."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the difference between PA and PAVA?",
+            "A PA system handles announcements and music. A PAVA voice-alarm system is life-safety rated, with monitored lines, battery backup and fault tolerance so it keeps working during an emergency."
+          ],
+          [
+            "Does a voice evacuation system need Civil Defense approval?",
+            "In Saudi Arabia, fire and evacuation systems must meet SBC 801 and gain Civil Defense approval before occupancy. Designing to EN 54 from the start supports that approval."
+          ],
+          [
+            "What is STI and why does it matter?",
+            "STI is a measure of speech intelligibility. A passing score confirms that evacuation messages can be understood in the real room, and it is checked by measurement during commissioning."
+          ]
+        ],
+        "related": [
+          [
+            "pava-public-address-amp-voice-evacuation-system",
+            "PAVA voice evacuation"
+          ],
+          [
+            "fire-alarm-systems",
+            "Fire alarm systems"
+          ],
+          [
+            "paga-public-address-and-general-alarm-system",
+            "PAGA public address and alarm"
+          ]
+        ],
+        "img": "dc-insight-voice-evacuation-en54-sbc801.webp"
+      },
+      {
+        "slug": "hybrid-meeting-room-av",
+        "title": "Meeting rooms for hybrid work: AV that just works",
+        "date": "21 May 2026",
+        "team": "AV team",
+        "iso": "2026-05-21",
+        "dek": "Hybrid meetings fail on small things, like remote people who cannot hear or be seen. Reliable rooms come from matching the platform, the devices and the acoustics to the space.",
+        "meta": "Designing hybrid meeting rooms that work: Teams and Zoom, cameras, microphones and speakers, BYOD and wireless presentation, acoustics, one-touch control and room sizing.",
+        "blocks": [
+          [
+            "p",
+            "The promise of a hybrid meeting is that being in the room and joining remotely feel roughly equal. It usually breaks on small things: a remote colleague who cannot hear the far end of the table, a camera that shows a distant cluster of faces, five minutes lost to getting anything on screen. Rooms that just work are not lucky; they are the result of matching the platform, the devices and the acoustics to the actual space. The goal is simple to state and hard to earn: a room where the first tap starts the meeting and nobody thinks about the equipment again."
+          ],
+          [
+            "h2",
+            "Start with the platform and the room size"
+          ],
+          [
+            "p",
+            "Decide first whether rooms run a native platform such as Microsoft Teams or Zoom on dedicated room hardware, support staff bringing their own laptops, or both. Then size everything to the room. A huddle space for four needs a single intelligent camera and a compact bar; a boardroom for sixteen needs wider or multiple cameras and distributed microphones. Using certified devices for the chosen platform avoids the compatibility surprises that undermine trust in a room."
+          ],
+          [
+            "h2",
+            "Cameras, microphones and speakers"
+          ],
+          [
+            "p",
+            "Remote participants judge a room on being able to see and hear clearly. Auto-framing cameras keep whoever is talking in shot and speaker tracking follows the discussion. Microphone coverage matters most: ceiling arrays or well-placed table microphones must pick up every seat evenly, with echo cancellation so the far end never hears itself. Loudspeakers should spread even, intelligible sound across the room without forcing people to lean in. A second wide camera, or a content camera aimed at a whiteboard, can give the far end context that an auto-framing shot alone would miss."
+          ],
+          [
+            "h2",
+            "BYOD, wireless presentation and one-touch control"
+          ],
+          [
+            "p",
+            "Content sharing should be effortless for staff and guests alike. Wireless presentation removes the scramble for adapters and lets a visitor share without joining the network. A single console that starts the meeting with one touch, and a scheduling panel at the door, turn the technology into something people use without thinking. When joining is genuinely one action, rooms get used and meetings start on time."
+          ],
+          [
+            "h2",
+            "Do not forget acoustics"
+          ],
+          [
+            "p",
+            "The best devices cannot rescue a poor room. Hard glass walls cause reflections, noisy air-conditioning raises the noise floor, and long reverberation smears speech. Modest acoustic treatment and attention to background noise often improve a call more than any upgrade of cameras or microphones, because they fix the sound at its source. It is the least visible part of a room and the first thing remote participants notice when it is wrong."
+          ],
+          [
+            "p",
+            "Datacore designs and commissions hybrid rooms as complete, tested spaces rather than boxes of equipment; ask our AV team for a room-by-room plan across your offices."
+          ]
+        ],
+        "faq": [
+          [
+            "Should rooms be built for Teams or Zoom?",
+            "Use whichever platform your organisation runs, on certified room hardware for it. Where both are needed, rooms can be set up to run one natively and still accept guest laptops for the other."
+          ],
+          [
+            "What size camera and microphone setup do I need?",
+            "It depends on the room. Small rooms suit an all-in-one bar with one camera; larger rooms need wider or multiple cameras and distributed microphones so every seat is seen and heard."
+          ],
+          [
+            "Why do our calls sound echoey?",
+            "Usually the room, not the kit. Hard surfaces, glass and air-conditioning noise degrade audio. Acoustic treatment and echo cancellation tuned to the room fix most complaints."
+          ]
+        ],
+        "related": [
+          [
+            "video-conference-solution",
+            "Video conferencing"
+          ],
+          [
+            "smart-meeting-room-amp-boardroom-solution",
+            "Smart meeting rooms"
+          ],
+          [
+            "professional-audio",
+            "Professional audio"
+          ]
+        ],
+        "img": "dc-insight-hybrid-meeting-room-av.webp"
+      },
+      {
+        "slug": "led-video-wall-pixel-pitch",
+        "title": "Choosing LED video wall pixel pitch",
+        "date": "3 July 2026",
+        "team": "AV team",
+        "iso": "2026-07-03",
+        "dek": "Pixel pitch is the single number that decides whether a LED wall looks crisp or coarse. Match it to viewing distance and environment before you match it to budget.",
+        "meta": "What LED video wall pixel pitch means, the viewing-distance rule of thumb, indoor versus outdoor and brightness in nits, with use cases for lobbies, control rooms, auditoriums and retail.",
+        "blocks": [
+          [
+            "p",
+            "A LED video wall is specified by many numbers, but one decides how good it looks: pixel pitch. Get it right and the image is sharp at the distance people actually stand; get it wrong and you either see the individual dots or you have paid handsomely for detail no one is close enough to notice. It is worth understanding before the budget conversation starts."
+          ],
+          [
+            "h2",
+            "What pixel pitch means"
+          ],
+          [
+            "p",
+            "Pixel pitch is the distance in millimetres between the centres of neighbouring LEDs. A smaller pitch, say P1.5, packs more pixels into the same area, giving higher resolution and a sharper image close up, at a higher cost per square metre. A larger pitch such as P10 spaces the LEDs further apart, which is cheaper and perfectly acceptable when viewers stand well back. Pitch, resolution and price are three views of the same decision."
+          ],
+          [
+            "h2",
+            "The viewing-distance rule of thumb"
+          ],
+          [
+            "p",
+            "A practical starting point is that the closest comfortable viewing distance in metres is roughly the pixel pitch in millimetres: a P2.5 wall reads cleanly from about two and a half metres, a P4 from around four. Nearer than that and the pixels become visible; much farther and finer pitch is wasted money. The right question is not what is the finest wall available, but what is the closest anyone will realistically stand."
+          ],
+          [
+            "h2",
+            "Indoor, outdoor and brightness"
+          ],
+          [
+            "p",
+            "Environment decides brightness, measured in nits. An indoor wall in a controlled space typically needs several hundred to around fifteen hundred nits; a wall competing with direct sun outdoors needs several thousand. Outdoor walls also need weather sealing to a suitable IP rating, a wider and coarser pitch for the longer viewing distances, and a high refresh rate if cameras will ever film them, so the image does not flicker on screen. Ambient light, not just the technology, sets the floor for how bright the wall has to be to stay readable."
+          ],
+          [
+            "h2",
+            "Matching pitch to the use case"
+          ],
+          [
+            "p",
+            "Each setting points to a different pitch. A lobby or retail wall that people approach closely justifies a fine pitch for a premium look. A control room watched for hours at close range needs fine pitch and reliable round-the-clock operation. An auditorium or arena, viewed from many metres away, is well served by a medium pitch with high brightness. An outdoor sign trades fineness for ruggedness and sheer luminance."
+          ],
+          [
+            "p",
+            "As a single integrator spanning nine disciplines and thirty-eight services, Datacore sizes LED walls to the room, the audience and the environment, then documents the result; talk to our AV team about the right pitch and brightness for your space."
+          ]
+        ],
+        "faq": [
+          [
+            "What does a lower pixel pitch give me?",
+            "More pixels in the same area, so a sharper image that holds up close. It costs more per square metre, so it is worth it only where people stand near the wall."
+          ],
+          [
+            "How do I pick pitch from viewing distance?",
+            "As a rule of thumb, the closest comfortable viewing distance in metres is about the pixel pitch in millimetres. Decide how near people will stand, then choose a pitch to match rather than overpaying for detail no one sees."
+          ],
+          [
+            "What brightness do I need outdoors?",
+            "An outdoor wall competing with sunlight needs several thousand nits, far more than an indoor screen, plus weather sealing to a suitable IP rating and a high refresh rate if it will be filmed."
+          ]
+        ],
+        "related": [
+          [
+            "indoor-led-video-wall",
+            "Indoor LED video wall"
+          ],
+          [
+            "outdoor-led-video-wall",
+            "Outdoor LED video wall"
+          ],
+          [
+            "digital-signage-solutions",
+            "Digital signage"
+          ]
+        ],
+        "img": "dc-insight-led-video-wall-pixel-pitch.webp"
+      },
+      {
+        "slug": "smart-building-elv-convergence",
+        "title": "Smart buildings: converging ELV systems for Vision 2030",
+        "date": "18 June 2026",
+        "team": "Systems team",
+        "iso": "2026-06-18",
+        "dek": "How network, security, AV, BMS and lighting are collapsing onto one IP backbone — and why that changes how buildings are designed, run and future-proofed.",
+        "meta": "A practical guide to ELV convergence in smart buildings: one IP backbone for network, security, AV, HVAC and lighting, built to standard for Vision 2030 projects.",
+        "blocks": [
+          [
+            "p",
+            "For decades, a building's low-voltage systems grew up in isolation. The network team pulled data cabling, the security contractor ran its own coax and controllers, the AV vendor installed proprietary matrix switchers, and the BMS supplier wired sensors on a separate bus. Each subsystem worked, but none of them talked to the others. The smart building reverses that logic: it treats structured cabling and the IP network as a shared utility that every discipline rides on, from access control and CCTV to audiovisual distribution, HVAC, lighting and fire detection."
+          ],
+          [
+            "h2",
+            "The shift to a converged IP backbone"
+          ],
+          [
+            "p",
+            "Convergence is possible because almost every ELV device now speaks IP. Cameras stream over the network, door controllers sit on PoE switches, AV signals travel as AV-over-IP flows, lighting gateways expose BACnet/IP, and building management platforms pull telemetry over the same fabric. Consolidating these onto one structured cabling system designed to TIA-568 and ISO/IEC 11801 cuts duplicated infrastructure, simplifies pathways and containment, and gives facilities a single place to see what the building is doing. It also means capacity, redundancy and cybersecurity can be planned once, holistically, rather than patched into many parallel networks."
+          ],
+          [
+            "h2",
+            "Where convergence pays off"
+          ],
+          [
+            "p",
+            "The benefits are operational as much as technical. A converged building lets security, safety and comfort systems share data: an alarm can trigger cameras, unlock egress routes, and push a message to digital signage in one automated sequence. Energy management improves when lighting, HVAC and occupancy sensing feed a common analytics layer. Maintenance gets easier because faults surface on one dashboard instead of a separate portal per vendor. And future changes — a new tenant fit-out, an added floor, a signage rollout — become configuration tasks on an existing backbone rather than fresh cabling projects. Fire detection remains a special case: EN 54 and SBC 801 govern its design, and Civil Defense approval is mandatory, so life-safety keeps its integrity even while it integrates."
+          ],
+          [
+            "h2",
+            "Why one integrator matters"
+          ],
+          [
+            "p",
+            "Convergence only delivers when someone owns the whole picture. When separate contractors design in isolation, the seams between systems become the weak points — mismatched VLANs, undocumented dependencies, and finger-pointing when something breaks. A single integrator designs the cabling, network, security, AV and BMS layers to one standard, tests the interfaces between them, and hands over documentation that reflects the building as built. That is the model behind Vision 2030's giga-projects and smart cities, where thousands of devices must behave as one coordinated system from day one."
+          ],
+          [
+            "p",
+            "Datacore has integrated converged ELV systems since 2007, and our specialists design each discipline to a documented standard so your smart building performs as a whole — talk to us about a convergence roadmap for your project."
+          ]
+        ],
+        "faq": [
+          [
+            "What counts as an ELV system?",
+            "Extra-low-voltage systems are the building's data and signal networks — structured cabling, CCTV, access control, AV, public address, IPTV, fire detection and the BMS — as opposed to high-voltage power. Convergence brings these onto a shared IP backbone."
+          ],
+          [
+            "Does converging systems make fire detection less safe?",
+            "No. Fire alarm design still follows EN 54 and SBC 801 and requires Civil Defense approval. It can share network infrastructure for monitoring while keeping its own certified detection and alarm paths intact."
+          ],
+          [
+            "Can we converge an existing building or only new ones?",
+            "Both. Retrofits usually migrate one subsystem at a time onto a common backbone, starting with structured cabling, so you gain convergence in stages without disrupting operations."
+          ]
+        ],
+        "related": [
+          [
+            "smart-building-solutions",
+            "Smart building solutions"
+          ],
+          [
+            "control-system",
+            "Control systems"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ]
+        ],
+        "img": "dc-insight-smart-building-elv-convergence.webp"
+      },
+      {
+        "slug": "control-room-soc-noc-design",
+        "title": "Designing a control room (SOC/NOC)",
+        "date": "2 July 2026",
+        "team": "AV team",
+        "iso": "2026-07-02",
+        "dek": "What separates a control room that works from a wall of screens: source distribution, KVM, operator ergonomics and the room services that keep it running 24/7.",
+        "meta": "How to design a SOC or NOC control room: video wall and AV-over-IP source distribution, KVM, 24/7 consoles, acoustics, lighting and redundancy.",
+        "blocks": [
+          [
+            "p",
+            "A control room is where an organisation watches its most critical operations around the clock. A Security Operations Centre (SOC) monitors cameras, access control and alarms; a Network Operations Centre (NOC) watches IT infrastructure, links and applications; many facilities combine both. Whatever the mission, the design challenge is the same: present huge amounts of information clearly, let operators act on it fast, and keep running 24/7 without a stumble. Getting there is a discipline that spans audiovisual engineering, ergonomics and building services."
+          ],
+          [
+            "h2",
+            "The video wall and source distribution"
+          ],
+          [
+            "p",
+            "The video wall is the shared picture the whole team works from. Fine-pitch LED or narrow-bezel LCD tiles are chosen for viewing distance, brightness and uptime, then driven by a processor that can place any source — a camera feed, a dashboard, a map, a spreadsheet — as a window anywhere on the canvas. Behind it, an AV-over-IP distribution layer carries sources across the network so any signal can reach any display or operator without a fixed matrix. A KVM system extends that to control: operators drive machines in the equipment room from their desks, keeping heat and noise out of the operating floor while switching instantly between systems."
+          ],
+          [
+            "h2",
+            "Operators and ergonomics"
+          ],
+          [
+            "p",
+            "Technology is only useful if people can sustain attention at it for a full shift. Consoles are specified for continuous 24/7 use, with sit-stand adjustment, proper sightlines to the video wall, cable management and monitor arms positioned to avoid neck and eye strain. Sightline geometry decides how far consoles sit from the wall and how the room tiers. Shift patterns, break spaces and clear circulation matter too — an exhausted operator misses events, however good the displays. Standardised console layouts speed shift handover, because an incoming operator finds every control exactly where the last shift left it, and enough operator positions with sensible failover keep the floor staffed even when a seat is offline."
+          ],
+          [
+            "h2",
+            "Acoustics, lighting and reliability"
+          ],
+          [
+            "p",
+            "The room itself is engineered. Acoustic treatment controls reverberation so alarms and voice communication stay intelligible. Lighting is dimmable and glare-free, kept low enough to read screens but bright enough to stay alert, ideally tunable across a shift. Reliability is designed in: redundant power and UPS, cooling sized for a dense equipment room, and networks with no single point of failure, so a hardware fault never blinds the operators. Documented commissioning proves each of these before the room goes live."
+          ],
+          [
+            "p",
+            "Datacore designs and integrates SOC and NOC environments end to end — video wall, AV-over-IP, KVM, consoles and the room services around them — and tests every layer before handover; contact our AV team to scope your control room."
+          ]
+        ],
+        "faq": [
+          [
+            "What's the difference between a SOC and a NOC?",
+            "A SOC focuses on physical and cyber security — surveillance, access control and threat monitoring. A NOC focuses on IT and network health — availability, performance and incidents. Many organisations run a combined room sharing the same video wall and infrastructure."
+          ],
+          [
+            "Why use AV-over-IP and KVM instead of a traditional matrix?",
+            "An IP-based distribution layer lets any source reach any display or operator over the network, scales without re-cabling, and — with KVM — keeps noisy, hot computers in the equipment room while operators control them from the floor."
+          ],
+          [
+            "What makes a control room reliable enough for 24/7 use?",
+            "Redundant power and UPS, cooling sized for the load, networks with no single point of failure, consoles rated for continuous use, and documented commissioning that proves each system before go-live."
+          ]
+        ],
+        "related": [
+          [
+            "soc-noc-room-solution",
+            "SOC/NOC room solutions"
+          ],
+          [
+            "indoor-led-video-wall",
+            "Indoor LED video walls"
+          ],
+          [
+            "control-system",
+            "Control systems"
+          ]
+        ],
+        "img": "dc-insight-control-room-soc-noc-design.webp"
+      },
+      {
+        "slug": "iptv-for-enterprise-hospitality",
+        "title": "IPTV for enterprise, education and hospitality",
+        "date": "21 May 2026",
+        "team": "Network team",
+        "iso": "2026-05-21",
+        "dek": "Live TV, video-on-demand, information channels and signage on one platform — how IPTV over the IP network replaces the limits of MATV for hotels, campuses and enterprises.",
+        "meta": "IPTV explained for enterprise, education and hospitality: how streaming TV, VOD, info channels and digital signage over IP differ from MATV, and what makes delivery reliable.",
+        "blocks": [
+          [
+            "p",
+            "Televisions still matter in hotels, campuses, hospitals and corporate lobbies — but how the picture reaches them has changed. Traditional MATV distributes broadcast channels as radio-frequency signals over coaxial cable to every outlet. IPTV instead delivers television as data streams over the same IP network that already carries everything else in the building. That single shift — from RF over coax to video over IP — is what turns a row of TVs into a managed service."
+          ],
+          [
+            "h2",
+            "IPTV versus MATV"
+          ],
+          [
+            "p",
+            "MATV is simple and robust for what it does: take satellite and terrestrial feeds and push them to many screens. But every viewer sees the same channels, adding services means adding cabling, and there is little central control. IPTV encodes each channel once and streams it across structured cabling built to TIA-568 and ISO/IEC 11801. Because it rides the network, it scales by configuration rather than new coax, reaches any screen or device the network reaches, and puts every endpoint under one management system. Many projects keep MATV for core broadcast reception and layer IPTV on top for everything else."
+          ],
+          [
+            "h2",
+            "One platform, several services"
+          ],
+          [
+            "p",
+            "The real value is convergence of services. On one IPTV platform an operator can offer live television, video-on-demand, recorded and streamed events, in-house information channels, and digital signage — all managed from the same head-end. A hotel presents a branded welcome screen, guest-room menus and premium content; a university streams lectures and campus announcements; a hospital delivers patient entertainment and education to the bedside; a corporate campus runs town-halls and internal channels to screens across floors. Because content is centralised, changing a channel line-up or pushing an emergency message happens everywhere at once."
+          ],
+          [
+            "h2",
+            "Content management and delivery"
+          ],
+          [
+            "p",
+            "Behind the screens sits a content management system that schedules channels, organises VOD libraries, controls which rooms or zones see what, and reports on usage. Delivering it reliably is a network design problem as much as an AV one: multicast for live channels to conserve bandwidth, quality-of-service so video is not starved by data traffic, and enough capacity and resilience that the picture never stutters. Endpoints can be dedicated set-top boxes or the smart displays and devices already in the rooms, and access to premium or restricted channels is controlled per user or per zone. Designed and tested properly, IPTV becomes infrastructure the whole organisation builds services on, not just a way to watch TV."
+          ],
+          [
+            "p",
+            "Datacore designs IPTV and MATV systems on networks engineered to standard, so live TV, VOD, signage and information channels arrive reliably on every screen — talk to us about the right platform for your property."
+          ]
+        ],
+        "faq": [
+          [
+            "What is the difference between IPTV and MATV?",
+            "MATV distributes broadcast channels as RF signals over coaxial cable, giving every outlet the same feed. IPTV streams each channel as data over the IP network, adding central management, on-demand content and any-screen delivery."
+          ],
+          [
+            "Do we have to replace our MATV system to use IPTV?",
+            "Not necessarily. Many sites keep MATV for core broadcast reception and add IPTV over the data network for VOD, information channels and signage. The right mix depends on your building and goals."
+          ],
+          [
+            "Will IPTV slow down our data network?",
+            "Not when it is designed correctly. Multicast delivery for live channels and quality-of-service policies keep video traffic efficient and protected, which is why network design is central to a dependable IPTV rollout."
+          ]
+        ],
+        "related": [
+          [
+            "iptv-solution",
+            "IPTV solutions"
+          ],
+          [
+            "matv-solution",
+            "MATV solutions"
+          ],
+          [
+            "digital-signage-solutions",
+            "Digital signage solutions"
+          ]
+        ],
+        "img": "dc-insight-iptv-for-enterprise-hospitality.webp"
+      },
+      {
+        "slug": "digital-signage-that-works",
+        "title": "Digital signage that earns its screen time",
+        "date": "9 July 2026",
+        "team": "AV team",
+        "iso": "2026-07-09",
+        "dek": "Most screens are ignored. What separates signage that changes behaviour — the display choice, the content management system, and measuring impact — from expensive wallpaper.",
+        "meta": "How to make digital signage effective: choosing LCD versus LED, using a content management system for scheduling and wayfinding, and measuring real impact.",
+        "blocks": [
+          [
+            "p",
+            "Screens are cheap, so they are everywhere — and most of them are ignored. A display looping a slideshow no one watches is a cost, not a communication channel. Digital signage earns its place when the right message reaches the right screen at the right moment, and when someone can prove it changed behaviour. That takes more thought about content and management than about the hardware, though the hardware still has to be chosen well."
+          ],
+          [
+            "h2",
+            "Displays or LED — choosing the canvas"
+          ],
+          [
+            "p",
+            "The first decision is the surface. Commercial LCD displays suit most indoor applications — menu boards, lobby screens, meeting-room signage, wayfinding kiosks — offering sharp detail at normal viewing distance and long-life panels rated for continuous operation. Direct-view LED comes into its own for large formats, video walls and bright environments where an LCD would wash out or where a seamless canvas of any size and shape is needed. Pixel pitch is matched to viewing distance, brightness to ambient light, and both to the content: a close-up menu board and a lobby video wall are different engineering problems, not just different sizes."
+          ],
+          [
+            "h2",
+            "The management system is the real product"
+          ],
+          [
+            "p",
+            "Hardware shows the picture; the content management system decides what, where and when. A capable CMS schedules content by time, day or trigger, targets individual screens or zones, and updates hundreds of endpoints from one place over the network. It drives wayfinding that can be updated as a building changes, dayparts menus so breakfast becomes lunch automatically, and — integrated with other systems — turns every screen into an emergency notification channel in seconds. Networked control also means health monitoring: knowing a screen has gone dark before a visitor does. This is where signage stops being wallpaper and becomes infrastructure."
+          ],
+          [
+            "h2",
+            "Measuring whether it works"
+          ],
+          [
+            "p",
+            "A screen that earns its keep can show it. Impact is measured by tying content to outcomes — sales lift on a promoted item, shorter queues at a wayfinding point, higher attendance at an announced event, faster evacuation during a drill. Proof-of-play logs confirm what actually played and when, which matters for internal reporting and for any advertising commitments. Start from the outcome you want, design the content and placement to drive it, then read the numbers and adjust. Interactive screens add another signal entirely, letting people select destinations, browse a directory or request help, and logging exactly what they engaged with."
+          ],
+          [
+            "p",
+            "Datacore designs digital signage from display choice to CMS and networked control, so your screens deliver the right message and you can measure the result — contact our AV team to plan a deployment that pays for itself."
+          ]
+        ],
+        "faq": [
+          [
+            "Should we use LCD displays or LED for digital signage?",
+            "LCD displays suit most indoor screens — menu boards, wayfinding, lobby and room signage — at normal viewing distances. Direct-view LED is for large formats, video walls and bright spaces. The choice follows viewing distance, ambient light and content."
+          ],
+          [
+            "What does a content management system actually do?",
+            "It schedules and targets content by screen, zone, time or trigger, updates every endpoint from one place over the network, monitors screen health, and logs what played — turning a set of displays into a managed communication network."
+          ],
+          [
+            "How do we measure whether digital signage is working?",
+            "Tie content to outcomes — sales of promoted items, wayfinding queue times, event attendance — and use proof-of-play logs to confirm what ran. Define the goal first, then read the numbers and refine."
+          ]
+        ],
+        "related": [
+          [
+            "digital-signage-solutions",
+            "Digital signage solutions"
+          ],
+          [
+            "indoor-led-video-wall",
+            "Indoor LED video walls"
+          ],
+          [
+            "interactive-video-walls-tiles",
+            "Interactive video walls"
+          ]
+        ],
+        "img": "dc-insight-digital-signage-that-works.webp"
+      },
+      {
+        "slug": "why-annual-maintenance-contracts-matter",
+        "title": "Why an Annual Maintenance Contract (AMC) protects your investment",
+        "date": "30 April 2026",
+        "team": "Systems team",
+        "iso": "2026-04-30",
+        "dek": "The day the installer leaves, your systems start to age. How preventive maintenance, response-time SLAs, monitoring and spares protect what you have already paid for.",
+        "meta": "Why an Annual Maintenance Contract matters: preventive versus reactive maintenance, response-time SLAs, proactive monitoring, spares and lower total cost of ownership.",
+        "blocks": [
+          [
+            "p",
+            "An ELV installation is a capital investment that is supposed to run for a decade or more — cabling, network, cameras, access control, AV, fire detection and the software that ties them together. Yet the day the contractor leaves is the day that investment starts to age. Firmware falls behind, batteries and drives wear out, small faults accumulate unseen, and standards move on. An Annual Maintenance Contract (AMC) is how you protect the value you have already paid for, instead of waiting for something critical to fail."
+          ],
+          [
+            "h2",
+            "Preventive versus reactive maintenance"
+          ],
+          [
+            "p",
+            "The core choice is whether you fix things before or after they break. Reactive maintenance waits for failure, which means unplanned downtime, emergency call-out costs, and problems discovered at the worst possible moment — a camera found dead only when footage is needed, or a fire panel fault surfacing during an inspection. Preventive maintenance schedules regular inspection, testing, cleaning, firmware updates and battery replacement so faults are caught and corrected while they are still minor. For life-safety systems governed by EN 54, SBC 801 and Civil Defense requirements, scheduled testing is not optional — it is part of staying compliant."
+          ],
+          [
+            "h2",
+            "What a good AMC includes"
+          ],
+          [
+            "p",
+            "A meaningful AMC is more than an annual visit. It defines response-time SLAs, so you know how quickly help arrives when something does go wrong, with tighter targets for critical systems. It can include proactive remote monitoring that flags a failing device or a network fault before it becomes an outage. It secures access to spares, so a replacement is on hand rather than weeks away on order. And for demanding sites it extends to on-site staffing — technicians embedded in the facility who know the systems intimately and keep them running day to day. Each of these is a lever you set to match how critical the systems are."
+          ],
+          [
+            "h2",
+            "Total cost of ownership"
+          ],
+          [
+            "p",
+            "Maintenance reads as a cost until you compare it with the alternative. Unplanned downtime, emergency repairs, premature replacement of neglected equipment, and the operational impact of a system being unavailable usually dwarf the price of a planned contract. Well-maintained systems last longer, hold their performance, and stay compliant, which lowers the true total cost of ownership over the life of the installation. An AMC turns unpredictable failure costs into a predictable line item — and keeps the asset doing its job."
+          ],
+          [
+            "p",
+            "Datacore backs its installations with AMCs, proactive monitoring, spares and on-site staffing drawn from over 180 specialists, so the systems we design keep performing for years — talk to us about a maintenance plan matched to your site."
+          ]
+        ],
+        "faq": [
+          [
+            "What is an Annual Maintenance Contract?",
+            "An AMC is an ongoing agreement to keep installed systems running — scheduled preventive maintenance, defined response times for faults, and often monitoring, spares and on-site support — for a fixed annual cost instead of paying per emergency."
+          ],
+          [
+            "Isn't it cheaper to just fix things when they break?",
+            "Rarely. Reactive repair brings unplanned downtime, emergency rates and premature equipment failure, which usually cost more than planned maintenance — and for fire and life-safety systems, scheduled testing is a compliance requirement, not a choice."
+          ],
+          [
+            "What is a response-time SLA?",
+            "It is a committed maximum time to respond to a fault, agreed in the contract and usually tiered by severity, so critical failures get the fastest attention. It turns 'we'll get to it' into a measurable, accountable service level."
+          ]
+        ],
+        "related": [
+          [
+            "annual-maintenance-contracts",
+            "Annual maintenance contracts"
+          ],
+          [
+            "full-time-staffing-solution",
+            "Full-time staffing"
+          ],
+          [
+            "it-network-solutions",
+            "IT network solutions"
+          ]
+        ],
+        "img": "dc-insight-why-annual-maintenance-contracts-matter.webp"
       }
     ]
   },
@@ -88,21 +1331,60 @@
         "dek": "أين ينتهي النداء العام ويبدأ الإخلاء الصوتي، ولماذا يحدّد هذا الفرق المعيار الذي يجب أن يلتزم به مشروعك.",
         "meta": "نظام النداء العام يوزّع كلامًا وصوتًا واضحًا عبر المبنى. تعرّف على الفرق بين النداء العام والإنذار الصوتي/الإخلاء الصوتي، ومعايير EN 54، وكيف يُصمَّم نظام PA/VA لأجل وضوح الكلام.",
         "blocks": [
-          ["p", "نظام النداء العام (PA) يوزّع كلامًا وصوتًا واضحًا ومفهومًا عبر المبنى أو الموقع — من ميكروفون أو مصدر صوت، عبر مكبّرات القدرة، إلى سمّاعات موزّعة على مناطق. به يُنادى مسافرٌ في مطار، ويُعلَن انتهاء حصةٍ في مدرسة، وتُبثّ موسيقى خلفية في مركز تجاري. لكن المصطلح البسيط يخفي فرقًا يحدّد المعيار الذي يجب أن يلتزم به مشروعك، وكم يكلّف إتقانه."],
-          ["h2", "النداء العام مقابل الإنذار الصوتي (الإخلاء الصوتي)"],
-          ["p", "يتولّى النداء العام اليومي الإعلانات والنداء والموسيقى الخلفية. أما الإنذار الصوتي — ويُسمّى الإخلاء الصوتي، ويُكتبان معًا PA/VA — فهو نظام سلامةٍ للحياة: في الطوارئ يبثّ رسائل إخلاء تلقائية ومفهومة لها الأولوية على كل ما عداها. هذا الدور في سلامة الحياة هو سبب خضوع أنظمة PA/VA لعائلة معايير EN 54 (مثل EN 54-16 للوحة التحكم والإشارة في الإنذار الصوتي وEN 54-24 للسمّاعات)، مع مراقبة مستمرة للكابلات، وطاقة احتياطية، والإبلاغ عن الأعطال. نظام النداء اليومي لا يخضع لتلك المتطلبات؛ نظام الإخلاء الصوتي يخضع لها."],
-          ["h2", "ممّ يتكوّن نظام PA/VA"],
-          ["p", "اللبنات ثابتة: مصادر صوت وميكروفونات طوارئ؛ لوحة تحكم أو مصفوفة تدير المناطق وأولوية الرسائل ومنطق الطوارئ؛ مكبّرات قدرة محسوبة على حمل السمّاعات الموصولة مع سعةٍ احتياطية؛ وسمّاعات مختارة لتغطيةٍ متساوية ووضوحٍ في الكلام. في نظام سلامة الحياة تُراقَب خطوط السمّاعات من طرفٍ إلى طرف وتُدعَم بطاقةٍ احتياطية، بحيث يُكتشَف العطل الواحد بدل أن يُكتشَف أثناء الإخلاء."],
-          ["h2", "الوضوح أوّلًا، لا مجرّد ارتفاع الصوت"],
-          ["p", "الغاية من نظام النداء أن يفهم الناس الرسالة، لا أن يسمعوا ضجيجًا فحسب. الوضوح يُصمَّم — توزيع السمّاعات والتغطية، وصوتيّات الغرفة وارتداد الصوت فيها، ومؤشر نقل الكلام (STI) المستهدف، كلها تقرّر هل تصل الرسالة كلماتٍ أم صدى. الأعلى صوتًا ليس الأوضح؛ نظامٌ أهدأ ومصمَّمٌ جيدًا يتفوّق على نظامٍ عالٍ مُحمَّلٍ بإفراط."],
-          ["h2", "التكامل مع إنذار الحريق"],
-          ["p", "في كثير من المباني يتكامل نظام الإخلاء الصوتي مع نظام إنذار الحريق، فيُطلق الكشفُ تلقائيًا رسالة الإخلاء الصحيحة في المناطق الصحيحة. الواجهة بين النظامين، ومصفوفة السبب والأثر التي تربط الكشف بالرسائل، لا تقلّ أهمية عن الصوت نفسه — وهي بالضبط حيث يزيل المكاملُ الذي يملك النطاقين المخاطرة."],
-          ["p", "تصمّم داتاكور أنظمة النداء العام وأنظمة الإخلاء الصوتي PA/VA وتورّدها وتركّبها وتشغّلها وفق المعيار ذي الصلة، بنتائج اختبارٍ موثّقة والتحقق من وضوح الكلام عند التسليم. إن كنت تضع مواصفات نظامٍ ولست متأكدًا هل تحتاج نداءً عامًا أم إخلاءً صوتيًا كاملًا، فتلك أوّل مسألةٍ تستحق الحسم — تواصل مع فريقنا."]
+          [
+            "p",
+            "نظام النداء العام (PA) يوزّع كلامًا وصوتًا واضحًا ومفهومًا عبر المبنى أو الموقع — من ميكروفون أو مصدر صوت، عبر مكبّرات القدرة، إلى سمّاعات موزّعة على مناطق. به يُنادى مسافرٌ في مطار، ويُعلَن انتهاء حصةٍ في مدرسة، وتُبثّ موسيقى خلفية في مركز تجاري. لكن المصطلح البسيط يخفي فرقًا يحدّد المعيار الذي يجب أن يلتزم به مشروعك، وكم يكلّف إتقانه."
+          ],
+          [
+            "h2",
+            "النداء العام مقابل الإنذار الصوتي (الإخلاء الصوتي)"
+          ],
+          [
+            "p",
+            "يتولّى النداء العام اليومي الإعلانات والنداء والموسيقى الخلفية. أما الإنذار الصوتي — ويُسمّى الإخلاء الصوتي، ويُكتبان معًا PA/VA — فهو نظام سلامةٍ للحياة: في الطوارئ يبثّ رسائل إخلاء تلقائية ومفهومة لها الأولوية على كل ما عداها. هذا الدور في سلامة الحياة هو سبب خضوع أنظمة PA/VA لعائلة معايير EN 54 (مثل EN 54-16 للوحة التحكم والإشارة في الإنذار الصوتي وEN 54-24 للسمّاعات)، مع مراقبة مستمرة للكابلات، وطاقة احتياطية، والإبلاغ عن الأعطال. نظام النداء اليومي لا يخضع لتلك المتطلبات؛ نظام الإخلاء الصوتي يخضع لها."
+          ],
+          [
+            "h2",
+            "ممّ يتكوّن نظام PA/VA"
+          ],
+          [
+            "p",
+            "اللبنات ثابتة: مصادر صوت وميكروفونات طوارئ؛ لوحة تحكم أو مصفوفة تدير المناطق وأولوية الرسائل ومنطق الطوارئ؛ مكبّرات قدرة محسوبة على حمل السمّاعات الموصولة مع سعةٍ احتياطية؛ وسمّاعات مختارة لتغطيةٍ متساوية ووضوحٍ في الكلام. في نظام سلامة الحياة تُراقَب خطوط السمّاعات من طرفٍ إلى طرف وتُدعَم بطاقةٍ احتياطية، بحيث يُكتشَف العطل الواحد بدل أن يُكتشَف أثناء الإخلاء."
+          ],
+          [
+            "h2",
+            "الوضوح أوّلًا، لا مجرّد ارتفاع الصوت"
+          ],
+          [
+            "p",
+            "الغاية من نظام النداء أن يفهم الناس الرسالة، لا أن يسمعوا ضجيجًا فحسب. الوضوح يُصمَّم — توزيع السمّاعات والتغطية، وصوتيّات الغرفة وارتداد الصوت فيها، ومؤشر نقل الكلام (STI) المستهدف، كلها تقرّر هل تصل الرسالة كلماتٍ أم صدى. الأعلى صوتًا ليس الأوضح؛ نظامٌ أهدأ ومصمَّمٌ جيدًا يتفوّق على نظامٍ عالٍ مُحمَّلٍ بإفراط."
+          ],
+          [
+            "h2",
+            "التكامل مع إنذار الحريق"
+          ],
+          [
+            "p",
+            "في كثير من المباني يتكامل نظام الإخلاء الصوتي مع نظام إنذار الحريق، فيُطلق الكشفُ تلقائيًا رسالة الإخلاء الصحيحة في المناطق الصحيحة. الواجهة بين النظامين، ومصفوفة السبب والأثر التي تربط الكشف بالرسائل، لا تقلّ أهمية عن الصوت نفسه — وهي بالضبط حيث يزيل المكاملُ الذي يملك النطاقين المخاطرة."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور أنظمة النداء العام وأنظمة الإخلاء الصوتي PA/VA وتورّدها وتركّبها وتشغّلها وفق المعيار ذي الصلة، بنتائج اختبارٍ موثّقة والتحقق من وضوح الكلام عند التسليم. إن كنت تضع مواصفات نظامٍ ولست متأكدًا هل تحتاج نداءً عامًا أم إخلاءً صوتيًا كاملًا، فتلك أوّل مسألةٍ تستحق الحسم — تواصل مع فريقنا."
+          ]
         ],
         "related": [
-          ["pava-public-address-amp-voice-evacuation-system", "الإخلاء الصوتي PA/VA"],
-          ["fire-alarm-systems", "أنظمة إنذار الحريق"],
-          ["paga-public-address-and-general-alarm-system", "النداء والإنذار العام PAGA"]
+          [
+            "pava-public-address-amp-voice-evacuation-system",
+            "الإخلاء الصوتي PA/VA"
+          ],
+          [
+            "fire-alarm-systems",
+            "أنظمة إنذار الحريق"
+          ],
+          [
+            "paga-public-address-and-general-alarm-system",
+            "النداء والإنذار العام PAGA"
+          ]
         ]
       },
       {
@@ -113,21 +1395,60 @@
         "dek": "ما الذي يفعله تكثيف الراديو بأعداد الألياف وقياس المسارات ومجاري الكابلات في مبنى تصمّمه اليوم.",
         "meta": "شبكة 5G تقنية راديوية، لكنها تستقرّ على الشبكة السلبية — الكابلات والمسارات والمجاري. كيف يرفع التكثيف أعداد الألياف والطاقة عبر الكابل وقياس المسارات، وأي هامشٍ يجب تصميمه الآن.",
         "blocks": [
-          ["p", "يُناقَش 5G عادةً بوصفه قصّة راديو وطيف. أمّا لمن يصمّم مبنى، فهو قصّة بنيةٍ سلبية: الكابلات والمسارات والمجاري التي تلتزم بها اليوم هي ما ستعتمد عليه كل نقطة راديو 5G غدًا. التكثيف يغيّر الأرقام، والطبقة السلبية هي الجزء الذي لا يمكن إعادة النظر فيه بثمنٍ زهيد."],
-          ["h2", "التكثيف يعني نقاط راديو أكثر"],
-          ["p", "لتحقيق سعة 5G وتغطيته — خاصّة الحزم الأعلى ترددًا وداخل المباني — تحتاج نقاط راديو أكثر وأقرب: خلايا صغيرة، وأنظمة هوائيات موزّعة (DAS)، وشبكة أكثف من نقاط الوصول، بدل حفنةٍ من المواقع الكبرى على الأسطح. وكل نقطةٍ منها تحتاج تغذية، وبصورةٍ متزايدة، طاقة."],
-          ["h2", "أعداد الألياف ترتفع"],
-          ["p", "تغذية نقاط راديو أكثر عبر الألياف — والتحوّل نحو الألياف حتى الهوائي — يرفع أعداد الألياف وسعة اللحام وكثافة الإنهاء إلى ما يتجاوز ما افترضه عمودٌ فقري من حقبة 4G. مجرى صاعدٍ مقاسٌ لخطة الخلايا القديمة يصبح بهدوء قيدًا على خطة الغد. تصميم أعمدة أليافٍ سخيّة ومساحة لحامٍ وتوصيلٍ مبكرًا أرخص بكثير من إعادة السحب في مبنى قائم."],
-          ["h2", "المسارات والمجاري والطاقة"],
-          ["p", "كابلٌ أكثر يعني سعة أكبر من الحوامل والمواسير والمجاري الصاعدة، وكثيرٌ من نقاط الراديو تسحب الآن الطاقة عبر البنية نفسها (PoE أو طاقة مستمرة عن بُعد)، ما يؤثّر في اختيار الكابل وأحجام الحزم والحرارة. تقصير المجاري هو الخطأ المكلف: إضافة ليفٍ سهلة حين يتّسع المسار، وشاقّة حين لا يتّسع."],
-          ["h2", "صمّم للهامش الآن"],
-          ["p", "الاستجابة العملية هي الهامش. حدّد أليافًا احتياطية، وأبقِ امتلاء المسار دون النقطة التي تعني فيها الإضافة التالية مجرى جديدًا، وخطّط الطاقة لنقاط الراديو الفاعلة، ورقّم كل شيء ليمدّد الفريق التالي بدل أن يعيد البناء. هذا هو المقابل السلبي لانقسام الفاعل/السلبي — الطبقة السلبية تُصمَّم لعمر المبنى، لا لخطة خلايا هذا العام."],
-          ["p", "تصمّم داتاكور الكابلات المهيكلة وأعمدة الألياف بهذا الهامش، وفق TIA-568 وISO/IEC 11801، لتدعم الشبكة السلبية خطة الراديو الحالية والقادمة. إن كنت تخطّط لمبنى أو لتحديث، يمكننا مراجعة التصميم السلبي في ضوء وجهة 5G."]
+          [
+            "p",
+            "يُناقَش 5G عادةً بوصفه قصّة راديو وطيف. أمّا لمن يصمّم مبنى، فهو قصّة بنيةٍ سلبية: الكابلات والمسارات والمجاري التي تلتزم بها اليوم هي ما ستعتمد عليه كل نقطة راديو 5G غدًا. التكثيف يغيّر الأرقام، والطبقة السلبية هي الجزء الذي لا يمكن إعادة النظر فيه بثمنٍ زهيد."
+          ],
+          [
+            "h2",
+            "التكثيف يعني نقاط راديو أكثر"
+          ],
+          [
+            "p",
+            "لتحقيق سعة 5G وتغطيته — خاصّة الحزم الأعلى ترددًا وداخل المباني — تحتاج نقاط راديو أكثر وأقرب: خلايا صغيرة، وأنظمة هوائيات موزّعة (DAS)، وشبكة أكثف من نقاط الوصول، بدل حفنةٍ من المواقع الكبرى على الأسطح. وكل نقطةٍ منها تحتاج تغذية، وبصورةٍ متزايدة، طاقة."
+          ],
+          [
+            "h2",
+            "أعداد الألياف ترتفع"
+          ],
+          [
+            "p",
+            "تغذية نقاط راديو أكثر عبر الألياف — والتحوّل نحو الألياف حتى الهوائي — يرفع أعداد الألياف وسعة اللحام وكثافة الإنهاء إلى ما يتجاوز ما افترضه عمودٌ فقري من حقبة 4G. مجرى صاعدٍ مقاسٌ لخطة الخلايا القديمة يصبح بهدوء قيدًا على خطة الغد. تصميم أعمدة أليافٍ سخيّة ومساحة لحامٍ وتوصيلٍ مبكرًا أرخص بكثير من إعادة السحب في مبنى قائم."
+          ],
+          [
+            "h2",
+            "المسارات والمجاري والطاقة"
+          ],
+          [
+            "p",
+            "كابلٌ أكثر يعني سعة أكبر من الحوامل والمواسير والمجاري الصاعدة، وكثيرٌ من نقاط الراديو تسحب الآن الطاقة عبر البنية نفسها (PoE أو طاقة مستمرة عن بُعد)، ما يؤثّر في اختيار الكابل وأحجام الحزم والحرارة. تقصير المجاري هو الخطأ المكلف: إضافة ليفٍ سهلة حين يتّسع المسار، وشاقّة حين لا يتّسع."
+          ],
+          [
+            "h2",
+            "صمّم للهامش الآن"
+          ],
+          [
+            "p",
+            "الاستجابة العملية هي الهامش. حدّد أليافًا احتياطية، وأبقِ امتلاء المسار دون النقطة التي تعني فيها الإضافة التالية مجرى جديدًا، وخطّط الطاقة لنقاط الراديو الفاعلة، ورقّم كل شيء ليمدّد الفريق التالي بدل أن يعيد البناء. هذا هو المقابل السلبي لانقسام الفاعل/السلبي — الطبقة السلبية تُصمَّم لعمر المبنى، لا لخطة خلايا هذا العام."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور الكابلات المهيكلة وأعمدة الألياف بهذا الهامش، وفق TIA-568 وISO/IEC 11801، لتدعم الشبكة السلبية خطة الراديو الحالية والقادمة. إن كنت تخطّط لمبنى أو لتحديث، يمكننا مراجعة التصميم السلبي في ضوء وجهة 5G."
+          ]
         ],
         "related": [
-          ["fiber-optic-solutions", "حلول الألياف الضوئية"],
-          ["structured-cabling-solutions", "الكابلات المهيكلة"],
-          ["it-network-solutions", "حلول شبكات تقنية المعلومات"]
+          [
+            "fiber-optic-solutions",
+            "حلول الألياف الضوئية"
+          ],
+          [
+            "structured-cabling-solutions",
+            "الكابلات المهيكلة"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ]
         ]
       },
       {
@@ -138,21 +1459,1165 @@
         "dek": "شرحٌ مبسّط للانقسام، ولماذا الطبقة السلبية هي الجزء الذي لا يمكن إعادة النظر فيه لاحقًا بثمنٍ زهيد.",
         "meta": "تنقسم البنية التحتية للشبكات إلى طبقتين فاعلة وسلبية. ماذا تشمل كل منهما، ولماذا يهمّ الفرق في الميزنة والاستعداد للمستقبل، ولماذا الطبقة السلبية هي التي يجب أن تكون سخيّة.",
         "blocks": [
-          ["p", "تنقسم البنية التحتية للشبكات إلى طبقتين: فاعلة وسلبية. فرقٌ بسيط، لكن معرفة أيّهما أيّ تغيّر كيف تُموّل وتشتري وتستعدّ للمستقبل — وأيّ القرارات يمكن مراجعتها لاحقًا بثمنٍ زهيد، وأيّها لا يمكن."],
-          ["h2", "الطبقة السلبية"],
-          ["p", "البنية السلبية هي كل ما ينقل الإشارات دون أن يملك طاقةً أو ذكاءً خاصًّا به: الكابلات المهيكلة، وأعمدة الألياف، ولوحات التوصيل، والمنافذ، والخزائن، والمسارات والمجاري التي تحملها. تُصمَّم وفق معايير مثل TIA-568 وISO/IEC 11801، وبعد التركيب تعيش في الجدران والمجاري الصاعدة والأسقف طوال عمر المبنى."],
-          ["h2", "الطبقة الفاعلة"],
-          ["p", "البنية الفاعلة هي المعدّات المزوّدة بالطاقة والذكية التي تنقل البيانات وتديرها: المبدّلات، والموجّهات، ونقاط الوصول اللاسلكية، والجدران النارية، ووحدات التحكم. هي ما يتصوّره معظم الناس بوصفه “الشبكة”، وتُجدَّد بانتظام — عادةً كل بضع سنوات — كلما نمت احتياجات السعة ودارت دورات المنتجات."],
-          ["h2", "لماذا يهمّ الانقسام"],
-          ["p", "للطبقتين أعمارٌ واقتصادياتٌ مختلفة تمامًا. المعدّات الفاعلة مصمَّمة لتُستبدَل: تخطّط لها وتموّلها، وتزداد سرعةً ورخصًا كل دورة. الطبقة السلبية عكس ذلك — مدفونة، وشاقّة الوصول، ومكلفة التغيير بعد إشغال المبنى. اجعل الطبقة السلبية سخيّة وقائمة على المعايير وموثّقة جيدًا، يجد الجانب الفاعل متّسعًا لينمو فيه سنوات. قصّرها، فيصطدم بها كل تحديثٍ فاعل."],
-          ["h2", "ماذا يعني ذلك للتصميم"],
-          ["p", "قِس الطبقة السلبية لعمر المبنى، لا لمبدّل اليوم: حدّد الفئة وأعداد الألياف بهامش، وأبقِ المسارات دون الامتلاء، ورقّم ووثّق كل شيء ليمدّد العملُ المستقبلي النظام بدل التخمين. أنفق العناية الإضافية حيث يصعب التراجع، وأبقِ الطبقة الفاعلة حرّة في التطوّر."],
-          ["p", "تصمّم داتاكور الطبقتين وتركّبهما كمكاملٍ واحد — كابلات مهيكلة وألياف مقاسة للمدى الطويل، والشبكة الفاعلة فوقها — بنتائج اختبارٍ موثّقة عند التسليم. إن كنت تخطّط لبنيةٍ جديدة أو ورثت واحدةً لست واثقًا منها، يمكننا تقييمها وإخبارك بوضوحٍ أين تقف."]
+          [
+            "p",
+            "تنقسم البنية التحتية للشبكات إلى طبقتين: فاعلة وسلبية. فرقٌ بسيط، لكن معرفة أيّهما أيّ تغيّر كيف تُموّل وتشتري وتستعدّ للمستقبل — وأيّ القرارات يمكن مراجعتها لاحقًا بثمنٍ زهيد، وأيّها لا يمكن."
+          ],
+          [
+            "h2",
+            "الطبقة السلبية"
+          ],
+          [
+            "p",
+            "البنية السلبية هي كل ما ينقل الإشارات دون أن يملك طاقةً أو ذكاءً خاصًّا به: الكابلات المهيكلة، وأعمدة الألياف، ولوحات التوصيل، والمنافذ، والخزائن، والمسارات والمجاري التي تحملها. تُصمَّم وفق معايير مثل TIA-568 وISO/IEC 11801، وبعد التركيب تعيش في الجدران والمجاري الصاعدة والأسقف طوال عمر المبنى."
+          ],
+          [
+            "h2",
+            "الطبقة الفاعلة"
+          ],
+          [
+            "p",
+            "البنية الفاعلة هي المعدّات المزوّدة بالطاقة والذكية التي تنقل البيانات وتديرها: المبدّلات، والموجّهات، ونقاط الوصول اللاسلكية، والجدران النارية، ووحدات التحكم. هي ما يتصوّره معظم الناس بوصفه “الشبكة”، وتُجدَّد بانتظام — عادةً كل بضع سنوات — كلما نمت احتياجات السعة ودارت دورات المنتجات."
+          ],
+          [
+            "h2",
+            "لماذا يهمّ الانقسام"
+          ],
+          [
+            "p",
+            "للطبقتين أعمارٌ واقتصادياتٌ مختلفة تمامًا. المعدّات الفاعلة مصمَّمة لتُستبدَل: تخطّط لها وتموّلها، وتزداد سرعةً ورخصًا كل دورة. الطبقة السلبية عكس ذلك — مدفونة، وشاقّة الوصول، ومكلفة التغيير بعد إشغال المبنى. اجعل الطبقة السلبية سخيّة وقائمة على المعايير وموثّقة جيدًا، يجد الجانب الفاعل متّسعًا لينمو فيه سنوات. قصّرها، فيصطدم بها كل تحديثٍ فاعل."
+          ],
+          [
+            "h2",
+            "ماذا يعني ذلك للتصميم"
+          ],
+          [
+            "p",
+            "قِس الطبقة السلبية لعمر المبنى، لا لمبدّل اليوم: حدّد الفئة وأعداد الألياف بهامش، وأبقِ المسارات دون الامتلاء، ورقّم ووثّق كل شيء ليمدّد العملُ المستقبلي النظام بدل التخمين. أنفق العناية الإضافية حيث يصعب التراجع، وأبقِ الطبقة الفاعلة حرّة في التطوّر."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور الطبقتين وتركّبهما كمكاملٍ واحد — كابلات مهيكلة وألياف مقاسة للمدى الطويل، والشبكة الفاعلة فوقها — بنتائج اختبارٍ موثّقة عند التسليم. إن كنت تخطّط لبنيةٍ جديدة أو ورثت واحدةً لست واثقًا منها، يمكننا تقييمها وإخبارك بوضوحٍ أين تقف."
+          ]
         ],
         "related": [
-          ["structured-cabling-solutions", "الكابلات المهيكلة"],
-          ["it-network-solutions", "حلول شبكات تقنية المعلومات"],
-          ["fiber-optic-solutions", "حلول الألياف الضوئية"]
+          [
+            "structured-cabling-solutions",
+            "الكابلات المهيكلة"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ],
+          [
+            "fiber-optic-solutions",
+            "حلول الألياف الضوئية"
+          ]
+        ]
+      },
+      {
+        "slug": "choosing-an-elv-contractor-saudi-arabia",
+        "title": "كيف تختار مقاول أنظمة التيار الخفيف (ELV) في المملكة العربية السعودية",
+        "date": "12 أغسطس 2026",
+        "team": "فريق الأنظمة",
+        "iso": "2026-08-12",
+        "dek": "قائمة تحقّق عملية لفرق المشتريات: نطاق التكامل الموحّد، والالتزام بالمعايير، وموافقة الدفاع المدني، والاختبارات الموثّقة التي تميّز المقاول الجيد عن المقاول المحفوف بالمخاطر.",
+        "meta": "كيف تقيّم مقاول أنظمة التيار الخفيف ELV في السعودية: النطاق، والالتزام بـ SBC 801 والدفاع المدني، والاختبارات الموثّقة، وعقود الصيانة والمراجع.",
+        "blocks": [
+          [
+            "p",
+            "تُعدّ أنظمة التيار الخفيف (ELV) — من الكابلات المنظّمة والشبكات وكاميرات المراقبة CCTV والتحكم في الدخول وإنذار الحريق والنداء العام والأنظمة السمعية والبصرية — بمثابة الجهاز العصبي للمبنى الحديث في المملكة العربية السعودية. فحين تُصمَّم وتُنفَّذ بإتقان لا يلاحظها أحد، وحين لا تكون كذلك تظهر المشكلات في صورة فحوصات فاشلة وأعمال تعديل وتبادل للّوم بين التخصصات. لذا فإن اختيار مقاول التيار الخفيف المناسب هو من أكثر قرارات المشتريات تأثيرًا في المشروع — وقرارٌ متزايد الشيوع مع وتيرة الإنشاءات في ظل رؤية 2030. وفيما يلي إطار عملي لتقييمه."
+          ],
+          [
+            "h2",
+            "مقاول تكامل موحّد أم نطاق مجزّأ؟"
+          ],
+          [
+            "p",
+            "القرار الأول هيكلي بطبيعته. فتجزئة أنظمة التيار الخفيف بين عدة مقاولين متخصصين قد تبدو أقل تكلفة على الورق، لكنها تحمّلك أنت والمقاول الرئيسي مخاطر التكامل. فالوصلات البينية بين الأنظمة — كإطلاق إنذار الحريق لأقفال الأبواب، أو تشارُك كاميرات المراقبة CCTV والشبكة في البنية الأساسية نفسها — هي المواضع التي تتعثّر عندها المشاريع. أما مقاول التكامل الموحّد الذي يملك الكابلات والشبكات والحريق والأمن والأنظمة السمعية والبصرية ضمن تصميم واحد، فيزيل تلك المناطق الرمادية ويمنحك جهة واحدة مسؤولة عن حزمة التيار الخفيف بأكملها. اسأل عمّا إذا كان مقدّم العطاء قادرًا فعلًا على تنفيذ النطاق الكامل بنفسه أم أنه يعتمد ضمنًا على غيره."
+          ],
+          [
+            "h2",
+            "المعايير والاعتماد النظامي"
+          ],
+          [
+            "p",
+            "تتجلّى الكفاءة في المعايير التي يصمّم المقاول وفقها. فبالنسبة للكابلات المنظّمة يعني ذلك TIA-568 وISO/IEC 11801؛ ولكشف الحريق والإنذار يعني EN 54؛ وعلى جميع المستويات الالتزام بكود البناء السعودي (SBC 801) والموافقات التي تشترطها المديرية العامة للدفاع المدني. وهذه ليست اختيارية في المملكة — فأي نظام حريق أو سلامة أرواح يعجز عن الحصول على موافقة الدفاع المدني لن يُسلَّم. اطلب أن ترى كيف يوثّق المقاول التزامه بالمعايير، لا أن يكتفي بالادّعاء."
+          ],
+          [
+            "h2",
+            "الاختبار والدعم والمراجع"
+          ],
+          [
+            "p",
+            "الكابل المُركَّب ليس كالكابل المُعتمَد. أصرّ على اختبارات موثّقة — اعتماد القناة والوصلة الدائمة للنحاس والألياف، بنتائج يمكنك أرشفتها — لأن هذا السجل هو ما يحميك عند التسليم وخلال فترة الضمان. وانظر أيضًا إلى ما يحدث بعد التشغيل: فعقد الصيانة السنوي (AMC) الموثوق، واستراتيجية قطع الغيار، وأزمنة الاستجابة، تهمّ على مدى عمر المبنى أكثر من سعر التركيب. وأخيرًا، اطلب مراجع يمكنك التحقق منها في أعمال مماثلة، خصوصًا في مشاريع التعليم والجهات الحكومية والمؤسسات."
+          ],
+          [
+            "p",
+            "أنجزت داتاكور تكامل أنظمة التيار الخفيف والأنظمة السمعية والبصرية وشبكات تقنية المعلومات من مقرّها في الرياض منذ عام 2007 — 19 عامًا من التصميم وفق هذه المعايير ودعم عمليات التركيب باختبارات موثّقة ودعم طويل الأمد، في مشاريع مثل جامعة الأمير سطام بن عبدالعزيز (PSAU) والجامعة العربية المفتوحة وتقييم (TAQEEM). إن كنت بصدد اختيار مقاولين لمشروع قادم، فتحدّث إلى فريقنا مبكرًا؛ فأرخص الحلول هي تلك المُصمَّمة منذ البداية."
+          ]
+        ],
+        "faq": [
+          [
+            "ما هو مقاول أنظمة التيار الخفيف (ELV)؟",
+            "هو مقاول يصمّم ويركّب أنظمة المبنى التي تعمل بجهد أقل من جهد الكهرباء الرئيسي — الكابلات المنظّمة وشبكات تقنية المعلومات وكاميرات المراقبة CCTV والتحكم في الدخول وإنذار الحريق والنداء العام والأنظمة السمعية والبصرية — ويُكاملها لتعمل كنظام واحد."
+          ],
+          [
+            "هل مقاول التكامل الموحّد أفضل من عدة مقاولين منفصلين؟",
+            "في معظم المشاريع نعم. فمقاول التكامل الموحّد يملك الوصلات البينية بين الأنظمة ويمنحك جهة واحدة مسؤولة، ما يزيل المناطق الرمادية التي تتعثّر عندها المشاريع مجزّأة النطاق أثناء التشغيل والتسليم."
+          ],
+          [
+            "لماذا تهمّ موافقة الدفاع المدني؟",
+            "في المملكة العربية السعودية يجب أن تستوفي أنظمة سلامة الأرواح مثل كشف الحريق والإنذار كود البناء السعودي (SBC 801) وأن تحصل على موافقة المديرية العامة للدفاع المدني. وبدونها لا يمكن تسليم المشروع نظاميًا."
+          ]
+        ],
+        "related": [
+          [
+            "structured-cabling-solutions",
+            "حلول الكابلات المنظّمة"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ],
+          [
+            "annual-maintenance-contracts",
+            "عقود الصيانة السنوية"
+          ]
+        ]
+      },
+      {
+        "slug": "structured-cabling-standards-explained",
+        "title": "شرح معايير الكابلات المنظّمة: TIA-568 وISO/IEC 11801",
+        "date": "3 سبتمبر 2026",
+        "team": "فريق الشبكات",
+        "iso": "2026-09-03",
+        "dek": "ما الذي يحدّده فعلًا معيارا TIA-568 وISO/IEC 11801 — الفئات والدرجات، واختبار الوصلة الدائمة مقابل القناة، ولماذا يمثّل الهامش الفرق بين النجاح اليوم والنجاح بعد عشر سنوات.",
+        "meta": "شرح TIA-568 وISO/IEC 11801: فئات ودرجات الكابلات، واختبار الاعتماد، ولماذا يجعل الهامش البنية الأساسية للكابلات المنظّمة جاهزة للمستقبل.",
+        "blocks": [
+          [
+            "p",
+            "الكابلات المنظّمة هي الجزء الوحيد من تقنية المعلومات في المبنى الذي يصعب تغييره لاحقًا بحق. فالمعدّات النشطة تُستبدل كل بضع سنوات، أما الكابلات داخل الجدران والقنوات والأسقف فيُتوقَّع أن تدوم عقدًا أو أكثر. وتحكم عائلتان من المعايير كيفية تصميم هذه الكابلات وتركيبها واختبارها: TIA-568 (الأمريكي الشمالي، الصادر عن TIA) وISO/IEC 11801 (الدولي). وفهم ما يغطّيه كلٌّ منهما يساعدك على تحديد بنية أساسية تظل تؤدّي وظيفتها بعد استبدال أول مبدّلات بوقت طويل."
+          ],
+          [
+            "h2",
+            "ما الذي تغطّيه المعايير فعلًا"
+          ],
+          [
+            "p",
+            "يصف كلا المعيارين نظام كابلات عامًّا — الطوبولوجيا والمسافات والموصّلات والأداء الذي ينبغي أن يتوفّر في المبنى بصرف النظر عن التطبيقات التي ستعمل عليه. وهما يحدّدان التسلسل المألوف من مرافق الدخول وغرف المعدّات والاتصالات، والكابلات الرأسية والأفقية، ومنافذ منطقة العمل. والأهم أنهما يضبطان أقصى طول للقناة (100 متر للكابلات الأفقية المجدولة المتوازنة) والأداء الذي يجب أن يستوفيه كل مكوّن. ومعيارا TIA-568 وISO/IEC 11801 متوائمان إلى حد كبير، بحيث إن النظام المُصمَّم بشكل صحيح وفق أحدهما يستوفي الآخر عمومًا."
+          ],
+          [
+            "h2",
+            "الفئات والدرجات ومعناها"
+          ],
+          [
+            "p",
+            "هنا يستخدم المعياران مفردات مختلفة للفكرة نفسها. فمعيار TIA-568 يصنّف الكابلات النحاسية حسب الفئة (Category) — Cat 6 وCat 6A وCat 8 — بينما يصنّف ISO/IEC 11801 القناة بأكملها حسب الدرجة (Class) — Class E وClass EA وClass I/II. وكل درجة أعلى ترفع عرض النطاق المدعوم ومعدّل البيانات الذي تحمله الكابلات: فمثلًا Cat 6A / Class EA يدعم 10GBASE-T على كامل مسافة 100 متر، ولهذا أصبح الخيار الافتراضي للكابلات الأفقية في المؤسسات والحرم الجامعي. واختيار الفئة هو في حقيقته اختيار للمدة التي ستبقى فيها الكابلات متقدّمة على الشبكة."
+          ],
+          [
+            "h2",
+            "لماذا تهمّ الاختبارات والاعتماد والهامش"
+          ],
+          [
+            "p",
+            "لا يكون للمعيار معنى إلا إذا ثبت أن الوصلة المركّبة تستوفيه. وهذه هي وظيفة اختبار الاعتماد: يقيس جهاز اختبار ميداني معاملات مثل فقد الإدخال والتداخل القريب من الطرف وفقد الارتداد عبر الوصلة الدائمة أو القناة الكاملة، ثم ينجح أو يفشل كل مسار مقابل حدود الفئة. والفارق بين القيمة المقيسة والحدّ هو الهامش (headroom) — والهامش هو ما يستوعب الموصّلات وكابلات التوصيل والحرارة والتقادم مستقبلًا. فالوصلة التي تنجح بالكاد اليوم هي وصلة ستفشل مع امتلاء المبنى. والإصرار على نتائج موثّقة ومعتمَدة هو ما يحوّل المعيار من ورقة إلى ضمان يمكنك الاعتماد عليه."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور الكابلات المنظّمة وتعتمدها وفق TIA-568 وISO/IEC 11801، وتسلّم سجل الاختبار الكامل بحيث يكون الأداء موثّقًا لا مفترضًا — وهو عمل قدّمناه لأكثر من 1500 عميل داخل المملكة وخارجها. إن أردت بنية أساسية للكابلات محدّدة بهامش حقيقي للعقد القادم، فإن فريقنا مستعدّ لمساعدتك على ضبط الفئة والاختبار من البداية."
+          ]
+        ],
+        "faq": [
+          [
+            "ما الفرق بين TIA-568 وISO/IEC 11801؟",
+            "هما معياران للكابلات المنظّمة يغطّيان المجال نفسه: TIA-568 هو المعيار الأمريكي الشمالي ويصنّف النحاس حسب الفئة (Category)، بينما ISO/IEC 11801 هو المعيار الدولي ويصنّف القناة حسب الدرجة (Class). والنظام المُصمَّم بشكل صحيح وفق أحدهما يستوفي الآخر عمومًا."
+          ],
+          [
+            "ماذا يثبت اختبار اعتماد الكابلات؟",
+            "يستخدم الاعتماد جهاز اختبار ميداني لقياس معاملات مثل فقد الإدخال والتداخل وفقد الارتداد على كل وصلة، ثم ينجحها أو يفشلها مقابل حدود الفئة. وهو يثبت أن الكابلات المركّبة تستوفي المعيار فعلًا، لا مجرد استخدام منتجات معتمدة."
+          ],
+          [
+            "ما هو الهامش (headroom) ولماذا يهمّ؟",
+            "الهامش هو الفارق بين الأداء المقيس للوصلة وحدّ المعيار. والهامش الوفير يستوعب كابلات التوصيل والحرارة والتقادم مستقبلًا، فتظل الوصلة ذات الهامش الجيد ناجحة لسنوات، بينما تفشل قريبًا تلك التي تنجح بالكاد عند التسليم."
+          ]
+        ],
+        "related": [
+          [
+            "structured-cabling-solutions",
+            "حلول الكابلات المنظّمة"
+          ],
+          [
+            "fiber-optic-solutions",
+            "حلول الألياف الضوئية"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ]
+        ]
+      },
+      {
+        "slug": "data-centre-design-essentials",
+        "title": "أساسيات تصميم مراكز البيانات: الطاقة والتبريد والكابلات والتكرار",
+        "date": "24 يونيو 2026",
+        "team": "فريق مراكز البيانات",
+        "iso": "2026-06-24",
+        "dek": "الطبقات الأربع التي يتقنها كل مركز بيانات مرن — الطاقة وأنظمة UPS، والتبريد وتدفّق الهواء، والكابلات المنظّمة، وتكرار N+1 الذي يبقيه عاملًا عند تعطّل أحد المكوّنات.",
+        "meta": "أساسيات تصميم مراكز البيانات: الطاقة وأنظمة UPS، وتبريد الممرات الحارة/الباردة، والكابلات المنظّمة، وتكرار N+1 والمراقبة لمنشأة مرنة.",
+        "blocks": [
+          [
+            "p",
+            "مركز البيانات ليس أقوى من أضعف أنظمته المساندة. فالخوادم ووحدات التخزين تنال الاهتمام، لكن الجهوزية يقرّرها أربع طبقات أقل بريقًا — الطاقة والتبريد والكابلات والتكرار المنسوج بينها جميعًا. وسواء كنت تبني غرفة خوادم صغيرة داخل جامعة أو منشأة مؤسسية كاملة، تنطبق مبادئ التصميم نفسها. أتقِنها فتعمل الغرفة سنوات دون متاعب، وأخطئ فيها فيتحوّل كل موجة حرّ أو هبوط للطاقة إلى حادثة."
+          ],
+          [
+            "h2",
+            "الطاقة والتبريد: الأساس"
+          ],
+          [
+            "p",
+            "يبدأ تصميم الطاقة بإمداد نظيف ومستمر. ويعني ذلك أنظمة UPS مُحجَّمة للحِمل الفعلي بزمن احتياطي مناسب، مدعومة بمولّدات للانقطاعات الطويلة، وتوزيعًا يمكن صيانته دون إيقاف الغرفة. والتبريد هو المشكلة التوأم: فكل واط من الطاقة المسحوبة يتحوّل إلى حرارة يجب إزالتها. وتستخدم الغرف الحديثة احتواء الممر الحار/الممر البارد — حيث تُرتَّب الرفوف بحيث لا يختلط هواء الإمداد البارد بهواء العادم الحار — ما يتيح تشغيل التبريد بكفاءة وقابلية للتنبّؤ أعلى. وتحجيم الطاقة والتبريد معًا لحِمل اليوم الأول ولمنحنى نمو واقعي هو أهم قرار تصميمي منفرد."
+          ],
+          [
+            "h2",
+            "الكابلات المنظّمة وتدفّق الهواء داخل الغرفة"
+          ],
+          [
+            "p",
+            "تتبع الكابلات داخل مركز البيانات المعايير نفسها المتّبعة في بقية المبنى، لكن المخاطر أعلى. فالكابلات سيّئة التخطيط تعيق تدفّق الهواء وتحبس الحرارة خلف الرفوف وتحوّل التغييرات المستقبلية إلى عمل محفوف بالمخاطر ومعطِّل. أما النهج المنظّم — من قنوات مناسبة، وكابلات نحاسية وألياف موسومة بوضوح، وطوبولوجيا مدروسة (أعلى الرف أو نهاية الصف)، ومسارات واسعة — فيبقي الغرفة باردة والتغييرات آمنة والتشخيص سريعًا. وينبغي توثيق منظومة الكابلات بالعناية نفسها التي تُركَّب بها."
+          ],
+          [
+            "h2",
+            "التكرار والمراقبة"
+          ],
+          [
+            "p",
+            "تأتي المرونة من إزالة نقاط الفشل المنفردة. والخط الأساسي الشائع هو N+1 — وحدة إضافية من كل مكوّن حرِج (وحدة UPS، وحدة تبريد، مسار طاقة) زيادة على ما يحتاجه الحِمل فعلًا — بحيث يمكن أن تتعطّل أي وحدة أو تُصان دون إخراج الغرفة عن الخدمة؛ وتضيف المستويات الأعلى مسارات مستقلة تمامًا. ولا يُوثَق بأي من ذلك ما لم يُراقَب، لذا ينبغي أن تُنبّه المراقبة البيئية ومراقبة الطاقة — الحرارة والرطوبة وحالة UPS وسحب الطاقة — قبل أن تتحوّل العتبة إلى انقطاع. فالتكرار يعالج العطل، والمراقبة تضمن معرفتك به في الوقت المناسب."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور مراكز البيانات وتنفّذها وتقيّمها بوصفها مقاول تكامل موحّد — إحدى 38 خدمة عبر 9 تخصصات — بحيث تُهندَس الطاقة والتبريد والكابلات والمراقبة لتعمل معًا لا أن تُضاف كل على حدة. إن كنت تخطّط لغرفة خوادم جديدة أو تريد تقييمًا صادقًا لغرفة قائمة، فبإمكان فريق مراكز البيانات لدينا مساعدتك على بناء التكرار الصحيح من البداية."
+          ]
+        ],
+        "faq": [
+          [
+            "ماذا يعني تكرار N+1؟",
+            "يعني N+1 توفير وحدة إضافية من كل مكوّن حرِج — وحدة UPS أو وحدة تبريد أو مسار طاقة — زيادة على ما يحتاجه الحِمل فعلًا. عندها يمكن أن تتعطّل أي وحدة واحدة أو تُخرَج للصيانة دون إسقاط مركز البيانات."
+          ],
+          [
+            "لماذا يُستخدم احتواء الممر الحار/الممر البارد؟",
+            "لأنه يرتّب الرفوف بحيث لا يختلط هواء الإمداد البارد بهواء العادم الحار. وهذا يتيح تشغيل التبريد بكفاءة وقابلية للتنبّؤ أعلى، ويتجنّب النقاط الساخنة، ويسمح للغرفة بدعم كثافات رفوف أعلى دون تبريد المساحة كلها بإفراط."
+          ],
+          [
+            "ما مدى أهمية الكابلات في مركز البيانات؟",
+            "أهمية كبيرة. فالكابلات سيّئة التخطيط تعيق تدفّق الهواء وتحبس الحرارة وتجعل التغييرات محفوفة بالمخاطر. أما منظومة الكابلات المنظّمة والموثّقة والموسومة بوضوح فتبقي الغرفة باردة، والنقل والتغيير آمنَين، وتسرّع التشخيص."
+          ]
+        ],
+        "related": [
+          [
+            "data-center-design-amp-implementation-services",
+            "خدمات تصميم وتنفيذ مراكز البيانات"
+          ],
+          [
+            "ups-systems",
+            "أنظمة UPS"
+          ],
+          [
+            "data-centre-assessment-amp-recommendations",
+            "تقييم مراكز البيانات وتوصياتها"
+          ]
+        ]
+      },
+      {
+        "slug": "single-mode-vs-multimode-fibre",
+        "title": "الألياف أحادية النمط مقابل متعددة الأنماط: اختيار بنية أساسية تدوم",
+        "date": "15 يوليو 2026",
+        "team": "فريق الأنظمة",
+        "iso": "2026-07-15",
+        "dek": "مقارنة بين OS2 وOM3 وOM4 وOM5 — كيف تتوازن المسافة وعرض النطاق والتكلفة، وقاعدة بسيطة لاختيار البنية الأساسية للألياف التي ستظل تحمل شبكتك بعد عقد من الآن.",
+        "meta": "الألياف أحادية النمط (OS2) مقابل متعددة الأنماط (OM3/OM4/OM5): المسافة وعرض النطاق والتكلفة والجهوزية للمستقبل، ومتى تستخدم كلًّا منها.",
+        "blocks": [
+          [
+            "p",
+            "الألياف الضوئية هي البنية الأساسية لكل شبكة جادّة تقريبًا — بين المباني في الحرم الجامعي، وبين الطوابق في القنوات الرأسية، وبين النواة ومركز البيانات. لكن «الألياف» ليست شيئًا واحدًا. فالاختيار بين الأحادية النمط والمتعددة الأنماط، وبين الدرجات داخل كل نوع، يحدّد مسافة البنية الأساسية وسرعتها وتكلفتها طوال عمرها. ولأن ألياف البنية الأساسية باهظة ومزعجة الاستبدال، يجدر فهم الموازنات قبل حفر الخندق أو سحب القناة الرأسية."
+          ],
+          [
+            "h2",
+            "كيف تختلف الأحادية النمط عن المتعددة الأنماط"
+          ],
+          [
+            "p",
+            "الفرق في قلب الزجاج. فالألياف متعددة الأنماط لها قلب أوسع يسمح للضوء بالانتقال عبر عدة مسارات أو أنماط؛ أما الأحادية النمط فلها قلب ضيّق جدًا يحمل مسارًا واحدًا. وهذا الفرق المادي الواحد يقود كل ما عداه. فالمتعددة الأنماط تعمل مع مصادر ضوء أرخص وتكون اقتصادية على المسافات القصيرة، لكن المسارات المتعددة تبعثر الإشارة وتحدّ من المدى الذي تصله السرعات العالية. أما الأحادية النمط فتحمل إشارة أدقّ عبر مسافات أطول بكثير وعروض نطاق أعلى، مقابل بصريات أدقّ وأغلى."
+          ],
+          [
+            "h2",
+            "الدرجات: OS2 وOM3 وOM4 وOM5"
+          ],
+          [
+            "p",
+            "داخل كل عائلة توجد درجات. فالأحادية النمط تُصنَّف OS2 للاستخدام الحديث داخليًا وخارجيًا، ويُقاس مداها بالكيلومترات. أما المتعددة الأنماط فمرّت بـ OM3 وOM4 وOM5: فـ OM3 وOM4 مُحسَّنان للّيزر لسرعات 10 و40 و100 غيغابت عبر مسافات متزايدة — مع بلوغ OM4 مدى أبعد من OM3 — بينما يضيف OM5 دعم تقسيم الطول الموجي القصير لحمل قنوات أكثر على ليف واحد. وكدليل تقريبي، يُقاس المدى العملي عالي السرعة للمتعددة الأنماط بعشرات إلى بضع مئات من الأمتار، حيث يُقاس مدى الأحادية النمط بالكيلومترات."
+          ],
+          [
+            "h2",
+            "أيّهما تختار — ومتى"
+          ],
+          [
+            "p",
+            "الجواب الصادق أنه يعتمد على المسافة والسرعة والميزانية. فبالنسبة للوصلات داخل مبنى أو عبر حرم صغير، غالبًا ما تكون المتعددة الأنماط المحسّنة للّيزر (OM4، أو OM5 حيث تُطلَب سعة قنوات إضافية) الخيار الأوفر، لأن البصريات أرخص والمسافات قصيرة. أما لبنى الحرم الأساسية، والوصلات بين المباني، والاتصالات بمركز البيانات، أو أي موضع تريد فيه أقصى هامش لترقيات السرعة المستقبلية، فإن الأحادية النمط OS2 هي الخيار الجاهز للمستقبل — فالليف نفسه لا يكلّف أكثر إلا قليلًا، ويزيل المسافة وعرض النطاق كقيدين لعقود. وكثير من المواقع جيدة التصميم تنشر النوعين معًا: الأحادية النمط للمسارات الطويلة الاستراتيجية والمتعددة الأنماط حيث تستحق مكانها."
+          ],
+          [
+            "p",
+            "بدعم من أكثر من 180 مختصًّا، تصمّم داتاكور بنى الألياف الأساسية لتناسب خطط المسافة والسرعة والنمو لكل موقع بدلًا من اللجوء افتراضيًا إلى نوع واحد، وتعتمد كل مسار عند التسليم. إن كنت تخطّط لبنية أساسية لحرم جامعي أو مركز بيانات وتريدها سريعة بعد عشر سنوات، فبإمكان فريقنا مساعدتك على اختيار الليف المناسب لكل وصلة."
+          ]
+        ],
+        "faq": [
+          [
+            "ما الفرق الرئيسي بين الألياف أحادية النمط ومتعددة الأنماط؟",
+            "الألياف أحادية النمط لها قلب ضيّق جدًا يحمل مسار ضوء واحدًا عبر مسافات طويلة وعروض نطاق عالية. أما المتعددة الأنماط فلها قلب أوسع يحمل عدة مسارات، وهو أرخص على المسافات القصيرة لكنه يحدّ من المدى الذي تصله السرعات العالية."
+          ],
+          [
+            "ماذا تعني OS2 وOM3 وOM4 وOM5؟",
+            "هي درجات للألياف. فـ OS2 ألياف أحادية النمط حديثة يُقاس مداها بالكيلومترات. وOM3 وOM4 وOM5 درجات متعددة الأنماط محسّنة للّيزر لسرعات 10 إلى 100 غيغابت عبر مسافات قصيرة متزايدة، مع إضافة OM5 سعة قنوات إضافية."
+          ],
+          [
+            "متى ينبغي استخدام الأحادية النمط بدل المتعددة الأنماط؟",
+            "استخدم الأحادية النمط OS2 للمسارات الطويلة — بنى الحرم الأساسية والوصلات بين المباني واتصالات مراكز البيانات — وحيث تريد أقصى هامش لترقيات السرعة المستقبلية. أما المتعددة الأنماط فغالبًا ما تكون أوفر للوصلات القصيرة داخل المبنى."
+          ]
+        ],
+        "related": [
+          [
+            "fiber-optic-solutions",
+            "حلول الألياف الضوئية"
+          ],
+          [
+            "structured-cabling-solutions",
+            "حلول الكابلات المنظّمة"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ]
+        ]
+      },
+      {
+        "slug": "wifi-site-survey-guide",
+        "title": "شبكة Wi-Fi تعمل فعلًا: لماذا يتفوّق مسح الموقع على التخمين",
+        "date": "28 مايو 2026",
+        "team": "فريق الشبكات",
+        "iso": "2026-05-28",
+        "dek": "المسح التنبّئي مقابل المسح الميداني، والسعة مقابل التغطية، وخطوة التحقّق التي تتجاهلها معظم المشاريع — لماذا يمثّل مسح موقع Wi-Fi الجيّد الفرق بين إشارة كاملة وشكاوى مستمرة.",
+        "meta": "لماذا يهمّ مسح موقع Wi-Fi: المسح التنبّئي مقابل الميداني، وتوزيع نقاط الوصول، والسعة مقابل التغطية، والتداخل، والتحقّق بعد التركيب.",
+        "blocks": [
+          [
+            "p",
+            "شبكة Wi-Fi هي الشبكة التي يحكم عليك المستخدمون فعليًا من خلالها، وهي الأكثر عرضة للنشر بالتخمين — نقاط وصول موزّعة بالتساوي على مخطط مع الأمل في الأفضل. وفي قاعة محاضرات أو مكتب مفتوح أو مدرسة، ينتج هذا النهج مناطق ميتة ومكالمات متقطّعة واتصالات بطيئة في المواضع الأعلى كثافة بالضبط. ويستبدل مسح الموقع التخمين بالقياس والتصميم، وهو العامل الأكبر منفردًا في ما إذا كانت الشبكة اللاسلكية تبدو سريعة أم مُحبِطة."
+          ],
+          [
+            "h2",
+            "المسح التنبّئي والميداني"
+          ],
+          [
+            "p",
+            "هناك نوعان متكاملان من المسح. المسح التنبّئي يُجرى بالبرمجيات قبل التركيب: تُنمذَج المخططات ومواد الجدران وطُرز نقاط الوصول للتنبّؤ بالتغطية وتوزيع نقاط الوصول. وهو سريع وزهيد ومثالي للتصميم والمباني الجديدة. أما المسح الميداني فيستخدم قياسًا فعليًا في المساحة الحقيقية — إما جولة نشطة/سلبية بأدوات المسح، أو اختبار «نقطة وصول على عمود» يقيس الإشارة الحيّة في المبنى الفعلي. فالتنبّئي يقارب التصميم؛ والميداني يؤكّده مقابل الواقع، ملتقطًا الجدران والزجاج والمعدن التي لا يلتقطها النموذج تمامًا."
+          ],
+          [
+            "h2",
+            "التغطية ليست كالسعة"
+          ],
+          [
+            "p",
+            "أشيع خطأ تصميمي هو التخطيط للتغطية بينما المشكلة الفعلية هي السعة. فالتغطية تسأل: «هل يستطيع جهاز سماع نقطة وصول هنا؟» والسعة تسأل: «هل تستطيع هذه القاعة خدمة مئتي جهاز في آنٍ واحد؟» فقد تغطّي نقطة وصول واحدة قاعة كبيرة بالإشارة لكنها تنهار حين يتّصل صفّ كامل من الطلاب. والأماكن عالية الكثافة — المدرّجات والفصول والمصلّيات وقاعات المؤتمرات — تحتاج نقاط وصول أكثر بقدرة أقل، موزّعة على القنوات بعناية، بحيث تخدم كلٌّ منها عملاء أقل. والتصميم لعدد الأجهزة في ساعة الذروة، لا لمساحة الأرضية وحدها، هو ما يفرّق المسح عن الرسم التخطيطي."
+          ],
+          [
+            "h2",
+            "التداخل والتحقّق"
+          ],
+          [
+            "p",
+            "تتشارك الشبكة اللاسلكية الأثير مع الجيران ونقاط الوصول الأخرى والضجيج غير Wi-Fi، لذا يخطّط المسح الجيّد أيضًا لتوزيع القنوات ومستويات القدرة لتقليل التداخل المشترك في القناة — فتضارب نقاط الوصول فيما بينها سبب رئيسي لضعف الأداء. وبالقدر نفسه من الأهمية الخطوة التي تتجاهلها كثير من المشاريع: مسح تحقّق بعد التركيب. فبمجرد تركيب نقاط الوصول وتشغيلها، تجول المساحة مجددًا وتقيس الإشارة والإنتاجية والتجوال الفعلية مقابل أهداف التصميم. وهذا التحقّق هو ما يحوّل «لقد ركّبنا نقاط الوصول» إلى «يمكننا إثبات توفّر التغطية والسعة»."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور الشبكات اللاسلكية انطلاقًا من مسح سليم وتتحقّق منها بعد التركيب، بحيث تكون التغطية والسعة موثّقتين لا مفترضتين — النهج نفسه القائم على التصميم وفق المعايير وإثبات النتائج الذي نتّبعه في الكابلات المنظّمة، في مشاريع مثل مدرسة ون وورلد الدولية (OWIS) بالرياض. إن كانت شبكة Wi-Fi لديك قيد التخطيط أو لا ترقى إلى وعدها، فبإمكان فريقنا مسحها وتصميمها والتحقّق منها."
+          ]
+        ],
+        "faq": [
+          [
+            "ما الفرق بين المسح التنبّئي والمسح الميداني لشبكة Wi-Fi؟",
+            "المسح التنبّئي ينمذج التغطية بالبرمجيات من المخططات والمواد قبل التركيب، وهو سريع ومثالي للتصميم. أما المسح الميداني فيقيس الإشارة الفعلية في المبنى الحقيقي، مؤكّدًا التصميم مقابل الجدران والزجاج والمعدن التي لا يتنبّأ بها النموذج تمامًا."
+          ],
+          [
+            "ما الفرق بين التغطية والسعة؟",
+            "التغطية هي ما إذا كان الجهاز يستطيع سماع نقطة وصول في موضع معيّن. أما السعة فهي ما إذا كانت الشبكة تستطيع خدمة كل الأجهزة في مساحة مزدحمة في آنٍ واحد. والأماكن عالية الكثافة تحتاج تصميمًا وفق عدد الأجهزة لا مساحة الأرضية وحدها."
+          ],
+          [
+            "لماذا يهمّ مسح التحقّق بعد التركيب؟",
+            "بمجرد تشغيل نقاط الوصول، يجول مسح التحقّق المساحة ويقيس الإشارة والإنتاجية والتجوال الفعلية مقابل أهداف التصميم. وهو يثبت توفّر التغطية والسعة فعلًا بدلًا من افتراض أن التركيب طابق الخطة."
+          ]
+        ],
+        "related": [
+          [
+            "wifi-solutions",
+            "حلول Wi-Fi"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ],
+          [
+            "structured-cabling-solutions",
+            "حلول الكابلات المنظّمة"
+          ]
+        ]
+      },
+      {
+        "slug": "designing-cctv-for-coverage",
+        "title": "تصميم أنظمة CCTV من أجل التغطية، لا مجرد الكاميرات",
+        "date": "12 فبراير 2026",
+        "team": "فريق الأمن",
+        "iso": "2026-02-12",
+        "dek": "عدد الكاميرات ليس خطة تغطية. يبدأ التصميم الجيد لأنظمة CCTV بتحديد ما يجب أن يراه كل موقع، ثم يعود إلى اختيار العدسات والإضاءة والتخزين ونظام إدارة الفيديو VMS.",
+        "meta": "كيفية تصميم أنظمة CCTV لتحقيق تغطية حقيقية: أنواع الكاميرات والدقة ومجال الرؤية، الأشعة تحت الحمراء IR والإضاءة، مدة الاحتفاظ ونظام VMS، وتحديد المواضع الذي يزيل النقاط العمياء.",
+        "blocks": [
+          [
+            "p",
+            "من المغري الحكم على نظام المراقبة بعدد كاميراته. لكن قد يمتلئ المبنى بالكاميرات ويظل يفوته المشهد الوحيد الذي يحتاجه التحقيق. التغطية ليست عدداً، بل القدرة على رؤية مشهد محدد، في الإضاءة المتاحة فعلاً، واسترجاع التسجيل لاحقاً. يبدأ التصميم الجيد بسؤال لكل منطقة: ماذا يجب أن تثبت هذه الكاميرا، أن شيئاً قد حدث، أم من كان هناك، أم ماذا فعل بالضبط؟"
+          ],
+          [
+            "h2",
+            "اختر الكاميرا المناسبة للمهمة"
+          ],
+          [
+            "p",
+            "تعمل الدقة ومجال الرؤية معاً، ولا يضمن أي منهما وحده صورة صالحة للاستخدام. عدسة واسعة توزّع أربعة ميغابكسل على ردهة كاملة تمنح وعياً جيداً بالموقف لكنها لن تتعرّف على وجه عند الباب البعيد. المقياس العملي هو كثافة البكسل على الهدف، إذ يضع مفهوم DORI (الكشف والملاحظة والتعرف والتحديد) متطلبات شديدة الاختلاف. تناسب الكاميرات الثابتة المشاهد المحددة؛ أما كاميرات PTZ فتغطي المساحات المفتوحة الواسعة لكنها تنظر في اتجاه واحد فقط في كل مرة؛ وتحل الكاميرات متعددة المستشعرات والبانورامية محل عدة وحدات ثابتة عند الزاوية. اختر النوع وفق المشهد، لا وفق الكتالوج."
+          ],
+          [
+            "h2",
+            "الإضاءة والعدسات والبيئة الحقيقية"
+          ],
+          [
+            "p",
+            "ترى الكاميرات الضوء لا المشاهد، لذا تحدّد البيئة جودة الصورة بقدر ما يحددها المستشعر. تحتاج المداخل ذات الإضاءة الخلفية القوية إلى مدى ديناميكي واسع وإلا تحوّلت الوجوه إلى ظلال. وتعتمد المواقف والمحيطات بعد حلول الظلام على الأشعة تحت الحمراء IR أو الضوء الأبيض، ومدى IR المعلن هو أفضل الحالات ويتقلّص مع المسافة والطقس. كما تولّد الانعكاسات والوهج والأوراق المتحركة أحداثاً كاذبة للتحليلات. إن اختيار العدسة وزاوية التركيب والإضاءة المناسبة لكل موقع عمل غير لافت، لكنه حيث تُكسب التغطية أو تُخسر."
+          ],
+          [
+            "h2",
+            "التخزين ومدة الاحتفاظ ونظام VMS"
+          ],
+          [
+            "p",
+            "تحدّد متطلبات الاحتفاظ حجم التخزين أكثر من أي عامل آخر، وكثيراً ما تفرضها اللوائح أو حاجات مراجعة الحوادث لا التفضيل. الحساب بسيط لكنه صارم: تحدّد الدقة ومعدل الإطارات ونشاط المشهد معدّل البيانات، ويقلّله ضغط H.265 الحديث، وضربه في عدد أيام الاحتفاظ يعطي السعة المطلوبة. ويربط نظام إدارة الفيديو VMS ذلك كله، من مراقبة حية وبحث جنائي سريع وتنبيهات سلامة ووصول متحكَّم فيه، بينما يحمي التكرار التسجيل الأهم."
+          ],
+          [
+            "h2",
+            "تحديد المواضع لإزالة النقاط العمياء"
+          ],
+          [
+            "p",
+            "تختبئ النقاط العمياء في الفجوات بين الكاميرات المُوجَّهة جيداً: قاعدة عمود التركيب، والمنطقة أسفل القبة مباشرة، والجهة الخلفية لممر الدخول. تُغلق هذه الفجوات مجالاتُ الرؤية المتداخلة، وارتفاعات التركيب المعقولة، وكاميرات تراقب كاميرات أخرى ضد العبث. وجولة قصيرة في الموقع بمقارنة التصميم بالواقع تكشف مشكلات أكثر من أي دراسة مكتبية."
+          ],
+          [
+            "p",
+            "بوصفها مُكاملاً واحداً يعمل وفق المعايير منذ 2007، تصمّم Datacore أنظمة CCTV حول أهداف التغطية وتوثّق الاختبارات التي تثبتها؛ تحدّث إلى فريق الأمن لدينا حول مراجعة تغطية موقعك."
+          ]
+        ],
+        "faq": [
+          [
+            "كم عدد الكاميرات التي أحتاجها للموقع؟",
+            "لا توجد نسبة ثابتة. ابدأ من المشاهد التي يجب أن تلتقطها كل منطقة والتفاصيل المطلوبة، ثم ضع الكاميرات لتغطي تلك المشاهد بتداخل. يتبع العدد خطة التغطية، لا العكس."
+          ],
+          [
+            "ما الدقة التي ينبغي أن أختارها؟",
+            "بكسلات كافية على الهدف بحسب المهمة. تحتمل النظرة العامة كثافة أقل، أما التعرّف على وجه أو لوحة مركبة فيحتاج إلى مجال رؤية أضيق أو مستشعر أعلى دقة في ذلك الموضع."
+          ],
+          [
+            "كم ينبغي أن تُحفظ التسجيلات؟",
+            "تُحدَّد مدة الاحتفاظ عادةً باللوائح أو حاجات التحقيق. وبمجرد تثبيت عدد الأيام، تحدّد الدقة ومعدل الإطارات والضغط سعة التخزين المطلوبة."
+          ]
+        ],
+        "related": [
+          [
+            "video-surveillance-solutions-amp-cctv",
+            "المراقبة بالفيديو وCCTV"
+          ],
+          [
+            "access-control-solutions",
+            "التحكم في الوصول"
+          ],
+          [
+            "parking-management-system",
+            "إدارة المواقف"
+          ]
+        ]
+      },
+      {
+        "slug": "access-control-credentials-compared",
+        "title": "التحكم في الوصول: بطاقات أم PIN أم قياسات حيوية أم الهاتف؟",
+        "date": "5 مارس 2026",
+        "team": "فريق الأمن",
+        "iso": "2026-03-05",
+        "dek": "كل بيانات اعتماد تُوازن بين الأمن والراحة. والخيار الصحيح، وغالباً ما يكون مزيجاً، يعتمد على الباب ومعدل المرور وما يجب أن يتكامل معه النظام.",
+        "meta": "مقارنة بين البطاقات وPIN والقياسات الحيوية وبيانات الاعتماد عبر الهاتف للتحكم في الوصول، إضافةً إلى منع المرور المزدوج وسجلات التدقيق والتكامل مع CCTV وإنذار الحريق.",
+        "blocks": [
+          [
+            "p",
+            "يبدو اختيار بيانات اعتماد الوصول قراراً يتعلق بالمنتج، لكنه في الحقيقة قرار يتعلق بالمخاطر. يقع كل خيار في مكان ما على خط يمتد بين الأمن والراحة، والإجابة الصادقة لمعظم المباني مزيج: نقرة سريعة عند الردهة الرئيسية وشيء أقوى على غرفة خوادم أو غرفة نقد. ولا يزال التأطير الكلاسيكي مفيداً: التحقق بشيء تملكه، أو شيء تعرفه، أو شيء أنت عليه."
+          ],
+          [
+            "h2",
+            "خيارات بيانات الاعتماد"
+          ],
+          [
+            "p",
+            "البطاقات والمفاتيح الإلكترونية مألوفة ورخيصة الإصدار، لكن صيغ التقارب القديمة يسهل استنساخها، بينما تسدّ البطاقات الذكية المشفّرة الحديثة تلك الثغرة. ولا يضيف رمز PIN شيئاً لحمله لكنه يُشارَك ويُسترَق بالنظر ويُنسى. أما القياسات الحيوية، سواء بصمة الإصبع أو الوجه أو قزحية العين، فلا يمكن إعارتها أو نسيانها في المنزل وتربط الحدث بشخص، مقابل جهد التسجيل ومعدل المرور والعناية بالخصوصية. وتلغي بيانات الاعتماد عبر الهاتف، بتقنية Bluetooth أو NFC، عملية الإصدار المادي تماماً ويسهل منحها أو إلغاؤها عن بُعد."
+          ],
+          [
+            "h2",
+            "الأمن مقابل الراحة"
+          ],
+          [
+            "p",
+            "لا توجد بيانات اعتماد واحدة تصلح لكل مكان. يكافئ المدخل المزدحم السرعة، فتُبقي البطاقة الذكية أو الهاتف الطوابير متحركة. ويبرّر الباب عالي الأمن استخدام عاملين، بطاقة مع PIN أو بطاقة مع بصمة، بحيث لا تفتح بيانات اعتماد مفقودة وحدها شيئاً. والفخّ هو تطبيق أقصى درجات الأمن على كل باب، ما يُحبط المستخدمين حتى يُبقوا الأبواب مفتوحة ويُبطلوا النظام. طابق عدد العوامل مع المخاطر خلف كل باب. وفي الممارسة، أفضل المنظومات هادئة بشأن الأمن، تحمي الأبواب المهمة دون إبطاء ما لا يهمّ منها."
+          ],
+          [
+            "h2",
+            "ما بعد الباب: منع المرور المزدوج وسجلات التدقيق"
+          ],
+          [
+            "p",
+            "بيانات الاعتماد ليست إلا الواجهة. يمنع منع المرور المزدوج (anti-passback) تمرير بطاقة واحدة لدخول ثانٍ ويدعم دقة إحصاء المتواجدين لأغراض التجمّع. وتحدّ الجداول الزمنية ممّن يدخل ومتى، ويسجّل سجل تدقيق كامل كل منح ورفض بحسب الشخص والباب والوقت. تحوّل هذه الميزات مجموعة من الأقفال إلى نظام يمكنك استجوابه بعد أي حدث وإعداد تقارير عنه بثقة."
+          ],
+          [
+            "h2",
+            "التحدث إلى CCTV وإنذار الحريق"
+          ],
+          [
+            "p",
+            "يثبت التحكم في الوصول جدارته حين يتكامل. فربط كل حدث وصول بلقطات الكاميرا يتيح للمشغّل أن يرى، لا أن يقرأ فحسب، من استخدم بيانات الاعتماد ويحسم نزاعات التسلّل بسرعة. والتكامل مع إنذار الحريق ليس خياراً بل سلامة أرواح: عند الإنذار، يجب أن تفشل أبواب مسارات الهروب بأمان وتُفتَح كي لا يُسدّ الخروج أبداً، مهما كانت سياسة الوصول."
+          ],
+          [
+            "p",
+            "تُكامل Datacore أنظمة التحكم في الوصول مع CCTV وأنظمة الحريق ككلٍّ واحد مصمَّم وموثَّق بدل ثلاثة منتجات مركّبة معاً؛ اطلب من فريق الأمن لدينا رسم مزيج بيانات الاعتماد المناسب لكل باب في مبناك."
+          ]
+        ],
+        "faq": [
+          [
+            "هل القياسات الحيوية أكثر أماناً من البطاقات؟",
+            "إنها تربط الحدث بشخص ولا يمكن إعارتها، وهذا يساعد. لكن معدل المرور والتسجيل ومعالجة الخصوصية أمور مهمة، وكثيراً ما تجمع الأبواب الأقوى بين قياس حيوي أو بطاقة وعامل ثانٍ بدل الاعتماد على واحد."
+          ],
+          [
+            "هل يمكن للموظفين استخدام هواتفهم بدل البطاقات؟",
+            "نعم. تتجنّب بيانات الاعتماد عبر الهاتف بتقنية Bluetooth أو NFC طباعة البطاقات وإرسالها، ويمكن إصدارها أو إلغاؤها عن بُعد، ما يناسب المقاولين والموظفين المتناوبين."
+          ],
+          [
+            "ماذا يحدث للأبواب أثناء الحريق؟",
+            "تُضبط أبواب مسارات الهروب لتفشل بأمان وتُفتَح عند إنذار الحريق كي يتمكن الناس من الخروج دائماً. ويتجاوز سلوك سلامة الأرواح هذا قواعد الوصول العادية."
+          ]
+        ],
+        "related": [
+          [
+            "access-control-solutions",
+            "التحكم في الوصول"
+          ],
+          [
+            "video-surveillance-solutions-amp-cctv",
+            "المراقبة بالفيديو وCCTV"
+          ],
+          [
+            "fire-alarm-systems",
+            "أنظمة إنذار الحريق"
+          ]
+        ]
+      },
+      {
+        "slug": "voice-evacuation-en54-sbc801",
+        "title": "الإخلاء الصوتي وإنذار الحريق: EN 54 وSBC 801 والدفاع المدني",
+        "date": "9 أبريل 2026",
+        "team": "فريق الأنظمة",
+        "iso": "2026-04-09",
+        "dek": "النغمة تخبر الناس أن خطأً ما وقع؛ أما الصوت الواضح فيخبرهم بما يفعلون. الإخلاء الصوتي معدّات سلامة أرواح، والمعايير التي تحكمه ليست اختيارية.",
+        "meta": "كيف يختلف الإخلاء الصوتي PAVA عن أنظمة PA العادية، وأجزاء EN 54 المعنية، وكود البناء السعودي SBC 801 واعتماد الدفاع المدني، إضافةً إلى وضوح الكلام وSTI.",
+        "blocks": [
+          [
+            "p",
+            "حين يتعيّن إخلاء مبنى، لا تقول النغمة الرنّانة إلا أن شيئاً ما خطأ. أما التعليمات المنطوقة الواضحة فتقول ماذا يُفعل وإلى أين يُتّجه وأي المخارج يُتجنّب، فيتصرّف الناس بناءً عليها أسرع وبذعر أقل. لهذا صار الإخلاء الصوتي النهج المتوقع في المباني الأكبر والأعلى خطورة، ولهذا يُعامَل بوصفه معدّات سلامة أرواح لا مجرد صوتيات."
+          ],
+          [
+            "h2",
+            "PA ليس PAVA"
+          ],
+          [
+            "p",
+            "نظام النداء العام العادي للإعلانات أو الموسيقى الخلفية مصمَّم للراحة؛ أما نظام الإنذار الصوتي PAVA فمصمَّم ليظل عاملاً عند حدوث الأعطال. الفارق في التفاصيل التي تهمّ الجهات المنظِّمة: خطوط سماعات مراقَبة باستمرار، وبطاريات احتياطية تتجاوز انقطاع التيار، وأسلاك متحملة للأعطال، ومكبّرات خاضعة للإشراف مع تكرار. وقد يشغّل نظامٌ الموسيقى بإتقان ويظل مع ذلك غير قانوني للإخلاء، لأنه لم يُبنَ قط وفق تلك القواعد."
+          ],
+          [
+            "h2",
+            "المعايير: EN 54 وSBC 801 والدفاع المدني"
+          ],
+          [
+            "p",
+            "EN 54 هي العائلة الأوروبية لمعايير كشف الحريق والإنذار، وتنطبق منها عدة أجزاء هنا: EN 54-16 لمعدّات التحكم في الإنذار الصوتي، وEN 54-24 للسماعات، وEN 54-4 لمصادر الطاقة، إلى جانب أجهزة الكشف ضمن أجزاء أخرى. وفي المملكة يندرج ذلك ضمن كود البناء السعودي SBC 801، متطلبات الحماية من الحريق، ويجب أن يحصل النظام على اعتماد الدفاع المدني قبل إشغال المبنى. والتصميم وفق هذه المعايير من البداية، انسجاماً مع تطلعات السلامة في Vision 2030، يتجنّب إعادة عمل مكلفة عند التسليم."
+          ],
+          [
+            "h2",
+            "كلام يمكن فهمه فعلاً"
+          ],
+          [
+            "p",
+            "لا تنجح الرسالة الصوتية إلا إذا استطاع الناس تمييز الكلمات فوق الإنذار والصدى وتوترهم. يُقاس الوضوح موضوعياً بـ STI، وبلوغ درجة ناجحة يعتمد على تباعد السماعات وصوتيات الغرفة والصدى والتقسيم المعقول إلى مناطق، لا على مجرد ارتفاع الصوت. ويُتحقَّق منه بالقياس عند التشغيل، فيُثبَت الوضوح للغرفة المكتملة بدل افتراضه من التصميم."
+          ],
+          [
+            "h2",
+            "العمل مع كشف الحريق"
+          ],
+          [
+            "p",
+            "الإخلاء الصوتي نصف الزوج؛ وكشف الحريق نصفه الآخر. تربط خطة السبب والأثر الأحداثَ المكتشَفة بالاستجابة الصحيحة: رسائل موجَّهة إلى المناطق المتأثرة، وإخلاء مرحلي حين لا يُراد إخلاء كامل دفعة واحدة، وميكروفون لرجال الإطفاء يتجاوز الرسائل الآلية لإعطاء تعليمات حية. ويُشغَّل النظامان ويُوثَّقان معاً كي يكون سلوكهما متوقَّعاً في اليوم الذي يهمّ."
+          ],
+          [
+            "p",
+            "تصمّم Datacore أنظمة PAVA والحريق وفق EN 54 وSBC 801، وتمضي بها عبر اعتماد الدفاع المدني، وتوثّق اختبارات الوضوح التي تثبتها؛ تحدّث إلى فريق الأنظمة لدينا مبكراً في مشروعك."
+          ]
+        ],
+        "faq": [
+          [
+            "ما الفرق بين PA وPAVA؟",
+            "يتولى نظام PA الإعلانات والموسيقى. أما نظام الإنذار الصوتي PAVA فمصنَّف لسلامة الأرواح، بخطوط مراقَبة وبطاريات احتياطية وتحمّل للأعطال كي يظل عاملاً أثناء الطوارئ."
+          ],
+          [
+            "هل يحتاج نظام الإخلاء الصوتي إلى اعتماد الدفاع المدني؟",
+            "في السعودية، يجب أن تستوفي أنظمة الحريق والإخلاء كود SBC 801 وتحصل على اعتماد الدفاع المدني قبل الإشغال. والتصميم وفق EN 54 من البداية يدعم ذلك الاعتماد."
+          ],
+          [
+            "ما STI ولماذا يهمّ؟",
+            "STI مقياس لوضوح الكلام. تؤكد الدرجة الناجحة أن رسائل الإخلاء يمكن فهمها في الغرفة الحقيقية، ويُتحقَّق منها بالقياس أثناء التشغيل."
+          ]
+        ],
+        "related": [
+          [
+            "pava-public-address-amp-voice-evacuation-system",
+            "الإخلاء الصوتي PAVA"
+          ],
+          [
+            "fire-alarm-systems",
+            "أنظمة إنذار الحريق"
+          ],
+          [
+            "paga-public-address-and-general-alarm-system",
+            "النداء العام والإنذار PAGA"
+          ]
+        ]
+      },
+      {
+        "slug": "hybrid-meeting-room-av",
+        "title": "غرف الاجتماعات للعمل الهجين: أنظمة AV تعمل ببساطة",
+        "date": "21 مايو 2026",
+        "team": "فريق AV",
+        "iso": "2026-05-21",
+        "dek": "تفشل الاجتماعات الهجينة في التفاصيل الصغيرة، كأشخاص عن بُعد لا يسمعون ولا يُرَون. الغرف الموثوقة تأتي من مطابقة المنصة والأجهزة والصوتيات مع المساحة.",
+        "meta": "تصميم غرف اجتماعات هجينة تعمل فعلاً: Teams وZoom، الكاميرات والميكروفونات والسماعات، BYOD والعرض اللاسلكي، الصوتيات، التحكم بلمسة واحدة وتحجيم الغرفة.",
+        "blocks": [
+          [
+            "p",
+            "وعد الاجتماع الهجين أن يكون الحضور في الغرفة والانضمام عن بُعد متساويين تقريباً. وعادةً ما ينكسر هذا في أمور صغيرة: زميل عن بُعد لا يسمع الطرف البعيد من الطاولة، وكاميرا تُظهر تجمّعاً بعيداً من الوجوه، وخمس دقائق تُهدَر في عرض أي شيء على الشاشة. الغرف التي تعمل ببساطة ليست محظوظة؛ بل نتيجة مطابقة المنصة والأجهزة والصوتيات مع المساحة الفعلية. والهدف بسيط في قوله صعب في تحقيقه: غرفة تبدأ فيها أول نقرة الاجتماع فلا يفكّر أحد في المعدّات مجدداً."
+          ],
+          [
+            "h2",
+            "ابدأ بالمنصة وحجم الغرفة"
+          ],
+          [
+            "p",
+            "قرّر أولاً هل تشغّل الغرف منصة أصلية مثل Microsoft Teams أو Zoom على عتاد غرفة مخصص، أم تدعم الموظفين وهم يحضرون حواسيبهم، أم كليهما. ثم حجّم كل شيء وفق الغرفة. تحتاج مساحة صغيرة لأربعة أشخاص إلى كاميرا ذكية واحدة وشريط مدمج؛ بينما تحتاج قاعة مجلس لستة عشر إلى كاميرات أوسع أو متعددة وميكروفونات موزَّعة. واستخدام أجهزة معتمدة للمنصة المختارة يتجنّب مفاجآت التوافق التي تقوّض الثقة في الغرفة."
+          ],
+          [
+            "h2",
+            "الكاميرات والميكروفونات والسماعات"
+          ],
+          [
+            "p",
+            "يحكم المشاركون عن بُعد على الغرفة بقدرتهم على الرؤية والسماع بوضوح. تُبقي كاميرات التأطير التلقائي المتحدث في الصورة، ويتابع تتبّع المتحدث النقاش. وتهمّ تغطية الميكروفون أكثر: يجب أن تلتقط مصفوفات السقف أو ميكروفونات الطاولة الموضوعة جيداً كل مقعد بالتساوي، مع إلغاء الصدى كي لا يسمع الطرف البعيد صوته أبداً. وينبغي أن تنشر السماعات صوتاً متساوياً ومفهوماً عبر الغرفة دون أن يضطر الناس إلى الانحناء. وقد تمنح كاميرا واسعة ثانية، أو كاميرا محتوى موجَّهة إلى لوح الكتابة، الطرفَ البعيد سياقاً تفوته لقطة التأطير التلقائي وحدها."
+          ],
+          [
+            "h2",
+            "BYOD والعرض اللاسلكي والتحكم بلمسة واحدة"
+          ],
+          [
+            "p",
+            "ينبغي أن تكون مشاركة المحتوى سهلة للموظفين والضيوف على حدٍّ سواء. يزيل العرض اللاسلكي التدافع على المحوّلات ويتيح لزائر المشاركة دون الانضمام إلى الشبكة. ووحدة تحكم واحدة تبدأ الاجتماع بلمسة واحدة، ولوحة جدولة عند الباب، تحوّلان التقنية إلى شيء يستخدمه الناس دون تفكير. وحين يكون الانضمام إجراءً واحداً حقاً، تُستخدَم الغرف وتبدأ الاجتماعات في وقتها."
+          ],
+          [
+            "h2",
+            "لا تنسَ الصوتيات"
+          ],
+          [
+            "p",
+            "لا تستطيع أفضل الأجهزة إنقاذ غرفة رديئة. تسبّب الجدران الزجاجية الصلبة انعكاسات، ويرفع تكييف الهواء الصاخب أرضية الضوضاء، ويلطّخ الصدى الطويل الكلام. وكثيراً ما تحسّن معالجة صوتية متواضعة والاهتمام بضوضاء الخلفية المكالمةَ أكثر من أي ترقية للكاميرات أو الميكروفونات، لأنها تعالج الصوت من مصدره. وهي الجزء الأقل ظهوراً في الغرفة وأول ما يلاحظه المشاركون عن بُعد حين يكون خطأً."
+          ],
+          [
+            "p",
+            "تصمّم Datacore الغرف الهجينة وتشغّلها بوصفها مساحات مكتملة ومختبَرة لا صناديق معدّات؛ اطلب من فريق AV لدينا خطة غرفةً بغرفة عبر مكاتبك."
+          ]
+        ],
+        "faq": [
+          [
+            "هل ينبغي بناء الغرف لـ Teams أم Zoom؟",
+            "استخدم المنصة التي تشغّلها مؤسستك، على عتاد غرفة معتمد لها. وحيث يلزم كلاهما، يمكن إعداد الغرف لتشغيل واحدة أصلياً مع قبول حواسيب الضيوف للأخرى."
+          ],
+          [
+            "ما حجم إعداد الكاميرا والميكروفون الذي أحتاجه؟",
+            "يعتمد على الغرفة. تناسب الغرف الصغيرة شريطاً متكاملاً بكاميرا واحدة؛ بينما تحتاج الغرف الأكبر إلى كاميرات أوسع أو متعددة وميكروفونات موزَّعة كي يُرى كل مقعد ويُسمَع."
+          ],
+          [
+            "لماذا تبدو مكالماتنا ذات صدى؟",
+            "عادةً الغرفة لا الأجهزة. تُضعف الأسطح الصلبة والزجاج وضوضاء التكييف الصوت. وتعالج المعالجة الصوتية وإلغاء الصدى المضبوط على الغرفة معظم الشكاوى."
+          ]
+        ],
+        "related": [
+          [
+            "video-conference-solution",
+            "مؤتمرات الفيديو"
+          ],
+          [
+            "smart-meeting-room-amp-boardroom-solution",
+            "غرف الاجتماعات الذكية"
+          ],
+          [
+            "professional-audio",
+            "الصوتيات الاحترافية"
+          ]
+        ]
+      },
+      {
+        "slug": "led-video-wall-pixel-pitch",
+        "title": "اختيار كثافة البكسل لجدار الفيديو LED",
+        "date": "3 يوليو 2026",
+        "team": "فريق AV",
+        "iso": "2026-07-03",
+        "dek": "كثافة البكسل هي الرقم الوحيد الذي يقرّر ما إذا كان جدار LED يبدو حاداً أم خشناً. طابقها مع مسافة المشاهدة والبيئة قبل أن تطابقها مع الميزانية.",
+        "meta": "ماذا تعني كثافة بكسل جدار الفيديو LED، وقاعدة مسافة المشاهدة التقريبية، والداخلي مقابل الخارجي والسطوع بوحدة nits، مع حالات استخدام للردهات وغرف التحكم والقاعات والتجزئة.",
+        "blocks": [
+          [
+            "p",
+            "يُحدَّد جدار الفيديو LED بأرقام كثيرة، لكن واحداً يقرّر جودة مظهره: كثافة البكسل. اضبطها بشكل صحيح فتكون الصورة حادة من المسافة التي يقف عندها الناس فعلاً؛ واضبطها خطأً فإما أن ترى النقاط المنفردة أو تكون قد دفعت غالياً مقابل تفاصيل لا يقترب منها أحد بما يكفي لملاحظتها. من المفيد فهمها قبل أن يبدأ الحديث عن الميزانية."
+          ],
+          [
+            "h2",
+            "ماذا تعني كثافة البكسل"
+          ],
+          [
+            "p",
+            "كثافة البكسل هي المسافة بالمليمترات بين مراكز مصابيح LED المتجاورة. الكثافة الأصغر، مثل P1.5، تحشر بكسلات أكثر في المساحة نفسها، ما يعطي دقة أعلى وصورة أحدّ عن قرب، مقابل كلفة أعلى للمتر المربع. أما الكثافة الأكبر مثل P10 فتباعد بين المصابيح أكثر، وهو أرخص ومقبول تماماً حين يقف المشاهدون بعيداً. الكثافة والدقة والسعر ثلاث زوايا للقرار نفسه."
+          ],
+          [
+            "h2",
+            "قاعدة مسافة المشاهدة التقريبية"
+          ],
+          [
+            "p",
+            "نقطة بداية عملية هي أن أقرب مسافة مشاهدة مريحة بالأمتار تساوي تقريباً كثافة البكسل بالمليمترات: فجدار P2.5 يُقرأ بوضوح من نحو مترين ونصف، وجدار P4 من نحو أربعة أمتار. أقرب من ذلك تصبح البكسلات مرئية؛ وأبعد بكثير تصبح الكثافة الأدق مالاً مهدوراً. السؤال الصحيح ليس ما أدقّ جدار متاح، بل ما أقرب مسافة سيقف عندها أحد واقعياً."
+          ],
+          [
+            "h2",
+            "الداخلي والخارجي والسطوع"
+          ],
+          [
+            "p",
+            "تقرّر البيئة السطوع، المقيس بوحدة nits. يحتاج الجدار الداخلي في مساحة مضبوطة عادةً إلى بضع مئات وحتى نحو ألف وخمسمئة nits؛ أما الجدار الذي ينافس الشمس المباشرة في الخارج فيحتاج إلى عدة آلاف. وتحتاج الجدران الخارجية أيضاً إلى إحكام ضد الطقس بتصنيف IP مناسب، وكثافة أوسع وأخشن للمسافات الأبعد، ومعدل تحديث عالٍ إن كانت الكاميرات ستصوّرها يوماً، كي لا تومض الصورة على الشاشة. فالضوء المحيط، لا التقنية وحدها، هو ما يحدّد الحدّ الأدنى للسطوع الذي يبقى الجدار عنده مقروءاً."
+          ],
+          [
+            "h2",
+            "مطابقة الكثافة مع حالة الاستخدام"
+          ],
+          [
+            "p",
+            "يشير كل موضع إلى كثافة مختلفة. جدار ردهة أو تجزئة يقترب منه الناس عن قرب يبرّر كثافة دقيقة لمظهر فاخر. وغرفة تحكم تُراقَب ساعات عن قرب تحتاج كثافة دقيقة وتشغيلاً موثوقاً على مدار الساعة. وقاعة أو ملعب يُشاهَد من أمتار كثيرة تخدمه كثافة متوسطة بسطوع عالٍ جيداً. أما لافتة خارجية فتقايض الدقة بالمتانة وشدة الإضاءة."
+          ],
+          [
+            "p",
+            "بوصفها مُكاملاً واحداً يمتد عبر تسعة تخصصات وثمانٍ وثلاثين خدمة، تحجّم Datacore جدران LED وفق الغرفة والجمهور والبيئة، ثم توثّق النتيجة؛ تحدّث إلى فريق AV لدينا حول الكثافة والسطوع المناسبين لمساحتك."
+          ]
+        ],
+        "faq": [
+          [
+            "ماذا تعطيني الكثافة الأقل للبكسل؟",
+            "بكسلات أكثر في المساحة نفسها، وبالتالي صورة أحدّ تصمد عن قرب. وتكلّف أكثر للمتر المربع، فتستحق العناء فقط حيث يقف الناس قرب الجدار."
+          ],
+          [
+            "كيف أختار الكثافة من مسافة المشاهدة؟",
+            "كقاعدة تقريبية، أقرب مسافة مشاهدة مريحة بالأمتار تساوي نحو كثافة البكسل بالمليمترات. قرّر كم سيقترب الناس، ثم اختر كثافة تطابق ذلك بدل الدفع الزائد مقابل تفاصيل لا يراها أحد."
+          ],
+          [
+            "ما السطوع الذي أحتاجه في الخارج؟",
+            "جدار خارجي ينافس ضوء الشمس يحتاج إلى عدة آلاف nits، أكثر بكثير من شاشة داخلية، إضافةً إلى إحكام ضد الطقس بتصنيف IP مناسب ومعدل تحديث عالٍ إن كان سيُصوَّر."
+          ]
+        ],
+        "related": [
+          [
+            "indoor-led-video-wall",
+            "جدار LED داخلي"
+          ],
+          [
+            "outdoor-led-video-wall",
+            "جدار LED خارجي"
+          ],
+          [
+            "digital-signage-solutions",
+            "اللافتات الرقمية"
+          ]
+        ]
+      },
+      {
+        "slug": "smart-building-elv-convergence",
+        "title": "المباني الذكية: دمج أنظمة الجهد المنخفض جداً (ELV) من أجل رؤية 2030",
+        "date": "18 يونيو 2026",
+        "team": "فريق الأنظمة",
+        "iso": "2026-06-18",
+        "dek": "كيف تتقارب الشبكة والأمن والصوتيات والمرئيات وأنظمة إدارة المباني (BMS) والإضاءة على بنية IP واحدة — ولماذا يغيّر ذلك طريقة تصميم المباني وتشغيلها وتهيئتها للمستقبل.",
+        "meta": "دليل عملي لدمج أنظمة ELV في المباني الذكية: بنية IP واحدة للشبكة والأمن والصوتيات والمرئيات والتكييف والإضاءة، مصمّمة وفق المعايير لمشاريع رؤية 2030.",
+        "blocks": [
+          [
+            "p",
+            "لعقود طويلة، نمت أنظمة الجهد المنخفض في المبنى بمعزل عن بعضها. فريق الشبكات يمدّ كابلات البيانات، ومقاول الأمن يمدّ الكابلات المحورية ووحدات التحكم الخاصة به، ومورّد الصوتيات والمرئيات يركّب مصفوفات تبديل خاصة، ومورّد نظام إدارة المبنى يوصّل المستشعرات على ناقل منفصل. كل نظام يعمل، لكن أياً منها لا يتحدث مع الآخر. المبنى الذكي يقلب هذا المنطق: فهو يتعامل مع الكابلات المهيكلة وشبكة IP باعتبارها مرفقاً مشتركاً تعتمد عليه كل الأنظمة، من التحكم في الدخول وكاميرات المراقبة إلى توزيع الصوتيات والمرئيات والتكييف والإضاءة وكشف الحريق."
+          ],
+          [
+            "h2",
+            "التحول إلى بنية IP موحّدة"
+          ],
+          [
+            "p",
+            "أصبح التقارب ممكناً لأن كل جهاز ELV تقريباً بات يتحدث IP. فالكاميرات تبث عبر الشبكة، ووحدات التحكم في الأبواب تعمل على محولات PoE، وإشارات الصوتيات والمرئيات تنتقل بتقنية AV-over-IP، وبوابات الإضاءة تدعم BACnet/IP، ومنصات إدارة المباني تجمع البيانات عبر البنية نفسها. توحيد هذه الأنظمة على نظام كابلات مهيكل مصمَّم وفق TIA-568 وISO/IEC 11801 يقلّل البنية المكرّرة، ويبسّط المسارات والمجاري، ويمنح إدارة المرافق مكاناً واحداً لمراقبة ما يفعله المبنى. كما يتيح تخطيط السعة والتكرار والأمن السيبراني مرة واحدة وبشكل شامل، بدلاً من ترقيعها في شبكات متوازية متعددة."
+          ],
+          [
+            "h2",
+            "أين يؤتي التقارب ثماره"
+          ],
+          [
+            "p",
+            "الفوائد تشغيلية بقدر ما هي تقنية. المبنى المتقارب يتيح لأنظمة الأمن والسلامة والراحة تبادل البيانات: فإنذار واحد يمكن أن يشغّل الكاميرات، ويفتح مسارات الإخلاء، ويدفع رسالة إلى شاشات العرض الرقمية في تسلسل آلي واحد. وتتحسن إدارة الطاقة عندما تغذّي الإضاءة والتكييف واستشعار الإشغال طبقة تحليلات مشتركة. وتصبح الصيانة أسهل لأن الأعطال تظهر على لوحة واحدة بدلاً من بوابة منفصلة لكل مورّد. كما تتحول التغييرات المستقبلية — تجهيز مستأجر جديد، أو إضافة طابق، أو نشر شاشات — إلى مهام تهيئة على بنية قائمة بدلاً من مشاريع كابلات جديدة. ويبقى كشف الحريق حالة خاصة: إذ يحكم تصميمَه EN 54 وSBC 801، واعتماد الدفاع المدني إلزامي، فتحافظ أنظمة سلامة الأرواح على سلامتها حتى وهي تتكامل."
+          ],
+          [
+            "h2",
+            "لماذا يهم وجود مُكامِل واحد"
+          ],
+          [
+            "p",
+            "لا يحقق التقارب قيمته إلا حين تمتلك جهةٌ واحدة الصورة الكاملة. فحين يصمّم مقاولون منفصلون كلٌّ بمعزل عن الآخر، تصبح الفواصل بين الأنظمة نقاطَ الضعف — شبكات VLAN غير متطابقة، وتبعيات غير موثقة، وتبادل اتهامات عند حدوث عطل. أما المُكامِل الواحد فيصمّم طبقات الكابلات والشبكة والأمن والصوتيات والمرئيات وإدارة المباني وفق معيار واحد، ويختبر الواجهات بينها، ويسلّم وثائق تعكس المبنى كما نُفِّذ فعلياً. وهذا هو النموذج الذي تقوم عليه المشاريع الكبرى والمدن الذكية في رؤية 2030، حيث يجب أن تتصرف آلاف الأجهزة كنظام واحد منسّق منذ اليوم الأول."
+          ],
+          [
+            "p",
+            "دمجت داتاكور أنظمة ELV المتقاربة منذ عام 2007، ويصمّم اختصاصيونا كل تخصص وفق معيار موثّق كي يعمل مبناك الذكي ككلٍّ واحد — تحدّث إلينا حول خارطة طريق للتقارب في مشروعك."
+          ]
+        ],
+        "faq": [
+          [
+            "ما الذي يُعدّ من أنظمة ELV؟",
+            "أنظمة الجهد المنخفض جداً هي شبكات البيانات والإشارة في المبنى — الكابلات المهيكلة وكاميرات المراقبة والتحكم في الدخول والصوتيات والمرئيات والنداء العام وIPTV وكشف الحريق ونظام إدارة المبنى (BMS) — في مقابل الطاقة عالية الجهد. والتقارب يجمع هذه الأنظمة على بنية IP مشتركة."
+          ],
+          [
+            "هل يجعل دمج الأنظمة كشفَ الحريق أقل أماناً؟",
+            "لا. فتصميم إنذار الحريق يظل يتبع EN 54 وSBC 801 ويتطلب اعتماد الدفاع المدني. ويمكنه مشاركة بنية الشبكة للمراقبة مع الإبقاء على مسارات الكشف والإنذار المعتمدة الخاصة به سليمة."
+          ],
+          [
+            "هل يمكن دمج مبنى قائم أم المباني الجديدة فقط؟",
+            "كلاهما. عادةً ما تنقل عمليات التحديث نظاماً فرعياً واحداً في كل مرة إلى بنية مشتركة، بدءاً بالكابلات المهيكلة، فتحصل على التقارب على مراحل دون تعطيل العمليات."
+          ]
+        ],
+        "related": [
+          [
+            "smart-building-solutions",
+            "حلول المباني الذكية"
+          ],
+          [
+            "control-system",
+            "أنظمة التحكم"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ]
+        ]
+      },
+      {
+        "slug": "control-room-soc-noc-design",
+        "title": "تصميم غرفة تحكم (SOC/NOC)",
+        "date": "2 يوليو 2026",
+        "team": "فريق الصوتيات والمرئيات",
+        "iso": "2026-07-02",
+        "dek": "ما الذي يفصل غرفة تحكم فعّالة عن مجرد جدار من الشاشات: توزيع المصادر، وKVM، وبيئة عمل المشغّلين، وخدمات الغرفة التي تُبقيها تعمل على مدار الساعة.",
+        "meta": "كيفية تصميم غرفة تحكم SOC أو NOC: جدار فيديو وتوزيع مصادر بتقنية AV-over-IP، وKVM، ووحدات تحكم للعمل المتواصل، والصوتيات والإضاءة والتكرار.",
+        "blocks": [
+          [
+            "p",
+            "غرفة التحكم هي المكان الذي تراقب فيه المؤسسة أهم عملياتها على مدار الساعة. فمركز العمليات الأمنية (SOC) يراقب الكاميرات والتحكم في الدخول والإنذارات؛ ومركز عمليات الشبكة (NOC) يراقب البنية التقنية والوصلات والتطبيقات؛ وكثير من المنشآت يجمع بينهما. وأياً كانت المهمة، يبقى التحدي التصميمي واحداً: عرض كميات هائلة من المعلومات بوضوح، وتمكين المشغّلين من التصرف بسرعة، والاستمرار في العمل على مدار الساعة دون تعثّر. والوصول إلى ذلك تخصص يمتد عبر هندسة الصوتيات والمرئيات وبيئة العمل وخدمات المبنى."
+          ],
+          [
+            "h2",
+            "جدار الفيديو وتوزيع المصادر"
+          ],
+          [
+            "p",
+            "جدار الفيديو هو الصورة المشتركة التي يعمل منها الفريق بأكمله. تُختار بلاطات LED الدقيقة أو شاشات LCD ضيقة الإطار وفق مسافة المشاهدة والسطوع وزمن التشغيل، ثم يقودها معالج قادر على وضع أي مصدر — بثّ كاميرا، لوحة معلومات، خريطة، جدول بيانات — كنافذة في أي موضع على المساحة. وخلفها، تحمل طبقة توزيع AV-over-IP المصادر عبر الشبكة كي تصل أي إشارة إلى أي شاشة أو مشغّل دون مصفوفة ثابتة. ويمتد نظام KVM بذلك إلى التحكم: فيقود المشغّلون الأجهزة الموجودة في غرفة المعدات من مكاتبهم، ما يُبقي الحرارة والضجيج خارج قاعة التشغيل مع التبديل الفوري بين الأنظمة."
+          ],
+          [
+            "h2",
+            "المشغّلون وبيئة العمل"
+          ],
+          [
+            "p",
+            "التقنية لا تنفع إلا إذا استطاع الناس الحفاظ على انتباههم إليها طوال نوبة كاملة. تُجهَّز وحدات التحكم للعمل المتواصل على مدار الساعة، مع إمكانية الجلوس والوقوف، وخطوط رؤية سليمة نحو جدار الفيديو، وتنظيم للكابلات، وأذرع شاشات موضوعة لتفادي إجهاد الرقبة والعين. وتحدّد هندسة خطوط الرؤية مدى بُعد وحدات التحكم عن الجدار وكيفية تدرّج مستويات الغرفة. كما تهم أنماط النوبات ومساحات الاستراحة ووضوح الممرات — فالمشغّل المُنهك يفوّت الأحداث مهما كانت الشاشات جيدة. وتسرّع تخطيطات وحدات التحكم الموحّدة تسليم النوبات، إذ يجد المشغّل الوافد كل عنصر تحكم حيث تركه المشغّل السابق تماماً، ووجود عدد كافٍ من المواقع مع تحوّل احتياطي معقول يُبقي القاعة مأهولة حتى حين يكون أحد المقاعد خارج الخدمة."
+          ],
+          [
+            "h2",
+            "الصوتيات والإضاءة والموثوقية"
+          ],
+          [
+            "p",
+            "الغرفة نفسها مهندَسة. المعالجة الصوتية تتحكم في الصدى كي تبقى الإنذارات والاتصالات الصوتية مفهومة. والإضاءة قابلة للتعتيم وخالية من الوهج، تبقى منخفضة بما يكفي لقراءة الشاشات لكن ساطعة بما يكفي للبقاء متيقظاً، ويُفضَّل أن تكون قابلة للضبط عبر النوبة. والموثوقية مصمَّمة من الأساس: طاقة متكررة وأنظمة UPS، وتبريد بحجم يناسب غرفة معدات كثيفة، وشبكات بلا نقطة فشل واحدة، كي لا يُعمي عطلٌ في العتاد المشغّلين أبداً. ويثبت التشغيل التجريبي الموثّق كلاً من هذه العناصر قبل دخول الغرفة الخدمة."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور بيئات SOC وNOC وتكاملها من طرف إلى طرف — جدار الفيديو، وAV-over-IP، وKVM، ووحدات التحكم وخدمات الغرفة المحيطة بها — وتختبر كل طبقة قبل التسليم؛ تواصل مع فريق الصوتيات والمرئيات لدينا لتحديد نطاق غرفة تحكمك."
+          ]
+        ],
+        "faq": [
+          [
+            "ما الفرق بين SOC وNOC؟",
+            "يركّز SOC على الأمن المادي والسيبراني — المراقبة والتحكم في الدخول ورصد التهديدات. ويركّز NOC على صحة تقنية المعلومات والشبكة — التوافر والأداء والحوادث. وكثير من المؤسسات يشغّل غرفة مدمجة تتشارك جدار الفيديو والبنية نفسها."
+          ],
+          [
+            "لماذا نستخدم AV-over-IP وKVM بدلاً من المصفوفة التقليدية؟",
+            "تتيح طبقة توزيع قائمة على IP وصول أي مصدر إلى أي شاشة أو مشغّل عبر الشبكة، وتتوسع دون إعادة تمديد الكابلات، ومع KVM تُبقي الحواسيب الساخنة والمزعجة في غرفة المعدات بينما يتحكم بها المشغّلون من القاعة."
+          ],
+          [
+            "ما الذي يجعل غرفة التحكم موثوقة بما يكفي للعمل على مدار الساعة؟",
+            "طاقة متكررة وأنظمة UPS، وتبريد بحجم الحِمل، وشبكات بلا نقطة فشل واحدة، ووحدات تحكم مصنّفة للعمل المتواصل، وتشغيل تجريبي موثّق يثبت كل نظام قبل بدء التشغيل."
+          ]
+        ],
+        "related": [
+          [
+            "soc-noc-room-solution",
+            "حلول غرف SOC/NOC"
+          ],
+          [
+            "indoor-led-video-wall",
+            "جدران LED الداخلية"
+          ],
+          [
+            "control-system",
+            "أنظمة التحكم"
+          ]
+        ]
+      },
+      {
+        "slug": "iptv-for-enterprise-hospitality",
+        "title": "IPTV للمؤسسات والتعليم والضيافة",
+        "date": "21 مايو 2026",
+        "team": "فريق الشبكات",
+        "iso": "2026-05-21",
+        "dek": "بثّ تلفزيوني مباشر، وفيديو حسب الطلب، وقنوات معلومات، وشاشات رقمية على منصة واحدة — كيف يتجاوز IPTV عبر شبكة IP حدود MATV للفنادق والحرم الجامعي والمؤسسات.",
+        "meta": "شرح IPTV للمؤسسات والتعليم والضيافة: كيف يختلف بثّ التلفزيون والفيديو حسب الطلب وقنوات المعلومات والشاشات الرقمية عبر IP عن MATV، وما الذي يجعل التوصيل موثوقاً.",
+        "blocks": [
+          [
+            "p",
+            "لا تزال أجهزة التلفزيون مهمة في الفنادق والحرم الجامعي والمستشفيات وبهو الشركات — لكن كيفية وصول الصورة إليها تغيّرت. يوزّع MATV التقليدي قنوات البث كإشارات تردد راديوي عبر الكابل المحوري إلى كل منفذ. أما IPTV فيوصّل التلفزيون كتدفقات بيانات عبر شبكة IP ذاتها التي تحمل بالفعل كل شيء آخر في المبنى. وهذا التحول وحده — من التردد الراديوي عبر الكابل المحوري إلى الفيديو عبر IP — هو ما يحوّل صفاً من أجهزة التلفزيون إلى خدمة مُدارة."
+          ],
+          [
+            "h2",
+            "IPTV مقابل MATV"
+          ],
+          [
+            "p",
+            "MATV بسيط ومتين فيما يفعله: يأخذ الإشارات الفضائية والأرضية ويدفعها إلى شاشات كثيرة. لكن كل مشاهد يرى القنوات نفسها، وإضافة الخدمات تعني إضافة كابلات، والتحكم المركزي محدود. أما IPTV فيرمّز كل قناة مرة واحدة ويبثها عبر كابلات مهيكلة مبنية وفق TIA-568 وISO/IEC 11801. ولأنه يعمل على الشبكة، فإنه يتوسع بالتهيئة بدلاً من كابل محوري جديد، ويصل إلى أي شاشة أو جهاز تصله الشبكة، ويضع كل نقطة نهاية تحت نظام إدارة واحد. وكثير من المشاريع يُبقي MATV لاستقبال البث الأساسي ويضيف IPTV فوقه لكل ما عدا ذلك."
+          ],
+          [
+            "h2",
+            "منصة واحدة، خدمات متعددة"
+          ],
+          [
+            "p",
+            "القيمة الحقيقية هي تقارب الخدمات. فعلى منصة IPTV واحدة يمكن للمشغّل تقديم تلفزيون مباشر، وفيديو حسب الطلب، وفعاليات مسجّلة ومبثوثة، وقنوات معلومات داخلية، وشاشات رقمية — كلها مُدارة من الرأس نفسه. فالفندق يعرض شاشة ترحيب بعلامته التجارية وقوائم غرف الضيوف والمحتوى المميز؛ والجامعة تبث المحاضرات وإعلانات الحرم الجامعي؛ والمستشفى يوصّل الترفيه والتثقيف للمريض عند سريره؛ ومقر الشركة يبث اللقاءات العامة والقنوات الداخلية إلى الشاشات عبر الطوابق. ولأن المحتوى مركزي، فإن تغيير قائمة القنوات أو دفع رسالة طارئة يحدث في كل مكان دفعة واحدة."
+          ],
+          [
+            "h2",
+            "إدارة المحتوى والتوصيل"
+          ],
+          [
+            "p",
+            "خلف الشاشات يقع نظام إدارة محتوى يجدول القنوات، وينظّم مكتبات الفيديو حسب الطلب، ويتحكم في أي الغرف أو المناطق ترى ماذا، ويقدّم تقارير عن الاستخدام. وتوصيله بموثوقية مسألة تصميم شبكة بقدر ما هي مسألة صوتيات ومرئيات: بثّ متعدد (multicast) للقنوات المباشرة لتوفير النطاق الترددي، وجودة خدمة (QoS) كي لا يُضغط الفيديو بسبب حركة البيانات، وسعة ومرونة كافيتان كي لا تتقطع الصورة أبداً. ويمكن أن تكون نقاط النهاية أجهزة استقبال مخصّصة أو الشاشات والأجهزة الذكية الموجودة أصلاً في الغرف، ويُضبط الوصول إلى القنوات المميزة أو المقيّدة لكل مستخدم أو لكل منطقة. وحين يُصمَّم ويُختبر بشكل صحيح، يصبح IPTV بنيةً تبني عليها المؤسسة بأكملها خدماتها، لا مجرد وسيلة لمشاهدة التلفزيون."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور أنظمة IPTV وMATV على شبكات مهندَسة وفق المعايير، كي يصل البثّ المباشر والفيديو حسب الطلب والشاشات وقنوات المعلومات بموثوقية إلى كل شاشة — تحدّث إلينا حول المنصة المناسبة لمنشأتك."
+          ]
+        ],
+        "faq": [
+          [
+            "ما الفرق بين IPTV وMATV؟",
+            "يوزّع MATV قنوات البث كإشارات تردد راديوي عبر الكابل المحوري، فيمنح كل منفذ البثّ نفسه. أما IPTV فيبثّ كل قناة كبيانات عبر شبكة IP، ويضيف إدارة مركزية ومحتوى حسب الطلب وتوصيلاً إلى أي شاشة."
+          ],
+          [
+            "هل علينا استبدال نظام MATV لدينا لاستخدام IPTV؟",
+            "ليس بالضرورة. فكثير من المواقع يُبقي MATV لاستقبال البث الأساسي ويضيف IPTV عبر شبكة البيانات للفيديو حسب الطلب وقنوات المعلومات والشاشات. والمزيج الأمثل يعتمد على مبناك وأهدافك."
+          ],
+          [
+            "هل سيُبطئ IPTV شبكة البيانات لدينا؟",
+            "ليس حين يُصمَّم بشكل صحيح. فالبثّ المتعدد للقنوات المباشرة وسياسات جودة الخدمة تُبقي حركة الفيديو فعّالة ومحمية، ولهذا يكون تصميم الشبكة محورياً في نشر IPTV موثوق."
+          ]
+        ],
+        "related": [
+          [
+            "iptv-solution",
+            "حلول IPTV"
+          ],
+          [
+            "matv-solution",
+            "حلول MATV"
+          ],
+          [
+            "digital-signage-solutions",
+            "حلول الشاشات الرقمية"
+          ]
+        ]
+      },
+      {
+        "slug": "digital-signage-that-works",
+        "title": "شاشات رقمية تستحق مكانها",
+        "date": "9 يوليو 2026",
+        "team": "فريق الصوتيات والمرئيات",
+        "iso": "2026-07-09",
+        "dek": "معظم الشاشات يُتجاهَل. ما الذي يفصل الشاشات التي تغيّر السلوك — اختيار الشاشة، ونظام إدارة المحتوى، وقياس الأثر — عن مجرد زينة باهظة على الجدار.",
+        "meta": "كيف تجعل الشاشات الرقمية فعّالة: الاختيار بين LCD وLED، واستخدام نظام إدارة محتوى للجدولة والإرشاد المكاني، وقياس الأثر الحقيقي.",
+        "blocks": [
+          [
+            "p",
+            "الشاشات رخيصة، لذلك صارت في كل مكان — ومعظمها يُتجاهَل. فشاشة تعرض عرضاً متكرراً لا يشاهده أحد هي تكلفة، لا قناة تواصل. تستحق الشاشة الرقمية مكانها حين تصل الرسالة الصحيحة إلى الشاشة الصحيحة في اللحظة الصحيحة، وحين يستطيع أحدهم إثبات أنها غيّرت سلوكاً. وهذا يتطلب تفكيراً في المحتوى والإدارة أكثر من التفكير في العتاد، وإن كان العتاد لا يزال بحاجة إلى اختيار جيد."
+          ],
+          [
+            "h2",
+            "شاشات LCD أم LED — اختيار السطح"
+          ],
+          [
+            "p",
+            "القرار الأول هو السطح. تناسب شاشات LCD التجارية معظم التطبيقات الداخلية — لوحات القوائم، وشاشات البهو، وشاشات غرف الاجتماعات، وأكشاك الإرشاد المكاني — إذ تقدّم تفصيلاً حاداً عند مسافة المشاهدة المعتادة ولوحات طويلة العمر مصنّفة للتشغيل المتواصل. أما LED ذات العرض المباشر فتتفوق في الأحجام الكبيرة وجدران الفيديو والبيئات الساطعة التي تبهت فيها شاشة LCD أو حيث تلزم مساحة متصلة بأي حجم وشكل. وتُطابَق كثافة البكسل مع مسافة المشاهدة، والسطوع مع الإضاءة المحيطة، وكلاهما مع المحتوى: فلوحة قوائم قريبة وجدار فيديو في بهو مشكلتان هندسيتان مختلفتان، لا مجرد حجمين مختلفين."
+          ],
+          [
+            "h2",
+            "نظام الإدارة هو المنتج الحقيقي"
+          ],
+          [
+            "p",
+            "العتاد يعرض الصورة؛ أما نظام إدارة المحتوى فيقرّر ماذا وأين ومتى. فنظام إدارة محتوى قادر يجدول المحتوى حسب الوقت أو اليوم أو المُحفّز، ويستهدف شاشات أو مناطق بعينها، ويحدّث مئات نقاط النهاية من مكان واحد عبر الشبكة. ويقود الإرشاد المكاني الذي يمكن تحديثه مع تغير المبنى، ويقسّم القوائم حسب أوقات اليوم كي يصبح الإفطار غداءً تلقائياً، ومع تكامله مع الأنظمة الأخرى يحوّل كل شاشة إلى قناة إشعار طارئ في ثوانٍ. كما يعني التحكم عبر الشبكة مراقبة الحالة: معرفة أن شاشة قد انطفأت قبل أن يلاحظ الزائر ذلك. وهنا تتوقف الشاشات عن كونها زينة وتصبح بنية تحتية."
+          ],
+          [
+            "h2",
+            "قياس ما إذا كانت تعمل"
+          ],
+          [
+            "p",
+            "الشاشة التي تستحق نفقتها يمكنها إثبات ذلك. يُقاس الأثر بربط المحتوى بالنتائج — زيادة مبيعات صنف مُروَّج له، أو تقصير الطوابير عند نقطة إرشاد، أو ارتفاع الحضور في فعالية مُعلَنة، أو إخلاء أسرع أثناء تمرين. وتؤكد سجلات إثبات التشغيل ما عُرِض فعلاً ومتى، وهو ما يهم للتقارير الداخلية ولأي التزامات إعلانية. ابدأ من النتيجة التي تريدها، وصمّم المحتوى وموضعه لتحقيقها، ثم اقرأ الأرقام وعدّل. وتضيف الشاشات التفاعلية إشارة أخرى تماماً، إذ تتيح للناس اختيار الوجهات أو تصفّح دليل أو طلب المساعدة، وتسجّل بدقة ما تفاعلوا معه."
+          ],
+          [
+            "p",
+            "تصمّم داتاكور الشاشات الرقمية من اختيار الشاشة إلى نظام إدارة المحتوى والتحكم عبر الشبكة، كي تقدّم شاشاتك الرسالة الصحيحة وتستطيع قياس النتيجة — تواصل مع فريق الصوتيات والمرئيات لدينا لتخطيط نشر يغطي كلفته."
+          ]
+        ],
+        "faq": [
+          [
+            "هل نستخدم شاشات LCD أم LED للشاشات الرقمية؟",
+            "تناسب شاشات LCD معظم الشاشات الداخلية — لوحات القوائم والإرشاد المكاني وشاشات البهو والغرف — عند مسافات المشاهدة المعتادة. أما LED ذات العرض المباشر فللأحجام الكبيرة وجدران الفيديو والأماكن الساطعة. والاختيار يتبع مسافة المشاهدة والإضاءة المحيطة والمحتوى."
+          ],
+          [
+            "ماذا يفعل نظام إدارة المحتوى فعلاً؟",
+            "يجدول المحتوى ويستهدفه حسب الشاشة أو المنطقة أو الوقت أو المُحفّز، ويحدّث كل نقطة نهاية من مكان واحد عبر الشبكة، ويراقب حالة الشاشات، ويسجّل ما عُرِض — فيحوّل مجموعة شاشات إلى شبكة تواصل مُدارة."
+          ],
+          [
+            "كيف نقيس ما إذا كانت الشاشات الرقمية تعمل؟",
+            "اربط المحتوى بالنتائج — مبيعات الأصناف المُروَّج لها، وأزمنة طوابير الإرشاد، وحضور الفعاليات — واستخدم سجلات إثبات التشغيل لتأكيد ما عُرِض. حدّد الهدف أولاً، ثم اقرأ الأرقام وحسّن."
+          ]
+        ],
+        "related": [
+          [
+            "digital-signage-solutions",
+            "حلول الشاشات الرقمية"
+          ],
+          [
+            "indoor-led-video-wall",
+            "جدران LED الداخلية"
+          ],
+          [
+            "interactive-video-walls-tiles",
+            "جدران الفيديو التفاعلية"
+          ]
+        ]
+      },
+      {
+        "slug": "why-annual-maintenance-contracts-matter",
+        "title": "لماذا يحمي عقد الصيانة السنوي (AMC) استثمارك",
+        "date": "30 أبريل 2026",
+        "team": "فريق الأنظمة",
+        "iso": "2026-04-30",
+        "dek": "يوم يغادر المُركِّب، تبدأ أنظمتك بالتقادم. كيف تحمي الصيانة الوقائية، واتفاقيات مستوى زمن الاستجابة، والمراقبة، وقطع الغيار ما دفعت ثمنه بالفعل.",
+        "meta": "لماذا يهم عقد الصيانة السنوي: الصيانة الوقائية مقابل التفاعلية، واتفاقيات مستوى زمن الاستجابة، والمراقبة الاستباقية، وقطع الغيار، وخفض التكلفة الإجمالية للملكية.",
+        "blocks": [
+          [
+            "p",
+            "تركيب أنظمة ELV استثمار رأسمالي يُفترض أن يعمل لعقد أو أكثر — الكابلات والشبكة والكاميرات والتحكم في الدخول والصوتيات والمرئيات وكشف الحريق والبرمجيات التي تربطها. ومع ذلك، فإن اليوم الذي يغادر فيه المقاول هو اليوم الذي يبدأ فيه هذا الاستثمار بالتقادم. تتخلف البرامج الثابتة، وتبلى البطاريات والأقراص، وتتراكم الأعطال الصغيرة دون أن تُرى، وتتغير المعايير. وعقد الصيانة السنوي (AMC) هو وسيلتك لحماية القيمة التي دفعتَ ثمنها بالفعل، بدلاً من انتظار عطل حرج."
+          ],
+          [
+            "h2",
+            "الصيانة الوقائية مقابل التفاعلية"
+          ],
+          [
+            "p",
+            "الخيار الجوهري هو ما إذا كنت ستصلح الأشياء قبل أن تتعطل أم بعده. تنتظر الصيانة التفاعلية وقوع العطل، ما يعني توقفاً غير مخطط له، وتكاليف استدعاء طارئ، ومشكلات تُكتشف في أسوأ لحظة ممكنة — كاميرا تُوجَد معطلة فقط حين تُطلب اللقطات، أو عطل في لوحة حريق يظهر أثناء تفتيش. أما الصيانة الوقائية فتجدول الفحص والاختبار والتنظيف وتحديث البرامج الثابتة واستبدال البطاريات بانتظام، كي تُكتشَف الأعطال وتُصحَّح وهي لا تزال طفيفة. وبالنسبة لأنظمة سلامة الأرواح التي تحكمها متطلبات EN 54 وSBC 801 والدفاع المدني، فإن الاختبار المجدول ليس اختيارياً — بل جزء من البقاء ممتثلاً."
+          ],
+          [
+            "h2",
+            "ماذا يتضمن عقد AMC الجيد"
+          ],
+          [
+            "p",
+            "عقد AMC ذو معنى هو أكثر من زيارة سنوية. فهو يحدّد اتفاقيات مستوى زمن الاستجابة (SLA)، كي تعرف مدى سرعة وصول المساعدة حين يحدث خطأ ما، بأهداف أشد صرامة للأنظمة الحرجة. ويمكن أن يشمل مراقبة استباقية عن بُعد تُنبّه إلى جهاز يوشك على العطل أو خلل في الشبكة قبل أن يتحول إلى انقطاع. ويؤمّن الوصول إلى قطع الغيار، كي يكون البديل جاهزاً بدلاً من انتظاره أسابيع في طلب توريد. وللمواقع الأكثر تطلباً يمتد إلى توفير كوادر في الموقع — فنيون متمركزون في المنشأة يعرفون الأنظمة عن كثب ويُبقونها تعمل يوماً بيوم. وكل عنصر من هذه رافعة تضبطها بما يناسب مدى حرج الأنظمة."
+          ],
+          [
+            "h2",
+            "التكلفة الإجمالية للملكية"
+          ],
+          [
+            "p",
+            "تبدو الصيانة تكلفةً حتى تقارنها بالبديل. فالتوقف غير المخطط له، والإصلاحات الطارئة، والاستبدال المبكر لمعدات مُهمَلة، والأثر التشغيلي لعدم توفر النظام، تفوق عادةً ثمن عقد مخطط له بكثير. والأنظمة جيدة الصيانة تدوم أطول، وتحافظ على أدائها، وتبقى ممتثلة، ما يخفّض التكلفة الإجمالية الحقيقية للملكية على مدى عمر التركيب. ويحوّل عقد AMC تكاليفَ الأعطال غير المتوقعة إلى بند مُتوقَّع — ويُبقي الأصل يؤدي عمله."
+          ],
+          [
+            "p",
+            "تدعم داتاكور تركيباتها بعقود AMC ومراقبة استباقية وقطع غيار وكوادر في الموقع من بين أكثر من 180 اختصاصياً، كي تظل الأنظمة التي نصممها تعمل بكفاءة لسنوات — تحدّث إلينا حول خطة صيانة تناسب موقعك."
+          ]
+        ],
+        "faq": [
+          [
+            "ما هو عقد الصيانة السنوي؟",
+            "AMC اتفاقية مستمرة لإبقاء الأنظمة المركّبة تعمل — صيانة وقائية مجدولة، وأزمنة استجابة محددة للأعطال، وغالباً مراقبة وقطع غيار ودعم في الموقع — مقابل تكلفة سنوية ثابتة بدلاً من الدفع عند كل طارئ."
+          ],
+          [
+            "أليس إصلاح الأشياء عند تعطلها أرخص؟",
+            "نادراً. فالإصلاح التفاعلي يجلب توقفاً غير مخطط له وأسعاراً طارئة وأعطالاً مبكرة للمعدات، وهي عادةً أغلى من الصيانة المخطط لها — ولأنظمة الحريق وسلامة الأرواح، يُعدّ الاختبار المجدول متطلب امتثال لا خياراً."
+          ],
+          [
+            "ما هي اتفاقية مستوى زمن الاستجابة؟",
+            "هي حدّ أقصى مُلتزَم به للاستجابة لعطل، متفق عليه في العقد ومقسّم عادةً حسب الخطورة، كي تحظى الأعطال الحرجة بأسرع اهتمام. فتحوّل عبارة سنتولى الأمر إلى مستوى خدمة قابل للقياس والمساءلة."
+          ]
+        ],
+        "related": [
+          [
+            "annual-maintenance-contracts",
+            "عقود الصيانة السنوية"
+          ],
+          [
+            "full-time-staffing-solution",
+            "حلول التوظيف المتفرغ"
+          ],
+          [
+            "it-network-solutions",
+            "حلول شبكات تقنية المعلومات"
+          ]
         ]
       }
     ]

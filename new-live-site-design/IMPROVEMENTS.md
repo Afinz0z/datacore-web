@@ -16,6 +16,16 @@ Served locally at http://localhost:8138 for verification.
 ## Changelog
 _(newest first)_
 
+- **Insights: fix + 15 new articles → 18 total (EN+AR)** — (1) fixed a bug where the hub showed only
+  1 of 3 posts (a one-space indent regression put `cards +=` outside the loop). (2) Refactored the
+  insights system to a single source of truth: `insights.json` now drives the hub, the detail pages,
+  `POST_IMG/POST_ISO`, and the sitemap. (3) Added **15 new articles ranked by value** (ELV contractor
+  choice, cabling standards, data centre, fibre, Wi-Fi, CCTV, access control, voice evacuation, hybrid
+  AV, LED pitch, smart buildings, control rooms, IPTV, signage, AMC) — each with `build_post` now
+  rendering an **on-page FAQ accordion + FAQPage schema** (previously the FAQ data was unused).
+  (4) Auto-generated **branded thumbnails** per article (`gen_insight_images.py`: dark ground, teal
+  glow, category eyebrow + Texta title). Content grounded in approved facts only (drafted with strict
+  no-invention specs); Arabic first-draft. 158 pages, 0 broken refs, no VER bump (content only).
 - **Dark mode: real token-based theme for generated pages (VER 30→31)** — the `filter:invert`
   dark mode was flipping every intentionally-dark element to bright (footer → white band, product
   photos → white squares) and muddying muted text ("too much white", products "very weird",
