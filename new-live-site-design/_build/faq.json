@@ -1,0 +1,52 @@
+{
+  "en": {
+    "title": "Frequently asked questions | Datacore Solutions",
+    "h1": "Frequently asked questions",
+    "lede": "What Datacore does, where we work, how a project runs, and how to get started.",
+    "items": [
+      ["What does Datacore Solutions do?",
+       "Datacore is a low-current (ELV) systems integrator. We design, supply, install, commission and maintain IT network infrastructure, audio-visual, data centre, surveillance & security, IPTV, and public-address & fire-alarm systems — as a single integrator, with one handover — for organisations across Saudi Arabia, the UAE and India since 2007."],
+      ["Where does Datacore operate?",
+       "We have offices in Riyadh (Saudi Arabia), Dubai (UAE) and Kozhikode (India), and deliver projects across the Kingdom and the wider Gulf region."],
+      ["How does a typical project work?",
+       "We start on site with a measured survey — not a pick from a catalogue. We then produce a design justified against your operational requirement and the relevant standard, install and commission with our own engineers and documented test results, and provide response-time-backed maintenance and scheduled preventive visits after handover."],
+      ["What standards do you design to?",
+       "It depends on the discipline — structured cabling to TIA-568 and ISO/IEC 11801, public address and fire alarm to EN 54, and so on. Every design is justified against the relevant standard and your operational requirement, then commissioned with documented test results."],
+      ["Can you handle the IT, AV and ELV scope on one project?",
+       "Yes — delivering network, audio-visual, security and life-safety systems as one integrator with a single handover is our core strength. Our One World International School (OWIS) Riyadh campus is a full example: network, Wi-Fi, access control, classroom AV and an auditorium, all by one team."],
+      ["Do you provide maintenance and support after installation?",
+       "Yes. We offer Annual Maintenance Contracts (AMC) that combine preventive maintenance, proactive monitoring and response-time-backed technical support, plus full-time staffing options for on-site cover."],
+      ["Which manufacturers do you work with?",
+       "We partner with leading global manufacturers — including Cisco, Aruba, Axis, Bosch, Crestron, Extron, Q-SYS, Shure, Honeywell, Hikvision, Samsung and more — and select equipment to fit the requirement, not the other way around."],
+      ["What kinds of organisations do you work with?",
+       "Education, government and enterprise clients, among others. Recent case studies include One World International School and Prince Sattam bin Abdulaziz University (education), TAQEEM (government) and the Arab Open University auditorium."],
+      ["How do I request a quote or consultation?",
+       "Use the contact form to tell us the building and the stage you are at, or build a request from our product catalogue. We reply within one working day."]
+    ]
+  },
+  "ar": {
+    "title": "الأسئلة الشائعة | داتاكور للحلول",
+    "h1": "الأسئلة الشائعة",
+    "lede": "ماذا تقدّم داتاكور، وأين نعمل، وكيف يسير المشروع، وكيف تبدأ.",
+    "items": [
+      ["ماذا تقدّم داتاكور للحلول؟",
+       "داتاكور مكاملٌ لأنظمة التيار المنخفض (ELV). نصمّم ونورّد ونركّب ونشغّل ونصون البنية التحتية لشبكات تقنية المعلومات، والأنظمة الصوتية والمرئية، ومراكز البيانات، والمراقبة والأمن، وحلول IPTV، وأنظمة النداء العام وإنذار الحريق — كمكاملٍ واحد وبتسليمٍ واحد — لمؤسساتٍ في السعودية والإمارات والهند منذ عام 2007."],
+      ["أين تعمل داتاكور؟",
+       "لدينا مكاتب في الرياض (السعودية) ودبي (الإمارات) وكوزيكود (الهند)، وننفّذ مشاريع في أنحاء المملكة ومنطقة الخليج الأوسع."],
+      ["كيف يسير المشروع النموذجي؟",
+       "نبدأ من الموقع بمسحٍ ميداني مقاس — لا اختيار من كتالوج. ثم نضع تصميمًا مبرَّرًا بمتطلبك التشغيلي وبالمعيار ذي الصلة، ونتولّى التركيب والتشغيل بكوادرنا وبنتائج اختبارٍ موثّقة، ونوفّر صيانةً مدعومة بزمن استجابة وزياراتٍ وقائية مجدولة بعد التسليم."],
+      ["ما المعايير التي تصمّمون وفقها؟",
+       "يعتمد ذلك على التخصص — الكابلات المهيكلة وفق TIA-568 وISO/IEC 11801، والنداء العام وإنذار الحريق وفق EN 54، وهكذا. كل تصميمٍ مبرَّرٌ بالمعيار ذي الصلة وبمتطلبك التشغيلي، ثم يُشغَّل بنتائج اختبارٍ موثّقة."],
+      ["هل يمكنكم تولّي نطاق تقنية المعلومات والصوت والصورة وأنظمة التيار المنخفض في مشروعٍ واحد؟",
+       "نعم — تقديم أنظمة الشبكات والصوت والصورة والأمن والسلامة كمكاملٍ واحد وبتسليمٍ واحد هو نقطة قوّتنا الأساسية. حرم مدرسة ون وورلد العالمية (OWIS) في الرياض مثالٌ كامل: شبكة وواي فاي وتحكّم في الدخول وأنظمة صوتية ومرئية للفصول ومسرح، كل ذلك من فريقٍ واحد."],
+      ["هل تقدّمون الصيانة والدعم بعد التركيب؟",
+       "نعم. نقدّم عقود صيانة سنوية (AMC) تجمع بين الصيانة الوقائية والمراقبة الاستباقية والدعم الفني المدعوم بزمن استجابة، إضافةً إلى خيارات توظيفٍ بدوام كامل للتغطية في الموقع."],
+      ["مع أي مصنّعين تعملون؟",
+       "نتعاون مع كبار المصنّعين العالميين — منهم Cisco وAruba وAxis وBosch وCrestron وExtron وQ-SYS وShure وHoneywell وHikvision وSamsung وغيرهم — ونختار المعدّات لتلائم المتطلّب، لا العكس."],
+      ["ما أنواع المؤسسات التي تعملون معها؟",
+       "قطاعات التعليم والجهات الحكومية والمؤسسات، من بين غيرها. تشمل دراسات الحالة الأخيرة مدرسة ون وورلد العالمية وجامعة الأمير سطام بن عبدالعزيز (التعليم)، وهيئة تقييم (قطاع حكومي)، ومسرح الجامعة العربية المفتوحة."],
+      ["كيف أطلب عرض سعرٍ أو استشارة؟",
+       "استخدم نموذج التواصل لإخبارنا بالمبنى والمرحلة التي أنت فيها، أو كوّن طلبًا من كتالوج منتجاتنا. نردّ خلال يوم عملٍ واحد."]
+    ]
+  }
+}

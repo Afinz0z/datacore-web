@@ -158,12 +158,16 @@ print("wrote legal + careers + 404 pages")
 # ── SEO / GEO scaffolding ────────────────────────────────────────────────
 SVC = json.load(open(r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data\services-copy.json",
                      encoding="utf-8"))["services"]
-pages = ["index", "about-us", "services", "products", "projects", "insights", "contact", "careers", "terms", "privacy"]
+pages = ["index", "about-us", "services", "products", "projects", "insights", "contact", "faq", "glossary", "careers", "terms", "privacy"]
 urls = []
 for p in pages:
     urls += [p + ".html", p + "-ar.html"]
 for slug in SVC:
     urls += ["service-" + slug + ".html", "service-" + slug + "-ar.html"]
+for slug in ["owis", "aou-council", "psau", "taqeem", "auditorium"]:
+    urls += ["project-" + slug + ".html", "project-" + slug + "-ar.html"]
+for slug in ["what-is-a-public-address-system", "impact-of-5g-on-passive-networks", "active-vs-passive-network-infrastructure"]:
+    urls += ["insight-" + slug + ".html", "insight-" + slug + "-ar.html"]
 
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">'.replace("www.sitemap.org", "www.sitemaps.org")]
@@ -203,7 +207,21 @@ llms = f"""# Datacore Solutions
 - {BASE}/services.html — all disciplines and services
 - {BASE}/products.html — product catalogue and quotation requests
 - {BASE}/projects.html — named project case studies
+- {BASE}/faq.html — frequently asked questions
+- {BASE}/glossary.html — plain-language definitions of ELV, AV & ICT terms
 - {BASE}/contact.html — enquiry form and office locations
+
+## Case studies
+- {BASE}/project-owis.html — One World International School, Riyadh — AV, ICT & security for a new campus, one integrator
+- {BASE}/project-psau.html — Prince Sattam bin Abdulaziz University, Al-Kharj — campus-wide smart classrooms & auditorium
+- {BASE}/project-taqeem.html — TAQEEM (Saudi Authority for Accredited Valuers), Riyadh — HQ-wide AV standardisation
+- {BASE}/project-auditorium.html — Arab Open University, Riyadh — auditorium rebuilt around a direct-view LED wall
+- {BASE}/project-aou-council.html — Arab Open University, Riyadh — council-chamber AV modernisation
+
+## Insights (articles)
+- {BASE}/insight-what-is-a-public-address-system.html — public address vs. voice evacuation (PA/VA) and the EN 54 standards
+- {BASE}/insight-impact-of-5g-on-passive-networks.html — how 5G densification drives fibre counts, pathways and containment
+- {BASE}/insight-active-vs-passive-network-infrastructure.html — the active/passive split and why the passive layer is the one to get right
 
 Note: company registration (CR) and VAT numbers shown on the site are placeholders.
 """

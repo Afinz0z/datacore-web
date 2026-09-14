@@ -6,7 +6,7 @@ HTML is not touched — these are brand-new pages the header's nav links point t
 import os, json, html, sys, re
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-ROOT = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-live-mirror"
+ROOT = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-enhanced"
 STR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mirror_strings.json"), encoding="utf-8"))
 
 def esc(s): return html.escape(str(s), quote=True)
@@ -64,6 +64,9 @@ GAL_IMG = [
 # case-study detail pages — slugs index-aligned with proj[] / PROJ_IMG
 CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium']
 CASES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "cases.json"), encoding="utf-8"))
+FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "faq.json"), encoding="utf-8"))
+GLOSSARY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "glossary.json"), encoding="utf-8"))
+INSIGHTS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "insights.json"), encoding="utf-8"))
 CASE_UI = {
  'en': {'read': 'Read the case study', 'projects': 'Projects', 'at_glance': 'At a glance',
         'client': 'Client', 'sector': 'Sector', 'location': 'Location', 'completed': 'Completed',
@@ -74,7 +77,9 @@ CASE_UI = {
         'scope': 'النطاق', 'kit': 'الأنظمة المُنفّذة', 'gallery': 'من الموقع',
         'get': 'ابدأ مشروعًا', 'get_p': 'أخبرنا بالمبنى والمرحلة التي أنت فيها.'},
 }
-POST_IMG = ['dc-blog-pa.jpg','dc-blog-5g.png','dc-blog-passive.png']
+POST_IMG = ['dc-blog-pa.jpg','dc-blog-5g.webp','dc-blog-passive.webp']
+POST_SLUG = [p['slug'] for p in INSIGHTS['en']['posts']]   # index-aligned with POST_IMG / posts
+POST_ISO  = ['2026-03-03', '2026-02-16', '2026-03-03']      # datePublished for BlogPosting schema
 # Google Maps "search + embed" (no API key, loads only when the user clicks)
 MAP_Q = ['Dabbab+Complex+Dabbab+Street+Riyadh+12626',
          'Um+Hurair+Second+Dubai+UAE',
@@ -87,7 +92,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "26"
+VER = "29"
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -348,22 +353,137 @@ def build_case(slug, ar):
     title = c["name"] + (" | داتاكور للحلول" if ar else " | Datacore Solutions")
     return shell(ar, "projects", title, c["lede"][:180], body, extra_head=head, canon="project-" + slug)
 
+# ── FAQ ───────────────────────────────────────────────────────────────────
+FAQ_CSS = ('<style>'
+  '.dcp-faq{border-block-end:1px solid var(--dcp-line,#e6ebea)}'
+  '.dcp-faq summary{cursor:pointer;padding:20px 2px;font-weight:700;font-size:1.06rem;'
+  'list-style:none;display:flex;justify-content:space-between;gap:18px;align-items:center}'
+  '.dcp-faq summary::-webkit-details-marker{display:none}'
+  '.dcp-faq summary::after{content:"+";color:var(--dcp-teal-d,#00776f);font-weight:400;'
+  'font-size:1.6rem;line-height:1;flex:none;transition:transform .2s}'
+  '.dcp-faq[open] summary::after{content:"\\2013"}'
+  '.dcp-faq-a{padding:0 2px 22px;color:var(--dcp-ink2,#555);max-width:70ch;line-height:1.75}'
+  '.dcp-faq-a p{margin:0}'
+  '</style>')
+
+def build_faq(ar):
+    lang = 'ar' if ar else 'en'; F = FAQ[lang]
+    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    ghost = 'أسئلة' if ar else 'FAQ'
+    items = ''.join(
+        f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+        f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>'
+        for q, a in F['items'])
+    body = (hero(ar, ghost, F['h1'], F['h1'], F['lede'])
+            + f'<section class="dcp-sec"><div class="dcp-wrap" style="max-width:840px">{items}</div></section>'
+            + cta_band(ar) + footer(ar))
+    schema = {"@context": "https://schema.org", "@type": "FAQPage",
+              "mainEntity": [{"@type": "Question", "name": q,
+                              "acceptedAnswer": {"@type": "Answer", "text": a}}
+                             for q, a in F['items']]}
+    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + FAQ_CSS
+    return shell(ar, 'faq', F['title'], F['lede'], body, extra_head=head, canon='faq')
+
+# ── GLOSSARY ────────────────────────────────────────────────────────────────
+GLOSSARY_CSS = ('<style>'
+  '.dcp-gloss{margin:0}'
+  '.dcp-gloss>div{padding:18px 2px;border-block-end:1px solid var(--dcp-line,#e6ebea);'
+  'display:grid;grid-template-columns:minmax(190px,1fr) 2fr;gap:8px 30px;align-items:start}'
+  '.dcp-gloss dt{margin:0;font-weight:700;font-size:1.02rem;color:var(--dcp-teal-d,#00776f)}'
+  '.dcp-gloss dd{margin:0;color:var(--dcp-ink2,#555);line-height:1.72;max-width:70ch}'
+  '@media(max-width:640px){.dcp-gloss>div{grid-template-columns:1fr;gap:5px}}'
+  '</style>')
+
+def build_glossary(ar):
+    lang = 'ar' if ar else 'en'; G = GLOSSARY[lang]
+    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    ghost = 'مسرد' if ar else 'Glossary'
+    rows = ''.join(
+        f'<div id="gloss-{i}"><dt>{E(t)}</dt><dd>{E(d)}</dd></div>'
+        for i, (t, d) in enumerate(G['terms']))
+    body = (hero(ar, ghost, G['h1'], G['h1'], G['lede'])
+            + f'<section class="dcp-sec"><div class="dcp-wrap" style="max-width:900px">'
+              f'<dl class="dcp-gloss">{rows}</dl></div></section>'
+            + cta_band(ar) + footer(ar))
+    setid = SITE + '/' + loc('glossary', ar) + '#set'
+    schema = {"@context": "https://schema.org", "@type": "DefinedTermSet", "@id": setid,
+              "name": G['title'], "inLanguage": lang,
+              "hasDefinedTerm": [{"@type": "DefinedTerm", "name": t, "description": d,
+                                  "inDefinedTermSet": {"@id": setid}} for t, d in G['terms']]}
+    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + GLOSSARY_CSS
+    return shell(ar, 'glossary', G['title'], G['lede'], body, extra_head=head, canon='glossary')
+
 # ── INSIGHTS ────────────────────────────────────────────────────────────
 def build_insights(ar):
     s = STR['ar' if ar else 'en']
     cards = ''
     for i, p in enumerate(s['posts']):
         date, team, ttl, body = p
-        cards += f"""<article class="dcp-post">
-  <div class="ph"><img src="assets1/images/{POST_IMG[i]}" alt="{esc(ttl)}" loading="lazy" width="561" height="306"></div>
+        read = 'اقرأ المقال' if ar else 'Read the article'
+    cards += f"""<article class="dcp-post">
+  <div class="ph"><a href="{loc('insight-'+POST_SLUG[i],ar)}"><img src="assets1/images/{POST_IMG[i]}" alt="{esc(ttl)}" loading="lazy" width="561" height="306"></a></div>
   <div class="in"><span class="by">{esc(date)} &middot; {esc(team)}</span>
-    <h3>{esc(ttl)}</h3><p>{esc(body)}</p>
-    <a class="dcp-dir" href="{loc('contact',ar)}">{esc(s['svc_ask'])} {I_ARROW}</a></div></article>"""
+    <h3><a href="{loc('insight-'+POST_SLUG[i],ar)}">{esc(ttl)}</a></h3><p>{esc(body)}</p>
+    <a class="dcp-dir" href="{loc('insight-'+POST_SLUG[i],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
     body = (hero(ar, 'NOTES' if not ar else 'ملاحظات', s['i_title'], s['i_title'], s['i_lede'])
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-posts">{cards}</div></div></section>'
       + cta_band(ar) + footer(ar))
     title = ('ملاحظات تقنية | داتاكور للحلول' if ar else 'Technical notes | Datacore Solutions')
     return shell(ar, 'insights', title, s['i_lede'], body)
+
+# ── INSIGHT ARTICLE (per-post detail page) ──────────────────────────────────
+POST_CSS = ('<style>'
+  '.dcp-art-fig{max-width:760px;margin:0 auto 30px;border:1px solid var(--dcp-line,#e6ebea);'
+  'border-radius:8px;overflow:hidden}'
+  '.dcp-art-fig img{width:100%;height:auto;display:block}'
+  '.dcp-article{max-width:720px;margin:0 auto}'
+  '.dcp-article p{color:var(--dcp-ink2,#444);line-height:1.8;font-size:1.05rem;margin:0 0 20px}'
+  '.dcp-article h2{font-size:1.4rem;line-height:1.3;margin:36px 0 12px;color:var(--dcp-ink,#1a202c)}'
+  '.dcp-hero .byline{color:var(--dcp-ink3,#8a949a);font-size:.9rem;margin:0 0 4px;font-weight:600;'
+  'letter-spacing:.02em}'
+  '.dcp-related{max-width:720px;margin:34px auto 0;padding:22px 24px;border:1px solid var(--dcp-line,#e6ebea);'
+  'border-radius:8px;background:var(--dcp-soft,#f5f9f8)}'
+  '.dcp-related h2{font-size:1.02rem;margin:0 0 12px;color:var(--dcp-ink,#1a202c)}'
+  '.dcp-related a{display:inline-flex;align-items:center;gap:5px;margin:0 16px 8px 0;'
+  'color:var(--dcp-teal-d,#00776f);font-weight:600;text-decoration:none}'
+  '.dcp-related a:hover{text-decoration:underline}'
+  '</style>')
+
+def build_post(i, ar):
+    lang = 'ar' if ar else 'en'
+    P = INSIGHTS[lang]['posts'][i]; s = STR[lang]
+    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    ins_lbl = 'ملاحظات تقنية' if ar else 'Insights'
+    ghost = 'ملاحظات' if ar else 'NOTES'
+    crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> '
+             f'&rsaquo; <a href="{loc("insights",ar)}">{esc(ins_lbl)}</a> '
+             f'&rsaquo; {E(P["title"])}</div>')
+    hero_html = (f'<section class="dcp-hero"><div class="dcp-ghost" aria-hidden="true">{esc(ghost)}</div>'
+                 f'<div class="dcp-wrap">{crumb}'
+                 f'<p class="byline">{E(P["date"])} &middot; {E(P["team"])}</p>'
+                 f'<h1>{E(P["title"])}</h1><p class="dcp-lede">{E(P["dek"])}</p></div></section>')
+    fig = (f'<figure class="dcp-art-fig"><img src="assets1/images/{POST_IMG[i]}" '
+           f'alt="{esc(P["title"])}" width="561" height="306"></figure>')
+    blocks = ''.join(f'<{typ}>{E(txt)}</{typ}>' for typ, txt in P['blocks'])
+    rel = ''.join(f'<a href="{loc("service-"+slug,ar)}">{E(anchor)} {I_ARROW}</a>'
+                  for slug, anchor in P['related'])
+    rel_h = 'خدمات ذات صلة' if ar else 'Related services'
+    body = (hero_html
+            + f'<section class="dcp-sec"><div class="dcp-wrap">{fig}'
+              f'<div class="dcp-article">{blocks}</div>'
+              f'<div class="dcp-related"><h2>{esc(rel_h)}</h2>{rel}</div></div></section>'
+            + cta_band(ar) + footer(ar))
+    url = SITE + '/' + loc('insight-' + P['slug'], ar)
+    schema = {"@context": "https://schema.org", "@type": "BlogPosting",
+              "headline": P['title'], "description": P['meta'],
+              "datePublished": POST_ISO[i], "inLanguage": lang,
+              "image": SITE + '/assets1/images/' + POST_IMG[i],
+              "author": {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'},
+              "publisher": {"@id": SITE + '/#org'},
+              "mainEntityOfPage": {"@type": "WebPage", "@id": url}}
+    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + POST_CSS
+    title = P['title'] + (' | داتاكور للحلول' if ar else ' | Datacore Solutions')
+    return shell(ar, 'insights', title, P['meta'], body, extra_head=head, canon='insight-' + P['slug'])
 
 # ── CONTACT ─────────────────────────────────────────────────────────────
 def build_contact(ar):
@@ -486,6 +606,10 @@ if __name__ == "__main__":
         w(loc('projects', ar), build_projects(ar))
         w(loc('insights', ar), build_insights(ar))
         w(loc('contact', ar), build_contact(ar))
+        w(loc('faq', ar), build_faq(ar))
+        w(loc('glossary', ar), build_glossary(ar))
+        for i in range(len(POST_SLUG)):
+            w(loc('insight-' + POST_SLUG[i], ar), build_post(i, ar))
         for slug in CASE_SLUG:
             w(loc('project-' + slug, ar), build_case(slug, ar))
     print("done")

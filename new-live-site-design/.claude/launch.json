@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "mirror",
+      "name": "enhanced",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8137", "-d", "C:/Users/afnan/Documents/Datacore/Datacore Website/datacore-live-mirror"],
-      "port": 8137
+      "runtimeArgs": ["-m", "http.server", "8138", "-d", "C:/Users/afnan/Documents/Datacore/Datacore Website/datacore-enhanced"],
+      "port": 8138
     }
   ]
 }

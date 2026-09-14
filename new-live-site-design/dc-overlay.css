@@ -89,6 +89,8 @@ html.dc-dark #dcx-hdr .tmoon{display:none}
 #dcx-hdr .dcx-sub a{font-size:.9375rem;font-weight:500;color:var(--ink);padding:9px 12px;
   border-radius:2px;text-decoration:none;white-space:normal;line-height:1.3;border-bottom:0}
 #dcx-hdr .dcx-sub a:hover{background:var(--accent);color:var(--accent-contrast)}
+/* simple 2-link dropdown (Resources: FAQ + Glossary) — narrower than the Services mega-panel */
+#dcx-hdr .dcx-sub.dcx-sub-simple{min-width:186px}
 
 /* Services mega-menu — second level: the services under each discipline */
 #dcx-hdr .dcx-parent2{position:relative}
@@ -261,3 +263,27 @@ html.dc-dark #dc-content iframe[title*="chat" i]{filter:none}
 .news-card:hover{transform:translateY(-6px)}
 .news-card:hover .datacore-img{box-shadow:0 18px 34px -18px rgba(20,24,28,.45)}
 @media (prefers-reduced-motion:reduce){.img-fluidz:hover,.news-card:hover{transform:none}}
+
+
+/* -- accessibility: skip link + keyboard focus ring -------------------- */
+.dcx-skip{position:fixed;top:0;inset-inline-start:8px;z-index:100001;transform:translateY(-130%);
+  background:#00776f;color:#fff;padding:11px 20px;border-radius:0 0 8px 8px;text-decoration:none;
+  font:600 14px/1 system-ui,-apple-system,"Segoe UI",sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.25);
+  transition:transform .16s ease}
+.dcx-skip:focus{transform:translateY(0);outline:none}
+#dc-content:focus{outline:none}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible,input:focus-visible,
+select:focus-visible,textarea:focus-visible,summary:focus-visible,[role="button"]:focus-visible{
+  outline:2px solid #00776f;outline-offset:2px;border-radius:3px}
+
+/* ── print: content only, black on white, no interactive chrome or dark invert ── */
+@media print{
+  #dcx-hdr,#dcx-chat,#dcx-sticky,#dcx-top,#dcx-prog,.dcx-skip,
+  .dcp-cta,.dcp-foot,.menu-cta,.dcp-ghost,.scroll-container,.service-bg{display:none!important}
+  html.dc-dark #dc-content{filter:none!important}            /* never print inverted */
+  html,body{background:#fff!important}
+  #dc-content{margin:0!important}
+  #dc-content,#dc-content *{color:#000!important;background:transparent!important;box-shadow:none!important}
+  a{text-decoration:underline}
+  figure,.dcp-card,.dcp-post,.dcp-related,.dcp-proj,.dcp-svc-shot,.dcp-gloss>div,.service-card{break-inside:avoid}
+}
