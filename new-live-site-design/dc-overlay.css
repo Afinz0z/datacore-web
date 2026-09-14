@@ -263,6 +263,14 @@ html.dc-dark body:not(.dcp) #dc-content iframe[title*="chat" i]{filter:none}
 html.dc-dark body:not(.dcp) #dc-content .custom-footer{filter:none}
 html.dc-dark body:not(.dcp) #dc-content .custom-footer img{filter:none}
 html.dc-dark body:not(.dcp) #dc-content .btn-download{filter:invert(1) hue-rotate(180deg)}
+/* A couple of live sections carry LIGHT gradients (the expert / CTA band on every
+   page; the home "success stories" projects panel). The per-block invert turns each
+   light gradient into a dark GRADIENT — the uneven "colour shading". Flatten them to
+   a solid grey whose inverted result (#ededed -> ~#121212) is a uniform dark that
+   blends with the page, so no gradient banding remains. */
+html.dc-dark body:not(.dcp) #dc-content .expert-section,
+html.dc-dark body:not(.dcp) #dc-content .mxy.containerz{
+  background-image:none!important;background-color:#ededed!important}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 /* Home-page project case-study images: hairline border + rounded corners + hover-lift (option B) */
 .project-card .image-project{box-sizing:border-box;border:1px solid #E2E8E6;border-radius:6px;
