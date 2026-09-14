@@ -311,6 +311,34 @@
     }
   }
 
+  // On the 3 live-capture pages the overlay <script> sits high in a very long
+  // <body>, so an early mount() only wraps the nodes parsed so far — the rest of
+  // the visible page parses afterwards and lands OUTSIDE #dc-content as siblings,
+  // where the dark-mode filter can never reach it (that was the "dark mode does
+  // nothing on index/about/services" bug). Once the DOM is fully parsed, sweep
+  // any such strays into #dc-content. Generated (.dcp) pages load this script at
+  // the end of <body>, so their first mount() already wraps everything — never
+  // sweep them: dc-products.js deliberately lifts the RFQ drawer OUT of
+  // #dc-content (a filtered ancestor breaks position:fixed), and a sweep would
+  // drag it back in and re-trap it.
+  function sweepStrays() {
+    var dc = document.getElementById('dc-content');
+    if (!dc || document.body.classList.contains('dcp')) return;
+    var keep = { 'dcx-skip':1, 'dcx-hdr':1, 'dc-content':1, 'dcx-chat':1,
+                 'dcx-prog':1, 'dcx-top':1, 'dcx-sticky':1 };
+    var kids = [].slice.call(document.body.children), c;
+    for (var i = 0; i < kids.length; i++) {
+      c = kids[i];
+      if (keep[c.id]) continue;
+      if (!c.id && !c.className &&
+          (c.tagName === 'SCRIPT' || c.tagName === 'STYLE' ||
+           c.tagName === 'META'   || c.tagName === 'LINK')) continue;
+      dc.appendChild(c);
+    }
+  }
+
   if (document.body) mount();
-  else document.addEventListener('DOMContentLoaded', mount);
+  if (document.readyState === 'loading')
+    document.addEventListener('DOMContentLoaded', function () { mount(); sweepStrays(); });
+  else sweepStrays();
 })();
