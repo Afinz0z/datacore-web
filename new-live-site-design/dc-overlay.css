@@ -63,8 +63,8 @@ html.dcx-scrolled #dcx-hdr .logo img{height:46px}
 #dcx-hdr .tsun{display:none}
 html.dc-dark #dcx-hdr .tsun{display:block}
 html.dc-dark #dcx-hdr .tmoon{display:none}
-#dcx-hdr .btn{display:inline-flex;align-items:center;gap:8px;border-radius:2px;
-  font-weight:600;font-size:1rem;padding:13px 24px;text-decoration:none;white-space:nowrap}
+#dcx-hdr .btn{display:inline-flex;align-items:center;gap:7px;border-radius:2px;
+  font-weight:600;font-size:.9rem;line-height:1.15;padding:10px 18px;text-decoration:none;white-space:nowrap}
 #dcx-hdr .btn-p{background:var(--accent);color:var(--accent-contrast);transition:background .2s,transform .18s,box-shadow .18s}
 #dcx-hdr .btn-p:hover{background:var(--accent-d);transform:translateY(-1px);box-shadow:0 9px 20px -9px var(--accent)}
 @media(prefers-reduced-motion:reduce){#dcx-hdr .btn-p:hover{transform:none}}
@@ -240,10 +240,17 @@ html.dc-dark #dcx-top{background:#fff}
 html.dc-dark #dcx-sticky .s-call{color:#E8EAEB;border-color:#2A2E33}
 html.dc-dark #dcx-sticky .s-call svg{color:#3BC0B3}
 
-/* ── dark mode: invert the live content, restore its media ──────────── */
-/* invert dark mode ONLY for the 3 live-capture pages (no .dcp class); the generated
-   .dcp pages use a real token-based dark theme in dc-pages.css instead. */
-html.dc-dark body:not(.dcp) #dc-content{filter:invert(1) hue-rotate(180deg)}
+/* ── dark mode for the 3 live-capture pages (no .dcp class) ───────────────
+   The generated .dcp pages use a real token-based dark theme in dc-pages.css.
+   Here we invert the captured light HTML — but PER TOP-LEVEL BLOCK, never on the
+   whole #dc-content. A CSS `filter` on an element taller than the GPU's max layer
+   size (as low as ~8192px on some GPUs) is SILENTLY DROPPED, so on a full-length
+   live page (#dc-content ≈ 14500px) a single container-level invert renders NOTHING
+   — that was the "dark mode does nothing on index/about/services" bug. Every top-
+   level section is comfortably under the limit, so per-block inversion always paints. */
+html.dc-dark body:not(.dcp){background:#0e1116}
+html.dc-dark body:not(.dcp) #dc-content{background:#0e1116}
+html.dc-dark body:not(.dcp) #dc-content > *{filter:invert(1) hue-rotate(180deg)}
 html.dc-dark body:not(.dcp) #dc-content img,
 html.dc-dark body:not(.dcp) #dc-content video,
 html.dc-dark body:not(.dcp) #dc-content iframe,
@@ -251,12 +258,11 @@ html.dc-dark body:not(.dcp) #dc-content picture,
 html.dc-dark body:not(.dcp) #dc-content .swiper-slide img,
 html.dc-dark body:not(.dcp) #dc-content .carousel-item img{filter:invert(1) hue-rotate(180deg)}
 html.dc-dark body:not(.dcp) #dc-content iframe[title*="chat" i]{filter:none}
-/* live pages: their footer + dark buttons are ALREADY dark, so the invert would flip
-   them to a bright band. Counter-invert to keep them dark; neutralise footer images so
-   they aren't inverted a third time. */
-html.dc-dark body:not(.dcp) #dc-content .custom-footer,
-html.dc-dark body:not(.dcp) #dc-content .btn-download{filter:invert(1) hue-rotate(180deg)}
+/* the source footer is ALREADY dark, so leave it un-inverted (and its logo);
+   dark buttons sit inside inverted sections, so counter-invert them back to dark. */
+html.dc-dark body:not(.dcp) #dc-content .custom-footer{filter:none}
 html.dc-dark body:not(.dcp) #dc-content .custom-footer img{filter:none}
+html.dc-dark body:not(.dcp) #dc-content .btn-download{filter:invert(1) hue-rotate(180deg)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 /* Home-page project case-study images: hairline border + rounded corners + hover-lift (option B) */
 .project-card .image-project{box-sizing:border-box;border:1px solid #E2E8E6;border-radius:6px;
