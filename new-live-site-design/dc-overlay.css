@@ -271,11 +271,37 @@ html.dc-dark body:not(.dcp) #dc-content .btn-download{filter:invert(1) hue-rotat
 html.dc-dark body:not(.dcp) #dc-content .expert-section,
 html.dc-dark body:not(.dcp) #dc-content .mxy.containerz{
   background-image:none!important;background-color:#ededed!important}
-/* Home "success stories" project cards are #fff in the source; the per-block invert
-   turns them into DEAD BLACK (#000) — darker than the #0e1116 page, so each card reads
-   as a harsh recessed block (the projects "shading"). Send them to a light grey that
-   inverts to a proper ELEVATED dark card (#e4e4e4 -> ~#1b1b1b, just above the page). */
-html.dc-dark body:not(.dcp) #dc-content .project-card{background:#e4e4e4!important}
+/* ── Dark-mode "success stories" project cards (home): bespoke curved + gradient
+   treatment. Opted OUT of the page invert for full colour control, so text + image
+   are themed by hand below (in the source the card is #fff, which the invert would
+   otherwise flatten to dead black). ── */
+html.dc-dark body:not(.dcp) #dc-content .project-card{
+  filter:none!important;
+  border-radius:16px!important;
+  overflow:hidden!important;
+  background:
+    radial-gradient(135% 100% at 10% -15%, rgba(0,172,161,.16), transparent 50%),
+    linear-gradient(168deg,#19232e 0%,#121a22 55%,#0e141a 100%)!important;
+  border:1px solid #273540!important;
+  box-shadow:0 24px 48px -28px rgba(0,0,0,.8)!important;
+  transition:transform .28s ease, box-shadow .28s ease, border-color .28s ease!important;
+}
+html.dc-dark body:not(.dcp) #dc-content .project-card:hover{
+  transform:translateY(-6px);
+  border-color:rgba(0,172,161,.5)!important;
+  box-shadow:0 34px 66px -30px rgba(0,0,0,.85), 0 0 0 1px rgba(0,172,161,.22)!important;
+}
+@media(prefers-reduced-motion:reduce){html.dc-dark body:not(.dcp) #dc-content .project-card:hover{transform:none}}
+/* image: the card isn't inverted, so don't counter-invert it; make it flush to the rounded top */
+html.dc-dark body:not(.dcp) #dc-content .project-card img{filter:none!important}
+html.dc-dark body:not(.dcp) #dc-content .project-card .image-project{border:0!important;border-radius:0!important;width:100%!important;display:block!important}
+/* text -> light (card no longer inverts) */
+html.dc-dark body:not(.dcp) #dc-content .project-card .case-studies,
+html.dc-dark body:not(.dcp) #dc-content .project-card .project-title{color:#eef2f4!important}
+html.dc-dark body:not(.dcp) #dc-content .project-card .project-desc{color:#9aa6ad!important}
+html.dc-dark body:not(.dcp) #dc-content .project-card .read7{color:#2fd0c0!important}
+/* divider -> teal fade */
+html.dc-dark body:not(.dcp) #dc-content .project-card .custom-hr{border:0!important;height:1.5px!important;opacity:1!important;background:linear-gradient(90deg,rgba(0,172,161,.6),transparent)!important}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 /* Home-page project case-study images: hairline border + rounded corners + hover-lift (option B) */
 .project-card .image-project{box-sizing:border-box;border:1px solid #E2E8E6;border-radius:6px;
