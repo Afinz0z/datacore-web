@@ -6,7 +6,7 @@
 
 <head>
 <script>try{if(localStorage.getItem("dc-theme")==="dark")document.documentElement.classList.add("dc-dark");}catch(e){}</script>
-<link rel="stylesheet" href="dc-overlay.css?v=34">
+<link rel="stylesheet" href="dc-overlay.css?v=35">
 
 
 
@@ -768,7 +768,7 @@
 
 
 
-<script src="dc-overlay.js?v=34"></script>
+<script src="dc-overlay.js?v=35"></script>
 </body>
 
 </html><style>
@@ -906,20 +906,27 @@
   }
 
   .get-btn {
-    font-family: 'Texta';
-    padding: 15px 24px;
+    display: inline-block;
+    font-family: 'Texta', 'Poppins', system-ui, sans-serif;
+    padding: 14px 34px;
     background: #05ACA1;
     color: #ffffff;
     text-decoration: none;
-    font-weight: 800;
-    font-size: .9rem;
-    line-height: 160%;
-    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 1.4px;
     text-transform: uppercase;
+    border-radius: 10px;
     margin-right: 9%;
-
-
+    transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
   }
+  .get-btn:hover {
+    background: #049387;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px -12px rgba(5, 172, 161, .8);
+  }
+  @media (prefers-reduced-motion: reduce) { .get-btn:hover { transform: none; } }
 
 
   .carousel-control-next {

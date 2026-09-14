@@ -271,6 +271,11 @@ html.dc-dark body:not(.dcp) #dc-content .btn-download{filter:invert(1) hue-rotat
 html.dc-dark body:not(.dcp) #dc-content .expert-section,
 html.dc-dark body:not(.dcp) #dc-content .mxy.containerz{
   background-image:none!important;background-color:#ededed!important}
+/* Home "success stories" project cards are #fff in the source; the per-block invert
+   turns them into DEAD BLACK (#000) — darker than the #0e1116 page, so each card reads
+   as a harsh recessed block (the projects "shading"). Send them to a light grey that
+   inverts to a proper ELEVATED dark card (#e4e4e4 -> ~#1b1b1b, just above the page). */
+html.dc-dark body:not(.dcp) #dc-content .project-card{background:#e4e4e4!important}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 /* Home-page project case-study images: hairline border + rounded corners + hover-lift (option B) */
 .project-card .image-project{box-sizing:border-box;border:1px solid #E2E8E6;border-radius:6px;
