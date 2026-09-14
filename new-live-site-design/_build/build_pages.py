@@ -93,7 +93,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "33"
+VER = "34"
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -426,7 +426,7 @@ def build_insights(ar):
     cards = ''
     for i, p in enumerate(INSIGHTS[lang]['posts']):
         cards += f"""<article class="dcp-post">
-  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}" alt="{esc(p['title'])}" loading="lazy" width="561" height="306"></a></div>
+  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" loading="lazy" width="561" height="306"></a></div>
   <div class="in"><span class="by">{E(p['date'])} &middot; {E(p['team'])}</span>
     <h3><a href="{loc('insight-'+p['slug'],ar)}">{E(p['title'])}</a></h3><p>{E(p['dek'])}</p>
     <a class="dcp-dir" href="{loc('insight-'+p['slug'],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
@@ -467,7 +467,7 @@ def build_post(i, ar):
                  f'<div class="dcp-wrap">{crumb}'
                  f'<p class="byline">{E(P["date"])} &middot; {E(P["team"])}</p>'
                  f'<h1>{E(P["title"])}</h1><p class="dcp-lede">{E(P["dek"])}</p></div></section>')
-    fig = (f'<figure class="dcp-art-fig"><img src="assets1/images/{POST_IMG[i]}" '
+    fig = (f'<figure class="dcp-art-fig"><img src="assets1/images/{POST_IMG[i]}?v={VER}" '
            f'alt="{esc(P["title"])}" width="561" height="306"></figure>')
     blocks = ''.join(f'<{typ}>{E(txt)}</{typ}>' for typ, txt in P['blocks'])
     faq = P.get('faq', [])
