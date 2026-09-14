@@ -67,6 +67,7 @@ CASES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 
 FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "faq.json"), encoding="utf-8"))
 GLOSSARY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "glossary.json"), encoding="utf-8"))
 INSIGHTS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "insights.json"), encoding="utf-8"))
+LANDING = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "landing.json"), encoding="utf-8"))
 CASE_UI = {
  'en': {'read': 'Read the case study', 'projects': 'Projects', 'at_glance': 'At a glance',
         'client': 'Client', 'sector': 'Sector', 'location': 'Location', 'completed': 'Completed',
@@ -92,7 +93,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "29"
+VER = "30"
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -195,6 +196,7 @@ def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None)
 <body class="dcp">
 {body}
 <script src="dc-overlay.js?v={VER}"></script>
+<script src="dc-forms.js?v={VER}"></script>
 {extra_js}<script src="dc-fx.js?v={VER}"></script>
 </body>
 </html>"""
@@ -218,7 +220,9 @@ def cta_band(ar):
 def footer(ar):
     s = STR['ar' if ar else 'en']
     disc = ''.join(f'<li><a href="{loc("services",ar)}?id={d[0]}">{esc(d[1] if not ar else d[2])}</a></li>'
-                   for d in DISCIPLINES[:6])
+                   for d in DISCIPLINES[:4])
+    land = ''.join(f'<li><a href="{loc(p["slug"],ar)}">{esc(p["nav"])}</a></li>'
+                   for p in LANDING['ar' if ar else 'en']['pages'])
     comp = ''.join(f'<li><a href="{loc(k,ar)}">{esc(lab)}</a></li>' for k,lab in s['f_links'])
     o0 = s['offices'][0]
     touch = (f'<li><a href="{loc("contact",ar)}">{esc(o0[2])}, {esc(o0[3])}</a></li>'
@@ -234,7 +238,7 @@ def footer(ar):
       <a href="https://www.facebook.com/www.datacore.com.sa" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0022 12z"/></svg></a>
     </div></div>
   <div><h4>{esc(s['f_company'])}</h4><ul>{comp}<li><a href="{loc('products',ar)}">{esc(s['f_catalogue'])}</a></li></ul></div>
-  <div><h4>{esc(s['f_services'])}</h4><ul>{disc}<li><a href="{loc('services',ar)}">{esc(s['f_all_disc'])}</a></li></ul></div>
+  <div><h4>{esc(s['f_services'])}</h4><ul>{land}{disc}<li><a href="{loc('services',ar)}">{esc(s['f_all_disc'])}</a></li></ul></div>
   <div><h4>{esc(s['f_touch'])}</h4><ul>{touch}</ul></div>
 </div>
 <div class="dcp-foot-btm"><span class="legal">{esc(s['f_rights'])}</span>
@@ -485,6 +489,63 @@ def build_post(i, ar):
     title = P['title'] + (' | داتاكور للحلول' if ar else ' | Datacore Solutions')
     return shell(ar, 'insights', title, P['meta'], body, extra_head=head, canon='insight-' + P['slug'])
 
+# ── SEO LANDING PAGES (query-targeted solution pages) ───────────────────────
+LANDING_KEYS = [p['slug'] for p in LANDING['en']['pages']]
+LANDING_CSS = ('<style>'
+  '.dcp-facts{display:flex;flex-wrap:wrap;gap:16px 44px;margin:22px 0 4px;padding:18px 0;'
+  'border-block:1px solid var(--dcp-line,#e6ebea)}'
+  '.dcp-facts>div{display:flex;flex-direction:column}'
+  '.dcp-facts b{font-size:1.55rem;line-height:1;color:var(--dcp-teal-d,#00776f);font-weight:700}'
+  '.dcp-facts span{font-size:.82rem;color:var(--dcp-ink3,#8a949a);margin-top:4px}'
+  '.dcp-land h2{font-size:1.42rem;margin:34px 0 12px;color:var(--dcp-ink,#1a202c)}'
+  '.dcp-land p{color:var(--dcp-ink2,#444);line-height:1.8;font-size:1.04rem;margin:0 0 18px;max-width:70ch}'
+  '.dcp-land .dcp-faqwrap{margin-top:30px}'
+  '.dcp-land .dcp-faqwrap>h2{margin-bottom:6px}'
+  '</style>')
+FACTS = {'en': [('19', 'years, since 2007'), ('9', 'disciplines'), ('38', 'services'), ('1,000+', 'clients')],
+         'ar': [('19', 'سنة، منذ 2007'), ('9', 'تخصصات'), ('38', 'خدمة'), ('1,000+', 'عميل')]}
+
+def build_landing(idx, ar):
+    lang = 'ar' if ar else 'en'
+    Pg = LANDING[lang]['pages'][idx]; s = STR[lang]
+    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    svc_lbl = 'خدماتنا' if ar else 'Services'
+    ghost = 'حلول' if ar else 'SOLUTIONS'
+    crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> '
+             f'&rsaquo; <a href="{loc("services",ar)}">{esc(svc_lbl)}</a> '
+             f'&rsaquo; {E(Pg["nav"])}</div>')
+    hero_html = (f'<section class="dcp-hero"><div class="dcp-ghost" aria-hidden="true">{esc(ghost)}</div>'
+                 f'<div class="dcp-wrap">{crumb}<h1>{E(Pg["h1"])}</h1>'
+                 f'<p class="dcp-lede">{E(Pg["dek"])}</p></div></section>')
+    facts = '<div class="dcp-facts">' + ''.join(
+        f'<div><b dir="ltr">{esc(n)}</b><span>{E(l)}</span></div>' for n, l in FACTS[lang]) + '</div>'
+    blocks = ''.join(f'<{t}>{E(x)}</{t}>' for t, x in Pg['blocks'])
+    faq_items = ''.join(
+        f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+        f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>' for q, a in Pg['faq'])
+    faq_h = 'أسئلة شائعة' if ar else 'Frequently asked'
+    rel = ''.join(f'<a href="{loc("service-"+sl,ar)}">{E(an)} {I_ARROW}</a>' for sl, an in Pg['related'])
+    rel_h = 'خدمات ذات صلة' if ar else 'Related services'
+    body = (hero_html
+            + f'<section class="dcp-sec"><div class="dcp-wrap" style="max-width:820px"><div class="dcp-land">'
+              f'{facts}{blocks}'
+              f'<div class="dcp-faqwrap"><h2>{esc(faq_h)}</h2>{faq_items}</div>'
+              f'<div class="dcp-related"><h2>{esc(rel_h)}</h2>{rel}</div>'
+              f'</div></div></section>'
+            + cta_band(ar) + footer(ar))
+    url = SITE + '/' + loc('' + Pg['slug'], ar)
+    schema = [
+        {"@context": "https://schema.org", "@type": "Service", "name": Pg['h1'],
+         "serviceType": Pg['nav'], "description": Pg['meta'], "inLanguage": lang,
+         "areaServed": {"@type": "Country", "name": "Saudi Arabia"},
+         "provider": {"@id": SITE + '/#org'}, "url": url},
+        {"@context": "https://schema.org", "@type": "FAQPage",
+         "mainEntity": [{"@type": "Question", "name": q,
+                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in Pg['faq']]}]
+    head = ('<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
+            + FAQ_CSS + POST_CSS + LANDING_CSS)
+    return shell(ar, 'services', Pg['title'], Pg['meta'], body, extra_head=head, canon=Pg['slug'])
+
 # ── CONTACT ─────────────────────────────────────────────────────────────
 def build_contact(ar):
     s = STR['ar' if ar else 'en']; f = s['c_f']
@@ -574,12 +635,20 @@ def build_contact(ar):
     e.preventDefault();
     if(!form.checkValidity()){{form.reportValidity();return;}}
     var ref='DC-'+Date.now().toString(36).toUpperCase().slice(-6);
-    var ok=document.createElement('div');
-    ok.className='dcp-form';ok.setAttribute('role','status');
-    ok.innerHTML='<h2>{("تم استلام استفسارك" if ar else "Enquiry received")}</h2>'
-      +'<p style="color:var(--dcp-ink2)">{("رقمك المرجعي" if ar else "Your reference number is")} '
-      +'<strong>'+ref+'</strong>. {("سنرد خلال يوم عمل واحد." if ar else "We will reply within one working day.")}</p>';
-    form.replaceWith(ok);
+    var g=function(id){{var el=form.querySelector(id);return el?el.value:'';}};
+    var fd={{name:g('#q-name'),company:g('#q-co'),email:g('#q-mail'),phone:g('#q-tel'),
+             type:g('#q-type'),project:g('#q-proj'),message:g('#q-msg'),reference:ref}};
+    var btn=form.querySelector('button[type=submit]');if(btn){{btn.disabled=true;}}
+    window.dcpDeliver(fd,'{("استفسار من الموقع" if ar else "Website enquiry")} — '+(fd.name||'')).then(function(mode){{
+      var ok=document.createElement('div');
+      ok.className='dcp-form';ok.setAttribute('role','status');
+      var msg=(mode==='sent')
+        ?'{("رقمك المرجعي" if ar else "Your reference number is")} <strong>'+ref+'</strong>. {("سنرد خلال يوم عمل واحد." if ar else "We will reply within one working day.")}'
+        :'{("فتحنا رسالتك في تطبيق البريد لديك — أرسلها وسنرد خلال يوم عمل واحد." if ar else "Your message is ready in your email app — send it and we will reply within one working day.")} {("المرجع" if ar else "Ref")} <strong>'+ref+'</strong>.';
+      ok.innerHTML='<h2>{("تم استلام استفسارك" if ar else "Enquiry received")}</h2>'
+        +'<p style="color:var(--dcp-ink2)">'+msg+'</p>';
+      form.replaceWith(ok);
+    }});
   }});
 }})();
 </script>"""
@@ -610,6 +679,8 @@ if __name__ == "__main__":
         w(loc('glossary', ar), build_glossary(ar))
         for i in range(len(POST_SLUG)):
             w(loc('insight-' + POST_SLUG[i], ar), build_post(i, ar))
+        for i in range(len(LANDING_KEYS)):
+            w(loc(LANDING_KEYS[i], ar), build_landing(i, ar))
         for slug in CASE_SLUG:
             w(loc('project-' + slug, ar), build_case(slug, ar))
     print("done")

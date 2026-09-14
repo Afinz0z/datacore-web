@@ -16,6 +16,29 @@ Served locally at http://localhost:8138 for verification.
 ## Changelog
 _(newest first)_
 
+- **Forms now deliver + bigger logo (VER 29→30)** — the RFQ basket and contact form were
+  front-end-only demos (showed a ref number, sent nothing — silently dropping every lead). New
+  **`dc-forms.js`** `dcpDeliver()`: if a Web3Forms `DCP_FORM_KEY` is set, submissions POST straight
+  to the inbox; otherwise (or on failure) the visitor's email app opens pre-filled to
+  `sales@datacore.com.sa` with their details + the RFQ items — **no more silent drops**. Wired into
+  the contact handler (build_contact) and RFQ handler (dc-products.js), loaded via `shell()` on the
+  form pages. **Action for client: paste a free Web3Forms key into `dc-forms.js` for seamless inbox
+  capture** (until then it's mailto). Verified both forms gather all fields + the basket and deliver.
+  Also **enlarged the header logo** 46→56px (38→46 condensed) so the "Technology Integrators" tagline
+  is more legible. VER 29→30, regenerated + re-stamped the 6 live pages. 128 pages, 0 broken refs.
+
+- **SEO: 5 query-targeted landing pages (EN+AR)** — from the competitive audit: dedicated
+  provider/solution pages built for the exact search queries the field ranks for —
+  `av-solutions-provider-saudi-arabia`, `elv-low-current-systems-saudi-arabia`,
+  `network-solutions-provider-riyadh`, `structured-cabling-company-riyadh`,
+  `av-network-integrator-saudi-arabia`. Each: keyword in slug + `<title>` + H1, a trust-facts
+  strip (19 yrs / 9 disciplines / 38 services / 1,000+ clients), ~500–700 words of **unique**
+  copy (no doorway duplication) with Saudi-compliance framing (SBC 801, Civil Defense, Vision
+  2030) alongside TIA-568 / EN 54 / ISO, an on-page FAQ, related-service links, and **Service +
+  FAQPage + BreadcrumbList** JSON-LD. `build_landing()` + `_build/landing.json`. Linked site-wide
+  from the footer Services column + `sitemap.xml`. Grounded in real client facts; Arabic first-draft.
+  128 pages, 0 broken refs, no `VER` bump.
+
 - **Polish: print stylesheet + llms.txt articles (VER 28→29)** — added an `@media print` block to
   `dc-overlay.css`: hides the interactive chrome (header, chat, sticky CTA, back-to-top, progress bar,
   ghost watermark, CTA band, footer), forces dark-mode off (`filter:none`), black-on-white, and

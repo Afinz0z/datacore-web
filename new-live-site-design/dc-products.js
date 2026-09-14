@@ -248,10 +248,22 @@
     if (!form.checkValidity()) { form.reportValidity(); return; }
     if (!count()) { alert(L.empty); return; }
     var ref = 'RFQ-' + Date.now().toString(36).toUpperCase().slice(-6);
-    var body = document.getElementById('dcp-dbody');
-    body.innerHTML = '<div class="dcp-rok" role="status"><h3>' + L.ok_h + '</h3><p>' +
-      L.ok_p.replace('{ref}', '<strong>' + ref + '</strong>').replace('{n}', count()) + '</p></div>';
-    basket = {}; save(); syncButtons();
+    var n = count();
+    var items = Object.keys(basket).map(function (sku) {
+      var p = bySku(sku); return '- ' + (p ? p.n : sku) + ' [' + sku + '] x ' + basket[sku];
+    }).join('\n');
+    var gv = function (id) { var el = document.getElementById(id); return el ? el.value : ''; };
+    var fd = { name: gv('r-name'), company: gv('r-co'), email: gv('r-mail'),
+               phone: gv('r-tel'), notes: gv('r-msg'), reference: ref, products: '\n' + items };
+    var subj = (AR ? 'طلب عرض سعر من الموقع' : 'Product request (RFQ) from the website') + ' — ' + (fd.name || '');
+    var btn = form.querySelector('button[type=submit]'); if (btn) { btn.disabled = true; }
+    // deliver via the shared helper (POST to the inbox if a key is set, else open the visitor's email)
+    (window.dcpDeliver ? window.dcpDeliver(fd, subj) : Promise.resolve()).then(function () {
+      var body = document.getElementById('dcp-dbody');
+      body.innerHTML = '<div class="dcp-rok" role="status"><h3>' + L.ok_h + '</h3><p>' +
+        L.ok_p.replace('{ref}', '<strong>' + ref + '</strong>').replace('{n}', n) + '</p></div>';
+      basket = {}; save(); syncButtons();
+    });
   });
 
   renderFacets(); apply(); syncButtons(); renderList();
