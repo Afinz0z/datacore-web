@@ -7,7 +7,35 @@ pages stay byte-for-byte untouched. Adds the methodology band (design #4)."""
 import os, sys, json, html
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE
+from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS
+
+# slug -> (EN title, AR title) so service pages can link the matching guides
+_ITITLE = {e["slug"]: (e["title"], a.get("title", e["title"]))
+           for e, a in zip(INSIGHTS["en"]["posts"], INSIGHTS["ar"]["posts"])}
+# discipline index (see DISC below) -> related insight slugs. Internal links from the
+# money pages (services) to the guides deepen topical authority and keep readers on site.
+DISC_INSIGHTS = {
+  0: ["structured-cabling-standards-explained", "single-mode-vs-multimode-fibre", "wifi-site-survey-guide"],
+  1: ["data-centre-design-essentials", "active-vs-passive-network-infrastructure"],
+  2: ["designing-cctv-for-coverage", "access-control-credentials-compared", "control-room-soc-noc-design"],
+  3: ["hybrid-meeting-room-av", "control-room-soc-noc-design"],
+  4: ["hybrid-meeting-room-av", "smart-building-elv-convergence"],
+  5: ["led-video-wall-pixel-pitch", "digital-signage-that-works"],
+  6: ["what-is-a-public-address-system", "voice-evacuation-en54-sbc801"],
+  7: ["iptv-for-enterprise-hospitality"],
+  8: ["why-annual-maintenance-contracts-matter", "choosing-an-elv-contractor-saudi-arabia"],
+}
+def related_reading(di, ar):
+    slugs = DISC_INSIGHTS.get(di, [])
+    if not slugs:
+        return ""
+    head = "قراءة ذات صلة" if ar else "Related reading"
+    links = "".join(
+        f'<a class="dcp-dir" href="{loc("insight-"+sl, ar)}">{esc(_ITITLE.get(sl,(sl,sl))[1 if ar else 0])} {I_ARROW}</a>'
+        for sl in slugs)
+    return (f'<section class="dcp-sec alt"><div class="dcp-wrap" style="max-width:820px">'
+            f'<div class="dcp-head"><h2>{esc(head)}</h2></div>'
+            f'<div style="display:flex;flex-direction:column;gap:13px">{links}</div></div></section>')
 
 DATA = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data"
 SVC = json.load(open(os.path.join(DATA, "services-copy.json"), encoding="utf-8"))["services"]
@@ -148,7 +176,7 @@ def build(slug, ar):
         photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
                  f'<img src="assets1/images/{ph[0]}" alt="{esc(cap)}" loading="lazy" width="1100" height="700">'
                  f'<figcaption>{esc(cap)}</figcaption></figure></div></section>')
-    body = hero + photo + method + body_sec + cta_band(ar) + footer(ar)
+    body = hero + photo + method + body_sec + related_reading(di, ar) + cta_band(ar) + footer(ar)
     # schema: Service + BreadcrumbList
     schema = {"@context": "https://schema.org", "@type": "Service", "name": h1,
               "serviceType": disc_name, "provider": {"@id": SITE + "/#org"},
