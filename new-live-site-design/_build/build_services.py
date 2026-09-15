@@ -143,7 +143,11 @@ def build(slug, ar):
               "serviceType": disc_name, "provider": {"@id": SITE + "/#org"},
               "areaServed": ["SA", "AE", "IN"], "description": c.get("desc", intro)[:300]}
     head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
-    title = c.get("title") or (h1 + (" | داتاكور" if ar else " | Datacore"))
+    title = c.get("title") or (h1 + (" | داتاكور للحلول" if ar else " | Datacore Solutions"))
+    _loc = ("السعودية", "الرياض") if ar else ("Saudi Arabia", "Riyadh")
+    if not any(w in title for w in _loc):   # GEO: every service title should carry a country signal
+        _ins = " في السعودية" if ar else " in Saudi Arabia"
+        title = title.replace(" | ", _ins + " | ", 1) if " | " in title else title + _ins
     return shell(ar, "services", title, c.get("desc", intro)[:180], body, extra_head=head, canon="service-" + slug)
 
 n = 0
