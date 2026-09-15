@@ -5,7 +5,7 @@ a request (RFQ) basket. Reuses the shell/header/footer helpers from build_pages.
 import os, sys, json
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER
+from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER, SITE
 
 DATA = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data"
 PRODUCTS = json.load(open(os.path.join(DATA, "products.json"), encoding="utf-8"))
@@ -113,7 +113,21 @@ def build_products(ar):
     js = ('<script>window.DCP_DATA=' + json.dumps(data, ensure_ascii=False) + ';</script>'
           '<script src="dc-products.js?v=' + VER + '"></script>')
     title = ('المنتجات | داتاكور للحلول' if ar else 'Products | Datacore Solutions')
-    return shell(ar, 'products', title, s['pr_lede'], body, extra_js=js)
+    # CollectionPage + ItemList of the real product categories so non-JS AI crawlers can
+    # read the catalogue (the grid itself is rendered by dc-products.js). Quote-based B2B —
+    # no fabricated prices.
+    purl = SITE + "/" + loc("products", ar)
+    prodschema = {"@context": "https://schema.org", "@type": "CollectionPage",
+        "@id": purl + "#catalog", "url": purl,
+        "name": ("المنتجات — أجهزة الشبكات والأمن والصوتيات والبنية التحتية" if ar
+                 else "Products — Network, Security, Audio-Visual & Infrastructure Hardware"),
+        "description": s['pr_lede'], "isPartOf": {"@id": SITE + "/#website"},
+        "about": {"@id": SITE + "/#org"}, "inLanguage": lang,
+        "mainEntity": {"@type": "ItemList", "name": ("فئات المنتجات" if ar else "Product categories"),
+            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": (c[1] if ar else c[0])}
+                                for i, c in enumerate(CAT_AR.items())]}}
+    sch = '<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False) + '</script>'
+    return shell(ar, 'products', title, s['pr_lede'], body, extra_head=sch, extra_js=js)
 
 for ar in (False, True):
     name = loc('products', ar)

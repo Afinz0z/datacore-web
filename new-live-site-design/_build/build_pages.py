@@ -608,7 +608,7 @@ def build_post(i, ar):
     url = SITE + '/' + loc('insight-' + P['slug'], ar)
     schema = [{"@context": "https://schema.org", "@type": "BlogPosting",
                "headline": P['title'], "description": P['meta'],
-               "datePublished": POST_ISO[i], "inLanguage": lang,
+               "datePublished": POST_ISO[i], "dateModified": POST_ISO[i], "inLanguage": lang,
                "image": SITE + '/assets1/images/' + POST_IMG[i],
                "author": {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'},
                "publisher": {"@id": SITE + '/#org'},
