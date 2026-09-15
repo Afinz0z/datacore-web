@@ -102,7 +102,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "39"
+VER = "40"
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -280,6 +280,7 @@ def stats_marquee(ar):
 # ── PROJECTS ────────────────────────────────────────────────────────────
 # page-scoped so no shared-asset VER bump is needed; adapts to dark mode via the dcp tokens.
 PROJ_FILTER_CSS = """<style>
+.dcp-phero{border-bottom:0}
 .dcp-phero .dcp-phero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:end}
 .dcp-pfilter-sec{position:relative;z-index:20;padding-block:0}
 .dcp-phero-l h1{margin:.28em 0 0}

@@ -16,6 +16,7 @@ html[dir=rtl]{--dcp-sans:'IBM Plex Sans Arabic','Texta',system-ui,sans-serif}
 .dcp{font-family:var(--dcp-sans);color:var(--dcp-ink);background:var(--dcp-bg);
   font-size:17px;line-height:1.6}
 .dcp *{box-sizing:border-box}
+.dcp-foot .logo img{filter:invert(1) hue-rotate(180deg)}   /* dark logo -> light on the dark footer, teal preserved */
 .dcp img{max-width:100%;display:block}
 .dcp a{color:var(--dcp-teal-d);text-decoration:none}
 .dcp-wrap{max-width:1200px;margin:0 auto;padding:0 clamp(18px,4vw,44px)}
