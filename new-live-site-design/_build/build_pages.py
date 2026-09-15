@@ -279,11 +279,11 @@ def stats_marquee(ar):
 # ── PROJECTS ────────────────────────────────────────────────────────────
 # page-scoped so no shared-asset VER bump is needed; adapts to dark mode via the dcp tokens.
 PROJ_FILTER_CSS = """<style>
-.dcp-phero{position:relative;z-index:20}
 .dcp-phero .dcp-phero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:end}
+.dcp-pfilter-sec{position:relative;z-index:20;padding-block:0}
 .dcp-phero-l h1{margin:.28em 0 0}
 .dcp-phero-r p{margin:0;color:var(--dcp-ink2);font-size:1.03rem;line-height:1.75;max-width:52ch}
-.dcp-pfilter{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px;padding:14px;background:var(--dcp-soft);border:1px solid var(--dcp-line);border-radius:16px}
+.dcp-pfilter{display:flex;gap:14px;flex-wrap:wrap;margin-top:-30px;padding:14px;background:var(--dcp-soft);border:1px solid var(--dcp-line);border-radius:16px}
 .dcp-pf-search{flex:1 1 300px;display:flex;align-items:center;gap:10px;padding:12px 18px;background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:11px;transition:border-color .15s}
 .dcp-pf-search svg{flex:0 0 auto;color:var(--dcp-ink3)}
 .dcp-pf-search input{flex:1;min-width:0;border:0;outline:0;background:transparent;color:var(--dcp-ink);font:inherit;font-size:1rem}
@@ -396,7 +396,8 @@ def build_projects(ar):
              f'<div class="dcp-wrap"><div class="dcp-phero-grid">'
              f'<div class="dcp-phero-l">{crumb}<h1>{esc(s["pj_title"])}</h1>'
              f'<p class="dcp-lede">{esc(sub)}</p></div>'
-             f'<div class="dcp-phero-r"><p>{esc(rpar)}</p></div></div>'
+             f'<div class="dcp-phero-r"><p>{esc(rpar)}</p></div></div></div></section>'
+             f'<section class="dcp-pfilter-sec"><div class="dcp-wrap">'
              f'<div class="dcp-pfilter"><div class="dcp-pf-search">{search_svg}'
              f'<input type="search" id="dcp-psearch" placeholder="{esc(ph)}" aria-label="{esc(ph)}"></div>'
              f'<div class="dcp-pf-drop" id="dcp-pservice" data-value="">'
