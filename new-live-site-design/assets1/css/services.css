@@ -292,12 +292,19 @@ color: #46484D;
 
 .scroll-container {
   position: sticky;   /* stick whole block */
-  top: 77px;          /* flush under the fixed overlay header (77px) — was 13%, which left a gap that showed card content */
+  top: 77px;          /* flush under the overlay header at full height (~76px) */
   z-index: 20;
   background: #fff;
   display: flex;
   align-items: center;
+  transition: top .25s ease;   /* follow the header as it condenses */
 }
+/* The overlay header condenses from 76px to 60px once the page is scrolled
+   (html.dcx-scrolled, toggled in dc-overlay.js at y>24). The tab bar only reaches
+   its sticky point AFTER scrolling — i.e. when the header is already condensed —
+   so a fixed 77px left a 17px gap that showed the card titles above the bar.
+   Match 60px in the scrolled state to close it. */
+html.dcx-scrolled .scroll-container { top: 60px; }
   
 
 
