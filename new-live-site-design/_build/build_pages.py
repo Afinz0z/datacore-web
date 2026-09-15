@@ -422,6 +422,104 @@ def selected_section(ar):
           f'<div class="dcp-roster"><h3>{esc(rhead)}</h3><div class="dcp-roster-names">{roster}</div></div>'
           f'</div></section>')
 
+# Broader project reference list from the decks (client, year) by discipline. Client names
+# are proper nouns (same in EN/AR, wrapped dir=ltr on the Arabic page); years are neutral.
+REFERENCES = [
+ ("Public address & voice alarm", "النداء العام والإنذار الصوتي", [
+   ("General Directorate of Passports","2018"), ("General Directorate of Defence","2018"),
+   ("General Directorate of Narcotics Control","2018"), ("General Directorate of Prisons","2019"),
+   ("General Directorate of Technical Affairs","2019"), ("General Directorate of Border Guard","2019"),
+   ("Sports Training Centres — Abha, Jazan, Makkah, Najran","2019"), ("Jawwy (STC)","2020"),
+   ("Mövenpick Hotel, Dammam","2021"), ("Mansard Hotels (Radisson)","2022"),
+   ("Danabay Resorts","2022"), ("Bank Al Bilad","2023"),
+   ("KAP 4 — Ateis PA/VA",""), ("UCIC Factory — Ateis PA/VA",""), ("SDCC / SEC — Dammam, Qassim, Jubail",""),
+ ]),
+ ("Access control", "التحكم في الدخول", [
+   ("STC Jawwy","2016"), ("Mansard Hotel & Residences","2018"), ("Al Tayyar Travels Group","2018"),
+   ("Prince Naif Arab Academy","2018"), ("Madaen Star Group","2019"), ("AXA Insurance","2019"),
+   ("Landmark Group","2019"), ("UCIC","2019"), ("Yousuf Naghi Motors","2020"),
+   ("Mövenpick Hotel, Dammam","2021"), ("Danabay Resorts","2022"), ("SRA — Bay Airport","2023"),
+   ("Red Sea Coastal Village","2023"), ("Red Sea Airport","2023"), ("NEOM Hospital","2024"),
+   ("NEOM International Airport Services","2024"), ("Deloitte, Dammam","2024"), ("Deloitte, Riyadh","2024"),
+ ]),
+ ("CCTV & surveillance", "المراقبة بالكاميرات والأمن", [
+   ("STC Jawwy","2016"), ("Riyadh Pharma","2017"), ("Arab Open University","2019"),
+   ("King Khalid International Airport, Riyadh","2019"), ("Almarai","2018"), ("LAWASEQ","2018"),
+   ("Mansard Hotels (Radisson)","2018"), ("The Red Sea","2023"), ("Red Sea Airport","2023"),
+   ("Coastal Village","2023"), ("Saudi Royal Aviation — Jeddah, NEOM, Riyadh","2023"),
+   ("NEOM Bay Airport","2023"), ("NEOM Hospital","2024"), ("NEOM International Airport","2024"),
+   ("Bank Al Bilad","2024"), ("Deloitte — Dammam & Riyadh","2024"),
+ ]),
+ ("Networks, cabling & data centres", "الشبكات والتمديدات ومراكز البيانات", [
+   ("SAMA — data centre (118 cabinets, SYSTIMAX imVision)",""), ("SABB — data-centre passive","2024"),
+   ("Bank Al Bilad — passive","2024"), ("Zain Telecom — DC revamp (Cisco), Riyadh & Jeddah",""),
+   ("Mobily — security DC upgrade",""), ("Landmark Arabia — complete data centre",""),
+   ("Al Tayyar Travels — Tier-3 data centre",""), ("Mansard Hotel & Residence — Tier-3 data centre",""),
+   ("Prince Naif Arab Academy — passive","2019"), ("KAP-2A — passive cabling","2018"),
+   ("King Saud University — fibre optic","2018"), ("Tatweer — active & passive","2019"),
+   ("NEOM — NIC camp Wi-Fi","2021"), ("NEOM — racking NC1/NC2 & P2P","2022"),
+   ("NEOM — North Palaces fibre/UTP","2023"), ("Coastal Village — passive, security, UPS","2023"),
+   ("NEOM Hospital — passive","2023"), ("National Housing Company — switches","2024"),
+   ("STC Jawwy — passive","2016"), ("Dimension Data — passive","2017"),
+ ]),
+ ("Audio-visual & command centres", "الحلول السمعية والبصرية وغرف العمليات", [
+   ("KAFD HQ — meeting & command rooms",""), ("Riyad Bank — control room & video wall",""),
+   ("STC — command centres",""), ("Dimension Data — OCC & meeting rooms",""),
+   ("Prince Sattam University (PSAU), Al-Kharj",""), ("Arab Open University — classrooms & council room",""),
+   ("Mawhiba — auditorium & board rooms",""), ("NEOM — CEO meeting room",""),
+   ("Marafiq — board & meeting rooms",""), ("MCIT — auditorium & board rooms",""),
+   ("NUPCO — council room",""), ("Taqeem — meeting & board rooms",""),
+   ("Landmark — meeting rooms",""), ("Wipro — office AV",""), ("Google Cloud — meeting room",""),
+   ("Ma'aden PCS — video wall & command centre",""), ("NHC Sales Center — LED & interactive displays",""),
+ ]),
+]
+# 5-phase delivery model from the company deck.
+APPROACH = [
+ ("Plan","التخطيط","Needs analysis, site surveys and a costed solution roadmap.","تحليل الاحتياجات والمسح الميداني وخارطة حل مُسعّرة."),
+ ("Design","التصميم","Vendor-agnostic engineering to standard, validated at every stage.","هندسة محايدة تجاه المورّدين وفق المعايير، مُتحقَّق منها في كل مرحلة."),
+ ("Build","التنفيذ","Certified installation teams delivering on time, on spec.","فرق تركيب معتمدة تُسلّم في الوقت وبالمواصفات."),
+ ("Commission","التشغيل","Testing, configuration and warranty-backed sign-off.","اختبار وتهيئة وتسليم مدعوم بالضمان."),
+ ("Support","الدعم","Ongoing maintenance, monitoring and lifecycle management.","صيانة ومراقبة وإدارة دورة حياة مستمرة."),
+]
+REF_CSS = """<style>
+.dcp-approach{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:30px}
+.dcp-apx{border:1px solid var(--dcp-line);border-radius:13px;padding:20px;background:var(--dcp-bg)}
+.dcp-apx .n{font-family:inherit;font-weight:800;font-size:1.05rem;color:var(--dcp-teal-d)}
+.dcp-apx h3{margin:8px 0 7px;font-size:1rem}
+.dcp-apx p{margin:0;color:var(--dcp-ink2);font-size:.88rem;line-height:1.55}
+.dcp-refgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px 30px;margin-top:30px}
+.dcp-refcat h3{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--dcp-teal-d);margin:0 0 10px;padding-bottom:9px;border-bottom:1px solid var(--dcp-line)}
+.dcp-refcat ul{list-style:none;margin:0;padding:0}
+.dcp-refcat li{display:flex;justify-content:space-between;gap:14px;padding:7px 0;border-bottom:1px dashed var(--dcp-line);font-size:.88rem}
+.dcp-refcat li:last-child{border-bottom:0}
+.dcp-refcat .rc{color:var(--dcp-ink)}
+.dcp-refcat .ry{color:var(--dcp-ink3);flex:none;font-variant-numeric:tabular-nums}
+</style>"""
+
+def approach_section(ar):
+    head = 'كيف نُسلّم' if ar else 'How we deliver'
+    sub = ('فريق واحد مسؤول عبر دورة الحياة الكاملة — من التخطيط إلى الدعم.'
+           if ar else 'One accountable team across the full lifecycle — from planning to support.')
+    cells = ''.join(
+        f'<div class="dcp-apx"><div class="n">0{i+1}</div><h3>{esc(pa if ar else pe)}</h3>'
+        f'<p>{esc(da if ar else de)}</p></div>'
+        for i,(pe,pa,de,da) in enumerate(APPROACH))
+    return (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+            f'<h2>{esc(head)}</h2><p>{esc(sub)}</p></div><div class="dcp-approach">{cells}</div></div></section>')
+
+def references_section(ar):
+    ltr = (lambda x: '<span dir="ltr">' + esc(x) + '</span>') if ar else (lambda x: esc(x))
+    head = 'مرجع المشاريع' if ar else 'Project reference list'
+    sub = ('عيّنة أوسع من الأعمال المُنجَزة عبر التخصصات والسنوات — تُظهر عمق سجلّنا.'
+           if ar else 'A broader sample of delivered work across disciplines and years — the depth behind the highlights.')
+    blocks = ''
+    for ce, ca, items in REFERENCES:
+        rows = ''.join(f'<li><span class="rc">{ltr(cl)}</span>'
+                       + (f'<span class="ry">{esc(yr)}</span>' if yr else '') + '</li>' for cl, yr in items)
+        blocks += f'<div class="dcp-refcat"><h3>{esc(ca if ar else ce)}</h3><ul>{rows}</ul></div>'
+    return (REF_CSS + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+            f'<h2>{esc(head)}</h2><p>{esc(sub)}</p></div><div class="dcp-refgrid">{blocks}</div></div></section>')
+
 def build_projects(ar):
     s = STR['ar' if ar else 'en']
     U = CASE_UI['ar' if ar else 'en']
@@ -487,6 +585,7 @@ def build_projects(ar):
     body = (
       PROJ_FILTER_CSS + phero
       + stats_marquee(ar)
+      + approach_section(ar)
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-projs" id="dcp-projgrid">{cards}'
         f'<p class="dcp-noresult" id="dcp-noresult" hidden>{esc(noresult)}</p></div></div></section>'
       + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
@@ -495,6 +594,7 @@ def build_projects(ar):
         f'<h2>{esc(s["pj_gal_h"])}</h2><p>{esc(s["pj_gal_p"])}</p></div>'
         f'<div class="dcp-gal">{gal}</div></div></section>'
       + selected_section(ar)
+      + references_section(ar)
       + cta_band(ar) + footer(ar) + PROJ_FILTER_JS)
     title = ('مشاريعنا | داتاكور للحلول' if ar else 'Projects | Datacore Solutions')
     return shell(ar, 'projects', title, s['pj_lede'], body)
