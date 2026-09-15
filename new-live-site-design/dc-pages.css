@@ -1,10 +1,10 @@
 /* Datacore mirror — generated functional pages (products/projects/insights/
    contact) styled to match the live site: Texta type, teal accents, generous
    spacing. Dark mode is handled by the overlay filter on #dc-content. */
-@font-face{font-family:'Texta';src:url('fonts/TextaRegular.ttf') format('truetype');font-weight:400;font-display:swap}
-@font-face{font-family:'Texta';src:url('fonts/TextaMedium.ttf') format('truetype');font-weight:500;font-display:swap}
-@font-face{font-family:'Texta';src:url('fonts/TextaBold.ttf') format('truetype');font-weight:700;font-display:swap}
-@font-face{font-family:'Texta';src:url('fonts/TextaHeavy.ttf') format('truetype');font-weight:800;font-display:swap}
+@font-face{font-family:'Texta';src:url('fonts/TextaRegular.woff2') format('woff2'),url('fonts/TextaRegular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'Texta';src:url('fonts/TextaMedium.woff2') format('woff2'),url('fonts/TextaMedium.ttf') format('truetype');font-weight:500;font-display:swap}
+@font-face{font-family:'Texta';src:url('fonts/TextaBold.woff2') format('woff2'),url('fonts/TextaBold.ttf') format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:'Texta';src:url('fonts/TextaHeavy.woff2') format('woff2'),url('fonts/TextaHeavy.ttf') format('truetype');font-weight:800;font-display:swap}
 
 /* --dcp-teal (bright) is decorative only: borders, watermark, dark-bg accents.
    Any teal that carries white text or is itself text uses --dcp-teal-d
