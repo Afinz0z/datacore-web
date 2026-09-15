@@ -129,7 +129,19 @@ def build_products(ar):
                 "@type": "Product", "name": p["n"], "sku": p["sku"], "mpn": p["sku"],
                 "brand": {"@type": "Brand", "name": p["b"]}, "category": p["c"]}}
                 for i, p in enumerate(PRODUCTS)]}}
-    sch = '<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False) + '</script>'
+    # The facet sidebar scrolls (max-height + overflow-y in dc-pages.css); the browser's
+    # default scrollbar is chunky and reads as a divider between filters and results.
+    # Page-scoped subtle scrollbar (thin, near-line-colour, transparent track) so it
+    # recedes at rest and only firms up on hover — no VER bump (products-only rule).
+    scrollbar_css = ('<style>'
+        '.dcp-facets{scrollbar-width:thin;scrollbar-color:#dde5e3 transparent}'
+        '.dcp-facets::-webkit-scrollbar{width:6px}'
+        '.dcp-facets::-webkit-scrollbar-track{background:transparent}'
+        '.dcp-facets::-webkit-scrollbar-thumb{background:#e7edeb;border-radius:3px}'
+        '.dcp-facets:hover::-webkit-scrollbar-thumb{background:#d2dcd9}'
+        '</style>')
+    sch = ('<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False)
+           + '</script>' + scrollbar_css)
     return shell(ar, 'products', title, s['pr_lede'], body, extra_head=sch, extra_js=js)
 
 for ar in (False, True):
