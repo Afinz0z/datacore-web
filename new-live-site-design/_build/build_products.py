@@ -123,9 +123,12 @@ def build_products(ar):
                  else "Products — Network, Security, Audio-Visual & Infrastructure Hardware"),
         "description": s['pr_lede'], "isPartOf": {"@id": SITE + "/#website"},
         "about": {"@id": SITE + "/#org"}, "inLanguage": lang,
-        "mainEntity": {"@type": "ItemList", "name": ("فئات المنتجات" if ar else "Product categories"),
-            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": (c[1] if ar else c[0])}
-                                for i, c in enumerate(CAT_AR.items())]}}
+        "mainEntity": {"@type": "ItemList", "numberOfItems": len(PRODUCTS),
+            "name": ("منتجات الكتالوج" if ar else "Catalogue products"),
+            "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {
+                "@type": "Product", "name": p["n"], "sku": p["sku"], "mpn": p["sku"],
+                "brand": {"@type": "Brand", "name": p["b"]}, "category": p["c"]}}
+                for i, p in enumerate(PRODUCTS)]}}
     sch = '<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False) + '</script>'
     return shell(ar, 'products', title, s['pr_lede'], body, extra_head=sch, extra_js=js)
 
