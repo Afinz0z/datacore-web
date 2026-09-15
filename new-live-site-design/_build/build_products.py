@@ -129,16 +129,13 @@ def build_products(ar):
                 "@type": "Product", "name": p["n"], "sku": p["sku"], "mpn": p["sku"],
                 "brand": {"@type": "Brand", "name": p["b"]}, "category": p["c"]}}
                 for i, p in enumerate(PRODUCTS)]}}
-    # The facet sidebar scrolls (max-height + overflow-y in dc-pages.css); the browser's
-    # default scrollbar is chunky and reads as a divider between filters and results.
-    # Page-scoped subtle scrollbar (thin, near-line-colour, transparent track) so it
-    # recedes at rest and only firms up on hover — no VER bump (products-only rule).
+    # The facet sidebar scrolls (max-height + overflow-y in dc-pages.css). Hide the
+    # scrollbar entirely (it read as a divider) while keeping wheel/trackpad scroll,
+    # and drop the reserved scrollbar-gutter (set to stable in dc-pages.css) so no
+    # empty lane is left behind. Page-scoped, products-only — no VER bump.
     scrollbar_css = ('<style>'
-        '.dcp-facets{scrollbar-width:thin;scrollbar-color:#dde5e3 transparent}'
-        '.dcp-facets::-webkit-scrollbar{width:6px}'
-        '.dcp-facets::-webkit-scrollbar-track{background:transparent}'
-        '.dcp-facets::-webkit-scrollbar-thumb{background:#e7edeb;border-radius:3px}'
-        '.dcp-facets:hover::-webkit-scrollbar-thumb{background:#d2dcd9}'
+        '.dcp-facets{scrollbar-width:none;-ms-overflow-style:none;scrollbar-gutter:auto}'
+        '.dcp-facets::-webkit-scrollbar{width:0;height:0;display:none}'
         '</style>')
     sch = ('<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False)
            + '</script>' + scrollbar_css)
