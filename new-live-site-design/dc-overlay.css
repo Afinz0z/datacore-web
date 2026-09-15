@@ -3,6 +3,7 @@
    the developed site's own classes/values, scoped under #dcx-hdr so the live
    page's Bootstrap CSS (.btn, .logo…) can't clash with it. */
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+html,body{margin:0}   /* reset the UA 8px body margin that framed every page */
 
 /* hide the live site's own top header (we replace it) */
 header.header{display:none!important}
