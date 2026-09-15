@@ -142,7 +142,8 @@ def site_jsonld(ar):
     g = {"@context": "https://schema.org", "@graph": [
         {"@type": "Organization", "@id": SITE + "/#org", "name": "Datacore Solutions",
          "alternateName": "Datacore Technology Integrators", "url": "https://www.datacore.com.sa/",
-         "foundingDate": "2007", "logo": SITE + "/assets1/images/dc-logo-full.png", "image": OG_IMG,
+         "foundingDate": "2007", "taxID": "7002812043", "vatID": "311206394100003",
+         "logo": SITE + "/assets1/images/dc-logo-full.png", "image": OG_IMG,
          "email": "info@datacore.com.sa", "telephone": "+966115128888",
          "description": "Low-current (ELV) systems integrator delivering IT network infrastructure, "
                         "audio-visual, data centre, surveillance, IPTV, and public-address & fire-alarm "
