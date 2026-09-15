@@ -517,7 +517,7 @@ def references_section(ar):
         rows = ''.join(f'<li><span class="rc">{ltr(cl)}</span>'
                        + (f'<span class="ry">{esc(yr)}</span>' if yr else '') + '</li>' for cl, yr in items)
         blocks += f'<div class="dcp-refcat"><h3>{esc(ca if ar else ce)}</h3><ul>{rows}</ul></div>'
-    return (REF_CSS + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+    return (REF_CSS + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
             f'<h2>{esc(head)}</h2><p>{esc(sub)}</p></div><div class="dcp-refgrid">{blocks}</div></div></section>')
 
 def build_projects(ar):
@@ -588,13 +588,13 @@ def build_projects(ar):
       + approach_section(ar)
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-projs" id="dcp-projgrid">{cards}'
         f'<p class="dcp-noresult" id="dcp-noresult" hidden>{esc(noresult)}</p></div></div></section>'
-      + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
-        f'<h2>{esc(s["pj_feat_h"])}</h2></div><div class="dcp-featgrid">{feat}</div></div></section>'
-      + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
-        f'<h2>{esc(s["pj_gal_h"])}</h2><p>{esc(s["pj_gal_p"])}</p></div>'
-        f'<div class="dcp-gal">{gal}</div></div></section>'
       + selected_section(ar)
       + references_section(ar)
+      + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+        f'<h2>{esc(s["pj_gal_h"])}</h2><p>{esc(s["pj_gal_p"])}</p></div>'
+        f'<div class="dcp-gal">{gal}</div></div></section>'
+      + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+        f'<h2>{esc(s["pj_feat_h"])}</h2></div><div class="dcp-featgrid">{feat}</div></div></section>'
       + cta_band(ar) + footer(ar) + PROJ_FILTER_JS)
     title = ('مشاريعنا | داتاكور للحلول' if ar else 'Projects | Datacore Solutions')
     return shell(ar, 'projects', title, s['pj_lede'], body)
