@@ -48,7 +48,9 @@ DISCIPLINES = [  # (services.html?id=, EN, AR) — matches the header dropdown
   ('iptv-solutions','IPTV Solutions','حلول IPTV'),
   ('professional-services','Professional Services','الخدمات الاحترافية'),
 ]
-PROJ_IMG = ['dc-proj-owis.jpg','dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
+PROJ_IMG = ['dc-proj-owis.jpg','dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg',
+            'dc-proj-stc.jpg','dc-proj-kafd.jpg','dc-proj-neom.jpg','dc-proj-mawhiba.jpg',
+            'dc-proj-sama.jpg','dc-proj-altayyar.jpg','dc-proj-mansard.jpg']
 # disciplines each project actually touches (read off its real kit/scope) — powers the
 # projects filter; slugs match DISCIPLINES / the services-nav dropdown so the two never drift.
 PROJ_DISC = [
@@ -57,6 +59,13 @@ PROJ_DISC = [
   ['audio-visual-solutions','digital-signage-amp-video-walls','meeting-room-solutions'],                                                 # PSAU
   ['audio-visual-solutions','meeting-room-solutions'],                                                                                   # TAQEEM
   ['audio-visual-solutions','digital-signage-amp-video-walls'],                                                                          # auditorium
+  ['audio-visual-solutions','meeting-room-solutions'],                          # STC command centres
+  ['audio-visual-solutions','meeting-room-solutions'],                          # KAFD
+  ['audio-visual-solutions','meeting-room-solutions'],                          # NEOM exec room
+  ['audio-visual-solutions','meeting-room-solutions'],                          # Mawhiba auditorium + boardrooms
+  ['datacenter-solutions','network-infrastructure-services'],                   # SAMA data centre
+  ['datacenter-solutions'],                                                     # Al Tayyar Tier III
+  ['datacenter-solutions'],                                                     # Mansard Tier III
 ]
 # "From our sites" gallery — real installation/site photos, (file, en alt, ar alt)
 GAL_IMG = [
@@ -71,7 +80,8 @@ GAL_IMG = [
   ('dc-proj-owis-building.jpg', 'OWIS Riyadh campus building', 'مبنى حرم مدرسة ون وورلد الرياض'),
 ]
 # case-study detail pages — slugs index-aligned with proj[] / PROJ_IMG
-CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium']
+CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium',
+             '', '', '', '', '', '', '']   # 7 showcase cards from the portfolio decks: image+detail, no dedicated case page
 CASES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "cases.json"), encoding="utf-8"))
 FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "faq.json"), encoding="utf-8"))
 GLOSSARY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "glossary.json"), encoding="utf-8"))
@@ -527,6 +537,10 @@ def build_projects(ar):
     for i, p in enumerate(s['proj']):
         sector, city, name, body, kit, client, scope = p
         kits = ''.join(f'<span>{esc(k)}</span>' for k in kit)
+        # only the five projects with a dedicated case-study page get a "read more" link;
+        # the portfolio-deck showcase cards (CASE_SLUG[i] == '') show image + detail only.
+        read_link = (f'<a class="dcp-dir" href="{loc("project-"+CASE_SLUG[i], ar)}">{esc(U["read"])} {I_ARROW}</a>'
+                     if CASE_SLUG[i] else '')
         cards += f"""<article class="dcp-proj" data-disc="{' '.join(PROJ_DISC[i])}">
   <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" loading="lazy" width="1200" height="750"></div>
   <div class="band"><span class="c">{esc(sector)}</span><span>{esc(city)}</span></div>
@@ -534,7 +548,7 @@ def build_projects(ar):
     <div class="dcp-kit">{kits}</div>
     <dl><dt>{esc(s['p_client'])}</dt><dd>{esc(client)}</dd>
         <dt>{esc(s['p_scope'])}</dt><dd>{esc(scope)}</dd></dl>
-    <a class="dcp-dir" href="{loc('project-'+CASE_SLUG[i], ar)}">{esc(U['read'])} {I_ARROW}</a>
+    {read_link}
   </div></article>"""
     feat = ''.join(f'<div class="dcp-featcell"><span class="dcp-featic">{FEAT_ICONS[i]}</span>'
                    f'<h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
@@ -989,5 +1003,6 @@ if __name__ == "__main__":
         for i in range(len(LANDING_KEYS)):
             w(loc(LANDING_KEYS[i], ar), build_landing(i, ar))
         for slug in CASE_SLUG:
+            if not slug: continue   # showcase-only cards have no dedicated case page
             w(loc('project-' + slug, ar), build_case(slug, ar))
     print("done")

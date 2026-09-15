@@ -4,7 +4,7 @@ look, from the copy fetched verbatim into services-copy.json. Flat filenames
 service-<slug>.html at the mirror root; the overlay rewrites the live
 services.html 'service-details/<slug>' links to these at runtime, so the live
 pages stay byte-for-byte untouched. Adds the methodology band (design #4)."""
-import os, sys, json
+import os, sys, json, html
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE
@@ -14,6 +14,17 @@ SVC = json.load(open(os.path.join(DATA, "services-copy.json"), encoding="utf-8")
 # The live AR service pages are empty shells; the Arabic copy was authored
 # separately into services-copy-ar.json. Use that for AR, live copy for EN.
 SVC_AR = json.load(open(os.path.join(DATA, "services-copy-ar.json"), encoding="utf-8"))["services"]
+
+# The copy was captured from the live site ALREADY HTML-escaped (e.g. "&amp;"),
+# and every field flows through esc() once before output — so a raw load double-
+# escapes ("&amp;" -> "&amp;amp;", visible literally in titles/SERPs). Unescape the
+# copy once here so a single esc() at render time produces correct entities.
+def _unesc(o):
+    if isinstance(o, str):  return html.unescape(o)
+    if isinstance(o, list): return [_unesc(x) for x in o]
+    if isinstance(o, dict): return {k: _unesc(v) for k, v in o.items()}
+    return o
+SVC = _unesc(SVC); SVC_AR = _unesc(SVC_AR)
 SLUGS = list(SVC.keys())
 
 def copy_of(slug, ar):

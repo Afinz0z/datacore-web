@@ -179,6 +179,97 @@
     ],
     "Arab Open University",
     "Auditorium fit-out"
+   ],
+   [
+    "TELECOM",
+    "RIYADH",
+    "STC — Command Centres",
+    "Complete audio-visual fit-out for Saudi Telecom command and control centres — large-format operator displays, video walls and integrated room control, executed end to end by our own AV team.",
+    [
+     "Video wall",
+     "Operator displays",
+     "AV control"
+    ],
+    "Saudi Telecom Company (STC)",
+    "Command-centre AV — design, supply, install, commission"
+   ],
+   [
+    "FINANCE",
+    "RIYADH",
+    "King Abdullah Financial District",
+    "Audio-visual across KAFD headquarters meeting rooms and command rooms — presentation and conferencing systems plus command-room video walls, delivered as one integrated fit-out.",
+    [
+     "Meeting-room AV",
+     "Command-room video wall",
+     "Conferencing"
+    ],
+    "King Abdullah Financial District (KAFD)",
+    "HQ meeting-room & command-room AV"
+   ],
+   [
+    "GIGA-PROJECT",
+    "NEOM",
+    "NEOM — Executive Meeting Room",
+    "Executive meeting-room AV for the NEOM CEO suite — video conferencing, wireless presentation and single-touch room control in a boardroom finished to brief.",
+    [
+     "Video conferencing",
+     "Wireless presentation",
+     "Room control"
+    ],
+    "NEOM",
+    "Executive meeting-room AV"
+   ],
+   [
+    "EDUCATION",
+    "RIYADH",
+    "Mawhiba Foundation",
+    "Auditorium and boardroom AV for the King Abdulaziz & His Companions Foundation for Giftedness and Creativity (Mawhiba) — stage sound, projection and presentation systems across the venue.",
+    [
+     "Auditorium sound",
+     "Projection",
+     "Boardroom AV"
+    ],
+    "Mawhiba Foundation",
+    "Auditorium & boardroom AV"
+   ],
+   [
+    "BANKING",
+    "RIYADH",
+    "Saudi Central Bank (SAMA)",
+    "Complete data-centre solution for the Saudi Central Bank — Panduit containment, 86 network cabinets, back-to-back fibre and UTP tie-cabling between cabinets, and SYSTIMAX imVision intelligent patch panels.",
+    [
+     "Panduit containment",
+     "86 cabinets",
+     "SYSTIMAX imVision"
+    ],
+    "Saudi Central Bank (SAMA)",
+    "Data-centre containment, cabinets & intelligent patching"
+   ],
+   [
+    "TRAVEL",
+    "RIYADH",
+    "Al Tayyar Travels",
+    "Turnkey Tier III data centre — civil and electrical works, precision cooling, UPS, FM200 suppression, raised floor and cabinets, built from the shell up.",
+    [
+     "Tier III",
+     "Precision cooling",
+     "FM200 · UPS"
+    ],
+    "Al Tayyar Travels Group",
+    "Turnkey Tier III data-centre build"
+   ],
+   [
+    "HOSPITALITY",
+    "RIYADH",
+    "Mansard Hotel & Residence",
+    "Tier III data-centre preparation — civil and electrical works, precision cooling, UPS, FM200, raised floor and cabinets for the hotel’s core infrastructure.",
+    [
+     "Tier III",
+     "Precision cooling",
+     "FM200 · UPS"
+    ],
+    "Mansard Hotel & Residence",
+    "Tier III data-centre build"
    ]
   ],
   "p_client": "Client",
@@ -404,6 +495,97 @@
     ],
     "الجامعة العربية المفتوحة",
     "تجهيز مسرح"
+   ],
+   [
+    "اتصالات",
+    "الرياض",
+    "مراكز التحكم — STC",
+    "تنفيذ متكامل للأنظمة السمعية والبصرية في مراكز القيادة والتحكم لدى الاتصالات السعودية (STC) — شاشات عرض كبيرة للمشغّلين وجدران فيديو وتحكّم مدمج في القاعة، نفّذه فريقنا بالكامل.",
+    [
+     "جدار فيديو",
+     "شاشات المشغّلين",
+     "تحكّم سمعي بصري"
+    ],
+    "شركة الاتصالات السعودية (STC)",
+    "أنظمة سمعية وبصرية لمراكز التحكم — تصميم وتوريد وتركيب وتشغيل"
+   ],
+   [
+    "قطاع مالي",
+    "الرياض",
+    "مركز الملك عبدالله المالي (KAFD)",
+    "أنظمة سمعية وبصرية في قاعات الاجتماعات وغرف التحكم بمقر مركز الملك عبدالله المالي — أنظمة عرض ومؤتمرات وجدران فيديو لغرف التحكم، ضمن تجهيز متكامل.",
+    [
+     "أنظمة اجتماعات",
+     "جدار فيديو لغرفة التحكم",
+     "مؤتمرات فيديو"
+    ],
+    "مركز الملك عبدالله المالي (KAFD)",
+    "أنظمة سمعية وبصرية لقاعات الاجتماعات وغرف التحكم"
+   ],
+   [
+    "مشروع عملاق",
+    "نيوم",
+    "نيوم — قاعة الاجتماعات التنفيذية",
+    "أنظمة سمعية وبصرية لقاعة اجتماعات الرئيس التنفيذي في نيوم — مؤتمرات فيديو وعرض لاسلكي وتحكّم بلمسة واحدة في القاعة، بتشطيب حسب المتطلبات.",
+    [
+     "مؤتمرات فيديو",
+     "عرض لاسلكي",
+     "تحكّم في القاعة"
+    ],
+    "نيوم",
+    "أنظمة سمعية وبصرية لقاعة اجتماعات تنفيذية"
+   ],
+   [
+    "تعليم",
+    "الرياض",
+    "مؤسسة موهبة",
+    "أنظمة سمعية وبصرية للمسرح وقاعات المجالس في مؤسسة الملك عبدالعزيز ورجاله للموهبة والإبداع (موهبة) — صوت مسرحي وعرض وأنظمة تقديم عبر المبنى.",
+    [
+     "صوت مسرحي",
+     "عرض",
+     "أنظمة قاعات مجالس"
+    ],
+    "مؤسسة موهبة",
+    "أنظمة سمعية وبصرية للمسرح وقاعات المجالس"
+   ],
+   [
+    "قطاع مصرفي",
+    "الرياض",
+    "البنك المركزي السعودي (ساما)",
+    "حل مركز بيانات متكامل للبنك المركزي السعودي — احتواء Panduit، و 86 خزانة شبكة، وتمديد ألياف و UTP بين الخزانات، ولوحات ترقيع ذكية SYSTIMAX imVision.",
+    [
+     "احتواء Panduit",
+     "86 خزانة",
+     "SYSTIMAX imVision"
+    ],
+    "البنك المركزي السعودي (ساما)",
+    "احتواء مركز البيانات والخزانات والترقيع الذكي"
+   ],
+   [
+    "سفر وسياحة",
+    "الرياض",
+    "الطيار للسفر",
+    "مركز بيانات متكامل من الفئة الثالثة (Tier III) — أعمال مدنية وكهربائية وتبريد دقيق وأنظمة UPS وإطفاء FM200 وأرضية مرتفعة وخزانات، بُني من الهيكل.",
+    [
+     "Tier III",
+     "تبريد دقيق",
+     "FM200 · UPS"
+    ],
+    "مجموعة الطيار للسفر",
+    "بناء مركز بيانات متكامل من الفئة الثالثة"
+   ],
+   [
+    "ضيافة",
+    "الرياض",
+    "فندق ومساكن مانسارد",
+    "تجهيز مركز بيانات من الفئة الثالثة (Tier III) — أعمال مدنية وكهربائية وتبريد دقيق وأنظمة UPS وإطفاء FM200 وأرضية مرتفعة وخزانات للبنية الأساسية للفندق.",
+    [
+     "Tier III",
+     "تبريد دقيق",
+     "FM200 · UPS"
+    ],
+    "فندق ومساكن مانسارد",
+    "بناء مركز بيانات من الفئة الثالثة"
    ]
   ],
   "p_client": "العميل",
