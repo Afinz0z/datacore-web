@@ -49,6 +49,15 @@ DISCIPLINES = [  # (services.html?id=, EN, AR) — matches the header dropdown
   ('professional-services','Professional Services','الخدمات الاحترافية'),
 ]
 PROJ_IMG = ['dc-proj-owis.jpg','dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
+# disciplines each project actually touches (read off its real kit/scope) — powers the
+# projects filter; slugs match DISCIPLINES / the services-nav dropdown so the two never drift.
+PROJ_DISC = [
+  ['network-infrastructure-services','surveillance-and-security-solutions','audio-visual-solutions','digital-signage-amp-video-walls'],  # OWIS
+  ['audio-visual-solutions','meeting-room-solutions'],                                                                                   # AOU council
+  ['audio-visual-solutions','digital-signage-amp-video-walls','meeting-room-solutions'],                                                 # PSAU
+  ['audio-visual-solutions','meeting-room-solutions'],                                                                                   # TAQEEM
+  ['audio-visual-solutions','digital-signage-amp-video-walls'],                                                                          # auditorium
+]
 # "From our sites" gallery — real installation/site photos, (file, en alt, ar alt)
 GAL_IMG = [
   ('dc-proj-controlroom.jpg', 'A control room we integrated', 'غرفة تحكم من تنفيذنا'),
@@ -268,6 +277,43 @@ def stats_marquee(ar):
             f'<div class="dcp-marquee"><div class="track">{row}</div></div></section>')
 
 # ── PROJECTS ────────────────────────────────────────────────────────────
+# page-scoped so no shared-asset VER bump is needed; adapts to dark mode via the dcp tokens.
+PROJ_FILTER_CSS = """<style>
+.dcp-phero .dcp-phero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:end}
+.dcp-phero-l h1{margin:.28em 0 0}
+.dcp-phero-r p{margin:0;color:var(--dcp-ink2);font-size:1.03rem;line-height:1.75;max-width:52ch}
+.dcp-pfilter{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px;padding:14px;background:var(--dcp-soft);border:1px solid var(--dcp-line);border-radius:16px}
+.dcp-pf-search{flex:1 1 300px;display:flex;align-items:center;gap:10px;padding:12px 18px;background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:11px}
+.dcp-pf-search svg{flex:0 0 auto;color:var(--dcp-ink3)}
+.dcp-pf-search input{flex:1;min-width:0;border:0;outline:0;background:transparent;color:var(--dcp-ink);font:inherit;font-size:1rem}
+.dcp-pf-search input::placeholder{color:var(--dcp-ink3)}
+#dcp-pservice{flex:0 0 auto;min-width:210px;padding:12px 42px 12px 18px;appearance:none;-webkit-appearance:none;color:var(--dcp-ink);font:inherit;font-size:1rem;cursor:pointer;border:1px solid var(--dcp-line);border-radius:11px;background:var(--dcp-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238a9299' stroke-width='2.6'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 16px center}
+.dcp-pf-search:focus-within,#dcp-pservice:focus-visible{border-color:var(--dcp-teal-d)}
+.dcp-proj.is-hidden{display:none}
+.dcp-noresult{grid-column:1/-1;width:100%;text-align:center;color:var(--dcp-ink3);padding:44px 0;font-size:1.05rem}
+[dir=rtl] #dcp-pservice{padding:12px 18px 12px 42px;background-position:left 16px center}
+@media(max-width:820px){.dcp-phero .dcp-phero-grid{grid-template-columns:1fr;gap:20px;align-items:start}.dcp-phero-r p{max-width:none}.dcp-pf-search{flex-basis:100%}#dcp-pservice{flex:1 1 100%}}
+</style>"""
+PROJ_FILTER_JS = """<script>
+(function(){
+  var q=document.getElementById('dcp-psearch'),sel=document.getElementById('dcp-pservice'),
+      grid=document.getElementById('dcp-projgrid'),none=document.getElementById('dcp-noresult');
+  if(!grid)return;
+  var cards=[].slice.call(grid.querySelectorAll('.dcp-proj'));
+  function apply(){
+    var term=((q&&q.value)||'').trim().toLowerCase(),svc=(sel&&sel.value)||'',shown=0;
+    cards.forEach(function(c){
+      var disc=(c.getAttribute('data-disc')||'').split(' ');
+      var show=(!svc||disc.indexOf(svc)>-1)&&(!term||(c.textContent||'').toLowerCase().indexOf(term)>-1);
+      c.classList.toggle('is-hidden',!show);if(show)shown++;
+    });
+    if(none)none.hidden=shown!==0;
+  }
+  if(q)q.addEventListener('input',apply);
+  if(sel)sel.addEventListener('change',apply);
+})();
+</script>"""
+
 def build_projects(ar):
     s = STR['ar' if ar else 'en']
     U = CASE_UI['ar' if ar else 'en']
@@ -275,7 +321,7 @@ def build_projects(ar):
     for i, p in enumerate(s['proj']):
         sector, city, name, body, kit, client, scope = p
         kits = ''.join(f'<span>{esc(k)}</span>' for k in kit)
-        cards += f"""<article class="dcp-proj">
+        cards += f"""<article class="dcp-proj" data-disc="{' '.join(PROJ_DISC[i])}">
   <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" loading="lazy" width="1200" height="750"></div>
   <div class="band"><span class="c">{esc(sector)}</span><span>{esc(city)}</span></div>
   <div class="in"><h3>{esc(name)}</h3><p class="body">{esc(body)}</p>
@@ -290,18 +336,49 @@ def build_projects(ar):
     gal = ''.join(f'<figure><img src="assets1/images/{g[0]}" alt="{esc(g[2] if ar else g[1])}" '
                   f'loading="lazy" width="900" height="600">'
                   f'<figcaption>{esc(g[2] if ar else g[1])}</figcaption></figure>' for g in GAL_IMG)
+    # ── two-column hero + working filter bar (matches the live projects hero layout,
+    #    but with our own engineer-voice copy instead of the generic blurb) ──
+    ghost = 'PROJECT' if not ar else 'مشاريع'
+    crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> '
+             f'&rsaquo; {esc(s["pj_title"])}</div>')
+    sub = ('استكشف أمثلة واقعية من حلولنا وهي قيد التشغيل، من خلال دراسات الحالة.'
+           if ar else 'Explore real-world examples of our solutions in action, through our case studies.')
+    rpar = ('كل مشروع هنا نظام صمّمناه وورّدناه وركّبناه وسلّمناه بأنفسنا — عملاء محدّدون، والمعدات '
+            'الفعلية التي رُكّبت، والمعايير التي بُني عليها: من التمديدات الهيكلية وشبكات الواي فاي إلى '
+            'جدران فيديو LED والإخلاء الصوتي والتحكم في الدخول، عبر مدارس وحُرم جامعية وقاعات مجالس في '
+            'المملكة.' if ar else
+            'Every project here is a system we designed, supplied, installed and handed over ourselves '
+            '— named clients, the exact equipment deployed, and the standards it was built to. From '
+            'structured cabling and Wi-Fi networks to LED video walls, voice evacuation and access '
+            'control, across schools, campuses and boardrooms in Saudi Arabia.')
+    present = [d for d in DISCIPLINES if any(d[0] in dd for dd in PROJ_DISC)]
+    opts = ('<option value="">' + esc('كل الخدمات' if ar else 'All Services') + '</option>'
+            + ''.join(f'<option value="{d[0]}">{esc(d[2] if ar else d[1])}</option>' for d in present))
+    ph = 'ابحث في المشاريع…' if ar else 'Search projects…'
+    noresult = 'لا توجد مشاريع مطابقة.' if ar else 'No projects match your search.'
+    search_svg = ('<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" '
+                  'stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/>'
+                  '<path d="M21 21l-4.3-4.3"/></svg>')
+    phero = (f'<section class="dcp-hero dcp-phero"><div class="dcp-ghost" aria-hidden="true">{esc(ghost)}</div>'
+             f'<div class="dcp-wrap"><div class="dcp-phero-grid">'
+             f'<div class="dcp-phero-l">{crumb}<h1>{esc(s["pj_title"])}</h1>'
+             f'<p class="dcp-lede">{esc(sub)}</p></div>'
+             f'<div class="dcp-phero-r"><p>{esc(rpar)}</p></div></div>'
+             f'<div class="dcp-pfilter"><div class="dcp-pf-search">{search_svg}'
+             f'<input type="search" id="dcp-psearch" placeholder="{esc(ph)}" aria-label="{esc(ph)}"></div>'
+             f'<select id="dcp-pservice" aria-label="{esc("All Services" if not ar else "كل الخدمات")}">{opts}</select>'
+             f'</div></div></section>')
     body = (
-      hero(ar, 'WORK' if not ar else 'مشاريع', s['pj_title'], s['pj_title'], s['pj_lede'],
-           f'<div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap">'
-           f'<a class="dcp-btn" href="{loc("contact",ar)}">{esc(s["consult"])} {I_ARROW}</a></div>')
+      PROJ_FILTER_CSS + phero
       + stats_marquee(ar)
-      + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-projs">{cards}</div></div></section>'
+      + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-projs" id="dcp-projgrid">{cards}'
+        f'<p class="dcp-noresult" id="dcp-noresult" hidden>{esc(noresult)}</p></div></div></section>'
       + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
         f'<h2>{esc(s["pj_feat_h"])}</h2></div><div class="dcp-featgrid">{feat}</div></div></section>'
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
         f'<h2>{esc(s["pj_gal_h"])}</h2><p>{esc(s["pj_gal_p"])}</p></div>'
         f'<div class="dcp-gal">{gal}</div></div></section>'
-      + cta_band(ar) + footer(ar))
+      + cta_band(ar) + footer(ar) + PROJ_FILTER_JS)
     title = ('مشاريعنا | داتاكور للحلول' if ar else 'Projects | Datacore Solutions')
     return shell(ar, 'projects', title, s['pj_lede'], body)
 
