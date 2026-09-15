@@ -117,6 +117,21 @@ VER = "43"
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
 OG_IMG = SITE + "/assets1/images/dc-og.jpg"
+# per-page-type Open Graph cards (generated branded 1200x630s) so a shared link
+# shows the right heading instead of one generic image; falls back to dc-og.jpg.
+_OG_TYPES = {"services", "products", "projects", "insights", "contact", "about-us", "careers", "faq", "glossary"}
+_OG_LANDING = {"elv-low-current-systems-saudi-arabia", "av-solutions-provider-saudi-arabia",
+               "av-network-integrator-saudi-arabia", "network-solutions-provider-riyadh",
+               "structured-cabling-company-riyadh"}
+def _og_for(active):
+    a = active or ""
+    if a in _OG_TYPES:                       key = a
+    elif a.startswith("service-"):           key = "services"
+    elif a.startswith("project-"):           key = "projects"
+    elif a.startswith("insight-"):           key = "insights"
+    elif a in _OG_LANDING:                   key = "services"
+    else:                                    return OG_IMG   # index, terms, privacy, 404
+    return SITE + "/assets1/images/og-" + key + ".jpg"
 
 def _abs(base, ar):
     return SITE + "/" + loc(base, ar)
@@ -133,6 +148,7 @@ def seo_meta(ar, active, title, desc):
     else:
         page_url, alts = SITE + "/", ''
     lc = 'ar_SA' if ar else 'en_US'
+    og = _og_for(active)
     return (alts +
         '<meta property="og:type" content="website">'
         '<meta property="og:site_name" content="Datacore Solutions">'
@@ -140,11 +156,13 @@ def seo_meta(ar, active, title, desc):
         f'<meta property="og:title" content="{esc(title)}">'
         f'<meta property="og:description" content="{esc(desc)}">'
         f'<meta property="og:url" content="{page_url}">'
-        f'<meta property="og:image" content="{OG_IMG}">'
+        f'<meta property="og:image" content="{og}">'
+        '<meta property="og:image:width" content="1200">'
+        '<meta property="og:image:height" content="630">'
         '<meta name="twitter:card" content="summary_large_image">'
         f'<meta name="twitter:title" content="{esc(title)}">'
         f'<meta name="twitter:description" content="{esc(desc)}">'
-        f'<meta name="twitter:image" content="{OG_IMG}">')
+        f'<meta name="twitter:image" content="{og}">')
 
 # Organization + three regional offices + WebSite — the entity graph that answer
 # engines (Google, ChatGPT, Perplexity) read. Facts only; no invented data.
@@ -542,7 +560,7 @@ def build_projects(ar):
         read_link = (f'<a class="dcp-dir" href="{loc("project-"+CASE_SLUG[i], ar)}">{esc(U["read"])} {I_ARROW}</a>'
                      if CASE_SLUG[i] else '')
         cards += f"""<article class="dcp-proj" data-disc="{' '.join(PROJ_DISC[i])}">
-  <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" loading="lazy" width="1200" height="750"></div>
+  <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" loading="lazy" decoding="async" width="1200" height="750"></div>
   <div class="band"><span class="c">{esc(sector)}</span><span>{esc(city)}</span></div>
   <div class="in"><h3>{esc(name)}</h3><p class="body">{esc(body)}</p>
     <div class="dcp-kit">{kits}</div>
@@ -554,7 +572,7 @@ def build_projects(ar):
                    f'<h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
                    for i,(t,d) in enumerate(s['pj_feat']))
     gal = ''.join(f'<figure><img src="assets1/images/{g[0]}" alt="{esc(g[2] if ar else g[1])}" '
-                  f'loading="lazy" width="900" height="600">'
+                  f'loading="lazy" decoding="async" width="900" height="600">'
                   f'<figcaption>{esc(g[2] if ar else g[1])}</figcaption></figure>' for g in GAL_IMG)
     # ── two-column hero + working filter bar (matches the live projects hero layout,
     #    but with our own engineer-voice copy instead of the generic blurb) ──
@@ -623,7 +641,7 @@ def build_case(slug, ar):
     hero = (f'<section class="dcp-hero"><div class="dcp-wrap">{crumb}'
             f'<h1>{E(c["name"])}</h1><p class="dcp-lede">{E(c["lede"])}</p></div></section>')
     photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
-             f'<img src="assets1/images/{C["img"]}" alt="{esc(c["name"])}" loading="lazy" width="1200" height="750">'
+             f'<img src="assets1/images/{C["img"]}" alt="{esc(c["name"])}" loading="lazy" decoding="async" width="1200" height="750">'
              f'</figure></div></section>')
     # "At a glance" facts — styled inline so no new CSS / VER bump is needed
     facts = [(U['client'], c.get('client')), (U['sector'], c.get('sector')), (U['location'], c.get('city'))]
@@ -651,7 +669,7 @@ def build_case(slug, ar):
     gal = ''
     if c.get('gallery'):
         figs = ''.join(f'<figure><img src="assets1/images/{g["img"]}" alt="{esc(g["cap"])}" '
-                       f'loading="lazy" width="1100" height="700"><figcaption>{E(g["cap"])}</figcaption></figure>'
+                       f'loading="lazy" decoding="async" width="1100" height="700"><figcaption>{E(g["cap"])}</figcaption></figure>'
                        for g in c['gallery'])
         gal = (f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
                f'<h2>{esc(U["gallery"])}</h2></div><div class="dcp-gal">{figs}</div></div></section>')
@@ -734,7 +752,7 @@ def build_insights(ar):
     cards = ''
     for i, p in enumerate(INSIGHTS[lang]['posts']):
         cards += f"""<article class="dcp-post">
-  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" loading="lazy" width="561" height="306"></a></div>
+  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" loading="lazy" decoding="async" width="561" height="306"></a></div>
   <div class="in"><span class="by">{E(p['date'])} &middot; {E(p['team'])}</span>
     <h3><a href="{loc('insight-'+p['slug'],ar)}">{E(p['title'])}</a></h3><p>{E(p['dek'])}</p>
     <a class="dcp-dir" href="{loc('insight-'+p['slug'],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
@@ -768,15 +786,17 @@ def build_post(i, ar):
     E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
     ins_lbl = 'ملاحظات تقنية' if ar else 'Insights'
     ghost = 'ملاحظات' if ar else 'NOTES'
+    _rt = max(1, round(sum(len(t.split()) for _, t in P['blocks']) / 200))   # ~200 wpm
+    _rt_lbl = f"{_rt} دقيقة قراءة" if ar else f"{_rt} min read"
     crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> '
              f'&rsaquo; <a href="{loc("insights",ar)}">{esc(ins_lbl)}</a> '
              f'&rsaquo; {E(P["title"])}</div>')
     hero_html = (f'<section class="dcp-hero"><div class="dcp-ghost" aria-hidden="true">{esc(ghost)}</div>'
                  f'<div class="dcp-wrap">{crumb}'
-                 f'<p class="byline">{E(P["date"])} &middot; {E(P["team"])}</p>'
+                 f'<p class="byline">{E(P["date"])} &middot; {E(P["team"])} &middot; {esc(_rt_lbl)}</p>'
                  f'<h1>{E(P["title"])}</h1><p class="dcp-lede">{E(P["dek"])}</p></div></section>')
     fig = (f'<figure class="dcp-art-fig"><img src="assets1/images/{POST_IMG[i]}?v={VER}" '
-           f'alt="{esc(P["title"])}" width="561" height="306"></figure>')
+           f'alt="{esc(P["title"])}" width="561" height="306" loading="lazy" decoding="async"></figure>')
     blocks = ''.join(f'<{typ}>{E(txt)}</{typ}>' for typ, txt in P['blocks'])
     faq = P.get('faq', [])
     faq_html = ''
@@ -894,7 +914,7 @@ def build_contact(ar):
            f'<div class="dcp-head"><h2>{esc(s["c_offices_h"])}</h2></div>'
            f'<div class="dcp-geo"><div class="dcp-offices-list" id="dcp-offices">{offices}</div>'
            f'<div class="dcp-map-col"><div class="dcp-tabs" id="dcp-mtabs">{tabs}</div>'
-           f'<div class="dcp-map" id="dcp-map"><iframe title="{esc(s["map_h"])}" loading="lazy" '
+           f'<div class="dcp-map" id="dcp-map"><iframe title="{esc(s["map_h"])}" loading="lazy" decoding="async" '
            f'src="{map_src[0]}" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>'
            f'<p class="dcp-mapcap"><span id="dcp-mapcap">{esc(map_cap[0])}</span> &middot; '
            f'<a id="dcp-mapdir" href="{map_dir[0]}" target="_blank" rel="noopener">{esc(s["directions"])}</a></p>'
