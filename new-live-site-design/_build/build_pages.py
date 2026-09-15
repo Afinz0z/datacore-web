@@ -263,8 +263,8 @@ BRANDS = ['Cisco', 'Aruba', 'Axis', 'Bosch', 'Crestron', 'Extron', 'Biamp', 'Q-S
 
 def stats_marquee(ar):
     # only facts already stated on the site (2026 − 2007 = 19 years)
-    stats = ([(19, 'سنة من التكامل'), (3, 'دول'), (9, 'تخصصات'), (38, 'خدمة')] if ar else
-             [(19, 'Years integrating'), (3, 'Countries'), (9, 'Disciplines'), (38, 'Services')])
+    stats = ([(16, 'سنة من التكامل'), (3, 'دول'), (9, 'تخصصات'), (38, 'خدمة')] if ar else
+             [(16, 'Years integrating'), (3, 'Countries'), (9, 'Disciplines'), (38, 'Services')])
     cells = ''.join(
         f'<div class="dcp-stat"><div class="num" data-count="{n}">{n}</div>'
         f'<div class="lab">{esc(lab)}</div></div>' for n, lab in stats)
