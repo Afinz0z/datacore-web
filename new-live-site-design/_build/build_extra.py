@@ -174,10 +174,12 @@ for slug in ["av-solutions-provider-saudi-arabia", "elv-low-current-systems-saud
              "av-network-integrator-saudi-arabia"]:
     urls += [slug + ".html", slug + "-ar.html"]
 
+import datetime
+LASTMOD = datetime.date.today().isoformat()
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">'.replace("www.sitemap.org", "www.sitemaps.org")]
 for u in urls:
-    sm.append(f"  <url><loc>{BASE}/{u}</loc><changefreq>monthly</changefreq></url>")
+    sm.append(f"  <url><loc>{BASE}/{u}</loc><lastmod>{LASTMOD}</lastmod><changefreq>monthly</changefreq></url>")
 sm.append("</urlset>")
 open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
 
