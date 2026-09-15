@@ -279,29 +279,42 @@ def stats_marquee(ar):
 # ── PROJECTS ────────────────────────────────────────────────────────────
 # page-scoped so no shared-asset VER bump is needed; adapts to dark mode via the dcp tokens.
 PROJ_FILTER_CSS = """<style>
+.dcp-phero{position:relative;z-index:20}
 .dcp-phero .dcp-phero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:end}
 .dcp-phero-l h1{margin:.28em 0 0}
 .dcp-phero-r p{margin:0;color:var(--dcp-ink2);font-size:1.03rem;line-height:1.75;max-width:52ch}
 .dcp-pfilter{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px;padding:14px;background:var(--dcp-soft);border:1px solid var(--dcp-line);border-radius:16px}
-.dcp-pf-search{flex:1 1 300px;display:flex;align-items:center;gap:10px;padding:12px 18px;background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:11px}
+.dcp-pf-search{flex:1 1 300px;display:flex;align-items:center;gap:10px;padding:12px 18px;background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:11px;transition:border-color .15s}
 .dcp-pf-search svg{flex:0 0 auto;color:var(--dcp-ink3)}
 .dcp-pf-search input{flex:1;min-width:0;border:0;outline:0;background:transparent;color:var(--dcp-ink);font:inherit;font-size:1rem}
 .dcp-pf-search input::placeholder{color:var(--dcp-ink3)}
-#dcp-pservice{flex:0 0 auto;min-width:210px;padding:12px 42px 12px 18px;appearance:none;-webkit-appearance:none;color:var(--dcp-ink);font:inherit;font-size:1rem;cursor:pointer;border:1px solid var(--dcp-line);border-radius:11px;background:var(--dcp-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238a9299' stroke-width='2.6'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 16px center}
-.dcp-pf-search:focus-within,#dcp-pservice:focus-visible{border-color:var(--dcp-teal-d)}
+.dcp-pf-search:focus-within{border-color:var(--dcp-teal-d)}
+.dcp-pf-drop{position:relative;flex:0 0 auto;min-width:236px}
+.dcp-pf-btn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:11px;color:var(--dcp-ink);font:inherit;font-size:1rem;cursor:pointer;text-align:start;transition:border-color .15s,box-shadow .15s}
+.dcp-pf-btn:hover{border-color:var(--dcp-ink3)}
+.dcp-pf-drop[data-open] .dcp-pf-btn,.dcp-pf-btn:focus-visible{border-color:var(--dcp-teal-d);outline:none;box-shadow:0 0 0 3px rgba(0,119,111,.13)}
+.dcp-pf-caret{flex:0 0 auto;color:var(--dcp-ink3);transition:transform .2s}
+.dcp-pf-drop[data-open] .dcp-pf-caret{transform:rotate(180deg)}
+.dcp-pf-menu{position:absolute;z-index:40;top:calc(100% + 8px);inset-inline-start:0;min-width:100%;margin:0;padding:6px;list-style:none;background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:13px;box-shadow:0 20px 46px -20px rgba(0,0,0,.4);max-height:340px;overflow:auto}
+.dcp-pf-menu li{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:11px 14px;border-radius:8px;color:var(--dcp-ink2);font-size:.97rem;cursor:pointer;white-space:nowrap;outline:none}
+.dcp-pf-menu li:hover,.dcp-pf-menu li:focus-visible{background:var(--dcp-soft);color:var(--dcp-ink)}
+.dcp-pf-menu li.is-sel{color:var(--dcp-teal-d);font-weight:600;background:var(--dcp-soft)}
+.dcp-pf-menu li .tick{opacity:0;color:var(--dcp-teal-d);font-weight:700}
+.dcp-pf-menu li.is-sel .tick{opacity:1}
 .dcp-proj.is-hidden{display:none}
 .dcp-noresult{grid-column:1/-1;width:100%;text-align:center;color:var(--dcp-ink3);padding:44px 0;font-size:1.05rem}
-[dir=rtl] #dcp-pservice{padding:12px 18px 12px 42px;background-position:left 16px center}
-@media(max-width:820px){.dcp-phero .dcp-phero-grid{grid-template-columns:1fr;gap:20px;align-items:start}.dcp-phero-r p{max-width:none}.dcp-pf-search{flex-basis:100%}#dcp-pservice{flex:1 1 100%}}
+@media(max-width:820px){.dcp-phero .dcp-phero-grid{grid-template-columns:1fr;gap:20px;align-items:start}.dcp-phero-r p{max-width:none}.dcp-pf-search{flex-basis:100%}.dcp-pf-drop{flex:1 1 100%}}
 </style>"""
 PROJ_FILTER_JS = """<script>
 (function(){
-  var q=document.getElementById('dcp-psearch'),sel=document.getElementById('dcp-pservice'),
+  var q=document.getElementById('dcp-psearch'),drop=document.getElementById('dcp-pservice'),
       grid=document.getElementById('dcp-projgrid'),none=document.getElementById('dcp-noresult');
   if(!grid)return;
   var cards=[].slice.call(grid.querySelectorAll('.dcp-proj'));
+  var btn=drop&&drop.querySelector('.dcp-pf-btn'),menu=drop&&drop.querySelector('.dcp-pf-menu'),
+      cur=drop&&drop.querySelector('.dcp-pf-cur'),opts=menu?[].slice.call(menu.children):[];
   function apply(){
-    var term=((q&&q.value)||'').trim().toLowerCase(),svc=(sel&&sel.value)||'',shown=0;
+    var term=((q&&q.value)||'').trim().toLowerCase(),svc=(drop&&drop.getAttribute('data-value'))||'',shown=0;
     cards.forEach(function(c){
       var disc=(c.getAttribute('data-disc')||'').split(' ');
       var show=(!svc||disc.indexOf(svc)>-1)&&(!term||(c.textContent||'').toLowerCase().indexOf(term)>-1);
@@ -309,8 +322,27 @@ PROJ_FILTER_JS = """<script>
     });
     if(none)none.hidden=shown!==0;
   }
+  function setOpen(o){ if(!menu)return; menu.hidden=!o; o?drop.setAttribute('data-open',''):drop.removeAttribute('data-open'); btn.setAttribute('aria-expanded',o?'true':'false'); }
+  function choose(li){
+    drop.setAttribute('data-value',li.getAttribute('data-value'));
+    cur.textContent=li.getAttribute('data-label')||li.textContent.trim();
+    opts.forEach(function(x){var s=x===li;x.classList.toggle('is-sel',s);x.setAttribute('aria-selected',s?'true':'false');});
+    setOpen(false); btn.focus(); apply();
+  }
+  if(btn&&menu){
+    opts.forEach(function(x){x.tabIndex=-1;});
+    btn.addEventListener('click',function(e){e.stopPropagation();var willOpen=menu.hidden;setOpen(willOpen);if(willOpen)(menu.querySelector('.is-sel')||opts[0]||btn).focus();});
+    menu.addEventListener('click',function(e){var li=e.target.closest('[role=option]');if(li)choose(li);});
+    document.addEventListener('click',function(e){if(!drop.contains(e.target))setOpen(false);});
+    drop.addEventListener('keydown',function(e){
+      var i=opts.indexOf(document.activeElement);
+      if(e.key==='Escape'){setOpen(false);btn.focus();}
+      else if(e.key==='ArrowDown'){e.preventDefault();if(menu.hidden){setOpen(true);(menu.querySelector('.is-sel')||opts[0]).focus();}else if(i<opts.length-1)opts[i+1].focus();}
+      else if(e.key==='ArrowUp'){e.preventDefault();if(!menu.hidden&&i>0)opts[i-1].focus();}
+      else if((e.key==='Enter'||e.key===' ')&&i>-1){e.preventDefault();choose(opts[i]);}
+    });
+  }
   if(q)q.addEventListener('input',apply);
-  if(sel)sel.addEventListener('change',apply);
 })();
 </script>"""
 
@@ -352,8 +384,9 @@ def build_projects(ar):
             'structured cabling and Wi-Fi networks to LED video walls, voice evacuation and access '
             'control, across schools, campuses and boardrooms in Saudi Arabia.')
     present = [d for d in DISCIPLINES if any(d[0] in dd for dd in PROJ_DISC)]
-    opts = ('<option value="">' + esc('كل الخدمات' if ar else 'All Services') + '</option>'
-            + ''.join(f'<option value="{d[0]}">{esc(d[2] if ar else d[1])}</option>' for d in present))
+    alllbl = 'كل الخدمات' if ar else 'All Services'
+    optl = (f'<li role="option" data-value="" data-label="{esc(alllbl)}" class="is-sel" aria-selected="true"><span>{esc(alllbl)}</span><span class="tick" aria-hidden="true">✓</span></li>'
+            + ''.join(f'<li role="option" data-value="{d[0]}" data-label="{esc(d[2] if ar else d[1])}" aria-selected="false"><span>{esc(d[2] if ar else d[1])}</span><span class="tick" aria-hidden="true">✓</span></li>' for d in present))
     ph = 'ابحث في المشاريع…' if ar else 'Search projects…'
     noresult = 'لا توجد مشاريع مطابقة.' if ar else 'No projects match your search.'
     search_svg = ('<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" '
@@ -366,7 +399,13 @@ def build_projects(ar):
              f'<div class="dcp-phero-r"><p>{esc(rpar)}</p></div></div>'
              f'<div class="dcp-pfilter"><div class="dcp-pf-search">{search_svg}'
              f'<input type="search" id="dcp-psearch" placeholder="{esc(ph)}" aria-label="{esc(ph)}"></div>'
-             f'<select id="dcp-pservice" aria-label="{esc("All Services" if not ar else "كل الخدمات")}">{opts}</select>'
+             f'<div class="dcp-pf-drop" id="dcp-pservice" data-value="">'
+             f'<button type="button" class="dcp-pf-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="{esc(alllbl)}">'
+             f'<span class="dcp-pf-cur">{esc(alllbl)}</span>'
+             f'<svg class="dcp-pf-caret" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>'
+             f'</button>'
+             f'<ul class="dcp-pf-menu" role="listbox" hidden>{optl}</ul>'
+             f'</div>'
              f'</div></div></section>')
     body = (
       PROJ_FILTER_CSS + phero
