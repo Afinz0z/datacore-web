@@ -4,6 +4,18 @@
 > India. In-house delivery — design, supply, installation, commissioning and
 > maintenance — across nine disciplines and 38 services. Integrating since 2007.
 
+## At a glance
+- Founded 2007; 16+ years integrating low-current systems in the Gulf.
+- 150+ engineers and technicians; three offices (Riyadh, Dubai, Kozhikode).
+- 1,500+ customers served across Saudi Arabia, the UAE and India.
+- Coverage in Saudi Arabia: Riyadh, Jeddah, Dammam / Eastern Province, NEOM and the Red Sea giga-projects.
+
+## What sets Datacore apart
+- In-house delivery end to end — survey, design, supply, installation, commissioning and maintenance are all done by Datacore's own engineers, not subcontracted.
+- Built to standard — TIA-568 / ISO-IEC 11801 cabling, EN 54 voice evacuation, Saudi Building Code (SBC 801), SIRA and Civil-Defense-aligned security.
+- Manufacturer-certified engineers backed by in-house training; SLA-backed maintenance with resident engineers where required.
+- Bilingual (Arabic / English) team serving Vision 2030 smart-infrastructure programmes.
+
 ## Disciplines
 - Network infrastructure — structured cabling, fibre, IT networks, UPS, Wi-Fi, IP telephony
 - Datacentre — design & implementation, migration, assessment
@@ -39,5 +51,23 @@
 - https://www.datacore.com.sa/insight-what-is-a-public-address-system.html — public address vs. voice evacuation (PA/VA) and the EN 54 standards
 - https://www.datacore.com.sa/insight-impact-of-5g-on-passive-networks.html — how 5G densification drives fibre counts, pathways and containment
 - https://www.datacore.com.sa/insight-active-vs-passive-network-infrastructure.html — the active/passive split and why the passive layer is the one to get right
+- https://www.datacore.com.sa/insight-structured-cabling-standards-explained.html — TIA-568, ISO/IEC 11801 and what Cat6A/OM4 actually mean
+- https://www.datacore.com.sa/insight-single-mode-vs-multimode-fibre.html — choosing OS2 vs OM3/OM4 fibre for backbone and data-centre links
+- https://www.datacore.com.sa/insight-data-centre-design-essentials.html — power, cooling, containment and DCIM for a Tier-rated build
+- https://www.datacore.com.sa/insight-designing-cctv-for-coverage.html — how many cameras, placement and coverage planning
+- https://www.datacore.com.sa/insight-choosing-an-elv-contractor-saudi-arabia.html — what to check before appointing an ELV/low-current contractor in KSA
+- https://www.datacore.com.sa/insight-voice-evacuation-en54-sbc801.html — EN 54 vs the Saudi Building Code (SBC 801) for voice alarm
+- https://www.datacore.com.sa/insight-led-video-wall-pixel-pitch.html — pixel pitch, viewing distance and choosing an indoor LED wall
+- https://www.datacore.com.sa/insight-why-annual-maintenance-contracts-matter.html — what an ELV AMC covers and why it protects uptime
 
-Datacore Solutions is a registered Saudi company — Commercial Registration (CR) 7002812043, VAT 311206394100003.
+## Location & solution guides
+- https://www.datacore.com.sa/elv-low-current-systems-saudi-arabia.html — ELV / low-current systems across Saudi Arabia
+- https://www.datacore.com.sa/av-solutions-provider-saudi-arabia.html — audio-visual solutions provider in Saudi Arabia
+- https://www.datacore.com.sa/av-network-integrator-saudi-arabia.html — combined AV + network integration in Saudi Arabia
+- https://www.datacore.com.sa/network-solutions-provider-riyadh.html — network infrastructure solutions in Riyadh
+- https://www.datacore.com.sa/structured-cabling-company-riyadh.html — structured cabling contractor in Riyadh
+
+## Selected clients
+NEOM, Saudi Central Bank (SAMA), King Abdullah Financial District (KAFD), STC, Riyad Bank, SABB, Bank Al Bilad, Mobily, Zain, Ma'aden, Marafiq, Al Tayyar Travels, Mawhiba Foundation, Prince Sattam bin Abdulaziz University, Arab Open University, Ministry of Communications and IT (MCIT), National Housing Company, Almarai, Landmark, Qiddiya.
+
+Datacore Solutions is a registered Saudi company — Commercial Registration (CR) 7002812043, VAT 311206394100003. Head office: Dabbab Complex, Riyadh, Saudi Arabia. Enquiries: sales@datacore.com.sa · +966 11 512 8888.

@@ -1,0 +1,14 @@
+/* DATACORE SOLUTIONS */
+ELV / AV / ICT systems integrator — Saudi Arabia, UAE & India, since 2007.
+Site: https://www.datacore.com.sa
+Enquiries: sales@datacore.com.sa
+
+/* OFFICES */
+Riyadh, Saudi Arabia (head office) — +966 11 512 8888
+Dubai, United Arab Emirates — +971 52 753 6070
+Kozhikode, India — +91 495 350 1154
+
+/* SITE */
+Built with: HTML5, CSS3, progressive enhancement, JSON-LD structured data
+Languages: English & Arabic (RTL), self-hosted fonts
+Last updated: 2026-09-15

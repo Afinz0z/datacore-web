@@ -95,12 +95,22 @@ def build_404(ar):
     else:
         h, p, b1, b2 = ("Page not found", "That link may have moved, or the address is not quite right.",
                         "Back to home", "Browse services")
-    body = (f'<section class="dcp-hero" style="min-height:60vh;display:flex;align-items:center">'
+    more_h = "صفحات مفيدة" if ar else "Or try a popular page"
+    _links = ([("services", "الخدمات"), ("products", "المنتجات"), ("projects", "المشاريع"),
+               ("insights", "الأفكار"), ("faq", "الأسئلة الشائعة"), ("contact", "تواصل معنا")] if ar else
+              [("services", "Services"), ("products", "Products"), ("projects", "Projects"),
+               ("insights", "Insights"), ("faq", "FAQ"), ("contact", "Contact us")])
+    link_html = ''.join(f'<a href="{loc(k, ar)}">{esc(lbl)}</a>' for k, lbl in _links)
+    body = (f'<section class="dcp-hero" style="min-height:56vh;display:flex;align-items:center">'
             f'<div class="dcp-ghost" aria-hidden="true">404</div>'
             f'<div class="dcp-wrap"><h1>{esc(h)}</h1><p class="dcp-lede">{esc(p)}</p>'
             f'<div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap">'
             f'<a class="dcp-btn" href="{loc("index",ar)}">{esc(b1)}</a>'
-            f'<a class="dcp-btn-o" href="{loc("services",ar)}">{esc(b2)}</a></div></div></section>'
+            f'<a class="dcp-btn-o" href="{loc("services",ar)}">{esc(b2)}</a></div>'
+            f'<div style="margin-top:34px"><p style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;'
+            f'color:var(--dcp-ink3);margin:0 0 12px">{esc(more_h)}</p>'
+            f'<div style="display:flex;gap:10px 22px;flex-wrap:wrap;font-weight:600" class="dcp-404links">{link_html}</div>'
+            f'</div></div></section>'
             + footer(ar))
     tt = h + (" | داتاكور" if ar else " | Datacore Solutions")
     return shell(ar, "", tt, p, body)
@@ -183,9 +193,18 @@ for u in urls:
 sm.append("</urlset>")
 open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
 
-robots = ("User-agent: *\nAllow: /\n\n"
-          "# AI / answer engines are welcome to read the site summary\n"
-          f"Sitemap: {BASE}/sitemap.xml\n")
+# AI answer engines + search crawlers, named explicitly so bots that look for
+# their own user-agent (rather than the wildcard) see an unambiguous welcome.
+# Being crawlable is the precondition for being cited in AI answers and search.
+_AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot",
+            "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Googlebot",
+            "Bingbot", "Applebot", "Applebot-Extended", "Amazonbot", "DuckDuckBot", "CCBot",
+            "Meta-ExternalAgent", "cohere-ai", "YouBot", "Diffbot"]
+robots = ("# Datacore Solutions — all user-agents welcome across the whole site\n"
+          "User-agent: *\nAllow: /\n\n"
+          "# Named answer-engine / search crawlers are explicitly welcome to read, index and cite this site\n\n"
+          + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in _AI_BOTS)
+          + f"Sitemap: {BASE}/sitemap.xml\n")
 open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8").write(robots)
 
 llms = f"""# Datacore Solutions
@@ -193,6 +212,18 @@ llms = f"""# Datacore Solutions
 > Low-current (ELV) systems integrator operating in Saudi Arabia, the UAE and
 > India. In-house delivery — design, supply, installation, commissioning and
 > maintenance — across nine disciplines and 38 services. Integrating since 2007.
+
+## At a glance
+- Founded 2007; 16+ years integrating low-current systems in the Gulf.
+- 150+ engineers and technicians; three offices (Riyadh, Dubai, Kozhikode).
+- 1,500+ customers served across Saudi Arabia, the UAE and India.
+- Coverage in Saudi Arabia: Riyadh, Jeddah, Dammam / Eastern Province, NEOM and the Red Sea giga-projects.
+
+## What sets Datacore apart
+- In-house delivery end to end — survey, design, supply, installation, commissioning and maintenance are all done by Datacore's own engineers, not subcontracted.
+- Built to standard — TIA-568 / ISO-IEC 11801 cabling, EN 54 voice evacuation, Saudi Building Code (SBC 801), SIRA and Civil-Defense-aligned security.
+- Manufacturer-certified engineers backed by in-house training; SLA-backed maintenance with resident engineers where required.
+- Bilingual (Arabic / English) team serving Vision 2030 smart-infrastructure programmes.
 
 ## Disciplines
 - Network infrastructure — structured cabling, fibre, IT networks, UPS, Wi-Fi, IP telephony
@@ -229,8 +260,56 @@ llms = f"""# Datacore Solutions
 - {BASE}/insight-what-is-a-public-address-system.html — public address vs. voice evacuation (PA/VA) and the EN 54 standards
 - {BASE}/insight-impact-of-5g-on-passive-networks.html — how 5G densification drives fibre counts, pathways and containment
 - {BASE}/insight-active-vs-passive-network-infrastructure.html — the active/passive split and why the passive layer is the one to get right
+- {BASE}/insight-structured-cabling-standards-explained.html — TIA-568, ISO/IEC 11801 and what Cat6A/OM4 actually mean
+- {BASE}/insight-single-mode-vs-multimode-fibre.html — choosing OS2 vs OM3/OM4 fibre for backbone and data-centre links
+- {BASE}/insight-data-centre-design-essentials.html — power, cooling, containment and DCIM for a Tier-rated build
+- {BASE}/insight-designing-cctv-for-coverage.html — how many cameras, placement and coverage planning
+- {BASE}/insight-choosing-an-elv-contractor-saudi-arabia.html — what to check before appointing an ELV/low-current contractor in KSA
+- {BASE}/insight-voice-evacuation-en54-sbc801.html — EN 54 vs the Saudi Building Code (SBC 801) for voice alarm
+- {BASE}/insight-led-video-wall-pixel-pitch.html — pixel pitch, viewing distance and choosing an indoor LED wall
+- {BASE}/insight-why-annual-maintenance-contracts-matter.html — what an ELV AMC covers and why it protects uptime
 
-Datacore Solutions is a registered Saudi company — Commercial Registration (CR) 7002812043, VAT 311206394100003.
+## Location & solution guides
+- {BASE}/elv-low-current-systems-saudi-arabia.html — ELV / low-current systems across Saudi Arabia
+- {BASE}/av-solutions-provider-saudi-arabia.html — audio-visual solutions provider in Saudi Arabia
+- {BASE}/av-network-integrator-saudi-arabia.html — combined AV + network integration in Saudi Arabia
+- {BASE}/network-solutions-provider-riyadh.html — network infrastructure solutions in Riyadh
+- {BASE}/structured-cabling-company-riyadh.html — structured cabling contractor in Riyadh
+
+## Selected clients
+NEOM, Saudi Central Bank (SAMA), King Abdullah Financial District (KAFD), STC, Riyad Bank, SABB, Bank Al Bilad, Mobily, Zain, Ma'aden, Marafiq, Al Tayyar Travels, Mawhiba Foundation, Prince Sattam bin Abdulaziz University, Arab Open University, Ministry of Communications and IT (MCIT), National Housing Company, Almarai, Landmark, Qiddiya.
+
+Datacore Solutions is a registered Saudi company — Commercial Registration (CR) 7002812043, VAT 311206394100003. Head office: Dabbab Complex, Riyadh, Saudi Arabia. Enquiries: sales@datacore.com.sa · +966 11 512 8888.
 """
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(llms)
-print("wrote sitemap.xml (", len(urls), "urls), robots.txt, llms.txt")
+
+# humans.txt — the people/tech behind the site (a small professionalism signal)
+humans = f"""/* DATACORE SOLUTIONS */
+ELV / AV / ICT systems integrator — Saudi Arabia, UAE & India, since 2007.
+Site: {BASE}
+Enquiries: sales@datacore.com.sa
+
+/* OFFICES */
+Riyadh, Saudi Arabia (head office) — +966 11 512 8888
+Dubai, United Arab Emirates — +971 52 753 6070
+Kozhikode, India — +91 495 350 1154
+
+/* SITE */
+Built with: HTML5, CSS3, progressive enhancement, JSON-LD structured data
+Languages: English & Arabic (RTL), self-hosted fonts
+Last updated: {LASTMOD}
+"""
+open(os.path.join(ROOT, "humans.txt"), "w", encoding="utf-8").write(humans)
+
+# security.txt (RFC 9116) — a contact path for anyone reporting a vulnerability
+import datetime as _dt
+_expires = (_dt.date.today() + _dt.timedelta(days=365)).isoformat() + "T00:00:00.000Z"
+security = (f"Contact: mailto:info@datacore.com.sa\n"
+            f"Expires: {_expires}\n"
+            f"Preferred-Languages: en, ar\n"
+            f"Canonical: {BASE}/.well-known/security.txt\n")
+os.makedirs(os.path.join(ROOT, ".well-known"), exist_ok=True)
+open(os.path.join(ROOT, ".well-known", "security.txt"), "w", encoding="utf-8").write(security)
+open(os.path.join(ROOT, "security.txt"), "w", encoding="utf-8").write(security)  # root fallback for scanners that check /
+
+print("wrote sitemap.xml (", len(urls), "urls), robots.txt, llms.txt, humans.txt, security.txt")
