@@ -228,7 +228,7 @@ llms = f"""# Datacore Solutions
 - {BASE}/insight-impact-of-5g-on-passive-networks.html — how 5G densification drives fibre counts, pathways and containment
 - {BASE}/insight-active-vs-passive-network-infrastructure.html — the active/passive split and why the passive layer is the one to get right
 
-Note: company registration (CR) and VAT numbers shown on the site are placeholders.
+Datacore Solutions is a registered Saudi company — Commercial Registration (CR) 7002812043, VAT 311206394100003.
 """
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(llms)
 print("wrote sitemap.xml (", len(urls), "urls), robots.txt, llms.txt")
