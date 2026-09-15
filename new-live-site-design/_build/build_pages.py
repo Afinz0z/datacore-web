@@ -348,6 +348,80 @@ PROJ_FILTER_JS = """<script>
 })();
 </script>"""
 
+# Real, named delivered work from the company presentation + AV/network reference decks.
+# (client, sector_en, sector_ar, scope_en, scope_ar)
+SELECTED = [
+ ("Qiddiya Entertainment City","Giga-project","مشروع عملاق",
+  "ICT, structured cabling, access control, CCTV, video walls and AV for the Speed Park Formula 1 circuit, and a park-wide public-address and fire-alarm system for Six Flags.",
+  "أنظمة تقنية المعلومات والتمديدات الهيكلية والتحكم في الدخول وكاميرات المراقبة وشاشات الفيديو الجدارية والصوتيات لحلبة الفورمولا 1 في سبيد بارك، ونظام نداء عام وإنذار حريق على مستوى المدينة الترفيهية لـ Six Flags."),
+ ("NEOM","Giga-project","مشروع عملاق",
+  "CEO meeting room with Cisco Telepresence; passive systems and video walls at NEOM Bay Airport; camp offices (NC1/NC2); complete passive scope at NEOM Hospital; CCTV and access control at NEOM International Airport.",
+  "قاعة اجتماعات الرئيس التنفيذي بنظام Cisco Telepresence؛ أنظمة سلبية وشاشات فيديو جدارية في مطار نيوم باي؛ مكاتب المخيمات (NC1/NC2)؛ الحلول السلبية الكاملة لمستشفى نيوم؛ كاميرات المراقبة والتحكم في الدخول في مطار نيوم الدولي."),
+ ("KAFD HQ","Corporate","مقر مؤسسي",
+  "IT infrastructure and audio-visual for the King Abdullah Financial District HQ — meeting rooms, board rooms and a command centre.",
+  "البنية التحتية لتقنية المعلومات والحلول السمعية والبصرية لمقر مركز الملك عبدالله المالي — قاعات اجتماعات ومجالس إدارة وغرفة عمليات."),
+ ("SAMA — KAFD","Data centre","مركز بيانات",
+  "Complete data-centre passive scope: 118 Panduit network cabinets, six containment systems, and SYSTIMAX imVision intelligent patch panels.",
+  "النطاق السلبي الكامل لمركز البيانات: 118 خزانة شبكات Panduit، وستة أنظمة احتواء، ولوحات توصيل ذكية SYSTIMAX imVision."),
+ ("Bank Al Bilad","Data centre","مركز بيانات",
+  "Complete active and passive ELV systems for the bank's data centre, plus public address and CCTV.",
+  "أنظمة التيار الخفيف الفعّالة والسلبية الكاملة لمركز بيانات البنك، بالإضافة إلى النداء العام وكاميرات المراقبة."),
+ ("SABB","Data centre","مركز بيانات",
+  "SYSTIMAX imVision intelligent patch-panel installation and configuration for the HQ data centre.",
+  "تركيب وتهيئة لوحات التوصيل الذكية SYSTIMAX imVision لمركز بيانات المقر الرئيسي."),
+ ("Prince Sattam bin Abdulaziz University","University","جامعة",
+  "Campus-wide audio-visual — smart classrooms, board rooms and auditoriums — at Al-Kharj.",
+  "حلول سمعية وبصرية على مستوى الحرم الجامعي — فصول ذكية وقاعات مجالس إدارة ومسارح — في الخرج."),
+ ("Arab Open University","University","جامعة",
+  "Audio-visual for classrooms, board rooms, the council room and auditorium at the Riyadh campus.",
+  "حلول سمعية وبصرية للفصول وقاعات مجالس الإدارة وقاعة المجلس والمسرح في حرم الرياض."),
+ ("TAQEEM HQ","Government","جهة حكومية",
+  "IT infrastructure and audio-visual for the Riyadh HQ — multipurpose room, board rooms and training rooms.",
+  "البنية التحتية لتقنية المعلومات والحلول السمعية والبصرية للمقر في الرياض — قاعة متعددة الأغراض وقاعات مجالس إدارة وقاعات تدريب."),
+ ("King Abdulaziz International Airport","Airport","مطار",
+  "Fire-alarm and public-address systems for the new south terminal, Jeddah.",
+  "أنظمة إنذار الحريق والنداء العام للصالة الجنوبية الجديدة، جدة."),
+ ("Maaden PCS Testing Center","Command centre","غرفة عمليات",
+  "A large-format video wall for real-time process visualisation, integrated control and monitoring, and ergonomic 24/7 operator consoles — installed, tested and commissioned end-to-end.",
+  "شاشة فيديو جدارية كبيرة لعرض العمليات في الوقت الفعلي، وأنظمة تحكم ومراقبة متكاملة، ووحدات تشغيل مريحة على مدار الساعة — بالتركيب والاختبار والتشغيل الكامل."),
+ ("S15 MOI Border Guards Housing","Residential","إسكان",
+  "Complete ICT solutions for 300 villas, 1,000 apartments and a data centre, Jazan.",
+  "حلول تقنية معلومات كاملة لـ 300 فيلا و1000 شقة ومركز بيانات، جازان."),
+]
+CLIENT_ROSTER = ["NEOM","Qiddiya","KAFD","SAMA","SABB","Bank Al Bilad","Riyad Bank","STC","Mobily",
+  "Zain","Prince Sattam University","Arab Open University","MCIT","Mawhiba","Ma'aden","Marafiq",
+  "National Housing Company","Dimension Data","Deloitte","Almarai","Landmark"]
+SELECTED_CSS = """<style>
+.dcp-spgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:30px}
+.dcp-sp{border:1px solid var(--dcp-line);border-radius:14px;padding:22px 22px 24px;background:var(--dcp-bg);transition:border-color .2s,transform .2s}
+.dcp-sp:hover{border-color:var(--dcp-teal-d);transform:translateY(-3px)}
+.dcp-sp-sec{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--dcp-teal-d);background:var(--dcp-soft);padding:5px 11px;border-radius:999px}
+.dcp-sp h3{margin:14px 0 8px;font-size:1.07rem;line-height:1.25}
+.dcp-sp p{margin:0;color:var(--dcp-ink2);font-size:.91rem;line-height:1.6}
+.dcp-roster{margin-top:44px;text-align:center}
+.dcp-roster h3{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--dcp-ink3);margin:0 0 18px}
+.dcp-roster-names{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 12px;max-width:920px;margin:0 auto}
+.dcp-roster-names span{font-size:.9rem;font-weight:600;color:var(--dcp-ink2);background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:999px;padding:8px 16px}
+</style>"""
+
+def selected_section(ar):
+    ltr = (lambda x: '<span dir="ltr">' + esc(x) + '</span>') if ar else (lambda x: esc(x))
+    head = 'مشاريع مختارة في أنحاء المملكة' if ar else 'Selected projects across the Kingdom'
+    sub = ('من المشاريع العملاقة والبنوك الوطنية والجامعات إلى مراكز البيانات الحيوية — عيّنة من أعمالنا المُنجزة.'
+           if ar else 'From giga-projects and national banks to universities and mission-critical data centres — a sample of delivered work.')
+    cards = ''.join(
+        f'<article class="dcp-sp"><span class="dcp-sp-sec">{esc(se_a if ar else se_e)}</span>'
+        f'<h3>{ltr(cl)}</h3><p>{esc(sc_a if ar else sc_e)}</p></article>'
+        for cl, se_e, se_a, sc_e, sc_a in SELECTED)
+    roster = ''.join(f'<span>{ltr(c)}</span>' for c in CLIENT_ROSTER)
+    rhead = 'يثقون بنا' if ar else 'Trusted by'
+    return (SELECTED_CSS
+        + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+          f'<h2>{esc(head)}</h2><p>{esc(sub)}</p></div>'
+          f'<div class="dcp-spgrid">{cards}</div>'
+          f'<div class="dcp-roster"><h3>{esc(rhead)}</h3><div class="dcp-roster-names">{roster}</div></div>'
+          f'</div></section>')
+
 def build_projects(ar):
     s = STR['ar' if ar else 'en']
     U = CASE_UI['ar' if ar else 'en']
@@ -420,6 +494,7 @@ def build_projects(ar):
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
         f'<h2>{esc(s["pj_gal_h"])}</h2><p>{esc(s["pj_gal_p"])}</p></div>'
         f'<div class="dcp-gal">{gal}</div></div></section>'
+      + selected_section(ar)
       + cta_band(ar) + footer(ar) + PROJ_FILTER_JS)
     title = ('مشاريعنا | داتاكور للحلول' if ar else 'Projects | Datacore Solutions')
     return shell(ar, 'projects', title, s['pj_lede'], body)
