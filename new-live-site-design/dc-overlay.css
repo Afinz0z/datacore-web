@@ -38,7 +38,7 @@ html.dc-dark #dcx-hdr{
   -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line)}
 #dcx-hdr .wrap{max-width:1280px;margin:0 auto;display:flex;align-items:center;
-  gap:var(--s4);height:76px;padding:0 clamp(20px,5vw,56px);transition:height .25s ease}
+  gap:28px;height:76px;padding:0 clamp(20px,5vw,56px);transition:height .25s ease}
 #dcx-hdr .logo{flex:none;display:block}
 #dcx-hdr .logo img{height:56px;width:auto;display:block;transition:height .25s ease}
 html.dc-dark #dcx-hdr .logo img{filter:invert(1) hue-rotate(180deg)}
@@ -112,7 +112,7 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
   text-decoration:none;white-space:nowrap;line-height:1.3;border-bottom:0}
 #dcx-hdr .dcx-sub2 a:hover{background:var(--accent);color:var(--accent-contrast)}
 
-@media(max-width:900px){
+@media(max-width:1200px){
   #dcx-hdr .mainnav,#dcx-hdr .btn-p{display:none}
   #dcx-hdr .burger{display:block;margin-inline-start:auto}
   #dcx-hdr .mainnav.open{display:flex;flex-direction:column;align-items:stretch;
