@@ -2,7 +2,13 @@
    live pages, plus dark-mode and the injected About sections. The header uses
    the developed site's own classes/values, scoped under #dcx-hdr so the live
    page's Bootstrap CSS (.btn, .logo…) can't clash with it. */
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+/* Self-hosted (was a render-blocking @import of Google Fonts, which forced a
+   serial waterfall on every page: overlay CSS -> Google CSS -> font files).
+   Archivo is a variable font (one file covers 400-700). Latin subset only —
+   these faces carry Latin text/labels; Arabic uses the site's Arabic fonts. */
+@font-face{font-family:'Archivo';src:url('fonts/Archivo.woff2') format('woff2');font-weight:400 700;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('fonts/IBMPlexMono-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('fonts/IBMPlexMono-Medium.woff2') format('woff2');font-weight:500;font-display:swap}
 html,body{margin:0}   /* reset the UA 8px body margin that framed every page */
 
 /* hide the live site's own top header (we replace it) */
