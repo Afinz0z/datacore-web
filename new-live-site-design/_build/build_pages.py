@@ -809,10 +809,19 @@ def build_post(i, ar):
     rel = ''.join(f'<a href="{loc("service-"+slug,ar)}">{E(anchor)} {I_ARROW}</a>'
                   for slug, anchor in P['related'])
     rel_h = 'خدمات ذات صلة' if ar else 'Related services'
+    # related insights — other articles that share a service with this one (auto topic cluster)
+    _mine = {sl for sl, _ in P['related']}
+    _scored = sorted(((len(_mine & {sl for sl, _ in q['related']}), j)
+                      for j, q in enumerate(INSIGHTS['en']['posts'])
+                      if j != i and (_mine & {sl for sl, _ in q['related']})), reverse=True)
+    _relins = ''.join(f'<a href="{loc("insight-"+INSIGHTS["en"]["posts"][j]["slug"], ar)}">'
+                      f'{E(INSIGHTS[lang]["posts"][j]["title"])} {I_ARROW}</a>' for _, j in _scored[:3])
+    relins_block = (f'<div class="dcp-related"><h2>{esc("مقالات ذات صلة" if ar else "Related insights")}</h2>{_relins}</div>'
+                    if _relins else '')
     body = (hero_html
             + f'<section class="dcp-sec"><div class="dcp-wrap">{fig}'
               f'<div class="dcp-article">{blocks}</div>{faq_html}'
-              f'<div class="dcp-related"><h2>{esc(rel_h)}</h2>{rel}</div></div></section>'
+              f'<div class="dcp-related"><h2>{esc(rel_h)}</h2>{rel}</div>{relins_block}</div></section>'
             + cta_band(ar) + footer(ar))
     url = SITE + '/' + loc('insight-' + P['slug'], ar)
     schema = [{"@context": "https://schema.org", "@type": "BlogPosting",
