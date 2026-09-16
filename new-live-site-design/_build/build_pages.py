@@ -641,7 +641,7 @@ def build_case(slug, ar):
     hero = (f'<section class="dcp-hero"><div class="dcp-wrap">{crumb}'
             f'<h1>{E(c["name"])}</h1><p class="dcp-lede">{E(c["lede"])}</p></div></section>')
     photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
-             f'<img src="assets1/images/{C["img"]}" alt="{esc(c["name"])}" loading="lazy" decoding="async" width="1200" height="750">'
+             f'<img src="assets1/images/{C["img"]}" alt="{esc(c["name"])}" fetchpriority="high" decoding="async" width="1200" height="750">'
              f'</figure></div></section>')
     # "At a glance" facts — styled inline so no new CSS / VER bump is needed
     facts = [(U['client'], c.get('client')), (U['sector'], c.get('sector')), (U['location'], c.get('city'))]
@@ -786,7 +786,8 @@ def build_post(i, ar):
     E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
     ins_lbl = 'ملاحظات تقنية' if ar else 'Insights'
     ghost = 'ملاحظات' if ar else 'NOTES'
-    _rt = max(1, round(sum(len(t.split()) for _, t in P['blocks']) / 200))   # ~200 wpm
+    _wc = sum(len(t.split()) for _, t in P['blocks'])
+    _rt = max(1, round(_wc / 200))   # ~200 wpm
     _rt_lbl = f"{_rt} دقيقة قراءة" if ar else f"{_rt} min read"
     crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> '
              f'&rsaquo; <a href="{loc("insights",ar)}">{esc(ins_lbl)}</a> '
@@ -795,8 +796,10 @@ def build_post(i, ar):
                  f'<div class="dcp-wrap">{crumb}'
                  f'<p class="byline">{E(P["date"])} &middot; {E(P["team"])} &middot; {esc(_rt_lbl)}</p>'
                  f'<h1>{E(P["title"])}</h1><p class="dcp-lede">{E(P["dek"])}</p></div></section>')
+    # Hero image = LCP element (text hero above it carries no image); prioritise it
+    # instead of lazy-loading, which Lighthouse flags as an LCP anti-pattern.
     fig = (f'<figure class="dcp-art-fig"><img src="assets1/images/{POST_IMG[i]}?v={VER}" '
-           f'alt="{esc(P["title"])}" width="561" height="306" loading="lazy" decoding="async"></figure>')
+           f'alt="{esc(P["title"])}" width="561" height="306" fetchpriority="high" decoding="async"></figure>')
     blocks = ''.join(f'<{typ}>{E(txt)}</{typ}>' for typ, txt in P['blocks'])
     faq = P.get('faq', [])
     faq_html = ''
@@ -827,6 +830,7 @@ def build_post(i, ar):
     schema = [{"@context": "https://schema.org", "@type": "BlogPosting",
                "headline": P['title'], "description": P['meta'],
                "datePublished": POST_ISO[i], "dateModified": POST_ISO[i], "inLanguage": lang,
+               "wordCount": _wc,
                "image": SITE + '/assets1/images/' + POST_IMG[i],
                "author": {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'},
                "publisher": {"@id": SITE + '/#org'},

@@ -251,7 +251,7 @@ def build(slug, ar):
     if ph:
         cap = ph[2] if ar else ph[1]
         photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
-                 f'<img src="assets1/images/{ph[0]}" alt="{esc(cap)}" loading="lazy" decoding="async" width="1100" height="700">'
+                 f'<img src="assets1/images/{ph[0]}" alt="{esc(cap)}" fetchpriority="high" decoding="async" width="1100" height="700">'
                  f'<figcaption>{esc(cap)}</figcaption></figure></div></section>')
     body = hero + photo + method + body_sec + related_reading(di, ar) + faq_section(di, ar) + cta_band(ar) + footer(ar)
     # schema: Service + BreadcrumbList
