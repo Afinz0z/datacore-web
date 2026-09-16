@@ -34,6 +34,7 @@ CAT = {
   "iptv-for-enterprise-hospitality": "IPTV",
   "digital-signage-that-works": "Digital signage",
   "why-annual-maintenance-contracts-matter": "Support & AMC",
+  "what-are-elv-low-current-systems": "ELV explained",
 }
 
 def font(name, size):
