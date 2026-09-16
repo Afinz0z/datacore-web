@@ -7,7 +7,7 @@ pages stay byte-for-byte untouched. Adds the methodology band (design #4)."""
 import os, sys, json, html
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS
+from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS, FAQ_CSS
 
 # slug -> (EN title, AR title) so service pages can link the matching guides
 _ITITLE = {e["slug"]: (e["title"], a.get("title", e["title"]))
@@ -36,6 +36,83 @@ def related_reading(di, ar):
     return (f'<section class="dcp-sec alt"><div class="dcp-wrap" style="max-width:820px">'
             f'<div class="dcp-head"><h2>{esc(head)}</h2></div>'
             f'<div style="display:flex;flex-direction:column;gap:13px">{links}</div></div></section>')
+
+# Discipline-level FAQs — accurate: they restate the standards / scope / coverage
+# already stated on the pages, no invented facts. Rendered visibly AND as FAQPage
+# schema so AI assistants and search can lift the answers. Arabic is first-draft.
+DISC_FAQ = [
+ [("What cabling standards do you install to?", "We install structured cabling to TIA-568 and ISO/IEC 11801, using Cat6A copper and OM4 fibre, and hand over documented certification test results."),
+  ("Do you cover both copper and fibre?", "Yes — structured cabling, fibre-optic backbones, enterprise Wi-Fi, IT networks, UPS and IP telephony, across Saudi Arabia, the UAE and India."),
+  ("Do you certify the installation?", "Every link is tested and certified against the relevant standard, with the results provided at handover.")],
+ [("Do you design and build data centres from scratch?", "Yes — design, implementation, migration and assessment, covering containment, power, precision cooling and DCIM."),
+  ("What Tier level do you build to?", "We prepare Tier III-class data centres, including civil and electrical works, UPS, FM200 suppression, raised floor and cabinets."),
+  ("Can you assess an existing data centre?", "Yes — data-centre assessment and recommendations are available as a standalone service.")],
+ [("Are your CCTV and access-control systems SIRA-compliant?", "Yes — we design and install to SIRA and Civil Defense requirements in Saudi Arabia."),
+  ("Can security systems integrate with our other building systems?", "Yes — our ONVIF-based CCTV and access control integrate with HR, visitor and related systems."),
+  ("What access-control credentials do you support?", "Card, PIN, biometric (face and fingerprint) and mobile credentials.")],
+ [("Do you support Microsoft Teams Rooms and Zoom Rooms?", "Yes — meeting and board rooms built for Teams Rooms and Zoom Rooms, with BYOD connectivity."),
+  ("Can you add room and desk booking?", "Yes — room and desk booking systems, plus control-room (SOC/NOC) design."),
+  ("Do you handle acoustics?", "Acoustic treatment is part of our meeting-room and boardroom fit-outs.")],
+ [("What AV control platforms do you program?", "We design AV-over-IP systems with Dante audio and programmed control for auditoriums, classrooms and boardrooms."),
+  ("Do you cover auditoriums and smart classrooms?", "Yes — auditoriums, smart classrooms, professional audio and simultaneous-interpretation systems, among others."),
+  ("Is the control programming done in-house?", "Yes — design, installation, commissioning and control programming are delivered by our own engineers.")],
+ [("What LED video walls do you supply?", "Indoor and outdoor fine-pitch LED video walls with content management, plus interactive video walls."),
+  ("How do I choose the right pixel pitch?", "Pixel pitch follows the viewing distance and the room; we size it per site (see our LED pixel-pitch guide)."),
+  ("Do you provide the content-management system?", "Yes — digital signage with a CMS for scheduling and remote management.")],
+ [("Are your voice-evacuation systems EN 54-certified?", "Yes — PAVA voice evacuation to EN 54-16 and EN 54-24, aligned with the Saudi Building Code (SBC 801)."),
+  ("Are the systems Civil-Defense approved?", "We design fire-alarm and voice-evacuation systems to Civil Defense requirements in Saudi Arabia."),
+  ("Do you cover industrial PAGA?", "Yes — public address and general alarm (PAGA) for industrial sites, plus background-music systems.")],
+ [("Where are your IPTV systems used?", "Hospitality, healthcare and campus environments, plus MATV and satellite distribution."),
+  ("What is the difference between IPTV and MATV?", "IPTV distributes TV over the IP network and MATV over coax; we supply both and advise on the right fit."),
+  ("Can IPTV integrate with digital signage?", "Yes — IPTV and digital signage can share the same screens and management.")],
+ [("Do you offer maintenance contracts?", "Yes — SLA-backed annual maintenance contracts (AMCs) with response-time cover and scheduled preventive visits."),
+  ("Can you place engineers on our site?", "Yes — resident engineers and IT staffing, managed by Datacore."),
+  ("What does an AMC cover?", "Preventive maintenance, priority response, spares management and documentation — scoped to your systems.")],
+]
+DISC_FAQ_AR = [
+ [("ما المعايير التي تُنفّذون بها التمديدات الهيكلية؟", "نُنفّذ التمديدات الهيكلية وفق TIA-568 وISO/IEC 11801، باستخدام نحاس Cat6A وألياف OM4، ونُسلّم نتائج اختبار واعتماد موثّقة."),
+  ("هل تغطّون النحاس والألياف معاً؟", "نعم — تمديدات هيكلية وشبكات ألياف رئيسية وواي فاي للمؤسسات وشبكات تقنية المعلومات وأنظمة UPS والهاتف عبر IP، في السعودية والإمارات والهند."),
+  ("هل تعتمدون التركيب باختبار؟", "يُختبر كل مسار ويُعتمد وفق المعيار ذي الصلة، مع تسليم النتائج عند التسليم.")],
+ [("هل تصمّمون وتبنون مراكز البيانات من الصفر؟", "نعم — تصميم وتنفيذ ونقل وتقييم، شاملاً الاحتواء والطاقة والتبريد الدقيق وأنظمة DCIM."),
+  ("ما مستوى الفئة (Tier) الذي تبنون له؟", "نجهّز مراكز بيانات من فئة Tier III، شاملة الأعمال المدنية والكهربائية وأنظمة UPS وإطفاء FM200 والأرضية المرتفعة والخزانات."),
+  ("هل يمكنكم تقييم مركز بيانات قائم؟", "نعم — تقييم مراكز البيانات وتقديم التوصيات متاح كخدمة مستقلة.")],
+ [("هل أنظمة الكاميرات والتحكم في الدخول لديكم معتمدة من SIRA؟", "نعم — نصمّم ونركّب وفق متطلبات SIRA والدفاع المدني في السعودية."),
+  ("هل يمكن دمج الأنظمة الأمنية مع أنظمة المبنى الأخرى؟", "نعم — كاميراتنا القائمة على ONVIF والتحكم في الدخول تتكامل مع أنظمة الموارد البشرية والزوّار والأنظمة ذات الصلة."),
+  ("ما وسائل التعريف المدعومة للتحكم في الدخول؟", "البطاقات وأرقام PIN والقياسات الحيوية (الوجه والبصمة) والهاتف المحمول.")],
+ [("هل تدعمون Microsoft Teams Rooms وZoom Rooms؟", "نعم — قاعات اجتماعات ومجالس مبنية لـ Teams Rooms وZoom Rooms مع اتصال BYOD."),
+  ("هل يمكن إضافة حجز القاعات والمكاتب؟", "نعم — أنظمة حجز القاعات والمكاتب، إضافة إلى تصميم غرف التحكم (SOC/NOC)."),
+  ("هل تتعاملون مع المعالجة الصوتية؟", "المعالجة الصوتية جزء من تجهيز قاعات الاجتماعات والمجالس.")],
+ [("ما منصّات التحكم السمعي البصري التي تبرمجونها؟", "نصمّم أنظمة AV-over-IP بصوت Dante وتحكّم مبرمج للمسارح والفصول وقاعات المجالس."),
+  ("هل تغطّون المسارح والفصول الذكية؟", "نعم — مسارح وفصول ذكية وصوت احترافي وأنظمة ترجمة فورية، من بين غيرها."),
+  ("هل تُنفَّذ برمجة التحكم داخلياً؟", "نعم — التصميم والتركيب والتشغيل وبرمجة التحكم يُنفّذها مهندسونا.")],
+ [("ما شاشات LED الجدارية التي تورّدونها؟", "شاشات LED جدارية داخلية وخارجية دقيقة الخطوة مع إدارة محتوى، إضافة إلى الجدران التفاعلية."),
+  ("كيف أختار خطوة البكسل المناسبة؟", "تتبع خطوة البكسل مسافة المشاهدة والقاعة؛ نحدّدها لكل موقع (انظر دليل خطوة البكسل)."),
+  ("هل تقدّمون نظام إدارة المحتوى؟", "نعم — لافتات رقمية مع نظام إدارة محتوى للجدولة والتحكم عن بُعد.")],
+ [("هل أنظمة الإخلاء الصوتي لديكم معتمدة وفق EN 54؟", "نعم — إخلاء صوتي PAVA وفق EN 54-16 وEN 54-24، متوافق مع كود البناء السعودي (SBC 801)."),
+  ("هل الأنظمة معتمدة من الدفاع المدني؟", "نصمّم أنظمة إنذار الحريق والإخلاء الصوتي وفق متطلبات الدفاع المدني في السعودية."),
+  ("هل تغطّون النداء والإنذار الصناعي PAGA؟", "نعم — النداء العام والإنذار (PAGA) للمواقع الصناعية، إضافة إلى أنظمة الموسيقى الخلفية.")],
+ [("أين تُستخدم أنظمة IPTV لديكم؟", "في الضيافة والرعاية الصحية والحُرم الجامعية، إضافة إلى توزيع MATV والبث الفضائي."),
+  ("ما الفرق بين IPTV وMATV؟", "يوزّع IPTV القنوات عبر شبكة IP بينما يوزّعها MATV عبر الكابل المحوري؛ نورّد الاثنين وننصح بالأنسب."),
+  ("هل يتكامل IPTV مع اللافتات الرقمية؟", "نعم — يمكن لـ IPTV واللافتات الرقمية مشاركة الشاشات نفسها وإدارتها.")],
+ [("هل تقدّمون عقود صيانة؟", "نعم — عقود صيانة سنوية مدعومة باتفاقية مستوى خدمة، بزمن استجابة وزيارات وقائية مجدولة."),
+  ("هل يمكنكم توفير مهندسين في موقعنا؟", "نعم — مهندسون مقيمون وتوفير كوادر تقنية، بإدارة داتاكور."),
+  ("ماذا يشمل عقد الصيانة السنوي؟", "الصيانة الوقائية والاستجابة ذات الأولوية وإدارة قطع الغيار والتوثيق — محدّدة حسب أنظمتك.")],
+]
+def faq_section(di, ar):
+    qa = (DISC_FAQ_AR if ar else DISC_FAQ)[di]
+    if not qa:
+        return ""
+    head = "أسئلة شائعة" if ar else "Frequently asked"
+    items = "".join(
+        f'<details class="dcp-faq"><summary>{esc(q)}</summary>'
+        f'<div class="dcp-faq-a"><p>{esc(a)}</p></div></details>' for q, a in qa)
+    return (f'<section class="dcp-sec"><div class="dcp-wrap" style="max-width:820px">'
+            f'<div class="dcp-head"><h2>{esc(head)}</h2></div>{items}</div></section>')
+def faq_schema(di, ar):
+    qa = (DISC_FAQ_AR if ar else DISC_FAQ)[di]
+    return {"@context": "https://schema.org", "@type": "FAQPage",
+            "mainEntity": [{"@type": "Question", "name": q,
+                            "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in qa]} if qa else None
 
 DATA = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data"
 SVC = json.load(open(os.path.join(DATA, "services-copy.json"), encoding="utf-8"))["services"]
@@ -176,12 +253,17 @@ def build(slug, ar):
         photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
                  f'<img src="assets1/images/{ph[0]}" alt="{esc(cap)}" loading="lazy" decoding="async" width="1100" height="700">'
                  f'<figcaption>{esc(cap)}</figcaption></figure></div></section>')
-    body = hero + photo + method + body_sec + related_reading(di, ar) + cta_band(ar) + footer(ar)
+    body = hero + photo + method + body_sec + related_reading(di, ar) + faq_section(di, ar) + cta_band(ar) + footer(ar)
     # schema: Service + BreadcrumbList
     schema = {"@context": "https://schema.org", "@type": "Service", "name": h1,
               "serviceType": disc_name, "provider": {"@id": SITE + "/#org"},
               "areaServed": ["SA", "AE", "IN"], "description": c.get("desc", intro)[:300]}
-    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
+    _schemas = [schema]
+    _fq = faq_schema(di, ar)
+    if _fq:
+        _schemas.append(_fq)
+    head = "".join('<script type="application/ld+json">' + json.dumps(x, ensure_ascii=False) + '</script>'
+                   for x in _schemas) + FAQ_CSS
     title = c.get("title") or (h1 + (" | داتاكور للحلول" if ar else " | Datacore Solutions"))
     _loc = ("السعودية", "الرياض") if ar else ("Saudi Arabia", "Riyadh")
     if not any(w in title for w in _loc):   # GEO: every service title should carry a country signal
