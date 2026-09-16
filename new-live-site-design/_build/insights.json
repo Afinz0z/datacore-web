@@ -1406,6 +1406,86 @@
     ],
     "img": "dc-insight-what-are-elv-low-current-systems.webp",
     "iso": "2026-09-16"
+   },
+   {
+    "slug": "what-is-a-tier-iii-data-centre",
+    "title": "What is a Tier III data centre?",
+    "date": "16 September 2026",
+    "team": "Systems team",
+    "dek": "Concurrent maintainability, N+1 redundancy and about 99.982% uptime — what the Uptime Institute's Tier III rating actually requires, and what it means for a build in Saudi Arabia.",
+    "meta": "What a Tier III data centre is: the Uptime Institute tier model, concurrent maintainability, N+1 redundancy, uptime, and what Tier III means for a data-centre build in Saudi Arabia.",
+    "blocks": [
+     [
+      "p",
+      "The Uptime Institute's tier ratings — I to IV — classify how resilient a data centre's physical infrastructure is. Tier III is the usual target for enterprise and government facilities: it is concurrently maintainable, which means any single component or distribution path can be taken out of service for maintenance without shutting down the IT load."
+     ],
+     [
+      "h2",
+      "The four tiers, briefly"
+     ],
+     [
+      "p",
+      "Tier I is basic capacity — a single path for power and cooling, no redundancy. Tier II adds redundant capacity components but still a single path. Tier III is concurrently maintainable: redundant components and multiple distribution paths, one active, so you can service anything without downtime. Tier IV is fault-tolerant: it withstands an unplanned component failure with no impact at all. Each step up buys resilience and costs more."
+     ],
+     [
+      "h2",
+      "What Tier III actually requires"
+     ],
+     [
+      "p",
+      "Concurrent maintainability is the defining test. Every capacity component — UPS, generators, cooling units — and every distribution path can be removed from service, planned, without affecting the computer room. In practice that means N+1 redundancy on power and cooling and multiple distribution paths (one active, one alternate). The Uptime Institute associates Tier III with roughly 99.982% availability — on the order of 1.6 hours of downtime a year."
+     ],
+     [
+      "h2",
+      "What it means for the build"
+     ],
+     [
+      "p",
+      "The rating drives the physical design: redundant UPS and standby generators, N+1 precision cooling, dual power paths to the racks, hot- and cold-aisle containment, raised floor or overhead distribution, clean-agent (FM200) fire suppression, and DCIM monitoring. Datacore builds Tier III-class facilities in Saudi Arabia end to end — civil and electrical works, precision cooling, UPS, FM200, raised floor and cabinets — from the shell up."
+     ],
+     [
+      "h2",
+      "Do you need Tier III?"
+     ],
+     [
+      "p",
+      "Tier III fits organisations where downtime is expensive but the 2N cost of Tier IV isn't justified — most enterprises and government bodies land here, and for mission-critical sectors like banking and healthcare it is the common baseline. The right answer starts from your uptime requirement, not a tier label: we assess what the business actually needs and design to the tier that fits, rather than over-specifying."
+     ]
+    ],
+    "related": [
+     [
+      "data-center-design-amp-implementation-services",
+      "Data centre design & build"
+     ],
+     [
+      "data-centre-assessment-amp-recommendations",
+      "Data centre assessment"
+     ],
+     [
+      "ups-systems",
+      "UPS systems"
+     ],
+     [
+      "structured-cabling-solutions",
+      "Structured cabling"
+     ]
+    ],
+    "faq": [
+     [
+      "What uptime does Tier III provide?",
+      "The Uptime Institute associates Tier III with about 99.982% availability — on the order of 1.6 hours of downtime a year — achieved through concurrent maintainability rather than a contractual SLA."
+     ],
+     [
+      "What is the difference between Tier III and Tier IV?",
+      "Tier III is concurrently maintainable — you can service any component without downtime (N+1). Tier IV is fault-tolerant — it withstands an unplanned failure with no impact (2N), at significantly higher cost."
+     ],
+     [
+      "Can you certify a data centre as Tier III?",
+      "Formal Tier certification is issued by the Uptime Institute. Datacore designs and builds to Tier III-class standards and can prepare the facility for certification."
+     ]
+    ],
+    "img": "dc-insight-what-is-a-tier-iii-data-centre.webp",
+    "iso": "2026-09-16"
    }
   ]
  },
@@ -2794,6 +2874,86 @@
      ]
     ],
     "img": "dc-insight-what-are-elv-low-current-systems.webp",
+    "iso": "2026-09-16"
+   },
+   {
+    "slug": "what-is-a-tier-iii-data-centre",
+    "title": "ما هو مركز البيانات من الفئة الثالثة (Tier III)؟",
+    "date": "16 سبتمبر 2026",
+    "team": "فريق الأنظمة",
+    "dek": "القابلية للصيانة المتزامنة، والتكرار N+1، وإتاحية نحو 99.982% — ما الذي تتطلبه فعلاً فئة Tier III من معهد Uptime، وماذا تعني لمشروعك في السعودية.",
+    "meta": "ما مركز البيانات من الفئة الثالثة (Tier III): نموذج فئات معهد Uptime، والقابلية للصيانة المتزامنة، والتكرار N+1، والإتاحية، وماذا تعني Tier III لبناء مركز بيانات في السعودية.",
+    "blocks": [
+     [
+      "p",
+      "تصنّف فئات معهد Uptime — من I إلى IV — مدى مرونة البنية المادية لمركز البيانات. وفئة Tier III هي الهدف المعتاد للمنشآت المؤسسية والحكومية: فهي قابلة للصيانة المتزامنة، أي يمكن إخراج أي مكوّن أو مسار توزيع للصيانة دون إيقاف حِمل تقنية المعلومات."
+     ],
+     [
+      "h2",
+      "الفئات الأربع باختصار"
+     ],
+     [
+      "p",
+      "الفئة الأولى قدرة أساسية — مسار واحد للطاقة والتبريد بلا تكرار. والثانية تضيف مكوّنات قدرة زائدة لكن بمسار واحد. والثالثة قابلة للصيانة المتزامنة: مكوّنات زائدة ومسارات توزيع متعددة، أحدها فعّال، فتخدم أي شيء دون توقّف. والرابعة متحمّلة للأعطال: تصمد أمام عطل غير مخطّط دون أي أثر. وكل درجة تشتري مرونة أعلى بتكلفة أعلى."
+     ],
+     [
+      "h2",
+      "ما الذي تتطلبه Tier III فعلاً"
+     ],
+     [
+      "p",
+      "القابلية للصيانة المتزامنة هي المعيار الحاسم. كل مكوّن قدرة — UPS والمولّدات ووحدات التبريد — وكل مسار توزيع يمكن إخراجه من الخدمة، بشكل مخطّط، دون التأثير على غرفة الحاسب. عملياً يعني ذلك تكرار N+1 في الطاقة والتبريد، ومسارات توزيع متعددة (واحد فعّال وآخر بديل). ويربط معهد Uptime فئة Tier III بإتاحية نحو 99.982% — بحدود 1.6 ساعة توقّف في السنة."
+     ],
+     [
+      "h2",
+      "ماذا يعني ذلك للبناء"
+     ],
+     [
+      "p",
+      "تقود الفئة التصميم المادي: أنظمة UPS زائدة ومولّدات احتياطية، وتبريد دقيق N+1، ومساري طاقة إلى الخزانات، واحتواء الممرات الحارة والباردة، وأرضية مرتفعة أو توزيع علوي، وإطفاء بغاز نظيف (FM200)، ومراقبة DCIM. وتبني داتاكور منشآت من فئة Tier III في السعودية من الألف إلى الياء — أعمال مدنية وكهربائية وتبريد دقيق وUPS وFM200 وأرضية مرتفعة وخزانات — من الهيكل."
+     ],
+     [
+      "h2",
+      "هل تحتاج إلى Tier III؟"
+     ],
+     [
+      "p",
+      "تناسب Tier III الجهات التي يكون فيها التوقّف مكلفاً لكن تكلفة 2N الخاصة بـ Tier IV غير مبرَّرة — وهنا تقع معظم المؤسسات والجهات الحكومية، وهي الأساس المعتاد للقطاعات الحيوية كالمصارف والرعاية الصحية. والإجابة الصحيحة تبدأ من متطلب الإتاحية لديك لا من مسمّى الفئة: نقيّم ما يحتاجه العمل فعلاً ونصمّم للفئة المناسبة دون مبالغة."
+     ]
+    ],
+    "related": [
+     [
+      "data-center-design-amp-implementation-services",
+      "تصميم وبناء مراكز البيانات"
+     ],
+     [
+      "data-centre-assessment-amp-recommendations",
+      "تقييم مراكز البيانات"
+     ],
+     [
+      "ups-systems",
+      "أنظمة UPS"
+     ],
+     [
+      "structured-cabling-solutions",
+      "التمديدات الهيكلية"
+     ]
+    ],
+    "faq": [
+     [
+      "ما الإتاحية التي توفّرها Tier III؟",
+      "يربط معهد Uptime فئة Tier III بإتاحية نحو 99.982% — بحدود 1.6 ساعة توقّف في السنة — تتحقق عبر القابلية للصيانة المتزامنة لا عبر اتفاقية مستوى خدمة."
+     ],
+     [
+      "ما الفرق بين Tier III وTier IV؟",
+      "Tier III قابلة للصيانة المتزامنة — تخدم أي مكوّن دون توقّف (N+1). وTier IV متحمّلة للأعطال — تصمد أمام عطل غير مخطّط دون أثر (2N) بتكلفة أعلى بكثير."
+     ],
+     [
+      "هل يمكنكم اعتماد مركز بيانات كـ Tier III؟",
+      "الاعتماد الرسمي للفئة يصدر عن معهد Uptime. وتصمّم داتاكور وتبني وفق معايير فئة Tier III ويمكنها تهيئة المنشأة للاعتماد."
+     ]
+    ],
+    "img": "dc-insight-what-is-a-tier-iii-data-centre.webp",
     "iso": "2026-09-16"
    }
   ]
