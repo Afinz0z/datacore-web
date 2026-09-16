@@ -102,11 +102,11 @@
       fetchpriority="high">
   
   <!-- Vendor CSS Files -->
-  <link href="assets1/vendor/aos/aos.css" rel="stylesheet" media="print"
+  <link href="assets1/vendor/aos/aos.css?v=2" rel="stylesheet" media="print"
     onload="this.media='all'" />
-  <link href="assets1/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" media="print"
+  <link href="assets1/vendor/glightbox/css/glightbox.min.css?v=2" rel="stylesheet" media="print"
     onload="this.media='all'" />
-  <link href="assets1/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" media="print"
+  <link href="assets1/vendor/swiper/swiper-bundle.min.css?v=2" rel="stylesheet" media="print"
     onload="this.media='all'" />
 
 
@@ -5025,6 +5025,7 @@ proven
 
   <script>
     function getRecaptchaToken() {
+      if (typeof grecaptcha === "undefined") return;  /* reCAPTCHA is domain-locked; no-op off datacore.com.sa (form uses Web3Forms) */
       grecaptcha.ready(function () {
         grecaptcha.execute('6LexCY0sAAAAADwsumAwonq10KerZKyKwwx-Y57Z', { action: 'contact_form' })
           .then(function (token) {
@@ -5204,6 +5205,7 @@ proven
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const track = document.getElementById('mobileTrack');
+      if (!track) return;
       const pages = track.children;
       const pageCount = pages.length;
       let currentPage = 1;
@@ -5323,6 +5325,7 @@ proven
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const track = document.querySelector('.carousel-trackz');
+      if (!track) return;
       const prevBtns = document.querySelectorAll('.carousel-btn.prevx');
       const nextBtns = document.querySelectorAll('.carousel-btn.nextx');
 

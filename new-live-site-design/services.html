@@ -100,11 +100,11 @@
 
   
   <!-- Vendor CSS Files -->
-  <link href="assets1/vendor/aos/aos.css" rel="stylesheet" media="print"
+  <link href="assets1/vendor/aos/aos.css?v=2" rel="stylesheet" media="print"
     onload="this.media='all'" />
-  <link href="assets1/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" media="print"
+  <link href="assets1/vendor/glightbox/css/glightbox.min.css?v=2" rel="stylesheet" media="print"
     onload="this.media='all'" />
-  <link href="assets1/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" media="print"
+  <link href="assets1/vendor/swiper/swiper-bundle.min.css?v=2" rel="stylesheet" media="print"
     onload="this.media='all'" />
 
 
@@ -2344,6 +2344,7 @@ sections.forEach(sec => sec.classList.add("active"));
 
   <script>
     function getRecaptchaToken() {
+      if (typeof grecaptcha === "undefined") return;  /* reCAPTCHA is domain-locked; no-op off datacore.com.sa (form uses Web3Forms) */
       grecaptcha.ready(function () {
         grecaptcha.execute('6LexCY0sAAAAADwsumAwonq10KerZKyKwwx-Y57Z', { action: 'contact_form' })
           .then(function (token) {

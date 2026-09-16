@@ -135,7 +135,7 @@
   <style>
     @font-face {
       font-family: 'Texta';
-      src: url(fonts/TextaRegular.ttf) format('truetype');
+      src: url(../../../../fonts/TextaRegular.ttf) format('truetype');
       font-weight: 400;
       /* Regular */
       font-style: normal;
@@ -144,7 +144,7 @@
 
     @font-face {
       font-family: 'Texta';
-      src: url(fonts/TextaMedium.ttf) format('truetype');
+      src: url(../../../../fonts/TextaMedium.ttf) format('truetype');
       font-weight: 500;
       /* Medium */
       font-style: normal;
@@ -153,7 +153,7 @@
 
     @font-face {
       font-family: 'Texta';
-      src: url(fonts/TextaBold.ttf) format('truetype');
+      src: url(../../../../fonts/TextaBold.ttf) format('truetype');
       font-weight: 700;
       /* Bold */
       font-style: normal;
@@ -162,7 +162,7 @@
 
     @font-face {
       font-family: 'Texta';
-      src: url(fonts/TextaHeavy.ttf) format('truetype');
+      src: url(../../../../fonts/TextaHeavy.ttf) format('truetype');
       font-weight: 800;
       /* Heavy */
       font-style: normal;
@@ -4408,7 +4408,7 @@ proven
   <style>
     @font-face {
       font-family: 'Texta';
-      src: url(fonts/TextaHeavy.ttf) format('truetype');
+      src: url(../../../../fonts/TextaHeavy.ttf) format('truetype');
       font-weight: 800;
       /* Heavy */
       font-style: normal;
@@ -4417,7 +4417,7 @@ proven
 
     @font-face {
       font-family: 'Texta';
-      src: url(fonts/TextaMedium.ttf) format('truetype');
+      src: url(../../../../fonts/TextaMedium.ttf) format('truetype');
       font-weight: 500;
       /* Medium */
       font-style: normal;
