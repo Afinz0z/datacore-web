@@ -56,9 +56,12 @@ html[dir=rtl] .dcp .dcp-btn:hover svg{transform:translateX(-4px)}
 .dcp-head{margin-bottom:38px}
 .dcp-head h2{font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:700;text-transform:uppercase}
 html[dir=rtl] .dcp-head h2{text-transform:none}
-.dcp-head p{color:var(--dcp-ink2);margin-top:12px;max-width:62ch}
+.dcp-head p{color:var(--dcp-ink2);margin-top:12px;max-width:62ch;text-wrap:balance}
 .dcp-center{text-align:center}
-.dcp-center .dcp-head p{margin-inline:auto}
+/* the sections put both classes on ONE element (class="dcp-head dcp-center"), so the
+   descendant form never matched and the max-width:62ch subtitle sat left-aligned.
+   Cover both the same-element and ancestor forms so the subtitle block centres. */
+.dcp-center .dcp-head p,.dcp-head.dcp-center p{margin-inline:auto}
 
 /* project cards */
 .dcp-projs{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
