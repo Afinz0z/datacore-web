@@ -260,6 +260,36 @@ this bumped **VER 25 → 26** — regenerated all pages + re-stamped the 6 live 
 unchanged, so the re-stamp is just for version consistency). mirror `f5b9f2b` →
 datacore-web `e3b28e4`, Pages success. Backup **V25**. Case-study pages have no ghost.
 
+## Session log — content + perf + a lazy-load fix (16 Sep 2026, V64–V67)
+Asset **VER stays 45** for all of these — every change is generated-HTML or live-page
+`<head>`, none touch `dc-overlay.*` / `dc-pages.css` / `dc-products.js` / `dc-fx.js`.
+Deploy = `git archive HEAD | tar -x` into `../datacore-web/new-live-site-design/` (that
+folder is the Pages artifact **root** — a page is served at `/datacore-web/<file>.html`,
+**not** `/datacore-web/new-live-site-design/<file>.html`; verify live at the artifact-root URL).
+- **V64** — new insight article "What is a Tier III data centre?" (EN+AR): Uptime tiers,
+  concurrent maintainability, N+1, ~99.982%. Same pipeline as the ELV article — append to
+  `insights.json`, add slug→category in `gen_insight_images.py` CAT, regen thumbnail, rebuild.
+  Now **20 insight articles ×2**. AR first-draft.
+- **V65** — LCP: insight / project-case / service hero photos dropped `loading=lazy` +
+  gained `fetchpriority="high"` (they are the LCP under a text-only hero). `BlogPosting`
+  schema gained `wordCount`.
+- **V66** — fonts→woff2. Generated `shell()` now preloads **TextaHeavy (H1) + TextaRegular
+  (body)** — the old preload was TextaBold (h2, below fold). Live pages (home/about/services
+  ×EN/AR): inline `@font-face` made **woff2-first with .ttf kept as fallback**, 24 font
+  preloads switched `.ttf`→`.woff2`. ~94KB lighter font path on the core pages; verified
+  only woff2 fetches, 0 font 404s, H1 still Texta.
+- **V67** — **blank-thumbnail fix.** The insights + projects hubs used native
+  `loading="lazy"` on their card/gallery images. In some rendering contexts (incl. the app
+  preview pane) that trigger never fires — the browser **never requests** the lower images →
+  blank cards. Tell: `performance.getEntriesByType('resource')` had **no entry** for the
+  image (not a 4xx — never requested); direct `fetch()` + fresh `Image()` load it fine.
+  Fix: these grids are small primary content, so **eager with priority tiering** — first
+  card `fetchpriority=high` (LCP), below-fold tail `fetchpriority=low`. Verified live: 20/20
+  insight thumbnails load with no scroll. Rule of thumb: **don't native-lazy a grid of small
+  primary thumbnails; lazy is for long pages with heavy below-fold media.** (products.html
+  already used 0 native-lazy — its images render via `dc-products.js`.)
+- Schema hygiene checked: 162 pages, 536 JSON-LD blocks, **0 parse errors, 0 dangling @id**.
+
 ## File map (mirror root)
 Flat by design — do not move pages into subfolders (breaks relative links + the
 overlay rewrite + Pages URLs). Loose files at root:
