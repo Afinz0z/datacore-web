@@ -560,8 +560,13 @@ def build_projects(ar):
         # the portfolio-deck showcase cards (CASE_SLUG[i] == '') show image + detail only.
         read_link = (f'<a class="dcp-dir" href="{loc("project-"+CASE_SLUG[i], ar)}">{esc(U["read"])} {I_ARROW}</a>'
                      if CASE_SLUG[i] else '')
+        # Eager (not native lazy, which can fail to trigger for lower cards) with
+        # priority tiering: first card is the LCP, the tail loads low-priority.
+        _pia = ('fetchpriority="high" decoding="async"' if i == 0
+                else 'decoding="async"' if i < 3
+                else 'fetchpriority="low" decoding="async"')
         cards += f"""<article class="dcp-proj" data-disc="{' '.join(PROJ_DISC[i])}">
-  <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" loading="lazy" decoding="async" width="1200" height="750"></div>
+  <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" {_pia} width="1200" height="750"></div>
   <div class="band"><span class="c">{esc(sector)}</span><span>{esc(city)}</span></div>
   <div class="in"><h3>{esc(name)}</h3><p class="body">{esc(body)}</p>
     <div class="dcp-kit">{kits}</div>
@@ -573,7 +578,7 @@ def build_projects(ar):
                    f'<h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
                    for i,(t,d) in enumerate(s['pj_feat']))
     gal = ''.join(f'<figure><img src="assets1/images/{g[0]}" alt="{esc(g[2] if ar else g[1])}" '
-                  f'loading="lazy" decoding="async" width="900" height="600">'
+                  f'fetchpriority="low" decoding="async" width="900" height="600">'
                   f'<figcaption>{esc(g[2] if ar else g[1])}</figcaption></figure>' for g in GAL_IMG)
     # ── two-column hero + working filter bar (matches the live projects hero layout,
     #    but with our own engineer-voice copy instead of the generic blurb) ──
@@ -752,8 +757,15 @@ def build_insights(ar):
     read = 'اقرأ المقال' if ar else 'Read the article'
     cards = ''
     for i, p in enumerate(INSIGHTS[lang]['posts']):
+        # Thumbnails are the hub's primary content and small (~18KB). Load them
+        # eagerly rather than via native loading=lazy, which can silently fail to
+        # trigger for lower cards (blank cards). First card is the LCP; the tail
+        # stays eager but low-priority so it never competes above the fold.
+        _ia = ('fetchpriority="high" decoding="async"' if i == 0
+               else 'decoding="async"' if i < 6
+               else 'fetchpriority="low" decoding="async"')
         cards += f"""<article class="dcp-post">
-  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" loading="lazy" decoding="async" width="561" height="306"></a></div>
+  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" {_ia} width="561" height="306"></a></div>
   <div class="in"><span class="by">{E(p['date'])} &middot; {E(p['team'])}</span>
     <h3><a href="{loc('insight-'+p['slug'],ar)}">{E(p['title'])}</a></h3><p>{E(p['dek'])}</p>
     <a class="dcp-dir" href="{loc('insight-'+p['slug'],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
