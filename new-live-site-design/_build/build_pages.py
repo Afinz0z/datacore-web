@@ -224,7 +224,8 @@ def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None)
 <link rel="apple-touch-icon" sizes="180x180" href="assets1/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets1/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets1/images/favicon-16x16.png">
-<link rel="preload" as="font" type="font/woff2" href="fonts/TextaBold.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/TextaHeavy.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/TextaRegular.woff2" crossorigin>
 <link rel="stylesheet" href="dc-overlay.css?v={VER}">
 <link rel="stylesheet" href="dc-pages.css?v={VER}">
 {seo_meta(ar, c, title, desc)}
