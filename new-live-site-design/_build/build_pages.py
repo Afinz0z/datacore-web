@@ -112,7 +112,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "44"
+VER = "45"
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -266,7 +266,7 @@ def footer(ar):
     touch = (f'<li><a href="{loc("contact",ar)}">{esc(o0[2])}, {esc(o0[3])}</a></li>'
              f'<li><a href="tel:{o0[5]}">{esc(o0[4])}</a></li>'
              f'<li><a href="{loc("careers",ar)}">{esc(s["f_careers"])}</a></li>')
-    return f"""<footer class="dcp-foot"><div class="dcp-wrap">
+    return f"""<footer class="dcp-foot" role="contentinfo"><div class="dcp-wrap">
 <div class="dcp-foot-top">
   <div><a class="logo" href="{loc('index',ar)}"><img src="assets1/images/dc-logo.svg" alt="Datacore Solutions" style="height:40px"></a>
     <p class="dcp-foot-blurb">{esc(s['brand_line'])}</p>

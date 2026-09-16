@@ -189,6 +189,8 @@
     var wrap = document.createElement('div');
     wrap.id = 'dc-content';
     wrap.tabIndex = -1;
+    wrap.setAttribute('role', 'main');   // landmark: lets AT jump to main content (skip link targets it)
+    hdr.setAttribute('role', 'banner');  // landmark: the site header
     while (document.body.firstChild) wrap.appendChild(document.body.firstChild);
     var skip = document.createElement('a');
     skip.className = 'dcx-skip';
