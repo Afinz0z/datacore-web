@@ -219,6 +219,7 @@ def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None)
 <script>try{{if(localStorage.getItem("dc-theme")==="dark")document.documentElement.classList.add("dc-dark");}}catch(e){{}}</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="dc-consent.js?v={VER}"></script>
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="apple-touch-icon" sizes="180x180" href="assets1/images/apple-touch-icon.png">
