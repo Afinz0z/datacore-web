@@ -1,0 +1,23 @@
+{
+ "switch": "<rect x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path d=\"M5 12h.01M8 12h.01M11 12h.01M14 12h.01M17 12h.01\"/>",
+ "ap": "<circle cx=\"12\" cy=\"15\" r=\"2\"/><path d=\"M8.5 11.5a5 5 0 017 0M5.5 8.5a9 9 0 0113 0\"/>",
+ "security": "<path d=\"M12 3l8 3v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z\"/>",
+ "camera": "<path d=\"M3 8h13l4 3v5H3z\"/><circle cx=\"9\" cy=\"12\" r=\"2.2\"/>",
+ "recorder": "<rect x=\"2\" y=\"7\" width=\"20\" height=\"10\" rx=\"1\"/><path d=\"M6 12h6\"/><circle cx=\"18\" cy=\"12\" r=\"1.2\"/>",
+ "reader": "<rect x=\"6\" y=\"3\" width=\"12\" height=\"18\" rx=\"2\"/><path d=\"M10 8h4M10 12h4M10 16h2\"/>",
+ "controller": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"1\"/><path d=\"M7 9h4M7 13h4M15 9v6\"/>",
+ "avoverip": "<rect x=\"2\" y=\"6\" width=\"20\" height=\"7\" rx=\"1\"/><path d=\"M7 17h10M12 13v4\"/>",
+ "extender": "<path d=\"M4 12h16M8 8l-4 4 4 4M16 8l4 4-4 4\"/>",
+ "dsp": "<rect x=\"2\" y=\"8\" width=\"20\" height=\"8\" rx=\"1\"/><path d=\"M6 11v2M9 10v4M12 11v2M15 10v4M18 11v2\"/>",
+ "mic": "<rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M5 12a7 7 0 0014 0M12 19v2\"/>",
+ "display": "<rect x=\"2\" y=\"4\" width=\"20\" height=\"13\" rx=\"1\"/><path d=\"M9 21h6M12 17v4\"/>",
+ "collab": "<circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 3v3M12 18v3M3 12h3M18 12h3\"/>",
+ "amp": "<rect x=\"2\" y=\"6\" width=\"20\" height=\"12\" rx=\"1\"/><circle cx=\"7\" cy=\"12\" r=\"2.5\"/><path d=\"M14 10h5M14 14h5\"/>",
+ "station": "<rect x=\"4\" y=\"6\" width=\"16\" height=\"10\" rx=\"1\"/><path d=\"M8 20h8M12 16v4\"/>",
+ "speaker": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"3.5\"/>",
+ "copper": "<path d=\"M4 16c4-8 12-8 16 0\"/><path d=\"M4 20c4-8 12-8 16 0\" opacity=\".45\"/><circle cx=\"12\" cy=\"10.5\" r=\"1.4\"/>",
+ "fibre": "<path d=\"M3 19c6 0 6-14 12-14h6\"/><circle cx=\"21\" cy=\"5\" r=\"1.8\"/>",
+ "rack": "<rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"1\"/><path d=\"M8 6h8M8 10h8M8 14h8M8 18h8\"/>",
+ "ups": "<rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path d=\"M13 7l-3.5 6H13l-1 4\"/>",
+ "pdu": "<rect x=\"10\" y=\"2\" width=\"4\" height=\"20\" rx=\"1\"/><path d=\"M14 6h5M14 11h5M14 16h5\"/>"
+}

@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER, SITE
 
-DATA = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data"
+DATA = os.path.dirname(os.path.abspath(__file__))  # data files bundled in _build/
 PRODUCTS = json.load(open(os.path.join(DATA, "products.json"), encoding="utf-8"))
 GLYPHS = json.load(open(os.path.join(DATA, "glyphs.json"), encoding="utf-8"))
 
