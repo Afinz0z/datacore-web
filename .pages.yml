@@ -16,9 +16,6 @@ content:
     view:
       fields: [slug, order, iso]
       sort: [order, slug]
-      default:
-        sort: order
-        order: asc
     fields:
       - name: slug
         label: Slug (URL id — lowercase-with-hyphens; the page becomes insight-<slug>.html)
@@ -34,8 +31,6 @@ content:
       - name: iso
         label: Date for search engines (ISO, e.g. 2026-09-16)
         type: date
-        options:
-          format: yyyy-MM-dd
       - name: en
         label: English
         type: object
