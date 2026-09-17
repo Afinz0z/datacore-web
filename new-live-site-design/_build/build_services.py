@@ -114,7 +114,7 @@ def faq_schema(di, ar):
             "mainEntity": [{"@type": "Question", "name": q,
                             "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in qa]} if qa else None
 
-DATA = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data"
+DATA = os.path.dirname(os.path.abspath(__file__))  # data files bundled in _build/
 SVC = json.load(open(os.path.join(DATA, "services-copy.json"), encoding="utf-8"))["services"]
 # The live AR service pages are empty shells; the Arabic copy was authored
 # separately into services-copy-ar.json. Use that for AR, live copy for EN.

@@ -19,9 +19,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Publish ONLY the New Live Site Design (the mirror) as the site root.
-      # The from-scratch rebuild in src/ is kept in the repo but no longer
-      # deployed — restore the python build + `path: dist` to bring it back.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      # Regenerate the mirror's data-driven pages from the content JSON in
+      # new-live-site-design/_build/ (pure stdlib — no pip installs needed).
+      # A CMS/content edit to that JSON re-runs this and publishes automatically.
+      - name: Build the site (Python generators)
+        working-directory: new-live-site-design/_build
+        run: |
+          python build_pages.py
+          python build_products.py
+          python build_services.py
+          python build_extra.py
       - name: Disable Jekyll processing
         run: touch new-live-site-design/.nojekyll
       - uses: actions/upload-pages-artifact@v3

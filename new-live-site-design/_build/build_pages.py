@@ -6,7 +6,7 @@ HTML is not touched — these are brand-new pages the header's nav links point t
 import os, json, html, sys, re
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-ROOT = r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-enhanced"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # the site root (parent of _build)
 STR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mirror_strings.json"), encoding="utf-8"))
 
 def esc(s): return html.escape(str(s), quote=True)

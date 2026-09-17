@@ -166,7 +166,7 @@ open(os.path.join(ROOT, "404-ar.html"), "w", encoding="utf-8").write(build_404(T
 print("wrote legal + careers + 404 pages")
 
 # ── SEO / GEO scaffolding ────────────────────────────────────────────────
-SVC = json.load(open(r"C:\Users\afnan\Documents\Datacore\Datacore Website\datacore-web\src\data\services-copy.json",
+SVC = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "services-copy.json"),
                      encoding="utf-8"))["services"]
 pages = ["index", "about-us", "services", "products", "projects", "insights", "contact", "faq", "glossary", "careers", "terms", "privacy"]
 urls = []
