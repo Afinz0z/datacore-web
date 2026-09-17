@@ -3703,47 +3703,61 @@
       التي تثق بنا    </h3>
   </div>
 
-  <div class="carousel-container  ">
-    <div class="carousel-track mt-2" id="carouselTrack">
-      <!-- Page 1: Logos 1–8 -->
-      <div class="carousel-pagez">
-        <div class="brand-logo"><img src="assets1/images/01.png" alt="log1"
-            class="brand-img" data-aos="fade-up" data-aos-delay="300" loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/02.png" alt="log2" class="brand-img"
-            data-aos="fade-up" data-aos-delay="350" loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/03.png" alt="log3" class="brand-img"
-            data-aos="fade-up" data-aos-delay="400" loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/04.png" alt="log4" class="brand-img"
-            data-aos="fade-up" data-aos-delay="450" loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/05.png" alt="log5"
-            class="brand-img" data-aos="fade-up" data-aos-delay="500" loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/01.png" alt="log6" class="brand-img"
-            data-aos="fade-up" data-aos-delay="550" loading="lazy"></div>
-
-      </div>
-
-      <!-- Page 2: Logos 9–16 -->
-      <div class="carousel-pagez">
-        <div class="brand-logo"><img src="assets1/images/01.png" alt="log7"
-            class="brand-img" loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/02.png" alt="log8" class="brand-img"
-            loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/03.png" alt="log9" class="brand-img"
-            loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/04.png" alt="log10" class="brand-img"
-            loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/05.png" alt="log11"
-            class="brand-img" loading="lazy"></div>
-        <div class="brand-logo"><img src="assets1/images/01.png" alt="log12" class="brand-img"
-            loading="lazy"></div>
-
-      </div>
+  <style>
+  .brand-marquee{position:relative;overflow:hidden;width:100%;margin-top:12px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+  .brand-marquee-track{display:flex;align-items:center;width:max-content;direction:ltr;animation:dcBrandScroll 55s linear infinite;will-change:transform}
+  .brand-marquee:hover .brand-marquee-track{animation-play-state:paused}
+  .brand-marquee .brand-logo{flex:0 0 auto;width:168px;margin:0 24px;text-align:center}
+  .brand-marquee .brand-logo img{width:100%;max-height:76px;object-fit:contain}
+  @keyframes dcBrandScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){.brand-marquee-track{animation:none}.brand-marquee{overflow-x:auto}}
+  @media (max-width:600px){.brand-marquee .brand-logo{width:120px;margin:0 15px}.brand-marquee .brand-logo img{max-height:56px}}
+  </style>
+  <div class="brand-marquee" role="group" aria-label="Clients that trust Datacore">
+    <div class="brand-marquee-track">
+        <div class="brand-logo"><img src="assets1/images/dc-client-01.webp" alt="NEOM" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-02.webp" alt="stc" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-03.webp" alt="Prince Sattam Bin Abdulaziz University" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-04.webp" alt="Riyad Bank" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-05.webp" alt="Fairmont Hotels & Resorts" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-06.webp" alt="Red Sea Global" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-07.webp" alt="Albaddad" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-08.webp" alt="KAFD" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-09.webp" alt="Zain" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-10.webp" alt="Arab Open University" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-11.webp" alt="Saudi Awwal Bank (SAB)" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-12.webp" alt="Radisson Hotel Group" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-13.webp" alt="Marafiq" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-14.webp" alt="Nestle" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-15.webp" alt="National Housing Company" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-16.webp" alt="Jawwy" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-17.webp" alt="dimension data" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-18.webp" alt="Abdul Latif Jameel" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-19.webp" alt="Mansard Riyadh" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-20.webp" alt="EL SEIF Engineering" fetchpriority="low"></div>
+        <div class="brand-logo"><img src="assets1/images/dc-client-21.webp" alt="Mohamed Yousuf Naghi & Brothers Group" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-01.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-02.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-03.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-04.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-05.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-06.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-07.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-08.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-09.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-10.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-11.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-12.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-13.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-14.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-15.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-16.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-17.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-18.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-19.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-20.webp" alt="" fetchpriority="low"></div>
+        <div class="brand-logo" aria-hidden="true"><img src="assets1/images/dc-client-21.webp" alt="" fetchpriority="low"></div>
     </div>
-  </div>
-
-  <div class="carousel-controlsz" data-aos="fade-up" data-aos-delay="400">
-    <button id="prevBtnz" aria-label="control-carousel-next"></button>
-    <button id="nextBtnz" aria-label="carousel-bttn-next"></button>
   </div>
 </section>
 
@@ -5000,7 +5014,7 @@
       grecaptcha.ready(function () {
         grecaptcha.execute('6LexCY0sAAAAADwsumAwonq10KerZKyKwwx-Y57Z', { action: 'contact_form' })
           .then(function (token) {
-            document.getElementById('gtoken').value = token;
+            var g = document.getElementById('gtoken'); if (g) g.value = token;
           });
       });
     }
@@ -5088,47 +5102,7 @@
   <!-- brand -->
 
 
-  <script>
-    const track = document.getElementById("carouselTrack");
-    const totalPages = 2;
-    let offset = 0;
-
-    // Detect RTL direction
-    const isRTL = document.dir === 'rtl' || document.documentElement.dir === 'rtl' ||
-      getComputedStyle(document.body).direction === 'rtl';
-
-    function updateCarousel() {
-      const pageWidth = track.offsetWidth / totalPages;
-      // For RTL, use positive translateX values instead of negative
-      const translateValue = isRTL ? offset : -offset;
-      track.style.transform = `translateX(${translateValue}px)`;
-    }
-
-    document.getElementById("nextBtnz").addEventListener("click", () => {
-      const pageWidth = track.offsetWidth / totalPages;
-      offset += pageWidth;
-      if (offset >= pageWidth * totalPages) {
-        offset = 0;
-      }
-      updateCarousel();
-    });
-
-    document.getElementById("prevBtnz").addEventListener("click", () => {
-      const pageWidth = track.offsetWidth / totalPages;
-      offset -= pageWidth;
-      if (offset < 0) {
-        offset = pageWidth * (totalPages - 1);
-      }
-      updateCarousel();
-    });
-
-    window.addEventListener("resize", () => {
-      offset = 0;
-      updateCarousel();
-    });
-
-    updateCarousel();
-  </script>
+  <!-- brands carousel replaced by CSS marquee -->
 
 
   <!-- allience -->
