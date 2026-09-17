@@ -1,0 +1,144 @@
+{
+ "slug": "wifi-site-survey-guide",
+ "order": 7,
+ "img": "assets1/images/dc-ins-wifi-site-survey-guide.webp",
+ "iso": "2026-05-28",
+ "en": {
+  "title": "Wi-Fi That Works: Why a Site Survey Beats Guesswork",
+  "date": "28 May 2026",
+  "team": "Network team",
+  "dek": "Predictive versus on-site surveys, capacity versus coverage, and the validation step most projects skip — why a proper Wi-Fi site survey is the difference between full bars and constant complaints.",
+  "meta": "Why a Wi-Fi site survey matters: predictive vs on-site surveys, AP placement, capacity vs coverage, interference and post-install validation.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Wi-Fi is the network most users actually judge you on, and it is the one most often deployed by guesswork — access points spaced evenly on a drawing and hoped for the best. In a lecture hall, an open-plan office or a school, that approach produces dead spots, dropped calls and slow connections exactly where density is highest. A site survey replaces the guessing with measurement and design, and it is the single biggest factor in whether a wireless network feels fast or frustrating."
+   },
+   {
+    "type": "h2",
+    "text": "Predictive and on-site surveys"
+   },
+   {
+    "type": "p",
+    "text": "There are two complementary kinds of survey. A predictive survey is done in software before installation: the floor plans, wall materials and access-point models are modelled to predict coverage and place APs. It is fast, cheap and ideal for design and new-build. An on-site survey uses real measurement in the actual space — either an active/passive walk-through with survey tools, or an AP-on-a-stick test that measures live signal in the real building. Predictive gets the design close; on-site confirms it against reality, catching the walls, glass and metal that a model never fully captures."
+   },
+   {
+    "type": "h2",
+    "text": "Coverage is not the same as capacity"
+   },
+   {
+    "type": "p",
+    "text": "The most common design mistake is planning for coverage when the real problem is capacity. Coverage asks 'can a device hear an access point here?' Capacity asks 'can this room serve two hundred devices at once?' A single AP might blanket a large hall with signal yet collapse when a class of students all connect. High-density spaces — auditoriums, classrooms, prayer halls, conference areas — need more access points at lower power, carefully channelled, so each one serves fewer clients. Designing for the busy-hour device count, not just the floor area, is what separates a survey from a sketch."
+   },
+   {
+    "type": "h2",
+    "text": "Interference and validation"
+   },
+   {
+    "type": "p",
+    "text": "Wireless shares the air with neighbours, other APs and non-Wi-Fi noise, so a good survey also plans channel allocation and power levels to minimise co-channel interference — APs stepping on each other is a leading cause of poor performance. Just as important is the step many projects skip: a post-installation validation survey. Once the APs are mounted and live, you walk the space again and measure the real signal, throughput and roaming against the design targets. That validation is what turns 'we installed the access points' into 'we can prove the coverage and capacity are there.'"
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs wireless networks from a proper survey and validates them after installation, so coverage and capacity are documented rather than assumed — the same design-to-standard, prove-it discipline we bring to structured cabling, on projects such as One World International School (OWIS) Riyadh. If your Wi-Fi is being planned or is not living up to its promise, our team can survey, design and validate it."
+   }
+  ],
+  "related": [
+   {
+    "slug": "wifi-solutions",
+    "label": "Wi-Fi solutions"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   },
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "Structured cabling solutions"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the difference between a predictive and an on-site Wi-Fi survey?",
+    "a": "A predictive survey models coverage in software from floor plans and materials before installation, which is fast and ideal for design. An on-site survey measures real signal in the actual building, confirming the design against walls, glass and metal a model cannot fully predict."
+   },
+   {
+    "q": "What is the difference between coverage and capacity?",
+    "a": "Coverage is whether a device can hear an access point in a given spot. Capacity is whether the network can serve all the devices in a busy space at once. High-density areas need designing for the device count, not just the floor area."
+   },
+   {
+    "q": "Why is a post-installation validation survey important?",
+    "a": "Once access points are live, a validation survey walks the space and measures real signal, throughput and roaming against the design targets. It proves the coverage and capacity are actually there rather than assuming the install matched the plan."
+   }
+  ]
+ },
+ "ar": {
+  "title": "شبكة Wi-Fi تعمل فعلًا: لماذا يتفوّق مسح الموقع على التخمين",
+  "date": "28 مايو 2026",
+  "team": "فريق الشبكات",
+  "dek": "المسح التنبّئي مقابل المسح الميداني، والسعة مقابل التغطية، وخطوة التحقّق التي تتجاهلها معظم المشاريع — لماذا يمثّل مسح موقع Wi-Fi الجيّد الفرق بين إشارة كاملة وشكاوى مستمرة.",
+  "meta": "لماذا يهمّ مسح موقع Wi-Fi: المسح التنبّئي مقابل الميداني، وتوزيع نقاط الوصول، والسعة مقابل التغطية، والتداخل، والتحقّق بعد التركيب.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "شبكة Wi-Fi هي الشبكة التي يحكم عليك المستخدمون فعليًا من خلالها، وهي الأكثر عرضة للنشر بالتخمين — نقاط وصول موزّعة بالتساوي على مخطط مع الأمل في الأفضل. وفي قاعة محاضرات أو مكتب مفتوح أو مدرسة، ينتج هذا النهج مناطق ميتة ومكالمات متقطّعة واتصالات بطيئة في المواضع الأعلى كثافة بالضبط. ويستبدل مسح الموقع التخمين بالقياس والتصميم، وهو العامل الأكبر منفردًا في ما إذا كانت الشبكة اللاسلكية تبدو سريعة أم مُحبِطة."
+   },
+   {
+    "type": "h2",
+    "text": "المسح التنبّئي والميداني"
+   },
+   {
+    "type": "p",
+    "text": "هناك نوعان متكاملان من المسح. المسح التنبّئي يُجرى بالبرمجيات قبل التركيب: تُنمذَج المخططات ومواد الجدران وطُرز نقاط الوصول للتنبّؤ بالتغطية وتوزيع نقاط الوصول. وهو سريع وزهيد ومثالي للتصميم والمباني الجديدة. أما المسح الميداني فيستخدم قياسًا فعليًا في المساحة الحقيقية — إما جولة نشطة/سلبية بأدوات المسح، أو اختبار «نقطة وصول على عمود» يقيس الإشارة الحيّة في المبنى الفعلي. فالتنبّئي يقارب التصميم؛ والميداني يؤكّده مقابل الواقع، ملتقطًا الجدران والزجاج والمعدن التي لا يلتقطها النموذج تمامًا."
+   },
+   {
+    "type": "h2",
+    "text": "التغطية ليست كالسعة"
+   },
+   {
+    "type": "p",
+    "text": "أشيع خطأ تصميمي هو التخطيط للتغطية بينما المشكلة الفعلية هي السعة. فالتغطية تسأل: «هل يستطيع جهاز سماع نقطة وصول هنا؟» والسعة تسأل: «هل تستطيع هذه القاعة خدمة مئتي جهاز في آنٍ واحد؟» فقد تغطّي نقطة وصول واحدة قاعة كبيرة بالإشارة لكنها تنهار حين يتّصل صفّ كامل من الطلاب. والأماكن عالية الكثافة — المدرّجات والفصول والمصلّيات وقاعات المؤتمرات — تحتاج نقاط وصول أكثر بقدرة أقل، موزّعة على القنوات بعناية، بحيث تخدم كلٌّ منها عملاء أقل. والتصميم لعدد الأجهزة في ساعة الذروة، لا لمساحة الأرضية وحدها، هو ما يفرّق المسح عن الرسم التخطيطي."
+   },
+   {
+    "type": "h2",
+    "text": "التداخل والتحقّق"
+   },
+   {
+    "type": "p",
+    "text": "تتشارك الشبكة اللاسلكية الأثير مع الجيران ونقاط الوصول الأخرى والضجيج غير Wi-Fi، لذا يخطّط المسح الجيّد أيضًا لتوزيع القنوات ومستويات القدرة لتقليل التداخل المشترك في القناة — فتضارب نقاط الوصول فيما بينها سبب رئيسي لضعف الأداء. وبالقدر نفسه من الأهمية الخطوة التي تتجاهلها كثير من المشاريع: مسح تحقّق بعد التركيب. فبمجرد تركيب نقاط الوصول وتشغيلها، تجول المساحة مجددًا وتقيس الإشارة والإنتاجية والتجوال الفعلية مقابل أهداف التصميم. وهذا التحقّق هو ما يحوّل «لقد ركّبنا نقاط الوصول» إلى «يمكننا إثبات توفّر التغطية والسعة»."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور الشبكات اللاسلكية انطلاقًا من مسح سليم وتتحقّق منها بعد التركيب، بحيث تكون التغطية والسعة موثّقتين لا مفترضتين — النهج نفسه القائم على التصميم وفق المعايير وإثبات النتائج الذي نتّبعه في الكابلات المنظّمة، في مشاريع مثل مدرسة ون وورلد الدولية (OWIS) بالرياض. إن كانت شبكة Wi-Fi لديك قيد التخطيط أو لا ترقى إلى وعدها، فبإمكان فريقنا مسحها وتصميمها والتحقّق منها."
+   }
+  ],
+  "related": [
+   {
+    "slug": "wifi-solutions",
+    "label": "حلول Wi-Fi"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   },
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "حلول الكابلات المنظّمة"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما الفرق بين المسح التنبّئي والمسح الميداني لشبكة Wi-Fi؟",
+    "a": "المسح التنبّئي ينمذج التغطية بالبرمجيات من المخططات والمواد قبل التركيب، وهو سريع ومثالي للتصميم. أما المسح الميداني فيقيس الإشارة الفعلية في المبنى الحقيقي، مؤكّدًا التصميم مقابل الجدران والزجاج والمعدن التي لا يتنبّأ بها النموذج تمامًا."
+   },
+   {
+    "q": "ما الفرق بين التغطية والسعة؟",
+    "a": "التغطية هي ما إذا كان الجهاز يستطيع سماع نقطة وصول في موضع معيّن. أما السعة فهي ما إذا كانت الشبكة تستطيع خدمة كل الأجهزة في مساحة مزدحمة في آنٍ واحد. والأماكن عالية الكثافة تحتاج تصميمًا وفق عدد الأجهزة لا مساحة الأرضية وحدها."
+   },
+   {
+    "q": "لماذا يهمّ مسح التحقّق بعد التركيب؟",
+    "a": "بمجرد تشغيل نقاط الوصول، يجول مسح التحقّق المساحة ويقيس الإشارة والإنتاجية والتجوال الفعلية مقابل أهداف التصميم. وهو يثبت توفّر التغطية والسعة فعلًا بدلًا من افتراض أن التركيب طابق الخطة."
+   }
+  ]
+ }
+}

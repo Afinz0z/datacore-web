@@ -85,7 +85,27 @@ CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium',
 CASES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "cases.json"), encoding="utf-8"))
 FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "faq.json"), encoding="utf-8"))
 GLOSSARY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "glossary.json"), encoding="utf-8"))
-INSIGHTS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "insights.json"), encoding="utf-8"))
+def _load_insights():
+    """Insights are one self-contained file each under content/insights/<slug>.json
+    ({slug, order, img, iso, en, ar}; blocks/related/faq as lists of objects) — the
+    CMS-editable shape. Rebuild the legacy en/ar parallel-array structure the rest of
+    this module uses."""
+    import glob
+    d = os.path.dirname(os.path.abspath(__file__))
+    entries = [json.load(open(f, encoding="utf-8"))
+               for f in glob.glob(os.path.join(d, "content", "insights", "*.json"))]
+    entries.sort(key=lambda e: (e.get("order", 9999), e.get("slug", "")))
+    def _post(e, lang):
+        x = e.get(lang, {})
+        return {"slug": e["slug"], "img": e.get("img", ""), "iso": e.get("iso", ""),
+                "title": x.get("title", ""), "date": x.get("date", ""), "team": x.get("team", ""),
+                "dek": x.get("dek", ""), "meta": x.get("meta", ""),
+                "blocks": [[b["type"], b["text"]] for b in x.get("blocks", [])],
+                "related": [[r["slug"], r["label"]] for r in x.get("related", [])],
+                "faq": [[q["q"], q["a"]] for q in x.get("faq", [])]}
+    return {"en": {"posts": [_post(e, "en") for e in entries]},
+            "ar": {"posts": [_post(e, "ar") for e in entries]}}
+INSIGHTS = _load_insights()
 LANDING = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "landing.json"), encoding="utf-8"))
 CASE_UI = {
  'en': {'read': 'Read the case study', 'projects': 'Projects', 'at_glance': 'At a glance',
@@ -766,7 +786,7 @@ def build_insights(ar):
                else 'decoding="async"' if i < 6
                else 'fetchpriority="low" decoding="async"')
         cards += f"""<article class="dcp-post">
-  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="assets1/images/{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" {_ia} width="561" height="306"></a></div>
+  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" {_ia} width="561" height="306"></a></div>
   <div class="in"><span class="by">{E(p['date'])} &middot; {E(p['team'])}</span>
     <h3><a href="{loc('insight-'+p['slug'],ar)}">{E(p['title'])}</a></h3><p>{E(p['dek'])}</p>
     <a class="dcp-dir" href="{loc('insight-'+p['slug'],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
@@ -812,7 +832,7 @@ def build_post(i, ar):
                  f'<h1>{E(P["title"])}</h1><p class="dcp-lede">{E(P["dek"])}</p></div></section>')
     # Hero image = LCP element (text hero above it carries no image); prioritise it
     # instead of lazy-loading, which Lighthouse flags as an LCP anti-pattern.
-    fig = (f'<figure class="dcp-art-fig"><img src="assets1/images/{POST_IMG[i]}?v={VER}" '
+    fig = (f'<figure class="dcp-art-fig"><img src="{POST_IMG[i]}?v={VER}" '
            f'alt="{esc(P["title"])}" width="561" height="306" fetchpriority="high" decoding="async"></figure>')
     blocks = ''.join(f'<{typ}>{E(txt)}</{typ}>' for typ, txt in P['blocks'])
     faq = P.get('faq', [])
@@ -845,7 +865,7 @@ def build_post(i, ar):
                "headline": P['title'], "description": P['meta'],
                "datePublished": POST_ISO[i], "dateModified": POST_ISO[i], "inLanguage": lang,
                "wordCount": _wc,
-               "image": SITE + '/assets1/images/' + POST_IMG[i],
+               "image": SITE + '/' + POST_IMG[i],
                "author": {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'},
                "publisher": {"@id": SITE + '/#org'},
                "mainEntityOfPage": {"@type": "WebPage", "@id": url}}]

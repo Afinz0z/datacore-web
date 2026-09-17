@@ -1,0 +1,160 @@
+{
+ "slug": "designing-cctv-for-coverage",
+ "order": 8,
+ "img": "assets1/images/dc-ins-designing-cctv-for-coverage.webp",
+ "iso": "2026-02-12",
+ "en": {
+  "title": "Designing CCTV for coverage, not just cameras",
+  "date": "12 February 2026",
+  "team": "Security team",
+  "dek": "A camera count is not a coverage plan. Good CCTV design starts with what each zone must see, then works back to lenses, light, storage and the VMS.",
+  "meta": "How to design CCTV for real coverage: camera types, resolution and field of view, IR and lighting, retention and the VMS, and positioning that removes blind spots.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "It is tempting to judge a surveillance system by how many cameras it has. Yet a building can be full of cameras and still miss the one image an investigation needs. Coverage is not a headcount; it is the ability to see a defined scene, in the light it actually has, and to recover that footage later. Good design begins with a question for every zone: what must this camera prove, that something happened, who was there, or exactly what they did?"
+   },
+   {
+    "type": "h2",
+    "text": "Match the camera to the task"
+   },
+   {
+    "type": "p",
+    "text": "Resolution and field of view work together, and neither alone guarantees a usable image. A wide lens spreading four megapixels across an entire lobby gives useful situational awareness but will not identify a face at the far door. The practical measure is pixel density on target, and the DORI concept of detect, observe, recognise and identify sets very different requirements. Fixed cameras suit defined scenes; PTZ units cover large open areas but only look one way at a time; multisensor and panoramic cameras replace several fixed units at a corner. Choose the type per scene, not per catalogue."
+   },
+   {
+    "type": "h2",
+    "text": "Light, lenses and the real environment"
+   },
+   {
+    "type": "p",
+    "text": "Cameras see light, not scenes, so the environment decides image quality as much as the sensor. Entrances with bright backlight need wide dynamic range or faces become silhouettes. Car parks and perimeters after dark depend on infrared or white light, and a published IR range is a best case that shortens with distance and weather. Reflections, glare and moving foliage generate false events for analytics. Selecting the right lens, mounting angle and lighting for each location is unglamorous work, but it is where coverage is won or lost."
+   },
+   {
+    "type": "h2",
+    "text": "Storage, retention and the VMS"
+   },
+   {
+    "type": "p",
+    "text": "Retention requirements drive storage more than any other factor, and they are often set by regulation or incident-review needs rather than preference. The maths is simple but unforgiving: resolution, frame rate and scene activity set the bitrate, modern H.265 compression reduces it, and multiplying by the days retained gives the capacity. A video management system, the VMS, ties it together with live monitoring, fast forensic search, health alerts and controlled access, while redundancy protects the recording that matters most."
+   },
+   {
+    "type": "h2",
+    "text": "Positioning to remove blind spots"
+   },
+   {
+    "type": "p",
+    "text": "Blind spots hide in the gaps between well-aimed cameras: the base of a mounting pole, the area directly beneath a dome, the reverse of an entry lane. Overlapping fields of view, sensible mounting heights and cameras that watch other cameras against tampering close those gaps. A brief walk of the site with the design overlaid on reality catches more problems than any desk study."
+   },
+   {
+    "type": "p",
+    "text": "As a single integrator working to standards since 2007, Datacore designs CCTV around coverage objectives and documents the testing that proves them; talk to our security team about a coverage review of your site."
+   }
+  ],
+  "related": [
+   {
+    "slug": "video-surveillance-solutions-amp-cctv",
+    "label": "Video surveillance and CCTV"
+   },
+   {
+    "slug": "access-control-solutions",
+    "label": "Access control"
+   },
+   {
+    "slug": "parking-management-system",
+    "label": "Parking management"
+   }
+  ],
+  "faq": [
+   {
+    "q": "How many cameras do I need for a site?",
+    "a": "There is no fixed ratio. Start from the scenes each area must capture and the detail required, then position cameras to cover those scenes with overlap. The count follows the coverage plan, not the other way round."
+   },
+   {
+    "q": "What resolution should I choose?",
+    "a": "Enough pixels on the target for the task. A situational overview tolerates lower density, while identifying a face or a plate needs a tighter field of view or a higher-resolution sensor at that spot."
+   },
+   {
+    "q": "How long should footage be retained?",
+    "a": "Retention is usually set by regulation or investigation needs. Once you fix the number of days, resolution, frame rate and compression determine the storage required."
+   }
+  ]
+ },
+ "ar": {
+  "title": "تصميم أنظمة CCTV من أجل التغطية، لا مجرد الكاميرات",
+  "date": "12 فبراير 2026",
+  "team": "فريق الأمن",
+  "dek": "عدد الكاميرات ليس خطة تغطية. يبدأ التصميم الجيد لأنظمة CCTV بتحديد ما يجب أن يراه كل موقع، ثم يعود إلى اختيار العدسات والإضاءة والتخزين ونظام إدارة الفيديو VMS.",
+  "meta": "كيفية تصميم أنظمة CCTV لتحقيق تغطية حقيقية: أنواع الكاميرات والدقة ومجال الرؤية، الأشعة تحت الحمراء IR والإضاءة، مدة الاحتفاظ ونظام VMS، وتحديد المواضع الذي يزيل النقاط العمياء.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "من المغري الحكم على نظام المراقبة بعدد كاميراته. لكن قد يمتلئ المبنى بالكاميرات ويظل يفوته المشهد الوحيد الذي يحتاجه التحقيق. التغطية ليست عدداً، بل القدرة على رؤية مشهد محدد، في الإضاءة المتاحة فعلاً، واسترجاع التسجيل لاحقاً. يبدأ التصميم الجيد بسؤال لكل منطقة: ماذا يجب أن تثبت هذه الكاميرا، أن شيئاً قد حدث، أم من كان هناك، أم ماذا فعل بالضبط؟"
+   },
+   {
+    "type": "h2",
+    "text": "اختر الكاميرا المناسبة للمهمة"
+   },
+   {
+    "type": "p",
+    "text": "تعمل الدقة ومجال الرؤية معاً، ولا يضمن أي منهما وحده صورة صالحة للاستخدام. عدسة واسعة توزّع أربعة ميغابكسل على ردهة كاملة تمنح وعياً جيداً بالموقف لكنها لن تتعرّف على وجه عند الباب البعيد. المقياس العملي هو كثافة البكسل على الهدف، إذ يضع مفهوم DORI (الكشف والملاحظة والتعرف والتحديد) متطلبات شديدة الاختلاف. تناسب الكاميرات الثابتة المشاهد المحددة؛ أما كاميرات PTZ فتغطي المساحات المفتوحة الواسعة لكنها تنظر في اتجاه واحد فقط في كل مرة؛ وتحل الكاميرات متعددة المستشعرات والبانورامية محل عدة وحدات ثابتة عند الزاوية. اختر النوع وفق المشهد، لا وفق الكتالوج."
+   },
+   {
+    "type": "h2",
+    "text": "الإضاءة والعدسات والبيئة الحقيقية"
+   },
+   {
+    "type": "p",
+    "text": "ترى الكاميرات الضوء لا المشاهد، لذا تحدّد البيئة جودة الصورة بقدر ما يحددها المستشعر. تحتاج المداخل ذات الإضاءة الخلفية القوية إلى مدى ديناميكي واسع وإلا تحوّلت الوجوه إلى ظلال. وتعتمد المواقف والمحيطات بعد حلول الظلام على الأشعة تحت الحمراء IR أو الضوء الأبيض، ومدى IR المعلن هو أفضل الحالات ويتقلّص مع المسافة والطقس. كما تولّد الانعكاسات والوهج والأوراق المتحركة أحداثاً كاذبة للتحليلات. إن اختيار العدسة وزاوية التركيب والإضاءة المناسبة لكل موقع عمل غير لافت، لكنه حيث تُكسب التغطية أو تُخسر."
+   },
+   {
+    "type": "h2",
+    "text": "التخزين ومدة الاحتفاظ ونظام VMS"
+   },
+   {
+    "type": "p",
+    "text": "تحدّد متطلبات الاحتفاظ حجم التخزين أكثر من أي عامل آخر، وكثيراً ما تفرضها اللوائح أو حاجات مراجعة الحوادث لا التفضيل. الحساب بسيط لكنه صارم: تحدّد الدقة ومعدل الإطارات ونشاط المشهد معدّل البيانات، ويقلّله ضغط H.265 الحديث، وضربه في عدد أيام الاحتفاظ يعطي السعة المطلوبة. ويربط نظام إدارة الفيديو VMS ذلك كله، من مراقبة حية وبحث جنائي سريع وتنبيهات سلامة ووصول متحكَّم فيه، بينما يحمي التكرار التسجيل الأهم."
+   },
+   {
+    "type": "h2",
+    "text": "تحديد المواضع لإزالة النقاط العمياء"
+   },
+   {
+    "type": "p",
+    "text": "تختبئ النقاط العمياء في الفجوات بين الكاميرات المُوجَّهة جيداً: قاعدة عمود التركيب، والمنطقة أسفل القبة مباشرة، والجهة الخلفية لممر الدخول. تُغلق هذه الفجوات مجالاتُ الرؤية المتداخلة، وارتفاعات التركيب المعقولة، وكاميرات تراقب كاميرات أخرى ضد العبث. وجولة قصيرة في الموقع بمقارنة التصميم بالواقع تكشف مشكلات أكثر من أي دراسة مكتبية."
+   },
+   {
+    "type": "p",
+    "text": "بوصفها مُكاملاً واحداً يعمل وفق المعايير منذ 2007، تصمّم Datacore أنظمة CCTV حول أهداف التغطية وتوثّق الاختبارات التي تثبتها؛ تحدّث إلى فريق الأمن لدينا حول مراجعة تغطية موقعك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "video-surveillance-solutions-amp-cctv",
+    "label": "المراقبة بالفيديو وCCTV"
+   },
+   {
+    "slug": "access-control-solutions",
+    "label": "التحكم في الوصول"
+   },
+   {
+    "slug": "parking-management-system",
+    "label": "إدارة المواقف"
+   }
+  ],
+  "faq": [
+   {
+    "q": "كم عدد الكاميرات التي أحتاجها للموقع؟",
+    "a": "لا توجد نسبة ثابتة. ابدأ من المشاهد التي يجب أن تلتقطها كل منطقة والتفاصيل المطلوبة، ثم ضع الكاميرات لتغطي تلك المشاهد بتداخل. يتبع العدد خطة التغطية، لا العكس."
+   },
+   {
+    "q": "ما الدقة التي ينبغي أن أختارها؟",
+    "a": "بكسلات كافية على الهدف بحسب المهمة. تحتمل النظرة العامة كثافة أقل، أما التعرّف على وجه أو لوحة مركبة فيحتاج إلى مجال رؤية أضيق أو مستشعر أعلى دقة في ذلك الموضع."
+   },
+   {
+    "q": "كم ينبغي أن تُحفظ التسجيلات؟",
+    "a": "تُحدَّد مدة الاحتفاظ عادةً باللوائح أو حاجات التحقيق. وبمجرد تثبيت عدد الأيام، تحدّد الدقة ومعدل الإطارات والضغط سعة التخزين المطلوبة."
+   }
+  ]
+ }
+}

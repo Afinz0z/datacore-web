@@ -1,0 +1,134 @@
+{
+ "slug": "impact-of-5g-on-passive-networks",
+ "order": 1,
+ "img": "assets1/images/dc-blog-5g.webp",
+ "iso": "2026-02-16",
+ "en": {
+  "title": "The impact of 5G on passive networks",
+  "date": "16 February 2026",
+  "team": "Network team",
+  "dek": "What denser radio deployment does to fibre counts, pathway sizing and containment in a building you are designing today.",
+  "meta": "5G is a radio technology, but it lands on the passive network — cabling, pathways and containment. How densification drives fibre counts, PoE, pathway sizing and the headroom to design in now.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "5G is usually discussed as a radio and spectrum story. For anyone designing a building, though, it is a passive-infrastructure story: the cabling, pathways and containment you commit to today are what every 5G radio point will depend on tomorrow. Denser radio changes the numbers, and the passive layer is the part you cannot cheaply revisit."
+   },
+   {
+    "type": "h2",
+    "text": "Densification means more radio points"
+   },
+   {
+    "type": "p",
+    "text": "To deliver 5G capacity and coverage — especially the higher frequency bands, indoors — you need more radio points, closer together: small cells, distributed antenna systems (DAS) and a denser grid of access points, rather than a handful of rooftop macro sites. Every one of those points needs to be fed and, increasingly, powered."
+   },
+   {
+    "type": "h2",
+    "text": "Fibre counts go up"
+   },
+   {
+    "type": "p",
+    "text": "More radio points fed over fibre — and the shift toward fibre-to-the-antenna — pushes fibre counts, splice capacity and termination density well beyond what a 4G-era backbone assumed. A riser sized for yesterday’s cell plan quietly becomes the constraint on tomorrow’s. Designing generous fibre backbones and splice/patching space early is far cheaper than re-pulling a live building."
+   },
+   {
+    "type": "h2",
+    "text": "Pathways, containment and power"
+   },
+   {
+    "type": "p",
+    "text": "More cable means more tray, conduit and riser capacity, and many radio points now draw power over the same infrastructure (PoE or remote DC power), which affects cable selection, bundle sizes and heat. Under-sizing containment is the expensive mistake: adding a fibre is easy when the pathway has room, and disruptive when it does not."
+   },
+   {
+    "type": "h2",
+    "text": "Design for headroom now"
+   },
+   {
+    "type": "p",
+    "text": "The practical response is headroom. Specify spare fibre, keep pathway fill below the point where the next addition means new containment, plan power for active radio points, and label everything so the next team can extend rather than rebuild. This is the passive counterpart to the active/passive split — the passive layer is designed for the life of the building, not for this year’s cell plan."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs structured cabling and fibre backbones with that headroom built in, to TIA-568 and ISO/IEC 11801, so the passive network supports the radio plan you have and the one you will have. If you are planning a building or a refresh, we can review the passive design against where 5G is heading."
+   }
+  ],
+  "related": [
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "Fibre optic solutions"
+   },
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "Structured cabling"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   }
+  ],
+  "faq": []
+ },
+ "ar": {
+  "title": "أثر شبكات 5G على الشبكات السلبية",
+  "date": "16 فبراير 2026",
+  "team": "فريق الشبكات",
+  "dek": "ما الذي يفعله تكثيف الراديو بأعداد الألياف وقياس المسارات ومجاري الكابلات في مبنى تصمّمه اليوم.",
+  "meta": "شبكة 5G تقنية راديوية، لكنها تستقرّ على الشبكة السلبية — الكابلات والمسارات والمجاري. كيف يرفع التكثيف أعداد الألياف والطاقة عبر الكابل وقياس المسارات، وأي هامشٍ يجب تصميمه الآن.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "يُناقَش 5G عادةً بوصفه قصّة راديو وطيف. أمّا لمن يصمّم مبنى، فهو قصّة بنيةٍ سلبية: الكابلات والمسارات والمجاري التي تلتزم بها اليوم هي ما ستعتمد عليه كل نقطة راديو 5G غدًا. التكثيف يغيّر الأرقام، والطبقة السلبية هي الجزء الذي لا يمكن إعادة النظر فيه بثمنٍ زهيد."
+   },
+   {
+    "type": "h2",
+    "text": "التكثيف يعني نقاط راديو أكثر"
+   },
+   {
+    "type": "p",
+    "text": "لتحقيق سعة 5G وتغطيته — خاصّة الحزم الأعلى ترددًا وداخل المباني — تحتاج نقاط راديو أكثر وأقرب: خلايا صغيرة، وأنظمة هوائيات موزّعة (DAS)، وشبكة أكثف من نقاط الوصول، بدل حفنةٍ من المواقع الكبرى على الأسطح. وكل نقطةٍ منها تحتاج تغذية، وبصورةٍ متزايدة، طاقة."
+   },
+   {
+    "type": "h2",
+    "text": "أعداد الألياف ترتفع"
+   },
+   {
+    "type": "p",
+    "text": "تغذية نقاط راديو أكثر عبر الألياف — والتحوّل نحو الألياف حتى الهوائي — يرفع أعداد الألياف وسعة اللحام وكثافة الإنهاء إلى ما يتجاوز ما افترضه عمودٌ فقري من حقبة 4G. مجرى صاعدٍ مقاسٌ لخطة الخلايا القديمة يصبح بهدوء قيدًا على خطة الغد. تصميم أعمدة أليافٍ سخيّة ومساحة لحامٍ وتوصيلٍ مبكرًا أرخص بكثير من إعادة السحب في مبنى قائم."
+   },
+   {
+    "type": "h2",
+    "text": "المسارات والمجاري والطاقة"
+   },
+   {
+    "type": "p",
+    "text": "كابلٌ أكثر يعني سعة أكبر من الحوامل والمواسير والمجاري الصاعدة، وكثيرٌ من نقاط الراديو تسحب الآن الطاقة عبر البنية نفسها (PoE أو طاقة مستمرة عن بُعد)، ما يؤثّر في اختيار الكابل وأحجام الحزم والحرارة. تقصير المجاري هو الخطأ المكلف: إضافة ليفٍ سهلة حين يتّسع المسار، وشاقّة حين لا يتّسع."
+   },
+   {
+    "type": "h2",
+    "text": "صمّم للهامش الآن"
+   },
+   {
+    "type": "p",
+    "text": "الاستجابة العملية هي الهامش. حدّد أليافًا احتياطية، وأبقِ امتلاء المسار دون النقطة التي تعني فيها الإضافة التالية مجرى جديدًا، وخطّط الطاقة لنقاط الراديو الفاعلة، ورقّم كل شيء ليمدّد الفريق التالي بدل أن يعيد البناء. هذا هو المقابل السلبي لانقسام الفاعل/السلبي — الطبقة السلبية تُصمَّم لعمر المبنى، لا لخطة خلايا هذا العام."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور الكابلات المهيكلة وأعمدة الألياف بهذا الهامش، وفق TIA-568 وISO/IEC 11801، لتدعم الشبكة السلبية خطة الراديو الحالية والقادمة. إن كنت تخطّط لمبنى أو لتحديث، يمكننا مراجعة التصميم السلبي في ضوء وجهة 5G."
+   }
+  ],
+  "related": [
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "حلول الألياف الضوئية"
+   },
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "الكابلات المهيكلة"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   }
+  ],
+  "faq": []
+ }
+}
