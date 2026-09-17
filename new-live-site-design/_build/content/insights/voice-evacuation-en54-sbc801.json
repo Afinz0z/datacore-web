@@ -1,0 +1,160 @@
+{
+ "slug": "voice-evacuation-en54-sbc801",
+ "order": 10,
+ "img": "assets1/images/dc-ins-voice-evacuation-en54-sbc801.webp",
+ "iso": "2026-04-09",
+ "en": {
+  "title": "Voice evacuation & fire alarm: EN 54, SBC 801 and Civil Defense",
+  "date": "9 April 2026",
+  "team": "Systems team",
+  "dek": "A tone tells people something is wrong; a clear voice tells them what to do. Voice evacuation is life-safety equipment, and the standards that govern it are not optional.",
+  "meta": "How PAVA voice evacuation differs from ordinary PA, the EN 54 parts that apply, Saudi Building Code SBC 801 and Civil Defense approval, plus speech intelligibility and STI.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "When a building has to be cleared, a ringing tone only says that something is wrong. A clear spoken instruction says what to do, where to go and which exits to avoid, and people act on it faster and with less panic. That is why voice evacuation has become the expected approach in larger and higher-risk buildings, and why it is treated as life-safety equipment rather than audio."
+   },
+   {
+    "type": "h2",
+    "text": "PA is not PAVA"
+   },
+   {
+    "type": "p",
+    "text": "An ordinary public address system for announcements or background music is engineered for convenience; a PAVA voice-alarm system is engineered to keep working when things fail. The difference is in the details that regulators care about: continuously monitored loudspeaker lines, standby batteries that ride through a mains failure, fault-tolerant wiring and supervised amplifiers with redundancy. A system that plays music perfectly may still not be lawful for evacuation, because it was never built to those rules."
+   },
+   {
+    "type": "h2",
+    "text": "The standards: EN 54, SBC 801 and Civil Defense"
+   },
+   {
+    "type": "p",
+    "text": "EN 54 is the European family of fire-detection and alarm standards, and several parts apply here: EN 54-16 for the voice-alarm control equipment, EN 54-24 for the loudspeakers and EN 54-4 for power supplies, alongside the detection devices under other parts. In the Kingdom this sits within Saudi Building Code SBC 801, the fire-protection requirements, and the system must gain Civil Defense approval before a building can be occupied. Designing to these from the outset, in step with Vision 2030 safety expectations, avoids costly rework at handover."
+   },
+   {
+    "type": "h2",
+    "text": "Speech you can actually understand"
+   },
+   {
+    "type": "p",
+    "text": "A voice message only works if people can make out the words over the alarm, the echo and their own stress. Intelligibility is measured objectively as STI, and reaching a passing score depends on loudspeaker spacing, room acoustics, reverberation and sensible zoning, not on sheer volume. It is verified by measurement at commissioning, so intelligibility is proven for the finished room rather than assumed from the design."
+   },
+   {
+    "type": "h2",
+    "text": "Working with fire detection"
+   },
+   {
+    "type": "p",
+    "text": "Voice evacuation is one half of a pair; fire detection is the other. A cause-and-effect plan links detected events to the right response: targeted messages to the affected zones, phased evacuation where a full clearance is not wanted at once, and a firefighters microphone that overrides automatic messages for live instructions. The two systems are commissioned and documented together so their behaviour is predictable on the day it matters."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs PAVA and fire systems to EN 54 and SBC 801, carries them through Civil Defense approval and documents the intelligibility testing that proves them; speak to our systems team early in your project."
+   }
+  ],
+  "related": [
+   {
+    "slug": "pava-public-address-amp-voice-evacuation-system",
+    "label": "PAVA voice evacuation"
+   },
+   {
+    "slug": "fire-alarm-systems",
+    "label": "Fire alarm systems"
+   },
+   {
+    "slug": "paga-public-address-and-general-alarm-system",
+    "label": "PAGA public address and alarm"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the difference between PA and PAVA?",
+    "a": "A PA system handles announcements and music. A PAVA voice-alarm system is life-safety rated, with monitored lines, battery backup and fault tolerance so it keeps working during an emergency."
+   },
+   {
+    "q": "Does a voice evacuation system need Civil Defense approval?",
+    "a": "In Saudi Arabia, fire and evacuation systems must meet SBC 801 and gain Civil Defense approval before occupancy. Designing to EN 54 from the start supports that approval."
+   },
+   {
+    "q": "What is STI and why does it matter?",
+    "a": "STI is a measure of speech intelligibility. A passing score confirms that evacuation messages can be understood in the real room, and it is checked by measurement during commissioning."
+   }
+  ]
+ },
+ "ar": {
+  "title": "الإخلاء الصوتي وإنذار الحريق: EN 54 وSBC 801 والدفاع المدني",
+  "date": "9 أبريل 2026",
+  "team": "فريق الأنظمة",
+  "dek": "النغمة تخبر الناس أن خطأً ما وقع؛ أما الصوت الواضح فيخبرهم بما يفعلون. الإخلاء الصوتي معدّات سلامة أرواح، والمعايير التي تحكمه ليست اختيارية.",
+  "meta": "كيف يختلف الإخلاء الصوتي PAVA عن أنظمة PA العادية، وأجزاء EN 54 المعنية، وكود البناء السعودي SBC 801 واعتماد الدفاع المدني، إضافةً إلى وضوح الكلام وSTI.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "حين يتعيّن إخلاء مبنى، لا تقول النغمة الرنّانة إلا أن شيئاً ما خطأ. أما التعليمات المنطوقة الواضحة فتقول ماذا يُفعل وإلى أين يُتّجه وأي المخارج يُتجنّب، فيتصرّف الناس بناءً عليها أسرع وبذعر أقل. لهذا صار الإخلاء الصوتي النهج المتوقع في المباني الأكبر والأعلى خطورة، ولهذا يُعامَل بوصفه معدّات سلامة أرواح لا مجرد صوتيات."
+   },
+   {
+    "type": "h2",
+    "text": "PA ليس PAVA"
+   },
+   {
+    "type": "p",
+    "text": "نظام النداء العام العادي للإعلانات أو الموسيقى الخلفية مصمَّم للراحة؛ أما نظام الإنذار الصوتي PAVA فمصمَّم ليظل عاملاً عند حدوث الأعطال. الفارق في التفاصيل التي تهمّ الجهات المنظِّمة: خطوط سماعات مراقَبة باستمرار، وبطاريات احتياطية تتجاوز انقطاع التيار، وأسلاك متحملة للأعطال، ومكبّرات خاضعة للإشراف مع تكرار. وقد يشغّل نظامٌ الموسيقى بإتقان ويظل مع ذلك غير قانوني للإخلاء، لأنه لم يُبنَ قط وفق تلك القواعد."
+   },
+   {
+    "type": "h2",
+    "text": "المعايير: EN 54 وSBC 801 والدفاع المدني"
+   },
+   {
+    "type": "p",
+    "text": "EN 54 هي العائلة الأوروبية لمعايير كشف الحريق والإنذار، وتنطبق منها عدة أجزاء هنا: EN 54-16 لمعدّات التحكم في الإنذار الصوتي، وEN 54-24 للسماعات، وEN 54-4 لمصادر الطاقة، إلى جانب أجهزة الكشف ضمن أجزاء أخرى. وفي المملكة يندرج ذلك ضمن كود البناء السعودي SBC 801، متطلبات الحماية من الحريق، ويجب أن يحصل النظام على اعتماد الدفاع المدني قبل إشغال المبنى. والتصميم وفق هذه المعايير من البداية، انسجاماً مع تطلعات السلامة في Vision 2030، يتجنّب إعادة عمل مكلفة عند التسليم."
+   },
+   {
+    "type": "h2",
+    "text": "كلام يمكن فهمه فعلاً"
+   },
+   {
+    "type": "p",
+    "text": "لا تنجح الرسالة الصوتية إلا إذا استطاع الناس تمييز الكلمات فوق الإنذار والصدى وتوترهم. يُقاس الوضوح موضوعياً بـ STI، وبلوغ درجة ناجحة يعتمد على تباعد السماعات وصوتيات الغرفة والصدى والتقسيم المعقول إلى مناطق، لا على مجرد ارتفاع الصوت. ويُتحقَّق منه بالقياس عند التشغيل، فيُثبَت الوضوح للغرفة المكتملة بدل افتراضه من التصميم."
+   },
+   {
+    "type": "h2",
+    "text": "العمل مع كشف الحريق"
+   },
+   {
+    "type": "p",
+    "text": "الإخلاء الصوتي نصف الزوج؛ وكشف الحريق نصفه الآخر. تربط خطة السبب والأثر الأحداثَ المكتشَفة بالاستجابة الصحيحة: رسائل موجَّهة إلى المناطق المتأثرة، وإخلاء مرحلي حين لا يُراد إخلاء كامل دفعة واحدة، وميكروفون لرجال الإطفاء يتجاوز الرسائل الآلية لإعطاء تعليمات حية. ويُشغَّل النظامان ويُوثَّقان معاً كي يكون سلوكهما متوقَّعاً في اليوم الذي يهمّ."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم Datacore أنظمة PAVA والحريق وفق EN 54 وSBC 801، وتمضي بها عبر اعتماد الدفاع المدني، وتوثّق اختبارات الوضوح التي تثبتها؛ تحدّث إلى فريق الأنظمة لدينا مبكراً في مشروعك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "pava-public-address-amp-voice-evacuation-system",
+    "label": "الإخلاء الصوتي PAVA"
+   },
+   {
+    "slug": "fire-alarm-systems",
+    "label": "أنظمة إنذار الحريق"
+   },
+   {
+    "slug": "paga-public-address-and-general-alarm-system",
+    "label": "النداء العام والإنذار PAGA"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما الفرق بين PA وPAVA؟",
+    "a": "يتولى نظام PA الإعلانات والموسيقى. أما نظام الإنذار الصوتي PAVA فمصنَّف لسلامة الأرواح، بخطوط مراقَبة وبطاريات احتياطية وتحمّل للأعطال كي يظل عاملاً أثناء الطوارئ."
+   },
+   {
+    "q": "هل يحتاج نظام الإخلاء الصوتي إلى اعتماد الدفاع المدني؟",
+    "a": "في السعودية، يجب أن تستوفي أنظمة الحريق والإخلاء كود SBC 801 وتحصل على اعتماد الدفاع المدني قبل الإشغال. والتصميم وفق EN 54 من البداية يدعم ذلك الاعتماد."
+   },
+   {
+    "q": "ما STI ولماذا يهمّ؟",
+    "a": "STI مقياس لوضوح الكلام. تؤكد الدرجة الناجحة أن رسائل الإخلاء يمكن فهمها في الغرفة الحقيقية، ويُتحقَّق منها بالقياس أثناء التشغيل."
+   }
+  ]
+ }
+}

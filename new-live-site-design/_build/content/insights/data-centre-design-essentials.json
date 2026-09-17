@@ -1,0 +1,144 @@
+{
+ "slug": "data-centre-design-essentials",
+ "order": 5,
+ "img": "assets1/images/dc-ins-data-centre-design-essentials.webp",
+ "iso": "2026-06-24",
+ "en": {
+  "title": "Data Centre Design Essentials: Power, Cooling, Cabling and Redundancy",
+  "date": "24 June 2026",
+  "team": "Data-centre team",
+  "dek": "The four layers every resilient data centre gets right — power and UPS, cooling and airflow, structured cabling, and the N+1 redundancy that keeps it running when a component fails.",
+  "meta": "Data centre design essentials: UPS and power, hot/cold aisle cooling, structured cabling, N+1 redundancy and monitoring for a resilient facility.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "A data centre is only as strong as its weakest supporting system. The servers and storage get the attention, but availability is decided by four less glamorous layers — power, cooling, cabling and the redundancy woven through all of them. Whether you are building a small on-premise server room for a university or a full enterprise facility, the same design principles apply. Get them right and the room runs for years without drama; get them wrong and every heatwave or power dip becomes an incident."
+   },
+   {
+    "type": "h2",
+    "text": "Power and cooling: the foundation"
+   },
+   {
+    "type": "p",
+    "text": "Power design starts with clean, continuous supply. That means UPS systems sized for the real load with the right autonomy, backed by generators for extended outages, and distribution that can be maintained without shutting the room down. Cooling is the twin problem: every watt of power drawn becomes heat that must be removed. Modern rooms use hot-aisle/cold-aisle containment — racks arranged so cold supply air and hot exhaust never mix — which lets cooling run more efficiently and predictably. Sizing both power and cooling for the day-one load and a realistic growth curve is the single most important design decision."
+   },
+   {
+    "type": "h2",
+    "text": "Structured cabling and airflow inside the room"
+   },
+   {
+    "type": "p",
+    "text": "Cabling inside a data centre follows the same standards as the rest of the building, but the stakes are higher. Poorly planned cabling blocks airflow, traps heat behind racks and turns future changes into risky, disruptive work. A structured approach — proper containment, clearly labelled copper and fibre, sensible top-of-rack or end-of-row topology, and generous pathways — keeps the room cool, keeps changes safe, and keeps troubleshooting fast. The cabling plant should be documented as carefully as it is installed."
+   },
+   {
+    "type": "h2",
+    "text": "Redundancy and monitoring"
+   },
+   {
+    "type": "p",
+    "text": "Resilience comes from removing single points of failure. The common baseline is N+1 — one more of each critical component (UPS module, cooling unit, power path) than the load strictly needs — so any one unit can fail or be serviced without taking the room offline; higher tiers add fully independent paths. None of this is trustworthy unless it is watched, so environmental and power monitoring — temperature, humidity, UPS status, power draw — should alarm before a threshold becomes an outage. Redundancy handles the failure; monitoring makes sure you know about it in time."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs, implements and assesses data centres as a single integrator — one of 38 services across our 9 disciplines — so power, cooling, cabling and monitoring are engineered to work together rather than bolted on in isolation. If you are planning a new server room or want an honest assessment of an existing one, our data-centre team can help you build in the right redundancy from the start."
+   }
+  ],
+  "related": [
+   {
+    "slug": "data-center-design-amp-implementation-services",
+    "label": "Data centre design & implementation"
+   },
+   {
+    "slug": "ups-systems",
+    "label": "UPS systems"
+   },
+   {
+    "slug": "data-centre-assessment-amp-recommendations",
+    "label": "Data centre assessment & recommendations"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does N+1 redundancy mean?",
+    "a": "N+1 means providing one more of each critical component — a UPS module, cooling unit or power path — than the load strictly needs. Any single unit can then fail or be taken out for maintenance without bringing the data centre down."
+   },
+   {
+    "q": "Why is hot-aisle/cold-aisle containment used?",
+    "a": "It arranges racks so cold supply air and hot exhaust air never mix. That lets cooling run more efficiently and predictably, avoids hot spots, and allows the room to support higher rack densities without over-cooling the whole space."
+   },
+   {
+    "q": "How important is cabling in a data centre?",
+    "a": "Very. Poorly planned cabling blocks airflow, traps heat and makes changes risky. A structured, well-documented and clearly labelled cabling plant keeps the room cool, keeps moves and changes safe, and speeds up troubleshooting."
+   }
+  ]
+ },
+ "ar": {
+  "title": "أساسيات تصميم مراكز البيانات: الطاقة والتبريد والكابلات والتكرار",
+  "date": "24 يونيو 2026",
+  "team": "فريق مراكز البيانات",
+  "dek": "الطبقات الأربع التي يتقنها كل مركز بيانات مرن — الطاقة وأنظمة UPS، والتبريد وتدفّق الهواء، والكابلات المنظّمة، وتكرار N+1 الذي يبقيه عاملًا عند تعطّل أحد المكوّنات.",
+  "meta": "أساسيات تصميم مراكز البيانات: الطاقة وأنظمة UPS، وتبريد الممرات الحارة/الباردة، والكابلات المنظّمة، وتكرار N+1 والمراقبة لمنشأة مرنة.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "مركز البيانات ليس أقوى من أضعف أنظمته المساندة. فالخوادم ووحدات التخزين تنال الاهتمام، لكن الجهوزية يقرّرها أربع طبقات أقل بريقًا — الطاقة والتبريد والكابلات والتكرار المنسوج بينها جميعًا. وسواء كنت تبني غرفة خوادم صغيرة داخل جامعة أو منشأة مؤسسية كاملة، تنطبق مبادئ التصميم نفسها. أتقِنها فتعمل الغرفة سنوات دون متاعب، وأخطئ فيها فيتحوّل كل موجة حرّ أو هبوط للطاقة إلى حادثة."
+   },
+   {
+    "type": "h2",
+    "text": "الطاقة والتبريد: الأساس"
+   },
+   {
+    "type": "p",
+    "text": "يبدأ تصميم الطاقة بإمداد نظيف ومستمر. ويعني ذلك أنظمة UPS مُحجَّمة للحِمل الفعلي بزمن احتياطي مناسب، مدعومة بمولّدات للانقطاعات الطويلة، وتوزيعًا يمكن صيانته دون إيقاف الغرفة. والتبريد هو المشكلة التوأم: فكل واط من الطاقة المسحوبة يتحوّل إلى حرارة يجب إزالتها. وتستخدم الغرف الحديثة احتواء الممر الحار/الممر البارد — حيث تُرتَّب الرفوف بحيث لا يختلط هواء الإمداد البارد بهواء العادم الحار — ما يتيح تشغيل التبريد بكفاءة وقابلية للتنبّؤ أعلى. وتحجيم الطاقة والتبريد معًا لحِمل اليوم الأول ولمنحنى نمو واقعي هو أهم قرار تصميمي منفرد."
+   },
+   {
+    "type": "h2",
+    "text": "الكابلات المنظّمة وتدفّق الهواء داخل الغرفة"
+   },
+   {
+    "type": "p",
+    "text": "تتبع الكابلات داخل مركز البيانات المعايير نفسها المتّبعة في بقية المبنى، لكن المخاطر أعلى. فالكابلات سيّئة التخطيط تعيق تدفّق الهواء وتحبس الحرارة خلف الرفوف وتحوّل التغييرات المستقبلية إلى عمل محفوف بالمخاطر ومعطِّل. أما النهج المنظّم — من قنوات مناسبة، وكابلات نحاسية وألياف موسومة بوضوح، وطوبولوجيا مدروسة (أعلى الرف أو نهاية الصف)، ومسارات واسعة — فيبقي الغرفة باردة والتغييرات آمنة والتشخيص سريعًا. وينبغي توثيق منظومة الكابلات بالعناية نفسها التي تُركَّب بها."
+   },
+   {
+    "type": "h2",
+    "text": "التكرار والمراقبة"
+   },
+   {
+    "type": "p",
+    "text": "تأتي المرونة من إزالة نقاط الفشل المنفردة. والخط الأساسي الشائع هو N+1 — وحدة إضافية من كل مكوّن حرِج (وحدة UPS، وحدة تبريد، مسار طاقة) زيادة على ما يحتاجه الحِمل فعلًا — بحيث يمكن أن تتعطّل أي وحدة أو تُصان دون إخراج الغرفة عن الخدمة؛ وتضيف المستويات الأعلى مسارات مستقلة تمامًا. ولا يُوثَق بأي من ذلك ما لم يُراقَب، لذا ينبغي أن تُنبّه المراقبة البيئية ومراقبة الطاقة — الحرارة والرطوبة وحالة UPS وسحب الطاقة — قبل أن تتحوّل العتبة إلى انقطاع. فالتكرار يعالج العطل، والمراقبة تضمن معرفتك به في الوقت المناسب."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور مراكز البيانات وتنفّذها وتقيّمها بوصفها مقاول تكامل موحّد — إحدى 38 خدمة عبر 9 تخصصات — بحيث تُهندَس الطاقة والتبريد والكابلات والمراقبة لتعمل معًا لا أن تُضاف كل على حدة. إن كنت تخطّط لغرفة خوادم جديدة أو تريد تقييمًا صادقًا لغرفة قائمة، فبإمكان فريق مراكز البيانات لدينا مساعدتك على بناء التكرار الصحيح من البداية."
+   }
+  ],
+  "related": [
+   {
+    "slug": "data-center-design-amp-implementation-services",
+    "label": "خدمات تصميم وتنفيذ مراكز البيانات"
+   },
+   {
+    "slug": "ups-systems",
+    "label": "أنظمة UPS"
+   },
+   {
+    "slug": "data-centre-assessment-amp-recommendations",
+    "label": "تقييم مراكز البيانات وتوصياتها"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ماذا يعني تكرار N+1؟",
+    "a": "يعني N+1 توفير وحدة إضافية من كل مكوّن حرِج — وحدة UPS أو وحدة تبريد أو مسار طاقة — زيادة على ما يحتاجه الحِمل فعلًا. عندها يمكن أن تتعطّل أي وحدة واحدة أو تُخرَج للصيانة دون إسقاط مركز البيانات."
+   },
+   {
+    "q": "لماذا يُستخدم احتواء الممر الحار/الممر البارد؟",
+    "a": "لأنه يرتّب الرفوف بحيث لا يختلط هواء الإمداد البارد بهواء العادم الحار. وهذا يتيح تشغيل التبريد بكفاءة وقابلية للتنبّؤ أعلى، ويتجنّب النقاط الساخنة، ويسمح للغرفة بدعم كثافات رفوف أعلى دون تبريد المساحة كلها بإفراط."
+   },
+   {
+    "q": "ما مدى أهمية الكابلات في مركز البيانات؟",
+    "a": "أهمية كبيرة. فالكابلات سيّئة التخطيط تعيق تدفّق الهواء وتحبس الحرارة وتجعل التغييرات محفوفة بالمخاطر. أما منظومة الكابلات المنظّمة والموثّقة والموسومة بوضوح فتبقي الغرفة باردة، والنقل والتغيير آمنَين، وتسرّع التشخيص."
+   }
+  ]
+ }
+}

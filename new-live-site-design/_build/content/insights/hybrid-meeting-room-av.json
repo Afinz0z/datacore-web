@@ -1,0 +1,160 @@
+{
+ "slug": "hybrid-meeting-room-av",
+ "order": 11,
+ "img": "assets1/images/dc-ins-hybrid-meeting-room-av.webp",
+ "iso": "2026-05-21",
+ "en": {
+  "title": "Meeting rooms for hybrid work: AV that just works",
+  "date": "21 May 2026",
+  "team": "AV team",
+  "dek": "Hybrid meetings fail on small things, like remote people who cannot hear or be seen. Reliable rooms come from matching the platform, the devices and the acoustics to the space.",
+  "meta": "Designing hybrid meeting rooms that work: Teams and Zoom, cameras, microphones and speakers, BYOD and wireless presentation, acoustics, one-touch control and room sizing.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "The promise of a hybrid meeting is that being in the room and joining remotely feel roughly equal. It usually breaks on small things: a remote colleague who cannot hear the far end of the table, a camera that shows a distant cluster of faces, five minutes lost to getting anything on screen. Rooms that just work are not lucky; they are the result of matching the platform, the devices and the acoustics to the actual space. The goal is simple to state and hard to earn: a room where the first tap starts the meeting and nobody thinks about the equipment again."
+   },
+   {
+    "type": "h2",
+    "text": "Start with the platform and the room size"
+   },
+   {
+    "type": "p",
+    "text": "Decide first whether rooms run a native platform such as Microsoft Teams or Zoom on dedicated room hardware, support staff bringing their own laptops, or both. Then size everything to the room. A huddle space for four needs a single intelligent camera and a compact bar; a boardroom for sixteen needs wider or multiple cameras and distributed microphones. Using certified devices for the chosen platform avoids the compatibility surprises that undermine trust in a room."
+   },
+   {
+    "type": "h2",
+    "text": "Cameras, microphones and speakers"
+   },
+   {
+    "type": "p",
+    "text": "Remote participants judge a room on being able to see and hear clearly. Auto-framing cameras keep whoever is talking in shot and speaker tracking follows the discussion. Microphone coverage matters most: ceiling arrays or well-placed table microphones must pick up every seat evenly, with echo cancellation so the far end never hears itself. Loudspeakers should spread even, intelligible sound across the room without forcing people to lean in. A second wide camera, or a content camera aimed at a whiteboard, can give the far end context that an auto-framing shot alone would miss."
+   },
+   {
+    "type": "h2",
+    "text": "BYOD, wireless presentation and one-touch control"
+   },
+   {
+    "type": "p",
+    "text": "Content sharing should be effortless for staff and guests alike. Wireless presentation removes the scramble for adapters and lets a visitor share without joining the network. A single console that starts the meeting with one touch, and a scheduling panel at the door, turn the technology into something people use without thinking. When joining is genuinely one action, rooms get used and meetings start on time."
+   },
+   {
+    "type": "h2",
+    "text": "Do not forget acoustics"
+   },
+   {
+    "type": "p",
+    "text": "The best devices cannot rescue a poor room. Hard glass walls cause reflections, noisy air-conditioning raises the noise floor, and long reverberation smears speech. Modest acoustic treatment and attention to background noise often improve a call more than any upgrade of cameras or microphones, because they fix the sound at its source. It is the least visible part of a room and the first thing remote participants notice when it is wrong."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs and commissions hybrid rooms as complete, tested spaces rather than boxes of equipment; ask our AV team for a room-by-room plan across your offices."
+   }
+  ],
+  "related": [
+   {
+    "slug": "video-conference-solution",
+    "label": "Video conferencing"
+   },
+   {
+    "slug": "smart-meeting-room-amp-boardroom-solution",
+    "label": "Smart meeting rooms"
+   },
+   {
+    "slug": "professional-audio",
+    "label": "Professional audio"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Should rooms be built for Teams or Zoom?",
+    "a": "Use whichever platform your organisation runs, on certified room hardware for it. Where both are needed, rooms can be set up to run one natively and still accept guest laptops for the other."
+   },
+   {
+    "q": "What size camera and microphone setup do I need?",
+    "a": "It depends on the room. Small rooms suit an all-in-one bar with one camera; larger rooms need wider or multiple cameras and distributed microphones so every seat is seen and heard."
+   },
+   {
+    "q": "Why do our calls sound echoey?",
+    "a": "Usually the room, not the kit. Hard surfaces, glass and air-conditioning noise degrade audio. Acoustic treatment and echo cancellation tuned to the room fix most complaints."
+   }
+  ]
+ },
+ "ar": {
+  "title": "غرف الاجتماعات للعمل الهجين: أنظمة AV تعمل ببساطة",
+  "date": "21 مايو 2026",
+  "team": "فريق AV",
+  "dek": "تفشل الاجتماعات الهجينة في التفاصيل الصغيرة، كأشخاص عن بُعد لا يسمعون ولا يُرَون. الغرف الموثوقة تأتي من مطابقة المنصة والأجهزة والصوتيات مع المساحة.",
+  "meta": "تصميم غرف اجتماعات هجينة تعمل فعلاً: Teams وZoom، الكاميرات والميكروفونات والسماعات، BYOD والعرض اللاسلكي، الصوتيات، التحكم بلمسة واحدة وتحجيم الغرفة.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "وعد الاجتماع الهجين أن يكون الحضور في الغرفة والانضمام عن بُعد متساويين تقريباً. وعادةً ما ينكسر هذا في أمور صغيرة: زميل عن بُعد لا يسمع الطرف البعيد من الطاولة، وكاميرا تُظهر تجمّعاً بعيداً من الوجوه، وخمس دقائق تُهدَر في عرض أي شيء على الشاشة. الغرف التي تعمل ببساطة ليست محظوظة؛ بل نتيجة مطابقة المنصة والأجهزة والصوتيات مع المساحة الفعلية. والهدف بسيط في قوله صعب في تحقيقه: غرفة تبدأ فيها أول نقرة الاجتماع فلا يفكّر أحد في المعدّات مجدداً."
+   },
+   {
+    "type": "h2",
+    "text": "ابدأ بالمنصة وحجم الغرفة"
+   },
+   {
+    "type": "p",
+    "text": "قرّر أولاً هل تشغّل الغرف منصة أصلية مثل Microsoft Teams أو Zoom على عتاد غرفة مخصص، أم تدعم الموظفين وهم يحضرون حواسيبهم، أم كليهما. ثم حجّم كل شيء وفق الغرفة. تحتاج مساحة صغيرة لأربعة أشخاص إلى كاميرا ذكية واحدة وشريط مدمج؛ بينما تحتاج قاعة مجلس لستة عشر إلى كاميرات أوسع أو متعددة وميكروفونات موزَّعة. واستخدام أجهزة معتمدة للمنصة المختارة يتجنّب مفاجآت التوافق التي تقوّض الثقة في الغرفة."
+   },
+   {
+    "type": "h2",
+    "text": "الكاميرات والميكروفونات والسماعات"
+   },
+   {
+    "type": "p",
+    "text": "يحكم المشاركون عن بُعد على الغرفة بقدرتهم على الرؤية والسماع بوضوح. تُبقي كاميرات التأطير التلقائي المتحدث في الصورة، ويتابع تتبّع المتحدث النقاش. وتهمّ تغطية الميكروفون أكثر: يجب أن تلتقط مصفوفات السقف أو ميكروفونات الطاولة الموضوعة جيداً كل مقعد بالتساوي، مع إلغاء الصدى كي لا يسمع الطرف البعيد صوته أبداً. وينبغي أن تنشر السماعات صوتاً متساوياً ومفهوماً عبر الغرفة دون أن يضطر الناس إلى الانحناء. وقد تمنح كاميرا واسعة ثانية، أو كاميرا محتوى موجَّهة إلى لوح الكتابة، الطرفَ البعيد سياقاً تفوته لقطة التأطير التلقائي وحدها."
+   },
+   {
+    "type": "h2",
+    "text": "BYOD والعرض اللاسلكي والتحكم بلمسة واحدة"
+   },
+   {
+    "type": "p",
+    "text": "ينبغي أن تكون مشاركة المحتوى سهلة للموظفين والضيوف على حدٍّ سواء. يزيل العرض اللاسلكي التدافع على المحوّلات ويتيح لزائر المشاركة دون الانضمام إلى الشبكة. ووحدة تحكم واحدة تبدأ الاجتماع بلمسة واحدة، ولوحة جدولة عند الباب، تحوّلان التقنية إلى شيء يستخدمه الناس دون تفكير. وحين يكون الانضمام إجراءً واحداً حقاً، تُستخدَم الغرف وتبدأ الاجتماعات في وقتها."
+   },
+   {
+    "type": "h2",
+    "text": "لا تنسَ الصوتيات"
+   },
+   {
+    "type": "p",
+    "text": "لا تستطيع أفضل الأجهزة إنقاذ غرفة رديئة. تسبّب الجدران الزجاجية الصلبة انعكاسات، ويرفع تكييف الهواء الصاخب أرضية الضوضاء، ويلطّخ الصدى الطويل الكلام. وكثيراً ما تحسّن معالجة صوتية متواضعة والاهتمام بضوضاء الخلفية المكالمةَ أكثر من أي ترقية للكاميرات أو الميكروفونات، لأنها تعالج الصوت من مصدره. وهي الجزء الأقل ظهوراً في الغرفة وأول ما يلاحظه المشاركون عن بُعد حين يكون خطأً."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم Datacore الغرف الهجينة وتشغّلها بوصفها مساحات مكتملة ومختبَرة لا صناديق معدّات؛ اطلب من فريق AV لدينا خطة غرفةً بغرفة عبر مكاتبك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "video-conference-solution",
+    "label": "مؤتمرات الفيديو"
+   },
+   {
+    "slug": "smart-meeting-room-amp-boardroom-solution",
+    "label": "غرف الاجتماعات الذكية"
+   },
+   {
+    "slug": "professional-audio",
+    "label": "الصوتيات الاحترافية"
+   }
+  ],
+  "faq": [
+   {
+    "q": "هل ينبغي بناء الغرف لـ Teams أم Zoom؟",
+    "a": "استخدم المنصة التي تشغّلها مؤسستك، على عتاد غرفة معتمد لها. وحيث يلزم كلاهما، يمكن إعداد الغرف لتشغيل واحدة أصلياً مع قبول حواسيب الضيوف للأخرى."
+   },
+   {
+    "q": "ما حجم إعداد الكاميرا والميكروفون الذي أحتاجه؟",
+    "a": "يعتمد على الغرفة. تناسب الغرف الصغيرة شريطاً متكاملاً بكاميرا واحدة؛ بينما تحتاج الغرف الأكبر إلى كاميرات أوسع أو متعددة وميكروفونات موزَّعة كي يُرى كل مقعد ويُسمَع."
+   },
+   {
+    "q": "لماذا تبدو مكالماتنا ذات صدى؟",
+    "a": "عادةً الغرفة لا الأجهزة. تُضعف الأسطح الصلبة والزجاج وضوضاء التكييف الصوت. وتعالج المعالجة الصوتية وإلغاء الصدى المضبوط على الغرفة معظم الشكاوى."
+   }
+  ]
+ }
+}

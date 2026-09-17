@@ -1,0 +1,144 @@
+{
+ "slug": "single-mode-vs-multimode-fibre",
+ "order": 6,
+ "img": "assets1/images/dc-ins-single-mode-vs-multimode-fibre.webp",
+ "iso": "2026-07-15",
+ "en": {
+  "title": "Single-Mode vs Multimode Fibre: Choosing a Backbone That Lasts",
+  "date": "15 July 2026",
+  "team": "Systems team",
+  "dek": "OS2, OM3, OM4 and OM5 compared — how distance, bandwidth and cost trade off, and a simple rule for choosing the fibre backbone that will still carry your network a decade from now.",
+  "meta": "Single-mode (OS2) vs multimode (OM3/OM4/OM5) fibre: distance, bandwidth, cost and future-proofing, plus when to use each for your backbone.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Fibre is the backbone of almost every serious network — between buildings on a campus, between floors in a riser, and between the core and the data centre. But 'fibre' is not one thing. The choice between single-mode and multimode, and between the grades within each, sets the distance, speed and cost of the backbone for its whole life. Because backbone fibre is expensive and disruptive to replace, it is worth understanding the trade-offs before the trench is dug or the riser is pulled."
+   },
+   {
+    "type": "h2",
+    "text": "How single-mode and multimode differ"
+   },
+   {
+    "type": "p",
+    "text": "The difference is in the glass core. Multimode fibre has a wider core that lets light travel in several paths, or modes; single-mode has a very narrow core that carries a single path. That one physical difference drives everything else. Multimode works with cheaper light sources and is economical over short distances, but the multiple paths spread the signal and limit how far high speeds can travel. Single-mode carries a tighter signal over vastly longer distances and higher bandwidths, at the cost of more precise, more expensive optics."
+   },
+   {
+    "type": "h2",
+    "text": "The grades: OS2, OM3, OM4 and OM5"
+   },
+   {
+    "type": "p",
+    "text": "Within each family there are grades. Single-mode is graded OS2 for modern indoor/outdoor use, and its reach is measured in kilometres. Multimode has stepped through OM3, OM4 and OM5: OM3 and OM4 are laser-optimised for 10, 40 and 100 Gigabit over increasing distances — OM4 reaching further than OM3 — while OM5 adds support for short-wavelength division multiplexing to carry more channels on one fibre. As a rough guide, multimode's practical high-speed reach is measured in tens to a few hundred metres, where single-mode's is measured in kilometres."
+   },
+   {
+    "type": "h2",
+    "text": "Which to choose — and when"
+   },
+   {
+    "type": "p",
+    "text": "The honest answer is that it depends on distance, speed and budget. For links inside a building or across a small campus, laser-optimised multimode (OM4, or OM5 where extra channel capacity is wanted) is often the cost-effective choice, because the optics are cheaper and the distances are short. For campus backbones, links between buildings, connections to a data centre, or anywhere you want maximum headroom for future speed upgrades, single-mode OS2 is the future-proof choice — the fibre itself costs little more, and it removes distance and bandwidth as limits for decades. Many well-designed sites deploy both: single-mode for the long, strategic runs and multimode where it earns its place."
+   },
+   {
+    "type": "p",
+    "text": "Backed by 180+ specialists, Datacore designs fibre backbones to match the distance, speed and growth plans of each site rather than defaulting to one type, and certifies every run at handover. If you are planning a campus or data-centre backbone and want it to still be fast in ten years, our team can help you choose the right fibre for each link."
+   }
+  ],
+  "related": [
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "Fibre optic solutions"
+   },
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "Structured cabling solutions"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the main difference between single-mode and multimode fibre?",
+    "a": "Single-mode fibre has a very narrow core that carries a single light path over long distances and high bandwidths. Multimode has a wider core that carries several paths, which is cheaper over short distances but limits how far high speeds can travel."
+   },
+   {
+    "q": "What do OS2, OM3, OM4 and OM5 mean?",
+    "a": "They are fibre grades. OS2 is modern single-mode fibre with reach measured in kilometres. OM3, OM4 and OM5 are laser-optimised multimode grades for 10 to 100 Gigabit over increasing short-range distances, with OM5 adding extra channel capacity."
+   },
+   {
+    "q": "When should I use single-mode instead of multimode?",
+    "a": "Use single-mode OS2 for long runs — campus backbones, building-to-building links and data-centre connections — and where you want maximum headroom for future speed upgrades. Multimode is often more economical for short links inside a building."
+   }
+  ]
+ },
+ "ar": {
+  "title": "الألياف أحادية النمط مقابل متعددة الأنماط: اختيار بنية أساسية تدوم",
+  "date": "15 يوليو 2026",
+  "team": "فريق الأنظمة",
+  "dek": "مقارنة بين OS2 وOM3 وOM4 وOM5 — كيف تتوازن المسافة وعرض النطاق والتكلفة، وقاعدة بسيطة لاختيار البنية الأساسية للألياف التي ستظل تحمل شبكتك بعد عقد من الآن.",
+  "meta": "الألياف أحادية النمط (OS2) مقابل متعددة الأنماط (OM3/OM4/OM5): المسافة وعرض النطاق والتكلفة والجهوزية للمستقبل، ومتى تستخدم كلًّا منها.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "الألياف الضوئية هي البنية الأساسية لكل شبكة جادّة تقريبًا — بين المباني في الحرم الجامعي، وبين الطوابق في القنوات الرأسية، وبين النواة ومركز البيانات. لكن «الألياف» ليست شيئًا واحدًا. فالاختيار بين الأحادية النمط والمتعددة الأنماط، وبين الدرجات داخل كل نوع، يحدّد مسافة البنية الأساسية وسرعتها وتكلفتها طوال عمرها. ولأن ألياف البنية الأساسية باهظة ومزعجة الاستبدال، يجدر فهم الموازنات قبل حفر الخندق أو سحب القناة الرأسية."
+   },
+   {
+    "type": "h2",
+    "text": "كيف تختلف الأحادية النمط عن المتعددة الأنماط"
+   },
+   {
+    "type": "p",
+    "text": "الفرق في قلب الزجاج. فالألياف متعددة الأنماط لها قلب أوسع يسمح للضوء بالانتقال عبر عدة مسارات أو أنماط؛ أما الأحادية النمط فلها قلب ضيّق جدًا يحمل مسارًا واحدًا. وهذا الفرق المادي الواحد يقود كل ما عداه. فالمتعددة الأنماط تعمل مع مصادر ضوء أرخص وتكون اقتصادية على المسافات القصيرة، لكن المسارات المتعددة تبعثر الإشارة وتحدّ من المدى الذي تصله السرعات العالية. أما الأحادية النمط فتحمل إشارة أدقّ عبر مسافات أطول بكثير وعروض نطاق أعلى، مقابل بصريات أدقّ وأغلى."
+   },
+   {
+    "type": "h2",
+    "text": "الدرجات: OS2 وOM3 وOM4 وOM5"
+   },
+   {
+    "type": "p",
+    "text": "داخل كل عائلة توجد درجات. فالأحادية النمط تُصنَّف OS2 للاستخدام الحديث داخليًا وخارجيًا، ويُقاس مداها بالكيلومترات. أما المتعددة الأنماط فمرّت بـ OM3 وOM4 وOM5: فـ OM3 وOM4 مُحسَّنان للّيزر لسرعات 10 و40 و100 غيغابت عبر مسافات متزايدة — مع بلوغ OM4 مدى أبعد من OM3 — بينما يضيف OM5 دعم تقسيم الطول الموجي القصير لحمل قنوات أكثر على ليف واحد. وكدليل تقريبي، يُقاس المدى العملي عالي السرعة للمتعددة الأنماط بعشرات إلى بضع مئات من الأمتار، حيث يُقاس مدى الأحادية النمط بالكيلومترات."
+   },
+   {
+    "type": "h2",
+    "text": "أيّهما تختار — ومتى"
+   },
+   {
+    "type": "p",
+    "text": "الجواب الصادق أنه يعتمد على المسافة والسرعة والميزانية. فبالنسبة للوصلات داخل مبنى أو عبر حرم صغير، غالبًا ما تكون المتعددة الأنماط المحسّنة للّيزر (OM4، أو OM5 حيث تُطلَب سعة قنوات إضافية) الخيار الأوفر، لأن البصريات أرخص والمسافات قصيرة. أما لبنى الحرم الأساسية، والوصلات بين المباني، والاتصالات بمركز البيانات، أو أي موضع تريد فيه أقصى هامش لترقيات السرعة المستقبلية، فإن الأحادية النمط OS2 هي الخيار الجاهز للمستقبل — فالليف نفسه لا يكلّف أكثر إلا قليلًا، ويزيل المسافة وعرض النطاق كقيدين لعقود. وكثير من المواقع جيدة التصميم تنشر النوعين معًا: الأحادية النمط للمسارات الطويلة الاستراتيجية والمتعددة الأنماط حيث تستحق مكانها."
+   },
+   {
+    "type": "p",
+    "text": "بدعم من أكثر من 180 مختصًّا، تصمّم داتاكور بنى الألياف الأساسية لتناسب خطط المسافة والسرعة والنمو لكل موقع بدلًا من اللجوء افتراضيًا إلى نوع واحد، وتعتمد كل مسار عند التسليم. إن كنت تخطّط لبنية أساسية لحرم جامعي أو مركز بيانات وتريدها سريعة بعد عشر سنوات، فبإمكان فريقنا مساعدتك على اختيار الليف المناسب لكل وصلة."
+   }
+  ],
+  "related": [
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "حلول الألياف الضوئية"
+   },
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "حلول الكابلات المنظّمة"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما الفرق الرئيسي بين الألياف أحادية النمط ومتعددة الأنماط؟",
+    "a": "الألياف أحادية النمط لها قلب ضيّق جدًا يحمل مسار ضوء واحدًا عبر مسافات طويلة وعروض نطاق عالية. أما المتعددة الأنماط فلها قلب أوسع يحمل عدة مسارات، وهو أرخص على المسافات القصيرة لكنه يحدّ من المدى الذي تصله السرعات العالية."
+   },
+   {
+    "q": "ماذا تعني OS2 وOM3 وOM4 وOM5؟",
+    "a": "هي درجات للألياف. فـ OS2 ألياف أحادية النمط حديثة يُقاس مداها بالكيلومترات. وOM3 وOM4 وOM5 درجات متعددة الأنماط محسّنة للّيزر لسرعات 10 إلى 100 غيغابت عبر مسافات قصيرة متزايدة، مع إضافة OM5 سعة قنوات إضافية."
+   },
+   {
+    "q": "متى ينبغي استخدام الأحادية النمط بدل المتعددة الأنماط؟",
+    "a": "استخدم الأحادية النمط OS2 للمسارات الطويلة — بنى الحرم الأساسية والوصلات بين المباني واتصالات مراكز البيانات — وحيث تريد أقصى هامش لترقيات السرعة المستقبلية. أما المتعددة الأنماط فغالبًا ما تكون أوفر للوصلات القصيرة داخل المبنى."
+   }
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "slug": "what-is-a-public-address-system",
+ "order": 0,
+ "img": "assets1/images/dc-blog-pa.jpg",
+ "iso": "2026-03-03",
+ "en": {
+  "title": "What is a public address system?",
+  "date": "3 March 2026",
+  "team": "Systems team",
+  "dek": "Where public address ends and voice evacuation begins, and why the distinction decides which standard your project has to meet.",
+  "meta": "A public address system distributes clear speech and audio across a building. Learn how PA differs from voice alarm / voice evacuation, the EN 54 standards involved, and how PA/VA is designed for intelligibility.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "A public address (PA) system distributes clear, intelligible speech and audio across a building or site — from a microphone or audio source, through amplifiers, to loudspeakers arranged in zones. It is how an airport pages a passenger, a school signals the end of a period, or a mall plays background music. But the plain term hides a distinction that decides which standard your project must meet, and how much it costs to get right."
+   },
+   {
+    "type": "h2",
+    "text": "Public address vs. voice alarm (voice evacuation)"
+   },
+   {
+    "type": "p",
+    "text": "Everyday PA handles announcements, paging and background music. A voice alarm — also called voice evacuation, together written PA/VA — is a life-safety system: in an emergency it delivers automatic, intelligible evacuation messages that take priority over everything else. That life-safety role is why PA/VA is held to the EN 54 family of standards (for example EN 54-16 for the voice-alarm control and indicating equipment and EN 54-24 for the loudspeakers), with continuously monitored cabling, standby power, and fault reporting. An everyday paging system is not held to those requirements; a voice-evacuation system is."
+   },
+   {
+    "type": "h2",
+    "text": "How a PA/VA system is put together"
+   },
+   {
+    "type": "p",
+    "text": "The building blocks are consistent: audio sources and emergency microphones; a controller or matrix that manages zones, message priority and the emergency logic; amplifiers sized to the connected loudspeaker load with spare capacity; and loudspeakers chosen for even coverage and speech clarity. In a life-safety system the loudspeaker lines are monitored end to end and backed by standby power, so a single fault is detected rather than discovered during an evacuation."
+   },
+   {
+    "type": "h2",
+    "text": "Getting intelligibility right, not just volume"
+   },
+   {
+    "type": "p",
+    "text": "The point of a PA system is that people understand the message, not merely hear a noise. Intelligibility is designed — loudspeaker layout and coverage, the room’s acoustics and reverberation, and a target speech transmission index (STI) all decide whether a message reads as words or as echo. Louder is not clearer; a well-designed quieter system beats an over-driven loud one."
+   },
+   {
+    "type": "h2",
+    "text": "Integration with fire alarm"
+   },
+   {
+    "type": "p",
+    "text": "In many buildings the voice-evacuation system integrates with the fire-alarm system, so that detection automatically triggers the correct evacuation message in the correct zones. The interface between the two systems, and the cause-and-effect matrix that maps detection to messaging, are as important as the audio itself — and are exactly where an integrator who owns both scopes removes risk."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs, supplies, installs and commissions public address and PA/VA voice-evacuation systems to the relevant standard, with documented test results and intelligibility verification at handover. If you are specifying a system and are not sure whether you need PA or full voice evacuation, that is the first question worth settling — talk to our team."
+   }
+  ],
+  "related": [
+   {
+    "slug": "pava-public-address-amp-voice-evacuation-system",
+    "label": "PA/VA voice evacuation"
+   },
+   {
+    "slug": "fire-alarm-systems",
+    "label": "Fire alarm systems"
+   },
+   {
+    "slug": "paga-public-address-and-general-alarm-system",
+    "label": "PAGA general alarm"
+   }
+  ],
+  "faq": []
+ },
+ "ar": {
+  "title": "ما هو نظام النداء العام؟",
+  "date": "3 مارس 2026",
+  "team": "فريق الأنظمة",
+  "dek": "أين ينتهي النداء العام ويبدأ الإخلاء الصوتي، ولماذا يحدّد هذا الفرق المعيار الذي يجب أن يلتزم به مشروعك.",
+  "meta": "نظام النداء العام يوزّع كلامًا وصوتًا واضحًا عبر المبنى. تعرّف على الفرق بين النداء العام والإنذار الصوتي/الإخلاء الصوتي، ومعايير EN 54، وكيف يُصمَّم نظام PA/VA لأجل وضوح الكلام.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "نظام النداء العام (PA) يوزّع كلامًا وصوتًا واضحًا ومفهومًا عبر المبنى أو الموقع — من ميكروفون أو مصدر صوت، عبر مكبّرات القدرة، إلى سمّاعات موزّعة على مناطق. به يُنادى مسافرٌ في مطار، ويُعلَن انتهاء حصةٍ في مدرسة، وتُبثّ موسيقى خلفية في مركز تجاري. لكن المصطلح البسيط يخفي فرقًا يحدّد المعيار الذي يجب أن يلتزم به مشروعك، وكم يكلّف إتقانه."
+   },
+   {
+    "type": "h2",
+    "text": "النداء العام مقابل الإنذار الصوتي (الإخلاء الصوتي)"
+   },
+   {
+    "type": "p",
+    "text": "يتولّى النداء العام اليومي الإعلانات والنداء والموسيقى الخلفية. أما الإنذار الصوتي — ويُسمّى الإخلاء الصوتي، ويُكتبان معًا PA/VA — فهو نظام سلامةٍ للحياة: في الطوارئ يبثّ رسائل إخلاء تلقائية ومفهومة لها الأولوية على كل ما عداها. هذا الدور في سلامة الحياة هو سبب خضوع أنظمة PA/VA لعائلة معايير EN 54 (مثل EN 54-16 للوحة التحكم والإشارة في الإنذار الصوتي وEN 54-24 للسمّاعات)، مع مراقبة مستمرة للكابلات، وطاقة احتياطية، والإبلاغ عن الأعطال. نظام النداء اليومي لا يخضع لتلك المتطلبات؛ نظام الإخلاء الصوتي يخضع لها."
+   },
+   {
+    "type": "h2",
+    "text": "ممّ يتكوّن نظام PA/VA"
+   },
+   {
+    "type": "p",
+    "text": "اللبنات ثابتة: مصادر صوت وميكروفونات طوارئ؛ لوحة تحكم أو مصفوفة تدير المناطق وأولوية الرسائل ومنطق الطوارئ؛ مكبّرات قدرة محسوبة على حمل السمّاعات الموصولة مع سعةٍ احتياطية؛ وسمّاعات مختارة لتغطيةٍ متساوية ووضوحٍ في الكلام. في نظام سلامة الحياة تُراقَب خطوط السمّاعات من طرفٍ إلى طرف وتُدعَم بطاقةٍ احتياطية، بحيث يُكتشَف العطل الواحد بدل أن يُكتشَف أثناء الإخلاء."
+   },
+   {
+    "type": "h2",
+    "text": "الوضوح أوّلًا، لا مجرّد ارتفاع الصوت"
+   },
+   {
+    "type": "p",
+    "text": "الغاية من نظام النداء أن يفهم الناس الرسالة، لا أن يسمعوا ضجيجًا فحسب. الوضوح يُصمَّم — توزيع السمّاعات والتغطية، وصوتيّات الغرفة وارتداد الصوت فيها، ومؤشر نقل الكلام (STI) المستهدف، كلها تقرّر هل تصل الرسالة كلماتٍ أم صدى. الأعلى صوتًا ليس الأوضح؛ نظامٌ أهدأ ومصمَّمٌ جيدًا يتفوّق على نظامٍ عالٍ مُحمَّلٍ بإفراط."
+   },
+   {
+    "type": "h2",
+    "text": "التكامل مع إنذار الحريق"
+   },
+   {
+    "type": "p",
+    "text": "في كثير من المباني يتكامل نظام الإخلاء الصوتي مع نظام إنذار الحريق، فيُطلق الكشفُ تلقائيًا رسالة الإخلاء الصحيحة في المناطق الصحيحة. الواجهة بين النظامين، ومصفوفة السبب والأثر التي تربط الكشف بالرسائل، لا تقلّ أهمية عن الصوت نفسه — وهي بالضبط حيث يزيل المكاملُ الذي يملك النطاقين المخاطرة."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور أنظمة النداء العام وأنظمة الإخلاء الصوتي PA/VA وتورّدها وتركّبها وتشغّلها وفق المعيار ذي الصلة، بنتائج اختبارٍ موثّقة والتحقق من وضوح الكلام عند التسليم. إن كنت تضع مواصفات نظامٍ ولست متأكدًا هل تحتاج نداءً عامًا أم إخلاءً صوتيًا كاملًا، فتلك أوّل مسألةٍ تستحق الحسم — تواصل مع فريقنا."
+   }
+  ],
+  "related": [
+   {
+    "slug": "pava-public-address-amp-voice-evacuation-system",
+    "label": "الإخلاء الصوتي PA/VA"
+   },
+   {
+    "slug": "fire-alarm-systems",
+    "label": "أنظمة إنذار الحريق"
+   },
+   {
+    "slug": "paga-public-address-and-general-alarm-system",
+    "label": "النداء والإنذار العام PAGA"
+   }
+  ],
+  "faq": []
+ }
+}

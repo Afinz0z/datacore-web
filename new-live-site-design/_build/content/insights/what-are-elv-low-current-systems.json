@@ -1,0 +1,176 @@
+{
+ "slug": "what-are-elv-low-current-systems",
+ "order": 18,
+ "img": "assets1/images/dc-ins-what-are-elv-low-current-systems.webp",
+ "iso": "2026-09-16",
+ "en": {
+  "title": "What are ELV (low-current) systems?",
+  "date": "16 September 2026",
+  "team": "Systems team",
+  "dek": "Structured cabling, CCTV, access control, AV, public address and data centres — the low-current backbone of a modern building, and why it pays to design them as one system.",
+  "meta": "What ELV (extra-low-voltage / low-current) systems are, the disciplines they cover, the standards that govern them in Saudi Arabia, and why one integrator delivers them best.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "ELV stands for extra-low voltage — and on a construction project it is shorthand for the low-current systems that run a modern building: the structured cabling and networks, the CCTV and access control, the audio-visual and public address, the data centre, the IPTV. They carry signal, data and control rather than mains power, and together they are the building's nervous system."
+   },
+   {
+    "type": "h2",
+    "text": "What counts as an ELV system?"
+   },
+   {
+    "type": "p",
+    "text": "The ELV — or low-current — umbrella is broad. On a typical project it covers structured cabling and fibre, enterprise networks and Wi-Fi, CCTV and access control, public address and voice evacuation, audio-visual and meeting rooms, digital signage and LED walls, IPTV and MATV, the data centre, and increasingly building automation. Fire alarm sits alongside it as a related low-current discipline, governed by its own life-safety codes."
+   },
+   {
+    "type": "h2",
+    "text": "ELV vs. electrical: signal, not power"
+   },
+   {
+    "type": "p",
+    "text": "The clean way to think about it: electrical (high-current) systems distribute energy — mains power at 220V and above; ELV systems distribute information — at safe low voltages, typically up to 50V AC or 120V DC. They are different trades, with different standards, different testing and different risk. An electrician pulls power to a room; the ELV integrator makes that room see, hear, connect and be secured."
+   },
+   {
+    "type": "h2",
+    "text": "The standards that decide the job"
+   },
+   {
+    "type": "p",
+    "text": "Each ELV discipline answers to its own standard, and in Saudi Arabia to local approvals on top. Structured cabling follows TIA-568 and ISO/IEC 11801; voice evacuation follows EN 54 and the Saudi Building Code (SBC 801); security systems follow SIRA and Civil Defense requirements; interoperability leans on ONVIF. Getting the standard right up front is what separates a system that passes inspection from one that has to be reworked."
+   },
+   {
+    "type": "h2",
+    "text": "Why ELV is designed as one system"
+   },
+   {
+    "type": "p",
+    "text": "The disciplines do not live in isolation. They share cable trays and pathways, they share the communications room, and more and more they share the IP network — CCTV, access control, AV and public address increasingly ride the same converged infrastructure. Designed together, they avoid clashes, duplicate cabling and the integration gaps that appear when a dozen separate contractors hand over a dozen separate systems. Designed apart, they cost more and integrate worse — and this convergence is exactly what a Vision 2030 smart building depends on."
+   },
+   {
+    "type": "h2",
+    "text": "Choosing an ELV integrator in Saudi Arabia"
+   },
+   {
+    "type": "p",
+    "text": "What to look for is straightforward: an integrator that surveys, designs, supplies, installs, commissions and maintains in-house rather than subcontracting the hard parts; engineers certified by the manufacturers whose systems they deploy; genuine depth in the standards and the local approvals; and a maintenance capability for after handover. That single-team model is how the low-current backbone gets built once and runs for years."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "Structured cabling"
+   },
+   {
+    "slug": "video-surveillance-solutions-amp-cctv",
+    "label": "CCTV & security"
+   },
+   {
+    "slug": "pava-public-address-amp-voice-evacuation-system",
+    "label": "Voice evacuation"
+   },
+   {
+    "slug": "data-center-design-amp-implementation-services",
+    "label": "Data centre design"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does ELV stand for?",
+    "a": "Extra-Low Voltage — systems that operate at safe low voltages (typically up to 50V AC or 120V DC) and carry signal, data and control rather than mains power. In the field they are also called low-current systems."
+   },
+   {
+    "q": "Is a fire alarm an ELV system?",
+    "a": "Fire alarm and voice evacuation are low-current systems and are usually delivered alongside ELV, but in Saudi Arabia they answer to Civil Defense and the Saudi Building Code (SBC 801) rather than the general cabling standards."
+   },
+   {
+    "q": "Do all ELV systems need the same contractor?",
+    "a": "They do not have to, but a single integrator that designs cabling, security, AV, public address and the data centre together avoids clashes and integration gaps — which is how Datacore delivers a converged low-current backbone."
+   }
+  ]
+ },
+ "ar": {
+  "title": "ما هي أنظمة التيار الخفيف (ELV)؟",
+  "date": "16 سبتمبر 2026",
+  "team": "فريق الأنظمة",
+  "dek": "التمديدات الهيكلية والكاميرات والتحكم في الدخول والأنظمة السمعية والبصرية والنداء الآلي ومراكز البيانات — العمود الفقري للتيار الخفيف في المبنى الحديث، ولماذا يُفضّل تصميمها كنظام واحد.",
+  "meta": "ما أنظمة التيار الخفيف (ELV)، والتخصصات التي تشملها، والمعايير التي تحكمها في السعودية، ولماذا يُنفّذها مُكامِل واحد على أفضل وجه.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "ELV اختصار لـ extra-low voltage (التيار الخفيف)، وهو في عالم البناء تعبير عن الأنظمة منخفضة التيار التي تُشغّل المبنى الحديث: التمديدات الهيكلية والشبكات، والكاميرات والتحكم في الدخول، والأنظمة السمعية والبصرية والنداء الآلي، ومركز البيانات، وأنظمة IPTV. تنقل هذه الأنظمة الإشارة والبيانات والتحكم لا طاقة الكهرباء، وهي معاً الجهاز العصبي للمبنى."
+   },
+   {
+    "type": "h2",
+    "text": "ما الذي يُعدّ نظام تيار خفيف؟"
+   },
+   {
+    "type": "p",
+    "text": "مظلّة التيار الخفيف واسعة. في مشروع نموذجي تشمل التمديدات الهيكلية والألياف، وشبكات المؤسسات والواي فاي، والكاميرات والتحكم في الدخول، والنداء الآلي والإخلاء الصوتي، والأنظمة السمعية والبصرية وقاعات الاجتماعات، واللافتات الرقمية وشاشات LED، وأنظمة IPTV وMATV، ومركز البيانات، وبشكل متزايد أتمتة المباني. ويقف إنذار الحريق إلى جانبها كتخصص منخفض تيار ذي صلة، تحكمه أكواد السلامة الخاصة به."
+   },
+   {
+    "type": "h2",
+    "text": "التيار الخفيف مقابل الكهرباء: إشارة لا طاقة"
+   },
+   {
+    "type": "p",
+    "text": "الطريقة الأوضح للتمييز: أنظمة الكهرباء (التيار العالي) توزّع الطاقة — تيار رئيسي بجهد 220 فولت فأعلى؛ وأنظمة التيار الخفيف توزّع المعلومات — بجهود منخفضة آمنة، عادةً حتى 50 فولت تيار متردد أو 120 فولت تيار مستمر. هما مهنتان مختلفتان بمعايير واختبارات ومخاطر مختلفة. الكهربائي يوصل الطاقة إلى الغرفة؛ ومُكامِل التيار الخفيف يجعل تلك الغرفة ترى وتسمع وتتصل وتُؤمَّن."
+   },
+   {
+    "type": "h2",
+    "text": "المعايير التي تحسم العمل"
+   },
+   {
+    "type": "p",
+    "text": "كل تخصص من التيار الخفيف يخضع لمعياره الخاص، وفي السعودية لاعتمادات محلية فوق ذلك. التمديدات الهيكلية تتبع TIA-568 وISO/IEC 11801؛ والإخلاء الصوتي يتبع EN 54 وكود البناء السعودي (SBC 801)؛ والأنظمة الأمنية تتبع متطلبات SIRA والدفاع المدني؛ ويعتمد التكامل على ONVIF. وضبط المعيار مبكراً هو ما يفصل بين نظام يجتاز الفحص وآخر يحتاج إلى إعادة عمل."
+   },
+   {
+    "type": "h2",
+    "text": "لماذا يُصمَّم التيار الخفيف كنظام واحد"
+   },
+   {
+    "type": "p",
+    "text": "لا تعيش هذه التخصصات منفصلة. تتشارك مسارات الكابلات، وغرفة الاتصالات، وبشكل متزايد شبكة IP — إذ تعمل الكاميرات والتحكم في الدخول والأنظمة السمعية والبصرية والنداء على البنية المتقاربة نفسها. تصميمها معاً يتجنّب التعارضات وازدواج التمديد وفجوات التكامل التي تظهر عندما يسلّم عشرات المقاولين عشرات الأنظمة المنفصلة. أما تصميمها منفصلة فيكلّف أكثر ويتكامل أسوأ — وهذا التقارب هو تحديداً ما يعتمد عليه المبنى الذكي ضمن رؤية 2030."
+   },
+   {
+    "type": "h2",
+    "text": "اختيار مُكامِل التيار الخفيف في السعودية"
+   },
+   {
+    "type": "p",
+    "text": "ما يجب البحث عنه واضح: مُكامِل يقوم بالمسح والتصميم والتوريد والتركيب والتشغيل والصيانة داخلياً بدل إسناد الأجزاء الصعبة من الباطن؛ ومهندسون معتمدون من الشركات المصنّعة لأنظمتهم؛ وعمق حقيقي في المعايير والاعتمادات المحلية؛ وقدرة صيانة بعد التسليم. هذا النموذج ذو الفريق الواحد هو ما يجعل العمود الفقري للتيار الخفيف يُبنى مرة ويعمل لسنوات."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "التمديدات الهيكلية"
+   },
+   {
+    "slug": "video-surveillance-solutions-amp-cctv",
+    "label": "الكاميرات والأمن"
+   },
+   {
+    "slug": "pava-public-address-amp-voice-evacuation-system",
+    "label": "الإخلاء الصوتي"
+   },
+   {
+    "slug": "data-center-design-amp-implementation-services",
+    "label": "تصميم مراكز البيانات"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ماذا تعني ELV؟",
+    "a": "التيار الخفيف (Extra-Low Voltage) — أنظمة تعمل بجهود منخفضة آمنة (عادةً حتى 50 فولت تيار متردد أو 120 فولت تيار مستمر) وتنقل الإشارة والبيانات والتحكم لا التيار الرئيسي. وتُسمّى في الميدان أيضاً أنظمة التيار الخفيف."
+   },
+   {
+    "q": "هل إنذار الحريق نظام تيار خفيف؟",
+    "a": "إنذار الحريق والإخلاء الصوتي نظامان منخفضا التيار ويُنفّذان عادةً إلى جانب التيار الخفيف، لكنهما في السعودية يخضعان للدفاع المدني وكود البناء السعودي (SBC 801) بدل معايير التمديد العامة."
+   },
+   {
+    "q": "هل تحتاج كل أنظمة التيار الخفيف المقاول نفسه؟",
+    "a": "ليس شرطاً، لكن مُكامِلاً واحداً يصمّم التمديدات والأمن والأنظمة السمعية والبصرية والنداء ومركز البيانات معاً يتجنّب التعارضات وفجوات التكامل — وهذا ما تقدّمه داتاكور كعمود فقري متقارب للتيار الخفيف."
+   }
+  ]
+ }
+}

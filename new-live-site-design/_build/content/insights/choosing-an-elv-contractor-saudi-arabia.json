@@ -1,0 +1,144 @@
+{
+ "slug": "choosing-an-elv-contractor-saudi-arabia",
+ "order": 3,
+ "img": "assets1/images/dc-ins-choosing-an-elv-contractor-saudi-arabia.webp",
+ "iso": "2026-08-12",
+ "en": {
+  "title": "How to Choose an ELV / Low-Current Contractor in Saudi Arabia",
+  "date": "12 August 2026",
+  "team": "Systems team",
+  "dek": "A practical checklist for procurement teams: single-integrator scope, standards compliance, Civil Defense approval and the documented testing that separates a good ELV contractor from a risky one.",
+  "meta": "How to evaluate an ELV / low-current contractor in Saudi Arabia: scope, SBC 801 and Civil Defense compliance, documented testing, AMC and references.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Extra-low-voltage (ELV) systems — structured cabling, networks, CCTV, access control, fire alarm, public address, AV — are the nervous system of a modern building in Saudi Arabia. When they are specified and installed well, nobody notices them; when they are not, the problems surface as failed inspections, retrofits and finger-pointing between trades. Choosing the right low-current contractor is therefore one of the highest-leverage procurement decisions on a project — and, with the pace of construction under Vision 2030, an increasingly common one. Here is a practical framework for evaluating one."
+   },
+   {
+    "type": "h2",
+    "text": "Single integrator or split scope?"
+   },
+   {
+    "type": "p",
+    "text": "The first decision is structural. Splitting ELV across several specialist subcontractors can look cheaper on paper, but it pushes the integration risk onto you and the main contractor. Interfaces between systems — the fire alarm triggering door releases, CCTV riding the same backbone as the network — are where projects fail. A single integrator that owns cabling, networks, fire, security and AV under one design removes those grey areas and gives you one accountable party for the whole low-current package. Ask whether a bidder can actually self-deliver the full scope or is quietly relying on others."
+   },
+   {
+    "type": "h2",
+    "text": "Standards and statutory approval"
+   },
+   {
+    "type": "p",
+    "text": "Competence shows up in the standards a contractor designs to. For structured cabling that means TIA-568 and ISO/IEC 11801; for fire detection and alarm, EN 54; and across the board, compliance with the Saudi Building Code (SBC 801) and the approvals required by the General Directorate of Civil Defense. These are not optional in the Kingdom — a fire or life-safety system that cannot secure Civil Defense approval will not hand over. Ask to see how a contractor documents compliance, not just whether they claim it."
+   },
+   {
+    "type": "h2",
+    "text": "Testing, support and references"
+   },
+   {
+    "type": "p",
+    "text": "A cable that is installed is not a cable that is certified. Insist on documented testing — channel and permanent-link certification for copper and fibre, with results you can archive — because that record is what protects you at handover and during the warranty period. Look too at what happens after go-live: a credible annual maintenance contract (AMC), spares strategy and response times matter more over a building's life than the install price. Finally, ask for references you can verify on comparable work, especially in education, government and enterprise fit-outs."
+   },
+   {
+    "type": "p",
+    "text": "Datacore has integrated ELV, AV and IT-network systems from its Riyadh headquarters since 2007 — 19 years of designing to these standards and backing installations with documented testing and long-term support, on projects such as Prince Sattam bin Abdulaziz University (PSAU), Arab Open University and TAQEEM. If you are shortlisting contractors for an upcoming build, talk to our team early; the cheapest fixes are the ones designed in from the start."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "Structured cabling solutions"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   },
+   {
+    "slug": "annual-maintenance-contracts",
+    "label": "Annual maintenance contracts"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is an ELV or low-current contractor?",
+    "a": "An ELV (extra-low-voltage) or low-current contractor designs and installs the building systems that run below mains voltage — structured cabling, IT networks, CCTV, access control, fire alarm, public address and AV — and integrates them so they work as one system."
+   },
+   {
+    "q": "Is a single integrator better than separate subcontractors?",
+    "a": "For most projects, yes. A single integrator owns the interfaces between systems and gives you one accountable party, which removes the grey areas where split-scope projects tend to fail during commissioning and handover."
+   },
+   {
+    "q": "Why does Civil Defense approval matter?",
+    "a": "In Saudi Arabia, life-safety systems such as fire detection and alarm must meet the Saudi Building Code (SBC 801) and secure approval from the General Directorate of Civil Defense. Without it, a project cannot legally hand over."
+   }
+  ]
+ },
+ "ar": {
+  "title": "كيف تختار مقاول أنظمة التيار الخفيف (ELV) في المملكة العربية السعودية",
+  "date": "12 أغسطس 2026",
+  "team": "فريق الأنظمة",
+  "dek": "قائمة تحقّق عملية لفرق المشتريات: نطاق التكامل الموحّد، والالتزام بالمعايير، وموافقة الدفاع المدني، والاختبارات الموثّقة التي تميّز المقاول الجيد عن المقاول المحفوف بالمخاطر.",
+  "meta": "كيف تقيّم مقاول أنظمة التيار الخفيف ELV في السعودية: النطاق، والالتزام بـ SBC 801 والدفاع المدني، والاختبارات الموثّقة، وعقود الصيانة والمراجع.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "تُعدّ أنظمة التيار الخفيف (ELV) — من الكابلات المنظّمة والشبكات وكاميرات المراقبة CCTV والتحكم في الدخول وإنذار الحريق والنداء العام والأنظمة السمعية والبصرية — بمثابة الجهاز العصبي للمبنى الحديث في المملكة العربية السعودية. فحين تُصمَّم وتُنفَّذ بإتقان لا يلاحظها أحد، وحين لا تكون كذلك تظهر المشكلات في صورة فحوصات فاشلة وأعمال تعديل وتبادل للّوم بين التخصصات. لذا فإن اختيار مقاول التيار الخفيف المناسب هو من أكثر قرارات المشتريات تأثيرًا في المشروع — وقرارٌ متزايد الشيوع مع وتيرة الإنشاءات في ظل رؤية 2030. وفيما يلي إطار عملي لتقييمه."
+   },
+   {
+    "type": "h2",
+    "text": "مقاول تكامل موحّد أم نطاق مجزّأ؟"
+   },
+   {
+    "type": "p",
+    "text": "القرار الأول هيكلي بطبيعته. فتجزئة أنظمة التيار الخفيف بين عدة مقاولين متخصصين قد تبدو أقل تكلفة على الورق، لكنها تحمّلك أنت والمقاول الرئيسي مخاطر التكامل. فالوصلات البينية بين الأنظمة — كإطلاق إنذار الحريق لأقفال الأبواب، أو تشارُك كاميرات المراقبة CCTV والشبكة في البنية الأساسية نفسها — هي المواضع التي تتعثّر عندها المشاريع. أما مقاول التكامل الموحّد الذي يملك الكابلات والشبكات والحريق والأمن والأنظمة السمعية والبصرية ضمن تصميم واحد، فيزيل تلك المناطق الرمادية ويمنحك جهة واحدة مسؤولة عن حزمة التيار الخفيف بأكملها. اسأل عمّا إذا كان مقدّم العطاء قادرًا فعلًا على تنفيذ النطاق الكامل بنفسه أم أنه يعتمد ضمنًا على غيره."
+   },
+   {
+    "type": "h2",
+    "text": "المعايير والاعتماد النظامي"
+   },
+   {
+    "type": "p",
+    "text": "تتجلّى الكفاءة في المعايير التي يصمّم المقاول وفقها. فبالنسبة للكابلات المنظّمة يعني ذلك TIA-568 وISO/IEC 11801؛ ولكشف الحريق والإنذار يعني EN 54؛ وعلى جميع المستويات الالتزام بكود البناء السعودي (SBC 801) والموافقات التي تشترطها المديرية العامة للدفاع المدني. وهذه ليست اختيارية في المملكة — فأي نظام حريق أو سلامة أرواح يعجز عن الحصول على موافقة الدفاع المدني لن يُسلَّم. اطلب أن ترى كيف يوثّق المقاول التزامه بالمعايير، لا أن يكتفي بالادّعاء."
+   },
+   {
+    "type": "h2",
+    "text": "الاختبار والدعم والمراجع"
+   },
+   {
+    "type": "p",
+    "text": "الكابل المُركَّب ليس كالكابل المُعتمَد. أصرّ على اختبارات موثّقة — اعتماد القناة والوصلة الدائمة للنحاس والألياف، بنتائج يمكنك أرشفتها — لأن هذا السجل هو ما يحميك عند التسليم وخلال فترة الضمان. وانظر أيضًا إلى ما يحدث بعد التشغيل: فعقد الصيانة السنوي (AMC) الموثوق، واستراتيجية قطع الغيار، وأزمنة الاستجابة، تهمّ على مدى عمر المبنى أكثر من سعر التركيب. وأخيرًا، اطلب مراجع يمكنك التحقق منها في أعمال مماثلة، خصوصًا في مشاريع التعليم والجهات الحكومية والمؤسسات."
+   },
+   {
+    "type": "p",
+    "text": "أنجزت داتاكور تكامل أنظمة التيار الخفيف والأنظمة السمعية والبصرية وشبكات تقنية المعلومات من مقرّها في الرياض منذ عام 2007 — 19 عامًا من التصميم وفق هذه المعايير ودعم عمليات التركيب باختبارات موثّقة ودعم طويل الأمد، في مشاريع مثل جامعة الأمير سطام بن عبدالعزيز (PSAU) والجامعة العربية المفتوحة وتقييم (TAQEEM). إن كنت بصدد اختيار مقاولين لمشروع قادم، فتحدّث إلى فريقنا مبكرًا؛ فأرخص الحلول هي تلك المُصمَّمة منذ البداية."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "حلول الكابلات المنظّمة"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   },
+   {
+    "slug": "annual-maintenance-contracts",
+    "label": "عقود الصيانة السنوية"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما هو مقاول أنظمة التيار الخفيف (ELV)؟",
+    "a": "هو مقاول يصمّم ويركّب أنظمة المبنى التي تعمل بجهد أقل من جهد الكهرباء الرئيسي — الكابلات المنظّمة وشبكات تقنية المعلومات وكاميرات المراقبة CCTV والتحكم في الدخول وإنذار الحريق والنداء العام والأنظمة السمعية والبصرية — ويُكاملها لتعمل كنظام واحد."
+   },
+   {
+    "q": "هل مقاول التكامل الموحّد أفضل من عدة مقاولين منفصلين؟",
+    "a": "في معظم المشاريع نعم. فمقاول التكامل الموحّد يملك الوصلات البينية بين الأنظمة ويمنحك جهة واحدة مسؤولة، ما يزيل المناطق الرمادية التي تتعثّر عندها المشاريع مجزّأة النطاق أثناء التشغيل والتسليم."
+   },
+   {
+    "q": "لماذا تهمّ موافقة الدفاع المدني؟",
+    "a": "في المملكة العربية السعودية يجب أن تستوفي أنظمة سلامة الأرواح مثل كشف الحريق والإنذار كود البناء السعودي (SBC 801) وأن تحصل على موافقة المديرية العامة للدفاع المدني. وبدونها لا يمكن تسليم المشروع نظاميًا."
+   }
+  ]
+ }
+}

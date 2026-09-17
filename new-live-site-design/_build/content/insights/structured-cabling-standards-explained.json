@@ -1,0 +1,144 @@
+{
+ "slug": "structured-cabling-standards-explained",
+ "order": 4,
+ "img": "assets1/images/dc-ins-structured-cabling-standards-explained.webp",
+ "iso": "2026-09-03",
+ "en": {
+  "title": "Structured Cabling Standards Explained: TIA-568 and ISO/IEC 11801",
+  "date": "3 September 2026",
+  "team": "Network team",
+  "dek": "What TIA-568 and ISO/IEC 11801 actually specify — categories and classes, permanent-link versus channel testing, and why headroom is the difference between passing today and passing in ten years.",
+  "meta": "TIA-568 and ISO/IEC 11801 explained: cabling categories and classes, certification testing, and why headroom future-proofs a structured cabling backbone.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Structured cabling is the one part of a building's IT that is genuinely hard to change later. Active equipment gets swapped every few years; the cabling in the walls, risers and ceilings is expected to last a decade or more. Two families of standards govern how that cabling is designed, installed and tested: TIA-568 (North American, from TIA) and ISO/IEC 11801 (international). Understanding what they cover helps you specify a backbone that still performs long after the first switches are replaced."
+   },
+   {
+    "type": "h2",
+    "text": "What the standards actually cover"
+   },
+   {
+    "type": "p",
+    "text": "Both standards describe a generic cabling system — the topology, distances, connectors and performance a building should have regardless of the applications that will run over it. They define the familiar hierarchy of entrance facilities, equipment and telecommunications rooms, backbone and horizontal cabling, and work-area outlets. Crucially, they set the maximum channel length (100 metres for balanced twisted-pair horizontal cabling) and the performance every component must meet. TIA-568 and ISO/IEC 11801 are closely aligned, so a system designed correctly to one generally satisfies the other."
+   },
+   {
+    "type": "h2",
+    "text": "Categories, classes and what they mean"
+   },
+   {
+    "type": "p",
+    "text": "This is where the two standards use different vocabulary for the same idea. TIA-568 rates copper cabling by Category — Cat 6, Cat 6A, Cat 8 — while ISO/IEC 11801 rates the whole channel by Class — Class E, Class EA, Class I/II. Each step up raises the supported bandwidth and the data rate the cabling can carry: Cat 6A / Class EA, for example, supports 10GBASE-T to the full 100 metres, which is why it has become the default for enterprise and campus horizontal cabling. Choosing a category is really choosing how long the cabling will stay ahead of the network."
+   },
+   {
+    "type": "h2",
+    "text": "Why testing, certification and headroom matter"
+   },
+   {
+    "type": "p",
+    "text": "A standard is only meaningful if the installed link is proven to meet it. That is the job of certification testing: a field tester measures parameters such as insertion loss, near-end crosstalk and return loss across either the permanent link or the full channel, then passes or fails each run against the category's limits. The margin between the measured value and the limit is the headroom — and headroom is what absorbs future connectors, patch cords, heat and simple ageing. A link that only just passes today is a link that will fail as the building fills up. Insisting on documented, certified results is how you turn a standard on paper into a warranty you can rely on."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs and certifies structured cabling to TIA-568 and ISO/IEC 11801, handing over the full test record so performance is documented rather than assumed — work we have delivered for more than 1,500 clients across the Kingdom and beyond. If you want a cabling backbone specified with real headroom for the next decade, our team is ready to help you get the category and the testing right from the outset."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "Structured cabling solutions"
+   },
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "Fibre optic solutions"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the difference between TIA-568 and ISO/IEC 11801?",
+    "a": "They are two structured cabling standards covering the same ground: TIA-568 is the North American standard and rates copper by Category, while ISO/IEC 11801 is the international standard and rates the channel by Class. A system designed correctly to one generally satisfies the other."
+   },
+   {
+    "q": "What does cabling certification testing prove?",
+    "a": "Certification uses a field tester to measure parameters such as insertion loss, crosstalk and return loss on each link, then passes or fails it against the category's limits. It proves the installed cabling actually meets the standard, not just that approved products were used."
+   },
+   {
+    "q": "What is headroom and why does it matter?",
+    "a": "Headroom is the margin between a link's measured performance and the standard's limit. Generous headroom absorbs future patch cords, heat and ageing, so a link with good headroom keeps passing for years, while one that barely passes at handover soon fails."
+   }
+  ]
+ },
+ "ar": {
+  "title": "شرح معايير الكابلات المنظّمة: TIA-568 وISO/IEC 11801",
+  "date": "3 سبتمبر 2026",
+  "team": "فريق الشبكات",
+  "dek": "ما الذي يحدّده فعلًا معيارا TIA-568 وISO/IEC 11801 — الفئات والدرجات، واختبار الوصلة الدائمة مقابل القناة، ولماذا يمثّل الهامش الفرق بين النجاح اليوم والنجاح بعد عشر سنوات.",
+  "meta": "شرح TIA-568 وISO/IEC 11801: فئات ودرجات الكابلات، واختبار الاعتماد، ولماذا يجعل الهامش البنية الأساسية للكابلات المنظّمة جاهزة للمستقبل.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "الكابلات المنظّمة هي الجزء الوحيد من تقنية المعلومات في المبنى الذي يصعب تغييره لاحقًا بحق. فالمعدّات النشطة تُستبدل كل بضع سنوات، أما الكابلات داخل الجدران والقنوات والأسقف فيُتوقَّع أن تدوم عقدًا أو أكثر. وتحكم عائلتان من المعايير كيفية تصميم هذه الكابلات وتركيبها واختبارها: TIA-568 (الأمريكي الشمالي، الصادر عن TIA) وISO/IEC 11801 (الدولي). وفهم ما يغطّيه كلٌّ منهما يساعدك على تحديد بنية أساسية تظل تؤدّي وظيفتها بعد استبدال أول مبدّلات بوقت طويل."
+   },
+   {
+    "type": "h2",
+    "text": "ما الذي تغطّيه المعايير فعلًا"
+   },
+   {
+    "type": "p",
+    "text": "يصف كلا المعيارين نظام كابلات عامًّا — الطوبولوجيا والمسافات والموصّلات والأداء الذي ينبغي أن يتوفّر في المبنى بصرف النظر عن التطبيقات التي ستعمل عليه. وهما يحدّدان التسلسل المألوف من مرافق الدخول وغرف المعدّات والاتصالات، والكابلات الرأسية والأفقية، ومنافذ منطقة العمل. والأهم أنهما يضبطان أقصى طول للقناة (100 متر للكابلات الأفقية المجدولة المتوازنة) والأداء الذي يجب أن يستوفيه كل مكوّن. ومعيارا TIA-568 وISO/IEC 11801 متوائمان إلى حد كبير، بحيث إن النظام المُصمَّم بشكل صحيح وفق أحدهما يستوفي الآخر عمومًا."
+   },
+   {
+    "type": "h2",
+    "text": "الفئات والدرجات ومعناها"
+   },
+   {
+    "type": "p",
+    "text": "هنا يستخدم المعياران مفردات مختلفة للفكرة نفسها. فمعيار TIA-568 يصنّف الكابلات النحاسية حسب الفئة (Category) — Cat 6 وCat 6A وCat 8 — بينما يصنّف ISO/IEC 11801 القناة بأكملها حسب الدرجة (Class) — Class E وClass EA وClass I/II. وكل درجة أعلى ترفع عرض النطاق المدعوم ومعدّل البيانات الذي تحمله الكابلات: فمثلًا Cat 6A / Class EA يدعم 10GBASE-T على كامل مسافة 100 متر، ولهذا أصبح الخيار الافتراضي للكابلات الأفقية في المؤسسات والحرم الجامعي. واختيار الفئة هو في حقيقته اختيار للمدة التي ستبقى فيها الكابلات متقدّمة على الشبكة."
+   },
+   {
+    "type": "h2",
+    "text": "لماذا تهمّ الاختبارات والاعتماد والهامش"
+   },
+   {
+    "type": "p",
+    "text": "لا يكون للمعيار معنى إلا إذا ثبت أن الوصلة المركّبة تستوفيه. وهذه هي وظيفة اختبار الاعتماد: يقيس جهاز اختبار ميداني معاملات مثل فقد الإدخال والتداخل القريب من الطرف وفقد الارتداد عبر الوصلة الدائمة أو القناة الكاملة، ثم ينجح أو يفشل كل مسار مقابل حدود الفئة. والفارق بين القيمة المقيسة والحدّ هو الهامش (headroom) — والهامش هو ما يستوعب الموصّلات وكابلات التوصيل والحرارة والتقادم مستقبلًا. فالوصلة التي تنجح بالكاد اليوم هي وصلة ستفشل مع امتلاء المبنى. والإصرار على نتائج موثّقة ومعتمَدة هو ما يحوّل المعيار من ورقة إلى ضمان يمكنك الاعتماد عليه."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور الكابلات المنظّمة وتعتمدها وفق TIA-568 وISO/IEC 11801، وتسلّم سجل الاختبار الكامل بحيث يكون الأداء موثّقًا لا مفترضًا — وهو عمل قدّمناه لأكثر من 1500 عميل داخل المملكة وخارجها. إن أردت بنية أساسية للكابلات محدّدة بهامش حقيقي للعقد القادم، فإن فريقنا مستعدّ لمساعدتك على ضبط الفئة والاختبار من البداية."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "حلول الكابلات المنظّمة"
+   },
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "حلول الألياف الضوئية"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما الفرق بين TIA-568 وISO/IEC 11801؟",
+    "a": "هما معياران للكابلات المنظّمة يغطّيان المجال نفسه: TIA-568 هو المعيار الأمريكي الشمالي ويصنّف النحاس حسب الفئة (Category)، بينما ISO/IEC 11801 هو المعيار الدولي ويصنّف القناة حسب الدرجة (Class). والنظام المُصمَّم بشكل صحيح وفق أحدهما يستوفي الآخر عمومًا."
+   },
+   {
+    "q": "ماذا يثبت اختبار اعتماد الكابلات؟",
+    "a": "يستخدم الاعتماد جهاز اختبار ميداني لقياس معاملات مثل فقد الإدخال والتداخل وفقد الارتداد على كل وصلة، ثم ينجحها أو يفشلها مقابل حدود الفئة. وهو يثبت أن الكابلات المركّبة تستوفي المعيار فعلًا، لا مجرد استخدام منتجات معتمدة."
+   },
+   {
+    "q": "ما هو الهامش (headroom) ولماذا يهمّ؟",
+    "a": "الهامش هو الفارق بين الأداء المقيس للوصلة وحدّ المعيار. والهامش الوفير يستوعب كابلات التوصيل والحرارة والتقادم مستقبلًا، فتظل الوصلة ذات الهامش الجيد ناجحة لسنوات، بينما تفشل قريبًا تلك التي تنجح بالكاد عند التسليم."
+   }
+  ]
+ }
+}

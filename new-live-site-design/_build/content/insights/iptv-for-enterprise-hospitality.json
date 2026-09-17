@@ -1,0 +1,144 @@
+{
+ "slug": "iptv-for-enterprise-hospitality",
+ "order": 15,
+ "img": "assets1/images/dc-ins-iptv-for-enterprise-hospitality.webp",
+ "iso": "2026-05-21",
+ "en": {
+  "title": "IPTV for enterprise, education and hospitality",
+  "date": "21 May 2026",
+  "team": "Network team",
+  "dek": "Live TV, video-on-demand, information channels and signage on one platform — how IPTV over the IP network replaces the limits of MATV for hotels, campuses and enterprises.",
+  "meta": "IPTV explained for enterprise, education and hospitality: how streaming TV, VOD, info channels and digital signage over IP differ from MATV, and what makes delivery reliable.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Televisions still matter in hotels, campuses, hospitals and corporate lobbies — but how the picture reaches them has changed. Traditional MATV distributes broadcast channels as radio-frequency signals over coaxial cable to every outlet. IPTV instead delivers television as data streams over the same IP network that already carries everything else in the building. That single shift — from RF over coax to video over IP — is what turns a row of TVs into a managed service."
+   },
+   {
+    "type": "h2",
+    "text": "IPTV versus MATV"
+   },
+   {
+    "type": "p",
+    "text": "MATV is simple and robust for what it does: take satellite and terrestrial feeds and push them to many screens. But every viewer sees the same channels, adding services means adding cabling, and there is little central control. IPTV encodes each channel once and streams it across structured cabling built to TIA-568 and ISO/IEC 11801. Because it rides the network, it scales by configuration rather than new coax, reaches any screen or device the network reaches, and puts every endpoint under one management system. Many projects keep MATV for core broadcast reception and layer IPTV on top for everything else."
+   },
+   {
+    "type": "h2",
+    "text": "One platform, several services"
+   },
+   {
+    "type": "p",
+    "text": "The real value is convergence of services. On one IPTV platform an operator can offer live television, video-on-demand, recorded and streamed events, in-house information channels, and digital signage — all managed from the same head-end. A hotel presents a branded welcome screen, guest-room menus and premium content; a university streams lectures and campus announcements; a hospital delivers patient entertainment and education to the bedside; a corporate campus runs town-halls and internal channels to screens across floors. Because content is centralised, changing a channel line-up or pushing an emergency message happens everywhere at once."
+   },
+   {
+    "type": "h2",
+    "text": "Content management and delivery"
+   },
+   {
+    "type": "p",
+    "text": "Behind the screens sits a content management system that schedules channels, organises VOD libraries, controls which rooms or zones see what, and reports on usage. Delivering it reliably is a network design problem as much as an AV one: multicast for live channels to conserve bandwidth, quality-of-service so video is not starved by data traffic, and enough capacity and resilience that the picture never stutters. Endpoints can be dedicated set-top boxes or the smart displays and devices already in the rooms, and access to premium or restricted channels is controlled per user or per zone. Designed and tested properly, IPTV becomes infrastructure the whole organisation builds services on, not just a way to watch TV."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs IPTV and MATV systems on networks engineered to standard, so live TV, VOD, signage and information channels arrive reliably on every screen — talk to us about the right platform for your property."
+   }
+  ],
+  "related": [
+   {
+    "slug": "iptv-solution",
+    "label": "IPTV solutions"
+   },
+   {
+    "slug": "matv-solution",
+    "label": "MATV solutions"
+   },
+   {
+    "slug": "digital-signage-solutions",
+    "label": "Digital signage solutions"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is the difference between IPTV and MATV?",
+    "a": "MATV distributes broadcast channels as RF signals over coaxial cable, giving every outlet the same feed. IPTV streams each channel as data over the IP network, adding central management, on-demand content and any-screen delivery."
+   },
+   {
+    "q": "Do we have to replace our MATV system to use IPTV?",
+    "a": "Not necessarily. Many sites keep MATV for core broadcast reception and add IPTV over the data network for VOD, information channels and signage. The right mix depends on your building and goals."
+   },
+   {
+    "q": "Will IPTV slow down our data network?",
+    "a": "Not when it is designed correctly. Multicast delivery for live channels and quality-of-service policies keep video traffic efficient and protected, which is why network design is central to a dependable IPTV rollout."
+   }
+  ]
+ },
+ "ar": {
+  "title": "IPTV للمؤسسات والتعليم والضيافة",
+  "date": "21 مايو 2026",
+  "team": "فريق الشبكات",
+  "dek": "بثّ تلفزيوني مباشر، وفيديو حسب الطلب، وقنوات معلومات، وشاشات رقمية على منصة واحدة — كيف يتجاوز IPTV عبر شبكة IP حدود MATV للفنادق والحرم الجامعي والمؤسسات.",
+  "meta": "شرح IPTV للمؤسسات والتعليم والضيافة: كيف يختلف بثّ التلفزيون والفيديو حسب الطلب وقنوات المعلومات والشاشات الرقمية عبر IP عن MATV، وما الذي يجعل التوصيل موثوقاً.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "لا تزال أجهزة التلفزيون مهمة في الفنادق والحرم الجامعي والمستشفيات وبهو الشركات — لكن كيفية وصول الصورة إليها تغيّرت. يوزّع MATV التقليدي قنوات البث كإشارات تردد راديوي عبر الكابل المحوري إلى كل منفذ. أما IPTV فيوصّل التلفزيون كتدفقات بيانات عبر شبكة IP ذاتها التي تحمل بالفعل كل شيء آخر في المبنى. وهذا التحول وحده — من التردد الراديوي عبر الكابل المحوري إلى الفيديو عبر IP — هو ما يحوّل صفاً من أجهزة التلفزيون إلى خدمة مُدارة."
+   },
+   {
+    "type": "h2",
+    "text": "IPTV مقابل MATV"
+   },
+   {
+    "type": "p",
+    "text": "MATV بسيط ومتين فيما يفعله: يأخذ الإشارات الفضائية والأرضية ويدفعها إلى شاشات كثيرة. لكن كل مشاهد يرى القنوات نفسها، وإضافة الخدمات تعني إضافة كابلات، والتحكم المركزي محدود. أما IPTV فيرمّز كل قناة مرة واحدة ويبثها عبر كابلات مهيكلة مبنية وفق TIA-568 وISO/IEC 11801. ولأنه يعمل على الشبكة، فإنه يتوسع بالتهيئة بدلاً من كابل محوري جديد، ويصل إلى أي شاشة أو جهاز تصله الشبكة، ويضع كل نقطة نهاية تحت نظام إدارة واحد. وكثير من المشاريع يُبقي MATV لاستقبال البث الأساسي ويضيف IPTV فوقه لكل ما عدا ذلك."
+   },
+   {
+    "type": "h2",
+    "text": "منصة واحدة، خدمات متعددة"
+   },
+   {
+    "type": "p",
+    "text": "القيمة الحقيقية هي تقارب الخدمات. فعلى منصة IPTV واحدة يمكن للمشغّل تقديم تلفزيون مباشر، وفيديو حسب الطلب، وفعاليات مسجّلة ومبثوثة، وقنوات معلومات داخلية، وشاشات رقمية — كلها مُدارة من الرأس نفسه. فالفندق يعرض شاشة ترحيب بعلامته التجارية وقوائم غرف الضيوف والمحتوى المميز؛ والجامعة تبث المحاضرات وإعلانات الحرم الجامعي؛ والمستشفى يوصّل الترفيه والتثقيف للمريض عند سريره؛ ومقر الشركة يبث اللقاءات العامة والقنوات الداخلية إلى الشاشات عبر الطوابق. ولأن المحتوى مركزي، فإن تغيير قائمة القنوات أو دفع رسالة طارئة يحدث في كل مكان دفعة واحدة."
+   },
+   {
+    "type": "h2",
+    "text": "إدارة المحتوى والتوصيل"
+   },
+   {
+    "type": "p",
+    "text": "خلف الشاشات يقع نظام إدارة محتوى يجدول القنوات، وينظّم مكتبات الفيديو حسب الطلب، ويتحكم في أي الغرف أو المناطق ترى ماذا، ويقدّم تقارير عن الاستخدام. وتوصيله بموثوقية مسألة تصميم شبكة بقدر ما هي مسألة صوتيات ومرئيات: بثّ متعدد (multicast) للقنوات المباشرة لتوفير النطاق الترددي، وجودة خدمة (QoS) كي لا يُضغط الفيديو بسبب حركة البيانات، وسعة ومرونة كافيتان كي لا تتقطع الصورة أبداً. ويمكن أن تكون نقاط النهاية أجهزة استقبال مخصّصة أو الشاشات والأجهزة الذكية الموجودة أصلاً في الغرف، ويُضبط الوصول إلى القنوات المميزة أو المقيّدة لكل مستخدم أو لكل منطقة. وحين يُصمَّم ويُختبر بشكل صحيح، يصبح IPTV بنيةً تبني عليها المؤسسة بأكملها خدماتها، لا مجرد وسيلة لمشاهدة التلفزيون."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور أنظمة IPTV وMATV على شبكات مهندَسة وفق المعايير، كي يصل البثّ المباشر والفيديو حسب الطلب والشاشات وقنوات المعلومات بموثوقية إلى كل شاشة — تحدّث إلينا حول المنصة المناسبة لمنشأتك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "iptv-solution",
+    "label": "حلول IPTV"
+   },
+   {
+    "slug": "matv-solution",
+    "label": "حلول MATV"
+   },
+   {
+    "slug": "digital-signage-solutions",
+    "label": "حلول الشاشات الرقمية"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما الفرق بين IPTV وMATV؟",
+    "a": "يوزّع MATV قنوات البث كإشارات تردد راديوي عبر الكابل المحوري، فيمنح كل منفذ البثّ نفسه. أما IPTV فيبثّ كل قناة كبيانات عبر شبكة IP، ويضيف إدارة مركزية ومحتوى حسب الطلب وتوصيلاً إلى أي شاشة."
+   },
+   {
+    "q": "هل علينا استبدال نظام MATV لدينا لاستخدام IPTV؟",
+    "a": "ليس بالضرورة. فكثير من المواقع يُبقي MATV لاستقبال البث الأساسي ويضيف IPTV عبر شبكة البيانات للفيديو حسب الطلب وقنوات المعلومات والشاشات. والمزيج الأمثل يعتمد على مبناك وأهدافك."
+   },
+   {
+    "q": "هل سيُبطئ IPTV شبكة البيانات لدينا؟",
+    "a": "ليس حين يُصمَّم بشكل صحيح. فالبثّ المتعدد للقنوات المباشرة وسياسات جودة الخدمة تُبقي حركة الفيديو فعّالة ومحمية، ولهذا يكون تصميم الشبكة محورياً في نشر IPTV موثوق."
+   }
+  ]
+ }
+}

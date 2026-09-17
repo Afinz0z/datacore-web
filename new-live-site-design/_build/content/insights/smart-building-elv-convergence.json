@@ -1,0 +1,144 @@
+{
+ "slug": "smart-building-elv-convergence",
+ "order": 13,
+ "img": "assets1/images/dc-ins-smart-building-elv-convergence.webp",
+ "iso": "2026-06-18",
+ "en": {
+  "title": "Smart buildings: converging ELV systems for Vision 2030",
+  "date": "18 June 2026",
+  "team": "Systems team",
+  "dek": "How network, security, AV, BMS and lighting are collapsing onto one IP backbone — and why that changes how buildings are designed, run and future-proofed.",
+  "meta": "A practical guide to ELV convergence in smart buildings: one IP backbone for network, security, AV, HVAC and lighting, built to standard for Vision 2030 projects.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "For decades, a building's low-voltage systems grew up in isolation. The network team pulled data cabling, the security contractor ran its own coax and controllers, the AV vendor installed proprietary matrix switchers, and the BMS supplier wired sensors on a separate bus. Each subsystem worked, but none of them talked to the others. The smart building reverses that logic: it treats structured cabling and the IP network as a shared utility that every discipline rides on, from access control and CCTV to audiovisual distribution, HVAC, lighting and fire detection."
+   },
+   {
+    "type": "h2",
+    "text": "The shift to a converged IP backbone"
+   },
+   {
+    "type": "p",
+    "text": "Convergence is possible because almost every ELV device now speaks IP. Cameras stream over the network, door controllers sit on PoE switches, AV signals travel as AV-over-IP flows, lighting gateways expose BACnet/IP, and building management platforms pull telemetry over the same fabric. Consolidating these onto one structured cabling system designed to TIA-568 and ISO/IEC 11801 cuts duplicated infrastructure, simplifies pathways and containment, and gives facilities a single place to see what the building is doing. It also means capacity, redundancy and cybersecurity can be planned once, holistically, rather than patched into many parallel networks."
+   },
+   {
+    "type": "h2",
+    "text": "Where convergence pays off"
+   },
+   {
+    "type": "p",
+    "text": "The benefits are operational as much as technical. A converged building lets security, safety and comfort systems share data: an alarm can trigger cameras, unlock egress routes, and push a message to digital signage in one automated sequence. Energy management improves when lighting, HVAC and occupancy sensing feed a common analytics layer. Maintenance gets easier because faults surface on one dashboard instead of a separate portal per vendor. And future changes — a new tenant fit-out, an added floor, a signage rollout — become configuration tasks on an existing backbone rather than fresh cabling projects. Fire detection remains a special case: EN 54 and SBC 801 govern its design, and Civil Defense approval is mandatory, so life-safety keeps its integrity even while it integrates."
+   },
+   {
+    "type": "h2",
+    "text": "Why one integrator matters"
+   },
+   {
+    "type": "p",
+    "text": "Convergence only delivers when someone owns the whole picture. When separate contractors design in isolation, the seams between systems become the weak points — mismatched VLANs, undocumented dependencies, and finger-pointing when something breaks. A single integrator designs the cabling, network, security, AV and BMS layers to one standard, tests the interfaces between them, and hands over documentation that reflects the building as built. That is the model behind Vision 2030's giga-projects and smart cities, where thousands of devices must behave as one coordinated system from day one."
+   },
+   {
+    "type": "p",
+    "text": "Datacore has integrated converged ELV systems since 2007, and our specialists design each discipline to a documented standard so your smart building performs as a whole — talk to us about a convergence roadmap for your project."
+   }
+  ],
+  "related": [
+   {
+    "slug": "smart-building-solutions",
+    "label": "Smart building solutions"
+   },
+   {
+    "slug": "control-system",
+    "label": "Control systems"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What counts as an ELV system?",
+    "a": "Extra-low-voltage systems are the building's data and signal networks — structured cabling, CCTV, access control, AV, public address, IPTV, fire detection and the BMS — as opposed to high-voltage power. Convergence brings these onto a shared IP backbone."
+   },
+   {
+    "q": "Does converging systems make fire detection less safe?",
+    "a": "No. Fire alarm design still follows EN 54 and SBC 801 and requires Civil Defense approval. It can share network infrastructure for monitoring while keeping its own certified detection and alarm paths intact."
+   },
+   {
+    "q": "Can we converge an existing building or only new ones?",
+    "a": "Both. Retrofits usually migrate one subsystem at a time onto a common backbone, starting with structured cabling, so you gain convergence in stages without disrupting operations."
+   }
+  ]
+ },
+ "ar": {
+  "title": "المباني الذكية: دمج أنظمة الجهد المنخفض جداً (ELV) من أجل رؤية 2030",
+  "date": "18 يونيو 2026",
+  "team": "فريق الأنظمة",
+  "dek": "كيف تتقارب الشبكة والأمن والصوتيات والمرئيات وأنظمة إدارة المباني (BMS) والإضاءة على بنية IP واحدة — ولماذا يغيّر ذلك طريقة تصميم المباني وتشغيلها وتهيئتها للمستقبل.",
+  "meta": "دليل عملي لدمج أنظمة ELV في المباني الذكية: بنية IP واحدة للشبكة والأمن والصوتيات والمرئيات والتكييف والإضاءة، مصمّمة وفق المعايير لمشاريع رؤية 2030.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "لعقود طويلة، نمت أنظمة الجهد المنخفض في المبنى بمعزل عن بعضها. فريق الشبكات يمدّ كابلات البيانات، ومقاول الأمن يمدّ الكابلات المحورية ووحدات التحكم الخاصة به، ومورّد الصوتيات والمرئيات يركّب مصفوفات تبديل خاصة، ومورّد نظام إدارة المبنى يوصّل المستشعرات على ناقل منفصل. كل نظام يعمل، لكن أياً منها لا يتحدث مع الآخر. المبنى الذكي يقلب هذا المنطق: فهو يتعامل مع الكابلات المهيكلة وشبكة IP باعتبارها مرفقاً مشتركاً تعتمد عليه كل الأنظمة، من التحكم في الدخول وكاميرات المراقبة إلى توزيع الصوتيات والمرئيات والتكييف والإضاءة وكشف الحريق."
+   },
+   {
+    "type": "h2",
+    "text": "التحول إلى بنية IP موحّدة"
+   },
+   {
+    "type": "p",
+    "text": "أصبح التقارب ممكناً لأن كل جهاز ELV تقريباً بات يتحدث IP. فالكاميرات تبث عبر الشبكة، ووحدات التحكم في الأبواب تعمل على محولات PoE، وإشارات الصوتيات والمرئيات تنتقل بتقنية AV-over-IP، وبوابات الإضاءة تدعم BACnet/IP، ومنصات إدارة المباني تجمع البيانات عبر البنية نفسها. توحيد هذه الأنظمة على نظام كابلات مهيكل مصمَّم وفق TIA-568 وISO/IEC 11801 يقلّل البنية المكرّرة، ويبسّط المسارات والمجاري، ويمنح إدارة المرافق مكاناً واحداً لمراقبة ما يفعله المبنى. كما يتيح تخطيط السعة والتكرار والأمن السيبراني مرة واحدة وبشكل شامل، بدلاً من ترقيعها في شبكات متوازية متعددة."
+   },
+   {
+    "type": "h2",
+    "text": "أين يؤتي التقارب ثماره"
+   },
+   {
+    "type": "p",
+    "text": "الفوائد تشغيلية بقدر ما هي تقنية. المبنى المتقارب يتيح لأنظمة الأمن والسلامة والراحة تبادل البيانات: فإنذار واحد يمكن أن يشغّل الكاميرات، ويفتح مسارات الإخلاء، ويدفع رسالة إلى شاشات العرض الرقمية في تسلسل آلي واحد. وتتحسن إدارة الطاقة عندما تغذّي الإضاءة والتكييف واستشعار الإشغال طبقة تحليلات مشتركة. وتصبح الصيانة أسهل لأن الأعطال تظهر على لوحة واحدة بدلاً من بوابة منفصلة لكل مورّد. كما تتحول التغييرات المستقبلية — تجهيز مستأجر جديد، أو إضافة طابق، أو نشر شاشات — إلى مهام تهيئة على بنية قائمة بدلاً من مشاريع كابلات جديدة. ويبقى كشف الحريق حالة خاصة: إذ يحكم تصميمَه EN 54 وSBC 801، واعتماد الدفاع المدني إلزامي، فتحافظ أنظمة سلامة الأرواح على سلامتها حتى وهي تتكامل."
+   },
+   {
+    "type": "h2",
+    "text": "لماذا يهم وجود مُكامِل واحد"
+   },
+   {
+    "type": "p",
+    "text": "لا يحقق التقارب قيمته إلا حين تمتلك جهةٌ واحدة الصورة الكاملة. فحين يصمّم مقاولون منفصلون كلٌّ بمعزل عن الآخر، تصبح الفواصل بين الأنظمة نقاطَ الضعف — شبكات VLAN غير متطابقة، وتبعيات غير موثقة، وتبادل اتهامات عند حدوث عطل. أما المُكامِل الواحد فيصمّم طبقات الكابلات والشبكة والأمن والصوتيات والمرئيات وإدارة المباني وفق معيار واحد، ويختبر الواجهات بينها، ويسلّم وثائق تعكس المبنى كما نُفِّذ فعلياً. وهذا هو النموذج الذي تقوم عليه المشاريع الكبرى والمدن الذكية في رؤية 2030، حيث يجب أن تتصرف آلاف الأجهزة كنظام واحد منسّق منذ اليوم الأول."
+   },
+   {
+    "type": "p",
+    "text": "دمجت داتاكور أنظمة ELV المتقاربة منذ عام 2007، ويصمّم اختصاصيونا كل تخصص وفق معيار موثّق كي يعمل مبناك الذكي ككلٍّ واحد — تحدّث إلينا حول خارطة طريق للتقارب في مشروعك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "smart-building-solutions",
+    "label": "حلول المباني الذكية"
+   },
+   {
+    "slug": "control-system",
+    "label": "أنظمة التحكم"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما الذي يُعدّ من أنظمة ELV؟",
+    "a": "أنظمة الجهد المنخفض جداً هي شبكات البيانات والإشارة في المبنى — الكابلات المهيكلة وكاميرات المراقبة والتحكم في الدخول والصوتيات والمرئيات والنداء العام وIPTV وكشف الحريق ونظام إدارة المبنى (BMS) — في مقابل الطاقة عالية الجهد. والتقارب يجمع هذه الأنظمة على بنية IP مشتركة."
+   },
+   {
+    "q": "هل يجعل دمج الأنظمة كشفَ الحريق أقل أماناً؟",
+    "a": "لا. فتصميم إنذار الحريق يظل يتبع EN 54 وSBC 801 ويتطلب اعتماد الدفاع المدني. ويمكنه مشاركة بنية الشبكة للمراقبة مع الإبقاء على مسارات الكشف والإنذار المعتمدة الخاصة به سليمة."
+   },
+   {
+    "q": "هل يمكن دمج مبنى قائم أم المباني الجديدة فقط؟",
+    "a": "كلاهما. عادةً ما تنقل عمليات التحديث نظاماً فرعياً واحداً في كل مرة إلى بنية مشتركة، بدءاً بالكابلات المهيكلة، فتحصل على التقارب على مراحل دون تعطيل العمليات."
+   }
+  ]
+ }
+}

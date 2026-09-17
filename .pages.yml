@@ -1,0 +1,98 @@
+# Pages CMS configuration (pagescms.org). Edits here commit to the repo and the
+# GitHub Action rebuilds & deploys the site. v1 covers Insights; Projects and
+# Products follow. See CMS-PLAN.md.
+
+media:
+  input: new-live-site-design/assets1/images
+  output: assets1/images
+  extensions: [webp, jpg, jpeg, png, svg]
+
+content:
+  - name: insights
+    label: Insights
+    type: collection
+    path: new-live-site-design/_build/content/insights
+    filename: '{fields.slug}.json'
+    view:
+      fields: [slug, order, iso]
+      sort: [order, slug]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: slug
+        label: Slug (URL id — lowercase-with-hyphens; the page becomes insight-<slug>.html)
+        type: string
+        required: true
+      - name: order
+        label: Order (lower shows first on the hub)
+        type: number
+        default: 99
+      - name: img
+        label: Card / hero image
+        type: image
+      - name: iso
+        label: Date for search engines (ISO, e.g. 2026-09-16)
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: en
+        label: English
+        type: object
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: date, label: Date shown to readers (e.g. 16 September 2026), type: string }
+          - { name: team, label: Byline (e.g. Systems team), type: string }
+          - { name: dek, label: Summary / standfirst, type: text }
+          - { name: meta, label: SEO meta description, type: text }
+          - name: blocks
+            label: Body
+            type: object
+            list: true
+            fields:
+              - { name: type, label: Type, type: select, options: { values: [p, h2] }, default: p }
+              - { name: text, label: Text, type: text }
+          - name: related
+            label: Related services (internal links)
+            type: object
+            list: true
+            fields:
+              - { name: slug, label: Service page slug, type: string }
+              - { name: label, label: Link text, type: string }
+          - name: faq
+            label: FAQ (drives the FAQ schema)
+            type: object
+            list: true
+            fields:
+              - { name: q, label: Question, type: string }
+              - { name: a, label: Answer, type: text }
+      - name: ar
+        label: العربية (Arabic — first draft, needs native review)
+        type: object
+        fields:
+          - { name: title, label: العنوان, type: string }
+          - { name: date, label: التاريخ, type: string }
+          - { name: team, label: الفريق, type: string }
+          - { name: dek, label: الملخص, type: text }
+          - { name: meta, label: وصف محرّكات البحث, type: text }
+          - name: blocks
+            label: المحتوى
+            type: object
+            list: true
+            fields:
+              - { name: type, label: النوع, type: select, options: { values: [p, h2] }, default: p }
+              - { name: text, label: النص, type: text }
+          - name: related
+            label: خدمات ذات صلة
+            type: object
+            list: true
+            fields:
+              - { name: slug, label: مُعرّف صفحة الخدمة, type: string }
+              - { name: label, label: نص الرابط, type: string }
+          - name: faq
+            label: الأسئلة الشائعة
+            type: object
+            list: true
+            fields:
+              - { name: q, label: السؤال, type: string }
+              - { name: a, label: الجواب, type: text }

@@ -1,0 +1,160 @@
+{
+ "slug": "led-video-wall-pixel-pitch",
+ "order": 12,
+ "img": "assets1/images/dc-ins-led-video-wall-pixel-pitch.webp",
+ "iso": "2026-07-03",
+ "en": {
+  "title": "Choosing LED video wall pixel pitch",
+  "date": "3 July 2026",
+  "team": "AV team",
+  "dek": "Pixel pitch is the single number that decides whether a LED wall looks crisp or coarse. Match it to viewing distance and environment before you match it to budget.",
+  "meta": "What LED video wall pixel pitch means, the viewing-distance rule of thumb, indoor versus outdoor and brightness in nits, with use cases for lobbies, control rooms, auditoriums and retail.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "A LED video wall is specified by many numbers, but one decides how good it looks: pixel pitch. Get it right and the image is sharp at the distance people actually stand; get it wrong and you either see the individual dots or you have paid handsomely for detail no one is close enough to notice. It is worth understanding before the budget conversation starts."
+   },
+   {
+    "type": "h2",
+    "text": "What pixel pitch means"
+   },
+   {
+    "type": "p",
+    "text": "Pixel pitch is the distance in millimetres between the centres of neighbouring LEDs. A smaller pitch, say P1.5, packs more pixels into the same area, giving higher resolution and a sharper image close up, at a higher cost per square metre. A larger pitch such as P10 spaces the LEDs further apart, which is cheaper and perfectly acceptable when viewers stand well back. Pitch, resolution and price are three views of the same decision."
+   },
+   {
+    "type": "h2",
+    "text": "The viewing-distance rule of thumb"
+   },
+   {
+    "type": "p",
+    "text": "A practical starting point is that the closest comfortable viewing distance in metres is roughly the pixel pitch in millimetres: a P2.5 wall reads cleanly from about two and a half metres, a P4 from around four. Nearer than that and the pixels become visible; much farther and finer pitch is wasted money. The right question is not what is the finest wall available, but what is the closest anyone will realistically stand."
+   },
+   {
+    "type": "h2",
+    "text": "Indoor, outdoor and brightness"
+   },
+   {
+    "type": "p",
+    "text": "Environment decides brightness, measured in nits. An indoor wall in a controlled space typically needs several hundred to around fifteen hundred nits; a wall competing with direct sun outdoors needs several thousand. Outdoor walls also need weather sealing to a suitable IP rating, a wider and coarser pitch for the longer viewing distances, and a high refresh rate if cameras will ever film them, so the image does not flicker on screen. Ambient light, not just the technology, sets the floor for how bright the wall has to be to stay readable."
+   },
+   {
+    "type": "h2",
+    "text": "Matching pitch to the use case"
+   },
+   {
+    "type": "p",
+    "text": "Each setting points to a different pitch. A lobby or retail wall that people approach closely justifies a fine pitch for a premium look. A control room watched for hours at close range needs fine pitch and reliable round-the-clock operation. An auditorium or arena, viewed from many metres away, is well served by a medium pitch with high brightness. An outdoor sign trades fineness for ruggedness and sheer luminance."
+   },
+   {
+    "type": "p",
+    "text": "As a single integrator spanning nine disciplines and thirty-eight services, Datacore sizes LED walls to the room, the audience and the environment, then documents the result; talk to our AV team about the right pitch and brightness for your space."
+   }
+  ],
+  "related": [
+   {
+    "slug": "indoor-led-video-wall",
+    "label": "Indoor LED video wall"
+   },
+   {
+    "slug": "outdoor-led-video-wall",
+    "label": "Outdoor LED video wall"
+   },
+   {
+    "slug": "digital-signage-solutions",
+    "label": "Digital signage"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What does a lower pixel pitch give me?",
+    "a": "More pixels in the same area, so a sharper image that holds up close. It costs more per square metre, so it is worth it only where people stand near the wall."
+   },
+   {
+    "q": "How do I pick pitch from viewing distance?",
+    "a": "As a rule of thumb, the closest comfortable viewing distance in metres is about the pixel pitch in millimetres. Decide how near people will stand, then choose a pitch to match rather than overpaying for detail no one sees."
+   },
+   {
+    "q": "What brightness do I need outdoors?",
+    "a": "An outdoor wall competing with sunlight needs several thousand nits, far more than an indoor screen, plus weather sealing to a suitable IP rating and a high refresh rate if it will be filmed."
+   }
+  ]
+ },
+ "ar": {
+  "title": "اختيار كثافة البكسل لجدار الفيديو LED",
+  "date": "3 يوليو 2026",
+  "team": "فريق AV",
+  "dek": "كثافة البكسل هي الرقم الوحيد الذي يقرّر ما إذا كان جدار LED يبدو حاداً أم خشناً. طابقها مع مسافة المشاهدة والبيئة قبل أن تطابقها مع الميزانية.",
+  "meta": "ماذا تعني كثافة بكسل جدار الفيديو LED، وقاعدة مسافة المشاهدة التقريبية، والداخلي مقابل الخارجي والسطوع بوحدة nits، مع حالات استخدام للردهات وغرف التحكم والقاعات والتجزئة.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "يُحدَّد جدار الفيديو LED بأرقام كثيرة، لكن واحداً يقرّر جودة مظهره: كثافة البكسل. اضبطها بشكل صحيح فتكون الصورة حادة من المسافة التي يقف عندها الناس فعلاً؛ واضبطها خطأً فإما أن ترى النقاط المنفردة أو تكون قد دفعت غالياً مقابل تفاصيل لا يقترب منها أحد بما يكفي لملاحظتها. من المفيد فهمها قبل أن يبدأ الحديث عن الميزانية."
+   },
+   {
+    "type": "h2",
+    "text": "ماذا تعني كثافة البكسل"
+   },
+   {
+    "type": "p",
+    "text": "كثافة البكسل هي المسافة بالمليمترات بين مراكز مصابيح LED المتجاورة. الكثافة الأصغر، مثل P1.5، تحشر بكسلات أكثر في المساحة نفسها، ما يعطي دقة أعلى وصورة أحدّ عن قرب، مقابل كلفة أعلى للمتر المربع. أما الكثافة الأكبر مثل P10 فتباعد بين المصابيح أكثر، وهو أرخص ومقبول تماماً حين يقف المشاهدون بعيداً. الكثافة والدقة والسعر ثلاث زوايا للقرار نفسه."
+   },
+   {
+    "type": "h2",
+    "text": "قاعدة مسافة المشاهدة التقريبية"
+   },
+   {
+    "type": "p",
+    "text": "نقطة بداية عملية هي أن أقرب مسافة مشاهدة مريحة بالأمتار تساوي تقريباً كثافة البكسل بالمليمترات: فجدار P2.5 يُقرأ بوضوح من نحو مترين ونصف، وجدار P4 من نحو أربعة أمتار. أقرب من ذلك تصبح البكسلات مرئية؛ وأبعد بكثير تصبح الكثافة الأدق مالاً مهدوراً. السؤال الصحيح ليس ما أدقّ جدار متاح، بل ما أقرب مسافة سيقف عندها أحد واقعياً."
+   },
+   {
+    "type": "h2",
+    "text": "الداخلي والخارجي والسطوع"
+   },
+   {
+    "type": "p",
+    "text": "تقرّر البيئة السطوع، المقيس بوحدة nits. يحتاج الجدار الداخلي في مساحة مضبوطة عادةً إلى بضع مئات وحتى نحو ألف وخمسمئة nits؛ أما الجدار الذي ينافس الشمس المباشرة في الخارج فيحتاج إلى عدة آلاف. وتحتاج الجدران الخارجية أيضاً إلى إحكام ضد الطقس بتصنيف IP مناسب، وكثافة أوسع وأخشن للمسافات الأبعد، ومعدل تحديث عالٍ إن كانت الكاميرات ستصوّرها يوماً، كي لا تومض الصورة على الشاشة. فالضوء المحيط، لا التقنية وحدها، هو ما يحدّد الحدّ الأدنى للسطوع الذي يبقى الجدار عنده مقروءاً."
+   },
+   {
+    "type": "h2",
+    "text": "مطابقة الكثافة مع حالة الاستخدام"
+   },
+   {
+    "type": "p",
+    "text": "يشير كل موضع إلى كثافة مختلفة. جدار ردهة أو تجزئة يقترب منه الناس عن قرب يبرّر كثافة دقيقة لمظهر فاخر. وغرفة تحكم تُراقَب ساعات عن قرب تحتاج كثافة دقيقة وتشغيلاً موثوقاً على مدار الساعة. وقاعة أو ملعب يُشاهَد من أمتار كثيرة تخدمه كثافة متوسطة بسطوع عالٍ جيداً. أما لافتة خارجية فتقايض الدقة بالمتانة وشدة الإضاءة."
+   },
+   {
+    "type": "p",
+    "text": "بوصفها مُكاملاً واحداً يمتد عبر تسعة تخصصات وثمانٍ وثلاثين خدمة، تحجّم Datacore جدران LED وفق الغرفة والجمهور والبيئة، ثم توثّق النتيجة؛ تحدّث إلى فريق AV لدينا حول الكثافة والسطوع المناسبين لمساحتك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "indoor-led-video-wall",
+    "label": "جدار LED داخلي"
+   },
+   {
+    "slug": "outdoor-led-video-wall",
+    "label": "جدار LED خارجي"
+   },
+   {
+    "slug": "digital-signage-solutions",
+    "label": "اللافتات الرقمية"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ماذا تعطيني الكثافة الأقل للبكسل؟",
+    "a": "بكسلات أكثر في المساحة نفسها، وبالتالي صورة أحدّ تصمد عن قرب. وتكلّف أكثر للمتر المربع، فتستحق العناء فقط حيث يقف الناس قرب الجدار."
+   },
+   {
+    "q": "كيف أختار الكثافة من مسافة المشاهدة؟",
+    "a": "كقاعدة تقريبية، أقرب مسافة مشاهدة مريحة بالأمتار تساوي نحو كثافة البكسل بالمليمترات. قرّر كم سيقترب الناس، ثم اختر كثافة تطابق ذلك بدل الدفع الزائد مقابل تفاصيل لا يراها أحد."
+   },
+   {
+    "q": "ما السطوع الذي أحتاجه في الخارج؟",
+    "a": "جدار خارجي ينافس ضوء الشمس يحتاج إلى عدة آلاف nits، أكثر بكثير من شاشة داخلية، إضافةً إلى إحكام ضد الطقس بتصنيف IP مناسب ومعدل تحديث عالٍ إن كان سيُصوَّر."
+   }
+  ]
+ }
+}

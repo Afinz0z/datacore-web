@@ -1,0 +1,144 @@
+{
+ "slug": "control-room-soc-noc-design",
+ "order": 14,
+ "img": "assets1/images/dc-ins-control-room-soc-noc-design.webp",
+ "iso": "2026-07-02",
+ "en": {
+  "title": "Designing a control room (SOC/NOC)",
+  "date": "2 July 2026",
+  "team": "AV team",
+  "dek": "What separates a control room that works from a wall of screens: source distribution, KVM, operator ergonomics and the room services that keep it running 24/7.",
+  "meta": "How to design a SOC or NOC control room: video wall and AV-over-IP source distribution, KVM, 24/7 consoles, acoustics, lighting and redundancy.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "A control room is where an organisation watches its most critical operations around the clock. A Security Operations Centre (SOC) monitors cameras, access control and alarms; a Network Operations Centre (NOC) watches IT infrastructure, links and applications; many facilities combine both. Whatever the mission, the design challenge is the same: present huge amounts of information clearly, let operators act on it fast, and keep running 24/7 without a stumble. Getting there is a discipline that spans audiovisual engineering, ergonomics and building services."
+   },
+   {
+    "type": "h2",
+    "text": "The video wall and source distribution"
+   },
+   {
+    "type": "p",
+    "text": "The video wall is the shared picture the whole team works from. Fine-pitch LED or narrow-bezel LCD tiles are chosen for viewing distance, brightness and uptime, then driven by a processor that can place any source — a camera feed, a dashboard, a map, a spreadsheet — as a window anywhere on the canvas. Behind it, an AV-over-IP distribution layer carries sources across the network so any signal can reach any display or operator without a fixed matrix. A KVM system extends that to control: operators drive machines in the equipment room from their desks, keeping heat and noise out of the operating floor while switching instantly between systems."
+   },
+   {
+    "type": "h2",
+    "text": "Operators and ergonomics"
+   },
+   {
+    "type": "p",
+    "text": "Technology is only useful if people can sustain attention at it for a full shift. Consoles are specified for continuous 24/7 use, with sit-stand adjustment, proper sightlines to the video wall, cable management and monitor arms positioned to avoid neck and eye strain. Sightline geometry decides how far consoles sit from the wall and how the room tiers. Shift patterns, break spaces and clear circulation matter too — an exhausted operator misses events, however good the displays. Standardised console layouts speed shift handover, because an incoming operator finds every control exactly where the last shift left it, and enough operator positions with sensible failover keep the floor staffed even when a seat is offline."
+   },
+   {
+    "type": "h2",
+    "text": "Acoustics, lighting and reliability"
+   },
+   {
+    "type": "p",
+    "text": "The room itself is engineered. Acoustic treatment controls reverberation so alarms and voice communication stay intelligible. Lighting is dimmable and glare-free, kept low enough to read screens but bright enough to stay alert, ideally tunable across a shift. Reliability is designed in: redundant power and UPS, cooling sized for a dense equipment room, and networks with no single point of failure, so a hardware fault never blinds the operators. Documented commissioning proves each of these before the room goes live."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs and integrates SOC and NOC environments end to end — video wall, AV-over-IP, KVM, consoles and the room services around them — and tests every layer before handover; contact our AV team to scope your control room."
+   }
+  ],
+  "related": [
+   {
+    "slug": "soc-noc-room-solution",
+    "label": "SOC/NOC room solutions"
+   },
+   {
+    "slug": "indoor-led-video-wall",
+    "label": "Indoor LED video walls"
+   },
+   {
+    "slug": "control-system",
+    "label": "Control systems"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What's the difference between a SOC and a NOC?",
+    "a": "A SOC focuses on physical and cyber security — surveillance, access control and threat monitoring. A NOC focuses on IT and network health — availability, performance and incidents. Many organisations run a combined room sharing the same video wall and infrastructure."
+   },
+   {
+    "q": "Why use AV-over-IP and KVM instead of a traditional matrix?",
+    "a": "An IP-based distribution layer lets any source reach any display or operator over the network, scales without re-cabling, and — with KVM — keeps noisy, hot computers in the equipment room while operators control them from the floor."
+   },
+   {
+    "q": "What makes a control room reliable enough for 24/7 use?",
+    "a": "Redundant power and UPS, cooling sized for the load, networks with no single point of failure, consoles rated for continuous use, and documented commissioning that proves each system before go-live."
+   }
+  ]
+ },
+ "ar": {
+  "title": "تصميم غرفة تحكم (SOC/NOC)",
+  "date": "2 يوليو 2026",
+  "team": "فريق الصوتيات والمرئيات",
+  "dek": "ما الذي يفصل غرفة تحكم فعّالة عن مجرد جدار من الشاشات: توزيع المصادر، وKVM، وبيئة عمل المشغّلين، وخدمات الغرفة التي تُبقيها تعمل على مدار الساعة.",
+  "meta": "كيفية تصميم غرفة تحكم SOC أو NOC: جدار فيديو وتوزيع مصادر بتقنية AV-over-IP، وKVM، ووحدات تحكم للعمل المتواصل، والصوتيات والإضاءة والتكرار.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "غرفة التحكم هي المكان الذي تراقب فيه المؤسسة أهم عملياتها على مدار الساعة. فمركز العمليات الأمنية (SOC) يراقب الكاميرات والتحكم في الدخول والإنذارات؛ ومركز عمليات الشبكة (NOC) يراقب البنية التقنية والوصلات والتطبيقات؛ وكثير من المنشآت يجمع بينهما. وأياً كانت المهمة، يبقى التحدي التصميمي واحداً: عرض كميات هائلة من المعلومات بوضوح، وتمكين المشغّلين من التصرف بسرعة، والاستمرار في العمل على مدار الساعة دون تعثّر. والوصول إلى ذلك تخصص يمتد عبر هندسة الصوتيات والمرئيات وبيئة العمل وخدمات المبنى."
+   },
+   {
+    "type": "h2",
+    "text": "جدار الفيديو وتوزيع المصادر"
+   },
+   {
+    "type": "p",
+    "text": "جدار الفيديو هو الصورة المشتركة التي يعمل منها الفريق بأكمله. تُختار بلاطات LED الدقيقة أو شاشات LCD ضيقة الإطار وفق مسافة المشاهدة والسطوع وزمن التشغيل، ثم يقودها معالج قادر على وضع أي مصدر — بثّ كاميرا، لوحة معلومات، خريطة، جدول بيانات — كنافذة في أي موضع على المساحة. وخلفها، تحمل طبقة توزيع AV-over-IP المصادر عبر الشبكة كي تصل أي إشارة إلى أي شاشة أو مشغّل دون مصفوفة ثابتة. ويمتد نظام KVM بذلك إلى التحكم: فيقود المشغّلون الأجهزة الموجودة في غرفة المعدات من مكاتبهم، ما يُبقي الحرارة والضجيج خارج قاعة التشغيل مع التبديل الفوري بين الأنظمة."
+   },
+   {
+    "type": "h2",
+    "text": "المشغّلون وبيئة العمل"
+   },
+   {
+    "type": "p",
+    "text": "التقنية لا تنفع إلا إذا استطاع الناس الحفاظ على انتباههم إليها طوال نوبة كاملة. تُجهَّز وحدات التحكم للعمل المتواصل على مدار الساعة، مع إمكانية الجلوس والوقوف، وخطوط رؤية سليمة نحو جدار الفيديو، وتنظيم للكابلات، وأذرع شاشات موضوعة لتفادي إجهاد الرقبة والعين. وتحدّد هندسة خطوط الرؤية مدى بُعد وحدات التحكم عن الجدار وكيفية تدرّج مستويات الغرفة. كما تهم أنماط النوبات ومساحات الاستراحة ووضوح الممرات — فالمشغّل المُنهك يفوّت الأحداث مهما كانت الشاشات جيدة. وتسرّع تخطيطات وحدات التحكم الموحّدة تسليم النوبات، إذ يجد المشغّل الوافد كل عنصر تحكم حيث تركه المشغّل السابق تماماً، ووجود عدد كافٍ من المواقع مع تحوّل احتياطي معقول يُبقي القاعة مأهولة حتى حين يكون أحد المقاعد خارج الخدمة."
+   },
+   {
+    "type": "h2",
+    "text": "الصوتيات والإضاءة والموثوقية"
+   },
+   {
+    "type": "p",
+    "text": "الغرفة نفسها مهندَسة. المعالجة الصوتية تتحكم في الصدى كي تبقى الإنذارات والاتصالات الصوتية مفهومة. والإضاءة قابلة للتعتيم وخالية من الوهج، تبقى منخفضة بما يكفي لقراءة الشاشات لكن ساطعة بما يكفي للبقاء متيقظاً، ويُفضَّل أن تكون قابلة للضبط عبر النوبة. والموثوقية مصمَّمة من الأساس: طاقة متكررة وأنظمة UPS، وتبريد بحجم يناسب غرفة معدات كثيفة، وشبكات بلا نقطة فشل واحدة، كي لا يُعمي عطلٌ في العتاد المشغّلين أبداً. ويثبت التشغيل التجريبي الموثّق كلاً من هذه العناصر قبل دخول الغرفة الخدمة."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور بيئات SOC وNOC وتكاملها من طرف إلى طرف — جدار الفيديو، وAV-over-IP، وKVM، ووحدات التحكم وخدمات الغرفة المحيطة بها — وتختبر كل طبقة قبل التسليم؛ تواصل مع فريق الصوتيات والمرئيات لدينا لتحديد نطاق غرفة تحكمك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "soc-noc-room-solution",
+    "label": "حلول غرف SOC/NOC"
+   },
+   {
+    "slug": "indoor-led-video-wall",
+    "label": "جدران LED الداخلية"
+   },
+   {
+    "slug": "control-system",
+    "label": "أنظمة التحكم"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما الفرق بين SOC وNOC؟",
+    "a": "يركّز SOC على الأمن المادي والسيبراني — المراقبة والتحكم في الدخول ورصد التهديدات. ويركّز NOC على صحة تقنية المعلومات والشبكة — التوافر والأداء والحوادث. وكثير من المؤسسات يشغّل غرفة مدمجة تتشارك جدار الفيديو والبنية نفسها."
+   },
+   {
+    "q": "لماذا نستخدم AV-over-IP وKVM بدلاً من المصفوفة التقليدية؟",
+    "a": "تتيح طبقة توزيع قائمة على IP وصول أي مصدر إلى أي شاشة أو مشغّل عبر الشبكة، وتتوسع دون إعادة تمديد الكابلات، ومع KVM تُبقي الحواسيب الساخنة والمزعجة في غرفة المعدات بينما يتحكم بها المشغّلون من القاعة."
+   },
+   {
+    "q": "ما الذي يجعل غرفة التحكم موثوقة بما يكفي للعمل على مدار الساعة؟",
+    "a": "طاقة متكررة وأنظمة UPS، وتبريد بحجم الحِمل، وشبكات بلا نقطة فشل واحدة، ووحدات تحكم مصنّفة للعمل المتواصل، وتشغيل تجريبي موثّق يثبت كل نظام قبل بدء التشغيل."
+   }
+  ]
+ }
+}

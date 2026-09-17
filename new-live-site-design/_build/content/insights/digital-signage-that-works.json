@@ -1,0 +1,144 @@
+{
+ "slug": "digital-signage-that-works",
+ "order": 16,
+ "img": "assets1/images/dc-ins-digital-signage-that-works.webp",
+ "iso": "2026-07-09",
+ "en": {
+  "title": "Digital signage that earns its screen time",
+  "date": "9 July 2026",
+  "team": "AV team",
+  "dek": "Most screens are ignored. What separates signage that changes behaviour — the display choice, the content management system, and measuring impact — from expensive wallpaper.",
+  "meta": "How to make digital signage effective: choosing LCD versus LED, using a content management system for scheduling and wayfinding, and measuring real impact.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Screens are cheap, so they are everywhere — and most of them are ignored. A display looping a slideshow no one watches is a cost, not a communication channel. Digital signage earns its place when the right message reaches the right screen at the right moment, and when someone can prove it changed behaviour. That takes more thought about content and management than about the hardware, though the hardware still has to be chosen well."
+   },
+   {
+    "type": "h2",
+    "text": "Displays or LED — choosing the canvas"
+   },
+   {
+    "type": "p",
+    "text": "The first decision is the surface. Commercial LCD displays suit most indoor applications — menu boards, lobby screens, meeting-room signage, wayfinding kiosks — offering sharp detail at normal viewing distance and long-life panels rated for continuous operation. Direct-view LED comes into its own for large formats, video walls and bright environments where an LCD would wash out or where a seamless canvas of any size and shape is needed. Pixel pitch is matched to viewing distance, brightness to ambient light, and both to the content: a close-up menu board and a lobby video wall are different engineering problems, not just different sizes."
+   },
+   {
+    "type": "h2",
+    "text": "The management system is the real product"
+   },
+   {
+    "type": "p",
+    "text": "Hardware shows the picture; the content management system decides what, where and when. A capable CMS schedules content by time, day or trigger, targets individual screens or zones, and updates hundreds of endpoints from one place over the network. It drives wayfinding that can be updated as a building changes, dayparts menus so breakfast becomes lunch automatically, and — integrated with other systems — turns every screen into an emergency notification channel in seconds. Networked control also means health monitoring: knowing a screen has gone dark before a visitor does. This is where signage stops being wallpaper and becomes infrastructure."
+   },
+   {
+    "type": "h2",
+    "text": "Measuring whether it works"
+   },
+   {
+    "type": "p",
+    "text": "A screen that earns its keep can show it. Impact is measured by tying content to outcomes — sales lift on a promoted item, shorter queues at a wayfinding point, higher attendance at an announced event, faster evacuation during a drill. Proof-of-play logs confirm what actually played and when, which matters for internal reporting and for any advertising commitments. Start from the outcome you want, design the content and placement to drive it, then read the numbers and adjust. Interactive screens add another signal entirely, letting people select destinations, browse a directory or request help, and logging exactly what they engaged with."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs digital signage from display choice to CMS and networked control, so your screens deliver the right message and you can measure the result — contact our AV team to plan a deployment that pays for itself."
+   }
+  ],
+  "related": [
+   {
+    "slug": "digital-signage-solutions",
+    "label": "Digital signage solutions"
+   },
+   {
+    "slug": "indoor-led-video-wall",
+    "label": "Indoor LED video walls"
+   },
+   {
+    "slug": "interactive-video-walls-tiles",
+    "label": "Interactive video walls"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Should we use LCD displays or LED for digital signage?",
+    "a": "LCD displays suit most indoor screens — menu boards, wayfinding, lobby and room signage — at normal viewing distances. Direct-view LED is for large formats, video walls and bright spaces. The choice follows viewing distance, ambient light and content."
+   },
+   {
+    "q": "What does a content management system actually do?",
+    "a": "It schedules and targets content by screen, zone, time or trigger, updates every endpoint from one place over the network, monitors screen health, and logs what played — turning a set of displays into a managed communication network."
+   },
+   {
+    "q": "How do we measure whether digital signage is working?",
+    "a": "Tie content to outcomes — sales of promoted items, wayfinding queue times, event attendance — and use proof-of-play logs to confirm what ran. Define the goal first, then read the numbers and refine."
+   }
+  ]
+ },
+ "ar": {
+  "title": "شاشات رقمية تستحق مكانها",
+  "date": "9 يوليو 2026",
+  "team": "فريق الصوتيات والمرئيات",
+  "dek": "معظم الشاشات يُتجاهَل. ما الذي يفصل الشاشات التي تغيّر السلوك — اختيار الشاشة، ونظام إدارة المحتوى، وقياس الأثر — عن مجرد زينة باهظة على الجدار.",
+  "meta": "كيف تجعل الشاشات الرقمية فعّالة: الاختيار بين LCD وLED، واستخدام نظام إدارة محتوى للجدولة والإرشاد المكاني، وقياس الأثر الحقيقي.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "الشاشات رخيصة، لذلك صارت في كل مكان — ومعظمها يُتجاهَل. فشاشة تعرض عرضاً متكرراً لا يشاهده أحد هي تكلفة، لا قناة تواصل. تستحق الشاشة الرقمية مكانها حين تصل الرسالة الصحيحة إلى الشاشة الصحيحة في اللحظة الصحيحة، وحين يستطيع أحدهم إثبات أنها غيّرت سلوكاً. وهذا يتطلب تفكيراً في المحتوى والإدارة أكثر من التفكير في العتاد، وإن كان العتاد لا يزال بحاجة إلى اختيار جيد."
+   },
+   {
+    "type": "h2",
+    "text": "شاشات LCD أم LED — اختيار السطح"
+   },
+   {
+    "type": "p",
+    "text": "القرار الأول هو السطح. تناسب شاشات LCD التجارية معظم التطبيقات الداخلية — لوحات القوائم، وشاشات البهو، وشاشات غرف الاجتماعات، وأكشاك الإرشاد المكاني — إذ تقدّم تفصيلاً حاداً عند مسافة المشاهدة المعتادة ولوحات طويلة العمر مصنّفة للتشغيل المتواصل. أما LED ذات العرض المباشر فتتفوق في الأحجام الكبيرة وجدران الفيديو والبيئات الساطعة التي تبهت فيها شاشة LCD أو حيث تلزم مساحة متصلة بأي حجم وشكل. وتُطابَق كثافة البكسل مع مسافة المشاهدة، والسطوع مع الإضاءة المحيطة، وكلاهما مع المحتوى: فلوحة قوائم قريبة وجدار فيديو في بهو مشكلتان هندسيتان مختلفتان، لا مجرد حجمين مختلفين."
+   },
+   {
+    "type": "h2",
+    "text": "نظام الإدارة هو المنتج الحقيقي"
+   },
+   {
+    "type": "p",
+    "text": "العتاد يعرض الصورة؛ أما نظام إدارة المحتوى فيقرّر ماذا وأين ومتى. فنظام إدارة محتوى قادر يجدول المحتوى حسب الوقت أو اليوم أو المُحفّز، ويستهدف شاشات أو مناطق بعينها، ويحدّث مئات نقاط النهاية من مكان واحد عبر الشبكة. ويقود الإرشاد المكاني الذي يمكن تحديثه مع تغير المبنى، ويقسّم القوائم حسب أوقات اليوم كي يصبح الإفطار غداءً تلقائياً، ومع تكامله مع الأنظمة الأخرى يحوّل كل شاشة إلى قناة إشعار طارئ في ثوانٍ. كما يعني التحكم عبر الشبكة مراقبة الحالة: معرفة أن شاشة قد انطفأت قبل أن يلاحظ الزائر ذلك. وهنا تتوقف الشاشات عن كونها زينة وتصبح بنية تحتية."
+   },
+   {
+    "type": "h2",
+    "text": "قياس ما إذا كانت تعمل"
+   },
+   {
+    "type": "p",
+    "text": "الشاشة التي تستحق نفقتها يمكنها إثبات ذلك. يُقاس الأثر بربط المحتوى بالنتائج — زيادة مبيعات صنف مُروَّج له، أو تقصير الطوابير عند نقطة إرشاد، أو ارتفاع الحضور في فعالية مُعلَنة، أو إخلاء أسرع أثناء تمرين. وتؤكد سجلات إثبات التشغيل ما عُرِض فعلاً ومتى، وهو ما يهم للتقارير الداخلية ولأي التزامات إعلانية. ابدأ من النتيجة التي تريدها، وصمّم المحتوى وموضعه لتحقيقها، ثم اقرأ الأرقام وعدّل. وتضيف الشاشات التفاعلية إشارة أخرى تماماً، إذ تتيح للناس اختيار الوجهات أو تصفّح دليل أو طلب المساعدة، وتسجّل بدقة ما تفاعلوا معه."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور الشاشات الرقمية من اختيار الشاشة إلى نظام إدارة المحتوى والتحكم عبر الشبكة، كي تقدّم شاشاتك الرسالة الصحيحة وتستطيع قياس النتيجة — تواصل مع فريق الصوتيات والمرئيات لدينا لتخطيط نشر يغطي كلفته."
+   }
+  ],
+  "related": [
+   {
+    "slug": "digital-signage-solutions",
+    "label": "حلول الشاشات الرقمية"
+   },
+   {
+    "slug": "indoor-led-video-wall",
+    "label": "جدران LED الداخلية"
+   },
+   {
+    "slug": "interactive-video-walls-tiles",
+    "label": "جدران الفيديو التفاعلية"
+   }
+  ],
+  "faq": [
+   {
+    "q": "هل نستخدم شاشات LCD أم LED للشاشات الرقمية؟",
+    "a": "تناسب شاشات LCD معظم الشاشات الداخلية — لوحات القوائم والإرشاد المكاني وشاشات البهو والغرف — عند مسافات المشاهدة المعتادة. أما LED ذات العرض المباشر فللأحجام الكبيرة وجدران الفيديو والأماكن الساطعة. والاختيار يتبع مسافة المشاهدة والإضاءة المحيطة والمحتوى."
+   },
+   {
+    "q": "ماذا يفعل نظام إدارة المحتوى فعلاً؟",
+    "a": "يجدول المحتوى ويستهدفه حسب الشاشة أو المنطقة أو الوقت أو المُحفّز، ويحدّث كل نقطة نهاية من مكان واحد عبر الشبكة، ويراقب حالة الشاشات، ويسجّل ما عُرِض — فيحوّل مجموعة شاشات إلى شبكة تواصل مُدارة."
+   },
+   {
+    "q": "كيف نقيس ما إذا كانت الشاشات الرقمية تعمل؟",
+    "a": "اربط المحتوى بالنتائج — مبيعات الأصناف المُروَّج لها، وأزمنة طوابير الإرشاد، وحضور الفعاليات — واستخدم سجلات إثبات التشغيل لتأكيد ما عُرِض. حدّد الهدف أولاً، ثم اقرأ الأرقام وحسّن."
+   }
+  ]
+ }
+}

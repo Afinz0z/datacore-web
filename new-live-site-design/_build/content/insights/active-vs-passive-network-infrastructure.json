@@ -1,0 +1,134 @@
+{
+ "slug": "active-vs-passive-network-infrastructure",
+ "order": 2,
+ "img": "assets1/images/dc-blog-passive.webp",
+ "iso": "2026-03-03",
+ "en": {
+  "title": "Active versus passive network infrastructure",
+  "date": "3 March 2026",
+  "team": "Network team",
+  "dek": "A plain explanation of the split, and why the passive layer is the part you cannot cheaply revisit later.",
+  "meta": "Network infrastructure splits into active and passive layers. What each includes, why the distinction matters for budgeting and future-proofing, and why the passive layer is the one to get generous.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Network infrastructure divides into two layers: active and passive. It is a simple distinction, but knowing which is which changes how you budget, procure and future-proof — and which decisions you can revisit cheaply later, and which you cannot."
+   },
+   {
+    "type": "h2",
+    "text": "The passive layer"
+   },
+   {
+    "type": "p",
+    "text": "The passive infrastructure is everything that carries signals but has no power or intelligence of its own: the structured cabling, fibre backbones, patch panels, outlets, racks, and the pathways and containment that hold it all. It is designed to standards such as TIA-568 and ISO/IEC 11801 and, once installed, it lives in the walls, risers and ceilings for the life of the building."
+   },
+   {
+    "type": "h2",
+    "text": "The active layer"
+   },
+   {
+    "type": "p",
+    "text": "The active infrastructure is the powered, intelligent equipment that moves and manages data: switches, routers, wireless access points, firewalls and controllers. It is what most people picture as “the network,” and it is refreshed regularly — typically every few years — as capacity needs grow and product cycles turn over."
+   },
+   {
+    "type": "h2",
+    "text": "Why the split matters"
+   },
+   {
+    "type": "p",
+    "text": "The two layers have completely different lifespans and economics. Active equipment is designed to be swapped: you plan for it, budget for it, and it gets faster and cheaper each cycle. The passive layer is the opposite — buried, disruptive to reach, and expensive to change once a building is occupied. Get the passive layer generous, standards-based and well documented, and the active layer has room to grow into it for years. Under-build the passive layer and every active upgrade runs into it."
+   },
+   {
+    "type": "h2",
+    "text": "What it means for design"
+   },
+   {
+    "type": "p",
+    "text": "Right-size the passive layer for the building’s life, not for today’s switch: specify category and fibre counts with headroom, keep pathways below full, and label and document everything so future work extends the system instead of guessing at it. Spend the extra care where it is hard to revisit, and keep the active layer free to evolve."
+   },
+   {
+    "type": "p",
+    "text": "Datacore designs and installs both layers as one integrator — structured cabling and fibre sized for the long term, and the active network on top of it — with documented test results at handover. If you are planning new infrastructure or inherited one you are not sure about, we can assess it and tell you plainly where it stands."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "Structured cabling"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   },
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "Fibre optic solutions"
+   }
+  ],
+  "faq": []
+ },
+ "ar": {
+  "title": "البنية التحتية الفاعلة مقابل السلبية للشبكات",
+  "date": "3 مارس 2026",
+  "team": "فريق الشبكات",
+  "dek": "شرحٌ مبسّط للانقسام، ولماذا الطبقة السلبية هي الجزء الذي لا يمكن إعادة النظر فيه لاحقًا بثمنٍ زهيد.",
+  "meta": "تنقسم البنية التحتية للشبكات إلى طبقتين فاعلة وسلبية. ماذا تشمل كل منهما، ولماذا يهمّ الفرق في الميزنة والاستعداد للمستقبل، ولماذا الطبقة السلبية هي التي يجب أن تكون سخيّة.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "تنقسم البنية التحتية للشبكات إلى طبقتين: فاعلة وسلبية. فرقٌ بسيط، لكن معرفة أيّهما أيّ تغيّر كيف تُموّل وتشتري وتستعدّ للمستقبل — وأيّ القرارات يمكن مراجعتها لاحقًا بثمنٍ زهيد، وأيّها لا يمكن."
+   },
+   {
+    "type": "h2",
+    "text": "الطبقة السلبية"
+   },
+   {
+    "type": "p",
+    "text": "البنية السلبية هي كل ما ينقل الإشارات دون أن يملك طاقةً أو ذكاءً خاصًّا به: الكابلات المهيكلة، وأعمدة الألياف، ولوحات التوصيل، والمنافذ، والخزائن، والمسارات والمجاري التي تحملها. تُصمَّم وفق معايير مثل TIA-568 وISO/IEC 11801، وبعد التركيب تعيش في الجدران والمجاري الصاعدة والأسقف طوال عمر المبنى."
+   },
+   {
+    "type": "h2",
+    "text": "الطبقة الفاعلة"
+   },
+   {
+    "type": "p",
+    "text": "البنية الفاعلة هي المعدّات المزوّدة بالطاقة والذكية التي تنقل البيانات وتديرها: المبدّلات، والموجّهات، ونقاط الوصول اللاسلكية، والجدران النارية، ووحدات التحكم. هي ما يتصوّره معظم الناس بوصفه “الشبكة”، وتُجدَّد بانتظام — عادةً كل بضع سنوات — كلما نمت احتياجات السعة ودارت دورات المنتجات."
+   },
+   {
+    "type": "h2",
+    "text": "لماذا يهمّ الانقسام"
+   },
+   {
+    "type": "p",
+    "text": "للطبقتين أعمارٌ واقتصادياتٌ مختلفة تمامًا. المعدّات الفاعلة مصمَّمة لتُستبدَل: تخطّط لها وتموّلها، وتزداد سرعةً ورخصًا كل دورة. الطبقة السلبية عكس ذلك — مدفونة، وشاقّة الوصول، ومكلفة التغيير بعد إشغال المبنى. اجعل الطبقة السلبية سخيّة وقائمة على المعايير وموثّقة جيدًا، يجد الجانب الفاعل متّسعًا لينمو فيه سنوات. قصّرها، فيصطدم بها كل تحديثٍ فاعل."
+   },
+   {
+    "type": "h2",
+    "text": "ماذا يعني ذلك للتصميم"
+   },
+   {
+    "type": "p",
+    "text": "قِس الطبقة السلبية لعمر المبنى، لا لمبدّل اليوم: حدّد الفئة وأعداد الألياف بهامش، وأبقِ المسارات دون الامتلاء، ورقّم ووثّق كل شيء ليمدّد العملُ المستقبلي النظام بدل التخمين. أنفق العناية الإضافية حيث يصعب التراجع، وأبقِ الطبقة الفاعلة حرّة في التطوّر."
+   },
+   {
+    "type": "p",
+    "text": "تصمّم داتاكور الطبقتين وتركّبهما كمكاملٍ واحد — كابلات مهيكلة وألياف مقاسة للمدى الطويل، والشبكة الفاعلة فوقها — بنتائج اختبارٍ موثّقة عند التسليم. إن كنت تخطّط لبنيةٍ جديدة أو ورثت واحدةً لست واثقًا منها، يمكننا تقييمها وإخبارك بوضوحٍ أين تقف."
+   }
+  ],
+  "related": [
+   {
+    "slug": "structured-cabling-solutions",
+    "label": "الكابلات المهيكلة"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   },
+   {
+    "slug": "fiber-optic-solutions",
+    "label": "حلول الألياف الضوئية"
+   }
+  ],
+  "faq": []
+ }
+}

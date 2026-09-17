@@ -1,0 +1,144 @@
+{
+ "slug": "why-annual-maintenance-contracts-matter",
+ "order": 17,
+ "img": "assets1/images/dc-ins-why-annual-maintenance-contracts-matter.webp",
+ "iso": "2026-04-30",
+ "en": {
+  "title": "Why an Annual Maintenance Contract (AMC) protects your investment",
+  "date": "30 April 2026",
+  "team": "Systems team",
+  "dek": "The day the installer leaves, your systems start to age. How preventive maintenance, response-time SLAs, monitoring and spares protect what you have already paid for.",
+  "meta": "Why an Annual Maintenance Contract matters: preventive versus reactive maintenance, response-time SLAs, proactive monitoring, spares and lower total cost of ownership.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "An ELV installation is a capital investment that is supposed to run for a decade or more — cabling, network, cameras, access control, AV, fire detection and the software that ties them together. Yet the day the contractor leaves is the day that investment starts to age. Firmware falls behind, batteries and drives wear out, small faults accumulate unseen, and standards move on. An Annual Maintenance Contract (AMC) is how you protect the value you have already paid for, instead of waiting for something critical to fail."
+   },
+   {
+    "type": "h2",
+    "text": "Preventive versus reactive maintenance"
+   },
+   {
+    "type": "p",
+    "text": "The core choice is whether you fix things before or after they break. Reactive maintenance waits for failure, which means unplanned downtime, emergency call-out costs, and problems discovered at the worst possible moment — a camera found dead only when footage is needed, or a fire panel fault surfacing during an inspection. Preventive maintenance schedules regular inspection, testing, cleaning, firmware updates and battery replacement so faults are caught and corrected while they are still minor. For life-safety systems governed by EN 54, SBC 801 and Civil Defense requirements, scheduled testing is not optional — it is part of staying compliant."
+   },
+   {
+    "type": "h2",
+    "text": "What a good AMC includes"
+   },
+   {
+    "type": "p",
+    "text": "A meaningful AMC is more than an annual visit. It defines response-time SLAs, so you know how quickly help arrives when something does go wrong, with tighter targets for critical systems. It can include proactive remote monitoring that flags a failing device or a network fault before it becomes an outage. It secures access to spares, so a replacement is on hand rather than weeks away on order. And for demanding sites it extends to on-site staffing — technicians embedded in the facility who know the systems intimately and keep them running day to day. Each of these is a lever you set to match how critical the systems are."
+   },
+   {
+    "type": "h2",
+    "text": "Total cost of ownership"
+   },
+   {
+    "type": "p",
+    "text": "Maintenance reads as a cost until you compare it with the alternative. Unplanned downtime, emergency repairs, premature replacement of neglected equipment, and the operational impact of a system being unavailable usually dwarf the price of a planned contract. Well-maintained systems last longer, hold their performance, and stay compliant, which lowers the true total cost of ownership over the life of the installation. An AMC turns unpredictable failure costs into a predictable line item — and keeps the asset doing its job."
+   },
+   {
+    "type": "p",
+    "text": "Datacore backs its installations with AMCs, proactive monitoring, spares and on-site staffing drawn from over 180 specialists, so the systems we design keep performing for years — talk to us about a maintenance plan matched to your site."
+   }
+  ],
+  "related": [
+   {
+    "slug": "annual-maintenance-contracts",
+    "label": "Annual maintenance contracts"
+   },
+   {
+    "slug": "full-time-staffing-solution",
+    "label": "Full-time staffing"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "IT network solutions"
+   }
+  ],
+  "faq": [
+   {
+    "q": "What is an Annual Maintenance Contract?",
+    "a": "An AMC is an ongoing agreement to keep installed systems running — scheduled preventive maintenance, defined response times for faults, and often monitoring, spares and on-site support — for a fixed annual cost instead of paying per emergency."
+   },
+   {
+    "q": "Isn't it cheaper to just fix things when they break?",
+    "a": "Rarely. Reactive repair brings unplanned downtime, emergency rates and premature equipment failure, which usually cost more than planned maintenance — and for fire and life-safety systems, scheduled testing is a compliance requirement, not a choice."
+   },
+   {
+    "q": "What is a response-time SLA?",
+    "a": "It is a committed maximum time to respond to a fault, agreed in the contract and usually tiered by severity, so critical failures get the fastest attention. It turns 'we'll get to it' into a measurable, accountable service level."
+   }
+  ]
+ },
+ "ar": {
+  "title": "لماذا يحمي عقد الصيانة السنوي (AMC) استثمارك",
+  "date": "30 أبريل 2026",
+  "team": "فريق الأنظمة",
+  "dek": "يوم يغادر المُركِّب، تبدأ أنظمتك بالتقادم. كيف تحمي الصيانة الوقائية، واتفاقيات مستوى زمن الاستجابة، والمراقبة، وقطع الغيار ما دفعت ثمنه بالفعل.",
+  "meta": "لماذا يهم عقد الصيانة السنوي: الصيانة الوقائية مقابل التفاعلية، واتفاقيات مستوى زمن الاستجابة، والمراقبة الاستباقية، وقطع الغيار، وخفض التكلفة الإجمالية للملكية.",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "تركيب أنظمة ELV استثمار رأسمالي يُفترض أن يعمل لعقد أو أكثر — الكابلات والشبكة والكاميرات والتحكم في الدخول والصوتيات والمرئيات وكشف الحريق والبرمجيات التي تربطها. ومع ذلك، فإن اليوم الذي يغادر فيه المقاول هو اليوم الذي يبدأ فيه هذا الاستثمار بالتقادم. تتخلف البرامج الثابتة، وتبلى البطاريات والأقراص، وتتراكم الأعطال الصغيرة دون أن تُرى، وتتغير المعايير. وعقد الصيانة السنوي (AMC) هو وسيلتك لحماية القيمة التي دفعتَ ثمنها بالفعل، بدلاً من انتظار عطل حرج."
+   },
+   {
+    "type": "h2",
+    "text": "الصيانة الوقائية مقابل التفاعلية"
+   },
+   {
+    "type": "p",
+    "text": "الخيار الجوهري هو ما إذا كنت ستصلح الأشياء قبل أن تتعطل أم بعده. تنتظر الصيانة التفاعلية وقوع العطل، ما يعني توقفاً غير مخطط له، وتكاليف استدعاء طارئ، ومشكلات تُكتشف في أسوأ لحظة ممكنة — كاميرا تُوجَد معطلة فقط حين تُطلب اللقطات، أو عطل في لوحة حريق يظهر أثناء تفتيش. أما الصيانة الوقائية فتجدول الفحص والاختبار والتنظيف وتحديث البرامج الثابتة واستبدال البطاريات بانتظام، كي تُكتشَف الأعطال وتُصحَّح وهي لا تزال طفيفة. وبالنسبة لأنظمة سلامة الأرواح التي تحكمها متطلبات EN 54 وSBC 801 والدفاع المدني، فإن الاختبار المجدول ليس اختيارياً — بل جزء من البقاء ممتثلاً."
+   },
+   {
+    "type": "h2",
+    "text": "ماذا يتضمن عقد AMC الجيد"
+   },
+   {
+    "type": "p",
+    "text": "عقد AMC ذو معنى هو أكثر من زيارة سنوية. فهو يحدّد اتفاقيات مستوى زمن الاستجابة (SLA)، كي تعرف مدى سرعة وصول المساعدة حين يحدث خطأ ما، بأهداف أشد صرامة للأنظمة الحرجة. ويمكن أن يشمل مراقبة استباقية عن بُعد تُنبّه إلى جهاز يوشك على العطل أو خلل في الشبكة قبل أن يتحول إلى انقطاع. ويؤمّن الوصول إلى قطع الغيار، كي يكون البديل جاهزاً بدلاً من انتظاره أسابيع في طلب توريد. وللمواقع الأكثر تطلباً يمتد إلى توفير كوادر في الموقع — فنيون متمركزون في المنشأة يعرفون الأنظمة عن كثب ويُبقونها تعمل يوماً بيوم. وكل عنصر من هذه رافعة تضبطها بما يناسب مدى حرج الأنظمة."
+   },
+   {
+    "type": "h2",
+    "text": "التكلفة الإجمالية للملكية"
+   },
+   {
+    "type": "p",
+    "text": "تبدو الصيانة تكلفةً حتى تقارنها بالبديل. فالتوقف غير المخطط له، والإصلاحات الطارئة، والاستبدال المبكر لمعدات مُهمَلة، والأثر التشغيلي لعدم توفر النظام، تفوق عادةً ثمن عقد مخطط له بكثير. والأنظمة جيدة الصيانة تدوم أطول، وتحافظ على أدائها، وتبقى ممتثلة، ما يخفّض التكلفة الإجمالية الحقيقية للملكية على مدى عمر التركيب. ويحوّل عقد AMC تكاليفَ الأعطال غير المتوقعة إلى بند مُتوقَّع — ويُبقي الأصل يؤدي عمله."
+   },
+   {
+    "type": "p",
+    "text": "تدعم داتاكور تركيباتها بعقود AMC ومراقبة استباقية وقطع غيار وكوادر في الموقع من بين أكثر من 180 اختصاصياً، كي تظل الأنظمة التي نصممها تعمل بكفاءة لسنوات — تحدّث إلينا حول خطة صيانة تناسب موقعك."
+   }
+  ],
+  "related": [
+   {
+    "slug": "annual-maintenance-contracts",
+    "label": "عقود الصيانة السنوية"
+   },
+   {
+    "slug": "full-time-staffing-solution",
+    "label": "حلول التوظيف المتفرغ"
+   },
+   {
+    "slug": "it-network-solutions",
+    "label": "حلول شبكات تقنية المعلومات"
+   }
+  ],
+  "faq": [
+   {
+    "q": "ما هو عقد الصيانة السنوي؟",
+    "a": "AMC اتفاقية مستمرة لإبقاء الأنظمة المركّبة تعمل — صيانة وقائية مجدولة، وأزمنة استجابة محددة للأعطال، وغالباً مراقبة وقطع غيار ودعم في الموقع — مقابل تكلفة سنوية ثابتة بدلاً من الدفع عند كل طارئ."
+   },
+   {
+    "q": "أليس إصلاح الأشياء عند تعطلها أرخص؟",
+    "a": "نادراً. فالإصلاح التفاعلي يجلب توقفاً غير مخطط له وأسعاراً طارئة وأعطالاً مبكرة للمعدات، وهي عادةً أغلى من الصيانة المخطط لها — ولأنظمة الحريق وسلامة الأرواح، يُعدّ الاختبار المجدول متطلب امتثال لا خياراً."
+   },
+   {
+    "q": "ما هي اتفاقية مستوى زمن الاستجابة؟",
+    "a": "هي حدّ أقصى مُلتزَم به للاستجابة لعطل، متفق عليه في العقد ومقسّم عادةً حسب الخطورة، كي تحظى الأعطال الحرجة بأسرع اهتمام. فتحوّل عبارة سنتولى الأمر إلى مستوى خدمة قابل للقياس والمساءلة."
+   }
+  ]
+ }
+}
