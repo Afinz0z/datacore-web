@@ -176,9 +176,11 @@ for slug in SVC:
     urls += ["service-" + slug + ".html", "service-" + slug + "-ar.html"]
 for slug in ["owis", "aou-council", "psau", "taqeem", "auditorium"]:
     urls += ["project-" + slug + ".html", "project-" + slug + "-ar.html"]
-_INS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "insights.json"), encoding="utf-8"))
-for _p in _INS["en"]["posts"]:
-    urls += ["insight-" + _p["slug"] + ".html", "insight-" + _p["slug"] + "-ar.html"]
+import glob as _glob
+_ins_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content", "insights")
+for _f in _glob.glob(os.path.join(_ins_dir, "*.json")):
+    _slug = os.path.splitext(os.path.basename(_f))[0]
+    urls += ["insight-" + _slug + ".html", "insight-" + _slug + "-ar.html"]
 for slug in ["av-solutions-provider-saudi-arabia", "elv-low-current-systems-saudi-arabia",
              "network-solutions-provider-riyadh", "structured-cabling-company-riyadh",
              "av-network-integrator-saudi-arabia"]:
