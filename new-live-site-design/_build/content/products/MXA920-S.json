@@ -1,0 +1,24 @@
+{
+ "sku": "MXA920-S",
+ "n": "MXA920 ceiling array microphone, square",
+ "b": "Shure",
+ "c": "Audio visual",
+ "g": "mic",
+ "avail": "lead",
+ "lead": 35,
+ "specs": [
+  {
+   "label": "Pickup",
+   "value": "Automatic coverage"
+  },
+  {
+   "label": "Mount",
+   "value": "Ceiling tile / flush"
+  },
+  {
+   "label": "Network",
+   "value": "Dante"
+  }
+ ],
+ "order": 22
+}

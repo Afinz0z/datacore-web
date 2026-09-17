@@ -1,0 +1,31 @@
+{
+ "sku": "C9200L-24P-4G-E",
+ "n": "Catalyst 9200L 24-port PoE+ switch, 4x1G uplink",
+ "b": "Cisco",
+ "c": "Networking",
+ "g": "switch",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "PoE",
+   "value": "PoE+ 370W"
+  },
+  {
+   "label": "Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Uplinks",
+   "value": "4 x 1G SFP"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 0
+}

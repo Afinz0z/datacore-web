@@ -1,6 +1,6 @@
 # Pages CMS configuration (pagescms.org). Edits here commit to the repo and the
-# GitHub Action rebuilds & deploys the site. v1 covers Insights; Projects and
-# Products follow. See CMS-PLAN.md.
+# GitHub Action rebuilds & deploys the site (~2 min). Covers Insights, Projects,
+# Products. Arabic field labels are bilingual (العربية + English). See CMS-PLAN.md.
 
 media:
   input: new-live-site-design/assets1/images
@@ -8,6 +8,7 @@ media:
   extensions: [webp, jpg, jpeg, png, svg]
 
 content:
+  # ─────────────────────────── INSIGHTS ───────────────────────────
   - name: insights
     label: Insights
     type: collection
@@ -17,20 +18,10 @@ content:
       fields: [slug, order, iso]
       sort: [order, slug]
     fields:
-      - name: slug
-        label: Slug (URL id — lowercase-with-hyphens; the page becomes insight-<slug>.html)
-        type: string
-        required: true
-      - name: order
-        label: Order (lower shows first on the hub)
-        type: number
-        default: 99
-      - name: img
-        label: Card / hero image
-        type: image
-      - name: iso
-        label: Date for search engines (ISO, e.g. 2026-09-16)
-        type: date
+      - { name: slug, label: Slug (URL id — lowercase-with-hyphens; page = insight-<slug>.html), type: string, required: true }
+      - { name: order, label: Order (lower shows first on the hub), type: number, default: 99 }
+      - { name: img, label: Card / hero image, type: image }
+      - { name: iso, label: Date for search engines (ISO, e.g. 2026-09-16), type: date }
       - name: en
         label: English
         type: object
@@ -62,32 +53,126 @@ content:
               - { name: q, label: Question, type: string }
               - { name: a, label: Answer, type: text }
       - name: ar
-        label: العربية (Arabic — first draft, needs native review)
+        label: العربية / Arabic (first draft — needs native review)
         type: object
         fields:
-          - { name: title, label: العنوان, type: string }
-          - { name: date, label: التاريخ, type: string }
-          - { name: team, label: الفريق, type: string }
-          - { name: dek, label: الملخص, type: text }
-          - { name: meta, label: وصف محرّكات البحث, type: text }
+          - { name: title, label: العنوان / Title, type: string }
+          - { name: date, label: التاريخ / Date (display), type: string }
+          - { name: team, label: الفريق / Byline, type: string }
+          - { name: dek, label: الملخص / Summary, type: text }
+          - { name: meta, label: وصف محرّكات البحث / SEO meta, type: text }
           - name: blocks
-            label: المحتوى
+            label: المحتوى / Body
             type: object
             list: true
             fields:
-              - { name: type, label: النوع, type: select, options: { values: [p, h2] }, default: p }
-              - { name: text, label: النص, type: text }
+              - { name: type, label: النوع / Type, type: select, options: { values: [p, h2] }, default: p }
+              - { name: text, label: النص / Text, type: text }
           - name: related
-            label: خدمات ذات صلة
+            label: خدمات ذات صلة / Related services
             type: object
             list: true
             fields:
-              - { name: slug, label: مُعرّف صفحة الخدمة, type: string }
-              - { name: label, label: نص الرابط, type: string }
+              - { name: slug, label: مُعرّف صفحة الخدمة / Service slug, type: string }
+              - { name: label, label: نص الرابط / Link text, type: string }
           - name: faq
-            label: الأسئلة الشائعة
+            label: الأسئلة الشائعة / FAQ
             type: object
             list: true
             fields:
-              - { name: q, label: السؤال, type: string }
-              - { name: a, label: الجواب, type: text }
+              - { name: q, label: السؤال / Question, type: string }
+              - { name: a, label: الجواب / Answer, type: text }
+
+  # ─────────────────────────── PROJECTS (case studies) ───────────────────────────
+  - name: projects
+    label: Projects (case studies)
+    type: collection
+    path: new-live-site-design/_build/content/projects
+    filename: '{fields.slug}.json'
+    view:
+      fields: [slug, order]
+      sort: [order, slug]
+    fields:
+      - { name: slug, label: Slug (URL id — page = project-<slug>.html), type: string, required: true }
+      - { name: order, label: Order, type: number, default: 99 }
+      - { name: img, label: Hero image, type: image }
+      - name: en
+        label: English
+        type: object
+        fields:
+          - { name: name, label: Project name, type: string, required: true }
+          - { name: client, label: Client, type: string }
+          - { name: sector, label: Sector, type: string }
+          - { name: city, label: City, type: string }
+          - { name: completed, label: Completed (e.g. 2024), type: string }
+          - { name: date_iso, label: Completed date (ISO, optional), type: string }
+          - { name: scope, label: Scope (one line), type: string }
+          - { name: lede, label: Intro paragraph, type: text }
+          - name: sections
+            label: Narrative sections
+            type: object
+            list: true
+            fields:
+              - { name: h, label: Heading, type: string }
+              - { name: ps, label: Paragraphs, type: text, list: true }
+          - { name: kit, label: Systems delivered (chips), type: string, list: true }
+          - name: gallery
+            label: Photo gallery
+            type: object
+            list: true
+            fields:
+              - { name: img, label: Photo, type: image }
+              - { name: cap, label: Caption, type: string }
+      - name: ar
+        label: العربية / Arabic (first draft — needs native review)
+        type: object
+        fields:
+          - { name: name, label: اسم المشروع / Project name, type: string }
+          - { name: client, label: العميل / Client, type: string }
+          - { name: sector, label: القطاع / Sector, type: string }
+          - { name: city, label: المدينة / City, type: string }
+          - { name: completed, label: سنة الإنجاز / Completed, type: string }
+          - { name: date_iso, label: تاريخ الإنجاز (ISO) / Completed date, type: string }
+          - { name: scope, label: النطاق / Scope, type: string }
+          - { name: lede, label: المقدمة / Intro, type: text }
+          - name: sections
+            label: أقسام السرد / Narrative sections
+            type: object
+            list: true
+            fields:
+              - { name: h, label: العنوان / Heading, type: string }
+              - { name: ps, label: الفقرات / Paragraphs, type: text, list: true }
+          - { name: kit, label: الأنظمة المُنفّذة / Systems delivered, type: string, list: true }
+          - name: gallery
+            label: معرض الصور / Photo gallery
+            type: object
+            list: true
+            fields:
+              - { name: img, label: الصورة / Photo, type: image }
+              - { name: cap, label: التعليق / Caption, type: string }
+
+  # ─────────────────────────── PRODUCTS ───────────────────────────
+  - name: products
+    label: Products
+    type: collection
+    path: new-live-site-design/_build/content/products
+    filename: '{fields.sku}.json'
+    view:
+      fields: [sku, n, b, c]
+      sort: [order, sku]
+    fields:
+      - { name: sku, label: SKU / model code, type: string, required: true }
+      - { name: order, label: Order, type: number, default: 99 }
+      - { name: n, label: Name / description, type: string }
+      - { name: b, label: Brand, type: string }
+      - { name: c, label: Category, type: string }
+      - { name: g, label: Group (e.g. switch, camera), type: string }
+      - { name: avail, label: Availability, type: select, options: { values: [stock, lead] } }
+      - { name: lead, label: Lead time in days (only if availability = lead), type: number }
+      - name: specs
+        label: Specifications
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Spec, type: string }
+          - { name: value, label: Value, type: string }

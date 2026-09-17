@@ -1,0 +1,23 @@
+{
+ "sku": "DTP3 T 331",
+ "n": "DTP3 T 331 HDMI twisted pair transmitter",
+ "b": "Extron",
+ "c": "Audio visual",
+ "g": "extender",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4K60"
+  },
+  {
+   "label": "Transport",
+   "value": "Shielded CATx"
+  },
+  {
+   "label": "Distance",
+   "value": "100 m"
+  }
+ ],
+ "order": 20
+}

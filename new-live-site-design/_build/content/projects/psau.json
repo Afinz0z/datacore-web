@@ -1,0 +1,119 @@
+{
+ "slug": "psau",
+ "order": 2,
+ "img": "assets1/images/dc-proj-psau.jpg",
+ "en": {
+  "name": "Smart classrooms across the PSAU campus",
+  "client": "Prince Sattam bin Abdulaziz University",
+  "sector": "Education",
+  "city": "Al-Kharj, Saudi Arabia",
+  "partner": "with ARCOM",
+  "scope": "Multi-building campus rollout",
+  "lede": "A campus-wide upgrade of classrooms, meeting rooms and an auditorium to an advanced, interactive audio-visual level — delivered by Datacore with ARCOM.",
+  "sections": [
+   {
+    "h": "Background",
+    "ps": [
+     "Prince Sattam bin Abdulaziz University set out to upgrade its classrooms, meeting spaces and auditorium across two buildings to an advanced, interactive AV level, so students and faculty could work together smoothly. Datacore delivered it in partnership with Arabian Computer Supplies (ARCOM)."
+    ]
+   },
+   {
+    "h": "The challenge",
+    "ps": [
+     "Assigning wireless-microphone frequencies across more than 65 classrooms and meeting rooms in a two-storey building takes long-term planning. Digital signage had to run over the existing network, power and cabling had to reach an occupied building without disturbing finished interiors, and everything had to be ready before term restarted."
+    ]
+   },
+   {
+    "h": "The solution",
+    "ps": [
+     "Classrooms received smart interactive displays with built-in OPS PCs, wireless head-worn and hand-held microphones and ceiling-array microphones for unified communications. The auditorium centres on a fine-pitch 2.5 mm LED video wall with recording and playback, a digital podium, motorised curtains and acoustic fit-out.",
+     "Digital signage is published centrally from a remote server across the building's lobbies, integrated with the university's existing Arabic-capable system."
+    ]
+   },
+   {
+    "h": "The result",
+    "ps": [
+     "Flexible, interactive teaching and meeting spaces with unified communications in every room, centrally managed signage, and better collaboration for students and faculty across the campus."
+    ]
+   }
+  ],
+  "kit": [
+   "Interactive displays + OPS PC",
+   "Ceiling-array microphones",
+   "2.5 mm LED video wall",
+   "Digital signage",
+   "UC solution"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-psau-3.jpg",
+    "cap": "Fine-pitch 2.5 mm LED video wall in the auditorium"
+   },
+   {
+    "img": "assets1/images/dc-proj-psau-2.jpg",
+    "cap": "The campus building"
+   },
+   {
+    "img": "assets1/images/dc-proj-psau-4.jpg",
+    "cap": "Centrally published digital signage in the lobby"
+   }
+  ]
+ },
+ "ar": {
+  "name": "فصول ذكية في حرم جامعة الأمير سطام",
+  "client": "جامعة الأمير سطام بن عبدالعزيز",
+  "sector": "التعليم",
+  "city": "الخرج، السعودية",
+  "partner": "بالتعاون مع ARCOM",
+  "scope": "تنفيذ على مستوى الحرم متعدد المباني",
+  "lede": "تطوير شامل للفصول وقاعات الاجتماعات والمسرح إلى مستوى صوتي ومرئي تفاعلي متقدّم — نفّذته داتاكور بالتعاون مع ARCOM.",
+  "sections": [
+   {
+    "h": "الخلفية",
+    "ps": [
+     "عزمت جامعة الأمير سطام بن عبدالعزيز على تطوير فصولها ومساحات اجتماعاتها ومسرحها في مبنيين إلى مستوى صوتي ومرئي تفاعلي متقدّم، بما يتيح تعاونًا سلسًا بين الطلاب وأعضاء هيئة التدريس. نفّذت داتاكور المشروع بالشراكة مع شركة الحاسبات العربية (ARCOM)."
+    ]
+   },
+   {
+    "h": "التحدّي",
+    "ps": [
+     "توزيع ترددات المايكروفونات اللاسلكية على أكثر من 65 فصلًا وقاعة اجتماعات في مبنى من طابقين يتطلّب تخطيطًا بعيد المدى. كان على اللافتات الرقمية أن تعمل عبر الشبكة القائمة، وأن تصل الطاقة والكبلات إلى مبنى مأهول دون الإضرار بالتشطيبات، وأن يكون كل شيء جاهزًا قبل بدء الفصل الدراسي."
+    ]
+   },
+   {
+    "h": "الحل",
+    "ps": [
+     "زُوّدت الفصول بشاشات تفاعلية ذكية مع حواسيب OPS مدمجة، ومايكروفونات لاسلكية محمولة ومثبّتة على الرأس، ومايكروفونات مصفوفة سقفية للاتصالات الموحّدة. يتمحور المسرح حول جدار فيديو LED دقيق الخطوة 2.5 مم مع تسجيل وإعادة تشغيل، ومنصّة رقمية، وستائر آلية وتجهيزٍ صوتي.",
+     "تُنشر اللافتات الرقمية مركزيًا من خادمٍ بعيد عبر بهو المبنى، متكاملة مع نظام الجامعة القائم الداعم للعربية."
+    ]
+   },
+   {
+    "h": "النتيجة",
+    "ps": [
+     "مساحات تعليم واجتماعات مرنة وتفاعلية باتصالات موحّدة في كل غرفة، ولافتات تُدار مركزيًا، وتعاونٌ أفضل بين الطلاب وهيئة التدريس عبر الحرم."
+    ]
+   }
+  ],
+  "kit": [
+   "شاشات تفاعلية + حاسوب OPS",
+   "مايكروفونات مصفوفة سقفية",
+   "جدار فيديو LED 2.5 مم",
+   "لافتات رقمية",
+   "حل اتصالات موحّدة"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-psau-3.jpg",
+    "cap": "جدار فيديو LED دقيق الخطوة 2.5 مم في المسرح"
+   },
+   {
+    "img": "assets1/images/dc-proj-psau-2.jpg",
+    "cap": "مبنى الحرم الجامعي"
+   },
+   {
+    "img": "assets1/images/dc-proj-psau-4.jpg",
+    "cap": "لافتات رقمية تُنشر مركزيًا في البهو"
+   }
+  ]
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "sku": "CN2-42U-800",
+ "n": "Net-Access N-Type 42U cabinet, 800 x 1000 mm",
+ "b": "Panduit",
+ "c": "Structured cabling",
+ "g": "rack",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Height",
+   "value": "42U"
+  },
+  {
+   "label": "Width",
+   "value": "800 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "1000 mm"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP20"
+  }
+ ],
+ "order": 33
+}

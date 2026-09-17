@@ -1,0 +1,28 @@
+{
+ "sku": "BIOSTATION-3",
+ "n": "Suprema BioStation 3 face recognition terminal",
+ "b": "Suprema",
+ "c": "Access control",
+ "g": "reader",
+ "avail": "lead",
+ "lead": 15,
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Face / card / mobile"
+  },
+  {
+   "label": "Form",
+   "value": "Wall"
+  },
+  {
+   "label": "Keypad",
+   "value": "Touchscreen"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP65"
+  }
+ ],
+ "order": 16
+}

@@ -82,7 +82,18 @@ GAL_IMG = [
 # case-study detail pages — slugs index-aligned with proj[] / PROJ_IMG
 CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium',
              '', '', '', '', '', '', '']   # 7 showcase cards from the portfolio decks: image+detail, no dedicated case page
-CASES = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "cases.json"), encoding="utf-8"))
+def _load_cases():
+    """Project case studies are one file each under content/projects/<slug>.json
+    ({slug, order, img (full assets1/images/ path), en, ar}). Rebuild the
+    {slug: {img, en, ar}} dict build_case() expects."""
+    import glob
+    d = os.path.dirname(os.path.abspath(__file__))
+    cases = {}
+    for f in glob.glob(os.path.join(d, "content", "projects", "*.json")):
+        e = json.load(open(f, encoding="utf-8"))
+        cases[e["slug"]] = {"img": e.get("img", ""), "en": e.get("en", {}), "ar": e.get("ar", {})}
+    return cases
+CASES = _load_cases()
 FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "faq.json"), encoding="utf-8"))
 GLOSSARY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "glossary.json"), encoding="utf-8"))
 def _load_insights():
@@ -668,7 +679,7 @@ def build_case(slug, ar):
     hero = (f'<section class="dcp-hero"><div class="dcp-wrap">{crumb}'
             f'<h1>{E(c["name"])}</h1><p class="dcp-lede">{E(c["lede"])}</p></div></section>')
     photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
-             f'<img src="assets1/images/{C["img"]}" alt="{esc(c["name"])}" fetchpriority="high" decoding="async" width="1200" height="750">'
+             f'<img src="{C["img"]}" alt="{esc(c["name"])}" fetchpriority="high" decoding="async" width="1200" height="750">'
              f'</figure></div></section>')
     # "At a glance" facts — styled inline so no new CSS / VER bump is needed
     facts = [(U['client'], c.get('client')), (U['sector'], c.get('sector')), (U['location'], c.get('city'))]
@@ -695,7 +706,7 @@ def build_case(slug, ar):
                 f'<aside class="dcp-aside">{glance}</aside></div></div></section>')
     gal = ''
     if c.get('gallery'):
-        figs = ''.join(f'<figure><img src="assets1/images/{g["img"]}" alt="{esc(g["cap"])}" '
+        figs = ''.join(f'<figure><img src="{g["img"]}" alt="{esc(g["cap"])}" '
                        f'loading="lazy" decoding="async" width="1100" height="700"><figcaption>{E(g["cap"])}</figcaption></figure>'
                        for g in c['gallery'])
         gal = (f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
@@ -704,7 +715,7 @@ def build_case(slug, ar):
     schema = {"@context": "https://schema.org", "@type": "CreativeWork", "name": c["name"],
               "about": c.get("client"), "creator": {"@id": SITE + "/#org"},
               "publisher": {"@id": SITE + "/#org"},
-              "image": SITE + "/assets1/images/" + C["img"], "inLanguage": lang}
+              "image": SITE + "/" + C["img"], "inLanguage": lang}
     if c.get("date_iso"): schema["datePublished"] = c["date_iso"]
     head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
     title = c["name"] + (" | داتاكور للحلول" if ar else " | Datacore Solutions")

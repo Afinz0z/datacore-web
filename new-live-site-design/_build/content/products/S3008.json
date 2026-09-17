@@ -1,0 +1,23 @@
+{
+ "sku": "S3008",
+ "n": "AXIS S3008 recorder, 8 TB",
+ "b": "Axis",
+ "c": "Surveillance",
+ "g": "recorder",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "8"
+  },
+  {
+   "label": "Storage",
+   "value": "8 TB"
+  },
+  {
+   "label": "PoE",
+   "value": "120W switch built in"
+  }
+ ],
+ "order": 14
+}

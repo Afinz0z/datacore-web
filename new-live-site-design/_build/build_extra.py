@@ -178,8 +178,9 @@ for slug in ["owis", "aou-council", "psau", "taqeem", "auditorium"]:
     urls += ["project-" + slug + ".html", "project-" + slug + "-ar.html"]
 import glob as _glob
 _ins_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content", "insights")
-for _f in _glob.glob(os.path.join(_ins_dir, "*.json")):
-    _slug = os.path.splitext(os.path.basename(_f))[0]
+_ins = [(json.load(open(_f, encoding="utf-8")).get("order", 9999),
+         os.path.splitext(os.path.basename(_f))[0]) for _f in _glob.glob(os.path.join(_ins_dir, "*.json"))]
+for _o, _slug in sorted(_ins):
     urls += ["insight-" + _slug + ".html", "insight-" + _slug + "-ar.html"]
 for slug in ["av-solutions-provider-saudi-arabia", "elv-low-current-systems-saudi-arabia",
              "network-solutions-provider-riyadh", "structured-cabling-company-riyadh",

@@ -1,0 +1,31 @@
+{
+ "sku": "DS-2DE7A425IW-AEB",
+ "n": "4MP 25x IR network speed dome PTZ",
+ "b": "Hikvision",
+ "c": "Surveillance",
+ "g": "camera",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4 MP"
+  },
+  {
+   "label": "Type",
+   "value": "PTZ"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66"
+  },
+  {
+   "label": "Zoom",
+   "value": "25x optical"
+  },
+  {
+   "label": "PoE",
+   "value": "Hi-PoE"
+  }
+ ],
+ "order": 9
+}

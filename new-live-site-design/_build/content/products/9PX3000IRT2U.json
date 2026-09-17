@@ -1,0 +1,28 @@
+{
+ "sku": "9PX3000IRT2U",
+ "n": "Eaton 9PX 3000VA rack/tower online UPS",
+ "b": "Eaton",
+ "c": "Power",
+ "g": "ups",
+ "avail": "lead",
+ "lead": 16,
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "3 kVA"
+  },
+  {
+   "label": "Topology",
+   "value": "Double conversion"
+  },
+  {
+   "label": "Phase",
+   "value": "Single"
+  },
+  {
+   "label": "Rack",
+   "value": "2U"
+  }
+ ],
+ "order": 36
+}

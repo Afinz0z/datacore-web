@@ -1,0 +1,28 @@
+{
+ "sku": "55VH7J-H",
+ "n": "55-inch VH7J-H video wall display, 0.44 mm bezel",
+ "b": "LG",
+ "c": "Audio visual",
+ "g": "display",
+ "avail": "lead",
+ "lead": 24,
+ "specs": [
+  {
+   "label": "Size",
+   "value": "55 inch"
+  },
+  {
+   "label": "Resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Brightness",
+   "value": "500 nit"
+  },
+  {
+   "label": "Duty",
+   "value": "24/7"
+  }
+ ],
+ "order": 26
+}

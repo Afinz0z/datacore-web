@@ -1,0 +1,27 @@
+{
+ "sku": "SIGNO-20K",
+ "n": "HID Signo 20 keypad smart card reader",
+ "b": "HID",
+ "c": "Access control",
+ "g": "reader",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Seos / MIFARE / NFC"
+  },
+  {
+   "label": "Form",
+   "value": "Mullion"
+  },
+  {
+   "label": "Keypad",
+   "value": "Yes"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP65"
+  }
+ ],
+ "order": 15
+}

@@ -8,7 +8,25 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER, SITE
 
 DATA = os.path.dirname(os.path.abspath(__file__))  # data files bundled in _build/
-PRODUCTS = json.load(open(os.path.join(DATA, "products.json"), encoding="utf-8"))
+def _load_products():
+    """Products are one file each under content/products/<sku>.json (specs as a
+    list of {label,value} for CMS editing). Rebuild the flat list the catalogue
+    JS + schema expect (specs back to a dict, original order)."""
+    import glob
+    d = os.path.dirname(os.path.abspath(__file__))
+    items = [json.load(open(f, encoding="utf-8"))
+             for f in glob.glob(os.path.join(d, "content", "products", "*.json"))]
+    items.sort(key=lambda e: (e.get("order", 9999), str(e.get("sku", ""))))
+    out = []
+    for e in items:
+        prod = {}
+        for k, v in e.items():           # preserve original key order + all fields
+            if k == "order":
+                continue
+            prod[k] = {s["label"]: s["value"] for s in v} if k == "specs" else v
+        out.append(prod)
+    return out
+PRODUCTS = _load_products()
 GLYPHS = json.load(open(os.path.join(DATA, "glyphs.json"), encoding="utf-8"))
 
 # real product photos live at assets1/images/products/<sku>.<ext>; filenames

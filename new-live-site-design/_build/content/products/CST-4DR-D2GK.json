@@ -1,0 +1,23 @@
+{
+ "sku": "CST-4DR-D2GK",
+ "n": "CoreStation 4-door access control kit",
+ "b": "Suprema",
+ "c": "Access control",
+ "g": "controller",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Doors",
+   "value": "4"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Metal cabinet"
+  },
+  {
+   "label": "Comms",
+   "value": "TCP/IP"
+  }
+ ],
+ "order": 18
+}

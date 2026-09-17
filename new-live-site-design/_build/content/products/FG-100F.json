@@ -1,0 +1,24 @@
+{
+ "sku": "FG-100F",
+ "n": "FortiGate 100F next-generation firewall",
+ "b": "Fortinet",
+ "c": "Networking",
+ "g": "security",
+ "avail": "lead",
+ "lead": 14,
+ "specs": [
+  {
+   "label": "Throughput",
+   "value": "20 Gbps"
+  },
+  {
+   "label": "Ports",
+   "value": "22"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 6
+}

@@ -1,0 +1,31 @@
+{
+ "sku": "USW-PRO-48-POE",
+ "n": "UniFi Switch Pro 48 PoE",
+ "b": "Ubiquiti",
+ "c": "Networking",
+ "g": "switch",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "PoE",
+   "value": "PoE+ 600W"
+  },
+  {
+   "label": "Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Uplinks",
+   "value": "4 x 25G SFP28"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 3
+}

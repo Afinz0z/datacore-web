@@ -1,0 +1,32 @@
+{
+ "sku": "MS130-24P-HW",
+ "n": "Meraki MS130 24-port PoE cloud-managed switch",
+ "b": "Cisco",
+ "c": "Networking",
+ "g": "switch",
+ "avail": "lead",
+ "lead": 30,
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "PoE",
+   "value": "PoE+ 370W"
+  },
+  {
+   "label": "Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Uplinks",
+   "value": "4 x 10G SFP+"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 7
+}

@@ -1,0 +1,23 @@
+{
+ "sku": "LC1-UM24E8",
+ "n": "24W metal ceiling loudspeaker, EN 54-24",
+ "b": "Bosch",
+ "c": "Public address",
+ "g": "speaker",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Power",
+   "value": "24 W"
+  },
+  {
+   "label": "Standard",
+   "value": "EN 54-24"
+  },
+  {
+   "label": "Mount",
+   "value": "Ceiling flush"
+  }
+ ],
+ "order": 29
+}
