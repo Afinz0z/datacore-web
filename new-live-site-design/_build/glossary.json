@@ -1,52 +1,304 @@
 {
-  "en": {
-    "title": "Glossary of ELV, AV & ICT terms | Datacore Solutions",
-    "h1": "Glossary",
-    "lede": "Plain-language definitions of the low-current, audio-visual and IT terms used across our services — so a specification reads clearly whoever is in the room.",
-    "terms": [
-      ["ELV (Extra-Low Voltage)", "The low-current systems in a building — data networks, audio-visual, CCTV, access control, public address and fire alarm — that run on extra-low voltage rather than mains power. Datacore designs, installs and maintains them as a single integrator."],
-      ["Structured cabling", "A standardised, organised cabling system — to standards such as TIA-568 and ISO/IEC 11801 — that carries data, voice and video across a building on one common infrastructure, so any outlet can serve any service."],
-      ["Fibre optic", "Cabling that carries data as pulses of light through glass strands, giving very high bandwidth, low latency and long reach — used for backbones between floors, buildings and data centres."],
-      ["Network infrastructure", "The switches, routers, wireless access points and cabling that move data around an organisation — the foundation every other ELV and IT service runs on."],
-      ["Data centre", "A controlled facility that houses servers, storage and network equipment, with the power, cooling, cabling and physical security needed to keep them running reliably."],
-      ["CCTV / video surveillance", "Closed-circuit television: networked cameras and recording that let an organisation monitor and review activity across a site for safety and security."],
-      ["Access control", "Systems that decide who may enter which doors and areas — by card, PIN or biometrics — and keep an audit trail of every entry event."],
-      ["Public Address & Voice Alarm (PA/VA)", "Loudspeaker systems that deliver everyday announcements and, in an emergency, clear voice-evacuation messages. Life-safety PA/VA is designed to standards such as EN 54."],
-      ["Fire alarm system", "Detectors, call points, control panels and sounders that detect fire early and alert occupants; these commonly integrate with voice evacuation to standards such as EN 54."],
-      ["Audio-visual (AV)", "The displays, projectors, speakers, microphones, cameras and control systems that let people present, hear and collaborate in meeting rooms, auditoriums and public spaces."],
-      ["Video wall", "An array of tiled displays or fine-pitch LED panels that act as one large screen for control rooms, auditoriums, lobbies and digital signage."],
-      ["Digital signage", "Centrally-managed screens that show scheduled content — wayfinding, announcements, advertising — across a site from one content-management platform."],
-      ["IPTV", "Internet Protocol Television: live TV and video-on-demand delivered over a building's own data network, with centralised content management, instead of over aerials or coax."],
-      ["AV over IP", "Distributing audio and video as network data over standard IT infrastructure, so sources and displays can be matrixed flexibly across a building rather than wired point-to-point."],
-      ["Unified Communications (UC)", "Bringing voice, video, messaging and conferencing into one experience — often with room systems and BYOD connectivity so any device can join a meeting."],
-      ["BYOD (Bring Your Own Device)", "Room and network design that lets people connect and present from their own laptop or phone — wirelessly or with a single cable."],
-      ["UPS (Uninterruptible Power Supply)", "Battery-backed power that keeps critical equipment running through outages and rides through the switch to generator power."],
-      ["AMC (Annual Maintenance Contract)", "A service agreement combining scheduled preventive maintenance, proactive monitoring and response-time-backed support after a system is handed over."]
-    ]
-  },
-  "ar": {
-    "title": "مسرد مصطلحات التيار المنخفض والصوت والصورة وتقنية المعلومات | داتاكور للحلول",
-    "h1": "مسرد المصطلحات",
-    "lede": "تعريفات مبسّطة لمصطلحات التيار المنخفض والأنظمة السمعية والبصرية وتقنية المعلومات المستخدمة عبر خدماتنا — لتكون المواصفات واضحة لكل من في الاجتماع.",
-    "terms": [
-      ["التيار المنخفض (ELV)", "أنظمة التيار المنخفض في المبنى — شبكات البيانات، والأنظمة السمعية والبصرية، وكاميرات المراقبة، والتحكم في الدخول، والنداء العام وإنذار الحريق — التي تعمل بجهد منخفض جدًا بدل تيار الكهرباء الرئيسي. تصمّمها داتاكور وتركّبها وتصونها كمكاملٍ واحد."],
-      ["الكابلات المهيكلة", "نظام كابلات منظّم وموحّد — وفق معايير مثل TIA-568 وISO/IEC 11801 — ينقل البيانات والصوت والصورة عبر المبنى على بنية تحتية واحدة مشتركة، بحيث يخدم أي منفذٍ أي خدمة."],
-      ["الألياف الضوئية", "كابلات تنقل البيانات كنبضات ضوئية عبر خيوط زجاجية، فتمنح سعةً عالية جدًا وزمن استجابة منخفض ومدى طويل — تُستخدم كعمودٍ فقري بين الطوابق والمباني ومراكز البيانات."],
-      ["البنية التحتية للشبكات", "المبدّلات والموجّهات ونقاط الوصول اللاسلكية والكابلات التي تنقل البيانات داخل المؤسسة — وهي الأساس الذي تعمل عليه كل خدمات التيار المنخفض وتقنية المعلومات الأخرى."],
-      ["مركز البيانات", "منشأة محكومة تضم الخوادم والتخزين ومعدّات الشبكة، مع ما يلزم من طاقة وتبريد وكابلات وأمنٍ مادي لإبقائها تعمل بموثوقية."],
-      ["المراقبة بالكاميرات (CCTV)", "دائرة تلفزيونية مغلقة: كاميرات وتسجيل عبر الشبكة تتيح للمؤسسة مراقبة النشاط عبر الموقع ومراجعته لأغراض السلامة والأمن."],
-      ["التحكم في الدخول", "أنظمة تحدّد مَن يدخل أي الأبواب والمناطق — بالبطاقة أو الرمز أو السمات الحيوية — وتحتفظ بسجلٍ لكل حدث دخول."],
-      ["النداء العام وإنذار الصوت (PA/VA)", "أنظمة مكبّرات صوت تنقل الإعلانات اليومية، وفي الطوارئ رسائل إخلاءٍ صوتية واضحة. تُصمَّم أنظمة السلامة منها وفق معايير مثل EN 54."],
-      ["نظام إنذار الحريق", "كواشف ونقاط نداء ولوحات تحكم وصفّارات تكشف الحريق مبكرًا وتنبّه الشاغلين؛ وتتكامل عادةً مع الإخلاء الصوتي وفق معايير مثل EN 54."],
-      ["الأنظمة السمعية والبصرية (AV)", "الشاشات وأجهزة العرض والسمّاعات والميكروفونات والكاميرات وأنظمة التحكم التي تتيح للناس العرض والاستماع والتعاون في قاعات الاجتماعات والمسارح والأماكن العامة."],
-      ["جدار الفيديو", "مصفوفة من الشاشات المتجاورة أو ألواح LED دقيقة البكسل تعمل كشاشةٍ واحدة كبيرة لغرف التحكم والمسارح والبهو واللافتات الرقمية."],
-      ["اللافتات الرقمية", "شاشات مُدارة مركزيًا تعرض محتوى مجدولًا — إرشاد المسار والإعلانات والدعاية — عبر الموقع من منصّة إدارة محتوى واحدة."],
-      ["IPTV", "تلفزيون بروتوكول الإنترنت: بثٌّ تلفزيوني حي وفيديو حسب الطلب عبر شبكة بيانات المبنى نفسها، بإدارة محتوى مركزية، بدلًا من الهوائيات أو الكابل المحوري."],
-      ["الصوت والصورة عبر الشبكة (AV over IP)", "توزيع الصوت والصورة كبيانات شبكة عبر بنية تقنية المعلومات القياسية، بحيث يمكن ربط المصادر والشاشات بمرونة عبر المبنى بدل التوصيل من نقطة إلى نقطة."],
-      ["الاتصالات الموحّدة (UC)", "دمج الصوت والفيديو والمراسلة والمؤتمرات في تجربةٍ واحدة — غالبًا مع أنظمة القاعات وربط BYOD بحيث ينضم أي جهاز إلى الاجتماع."],
-      ["إحضار جهازك الخاص (BYOD)", "تصميم القاعة والشبكة بحيث يتمكّن الأشخاص من الاتصال والعرض من حواسيبهم أو هواتفهم — لاسلكيًا أو بكابلٍ واحد."],
-      ["مزوّد الطاقة غير المنقطعة (UPS)", "طاقة مدعومة ببطاريات تُبقي المعدّات الحرجة تعمل خلال انقطاع التيار وتجتاز لحظة التحوّل إلى طاقة المولّد."],
-      ["عقد الصيانة السنوية (AMC)", "اتفاقية خدمة تجمع بين الصيانة الوقائية المجدولة والمراقبة الاستباقية والدعم المدعوم بزمن استجابة بعد تسليم النظام."]
-    ]
-  }
+ "en": {
+  "title": "Glossary of ELV, AV & ICT terms | Datacore Solutions",
+  "h1": "Glossary",
+  "lede": "Plain-language definitions of the low-current, audio-visual and IT terms used across our services — so a specification reads clearly whoever is in the room.",
+  "terms": [
+   [
+    "ELV (Extra-Low Voltage)",
+    "The low-current systems in a building — data networks, audio-visual, CCTV, access control, public address and fire alarm — that run on extra-low voltage rather than mains power. Datacore designs, installs and maintains them as a single integrator."
+   ],
+   [
+    "Structured cabling",
+    "A standardised, organised cabling system — to standards such as TIA-568 and ISO/IEC 11801 — that carries data, voice and video across a building on one common infrastructure, so any outlet can serve any service."
+   ],
+   [
+    "Fibre optic",
+    "Cabling that carries data as pulses of light through glass strands, giving very high bandwidth, low latency and long reach — used for backbones between floors, buildings and data centres."
+   ],
+   [
+    "Network infrastructure",
+    "The switches, routers, wireless access points and cabling that move data around an organisation — the foundation every other ELV and IT service runs on."
+   ],
+   [
+    "Data centre",
+    "A controlled facility that houses servers, storage and network equipment, with the power, cooling, cabling and physical security needed to keep them running reliably."
+   ],
+   [
+    "CCTV / video surveillance",
+    "Closed-circuit television: networked cameras and recording that let an organisation monitor and review activity across a site for safety and security."
+   ],
+   [
+    "Access control",
+    "Systems that decide who may enter which doors and areas — by card, PIN or biometrics — and keep an audit trail of every entry event."
+   ],
+   [
+    "Public Address & Voice Alarm (PA/VA)",
+    "Loudspeaker systems that deliver everyday announcements and, in an emergency, clear voice-evacuation messages. Life-safety PA/VA is designed to standards such as EN 54."
+   ],
+   [
+    "Fire alarm system",
+    "Detectors, call points, control panels and sounders that detect fire early and alert occupants; these commonly integrate with voice evacuation to standards such as EN 54."
+   ],
+   [
+    "Audio-visual (AV)",
+    "The displays, projectors, speakers, microphones, cameras and control systems that let people present, hear and collaborate in meeting rooms, auditoriums and public spaces."
+   ],
+   [
+    "Video wall",
+    "An array of tiled displays or fine-pitch LED panels that act as one large screen for control rooms, auditoriums, lobbies and digital signage."
+   ],
+   [
+    "Digital signage",
+    "Centrally-managed screens that show scheduled content — wayfinding, announcements, advertising — across a site from one content-management platform."
+   ],
+   [
+    "IPTV",
+    "Internet Protocol Television: live TV and video-on-demand delivered over a building's own data network, with centralised content management, instead of over aerials or coax."
+   ],
+   [
+    "AV over IP",
+    "Distributing audio and video as network data over standard IT infrastructure, so sources and displays can be matrixed flexibly across a building rather than wired point-to-point."
+   ],
+   [
+    "Unified Communications (UC)",
+    "Bringing voice, video, messaging and conferencing into one experience — often with room systems and BYOD connectivity so any device can join a meeting."
+   ],
+   [
+    "BYOD (Bring Your Own Device)",
+    "Room and network design that lets people connect and present from their own laptop or phone — wirelessly or with a single cable."
+   ],
+   [
+    "UPS (Uninterruptible Power Supply)",
+    "Battery-backed power that keeps critical equipment running through outages and rides through the switch to generator power."
+   ],
+   [
+    "AMC (Annual Maintenance Contract)",
+    "A service agreement combining scheduled preventive maintenance, proactive monitoring and response-time-backed support after a system is handed over."
+   ],
+   [
+    "PoE (Power over Ethernet)",
+    "Delivering electrical power and data over the same Ethernet cable, so IP cameras, wireless access points and IP phones need no separate power outlet. Standardised as IEEE 802.3af/at/bt; PoE++ (802.3bt) supplies up to about 90W per port."
+   ],
+   [
+    "Cat 6A",
+    "A twisted-pair copper cabling grade that carries 10 Gigabit Ethernet over the full 100-metre run, with better shielding against crosstalk than Cat 6. The common specification for new enterprise structured cabling."
+   ],
+   [
+    "Patch panel",
+    "A passive panel in a communications rack where the fixed horizontal cabling is terminated, so equipment can be connected and re-patched with short cords instead of re-running cable."
+   ],
+   [
+    "MDF / IDF",
+    "Main and Intermediate Distribution Frames — the primary and satellite communications rooms of a cabling design. The MDF holds the core equipment; IDFs are floor or zone closets linked back to it by backbone cabling."
+   ],
+   [
+    "PDU (Power Distribution Unit)",
+    "A rack-mounted strip that distributes power to the equipment in a server rack. Managed PDUs also meter and switch each outlet for remote monitoring in a data centre."
+   ],
+   [
+    "Precision cooling (CRAC / CRAH)",
+    "Close-control air conditioning that holds the tight temperature and humidity a data hall needs. CRAC (Computer Room Air Conditioner) and CRAH (Air Handler) units replace comfort cooling, which cannot maintain those tolerances."
+   ],
+   [
+    "Hot & cold aisle containment",
+    "A rack layout that keeps cold supply air and hot exhaust air apart by enclosing one or both aisles, so they never mix. It sharply raises cooling efficiency and usable capacity."
+   ],
+   [
+    "N+1 redundancy",
+    "A resilience approach with one more unit than the load needs (N), so any single component — a UPS, generator or cooling unit — can fail or be serviced with no interruption. The basis of a concurrently maintainable facility."
+   ],
+   [
+    "Data centre tier",
+    "The Uptime Institute's I–IV rating of a facility's physical resilience. Tier III (concurrently maintainable) and Tier IV (fault-tolerant) are the enterprise targets; the tier sets the redundancy of power, cooling and distribution paths."
+   ],
+   [
+    "ONVIF",
+    "An open standard that lets IP cameras, recorders and video-management software from different makers interoperate. Specifying ONVIF compliance avoids being locked to one vendor's surveillance ecosystem."
+   ],
+   [
+    "NVR (Network Video Recorder)",
+    "A unit that records and stores footage from IP cameras across the network — as opposed to a DVR, which digitises analogue camera feeds. The recording core of a modern IP-CCTV system."
+   ],
+   [
+    "VMS (Video Management System)",
+    "The software that runs an IP surveillance system: live view, recording, search, analytics and operator permissions across many cameras and sites from one console."
+   ],
+   [
+    "Biometric access",
+    "Access control that verifies a person by a physical trait — fingerprint, face or iris — rather than a card or PIN, so the credential can't be shared or lost. Often paired with a card for two-factor entry."
+   ],
+   [
+    "Wi-Fi 6 (802.11ax)",
+    "The current mainstream wireless-LAN generation, built for dense spaces: higher throughput and far better behaviour when many devices share one access point, compared with Wi-Fi 5."
+   ],
+   [
+    "VLAN (Virtual LAN)",
+    "A logical split of one physical network into separate segments, so (for example) CCTV, voice and office traffic stay isolated from each other over the same switches, for security and performance."
+   ],
+   [
+    "EN 54",
+    "The European standard series for fire detection and alarm systems, including voice-alarm equipment (EN 54-16 / -24). Widely referenced in the Gulf; EN 54 certification is a common requirement for voice-evacuation gear."
+   ],
+   [
+    "SBC 801",
+    "The fire-protection part of the Saudi Building Code. It governs fire-alarm and voice-evacuation design in the Kingdom, alongside Civil Defense approval, and is the local code an ELV contractor's life-safety work must meet."
+   ],
+   [
+    "Pixel pitch",
+    "The gap in millimetres between neighbouring LEDs on a video wall. A smaller pitch (say 1.5mm) gives a sharper image and a closer comfortable viewing distance, at a higher cost per square metre."
+   ]
+  ]
+ },
+ "ar": {
+  "title": "مسرد مصطلحات التيار المنخفض والصوت والصورة وتقنية المعلومات | داتاكور للحلول",
+  "h1": "مسرد المصطلحات",
+  "lede": "تعريفات مبسّطة لمصطلحات التيار المنخفض والأنظمة السمعية والبصرية وتقنية المعلومات المستخدمة عبر خدماتنا — لتكون المواصفات واضحة لكل من في الاجتماع.",
+  "terms": [
+   [
+    "التيار المنخفض (ELV)",
+    "أنظمة التيار المنخفض في المبنى — شبكات البيانات، والأنظمة السمعية والبصرية، وكاميرات المراقبة، والتحكم في الدخول، والنداء العام وإنذار الحريق — التي تعمل بجهد منخفض جدًا بدل تيار الكهرباء الرئيسي. تصمّمها داتاكور وتركّبها وتصونها كمكاملٍ واحد."
+   ],
+   [
+    "الكابلات المهيكلة",
+    "نظام كابلات منظّم وموحّد — وفق معايير مثل TIA-568 وISO/IEC 11801 — ينقل البيانات والصوت والصورة عبر المبنى على بنية تحتية واحدة مشتركة، بحيث يخدم أي منفذٍ أي خدمة."
+   ],
+   [
+    "الألياف الضوئية",
+    "كابلات تنقل البيانات كنبضات ضوئية عبر خيوط زجاجية، فتمنح سعةً عالية جدًا وزمن استجابة منخفض ومدى طويل — تُستخدم كعمودٍ فقري بين الطوابق والمباني ومراكز البيانات."
+   ],
+   [
+    "البنية التحتية للشبكات",
+    "المبدّلات والموجّهات ونقاط الوصول اللاسلكية والكابلات التي تنقل البيانات داخل المؤسسة — وهي الأساس الذي تعمل عليه كل خدمات التيار المنخفض وتقنية المعلومات الأخرى."
+   ],
+   [
+    "مركز البيانات",
+    "منشأة محكومة تضم الخوادم والتخزين ومعدّات الشبكة، مع ما يلزم من طاقة وتبريد وكابلات وأمنٍ مادي لإبقائها تعمل بموثوقية."
+   ],
+   [
+    "المراقبة بالكاميرات (CCTV)",
+    "دائرة تلفزيونية مغلقة: كاميرات وتسجيل عبر الشبكة تتيح للمؤسسة مراقبة النشاط عبر الموقع ومراجعته لأغراض السلامة والأمن."
+   ],
+   [
+    "التحكم في الدخول",
+    "أنظمة تحدّد مَن يدخل أي الأبواب والمناطق — بالبطاقة أو الرمز أو السمات الحيوية — وتحتفظ بسجلٍ لكل حدث دخول."
+   ],
+   [
+    "النداء العام وإنذار الصوت (PA/VA)",
+    "أنظمة مكبّرات صوت تنقل الإعلانات اليومية، وفي الطوارئ رسائل إخلاءٍ صوتية واضحة. تُصمَّم أنظمة السلامة منها وفق معايير مثل EN 54."
+   ],
+   [
+    "نظام إنذار الحريق",
+    "كواشف ونقاط نداء ولوحات تحكم وصفّارات تكشف الحريق مبكرًا وتنبّه الشاغلين؛ وتتكامل عادةً مع الإخلاء الصوتي وفق معايير مثل EN 54."
+   ],
+   [
+    "الأنظمة السمعية والبصرية (AV)",
+    "الشاشات وأجهزة العرض والسمّاعات والميكروفونات والكاميرات وأنظمة التحكم التي تتيح للناس العرض والاستماع والتعاون في قاعات الاجتماعات والمسارح والأماكن العامة."
+   ],
+   [
+    "جدار الفيديو",
+    "مصفوفة من الشاشات المتجاورة أو ألواح LED دقيقة البكسل تعمل كشاشةٍ واحدة كبيرة لغرف التحكم والمسارح والبهو واللافتات الرقمية."
+   ],
+   [
+    "اللافتات الرقمية",
+    "شاشات مُدارة مركزيًا تعرض محتوى مجدولًا — إرشاد المسار والإعلانات والدعاية — عبر الموقع من منصّة إدارة محتوى واحدة."
+   ],
+   [
+    "IPTV",
+    "تلفزيون بروتوكول الإنترنت: بثٌّ تلفزيوني حي وفيديو حسب الطلب عبر شبكة بيانات المبنى نفسها، بإدارة محتوى مركزية، بدلًا من الهوائيات أو الكابل المحوري."
+   ],
+   [
+    "الصوت والصورة عبر الشبكة (AV over IP)",
+    "توزيع الصوت والصورة كبيانات شبكة عبر بنية تقنية المعلومات القياسية، بحيث يمكن ربط المصادر والشاشات بمرونة عبر المبنى بدل التوصيل من نقطة إلى نقطة."
+   ],
+   [
+    "الاتصالات الموحّدة (UC)",
+    "دمج الصوت والفيديو والمراسلة والمؤتمرات في تجربةٍ واحدة — غالبًا مع أنظمة القاعات وربط BYOD بحيث ينضم أي جهاز إلى الاجتماع."
+   ],
+   [
+    "إحضار جهازك الخاص (BYOD)",
+    "تصميم القاعة والشبكة بحيث يتمكّن الأشخاص من الاتصال والعرض من حواسيبهم أو هواتفهم — لاسلكيًا أو بكابلٍ واحد."
+   ],
+   [
+    "مزوّد الطاقة غير المنقطعة (UPS)",
+    "طاقة مدعومة ببطاريات تُبقي المعدّات الحرجة تعمل خلال انقطاع التيار وتجتاز لحظة التحوّل إلى طاقة المولّد."
+   ],
+   [
+    "عقد الصيانة السنوية (AMC)",
+    "اتفاقية خدمة تجمع بين الصيانة الوقائية المجدولة والمراقبة الاستباقية والدعم المدعوم بزمن استجابة بعد تسليم النظام."
+   ],
+   [
+    "PoE (الطاقة عبر الإيثرنت)",
+    "تمرير الطاقة الكهربائية والبيانات عبر كابل الإيثرنت نفسه، فلا تحتاج كاميرات IP ونقاط الوصول اللاسلكية وهواتف IP إلى مأخذ طاقة منفصل. مقنّن ضمن IEEE 802.3af/at/bt؛ ويوفّر PoE++ (802.3bt) نحو 90 واط لكل منفذ."
+   ],
+   [
+    "Cat 6A",
+    "درجة من كابلات النحاس المجدولة تنقل إيثرنت 10 جيجابت على كامل مسافة 100 متر، بحماية من التداخل أفضل من Cat 6. وهي المواصفة الشائعة للتمديدات الهيكلية الجديدة في المؤسسات."
+   ],
+   [
+    "لوحة التوصيل (Patch panel)",
+    "لوحة سلبية في خزانة الاتصالات تُنهى عندها الكابلات الأفقية الثابتة، فيمكن توصيل الأجهزة وإعادة ترتيبها بأسلاك قصيرة بدل إعادة تمديد الكابل."
+   ],
+   [
+    "MDF / IDF",
+    "إطارا التوزيع الرئيسي والفرعي — غرفتا الاتصالات الأساسية والفرعية في تصميم التمديدات. يحوي MDF المعدات الأساسية، وتُربط خزائن الأدوار أو المناطق (IDF) به بكابلات العمود الفقري."
+   ],
+   [
+    "PDU (وحدة توزيع الطاقة)",
+    "شريط مثبّت في الخزانة يوزّع الطاقة على معدات خزانة الخوادم. وتقيس وحدات PDU المُدارة كل منفذ وتتحكم به عن بُعد في مركز البيانات."
+   ],
+   [
+    "التبريد الدقيق (CRAC / CRAH)",
+    "تكييف دقيق التحكم يحافظ على درجة الحرارة والرطوبة الصارمة التي تحتاجها قاعة البيانات. وتحل وحدات CRAC وCRAH محل التبريد العادي الذي لا يحافظ على تلك الحدود."
+   ],
+   [
+    "احتواء الممرات الحارة والباردة",
+    "ترتيب للخزانات يفصل هواء التبريد البارد عن هواء العادم الحار باحتواء أحد الممرين أو كليهما، فلا يختلطان. يرفع كفاءة التبريد والسعة القابلة للاستخدام بشكل كبير."
+   ],
+   [
+    "التكرار N+1",
+    "نهج للمرونة بوحدة واحدة زائدة عن حاجة الحِمل (N)، فيمكن لأي مكوّن — UPS أو مولّد أو وحدة تبريد — أن يتعطّل أو يُصان دون انقطاع. وهو أساس المنشأة القابلة للصيانة المتزامنة."
+   ],
+   [
+    "فئة مركز البيانات",
+    "تصنيف معهد Uptime من I إلى IV لمرونة المنشأة المادية. وفئتا Tier III (قابلة للصيانة المتزامنة) وTier IV (متحمّلة للأعطال) هما هدف المؤسسات؛ وتحدد الفئة تكرار الطاقة والتبريد ومسارات التوزيع."
+   ],
+   [
+    "ONVIF",
+    "معيار مفتوح يتيح تشغيل كاميرات IP والمسجّلات وبرامج إدارة الفيديو من شركات مختلفة معاً. واشتراط توافق ONVIF يتجنّب الارتباط بنظام مراقبة مورّد واحد."
+   ],
+   [
+    "NVR (مسجّل فيديو شبكي)",
+    "وحدة تسجّل وتخزّن لقطات كاميرات IP عبر الشبكة — بخلاف DVR الذي يرقمن إشارات الكاميرات التناظرية. وهي نواة التسجيل في نظام CCTV الحديث القائم على IP."
+   ],
+   [
+    "VMS (نظام إدارة الفيديو)",
+    "البرنامج الذي يدير نظام المراقبة القائم على IP: العرض المباشر والتسجيل والبحث والتحليلات وصلاحيات المشغّلين عبر كاميرات ومواقع متعددة من واجهة واحدة."
+   ],
+   [
+    "الدخول بالسمات الحيوية",
+    "تحكم في الدخول يتحقق من الشخص بسمة مادية — بصمة أو وجه أو قزحية — بدل بطاقة أو رقم سري، فلا يمكن مشاركة الهوية أو فقدانها. ويُدمج غالباً مع بطاقة لدخول ثنائي العامل."
+   ],
+   [
+    "Wi-Fi 6 (802.11ax)",
+    "الجيل السائد الحالي من الشبكات اللاسلكية، مصمّم للبيئات المزدحمة: إنتاجية أعلى وأداء أفضل بكثير عند مشاركة عدة أجهزة لنقطة وصول واحدة، مقارنة بـ Wi-Fi 5."
+   ],
+   [
+    "VLAN (شبكة محلية افتراضية)",
+    "تقسيم منطقي لشبكة مادية واحدة إلى قطاعات منفصلة، فتبقى (مثلاً) حركة الكاميرات والصوت وبيانات المكاتب معزولة عن بعضها عبر المبدّلات نفسها، لأغراض الأمن والأداء."
+   ],
+   [
+    "EN 54",
+    "سلسلة المعايير الأوروبية لأنظمة كشف الحريق والإنذار، بما فيها معدات الإنذار الصوتي (EN 54-16 / -24). ويُشار إليها كثيراً في الخليج؛ واعتماد EN 54 شرط شائع لمعدات الإخلاء الصوتي."
+   ],
+   [
+    "SBC 801",
+    "الجزء الخاص بالحماية من الحريق في كود البناء السعودي. يحكم تصميم إنذار الحريق والإخلاء الصوتي في المملكة، إلى جانب اعتماد الدفاع المدني، وهو الكود المحلي الذي يجب أن تلبّيه أعمال السلامة لدى مقاول التيار الخفيف."
+   ],
+   [
+    "خطوة البكسل (Pixel pitch)",
+    "المسافة بالمليمترات بين مصابيح LED المتجاورة في شاشة الفيديو. وكلما صغرت الخطوة (مثلاً 1.5 مم) زادت حدة الصورة وقربت مسافة المشاهدة المريحة، بتكلفة أعلى للمتر المربع."
+   ]
+  ]
+ }
 }
