@@ -1,0 +1,27 @@
+{
+ "sku": "U6-ENTERPRISE",
+ "n": "UniFi U6 Enterprise access point",
+ "b": "Ubiquiti",
+ "c": "Networking",
+ "g": "ap",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Standard",
+   "value": "Wi-Fi 6E"
+  },
+  {
+   "label": "Radios",
+   "value": "Tri-band"
+  },
+  {
+   "label": "PoE",
+   "value": "802.3at"
+  },
+  {
+   "label": "Mount",
+   "value": "Indoor ceiling"
+  }
+ ],
+ "order": 5
+}

@@ -1,0 +1,27 @@
+{
+ "sku": "SRT5KRMXLI",
+ "n": "Smart-UPS SRT 5000VA rack/tower online UPS",
+ "b": "APC",
+ "c": "Power",
+ "g": "ups",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "5 kVA"
+  },
+  {
+   "label": "Topology",
+   "value": "Double conversion"
+  },
+  {
+   "label": "Phase",
+   "value": "Single"
+  },
+  {
+   "label": "Rack",
+   "value": "3U"
+  }
+ ],
+ "order": 34
+}

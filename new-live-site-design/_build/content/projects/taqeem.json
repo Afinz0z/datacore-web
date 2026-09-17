@@ -1,0 +1,117 @@
+{
+ "slug": "taqeem",
+ "order": 3,
+ "img": "assets1/images/dc-proj-taqeem.jpg",
+ "en": {
+  "name": "Comprehensive AV solution for TAQEEM HQ",
+  "client": "TAQEEM — Saudi Authority for Accredited Valuers",
+  "sector": "Government",
+  "city": "Riyadh, Saudi Arabia",
+  "completed": "2024",
+  "date_iso": "2024-04",
+  "scope": "HQ-wide AV standardisation",
+  "lede": "A single, easy-to-use audio-visual standard applied across every space at the headquarters of Saudi Arabia's valuation regulator.",
+  "sections": [
+   {
+    "h": "Background",
+    "ps": [
+     "TAQEEM, the Saudi Authority for Accredited Valuers, regulates the valuation profession in the Kingdom. It partnered with Datacore to revamp the audio-visual infrastructure across its headquarters and turn it into a modern, tech-enabled workspace."
+    ]
+   },
+   {
+    "h": "The challenge",
+    "ps": [
+     "One consistent AV experience had to work across very different spaces — a multipurpose room, meeting rooms, reception, a customer-care office, a control room, a thinkpod, executive offices and a theatre — while staying easy to use and ready to grow. Displays, controllers, digital-signage players and wireless presentation all had to be integrated and operate smoothly together."
+    ]
+   },
+   {
+    "h": "The solution",
+    "ps": [
+     "Datacore designed a bespoke AV ecosystem on state-of-the-art equipment — Samsung and Epson displays, Shure audio, Bose, Barco, Televic conferencing, and AMX and Extron control and switching, with Dell — integrated so every room behaves the same way. Datacore also handled project management, system configuration, testing and user training for a seamless transition."
+    ]
+   },
+   {
+    "h": "The result",
+    "ps": [
+     "A modern, tech-enabled workspace on a single AV standard, with distributed audio, wireless sharing and consistent control in every room — and headroom for future expansion."
+    ]
+   }
+  ],
+  "kit": [
+   "Samsung",
+   "Epson",
+   "Shure",
+   "AMX",
+   "Bose",
+   "Barco",
+   "Televic",
+   "Extron"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-taqeem-2.jpg",
+    "cap": "The multipurpose room"
+   },
+   {
+    "img": "assets1/images/dc-proj-taqeem-3.jpg",
+    "cap": "A meeting room with wireless presentation"
+   }
+  ]
+ },
+ "ar": {
+  "name": "حل سمعي بصري متكامل لمقر تقييم",
+  "client": "تقييم — الهيئة السعودية للمقيّمين المعتمدين",
+  "sector": "قطاع حكومي",
+  "city": "الرياض، السعودية",
+  "completed": "2024",
+  "date_iso": "2024-04",
+  "scope": "توحيد الأنظمة السمعية والبصرية على مستوى المقر",
+  "lede": "معيارٌ سمعي بصري واحد وسهل الاستخدام طُبّق عبر كل مساحة في مقر الجهة المنظّمة لمهنة التقييم في السعودية.",
+  "sections": [
+   {
+    "h": "الخلفية",
+    "ps": [
+     "تُنظّم «تقييم» — الهيئة السعودية للمقيّمين المعتمدين — مهنة التقييم في المملكة. تعاونت مع داتاكور لتجديد البنية السمعية والبصرية عبر مقرّها وتحويله إلى بيئة عملٍ حديثة ممكّنة تقنيًا."
+    ]
+   },
+   {
+    "h": "التحدّي",
+    "ps": [
+     "كان لا بد من تجربةٍ سمعية بصرية متّسقة تعمل عبر مساحاتٍ شديدة الاختلاف — غرفة متعددة الأغراض، وقاعات اجتماعات، واستقبال، ومكتب خدمة عملاء، وغرفة تحكّم، وركن تفكير، ومكاتب تنفيذية، ومسرح — مع بقائها سهلة الاستخدام وقابلة للتوسّع. وكان لا بد من تكامل الشاشات ووحدات التحكّم ومشغّلات اللافتات الرقمية والعرض اللاسلكي وتشغيلها بسلاسة معًا."
+    ]
+   },
+   {
+    "h": "الحل",
+    "ps": [
+     "صمّمت داتاكور منظومة سمعية بصرية مخصّصة على معدّاتٍ متطوّرة — شاشات Samsung وEpson، وصوتيات Shure، وBose، وBarco، وأنظمة مؤتمرات Televic، وتحكّم وتبديل AMX وExtron، مع Dell — متكاملة بحيث تتصرّف كل غرفةٍ بالطريقة نفسها. كما تولّت داتاكور إدارة المشروع وتهيئة الأنظمة والاختبار وتدريب المستخدمين لانتقالٍ سلس."
+    ]
+   },
+   {
+    "h": "النتيجة",
+    "ps": [
+     "بيئة عملٍ حديثة ممكّنة تقنيًا على معيارٍ سمعي بصري واحد، مع صوتٍ موزّع ومشاركة لاسلكية وتحكّمٍ متّسق في كل غرفة — ومتّسعٌ للتوسّع مستقبلًا."
+    ]
+   }
+  ],
+  "kit": [
+   "Samsung",
+   "Epson",
+   "Shure",
+   "AMX",
+   "Bose",
+   "Barco",
+   "Televic",
+   "Extron"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-taqeem-2.jpg",
+    "cap": "الغرفة متعددة الأغراض"
+   },
+   {
+    "img": "assets1/images/dc-proj-taqeem-3.jpg",
+    "cap": "قاعة اجتماعات بعرضٍ لاسلكي"
+   }
+  ]
+ }
+}

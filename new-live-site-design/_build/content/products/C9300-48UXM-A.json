@@ -1,0 +1,32 @@
+{
+ "sku": "C9300-48UXM-A",
+ "n": "Catalyst 9300 48-port mGig UPOE switch",
+ "b": "Cisco",
+ "c": "Networking",
+ "g": "switch",
+ "avail": "lead",
+ "lead": 21,
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "PoE",
+   "value": "UPOE 1100W"
+  },
+  {
+   "label": "Speed",
+   "value": "Multigigabit"
+  },
+  {
+   "label": "Uplinks",
+   "value": "Modular"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 1
+}

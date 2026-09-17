@@ -1,0 +1,23 @@
+{
+ "sku": "TESIRAFORTE-X-400",
+ "n": "TesiraFORTÉ X 400 AV DSP with AEC",
+ "b": "Biamp",
+ "c": "Audio visual",
+ "g": "dsp",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "12 x 8"
+  },
+  {
+   "label": "Analog",
+   "value": "12 in / 8 out"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 23
+}

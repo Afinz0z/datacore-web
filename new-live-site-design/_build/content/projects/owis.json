@@ -1,0 +1,139 @@
+{
+ "slug": "owis",
+ "order": 0,
+ "img": "assets1/images/dc-proj-owis.jpg",
+ "en": {
+  "name": "One World International School — Riyadh Campus",
+  "client": "One World International School",
+  "sector": "Education",
+  "city": "Riyadh, Saudi Arabia",
+  "completed": "2026",
+  "date_iso": "2026",
+  "scope": "Design, supply, install, commission, hand over",
+  "lede": "A complete new international-school campus — network, security, access control and audio-visual — designed, supplied, installed and handed over by a single integrator.",
+  "sections": [
+   {
+    "h": "Background",
+    "ps": [
+     "One World International School opened a new Riyadh campus and needed every low-current discipline live on day one: the network and Wi-Fi, security and access control, power protection, classroom AV and an auditorium. Datacore delivered all of it as one integrator, with one handover."
+    ]
+   },
+   {
+    "h": "The challenge",
+    "ps": [
+     "A new campus has no room for a phased, multi-vendor scramble. Classrooms had to be identical so teachers could move between rooms without relearning anything, wireless had to follow the children through every corridor and hall, and the auditorium had to be something staff could run themselves."
+    ]
+   },
+   {
+    "h": "The solution",
+    "ps": [
+     "The network is built on a Huawei core with stacked access switches and AirEngine Wi-Fi 6 throughout, protected by a FortiGate next-generation firewall and a UPS-backed core. Suprema FaceStation F2 terminals combine face, fingerprint and card, with BioStar 2 for time attendance.",
+     "Every classroom is fitted the same way — an ELMO 65-inch 4K interactive panel at the same height, cabled, programmed and tested room by room. The auditorium and multipurpose hall centre on a 2.5 mm LED video wall with a Soundcraft Si Expression mixer, JBL powered loudspeakers and Shure wireless microphones, connected through a Crestron wall plate and racked in a single cabinet."
+    ]
+   },
+   {
+    "h": "The result",
+    "ps": [
+     "One campus, one integrator, one handover. Staff who can use one classroom can use them all, wireless coverage reaches every shared space, and an assembly can be run from the auditorium without an engineer in the room."
+    ]
+   }
+  ],
+  "kit": [
+   "Huawei Wi-Fi 6 network",
+   "FortiGate 200G firewall",
+   "Suprema FaceStation F2",
+   "ELMO 4K interactive panels",
+   "2.5 mm LED video wall",
+   "Soundcraft Si Expression"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-owis-auditorium.jpg",
+    "cap": "Auditorium — 2.5 mm LED video wall"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-classroom.jpg",
+    "cap": "An interactive-panel classroom, fitted the same way in every room"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-access.jpg",
+    "cap": "Suprema face and fingerprint access at a classroom door"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-rack.jpg",
+    "cap": "The communications rack behind it all"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-building.jpg",
+    "cap": "The OWIS Riyadh campus"
+   }
+  ]
+ },
+ "ar": {
+  "name": "مدرسة ون وورلد العالمية — حرم الرياض",
+  "client": "مدرسة ون وورلد العالمية",
+  "sector": "التعليم",
+  "city": "الرياض، السعودية",
+  "completed": "2026",
+  "date_iso": "2026",
+  "scope": "تصميم، توريد، تركيب، تشغيل، وتسليم",
+  "lede": "حرم مدرسة عالمية جديد بالكامل — الشبكة والأمن والتحكم في الدخول والأنظمة الصوتية والمرئية — صمّمه ووردّه وركّبه وسلّمه مكاملٌ واحد.",
+  "sections": [
+   {
+    "h": "الخلفية",
+    "ps": [
+     "افتتحت مدرسة ون وورلد العالمية حرمًا جديدًا في الرياض، واحتاجت إلى تشغيل كل تخصصات التيار المنخفض منذ اليوم الأول: الشبكة والواي فاي، والأمن والتحكم في الدخول، وحماية الطاقة، والأنظمة الصوتية والمرئية للفصول والمسرح. نفّذت داتاكور ذلك كله كمكاملٍ واحد وبتسليمٍ واحد."
+    ]
+   },
+   {
+    "h": "التحدّي",
+    "ps": [
+     "الحرم الجديد لا يحتمل التنفيذ المُجزّأ متعدد المورّدين. كان لا بد أن تكون الفصول متطابقة حتى ينتقل المعلمون بينها دون إعادة تعلّم، وأن تغطي الشبكة اللاسلكية كل الممرات والقاعات، وأن يكون المسرح قابلًا للتشغيل من الكادر نفسه."
+    ]
+   },
+   {
+    "h": "الحل",
+    "ps": [
+     "بُنيت الشبكة على نواة Huawei مع مبدّلات وصول مكدّسة ونقاط AirEngine Wi-Fi 6 في كل مكان، محميّة بجدار حماية FortiGate من الجيل التالي ونواة مدعومة بنظام UPS. تجمع أجهزة Suprema FaceStation F2 بين الوجه والبصمة والبطاقة، مع BioStar 2 لتسجيل الحضور.",
+     "جُهّز كل فصل بالطريقة نفسها — شاشة ELMO تفاعلية 65 بوصة بدقة 4K على الارتفاع نفسه، مع كبلات وبرمجة واختبار فصلًا بفصل. يتمحور المسرح والقاعة متعددة الأغراض حول جدار فيديو LED بمقاس 2.5 مم مع مازج Soundcraft Si Expression ومكبّرات JBL ومايكروفونات Shure اللاسلكية، موصولة عبر لوحة Crestron ومجمّعة في خزانةٍ واحدة."
+    ]
+   },
+   {
+    "h": "النتيجة",
+    "ps": [
+     "حرمٌ واحد، مكاملٌ واحد، تسليمٌ واحد. من يجيد استخدام فصلٍ يجيد استخدامها جميعًا، وتصل التغطية اللاسلكية إلى كل مساحة مشتركة، ويمكن إدارة الاجتماع العام من المسرح دون مهندسٍ في القاعة."
+    ]
+   }
+  ],
+  "kit": [
+   "شبكة Huawei Wi-Fi 6",
+   "جدار حماية FortiGate 200G",
+   "Suprema FaceStation F2",
+   "شاشات ELMO تفاعلية 4K",
+   "جدار فيديو LED 2.5 مم",
+   "Soundcraft Si Expression"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-owis-auditorium.jpg",
+    "cap": "المسرح — جدار فيديو LED بمقاس 2.5 مم"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-classroom.jpg",
+    "cap": "فصل بشاشة تفاعلية، مُجهّز بالطريقة نفسها في كل غرفة"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-access.jpg",
+    "cap": "تحكّم Suprema بالوجه والبصمة عند باب فصل"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-rack.jpg",
+    "cap": "خزانة الاتصالات وراء ذلك كله"
+   },
+   {
+    "img": "assets1/images/dc-proj-owis-building.jpg",
+    "cap": "حرم مدرسة ون وورلد الرياض"
+   }
+  ]
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "sku": "DM-NVX-360",
+ "n": "DM NVX 4K60 AV-over-IP encoder/decoder",
+ "b": "Crestron",
+ "c": "Audio visual",
+ "g": "avoverip",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4K60 4:4:4"
+  },
+  {
+   "label": "Transport",
+   "value": "1 GbE"
+  },
+  {
+   "label": "Latency",
+   "value": "Sub-frame"
+  },
+  {
+   "label": "Rack",
+   "value": "Half 1U"
+  }
+ ],
+ "order": 19
+}

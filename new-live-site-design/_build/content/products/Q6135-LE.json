@@ -1,0 +1,32 @@
+{
+ "sku": "Q6135-LE",
+ "n": "AXIS Q6135-LE outdoor PTZ camera, 32x zoom",
+ "b": "Axis",
+ "c": "Surveillance",
+ "g": "camera",
+ "avail": "lead",
+ "lead": 25,
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "2 MP / 1080p"
+  },
+  {
+   "label": "Type",
+   "value": "PTZ"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66"
+  },
+  {
+   "label": "Zoom",
+   "value": "32x optical"
+  },
+  {
+   "label": "PoE",
+   "value": "Hi-PoE"
+  }
+ ],
+ "order": 11
+}

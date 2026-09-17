@@ -1,0 +1,28 @@
+{
+ "sku": "AMP4X125",
+ "n": "PRAESENSA 4 x 125W multichannel amplifier",
+ "b": "Bosch",
+ "c": "Public address",
+ "g": "amp",
+ "avail": "lead",
+ "lead": 30,
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Power",
+   "value": "125 W per channel"
+  },
+  {
+   "label": "Standard",
+   "value": "EN 54-16"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 27
+}

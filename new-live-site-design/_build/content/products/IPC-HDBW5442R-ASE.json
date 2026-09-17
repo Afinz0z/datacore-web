@@ -1,0 +1,31 @@
+{
+ "sku": "IPC-HDBW5442R-ASE",
+ "n": "WizMind 4MP IR fixed-focal dome camera",
+ "b": "Dahua",
+ "c": "Surveillance",
+ "g": "camera",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4 MP"
+  },
+  {
+   "label": "Type",
+   "value": "Dome"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP67"
+  },
+  {
+   "label": "Lens",
+   "value": "2.8 mm"
+  },
+  {
+   "label": "PoE",
+   "value": "802.3af"
+  }
+ ],
+ "order": 12
+}

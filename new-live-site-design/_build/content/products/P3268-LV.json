@@ -1,0 +1,32 @@
+{
+ "sku": "P3268-LV",
+ "n": "AXIS P3268-LV 4K fixed dome camera",
+ "b": "Axis",
+ "c": "Surveillance",
+ "g": "camera",
+ "avail": "lead",
+ "lead": 18,
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "8 MP / 4K"
+  },
+  {
+   "label": "Type",
+   "value": "Dome"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP52"
+  },
+  {
+   "label": "Lens",
+   "value": "Varifocal"
+  },
+  {
+   "label": "PoE",
+   "value": "802.3af"
+  }
+ ],
+ "order": 10
+}

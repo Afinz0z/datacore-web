@@ -1,0 +1,23 @@
+{
+ "sku": "CX-50-GEN2",
+ "n": "ClickShare CX-50 Gen 2 wireless conferencing",
+ "b": "Barco",
+ "c": "Audio visual",
+ "g": "collab",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4K60"
+  },
+  {
+   "label": "Users",
+   "value": "Up to 8"
+  },
+  {
+   "label": "Mount",
+   "value": "Table / rack"
+  }
+ ],
+ "order": 25
+}

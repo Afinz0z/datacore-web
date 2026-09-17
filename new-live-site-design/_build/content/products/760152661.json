@@ -1,0 +1,28 @@
+{
+ "sku": "760152661",
+ "n": "OM4 12-fibre LazrSPEED 550 trunk, LC-LC",
+ "b": "CommScope",
+ "c": "Structured cabling",
+ "g": "fibre",
+ "avail": "lead",
+ "lead": 26,
+ "specs": [
+  {
+   "label": "Category",
+   "value": "OM4 multimode"
+  },
+  {
+   "label": "Fibres",
+   "value": "12"
+  },
+  {
+   "label": "Connector",
+   "value": "LC"
+  },
+  {
+   "label": "Jacket",
+   "value": "LSZH"
+  }
+ ],
+ "order": 32
+}

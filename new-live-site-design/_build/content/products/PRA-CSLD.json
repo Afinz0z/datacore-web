@@ -1,0 +1,24 @@
+{
+ "sku": "PRA-CSLD",
+ "n": "PRAESENSA LCD call station with keypad",
+ "b": "Bosch",
+ "c": "Public address",
+ "g": "station",
+ "avail": "lead",
+ "lead": 30,
+ "specs": [
+  {
+   "label": "Zones",
+   "value": "Expandable"
+  },
+  {
+   "label": "Standard",
+   "value": "EN 54-16"
+  },
+  {
+   "label": "Mount",
+   "value": "Desktop"
+  }
+ ],
+ "order": 28
+}

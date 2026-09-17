@@ -1,0 +1,23 @@
+{
+ "sku": "NK6X88MBU",
+ "n": "NetKey Cat6A UTP jack module, blue",
+ "b": "Panduit",
+ "c": "Structured cabling",
+ "g": "copper",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Cat6A"
+  },
+  {
+   "label": "Termination",
+   "value": "Punch-down"
+  },
+  {
+   "label": "Colour",
+   "value": "Blue"
+  }
+ ],
+ "order": 31
+}

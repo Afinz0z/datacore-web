@@ -1,0 +1,27 @@
+{
+ "sku": "760237041",
+ "n": "GigaSPEED X10D 2091B Cat6A U/UTP cable, 305 m box",
+ "b": "CommScope",
+ "c": "Structured cabling",
+ "g": "copper",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Cat6A"
+  },
+  {
+   "label": "Jacket",
+   "value": "LSZH"
+  },
+  {
+   "label": "Length",
+   "value": "305 m"
+  },
+  {
+   "label": "Pairs",
+   "value": "4"
+  }
+ ],
+ "order": 30
+}

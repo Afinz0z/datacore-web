@@ -1,0 +1,24 @@
+{
+ "sku": "PW6K1IC",
+ "n": "Pro-Watch PW6000 intelligent controller",
+ "b": "Honeywell",
+ "c": "Access control",
+ "g": "controller",
+ "avail": "lead",
+ "lead": 28,
+ "specs": [
+  {
+   "label": "Doors",
+   "value": "Up to 16"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Metal cabinet"
+  },
+  {
+   "label": "Comms",
+   "value": "TCP/IP"
+  }
+ ],
+ "order": 17
+}

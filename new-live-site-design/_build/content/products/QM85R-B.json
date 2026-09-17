@@ -1,0 +1,27 @@
+{
+ "sku": "QM85R-B",
+ "n": "85-inch QMR-B 4K commercial display, 500 nit",
+ "b": "Samsung",
+ "c": "Audio visual",
+ "g": "display",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Size",
+   "value": "85 inch"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K UHD"
+  },
+  {
+   "label": "Brightness",
+   "value": "500 nit"
+  },
+  {
+   "label": "Duty",
+   "value": "16/7"
+  }
+ ],
+ "order": 24
+}

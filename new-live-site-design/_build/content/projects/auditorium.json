@@ -1,0 +1,121 @@
+{
+ "slug": "auditorium",
+ "order": 4,
+ "img": "assets1/images/dc-proj-auditorium.jpg",
+ "en": {
+  "name": "University auditorium AV — Arab Open University",
+  "client": "Arab Open University",
+  "sector": "Education",
+  "city": "Riyadh, Saudi Arabia",
+  "completed": "2023",
+  "date_iso": "2023",
+  "scope": "Auditorium fit-out",
+  "lede": "A tired university auditorium rebuilt around a large direct-view LED wall and iPad control — modern, automated, and simple enough for staff to run themselves.",
+  "sections": [
+   {
+    "h": "Background",
+    "ps": [
+     "The Arab Open University set out to transform its Riyadh auditorium into a modern, innovative and automated space for every kind of event, and assigned Datacore to lead the technological transformation end to end."
+    ]
+   },
+   {
+    "h": "The challenge",
+    "ps": [
+     "The outdated AV had to be stripped out and new cabling pulled through ceilings and concrete floors — quietly, while the university stayed open and classes continued, and all on a very tight timeline that meant procuring and delivering materials just in time."
+    ]
+   },
+   {
+    "h": "The solution",
+    "ps": [
+     "Datacore installed a large 6 m × 3.375 m direct-view LED wall (AET, 1.2 mm pixel pitch, 4K), with a Crestron video matrix for switching and a Q-SYS DSP and control system tying every piece of equipment together, plus Shure microphones and a customised iPad interface.",
+     "BYOD USB connectivity lets presenters drive the large display, room camera, microphones and speakers from the stage or the control room, and works seamlessly with Microsoft Teams and Zoom. Control-room furniture and wooden cladding were added to match the existing interior."
+    ]
+   },
+   {
+    "h": "The result",
+    "ps": [
+     "An adaptable, welcoming auditorium that non-technical users can run themselves — in daily use since 2023, backed by four quarterly Datacore maintenance visits and built to scale for future expansion."
+    ]
+   }
+  ],
+  "kit": [
+   "AET dLED 1.2 mm 4K",
+   "Crestron video matrix",
+   "Q-SYS DSP & control",
+   "Shure microphones",
+   "Apple iPad control"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-auditorium-2.jpg",
+    "cap": "The podium control screen"
+   },
+   {
+    "img": "assets1/images/dc-proj-auditorium-3.jpg",
+    "cap": "The 1.2 mm direct-view LED wall, up close"
+   },
+   {
+    "img": "assets1/images/dc-proj-auditorium-4.jpg",
+    "cap": "The customised iPad control interface"
+   }
+  ]
+ },
+ "ar": {
+  "name": "أنظمة سمعية وبصرية لمسرح جامعي — الجامعة العربية المفتوحة",
+  "client": "الجامعة العربية المفتوحة",
+  "sector": "التعليم",
+  "city": "الرياض، السعودية",
+  "completed": "2023",
+  "date_iso": "2023",
+  "scope": "تجهيز مسرح",
+  "lede": "أُعيد بناء مسرحٍ جامعي قديم حول جدار فيديو LED كبير بالعرض المباشر وتحكّمٍ عبر iPad — حديث وآلي وبسيطٌ بما يكفي ليشغّله الكادر بنفسه.",
+  "sections": [
+   {
+    "h": "الخلفية",
+    "ps": [
+     "عزمت الجامعة العربية المفتوحة على تحويل مسرحها في الرياض إلى مساحةٍ حديثة ومبتكرة وآلية لكل أنواع الفعاليات، وكلّفت داتاكور بقيادة التحوّل التقني من البداية إلى النهاية."
+    ]
+   },
+   {
+    "h": "التحدّي",
+    "ps": [
+     "كان لا بد من إزالة الأنظمة القديمة ومدّ كبلاتٍ جديدة عبر الأسقف والأرضيات الخرسانية — بهدوء، بينما تبقى الجامعة مفتوحة وتستمر المحاضرات، وضمن جدولٍ زمني ضيّق للغاية استلزم توريد المواد وتسليمها في الوقت المناسب تمامًا."
+    ]
+   },
+   {
+    "h": "الحل",
+    "ps": [
+     "ركّبت داتاكور جدار فيديو LED كبيرًا بالعرض المباشر بمقاس 6 م × 3.375 م (AET، خطوة بكسل 1.2 مم، دقة 4K)، مع مصفوفة فيديو Crestron للتبديل ونظام معالجة وتحكّم Q-SYS يربط كل المعدّات معًا، إضافةً إلى مايكروفونات Shure وواجهة iPad مخصّصة.",
+     "يتيح اتصال USB بأسلوب BYOD للمقدّمين التحكّم في الشاشة الكبيرة وكاميرا الغرفة والمايكروفونات والمكبّرات من المسرح أو غرفة التحكّم، ويعمل بسلاسة مع Microsoft Teams وZoom. وأُضيف أثاث غرفة التحكّم وكسوة خشبية لتتناسب مع الديكور القائم."
+    ]
+   },
+   {
+    "h": "النتيجة",
+    "ps": [
+     "مسرحٌ مرن وودود يشغّله غير المتخصّصين بأنفسهم — قيد الاستخدام اليومي منذ 2023، مدعومٌ بأربع زيارات صيانة فصلية من داتاكور ومبنيٌّ للتوسّع مستقبلًا."
+    ]
+   }
+  ],
+  "kit": [
+   "AET dLED 1.2 مم 4K",
+   "مصفوفة فيديو Crestron",
+   "معالجة وتحكّم Q-SYS",
+   "مايكروفونات Shure",
+   "تحكّم Apple iPad"
+  ],
+  "gallery": [
+   {
+    "img": "assets1/images/dc-proj-auditorium-2.jpg",
+    "cap": "شاشة التحكّم عند المنصّة"
+   },
+   {
+    "img": "assets1/images/dc-proj-auditorium-3.jpg",
+    "cap": "جدار LED بالعرض المباشر 1.2 مم عن قرب"
+   },
+   {
+    "img": "assets1/images/dc-proj-auditorium-4.jpg",
+    "cap": "واجهة التحكّم المخصّصة على iPad"
+   }
+  ]
+ }
+}

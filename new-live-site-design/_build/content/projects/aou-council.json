@@ -1,0 +1,85 @@
+{
+ "slug": "aou-council",
+ "order": 1,
+ "img": "assets1/images/dc-proj-aou-council.jpg",
+ "en": {
+  "name": "Smart modernisation of the AOU council room",
+  "client": "Arab Open University",
+  "sector": "Education",
+  "city": "Riyadh, Saudi Arabia",
+  "scope": "Design, supply, install, commission",
+  "lede": "The Arab Open University council chamber, rebuilt around a single integrated AV system the secretariat can actually operate.",
+  "sections": [
+   {
+    "h": "Background",
+    "ps": [
+     "The Arab Open University's council chamber needed to work as a modern meeting space — clear to hear, simple to run, and compatible with the video-conferencing platforms the university already uses."
+    ]
+   },
+   {
+    "h": "The challenge",
+    "ps": [
+     "A reverberant room made speech hard to follow, the AV was dated, and there was no single control anyone could pick up and use."
+    ]
+   },
+   {
+    "h": "The solution",
+    "ps": [
+     "Datacore rebuilt the room around one integrated AV system: unified-communications compatibility, wireless BYOD presentation, ceiling microphones and acoustic correction for the reverberant space, all behind a single control interface."
+    ]
+   },
+   {
+    "h": "The result",
+    "ps": [
+     "Clear audio in a difficult room, wireless sharing for any participant, and one interface the secretariat can operate without support."
+    ]
+   }
+  ],
+  "kit": [
+   "AV-over-IP",
+   "Ceiling microphones",
+   "Control processor"
+  ],
+  "gallery": []
+ },
+ "ar": {
+  "name": "تحديثٌ ذكي لقاعة المجلس في الجامعة العربية المفتوحة",
+  "client": "الجامعة العربية المفتوحة",
+  "sector": "التعليم",
+  "city": "الرياض، السعودية",
+  "scope": "تصميم، توريد، تركيب، تشغيل",
+  "lede": "أُعيد بناء قاعة المجلس في الجامعة العربية المفتوحة حول نظامٍ صوتي ومرئي متكامل يستطيع أمناء المجلس تشغيله فعليًا.",
+  "sections": [
+   {
+    "h": "الخلفية",
+    "ps": [
+     "احتاجت قاعة المجلس في الجامعة العربية المفتوحة إلى أن تعمل كمساحة اجتماعاتٍ حديثة — واضحة السماع، سهلة التشغيل، ومتوافقة مع منصات مؤتمرات الفيديو التي تستخدمها الجامعة."
+    ]
+   },
+   {
+    "h": "التحدّي",
+    "ps": [
+     "جعل صدى الغرفة متابعة الكلام صعبة، وكانت الأنظمة الصوتية والمرئية قديمة، ولم يكن هناك تحكّمٌ موحّد يمكن لأي شخص استخدامه."
+    ]
+   },
+   {
+    "h": "الحل",
+    "ps": [
+     "أعادت داتاكور بناء الغرفة حول نظامٍ صوتي ومرئي متكامل: توافق مع الاتصالات الموحّدة، وعرض لاسلكي بأسلوب BYOD، ومايكروفونات سقفية ومعالجة صوتية للمساحة ذات الصدى، وكل ذلك خلف واجهة تحكّمٍ واحدة."
+    ]
+   },
+   {
+    "h": "النتيجة",
+    "ps": [
+     "صوتٌ واضح في غرفةٍ صعبة، ومشاركة لاسلكية لأي مشارك، وواجهةٌ واحدة يشغّلها أمناء المجلس دون دعم."
+    ]
+   }
+  ],
+  "kit": [
+   "AV-over-IP",
+   "مايكروفونات سقفية",
+   "معالج تحكّم"
+  ],
+  "gallery": []
+ }
+}

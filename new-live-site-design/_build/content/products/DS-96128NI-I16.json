@@ -1,0 +1,24 @@
+{
+ "sku": "DS-96128NI-I16",
+ "n": "128-channel 4K NVR, 16 SATA bays",
+ "b": "Hikvision",
+ "c": "Surveillance",
+ "g": "recorder",
+ "avail": "lead",
+ "lead": 20,
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "128"
+  },
+  {
+   "label": "Storage",
+   "value": "16 x SATA"
+  },
+  {
+   "label": "Rack",
+   "value": "3U"
+  }
+ ],
+ "order": 13
+}

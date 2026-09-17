@@ -1,0 +1,24 @@
+{
+ "sku": "CORE-110F",
+ "n": "Q-SYS Core 110f integrated processor",
+ "b": "Q-SYS",
+ "c": "Audio visual",
+ "g": "dsp",
+ "avail": "lead",
+ "lead": 21,
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "128 x 128 network"
+  },
+  {
+   "label": "Analog",
+   "value": "8 in / 8 out"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 21
+}

@@ -1,0 +1,31 @@
+{
+ "sku": "JL675A",
+ "n": "Aruba CX 6100 48-port PoE+ switch",
+ "b": "Aruba",
+ "c": "Networking",
+ "g": "switch",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "PoE",
+   "value": "PoE+ 370W"
+  },
+  {
+   "label": "Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Uplinks",
+   "value": "4 x 10G SFP+"
+  },
+  {
+   "label": "Rack",
+   "value": "1U"
+  }
+ ],
+ "order": 2
+}

@@ -1,0 +1,31 @@
+{
+ "sku": "DS-2CD2386G2-ISU/SL",
+ "n": "AcuSense 8MP fixed dome network camera",
+ "b": "Hikvision",
+ "c": "Surveillance",
+ "g": "camera",
+ "avail": "stock",
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "8 MP / 4K"
+  },
+  {
+   "label": "Type",
+   "value": "Dome"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP67"
+  },
+  {
+   "label": "Lens",
+   "value": "2.8 mm"
+  },
+  {
+   "label": "PoE",
+   "value": "802.3af"
+  }
+ ],
+ "order": 8
+}
