@@ -603,12 +603,13 @@ def build_projects(ar):
     U = CASE_UI['ar' if ar else 'en']
     cards = ''
     lang = 'ar' if ar else 'en'
+    E = wrap_ltr if ar else esc   # wrap Latin runs in Arabic card copy (text content only, never alt="")
     # 5 case-study cards (from mirror_strings) then the showcase cards (from files)
     show = [(sc[lang]['sector'], sc[lang]['city'], sc[lang]['name'], sc[lang]['body'],
              sc[lang]['kit'], sc[lang]['client'], sc[lang]['scope']) for sc in SHOWCASE]
     for i, p in enumerate(list(s['proj']) + show):
         sector, city, name, body, kit, client, scope = p
-        kits = ''.join(f'<span>{esc(k)}</span>' for k in kit)
+        kits = ''.join(f'<span>{E(k)}</span>' for k in kit)
         # only the five projects with a dedicated case-study page get a "read more" link;
         # the portfolio-deck showcase cards (CASE_SLUG[i] == '') show image + detail only.
         read_link = (f'<a class="dcp-dir" href="{loc("project-"+CASE_SLUG[i], ar)}">{esc(U["read"])} {I_ARROW}</a>'
@@ -620,15 +621,15 @@ def build_projects(ar):
                 else 'fetchpriority="low" decoding="async"')
         cards += f"""<article class="dcp-proj" data-disc="{' '.join(PROJ_DISC[i])}">
   <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" {_pia} width="1200" height="750"></div>
-  <div class="band"><span class="c">{esc(sector)}</span><span>{esc(city)}</span></div>
-  <div class="in"><h3>{esc(name)}</h3><p class="body">{esc(body)}</p>
+  <div class="band"><span class="c">{E(sector)}</span><span>{E(city)}</span></div>
+  <div class="in"><h3>{E(name)}</h3><p class="body">{E(body)}</p>
     <div class="dcp-kit">{kits}</div>
-    <dl><dt>{esc(s['p_client'])}</dt><dd>{esc(client)}</dd>
-        <dt>{esc(s['p_scope'])}</dt><dd>{esc(scope)}</dd></dl>
+    <dl><dt>{esc(s['p_client'])}</dt><dd>{E(client)}</dd>
+        <dt>{esc(s['p_scope'])}</dt><dd>{E(scope)}</dd></dl>
     {read_link}
   </div></article>"""
     feat = ''.join(f'<div class="dcp-featcell"><span class="dcp-featic">{FEAT_ICONS[i]}</span>'
-                   f'<h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
+                   f'<h3>{E(t)}</h3><p>{E(d)}</p></div>'
                    for i,(t,d) in enumerate(s['pj_feat']))
     gal = ''.join(f'<figure><img src="assets1/images/{g[0]}" alt="{esc(g[2] if ar else g[1])}" '
                   f'fetchpriority="low" decoding="async" width="900" height="600">'
