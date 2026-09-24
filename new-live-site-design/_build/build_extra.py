@@ -178,8 +178,16 @@ for slug in ["owis", "aou-council", "psau", "taqeem", "auditorium"]:
     urls += ["project-" + slug + ".html", "project-" + slug + "-ar.html"]
 import glob as _glob
 _ins_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content", "insights")
-_ins = [(json.load(open(_f, encoding="utf-8")).get("order", 9999),
-         os.path.splitext(os.path.basename(_f))[0]) for _f in _glob.glob(os.path.join(_ins_dir, "*.json"))]
+_lastmod = {}   # per-URL content date, so the sitemap doesn't drift on every rebuild
+_ins = []
+for _f in _glob.glob(os.path.join(_ins_dir, "*.json")):
+    _d = json.load(open(_f, encoding="utf-8"))
+    _slug = os.path.splitext(os.path.basename(_f))[0]
+    _ins.append((_d.get("order", 9999), _slug))
+    _iso = str(_d.get("iso", ""))[:10]
+    if _iso:
+        _lastmod["insight-" + _slug + ".html"] = _iso
+        _lastmod["insight-" + _slug + "-ar.html"] = _iso
 for _o, _slug in sorted(_ins):
     urls += ["insight-" + _slug + ".html", "insight-" + _slug + "-ar.html"]
 for slug in ["av-solutions-provider-saudi-arabia", "elv-low-current-systems-saudi-arabia",
@@ -188,11 +196,13 @@ for slug in ["av-solutions-provider-saudi-arabia", "elv-low-current-systems-saud
     urls += [slug + ".html", slug + "-ar.html"]
 
 import datetime
-LASTMOD = datetime.date.today().isoformat()
+# Default = the freshest article date, not today's date — a real content-freshness
+# signal that stays stable across rebuilds instead of changing every day.
+LASTMOD = max(_lastmod.values()) if _lastmod else datetime.date.today().isoformat()
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">'.replace("www.sitemap.org", "www.sitemaps.org")]
 for u in urls:
-    sm.append(f"  <url><loc>{BASE}/{u}</loc><lastmod>{LASTMOD}</lastmod><changefreq>monthly</changefreq></url>")
+    sm.append(f"  <url><loc>{BASE}/{u}</loc><lastmod>{_lastmod.get(u, LASTMOD)}</lastmod><changefreq>monthly</changefreq></url>")
 sm.append("</urlset>")
 open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
 
@@ -306,7 +316,8 @@ open(os.path.join(ROOT, "humans.txt"), "w", encoding="utf-8").write(humans)
 
 # security.txt (RFC 9116) — a contact path for anyone reporting a vulnerability
 import datetime as _dt
-_expires = (_dt.date.today() + _dt.timedelta(days=365)).isoformat() + "T00:00:00.000Z"
+# Expiry derived from the content date (stable across rebuilds), kept well in the future.
+_expires = (_dt.date.fromisoformat(LASTMOD) + _dt.timedelta(days=730)).isoformat() + "T00:00:00.000Z"
 security = (f"Contact: mailto:info@datacore.com.sa\n"
             f"Expires: {_expires}\n"
             f"Preferred-Languages: en, ar\n"
