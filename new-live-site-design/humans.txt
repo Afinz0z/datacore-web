@@ -11,4 +11,4 @@ Kozhikode, India — +91 495 350 1154
 /* SITE */
 Built with: HTML5, CSS3, progressive enhancement, JSON-LD structured data
 Languages: English & Arabic (RTL), self-hosted fonts
-Last updated: 2026-09-17
+Last updated: 2026-09-16
