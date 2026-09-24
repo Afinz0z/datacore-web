@@ -940,8 +940,8 @@ LANDING_CSS = ('<style>'
   '.dcp-land .dcp-faqwrap{margin-top:30px}'
   '.dcp-land .dcp-faqwrap>h2{margin-bottom:6px}'
   '</style>')
-FACTS = {'en': [('19+', 'years, since 2007'), ('180+', 'specialists'), ('38', 'services'), ('1,500+', 'clients')],
-         'ar': [('19+', 'سنة، منذ 2007'), ('180+', 'مختص'), ('38', 'خدمة'), ('1,500+', 'عميل')]}
+FACTS = {'en': [('16+', 'years, since 2007'), ('150+', 'specialists'), ('38', 'services'), ('1,500+', 'clients')],
+         'ar': [('16+', 'سنة، منذ 2007'), ('150+', 'مختص'), ('38', 'خدمة'), ('1,500+', 'عميل')]}
 
 def build_landing(idx, ar):
     lang = 'ar' if ar else 'en'
