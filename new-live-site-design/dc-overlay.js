@@ -286,17 +286,8 @@
         btn.setAttribute('aria-expanded', 'false'); panel.hidden = true;
       }
     });
-    // First visit only: auto-open the chat once so newcomers see the contact options.
-    try {
-      if (!localStorage.getItem('dcx-chat-seen')) {
-        localStorage.setItem('dcx-chat-seen', '1');
-        setTimeout(function () {
-          if (btn.getAttribute('aria-expanded') !== 'true') {
-            btn.setAttribute('aria-expanded', 'true'); panel.hidden = false;
-          }
-        }, 1400);
-      }
-    } catch (e) {}
+    // The chat panel stays collapsed until the user taps the bubble — no auto-open,
+    // so it never covers the hero on load.
 
     // sticky mobile CTA — not on the contact page (it is the destination)
     if (stem !== 'contact') {
