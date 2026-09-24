@@ -374,7 +374,7 @@ html[dir=rtl] .dcp-marquee .track{animation-direction:reverse}
 .dcp-foot a{color:#c6cccf}.dcp-foot a:hover{color:#fff}
 .dcp-foot-top{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:38px;
   padding-bottom:34px;border-bottom:1px solid #2a2e33}
-.dcp-foot h4{font-size:.75rem;letter-spacing:.1em;color:#7c868a;margin-bottom:14px;font-weight:600;text-transform:uppercase}
+.dcp-foot h2{font-size:.75rem;letter-spacing:.1em;color:#7c868a;margin:0 0 14px;font-weight:600;text-transform:uppercase}
 .dcp-foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
 .dcp-foot-blurb{margin-top:16px;max-width:38ch;color:#9aa3a8}
 .dcp-foot-social{display:flex;gap:10px;margin-top:18px}
