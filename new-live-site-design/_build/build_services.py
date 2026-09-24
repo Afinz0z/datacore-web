@@ -266,7 +266,7 @@ def build(slug, ar):
                    for x in _schemas) + FAQ_CSS
     title = c.get("title") or (h1 + (" | داتاكور للحلول" if ar else " | Datacore Solutions"))
     _loc = ("السعودية", "الرياض") if ar else ("Saudi Arabia", "Riyadh")
-    if not any(w in title for w in _loc):   # GEO: every service title should carry a country signal
+    if not any(w.lower() in title.lower() for w in _loc):   # GEO: every service title carries a country signal (case-insensitive so a lowercase location isn't doubled)
         _ins = " في السعودية" if ar else " in Saudi Arabia"
         title = title.replace(" | ", _ins + " | ", 1) if " | " in title else title + _ins
     return shell(ar, "services", title, c.get("desc", intro)[:180], body, extra_head=head, canon="service-" + slug)
