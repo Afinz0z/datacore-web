@@ -7,7 +7,7 @@ pages stay byte-for-byte untouched. Adds the methodology band (design #4)."""
 import os, sys, json, html
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS, FAQ_CSS
+from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS, FAQ_CSS, wrap_ltr
 
 # slug -> (EN title, AR title) so service pages can link the matching guides
 _ITITLE = {e["slug"]: (e["title"], a.get("title", e["title"]))
@@ -29,9 +29,10 @@ def related_reading(di, ar):
     slugs = DISC_INSIGHTS.get(di, [])
     if not slugs:
         return ""
+    E = wrap_ltr if ar else esc
     head = "قراءة ذات صلة" if ar else "Related reading"
     links = "".join(
-        f'<a class="dcp-dir" href="{loc("insight-"+sl, ar)}">{esc(_ITITLE.get(sl,(sl,sl))[1 if ar else 0])} {I_ARROW}</a>'
+        f'<a class="dcp-dir" href="{loc("insight-"+sl, ar)}">{E(_ITITLE.get(sl,(sl,sl))[1 if ar else 0])} {I_ARROW}</a>'
         for sl in slugs)
     return (f'<section class="dcp-sec alt"><div class="dcp-wrap" style="max-width:820px">'
             f'<div class="dcp-head"><h2>{esc(head)}</h2></div>'
@@ -102,10 +103,11 @@ def faq_section(di, ar):
     qa = (DISC_FAQ_AR if ar else DISC_FAQ)[di]
     if not qa:
         return ""
+    E = wrap_ltr if ar else esc
     head = "أسئلة شائعة" if ar else "Frequently asked"
     items = "".join(
-        f'<details class="dcp-faq"><summary>{esc(q)}</summary>'
-        f'<div class="dcp-faq-a"><p>{esc(a)}</p></div></details>' for q, a in qa)
+        f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+        f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>' for q, a in qa)
     return (f'<section class="dcp-sec"><div class="dcp-wrap" style="max-width:820px">'
             f'<div class="dcp-head"><h2>{esc(head)}</h2></div>{items}</div></section>')
 def faq_schema(di, ar):
@@ -201,11 +203,12 @@ SVC_PHOTO = {
  "professional-audio": ("dc-proj-owis-mixer.jpg", "Soundcraft mixer, auditorium — OWIS Riyadh", "مازج صوت المسرح — مدرسة ون وورلد الرياض"),
 }
 
-def sections_html(sec):
+def sections_html(sec, ar=False):
+    E = wrap_ltr if ar else esc
     out = ""
     for s in sec:
-        ps = "".join("<p>" + esc(p) + "</p>" for p in s.get("ps", []))
-        h = esc(s.get("h", "")).strip()
+        ps = "".join("<p>" + E(p) + "</p>" for p in s.get("ps", []))
+        h = E(s.get("h", "")).strip()
         out += "<section>" + (("<h2>" + h + "</h2>") if h else "") + ps + "</section>"
     return out
 
@@ -213,6 +216,7 @@ def build(slug, ar):
     lang = "ar" if ar else "en"
     c = copy_of(slug, ar); di = SLUG_DISC[slug]; d = DISC[di]
     U = UI[lang]; s = STR[lang]
+    E = wrap_ltr if ar else esc   # wrap Latin/code runs in Arabic body copy
     disc_name = d[2] if ar else d[1]; std = d[4] if ar else d[3]
     h1 = c.get("h1") or c.get("title") or slug
     intro = c.get("intro", "")
@@ -223,7 +227,7 @@ def build(slug, ar):
              f'<a href="{loc("services",ar)}">{esc(U["services"])}</a> &rsaquo; '
              f'<a href="{loc("services",ar)}?id={d[0]}">{esc(disc_name)}</a></div>')
     hero = (f'<section class="dcp-hero"><div class="dcp-wrap">{crumb}'
-            f'<h1>{esc(h1)}</h1><p class="dcp-lede">{esc(intro)}</p>'
+            f'<h1>{E(h1)}</h1><p class="dcp-lede">{E(intro)}</p>'
             f'<div class="dcp-chips">{chips}</div></div></section>')
     # methodology band (#4)
     mh, steps = METHOD[lang]
@@ -239,13 +243,13 @@ def build(slug, ar):
         sc = copy_of(sl, ar)
         name = sc.get("h1") or sc.get("title") or sl
         cur = ' aria-current="page"' if sl == slug else ''
-        sib_li += f'<li><a href="{svc_file(sl,ar)}"{cur}>{esc(name)}</a></li>'
+        sib_li += f'<li><a href="{svc_file(sl,ar)}"{cur}>{E(name)}</a></li>'
     aside = (f'<aside class="dcp-aside"><div class="box"><h3>{esc(U["in_disc"])}</h3>'
              f'<ul class="siblings">{sib_li}</ul></div>'
              f'<div class="box cta"><h3>{esc(U["get"])}</h3><p>{esc(U["get_p"])}</p>'
              f'<a class="dcp-btn" href="{loc("contact",ar)}">{esc(U["ask"])} {I_ARROW}</a></div></aside>')
     body_sec = (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-svc-grid">'
-                f'<div class="dcp-svc-body">{sections_html(c.get("sections", []))}</div>'
+                f'<div class="dcp-svc-body">{sections_html(c.get("sections", []), ar)}</div>'
                 f'{aside}</div></div></section>')
     ph = SVC_PHOTO.get(slug); photo = ''
     if ph:

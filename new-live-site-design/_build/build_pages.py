@@ -14,10 +14,17 @@ def esc(s): return html.escape(str(s), quote=True)
 # wrap Latin/acronym runs in dir="ltr" for correct rendering inside RTL Arabic.
 # run on ALREADY-escaped text; only wraps runs that contain a letter.
 def wrap_ltr(t):
-    def r(m):
+    """Wrap Latin / code runs (LED, IPTV, Cat 6A, TIA-568…) in dir="ltr" so they
+    read correctly inside Arabic. Takes the RAW string and HTML-escapes each piece
+    itself, so it can never split an entity — callers pass the unescaped text."""
+    out, i = [], 0
+    for m in re.finditer(r'[A-Za-z0-9][A-Za-z0-9/.+\-]*(?:\s[A-Za-z0-9/.+\-]+)*', t):
+        out.append(esc(t[i:m.start()]))
         s = m.group(0)
-        return '<span dir="ltr">' + s + '</span>' if re.search(r'[A-Za-z]', s) else s
-    return re.sub(r'[A-Za-z0-9][A-Za-z0-9/.+\-]*(?:\s[A-Za-z0-9/.+\-]+)*', r, t)
+        out.append('<span dir="ltr">' + esc(s) + '</span>' if re.search(r'[A-Za-z]', s) else esc(s))
+        i = m.end()
+    out.append(esc(t[i:]))
+    return ''.join(out)
 
 # ── inline icons (stroke=currentColor) ──────────────────────────────────
 def ic(p): return ('<svg viewBox="0 0 24 24" width="22" height="22" fill="none" '
@@ -687,7 +694,7 @@ def build_projects(ar):
 def build_case(slug, ar):
     lang = 'ar' if ar else 'en'
     C = CASES[slug]; c = C[lang]; U = CASE_UI[lang]; s = STR[lang]
-    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    E = wrap_ltr if ar else esc
     crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> &rsaquo; '
              f'<a href="{loc("projects",ar)}">{esc(U["projects"])}</a> &rsaquo; {E(c["name"])}</div>')
     hero = (f'<section class="dcp-hero"><div class="dcp-wrap">{crumb}'
@@ -750,7 +757,7 @@ FAQ_CSS = ('<style>'
 
 def build_faq(ar):
     lang = 'ar' if ar else 'en'; F = FAQ[lang]
-    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    E = wrap_ltr if ar else esc
     ghost = 'أسئلة' if ar else 'FAQ'
     items = ''.join(
         f'<details class="dcp-faq"><summary>{E(q)}</summary>'
@@ -778,7 +785,7 @@ GLOSSARY_CSS = ('<style>'
 
 def build_glossary(ar):
     lang = 'ar' if ar else 'en'; G = GLOSSARY[lang]
-    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    E = wrap_ltr if ar else esc
     ghost = 'مسرد' if ar else 'Glossary'
     rows = ''.join(
         f'<div id="gloss-{i}"><dt>{E(t)}</dt><dd>{E(d)}</dd></div>'
@@ -799,7 +806,7 @@ def build_glossary(ar):
 def build_insights(ar):
     lang = 'ar' if ar else 'en'
     s = STR[lang]
-    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    E = wrap_ltr if ar else esc
     read = 'اقرأ المقال' if ar else 'Read the article'
     cards = ''
     for i, p in enumerate(INSIGHTS[lang]['posts']):
@@ -842,7 +849,7 @@ POST_CSS = ('<style>'
 def build_post(i, ar):
     lang = 'ar' if ar else 'en'
     P = INSIGHTS[lang]['posts'][i]; s = STR[lang]
-    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    E = wrap_ltr if ar else esc
     ins_lbl = 'ملاحظات تقنية' if ar else 'Insights'
     ghost = 'ملاحظات' if ar else 'NOTES'
     _wc = sum(len(t.split()) for _, t in P['blocks'])
@@ -921,7 +928,7 @@ FACTS = {'en': [('19+', 'years, since 2007'), ('180+', 'specialists'), ('38', 's
 def build_landing(idx, ar):
     lang = 'ar' if ar else 'en'
     Pg = LANDING[lang]['pages'][idx]; s = STR[lang]
-    E = (lambda x: wrap_ltr(esc(x))) if ar else (lambda x: esc(x))
+    E = wrap_ltr if ar else esc
     svc_lbl = 'خدماتنا' if ar else 'Services'
     ghost = 'حلول' if ar else 'SOLUTIONS'
     crumb = (f'<div class="dcp-crumb"><a href="{loc("index",ar)}">{esc(s["home"])}</a> '
