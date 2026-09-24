@@ -151,6 +151,57 @@ content:
               - { name: img, label: الصورة / Photo, type: image }
               - { name: cap, label: التعليق / Caption, type: string }
 
+  # ─────────────────────────── SHOWCASE PROJECTS (card only, no case study) ───────────────────────────
+  - name: showcase
+    label: Showcase projects (no case study)
+    type: collection
+    path: new-live-site-design/_build/content/showcase
+    filename: '{fields.slug}.json'
+    view:
+      fields: [slug, order]
+      sort: [order, slug]
+    fields:
+      - { name: slug, label: Slug (URL id — lowercase-with-hyphens), type: string, required: true }
+      - { name: order, label: Order (lower shows first; leave gaps so you can insert between), type: number, default: 99 }
+      - { name: img, label: Card image, type: image }
+      - name: disc
+        label: Disciplines (drives the projects filter)
+        type: select
+        list: true
+        options:
+          values:
+            - { value: network-infrastructure-services, label: Network Infrastructure }
+            - { value: datacenter-solutions, label: Datacenter Solutions }
+            - { value: surveillance-and-security-solutions, label: Surveillance & Security }
+            - { value: meeting-room-solutions, label: Meeting Room Solutions }
+            - { value: audio-visual-solutions, label: Audio-Visual Solutions }
+            - { value: digital-signage-amp-video-walls, label: Signage & Video Walls }
+            - { value: public-address-and-fire-alarm-system, label: Public Address & Fire Alarm }
+            - { value: iptv-solutions, label: IPTV Solutions }
+            - { value: professional-services, label: Professional Services }
+      - name: en
+        label: English
+        type: object
+        fields:
+          - { name: sector, label: Sector (e.g. Education), type: string }
+          - { name: city, label: City, type: string }
+          - { name: name, label: Project name, type: string, required: true }
+          - { name: body, label: Card description, type: text }
+          - { name: kit, label: Systems (chips), type: string, list: true }
+          - { name: client, label: Client, type: string }
+          - { name: scope, label: Scope (one line), type: string }
+      - name: ar
+        label: العربية / Arabic (first draft — needs native review)
+        type: object
+        fields:
+          - { name: sector, label: القطاع / Sector, type: string }
+          - { name: city, label: المدينة / City, type: string }
+          - { name: name, label: اسم المشروع / Project name, type: string }
+          - { name: body, label: وصف البطاقة / Card description, type: text }
+          - { name: kit, label: الأنظمة / Systems, type: string, list: true }
+          - { name: client, label: العميل / Client, type: string }
+          - { name: scope, label: النطاق / Scope, type: string }
+
   # ─────────────────────────── PRODUCTS ───────────────────────────
   - name: products
     label: Products

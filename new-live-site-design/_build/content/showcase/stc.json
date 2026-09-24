@@ -1,0 +1,35 @@
+{
+ "slug": "stc",
+ "order": 10,
+ "img": "assets1/images/dc-proj-stc.jpg",
+ "disc": [
+  "audio-visual-solutions",
+  "meeting-room-solutions"
+ ],
+ "en": {
+  "sector": "TELECOM",
+  "city": "RIYADH",
+  "name": "STC — Command Centres",
+  "body": "Complete audio-visual fit-out for Saudi Telecom command and control centres — large-format operator displays, video walls and integrated room control, executed end to end by our own AV team.",
+  "kit": [
+   "Video wall",
+   "Operator displays",
+   "AV control"
+  ],
+  "client": "Saudi Telecom Company (STC)",
+  "scope": "Command-centre AV — design, supply, install, commission"
+ },
+ "ar": {
+  "sector": "اتصالات",
+  "city": "الرياض",
+  "name": "مراكز التحكم — STC",
+  "body": "تنفيذ متكامل للأنظمة السمعية والبصرية في مراكز القيادة والتحكم لدى الاتصالات السعودية (STC) — شاشات عرض كبيرة للمشغّلين وجدران فيديو وتحكّم مدمج في القاعة، نفّذه فريقنا بالكامل.",
+  "kit": [
+   "جدار فيديو",
+   "شاشات المشغّلين",
+   "تحكّم سمعي بصري"
+  ],
+  "client": "شركة الاتصالات السعودية (STC)",
+  "scope": "أنظمة سمعية وبصرية لمراكز التحكم — تصميم وتوريد وتركيب وتشغيل"
+ }
+}

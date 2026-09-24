@@ -1,0 +1,35 @@
+{
+ "slug": "kafd",
+ "order": 20,
+ "img": "assets1/images/dc-proj-kafd.jpg",
+ "disc": [
+  "audio-visual-solutions",
+  "meeting-room-solutions"
+ ],
+ "en": {
+  "sector": "FINANCE",
+  "city": "RIYADH",
+  "name": "King Abdullah Financial District",
+  "body": "Audio-visual across KAFD headquarters meeting rooms and command rooms — presentation and conferencing systems plus command-room video walls, delivered as one integrated fit-out.",
+  "kit": [
+   "Meeting-room AV",
+   "Command-room video wall",
+   "Conferencing"
+  ],
+  "client": "King Abdullah Financial District (KAFD)",
+  "scope": "HQ meeting-room & command-room AV"
+ },
+ "ar": {
+  "sector": "قطاع مالي",
+  "city": "الرياض",
+  "name": "مركز الملك عبدالله المالي (KAFD)",
+  "body": "أنظمة سمعية وبصرية في قاعات الاجتماعات وغرف التحكم بمقر مركز الملك عبدالله المالي — أنظمة عرض ومؤتمرات وجدران فيديو لغرف التحكم، ضمن تجهيز متكامل.",
+  "kit": [
+   "أنظمة اجتماعات",
+   "جدار فيديو لغرفة التحكم",
+   "مؤتمرات فيديو"
+  ],
+  "client": "مركز الملك عبدالله المالي (KAFD)",
+  "scope": "أنظمة سمعية وبصرية لقاعات الاجتماعات وغرف التحكم"
+ }
+}

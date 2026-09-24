@@ -1,0 +1,34 @@
+{
+ "slug": "altayyar",
+ "order": 60,
+ "img": "assets1/images/dc-proj-altayyar.jpg",
+ "disc": [
+  "datacenter-solutions"
+ ],
+ "en": {
+  "sector": "TRAVEL",
+  "city": "RIYADH",
+  "name": "Al Tayyar Travels",
+  "body": "Turnkey Tier III data centre — civil and electrical works, precision cooling, UPS, FM200 suppression, raised floor and cabinets, built from the shell up.",
+  "kit": [
+   "Tier III",
+   "Precision cooling",
+   "FM200 · UPS"
+  ],
+  "client": "Al Tayyar Travels Group",
+  "scope": "Turnkey Tier III data-centre build"
+ },
+ "ar": {
+  "sector": "سفر وسياحة",
+  "city": "الرياض",
+  "name": "الطيار للسفر",
+  "body": "مركز بيانات متكامل من الفئة الثالثة (Tier III) — أعمال مدنية وكهربائية وتبريد دقيق وأنظمة UPS وإطفاء FM200 وأرضية مرتفعة وخزانات، بُني من الهيكل.",
+  "kit": [
+   "Tier III",
+   "تبريد دقيق",
+   "FM200 · UPS"
+  ],
+  "client": "مجموعة الطيار للسفر",
+  "scope": "بناء مركز بيانات متكامل من الفئة الثالثة"
+ }
+}
