@@ -154,7 +154,7 @@ def build_careers(ar):
     body += (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-svc-body" '
              f'style="max-width:760px">{inner}</div></div></section>' + cta_band(ar) + footer(ar))
     tt = title + (" | داتاكور للحلول" if ar else " | Datacore Solutions")
-    return shell(ar, "", tt, intro[:180], body)
+    return shell(ar, "careers", tt, intro[:180], body)
 
 # ── write pages ──────────────────────────────────────────────────────────
 for ar in (False, True):
