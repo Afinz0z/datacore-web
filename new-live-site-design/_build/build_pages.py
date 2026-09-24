@@ -733,7 +733,24 @@ def build_case(slug, ar):
                        for g in c['gallery'])
         gal = (f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
                f'<h2>{esc(U["gallery"])}</h2></div><div class="dcp-gal">{figs}</div></div></section>')
-    body = hero + photo + body_sec + gal + cta_band(ar) + footer(ar)
+    # related services + projects — crawl depth + topical association (reuses existing CSS, no VER bump)
+    _idx = CASE_SLUG.index(slug) if slug in CASE_SLUG else -1
+    _svc = ''.join(f'<a class="dcp-dir" href="{loc("services",ar)}?id={ds}">'
+                   f'{esc(next((d[2] if ar else d[1] for d in DISCIPLINES if d[0]==ds), ds))} {I_ARROW}</a>'
+                   for ds in (PROJ_DISC[_idx] if _idx >= 0 else []))
+    _oth = ''.join(f'<a class="dcp-dir" href="{loc("project-"+sl, ar)}">{E(CASES[sl][lang]["name"])} {I_ARROW}</a>'
+                   for sl in CASE_SLUG if sl and sl != slug and CASES.get(sl, {}).get(lang, {}).get("name"))
+    _related = ''
+    if _svc or _oth:
+        _rh_s = 'خدمات ذات صلة' if ar else 'Related services'
+        _rh_p = 'مشاريع أخرى' if ar else 'More projects'
+        _related = ('<section class="dcp-sec alt"><div class="dcp-wrap" style="max-width:820px">'
+                    + (f'<div class="dcp-head"><h2>{esc(_rh_s)}</h2></div>'
+                       f'<div style="display:flex;flex-wrap:wrap;gap:12px">{_svc}</div>' if _svc else '')
+                    + (f'<div class="dcp-head" style="margin-top:22px"><h2>{esc(_rh_p)}</h2></div>'
+                       f'<div style="display:flex;flex-direction:column;gap:13px">{_oth}</div>' if _oth else '')
+                    + '</div></section>')
+    body = hero + photo + body_sec + gal + _related + cta_band(ar) + footer(ar)
     schema = {"@context": "https://schema.org", "@type": "CreativeWork", "name": c["name"],
               "about": c.get("client"), "creator": {"@id": SITE + "/#org"},
               "publisher": {"@id": SITE + "/#org"},
