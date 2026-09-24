@@ -1677,7 +1677,7 @@
       grecaptcha.ready(function () {
         grecaptcha.execute('6LexCY0sAAAAADwsumAwonq10KerZKyKwwx-Y57Z', { action: 'contact_form' })
           .then(function (token) {
-            document.getElementById('gtoken').value = token;
+            var _g=document.getElementById('gtoken'); if(_g) _g.value = token;
           });
       });
     }
@@ -1775,13 +1775,14 @@
       getComputedStyle(document.body).direction === 'rtl';
 
     function updateCarousel() {
+      if (!track) return;
       const pageWidth = track.offsetWidth / totalPages;
       // For RTL, use positive translateX values instead of negative
       const translateValue = isRTL ? offset : -offset;
       track.style.transform = `translateX(${translateValue}px)`;
     }
 
-    document.getElementById("nextBtnz").addEventListener("click", () => {
+    document.getElementById("nextBtnz")?.addEventListener("click", () => {
       const pageWidth = track.offsetWidth / totalPages;
       offset += pageWidth;
       if (offset >= pageWidth * totalPages) {
@@ -1790,7 +1791,7 @@
       updateCarousel();
     });
 
-    document.getElementById("prevBtnz").addEventListener("click", () => {
+    document.getElementById("prevBtnz")?.addEventListener("click", () => {
       const pageWidth = track.offsetWidth / totalPages;
       offset -= pageWidth;
       if (offset < 0) {
@@ -1853,6 +1854,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const track = document.getElementById('mobileTrack');
+      if (!track) return;
       const pages = track.children;
       const pageCount = pages.length;
       let currentPage = 1;
@@ -1972,6 +1974,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const track = document.querySelector('.carousel-trackz');
+      if (!track) return;
       const prevBtns = document.querySelectorAll('.carousel-btn.prevx');
       const nextBtns = document.querySelectorAll('.carousel-btn.nextx');
 
@@ -2349,7 +2352,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <script>
-$(document).ready(function(){
+if (typeof jQuery !== 'undefined') jQuery(document).ready(function(){
   var isRTL = $('html').attr('dir') === 'rtl';
 
   function initMobileSliders() {
