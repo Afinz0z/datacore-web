@@ -1,0 +1,35 @@
+{
+ "slug": "neom",
+ "order": 30,
+ "img": "assets1/images/dc-proj-neom.jpg",
+ "disc": [
+  "audio-visual-solutions",
+  "meeting-room-solutions"
+ ],
+ "en": {
+  "sector": "GIGA-PROJECT",
+  "city": "NEOM",
+  "name": "NEOM — Executive Meeting Room",
+  "body": "Executive meeting-room AV for the NEOM CEO suite — video conferencing, wireless presentation and single-touch room control in a boardroom finished to brief.",
+  "kit": [
+   "Video conferencing",
+   "Wireless presentation",
+   "Room control"
+  ],
+  "client": "NEOM",
+  "scope": "Executive meeting-room AV"
+ },
+ "ar": {
+  "sector": "مشروع عملاق",
+  "city": "نيوم",
+  "name": "نيوم — قاعة الاجتماعات التنفيذية",
+  "body": "أنظمة سمعية وبصرية لقاعة اجتماعات الرئيس التنفيذي في نيوم — مؤتمرات فيديو وعرض لاسلكي وتحكّم بلمسة واحدة في القاعة، بتشطيب حسب المتطلبات.",
+  "kit": [
+   "مؤتمرات فيديو",
+   "عرض لاسلكي",
+   "تحكّم في القاعة"
+  ],
+  "client": "نيوم",
+  "scope": "أنظمة سمعية وبصرية لقاعة اجتماعات تنفيذية"
+ }
+}

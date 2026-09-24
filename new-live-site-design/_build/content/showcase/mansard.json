@@ -1,0 +1,34 @@
+{
+ "slug": "mansard",
+ "order": 70,
+ "img": "assets1/images/dc-proj-mansard.jpg",
+ "disc": [
+  "datacenter-solutions"
+ ],
+ "en": {
+  "sector": "HOSPITALITY",
+  "city": "RIYADH",
+  "name": "Mansard Hotel & Residence",
+  "body": "Tier III data-centre preparation — civil and electrical works, precision cooling, UPS, FM200, raised floor and cabinets for the hotel’s core infrastructure.",
+  "kit": [
+   "Tier III",
+   "Precision cooling",
+   "FM200 · UPS"
+  ],
+  "client": "Mansard Hotel & Residence",
+  "scope": "Tier III data-centre build"
+ },
+ "ar": {
+  "sector": "ضيافة",
+  "city": "الرياض",
+  "name": "فندق ومساكن مانسارد",
+  "body": "تجهيز مركز بيانات من الفئة الثالثة (Tier III) — أعمال مدنية وكهربائية وتبريد دقيق وأنظمة UPS وإطفاء FM200 وأرضية مرتفعة وخزانات للبنية الأساسية للفندق.",
+  "kit": [
+   "Tier III",
+   "تبريد دقيق",
+   "FM200 · UPS"
+  ],
+  "client": "فندق ومساكن مانسارد",
+  "scope": "بناء مركز بيانات من الفئة الثالثة"
+ }
+}

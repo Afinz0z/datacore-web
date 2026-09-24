@@ -48,9 +48,9 @@ DISCIPLINES = [  # (services.html?id=, EN, AR) — matches the header dropdown
   ('iptv-solutions','IPTV Solutions','حلول IPTV'),
   ('professional-services','Professional Services','الخدمات الاحترافية'),
 ]
-PROJ_IMG = ['dc-proj-owis.jpg','dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg',
-            'dc-proj-stc.jpg','dc-proj-kafd.jpg','dc-proj-neom.jpg','dc-proj-mawhiba.jpg',
-            'dc-proj-sama.jpg','dc-proj-altayyar.jpg','dc-proj-mansard.jpg']
+# case-study hero/card images (index-aligned with the hub's project list). The
+# showcase cards' images are appended from content/showcase/ once SHOWCASE loads.
+PROJ_IMG = ['dc-proj-owis.jpg','dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
 # disciplines each project actually touches (read off its real kit/scope) — powers the
 # projects filter; slugs match DISCIPLINES / the services-nav dropdown so the two never drift.
 PROJ_DISC = [
@@ -59,14 +59,7 @@ PROJ_DISC = [
   ['audio-visual-solutions','digital-signage-amp-video-walls','meeting-room-solutions'],                                                 # PSAU
   ['audio-visual-solutions','meeting-room-solutions'],                                                                                   # TAQEEM
   ['audio-visual-solutions','digital-signage-amp-video-walls'],                                                                          # auditorium
-  ['audio-visual-solutions','meeting-room-solutions'],                          # STC command centres
-  ['audio-visual-solutions','meeting-room-solutions'],                          # KAFD
-  ['audio-visual-solutions','meeting-room-solutions'],                          # NEOM exec room
-  ['audio-visual-solutions','meeting-room-solutions'],                          # Mawhiba auditorium + boardrooms
-  ['datacenter-solutions','network-infrastructure-services'],                   # SAMA data centre
-  ['datacenter-solutions'],                                                     # Al Tayyar Tier III
-  ['datacenter-solutions'],                                                     # Mansard Tier III
-]
+]  # showcase projects' disciplines are appended from content/showcase/ (see below)
 # "From our sites" gallery — real installation/site photos, (file, en alt, ar alt)
 GAL_IMG = [
   ('dc-proj-controlroom.jpg', 'A control room we integrated', 'غرفة تحكم من تنفيذنا'),
@@ -79,9 +72,10 @@ GAL_IMG = [
   ('dc-proj-owis-rack.jpg', 'The communications rack at OWIS Riyadh', 'خزانة الاتصالات في مدرسة ون وورلد الرياض'),
   ('dc-proj-owis-building.jpg', 'OWIS Riyadh campus building', 'مبنى حرم مدرسة ون وورلد الرياض'),
 ]
-# case-study detail pages — slugs index-aligned with proj[] / PROJ_IMG
-CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium',
-             '', '', '', '', '', '', '']   # 7 showcase cards from the portfolio decks: image+detail, no dedicated case page
+# which hub cards have a dedicated case-study page — index-aligned with the hub's
+# project list. The showcase cards (content/showcase/) have none; their empty slots
+# are appended after SHOWCASE loads (see below).
+CASE_SLUG = ['owis', 'aou-council', 'psau', 'taqeem', 'auditorium']
 def _load_cases():
     """Project case studies are one file each under content/projects/<slug>.json
     ({slug, order, img (full assets1/images/ path), en, ar}). Rebuild the
@@ -94,6 +88,22 @@ def _load_cases():
         cases[e["slug"]] = {"img": e.get("img", ""), "en": e.get("en", {}), "ar": e.get("ar", {})}
     return cases
 CASES = _load_cases()
+def _load_showcase():
+    """Card-only 'showcase' projects — the ones with no case-study page — are one
+    file each under content/showcase/<slug>.json ({slug, order, img, disc, en, ar}),
+    editable in Pages CMS. They render on the projects hub after the case studies."""
+    import glob
+    d = os.path.dirname(os.path.abspath(__file__))
+    items = [json.load(open(f, encoding="utf-8"))
+             for f in glob.glob(os.path.join(d, "content", "showcase", "*.json"))]
+    items.sort(key=lambda e: (e["order"], e["slug"]))  # lower order first; ties break by slug
+    return items
+SHOWCASE = _load_showcase()
+# the hub lists the 5 case studies first, then the showcase cards; extend the
+# index-aligned arrays so build_projects can treat all of them uniformly.
+PROJ_IMG += [os.path.basename(s["img"]) for s in SHOWCASE]
+PROJ_DISC += [s["disc"] for s in SHOWCASE]
+CASE_SLUG += ["" for _ in SHOWCASE]
 FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "faq.json"), encoding="utf-8"))
 GLOSSARY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "glossary.json"), encoding="utf-8"))
 def _load_insights():
@@ -585,7 +595,11 @@ def build_projects(ar):
     s = STR['ar' if ar else 'en']
     U = CASE_UI['ar' if ar else 'en']
     cards = ''
-    for i, p in enumerate(s['proj']):
+    lang = 'ar' if ar else 'en'
+    # 5 case-study cards (from mirror_strings) then the showcase cards (from files)
+    show = [(sc[lang]['sector'], sc[lang]['city'], sc[lang]['name'], sc[lang]['body'],
+             sc[lang]['kit'], sc[lang]['client'], sc[lang]['scope']) for sc in SHOWCASE]
+    for i, p in enumerate(list(s['proj']) + show):
         sector, city, name, body, kit, client, scope = p
         kits = ''.join(f'<span>{esc(k)}</span>' for k in kit)
         # only the five projects with a dedicated case-study page get a "read more" link;
