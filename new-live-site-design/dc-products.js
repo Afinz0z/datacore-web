@@ -9,8 +9,8 @@
   var KEY = 'dcp-rfq2';   // basket is now { sku: qty }
   var basket = load();
 
-  function load() { try { var v = JSON.parse(sessionStorage.getItem(KEY)); if (Array.isArray(v)) { var o = {}; v.forEach(function (s) { o[s] = 1; }); return o; } return (v && typeof v === 'object') ? v : {}; } catch (e) { return {}; } }
-  function save() { try { sessionStorage.setItem(KEY, JSON.stringify(basket)); } catch (e) {} }
+  function load() { try { var v = JSON.parse(localStorage.getItem(KEY)); if (Array.isArray(v)) { var o = {}; v.forEach(function (s) { o[s] = 1; }); return o; } return (v && typeof v === 'object') ? v : {}; } catch (e) { return {}; } }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(basket)); } catch (e) {} }
   function bySku(s) { for (var i = 0; i < P.length; i++) if (P[i].sku === s) return P[i]; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
   function glyph(g) {
