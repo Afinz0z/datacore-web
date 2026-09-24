@@ -203,7 +203,7 @@ html[dir=rtl] .dcp-fgroup h4{letter-spacing:0}
 @media(max-width:460px){.dcp-grid{grid-template-columns:1fr 1fr}}
 .dcp-card{border:1px solid var(--dcp-line);border-radius:6px;background:#fff;padding:20px;
   display:flex;flex-direction:column;gap:12px;transition:box-shadow .2s,border-color .2s}
-.dcp-card[hidden]{display:none}   /* the filter sets el.hidden; without this, .dcp-card's own display wins and nothing hides */
+[hidden]{display:none!important}   /* filter/RFQ toggle el.hidden to hide; without this an element's own display rule wins and it never hides */
 .dcp-card:hover{box-shadow:0 20px 40px -28px rgba(26,27,31,.4);border-color:var(--dcp-line)}
 .dcp-card-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .dcp-card-photo{aspect-ratio:5/4;border-radius:4px;overflow:hidden;background:#fff;
