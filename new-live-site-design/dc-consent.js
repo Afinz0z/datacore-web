@@ -3,10 +3,12 @@
  * Load this EARLY in <head> on every page. It:
  *   1. sets Consent Mode defaults to DENIED (analytics/ads) for everyone,
  *   2. re-applies a previously stored choice (localStorage 'dc-consent'),
- *   3. loads GTM (which, under Consent Mode, holds cookie-setting tags until
- *      consent is granted),
+ *   3. loads GTM only once the visitor has accepted: straight away on Accept,
+ *      or after the page has finished loading for a returning visitor who
+ *      accepted before (so it never competes with the page itself),
  *   4. shows a consent banner once — Accept grants, Decline keeps denied.
- * No tracking cookies are set until the visitor clicks Accept.
+ * Nothing loads from Google, and no tracking cookies are set, until the
+ * visitor clicks Accept.
  */
 (function () {
   var GTM_ID = 'GTM-TPKMT6DS';
@@ -34,21 +36,30 @@
   }
   if (choice === 'granted') grant();
 
-  // 3. load GTM (tags stay held until consent under Consent Mode)
-  (function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-    var f = d.getElementsByTagName(s)[0], j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', GTM_ID);
+  // 3. load GTM only with consent
+  var gtmLoaded = false;
+  function loadGTM() {
+    if (gtmLoaded) return;
+    gtmLoaded = true;
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0], j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', GTM_ID);
+  }
+  if (choice === 'granted') {
+    if (document.readyState === 'complete') loadGTM();
+    else window.addEventListener('load', loadGTM);
+  }
 
   // 4. banner — only if no prior choice
   if (choice === 'granted' || choice === 'denied') return;
 
   function save(v) {
     try { localStorage.setItem(KEY, v); } catch (e) {}
-    if (v === 'granted') grant();
+    if (v === 'granted') { grant(); loadGTM(); }
     var b = document.getElementById('dc-cookie');
     if (b) b.parentNode.removeChild(b);
   }
