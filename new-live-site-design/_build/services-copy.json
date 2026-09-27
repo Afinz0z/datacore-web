@@ -2,7 +2,8 @@
  "_meta": {
   "_source": "Fetched verbatim from https://www.datacore.com.sa/service-details/<slug>?lang=en|ar",
   "_fetched": "2026-09-02",
-  "_note": "Copy belongs to the client (their live production site). Do not edit here; regenerate with the fetch script."
+  "_note": "Copy belongs to the client (their live production site). Do not edit here; regenerate with the fetch script.",
+  "_refetched": "2026-09-27: auditorium re-fetched from https://datacore.com.sa/service-details/auditorium-av-solutions (the live page moved there; the old /service-details/auditorium is now empty). Lists are kept in \"lis\" and folded into the paragraphs."
  },
  "services": {
   "structured-cabling-solutions": {
@@ -830,27 +831,91 @@
   },
   "auditorium": {
    "en": {
-    "title": "Auditorium AV Integrator in Saudi Arabia | Datacore",
-    "desc": "Auditorium AV Integrator in Saudi Arabia delivering immersive audio, visual, lighting, and control solutions for modern venues.",
-    "h1": "Auditorium",
-    "intro": "As a leading Auditorium AV Integrator in Saudi Arabia, Datacore delivers advanced audio, visual, lighting, and control solutions designed to create immersive experiences for presentations, performances, conferences, and large-scale events. Our auditorium solutions combine powerful acoustics, high-definition visuals, and seamless AV integration to ensure exceptional audience engagement and operational efficiency.",
+    "title": "Auditorium AV Solutions Saudi Arabia",
+    "desc": "Datacore delivers integrated auditorium AV solutions in Saudi Arabia, including professional audio, LED displays, projection, AV control, lighting, installation, and integration.",
+    "h1": "Auditorium AV Solutions",
+    "intro": "Datacore provides integrated auditorium AV solutions in Saudi Arabia, combining professional audio, visual, lighting, and control systems for presentations, conferences, performances, training sessions, and large-scale events. Our solutions bring these technologies together through coordinated system design, installation, integration, and commissioning to support reliable venue operation and engaging audience experiences.",
     "sections": [
      {
-      "h": "About Auditorium Solutions",
+      "h": "",
       "ps": [
-       "Auditorium solutions are designed to transform large venues into engaging, high-impact spaces that deliver exceptional audio and visual performance. Through seamless integration of acoustics, lighting, projection systems, and AV controls, organizations can provide clear communication and immersive experiences for every event.",
-       "A professionally designed auditorium system simplifies the management of sound, lighting, and visual technologies through centralized controls and intelligent automation. This improves operational efficiency while ensuring reliable performance for conferences, training sessions, presentations, performances, and public events.",
-       "As a trusted Auditorium AV Integrator in Saudi Arabia, Datacore delivers scalable solutions that adapt to changing business requirements and technological advancements. Whether upgrading an existing venue or building a new auditorium, our solutions provide flexibility, reliability, and long-term value."
+       "Modern auditoriums require coordinated audiovisual systems to deliver clear communication, high-quality visuals, and reliable performance across different types of events. Datacore designs and integrates auditorium AV systems for educational institutions, government facilities, corporate organizations, convention centers, theaters, and event venues. Our solutions can bring together professional audio, projection and LED display systems, presentation technology, stage lighting, centralized control, and AV automation. Each system is designed around the venue's size, acoustics, intended use, audience capacity, and operational requirements."
       ],
       "lis": []
      },
      {
-      "h": "Reliable, High-Performance Auditorium Solutions",
+      "h": "Auditorium AV Systems We Integrate",
       "ps": [
-       "Our auditorium AV solutions are engineered to deliver consistent performance, superior sound clarity, and exceptional visual experiences. From system planning and acoustic design to installation, commissioning, and ongoing support, Datacore provides end-to-end services that ensure optimal results.",
-       "By integrating advanced AV technologies with intelligent control systems, organizations gain greater flexibility, simplified management, and enhanced audience engagement. Our solutions are designed to support future expansion, reduce operational complexity, and maximize return on investment."
+       "Professional Audio Systems: Clear and consistent sound is essential for auditoriums used for presentations, lectures, conferences, performances, and public events. Our audio solutions can include microphones, speakers, amplifiers, digital signal processing, and other professional audio components designed for the venue.",
+       "LED Displays & Projection Systems: We integrate large-format LED displays, projection systems, professional displays, and presentation technologies to deliver clear and engaging visual content for audiences across the venue.",
+       "AV Control & Automation: Centralized control simplifies the management of audio, video, presentations, lighting, and connected technologies. Integrated control systems allow operators to manage multiple components through coordinated interfaces and predefined workflows.",
+       "Presentation & Collaboration Systems: Auditoriums often support multiple presenters, content sources, and presentation formats. We integrate connectivity and presentation technologies that allow users to share and manage content efficiently during meetings, lectures, conferences, and events.",
+       "Stage Lighting & AV Integration: Lighting can be integrated with audiovisual and control systems to support presentations, performances, conferences, and other venue requirements. Coordinated control helps operators manage multiple systems from a centralized environment."
       ],
       "lis": []
+     },
+     {
+      "h": "Designed for Different Auditorium Environments",
+      "ps": [
+       "Datacore develops AV solutions according to the specific requirements of each venue, including: educational auditoriums and lecture halls, government and institutional facilities, corporate auditoriums and conference spaces, convention and event venues, theaters and performance spaces, and training and presentation facilities.",
+       "Whether the requirement is a new installation or an upgrade to an existing auditorium, the system can be designed around current operational needs while allowing for future expansion."
+      ],
+      "lis": [
+       "Educational auditoriums and lecture halls",
+       "Government and institutional facilities",
+       "Corporate auditoriums and conference spaces",
+       "Convention and event venues",
+       "Theaters and performance spaces",
+       "Training and presentation facilities"
+      ]
+     },
+     {
+      "h": "From AV Design to Installation & Commissioning",
+      "ps": [
+       "A successful auditorium AV system depends on more than individual equipment. It requires careful planning, system integration, configuration, and testing.",
+       "Our approach includes:",
+       "Site Assessment & Requirements Analysis: We evaluate the venue, intended applications, audience requirements, acoustics, existing infrastructure, and technical requirements.",
+       "System Design: Our team develops an AV architecture covering audio, visual, control, presentation, and connectivity requirements.",
+       "Equipment Selection: Suitable technologies and equipment are selected according to the performance, functionality, and operational requirements of the auditorium.",
+       "Installation & Integration: AV equipment and supporting systems are installed and integrated into a coordinated solution.",
+       "Programming & Configuration: Control systems, automation workflows, and connected technologies are configured for efficient operation.",
+       "Testing & Commissioning: The completed system is tested and commissioned to verify performance and ensure the different components work together as intended.",
+       "Technical Support: Ongoing technical support helps organizations maintain reliable system performance and manage future requirements."
+      ],
+      "lis": [
+       "Site Assessment & Requirements Analysis",
+       "System Design",
+       "Equipment Selection",
+       "Installation & Integration",
+       "Programming & Configuration",
+       "Testing & Commissioning",
+       "Technical Support"
+      ]
+     },
+     {
+      "h": "Auditorium AV Projects",
+      "ps": [
+       "Datacore has delivered audiovisual solutions for environments that require integrated audio, visual, presentation, and control technologies.",
+       "Our project experience includes auditorium and AV deployments for educational institutions, corporate facilities, and other professional environments in Saudi Arabia."
+      ],
+      "lis": []
+     },
+     {
+      "h": "Reliable AV Integration for Long-Term Performance",
+      "ps": [
+       "A well-designed auditorium AV system should be easy to operate, adaptable to changing requirements, and capable of supporting different types of events.",
+       "Datacore focuses on integrating the major components of the AV environment into a coordinated system rather than treating audio, video, lighting, and control as separate technologies. This approach can simplify operation, improve system consistency, and provide a foundation for future upgrades.",
+       "Our solutions are designed to support: clear and consistent audio, high-quality visual presentation, centralized system control, efficient venue operation, flexible presentation requirements, scalable AV infrastructure, and future technology upgrades."
+      ],
+      "lis": [
+       "Clear and consistent audio",
+       "High-quality visual presentation",
+       "Centralized system control",
+       "Efficient venue operation",
+       "Flexible presentation requirements",
+       "Scalable AV infrastructure",
+       "Future technology upgrades"
+      ]
      }
     ]
    },
