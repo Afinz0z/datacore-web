@@ -192,6 +192,8 @@ html[dir=rtl] .dcp-fgroup h4{letter-spacing:0}
   border:1px solid var(--dcp-line);border-radius:20px;padding:4px 8px;padding-inline-start:12px;font-size:.83rem}
 .dcp-chip button{background:none;border:0;font-size:1.15rem;line-height:1;cursor:pointer;color:var(--dcp-ink3)}
 .dcp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}
+/* the cards are drawn by dc-products.js; hold the space so the section below doesn't jump when they land */
+.dcp-grid:empty{min-height:100vh}
 @media(max-width:900px){
   .dcp-cat-shell{grid-template-columns:1fr}
   .dcp-facets{position:static;display:none;border:1px solid var(--dcp-line);border-radius:6px;
