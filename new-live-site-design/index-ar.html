@@ -5283,18 +5283,10 @@
 
   <!-- blog limli -->
   <script>
-    document.querySelectorAll('.news-desc').forEach(el => {
-      const limit = el.dataset.limit;
-      const text = el.innerText;
-      if (text.length > limit) {
-        el.innerText = text.substring(0, limit) + '...';
-      }
-    });
-
-
-    document.querySelectorAll('.news-title').forEach(el => {
-      const limit = el.dataset.limit;
-      const text = el.innerText;
+    // read all the texts first, then shorten: alternating reads and writes forced a layout per card
+    const limited = [...document.querySelectorAll('.news-desc'), ...document.querySelectorAll('.news-title')]
+      .map(el => ({ el, limit: el.dataset.limit, text: el.innerText }));
+    limited.forEach(({ el, limit, text }) => {
       if (text.length > limit) {
         el.innerText = text.substring(0, limit) + '...';
       }
