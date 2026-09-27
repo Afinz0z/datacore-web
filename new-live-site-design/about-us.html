@@ -1570,6 +1570,8 @@ With more than 150 skilled professionals and a portfolio of 1,500+ satisfied cus
   <!-- faddown -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
+      // mark every element first, so AOS measures them all against one layout instead of one per element
+      document.querySelectorAll('[data-aos]').forEach(function(el) { el.classList.add('aos-init'); });
       AOS.init();
     });
     window.addEventListener('load', function() { AOS.refresh(); });

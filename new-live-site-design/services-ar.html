@@ -2203,6 +2203,8 @@ sections.forEach(sec => sec.classList.add("active"));
   <!-- faddown -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
+      // mark every element first, so AOS measures them all against one layout instead of one per element
+      document.querySelectorAll('[data-aos]').forEach(function(el) { el.classList.add('aos-init'); });
       AOS.init();
     });
     window.addEventListener('load', function() { AOS.refresh(); });
