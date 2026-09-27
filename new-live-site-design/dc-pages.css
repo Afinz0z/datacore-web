@@ -406,10 +406,10 @@ html[dir=rtl] .dcp-marquee .track{animation-direction:reverse}
   /* no standalone opacity:0 — fill-mode `both` hides during the delay yet the
      element defaults to visible if the animation never runs (fail-safe hero) */
   .dcp-hero .dcp-crumb,.dcp-hero h1,.dcp-hero .dcp-lede,.dcp-hero .btns{
-    animation:dcx-riseIn .6s cubic-bezier(.22,.61,.36,1) both}
-  .dcp-hero h1{animation-delay:.08s}
-  .dcp-hero .dcp-lede{animation-delay:.16s}
-  .dcp-hero .btns{animation-delay:.24s}
+    animation:dcx-riseIn .35s cubic-bezier(.22,.61,.36,1) both}
+  .dcp-hero h1{animation-delay:.04s}
+  .dcp-hero .dcp-lede{animation-delay:.08s}
+  .dcp-hero .btns{animation-delay:.12s}
   .dcp-fabn.dcp-bump{animation:dcx-bump .34s ease}
 }
 .dcp-fab-ic{flex:none}

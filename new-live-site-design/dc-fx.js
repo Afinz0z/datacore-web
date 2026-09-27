@@ -11,7 +11,12 @@
     // there are 37 of them with lazy images, and a reveal that misfires would
     // leave the catalogue blank. They render immediately; images lazy-load.
     var sel = '.dcp-sec, .dcp-proj, .dcp-post, .dcp-method-step, .dcp-featcell, .dcp-stat';
-    var items = [].slice.call(document.querySelectorAll(sel));
+    // Only animate what starts below the fold. Anything already on screen stays
+    // as first painted; hiding it and fading it back in made pages feel slow to open.
+    var fold = window.innerHeight;
+    var items = [].slice.call(document.querySelectorAll(sel)).filter(function (el) {
+      return el.getBoundingClientRect().top > fold;
+    });
     items.forEach(function (el) { el.classList.add('dcx-reveal'); });
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
