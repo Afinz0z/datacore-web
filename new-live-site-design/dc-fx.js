@@ -6,27 +6,38 @@
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // ── scroll reveal ───────────────────────────────────────────────
-  if (!reduce && 'IntersectionObserver' in window) {
-    // NB: product catalogue cards (.dcp-card) are deliberately NOT revealed —
-    // there are 37 of them with lazy images, and a reveal that misfires would
-    // leave the catalogue blank. They render immediately; images lazy-load.
-    var sel = '.dcp-sec, .dcp-proj, .dcp-post, .dcp-method-step, .dcp-featcell, .dcp-stat';
-    // Only animate what starts below the fold. Anything already on screen stays
-    // as first painted; hiding it and fading it back in made pages feel slow to open.
+  // NB: product catalogue cards (.dcp-card) are deliberately NOT revealed —
+  // there are 37 of them with lazy images, and a reveal that misfires would
+  // leave the catalogue blank. They render immediately; images lazy-load.
+  var sel = '.dcp-sec, .dcp-proj, .dcp-post, .dcp-method-step, .dcp-featcell, .dcp-stat';
+  function setupReveal() {
+    // Only animate blocks that start below the fold and fit on one screen.
+    // Anything already on screen stays as first painted, and a block taller than
+    // the screen (an article body, the catalogue, the insights list) is never
+    // faded out: hiding it made the page body vanish while it opened.
     var fold = window.innerHeight;
     var items = [].slice.call(document.querySelectorAll(sel)).filter(function (el) {
-      return el.getBoundingClientRect().top > fold;
+      var r = el.getBoundingClientRect();
+      return r.top > fold && r.height < fold;
     });
     items.forEach(function (el) { el.classList.add('dcx-reveal'); });
+    // threshold 0 = reveal as soon as any part is on screen (a ratio such as
+    // 0.12 can never be reached by a block several screens tall)
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (e.isIntersecting) { e.target.classList.add('dcx-in'); io.unobserve(e.target); }
       });
-    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
     items.forEach(function (el) { io.observe(el); });
     // safety net: whatever the observer misses, reveal it so content is never
     // stuck invisible (e.g. programmatic scrolls, background tabs, odd engines)
     setTimeout(function () { items.forEach(function (el) { el.classList.add('dcx-in'); }); }, 2200);
+  }
+  if (!reduce && 'IntersectionObserver' in window) {
+    // a page Chrome renders ahead of a click (speculation rules) is measured
+    // once it is actually shown, against the real viewport
+    if (document.prerendering) document.addEventListener('prerenderingchange', setupReveal, { once: true });
+    else setupReveal();
   }
 
   // ── count-up on the stats band ──────────────────────────────────
@@ -41,12 +52,8 @@
     countUp(el, target, suffix);
   }
 
-  // TODO(human): implement countUp(el, target, suffix)
-  // Animate el.textContent from 0 up to `target` over roughly 1.2s, then set
-  // the final value with `suffix` appended. Use requestAnimationFrame. Decide
-  // the easing (linear feels mechanical; an ease-out finishes with a nice
-  // deceleration) and make sure the very last frame lands exactly on `target`
-  // (never target-1 from rounding). Keep it to ~6-10 lines.
+  // counts el from 0 up to target over ~1.2 s with an ease-out, then writes the
+  // exact final value (rounding never leaves it one short)
   function countUp(el, target, suffix) {
     var t0 = null, dur = 1200;
     function frame(ts) {
