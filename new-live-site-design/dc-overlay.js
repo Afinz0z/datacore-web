@@ -335,3 +335,24 @@
     document.addEventListener('DOMContentLoaded', function () { mount(); sweepStrays(); });
   else sweepStrays();
 })();
+
+/* Instant page-to-page navigation in Chromium browsers: when a visitor hovers
+   (or starts tapping) a link to another page of this site, render that page in
+   the background so the click shows it at once. Other browsers ignore this. */
+(function () {
+  if (!(window.HTMLScriptElement && HTMLScriptElement.supports &&
+        HTMLScriptElement.supports('speculationrules'))) return;
+  var rules = document.createElement('script');
+  rules.type = 'speculationrules';
+  rules.textContent = JSON.stringify({
+    prerender: [{
+      source: 'document',
+      where: { and: [
+        { href_matches: '/*' },
+        { not: { selector_matches: '[target=_blank], [download], [href^="mailto:"], [href^="tel:"]' } }
+      ] },
+      eagerness: 'moderate'
+    }]
+  });
+  document.head.appendChild(rules);
+})();

@@ -49,9 +49,15 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', GTM_ID);
   }
+  // a page Chrome renders ahead of a click (speculation rules in dc-overlay.js)
+  // only loads GTM once the visitor actually opens it
+  function whenShown(fn) {
+    if (document.prerendering) document.addEventListener('prerenderingchange', fn, { once: true });
+    else fn();
+  }
   if (choice === 'granted') {
-    if (document.readyState === 'complete') loadGTM();
-    else window.addEventListener('load', loadGTM);
+    if (document.readyState === 'complete') whenShown(loadGTM);
+    else window.addEventListener('load', function () { whenShown(loadGTM); });
   }
 
   // 4. banner — only if no prior choice
