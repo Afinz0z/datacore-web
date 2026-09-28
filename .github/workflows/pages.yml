@@ -36,12 +36,12 @@ jobs:
           python build_extra.py
       - name: Disable Jekyll processing
         run: touch new-live-site-design/.nojekyll
-      # Publish the website only: the generators, the plain-text guide and
-      # local tool settings stay in the repository but are not served.
+      # Publish the website only: the generators and the plain-text guide
+      # stay in the repository but are not served.
       - name: Stage the public site
         run: |
-          rsync -a --exclude '_build/' --exclude '.claude/' --exclude '.gitignore' \
-            --exclude 'readme.txt' new-live-site-design/ _site/
+          rsync -a --exclude '_build/' --exclude '.gitignore' --exclude 'readme.txt' \
+            new-live-site-design/ _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
