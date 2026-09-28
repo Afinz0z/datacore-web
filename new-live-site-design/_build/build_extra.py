@@ -195,14 +195,91 @@ for slug in ["av-solutions-provider-saudi-arabia", "elv-low-current-systems-saud
              "av-network-integrator-saudi-arabia"]:
     urls += [slug + ".html", slug + "-ar.html"]
 
-import datetime
-# Default = the freshest article date, not today's date — a real content-freshness
-# signal that stays stable across rebuilds instead of changing every day.
-LASTMOD = max(_lastmod.values()) if _lastmod else datetime.date.today().isoformat()
+import datetime, re, hashlib, subprocess, html as _html
+
+
+def _visible(doc):
+    """Fingerprint of what a reader sees: title, meta description, body text and
+    link text. Scripts, styles and cache-busting ?v= stamps are not content."""
+    doc = re.sub(r"(?is)<(script|style|noscript|template)\b.*?</\1>", " ", doc)
+    head = (re.findall(r"(?is)<title[^>]*>(.*?)</title>", doc)
+            + re.findall(r'(?is)<meta\s+name="description"\s+content="([^"]*)"', doc))
+    text = _html.unescape(re.sub(r"(?s)<[^>]+>", " ", doc.split("<body", 1)[-1]))
+    return hashlib.sha1(" ".join((" ".join(head) + " " + text).split()).encode("utf-8")).hexdigest()
+
+
+def _page_dates(urls):
+    """The last day each page's visible content changed, read from the git history.
+
+    A page that differs from its last committed version is dated today if the
+    content sources have uncommitted edits (a local rebuild), otherwise by the last
+    commit to _build/ (e.g. a CMS edit that CI rebuilt). Returns {} without a full
+    git history (not a checkout, or a shallow clone); the sitemap then falls back
+    to the article dates."""
+    def git(*args):
+        return subprocess.run(["git", "-C", ROOT] + list(args), capture_output=True, check=True).stdout
+    try:
+        if git("rev-parse", "--is-shallow-repository").strip() == b"true":
+            return {}
+        prefix = git("rev-parse", "--show-prefix").decode().strip()
+        raw = git("log", "--reverse", "--format=C %cs", "--raw", "--no-abbrev", "--no-renames",
+                  "--", "*.html").decode("utf-8", "replace")   # pathspec is relative to ROOT
+        edited = bool(git("status", "--porcelain", "--", "_build").strip())
+        source_day = git("log", "-1", "--format=%cs", "--", "_build").decode().strip()
+    except (OSError, subprocess.CalledProcessError):
+        return {}
+    versions, day = {}, None
+    for line in raw.splitlines():
+        if line.startswith("C "):
+            day = line[2:].strip()
+        elif line.startswith(":"):
+            meta, path = line.split("\t", 1)
+            name, fields = path[len(prefix):], meta.split()
+            if path.startswith(prefix) and "/" not in name and fields[4] != "D":
+                versions.setdefault(name, []).append((day, fields[3]))
+    cat = subprocess.Popen(["git", "-C", ROOT, "cat-file", "--batch"],
+                           stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+
+    def blob(sha):
+        cat.stdin.write((sha + "\n").encode())
+        cat.stdin.flush()
+        size = int(cat.stdout.readline().split()[2])
+        data = cat.stdout.read(size)
+        cat.stdout.read(1)
+        return data.decode("utf-8", "replace")
+
+    today = datetime.date.today().isoformat()
+    changed_now = today if edited else (source_day or today)
+    dates = {}
+    for u in urls:
+        vs, path = versions.get(u), os.path.join(ROOT, u)
+        if not vs or not os.path.exists(path):
+            dates[u] = changed_now
+            continue
+        now = _visible(open(path, encoding="utf-8", errors="replace").read())
+        if now != _visible(blob(vs[-1][1])):
+            dates[u] = changed_now
+            continue
+        dates[u] = vs[0][0]
+        for i in range(len(vs) - 2, -1, -1):  # newest first, back to the last real change
+            if _visible(blob(vs[i][1])) != now:
+                dates[u] = vs[i + 1][0]
+                break
+    cat.stdin.close()
+    cat.wait()
+    return dates
+
+
+_dates = _page_dates(urls)
+# Site-wide "last updated" = the most recent page change; without history, the
+# freshest article date. Either way it only moves when content does.
+LASTMOD = (max(_dates.values()) if _dates
+           else max(_lastmod.values()) if _lastmod else datetime.date.today().isoformat())
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">'.replace("www.sitemap.org", "www.sitemaps.org")]
 for u in urls:
-    sm.append(f"  <url><loc>{BASE}/{u}</loc><lastmod>{_lastmod.get(u, LASTMOD)}</lastmod><changefreq>monthly</changefreq></url>")
+    sm.append(f"  <url><loc>{BASE}/{u}</loc><lastmod>{_dates.get(u) or _lastmod.get(u, LASTMOD)}</lastmod>"
+              f"<changefreq>monthly</changefreq></url>")
 sm.append("</urlset>")
 open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
 

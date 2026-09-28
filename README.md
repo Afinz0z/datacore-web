@@ -47,41 +47,15 @@ python -m http.server -d new-live-site-design 8000
 ## Deploying
 
 Push to the default branch. GitHub Actions (`.github/workflows/pages.yml`) runs
-the four generators and publishes `new-live-site-design/` to GitHub Pages. There
-is no manual deploy step.
+the four generators and publishes the website to GitHub Pages. The generators
+(`_build/`) and the plain-language guide (`readme.txt`) stay in the repository
+but are not published. There is no manual deploy step.
 
-## Conventions
+## Contributing
 
-- **Bilingual parity.** Every page exists in English and Arabic
-  (`<page>-ar.html`). Add or change copy in both.
-- **Arabic is a first draft** pending native technical review. Flag any new
-  Arabic as unreviewed; don't treat it as final.
-- **Accessibility — brand teal.** Never put text on the bright teal `#00ACA1`; it
-  fails WCAG AA (2.83:1). Use `#00776F` (5.43:1) for anything carrying text. The
-  bright teal is for the logo, marker dots, and fills only.
-- **RTL.** Use logical CSS properties (`margin-inline`, `inset-inline`), never
-  physical ones (`margin-left`, `left`). Wrap Latin runs inside Arabic — brand
-  names, model codes, phone numbers — in `dir="ltr"`.
-- **Don't invent client facts.** Certifications, CR / VAT numbers, client
-  relationships, and head-counts must be real. If a value isn't confirmed, leave
-  a `TODO` rather than a plausible guess.
-
-## Operational notes
-
-- **Shared front-end assets** (`dc-overlay.*`, `dc-pages.css`, `dc-products.js`,
-  `dc-fx.js`) are cache-busted by a `VER` string in `build_pages.py`. Bump it when
-  you change one of them, or browsers keep serving a stale copy.
-- **Dark mode** is a CSS `filter: invert()` applied per top-level block — not to
-  the whole page, because a filter on an element taller than the GPU layer limit
-  is silently dropped. Media is counter-inverted so photos stay true colour.
-- **Image loading.** Don't `loading="lazy"` a grid of small primary thumbnails —
-  in some render contexts the load never fires and tiles stay blank; load them
-  eagerly with `fetchpriority` tiering instead. Never lazy-load the LCP hero.
-- **Keep the core pages faithful.** Enhance the three live-capture pages through
-  the overlay, not by rewriting their bodies.
-- After changing a generator or content, rebuild and review the generated HTML
-  diff — the build is deterministic apart from the date-stamped `sitemap.xml` and
-  `security.txt`.
+The working rules — bilingual parity, RTL, brand colours, cache-busting,
+self-hosted libraries, consent, sitemap dates — are in `CONTRIBUTING.md`. Read it
+before changing anything.
 
 ## Repo layout
 
@@ -93,7 +67,9 @@ new-live-site-design/          the site — static pages and assets
     build_products.py          products catalogue
     build_services.py          38 service-detail pages
     build_extra.py             terms / privacy / 404, sitemap, robots, llms.txt
-  assets1/  fonts/  imgserver/  images, fonts, media
+  assets1/  fonts/  imgserver/  images, fonts, media (third-party libraries in assets1/vendor/)
+  readme.txt                   plain-language guide for non-technical readers
 .pages.yml                     Pages CMS configuration
 .github/workflows/pages.yml    CI: build + deploy to GitHub Pages
+CONTRIBUTING.md                working rules for anyone changing the site
 ```
