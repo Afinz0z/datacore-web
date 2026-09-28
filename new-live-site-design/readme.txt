@@ -235,7 +235,7 @@ FOR TECHNICAL MAINTAINERS
 
 Full technical documentation — architecture, the page-building
 programs, rebuild commands, and the rules to follow — lives in the file
-"CLAUDE.md" in this same folder. Start there.
+"README.md" at the top level of the repository. Start there.
 
 ====================================================================
   End of guide. Questions about the website content can go to
