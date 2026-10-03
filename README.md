@@ -54,8 +54,8 @@ but are not published. There is no manual deploy step.
 ## Contributing
 
 The working rules — bilingual parity, RTL, brand colours, cache-busting,
-self-hosted libraries, consent, sitemap dates — are in `CONTRIBUTING.md`. Read it
-before changing anything.
+self-hosted libraries, consent, sitemap dates, search basics, plain copy — are
+in `CONTRIBUTING.md`. Read it before changing anything.
 
 ## Repo layout
 

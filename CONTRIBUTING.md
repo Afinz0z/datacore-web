@@ -40,6 +40,36 @@ for the architecture, the build and the deploy.
   Arabic versions) are the client's live-site markup. Enhance them through the
   overlay (`dc-overlay.css` / `dc-overlay.js`) rather than rewriting their bodies.
 
+## Search basics (every page, both languages)
+
+- One `<h1>`. Another line that should look like a page title is an `<h2 class="h1 dc-h1">`
+  (the stylesheets style `.dc-h1` exactly like `h1`).
+- A meta description of 100 to 160 characters, unique to the page. The generators use the
+  entry's lede; when the lede is too long or too short, add a `desc` field to the entry.
+- A canonical tag pointing at the page itself, breadcrumbs (on the page and as
+  `BreadcrumbList`), and a link to the page from at least one other page.
+- `alt` text that says what a content image shows; `alt=""` on decorative images.
+- `noindex` only on the 404 pages. Internal links point at the final page (no redirects,
+  no links to the old live domain), and none may return 404.
+- Articles carry the team author block and `author` in the schema; when the client names
+  an author, use the person.
+- Images are WebP with `width` and `height`. Project photos also ship a 720 px copy
+  (`<name>-720.webp`); `photo_attrs()` in `build_pages.py` adds the `srcset`.
+
+## Writing and styling
+
+- Plain, specific copy. No em dashes: use commas or brackets around an aside, a colon
+  before an explanation, a full stop; the Arabic comma (،) in Arabic. No "it's not X,
+  it's Y" formulas, emojis or tick marks in text and buttons, and no testimonials unless
+  they are real and attributed.
+- Build from the existing classes in `dc-pages.css`. Don't add decorative gradients,
+  glows, frosted-glass blur, extra shadows or hover animations.
+- Put `<style>` blocks and stylesheet links in `<head>`, never in the body: a stylesheet in
+  the body repaints everything above it and shifts the layout.
+- Third-party content waits for the visitor: Google Tag Manager loads after cookie consent
+  (`dc-consent.js`) and the contact-page map loads when the visitor clicks "Show the map".
+  The privacy pages describe both, so change them together.
+
 ## Operational notes
 
 - **Cache-busting.** Shared assets (`dc-overlay.*`, `dc-pages.css`,
