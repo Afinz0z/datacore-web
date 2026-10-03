@@ -57,7 +57,7 @@ DISCIPLINES = [  # (services.html?id=, EN, AR) — matches the header dropdown
 ]
 # case-study hero/card images (index-aligned with the hub's project list). The
 # showcase cards' images are appended from content/showcase/ once SHOWCASE loads.
-PROJ_IMG = ['dc-proj-owis.jpg','dc-proj-aou-council.jpg','dc-proj-psau.jpg','dc-proj-taqeem.jpg','dc-proj-auditorium.jpg']
+PROJ_IMG = ['dc-proj-owis.webp','dc-proj-aou-council.webp','dc-proj-psau.webp','dc-proj-taqeem.webp','dc-proj-auditorium.webp']
 # disciplines each project actually touches (read off its real kit/scope) — powers the
 # projects filter; slugs match DISCIPLINES / the services-nav dropdown so the two never drift.
 PROJ_DISC = [
@@ -69,15 +69,15 @@ PROJ_DISC = [
 ]  # showcase projects' disciplines are appended from content/showcase/ (see below)
 # "From our sites" gallery — real installation/site photos, (file, en alt, ar alt)
 GAL_IMG = [
-  ('dc-proj-controlroom.jpg', 'A control room we integrated', 'غرفة تحكم من تنفيذنا'),
-  ('dc-proj-videowall.jpg', 'A video wall we installed', 'شاشة عرض جدارية من تنفيذنا'),
-  ('dc-proj-survey.jpg', 'An on-site survey', 'مسح ميداني في الموقع'),
-  ('dc-proj-airport.jpg', 'Terminal fit-out on an airport project', 'تجهيزات في مشروع مطار'),
-  ('dc-proj-firealarm.jpg', 'Installing and testing a fire-alarm detector on site', 'تركيب واختبار كاشف إنذار حريق في الموقع'),
-  ('dc-proj-avmount.jpg', 'Mounting a video-wall array on site', 'تركيب حامل شاشة عرض جدارية في الموقع'),
-  ('dc-proj-owis-auditorium.jpg', 'OWIS Riyadh auditorium — 2.5 mm LED video wall', 'مسرح مدرسة ون وورلد الرياض — جدار فيديو LED بمقاس 2.5 مم'),
-  ('dc-proj-owis-rack.jpg', 'The communications rack at OWIS Riyadh', 'خزانة الاتصالات في مدرسة ون وورلد الرياض'),
-  ('dc-proj-owis-building.jpg', 'OWIS Riyadh campus building', 'مبنى حرم مدرسة ون وورلد الرياض'),
+  ('dc-proj-controlroom.webp', 'A control room we integrated', 'غرفة تحكم من تنفيذنا'),
+  ('dc-proj-videowall.webp', 'A video wall we installed', 'شاشة عرض جدارية من تنفيذنا'),
+  ('dc-proj-survey.webp', 'An on-site survey', 'مسح ميداني في الموقع'),
+  ('dc-proj-airport.webp', 'Terminal fit-out on an airport project', 'تجهيزات في مشروع مطار'),
+  ('dc-proj-firealarm.webp', 'Installing and testing a fire-alarm detector on site', 'تركيب واختبار كاشف إنذار حريق في الموقع'),
+  ('dc-proj-avmount.webp', 'Mounting a video-wall array on site', 'تركيب حامل شاشة عرض جدارية في الموقع'),
+  ('dc-proj-owis-auditorium.webp', 'OWIS Riyadh auditorium — 2.5 mm LED video wall', 'مسرح مدرسة ون وورلد الرياض — جدار فيديو LED بمقاس 2.5 مم'),
+  ('dc-proj-owis-rack.webp', 'The communications rack at OWIS Riyadh', 'خزانة الاتصالات في مدرسة ون وورلد الرياض'),
+  ('dc-proj-owis-building.webp', 'OWIS Riyadh campus building', 'مبنى حرم مدرسة ون وورلد الرياض'),
 ]
 # which hub cards have a dedicated case-study page — index-aligned with the hub's
 # project list. The showcase cards (content/showcase/) have none; their empty slots
@@ -160,7 +160,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "56"
+VER = "57"
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -257,6 +257,19 @@ def breadcrumb_jsonld(ar, active, title):
     return '<script type="application/ld+json">' + json.dumps(g, ensure_ascii=False) + '</script>'
 
 # ── page shell ──────────────────────────────────────────────────────────
+def meta_desc(text, limit=160):
+    """A meta description that fits search results: whole words, ending cleanly. Pages with a
+    longer lede should carry their own `desc`; this only guards the fallback."""
+    t = ' '.join(str(text).split())
+    if len(t) <= limit:
+        return t
+    cut = t[:limit]
+    end = cut.rfind('. ')
+    if end >= limit // 2:
+        return cut[:end + 1]
+    return cut[:cut.rfind(' ')].rstrip(' ,;:—–-') + '…'
+
+
 def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None):
     lang = 'ar' if ar else 'en'
     dr = 'rtl' if ar else 'ltr'
@@ -758,7 +771,7 @@ def build_case(slug, ar):
     if c.get("date_iso"): schema["datePublished"] = c["date_iso"]
     head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
     title = c["name"] + (" | داتاكور للحلول" if ar else " | Datacore Solutions")
-    return shell(ar, "projects", title, c["lede"][:180], body, extra_head=head, canon="project-" + slug)
+    return shell(ar, "projects", title, meta_desc(c.get("desc", c["lede"])), body, extra_head=head, canon="project-" + slug)
 
 # ── FAQ ───────────────────────────────────────────────────────────────────
 FAQ_CSS = ('<style>'
@@ -789,7 +802,7 @@ def build_faq(ar):
                               "acceptedAnswer": {"@type": "Answer", "text": a}}
                              for q, a in F['items']]}
     head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + FAQ_CSS
-    return shell(ar, 'faq', F['title'], F['lede'], body, extra_head=head, canon='faq')
+    return shell(ar, 'faq', F['title'], F.get('desc', F['lede']), body, extra_head=head, canon='faq')
 
 # ── GLOSSARY ────────────────────────────────────────────────────────────────
 GLOSSARY_CSS = ('<style>'
@@ -848,6 +861,11 @@ def build_insights(ar):
 
 # ── INSIGHT ARTICLE (per-post detail page) ──────────────────────────────────
 POST_CSS = ('<style>'
+  '.dcp-author{max-width:720px;margin:34px auto 0;padding-top:16px;border-top:1px solid var(--dcp-line,#e6ebea);'
+  'font-size:.95rem;line-height:1.6;color:var(--dcp-ink2,#4a5358)}'
+  '.dcp-author p{margin:0}'
+  '.dcp-author .dcp-author-h{font-weight:700;color:var(--dcp-ink,#1a1b1f);margin-bottom:4px}'
+  '.dcp-author a{color:var(--dcp-teal-d,#00776f);font-weight:600}'
   '.dcp-art-fig{max-width:760px;margin:0 auto 30px;border:1px solid var(--dcp-line,#e6ebea);'
   'border-radius:8px;overflow:hidden}'
   '.dcp-art-fig img{width:100%;height:auto;display:block}'
@@ -863,6 +881,36 @@ POST_CSS = ('<style>'
   'color:var(--dcp-teal-d,#00776f);font-weight:600;text-decoration:none}'
   '.dcp-related a:hover{text-decoration:underline}'
   '</style>')
+
+# Who writes the insights: one short, factual note per team (shown under each article and
+# used as the article author in structured data). Keyed by the English team name.
+TEAM_BIO = {
+    "AV team": (
+        "Datacore's AV team designs, installs and commissions meeting rooms, auditoriums, LED video walls, "
+        "digital signage and control systems for clients across Saudi Arabia.",
+        "يصمّم فريق الصوتيات والمرئيات في داتاكور قاعات الاجتماعات والمسارح وجدران الفيديو LED واللافتات الرقمية "
+        "وأنظمة التحكم، ويركّبها ويشغّلها لعملائنا في أنحاء السعودية."),
+    "Network team": (
+        "Datacore's network team designs and installs structured cabling, fibre, Wi-Fi, IPTV and network "
+        "equipment, and tests every link before handover.",
+        "يصمّم فريق الشبكات في داتاكور الكابلات المهيكلة والألياف وشبكات الواي فاي وIPTV ومعدات الشبكات ويركّبها، "
+        "ويختبر كل وصلة قبل التسليم."),
+    "Systems team": (
+        "Datacore's systems team plans and delivers multi-discipline low-current projects, from public address and "
+        "voice evacuation to cabling backbones, data centres and maintenance contracts.",
+        "يخطّط فريق الأنظمة في داتاكور لمشاريع التيار المنخفض متعددة التخصصات وينفّذها، من النداء العام والإخلاء "
+        "الصوتي إلى الكابلات الرئيسية ومراكز البيانات وعقود الصيانة."),
+    "Security team": (
+        "Datacore's security team designs and installs CCTV, access control and related security systems, from "
+        "camera layouts to video management and credentials.",
+        "يصمّم فريق الأمن في داتاكور أنظمة كاميرات المراقبة والتحكّم في الدخول وأنظمة الأمن المرتبطة بها ويركّبها، "
+        "من توزيع الكاميرات إلى إدارة الفيديو وبطاقات الدخول."),
+    "Data-centre team": (
+        "Datacore's data-centre team designs, builds and migrates data centres and server rooms, covering power, "
+        "cooling, cabling and redundancy.",
+        "يصمّم فريق مراكز البيانات في داتاكور مراكز البيانات وغرف الخوادم ويبنيها وينقلها، بما يشمل الطاقة والتبريد "
+        "والكابلات والتكرار."),
+}
 
 def build_post(i, ar):
     lang = 'ar' if ar else 'en'
@@ -905,9 +953,20 @@ def build_post(i, ar):
                       f'{E(INSIGHTS[lang]["posts"][j]["title"])} {I_ARROW}</a>' for _, j in _scored[:3])
     relins_block = (f'<div class="dcp-related"><h2>{esc("مقالات ذات صلة" if ar else "Related insights")}</h2>{_relins}</div>'
                     if _relins else '')
+    team_en = INSIGHTS['en']['posts'][i]['team']
+    bio = TEAM_BIO.get(team_en)
+    author_html = ''
+    if bio:
+        name_en = team_en.replace(' team', '')
+        name_en = name_en if name_en.isupper() else name_en.lower()   # "AV team", "network team"
+        who = (f'كتبه {E(P["team"])} في داتاكور' if ar else f"Written by Datacore's {esc(name_en)} team")
+        more = ('عن داتاكور' if ar else 'About Datacore')
+        author_html = (f'<aside class="dcp-author" aria-label="{esc("عن الكاتب" if ar else "About the author")}">'
+                       f'<p class="dcp-author-h">{who}</p><p>{E(bio[1] if ar else bio[0])} '
+                       f'<a href="{loc("about-us", ar)}">{esc(more)}</a></p></aside>')
     body = (hero_html
             + f'<section class="dcp-sec"><div class="dcp-wrap">{fig}'
-              f'<div class="dcp-article">{blocks}</div>{faq_html}'
+              f'<div class="dcp-article">{blocks}</div>{author_html}{faq_html}'
               f'<div class="dcp-related"><h2>{esc(rel_h)}</h2>{rel}</div>{relins_block}</div></section>'
             + cta_band(ar) + footer(ar))
     url = SITE + '/' + loc('insight-' + P['slug'], ar)
@@ -916,7 +975,10 @@ def build_post(i, ar):
                "datePublished": POST_ISO[i], "dateModified": POST_ISO[i], "inLanguage": lang,
                "wordCount": _wc,
                "image": SITE + '/' + POST_IMG[i],
-               "author": {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'},
+               "author": ({"@type": "Organization", "name": "Datacore " + INSIGHTS['en']['posts'][i]['team'],
+                           "url": SITE + '/' + loc('about-us', ar), "parentOrganization": {"@id": SITE + '/#org'}}
+                          if INSIGHTS['en']['posts'][i]['team'] in TEAM_BIO
+                          else {"@type": "Organization", "name": "Datacore Solutions", "@id": SITE + '/#org'}),
                "publisher": {"@id": SITE + '/#org'},
                "mainEntityOfPage": {"@type": "WebPage", "@id": url}}]
     if faq:

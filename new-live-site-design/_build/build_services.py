@@ -7,7 +7,7 @@ pages stay byte-for-byte untouched. Adds the methodology band (design #4)."""
 import os, sys, json, html
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS, FAQ_CSS, wrap_ltr
+from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS, FAQ_CSS, wrap_ltr, meta_desc
 
 # slug -> (EN title, AR title) so service pages can link the matching guides
 _ITITLE = {e["slug"]: (e["title"], a.get("title", e["title"]))
@@ -193,14 +193,14 @@ def svc_file(slug, ar): return "service-" + slug + ("-ar" if ar else "") + ".htm
 
 # Real OWIS Riyadh project photos shown on matching service pages: (img, en cap, ar cap)
 SVC_PHOTO = {
- "auditorium": ("dc-proj-owis-auditorium.jpg", "Auditorium video wall — OWIS Riyadh", "جدار فيديو المسرح — مدرسة ون وورلد الرياض"),
- "indoor-led-video-wall": ("dc-proj-owis-auditorium.jpg", "2.5 mm indoor LED video wall — OWIS Riyadh", "جدار فيديو LED داخلي 2.5 مم — مدرسة ون وورلد الرياض"),
- "access-control-solutions": ("dc-proj-owis-access.jpg", "Suprema face & fingerprint access — OWIS Riyadh", "تحكّم في الدخول بالوجه والبصمة — مدرسة ون وورلد الرياض"),
- "structured-cabling-solutions": ("dc-proj-owis-rack.jpg", "Communications rack — OWIS Riyadh", "خزانة الاتصالات — مدرسة ون وورلد الرياض"),
- "it-network-solutions": ("dc-proj-owis-rack.jpg", "Network core — OWIS Riyadh", "نواة الشبكة — مدرسة ون وورلد الرياض"),
- "smart-class-rooms": ("dc-proj-owis-classroom.jpg", "Interactive-panel classroom — OWIS Riyadh", "فصل بشاشة تفاعلية — مدرسة ون وورلد الرياض"),
- "smart-meeting-room-amp-boardroom-solution": ("dc-proj-owis-panel.jpg", "Interactive display — OWIS Riyadh", "شاشة تفاعلية — مدرسة ون وورلد الرياض"),
- "professional-audio": ("dc-proj-owis-mixer.jpg", "Soundcraft mixer, auditorium — OWIS Riyadh", "مازج صوت المسرح — مدرسة ون وورلد الرياض"),
+ "auditorium": ("dc-proj-owis-auditorium.webp", "Auditorium video wall — OWIS Riyadh", "جدار فيديو المسرح — مدرسة ون وورلد الرياض"),
+ "indoor-led-video-wall": ("dc-proj-owis-auditorium.webp", "2.5 mm indoor LED video wall — OWIS Riyadh", "جدار فيديو LED داخلي 2.5 مم — مدرسة ون وورلد الرياض"),
+ "access-control-solutions": ("dc-proj-owis-access.webp", "Suprema face & fingerprint access — OWIS Riyadh", "تحكّم في الدخول بالوجه والبصمة — مدرسة ون وورلد الرياض"),
+ "structured-cabling-solutions": ("dc-proj-owis-rack.webp", "Communications rack — OWIS Riyadh", "خزانة الاتصالات — مدرسة ون وورلد الرياض"),
+ "it-network-solutions": ("dc-proj-owis-rack.webp", "Network core — OWIS Riyadh", "نواة الشبكة — مدرسة ون وورلد الرياض"),
+ "smart-class-rooms": ("dc-proj-owis-classroom.webp", "Interactive-panel classroom — OWIS Riyadh", "فصل بشاشة تفاعلية — مدرسة ون وورلد الرياض"),
+ "smart-meeting-room-amp-boardroom-solution": ("dc-proj-owis-panel.webp", "Interactive display — OWIS Riyadh", "شاشة تفاعلية — مدرسة ون وورلد الرياض"),
+ "professional-audio": ("dc-proj-owis-mixer.webp", "Soundcraft mixer, auditorium — OWIS Riyadh", "مازج صوت المسرح — مدرسة ون وورلد الرياض"),
 }
 
 def sections_html(sec, ar=False):
@@ -273,7 +273,7 @@ def build(slug, ar):
     if not any(w.lower() in title.lower() for w in _loc):   # GEO: every service title carries a country signal (case-insensitive so a lowercase location isn't doubled)
         _ins = " في السعودية" if ar else " in Saudi Arabia"
         title = title.replace(" | ", _ins + " | ", 1) if " | " in title else title + _ins
-    return shell(ar, "services", title, c.get("desc", intro)[:180], body, extra_head=head, canon="service-" + slug)
+    return shell(ar, "services", title, meta_desc(c.get("desc", intro)), body, extra_head=head, canon="service-" + slug)
 
 n = 0
 for slug in SLUGS:

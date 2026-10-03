@@ -148,7 +148,7 @@
     'blogs': 'insights', 'blog': 'insights',
     'terms-service': 'terms', 'terms-of-service': 'terms', 'privacy-policy': 'privacy',
     'about-us': 'about-us', 'about': 'about-us', 'services': 'services', 'service': 'services',
-    'products': 'products', 'product': 'products'
+    'service-details': 'services', 'products': 'products', 'product': 'products'
   };
   function localFor(href) {
     var s = slugOf(href); if (s) return localSvc(s);

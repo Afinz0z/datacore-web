@@ -1,7 +1,7 @@
 {
  "slug": "psau",
  "order": 2,
- "img": "assets1/images/dc-proj-psau.jpg",
+ "img": "assets1/images/dc-proj-psau.webp",
  "en": {
   "name": "Smart classrooms across the PSAU campus",
   "client": "Prince Sattam bin Abdulaziz University",
@@ -46,15 +46,15 @@
   ],
   "gallery": [
    {
-    "img": "assets1/images/dc-proj-psau-3.jpg",
+    "img": "assets1/images/dc-proj-psau-3.webp",
     "cap": "Fine-pitch 2.5 mm LED video wall in the auditorium"
    },
    {
-    "img": "assets1/images/dc-proj-psau-2.jpg",
+    "img": "assets1/images/dc-proj-psau-2.webp",
     "cap": "The campus building"
    },
    {
-    "img": "assets1/images/dc-proj-psau-4.jpg",
+    "img": "assets1/images/dc-proj-psau-4.webp",
     "cap": "Centrally published digital signage in the lobby"
    }
   ]
@@ -103,15 +103,15 @@
   ],
   "gallery": [
    {
-    "img": "assets1/images/dc-proj-psau-3.jpg",
+    "img": "assets1/images/dc-proj-psau-3.webp",
     "cap": "جدار فيديو LED دقيق الخطوة 2.5 مم في المسرح"
    },
    {
-    "img": "assets1/images/dc-proj-psau-2.jpg",
+    "img": "assets1/images/dc-proj-psau-2.webp",
     "cap": "مبنى الحرم الجامعي"
    },
    {
-    "img": "assets1/images/dc-proj-psau-4.jpg",
+    "img": "assets1/images/dc-proj-psau-4.webp",
     "cap": "لافتات رقمية تُنشر مركزيًا في البهو"
    }
   ]

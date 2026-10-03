@@ -1,7 +1,7 @@
 {
  "slug": "auditorium",
  "order": 4,
- "img": "assets1/images/dc-proj-auditorium.jpg",
+ "img": "assets1/images/dc-proj-auditorium.webp",
  "en": {
   "name": "University auditorium AV — Arab Open University",
   "client": "Arab Open University",
@@ -28,7 +28,7 @@
     "h": "The solution",
     "ps": [
      "Datacore installed a large 6 m × 3.375 m direct-view LED wall (AET, 1.2 mm pixel pitch, 4K), with a Crestron video matrix for switching and a Q-SYS DSP and control system tying every piece of equipment together, plus Shure microphones and a customised iPad interface.",
-     "BYOD USB connectivity lets presenters drive the large display, room camera, microphones and speakers from the stage or the control room, and works seamlessly with Microsoft Teams and Zoom. Control-room furniture and wooden cladding were added to match the existing interior."
+     "BYOD USB connectivity lets presenters drive the large display, room camera, microphones and speakers from the stage or the control room, and works with Microsoft Teams and Zoom. Control-room furniture and wooden cladding were added to match the existing interior."
     ]
    },
    {
@@ -47,15 +47,15 @@
   ],
   "gallery": [
    {
-    "img": "assets1/images/dc-proj-auditorium-2.jpg",
+    "img": "assets1/images/dc-proj-auditorium-2.webp",
     "cap": "The podium control screen"
    },
    {
-    "img": "assets1/images/dc-proj-auditorium-3.jpg",
+    "img": "assets1/images/dc-proj-auditorium-3.webp",
     "cap": "The 1.2 mm direct-view LED wall, up close"
    },
    {
-    "img": "assets1/images/dc-proj-auditorium-4.jpg",
+    "img": "assets1/images/dc-proj-auditorium-4.webp",
     "cap": "The customised iPad control interface"
    }
   ]
@@ -105,15 +105,15 @@
   ],
   "gallery": [
    {
-    "img": "assets1/images/dc-proj-auditorium-2.jpg",
+    "img": "assets1/images/dc-proj-auditorium-2.webp",
     "cap": "شاشة التحكّم عند المنصّة"
    },
    {
-    "img": "assets1/images/dc-proj-auditorium-3.jpg",
+    "img": "assets1/images/dc-proj-auditorium-3.webp",
     "cap": "جدار LED بالعرض المباشر 1.2 مم عن قرب"
    },
    {
-    "img": "assets1/images/dc-proj-auditorium-4.jpg",
+    "img": "assets1/images/dc-proj-auditorium-4.webp",
     "cap": "واجهة التحكّم المخصّصة على iPad"
    }
   ]

@@ -1,7 +1,7 @@
 {
  "slug": "taqeem",
  "order": 3,
- "img": "assets1/images/dc-proj-taqeem.jpg",
+ "img": "assets1/images/dc-proj-taqeem.webp",
  "en": {
   "name": "Comprehensive AV solution for TAQEEM HQ",
   "client": "TAQEEM — Saudi Authority for Accredited Valuers",
@@ -27,7 +27,7 @@
    {
     "h": "The solution",
     "ps": [
-     "Datacore designed a bespoke AV ecosystem on state-of-the-art equipment — Samsung and Epson displays, Shure audio, Bose, Barco, Televic conferencing, and AMX and Extron control and switching, with Dell — integrated so every room behaves the same way. Datacore also handled project management, system configuration, testing and user training for a seamless transition."
+     "Datacore designed a bespoke AV ecosystem on state-of-the-art equipment — Samsung and Epson displays, Shure audio, Bose, Barco, Televic conferencing, and AMX and Extron control and switching, with Dell — integrated so every room behaves the same way. Datacore also handled project management, system configuration, testing and user training for a reliable transition."
     ]
    },
    {
@@ -49,11 +49,11 @@
   ],
   "gallery": [
    {
-    "img": "assets1/images/dc-proj-taqeem-2.jpg",
+    "img": "assets1/images/dc-proj-taqeem-2.webp",
     "cap": "The multipurpose room"
    },
    {
-    "img": "assets1/images/dc-proj-taqeem-3.jpg",
+    "img": "assets1/images/dc-proj-taqeem-3.webp",
     "cap": "A meeting room with wireless presentation"
    }
   ]
@@ -105,11 +105,11 @@
   ],
   "gallery": [
    {
-    "img": "assets1/images/dc-proj-taqeem-2.jpg",
+    "img": "assets1/images/dc-proj-taqeem-2.webp",
     "cap": "الغرفة متعددة الأغراض"
    },
    {
-    "img": "assets1/images/dc-proj-taqeem-3.jpg",
+    "img": "assets1/images/dc-proj-taqeem-3.webp",
     "cap": "قاعة اجتماعات بعرضٍ لاسلكي"
    }
   ]

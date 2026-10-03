@@ -36,7 +36,7 @@
    },
    {
     "type": "p",
-    "text": "The honest answer is that it depends on distance, speed and budget. For links inside a building or across a small campus, laser-optimised multimode (OM4, or OM5 where extra channel capacity is wanted) is often the cost-effective choice, because the optics are cheaper and the distances are short. For campus backbones, links between buildings, connections to a data centre, or anywhere you want maximum headroom for future speed upgrades, single-mode OS2 is the future-proof choice — the fibre itself costs little more, and it removes distance and bandwidth as limits for decades. Many well-designed sites deploy both: single-mode for the long, strategic runs and multimode where it earns its place."
+    "text": "The honest answer is that it depends on distance, speed and budget. For links inside a building or across a small campus, laser-optimised multimode (OM4, or OM5 where extra channel capacity is wanted) is often the cost-effective choice, because the optics are cheaper and the distances are short. For campus backbones, links between buildings, connections to a data centre, or anywhere you want maximum headroom for future speed upgrades, single-mode OS2 is the expandable choice — the fibre itself costs little more, and it removes distance and bandwidth as limits for decades. Many well-designed sites deploy both: single-mode for the long, strategic runs and multimode where it earns its place."
    },
    {
     "type": "p",

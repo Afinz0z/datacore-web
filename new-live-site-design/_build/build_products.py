@@ -81,6 +81,47 @@ def opts(values, cur_ar):
     return ''.join(f'<option value="{esc(v)}">{esc(cur_ar.get(v, v) if cur_ar else v)}</option>'
                    for v in values)
 
+
+def _jesc(s):
+    """The escaping dc-products.js uses (& < > " only), so server and script markup match."""
+    return str(s).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+
+
+def cards_html(ar):
+    """The product cards, written into the page so crawlers that don't run JavaScript see the
+    catalogue. Mirrors the card template in dc-products.js, which adopts these cards on load."""
+    L = LABELS['ar' if ar else 'en']
+    cat = CAT_AR if ar else {}
+    out = []
+    for p in PRODUCTS:
+        specs = ''.join(f'<div><dt>{_jesc(k)}</dt><dd dir="ltr">{_jesc(v)}</dd></div>'
+                        for k, v in list((p.get('specs') or {}).items())[:4])
+        av = (f'<span class="dcp-badge stock">{L["in_stock"]}</span>' if p.get('avail') == 'stock'
+              else f'<span class="dcp-badge lead">{L["on_order"]}</span>')
+        photo = PHOTOS.get(p['sku'])
+        if photo:
+            media = f'<div class="dcp-card-photo"><img src="{_jesc(photo)}" alt="{_jesc(p["n"])}" loading="lazy"></div>'
+        else:
+            glyph = GLYPHS.get(p.get('g')) or GLYPHS.get('rack') or ''
+            media = ('<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">'
+                     '<svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" '
+                     'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+                     + glyph + '</svg></span></div>')
+        out.append(
+            f'<article class="dcp-card" data-sku="{_jesc(p["sku"])}">' + media +
+            f'<div class="dcp-card-top"><span class="dcp-card-brand" dir="ltr">{_jesc(p["b"])}</span>{av}</div>'
+            f'<h3>{_jesc(p["n"])}</h3>'
+            f'<div class="dcp-card-meta"><span class="dcp-tag">{_jesc(cat.get(p["c"], p["c"]))}</span></div>'
+            f'<dl class="dcp-specs">{specs}</dl>'
+            f'<div class="dcp-card-sku" dir="ltr">{_jesc(p["sku"])}</div>'
+            '<div class="dcp-add-row"><div class="dcp-qty">'
+            '<button class="dcp-qb" type="button" data-q="-1" aria-label="Decrease quantity">−</button>'
+            f'<input class="dcp-qn" type="text" inputmode="numeric" value="1" aria-label="Quantity" data-sku="{_jesc(p["sku"])}">'
+            '<button class="dcp-qb" type="button" data-q="1" aria-label="Increase quantity">+</button>'
+            f'</div><button class="dcp-add" type="button" data-sku="{_jesc(p["sku"])}">{L["add"]}</button></div>'
+            '</article>')
+    return ''.join(out)
+
 def build_products(ar):
     lang = 'ar' if ar else 'en'
     s = STR[lang]; L = LABELS[lang]
@@ -97,7 +138,7 @@ def build_products(ar):
     </div>
     <div class="dcp-catbar"><span class="dcp-count" id="dcp-count"></span></div>
     <div class="dcp-chips" id="dcp-chips"></div>
-    <div class="dcp-grid" id="dcp-grid"></div>
+    <div class="dcp-grid" id="dcp-grid">{cards_html(ar)}</div>
     <p id="dcp-empty" class="dcp-count" hidden>{esc(L['empty'])}</p>
   </div>
 </div>"""
@@ -131,9 +172,8 @@ def build_products(ar):
     js = ('<script>window.DCP_DATA=' + json.dumps(data, ensure_ascii=False) + ';</script>'
           '<script src="dc-products.js?v=' + VER + '"></script>')
     title = ('المنتجات | داتاكور للحلول' if ar else 'Products | Datacore Solutions')
-    # CollectionPage + ItemList of the real product categories so non-JS AI crawlers can
-    # read the catalogue (the grid itself is rendered by dc-products.js). Quote-based B2B —
-    # no fabricated prices.
+    # CollectionPage + ItemList of the real product categories (the cards themselves are in the
+    # HTML too, see cards_html). Quote-based B2B — no fabricated prices.
     purl = SITE + "/" + loc("products", ar)
     prodschema = {"@context": "https://schema.org", "@type": "CollectionPage",
         "@id": purl + "#catalog", "url": purl,
@@ -157,7 +197,7 @@ def build_products(ar):
         '</style>')
     sch = ('<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False)
            + '</script>' + scrollbar_css)
-    return shell(ar, 'products', title, s['pr_lede'], body, extra_head=sch, extra_js=js)
+    return shell(ar, 'products', title, s.get('pr_desc', s['pr_lede']), body, extra_head=sch, extra_js=js)
 
 for ar in (False, True):
     name = loc('products', ar)

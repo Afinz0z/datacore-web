@@ -21,8 +21,15 @@
   function catName(c) { return D.catMap[c] || c; }
   function availName(a) { return a === 'stock' ? L.in_stock : L.on_order; }
 
-  // ── build every card once (photo grid); filtering just toggles .hidden ──
+  // ── every card exists once (photo grid); filtering just toggles .hidden ──
+  // The page ships the cards in its HTML (build_products.py, same markup as below) so
+  // crawlers see the catalogue; adopt those. Build them here only if they're missing.
   var grid = document.getElementById('dcp-grid');
+  var shipped = grid.querySelectorAll('article.dcp-card[data-sku]');
+  if (shipped.length === P.length) {
+    [].forEach.call(shipped, function (el) { el._p = bySku(el.getAttribute('data-sku')); });
+  } else {
+  grid.innerHTML = '';
   P.forEach(function (p) {
     var specs = Object.keys(p.specs || {}).slice(0, 4).map(function (k) {
       return '<div><dt>' + esc(k) + '</dt><dd dir="ltr">' + esc(p.specs[k]) + '</dd></div>';
@@ -35,7 +42,7 @@
       ? '<div class="dcp-card-photo"><img src="' + esc(photo) + '" alt="' + esc(p.n) + '" loading="lazy"></div>'
       : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>';
     var el = document.createElement('article');
-    el.className = 'dcp-card'; el._p = p;
+    el.className = 'dcp-card'; el._p = p; el.setAttribute('data-sku', p.sku);
     el.innerHTML =
       media +
       '<div class="dcp-card-top"><span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span>' + av + '</div>' +
@@ -53,6 +60,7 @@
       '</div>';
     grid.appendChild(el);
   });
+  }
   var cards = [].slice.call(grid.children);
 
   // ── faceted state + filtering (multi-select) ────────────────────

@@ -89,9 +89,9 @@ body.loaded .navmenu, body.loaded .logo { visibility: visible; }
 .swiper-count { font-size: 16px; font-weight: bold; color: rgb(0, 0, 0); margin: 0px 10px; }
 .carousel-box { width: 622px; }
 .carousel-caption { transform: translateY(48%); text-align: center; z-index: 2; bottom: 36% !important; }
-.carousel-caption h3, .carousel-caption h1 { color: rgb(26, 27, 31); text-transform: uppercase; }
+.carousel-caption h3, .carousel-caption h1, .carousel-caption .dc-h1 { color: rgb(26, 27, 31); text-transform: uppercase; }
 .carousel-caption h3 { font-family: Texta; font-weight: 400; line-height: 120%; letter-spacing: 2px; text-align: center; color: rgb(26, 27, 31); font-size: 3.5rem !important; }
-.carousel-caption h1 { font-family: Texta; font-weight: 800; font-size: 4rem; line-height: 120%; letter-spacing: 3px; text-align: center; padding-left: 17px !important; }
+.carousel-caption h1, .carousel-caption .dc-h1 { font-family: Texta; font-weight: 800; font-size: 4rem; line-height: 120%; letter-spacing: 3px; text-align: center; padding-left: 17px !important; }
 .paragraph-box { max-width: 337px; font-weight: 500; color: rgb(46, 47, 51); text-align: left; transform: translateX(59%); padding-bottom: 20px; font-family: Texta !important; font-size: 18px !important; }
 .get-btn { font-family: Texta; padding: 15px 24px; background: rgb(5, 172, 161); color: rgb(255, 255, 255); text-decoration: none; font-weight: 800; font-size: 0.9rem; line-height: 160%; letter-spacing: 3px; text-transform: uppercase; margin-right: 9%; }
 .carousel-control-next { padding-left: 60px; }
@@ -109,17 +109,17 @@ body.loaded .navmenu, body.loaded .logo { visibility: visible; }
 }
 @media (max-width: 768px) {
   .carousel-caption h3 { font-size: 2.3rem !important; }
-  .carousel-caption h1 { font-size: 3.1rem; letter-spacing: 3px; padding-left: 17px !important; }
+  .carousel-caption h1, .carousel-caption .dc-h1 { font-size: 3.1rem; letter-spacing: 3px; padding-left: 17px !important; }
   .custom-indicators { left: 35px !important; }
   .carousel-item img { height: 75vh !important; }
 }
 @media (max-width: 500px) {
   .carousel-caption h3 { font-size: 1.5rem !important; }
-  .carousel-caption h1 { font-size: 2.5rem; }
+  .carousel-caption h1, .carousel-caption .dc-h1 { font-size: 2.5rem; }
 }
 @media (max-width: 450px) {
   .carousel-item img { }
-  .carousel-caption h1 { font-size: 2.4rem; }
+  .carousel-caption h1, .carousel-caption .dc-h1 { font-size: 2.4rem; }
   .paragraph-box { line-height: 100%; text-align: left; width: 217px; padding-bottom: 10px; }
   .paragraph-box { transform: none !important; margin-left: 39%; }
   .carousel-caption h3 { font-size: 1.4rem !important; }
@@ -127,14 +127,14 @@ body.loaded .navmenu, body.loaded .logo { visibility: visible; }
 }
 @media (max-width: 400px) {
   .carousel-item img { }
-  .carousel-caption h1 { font-size: 2.3rem; }
+  .carousel-caption h1, .carousel-caption .dc-h1 { font-size: 2.3rem; }
   .carousel-caption h3 { font-size: 1.3rem !important; }
   .paragraph-box { line-height: 100%; text-align: left; width: 217px; padding-bottom: 8px; }
   .get-btn { padding: 10px; font-size: 14px; letter-spacing: 2px; margin-left: 8%; }
 }
 @media (max-width: 380px) {
   .carousel-item img { }
-  .carousel-caption h1 { font-size: 2.1rem; }
+  .carousel-caption h1, .carousel-caption .dc-h1 { font-size: 2.1rem; }
   .carousel-caption h3 { font-size: 1.2rem !important; }
   .paragraph-box { line-height: 100%; text-align: left; width: 217px; padding-bottom: 5px; }
   .get-btn { padding: 10px; font-size: 14px; letter-spacing: 2px; margin-left: 8%; }
@@ -293,7 +293,7 @@ body.loaded .navmenu, body.loaded .logo { visibility: visible; }
   .grid .project-card { margin-bottom: -3rem; }
 }
 @media (min-width: 1024px) {
-  h1 { font-size: 2.3rem; }
+  h1, .dc-h1 { font-size: 2.3rem; }
 }
 .arrowdiv { display: flex; align-items: center; gap: 8px; flex-wrap: nowrap; }
 .project-card a { text-decoration: none !important; }
@@ -450,7 +450,7 @@ body { font-family: Poppins, sans-serif; margin: 0px; padding: 0px; width: 100%;
   .copy-right { margin-top: 10px; }
 }
 .expert-section { background: linear-gradient(rgb(212, 229, 229) 0%, rgb(215, 226, 226) 100%); padding: 60px 84px; display: flex; justify-content: space-between; align-items: center; }
-.left-content h1 { color: rgb(0, 168, 157); font-size: 2.8rem; font-weight: 800; line-height: 1.1; font-family: Texta; padding-bottom: 0px !important; margin-bottom: 0px !important; }
+.left-content h1, .left-content .dc-h1 { color: rgb(0, 168, 157); font-size: 2.8rem; font-weight: 800; line-height: 1.1; font-family: Texta; padding-bottom: 0px !important; margin-bottom: 0px !important; }
 .left-content p { color: rgb(26, 26, 26); font-size: 2rem; font-weight: 500; font-family: Texta; line-height: 1.2; margin-top: 0px !important; margin-bottom: 0px !important; }
 .right-content { text-align: right; }
 .right-content p { color: rgb(26, 26, 26); font-size: 16px; font-weight: 500; margin-bottom: 25px; line-height: 1.5; max-width: 440px; text-align: left; font-family: Texta; }
@@ -468,12 +468,12 @@ body { font-family: Poppins, sans-serif; margin: 0px; padding: 0px; width: 100%;
   .right-content { text-align: center; margin-top: 0px; }
   .right-content p { max-width: 100%; }
   .buttons { justify-content: center; }
-  .left-content h1 { font-size: 48px; }
+  .left-content h1, .left-content .dc-h1 { font-size: 48px; }
   .left-content p { font-size: 36px; }
 }
 @media (max-width: 640px) {
   .expert-section { padding: 40px 20px; }
-  .left-content h1 { font-size: 36px; }
+  .left-content h1, .left-content .dc-h1 { font-size: 36px; }
   .left-content p { font-size: 28px; }
   .buttons { flex-direction: column; gap: 15px; }
   .btn { width: 100%; }

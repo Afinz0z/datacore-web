@@ -64,6 +64,14 @@ LEGAL = {
  },
 }
 
+# search-result descriptions (the short ledes above stay as the visible intros)
+LEGAL_DESC = {
+ "terms": {"en": "The terms for using the Datacore Solutions website: how its content, quotations and trademarks may be used, and the limits of our liability.",
+           "ar": "شروط استخدام موقع داتاكور للحلول: كيف يمكن استخدام محتواه وعروض الأسعار والعلامات التجارية، وحدود مسؤوليتنا."},
+ "privacy": {"en": "What this website collects (enquiry forms, cookies, and analytics only after consent), how Datacore Solutions uses it, and how to ask us about it.",
+             "ar": "ما المعلومات التي يجمعها هذا الموقع (نماذج الاستفسار وملفات تعريف الارتباط والتحليلات بعد الموافقة فقط)، وكيف تستخدمها داتاكور، وكيف تسألنا عنها."},
+}
+
 def build_legal(kind, ar):
     lang = "ar" if ar else "en"
     title, lede, sections = LEGAL[kind][lang]
@@ -85,7 +93,7 @@ def build_legal(kind, ar):
              f'<div class="dcp-legal-body">{inner}</div>'
              f'</div></div></section>' + cta_band(ar) + footer(ar))
     tt = title + (" | داتاكور للحلول" if ar else " | Datacore Solutions")
-    return shell(ar, kind, tt, lede, body)
+    return shell(ar, kind, tt, LEGAL_DESC[kind][lang], body)
 
 def build_404(ar):
     lang = "ar" if ar else "en"; s = STR[lang]
@@ -113,7 +121,8 @@ def build_404(ar):
             f'</div></div></section>'
             + footer(ar))
     tt = h + (" | داتاكور" if ar else " | Datacore Solutions")
-    return shell(ar, "", tt, p, body)
+    # a 404 page is never a search result, even when opened directly at /404.html
+    return shell(ar, "", tt, p, body, extra_head='<meta name="robots" content="noindex">')
 
 CAREERS = {
  "en": ("Careers", "Build low-current systems that run real buildings.",
