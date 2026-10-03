@@ -161,6 +161,8 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
 VER = "58"
+# Calmer styling (dc-calm.css) is piloted on these pages until the client decides.
+CALM_PILOT = {'projects'}
 
 # ── SEO / GEO / AEO: canonical, hreflang, Open Graph, JSON-LD entity graph ──
 SITE = "https://www.datacore.com.sa"   # canonical production domain (matches build_extra BASE)
@@ -274,6 +276,7 @@ def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None)
     lang = 'ar' if ar else 'en'
     dr = 'rtl' if ar else 'ltr'
     c = canon or active   # canonical/hreflang base; service pages override via canon
+    calm = f'\n<link rel="stylesheet" href="dc-calm.css?v={VER}">' if c in CALM_PILOT else ''
     return f"""<!DOCTYPE html>
 <html lang="{lang}" dir="{dr}">
 <head>
@@ -289,7 +292,7 @@ def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None)
 <link rel="preload" as="font" type="font/woff2" href="fonts/TextaHeavy.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/TextaRegular.woff2" crossorigin>
 <link rel="stylesheet" href="dc-overlay.css?v={VER}">
-<link rel="stylesheet" href="dc-pages.css?v={VER}">
+<link rel="stylesheet" href="dc-pages.css?v={VER}">{calm}
 {seo_meta(ar, c, title, desc)}
 {site_jsonld(ar)}
 {breadcrumb_jsonld(ar, c, title)}

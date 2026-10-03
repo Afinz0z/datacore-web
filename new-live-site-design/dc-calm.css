@@ -1,0 +1,25 @@
+/* Pilot of calmer styling on Home and Projects, pending the client's decision. Hover answers with colour and border; nothing lifts,
+   zooms or slides. Shadows stay only on things that float (menus, chat, drawer). Solid header,
+   flat fills, no glow, no coloured edge stripe. Loaded last so it overrides dc-pages/dc-overlay. */
+
+/* generated pages */
+.dcp-hero{background:var(--dcp-soft)}
+.dcp .dcp-btn:hover svg,html[dir=rtl] .dcp .dcp-btn:hover svg{transform:none}
+.dcp-card:hover{transform:none;box-shadow:none}
+.dcp-proj:hover,.dcp-post:hover{transform:none;box-shadow:none;border-color:var(--dcp-ink3)}
+.dcp-proj:hover h3,.dcp-post:hover h3{color:var(--dcp-teal-d)}
+.dcp-proj:hover .ph img{transform:none}
+.dcp-gal figure:hover{transform:none}
+.dcp-svc-shot:hover img{transform:none;box-shadow:none}
+.dcp-office.on,html[dir=rtl] .dcp-office.on{border-color:var(--dcp-teal-d);box-shadow:0 0 0 1px var(--dcp-teal-d)}
+
+/* shared header, widgets and the core pages */
+#dcx-hdr.hdr{-webkit-backdrop-filter:none;backdrop-filter:none;background:#fff}
+html.dc-dark #dcx-hdr.hdr{background:#131417}
+#dcx-sticky{-webkit-backdrop-filter:none;backdrop-filter:none}
+#dcx-prog{background:#00776F}
+#dcx-hdr .btn-p:hover{transform:none;box-shadow:none}
+#dcx-chat .chatb:hover{transform:none}
+.project-card:hover .image-project,.img-fluidz:hover,.news-card:hover,.news-card:hover .datacore-img{transform:none;box-shadow:none}
+html.dc-dark body:not(.dcp) #dc-content .project-card{border-radius:6px!important;background:#e9eaec!important}
+html.dc-dark body:not(.dcp) #dc-content .project-card:hover{transform:none}
