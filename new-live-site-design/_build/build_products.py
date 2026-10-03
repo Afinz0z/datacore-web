@@ -54,7 +54,7 @@ LABELS = {
    "showing": "Showing {n} of {t} products", "reset": "Reset filters",
    "empty": "No products match those filters.",
    "refine": "Refine", "filters": "Filters", "product_one": "product", "product_many": "products",
-   "add": "Add to request", "added": "Added \u2713",
+   "add": "Add to request", "added": "Added",
    "req_title": "Your request", "remove": "Remove", "clear": "Clear all",
    "r_empty": "Your request is empty. Add products from the catalogue.",
    "r_name": "Your name", "r_co": "Company", "r_mail": "Email", "r_tel": "Phone",
@@ -68,7 +68,7 @@ LABELS = {
    "showing": "عرض {n} من {t} منتجاً", "reset": "إعادة تعيين",
    "empty": "لا توجد منتجات مطابقة لهذه المرشحات.",
    "refine": "تصفية", "filters": "المرشحات", "product_one": "منتج", "product_many": "منتجاً",
-   "add": "أضف إلى الطلب", "added": "أُضيف \u2713",
+   "add": "أضف إلى الطلب", "added": "أُضيف",
    "req_title": "طلبك", "remove": "إزالة", "clear": "مسح الكل",
    "r_empty": "طلبك فارغ. أضف منتجات من الكتالوج.",
    "r_name": "الاسم", "r_co": "الشركة", "r_mail": "البريد الإلكتروني", "r_tel": "رقم الجوال",
@@ -177,8 +177,8 @@ def build_products(ar):
     purl = SITE + "/" + loc("products", ar)
     prodschema = {"@context": "https://schema.org", "@type": "CollectionPage",
         "@id": purl + "#catalog", "url": purl,
-        "name": ("المنتجات — أجهزة الشبكات والأمن والصوتيات والبنية التحتية" if ar
-                 else "Products — Network, Security, Audio-Visual & Infrastructure Hardware"),
+        "name": ("المنتجات: أجهزة الشبكات والأمن والصوتيات والبنية التحتية" if ar
+                 else "Products: Network, Security, Audio-Visual & Infrastructure Hardware"),
         "description": s['pr_lede'], "isPartOf": {"@id": SITE + "/#website"},
         "about": {"@id": SITE + "/#org"}, "inLanguage": lang,
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(PRODUCTS),

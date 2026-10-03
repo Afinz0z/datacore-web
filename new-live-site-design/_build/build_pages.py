@@ -2,7 +2,7 @@
 """Generate the mirror's functional pages (contact / projects / insights, EN+AR)
 in the live Texta look. Each page loads the developed-site header + dark mode via
 dc-overlay.css/js and the live-look content styles via dc-pages.css. Live body
-HTML is not touched — these are brand-new pages the header's nav links point to."""
+HTML is not touched: these are brand-new pages the header's nav links point to."""
 import os, json, html, sys, re
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -16,7 +16,7 @@ def esc(s): return html.escape(str(s), quote=True)
 def wrap_ltr(t):
     """Wrap Latin / code runs (LED, IPTV, Cat 6A, TIA-568…) in dir="ltr" so they
     read correctly inside Arabic. Takes the RAW string and HTML-escapes each piece
-    itself, so it can never split an entity — callers pass the unescaped text."""
+    itself, so it can never split an entity: callers pass the unescaped text."""
     out, i = [], 0
     for m in re.finditer(r'[A-Za-z0-9][A-Za-z0-9/.+\-]*(?:\s[A-Za-z0-9/.+\-]+)*', t):
         out.append(esc(t[i:m.start()]))
@@ -75,7 +75,7 @@ GAL_IMG = [
   ('dc-proj-airport.webp', 'Terminal fit-out on an airport project', 'تجهيزات في مشروع مطار'),
   ('dc-proj-firealarm.webp', 'Installing and testing a fire-alarm detector on site', 'تركيب واختبار كاشف إنذار حريق في الموقع'),
   ('dc-proj-avmount.webp', 'Mounting a video-wall array on site', 'تركيب حامل شاشة عرض جدارية في الموقع'),
-  ('dc-proj-owis-auditorium.webp', 'OWIS Riyadh auditorium — 2.5 mm LED video wall', 'مسرح مدرسة ون وورلد الرياض — جدار فيديو LED بمقاس 2.5 مم'),
+  ('dc-proj-owis-auditorium.webp', 'OWIS Riyadh auditorium: 2.5 mm LED video wall', 'مسرح مدرسة ون وورلد الرياض: جدار فيديو LED بمقاس 2.5 مم'),
   ('dc-proj-owis-rack.webp', 'The communications rack at OWIS Riyadh', 'خزانة الاتصالات في مدرسة ون وورلد الرياض'),
   ('dc-proj-owis-building.webp', 'OWIS Riyadh campus building', 'مبنى حرم مدرسة ون وورلد الرياض'),
 ]
@@ -96,7 +96,7 @@ def _load_cases():
     return cases
 CASES = _load_cases()
 def _load_showcase():
-    """Card-only 'showcase' projects — the ones with no case-study page — are one
+    """Card-only 'showcase' projects, the ones with no case-study page, are one
     file each under content/showcase/<slug>.json ({slug, order, img, disc, en, ar}),
     editable in Pages CMS. They render on the projects hub after the case studies."""
     import glob
@@ -115,7 +115,7 @@ FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "f
 GLOSSARY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "glossary.json"), encoding="utf-8"))
 def _load_insights():
     """Insights are one self-contained file each under content/insights/<slug>.json
-    ({slug, order, img, iso, en, ar}; blocks/related/faq as lists of objects) — the
+    ({slug, order, img, iso, en, ar}; blocks/related/faq as lists of objects): the
     CMS-editable shape. Rebuild the legacy en/ar parallel-array structure the rest of
     this module uses."""
     import glob
@@ -230,15 +230,15 @@ def site_jsonld(ar):
          "sameAs": ["https://www.linkedin.com/company/datacore-solutions",
                     "https://www.instagram.com/datacore_sa",
                     "https://www.facebook.com/www.datacore.com.sa"]},
-        {"@type": "LocalBusiness", "@id": SITE + "/#riyadh", "name": "Datacore Solutions — Riyadh",
+        {"@type": "LocalBusiness", "@id": SITE + "/#riyadh", "name": "Datacore Solutions: Riyadh",
          "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+966115128888", "email": "sales@datacore.com.sa",
          "address": {"@type": "PostalAddress", "streetAddress": "Office 503, Dabbab Complex, Dabbab St.",
                      "addressLocality": "Riyadh", "postalCode": "12626", "addressCountry": "SA"},
          "geo": {"@type": "GeoCoordinates", "latitude": 24.6675676, "longitude": 46.7045394}},
-        {"@type": "LocalBusiness", "@id": SITE + "/#dubai", "name": "Datacore Solutions — Dubai",
+        {"@type": "LocalBusiness", "@id": SITE + "/#dubai", "name": "Datacore Solutions: Dubai",
          "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+971527536070",
          "address": {"@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE"}},
-        {"@type": "LocalBusiness", "@id": SITE + "/#kozhikode", "name": "Datacore Solutions — Kozhikode",
+        {"@type": "LocalBusiness", "@id": SITE + "/#kozhikode", "name": "Datacore Solutions: Kozhikode",
          "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+914953501154",
          "address": {"@type": "PostalAddress", "streetAddress": "Government Cyberpark", "addressLocality": "Kozhikode",
                      "addressRegion": "Kerala", "postalCode": "673016", "addressCountry": "IN"}},
@@ -449,9 +449,9 @@ SELECTED = [
   "CEO meeting room with Cisco Telepresence; passive systems and video walls at NEOM Bay Airport; camp offices (NC1/NC2); complete passive scope at NEOM Hospital; CCTV and access control at NEOM International Airport.",
   "قاعة اجتماعات الرئيس التنفيذي بنظام Cisco Telepresence؛ أنظمة سلبية وشاشات فيديو جدارية في مطار نيوم باي؛ مكاتب المخيمات (NC1/NC2)؛ الحلول السلبية الكاملة لمستشفى نيوم؛ كاميرات المراقبة والتحكم في الدخول في مطار نيوم الدولي."),
  ("KAFD HQ","Corporate","مقر مؤسسي",
-  "IT infrastructure and audio-visual for the King Abdullah Financial District HQ — meeting rooms, board rooms and a command centre.",
-  "البنية التحتية لتقنية المعلومات والحلول السمعية والبصرية لمقر مركز الملك عبدالله المالي — قاعات اجتماعات ومجالس إدارة وغرفة عمليات."),
- ("SAMA — KAFD","Data centre","مركز بيانات",
+  "IT infrastructure and audio-visual for the King Abdullah Financial District HQ: meeting rooms, board rooms and a command centre.",
+  "البنية التحتية لتقنية المعلومات والحلول السمعية والبصرية لمقر مركز الملك عبدالله المالي: قاعات اجتماعات ومجالس إدارة وغرفة عمليات."),
+ ("SAMA: KAFD","Data centre","مركز بيانات",
   "Complete data-centre passive scope: 118 Panduit network cabinets, six containment systems, and SYSTIMAX imVision intelligent patch panels.",
   "النطاق السلبي الكامل لمركز البيانات: 118 خزانة شبكات Panduit، وستة أنظمة احتواء، ولوحات توصيل ذكية SYSTIMAX imVision."),
  ("Bank Al Bilad","Data centre","مركز بيانات",
@@ -461,20 +461,20 @@ SELECTED = [
   "SYSTIMAX imVision intelligent patch-panel installation and configuration for the HQ data centre.",
   "تركيب وتهيئة لوحات التوصيل الذكية SYSTIMAX imVision لمركز بيانات المقر الرئيسي."),
  ("Prince Sattam bin Abdulaziz University","University","جامعة",
-  "Campus-wide audio-visual — smart classrooms, board rooms and auditoriums — at Al-Kharj.",
-  "حلول سمعية وبصرية على مستوى الحرم الجامعي — فصول ذكية وقاعات مجالس إدارة ومسارح — في الخرج."),
+  "Campus-wide audio-visual (smart classrooms, board rooms and auditoriums) at Al-Kharj.",
+  "حلول سمعية وبصرية على مستوى الحرم الجامعي، فصول ذكية وقاعات مجالس إدارة ومسارح، في الخرج."),
  ("Arab Open University","University","جامعة",
   "Audio-visual for classrooms, board rooms, the council room and auditorium at the Riyadh campus.",
   "حلول سمعية وبصرية للفصول وقاعات مجالس الإدارة وقاعة المجلس والمسرح في حرم الرياض."),
  ("TAQEEM HQ","Government","جهة حكومية",
-  "IT infrastructure and audio-visual for the Riyadh HQ — multipurpose room, board rooms and training rooms.",
-  "البنية التحتية لتقنية المعلومات والحلول السمعية والبصرية للمقر في الرياض — قاعة متعددة الأغراض وقاعات مجالس إدارة وقاعات تدريب."),
+  "IT infrastructure and audio-visual for the Riyadh HQ: multipurpose room, board rooms and training rooms.",
+  "البنية التحتية لتقنية المعلومات والحلول السمعية والبصرية للمقر في الرياض: قاعة متعددة الأغراض وقاعات مجالس إدارة وقاعات تدريب."),
  ("King Abdulaziz International Airport","Airport","مطار",
   "Fire-alarm and public-address systems for the new south terminal, Jeddah.",
   "أنظمة إنذار الحريق والنداء العام للصالة الجنوبية الجديدة، جدة."),
  ("Maaden PCS Testing Center","Command centre","غرفة عمليات",
-  "A large-format video wall for real-time process visualisation, integrated control and monitoring, and ergonomic 24/7 operator consoles — installed, tested and commissioned end-to-end.",
-  "شاشة فيديو جدارية كبيرة لعرض العمليات في الوقت الفعلي، وأنظمة تحكم ومراقبة متكاملة، ووحدات تشغيل مريحة على مدار الساعة — بالتركيب والاختبار والتشغيل الكامل."),
+  "A large-format video wall for real-time process visualisation, integrated control and monitoring, and ergonomic 24/7 operator consoles: installed, tested and commissioned end-to-end.",
+  "شاشة فيديو جدارية كبيرة لعرض العمليات في الوقت الفعلي، وأنظمة تحكم ومراقبة متكاملة، ووحدات تشغيل مريحة على مدار الساعة: بالتركيب والاختبار والتشغيل الكامل."),
  ("S15 MOI Border Guards Housing","Residential","إسكان",
   "Complete ICT solutions for 300 villas, 1,000 apartments and a data centre, Jazan.",
   "حلول تقنية معلومات كاملة لـ 300 فيلا و1000 شقة ومركز بيانات، جازان."),
@@ -498,8 +498,8 @@ SELECTED_CSS = """<style>
 def selected_section(ar):
     ltr = (lambda x: '<span dir="ltr">' + esc(x) + '</span>') if ar else (lambda x: esc(x))
     head = 'مشاريع مختارة في أنحاء المملكة' if ar else 'Selected projects across the Kingdom'
-    sub = ('من المشاريع العملاقة والبنوك الوطنية والجامعات إلى مراكز البيانات الحيوية — عيّنة من أعمالنا المُنجزة.'
-           if ar else 'From giga-projects and national banks to universities and mission-critical data centres — a sample of delivered work.')
+    sub = ('من المشاريع العملاقة والبنوك الوطنية والجامعات إلى مراكز البيانات الحيوية: عيّنة من أعمالنا المُنجزة.'
+           if ar else 'From giga-projects and national banks to universities and mission-critical data centres: a sample of delivered work.')
     cards = ''.join(
         f'<article class="dcp-sp"><span class="dcp-sp-sec">{esc(se_a if ar else se_e)}</span>'
         f'<h3>{ltr(cl)}</h3><p>{esc(sc_a if ar else sc_e)}</p></article>'
@@ -520,16 +520,16 @@ REFERENCES = [
    ("General Directorate of Passports","2018"), ("General Directorate of Defence","2018"),
    ("General Directorate of Narcotics Control","2018"), ("General Directorate of Prisons","2019"),
    ("General Directorate of Technical Affairs","2019"), ("General Directorate of Border Guard","2019"),
-   ("Sports Training Centres — Abha, Jazan, Makkah, Najran","2019"), ("Jawwy (STC)","2020"),
+   ("Sports Training Centres: Abha, Jazan, Makkah, Najran","2019"), ("Jawwy (STC)","2020"),
    ("Mövenpick Hotel, Dammam","2021"), ("Mansard Hotels (Radisson)","2022"),
    ("Danabay Resorts","2022"), ("Bank Al Bilad","2023"),
-   ("KAP 4 — Ateis PA/VA",""), ("UCIC Factory — Ateis PA/VA",""), ("SDCC / SEC — Dammam, Qassim, Jubail",""),
+   ("KAP 4: Ateis PA/VA",""), ("UCIC Factory: Ateis PA/VA",""), ("SDCC / SEC: Dammam, Qassim, Jubail",""),
  ]),
  ("Access control", "التحكم في الدخول", [
    ("STC Jawwy","2016"), ("Mansard Hotel & Residences","2018"), ("Al Tayyar Travels Group","2018"),
    ("Prince Naif Arab Academy","2018"), ("Madaen Star Group","2019"), ("AXA Insurance","2019"),
    ("Landmark Group","2019"), ("UCIC","2019"), ("Yousuf Naghi Motors","2020"),
-   ("Mövenpick Hotel, Dammam","2021"), ("Danabay Resorts","2022"), ("SRA — Bay Airport","2023"),
+   ("Mövenpick Hotel, Dammam","2021"), ("Danabay Resorts","2022"), ("SRA: Bay Airport","2023"),
    ("Red Sea Coastal Village","2023"), ("Red Sea Airport","2023"), ("NEOM Hospital","2024"),
    ("NEOM International Airport Services","2024"), ("Deloitte, Dammam","2024"), ("Deloitte, Riyadh","2024"),
  ]),
@@ -537,31 +537,31 @@ REFERENCES = [
    ("STC Jawwy","2016"), ("Riyadh Pharma","2017"), ("Arab Open University","2019"),
    ("King Khalid International Airport, Riyadh","2019"), ("Almarai","2018"), ("LAWASEQ","2018"),
    ("Mansard Hotels (Radisson)","2018"), ("The Red Sea","2023"), ("Red Sea Airport","2023"),
-   ("Coastal Village","2023"), ("Saudi Royal Aviation — Jeddah, NEOM, Riyadh","2023"),
+   ("Coastal Village","2023"), ("Saudi Royal Aviation: Jeddah, NEOM, Riyadh","2023"),
    ("NEOM Bay Airport","2023"), ("NEOM Hospital","2024"), ("NEOM International Airport","2024"),
-   ("Bank Al Bilad","2024"), ("Deloitte — Dammam & Riyadh","2024"),
+   ("Bank Al Bilad","2024"), ("Deloitte: Dammam & Riyadh","2024"),
  ]),
  ("Networks, cabling & data centres", "الشبكات والتمديدات ومراكز البيانات", [
-   ("SAMA — data centre (118 cabinets, SYSTIMAX imVision)",""), ("SABB — data-centre passive","2024"),
-   ("Bank Al Bilad — passive","2024"), ("Zain Telecom — DC revamp (Cisco), Riyadh & Jeddah",""),
-   ("Mobily — security DC upgrade",""), ("Landmark Arabia — complete data centre",""),
-   ("Al Tayyar Travels — Tier-3 data centre",""), ("Mansard Hotel & Residence — Tier-3 data centre",""),
-   ("Prince Naif Arab Academy — passive","2019"), ("KAP-2A — passive cabling","2018"),
-   ("King Saud University — fibre optic","2018"), ("Tatweer — active & passive","2019"),
-   ("NEOM — NIC camp Wi-Fi","2021"), ("NEOM — racking NC1/NC2 & P2P","2022"),
-   ("NEOM — North Palaces fibre/UTP","2023"), ("Coastal Village — passive, security, UPS","2023"),
-   ("NEOM Hospital — passive","2023"), ("National Housing Company — switches","2024"),
-   ("STC Jawwy — passive","2016"), ("Dimension Data — passive","2017"),
+   ("SAMA: data centre (118 cabinets, SYSTIMAX imVision)",""), ("SABB: data-centre passive","2024"),
+   ("Bank Al Bilad: passive","2024"), ("Zain Telecom: DC revamp (Cisco), Riyadh & Jeddah",""),
+   ("Mobily: security DC upgrade",""), ("Landmark Arabia: complete data centre",""),
+   ("Al Tayyar Travels: Tier-3 data centre",""), ("Mansard Hotel & Residence: Tier-3 data centre",""),
+   ("Prince Naif Arab Academy: passive","2019"), ("KAP-2A: passive cabling","2018"),
+   ("King Saud University: fibre optic","2018"), ("Tatweer: active & passive","2019"),
+   ("NEOM: NIC camp Wi-Fi","2021"), ("NEOM: racking NC1/NC2 & P2P","2022"),
+   ("NEOM: North Palaces fibre/UTP","2023"), ("Coastal Village: passive, security, UPS","2023"),
+   ("NEOM Hospital: passive","2023"), ("National Housing Company: switches","2024"),
+   ("STC Jawwy: passive","2016"), ("Dimension Data: passive","2017"),
  ]),
  ("Audio-visual & command centres", "الحلول السمعية والبصرية وغرف العمليات", [
-   ("KAFD HQ — meeting & command rooms",""), ("Riyad Bank — control room & video wall",""),
-   ("STC — command centres",""), ("Dimension Data — OCC & meeting rooms",""),
-   ("Prince Sattam University (PSAU), Al-Kharj",""), ("Arab Open University — classrooms & council room",""),
-   ("Mawhiba — auditorium & board rooms",""), ("NEOM — CEO meeting room",""),
-   ("Marafiq — board & meeting rooms",""), ("MCIT — auditorium & board rooms",""),
-   ("NUPCO — council room",""), ("Taqeem — meeting & board rooms",""),
-   ("Landmark — meeting rooms",""), ("Wipro — office AV",""), ("Google Cloud — meeting room",""),
-   ("Ma'aden PCS — video wall & command centre",""), ("NHC Sales Center — LED & interactive displays",""),
+   ("KAFD HQ: meeting & command rooms",""), ("Riyad Bank: control room & video wall",""),
+   ("STC: command centres",""), ("Dimension Data: OCC & meeting rooms",""),
+   ("Prince Sattam University (PSAU), Al-Kharj",""), ("Arab Open University: classrooms & council room",""),
+   ("Mawhiba: auditorium & board rooms",""), ("NEOM: CEO meeting room",""),
+   ("Marafiq: board & meeting rooms",""), ("MCIT: auditorium & board rooms",""),
+   ("NUPCO: council room",""), ("Taqeem: meeting & board rooms",""),
+   ("Landmark: meeting rooms",""), ("Wipro: office AV",""), ("Google Cloud: meeting room",""),
+   ("Ma'aden PCS: video wall & command centre",""), ("NHC Sales Center: LED & interactive displays",""),
  ]),
 ]
 # 5-phase delivery model from the company deck.
@@ -589,8 +589,8 @@ REF_CSS = """<style>
 
 def approach_section(ar):
     head = 'كيف نُسلّم' if ar else 'How we deliver'
-    sub = ('فريق واحد مسؤول عبر دورة الحياة الكاملة — من التخطيط إلى الدعم.'
-           if ar else 'One accountable team across the full lifecycle — from planning to support.')
+    sub = ('فريق واحد مسؤول عبر دورة الحياة الكاملة، من التخطيط إلى الدعم.'
+           if ar else 'One accountable team across the full lifecycle, from planning to support.')
     cells = ''.join(
         f'<div class="dcp-apx"><div class="n">0{i+1}</div><h3>{esc(pa if ar else pe)}</h3>'
         f'<p>{esc(da if ar else de)}</p></div>'
@@ -601,8 +601,8 @@ def approach_section(ar):
 def references_section(ar):
     ltr = (lambda x: '<span dir="ltr">' + esc(x) + '</span>') if ar else (lambda x: esc(x))
     head = 'مرجع المشاريع' if ar else 'Project reference list'
-    sub = ('عيّنة أوسع من الأعمال المُنجَزة عبر التخصصات والسنوات — تُظهر عمق سجلّنا.'
-           if ar else 'A broader sample of delivered work across disciplines and years — the depth behind the highlights.')
+    sub = ('عيّنة أوسع من الأعمال المُنجَزة عبر التخصصات والسنوات: تُظهر عمق سجلّنا.'
+           if ar else 'A broader sample of delivered work across disciplines and years: the depth behind the highlights.')
     blocks = ''
     for ce, ca, items in REFERENCES:
         rows = ''.join(f'<li><span class="rc">{ltr(cl)}</span>'
@@ -610,6 +610,15 @@ def references_section(ar):
         blocks += f'<div class="dcp-refcat"><h3>{esc(ca if ar else ce)}</h3><ul>{rows}</ul></div>'
     return (REF_CSS + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
             f'<h2>{esc(head)}</h2><p>{esc(sub)}</p></div><div class="dcp-refgrid">{blocks}</div></div></section>')
+
+def photo_attrs(path, sizes):
+    """src/srcset/sizes for a project photo: browsers pick the 720px copy unless the slot
+    (or the screen density) needs the full-size file."""
+    small = path[:-5] + '-720.webp' if path.endswith('.webp') else None
+    if small and os.path.exists(os.path.join(ROOT, small)):
+        return f'src="{small}" srcset="{small} 720w, {path} 1200w" sizes="{sizes}"'
+    return f'src="{path}"'
+
 
 def build_projects(ar):
     s = STR['ar' if ar else 'en']
@@ -633,7 +642,7 @@ def build_projects(ar):
                 else 'decoding="async"' if i < 3
                 else 'fetchpriority="low" decoding="async"')
         cards += f"""<article class="dcp-proj" data-disc="{' '.join(PROJ_DISC[i])}">
-  <div class="ph"><img src="assets1/images/{PROJ_IMG[i]}" alt="{esc(name)}" {_pia} width="1200" height="750"></div>
+  <div class="ph"><img {photo_attrs('assets1/images/' + PROJ_IMG[i], '(max-width: 760px) 94vw, 420px')} alt="{esc(name)}" {_pia} width="1200" height="750"></div>
   <div class="band"><span class="c">{E(sector)}</span><span>{E(city)}</span></div>
   <div class="in"><h3>{E(name)}</h3><p class="body">{E(body)}</p>
     <div class="dcp-kit">{kits}</div>
@@ -654,12 +663,12 @@ def build_projects(ar):
              f'&rsaquo; {esc(s["pj_title"])}</div>')
     sub = ('استكشف أمثلة واقعية من حلولنا وهي قيد التشغيل، من خلال دراسات الحالة.'
            if ar else 'Explore real-world examples of our solutions in action, through our case studies.')
-    rpar = ('كل مشروع هنا نظام صمّمناه وورّدناه وركّبناه وسلّمناه بأنفسنا — عملاء محدّدون، والمعدات '
+    rpar = ('كل مشروع هنا نظام صمّمناه وورّدناه وركّبناه وسلّمناه بأنفسنا: عملاء محدّدون، والمعدات '
             'الفعلية التي رُكّبت، والمعايير التي بُني عليها: من التمديدات الهيكلية وشبكات الواي فاي إلى '
             'جدران فيديو LED والإخلاء الصوتي والتحكم في الدخول، عبر مدارس وحُرم جامعية وقاعات مجالس في '
             'المملكة.' if ar else
-            'Every project here is a system we designed, supplied, installed and handed over ourselves '
-            '— named clients, the exact equipment deployed, and the standards it was built to. From '
+            'Every project here is a system we designed, supplied, installed and handed over ourselves, '
+            'with named clients, the exact equipment deployed, and the standards it was built to. From '
             'structured cabling and Wi-Fi networks to LED video walls, voice evacuation and access '
             'control, across schools, campuses and boardrooms in Saudi Arabia.')
     present = [d for d in DISCIPLINES if any(d[0] in dd for dd in PROJ_DISC)]
@@ -714,7 +723,7 @@ def build_case(slug, ar):
     hero = (f'<section class="dcp-hero"><div class="dcp-wrap">{crumb}'
             f'<h1>{E(c["name"])}</h1><p class="dcp-lede">{E(c["lede"])}</p></div></section>')
     photo = (f'<section class="dcp-sec"><div class="dcp-wrap"><figure class="dcp-svc-shot">'
-             f'<img src="{C["img"]}" alt="{esc(c["name"])}" fetchpriority="high" decoding="async" width="1200" height="750">'
+             f'<img {photo_attrs(C["img"], "(max-width: 800px) 94vw, 760px")} alt="{esc(c["name"])}" fetchpriority="high" decoding="async" width="1200" height="750">'
              f'</figure></div></section>')
     # "At a glance" facts — styled inline so no new CSS / VER bump is needed
     facts = [(U['client'], c.get('client')), (U['sector'], c.get('sector')), (U['location'], c.get('city'))]
@@ -741,7 +750,7 @@ def build_case(slug, ar):
                 f'<aside class="dcp-aside">{glance}</aside></div></div></section>')
     gal = ''
     if c.get('gallery'):
-        figs = ''.join(f'<figure><img src="{g["img"]}" alt="{esc(g["cap"])}" '
+        figs = ''.join(f'<figure><img {photo_attrs(g["img"], "(max-width: 760px) 94vw, 360px")} alt="{esc(g["cap"])}" '
                        f'loading="lazy" decoding="async" width="1100" height="700"><figcaption>{E(g["cap"])}</figcaption></figure>'
                        for g in c['gallery'])
         gal = (f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
@@ -1144,7 +1153,7 @@ def build_contact(ar):
       ok.className='dcp-form';ok.setAttribute('role','status');
       var msg=(mode==='sent')
         ?'{("رقمك المرجعي" if ar else "Your reference number is")} <strong>'+ref+'</strong>. {("سنرد خلال يوم عمل واحد." if ar else "We will reply within one working day.")}'
-        :'{("فتحنا رسالتك في تطبيق البريد لديك — أرسلها وسنرد خلال يوم عمل واحد." if ar else "Your message is ready in your email app — send it and we will reply within one working day.")} {("المرجع" if ar else "Ref")} <strong>'+ref+'</strong>.';
+        :'{("فتحنا رسالتك في تطبيق البريد لديك، أرسلها وسنرد خلال يوم عمل واحد." if ar else "Your message is ready in your email app، send it and we will reply within one working day.")} {("المرجع" if ar else "Ref")} <strong>'+ref+'</strong>.';
       ok.innerHTML='<h2>{("تم استلام استفسارك" if ar else "Enquiry received")}</h2>'
         +'<p style="color:var(--dcp-ink2)">'+msg+'</p>';
       form.replaceWith(ok);

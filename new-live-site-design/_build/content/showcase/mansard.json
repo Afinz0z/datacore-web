@@ -9,7 +9,7 @@
   "sector": "HOSPITALITY",
   "city": "RIYADH",
   "name": "Mansard Hotel & Residence",
-  "body": "Tier III data-centre preparation — civil and electrical works, precision cooling, UPS, FM200, raised floor and cabinets for the hotel’s core infrastructure.",
+  "body": "Tier III data-centre preparation: civil and electrical works, precision cooling, UPS, FM200, raised floor and cabinets for the hotel’s core infrastructure.",
   "kit": [
    "Tier III",
    "Precision cooling",
@@ -22,7 +22,7 @@
   "sector": "ضيافة",
   "city": "الرياض",
   "name": "فندق ومساكن مانسارد",
-  "body": "تجهيز مركز بيانات من الفئة الثالثة (Tier III) — أعمال مدنية وكهربائية وتبريد دقيق وأنظمة UPS وإطفاء FM200 وأرضية مرتفعة وخزانات للبنية الأساسية للفندق.",
+  "body": "تجهيز مركز بيانات من الفئة الثالثة (Tier III): أعمال مدنية وكهربائية وتبريد دقيق وأنظمة UPS وإطفاء FM200 وأرضية مرتفعة وخزانات للبنية الأساسية للفندق.",
   "kit": [
    "Tier III",
    "تبريد دقيق",

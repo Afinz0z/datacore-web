@@ -20,7 +20,7 @@
    },
    {
     "type": "p",
-    "text": "The video wall is the shared picture the whole team works from. Fine-pitch LED or narrow-bezel LCD tiles are chosen for viewing distance, brightness and uptime, then driven by a processor that can place any source — a camera feed, a dashboard, a map, a spreadsheet — as a window anywhere on the canvas. Behind it, an AV-over-IP distribution layer carries sources across the network so any signal can reach any display or operator without a fixed matrix. A KVM system extends that to control: operators drive machines in the equipment room from their desks, keeping heat and noise out of the operating floor while switching instantly between systems."
+    "text": "The video wall is the shared picture the whole team works from. Fine-pitch LED or narrow-bezel LCD tiles are chosen for viewing distance, brightness and uptime, then driven by a processor that can place any source (a camera feed, a dashboard, a map, a spreadsheet) as a window anywhere on the canvas. Behind it, an AV-over-IP distribution layer carries sources across the network so any signal can reach any display or operator without a fixed matrix. A KVM system extends that to control: operators drive machines in the equipment room from their desks, keeping heat and noise out of the operating floor while switching instantly between systems."
    },
    {
     "type": "h2",
@@ -28,7 +28,7 @@
    },
    {
     "type": "p",
-    "text": "Technology is only useful if people can sustain attention at it for a full shift. Consoles are specified for continuous 24/7 use, with sit-stand adjustment, proper sightlines to the video wall, cable management and monitor arms positioned to avoid neck and eye strain. Sightline geometry decides how far consoles sit from the wall and how the room tiers. Shift patterns, break spaces and clear circulation matter too — an exhausted operator misses events, however good the displays. Standardised console layouts speed shift handover, because an incoming operator finds every control exactly where the last shift left it, and enough operator positions with sensible failover keep the floor staffed even when a seat is offline."
+    "text": "Technology is only useful if people can sustain attention at it for a full shift. Consoles are specified for continuous 24/7 use, with sit-stand adjustment, proper sightlines to the video wall, cable management and monitor arms positioned to avoid neck and eye strain. Sightline geometry decides how far consoles sit from the wall and how the room tiers. Shift patterns, break spaces and clear circulation matter too: an exhausted operator misses events, however good the displays. Standardised console layouts speed shift handover, because an incoming operator finds every control exactly where the last shift left it, and enough operator positions with sensible failover keep the floor staffed even when a seat is offline."
    },
    {
     "type": "h2",
@@ -40,7 +40,7 @@
    },
    {
     "type": "p",
-    "text": "Datacore designs and integrates SOC and NOC environments end to end — video wall, AV-over-IP, KVM, consoles and the room services around them — and tests every layer before handover; contact our AV team to scope your control room."
+    "text": "Datacore designs and integrates SOC and NOC environments end to end (video wall, AV-over-IP, KVM, consoles and the room services around them) and tests every layer before handover; contact our AV team to scope your control room."
    }
   ],
   "related": [
@@ -60,11 +60,11 @@
   "faq": [
    {
     "q": "What's the difference between a SOC and a NOC?",
-    "a": "A SOC focuses on physical and cyber security — surveillance, access control and threat monitoring. A NOC focuses on IT and network health — availability, performance and incidents. Many organisations run a combined room sharing the same video wall and infrastructure."
+    "a": "A SOC focuses on physical and cyber security: surveillance, access control and threat monitoring. A NOC focuses on IT and network health: availability, performance and incidents. Many organisations run a combined room sharing the same video wall and infrastructure."
    },
    {
     "q": "Why use AV-over-IP and KVM instead of a traditional matrix?",
-    "a": "An IP-based distribution layer lets any source reach any display or operator over the network, scales without re-cabling, and — with KVM — keeps noisy, hot computers in the equipment room while operators control them from the floor."
+    "a": "An IP-based distribution layer lets any source reach any display or operator over the network, scales without re-cabling, and, with KVM, keeps noisy, hot computers in the equipment room while operators control them from the floor."
    },
    {
     "q": "What makes a control room reliable enough for 24/7 use?",
@@ -89,7 +89,7 @@
    },
    {
     "type": "p",
-    "text": "جدار الفيديو هو الصورة المشتركة التي يعمل منها الفريق بأكمله. تُختار بلاطات LED الدقيقة أو شاشات LCD ضيقة الإطار وفق مسافة المشاهدة والسطوع وزمن التشغيل، ثم يقودها معالج قادر على وضع أي مصدر — بثّ كاميرا، لوحة معلومات، خريطة، جدول بيانات — كنافذة في أي موضع على المساحة. وخلفها، تحمل طبقة توزيع AV-over-IP المصادر عبر الشبكة كي تصل أي إشارة إلى أي شاشة أو مشغّل دون مصفوفة ثابتة. ويمتد نظام KVM بذلك إلى التحكم: فيقود المشغّلون الأجهزة الموجودة في غرفة المعدات من مكاتبهم، ما يُبقي الحرارة والضجيج خارج قاعة التشغيل مع التبديل الفوري بين الأنظمة."
+    "text": "جدار الفيديو هو الصورة المشتركة التي يعمل منها الفريق بأكمله. تُختار بلاطات LED الدقيقة أو شاشات LCD ضيقة الإطار وفق مسافة المشاهدة والسطوع وزمن التشغيل، ثم يقودها معالج قادر على وضع أي مصدر (بثّ كاميرا، لوحة معلومات، خريطة، جدول بيانات) كنافذة في أي موضع على المساحة. وخلفها، تحمل طبقة توزيع AV-over-IP المصادر عبر الشبكة كي تصل أي إشارة إلى أي شاشة أو مشغّل دون مصفوفة ثابتة. ويمتد نظام KVM بذلك إلى التحكم: فيقود المشغّلون الأجهزة الموجودة في غرفة المعدات من مكاتبهم، ما يُبقي الحرارة والضجيج خارج قاعة التشغيل مع التبديل الفوري بين الأنظمة."
    },
    {
     "type": "h2",
@@ -97,7 +97,7 @@
    },
    {
     "type": "p",
-    "text": "التقنية لا تنفع إلا إذا استطاع الناس الحفاظ على انتباههم إليها طوال نوبة كاملة. تُجهَّز وحدات التحكم للعمل المتواصل على مدار الساعة، مع إمكانية الجلوس والوقوف، وخطوط رؤية سليمة نحو جدار الفيديو، وتنظيم للكابلات، وأذرع شاشات موضوعة لتفادي إجهاد الرقبة والعين. وتحدّد هندسة خطوط الرؤية مدى بُعد وحدات التحكم عن الجدار وكيفية تدرّج مستويات الغرفة. كما تهم أنماط النوبات ومساحات الاستراحة ووضوح الممرات — فالمشغّل المُنهك يفوّت الأحداث مهما كانت الشاشات جيدة. وتسرّع تخطيطات وحدات التحكم الموحّدة تسليم النوبات، إذ يجد المشغّل الوافد كل عنصر تحكم حيث تركه المشغّل السابق تماماً، ووجود عدد كافٍ من المواقع مع تحوّل احتياطي معقول يُبقي القاعة مأهولة حتى حين يكون أحد المقاعد خارج الخدمة."
+    "text": "التقنية لا تنفع إلا إذا استطاع الناس الحفاظ على انتباههم إليها طوال نوبة كاملة. تُجهَّز وحدات التحكم للعمل المتواصل على مدار الساعة، مع إمكانية الجلوس والوقوف، وخطوط رؤية سليمة نحو جدار الفيديو، وتنظيم للكابلات، وأذرع شاشات موضوعة لتفادي إجهاد الرقبة والعين. وتحدّد هندسة خطوط الرؤية مدى بُعد وحدات التحكم عن الجدار وكيفية تدرّج مستويات الغرفة. كما تهم أنماط النوبات ومساحات الاستراحة ووضوح الممرات: فالمشغّل المُنهك يفوّت الأحداث مهما كانت الشاشات جيدة. وتسرّع تخطيطات وحدات التحكم الموحّدة تسليم النوبات، إذ يجد المشغّل الوافد كل عنصر تحكم حيث تركه المشغّل السابق تماماً، ووجود عدد كافٍ من المواقع مع تحوّل احتياطي معقول يُبقي القاعة مأهولة حتى حين يكون أحد المقاعد خارج الخدمة."
    },
    {
     "type": "h2",
@@ -109,7 +109,7 @@
    },
    {
     "type": "p",
-    "text": "تصمّم داتاكور بيئات SOC وNOC وتكاملها من طرف إلى طرف — جدار الفيديو، وAV-over-IP، وKVM، ووحدات التحكم وخدمات الغرفة المحيطة بها — وتختبر كل طبقة قبل التسليم؛ تواصل مع فريق الصوتيات والمرئيات لدينا لتحديد نطاق غرفة تحكمك."
+    "text": "تصمّم داتاكور بيئات SOC وNOC وتكاملها من طرف إلى طرف (جدار الفيديو، وAV-over-IP، وKVM، ووحدات التحكم وخدمات الغرفة المحيطة بها) وتختبر كل طبقة قبل التسليم؛ تواصل مع فريق الصوتيات والمرئيات لدينا لتحديد نطاق غرفة تحكمك."
    }
   ],
   "related": [
@@ -129,7 +129,7 @@
   "faq": [
    {
     "q": "ما الفرق بين SOC وNOC؟",
-    "a": "يركّز SOC على الأمن المادي والسيبراني — المراقبة والتحكم في الدخول ورصد التهديدات. ويركّز NOC على صحة تقنية المعلومات والشبكة — التوافر والأداء والحوادث. وكثير من المؤسسات يشغّل غرفة مدمجة تتشارك جدار الفيديو والبنية نفسها."
+    "a": "يركّز SOC على الأمن المادي والسيبراني: المراقبة والتحكم في الدخول ورصد التهديدات. ويركّز NOC على صحة تقنية المعلومات والشبكة: التوافر والأداء والحوادث. وكثير من المؤسسات يشغّل غرفة مدمجة تتشارك جدار الفيديو والبنية نفسها."
    },
    {
     "q": "لماذا نستخدم AV-over-IP وKVM بدلاً من المصفوفة التقليدية؟",

@@ -2,23 +2,23 @@
  "en": {
   "title": "Glossary of ELV, AV & ICT terms | Datacore Solutions",
   "h1": "Glossary",
-  "lede": "Plain-language definitions of the low-current, audio-visual and IT terms used across our services — so a specification reads clearly whoever is in the room.",
+  "lede": "Plain-language definitions of the low-current, audio-visual and IT terms used across our services, so a specification reads clearly whoever is in the room.",
   "terms": [
    [
     "ELV (Extra-Low Voltage)",
-    "The low-current systems in a building — data networks, audio-visual, CCTV, access control, public address and fire alarm — that run on extra-low voltage rather than mains power. Datacore designs, installs and maintains them as a single integrator."
+    "The low-current systems in a building (data networks, audio-visual, CCTV, access control, public address and fire alarm) that run on extra-low voltage rather than mains power. Datacore designs, installs and maintains them as a single integrator."
    ],
    [
     "Structured cabling",
-    "A standardised, organised cabling system — to standards such as TIA-568 and ISO/IEC 11801 — that carries data, voice and video across a building on one common infrastructure, so any outlet can serve any service."
+    "A standardised, organised cabling system, to standards such as TIA-568 and ISO/IEC 11801, that carries data, voice and video across a building on one common infrastructure, so any outlet can serve any service."
    ],
    [
     "Fibre optic",
-    "Cabling that carries data as pulses of light through glass strands, giving very high bandwidth, low latency and long reach — used for backbones between floors, buildings and data centres."
+    "Cabling that carries data as pulses of light through glass strands, giving very high bandwidth, low latency and long reach: used for backbones between floors, buildings and data centres."
    ],
    [
     "Network infrastructure",
-    "The switches, routers, wireless access points and cabling that move data around an organisation — the foundation every other ELV and IT service runs on."
+    "The switches, routers, wireless access points and cabling that move data around an organisation: the foundation every other ELV and IT service runs on."
    ],
    [
     "Data centre",
@@ -30,7 +30,7 @@
    ],
    [
     "Access control",
-    "Systems that decide who may enter which doors and areas — by card, PIN or biometrics — and keep an audit trail of every entry event."
+    "Systems that decide who may enter which doors and areas (by card, PIN or biometrics) and keep an audit trail of every entry event."
    ],
    [
     "Public Address & Voice Alarm (PA/VA)",
@@ -50,7 +50,7 @@
    ],
    [
     "Digital signage",
-    "Centrally-managed screens that show scheduled content — wayfinding, announcements, advertising — across a site from one content-management platform."
+    "Centrally-managed screens that show scheduled content (wayfinding, announcements, advertising) across a site from one content-management platform."
    ],
    [
     "IPTV",
@@ -62,11 +62,11 @@
    ],
    [
     "Unified Communications (UC)",
-    "Bringing voice, video, messaging and conferencing into one experience — often with room systems and BYOD connectivity so any device can join a meeting."
+    "Bringing voice, video, messaging and conferencing into one experience: often with room systems and BYOD connectivity so any device can join a meeting."
    ],
    [
     "BYOD (Bring Your Own Device)",
-    "Room and network design that lets people connect and present from their own laptop or phone — wirelessly or with a single cable."
+    "Room and network design that lets people connect and present from their own laptop or phone: wirelessly or with a single cable."
    ],
    [
     "UPS (Uninterruptible Power Supply)",
@@ -90,7 +90,7 @@
    ],
    [
     "MDF / IDF",
-    "Main and Intermediate Distribution Frames — the primary and satellite communications rooms of a cabling design. The MDF holds the core equipment; IDFs are floor or zone closets linked back to it by backbone cabling."
+    "Main and Intermediate Distribution Frames: the primary and satellite communications rooms of a cabling design. The MDF holds the core equipment; IDFs are floor or zone closets linked back to it by backbone cabling."
    ],
    [
     "PDU (Power Distribution Unit)",
@@ -106,7 +106,7 @@
    ],
    [
     "N+1 redundancy",
-    "A resilience approach with one more unit than the load needs (N), so any single component — a UPS, generator or cooling unit — can fail or be serviced with no interruption. The basis of a concurrently maintainable facility."
+    "A resilience approach with one more unit than the load needs (N), so any single component (a UPS, generator or cooling unit) can fail or be serviced with no interruption. The basis of a concurrently maintainable facility."
    ],
    [
     "Data centre tier",
@@ -118,7 +118,7 @@
    ],
    [
     "NVR (Network Video Recorder)",
-    "A unit that records and stores footage from IP cameras across the network — as opposed to a DVR, which digitises analogue camera feeds. The recording core of a modern IP-CCTV system."
+    "A unit that records and stores footage from IP cameras across the network, as opposed to a DVR, which digitises analogue camera feeds. The recording core of a modern IP-CCTV system."
    ],
    [
     "VMS (Video Management System)",
@@ -126,7 +126,7 @@
    ],
    [
     "Biometric access",
-    "Access control that verifies a person by a physical trait — fingerprint, face or iris — rather than a card or PIN, so the credential can't be shared or lost. Often paired with a card for two-factor entry."
+    "Access control that verifies a person by a physical trait (fingerprint, face or iris) rather than a card or PIN, so the credential can't be shared or lost. Often paired with a card for two-factor entry."
    ],
    [
     "Wi-Fi 6 (802.11ax)",
@@ -153,23 +153,23 @@
  "ar": {
   "title": "مسرد مصطلحات التيار المنخفض والصوت والصورة وتقنية المعلومات | داتاكور للحلول",
   "h1": "مسرد المصطلحات",
-  "lede": "تعريفات مبسّطة لمصطلحات التيار المنخفض والأنظمة السمعية والبصرية وتقنية المعلومات المستخدمة عبر خدماتنا — لتكون المواصفات واضحة لكل من في الاجتماع.",
+  "lede": "تعريفات مبسّطة لمصطلحات التيار المنخفض والأنظمة السمعية والبصرية وتقنية المعلومات المستخدمة عبر خدماتنا: لتكون المواصفات واضحة لكل من في الاجتماع.",
   "terms": [
    [
     "التيار المنخفض (ELV)",
-    "أنظمة التيار المنخفض في المبنى — شبكات البيانات، والأنظمة السمعية والبصرية، وكاميرات المراقبة، والتحكم في الدخول، والنداء العام وإنذار الحريق — التي تعمل بجهد منخفض جدًا بدل تيار الكهرباء الرئيسي. تصمّمها داتاكور وتركّبها وتصونها كمكاملٍ واحد."
+    "أنظمة التيار المنخفض في المبنى (شبكات البيانات، والأنظمة السمعية والبصرية، وكاميرات المراقبة، والتحكم في الدخول، والنداء العام وإنذار الحريق) التي تعمل بجهد منخفض جدًا بدل تيار الكهرباء الرئيسي. تصمّمها داتاكور وتركّبها وتصونها كمكاملٍ واحد."
    ],
    [
     "الكابلات المهيكلة",
-    "نظام كابلات منظّم وموحّد — وفق معايير مثل TIA-568 وISO/IEC 11801 — ينقل البيانات والصوت والصورة عبر المبنى على بنية تحتية واحدة مشتركة، بحيث يخدم أي منفذٍ أي خدمة."
+    "نظام كابلات منظّم وموحّد، وفق معايير مثل TIA-568 وISO/IEC 11801، ينقل البيانات والصوت والصورة عبر المبنى على بنية تحتية واحدة مشتركة، بحيث يخدم أي منفذٍ أي خدمة."
    ],
    [
     "الألياف الضوئية",
-    "كابلات تنقل البيانات كنبضات ضوئية عبر خيوط زجاجية، فتمنح سعةً عالية جدًا وزمن استجابة منخفض ومدى طويل — تُستخدم كعمودٍ فقري بين الطوابق والمباني ومراكز البيانات."
+    "كابلات تنقل البيانات كنبضات ضوئية عبر خيوط زجاجية، فتمنح سعةً عالية جدًا وزمن استجابة منخفض ومدى طويل: تُستخدم كعمودٍ فقري بين الطوابق والمباني ومراكز البيانات."
    ],
    [
     "البنية التحتية للشبكات",
-    "المبدّلات والموجّهات ونقاط الوصول اللاسلكية والكابلات التي تنقل البيانات داخل المؤسسة — وهي الأساس الذي تعمل عليه كل خدمات التيار المنخفض وتقنية المعلومات الأخرى."
+    "المبدّلات والموجّهات ونقاط الوصول اللاسلكية والكابلات التي تنقل البيانات داخل المؤسسة، وهي الأساس الذي تعمل عليه كل خدمات التيار المنخفض وتقنية المعلومات الأخرى."
    ],
    [
     "مركز البيانات",
@@ -181,7 +181,7 @@
    ],
    [
     "التحكم في الدخول",
-    "أنظمة تحدّد مَن يدخل أي الأبواب والمناطق — بالبطاقة أو الرمز أو السمات الحيوية — وتحتفظ بسجلٍ لكل حدث دخول."
+    "أنظمة تحدّد مَن يدخل أي الأبواب والمناطق، بالبطاقة أو الرمز أو السمات الحيوية، وتحتفظ بسجلٍ لكل حدث دخول."
    ],
    [
     "النداء العام وإنذار الصوت (PA/VA)",
@@ -201,7 +201,7 @@
    ],
    [
     "اللافتات الرقمية",
-    "شاشات مُدارة مركزيًا تعرض محتوى مجدولًا — إرشاد المسار والإعلانات والدعاية — عبر الموقع من منصّة إدارة محتوى واحدة."
+    "شاشات مُدارة مركزيًا تعرض محتوى مجدولًا، إرشاد المسار والإعلانات والدعاية، عبر الموقع من منصّة إدارة محتوى واحدة."
    ],
    [
     "IPTV",
@@ -213,11 +213,11 @@
    ],
    [
     "الاتصالات الموحّدة (UC)",
-    "دمج الصوت والفيديو والمراسلة والمؤتمرات في تجربةٍ واحدة — غالبًا مع أنظمة القاعات وربط BYOD بحيث ينضم أي جهاز إلى الاجتماع."
+    "دمج الصوت والفيديو والمراسلة والمؤتمرات في تجربةٍ واحدة: غالبًا مع أنظمة القاعات وربط BYOD بحيث ينضم أي جهاز إلى الاجتماع."
    ],
    [
     "إحضار جهازك الخاص (BYOD)",
-    "تصميم القاعة والشبكة بحيث يتمكّن الأشخاص من الاتصال والعرض من حواسيبهم أو هواتفهم — لاسلكيًا أو بكابلٍ واحد."
+    "تصميم القاعة والشبكة بحيث يتمكّن الأشخاص من الاتصال والعرض من حواسيبهم أو هواتفهم، لاسلكيًا أو بكابلٍ واحد."
    ],
    [
     "مزوّد الطاقة غير المنقطعة (UPS)",
@@ -241,7 +241,7 @@
    ],
    [
     "MDF / IDF",
-    "إطارا التوزيع الرئيسي والفرعي — غرفتا الاتصالات الأساسية والفرعية في تصميم التمديدات. يحوي MDF المعدات الأساسية، وتُربط خزائن الأدوار أو المناطق (IDF) به بكابلات العمود الفقري."
+    "إطارا التوزيع الرئيسي والفرعي: غرفتا الاتصالات الأساسية والفرعية في تصميم التمديدات. يحوي MDF المعدات الأساسية، وتُربط خزائن الأدوار أو المناطق (IDF) به بكابلات العمود الفقري."
    ],
    [
     "PDU (وحدة توزيع الطاقة)",
@@ -257,7 +257,7 @@
    ],
    [
     "التكرار N+1",
-    "نهج للمرونة بوحدة واحدة زائدة عن حاجة الحِمل (N)، فيمكن لأي مكوّن — UPS أو مولّد أو وحدة تبريد — أن يتعطّل أو يُصان دون انقطاع. وهو أساس المنشأة القابلة للصيانة المتزامنة."
+    "نهج للمرونة بوحدة واحدة زائدة عن حاجة الحِمل (N)، فيمكن لأي مكوّن، UPS أو مولّد أو وحدة تبريد، أن يتعطّل أو يُصان دون انقطاع. وهو أساس المنشأة القابلة للصيانة المتزامنة."
    ],
    [
     "فئة مركز البيانات",
@@ -269,7 +269,7 @@
    ],
    [
     "NVR (مسجّل فيديو شبكي)",
-    "وحدة تسجّل وتخزّن لقطات كاميرات IP عبر الشبكة — بخلاف DVR الذي يرقمن إشارات الكاميرات التناظرية. وهي نواة التسجيل في نظام CCTV الحديث القائم على IP."
+    "وحدة تسجّل وتخزّن لقطات كاميرات IP عبر الشبكة: بخلاف DVR الذي يرقمن إشارات الكاميرات التناظرية. وهي نواة التسجيل في نظام CCTV الحديث القائم على IP."
    ],
    [
     "VMS (نظام إدارة الفيديو)",
@@ -277,7 +277,7 @@
    ],
    [
     "الدخول بالسمات الحيوية",
-    "تحكم في الدخول يتحقق من الشخص بسمة مادية — بصمة أو وجه أو قزحية — بدل بطاقة أو رقم سري، فلا يمكن مشاركة الهوية أو فقدانها. ويُدمج غالباً مع بطاقة لدخول ثنائي العامل."
+    "تحكم في الدخول يتحقق من الشخص بسمة مادية، بصمة أو وجه أو قزحية، بدل بطاقة أو رقم سري، فلا يمكن مشاركة الهوية أو فقدانها. ويُدمج غالباً مع بطاقة لدخول ثنائي العامل."
    ],
    [
     "Wi-Fi 6 (802.11ax)",

@@ -1,4 +1,4 @@
-# Datacore Solutions — all user-agents welcome across the whole site
+# Datacore Solutions: all user-agents welcome across the whole site
 User-agent: *
 Allow: /
 

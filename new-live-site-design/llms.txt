@@ -1,8 +1,8 @@
 # Datacore Solutions
 
 > Low-current (ELV) systems integrator operating in Saudi Arabia, the UAE and
-> India. In-house delivery — design, supply, installation, commissioning and
-> maintenance — across nine disciplines and 38 services. Integrating since 2007.
+> India. In-house delivery (design, supply, installation, commissioning and
+> maintenance) across nine disciplines and 38 services. Integrating since 2007.
 
 ## At a glance
 - Founded 2007; 16+ years integrating low-current systems in the Gulf.
@@ -11,21 +11,21 @@
 - Coverage in Saudi Arabia: Riyadh, Jeddah, Dammam / Eastern Province, NEOM and the Red Sea giga-projects.
 
 ## What sets Datacore apart
-- In-house delivery end to end — survey, design, supply, installation, commissioning and maintenance are all done by Datacore's own engineers, not subcontracted.
-- Built to standard — TIA-568 / ISO-IEC 11801 cabling, EN 54 voice evacuation, Saudi Building Code (SBC 801), SIRA and Civil-Defense-aligned security.
+- In-house delivery end to end: survey, design, supply, installation, commissioning and maintenance are all done by Datacore's own engineers, not subcontracted.
+- Built to standard: TIA-568 / ISO-IEC 11801 cabling, EN 54 voice evacuation, Saudi Building Code (SBC 801), SIRA and Civil-Defense-aligned security.
 - Manufacturer-certified engineers backed by in-house training; SLA-backed maintenance with resident engineers where required.
 - Bilingual (Arabic / English) team serving Vision 2030 smart-infrastructure programmes.
 
 ## Disciplines
-- Network infrastructure — structured cabling, fibre, IT networks, UPS, Wi-Fi, IP telephony
-- Datacentre — design & implementation, migration, assessment
-- Surveillance & security — access control, CCTV, parking, GRMS
-- Meeting rooms — video conferencing, booking, SOC/NOC, acoustics, boardrooms
-- Audio-visual — auditoriums, smart classrooms, control systems, professional audio and more
-- Signage & video walls — digital signage, indoor/outdoor LED, interactive walls
-- Public address & fire alarm — PAVA voice evacuation (EN 54), PAGA, fire alarm, BGM
+- Network infrastructure, structured cabling, fibre, IT networks, UPS, Wi-Fi, IP telephony
+- Datacentre, design & implementation, migration, assessment
+- Surveillance & security, access control, CCTV, parking, GRMS
+- Meeting rooms, video conferencing, booking, SOC/NOC, acoustics, boardrooms
+- Audio-visual, auditoriums, smart classrooms, control systems, professional audio and more
+- Signage & video walls, digital signage, indoor/outdoor LED, interactive walls
+- Public address & fire alarm, PAVA voice evacuation (EN 54), PAGA, fire alarm, BGM
 - IPTV & MATV
-- Maintenance & staffing — SLA-backed contracts, resident engineers
+- Maintenance & staffing, SLA-backed contracts, resident engineers
 
 ## Offices
 - Riyadh, Saudi Arabia (head office) — +966 11 512 8888
@@ -33,41 +33,41 @@
 - Kozhikode, India — +91 495 350 1154
 
 ## Key pages
-- https://www.datacore.com.sa/services.html — all disciplines and services
-- https://www.datacore.com.sa/products.html — product catalogue and quotation requests
-- https://www.datacore.com.sa/projects.html — named project case studies
-- https://www.datacore.com.sa/faq.html — frequently asked questions
-- https://www.datacore.com.sa/glossary.html — plain-language definitions of ELV, AV & ICT terms
-- https://www.datacore.com.sa/contact.html — enquiry form and office locations
+- https://www.datacore.com.sa/services.html, all disciplines and services
+- https://www.datacore.com.sa/products.html, product catalogue and quotation requests
+- https://www.datacore.com.sa/projects.html, named project case studies
+- https://www.datacore.com.sa/faq.html, frequently asked questions
+- https://www.datacore.com.sa/glossary.html, plain-language definitions of ELV, AV & ICT terms
+- https://www.datacore.com.sa/contact.html, enquiry form and office locations
 
 ## Case studies
-- https://www.datacore.com.sa/project-owis.html — One World International School, Riyadh — AV, ICT & security for a new campus, one integrator
-- https://www.datacore.com.sa/project-psau.html — Prince Sattam bin Abdulaziz University, Al-Kharj — campus-wide smart classrooms & auditorium
-- https://www.datacore.com.sa/project-taqeem.html — TAQEEM (Saudi Authority for Accredited Valuers), Riyadh — HQ-wide AV standardisation
-- https://www.datacore.com.sa/project-auditorium.html — Arab Open University, Riyadh — auditorium rebuilt around a direct-view LED wall
-- https://www.datacore.com.sa/project-aou-council.html — Arab Open University, Riyadh — council-chamber AV modernisation
+- https://www.datacore.com.sa/project-owis.html, One World International School, Riyadh, AV, ICT & security for a new campus, one integrator
+- https://www.datacore.com.sa/project-psau.html, Prince Sattam bin Abdulaziz University, Al-Kharj, campus-wide smart classrooms & auditorium
+- https://www.datacore.com.sa/project-taqeem.html, TAQEEM (Saudi Authority for Accredited Valuers), Riyadh, HQ-wide AV standardisation
+- https://www.datacore.com.sa/project-auditorium.html, Arab Open University, Riyadh, auditorium rebuilt around a direct-view LED wall
+- https://www.datacore.com.sa/project-aou-council.html, Arab Open University, Riyadh, council-chamber AV modernisation
 
 ## Insights (articles)
-- https://www.datacore.com.sa/insight-what-is-a-public-address-system.html — public address vs. voice evacuation (PA/VA) and the EN 54 standards
-- https://www.datacore.com.sa/insight-impact-of-5g-on-passive-networks.html — how 5G densification drives fibre counts, pathways and containment
-- https://www.datacore.com.sa/insight-active-vs-passive-network-infrastructure.html — the active/passive split and why the passive layer is the one to get right
-- https://www.datacore.com.sa/insight-structured-cabling-standards-explained.html — TIA-568, ISO/IEC 11801 and what Cat6A/OM4 actually mean
-- https://www.datacore.com.sa/insight-single-mode-vs-multimode-fibre.html — choosing OS2 vs OM3/OM4 fibre for backbone and data-centre links
-- https://www.datacore.com.sa/insight-data-centre-design-essentials.html — power, cooling, containment and DCIM for a Tier-rated build
-- https://www.datacore.com.sa/insight-designing-cctv-for-coverage.html — how many cameras, placement and coverage planning
-- https://www.datacore.com.sa/insight-choosing-an-elv-contractor-saudi-arabia.html — what to check before appointing an ELV/low-current contractor in KSA
-- https://www.datacore.com.sa/insight-voice-evacuation-en54-sbc801.html — EN 54 vs the Saudi Building Code (SBC 801) for voice alarm
-- https://www.datacore.com.sa/insight-led-video-wall-pixel-pitch.html — pixel pitch, viewing distance and choosing an indoor LED wall
-- https://www.datacore.com.sa/insight-why-annual-maintenance-contracts-matter.html — what an ELV AMC covers and why it protects uptime
+- https://www.datacore.com.sa/insight-what-is-a-public-address-system.html, public address vs. voice evacuation (PA/VA) and the EN 54 standards
+- https://www.datacore.com.sa/insight-impact-of-5g-on-passive-networks.html, how 5G densification drives fibre counts, pathways and containment
+- https://www.datacore.com.sa/insight-active-vs-passive-network-infrastructure.html, the active/passive split and why the passive layer is the one to get right
+- https://www.datacore.com.sa/insight-structured-cabling-standards-explained.html, TIA-568, ISO/IEC 11801 and what Cat6A/OM4 actually mean
+- https://www.datacore.com.sa/insight-single-mode-vs-multimode-fibre.html, choosing OS2 vs OM3/OM4 fibre for backbone and data-centre links
+- https://www.datacore.com.sa/insight-data-centre-design-essentials.html, power, cooling, containment and DCIM for a Tier-rated build
+- https://www.datacore.com.sa/insight-designing-cctv-for-coverage.html, how many cameras, placement and coverage planning
+- https://www.datacore.com.sa/insight-choosing-an-elv-contractor-saudi-arabia.html, what to check before appointing an ELV/low-current contractor in KSA
+- https://www.datacore.com.sa/insight-voice-evacuation-en54-sbc801.html, EN 54 vs the Saudi Building Code (SBC 801) for voice alarm
+- https://www.datacore.com.sa/insight-led-video-wall-pixel-pitch.html, pixel pitch, viewing distance and choosing an indoor LED wall
+- https://www.datacore.com.sa/insight-why-annual-maintenance-contracts-matter.html, what an ELV AMC covers and why it protects uptime
 
 ## Location & solution guides
-- https://www.datacore.com.sa/elv-low-current-systems-saudi-arabia.html — ELV / low-current systems across Saudi Arabia
-- https://www.datacore.com.sa/av-solutions-provider-saudi-arabia.html — audio-visual solutions provider in Saudi Arabia
-- https://www.datacore.com.sa/av-network-integrator-saudi-arabia.html — combined AV + network integration in Saudi Arabia
-- https://www.datacore.com.sa/network-solutions-provider-riyadh.html — network infrastructure solutions in Riyadh
-- https://www.datacore.com.sa/structured-cabling-company-riyadh.html — structured cabling contractor in Riyadh
+- https://www.datacore.com.sa/elv-low-current-systems-saudi-arabia.html, ELV / low-current systems across Saudi Arabia
+- https://www.datacore.com.sa/av-solutions-provider-saudi-arabia.html, audio-visual solutions provider in Saudi Arabia
+- https://www.datacore.com.sa/av-network-integrator-saudi-arabia.html, combined AV + network integration in Saudi Arabia
+- https://www.datacore.com.sa/network-solutions-provider-riyadh.html, network infrastructure solutions in Riyadh
+- https://www.datacore.com.sa/structured-cabling-company-riyadh.html, structured cabling contractor in Riyadh
 
 ## Selected clients
 NEOM, Saudi Central Bank (SAMA), King Abdullah Financial District (KAFD), STC, Riyad Bank, SABB, Bank Al Bilad, Mobily, Zain, Ma'aden, Marafiq, Al Tayyar Travels, Mawhiba Foundation, Prince Sattam bin Abdulaziz University, Arab Open University, Ministry of Communications and IT (MCIT), National Housing Company, Almarai, Landmark, Qiddiya.
 
-Datacore Solutions is a registered Saudi company — Commercial Registration (CR) 7002812043, VAT 311206394100003. Head office: Dabbab Complex, Riyadh, Saudi Arabia. Enquiries: sales@datacore.com.sa · +966 11 512 8888.
+Datacore Solutions is a registered Saudi company: Commercial Registration (CR) 7002812043, VAT 311206394100003. Head office: Dabbab Complex, Riyadh, Saudi Arabia. Enquiries: sales@datacore.com.sa · +966 11 512 8888.

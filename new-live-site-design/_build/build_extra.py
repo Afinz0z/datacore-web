@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Generate the mirror's supporting pages — Terms, Privacy, 404 (EN+AR) — plus
+"""Generate the mirror's supporting pages (Terms, Privacy, 404 (EN+AR)) plus
 SEO/GEO scaffolding (robots.txt, sitemap.xml, llms.txt). Legal copy is generic
 boilerplate for a B2B systems-integrator brochure site; the CR/VAT numbers are
 placeholders and it is not legal advice."""
@@ -40,7 +40,7 @@ LEGAL = {
  },
  "privacy": {
   "en": ("Privacy Policy", "What we collect through this site and how we use it.", [
-    ("What we collect", ["When you send an enquiry or a quotation request, we receive the details you type — "
+    ("What we collect", ["When you send an enquiry or a quotation request, we receive the details you type: "
       "typically your name, company, email, phone and your message. We do not ask for payment or ID details "
       "on this site."]),
     ("How we use it", ["We use those details only to answer your enquiry and to prepare a quotation or a site "
@@ -52,7 +52,7 @@ LEGAL = {
     ("Your choices", ["You can ask us what we hold about you, or ask us to delete it, through the contact page."]),
   ]),
   "ar": ("سياسة الخصوصية", "ما نجمعه عبر هذا الموقع وكيف نستخدمه.", [
-    ("ما نجمعه", ["عند إرسالك استفساراً أو طلب عرض سعر، نستلم البيانات التي تكتبها — عادةً الاسم والشركة والبريد "
+    ("ما نجمعه", ["عند إرسالك استفساراً أو طلب عرض سعر، نستلم البيانات التي تكتبها: عادةً الاسم والشركة والبريد "
       "الإلكتروني ورقم الجوال ورسالتك. ولا نطلب بيانات دفع أو هوية على هذا الموقع."]),
     ("كيف نستخدمها", ["نستخدم هذه البيانات فقط للرد على استفسارك ولإعداد عرض سعر أو زيارة ومسح للموقع. ولا نبيع "
       "بياناتك."]),
@@ -299,7 +299,7 @@ _AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User
             "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Googlebot",
             "Bingbot", "Applebot", "Applebot-Extended", "Amazonbot", "DuckDuckBot", "CCBot",
             "Meta-ExternalAgent", "cohere-ai", "YouBot", "Diffbot"]
-robots = ("# Datacore Solutions — all user-agents welcome across the whole site\n"
+robots = ("# Datacore Solutions: all user-agents welcome across the whole site\n"
           "User-agent: *\nAllow: /\n\n"
           "# Named answer-engine / search crawlers are explicitly welcome to read, index and cite this site\n\n"
           + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in _AI_BOTS)
@@ -309,8 +309,8 @@ open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8").write(robots)
 llms = f"""# Datacore Solutions
 
 > Low-current (ELV) systems integrator operating in Saudi Arabia, the UAE and
-> India. In-house delivery — design, supply, installation, commissioning and
-> maintenance — across nine disciplines and 38 services. Integrating since 2007.
+> India. In-house delivery (design, supply, installation, commissioning and
+> maintenance) across nine disciplines and 38 services. Integrating since 2007.
 
 ## At a glance
 - Founded 2007; 16+ years integrating low-current systems in the Gulf.
@@ -319,21 +319,21 @@ llms = f"""# Datacore Solutions
 - Coverage in Saudi Arabia: Riyadh, Jeddah, Dammam / Eastern Province, NEOM and the Red Sea giga-projects.
 
 ## What sets Datacore apart
-- In-house delivery end to end — survey, design, supply, installation, commissioning and maintenance are all done by Datacore's own engineers, not subcontracted.
-- Built to standard — TIA-568 / ISO-IEC 11801 cabling, EN 54 voice evacuation, Saudi Building Code (SBC 801), SIRA and Civil-Defense-aligned security.
+- In-house delivery end to end: survey, design, supply, installation, commissioning and maintenance are all done by Datacore's own engineers, not subcontracted.
+- Built to standard: TIA-568 / ISO-IEC 11801 cabling, EN 54 voice evacuation, Saudi Building Code (SBC 801), SIRA and Civil-Defense-aligned security.
 - Manufacturer-certified engineers backed by in-house training; SLA-backed maintenance with resident engineers where required.
 - Bilingual (Arabic / English) team serving Vision 2030 smart-infrastructure programmes.
 
 ## Disciplines
-- Network infrastructure — structured cabling, fibre, IT networks, UPS, Wi-Fi, IP telephony
-- Datacentre — design & implementation, migration, assessment
-- Surveillance & security — access control, CCTV, parking, GRMS
-- Meeting rooms — video conferencing, booking, SOC/NOC, acoustics, boardrooms
-- Audio-visual — auditoriums, smart classrooms, control systems, professional audio and more
-- Signage & video walls — digital signage, indoor/outdoor LED, interactive walls
-- Public address & fire alarm — PAVA voice evacuation (EN 54), PAGA, fire alarm, BGM
+- Network infrastructure, structured cabling, fibre, IT networks, UPS, Wi-Fi, IP telephony
+- Datacentre, design & implementation, migration, assessment
+- Surveillance & security, access control, CCTV, parking, GRMS
+- Meeting rooms, video conferencing, booking, SOC/NOC, acoustics, boardrooms
+- Audio-visual, auditoriums, smart classrooms, control systems, professional audio and more
+- Signage & video walls, digital signage, indoor/outdoor LED, interactive walls
+- Public address & fire alarm, PAVA voice evacuation (EN 54), PAGA, fire alarm, BGM
 - IPTV & MATV
-- Maintenance & staffing — SLA-backed contracts, resident engineers
+- Maintenance & staffing, SLA-backed contracts, resident engineers
 
 ## Offices
 - Riyadh, Saudi Arabia (head office) — +966 11 512 8888
@@ -341,50 +341,50 @@ llms = f"""# Datacore Solutions
 - Kozhikode, India — +91 495 350 1154
 
 ## Key pages
-- {BASE}/services.html — all disciplines and services
-- {BASE}/products.html — product catalogue and quotation requests
-- {BASE}/projects.html — named project case studies
-- {BASE}/faq.html — frequently asked questions
-- {BASE}/glossary.html — plain-language definitions of ELV, AV & ICT terms
-- {BASE}/contact.html — enquiry form and office locations
+- {BASE}/services.html, all disciplines and services
+- {BASE}/products.html, product catalogue and quotation requests
+- {BASE}/projects.html, named project case studies
+- {BASE}/faq.html, frequently asked questions
+- {BASE}/glossary.html, plain-language definitions of ELV, AV & ICT terms
+- {BASE}/contact.html, enquiry form and office locations
 
 ## Case studies
-- {BASE}/project-owis.html — One World International School, Riyadh — AV, ICT & security for a new campus, one integrator
-- {BASE}/project-psau.html — Prince Sattam bin Abdulaziz University, Al-Kharj — campus-wide smart classrooms & auditorium
-- {BASE}/project-taqeem.html — TAQEEM (Saudi Authority for Accredited Valuers), Riyadh — HQ-wide AV standardisation
-- {BASE}/project-auditorium.html — Arab Open University, Riyadh — auditorium rebuilt around a direct-view LED wall
-- {BASE}/project-aou-council.html — Arab Open University, Riyadh — council-chamber AV modernisation
+- {BASE}/project-owis.html, One World International School, Riyadh, AV, ICT & security for a new campus, one integrator
+- {BASE}/project-psau.html, Prince Sattam bin Abdulaziz University, Al-Kharj, campus-wide smart classrooms & auditorium
+- {BASE}/project-taqeem.html, TAQEEM (Saudi Authority for Accredited Valuers), Riyadh, HQ-wide AV standardisation
+- {BASE}/project-auditorium.html, Arab Open University, Riyadh, auditorium rebuilt around a direct-view LED wall
+- {BASE}/project-aou-council.html, Arab Open University, Riyadh, council-chamber AV modernisation
 
 ## Insights (articles)
-- {BASE}/insight-what-is-a-public-address-system.html — public address vs. voice evacuation (PA/VA) and the EN 54 standards
-- {BASE}/insight-impact-of-5g-on-passive-networks.html — how 5G densification drives fibre counts, pathways and containment
-- {BASE}/insight-active-vs-passive-network-infrastructure.html — the active/passive split and why the passive layer is the one to get right
-- {BASE}/insight-structured-cabling-standards-explained.html — TIA-568, ISO/IEC 11801 and what Cat6A/OM4 actually mean
-- {BASE}/insight-single-mode-vs-multimode-fibre.html — choosing OS2 vs OM3/OM4 fibre for backbone and data-centre links
-- {BASE}/insight-data-centre-design-essentials.html — power, cooling, containment and DCIM for a Tier-rated build
-- {BASE}/insight-designing-cctv-for-coverage.html — how many cameras, placement and coverage planning
-- {BASE}/insight-choosing-an-elv-contractor-saudi-arabia.html — what to check before appointing an ELV/low-current contractor in KSA
-- {BASE}/insight-voice-evacuation-en54-sbc801.html — EN 54 vs the Saudi Building Code (SBC 801) for voice alarm
-- {BASE}/insight-led-video-wall-pixel-pitch.html — pixel pitch, viewing distance and choosing an indoor LED wall
-- {BASE}/insight-why-annual-maintenance-contracts-matter.html — what an ELV AMC covers and why it protects uptime
+- {BASE}/insight-what-is-a-public-address-system.html, public address vs. voice evacuation (PA/VA) and the EN 54 standards
+- {BASE}/insight-impact-of-5g-on-passive-networks.html, how 5G densification drives fibre counts, pathways and containment
+- {BASE}/insight-active-vs-passive-network-infrastructure.html, the active/passive split and why the passive layer is the one to get right
+- {BASE}/insight-structured-cabling-standards-explained.html, TIA-568, ISO/IEC 11801 and what Cat6A/OM4 actually mean
+- {BASE}/insight-single-mode-vs-multimode-fibre.html, choosing OS2 vs OM3/OM4 fibre for backbone and data-centre links
+- {BASE}/insight-data-centre-design-essentials.html, power, cooling, containment and DCIM for a Tier-rated build
+- {BASE}/insight-designing-cctv-for-coverage.html, how many cameras, placement and coverage planning
+- {BASE}/insight-choosing-an-elv-contractor-saudi-arabia.html, what to check before appointing an ELV/low-current contractor in KSA
+- {BASE}/insight-voice-evacuation-en54-sbc801.html, EN 54 vs the Saudi Building Code (SBC 801) for voice alarm
+- {BASE}/insight-led-video-wall-pixel-pitch.html, pixel pitch, viewing distance and choosing an indoor LED wall
+- {BASE}/insight-why-annual-maintenance-contracts-matter.html, what an ELV AMC covers and why it protects uptime
 
 ## Location & solution guides
-- {BASE}/elv-low-current-systems-saudi-arabia.html — ELV / low-current systems across Saudi Arabia
-- {BASE}/av-solutions-provider-saudi-arabia.html — audio-visual solutions provider in Saudi Arabia
-- {BASE}/av-network-integrator-saudi-arabia.html — combined AV + network integration in Saudi Arabia
-- {BASE}/network-solutions-provider-riyadh.html — network infrastructure solutions in Riyadh
-- {BASE}/structured-cabling-company-riyadh.html — structured cabling contractor in Riyadh
+- {BASE}/elv-low-current-systems-saudi-arabia.html, ELV / low-current systems across Saudi Arabia
+- {BASE}/av-solutions-provider-saudi-arabia.html, audio-visual solutions provider in Saudi Arabia
+- {BASE}/av-network-integrator-saudi-arabia.html, combined AV + network integration in Saudi Arabia
+- {BASE}/network-solutions-provider-riyadh.html, network infrastructure solutions in Riyadh
+- {BASE}/structured-cabling-company-riyadh.html, structured cabling contractor in Riyadh
 
 ## Selected clients
 NEOM, Saudi Central Bank (SAMA), King Abdullah Financial District (KAFD), STC, Riyad Bank, SABB, Bank Al Bilad, Mobily, Zain, Ma'aden, Marafiq, Al Tayyar Travels, Mawhiba Foundation, Prince Sattam bin Abdulaziz University, Arab Open University, Ministry of Communications and IT (MCIT), National Housing Company, Almarai, Landmark, Qiddiya.
 
-Datacore Solutions is a registered Saudi company — Commercial Registration (CR) 7002812043, VAT 311206394100003. Head office: Dabbab Complex, Riyadh, Saudi Arabia. Enquiries: sales@datacore.com.sa · +966 11 512 8888.
+Datacore Solutions is a registered Saudi company: Commercial Registration (CR) 7002812043, VAT 311206394100003. Head office: Dabbab Complex, Riyadh, Saudi Arabia. Enquiries: sales@datacore.com.sa · +966 11 512 8888.
 """
 open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8").write(llms)
 
 # humans.txt — the people/tech behind the site (a small professionalism signal)
 humans = f"""/* DATACORE SOLUTIONS */
-ELV / AV / ICT systems integrator — Saudi Arabia, UAE & India, since 2007.
+ELV / AV / ICT systems integrator: Saudi Arabia, UAE & India, since 2007.
 Site: {BASE}
 Enquiries: sales@datacore.com.sa
 

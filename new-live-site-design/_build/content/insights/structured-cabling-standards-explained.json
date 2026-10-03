@@ -7,7 +7,7 @@
   "title": "Structured Cabling Standards Explained: TIA-568 and ISO/IEC 11801",
   "date": "3 September 2026",
   "team": "Network team",
-  "dek": "What TIA-568 and ISO/IEC 11801 actually specify — categories and classes, permanent-link versus channel testing, and why headroom is the difference between passing today and passing in ten years.",
+  "dek": "What TIA-568 and ISO/IEC 11801 actually specify: categories and classes, permanent-link versus channel testing, and why headroom is the difference between passing today and passing in ten years.",
   "meta": "TIA-568 and ISO/IEC 11801 explained: cabling categories and classes, certification testing, and why headroom future-proofs a structured cabling backbone.",
   "blocks": [
    {
@@ -20,7 +20,7 @@
    },
    {
     "type": "p",
-    "text": "Both standards describe a generic cabling system — the topology, distances, connectors and performance a building should have regardless of the applications that will run over it. They define the familiar hierarchy of entrance facilities, equipment and telecommunications rooms, backbone and horizontal cabling, and work-area outlets. Crucially, they set the maximum channel length (100 metres for balanced twisted-pair horizontal cabling) and the performance every component must meet. TIA-568 and ISO/IEC 11801 are closely aligned, so a system designed correctly to one generally satisfies the other."
+    "text": "Both standards describe a generic cabling system: the topology, distances, connectors and performance a building should have regardless of the applications that will run over it. They define the familiar hierarchy of entrance facilities, equipment and telecommunications rooms, backbone and horizontal cabling, and work-area outlets. Crucially, they set the maximum channel length (100 metres for balanced twisted-pair horizontal cabling) and the performance every component must meet. TIA-568 and ISO/IEC 11801 are closely aligned, so a system designed correctly to one generally satisfies the other."
    },
    {
     "type": "h2",
@@ -28,7 +28,7 @@
    },
    {
     "type": "p",
-    "text": "This is where the two standards use different vocabulary for the same idea. TIA-568 rates copper cabling by Category — Cat 6, Cat 6A, Cat 8 — while ISO/IEC 11801 rates the whole channel by Class — Class E, Class EA, Class I/II. Each step up raises the supported bandwidth and the data rate the cabling can carry: Cat 6A / Class EA, for example, supports 10GBASE-T to the full 100 metres, which is why it has become the default for enterprise and campus horizontal cabling. Choosing a category is really choosing how long the cabling will stay ahead of the network."
+    "text": "This is where the two standards use different vocabulary for the same idea. TIA-568 rates copper cabling by Category, Cat 6, Cat 6A, Cat 8, while ISO/IEC 11801 rates the whole channel by Class, Class E, Class EA, Class I/II. Each step up raises the supported bandwidth and the data rate the cabling can carry: Cat 6A / Class EA, for example, supports 10GBASE-T to the full 100 metres, which is why it has become the default for enterprise and campus horizontal cabling. Choosing a category is really choosing how long the cabling will stay ahead of the network."
    },
    {
     "type": "h2",
@@ -36,11 +36,11 @@
    },
    {
     "type": "p",
-    "text": "A standard is only meaningful if the installed link is proven to meet it. That is the job of certification testing: a field tester measures parameters such as insertion loss, near-end crosstalk and return loss across either the permanent link or the full channel, then passes or fails each run against the category's limits. The margin between the measured value and the limit is the headroom — and headroom is what absorbs future connectors, patch cords, heat and simple ageing. A link that only just passes today is a link that will fail as the building fills up. Insisting on documented, certified results is how you turn a standard on paper into a warranty you can rely on."
+    "text": "A standard is only meaningful if the installed link is proven to meet it. That is the job of certification testing: a field tester measures parameters such as insertion loss, near-end crosstalk and return loss across either the permanent link or the full channel, then passes or fails each run against the category's limits. The margin between the measured value and the limit is the headroom, and headroom is what absorbs future connectors, patch cords, heat and simple ageing. A link that only just passes today is a link that will fail as the building fills up. Insisting on documented, certified results is how you turn a standard on paper into a warranty you can rely on."
    },
    {
     "type": "p",
-    "text": "Datacore designs and certifies structured cabling to TIA-568 and ISO/IEC 11801, handing over the full test record so performance is documented rather than assumed — work we have delivered for more than 1,500 clients across the Kingdom and beyond. If you want a cabling backbone specified with real headroom for the next decade, our team is ready to help you get the category and the testing right from the outset."
+    "text": "Datacore designs and certifies structured cabling to TIA-568 and ISO/IEC 11801, handing over the full test record so performance is documented rather than assumed: work we have delivered for more than 1,500 clients across the Kingdom and beyond. If you want a cabling backbone specified with real headroom for the next decade, our team is ready to help you get the category and the testing right from the outset."
    }
   ],
   "related": [
@@ -76,7 +76,7 @@
   "title": "شرح معايير الكابلات المنظّمة: TIA-568 وISO/IEC 11801",
   "date": "3 سبتمبر 2026",
   "team": "فريق الشبكات",
-  "dek": "ما الذي يحدّده فعلًا معيارا TIA-568 وISO/IEC 11801 — الفئات والدرجات، واختبار الوصلة الدائمة مقابل القناة، ولماذا يمثّل الهامش الفرق بين النجاح اليوم والنجاح بعد عشر سنوات.",
+  "dek": "ما الذي يحدّده فعلًا معيارا TIA-568 وISO/IEC 11801: الفئات والدرجات، واختبار الوصلة الدائمة مقابل القناة، ولماذا يمثّل الهامش الفرق بين النجاح اليوم والنجاح بعد عشر سنوات.",
   "meta": "شرح TIA-568 وISO/IEC 11801: فئات ودرجات الكابلات، واختبار الاعتماد، ولماذا يجعل الهامش البنية الأساسية للكابلات المنظّمة جاهزة للمستقبل.",
   "blocks": [
    {
@@ -89,7 +89,7 @@
    },
    {
     "type": "p",
-    "text": "يصف كلا المعيارين نظام كابلات عامًّا — الطوبولوجيا والمسافات والموصّلات والأداء الذي ينبغي أن يتوفّر في المبنى بصرف النظر عن التطبيقات التي ستعمل عليه. وهما يحدّدان التسلسل المألوف من مرافق الدخول وغرف المعدّات والاتصالات، والكابلات الرأسية والأفقية، ومنافذ منطقة العمل. والأهم أنهما يضبطان أقصى طول للقناة (100 متر للكابلات الأفقية المجدولة المتوازنة) والأداء الذي يجب أن يستوفيه كل مكوّن. ومعيارا TIA-568 وISO/IEC 11801 متوائمان إلى حد كبير، بحيث إن النظام المُصمَّم بشكل صحيح وفق أحدهما يستوفي الآخر عمومًا."
+    "text": "يصف كلا المعيارين نظام كابلات عامًّا: الطوبولوجيا والمسافات والموصّلات والأداء الذي ينبغي أن يتوفّر في المبنى بصرف النظر عن التطبيقات التي ستعمل عليه. وهما يحدّدان التسلسل المألوف من مرافق الدخول وغرف المعدّات والاتصالات، والكابلات الرأسية والأفقية، ومنافذ منطقة العمل. والأهم أنهما يضبطان أقصى طول للقناة (100 متر للكابلات الأفقية المجدولة المتوازنة) والأداء الذي يجب أن يستوفيه كل مكوّن. ومعيارا TIA-568 وISO/IEC 11801 متوائمان إلى حد كبير، بحيث إن النظام المُصمَّم بشكل صحيح وفق أحدهما يستوفي الآخر عمومًا."
    },
    {
     "type": "h2",
@@ -97,7 +97,7 @@
    },
    {
     "type": "p",
-    "text": "هنا يستخدم المعياران مفردات مختلفة للفكرة نفسها. فمعيار TIA-568 يصنّف الكابلات النحاسية حسب الفئة (Category) — Cat 6 وCat 6A وCat 8 — بينما يصنّف ISO/IEC 11801 القناة بأكملها حسب الدرجة (Class) — Class E وClass EA وClass I/II. وكل درجة أعلى ترفع عرض النطاق المدعوم ومعدّل البيانات الذي تحمله الكابلات: فمثلًا Cat 6A / Class EA يدعم 10GBASE-T على كامل مسافة 100 متر، ولهذا أصبح الخيار الافتراضي للكابلات الأفقية في المؤسسات والحرم الجامعي. واختيار الفئة هو في حقيقته اختيار للمدة التي ستبقى فيها الكابلات متقدّمة على الشبكة."
+    "text": "هنا يستخدم المعياران مفردات مختلفة للفكرة نفسها. فمعيار TIA-568 يصنّف الكابلات النحاسية حسب الفئة (Category)، Cat 6 وCat 6A وCat 8، بينما يصنّف ISO/IEC 11801 القناة بأكملها حسب الدرجة (Class)، Class E وClass EA وClass I/II. وكل درجة أعلى ترفع عرض النطاق المدعوم ومعدّل البيانات الذي تحمله الكابلات: فمثلًا Cat 6A / Class EA يدعم 10GBASE-T على كامل مسافة 100 متر، ولهذا أصبح الخيار الافتراضي للكابلات الأفقية في المؤسسات والحرم الجامعي. واختيار الفئة هو في حقيقته اختيار للمدة التي ستبقى فيها الكابلات متقدّمة على الشبكة."
    },
    {
     "type": "h2",
@@ -105,11 +105,11 @@
    },
    {
     "type": "p",
-    "text": "لا يكون للمعيار معنى إلا إذا ثبت أن الوصلة المركّبة تستوفيه. وهذه هي وظيفة اختبار الاعتماد: يقيس جهاز اختبار ميداني معاملات مثل فقد الإدخال والتداخل القريب من الطرف وفقد الارتداد عبر الوصلة الدائمة أو القناة الكاملة، ثم ينجح أو يفشل كل مسار مقابل حدود الفئة. والفارق بين القيمة المقيسة والحدّ هو الهامش (headroom) — والهامش هو ما يستوعب الموصّلات وكابلات التوصيل والحرارة والتقادم مستقبلًا. فالوصلة التي تنجح بالكاد اليوم هي وصلة ستفشل مع امتلاء المبنى. والإصرار على نتائج موثّقة ومعتمَدة هو ما يحوّل المعيار من ورقة إلى ضمان يمكنك الاعتماد عليه."
+    "text": "لا يكون للمعيار معنى إلا إذا ثبت أن الوصلة المركّبة تستوفيه. وهذه هي وظيفة اختبار الاعتماد: يقيس جهاز اختبار ميداني معاملات مثل فقد الإدخال والتداخل القريب من الطرف وفقد الارتداد عبر الوصلة الدائمة أو القناة الكاملة، ثم ينجح أو يفشل كل مسار مقابل حدود الفئة. والفارق بين القيمة المقيسة والحدّ هو الهامش (headroom)، والهامش هو ما يستوعب الموصّلات وكابلات التوصيل والحرارة والتقادم مستقبلًا. فالوصلة التي تنجح بالكاد اليوم هي وصلة ستفشل مع امتلاء المبنى. والإصرار على نتائج موثّقة ومعتمَدة هو ما يحوّل المعيار من ورقة إلى ضمان يمكنك الاعتماد عليه."
    },
    {
     "type": "p",
-    "text": "تصمّم داتاكور الكابلات المنظّمة وتعتمدها وفق TIA-568 وISO/IEC 11801، وتسلّم سجل الاختبار الكامل بحيث يكون الأداء موثّقًا لا مفترضًا — وهو عمل قدّمناه لأكثر من 1500 عميل داخل المملكة وخارجها. إن أردت بنية أساسية للكابلات محدّدة بهامش حقيقي للعقد القادم، فإن فريقنا مستعدّ لمساعدتك على ضبط الفئة والاختبار من البداية."
+    "text": "تصمّم داتاكور الكابلات المنظّمة وتعتمدها وفق TIA-568 وISO/IEC 11801، وتسلّم سجل الاختبار الكامل بحيث يكون الأداء موثّقًا لا مفترضًا، وهو عمل قدّمناه لأكثر من 1500 عميل داخل المملكة وخارجها. إن أردت بنية أساسية للكابلات محدّدة بهامش حقيقي للعقد القادم، فإن فريقنا مستعدّ لمساعدتك على ضبط الفئة والاختبار من البداية."
    }
   ],
   "related": [
