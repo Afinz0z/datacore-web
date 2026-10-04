@@ -66,8 +66,8 @@ for the architecture, the build and the deploy.
   glows, frosted-glass blur, extra shadows or hover animations.
 - Put `<style>` blocks and stylesheet links in `<head>`, never in the body: a stylesheet in
   the body repaints everything above it and shifts the layout.
-- Third-party content waits for the visitor: Google Tag Manager loads after cookie consent
-  (`dc-consent.js`) and the contact-page map loads when the visitor clicks "Show the map".
+- Third-party content never holds up the page: Google Tag Manager loads only after cookie
+  consent (`dc-consent.js`), and the contact-page map is added once the page has loaded.
   The privacy pages describe both, so change them together.
 
 ## Operational notes

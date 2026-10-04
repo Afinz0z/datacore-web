@@ -45,8 +45,9 @@ LEGAL = {
       "on this site."]),
     ("How we use it", ["We use those details only to answer your enquiry and to prepare a quotation or a site "
       "survey. We do not sell your data."]),
-    ("Analytics & third parties", ["The live pages use Google Tag Manager and a tawk.to chat widget, which set "
-      "their own cookies when they load. The office map loads from Google only when you choose to load it."]),
+    ("Analytics & third parties", ["Google Tag Manager, which runs our analytics, loads only after you accept cookies, "
+      "and then sets its own cookies. The contact page shows an office map from Google Maps, which loads "
+      "from Google when you open that page; Google's privacy policy applies to it."]),
     ("Retention", ["We keep enquiry correspondence for as long as needed to serve the request and to meet our "
       "record-keeping obligations."]),
     ("Your choices", ["You can ask us what we hold about you, or ask us to delete it, through the contact page."]),
@@ -56,8 +57,9 @@ LEGAL = {
       "الإلكتروني ورقم الجوال ورسالتك. ولا نطلب بيانات دفع أو هوية على هذا الموقع."]),
     ("كيف نستخدمها", ["نستخدم هذه البيانات فقط للرد على استفسارك ولإعداد عرض سعر أو زيارة ومسح للموقع. ولا نبيع "
       "بياناتك."]),
-    ("التحليلات والأطراف الثالثة", ["تستخدم الصفحات الحية Google Tag Manager وأداة محادثة tawk.to، وتضع كلٌّ منها "
-      "ملفات تعريف ارتباط خاصة بها عند تحميلها. وتُحمَّل خريطة المكاتب من جوجل عند اختيارك تحميلها فقط."]),
+    ("التحليلات والأطراف الثالثة", ["لا يُحمَّل Google Tag Manager، الذي يشغّل أدوات التحليل لدينا، إلا بعد موافقتك على ملفات "
+      "تعريف الارتباط، ويضع عندها ملفات خاصة به. وتعرض صفحة التواصل خريطة لمكاتبنا من خرائط Google، "
+      "تُحمَّل من Google عند فتح تلك الصفحة، وتنطبق عليها سياسة الخصوصية الخاصة بـ Google."]),
     ("الاحتفاظ", ["نحتفظ بمراسلات الاستفسار للمدة اللازمة لخدمة الطلب والوفاء بالتزاماتنا في حفظ السجلات."]),
     ("خياراتك", ["يمكنك أن تسألنا عمّا نحتفظ به عنك، أو أن تطلب حذفه، عبر صفحة التواصل."]),
   ]),

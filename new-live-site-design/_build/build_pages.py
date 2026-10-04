@@ -160,7 +160,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "59"
+VER = "60"
 # Calmer styling (dc-calm.css) is piloted on these pages until the client decides.
 CALM_PILOT = {'projects'}
 
@@ -1076,19 +1076,17 @@ def build_contact(ar):
                    for i,t in enumerate(s['map_tabs']))
     types = ''.join(f'<option>{esc(t)}</option>' for t in s['c_types'])
     # Riyadh gets verified coordinates for a precise pin; the others use an
-    # address query. The map is a Google embed, so it loads only when the visitor
-    # asks for it (as the privacy page says), then follows the selected office.
+    # address query. The Google embed is added once the page itself has loaded, so
+    # its ~600 KB never holds up the first paint, then follows the selected office.
     map_val = ['24.6675676,46.7045394', MAP_Q[1], MAP_Q[2]]
     map_src = ['https://www.google.com/maps?q=' + v + '&output=embed' for v in map_val]
     map_dir = ['https://www.google.com/maps/search/?api=1&query=' + q for q in MAP_Q]
     map_cap = [f'{o[2]}, {o[3]}' for o in s['offices']]
-    map_note = esc(s['map_note']).replace('Google', '<span dir="ltr">Google</span>') if ar else esc(s['map_note'])
     geo = (f'<section class="dcp-sec"><div class="dcp-wrap">'
            f'<div class="dcp-head"><h2>{esc(s["c_offices_h"])}</h2></div>'
            f'<div class="dcp-geo"><div class="dcp-offices-list" id="dcp-offices">{offices}</div>'
            f'<div class="dcp-map-col"><div class="dcp-tabs" id="dcp-mtabs">{tabs}</div>'
-           f'<div class="dcp-map" id="dcp-map"><div class="dcp-map-off"><p>{map_note}</p>'
-           f'<button type="button" class="dcp-btn" id="dcp-mapload">{esc(s["map_load"])}</button></div></div>'
+           f'<div class="dcp-map" id="dcp-map"><div class="dcp-map-off"><p>{esc(s["map_loading"])}</p></div></div>'
            f'<p class="dcp-mapcap"><span id="dcp-mapcap">{esc(map_cap[0])}</span> &middot; '
            f'<a id="dcp-mapdir" href="{map_dir[0]}" target="_blank" rel="noopener">{esc(s["directions"])}</a></p>'
            f'</div></div></div></section>')
@@ -1132,11 +1130,19 @@ def build_contact(ar):
   var offs=document.querySelectorAll('#dcp-offices .dcp-office');
   var tabs=document.querySelectorAll('#dcp-mtabs button');
   var map=document.getElementById('dcp-map'), cur=0;
-  document.getElementById('dcp-mapload').addEventListener('click',function(){{
+  function showMap(){{
+    if(map.querySelector('iframe'))return;
     var fr=document.createElement('iframe');
     fr.title=TITLE;fr.src=SRC[cur];fr.referrerPolicy='no-referrer-when-downgrade';fr.allowFullscreen=true;
     map.innerHTML='';map.appendChild(fr);
-  }});
+  }}
+  // after the page has loaded; a prerendered page waits until the visitor actually opens it
+  function whenShown(){{
+    if(document.prerendering)document.addEventListener('prerenderingchange',showMap,{{once:true}});
+    else showMap();
+  }}
+  if(document.readyState==='complete')whenShown();
+  else window.addEventListener('load',whenShown);
   function pick(i){{
     cur=i;
     offs.forEach(function(o,j){{var on=j===i;o.classList.toggle('on',on);o.setAttribute('aria-pressed',String(on));}});
