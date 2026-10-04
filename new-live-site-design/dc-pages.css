@@ -134,7 +134,7 @@ html[dir=rtl] .dcp-office.on{box-shadow:inset -3px 0 0 var(--dcp-teal)}
 .dcp-map{position:relative;margin-top:22px;border:1px solid var(--dcp-line);border-radius:6px;overflow:hidden;
   aspect-ratio:16/10;background:var(--dcp-soft)}
 .dcp-map iframe{width:100%;height:100%;border:0;display:block}
-/* the Google map is added after the page has loaded; until then the box holds a short note (same size, so nothing moves) */
+/* the Google map is added after the page has loaded, as it nears the screen; until then the box holds a short note (same size, so nothing moves) */
 .dcp-map-off{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
   gap:16px;padding:24px;text-align:center}
 .dcp-map-off p{max-width:34ch;color:var(--dcp-ink2);font-size:.95rem;line-height:1.5}

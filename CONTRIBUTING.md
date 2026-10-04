@@ -67,7 +67,8 @@ for the architecture, the build and the deploy.
 - Put `<style>` blocks and stylesheet links in `<head>`, never in the body: a stylesheet in
   the body repaints everything above it and shifts the layout.
 - Third-party content never holds up the page: Google Tag Manager loads only after cookie
-  consent (`dc-consent.js`), and the contact-page map is added once the page has loaded.
+  consent (`dc-consent.js`), and the contact-page map is added once the page has loaded and
+  the map is near the screen.
   The privacy pages describe both, so change them together.
 
 ## Operational notes

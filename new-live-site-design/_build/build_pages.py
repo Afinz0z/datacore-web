@@ -1076,8 +1076,9 @@ def build_contact(ar):
                    for i,t in enumerate(s['map_tabs']))
     types = ''.join(f'<option>{esc(t)}</option>' for t in s['c_types'])
     # Riyadh gets verified coordinates for a precise pin; the others use an
-    # address query. The Google embed is added once the page itself has loaded, so
-    # its ~600 KB never holds up the first paint, then follows the selected office.
+    # address query. The Google embed is added once the page itself has loaded and the
+    # map is near the screen, so its ~600 KB never holds up the page, then follows the
+    # selected office.
     map_val = ['24.6675676,46.7045394', MAP_Q[1], MAP_Q[2]]
     map_src = ['https://www.google.com/maps?q=' + v + '&output=embed' for v in map_val]
     map_dir = ['https://www.google.com/maps/search/?api=1&query=' + q for q in MAP_Q]
@@ -1136,10 +1137,18 @@ def build_contact(ar):
     fr.title=TITLE;fr.src=SRC[cur];fr.referrerPolicy='no-referrer-when-downgrade';fr.allowFullscreen=true;
     map.innerHTML='';map.appendChild(fr);
   }}
-  // after the page has loaded; a prerendered page waits until the visitor actually opens it
+  // after the page has loaded, once the map is on or near the screen (a prerendered page waits
+  // until the visitor actually opens it): Google's map code never competes with the page itself
+  function watch(){{
+    if(!('IntersectionObserver' in window)){{showMap();return;}}
+    var io=new IntersectionObserver(function(es){{
+      if(es.some(function(e){{return e.isIntersecting;}})){{io.disconnect();showMap();}}
+    }},{{rootMargin:'200px 0px'}});
+    io.observe(map);
+  }}
   function whenShown(){{
-    if(document.prerendering)document.addEventListener('prerenderingchange',showMap,{{once:true}});
-    else showMap();
+    if(document.prerendering)document.addEventListener('prerenderingchange',watch,{{once:true}});
+    else watch();
   }}
   if(document.readyState==='complete')whenShown();
   else window.addEventListener('load',whenShown);

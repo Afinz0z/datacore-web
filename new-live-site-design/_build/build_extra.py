@@ -47,7 +47,7 @@ LEGAL = {
       "survey. We do not sell your data."]),
     ("Analytics & third parties", ["Google Tag Manager, which runs our analytics, loads only after you accept cookies, "
       "and then sets its own cookies. The contact page shows an office map from Google Maps, which loads "
-      "from Google when you open that page; Google's privacy policy applies to it."]),
+      "from Google by itself while you are on that page; Google's privacy policy applies to it."]),
     ("Retention", ["We keep enquiry correspondence for as long as needed to serve the request and to meet our "
       "record-keeping obligations."]),
     ("Your choices", ["You can ask us what we hold about you, or ask us to delete it, through the contact page."]),
@@ -59,7 +59,7 @@ LEGAL = {
       "بياناتك."]),
     ("التحليلات والأطراف الثالثة", ["لا يُحمَّل Google Tag Manager، الذي يشغّل أدوات التحليل لدينا، إلا بعد موافقتك على ملفات "
       "تعريف الارتباط، ويضع عندها ملفات خاصة به. وتعرض صفحة التواصل خريطة لمكاتبنا من خرائط Google، "
-      "تُحمَّل من Google عند فتح تلك الصفحة، وتنطبق عليها سياسة الخصوصية الخاصة بـ Google."]),
+      "تُحمَّل من Google تلقائياً أثناء تصفّحك تلك الصفحة، وتنطبق عليها سياسة الخصوصية الخاصة بـ Google."]),
     ("الاحتفاظ", ["نحتفظ بمراسلات الاستفسار للمدة اللازمة لخدمة الطلب والوفاء بالتزاماتنا في حفظ السجلات."]),
     ("خياراتك", ["يمكنك أن تسألنا عمّا نحتفظ به عنك، أو أن تطلب حذفه، عبر صفحة التواصل."]),
   ]),
