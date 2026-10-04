@@ -263,7 +263,7 @@
     var gv = function (id) { var el = document.getElementById(id); return el ? el.value : ''; };
     var fd = { name: gv('r-name'), company: gv('r-co'), email: gv('r-mail'),
                phone: gv('r-tel'), notes: gv('r-msg'), reference: ref, products: '\n' + items };
-    var subj = (AR ? 'طلب عرض سعر من الموقع' : 'Product request (RFQ) from the website') + ' — ' + (fd.name || '');
+    var subj = (AR ? 'طلب عرض سعر من الموقع' : 'Product request (RFQ) from the website') + ': ' + (fd.name || '');
     var btn = form.querySelector('button[type=submit]'); if (btn) { btn.disabled = true; }
     // deliver via the shared helper (POST to the inbox if a key is set, else open the visitor's email)
     (window.dcpDeliver ? window.dcpDeliver(fd, subj) : Promise.resolve()).then(function () {

@@ -126,7 +126,7 @@ def build_404(ar):
 
 CAREERS = {
  "en": ("Careers", "Build low-current systems that run real buildings.",
-   "We hire engineers and technicians across Saudi Arabia, the UAE and India: people who install to "
+   "We hire engineers and technicians in Saudi Arabia, the UAE and India: people who install to "
    "standard, trained by the manufacturers whose systems they deploy.",
    [("Who we look for", ["Network, audio-visual, security, public-address and datacentre specialists, in "
        "both field and design roles.",

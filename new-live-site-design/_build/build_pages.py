@@ -160,7 +160,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "58"
+VER = "59"
 # Calmer styling (dc-calm.css) is piloted on these pages until the client decides.
 CALM_PILOT = {'projects'}
 
@@ -232,15 +232,15 @@ def site_jsonld(ar):
          "sameAs": ["https://www.linkedin.com/company/datacore-solutions",
                     "https://www.instagram.com/datacore_sa",
                     "https://www.facebook.com/www.datacore.com.sa"]},
-        {"@type": "LocalBusiness", "@id": SITE + "/#riyadh", "name": "Datacore Solutions: Riyadh",
+        {"@type": "LocalBusiness", "@id": SITE + "/#riyadh", "name": "Datacore Solutions (Riyadh)",
          "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+966115128888", "email": "sales@datacore.com.sa",
          "address": {"@type": "PostalAddress", "streetAddress": "Office 503, Dabbab Complex, Dabbab St.",
                      "addressLocality": "Riyadh", "postalCode": "12626", "addressCountry": "SA"},
          "geo": {"@type": "GeoCoordinates", "latitude": 24.6675676, "longitude": 46.7045394}},
-        {"@type": "LocalBusiness", "@id": SITE + "/#dubai", "name": "Datacore Solutions: Dubai",
+        {"@type": "LocalBusiness", "@id": SITE + "/#dubai", "name": "Datacore Solutions (Dubai)",
          "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+971527536070",
          "address": {"@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE"}},
-        {"@type": "LocalBusiness", "@id": SITE + "/#kozhikode", "name": "Datacore Solutions: Kozhikode",
+        {"@type": "LocalBusiness", "@id": SITE + "/#kozhikode", "name": "Datacore Solutions (Kozhikode)",
          "parentOrganization": {"@id": SITE + "/#org"}, "telephone": "+914953501154",
          "address": {"@type": "PostalAddress", "streetAddress": "Government Cyberpark", "addressLocality": "Kozhikode",
                      "addressRegion": "Kerala", "postalCode": "673016", "addressCountry": "IN"}},
@@ -509,8 +509,7 @@ def selected_section(ar):
         for cl, se_e, se_a, sc_e, sc_a in SELECTED)
     roster = ''.join(f'<span>{ltr(c)}</span>' for c in CLIENT_ROSTER)
     rhead = 'يثقون بنا' if ar else 'Trusted by'
-    return (SELECTED_CSS
-        + f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+    return (f'<section class="dcp-sec alt"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
           f'<h2>{esc(head)}</h2><p>{esc(sub)}</p></div>'
           f'<div class="dcp-spgrid">{cards}</div>'
           f'<div class="dcp-roster"><h3>{esc(rhead)}</h3><div class="dcp-roster-names">{roster}</div></div>'
@@ -611,7 +610,7 @@ def references_section(ar):
         rows = ''.join(f'<li><span class="rc">{ltr(cl)}</span>'
                        + (f'<span class="ry">{esc(yr)}</span>' if yr else '') + '</li>' for cl, yr in items)
         blocks += f'<div class="dcp-refcat"><h3>{esc(ca if ar else ce)}</h3><ul>{rows}</ul></div>'
-    return (REF_CSS + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
+    return (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
             f'<h2>{esc(head)}</h2><p>{esc(sub)}</p></div><div class="dcp-refgrid">{blocks}</div></div></section>')
 
 def photo_attrs(path, sizes):
@@ -700,7 +699,7 @@ def build_projects(ar):
              f'</div>'
              f'</div></div></section>')
     body = (
-      PROJ_FILTER_CSS + phero
+      phero
       + stats_marquee(ar)
       + approach_section(ar)
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-projs" id="dcp-projgrid">{cards}'
@@ -714,7 +713,8 @@ def build_projects(ar):
         f'<h2>{esc(s["pj_feat_h"])}</h2></div><div class="dcp-featgrid">{feat}</div></div></section>'
       + cta_band(ar) + footer(ar) + PROJ_FILTER_JS)
     title = ('مشاريعنا | داتاكور للحلول' if ar else 'Projects | Datacore Solutions')
-    return shell(ar, 'projects', title, s['pj_lede'], body)
+    return shell(ar, 'projects', title, s.get('pj_desc', s['pj_lede']), body,
+                 extra_head=PROJ_FILTER_CSS + SELECTED_CSS + REF_CSS)
 
 # ── CASE-STUDY DETAIL PAGES ───────────────────────────────────────────────
 def build_case(slug, ar):
@@ -777,7 +777,7 @@ def build_case(slug, ar):
                     + '</div></section>')
     body = hero + photo + body_sec + gal + _related + cta_band(ar) + footer(ar)
     schema = {"@context": "https://schema.org", "@type": "CreativeWork", "name": c["name"],
-              "about": c.get("client"), "creator": {"@id": SITE + "/#org"},
+              "about": c.get("client"), "creator": {"@id": SITE + "/#org"}, "author": {"@id": SITE + "/#org"},
               "publisher": {"@id": SITE + "/#org"},
               "image": SITE + "/" + C["img"], "inLanguage": lang}
     if c.get("date_iso"): schema["datePublished"] = c["date_iso"]
@@ -869,7 +869,7 @@ def build_insights(ar):
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-posts">{cards}</div></div></section>'
       + cta_band(ar) + footer(ar))
     title = ('ملاحظات تقنية | داتاكور للحلول' if ar else 'Technical notes | Datacore Solutions')
-    return shell(ar, 'insights', title, s['i_lede'], body)
+    return shell(ar, 'insights', title, s.get('i_desc', s['i_lede']), body)
 
 # ── INSIGHT ARTICLE (per-post detail page) ──────────────────────────────────
 POST_CSS = ('<style>'

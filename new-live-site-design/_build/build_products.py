@@ -32,7 +32,11 @@ GLYPHS = json.load(open(os.path.join(DATA, "glyphs.json"), encoding="utf-8"))
 # real product photos live at assets1/images/products/<sku>.<ext>; filenames
 # sanitise "/" and spaces. Build sku -> local path (glyph fallback if absent).
 _PDIR = os.path.join(ROOT, "assets1", "images", "products")
-_PFILES = {os.path.splitext(f)[0]: f for f in os.listdir(_PDIR)} if os.path.isdir(_PDIR) else {}
+_PFILES = {}
+for _f in (sorted(os.listdir(_PDIR)) if os.path.isdir(_PDIR) else []):
+    _k, _ext = os.path.splitext(_f)
+    if _k not in _PFILES or _ext.lower() == '.webp':   # prefer the WebP when both exist
+        _PFILES[_k] = _f
 def _photo(sku):
     for k in (sku, sku.replace('/', '_'), sku.replace(' ', '-'),
               sku.replace('/', '_').replace(' ', '-'), sku.replace(' ', '')):

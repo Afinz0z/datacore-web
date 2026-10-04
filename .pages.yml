@@ -20,7 +20,7 @@ content:
     fields:
       - { name: slug, label: Slug (URL id — lowercase-with-hyphens; page = insight-<slug>.html), type: string, required: true }
       - { name: order, label: Order (lower shows first on the hub), type: number, default: 99 }
-      - { name: img, label: Card / hero image, type: image }
+      - { name: img, label: Card / hero image (WebP), type: image }
       - { name: iso, label: Date for search engines (ISO, e.g. 2026-09-16), type: date }
       - name: en
         label: English
@@ -30,7 +30,7 @@ content:
           - { name: date, label: Date shown to readers (e.g. 16 September 2026), type: string }
           - { name: team, label: Byline (e.g. Systems team), type: string }
           - { name: dek, label: Summary / standfirst, type: text }
-          - { name: meta, label: SEO meta description, type: text }
+          - { name: meta, label: "SEO meta description (100-160 characters, plain punctuation, no em dashes)", type: text }
           - name: blocks
             label: Body
             type: object
@@ -60,7 +60,7 @@ content:
           - { name: date, label: التاريخ / Date (display), type: string }
           - { name: team, label: الفريق / Byline, type: string }
           - { name: dek, label: الملخص / Summary, type: text }
-          - { name: meta, label: وصف محرّكات البحث / SEO meta, type: text }
+          - { name: meta, label: "وصف محرّكات البحث / SEO meta (100-160 characters)", type: text }
           - name: blocks
             label: المحتوى / Body
             type: object
@@ -95,7 +95,7 @@ content:
     fields:
       - { name: slug, label: Slug (URL id — page = project-<slug>.html), type: string, required: true }
       - { name: order, label: Order, type: number, default: 99 }
-      - { name: img, label: Hero image, type: image }
+      - { name: img, label: Hero image (WebP), type: image }
       - name: en
         label: English
         type: object
@@ -121,7 +121,7 @@ content:
             type: object
             list: true
             fields:
-              - { name: img, label: Photo, type: image }
+              - { name: img, label: Photo (WebP), type: image }
               - { name: cap, label: Caption, type: string }
       - name: ar
         label: العربية / Arabic (first draft — needs native review)
@@ -148,7 +148,7 @@ content:
             type: object
             list: true
             fields:
-              - { name: img, label: الصورة / Photo, type: image }
+              - { name: img, label: الصورة / Photo (WebP), type: image }
               - { name: cap, label: التعليق / Caption, type: string }
 
   # ─────────────────────────── SHOWCASE PROJECTS (card only, no case study) ───────────────────────────
@@ -163,7 +163,7 @@ content:
     fields:
       - { name: slug, label: Slug (URL id — lowercase-with-hyphens), type: string, required: true }
       - { name: order, label: Order (lower shows first; leave gaps so you can insert between), type: number, default: 99 }
-      - { name: img, label: Card image, type: image }
+      - { name: img, label: Card image (WebP), type: image }
       - name: disc
         label: Disciplines (drives the projects filter)
         type: select

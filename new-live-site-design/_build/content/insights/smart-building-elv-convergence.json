@@ -8,7 +8,7 @@
   "date": "18 June 2026",
   "team": "Systems team",
   "dek": "How network, security, AV, BMS and lighting are collapsing onto one IP backbone, and why that changes how buildings are designed, run and future-proofed.",
-  "meta": "A practical guide to ELV convergence in smart buildings: one IP backbone for network, security, AV, HVAC and lighting, built to standard for Vision 2030 projects.",
+  "meta": "A guide to ELV convergence in smart buildings: one IP backbone for network, security, AV, HVAC and lighting, built to standard for Vision 2030 projects.",
   "blocks": [
    {
     "type": "p",
@@ -20,7 +20,7 @@
    },
    {
     "type": "p",
-    "text": "Convergence is possible because almost every ELV device now speaks IP. Cameras stream over the network, door controllers sit on PoE switches, AV signals travel as AV-over-IP flows, lighting gateways expose BACnet/IP, and building management platforms pull telemetry over the same fabric. Consolidating these onto one structured cabling system designed to TIA-568 and ISO/IEC 11801 cuts duplicated infrastructure, simplifies pathways and containment, and gives facilities a single place to see what the building is doing. It also means capacity, redundancy and cybersecurity can be planned once, holistically, rather than patched into many parallel networks."
+    "text": "Convergence is possible because almost every ELV device now speaks IP. Cameras stream over the network, door controllers sit on PoE switches, AV signals travel as AV-over-IP flows, lighting gateways expose BACnet/IP, and building management platforms pull telemetry over the same fabric. Consolidating these onto one structured cabling system designed to TIA-568 and ISO/IEC 11801 cuts duplicated infrastructure, simplifies pathways and containment, and gives facilities a single place to see what the building is doing. It also means capacity, redundancy and cybersecurity can be planned once, for the whole building, rather than patched into many parallel networks."
    },
    {
     "type": "h2",
