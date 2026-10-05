@@ -214,17 +214,22 @@
     });
     var nv = document.getElementById('mainnav');
     var bg = hdr.querySelector('.burger');
-    bg.addEventListener('click', function () {
-      var open = nv.classList.toggle('open');
+    // one place sets the menu state: the menu, the button, and the page lock behind it
+    function setMenu(open) {
+      nv.classList.toggle('open', open);
       bg.setAttribute('aria-expanded', String(open));
-    });
+      document.documentElement.classList.toggle('dcx-menu-open', open);
+    }
+    bg.addEventListener('click', function () { setMenu(!nv.classList.contains('open')); });
     nv.addEventListener('click', function (ev) {
-      if (ev.target.closest('a') && nv.classList.contains('open')) {
-        nv.classList.remove('open'); bg.setAttribute('aria-expanded', 'false');
-      }
+      if (ev.target.closest('a') && nv.classList.contains('open')) setMenu(false);
     });
-    matchMedia('(min-width:901px)').addEventListener('change', function (m) {
-      if (m.matches) { nv.classList.remove('open'); bg.setAttribute('aria-expanded', 'false'); }
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && nv.classList.contains('open')) { setMenu(false); bg.focus(); }
+    });
+    // the burger shows up to 1200px (dc-overlay.css); wider screens get the desktop menu
+    matchMedia('(min-width:1201px)').addEventListener('change', function (m) {
+      if (m.matches) setMenu(false);
     });
 
     buildExtras();

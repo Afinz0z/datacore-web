@@ -121,11 +121,15 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
 @media(max-width:1200px){
   #dcx-hdr .mainnav,#dcx-hdr .btn-p{display:none}
   #dcx-hdr .burger{display:block;margin-inline-start:auto}
+  /* the open menu hangs from the header's bottom edge whatever its height (it condenses on
+     scroll), fits the visible screen (dvh allows for phone toolbars) and keeps its own scroll */
   #dcx-hdr .mainnav.open{display:flex;flex-direction:column;align-items:stretch;
-    position:absolute;top:76px;inset-inline:0;background:var(--surface);
+    position:absolute;top:100%;inset-inline:0;background:var(--surface);
     border-bottom:1px solid var(--line);box-shadow:0 20px 32px -20px rgba(0,0,0,.35);
     padding:10px clamp(20px,5vw,56px) 22px;gap:0;margin:0;
-    max-height:calc(100vh - 76px);overflow:auto}
+    max-height:calc(100vh - 76px);max-height:calc(100dvh - 76px);overflow:auto;overscroll-behavior:contain}
+  html.dcx-scrolled #dcx-hdr .mainnav.open{max-height:calc(100vh - 60px);max-height:calc(100dvh - 60px)}
+  html.dcx-menu-open,html.dcx-menu-open body{overflow:hidden}   /* the page stays put behind the menu */
   #dcx-hdr .mainnav.open>a,#dcx-hdr .mainnav.open .dcx-drop{padding:13px 0;
     border-bottom:1px solid var(--line)}
   #dcx-hdr .mainnav.open .dcx-drop{flex-direction:column;align-items:stretch}
@@ -136,7 +140,7 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
   /* second level expands inline (indented) on mobile */
   #dcx-hdr .dcx-sub2{position:static;opacity:1;visibility:visible;transform:none;
     box-shadow:none;border:0;padding:0 0 6px 14px;min-width:0}
-  html[dir=rtl] #dcx-hdr .dcx-sub2{padding:0 14px 6px 0}
+  html[dir=rtl] #dcx-hdr .dcx-sub2{padding:0 14px 6px 0;transform:none}
   #dcx-hdr .dcx-parent2>a{white-space:normal;padding:11px 0;font-weight:600}
   #dcx-hdr .dcx-parent2:hover>a{background:none;color:var(--ink)}
   #dcx-hdr .dcx-c2{display:none}
