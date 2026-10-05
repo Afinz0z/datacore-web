@@ -321,8 +321,20 @@ def cta_band(ar):
             f'<a class="dcp-btn-o" href="{loc("services",ar)}">{esc(s["f_all_disc"])}</a>'
             f'</div></div></section>')
 
-def footer(ar):
+# Google "preferred sources": readers who add a domain see more of its articles in Top Stories,
+# AI Overviews and AI Mode. Google's deeplink rather than its script button: nothing loads from
+# Google until the reader clicks, and the link names the real domain wherever the page is hosted.
+PREFSRC = 'https://www.google.com/preferences/source?q=datacore.com.sa'
+FOOT_PREF_PILOT = {'projects'}   # footer preferred-source link, on these pages until the client approves
+
+def footer(ar, page=None):
     s = STR['ar' if ar else 'en']
+    pref = ''
+    if page in FOOT_PREF_PILOT:
+        lab = ('أضفنا كمصدر مفضّل في <span dir="ltr">Google</span>' if ar
+               else 'Add us as a preferred source on Google')
+        pref = (f'<p class="dcp-foot-pref" style="margin-top:16px;font-size:.88rem">'
+                f'<a href="{PREFSRC}" target="_blank" rel="noopener">{lab}</a></p>')
     disc = ''.join(f'<li><a href="{loc("services",ar)}?id={d[0]}">{esc(d[1] if not ar else d[2])}</a></li>'
                    for d in DISCIPLINES[:4])
     land = ''.join(f'<li><a href="{loc(p["slug"],ar)}">{esc(p["nav"])}</a></li>'
@@ -340,7 +352,7 @@ def footer(ar):
       <a href="https://www.linkedin.com/company/datacore-solutions" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM10 9h3.84v1.64h.05c.53-.95 1.84-1.95 3.79-1.95 4.05 0 4.8 2.4 4.8 5.52V21h-4v-4.9c0-1.17-.02-2.68-1.63-2.68-1.64 0-1.89 1.28-1.89 2.6V21h-4z"/></svg></a>
       <a href="https://www.instagram.com/datacore_sa" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
       <a href="https://www.facebook.com/www.datacore.com.sa" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0022 12z"/></svg></a>
-    </div></div>
+    </div>{pref}</div>
   <div><h2>{esc(s['f_company'])}</h2><ul>{comp}<li><a href="{loc('products',ar)}">{esc(s['f_catalogue'])}</a></li></ul></div>
   <div><h2>{esc(s['f_services'])}</h2><ul>{land}{disc}<li><a href="{loc('services',ar)}">{esc(s['f_all_disc'])}</a></li></ul></div>
   <div><h2>{esc(s['f_touch'])}</h2><ul>{touch}</ul></div>
@@ -711,7 +723,7 @@ def build_projects(ar):
         f'<div class="dcp-gal">{gal}</div></div></section>'
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-head dcp-center">'
         f'<h2>{esc(s["pj_feat_h"])}</h2></div><div class="dcp-featgrid">{feat}</div></div></section>'
-      + cta_band(ar) + footer(ar) + PROJ_FILTER_JS)
+      + cta_band(ar) + footer(ar, 'projects') + PROJ_FILTER_JS)
     title = ('مشاريعنا | داتاكور للحلول' if ar else 'Projects | Datacore Solutions')
     return shell(ar, 'projects', title, s.get('pj_desc', s['pj_lede']), body,
                  extra_head=PROJ_FILTER_CSS + SELECTED_CSS + REF_CSS)
@@ -872,10 +884,6 @@ def build_insights(ar):
     return shell(ar, 'insights', title, s.get('i_desc', s['i_lede']), body)
 
 # ── INSIGHT ARTICLE (per-post detail page) ──────────────────────────────────
-# Google "preferred sources": readers who add a domain see more of its articles in Top Stories,
-# AI Overviews and AI Mode. Google's deeplink rather than its script button: nothing loads from
-# Google until the reader clicks, and the link names the real domain wherever the page is hosted.
-PREFSRC = 'https://www.google.com/preferences/source?q=datacore.com.sa'
 
 POST_CSS = ('<style>'
   '.dcp-author{max-width:720px;margin:34px auto 0;padding-top:16px;border-top:1px solid var(--dcp-line,#e6ebea);'
