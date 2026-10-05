@@ -211,8 +211,10 @@ import datetime, re, hashlib, subprocess, html as _html
 
 def _visible(doc):
     """Fingerprint of what a reader sees: title, meta description, body text and
-    link text. Scripts, styles and cache-busting ?v= stamps are not content."""
+    link text. Scripts, styles and cache-busting ?v= stamps are not content, and
+    neither is the "preferred source" line that ends every article."""
     doc = re.sub(r"(?is)<(script|style|noscript|template)\b.*?</\1>", " ", doc)
+    doc = re.sub(r'(?is)<p class="dcp-prefsrc">.*?</p>', " ", doc)
     head = (re.findall(r"(?is)<title[^>]*>(.*?)</title>", doc)
             + re.findall(r'(?is)<meta\s+name="description"\s+content="([^"]*)"', doc))
     text = _html.unescape(re.sub(r"(?s)<[^>]+>", " ", doc.split("<body", 1)[-1]))

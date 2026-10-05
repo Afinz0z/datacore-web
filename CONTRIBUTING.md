@@ -52,7 +52,9 @@ for the architecture, the build and the deploy.
 - `noindex` only on the 404 pages. Internal links point at the final page (no redirects,
   no links to the old live domain), and none may return 404.
 - Articles carry the team author block and `author` in the schema; when the client names
-  an author, use the person.
+  an author, use the person. The author block ends with a link that lets readers add
+  datacore.com.sa as a Google preferred source (`PREFSRC` in `build_pages.py`): a plain
+  link, so nothing loads from Google until it is clicked.
 - Images are WebP with `width` and `height`. Project photos also ship a 720 px copy
   (`<name>-720.webp`); `photo_attrs()` in `build_pages.py` adds the `srcset`.
 

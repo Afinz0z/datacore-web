@@ -876,8 +876,6 @@ def build_insights(ar):
 # AI Overviews and AI Mode. Google's deeplink rather than its script button: nothing loads from
 # Google until the reader clicks, and the link names the real domain wherever the page is hosted.
 PREFSRC = 'https://www.google.com/preferences/source?q=datacore.com.sa'
-PREFSRC_PILOT = {'what-are-elv-low-current-systems'}   # shown on these articles until the client approves
-PREFSRC_CSS = '<style>.dcp-author .dcp-prefsrc{margin-top:10px}</style>'
 
 POST_CSS = ('<style>'
   '.dcp-author{max-width:720px;margin:34px auto 0;padding-top:16px;border-top:1px solid var(--dcp-line,#e6ebea);'
@@ -885,6 +883,7 @@ POST_CSS = ('<style>'
   '.dcp-author p{margin:0}'
   '.dcp-author .dcp-author-h{font-weight:700;color:var(--dcp-ink,#1a1b1f);margin-bottom:4px}'
   '.dcp-author a{color:var(--dcp-teal-d,#00776f);font-weight:600}'
+  '.dcp-author .dcp-prefsrc{margin-top:10px}'
   '.dcp-art-fig{max-width:760px;margin:0 auto 30px;border:1px solid var(--dcp-line,#e6ebea);'
   'border-radius:8px;overflow:hidden}'
   '.dcp-art-fig img{width:100%;height:auto;display:block}'
@@ -980,12 +979,10 @@ def build_post(i, ar):
         name_en = name_en if name_en.isupper() else name_en.lower()   # "AV team", "network team"
         who = (f'كتبه {E(P["team"])} في داتاكور' if ar else f"Written by Datacore's {esc(name_en)} team")
         more = ('عن داتاكور' if ar else 'About Datacore')
-        pref = ''
-        if P['slug'] in PREFSRC_PILOT:
-            lead = ('لترى مزيداً من مقالاتنا في بحث <span dir="ltr">Google</span>،' if ar
-                    else 'To see more of our articles in Google Search,')
-            act = 'أضف داتاكور كمصدر مفضّل' if ar else 'add Datacore as a preferred source'
-            pref = f'<p class="dcp-prefsrc">{lead} <a href="{PREFSRC}" target="_blank" rel="noopener">{act}</a>.</p>'
+        lead = ('لترى مزيداً من مقالاتنا في بحث <span dir="ltr">Google</span>،' if ar
+                else 'To see more of our articles in Google Search,')
+        act = 'أضف داتاكور كمصدر مفضّل' if ar else 'add Datacore as a preferred source'
+        pref = f'<p class="dcp-prefsrc">{lead} <a href="{PREFSRC}" target="_blank" rel="noopener">{act}</a>.</p>'
         author_html = (f'<aside class="dcp-author" aria-label="{esc("عن الكاتب" if ar else "About the author")}">'
                        f'<p class="dcp-author-h">{who}</p><p>{E(bio[1] if ar else bio[0])} '
                        f'<a href="{loc("about-us", ar)}">{esc(more)}</a></p>{pref}</aside>')
@@ -1010,8 +1007,7 @@ def build_post(i, ar):
         schema.append({"@context": "https://schema.org", "@type": "FAQPage",
                        "mainEntity": [{"@type": "Question", "name": q,
                                        "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
-    head = ('<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + FAQ_CSS + POST_CSS
-            + (PREFSRC_CSS if P['slug'] in PREFSRC_PILOT else ''))
+    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + FAQ_CSS + POST_CSS
     title = P['title'] + (' | داتاكور للحلول' if ar else ' | Datacore Solutions')
     return shell(ar, 'insights', title, P['meta'], body, extra_head=head, canon='insight-' + P['slug'])
 
