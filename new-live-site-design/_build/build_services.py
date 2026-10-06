@@ -106,7 +106,7 @@ def faq_section(di, ar):
     E = wrap_ltr if ar else esc
     head = "أسئلة شائعة" if ar else "Frequently asked"
     items = "".join(
-        f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+        f'<details class="dcp-faq"><summary><span>{E(q)}</span></summary>'
         f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>' for q, a in qa)
     return (f'<section class="dcp-sec"><div class="dcp-wrap" style="max-width:820px">'
             f'<div class="dcp-head"><h2>{esc(head)}</h2></div>{items}</div></section>')

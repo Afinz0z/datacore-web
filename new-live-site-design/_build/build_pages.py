@@ -815,7 +815,7 @@ def build_faq(ar):
     E = wrap_ltr if ar else esc
     ghost = 'أسئلة' if ar else 'FAQ'
     items = ''.join(
-        f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+        f'<details class="dcp-faq"><summary><span>{E(q)}</span></summary>'
         f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>'
         for q, a in F['items'])
     body = (hero(ar, ghost, F['h1'], F['h1'], F['lede'])
@@ -962,7 +962,7 @@ def build_post(i, ar):
     faq = P.get('faq', [])
     faq_html = ''
     if faq:
-        items = ''.join(f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+        items = ''.join(f'<details class="dcp-faq"><summary><span>{E(q)}</span></summary>'
                         f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>' for q, a in faq)
         faq_h = 'أسئلة شائعة' if ar else 'Frequently asked'
         faq_html = (f'<div class="dcp-faqwrap" style="max-width:720px;margin:36px auto 0">'
@@ -1051,7 +1051,7 @@ def build_landing(idx, ar):
         f'<div><b dir="ltr">{esc(n)}</b><span>{E(l)}</span></div>' for n, l in FACTS[lang]) + '</div>'
     blocks = ''.join(f'<{t}>{E(x)}</{t}>' for t, x in Pg['blocks'])
     faq_items = ''.join(
-        f'<details class="dcp-faq"><summary>{E(q)}</summary>'
+        f'<details class="dcp-faq"><summary><span>{E(q)}</span></summary>'
         f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>' for q, a in Pg['faq'])
     faq_h = 'أسئلة شائعة' if ar else 'Frequently asked'
     rel = ''.join(f'<a href="{loc("service-"+sl,ar)}">{E(an)} {I_ARROW}</a>' for sl, an in Pg['related'])
