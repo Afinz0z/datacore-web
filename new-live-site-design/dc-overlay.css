@@ -122,6 +122,8 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
 @media(max-width:1200px){
   #dcx-hdr .mainnav,#dcx-hdr .btn-p{display:none}
   #dcx-hdr .burger{display:block;margin-inline-start:auto}
+  /* the controls (theme, language, menu) sit at the far edge: right in English, left in Arabic */
+  #dcx-hdr .hdr-cta{margin-inline-start:auto}
   /* the open menu hangs from the header's bottom edge whatever its height (it condenses on
      scroll), fits the visible screen (dvh allows for phone toolbars) and keeps its own scroll */
   #dcx-hdr .mainnav.open{display:flex;flex-direction:column;align-items:stretch;
@@ -159,6 +161,9 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
     color:var(--accent-contrast);border-radius:2px;justify-content:center;font-weight:600;
     padding:13px 20px;text-decoration:none}
 }
+/* the smallest phones (320 px): the condensed logo and tighter spacing keep the header inside the screen
+   (in Arabic the language button reads "English", which is wider) */
+@media(max-width:360px){#dcx-hdr .wrap{gap:12px;padding:0 16px}#dcx-hdr .logo img{height:46px}}
 
 /* ── injected About sections (blend with the live look) ─────────────── */
 .dcx-story-img{margin-top:22px;border-radius:6px;overflow:hidden;border:1px solid #e6ebea}
