@@ -98,7 +98,7 @@ html.dc-dark #dcx-hdr .tmoon{display:none}
 #dcx-hdr .dcx-sub a:hover{background:var(--accent);color:var(--accent-contrast)}
 /* simple 2-link dropdown (Resources: FAQ + Glossary) — narrower than the Services mega-panel */
 #dcx-hdr .dcx-sub.dcx-sub-simple{min-width:186px}
-#dcx-hdr .dcx-sub-all{display:none}   /* phone menu only: the section name there folds, so the page needs its own link */
+#dcx-hdr .dcx-tog{display:none}   /* phone menu only: the arrow button that folds a section's list */
 
 /* Services mega-menu — second level: the services under each discipline */
 #dcx-hdr .dcx-parent2{position:relative}
@@ -131,15 +131,18 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
     max-height:calc(100vh - 76px);max-height:calc(100dvh - 76px);overflow:auto;overscroll-behavior:contain}
   html.dcx-scrolled #dcx-hdr .mainnav.open{max-height:calc(100vh - 60px);max-height:calc(100dvh - 60px)}
   html.dcx-menu-open,html.dcx-menu-open body{overflow:hidden}   /* the page stays put behind the menu */
-  /* section lists fold (dc-overlay.js toggles .exp on the section); the whole row is the switch */
+  /* a section row: the name opens its page, the arrow button beside it folds the list
+     (dc-overlay.js toggles .exp on the section); lists start folded */
   #dcx-hdr .mainnav.open .dcx-drop:not(.exp)>.dcx-sub{display:none}
-  #dcx-hdr .mainnav.open .dcx-parent{display:flex;align-items:center;justify-content:space-between}
-  #dcx-hdr .dcx-drop:hover .dcx-parent svg{transform:none}
-  #dcx-hdr .dcx-drop.exp .dcx-parent svg{transform:rotate(180deg)}
-  #dcx-hdr .mainnav.open .dcx-sub-all{display:block;padding:11px 0;font-weight:600}
+  #dcx-hdr .mainnav.open .dcx-parent svg{display:none}
+  #dcx-hdr .mainnav.open .dcx-tog{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;
+    margin-inline-end:-12px;padding:0;background:none;border:0;color:var(--ink);cursor:pointer}
+  #dcx-hdr .mainnav.open .dcx-tog svg{width:14px;height:14px;transition:transform .2s ease}
+  #dcx-hdr .dcx-drop.exp .dcx-tog svg{transform:rotate(180deg)}
   #dcx-hdr .mainnav.open>a,#dcx-hdr .mainnav.open .dcx-drop{padding:13px 0;
     border-bottom:1px solid var(--line)}
-  #dcx-hdr .mainnav.open .dcx-drop{flex-direction:column;align-items:stretch}
+  #dcx-hdr .mainnav.open .dcx-drop{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center}
+  #dcx-hdr .mainnav.open .dcx-drop>.dcx-sub{grid-column:1/-1}
   #dcx-hdr .mainnav.open .dcx-parent{padding:13px 0}
   #dcx-hdr .dcx-sub{position:static;opacity:1;visibility:visible;transform:none;
     box-shadow:none;border:0;padding:2px 0 10px 14px;min-width:0}
