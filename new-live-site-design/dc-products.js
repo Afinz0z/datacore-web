@@ -242,9 +242,18 @@
     var btn = e.target.closest('.dcp-rrm'); if (!btn) return;
     delete basket[btn.dataset.sku]; save(); syncButtons(); renderList();
   });
-  function openD() { drawer.classList.add('open'); scrim.hidden = false; drawer.setAttribute('aria-hidden', 'false'); }
-  function closeD() { drawer.classList.remove('open'); scrim.hidden = true; drawer.setAttribute('aria-hidden', 'true'); }
+  // the request drawer takes the focus while open and hands it back to the basket button
+  function openD() {
+    drawer.classList.add('open'); scrim.hidden = false; drawer.setAttribute('aria-hidden', 'false');
+    document.getElementById('dcp-dclose').focus();
+  }
+  function closeD() {
+    if (!drawer.classList.contains('open')) return;
+    drawer.classList.remove('open'); scrim.hidden = true; drawer.setAttribute('aria-hidden', 'true');
+    fab.focus();
+  }
   fab.addEventListener('click', openD);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeD(); });
   document.getElementById('dcp-dclose').addEventListener('click', closeD);
   scrim.addEventListener('click', closeD);
   document.getElementById('dcp-clear').addEventListener('click', function () {

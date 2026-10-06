@@ -259,7 +259,7 @@ html.dc-dark .dcp-rq{background:transparent;border-color:#2a2e33;color:#5fd9cc}
   z-index:1400;transform:translateX(100%);transition:transform .22s ease;display:flex;flex-direction:column;
   box-shadow:-20px 0 50px -20px rgba(0,0,0,.4)}
 html[dir=rtl] .dcp-drawer{transform:translateX(-100%)}
-.dcp-drawer.open{transform:none}
+.dcp-drawer.open,html[dir=rtl] .dcp-drawer.open{transform:none}   /* the RTL closed rule above is more specific; match it */
 .dcp-dhead{display:flex;justify-content:space-between;align-items:center;padding:20px 22px;border-bottom:1px solid var(--dcp-line)}
 .dcp-dhead h2{font-size:1.25rem;font-weight:700}
 .dcp-dclose{background:none;border:0;font-size:1.6rem;line-height:1;cursor:pointer;color:var(--dcp-ink2)}
