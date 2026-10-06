@@ -13,7 +13,7 @@
   var T = isAR ? {
     about: 'من نحن', services: 'خدماتنا', products: 'المنتجات', projects: 'مشاريعنا',
     insights: 'ملاحظات تقنية', contact: 'تواصل معنا', lang: 'English',
-    resources: 'مصادر', faq: 'الأسئلة الشائعة', glossary: 'مسرد المصطلحات',
+    resources: 'مصادر', faq: 'الأسئلة الشائعة', glossary: 'مسرد المصطلحات', all_services: 'كل الخدمات',
     cta: 'اطلب استشارة', theme: 'التبديل بين الوضع الفاتح والداكن', menu: 'القائمة',
     chat_label: 'تحدث معنا', chat_h: 'كيف نساعدك؟', chat_p: 'اختر وسيلة التواصل وسنكمل من هناك.',
     chat_wa: 'محادثة واتساب', chat_call: 'الاتصال بمكتب الرياض', chat_mail: 'مراسلة المبيعات',
@@ -21,7 +21,7 @@
   } : {
     about: 'About', services: 'Services', products: 'Products', projects: 'Projects',
     insights: 'Insights', contact: 'Contact', lang: 'العربية',
-    resources: 'Resources', faq: 'FAQ', glossary: 'Glossary',
+    resources: 'Resources', faq: 'FAQ', glossary: 'Glossary', all_services: 'All services',
     cta: 'Request a consultation', theme: 'Switch between light and dark mode', menu: 'Open menu',
     chat_label: 'Chat with us', chat_h: 'How can we help?', chat_p: 'Pick a channel and we will take it from there.',
     chat_wa: 'Chat on WhatsApp', chat_call: 'Call the Riyadh office', chat_mail: 'Email sales',
@@ -94,14 +94,15 @@
   var navHTML =
     a('about-us', T.about, 'about-us') +
     '<div class="dcx-drop"><a href="' + localName('services') + '" class="dcx-parent' +
-      (stem === 'services' ? ' on' : '') + '" aria-haspopup="true">' + T.services + ' ' + caret +
-      '</a><div class="dcx-sub">' + subHTML + '</div></div>' +
+      (stem === 'services' ? ' on' : '') + '" aria-haspopup="true" aria-controls="dcx-sub-svc">' + T.services + ' ' + caret +
+      '</a><div class="dcx-sub" id="dcx-sub-svc">' +
+        '<a class="dcx-sub-all" href="' + localName('services') + '">' + T.all_services + '</a>' + subHTML + '</div></div>' +
     a('products', T.products, 'products') +
     a('projects', T.projects, 'projects') +
     a('insights', T.insights, 'insights') +
     '<div class="dcx-drop"><a href="' + localName('faq') + '" class="dcx-parent' +
-      ((stem === 'faq' || stem === 'glossary') ? ' on' : '') + '" aria-haspopup="true">' + T.resources + ' ' + caret +
-      '</a><div class="dcx-sub dcx-sub-simple">' +
+      ((stem === 'faq' || stem === 'glossary') ? ' on' : '') + '" aria-haspopup="true" aria-controls="dcx-sub-res">' + T.resources + ' ' + caret +
+      '</a><div class="dcx-sub dcx-sub-simple" id="dcx-sub-res">' +
         '<a href="' + localName('faq') + '"' + (stem === 'faq' ? ' class="on"' : '') + '>' + T.faq + '</a>' +
         '<a href="' + localName('glossary') + '"' + (stem === 'glossary' ? ' class="on"' : '') + '>' + T.glossary + '</a>' +
       '</div></div>' +
@@ -214,15 +215,29 @@
     });
     var nv = document.getElementById('mainnav');
     var bg = hdr.querySelector('.burger');
-    // one place sets the menu state: the menu, the button, and the page lock behind it
+    var parents = nv.querySelectorAll('.dcx-parent');
+    // one place sets the menu state: the menu, the button, the page lock behind it, and the
+    // folded section lists (they start folded each time the menu opens)
     function setMenu(open) {
       nv.classList.toggle('open', open);
       bg.setAttribute('aria-expanded', String(open));
       document.documentElement.classList.toggle('dcx-menu-open', open);
+      [].forEach.call(parents, function (p) {
+        p.parentNode.classList.remove('exp');
+        if (open) p.setAttribute('aria-expanded', 'false'); else p.removeAttribute('aria-expanded');
+      });
     }
     bg.addEventListener('click', function () { setMenu(!nv.classList.contains('open')); });
     nv.addEventListener('click', function (ev) {
-      if (ev.target.closest('a') && nv.classList.contains('open')) setMenu(false);
+      var link = ev.target.closest('a');
+      if (!link || !nv.classList.contains('open')) return;
+      // in the phone menu a section name folds its list open and shut instead of leaving the menu
+      if (link.classList.contains('dcx-parent')) {
+        ev.preventDefault();
+        link.setAttribute('aria-expanded', String(link.parentNode.classList.toggle('exp')));
+        return;
+      }
+      setMenu(false);
     });
     document.addEventListener('keydown', function (ev) {
       if (ev.key === 'Escape' && nv.classList.contains('open')) { setMenu(false); bg.focus(); }
