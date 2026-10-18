@@ -1,6 +1,6 @@
 {
  "sku": "LGC-5586",
- "order": 2680,
+ "order": 2681,
  "n": "Push Pull Wall Mount 55 to 86-LGC-5586",
  "b": "Logic",
  "c": "Mount",
@@ -40,8 +40,6 @@
  "for": [
   "1203626",
   "75UH7N",
-  "CDE105UW",
-  "CDE4330",
   "CDE5530",
   "CDE6514-2C",
   "CDE6530",
@@ -49,7 +47,6 @@
   "CDE7530",
   "CDE8614-2C",
   "CDE8630",
-  "CDE92UW",
   "EP5542",
   "EP5542T",
   "HG65U800FAUXUE",

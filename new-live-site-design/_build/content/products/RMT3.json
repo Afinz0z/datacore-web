@@ -1,6 +1,6 @@
 {
  "sku": "RMT3",
- "order": 2511,
+ "order": 2512,
  "n": "LegrandAV- Chief 32 to 65 wall Mount-RMT3",
  "b": "Chief",
  "c": "Mount",
@@ -58,7 +58,6 @@
   }
  ],
  "for": [
-  "22SM3G",
   "32SM5J",
   "CDE4330",
   "CDE5530",
@@ -66,7 +65,6 @@
   "CDE6530",
   "EP5542",
   "EP5542T",
-  "HG75U800FAUXUE",
   "IFP5550-5F",
   "IFP6533-G",
   "IFP6534",
@@ -78,10 +76,8 @@
   "LH55QMCEBGCXUE",
   "LH65QMREBGCXUE",
   "LT-IR65AX",
-  "PN-LC862",
   "PN-M432",
   "PN-M552 PCAP",
-  "PN-M752",
   "V6550"
  ],
  "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fit-tilt-wall-mounts/rmt3",

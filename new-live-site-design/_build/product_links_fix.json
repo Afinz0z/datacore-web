@@ -1,0 +1,885 @@
+{
+ "_about": "Parent to supporting-product links from the inventory export that are kept off the website because they are wrong: the screen size is outside the mount's stated range (the maker's own figure where its page gives one), or a person found no fit. Checked 2026-10-18. Fix these in Quattro too.",
+ "remove": [
+  {
+   "parent": "EP5542",
+   "child": "MTMP1U",
+   "reason": "55-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "22SM3G",
+   "child": "MTMP1U",
+   "reason": "22-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "22SM3G",
+   "child": "PNRUB",
+   "reason": "22-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "22SM3G",
+   "child": "RMT3",
+   "reason": "22-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "22SM3G",
+   "child": "WMK-077",
+   "reason": "22-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "22SM3G",
+   "child": "XSM1U",
+   "reason": "22-inch screen, mount for 55 to 100 inch"
+  },
+  {
+   "parent": "EP5542T",
+   "child": "MTMP1U",
+   "reason": "55-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "32SM5J",
+   "child": "LGWM-3790T",
+   "reason": "32-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "32SM5J",
+   "child": "MTMP1U",
+   "reason": "32-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "32SM5J",
+   "child": "PNRUB",
+   "reason": "32-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "32SM5J",
+   "child": "VB-STND-008",
+   "reason": "32-inch screen, mount for 75 to 86 inch"
+  },
+  {
+   "parent": "32SM5J",
+   "child": "WMK-077",
+   "reason": "32-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "32SM5J",
+   "child": "XSM1U",
+   "reason": "32-inch screen, mount for 55 to 100 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "LGC-5586",
+   "reason": "105-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "LGWM-3790F",
+   "reason": "105-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "MTMP1U",
+   "reason": "105-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "PNRUB",
+   "reason": "105-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "ST33M",
+   "reason": "105-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "VB-STND-008",
+   "reason": "105-inch screen, mount for 75 to 86 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "VB-WMK-001-2C",
+   "reason": "105-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "WMK-077",
+   "reason": "105-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "CDE105UW",
+   "child": "XTM1U",
+   "reason": "105-inch screen, mount for 55 to 100 inch"
+  },
+  {
+   "parent": "CDE4330",
+   "child": "LGC-5586",
+   "reason": "43-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE4330",
+   "child": "ST33M",
+   "reason": "43-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE4330",
+   "child": "VB-STND-008",
+   "reason": "43-inch screen, mount for 75 to 86 inch"
+  },
+  {
+   "parent": "CDE4330",
+   "child": "VB-WMK-003",
+   "reason": "43-inch screen, mount for 55 to 105 inch"
+  },
+  {
+   "parent": "CDE4330",
+   "child": "XTM1U",
+   "reason": "43-inch screen, mount for 55 to 100 inch"
+  },
+  {
+   "parent": "CDE5530",
+   "child": "MTMP1U",
+   "reason": "55-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE5530",
+   "child": "VB-WMK-004",
+   "reason": "55-inch screen, mount for 65 to 110 inch"
+  },
+  {
+   "parent": "CDE6530",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE7530",
+   "child": "LGWM-3265F-IN",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "CDE7530",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE8630",
+   "child": "LGWM-3265F-IN",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "CDE8630",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE8630",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "CDE9830",
+   "child": "LGWM-3265F-IN",
+   "reason": "98-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "CDE9830",
+   "child": "MTMP1U",
+   "reason": "98-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE9830",
+   "child": "PNRUB",
+   "reason": "98-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "CDE9830",
+   "child": "ST33M",
+   "reason": "98-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE9830",
+   "child": "VB-STND-008",
+   "reason": "98-inch screen, mount for 75 to 86 inch"
+  },
+  {
+   "parent": "CDE9830",
+   "child": "WMK-077",
+   "reason": "98-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP105UW",
+   "child": "MTMP1U",
+   "reason": "105-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP105UW",
+   "child": "PNRUB",
+   "reason": "105-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP105UW",
+   "child": "WMK-077",
+   "reason": "105-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "LG-CMBB-65",
+   "reason": "110-inch screen, mount for 42 to 65 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "LGWM-3790T",
+   "reason": "110-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "MCB1U",
+   "reason": "110-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "MTMP1U",
+   "reason": "110-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "PDRUB",
+   "reason": "110-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "PNRUB",
+   "reason": "110-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "VB-STND-009",
+   "reason": "110-inch screen, mount for 10 to 105 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "VB-WMK-003",
+   "reason": "110-inch screen, mount for 55 to 105 inch"
+  },
+  {
+   "parent": "IFP110",
+   "child": "WMK-077",
+   "reason": "110-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "LH65QMCEBGCLXL",
+   "child": "KITXWXSM1U",
+   "reason": "65-inch screen, mount for 80 to 120 inch"
+  },
+  {
+   "parent": "IFP6562",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "HG65U800FAUXUE",
+   "child": "KST-WM-UE150-W",
+   "reason": "a camera wall mount (for the Panasonic AW-UE150) linked to a hotel TV"
+  },
+  {
+   "parent": "HG65U800FAUXUE",
+   "child": "LGC-7598",
+   "reason": "65-inch screen, mount for 75 to 98 inch"
+  },
+  {
+   "parent": "HG65U800FAUXUE",
+   "child": "LGC-98110",
+   "reason": "65-inch screen, mount for 98 to 110 inch"
+  },
+  {
+   "parent": "HG65U800FAUXUE",
+   "child": "LGF-110",
+   "reason": "65-inch screen, mount for 98 to 110 inch"
+  },
+  {
+   "parent": "HG65U800FAUXUE",
+   "child": "LGF-98",
+   "reason": "65-inch screen, mount for 75 to 98 inch"
+  },
+  {
+   "parent": "IFP8662",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8662",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP92UW",
+   "child": "LGWM-3790F",
+   "reason": "92-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "IFP92UW",
+   "child": "MCB1U",
+   "reason": "92-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP92UW",
+   "child": "MTMP1U",
+   "reason": "92-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP92UW",
+   "child": "PNRUB",
+   "reason": "92-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP92UW",
+   "child": "WMK-077",
+   "reason": "92-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "HG75U800FAUXUE",
+   "child": "KITXWXSM1U",
+   "reason": "75-inch screen, mount for 80 to 120 inch"
+  },
+  {
+   "parent": "HG75U800FAUXUE",
+   "child": "LG-Emerald1",
+   "reason": "75-inch screen, mount for 40 to 70 inch"
+  },
+  {
+   "parent": "HG75U800FAUXUE",
+   "child": "RMF3",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "HG75U800FAUXUE",
+   "child": "RMT3",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP6534",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP6551",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP7534",
+   "child": "MCB1U",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP7534",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP7551",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8634",
+   "child": "MCB1U",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP8634",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8651",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8651",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "LGWM-3790F",
+   "reason": "98-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "MCB1U",
+   "reason": "98-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "MTMP1U",
+   "reason": "98-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "PDRUB",
+   "reason": "98-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "PNRUB",
+   "reason": "98-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "ST33M",
+   "reason": "98-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "VB-STND-008",
+   "reason": "98-inch screen, mount for 75 to 86 inch"
+  },
+  {
+   "parent": "IFP9851",
+   "child": "WMK-077",
+   "reason": "98-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "98TR3DK-B",
+   "child": "LGWM-3790T",
+   "reason": "98-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "98TR3DK-B",
+   "child": "MTMP1U",
+   "reason": "98-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "98TR3DK-B",
+   "child": "PNRUB",
+   "reason": "98-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "98TR3DK-B",
+   "child": "WMK-077",
+   "reason": "98-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "98UM5K-B",
+   "child": "LGWM-3790F",
+   "reason": "98-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "75UH7N",
+   "child": "KITXWXSM1U",
+   "reason": "75-inch screen, mount for 80 to 120 inch"
+  },
+  {
+   "parent": "75UH7N",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "MP-16",
+   "child": "6500568",
+   "reason": "a Crestron automation enclosure block linked to a TOA audio monitor panel"
+  },
+  {
+   "parent": "PANA105D",
+   "child": "LPAUB",
+   "reason": "105-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "PANA105D",
+   "child": "MTMP1U",
+   "reason": "105-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "PANA105D",
+   "child": "PNRUB",
+   "reason": "105-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "PANA105D",
+   "child": "WMK-077",
+   "reason": "105-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "LT-IR65AX",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE8614-2C",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE8614-2C",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "LT-IR75AX",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "V6550",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "LT-IR86AX",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "PN-LA752",
+   "child": "LG-Emerald1",
+   "reason": "75-inch screen, mount for 40 to 70 inch"
+  },
+  {
+   "parent": "PN-LA752",
+   "child": "LGWM-3265T",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "CDE6514-2C",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "V8650",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "V8650",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "CDE7514-2C",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LG-CMBB-65",
+   "reason": "86-inch screen, mount for 42 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LG-Emerald1",
+   "reason": "86-inch screen, mount for 40 to 70 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LG-VW04-IN",
+   "reason": "86-inch screen, mount for 49 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LGC-98110",
+   "reason": "86-inch screen, mount for 98 to 110 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LGCM-65-5",
+   "reason": "86-inch screen, mount for 42 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LGF-110",
+   "reason": "86-inch screen, mount for 98 to 110 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LGWM-3265SW",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LGWM-3265T",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "LGWM-4365R",
+   "reason": "86-inch screen, mount for 43 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "MCB1U",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "RMF3",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "RMT3",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "TS318TU",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "TS525TU",
+   "reason": "86-inch screen, mount for 42 to 75 inch"
+  },
+  {
+   "parent": "PN-LC862",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "98UM5K",
+   "child": "MTMP1U",
+   "reason": "98-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "98UM5K",
+   "child": "PNRUB",
+   "reason": "98-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "LGC-5586",
+   "reason": "92-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "LGWM-3265F-IN",
+   "reason": "92-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "MTMP1U",
+   "reason": "92-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "PNRUB",
+   "reason": "92-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "RMF3",
+   "reason": "92-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "ST33M",
+   "reason": "92-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "VB-STND-008",
+   "reason": "92-inch screen, mount for 75 to 86 inch"
+  },
+  {
+   "parent": "CDE92UW",
+   "child": "WMK-077",
+   "reason": "92-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "LH13QBRMBGCXUE",
+   "child": "LGWM-3790F",
+   "reason": "13-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "IFP105G",
+   "child": "LG-Emerald1",
+   "reason": "105-inch screen, mount for 40 to 70 inch"
+  },
+  {
+   "parent": "IFP105G",
+   "child": "MCB1U",
+   "reason": "105-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP105G",
+   "child": "MTMP1U",
+   "reason": "105-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP105G",
+   "child": "PNRUB",
+   "reason": "105-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP105G",
+   "child": "VB-WMK-001-2C",
+   "reason": "105-inch screen, mount for 55 to 86 inch"
+  },
+  {
+   "parent": "IFP105G",
+   "child": "WMK-077",
+   "reason": "105-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP5550-5F",
+   "child": "MTMP1U",
+   "reason": "55-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP5550-5F",
+   "child": "VB-WMK-004",
+   "reason": "55-inch screen, mount for 65 to 110 inch"
+  },
+  {
+   "parent": "LHM0606/10",
+   "child": "Kiosk",
+   "reason": "a floor kiosk linked to a ceiling loudspeaker"
+  },
+  {
+   "parent": "IFP6533-G",
+   "child": "LGF-98",
+   "reason": "65-inch screen, mount for 75 to 98 inch"
+  },
+  {
+   "parent": "IFP6533-G",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP6550-5F",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "PN-M552 PCAP",
+   "child": "Qt X RMT-KT",
+   "reason": "a sound-masking rack kit (Cambridge Qt X) linked to a display"
+  },
+  {
+   "parent": "PN-M552 PCAP",
+   "child": "VB-WMK-004",
+   "reason": "55-inch screen, mount for 65 to 110 inch"
+  },
+  {
+   "parent": "IFP6553",
+   "child": "MTMP1U",
+   "reason": "65-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "PN-M752",
+   "child": "RMF3",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "PN-M752",
+   "child": "RMT3",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP7533-G",
+   "child": "MCB1U",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP7533-G",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP7550-5F",
+   "child": "MCB1U",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP7550-5F",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP7553",
+   "child": "MCB1U",
+   "reason": "75-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP7553",
+   "child": "MTMP1U",
+   "reason": "75-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8633-G",
+   "child": "MCB1U",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP8633-G",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8633-G",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP8650-5F",
+   "child": "MCB1U",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP8650-5F",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8650-5F",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP8653",
+   "child": "LGWM-3265SW",
+   "reason": "86-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP8653",
+   "child": "MTMP1U",
+   "reason": "86-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP8653",
+   "child": "WMK-077",
+   "reason": "86-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "IFP9850-4",
+   "child": "LGWM-3790T",
+   "reason": "98-inch screen, mount for 37 to 90 inch"
+  },
+  {
+   "parent": "IFP9850-4",
+   "child": "MCB1U",
+   "reason": "98-inch screen, mount for 32 to 65 inch"
+  },
+  {
+   "parent": "IFP9850-4",
+   "child": "MTMP1U",
+   "reason": "98-inch screen, mount for 43 to 47 inch"
+  },
+  {
+   "parent": "IFP9850-4",
+   "child": "PNRUB",
+   "reason": "98-inch screen, mount for 42 to 86 inch"
+  },
+  {
+   "parent": "IFP9850-4",
+   "child": "WMK-077",
+   "reason": "98-inch screen, mount for 43 to 75 inch"
+  }
+ ]
+}

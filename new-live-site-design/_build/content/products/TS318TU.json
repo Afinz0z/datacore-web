@@ -1,6 +1,6 @@
 {
  "sku": "TS318TU",
- "order": 2520,
+ "order": 2521,
  "n": "Mount - TS318TU (32-65 inch)",
  "b": "Chief",
  "c": "Mount",
@@ -60,7 +60,6 @@
  "for": [
   "LH50QMCEPGCXUE",
   "LH65QMREBGCXUE",
-  "PN-LC862",
   "PN-M552 PCAP"
  ],
  "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/thinstall_series/ts318tu",

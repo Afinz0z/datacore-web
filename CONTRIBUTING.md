@@ -112,6 +112,13 @@ for the architecture, the build and the deploy.
   A category missing from it shows under Other until it is added.
 - Bundles: `acc` lists a product's supporting products (mounts, licences, support contracts) and `for`
   the main products it supports. The cards link both ways.
+- Every link is checked against evidence before it is trusted: the supporting product naming the main one,
+  the screen size inside a mount's range (the maker's figure when its page gives one, otherwise the range in
+  the name), or the same maker. Links that fail (a screen outside the mount's range, or no fit at all when
+  read by a person) go in `_build/product_links_fix.json` with the reason, and the importer leaves them out.
+  The same file is the list to fix in Quattro.
+- Record errors in the export are corrected in `import_products.py` with the evidence in a comment:
+  `BRAND_BY_SKU` for a wrong maker, `CATEGORY_BY_SKU` for a wrong category.
 - Photos are `assets1/images/products/<sku>.webp`, 600 × 600, with the SKU's punctuation turned into
   `_` (`safe_name()` in `product_data.py`). Products with a photo are listed first. Licences, support
   contracts, warranties and software show the maker's logo instead (`assets1/images/brands/<brand>.webp`,

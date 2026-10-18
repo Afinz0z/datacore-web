@@ -1,6 +1,6 @@
 {
  "sku": "Kiosk",
- "order": 2723,
+ "order": 2724,
  "n": "Kiosk-Samsung Floor",
  "b": "Samsung",
  "c": "Mount",
@@ -21,7 +21,6 @@
   "LH65QMCBGCXUE",
   "LH65QMCEBGCXUE",
   "LH65QMREBGCXUE",
-  "LH75QMCEBGCXUE",
-  "LHM0606/10"
+  "LH75QMCEBGCXUE"
  ]
 }

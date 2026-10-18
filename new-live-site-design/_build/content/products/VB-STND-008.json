@@ -1,6 +1,6 @@
 {
  "sku": "VB-STND-008",
- "order": 2739,
+ "order": 2740,
  "n": "Trolley Cart 55 to 86- VB-STND-008",
  "b": "ViewSonic",
  "c": "Mount",
@@ -14,10 +14,7 @@
   }
  ],
  "for": [
-  "32SM5J",
   "75UH7N",
-  "CDE105UW",
-  "CDE4330",
   "CDE5530",
   "CDE6514-2C",
   "CDE6530",
@@ -25,8 +22,6 @@
   "CDE7530",
   "CDE8614-2C",
   "CDE8630",
-  "CDE92UW",
-  "CDE9830",
   "EP5542",
   "EP5542T",
   "HG75U800FAUXUE",
@@ -48,7 +43,6 @@
   "IFP8651",
   "IFP8653",
   "IFP8662",
-  "IFP9851",
   "LH55QMCEBGCXUE",
   "LH65QMREBGCXUE",
   "LT-IR65AX",

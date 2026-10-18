@@ -1,6 +1,6 @@
 {
  "sku": "LGWM-3790T",
- "order": 2674,
+ "order": 2675,
  "n": "Fixed Wall Mount 37 to 90 -LGWM-3790T",
  "b": "Logic",
  "c": "Mount",
@@ -15,9 +15,7 @@
  ],
  "for": [
   "1203626",
-  "32SM5J",
   "75UH7N",
-  "98TR3DK-B",
   "CDE4330",
   "CDE5530",
   "CDE6514-2C",
@@ -30,7 +28,6 @@
   "EP5542T",
   "HG65U800FAUXUE",
   "HG75U800FAUXUE",
-  "IFP110",
   "IFP5550-5F",
   "IFP6533-G",
   "IFP6534",
@@ -48,7 +45,6 @@
   "IFP8650-5F",
   "IFP8651",
   "IFP8653",
-  "IFP9850-4",
   "LH50QMCEPGCXUE",
   "LH55QMCEBGCXUE",
   "LH65QMREBGCXUE",

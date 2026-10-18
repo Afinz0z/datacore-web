@@ -1,6 +1,6 @@
 {
  "sku": "Qt X RMT-KT",
- "order": 2478,
+ "order": 2479,
  "n": "Cambridge Qt X Rack-Mount Kit",
  "b": "Biamp",
  "c": "Mount",
@@ -9,7 +9,6 @@
  "d": "Cambridge Qt X rack-mount kit, a rack-mount kit designed for professional, space-efficient installation in AV racks and equipment enclosures.",
  "specs": [],
  "for": [
-  "PN-M552 PCAP",
   "Qt X 300"
  ]
 }

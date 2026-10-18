@@ -1,6 +1,6 @@
 {
  "sku": "6500568",
- "order": 1614,
+ "order": 1615,
  "n": "CAEN-BLOCK",
  "b": "Crestron",
  "c": "Extenders",
@@ -37,8 +37,7 @@
   "6500780",
   "6506307",
   "6506383",
-  "6506384",
-  "MP-16"
+  "6506384"
  ],
  "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Integrated-Lighting-Systems/CAEN-Enclosure/CAEN-BLOCK",
  "checked": "2026-10-18"

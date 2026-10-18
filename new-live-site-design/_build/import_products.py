@@ -46,8 +46,15 @@ BRAND = {
     'LegrandAV- C2G': 'C2G', 'Beamz': 'beamZ',
 }
 # The export files some products under a placeholder instead of the maker. These part numbers were
-# looked up (Oct 2026): 853.319 and 151.413 are beamZ article numbers, MASK4CT-BL is a Biamp speaker.
-BRAND_BY_SKU = {'853.319': 'beamZ', '151.413': 'beamZ', 'MASK4CT-BL': 'Biamp'}
+# looked up (Oct 2026): 853.319 and 151.413 are beamZ article numbers, MASK4CT-BL is a Biamp speaker,
+# XGS-6311-12X is a PLANET switch (its own name says so; the export names CommScope).
+BRAND_BY_SKU = {'853.319': 'beamZ', '151.413': 'beamZ', 'MASK4CT-BL': 'Biamp', 'XGS-6311-12X': 'PLANET'}
+# Categories the export gets wrong: MASK4CT-BL is a loudspeaker filed under "Queue Management System".
+CATEGORY_BY_SKU = {'MASK4CT-BL': 'Speaker'}
+# Supporting-product links that are wrong (screen outside the mount's range, or no fit at all); see the file.
+_LINK_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'product_links_fix.json')
+BAD_LINKS = ({(x['parent'], x['child']) for x in json.load(open(_LINK_FILE, encoding='utf-8'))['remove']}
+             if os.path.exists(_LINK_FILE) else set())
 # Manufacturer values that are not a maker's name: the card shows no brand rather than these.
 NO_BRAND = {'generic', 'local', 'queue management system'}
 # Rows that only reserve a slot in the inventory system ("Custom-1", "Rack", "Structure").
@@ -270,6 +277,7 @@ def main(xlsx, skipped_csv=None):
     for d in data:
         sku, name = clean(d['Part Number']), clean(d['Product Name'])
         raw_brand, cat, dept = clean(d['Manufacturer']), clean(d['Category']), clean(d['Department']).upper()
+        cat = CATEGORY_BY_SKU.get(sku, cat)
         why = ('Inactive in the inventory system' if clean(d.get('Status')).upper() != 'ACTIVE'
                else 'Discontinued by the maker' if sku in DISCONTINUED
                else skip_reason(raw_brand, cat, sku, name))
@@ -310,10 +318,10 @@ def main(xlsx, skipped_csv=None):
     kids = {}
     for _, e, d in items:
         for c in _list(d.get('Supporting Products (Children)')):
-            if _key(c) in on_site and _key(c) != _key(e['sku']):
+            if _key(c) in on_site and _key(c) != _key(e['sku']) and (e['sku'], on_site[_key(c)]) not in BAD_LINKS:
                 kids.setdefault(e['sku'], set()).add(on_site[_key(c)])
         for p in _list(d.get('Supporting For (Parents)')):
-            if _key(p) in on_site and _key(p) != _key(e['sku']):
+            if _key(p) in on_site and _key(p) != _key(e['sku']) and (on_site[_key(p)], e['sku']) not in BAD_LINKS:
                 kids.setdefault(on_site[_key(p)], set()).add(e['sku'])
     parents = {}
     for p, cs in kids.items():

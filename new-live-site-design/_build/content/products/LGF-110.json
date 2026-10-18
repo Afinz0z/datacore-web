@@ -1,6 +1,6 @@
 {
  "sku": "LGF-110",
- "order": 2676,
+ "order": 2677,
  "n": "Fixed Wall Mount 98 to 110 -LGF-110",
  "b": "Logic",
  "c": "Mount",
@@ -36,13 +36,11 @@
  "for": [
   "98TR3DK-B",
   "98UM5K",
-  "HG65U800FAUXUE",
   "IFP105G",
   "IFP105UW",
   "IFP110",
   "IFP9850-4",
-  "PANA105D",
-  "PN-LC862"
+  "PANA105D"
  ],
  "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgf-110",
  "checked": "2026-10-18"
