@@ -226,10 +226,41 @@ def _jesc(s):
     return str(s).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
 
 
+MEASURE = re.compile(r'dimension|size|weight|height|width|depth|length|diameter', re.I)
+
+
 def card_specs(specs):
     """The specs a card shows: the first four short enough to sit on one line (long feature lists
-    stay in the data for search). Same rule as cardSpecs() in dc-products.js."""
-    return [s for s in specs if len(s[1]) <= 48][:4]
+    stay in the data for search), with a measurement (size, weight) in the last place when the product
+    has one and the first four don't. The script shows these as they are (row 6 of the data)."""
+    short = [s for s in specs if len(s[1]) <= 48]
+    out = short[:4]
+    if len(out) == 4 and not any(MEASURE.search(s[0]) for s in out):
+        m = next((s for s in short[4:] if MEASURE.search(s[0])), None)
+        if m:
+            out[3] = m
+    return out
+
+
+def card_note(p):
+    """A few lines from the product's own description, for cards with fewer than three spec lines."""
+    d = p['d']
+    if not d or len(card_specs(p['specs'])) >= 3:
+        return ''
+    if d.lower().startswith(p['n'].lower()):          # a description that opens by repeating the name
+        d = d[len(p['n']):].lstrip(' ,.:;-')
+    key = lambda s: re.sub(r'[^a-z0-9]+', '', s.lower())
+    if len(d) < 12 or key(d) in key(p['n']):           # says nothing the name doesn't
+        return ''
+    return d if len(d) <= 150 else d[:150].rsplit(' ', 1)[0].rstrip(' ,;:.') + '…'
+
+
+def specs_block(p, ar):
+    """Spec lines and the description note under one divider; nothing at all when there is neither."""
+    specs = ''.join(f'<div><dt>{_jesc(k)}</dt><dd dir="ltr">{_jesc(v)}</dd></div>' for k, v in card_specs(p['specs']))
+    note = card_note(p)
+    return ((f'<dl class="dcp-specs">{specs}</dl>' if specs else '')
+            + (f'<p class="dcp-card-d" dir="auto">{_jesc(note)}</p>' if note else ''))
 
 
 def rel_html(p, L):
@@ -266,7 +297,6 @@ def card_html(p, ar, i=0):
     catalogue data has loaded. The name links to the product's own page where it has one; a click
     opens the quick view instead, so the catalogue keeps its place."""
     L = LABELS['ar' if ar else 'en']
-    specs = ''.join(f'<div><dt>{_jesc(k)}</dt><dd dir="ltr">{_jesc(v)}</dd></div>' for k, v in card_specs(p['specs']))
     av = (f'<span class="dcp-badge stock">{L["in_stock"]}</span>' if p['avail'] == 'stock'
           else f'<span class="dcp-badge lead">{L["on_order"]}</span>')
     photo = _photo(p)
@@ -286,7 +316,7 @@ def card_html(p, ar, i=0):
             f'<div class="dcp-card-top">{brand}{av}</div>'
             f'<h3 dir="auto">{name}</h3>'
             f'<div class="dcp-card-meta"><span class="dcp-tag">{_jesc(p["cat"]["ar" if ar else "en"])}</span></div>'
-            f'<dl class="dcp-specs">{specs}</dl>' + rel_html(p, L) +
+            + specs_block(p, ar) + rel_html(p, L) +
             f'<div class="dcp-card-sub"><span class="dcp-card-sku" dir="ltr">{sku}</span>'
             f'<label class="dcp-cmp"><input type="checkbox" data-cmp="{sku}"><span>{L["cmp"]}</span></label></div>'
             + qty_html(p, L) + '</article>')
@@ -350,7 +380,7 @@ def write_data():
             bidx[p['b']] = len(brands); brands.append(p['b'])
         photo = _photo(p)
         card = card_specs(p['specs'])
-        rows.append([p['sku'], p['n'], bidx.get(p['b'], -1), cidx[key], p['g'], photo, card, '',
+        rows.append([p['sku'], p['n'], bidx.get(p['b'], -1), cidx[key], p['g'], photo, card, card_note(p),
                      1 if p['avail'] == 'stock' else 0, [idx[s] for s in p['kids']], [idx[s] for s in p['fits']],
                      PAGES.get(p['sku'], 0), 1 if _small(photo) else 0])
         i = len(rows) - 1
@@ -671,7 +701,7 @@ CAT_CSS = (
     '.dcp-morewrap .dcp-btn{width:auto;padding:13px 30px}'
     '.dcp-card-rel{display:flex;flex-wrap:wrap;gap:2px 16px}'
     '.dcp-card-rel .dcp-more{padding:0;text-align:start}'
-    + '.dcp-facets{scrollbar-width:none;-ms-overflow-style:none;scrollbar-gutter:auto}.dcp-facets::-webkit-scrollbar{width:0;height:0;display:none}.dcp-morewrap{display:flex;justify-content:center;margin-top:28px}.dcp-morewrap .dcp-btn{width:auto;padding:13px 30px}.dcp-card-rel{display:flex;flex-wrap:wrap;gap:2px 16px}.dcp-card-rel .dcp-more{padding:0;text-align:start}html.dcp-pick-open{overflow:hidden}.dcp-pick{position:fixed;inset:0;z-index:100000;display:flex;align-items:center;justify-content:center;padding:24px}.dcp-pick[hidden]{display:none}.dcp-pick-bg{position:absolute;inset:0;background:rgba(10,12,14,.55)}.dcp-pick-box{position:relative;display:flex;flex-direction:column;width:min(1000px,100%);max-height:min(760px,calc(100dvh - 48px));background:var(--dcp-bg);color:var(--dcp-ink);border:1px solid var(--dcp-line);border-radius:6px;box-shadow:0 30px 80px -24px rgba(0,0,0,.45);overflow:hidden}.dcp-pick-head{display:flex;align-items:baseline;gap:12px;padding:20px 24px 2px}.dcp-pick-head h2{margin:0;font-size:1.35rem;font-weight:700;color:var(--dcp-ink)}.dcp-pick-n{color:var(--dcp-ink3);font-size:.85rem;font-variant-numeric:tabular-nums}.dcp-pick-x{margin-inline-start:auto;align-self:center;background:none;border:0;font-size:1.75rem;line-height:1;color:var(--dcp-ink2);cursor:pointer;padding:0 4px}.dcp-pick-tools{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:14px 24px 0}.dcp-pick-tools .dcp-search-in{flex:1 1 260px;min-width:0}.dcp-pick-sel{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--dcp-ink2)}.dcp-pick-sel select{font:inherit;font-size:.9rem;color:var(--dcp-ink);background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:3px;padding:10px 12px;max-width:260px;cursor:pointer}.dcp-pick-az{display:flex;flex-wrap:wrap;gap:4px;padding:14px 24px;border-bottom:1px solid var(--dcp-line)}.dcp-pick-az button{min-width:29px;height:32px;padding:0 7px;border:1px solid var(--dcp-line);border-radius:3px;background:var(--dcp-bg);font:inherit;font-size:.82rem;font-weight:600;color:var(--dcp-ink2);cursor:pointer}.dcp-pick-az button:hover{border-color:var(--dcp-teal-d);color:var(--dcp-teal-d)}.dcp-pick-az button[aria-pressed=true]{background:#00776f;border-color:#00776f;color:#fff}html.dc-dark .dcp-pick-az button[aria-pressed=true]{background:#0c8074;border-color:#0c8074}.dcp-pick-list{flex:1;min-height:220px;overflow-y:auto;padding:4px 24px 20px;columns:4 190px;column-gap:34px}.dcp-pick-list h3{margin:16px 0 6px;padding-bottom:5px;border-bottom:1px solid var(--dcp-line);font-size:.8rem;font-weight:700;color:var(--dcp-teal-d);break-after:avoid}.dcp-pick-list label{display:flex;align-items:center;gap:9px;padding:5px 0;font-size:.9rem;cursor:pointer;break-inside:avoid}.dcp-pick-list label.off{opacity:.4}.dcp-pick-list label>span:first-of-type{min-width:0;overflow-wrap:anywhere}.dcp-pick-list input{accent-color:var(--dcp-teal-d);width:15px;height:15px;flex:none;margin:0}.dcp-pick-none{column-span:all;color:var(--dcp-ink2);padding:28px 0}.dcp-pick-foot{display:flex;align-items:center;gap:16px;padding:14px 24px;border-top:1px solid var(--dcp-line);background:var(--dcp-soft)}.dcp-pick-sum{color:var(--dcp-ink2);font-size:.88rem}.dcp .dcp-pick-foot .dcp-btn{width:auto;margin-inline-start:auto;padding:12px 26px}.dcp-pick-x:focus-visible,.dcp-pick-az button:focus-visible,.dcp-pick-sel select:focus-visible{outline:2px solid var(--dcp-teal-d);outline-offset:2px}@media(max-width:640px){.dcp-pick{padding:0}.dcp-pick-box{max-height:100dvh;height:100dvh;border-radius:0;border:0}.dcp-pick-head,.dcp-pick-tools,.dcp-pick-az,.dcp-pick-list,.dcp-pick-foot{padding-inline:16px}.dcp-pick-list{columns:2 140px;column-gap:20px}.dcp-pick-sel{flex:1 1 100%}.dcp-pick-sel select{flex:1;max-width:none}.dcp-pick-az{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.dcp-pick-az::-webkit-scrollbar{display:none}.dcp-pick-az button{flex:none}.dcp-pick-head{padding-top:16px}}' + MINI_CSS +
+    + '.dcp-facets{scrollbar-width:none;-ms-overflow-style:none;scrollbar-gutter:auto}.dcp-facets::-webkit-scrollbar{width:0;height:0;display:none}.dcp-morewrap{display:flex;justify-content:center;margin-top:28px}.dcp-morewrap .dcp-btn{width:auto;padding:13px 30px}.dcp-card-rel{display:flex;flex-wrap:wrap;gap:2px 16px}.dcp-card-rel .dcp-more{padding:0;text-align:start}html.dcp-pick-open{overflow:hidden}.dcp-pick{position:fixed;inset:0;z-index:100000;display:flex;align-items:center;justify-content:center;padding:24px}.dcp-pick[hidden]{display:none}.dcp-pick-bg{position:absolute;inset:0;background:rgba(10,12,14,.55)}.dcp-pick-box{position:relative;display:flex;flex-direction:column;width:min(1440px,100%);max-height:calc(100dvh - 48px);background:var(--dcp-bg);color:var(--dcp-ink);border:1px solid var(--dcp-line);border-radius:6px;box-shadow:0 30px 80px -24px rgba(0,0,0,.45);overflow:hidden}.dcp-pick-head{display:flex;align-items:baseline;gap:12px;padding:26px 36px 4px}.dcp-pick-head h2{margin:0;font-size:1.35rem;font-weight:700;color:var(--dcp-ink)}.dcp-pick-n{color:var(--dcp-ink3);font-size:.85rem;font-variant-numeric:tabular-nums}.dcp-pick-x{margin-inline-start:auto;align-self:center;background:none;border:0;font-size:1.75rem;line-height:1;color:var(--dcp-ink2);cursor:pointer;padding:0 4px}.dcp-pick-tools{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;padding:18px 36px 0}.dcp-pick-tools .dcp-search-in{flex:1 1 260px;min-width:0}.dcp-pick-sel{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--dcp-ink2)}.dcp-pick-sel select{font:inherit;font-size:.9rem;color:var(--dcp-ink);background:var(--dcp-bg);border:1px solid var(--dcp-line);border-radius:3px;padding:10px 12px;max-width:260px;cursor:pointer}.dcp-pick-az{display:flex;flex-wrap:wrap;gap:6px;padding:18px 36px;border-bottom:1px solid var(--dcp-line)}.dcp-pick-az button{min-width:29px;height:32px;padding:0 7px;border:1px solid var(--dcp-line);border-radius:3px;background:var(--dcp-bg);font:inherit;font-size:.82rem;font-weight:600;color:var(--dcp-ink2);cursor:pointer}.dcp-pick-az button:hover{border-color:var(--dcp-teal-d);color:var(--dcp-teal-d)}.dcp-pick-az button[aria-pressed=true]{background:#00776f;border-color:#00776f;color:#fff}html.dc-dark .dcp-pick-az button[aria-pressed=true]{background:#0c8074;border-color:#0c8074}.dcp-pick-list{flex:1;min-height:220px;overflow-y:auto;padding:20px 36px 28px;columns:5 210px;column-gap:64px}.dcp-pick-list h3:first-child{margin-top:0}.dcp-pick-list h3{margin:24px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--dcp-line);font-size:.8rem;font-weight:700;color:var(--dcp-teal-d);break-after:avoid}.dcp-pick-list label{display:flex;align-items:center;gap:11px;padding:7px 0;font-size:.92rem;cursor:pointer;break-inside:avoid}.dcp-pick-list label.off{opacity:.4}.dcp-pick-list label>span:first-of-type{min-width:0;overflow-wrap:anywhere}.dcp-pick-list input{accent-color:var(--dcp-teal-d);width:15px;height:15px;flex:none;margin:0}@media(min-width:641px){.dcp-pick-box:has(.dcp-pick-list){height:min(980px,calc(100dvh - 48px))}}.dcp-pick-none{column-span:all;color:var(--dcp-ink2);padding:28px 0}.dcp-pick-foot{display:flex;align-items:center;gap:16px;padding:16px 36px;border-top:1px solid var(--dcp-line);background:var(--dcp-soft)}.dcp-pick-sum{color:var(--dcp-ink2);font-size:.88rem}.dcp .dcp-pick-foot .dcp-btn{width:auto;margin-inline-start:auto;padding:12px 26px}.dcp-pick-x:focus-visible,.dcp-pick-az button:focus-visible,.dcp-pick-sel select:focus-visible{outline:2px solid var(--dcp-teal-d);outline-offset:2px}@media(max-width:640px){.dcp-pick{padding:0}.dcp-pick-box{max-height:100dvh;height:100dvh;border-radius:0;border:0}.dcp-pick-head,.dcp-pick-tools,.dcp-pick-az,.dcp-pick-list,.dcp-pick-foot{padding-inline:16px}.dcp-pick-list{columns:2 140px;column-gap:20px}.dcp-pick-sel{flex:1 1 100%}.dcp-pick-sel select{flex:1;max-width:none}.dcp-pick-az{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.dcp-pick-az::-webkit-scrollbar{display:none}.dcp-pick-az button{flex:none}.dcp-pick-head{padding-top:16px}}' + MINI_CSS +
     # card: the name opens the quick view; compare sits beside the part number
     '.dcp .dcp-open{all:unset;cursor:pointer;color:inherit;font:inherit}'
     '.dcp .dcp-open:hover{color:var(--dcp-teal-d);text-decoration:underline;text-underline-offset:3px}'
@@ -679,6 +709,22 @@ CAT_CSS = (
     '.dcp-card-photo{cursor:zoom-in}'
     '.dcp-card-sub{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto}'
     '.dcp-card .dcp-add-row{margin-top:0}'
+    '.dcp-card-d{margin:0;font-size:.85rem;line-height:1.5;color:var(--dcp-ink2);border-top:1px solid var(--dcp-line);padding-top:12px;'
+    'display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}'
+    '.dcp-specs+.dcp-card-d{border-top:0;padding-top:0}'
+    # the request button: in the sidebar on desktop (it never covers a card), floating on phones
+    '#dcp-reqslot{position:sticky;top:0;z-index:2;background:var(--dcp-bg);padding-bottom:14px}'
+    '#dcp-reqslot:empty{display:none}'
+    '.dcp-reqbtn{display:flex;align-items:center;gap:10px;width:100%;padding:12px 14px;border:0;border-radius:6px;'
+    'background:var(--dcp-teal-d);color:#fff;font:inherit;font-weight:600;cursor:pointer;text-align:start}'
+    '.dcp-reqbtn:hover{background:var(--dcp-teal-dd)}'
+    'html.dc-dark .dcp-reqbtn{background:#0c8074}'
+    '.dcp-reqbtn .dcp-fabn{margin-inline-start:auto}'
+    '.dcp-reqbtn:focus-visible{outline:2px solid var(--dcp-teal-d);outline-offset:2px}'
+    '@media(min-width:901px){.dcp-fab{display:none!important}}'
+    '@media(max-width:900px){#dcp-reqslot{display:none}}'
+    '@media(max-width:600px){.dcp-fab{padding:14px}.dcp-fab-t{position:absolute;width:1px;height:1px;overflow:hidden;'
+    'clip:rect(0 0 0 0);white-space:nowrap}}'
     '.dcp-cmp{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;color:var(--dcp-ink2);cursor:pointer;flex:none}'
     '.dcp-cmp input{accent-color:var(--dcp-teal-d);width:14px;height:14px;margin:0}'
     # sort, recently viewed, suggestions

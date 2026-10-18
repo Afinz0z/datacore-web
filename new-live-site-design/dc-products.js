@@ -74,7 +74,7 @@
   var P = RAW.p.map(function (r) {
     var c = RAW.cats[r[3]];
     var p = { sku: r[0], n: r[1], b: r[2] > -1 ? RAW.brands[r[2]] : '', ck: c[0], c: AR ? c[1] : c[0], cx: c[0] + ' ' + c[1], grp: c[2],
-      g: r[4], photo: r[5], specs: r[6] || [], d: '', avail: r[8] ? 'stock' : 'lead', kids: r[9] || [], fits: r[10] || [],
+      g: r[4], photo: r[5], specs: r[6] || [], card: r[6] || [], note: r[7] || '', d: '', avail: r[8] ? 'stock' : 'lead', kids: r[9] || [], fits: r[10] || [],
       page: r[11] ? r[11] + (AR ? '-ar' : '') + '.html' : '', sm: !!r[12], src: '', checked: '', model: '' };
     index(p);
     BY[p.sku] = p;
@@ -82,7 +82,7 @@
   });
   function index(p) {   // what search looks through
     p.t = (p.n + ' ' + p.b + ' ' + p.sku + ' ' + p.model + ' ' + p.cx + ' ' + GROUP[p.grp] + ' ' +
-      p.specs.map(function (s) { return s[1]; }).join(' ') + ' ' + p.d).toLowerCase();
+      p.specs.map(function (s) { return s[1]; }).join(' ') + ' ' + (p.d || p.note)).toLowerCase();
     p.tc = compact(p.t); p.nc = compact(p.n + ' ' + p.sku);
   }
   P.forEach(function (p, i) { p.i = i; });
@@ -120,8 +120,8 @@
   }
 
   function availName(a) { return a === 'stock' ? L.in_stock : L.on_order; }
-  // the specs a card shows: the first four short enough for one line (same rule as build_products.card_specs)
-  function cardSpecs(p) { return p.specs.filter(function (s) { return s[1].length <= 48; }).slice(0, 4); }
+  // the card's spec lines and description note are chosen by build_products (card_specs, card_note)
+  function cardSpecs(p) { return p.card; }
   function alt(p) { return p.photo.indexOf('brands/') === 0 ? ((D.logoAlt || {})[p.b] || p.b) + ' logo' : p.n; }
   function smallSrc(p) { return D.photoDir + esc(p.sm ? p.photo.replace('/', '/sm/') : p.photo); }
   function imgHTML(p, i, big) {   // same markup as build_products.img_html
@@ -163,6 +163,8 @@
     var specs = cardSpecs(p).map(function (s) {
       return '<div><dt>' + esc(s[0]) + '</dt><dd dir="ltr">' + esc(s[1]) + '</dd></div>';
     }).join('');
+    var block = (specs ? '<dl class="dcp-specs">' + specs + '</dl>' : '') +
+      (p.note ? '<p class="dcp-card-d" dir="auto">' + esc(p.note) + '</p>' : '');
     var media = p.photo
       ? '<div class="dcp-card-photo">' + imgHTML(p, i) + '</div>'
       : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>';
@@ -173,7 +175,7 @@
       '<div class="dcp-card-top">' + brandHTML(p) + availHTML(p) + '</div>' +
       '<h3 dir="auto">' + name + '</h3>' +
       '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(p.c) + '</span></div>' +
-      '<dl class="dcp-specs">' + specs + '</dl>' + relHTML(p) +
+      block + relHTML(p) +
       '<div class="dcp-card-sub"><span class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</span>' + cmpBox(p) + '</div>' +
       qtyHTML(p) + '</article>';
   }
@@ -308,8 +310,19 @@
     h += fgroup(L.type, 'cat', tally('cat'), 8);
     h += fgroup(L.brand, 'brand', tally('brand'), 8);
     if (hasStock) h += fgroup(L.availability, 'avail', tally('avail'), 4);   // only when stock differs
-    facetsEl.innerHTML = h;
+    facetsEl.innerHTML = '<div id="dcp-reqslot"></div>' + h;
+    drawReq();
   }
+  // on desktop the request button sits at the top of the sidebar, which stays in view, instead of
+  // floating over the cards (phones keep the floating one; the sidebar is a sheet there)
+  var CART = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.35"/><circle cx="18" cy="20" r="1.35"/><path d="M2.5 3h2.3l2.2 11.4a1.6 1.6 0 0 0 1.6 1.3h8.2a1.6 1.6 0 0 0 1.55-1.2L21.5 7H6.3"/></svg>';
+  function drawReq() {
+    var slot = document.getElementById('dcp-reqslot'); if (!slot) return;
+    var n = Object.keys(basket).length;
+    slot.innerHTML = n ? '<button type="button" class="dcp-reqbtn" id="dcp-reqbtn">' + CART + '<span>' + L.req_title +
+      '</span><span class="dcp-fabn">' + n + '</span></button>' : '';
+  }
+  function shown_(el) { return !!el && el.getBoundingClientRect().width > 0; }
 
   // ── results a page at a time, count, active chips ───────────────
   var grid = document.getElementById('dcp-grid');
@@ -380,6 +393,7 @@
     apply('push'); renderFacets();
   });
   facetsEl.addEventListener('click', function (ev) {
+    if (ev.target.closest('#dcp-reqbtn')) { openD(); return; }
     if (ev.target.id === 'dcp-clearall') { DIMS.forEach(function (d) { S[d] = []; }); S.rel = ''; apply('push'); renderFacets(); return; }
     var m = ev.target.getAttribute('data-more'); if (m) { S['_m_' + m] = true; renderFacets(); }
     var pk = ev.target.getAttribute('data-pick'); if (pk) openPick(pk, ev.target);
@@ -748,8 +762,9 @@
   function flyToCart(btn) {
     if (matchMedia('(prefers-reduced-motion:reduce)').matches) return;
     var card = btn.closest('#dcp-grid .dcp-card'), ph = card && card.querySelector('.dcp-card-photo');
-    if (!ph || fab.hidden) return;
-    var r = ph.getBoundingClientRect(), t = fab.getBoundingClientRect();
+    var to = shown_(document.getElementById('dcp-reqbtn')) ? document.getElementById('dcp-reqbtn') : fab;
+    if (!ph || !shown_(to)) return;
+    var r = ph.getBoundingClientRect(), t = to.getBoundingClientRect();
     var fly = document.createElement('div');
     fly.style.cssText = 'position:fixed;z-index:2000;pointer-events:none;border-radius:8px;overflow:hidden;background:#12211f;'
       + 'left:' + r.left + 'px;top:' + r.top + 'px;width:' + r.width + 'px;height:' + r.height + 'px;'
@@ -776,6 +791,7 @@
     var n = count();
     fabN.textContent = n;
     fab.hidden = n === 0;
+    drawReq();
     if (lastN !== -1 && n !== lastN) {   // pulse the badge + nudge the cart when the count changes
       fabN.classList.remove('dcp-bump'); void fabN.offsetWidth; fabN.classList.add('dcp-bump');
       fab.classList.remove('dcp-added'); void fab.offsetWidth; fab.classList.add('dcp-added');
@@ -842,7 +858,8 @@
   function closeD() {
     if (!drawer.classList.contains('open')) return;
     drawer.classList.remove('open'); scrim.hidden = true; drawer.setAttribute('aria-hidden', 'true');
-    if (!fab.hidden) fab.focus();
+    var rb = document.getElementById('dcp-reqbtn');
+    if (shown_(rb)) rb.focus(); else if (shown_(fab)) fab.focus();
   }
   fab.addEventListener('click', openD);
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeD(); });

@@ -117,6 +117,12 @@ for the architecture, the build and the deploy.
   contracts, warranties and software show the maker's logo instead (`assets1/images/brands/<brand>.webp`,
   same size, named with `safe_name()` of the lower-case brand).
 - Pages hold 60 cards (rows of 2 to 6 always fill). Photos past the first 12 cards load at low priority.
+- A card shows up to four short spec lines, with a size or weight in the last place when the product has
+  one (`card_specs()`). With fewer than three lines it also shows up to four lines of the product's own
+  description (`card_note()`), unless the description only repeats the name. Nothing else fills a card:
+  no placeholder text and no specs from the export's free-text column.
+- On desktop the request button sits at the top of the filter sidebar, which stays in view, so it never
+  covers a card. On phones it floats in the corner as an icon with the count.
 - The default order mixes the catalogue: products with a photo first, then each half dealt out one at a
   time across filter groups, then brands inside a group, then categories (`_variety()` in
   `build_products.py`). A page never opens on one category, and one maker with many photos can't fill it.
