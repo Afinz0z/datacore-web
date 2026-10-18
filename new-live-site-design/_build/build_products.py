@@ -7,14 +7,15 @@ The catalogue is several thousand products, so the page itself carries only the 
 cards and the starting filters (enough for crawlers and the first paint). Everything else is in
 assets1/data/products-data.js, stamped with a hash of its contents, which dc-products.js reads to
 filter, search and page through the rest."""
-import os, re, sys, json, hashlib
+import itertools, os, re, sys, json, hashlib
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER, SITE
 from product_data import safe_name, load_categories
 
 DATA = os.path.dirname(os.path.abspath(__file__))  # data files bundled in _build/
-PAGE = 24                                          # cards per page (first page is in the HTML)
+PAGE = 60                                          # cards per page (first page is in the HTML); 60 fills rows of 2 to 6
+LOW_AFTER = 12                                     # cards below the first rows fetch their photo at low priority
 GROUPS, RESOLVE = load_categories()
 
 
@@ -76,9 +77,26 @@ def _alt(p):
     return (LOGO_ALT.get(p["b"], p["b"]) + " logo") if _photo(p).startswith("brands/") else p["n"]
 PHOTO_DIR = "assets1/images/"
 
-# Products with their own photo come first, each half in catalogue order; photos are added a brand
-# at a time, so the first page improves with every batch. Logos don't count as photos here.
-PRODUCTS = sorted(_load_products(), key=lambda p: not _own_photo(p))
+def _variety(items, keys):
+    """Deal products out like cards: one from each pile in turn, piled by the first key, and each pile
+    dealt the same way by the next key. Any page then mixes kinds and brands instead of opening on
+    one category, and a filtered view stays mixed inside the filter."""
+    if not keys or len(items) < 2:
+        return items
+    piles = {}
+    for p in items:
+        piles.setdefault(keys[0](p), []).append(p)
+    dealt = [_variety(pile, keys[1:]) for pile in piles.values()]
+    return [p for row in itertools.zip_longest(*dealt) for p in row if p is not None]
+
+
+# Products with their own photo come first (logos don't count), each half dealt across filter groups,
+# then brands inside a group, then categories inside a brand. Brand comes before category so one
+# maker with many photos (Crestron) can't fill the first page.
+_VARIETY = [lambda p: p["cat"]["grp"], lambda p: p["b"], lambda p: p["cat"]["en"]]
+_ALL = _load_products()
+PRODUCTS = (_variety([p for p in _ALL if _own_photo(p)], _VARIETY)
+            + _variety([p for p in _ALL if not _own_photo(p)], _VARIETY))
 _BY = {p["sku"]: p for p in PRODUCTS}
 for _p in PRODUCTS:          # bundle links: supporting products (acc) and the products they fit (for)
     _p["kids"] = [s for s in _p["acc"] if s in _BY]
@@ -153,7 +171,7 @@ def rel_html(p, L):
     return f'<div class="dcp-card-rel">{b}</div>' if b else ''
 
 
-def card_html(p, ar):
+def card_html(p, ar, i=0):
     """One product card. Mirrors cardHTML() in dc-products.js, which redraws the grid once the
     catalogue data has loaded."""
     L = LABELS['ar' if ar else 'en']
@@ -163,7 +181,8 @@ def card_html(p, ar):
     photo = _photo(p)
     if photo:
         media = (f'<div class="dcp-card-photo"><img src="{PHOTO_DIR}{_jesc(photo)}" alt="{_jesc(_alt(p))}" '
-                 'width="600" height="600" decoding="async"></div>')
+                 'width="600" height="600" decoding="async"' + (' fetchpriority="low"' if i >= LOW_AFTER else '')
+                 + '></div>')
     else:
         glyph = GLYPHS.get(p['g']) or GLYPHS.get('rack') or ''
         media = ('<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">'
@@ -268,7 +287,7 @@ def build_products(ar, data_url):
     </div>
     <div class="dcp-catbar"><span class="dcp-count" id="dcp-count" aria-live="polite">{count}</span></div>
     <div class="dcp-chips" id="dcp-chips"></div>
-    <div class="dcp-grid" id="dcp-grid">{''.join(card_html(p, ar) for p in first)}</div>
+    <div class="dcp-grid" id="dcp-grid">{''.join(card_html(p, ar, i) for i, p in enumerate(first))}</div>
     <p id="dcp-empty" class="dcp-count" hidden>{esc(L['empty'])}</p>
     <div class="dcp-morewrap"><button class="dcp-btn dcp-btn-o" id="dcp-more" type="button"{'' if total > PAGE else ' hidden'}>{esc(L['more'])}</button></div>
   </div>
@@ -298,7 +317,7 @@ def build_products(ar, data_url):
       + f'<section class="dcp-sec"><div class="dcp-wrap">{tools}</div></section>'
       + cta_band(ar) + footer(ar) + drawer)
 
-    data = {"lang": lang, "labels": L, "glyphs": GLYPHS, "page": PAGE, "photoDir": PHOTO_DIR, "logoAlt": LOGO_ALT}
+    data = {"lang": lang, "labels": L, "glyphs": GLYPHS, "page": PAGE, "lowAfter": LOW_AFTER, "photoDir": PHOTO_DIR, "logoAlt": LOGO_ALT}
     js = ('<script>window.DCP_DATA=' + json.dumps(data, ensure_ascii=False) + ';</script>'
           f'<script src="{data_url}"></script>'
           '<script src="dc-products.js?v=' + VER + '"></script>')

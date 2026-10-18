@@ -87,7 +87,7 @@
     if (p.fits.length) b += '<button type="button" class="dcp-more" data-rel="' + esc(p.sku) + '">' + L.rel_for.replace('{n}', p.fits.length) + '</button>';
     return b ? '<div class="dcp-card-rel">' + b + '</div>' : '';
   }
-  function cardHTML(p) {
+  function cardHTML(p, i) {
     var specs = cardSpecs(p).map(function (s) {
       return '<div><dt>' + esc(s[0]) + '</dt><dd dir="ltr">' + esc(s[1]) + '</dd></div>';
     }).join('');
@@ -95,7 +95,7 @@
       ? '<span class="dcp-badge stock">' + L.in_stock + '</span>'
       : '<span class="dcp-badge lead">' + L.on_order + '</span>';
     var media = p.photo
-      ? '<div class="dcp-card-photo"><img src="' + D.photoDir + esc(p.photo) + '" alt="' + esc(p.photo.indexOf('brands/') === 0 ? ((D.logoAlt || {})[p.b] || p.b) + ' logo' : p.n) + '" width="600" height="600" decoding="async"></div>'
+      ? '<div class="dcp-card-photo"><img src="' + D.photoDir + esc(p.photo) + '" alt="' + esc(p.photo.indexOf('brands/') === 0 ? ((D.logoAlt || {})[p.b] || p.b) + ' logo' : p.n) + '" width="600" height="600" decoding="async"' + (i >= (D.lowAfter || 12) ? ' fetchpriority="low"' : '') + '></div>'
       : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>';
     return '<article class="dcp-card" data-sku="' + esc(p.sku) + '">' + media +
       '<div class="dcp-card-top">' + (p.b ? '<span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span>' : '<span class="dcp-card-brand"></span>') + av + '</div>' +

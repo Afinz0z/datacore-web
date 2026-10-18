@@ -116,7 +116,11 @@ for the architecture, the build and the deploy.
   `_` (`safe_name()` in `product_data.py`). Products with a photo are listed first. Licences, support
   contracts, warranties and software show the maker's logo instead (`assets1/images/brands/<brand>.webp`,
   same size, named with `safe_name()` of the lower-case brand).
-- The page itself carries the first 24 cards. The full catalogue is `assets1/data/products-data.js`,
+- Pages hold 60 cards (rows of 2 to 6 always fill). Photos past the first 12 cards load at low priority.
+- The default order mixes the catalogue: products with a photo first, then each half dealt out one at a
+  time across filter groups, then brands inside a group, then categories (`_variety()` in
+  `build_products.py`). A page never opens on one category, and one maker with many photos can't fill it.
+- The page itself carries the first page of cards. The full catalogue is `assets1/data/products-data.js`,
   stamped with a hash of its contents, so a new import is never served from a stale cache.
 
 ## Operational notes
