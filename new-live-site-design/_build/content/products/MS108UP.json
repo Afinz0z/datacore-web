@@ -1,16 +1,67 @@
 {
  "sku": "MS108UP",
- "order": 3012,
+ "order": 2910,
  "n": "8-port Multi-gigabit (2.5G) Ethernet Unmanaged Switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8PT POE++ MULTIGIG UM SWCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Multi-gigabit copper ports",
+   "value": "8 (1G/2.5G)"
+  },
+  {
+   "label": "Number of PoE+ (802.3at) ports",
+   "value": "4"
+  },
+  {
+   "label": "Number of PoE++ (802.3bt) ports",
+   "value": "4"
+  },
+  {
+   "label": "Total PoE Power budget",
+   "value": "230 Watts"
+  },
+  {
+   "label": "Uninterrupted PoE",
+   "value": "Yes"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "Internal/External PSU",
+   "value": "External"
+  },
+  {
+   "label": "Fans",
+   "value": "0"
+  },
+  {
+   "label": "Acoustic Noise Level @25C",
+   "value": "Fanless"
+  },
+  {
+   "label": "MTBF",
+   "value": "373,643.7 hrs (42.6 yrs)"
+  },
+  {
+   "label": "Dimensions (W x D x H)",
+   "value": "210 x 140 x 40 mm (8.27 x 5.51 x 1.58 in)"
+  }
+ ],
  "acc": [
   "DRV-MS108UP-12",
   "DRV-MS108UP-36",
   "DRV-MS108UP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/switches/unmanaged/ms108up/",
+ "checked": "2026-10-18"
 }

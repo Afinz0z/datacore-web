@@ -1,6 +1,6 @@
 {
  "sku": "6509647",
- "order": 2377,
+ "order": 2281,
  "n": "Power Supply for FT2 ELEC Series (FT2A-UTK-PWS)",
  "b": "Crestron",
  "c": "Cable Cubby",
@@ -8,7 +8,44 @@
  "avail": "lead",
  "model": "FT2A-UTK-PWS",
  "d": "FT2A-UTK-PWS Power Supply for FT2 ELEC Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Line",
+   "value": "(1) IEC 60320 C7 main power inlet; Mates with removable power cord, included"
+  },
+  {
+   "label": "Load",
+   "value": "(1) 6 ft (1.83 m) attached cable with 2.1 x 5.5 mm DC power barrel connector; Center pin +"
+  },
+  {
+   "label": "Composition",
+   "value": "Plastic, black, includes mounting bracket"
+  },
+  {
+   "label": "Mounting",
+   "value": "• Attaches beneath the table to mounting slots on the front, left, or right side of the FlipTop chassis; • Requires approximately 10 inches (254 mm) minimum vertical clearance beneath the top surface of the table; • Proj"
+  },
+  {
+   "label": "Height",
+   "value": "4.91 in (125 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.21 in (57 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.57 in (40 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 113° F (0° to 45° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "for": [
   "6511653",
   "6511654",
@@ -20,5 +57,7 @@
   "6511666",
   "6511977",
   "6511978"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Accessories/FT2A-UTK-PWS",
+ "checked": "2026-10-18"
 }

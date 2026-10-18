@@ -1,6 +1,6 @@
 {
  "sku": "6513019",
- "order": 618,
+ "order": 560,
  "n": "AirMedia® Receiver 3000 with Wi-Fi® Network Connectivity (AM-3000-WF-I)",
  "b": "Crestron",
  "c": "Wireless content sharing",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "AM-3000-WF-I",
  "d": "AM-3000-WF-I AirMedia® Receiver 3000 with Wi-Fi® Network Connectivity, International",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto-switching, autonegotiating, autodiscovery, full/half duplex, TCP/IP, UDP/IP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), IEEE 802.1x, Active Directory authentication, HTTPS web browser set"
+  },
+  {
+   "label": "AirMedia",
+   "value": "Via Ethernet: IPv4, mDNS, TLS, AES; Via wireless access point: IEEE 802.11/b/g/n/ac/ax, 2.4 GHz or 5 GHz"
+  },
+  {
+   "label": "Bluetooth® Communications",
+   "value": "Bluetooth version 5.0"
+  },
+  {
+   "label": "USB Device",
+   "value": "USB 3.0 for computer console (installer setup and firmware update)"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "HDCP 2.2, EDID, CEC; Supports management of HDCP and EDID"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "AirMedia; Supports simultaneous display of up to four sources with AirMedia Canvas when presenting using the AirMedia Applications, Apple Screen Mirroring or Chrome Extension. Displays up to three sources when presenting"
+  },
+  {
+   "label": "Maximum Input Resolutions",
+   "value": "AirMedia presentation: 1920x1080@30Hz (1080p30); AirMedia Connect Adapter: 3840x2160@30Hz (4K30); NOTE: All video inputs will be scaled to the selected HDMI output resolution."
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI (DVI compatible)"
+  },
+  {
+   "label": "HDMI Output Resolutions",
+   "value": "1280x720@50Hz (720p50), 1280x720@60Hz (720p60), 1280x800@60Hz, 1366x768@60Hz, 1440x900@60Hz, 1600x900@60Hz, 1600x1200@60Hz, 1680x1050@60Hz, 1920x1080@50Hz (1080p50), 1920x1080@60Hz (1080p60), 3840x2160@30Hz (2160p30), 38"
+  },
+  {
+   "label": "Background & Logo File Support",
+   "value": "JPEG, PNG"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "AirMedia"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI"
+  }
+ ],
  "acc": [
   "6512130"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Presentation-and-Conferencing/AirMedia/Receiver/AM-3000-WF-I",
+ "checked": "2026-10-18"
 }

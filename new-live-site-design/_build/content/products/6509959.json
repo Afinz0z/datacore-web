@@ -1,6 +1,6 @@
 {
  "sku": "6509959",
- "order": 1630,
+ "order": 1528,
  "n": "SolarSync™ Outdoor Daylight and Color Temperature Sensor (GLS-LCCT)",
  "b": "Crestron",
  "c": "Sensors",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "GLS-LCCT",
  "d": "GLS-LCCT Crestron SolarSync™ Outdoor Daylight and Color Temperature Sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensor Technology",
+   "value": "Multi-Spectral Sensing Engine; measures color temperature and illuminance consistent with the CIE 1931 2° Standard Observer color coordinates"
+  },
+  {
+   "label": "Light Sensitivity",
+   "value": "0 to 100,000 lux (0 to 9,290 foot-candles)"
+  },
+  {
+   "label": "Field of View",
+   "value": "360° semispherical"
+  },
+  {
+   "label": "Cresnet",
+   "value": "Cresnet slave mode"
+  },
+  {
+   "label": "NET",
+   "value": "(1) Attached 3 ft (0.91 m) cable with (4) flying leads, color-coded for connection to the Cresnet control network; Wire Gauge: 24 AWG (0.25 mm²)"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "5 Watts (209 mA @ 24 Volts DC)"
+  },
+  {
+   "label": "Housing",
+   "value": "PTFE with acrylic diffused dome, white finish, IP67 rated"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounts to an electrical j-box or enclosure (not included)via a 1/2 in. conduit knockout (0.885 in. ( 22.5 mm) actual hole size)"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP67 rated per IEC/EN 60529, dust tight and waterproof"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "17 BTU/hr maximum"
+  },
+  {
+   "label": "Height",
+   "value": "2.77 in. (71 mm)"
+  },
+  {
+   "label": "Diameter",
+   "value": "2.69 in. (69 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Sensors/Photosensors/GLS-LCCT",
+ "checked": "2026-10-18"
 }

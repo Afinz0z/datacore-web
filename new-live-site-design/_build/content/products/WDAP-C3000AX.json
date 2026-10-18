@@ -1,11 +1,62 @@
 {
  "sku": "WDAP-C3000AX",
- "order": 3115,
+ "order": 3013,
  "n": "Wi-Fi 6 3000Mbps Planet",
  "b": "PLANET",
  "c": "ACCESS POINT",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Wi-Fi 6 3000Mbps 802.11ax Dual Band Ceiling-mount Wireless Access Point, 802.3at PoE PD, 2 10/100/1000T LAN, 802.1Q VLAN, supports NMS-500/NMS-1000V controller, CloudViewerPro app, MQTT, Captive Portal, RADIUS and cybersecurity features, AP/Gateway/Repeater/WISP modes, supports EasyMesh and roaming)",
- "specs": []
+ "specs": [
+  {
+   "label": "Antennas",
+   "value": "Gain: 4 x Internal 4dBi antenna (2.4G x2, 5G x2)"
+  },
+  {
+   "label": "Reset Button",
+   "value": "Reset button on the rear side (Press over 5 seconds to reset the device to factory default)"
+  },
+  {
+   "label": "LED Indicators",
+   "value": "Power, SYS"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "48V DC IN, 0.5A, IEEE 802.3at PoE+ (WAN/PoE were changed port) 12V DC IN, 1.5A from DC Jack (5.5 x 2.1mm)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Ceiling Mount"
+  },
+  {
+   "label": "Media Access Control",
+   "value": "CSMA/CA"
+  },
+  {
+   "label": "Band Mode",
+   "value": "2.4GHz / 5GHz concurrent mode"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "2.4GHz: FCC: 2.412~2.462GHz ETSI: 2.412~2.472GHz 5GHz: FCC: 5.180~5.240GHz, 5.745~5.825GHz ETSI: 5.180~5.700GHz"
+  },
+  {
+   "label": "Max. Transmit Power (dBm)",
+   "value": "FCC: up to 22 ± 1dBm ETSI: Network Mode Data Rate Max. Transmit Power (dBm)"
+  },
+  {
+   "label": "2.4G Power 802.11b",
+   "value": "1Mbps 11Mbps 22±2 22±2"
+  },
+  {
+   "label": "802.11g",
+   "value": "6Mbps 54Mbps 21±2 19±2"
+  },
+  {
+   "label": "802.11n HT20",
+   "value": "MCS0 MCS7 20±2 18±2"
+  }
+ ],
+ "src": "https://www.planet.com.tw/en/product/wdap-c3000ax",
+ "checked": "2026-10-18"
 }

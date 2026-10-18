@@ -1,11 +1,62 @@
 {
  "sku": "NVR4208-8P-EI",
- "order": 3376,
+ "order": 3274,
  "n": "8Ch Network Video Recorder",
  "b": "Dahua",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8CH 1U 8PoE 2HDDs WizSense Network Video Recorder",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Industrial-grade processor"
+  },
+  {
+   "label": "AI by Recorder",
+   "value": "Face detection; face recognition; perimeter protection; and SMD"
+  },
+  {
+   "label": "AI by Camera",
+   "value": "Face detection; face recognition; perimeter protection; SMD; ANPR; people counting; stereo analysis; heat map"
+  },
+  {
+   "label": "Face Attributes",
+   "value": "Gender; age group; glasses; expressions; face mask; beard"
+  },
+  {
+   "label": "SMD Plus by Recorder",
+   "value": "4 channels: Secondary filtering for human and motor vehicle, reducing false alarms caused by leaves, rain and lighting condition change"
+  },
+  {
+   "label": "SMD by Camera",
+   "value": "All channels (16 targets/s)"
+  },
+  {
+   "label": "Access Channel",
+   "value": "8 channels"
+  },
+  {
+   "label": "Network Bandwidth",
+   "value": "AI disabled: 256 Mbps incoming, 256 Mbps recording and 256 Mbps outgoing AI enabled: 180 Mbps incoming, 180 Mbps recording and 180 Mbps outgoing"
+  },
+  {
+   "label": "Resolution",
+   "value": "16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p;960p;D1;CIF"
+  },
+  {
+   "label": "Multi-screen Display",
+   "value": "1st Screen: 1/4/8/9 2nd Screen: 1/4/8/9"
+  },
+  {
+   "label": "Third-party Camera Access",
+   "value": "Panasonic, Sony, Hanwha, Axis, Pelco, Arecont, ONVIF, Canon"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Smart H.265+; H.265; Smart H.264+; H.264; MJPEG"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/th/products/All-Products/DE-2564/10.--(Network-Video-Recorder)--8-/NVR4208-8P-EI",
+ "checked": "2026-10-18"
 }

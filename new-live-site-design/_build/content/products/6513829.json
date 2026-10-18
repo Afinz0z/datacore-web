@@ -1,13 +1,62 @@
 {
  "sku": "6513829",
- "order": 1479,
+ "order": 1411,
  "n": "TSW-1080-W",
  "b": "Crestron",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "TSW-1080-W 10.1 in. Wall Mount Touch Screen, White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "TFT active matrix color LCD"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "10.1 in. (257 mm) diagonal"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10 WXGA"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "1920 x 1200 pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "Minimum: 350 nits (cd/m²); Maximum: 400 nits (cd/m²)"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Color Depth",
+   "value": "24 bit, 16.7M colors"
+  },
+  {
+   "label": "Illumination",
+   "value": "Edgelit LED with auto brightness control"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "±80° horizontal, ±80° vertical"
+  },
+  {
+   "label": "Touch Screen",
+   "value": "Projected capacitive, 5 point multitouch capable"
+  },
+  {
+   "label": "Crestron Scheduling App",
+   "value": "Microsoft Exchange Server® and Microsoft 365® software, Google Calendar™ calendaring app and G Suite™ software, CollegeNET® 25Live® software, and Ad Astra™ software"
+  },
+  {
+   "label": "Third-Party Apps",
+   "value": "Includes support for various third-party scheduling applications."
+  }
+ ],
  "acc": [
   "6513956",
   "6513957",
@@ -18,5 +67,7 @@
   "6514114",
   "6514116",
   "6514118"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Touchscreen/TSW-1080-W",
+ "checked": "2026-10-18"
 }

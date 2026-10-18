@@ -1,6 +1,6 @@
 {
  "sku": "8205NH",
- "order": 3872,
+ "order": 3770,
  "n": "2 Core, LSZH, Unshielded",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -9,16 +9,50 @@
  "d": "20-1P STR TNC LSZH JKT CMG 300V 80C CHR (500Mtr/Roll)",
  "specs": [
   {
-   "label": "Type",
-   "value": "LSZH, Unshielded"
+   "label": "Suitable Applications",
+   "value": "Instrumentation and computer cable; For data transmission applications"
   },
   {
-   "label": "Series",
-   "value": "Unshielded"
+   "label": "Installation Storage -15°C To +80°C",
+   "value": "-45°C To +80°C"
   },
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2, IEC 60332-3-24"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Dca-s1,d1,a1; CPR UKCA Class: Dca-s1,d1,a1"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "Update and Revision",
+   "value": "Revision Number: 0.270 Revision Date: 07-23-2026"
+  },
+  {
+   "label": "8205NH.00500",
+   "value": "Chrome Reel 500 m 8719605018151"
+  },
+  {
+   "label": "8205NH.001000",
+   "value": "Chrome Reel 1,000 m 8719605018137"
+  },
+  {
+   "label": "8205NH.019999",
+   "value": "Violet Reel 999 m 8719605018175"
+  },
+  {
+   "label": "8205NH.011000",
+   "value": "Violet Reel 1,000 m 8719605018168"
+  },
+  {
+   "label": "Size Stranding Material 20",
+   "value": "7x28 TC - Tinned Copper"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/8205nh",
+ "checked": "2026-10-18"
 }

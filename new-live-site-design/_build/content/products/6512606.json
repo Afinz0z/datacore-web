@@ -1,17 +1,68 @@
 {
  "sku": "6512606",
- "order": 4669,
+ "order": 4589,
  "n": "TSS-470E-B-T",
  "b": "Crestron",
  "c": "Room Booking/Scheduling",
  "dept": "AV",
  "avail": "lead",
  "d": "TSS-470E-B-T 3.5 in. Desk Scheduling Touch Screen, Black Textured",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "Transflective LCD, backlit"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "3.5 in. (89 mm) diagonal"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "480 x 320 pixels"
+  },
+  {
+   "label": "Crestron Scheduling App",
+   "value": "Microsoft 365® software"
+  },
+  {
+   "label": "Third-Party Apps",
+   "value": "Includes support for various third-party scheduling applications"
+  },
+  {
+   "label": "User Interface (Desk Mode)",
+   "value": "Arabic, Chinese (Simplified), Chinese (Traditional), Czech, Croatian, Danish, Dutch, English (UK), English (US), Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese"
+  },
+  {
+   "label": "User Interface (Room Mode)",
+   "value": "Chinese (Simplified), Chinese (Traditional), English (US), German, French, Italian, Hebrew, Japanese, Norwegian, Spanish, Swedish"
+  },
+  {
+   "label": "RAM",
+   "value": "1 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "8 GB SD Card"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP, IEEE 802.1X, SNMP, NTP, IPv4, HTTPS web browser setup, XiO Cloud® client, IEEE 802.3at compl"
+  },
+  {
+   "label": "USB",
+   "value": "USB 2.0 host"
+  },
+  {
+   "label": "Transceiver",
+   "value": "IEEE 802.11a/b/g/n/ac Wi-Fi® communications (2.4 or 5 GHz 2-way RF), static IP or dynamic IP via DHCP"
+  }
+ ],
  "acc": [
   "6512966",
   "6512967",
   "6513020",
   "6513476"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Scheduling/Desk-Scheduling/Accessories/TSS-470E-B-T",
+ "checked": "2026-10-18"
 }

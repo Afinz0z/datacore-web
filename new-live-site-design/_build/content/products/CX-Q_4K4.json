@@ -1,6 +1,6 @@
 {
  "sku": "CX-Q 4K4",
- "order": 1093,
+ "order": 1033,
  "n": "4-Channel 1000W/CH Q-SYS network Amplifier, Lo-Z (CX-Q 4K4)",
  "b": "QSC",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CX-Q 4K4",
  "d": "4-Channel 1000W/CH Q-SYS network Amplifier, Lo-Z,",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum distortion 4Ω - 8 Ω",
+   "value": "1.0%"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz +0.2 dB / -0.7 dB"
+  },
+  {
+   "label": "Gain (1.2V setting)",
+   "value": "33 dB 35 dB 38 dB"
+  },
+  {
+   "label": "Damping factor",
+   "value": "> 100"
+  },
+  {
+   "label": "Input impedance",
+   "value": "> 8k balanced and > 4k unbalanced"
+  },
+  {
+   "label": "Amplifier and load protection",
+   "value": "Short circuit, open circuit, over current, over voltage, thermal, RF, DC fault shutdown, active inrush limiting, on/off muting"
+  },
+  {
+   "label": "AC power input",
+   "value": "Universal power supply 100 - 240 VAC, 50 - 60 Hz"
+  },
+  {
+   "label": "4 Independent Channels A, B, C, D",
+   "value": "70V 700 W 1000 W 1250 W"
+  },
+  {
+   "label": "100V",
+   "value": "700 W 1000 W 1250 W"
+  },
+  {
+   "label": "200V",
+   "value": "1500 W 2000 W 2400 W"
+  },
+  {
+   "label": "2 Channels Parallel AB or CD Doubles Current",
+   "value": "70V 1400 W 2000 W 2400 W"
+  },
+  {
+   "label": "Controls and indicators (rear)",
+   "value": "AC Power Disconnect (IEC C-14)"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/audio-network-amplifiers/cx-q-series/cx-q-4k4/",
+ "checked": "2026-10-18"
 }

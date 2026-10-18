@@ -1,6 +1,6 @@
 {
  "sku": "10GXE01D",
- "order": 3883,
+ "order": 3781,
  "n": "4-Pair, F/FTP shielded",
  "b": "Belden",
  "c": "UTP CABLE",
@@ -9,12 +9,54 @@
  "d": "Category 6A (625MHz), 4-Pair, F/FTP shielded, Premise Horizontal Cable, 23 AWG Solid Bare Copper conductors, Foam Polyolefin insulation, each pair withBeldfoil® shield, AWG 26 solid tinned copper drainwire, overall Beldfoil® shield, LSZH jacket, CPR Euroclass Dca",
  "specs": [
   {
-   "label": "Type",
-   "value": "F/ftp"
+   "label": "Inner Shield Table Notes",
+   "value": "Aluminum facing outside"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Outer Shield Table Notes",
+   "value": "Aluminum facing inside. Drainwire between inner and outer foil"
+  },
+  {
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "7.0 mm (0.28 in)"
+  },
+  {
+   "label": "High Frequency Table Notes",
+   "value": "Limits below 4 MHz and at 625 MHz are for information only. Reference standard: IEC 61156-5"
+  },
+  {
+   "label": "Frequency Max. Transfer Impedance 1 Mhz",
+   "value": "Max. 50 mOhm/m"
+  },
+  {
+   "label": "10 Mhz",
+   "value": "Max. 100 mOhm/m"
+  },
+  {
+   "label": "30 Mhz",
+   "value": "Max. 200 mOhm/m"
+  },
+  {
+   "label": "100 Mhz",
+   "value": "Max. 1000 mOhm/m"
+  },
+  {
+   "label": "Transfer Impedance Class",
+   "value": "Grade 2"
+  },
+  {
+   "label": "Screening Class",
+   "value": "Type Ib"
+  },
+  {
+   "label": "Screening Table Notes",
+   "value": "Coupling Attenuation"
+  },
+  {
+   "label": "Max. Pull Tension",
+   "value": "110 N (25 lbf)"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/10gxe01d",
+ "checked": "2026-10-18"
 }

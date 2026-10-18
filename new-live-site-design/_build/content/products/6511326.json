@@ -1,6 +1,6 @@
 {
  "sku": "6511326",
- "order": 1647,
+ "order": 1566,
  "n": "4-Series Control System, International (MC4-I)",
  "b": "Crestron",
  "c": "Control Processor",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MC4-I",
  "d": "MC4-I 4-Series Control System, International",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto‑switching, auto‑negotiating, auto‑discovery, full/half duplex, industry-standard TCP/IP stack, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), FIPS 140-2 compliant encryption, IEE"
+  },
+  {
+   "label": "Cresnet® Network",
+   "value": "Cresnet master mode"
+  },
+  {
+   "label": "USB",
+   "value": "Supports USB mass storage class devices via the rear panel USB 2.0 host port"
+  },
+  {
+   "label": "IR",
+   "value": "Supports 1 way device control via infrared up to 1.2 MHz"
+  },
+  {
+   "label": "RF Transceiver",
+   "value": "infiNET EX® network 2-way RF, 2.4 GHz ISM Channels 11-26 (2400 to 2483.5 MHz), default channel 15; IEEE 802.15.4 compliant"
+  },
+  {
+   "label": "Wireless Communications range",
+   "value": "15 m (50 ft) to nearest mesh network device(s), subject to site-specific conditions and individual device capabilities, range between floors or ceilings is limited to one level"
+  },
+  {
+   "label": "SDRAM",
+   "value": "1 GB"
+  },
+  {
+   "label": "Flash",
+   "value": "8 GB"
+  },
+  {
+   "label": "Memory Card",
+   "value": "Supports microSD® cards up to 32 GB"
+  },
+  {
+   "label": "External Storage",
+   "value": "Supports USB mass storage devices up to 1 TB"
+  },
+  {
+   "label": "Power Source Options",
+   "value": "PoE (Power over Ethernet)"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3at Type 1 (802.3af compatible) Class 0 (12.95 W) PoE Powered Device"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Wall-Mount/MC4-I",
+ "checked": "2026-10-18"
 }

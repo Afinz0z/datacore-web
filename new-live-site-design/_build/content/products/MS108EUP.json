@@ -1,16 +1,67 @@
 {
  "sku": "MS108EUP",
- "order": 3011,
+ "order": 2909,
  "n": "8-port Multi-Gigabit (2.5G) Ethernet Smart Managed Pro Switch with PoE++",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8PT POE++ MULTIGIG PLUS SWCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Multi-gigabit copper ports",
+   "value": "8 (1G/2.5G)"
+  },
+  {
+   "label": "Number of PoE+ (802.3at) ports",
+   "value": "4"
+  },
+  {
+   "label": "Number of PoE++ (802.3bt) ports",
+   "value": "4"
+  },
+  {
+   "label": "Total PoE Power budget",
+   "value": "230 Watts"
+  },
+  {
+   "label": "Uninterrupted PoE",
+   "value": "Yes"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "DoS Prevention",
+   "value": "Yes"
+  },
+  {
+   "label": "Internal/External PSU",
+   "value": "External"
+  },
+  {
+   "label": "Fans",
+   "value": "0"
+  },
+  {
+   "label": "Acoustic Noise Level @25C",
+   "value": "Fanless"
+  },
+  {
+   "label": "MTBF",
+   "value": "373,643.7 hrs (42.6 yrs)"
+  }
+ ],
  "acc": [
   "DRV-MS108EUP-12",
   "DRV-MS108EUP-36",
   "DRV-MS108EUP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/easy-smart/ms108eup/",
+ "checked": "2026-10-18"
 }

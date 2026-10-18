@@ -1,14 +1,49 @@
 {
  "sku": "8100245",
- "order": 3782,
+ "order": 3680,
  "n": "Side panel, screw-fastened, sheet steel for VX-Rittal",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Side panel, screw-fastened, sheet steel for VX",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface finish",
+   "value": "Dipcoat-primed, powder-coated on the outside"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Assembly parts"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX Height: = 2,000 mm Depth: = 1,000 mm"
+  },
+  {
+   "label": "IP protection category to IEC 60 529",
+   "value": "IP 55"
+  },
+  {
+   "label": "Packs of",
+   "value": "2 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "140.07 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  }
+ ],
  "for": [
   "5309116"
- ]
+ ],
+ "src": "https://www.rittal.com/sg-en/products/PG20231215ZUB101/PG20240313ZUB102/PG20240313ZUB103/PRO70135?variantId=8100245",
+ "checked": "2026-10-18"
 }

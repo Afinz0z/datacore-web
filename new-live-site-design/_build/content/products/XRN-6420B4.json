@@ -1,6 +1,6 @@
 {
  "sku": "XRN-6420B4",
- "order": 3382,
+ "order": 3280,
  "n": "16 SATA, 520 Mbps, N+1 failover, AI Search (64 CH NVR)",
  "b": "Hanwha Vision",
  "c": "Network Video Recorder (NVR)",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "64 CH NVR",
  "d": "64 CH NVR, 16 SATA, 520 Mbps, N+1 failover, AI Search",
- "specs": []
+ "specs": [
+  {
+   "label": "Síťová kamera",
+   "value": "Vstupy Max. 64CH"
+  },
+  {
+   "label": "Rozlišení",
+   "value": "32MP ~ CIF"
+  },
+  {
+   "label": "Protokoly",
+   "value": "SUNAPI, ONVIF"
+  },
+  {
+   "label": "Dekódování",
+   "value": "Místní displej [Dual Display] HDMI 1: 3840 x 2160 (30Hz) HDMI 2: 1920x1080 (60Hz)"
+  },
+  {
+   "label": "Operační systém",
+   "value": "Vestavěný Linux"
+  },
+  {
+   "label": "Záznam",
+   "value": "Komprese H.265, H.264, MJPEG"
+  },
+  {
+   "label": "Šířka pásma záznamu",
+   "value": "Distributed mode : Up to 520 Mbps Normal mode : Up to 300 Mbps [RAID mode] Normal : Up to 520 Mbps Degrade/ Rebuild : Up to 520 Mbps"
+  },
+  {
+   "label": "Režim",
+   "value": "Normal, Dual Stream, Schedule(Continuous/Event), Event (Pre/Post), Bookmark"
+  },
+  {
+   "label": "Spouštěč události",
+   "value": "Alarm Input, Video Loss, Camera Event(Sensor, MD, Video Analytics, Defocus, Audio), Dynamic Event, User Event"
+  },
+  {
+   "label": "Akce na základě události",
+   "value": "e-Mail, Event Push, PTZ Preset, Alarm Out, Buzzer, Monitor Out, FTP, SUNAPI Command, Shutdown"
+  },
+  {
+   "label": "Vyhledávání a přehrávání",
+   "value": "Šířka pásma přehrávání Up to 200Mbps(64CH simultaneously)"
+  },
+  {
+   "label": "Uživatel",
+   "value": "Max. 4 Users (Local 1, Remote 3)"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/cz/products/product-details/XRN-6420B4",
+ "checked": "2026-10-18"
 }

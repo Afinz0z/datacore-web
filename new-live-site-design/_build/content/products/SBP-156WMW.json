@@ -1,15 +1,50 @@
 {
  "sku": "SBP-156WMW",
- "order": 3460,
+ "order": 3358,
  "n": "Wall and Pole Mount for PTZ Plus Cameras",
  "b": "Hanwha Vision",
  "c": "CCTV Mounting Equipment",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "RAL code",
+   "value": "RAL9003"
+  },
+  {
+   "label": "Mount Screw size",
+   "value": "TR30"
+  },
+  {
+   "label": "Max. load",
+   "value": "20kg"
+  },
+  {
+   "label": "Conduit hole",
+   "value": "19.1mm(3/4\")(M25)"
+  },
+  {
+   "label": "Category File Name Last Update",
+   "value": "DataSheet DataSheet_SBP-156WMW_20260227_EN_103222.pdf 2026-09-04"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum"
+  },
+  {
+   "label": "Product dimensions / weight",
+   "value": "135x183x302mm / 1,517g"
+  }
+ ],
  "for": [
   "DS-2DE5225W-AE3-T5",
   "QNP-6250R",
   "XNP-8300RW"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/ca/products/product-details/SBP-156WMW",
+ "checked": "2026-10-18"
 }

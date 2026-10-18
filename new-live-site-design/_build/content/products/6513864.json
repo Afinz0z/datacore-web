@@ -1,6 +1,6 @@
 {
  "sku": "6513864",
- "order": 1705,
+ "order": 1623,
  "n": "4K60 4:4:4 DM® Essentials Transmitter Receiver Pair for USB-C® (DM-EXT-2011-2G-B KIT)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-EXT-2011-2G-B KIT",
  "d": "DM-EXT-2011-2G-B KIT 4K60 4:4:4 DM® Essentials Transmitter Receiver Pair for USB-C® DisplayPort™, and USB 2.0 Signal Extension over CATx Cable, Wall Plate, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "DisplayPort™ over USB-C® (DisplayPort Alt Mode) with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI® with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "DisplayPort over USB-C (DisplayPort Alt Mode)"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, EDID, CEC pass-through"
+  },
+  {
+   "label": "DM",
+   "value": "HDCP 2.3, EDID; USB 2.0 up to 300 Mbps"
+  },
+  {
+   "label": "USB",
+   "value": "USB signal extension via USB 2.0 host ports"
+  },
+  {
+   "label": "Power Pack (included with Receiver)",
+   "value": "Input: 100-240VAC; Output: 24VDC 2.5A; Models: PW‑2420RU; NOTE: The power pack included with the receiver will power both units. Do not connect both power packs at once."
+  },
+  {
+   "label": "Chassis (Transmitter)",
+   "value": "Metal housing and bracket with black or white polycarbonate front label overlay"
+  },
+  {
+   "label": "Chassis (Receiver)",
+   "value": "Metal, black finish, vented sides, 2 mounting flanges"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Kits/DM-EXT-2011-2G-B-KIT",
+ "checked": "2026-10-18"
 }

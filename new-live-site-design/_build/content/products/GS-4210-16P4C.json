@@ -1,6 +1,6 @@
 {
  "sku": "GS-4210-16P4C",
- "order": 3034,
+ "order": 2932,
  "n": "16-Port Managed Switch Planet",
  "b": "PLANET",
  "c": "Network Switch",
@@ -9,12 +9,58 @@
  "d": "IPv6/IPv4, 16-Port Managed 802.3at POE+ Gigabit Ethernet Switch + 4-Port Gigabit Combo TP/SFP (220W PoE Budget, 250m Extend mode, supports ERPS Ring and cybersecurity features)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Access switch"
+   "label": "Copper Ports",
+   "value": "20 x 10/100/1000BASE-T RJ45 Auto-MDI/MDI-X ports"
+  },
+  {
+   "label": "PoE Injector Port",
+   "value": "16 ports with 802.3at/af PoE injector function with Port-1 to Port-16"
+  },
+  {
+   "label": "SFP Slots",
+   "value": "4 x 100/1000BASE-X SFP interfaces with Port-17 to Port-20 Supports 100/1000Mbps dual mode and DDM"
+  },
+  {
+   "label": "Console",
+   "value": "1 x RS-232-to-RJ45 serial port (115200, 8, N, 1)"
+  },
+  {
+   "label": "Reset Button",
+   "value": "> 5 sec: Factory default"
+  },
+  {
+   "label": "Fan",
+   "value": "2 fans"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "±8KV air gap discharge ±6KV contact discharge"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Metal"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "100~240V AC, 50/60Hz, 4A (max.)"
+  },
+  {
+   "label": "Switching Switch Architecture",
+   "value": "Store-and-Forward"
+  },
+  {
+   "label": "Switch Fabric",
+   "value": "40Gbps/non-blocking"
+  },
+  {
+   "label": "Switch Throughput@64Bytes",
+   "value": "29.76Mpps"
   }
  ],
  "acc": [
   "IGTP-805AT",
   "MGB-TSX2"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/gs-4210-16p4c-v4",
+ "checked": "2026-10-18"
 }

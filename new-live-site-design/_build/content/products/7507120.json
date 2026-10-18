@@ -1,15 +1,58 @@
 {
  "sku": "7507120",
- "order": 3769,
- "n": "12U Cabinet (Rittal)",
+ "order": 3667,
+ "n": "12U Cabinet",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "RIT TAL 19\" Mounting Frame PN 7507120 - DK FlatBox 600x625x600mm 12U",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "with 482.6 mm (19\") mounting frame"
+  },
+  {
+   "label": "Product description",
+   "value": "For flexible use as a wall-mounted or floor-standing enclosure."
+  },
+  {
+   "label": "Surface finish",
+   "value": "Powder-coated"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Units",
+   "value": "12 U"
+  },
+  {
+   "label": "Installation height for components",
+   "value": "12 U"
+  },
+  {
+   "label": "Load capacity",
+   "value": "max. 600 N"
+  },
+  {
+   "label": "Note",
+   "value": "Max. installation depth: Depth - 58 mm to rear panel"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "118.1 kg CO2 eq (Cat B)"
+  }
+ ],
  "acc": [
   "7119250",
   "7980000"
- ]
+ ],
+ "src": "https://www.rittal.com/ie-en/products/PG20231215ITI101/PG20240402ITI202/PRO0042?variantId=7507120",
+ "checked": "2026-10-18"
 }

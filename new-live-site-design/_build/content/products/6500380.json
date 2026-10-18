@@ -1,6 +1,6 @@
 {
  "sku": "6500380",
- "order": 1629,
+ "order": 1527,
  "n": "Remote Temperature Sensor (CHV-RTS)",
  "b": "Crestron",
  "c": "Sensors",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "CHV-RTS",
  "d": "CHV-RTS Remote Temperature Sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Over Full Range",
+   "value": "±1ºF (±0.5ºC)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Drywall mountable in a 1 in. (26 mm) diameter round hole, protrudes ~1/8 in. (3 mm) from wall surface; Flush drywall mount or non-drywall surface mount with MMK-RS mounting kit (sold separately)"
+  },
+  {
+   "label": "Diameter",
+   "value": "1.50 in. (39 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.22 in. (57 mm)"
+  },
+  {
+   "label": "Indoor Temperature",
+   "value": "0° to 110°F (-18° to 43°C)"
+  },
+  {
+   "label": "Outdoor Temperature",
+   "value": "-30º to 120ºF (-35º to 49ºC)"
+  },
+  {
+   "label": "At Room Temperatures",
+   "value": "±1ºF (+0.1/-0.4ºC)"
+  },
+  {
+   "label": "Material",
+   "value": "Cylindrical plastic; Primed metal cap suitable for paint or wallpaper"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Climate-Control/Thermostat-Accessories/CHV-RTS",
+ "checked": "2026-10-18"
 }

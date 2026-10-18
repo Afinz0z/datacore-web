@@ -1,16 +1,67 @@
 {
  "sku": "GS724T",
- "order": 2991,
+ "order": 2889,
  "n": "24-port managed Gigabit switch without PoE - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24PT GE SMART SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product name",
+   "value": "24-Port Gigabit Ethernet Smart Switch With 2 Dedicated SFP Ports"
+  },
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Gigabit ports",
+   "value": "24"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2 dedicated"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "DoS Prevention",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS724T-12",
   "DRV-GS724T-36",
   "DRV-GS724T-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/smart-cloud/gs724t/",
+ "checked": "2026-10-18"
 }

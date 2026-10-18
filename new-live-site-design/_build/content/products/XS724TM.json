@@ -1,16 +1,67 @@
 {
  "sku": "XS724TM",
- "order": 2992,
+ "order": 2890,
  "n": "24P 10G/MG SMART SWITCH - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "10G/Multi-Gigabit Smart Switch and is the highest-capacity model",
- "specs": [],
+ "specs": [
+  {
+   "label": "NETGEAR XS724TM with Insight Cloud Management",
+   "value": "​"
+  },
+  {
+   "label": "Power cord (varies by region)",
+   "value": "​"
+  },
+  {
+   "label": "Rackmount kit",
+   "value": "​"
+  },
+  {
+   "label": "Installation guide",
+   "value": "​"
+  },
+  {
+   "label": "Width",
+   "value": "440 mm (17.3 in)"
+  },
+  {
+   "label": "Depth",
+   "value": "204 mm (8.03 in)"
+  },
+  {
+   "label": "Height",
+   "value": "43.2 mm (1.7 in)"
+  },
+  {
+   "label": "10G/Multi-Gigabit ports",
+   "value": "24"
+  },
+  {
+   "label": "10G SFP+ ports",
+   "value": "4"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-XS724TM-12",
   "DRV-XS724TM-36",
   "DRV-XS724TM-60"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/switches/smart-cloud/xs724tm/",
+ "checked": "2026-10-18"
 }

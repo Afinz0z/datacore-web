@@ -1,6 +1,6 @@
 {
  "sku": "6513243",
- "order": 462,
+ "order": 436,
  "n": "Flex Large Room Conference Solution with All-In-One Videobar 70 (UC-B70-A-Z-I)",
  "b": "Crestron",
  "c": "Video Conferencing System",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "UC-B70-A-Z-I",
  "d": "UC-B70-A-Z-I Crestron Flex Large Room Conference Solution with All-In-One Videobar 70 for Zoom Rooms® Software, International",
- "specs": []
+ "specs": [
+  {
+   "label": "Touch Screen",
+   "value": "10 in. (254 mm) diagonal capacitive multi-touch TFT active matrix color LCD, 1920 x 1200 pixels"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto switching, auto negotiating, auto discovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), IEEE 802.1X, SNMP, IPv4 or IPv6, Active Directory® service a"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3at Type 2 compliant PoE+ PD (Powered Device); Normally requests 15 W from an 802.3at Type 2 PSE with LLDP advanced power management; With room scheduling and USB enabled, requests 18 W from an 802.3at Type 2 PS"
+  },
+  {
+   "label": "Construction",
+   "value": "Plastic, smooth black finish, edge-to-edge glass with black surround"
+  },
+  {
+   "label": "Speakers",
+   "value": "Dual 10-watt speakers"
+  },
+  {
+   "label": "Microphone",
+   "value": "24 mic linear array"
+  },
+  {
+   "label": "Audio DSP",
+   "value": "Acoustic echo cancellation, dereverberation, automatic gain control, dynamic noise suppression, adaptive beamforming, speaker volume control, speaker EQ and limiting (fixed)"
+  },
+  {
+   "label": "Quad Camera Configuration",
+   "value": "(1) Main camera; (1) Left, (1) center, and (1) right sub cameras with 14º overlap"
+  },
+  {
+   "label": "Main Camera Optics",
+   "value": "Main camera 20 Megapixels 1 in. sensor"
+  },
+  {
+   "label": "Camera Field of View",
+   "value": "Main Camera: 84.3º horizontal, 53.8º vertical; Left, center and right sub cameras: 41º horizontal, 23º vertical"
+  },
+  {
+   "label": "Camera Resolution",
+   "value": "Main Camera: 5472 x 3078 pixels; Left, center and right sub camera: 3840 x 2160 pixels"
+  },
+  {
+   "label": "Autozoom",
+   "value": "7.5x digital zoom"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Flex-Conferencing/Room-Kits/UC-B70-A-Z-I",
+ "checked": "2026-10-18"
 }

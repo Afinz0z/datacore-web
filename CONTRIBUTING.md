@@ -85,14 +85,29 @@ for the architecture, the build and the deploy.
 
   Keep the skipped list outside the repository. It names every row left out and why.
 - Rows left out: inactive items, anything marked TBA (to be assigned), placeholder rows such as
-  `Custom-1`, `Rack` or `Structure`, and custom items with no brand or model.
+  `Custom-1`, `Rack` or `Structure`, custom items with no brand or model, and discontinued models.
+- Discontinued models stay off the site even when they belong to a bundle; their supporting products stay
+  listed. `_build/product_discontinued.json` names each one with the maker's page that says so and the
+  date it was checked. Add a model only on the maker's own word, never because it is hard to find.
 - Only public fields are imported. Prices, fees, distributors, lead times, Zoho IDs and the names of
   the staff who created records never reach the site.
 - The export's free-text Specifications column is not published. Until a product's specs are checked
   against the manufacturer's page, its card shows only the type, series and sale unit. Checked specs
   are saved in the product file with `src` (the page) and `checked` (the date), and a re-import keeps them.
+- Checking specs: use only the maker's own page for that exact model code (a variant suffix is allowed
+  when the address starts with the code), in English. Keep at most 12 rows, key specs first and
+  dimensions, weight and environment last. Leave out rows that can't be read cleanly (nested tables,
+  footnote marks, filler such as "see the table below", a value the maker's page itself garbles);
+  a missing row is better than a wrong one. Read every value flagged as different by eye before
+  reporting it to the client: the same fact written another way (1.8 m and 6 ft (1.83 m)) is not wrong.
 - Products the export lists only by a code ("DIN-AO8") or a bare kind ("Speaker") get a readable name from
   the first phrase of their own description, with the code kept in brackets; the original is saved as `model`.
+  A description that runs its title into a sentence ("Amplifier, 75 W The AMP-X75 provides...") is cut
+  before the sentence. A trailing brand in brackets ("Switch License (Huawei)") is dropped, since the
+  card shows the brand.
+- Search must find every product by its part number, its model code with or without punctuation, words
+  from its name, its brand and its category, in both languages. The type and brand filters show the
+  eight largest; a window lists all of them by first letter.
 - Categories map to filter groups, Arabic names and card icons in `_build/product_categories.json`.
   A category missing from it shows under Other until it is added.
 - Bundles: `acc` lists a product's supporting products (mounts, licences, support contracts) and `for`

@@ -1,7 +1,7 @@
 {
  "sku": "6511743",
- "order": 1006,
- "n": "X-Series Amplifier, 750 The AMP-X750 is a high performance, compact",
+ "order": 946,
+ "n": "X-Series Amplifier, 750 (AMP-X750)",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
@@ -10,11 +10,57 @@
  "d": "X-Series Amplifier, 750 The AMP-X750 is a high performance, compact, energy efficient, professional grade amplifier. Supporting Lo-Z and Hi-Z operation, this multichannel amplifier is suitable for both residential and commercial configurations.",
  "specs": [
   {
-   "label": "Type",
-   "value": "X Series"
+   "label": "Audio input signal types",
+   "value": "Balanced or unbalanced analog line-level"
+  },
+  {
+   "label": "Output Power per Channel",
+   "value": "250 W (4 or 8 Ω), 500 W (8 Ω only), 500 W (70V/100V); NOTE: Total simultaneous output power across all channels will not exceed 750 W"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.5 dB at 1 W"
+  },
+  {
+   "label": "THD+N",
+   "value": "<0.1% at 1 kHz @ -3 dB full rated output power"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": ">103 dBA, 20 Hz to 20 kHz, balanced"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "-75 dB at 1 kHz"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "1.23 Vrms, +4 dBu balanced; 0.316 Vrms, -10 dBV unbalanced"
+  },
+  {
+   "label": "Gain",
+   "value": "29 dB @ 8 Ohms"
+  },
+  {
+   "label": "Protection",
+   "value": "Overcurrent, under voltage, over temperature, DC offset, extreme high frequency"
+  },
+  {
+   "label": "Go to Sleep Time",
+   "value": "25 minutes with no signal present (when set to POWER SAVER)"
+  },
+  {
+   "label": "Wake Time",
+   "value": "0.5 s typical"
+  },
+  {
+   "label": "Wake Threshold",
+   "value": "0.44 mV typical"
   }
  ],
  "acc": [
   "6510957"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Amplifiers/AMP-X750",
+ "checked": "2026-10-18"
 }

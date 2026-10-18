@@ -1,13 +1,30 @@
 {
  "sku": "6513409",
- "order": 2652,
+ "order": 2553,
  "n": "IVA-CMT-BRKTJ-1B-B",
  "b": "Crestron",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "IVA-CMT-BRKTJ-1B-B Crestron 1 Beyond J-Mount Ceiling Bracket, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height (adjustable)",
+   "value": "Minimum 28.0 in. (711 mm); Maximum 44.0 in. (1118 mm)"
+  },
+  {
+   "label": "Width (bracket diameter)",
+   "value": "5.12 in. (130 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "9.12 in. (232 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal"
+  }
+ ],
  "for": [
   "6513202",
   "6513204",
@@ -20,5 +37,7 @@
   "6513987",
   "6513988",
   "6514446"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Accessories/IVA-CMT-BRKTJ-1B-B",
+ "checked": "2026-10-18"
 }

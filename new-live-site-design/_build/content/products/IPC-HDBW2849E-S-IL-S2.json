@@ -1,6 +1,6 @@
 {
  "sku": "IPC-HDBW2849E-S-IL-S2",
- "order": 3245,
+ "order": 3143,
  "n": "IP Camera, 8MP Smart Dual Light Fixed-focal Dome WizSense Network Camera",
  "b": "Dahua",
  "c": "IP CAMERA",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "IP Camera",
  "d": "8MP Smart Dual Light Fixed-focal Dome WizSense Network Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "1/2.7\" CMOS"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "3840 (H) × 2160 (V)"
+  },
+  {
+   "label": "Scanning System",
+   "value": "Progressive"
+  },
+  {
+   "label": "Electronic Shutter Speed",
+   "value": "Auto/Manual 1/3 s–1/100,000 s"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "0.008 lux@F1.6 (Color, 30 IRE) 0.0008 lux@F1.6 (B/W, 30 IRE) 0 lux (Illuminator on)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": ">56 dB"
+  },
+  {
+   "label": "Illumination Distance",
+   "value": "2.8 mm: Up to 30 m (98.43 ft) (IR); Up to 30 m (98.43 ft) (Warm light) 3.6 mm: Up to 30 m (98.43 ft) (IR); Up to 30 m (98.43 ft) (Warm light)"
+  },
+  {
+   "label": "Illuminator On/Off Control",
+   "value": "Auto;Manual"
+  },
+  {
+   "label": "Illuminator Number",
+   "value": "3 (IR LED); 4 (Warm light)"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 355° Tilt: 0° to 65° Rotation: 0° to 355°"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed-focal"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/th/products/All-Products/Network-Cameras/2-Series/Smart-Dual-Illuminators/IPC-HDBW2849E-S-IL=S2",
+ "checked": "2026-10-18"
 }

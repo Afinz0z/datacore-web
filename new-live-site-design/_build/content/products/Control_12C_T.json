@@ -1,6 +1,6 @@
 {
  "sku": "Control® 12C/T",
- "order": 895,
+ "order": 835,
  "n": "Professional Series - Compact Ceiling Loudspeaker (Control® 12C/T)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Control® 12C/T",
  "d": "Professional Series - Compact Ceiling Loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "CONTROL 12C/T BIM Object updated: Aug 2019",
+   "value": "Aug 2019"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "68 Hz – 17 kHz"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "15 W, 7.5 W, 3.8 W @ 70V and 100V (& 1.9 W @ 70V only)"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "95 Hz – 15 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "84 dB (1kHz - 16 kHz)"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "130° conical"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "9.8"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "7.4 dB"
+  },
+  {
+   "label": "Maximum SPL (1m)",
+   "value": "97 dB (low-impedance, 103 dB peak) 96 dB (top 70V/100V tap)"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 ohms (in direct/bypass 8Ω setting)"
+  },
+  {
+   "label": "Input Connectors",
+   "value": "Removable locking 4-pin connector with screw-down terminals. Max wire size 12 AWG (2.5 mm2)"
+  },
+  {
+   "label": "Connector Wiring",
+   "value": "Pin 1 = + In; Pin 2 = - In; Pin 3 = + Loop Thru; Pin 4 = - Loop Thru"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-12c-t",
+ "checked": "2026-10-18"
 }

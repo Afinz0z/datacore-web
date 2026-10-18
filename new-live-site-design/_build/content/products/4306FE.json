@@ -1,6 +1,6 @@
 {
  "sku": "4306FE",
- "order": 3877,
+ "order": 3775,
  "n": "8C 18AWG Control Cable",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -9,12 +9,54 @@
  "d": "8 Conductor 18 AWG BC, LSZH, Shielded, Eca",
  "specs": [
   {
-   "label": "Type",
-   "value": "LSZH, Shielded"
+   "label": "Suitable Applications",
+   "value": "Security System, Intercom/PA, Audio/Speaker, Power-Limited Controls"
   },
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Outer Jacket1 Table Notes",
+   "value": "Ripcord provided under sheath"
+  },
+  {
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "6.25 mm (0.246 in)"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "23.6 Ohm/km (7.19 Ohm/1000ft)"
+  },
+  {
+   "label": "Max. Pull Tension",
+   "value": "320 N (72 lbf)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor, Indoor, Non-Halogenated"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca"
+  },
+  {
+   "label": "CENELEC Compliance",
+   "value": "EN 50290-2-20"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU CE Mark, EU Directive 2011/65/EU (RoHS 2)"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "Update and Revision",
+   "value": "Revision Number: 0.339 Revision Date: 12-16-2025"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/4306fe",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "SPC-7000",
- "order": 3503,
+ "order": 3401,
  "n": "System Control Keyboard-Joystick (Hanwha)",
  "b": "Hanwha Vision",
  "c": "PTZ Joystick",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "System Control Keyboard",
- "specs": [],
+ "specs": [
+  {
+   "label": "Control Equipment",
+   "value": "Network Camera / SSM / Analog Camera / DVR"
+  },
+  {
+   "label": "Interface Protocol",
+   "value": "Ethernet SUNAPI"
+  },
+  {
+   "label": "USB",
+   "value": "Dedicated"
+  },
+  {
+   "label": "RS-485/422",
+   "value": "SRD, Pelco-D/P, Panasonic, Vicon, AD, Honeywell, Bosch, Elmo, GE, Samsung-T/E"
+  },
+  {
+   "label": "Units to Control",
+   "value": "Network Camera : Max. 255ea, SSM : 1ea, Analog Camera / DVR : Max. 255ea"
+  },
+  {
+   "label": "Baud Rate (RS-485/422)",
+   "value": "2400 ~ 57,600bps"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "TCP, HTTP, DHCP, IPv4"
+  },
+  {
+   "label": "LCD Display",
+   "value": "5\" TFT LCD"
+  },
+  {
+   "label": "Joystick",
+   "value": "3 Axis twist zoom"
+  },
+  {
+   "label": "Jog Shuttle",
+   "value": "SSM / DVR playback control"
+  },
+  {
+   "label": "Camera",
+   "value": "Pan / Tilt / Zoom, Focus, Auto focus, Preset, Group, Tour, Swing, Trace, Auto tracking, Alarm off/on, Freeze"
+  },
+  {
+   "label": "Video Wall",
+   "value": "Camera-tile (Channel) mapping, Layout (Display division mode) change"
+  }
+ ],
  "for": [
   "QNP-6250R"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/us/products/product-details/SPC-7000",
+ "checked": "2026-10-18"
 }

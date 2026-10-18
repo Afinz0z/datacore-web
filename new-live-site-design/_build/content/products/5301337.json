@@ -1,14 +1,41 @@
 {
  "sku": "5301337",
- "order": 5311,
+ "order": 5193,
  "n": "Gland plate solid",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Gland plate solid with sliding panel ,multi-piece for 800x800 mm",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface finish",
+   "value": "Zinc-plated"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX IT Width: = 800 mm Depth: = 800 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "24.1 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  },
+  {
+   "label": "Product description",
+   "value": "VX IT gland plate module, multi-piece, solid, for width 800 mm, W x D 800 x 800 mm, sheet steel"
+  }
+ ],
  "for": [
   "5307114"
- ]
+ ],
+ "src": "https://www.rittal.com/uk-en/products/PG20231215ZUB101/PG20240311ZUB102/PG20240312ZUB102/PRO108766?variantId=5301337",
+ "checked": "2026-10-18"
 }

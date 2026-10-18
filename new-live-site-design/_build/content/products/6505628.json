@@ -1,6 +1,6 @@
 {
  "sku": "6505628",
- "order": 1986,
+ "order": 1900,
  "n": "Wall Plate 4K DigitalMedia 8G+® Receiver & Room Controller 100 (DM-RMC-4K-100-C-1G-W-T)",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-RMC-4K-100-C-1G-W-T",
  "d": "DM-RMC-4K-100-C-1G-W-T Wall Plate 4K DigitalMedia 8G+® Receiver & Room Controller 100, White Textured",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "DM 8G+ & HDBaseT w/Deep Color, 3D, & 4K"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI w/Deep Color, 3D, & 4K (DVI compatible)"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "DM 8G+, HDBaseT"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS-ES, DTS 96/24, DTS-HD High Res, DTS-HD Master Audio™, LPCM up to 8 channels"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "1-way device control via infrared up to 1.1 MHz or serial TTL/RS-232 (0-5 Volts) up to 19.2k baud (via control system)"
+  },
+  {
+   "label": "DigitalMedia",
+   "value": "DM 8G+, HDCP 2.2, EDID, CEC, PoDM"
+  },
+  {
+   "label": "HDBaseT",
+   "value": "HDCP 2.2, EDID, CEC, PoE"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.2, EDID, CEC"
+  },
+  {
+   "label": "Power over DM (PoDM)",
+   "value": "IEEE 802.3at Type 1 Class 3 (12.95 W) compliant PoDM PD (Powered Device), capable of being powered by a PoDM PSE (Power Sourcing Equipment)"
+  },
+  {
+   "label": "Power over HDBaseT",
+   "value": "IEEE 802.3at Type 1 Class 3 (12.95 W) compliant HDBaseT PoE PD (Powered Device), capable of being powered by an HDBaseT PoE PSE (Power Sourcing Equipment)"
+  },
+  {
+   "label": "Power Pack (Optional)",
+   "value": "Input: 100-240 Volts AC, 50/60 Hz; Output: 0.75 Amps @ 24 Volts DC; Model: PW-2407WUL (sold separately)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Distributed-AV-USB/DigitalMedia-Endpoints/Receivers/DM-RMC-4K-100-C-1G-W-T",
+ "checked": "2026-10-18"
 }

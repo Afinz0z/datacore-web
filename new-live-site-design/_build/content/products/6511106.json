@@ -1,7 +1,7 @@
 {
  "sku": "6511106",
- "order": 1007,
- "n": "X-Series Media Presentation Amplifier (AMP-X50MP)",
+ "order": 947,
+ "n": "X-Series Media Presentation Amplifier, 50 W (AMP-X50MP)",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
@@ -10,12 +10,58 @@
  "d": "X-Series Media Presentation Amplifier, 50 W The Crestron® AMP-X50MP is a low-cost audio amplifier solution that is suitable for a variety of applications. It features a compact, surface-mountable design that installs virtually anywhere without requiring an equipment rack.",
  "specs": [
   {
-   "label": "Type",
-   "value": "X Series"
+   "label": "Audio 1 --> input signal types",
+   "value": "Balanced or unbalanced analog line-level"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "LoZ (4-8 Ohms): 20 Hz to 20kHz; +/-0.5 dB at 1 W; Hi-Z (70V/100V): 90 Hz to 20kHz; +/-3 dB at 1 W; HPF @ 80 Hz (+/-10 Hz),; -12 dB/Octave"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.1 % at 1kHz @ -3 dB full rated output power"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "> 90 dBA, 20 Hz to 20kHz, balanced, Hi-Z"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "-75 dB at 1 kHz"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "1.23Vrms, +4 dBu balanced; 0.316Vrms, -10 dBV unbalanced; For 25 W @ 8 Ohms; 50 W @ 70V/100V"
+  },
+  {
+   "label": "Gain",
+   "value": "21.5 dB @ 8 Ohms, Balanced"
+  },
+  {
+   "label": "Wake Signal Threshold",
+   "value": "-57 dBu (1 mV) max"
+  },
+  {
+   "label": "Protection",
+   "value": "Clip limiter, over current, under voltage, over temperature, DC offset, extreme high frequency"
+  },
+  {
+   "label": "Main Power",
+   "value": "24VDC, 2.5A; 100-240VAC, 50/60 Hz, 1.5A power supply included"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, convection cooled (fanless)"
+  },
+  {
+   "label": "Front Panel",
+   "value": "Metal, black finish with polycarbonate label overlay"
   }
  ],
  "acc": [
   "6510957",
   "6511998"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Amplifiers/AMP-X50MP",
+ "checked": "2026-10-18"
 }

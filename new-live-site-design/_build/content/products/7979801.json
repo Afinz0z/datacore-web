@@ -1,14 +1,65 @@
 {
  "sku": "7979801",
- "order": 4203,
+ "order": 4101,
  "n": "PDU BASIC, 1PH 13A UK/6 UK Rittal",
  "b": "Rittal",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "PDU BASIC, 1PH 13A UK/6 UK",
- "specs": [],
+ "specs": [
+  {
+   "label": "Référence",
+   "value": "DK 7979801"
+  },
+  {
+   "label": "Modèle",
+   "value": "Modèles 19\""
+  },
+  {
+   "label": "Avantages",
+   "value": "Kit de montage sans outil pour baies VX IT"
+  },
+  {
+   "label": "Caractéristiques techniques",
+   "value": "Marquage en couleurs des phases et des circuits de protection (L1 = rose, L2 = noir, L3 = blanc)"
+  },
+  {
+   "label": "Matériau",
+   "value": "Profilé en aluminium, anodisé noir Emplacements : plastique"
+  },
+  {
+   "label": "Composition de la livraison",
+   "value": "Matériel de fixation inclus"
+  },
+  {
+   "label": "Nombre de prises de courant et type",
+   "value": "6 x BS 1363"
+  },
+  {
+   "label": "Prises",
+   "value": "6 x BS 1363"
+  },
+  {
+   "label": "Courant nominal (max.)",
+   "value": "13 A"
+  },
+  {
+   "label": "Puissance nominale",
+   "value": "3 kW"
+  },
+  {
+   "label": "Alimentations",
+   "value": "Nombre: 1 Phases par alimentation: 1~"
+  },
+  {
+   "label": "Longueur du câble de raccordement",
+   "value": "3 m"
+  }
+ ],
  "for": [
   "5309116"
- ]
+ ],
+ "src": "https://www.rittal.com/sg-en/products/PG20231215ITI101/PG20240403ITI201/PG20240913ITI001/PG20240925ZUB101/PRO106864?variantId=7979801",
+ "checked": "2026-10-18"
 }

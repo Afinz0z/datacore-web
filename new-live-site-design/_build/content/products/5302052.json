@@ -1,6 +1,6 @@
 {
  "sku": "5302052",
- "order": 5313,
+ "order": 5195,
  "n": "IT Cable duct vertical, for VX IT Rittal",
  "b": "Rittal",
  "c": "Accessories",
@@ -9,11 +9,45 @@
  "d": "IT Cable duct vertical, for VX IT",
  "specs": [
   {
-   "label": "Type",
-   "value": "cable duct"
+   "label": "Technical specifications",
+   "value": "Integral 482.6 mm (19\") mounting cut-outs (1 U): 6 pc(s)."
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 9005"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Cable duct 2 covers 14 cable fingers , 6 U 10 cable retaining bars Assembly parts"
+  },
+  {
+   "label": "Units",
+   "value": "42 U"
+  },
+  {
+   "label": "To fit",
+   "value": "Cannot be combined with 482.6 mm (19\") mounting angles, dynamic, for VX IT"
+  },
+  {
+   "label": "Suitable for width",
+   "value": "= 800 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "32.6 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
   }
  ],
  "for": [
   "5309116"
- ]
+ ],
+ "src": "https://www.rittal.com/sg-en/products/PG20231215ZUB101/PG20240405ZUB003/PG20240405ZUB008/PRO116864?variantId=5302052",
+ "checked": "2026-10-18"
 }

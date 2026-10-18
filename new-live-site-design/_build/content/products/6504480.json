@@ -1,21 +1,11 @@
 {
  "sku": "6504480",
- "order": 2252,
+ "order": 2164,
  "n": "CB6S-BTNB-T_BLANK",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "CB6S-BTNB-T_BLANK Split Small Backlit Engravable Button Cap Pair for Cameo Keypads, Black Textured, Engraving Not Included",
- "specs": [],
- "for": [
-  "6504676",
-  "6504678",
-  "6504681",
-  "6509745",
-  "6509746",
-  "6509747",
-  "6509748",
-  "6509749"
- ]
+ "specs": []
 }

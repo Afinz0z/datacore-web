@@ -1,6 +1,6 @@
 {
  "sku": "Axon C1",
- "order": 2563,
+ "order": 2464,
  "n": "Single-Gang networked audio controller (Attero Tech) (Axon C1)",
  "b": "QSC",
  "c": "Audio Wallplate",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "Axon C1",
  "d": "Single-Gang networked audio controller (Attero Tech)",
- "specs": []
+ "specs": [
+  {
+   "label": "User interface",
+   "value": "One rotary / pushbutton encoder knob; one pushbutton toggle selector"
+  },
+  {
+   "label": "Display type",
+   "value": "1.5 in (38.1 mm) diagonal high-contrast OLED display"
+  },
+  {
+   "label": "Status indicator",
+   "value": "RGB LED bar, adjustable brightness"
+  },
+  {
+   "label": "Network physical layer",
+   "value": "Ethernet"
+  },
+  {
+   "label": "Network connector(s)",
+   "value": "RJ-45"
+  },
+  {
+   "label": "Network transmission speed",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "PoE power",
+   "value": "802.3af Class 0"
+  },
+  {
+   "label": "Device dimensions (H x W x D)",
+   "value": "4.2 x 1.74 x 1.77 in (106.68 x 44.19 x 44.96 mm)"
+  },
+  {
+   "label": "Device weight",
+   "value": "0.25 lbs (0.113 kg)"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/control-io-controllers/axon-c1-wall-controller/",
+ "checked": "2026-10-18"
 }

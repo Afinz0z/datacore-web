@@ -1,11 +1,62 @@
 {
  "sku": "SPA4-100",
- "order": 1092,
+ "order": 1032,
  "n": "SPA Series Amplifier-SPA4-100",
  "b": "Q-SYS",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "QSC SPA4-100 Professional Amplifiers",
- "specs": []
+ "specs": [
+  {
+   "label": "docx",
+   "value": "Architectural and Engineering Specifications - SPA 4-100 Amplifier - German Architectural & Engineering Specifications for the SPA 4-100 Amplifier."
+  },
+  {
+   "label": "4 Ω dynamic, both channels driven",
+   "value": "60 W 60 W 200 W 100 W"
+  },
+  {
+   "label": "Bridged Mode Watts per channel pair 8 Ω & 4 Ω",
+   "value": "200 W 100 W continuous 400 W 200 W"
+  },
+  {
+   "label": "70 V & 100 V",
+   "value": "250 W 125 W 350 W 175 W*"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "1.23 Vrms (+4 dBu) 1.23 Vrms (+4 dBu) 1.23 Vrms (+4 dBu) 1.23 Vrms (+4 dBu)"
+  },
+  {
+   "label": "Maximum Voltage Gain",
+   "value": "25.0 dB 25.0 dB 25.0 dB 25.0 dB"
+  },
+  {
+   "label": "Ouput Circuitry",
+   "value": "Class D Class D Class D Class D"
+  },
+  {
+   "label": "Frequency Response (20 Hz - 20 kHz)",
+   "value": "Frequency Response (20 Hz - 20 kHz)"
+  },
+  {
+   "label": "Input Impedance",
+   "value": ">10 kΩ (balanced), >10 kΩ (unbalanced)"
+  },
+  {
+   "label": "Maximum Input Level",
+   "value": "12.3V (+24 dBu)"
+  },
+  {
+   "label": "Highpass Filter",
+   "value": "Switchable 80 Hz when Bridged in 70V & 100V"
+  },
+  {
+   "label": "Front Panel Indicators",
+   "value": "Power, per channel Signal, per channel Protect/Limit"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/power-amplifiers/installed/non-network/low-power-applications/spa-series/spa4-100/",
+ "checked": "2026-10-18"
 }

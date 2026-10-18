@@ -1,11 +1,62 @@
 {
  "sku": "6513069",
- "order": 784,
+ "order": 724,
  "n": "SAROS DM-NAX-IC4A-W",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS DM-NAX-IC4A-W Saros® 3 in. Active Full-Range In-Ceiling PoE+ Speaker with DM NAX® Audio-over-IP Support, White, Textured",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer",
+   "value": "2.83 in. (72 mm) Balanced Mode Radiator (BMR)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "80 Hz to 24 kHz (±3 dB)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "86 dB @ -18 dBFS/1 m"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "96 dB"
+  },
+  {
+   "label": "Coverage",
+   "value": "170° conical (speech, up to 4 kHz); 140° conical (music, up to 8 kHz)"
+  },
+  {
+   "label": "BMR Power Handling",
+   "value": "25 W"
+  },
+  {
+   "label": "BMR Power Output",
+   "value": "Up to 21 W"
+  },
+  {
+   "label": "EQ Filter Types",
+   "value": "EQ, High Pass, Low Pass, Treble Shelf, Bass Shelf, Notch"
+  },
+  {
+   "label": "EQ Center Frequency",
+   "value": "10 to 20,000 Hz per band"
+  },
+  {
+   "label": "EQ Gain",
+   "value": "+20/-40 dB per band"
+  },
+  {
+   "label": "EQ Bandwidth",
+   "value": "0.1 to 4.0 octaves per band"
+  },
+  {
+   "label": "PoE+",
+   "value": "IEEE 802.3at Type 2 Class 4 (25.5 W) compliant"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/DM-NAX-Intelligent-Audio/SAROS-DM-NAX-IC4A-W",
+ "checked": "2026-10-18"
 }

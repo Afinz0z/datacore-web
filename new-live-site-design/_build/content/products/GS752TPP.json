@@ -1,16 +1,67 @@
 {
  "sku": "GS752TPP",
- "order": 2999,
+ "order": 2897,
  "n": "48-port Gigabit Ethernet Smart Managed Pro switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "52PT GE POE+ SMART SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Model Description",
+   "value": "48-Port Gigabit PoE+ Smart Managed Pro Switch w/ optional Remote/Cloud Management and 4 SFP Ports (GS752TPP)"
+  },
+  {
+   "label": "Management",
+   "value": "Insight Remote/Cloud Manageable with 1-Year Insight subscription included"
+  },
+  {
+   "label": "Gigabit ports",
+   "value": "48"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "48"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "48"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "760W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "32"
+  }
+ ],
  "acc": [
   "DRV-GS752TPP-12",
   "DRV-GS752TPP-36",
   "DRV-GS752TPP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/smart-cloud/gs752tpp/",
+ "checked": "2026-10-18"
 }

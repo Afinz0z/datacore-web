@@ -1,6 +1,6 @@
 {
  "sku": "6513860",
- "order": 1699,
+ "order": 1617,
  "n": "4K 2x1 DM® Essentials Scaling Auto-Switcher and Extender over CATx (DM-EXT-1021 KIT)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-EXT-1021 KIT",
  "d": "DM-EXT-1021 KIT 4K 2x1 DM® Essentials Scaling Auto-Switcher and Extender over CATx Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Switcher",
+   "value": "2x1 (1 input at transmitter plus 1 input at receiver x 1 output at receiver) auto-switching or manual, audio-follows-video, Crestron Auto‑Locking® and QuickSwitch HD™ technology"
+  },
+  {
+   "label": "Scaler, HDMI Output",
+   "value": "4K video scaler with intelligent frame rate conversion, Deep Color support, content adaptive noise reduction, 3:2/2:2 pull-down detection and recovery"
+  },
+  {
+   "label": "Input Signal Type",
+   "value": "HDMI with Deep Color and 4K (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "HDMI with Deep Color and 4K (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "HDMI (Dual-Mode DisplayPort interface compatible)"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI, analog stereo line-level"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "2-channel LPCM"
+  },
+  {
+   "label": "Digital to Analog Conversion",
+   "value": "24-bit, 48 kHz"
+  },
+  {
+   "label": "Output Volume",
+   "value": "-80 to +20 dB level adjustment range; Independent mute for HDMI and analog audio outputs"
+  },
+  {
+   "label": "Analog Output Performance",
+   "value": "Frequency Response: 20 Hz to 20 kHz ±0.5 dB; S/N Ratio: >95 dB @ 10 dBV, 20 Hz to 20 kHz, A-weighted; THD+N: <0.005% @ 1 kHz and 10 dBV; Stereo Separation: 20 Hz to 20 kHz ≤80 dB"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, CIP, DHCP, web browser setup and control"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Kits/DM-EXT-1021-KIT",
+ "checked": "2026-10-18"
 }

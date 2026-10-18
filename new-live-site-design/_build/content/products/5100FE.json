@@ -1,6 +1,6 @@
 {
  "sku": "5100FE",
- "order": 2542,
+ "order": 2443,
  "n": "Audio Cable 2 Conductor 14 AWG BC, Shielded, CL3R (5100FE)",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -10,12 +10,54 @@
  "d": "Audio Cable 2 Conductor 14 AWG BC, Shielded, CL3R, FPLR Roll 305 Meters",
  "specs": [
   {
-   "label": "Type",
-   "value": "Speaker Cable"
+   "label": "Suitable Applications",
+   "value": "Intercom/PA Systems, Sound/Audio Systems, Fire Alarm Systems"
   },
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "0.222 in (5.64 mm)"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "10 Ohm/1000ft (33 Ohm/km)"
+  },
+  {
+   "label": "Max. Pull Tension",
+   "value": "104.1 lbs (47.22 kg)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Riser, Indoor"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "UL 1666 Riser, IEEE 1202 FT4, IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca"
+  },
+  {
+   "label": "NEC / UL Compliance",
+   "value": "Article 725, Article 760, CL3R, FPLR"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU CE Mark, EU Directive 2015/863/EU (RoHS 2 amendment), EU Directive 2011/65/EU (RoHS 2), EU Directive 2012/19/EU (WEEE)"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "APAC Compliance",
+   "value": "China RoHS II (GB/T 26572-2011)"
+  },
+  {
+   "label": "Plenum Number",
+   "value": "6100FH"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/5100fe",
+ "checked": "2026-10-18"
 }

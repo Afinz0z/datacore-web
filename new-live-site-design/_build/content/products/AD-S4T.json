@@ -1,11 +1,62 @@
 {
  "sku": "AD-S4T",
- "order": 933,
+ "order": 873,
  "n": "Two-way surface speaker AD-S4T",
  "b": "QSC",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "4.5\" Two-way surface speaker, 70/100V transformer with 8Ω bypass, 120° conical DMT™ coverage, includes X-Mount™ and weather input cup. Color - Black.",
- "specs": []
+ "specs": [
+  {
+   "label": "System Details",
+   "value": "AD-S4T"
+  },
+  {
+   "label": "Effective frequency range 1",
+   "value": "68 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage 2",
+   "value": "50 watts / 20 volts (rms)"
+  },
+  {
+   "label": "Broadband sensitivity 3",
+   "value": "87 dB SPL"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "120° conical DMT™"
+  },
+  {
+   "label": "Directivity factor (Q)",
+   "value": "6"
+  },
+  {
+   "label": "Directivity Index",
+   "value": "8 dB"
+  },
+  {
+   "label": "Maximum continuous SPL 4",
+   "value": "104 dB"
+  },
+  {
+   "label": "Maximum peak SPL 4",
+   "value": "110 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 30, 15, 7.5, 3.75 W and 8Ω bypass 100V: 30, 15, 7.5 W and 8Ω bypass"
+  },
+  {
+   "label": "HF transducer",
+   "value": "0.75-inch silk dome tweeter / 0.75-inch voice coil, horn loaded"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/surface-mount/acousticdesign-series/ad-s4t/",
+ "checked": "2026-10-18"
 }

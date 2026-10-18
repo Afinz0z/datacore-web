@@ -1,6 +1,6 @@
 {
  "sku": "6514473",
- "order": 2649,
+ "order": 2550,
  "n": "Collab Compute Toolless Mounting Kit (CCCA-CMK-110/120)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,11 +8,34 @@
  "avail": "lead",
  "model": "CCCA-CMK-110/120",
  "d": "CCCA-CMK-110/120 Crestron Collab Compute Toolless Mounting Kit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Cable Management Cover",
+   "value": "Plastic"
+  },
+  {
+   "label": "Height",
+   "value": "1.56 in. (40 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "10.43 in. (265 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "21.76 in. (553 mm)"
+  },
+  {
+   "label": "Base Material",
+   "value": "Die-cast aluminum"
+  }
+ ],
  "for": [
   "6514207",
   "6514208",
   "6514436",
   "6514437"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Foundation/Compute/CCCA-CMK-110-120",
+ "checked": "2026-10-18"
 }

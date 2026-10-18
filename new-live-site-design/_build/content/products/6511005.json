@@ -1,6 +1,6 @@
 {
  "sku": "6511005",
- "order": 1721,
+ "order": 1638,
  "n": "DM NVX® 4K60 4:4:4 HDR Network AV Encoder Card with DM® Input (DM-NVX-E760C)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-E760C",
  "d": "DM-NVX-E760C DM NVX® 4K60 4:4:4 HDR Network AV Encoder Card with DM® Input",
- "specs": []
+ "specs": [
+  {
+   "label": "Stream Type",
+   "value": "Pixel Perfect Processing (default) or DM-NVX-D10/D20/D200 Series"
+  },
+  {
+   "label": "Video Resolutions",
+   "value": "Up to 4096x2160@60Hz (DCI 4K60), 4:4:4 color sampling, HDR10, and Deep Color support"
+  },
+  {
+   "label": "Encoding audio formats",
+   "value": "Primary multichannel (up to 8-channel LPCM or encoded HBR 7.1 surround sound)"
+  },
+  {
+   "label": "Bit Rates",
+   "value": "Fixed: 200 to 950 Mbps - user specified,; Adaptive: Dependent on input resolution of the stream), or; Variable: Less than 150 Mbps to maximum of 750 Mbps, dependent on content and input resolution of the stream)"
+  },
+  {
+   "label": "Streaming Protocols",
+   "value": "RTP, SDP"
+  },
+  {
+   "label": "Container",
+   "value": "MPEG-2 transport stream (.ts)"
+  },
+  {
+   "label": "Session Initiation",
+   "value": "Multicast via secure RTSP"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3, AES-128, PKI"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "DM 8G+ and HDBaseT with HDR10, Deep Color, and 4K60 4:4:4 support; DM Essentials with 4K60 4:2:0 support"
+  },
+  {
+   "label": "Video copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "DM 8G+, HDBaseT, DM Essentials"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS®, DTS ES, DTS 96/24, DTS HD High Res, DTS HD Master Audio, DTS:X, LPCM up to 8 channels"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-E760C",
+ "checked": "2026-10-18"
 }

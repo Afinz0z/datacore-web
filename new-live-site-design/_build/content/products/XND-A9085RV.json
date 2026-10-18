@@ -1,11 +1,62 @@
 {
  "sku": "XND-A9085RV",
- "order": 3261,
+ "order": 3159,
  "n": "8MP Dome Camera X-Plus design",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Powered by WN9, X-Plus design, Indoor Network AI IR Dome Camera, 8MP resolution",
- "specs": []
+ "specs": [
+  {
+   "label": "Zobrazovací zařízení",
+   "value": "Rozměry 1/1,8\""
+  },
+  {
+   "label": "Typ",
+   "value": "CMOS"
+  },
+  {
+   "label": "Max. snímková frekvence",
+   "value": "H.265/H.264 30 snímků za sekundu/25 snímků za sekundu (60 Hz/50 Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "30 snímků za sekundu (při rozlišení 8 MP max. 5 snímků za sekundu)"
+  },
+  {
+   "label": "Min. osvětlení (lux)",
+   "value": "Barva (1/30 s, 30 IRE) 0.04"
+  },
+  {
+   "label": "Č/B (1/30 s, 30 IRE)",
+   "value": "0.004"
+  },
+  {
+   "label": "Video výstup",
+   "value": "USB: Micro USB typu C"
+  },
+  {
+   "label": "Ohnisková vzdálenost (mm)",
+   "value": "4.4~9.3"
+  },
+  {
+   "label": "Poměr přiblížení a oddálení",
+   "value": "Optický 2.1x"
+  },
+  {
+   "label": "Max. poměr clony (číslo F)",
+   "value": "Širokoúhlý 1.3"
+  },
+  {
+   "label": "Teleobjektiv",
+   "value": "2.15"
+  },
+  {
+   "label": "Úhel zorného pole",
+   "value": "Horizontální 113°~47°"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/cz/products/product-details/XND-A9085RV",
+ "checked": "2026-10-18"
 }

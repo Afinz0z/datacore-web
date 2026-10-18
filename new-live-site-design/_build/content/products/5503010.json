@@ -1,14 +1,57 @@
 {
  "sku": "5503010",
- "order": 5310,
+ "order": 5192,
  "n": "Fan module for VX IT, TS IT",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Roof fans unit for cabinets incl. 2 fans P/N .5503010 RITTAL",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "Without roof plate"
+  },
+  {
+   "label": "Product description",
+   "value": "For active ventilation. The unit may optionally be extended with additional fans."
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "1 fan unit 2 fans Fully wired ready for connection Assembly parts Installation and Short User's Guide"
+  },
+  {
+   "label": "Rated current max.",
+   "value": "At 50 Hz: 0.39 A At 60 Hz: 0.36 A"
+  },
+  {
+   "label": "IP protection category to IEC 60 529",
+   "value": "IP 20"
+  },
+  {
+   "label": "Speed",
+   "value": "100 %"
+  },
+  {
+   "label": "Pre-fuse",
+   "value": "Miniature circuit-breaker/fuse: 10 A"
+  },
+  {
+   "label": "Installation options",
+   "value": "In VX IT with W x D (mm): 600 x 600 / 600 x 800 / 600 x 1000 / 600 x 1200 / 800 x 600"
+  },
+  {
+   "label": "Note",
+   "value": "Reduction in the specified air throughput to 280 m³/h at 25 Pa counterpressure"
+  }
+ ],
  "for": [
   "7888618"
- ]
+ ],
+ "src": "https://www.rittal.com/sg-en/products/PG20231215KLI101/PG20231245KLI1005/PG20240116KLI209/PRO134965?variantId=5503010",
+ "checked": "2026-10-18"
 }

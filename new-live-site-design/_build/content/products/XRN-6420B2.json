@@ -1,11 +1,62 @@
 {
  "sku": "XRN-6420B2",
- "order": 3386,
+ "order": 3284,
  "n": "64CH 8K NVR with 12th gen. Intel® Processor",
  "b": "Hanwha Vision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8K NVR (Intel based), No HDD, 64 channels, H265,H264, MJPEG, 8 SATA HDD bays (10TB max per HDD), ARB (Automatic Recovery Backup), 520 Mbps recording / up to 32 Mbps playback, Dual stream recording, WiseStream technology, HDMI/VGA dual display, max. resolution of 32MP recording/display and fisheye dewarping on web and CMS, web UI 2.0 (no plugins required), AI search (Wisenet AI cameras only), QR Code",
- "specs": []
+ "specs": [
+  {
+   "label": "Network camera",
+   "value": "Inputs Max. 64CH"
+  },
+  {
+   "label": "Resolution",
+   "value": "32MP ~ CIF"
+  },
+  {
+   "label": "Protocols",
+   "value": "SUNAPI, ONVIF"
+  },
+  {
+   "label": "Decoding",
+   "value": "Local Display [Dual Display] HDMI 1: 3840 x 2160 (30Hz) HDMI 2: 1920x1080 (60Hz)"
+  },
+  {
+   "label": "Record",
+   "value": "Compression H.265, H.264, MJPEG"
+  },
+  {
+   "label": "Recording Bandwidth",
+   "value": "Distributed mode : Up to 520 Mbps, Normal mode : Up to 300 Mbps"
+  },
+  {
+   "label": "Mode",
+   "value": "Normal, Dual Stream, Schedule(Continuous/Event), Event (Pre/Post), Bookmark"
+  },
+  {
+   "label": "Event Trigger",
+   "value": "Alarm Input, Video Loss, Camera Event(Sensor, MD, Video Analytics, Defocus, Audio), Dynamic Event, User Event"
+  },
+  {
+   "label": "Event Action",
+   "value": "e-Mail, Event Push, PTZ Preset, Alarm Out, Buzzer, Monitor Out, FTP, SUNAPI Command, Shutdown"
+  },
+  {
+   "label": "Search & Play",
+   "value": "Playback Bandwidth Up to 200Mbps(64CH simultaneously)"
+  },
+  {
+   "label": "User",
+   "value": "Max. 4 Users (Local 1, Remote 3)"
+  },
+  {
+   "label": "Simultaneous playback",
+   "value": "Max. 112CH(Local 64CH, Remote 16CH per user)"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/uk/products/product-details/XRN-6420B2",
+ "checked": "2026-10-18"
 }

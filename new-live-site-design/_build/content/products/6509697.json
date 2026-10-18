@@ -1,6 +1,6 @@
 {
  "sku": "6509697",
- "order": 2089,
+ "order": 2001,
  "n": "1:4 HDMI® Distribution Amplifier w/4K60 4:4:4 & HDR Support (HD-DA4-4KZ-E)",
  "b": "Crestron",
  "c": "Distribution Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-DA4-4KZ-E",
  "d": "HD-DA4-4KZ-E 1:4 HDMI® Distribution Amplifier w/4K60 4:4:4 & HDR Support",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Type",
+   "value": "HDMI w/HDR10, Deep Color, 3D, & 4K60 4:4:4 support (DVI & Dual-Mode DisplayPort compatible)"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "HDMI w/HDR10, Deep Color, 3D, & 4K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "Selectable for HDCP 2.2, HDCP 1.4, or HDCP disabled"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "HDMI (Dual-Mode DisplayPort compatible)"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS®, DTS-ES, DTS 96/24, DTS HD High Res, DTS HD Master Audio, DTS:X, LPCM up to 8 channels"
+  },
+  {
+   "label": "USB",
+   "value": "USB 2.0 host; supports firmware update and custom EDID upload via a USB flash drive"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP & EDID (does not pass CEC)"
+  },
+  {
+   "label": "HDCP Version",
+   "value": "Selectable for HDCP 2.2, 1.4, or OFF; HDCP encrypted content is blanked in OFF mode"
+  },
+  {
+   "label": "EDID Mode",
+   "value": "Selectable for DEFAULT or COPY 1ST; • The factory default EDID is 4K60 4:4:4 non-HDR video with 2-channel LPCM audio; • The factory default EDID can be replaced with a custom EDID via USB; • Sliding the switch from DEFAU"
+  },
+  {
+   "label": "Power Pack (included)",
+   "value": "Input: 100-240 Volts AC, 50/60 Hz; Output: 0.75 Amps @ 24 Volts DC; Model: PW-2407WU"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, with (2) integral mounting flanges"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/HDMI-Solutions/HDMI-Distribution-Amplifiers/HD-DA4-4KZ-E",
+ "checked": "2026-10-18"
 }

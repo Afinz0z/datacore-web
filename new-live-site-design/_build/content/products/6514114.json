@@ -1,6 +1,6 @@
 {
  "sku": "6514114",
- "order": 2696,
+ "order": 2594,
  "n": "Wall Mount Back Box for TSW-80 Series (TSW-UMB-80-BBI)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,28 @@
  "avail": "lead",
  "model": "TSW-UMB-80-BBI",
  "d": "TSW-UMB-80-BBI Wall Mount Back Box for TSW-80 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface Mounting",
+   "value": "Installs into cutout in concrete wall or masonry sized to back box dimensions; No minimum clearances required; Universal mounting bracket sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "2.98 in. (76 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.65 in. (169 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3 in. (76 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal box"
+  }
+ ],
  "for": [
   "6513822",
   "6513823",
@@ -23,5 +44,7 @@
   "6513839",
   "6513920",
   "6513928"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-80-Series-Accessories/TSW-UMB-80-BBI",
+ "checked": "2026-10-18"
 }

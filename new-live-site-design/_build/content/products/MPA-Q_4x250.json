@@ -1,6 +1,6 @@
 {
  "sku": "MPA-Q 4x250",
- "order": 1090,
+ "order": 1030,
  "n": "Four-channel Network Amplifier - 4 x 250W (MPA-Q 4x250)",
  "b": "Q-SYS",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MPA-Q 4x250",
  "d": "Four-channel Network Amplifier - 4 x 250W",
- "specs": []
+ "specs": [
+  {
+   "label": "Output THD+N @1kHz",
+   "value": "0.01%-0.03% typical; 1% max"
+  },
+  {
+   "label": "Gain @ +4dBu input",
+   "value": "31 dB"
+  },
+  {
+   "label": "Damping factor",
+   "value": ">160"
+  },
+  {
+   "label": "Sample rate",
+   "value": "48 kHz"
+  },
+  {
+   "label": "Output Power",
+   "value": "Maximum 1 Continuous 2"
+  },
+  {
+   "label": "All channels driven A, B, C, D",
+   "value": "100 V 250 W 150 W"
+  },
+  {
+   "label": "70 V",
+   "value": "250 W 150 W"
+  },
+  {
+   "label": "Single channel driven A or B or C or D",
+   "value": "100 V 500 W 150 W"
+  },
+  {
+   "label": "2 channels bridged A+B or C+D",
+   "value": "100 V 500 W 300 W"
+  },
+  {
+   "label": "Physical Audio I/O connections",
+   "value": "Output: 4x channels (Euro 7.62 mm) Input: 4x channels (Euro 3.5 mm)"
+  },
+  {
+   "label": "Networking",
+   "value": "2x 1 Gbps Ethernet ports LAN A optionally accepts PoE (802.3af Type 1) for quick time-to-audio following a power interruption"
+  },
+  {
+   "label": "GPI",
+   "value": "0-3.3V DC Closure"
+  }
+ ],
+ "src": "https://www.qsys.com/products/power-amplifiers/installed/network/mpa-q-series/mpa-q-4x250/",
+ "checked": "2026-10-18"
 }

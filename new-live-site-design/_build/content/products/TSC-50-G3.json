@@ -1,6 +1,6 @@
 {
  "sku": "TSC-50-G3",
- "order": 1546,
+ "order": 1477,
  "n": "Network Touch Screen Controller (TSC-50-G3)",
  "b": "Q-SYS",
  "c": "Touch Panel Controllers",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "TSC-50-G3",
  "d": "Network Touch Screen Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Display Description",
+   "value": "Projective capacitive (PCAP) multi-touch, Power over Ethernet, 24-bit color display."
+  },
+  {
+   "label": "Simultaneous touch points",
+   "value": "5"
+  },
+  {
+   "label": "Resolution",
+   "value": "1280 × 720"
+  },
+  {
+   "label": "Wallmount Option",
+   "value": "Yes"
+  },
+  {
+   "label": "Table Top Option",
+   "value": "Yes,TSC-50t-G3 accessory sold separately"
+  },
+  {
+   "label": "Panel Orientation",
+   "value": "Vertical / horizontal on wall and stand"
+  },
+  {
+   "label": "Brightness",
+   "value": "450 Nits"
+  },
+  {
+   "label": "Power PoE (Power over Ethernet)",
+   "value": "PoE Class 2"
+  },
+  {
+   "label": "BTUs",
+   "value": "18 typical"
+  },
+  {
+   "label": "Rear Panel",
+   "value": "LAN (1x RJ45) 1 Gbps"
+  },
+  {
+   "label": "Panel Dimensions (H×W×D)",
+   "value": "5.5 x 3.2 x 1.49 inch 141 x 81.3 x 37.8 mm"
+  },
+  {
+   "label": "Viewable Screen Dimensions (diagonal)",
+   "value": "4.99 inch / 126.7 mm"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/control-io-controllers/q-sys-touch-screen-controllers/tsc-50-g3/",
+ "checked": "2026-10-18"
 }

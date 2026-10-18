@@ -1,16 +1,11 @@
 {
  "sku": "6504452",
- "order": 2180,
+ "order": 2092,
  "n": "CB2E-BTNW-S_BLANK",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "CB2E-BTNW-S_BLANK Large Engravable Button Cap for Cameo Express Keypads, White Smooth, Engraving Not Included",
- "specs": [],
- "for": [
-  "6509742",
-  "6509743",
-  "6509744"
- ]
+ "specs": []
 }

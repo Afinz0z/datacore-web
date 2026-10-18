@@ -1,6 +1,6 @@
 {
  "sku": "6513417",
- "order": 2685,
+ "order": 2584,
  "n": "Tabletop Kit for Crestron Videobar 70 (UC-SB2-TTK)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,9 +8,28 @@
  "avail": "lead",
  "model": "UC-SB2-TTK",
  "d": "UC-SB2-TTK Tabletop Kit for Crestron Videobar 70",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "2.30 in. (58 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "19.75 in. (502 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.80 in. (122 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  }
+ ],
  "for": [
   "6512359",
   "6512360"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Audio/Accessories/UC-SB2-TTK",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6511134",
- "order": 2674,
+ "order": 2573,
  "n": "Rack Mount Kit for TSW-570 and TSW-770 Series (TSW-570/770-RMK-1)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,11 +8,30 @@
  "avail": "lead",
  "model": "TSW-570/770-RMK-1",
  "d": "TSW-570/770-RMK-1 Rack Mount Kit for TSW-570 and TSW-770 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Mounts into a 19 in. EIA equipment rack using standard rack screws (not provided); Occupies 3U of rack space"
+  },
+  {
+   "label": "With TSW‑570 Touch Screen",
+   "value": "Height: 5.23 in. (133 mm); Width: 19.00 in. (483 mm); Depth: 0.56 in. (14 mm)"
+  },
+  {
+   "label": "With TSW‑770 Touch Screen",
+   "value": "Height: 5.23 in. (133 mm); Width: 19.00 in. (483 mm); Depth: 0.58 in. (15 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal rack mount plate"
+  }
+ ],
  "for": [
   "6510813",
   "6510817",
   "6510826",
   "6510829"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-570-770-RMK-1",
+ "checked": "2026-10-18"
 }

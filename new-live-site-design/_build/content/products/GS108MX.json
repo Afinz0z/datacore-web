@@ -1,16 +1,67 @@
 {
  "sku": "GS108MX",
- "order": 3017,
+ "order": 2915,
  "n": "8PT GIG UM +1P 10G/MULTI-GIG UPLINK Switch - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8PT GIG UM +1P 10G/MULTI-GIG UPLINK",
- "specs": [],
+ "specs": [
+  {
+   "label": "Width",
+   "value": "236mm (9.3in)"
+  },
+  {
+   "label": "Depth",
+   "value": "101mm (4.0in)"
+  },
+  {
+   "label": "Height",
+   "value": "27mm (1.1in)"
+  },
+  {
+   "label": "Gigabit copper ports",
+   "value": "8"
+  },
+  {
+   "label": "Uplink port",
+   "value": "1 x 10G/Multi-Gig Port"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "Buffer size",
+   "value": "768Kbit or 0.75Mbit"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "Fans",
+   "value": "0"
+  },
+  {
+   "label": "Acoustic Noise Level @25C",
+   "value": "0 dBA"
+  },
+  {
+   "label": "MTBF",
+   "value": "3,514,690 hrs (401 yrs)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.26lb (0.58kg)"
+  }
+ ],
  "acc": [
   "DRV-GS108MX-12",
   "DRV-GS108MX-36",
   "DRV-GS108MX-60"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/switches/unmanaged/gs108mx/",
+ "checked": "2026-10-18"
 }

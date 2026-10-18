@@ -1,6 +1,6 @@
 {
  "sku": "6513036",
- "order": 1590,
+ "order": 1488,
  "n": "DALI® Interface, DIN Rail Mount (DIN-DLI)",
  "b": "Crestron",
  "c": "Interface Module",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DIN-DLI",
  "d": "DIN-DLI DALI® Interface, DIN Rail Mount",
- "specs": []
+ "specs": [
+  {
+   "label": "Cresnet Power Usage",
+   "value": "6W (250mA @ 24V)"
+  },
+  {
+   "label": "PoE Power Usage",
+   "value": "IEEE 802.3af (802.3at Type 1) Class 2 PoE; Powered Device (6.5W)"
+  },
+  {
+   "label": "DALI Loop",
+   "value": "1"
+  },
+  {
+   "label": "DALI Devices",
+   "value": "64"
+  },
+  {
+   "label": "Load Types",
+   "value": "DALI devices DT0, DT1, DT2, DT3, DT4, DT5, DT6, DT7, and DT8 Tc"
+  },
+  {
+   "label": "Cresnet",
+   "value": "Cresnet secondary mode"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100BASE-TX; IEEE 802.3af (802.3at Type 1) Class 2 PoE Powered Device (6.5W); MbedTLS encryption; Communication with the Crestron Home OS requires an Ethernet connection; Authentication prompted on first connection; Link-"
+  },
+  {
+   "label": "DALI",
+   "value": "One DALI loop; DALI-2™ Certified; Provides power and communication for the DALI loop; Up 64 DALI drivers in up to 16 DALI groups; DT0, DT1, DT2, DT3, DT4, DT5, DT6, DT7 and DT8 Tc support"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "13.6 BTU/hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Light gray polycarbonate housing with polycarbonate label overlay"
+  },
+  {
+   "label": "Mounting",
+   "value": "35 mm DIN EN 60715 rail mount, DIN 43880 form factor for enclosures with 45 mm front panel cutout, occupies 3 DIN module spaces (54 mm)"
+  },
+  {
+   "label": "Height",
+   "value": "3.68 in. (93.70 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/DIN-Modules/DIN-DLI",
+ "checked": "2026-10-18"
 }

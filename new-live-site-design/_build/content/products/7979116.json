@@ -1,11 +1,58 @@
 {
  "sku": "7979116",
- "order": 4204,
+ "order": 4102,
  "n": "Vertical PDU-Rittal",
  "b": "Rittal",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Basic Vertical PDU 32A",
- "specs": []
+ "specs": [
+  {
+   "label": "Br. artikla",
+   "value": "DK 7979116"
+  },
+  {
+   "label": "Design",
+   "value": "PDU Basic"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Connector lock for IEC C14 and C20 connectors Assembly parts"
+  },
+  {
+   "label": "No. of sockets and type",
+   "value": "24 x C13 / 4 x C19"
+  },
+  {
+   "label": "Rated current (max.)",
+   "value": "32 A"
+  },
+  {
+   "label": "Infeeds",
+   "value": "Qty.: 1 Phases per infeed: 1~"
+  },
+  {
+   "label": "Length of connection cable",
+   "value": "3 m"
+  },
+  {
+   "label": "Type of electrical connection",
+   "value": "CEE"
+  },
+  {
+   "label": "Directives",
+   "value": "EMC Directive 2014/30/EU"
+  },
+  {
+   "label": "Standards",
+   "value": "EN 62368-1"
+  },
+  {
+   "label": "Input cable connection (type/length)",
+   "value": "3 m"
+  }
+ ],
+ "src": "https://www.rittal.com/gr-en/products/PG20231215ITI101/PG20240403ITI201/PG20240913ITI001/PG20240925ZUB101/PRO115364?variantId=7979116",
+ "checked": "2026-10-18"
 }

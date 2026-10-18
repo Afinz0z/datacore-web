@@ -1,6 +1,6 @@
 {
  "sku": "6513198",
- "order": 648,
+ "order": 588,
  "n": "Automate VX Pro System Series 2 Voice-Activated (IV-SAM-VX2-P)",
  "b": "Crestron",
  "c": "Camera Switcher / Mixer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "IV-SAM-VX2-P",
  "d": "IV-SAM-VX2-P Automate VX Pro System Series 2 Voice-Activated, Multi-Camera Switching Solution",
- "specs": []
+ "specs": [
+  {
+   "label": "Titles, Graphics, Layouts",
+   "value": "Titles, logos, backgrounds can be added, Easy-to-use graphic designer to create any multi-source layout"
+  },
+  {
+   "label": "Program Record",
+   "value": "MP4 file (H.264 codec). User-selectable bitrate up to 10 Mbps; MOV file"
+  },
+  {
+   "label": "Recording Capacity",
+   "value": "Records to internal 316 GB SSD storage"
+  },
+  {
+   "label": "Streaming Encoder",
+   "value": "Can stream to any RTMP server"
+  },
+  {
+   "label": "NDI Support",
+   "value": "For inputs and program output"
+  },
+  {
+   "label": "System Control",
+   "value": "REST API over Network (TCP) for third party control"
+  },
+  {
+   "label": "Compatible Codecs",
+   "value": "Output via 3G-SDI (SDI to USB-A 3.0 converter included) for connection to external conferencing codecs running Microsoft Teams® software, Zoom Rooms® software, and others"
+  },
+  {
+   "label": "Configuration",
+   "value": "Browser-based configuration with secure login and user administration. Customizable preset options for sleep, wake, and scenario actions"
+  },
+  {
+   "label": "Visual AI",
+   "value": "Intelligence built into the Automate VX system, provides AutoFraming and Reframing with Crestron 1 Beyond Cameras"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000/2500Mbps"
+  },
+  {
+   "label": "USB",
+   "value": "USB 3.2 host ports for mouse, keyboard, data drive, and camera signals"
+  },
+  {
+   "label": "NDI",
+   "value": "Supports up to 12 NDI®|HX inputs; Supports 1 NDI® output"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Systems/IV-SAM-VX2-P",
+ "checked": "2026-10-18"
 }

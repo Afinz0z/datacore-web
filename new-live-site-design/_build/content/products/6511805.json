@@ -1,6 +1,6 @@
 {
  "sku": "6511805",
- "order": 1743,
+ "order": 1659,
  "n": "DM® Essentials 4K60 4:4:4 Transmitter for USB-C® DisplayPort™ Signal (HD-TX-4KZ-111)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-TX-4KZ-111",
  "d": "HD-TX-4KZ-111 DM® Essentials 4K60 4:4:4 Transmitter for USB-C® DisplayPort™ Signal Extension over CATx Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Type",
+   "value": "DisplayPort™ over USB-C® (DisplayPort Alt Mode) with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "DM Lite® with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "DisplayPort over USB-C (DisplayPort Alt Mode)"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "DM Lite"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "USB‑C",
+   "value": "HDCP 2.3, EDID, CEC pass-through"
+  },
+  {
+   "label": "DM Lite",
+   "value": "HDCP 2.3, EDID pass-through"
+  },
+  {
+   "label": "Power Pack (Included)",
+   "value": "Input: 100-240VAC; Output: 24VDC 2.5A; Model: PW-2420RU"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, vented sides, 2 mounting brackets included"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding, surface mountable, or attachment to a single rack rail"
+  },
+  {
+   "label": "Height",
+   "value": "4.13 in. (105 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Transmitter/HD-TX-4KZ-111",
+ "checked": "2026-10-18"
 }

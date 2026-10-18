@@ -1,6 +1,6 @@
 {
  "sku": "6513807",
- "order": 1862,
+ "order": 1776,
  "n": "DM NVX® 5K 4x1 AV-over-IP Switcher Card with HDMI® and USB-C® (DM-NVX-385C)",
  "b": "Crestron",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-385C",
  "d": "DM-NVX-385C DM NVX® 5K 4x1 AV-over-IP Switcher Card with HDMI® and USB-C® Connectivity and Downmixing",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Codec",
+   "value": "Encoder: Pixel Perfect Processing (default) or DM-NVX-D10/D20/D200,; H.264 AV-over-IP streaming; Decoder: Pixel Perfect Processing or DM-NVX-D10/D20"
+  },
+  {
+   "label": "Video Resolutions",
+   "value": "Up to 5120x2160 @30 Hz (5K Ultra-Wide) or 5120x1440 @60 Hz (5K Super‑Wide); Up to 4:4:4 color sampling; HDR10, HDR10+, Dolby Vision, and Deep Color support"
+  },
+  {
+   "label": "Encoding/Decoding audio formats",
+   "value": "Primary multichannel (up to 8-channel LPCM or encoded HBR 7.1 surround sound), secondary 2-channel LPCM"
+  },
+  {
+   "label": "Bit Rates",
+   "value": "200 to 950 Mbps"
+  },
+  {
+   "label": "Streaming Protocols",
+   "value": "RTP, SDP"
+  },
+  {
+   "label": "Container",
+   "value": "MPEG-2 transport stream (.ts)"
+  },
+  {
+   "label": "Session Initiation",
+   "value": "Multicast via secure RTSP"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3, AES‑128, PKI"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 5K support (Dual‑Mode DisplayPort™ interface and DVI compatible); DisplayPort over USB-C (DisplayPort Alt Mode) with HDR10, HDR10+, and 5K support"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 5K support (DVI compatible)"
+  },
+  {
+   "label": "Switcher",
+   "value": "4x1 in encoder mode (Two HDMI, Two USB-C), manual or auto-switching, breakaway audio, Crestron QuickSwitch HD™ technology; 5x1 in decoder mode (HDMI, Stream), manual or auto-switching, breakaway audio, Crestron QuickSwit"
+  },
+  {
+   "label": "Scaler (Decoder Mode Only)",
+   "value": "5K video scaler with motion-adaptive deinterlacing, intelligent frame rate conversion, Deep Color support, HDR10, HDR10+, and Dolby Vision support, widescreen format selection (zoom, stretch, maintain aspect ratio, or 1:"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-385C",
+ "checked": "2026-10-18"
 }

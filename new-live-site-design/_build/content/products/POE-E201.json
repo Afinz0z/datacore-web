@@ -1,14 +1,65 @@
 {
  "sku": "POE-E201",
- "order": 3142,
+ "order": 3040,
  "n": "IEEE802.3at POE+ Repeater (Extender)",
  "b": "PLANET",
  "c": "SWITCH- Installation Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IEEE802.3at POE+ Repeater (Extender) - High Power POE",
- "specs": [],
+ "specs": [
+  {
+   "label": "LAN OUT",
+   "value": "1 x 10/100/1000BASE-T Ethernet with IEEE 802.3at/802.3af PoE “Data + DC” out auto MDI/MDI-X, auto-negotiation RJ45 connector"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "IEEE 802.3at PoE+ compliant with voltage within 52V-56V DC IEEE 802.3af PoE compliant with voltage within 48V-51V DC"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Metal"
+  },
+  {
+   "label": "Installation",
+   "value": "Wall or DIN-rail mounting"
+  },
+  {
+   "label": "Protection",
+   "value": "ESD (Ethernet): 2KV Surge (EFT for power) : 2KV"
+  },
+  {
+   "label": "LED Indicators",
+   "value": "1 x PoE IN ( Green ) 1 x LAN Data ( Green ) 1 x PoE OUT ( Amber )"
+  },
+  {
+   "label": "Switching Specifications Data Rate",
+   "value": "10/100/1000Mbps"
+  },
+  {
+   "label": "Switch Architecture",
+   "value": "Store-and-Forward"
+  },
+  {
+   "label": "Switch Throughput",
+   "value": "10Mbps:14880pps@64Bytes 100Mbps:148810pps@64Bytes 1000Mbps:1488000pps@64Bytes"
+  },
+  {
+   "label": "Maximum Frame Size",
+   "value": "9K bytes"
+  },
+  {
+   "label": "Flow Control",
+   "value": "Back pressure for half duplex IEEE 802.3x pause frame for full duplex"
+  },
+  {
+   "label": "PoE Power",
+   "value": "“PoE In” Port 48~56V DC, max. 30.8 watts “PoE Out” Port 44~52V DC, max. 26 watts"
+  }
+ ],
  "for": [
   "IGS-4215-8P2T2S"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/poe-e201-v2",
+ "checked": "2026-10-18"
 }

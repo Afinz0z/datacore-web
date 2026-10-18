@@ -1,14 +1,41 @@
 {
  "sku": "4612000",
- "order": 5315,
+ "order": 5197,
  "n": "Set of levelling feet P/N. 4612000 - RITTAL",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "without hex socket"
+  },
+  {
+   "label": "Assembly instruction",
+   "value": "A base/plinth adaptor is required for mounting on the VX base/plinth"
+  },
+  {
+   "label": "Max. load capacity (static) per component",
+   "value": "3,000 N"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX TS TS IT VX SE PC IW Blue e+ chillers TX CableNet"
+  },
+  {
+   "label": "Levelling range",
+   "value": "18 ‐ 43 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "4 pc(s)."
+  }
+ ],
  "for": [
   "5314116",
   "7888618"
- ]
+ ],
+ "src": "https://www.rittal.com/in-en/products/PG20231215ZUB101/PG20240311ZUB102/PG20240311ZUB101/PRO13016?variantId=4612000",
+ "checked": "2026-10-18"
 }

@@ -1,16 +1,67 @@
 {
  "sku": "MS510TXUP",
- "order": 3014,
+ "order": 2912,
  "n": "8-Port multi-gigabit/10G Ethernet Smart Switch - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8-Port multi-gigabit/10G Ethernet Smart Switch Ultra60 PoE++ (295W) with 2*10G SFP Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Multi-gigabit copper ports",
+   "value": "4 (1G/2.5G)"
+  },
+  {
+   "label": "Multi-gigabit/10 Gigabit copper ports",
+   "value": "4 (1G/2.5G/5G/10G)"
+  },
+  {
+   "label": "SFP+ ports",
+   "value": "2"
+  },
+  {
+   "label": "Number of PoE++ (802.3bt) ports",
+   "value": "8"
+  },
+  {
+   "label": "Total PoE Power budget",
+   "value": "295 Watts"
+  },
+  {
+   "label": "Uninterrupted PoE",
+   "value": "Yes"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "32K"
+  },
+  {
+   "label": "Buffer size",
+   "value": "16Mbit"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes (32)"
+  }
+ ],
  "acc": [
   "DRV-MS510TXUP-12",
   "DRV-MS510TXUP-36",
   "DRV-MS510TXUP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/smart-cloud/ms510txup/",
+ "checked": "2026-10-18"
 }

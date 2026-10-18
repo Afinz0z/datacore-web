@@ -1,14 +1,41 @@
 {
  "sku": "5301347",
- "order": 5312,
+ "order": 5194,
  "n": "Gland Plates Rittal",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Gland Plates",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface finish",
+   "value": "Zinc-plated"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Gland plate set Sealing tape Assembly parts 4 gland plate modules, solid, depth: 237.5 mm 1 sliding panel, depth: 115 mm"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX IT Width: = 800 mm Depth: = 1,200 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "36.7 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  }
+ ],
  "for": [
   "5311116"
- ]
+ ],
+ "src": "https://www.rittal.com/ie-en/products/PG20231215ZUB101/PG20240311ZUB102/PG20240312ZUB102/PRO108766?variantId=5301347",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "6508088",
- "order": 1622,
+ "order": 1520,
  "n": "GLS-OIRLCL-C-CN",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
  "d": "GLS-OIRLCL-C-CN Ceiling Mount Passive Infrared Occupancy & Daylight Sensor, Cresnet®",
- "specs": []
+ "specs": [
+  {
+   "label": "Motion Detection Technology",
+   "value": "Passive infrared (PIR) motion detection, 64 detection zones"
+  },
+  {
+   "label": "Coverage Area",
+   "value": "450 sq ft (42 sq m)"
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "Rectangular, 18.57 x 24.34 ft (5.66 x 7.42 m), with 8.2 ft (2.5 m) ceiling height"
+  },
+  {
+   "label": "Maximum Ceiling Height",
+   "value": "16.4 ft (5 m)"
+  },
+  {
+   "label": "Sensor Technology",
+   "value": "Closed-loop photocell"
+  },
+  {
+   "label": "Light Sensitivity",
+   "value": "0 to 1000 lux (0 to 93 foot-candles)"
+  },
+  {
+   "label": "Field of View",
+   "value": "360° hemispherical"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "1 W (42 mA @ 24VDC)"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP64 rated per IEC 60529"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "<3.4 BTU/hr"
+  },
+  {
+   "label": "Housing",
+   "value": "Plastic, cylindrical, white"
+  },
+  {
+   "label": "Mounting",
+   "value": "Drywall or ceiling tile mountable in a 1 in. (26 mm) diameter round hole, integrated compression clips hold the sensor in place, protrudes 0.2 in. (5 mm) from wall surface; Flush drywall mount or non-drywall surface moun"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Sensors/Combination-Occupancy-Photosensors/GLS-OIRLCL-C-CN",
+ "checked": "2026-10-18"
 }

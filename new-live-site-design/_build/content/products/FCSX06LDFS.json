@@ -1,11 +1,62 @@
 {
  "sku": "FCSX06LDFS",
- "order": 4096,
+ "order": 3994,
  "n": "Fiber Splicing Cassette",
  "b": "Belden",
  "c": "Fiber Casette",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FX ECX Fiber Splicing Cassette OS2 06 Ports",
- "specs": []
+ "specs": [
+  {
+   "label": "Environmental Space",
+   "value": "Indoor"
+  },
+  {
+   "label": "Suitable Applications",
+   "value": "FiberExpress Solutions, Backbone, Telecommunications Room, Main Distribution Room, Data Centers"
+  },
+  {
+   "label": "Overall Height",
+   "value": "1.300"
+  },
+  {
+   "label": "Overall Width",
+   "value": "6.340"
+  },
+  {
+   "label": "Overall Length",
+   "value": "8.740 in"
+  },
+  {
+   "label": "Max Capacity",
+   "value": "12 Fibers, 06 LC Duplex Ports"
+  },
+  {
+   "label": "Inner Jacket",
+   "value": "Inner Jacket"
+  },
+  {
+   "label": "Description Front Connection",
+   "value": "Static"
+  },
+  {
+   "label": "Front Connector Body",
+   "value": "Plastic - UL94V-0 Blue LC Duplex"
+  },
+  {
+   "label": "Cassette Assembly",
+   "value": "Plastic - UL94V-0 Black"
+  },
+  {
+   "label": "MII Order #39 (China RoHS)",
+   "value": "EUP 50"
+  },
+  {
+   "label": "Included Parts",
+   "value": "Splice sleeves, Splice holders and Cable ties"
+  }
+ ],
+ "src": "https://belden.com/products/panels-patching-systems/fiber-patch-systems/rack-mount-panel/lan-cassettes-frames/fcsx06ldfs",
+ "checked": "2026-10-18"
 }

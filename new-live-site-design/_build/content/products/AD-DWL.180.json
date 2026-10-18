@@ -1,6 +1,6 @@
 {
  "sku": "AD-DWL.180",
- "order": 919,
+ "order": 859,
  "n": "Q-SYS 5.25 inch two-way landscape loudspeaker",
  "b": "Q-SYS",
  "c": "Speaker",
@@ -9,12 +9,54 @@
  "d": "5.25\" two-way direct weather landscape loudspeaker.",
  "specs": [
   {
-   "label": "Type",
-   "value": "Landscape loudspeaker"
+   "label": "System Details",
+   "value": "AD-DWL.180"
   },
   {
-   "label": "Series",
-   "value": "AcousticDesign Series"
+   "label": "Effective frequency range",
+   "value": "55 Hz - 25 kHz"
+  },
+  {
+   "label": "Rated noise power",
+   "value": "80 W"
+  },
+  {
+   "label": "Broadband sensitivity",
+   "value": ">84 dB @1 W/1M (500 - 5 kHz)"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "180° (500 Hz – 5 kHz)"
+  },
+  {
+   "label": "Directivity factor (Q)",
+   "value": "Coming soon"
+  },
+  {
+   "label": "Directivity Index",
+   "value": "Coming soon"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "104 dB"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "110 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "16 Ω"
+  },
+  {
+   "label": "Transformer taps",
+   "value": "7.5 W, 15 W, 30 W, 60 W / 15 W, 30 W, 60 W"
+  },
+  {
+   "label": "Transducer",
+   "value": "(1) 5.25 in (135 mm) weather resistant cone woofer, ferrite magnet, rubber surround (1) 1 in (25mm) aluminum dome tweeter, rubber surround"
   }
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/landscape/acousticdesign-series/ad-dwl180/",
+ "checked": "2026-10-18"
 }

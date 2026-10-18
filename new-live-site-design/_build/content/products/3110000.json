@@ -1,15 +1,38 @@
 {
  "sku": "3110000",
- "order": 5307,
+ "order": 5189,
  "n": "Enclosure internal thermostat",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SK Thermostat, enclosure internal thermostat, 24-230 V, 1~, 24-60 V (DC)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Technical specifications",
+   "value": "Bi-metal controller as a temperature-sensitive element with thermal feedback"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "Setting range",
+   "value": "5 °C...60 °C"
+  },
+  {
+   "label": "Product description",
+   "value": "SK Thermostat, enclosure internal thermostat, 24-230 V, 1~, 24-60 V (DC), Colour RAL 7035, WHD: 71 x 71 x 33.5 mm"
+  }
+ ],
  "for": [
   "5314116",
   "7507220"
- ]
+ ],
+ "src": "https://www.rittal.com/uk-en/products/PG20231215KLI101/PG20231215KLI1008/PG20240123KLI204/PRO12215?variantId=3110000",
+ "checked": "2026-10-18"
 }

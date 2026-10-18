@@ -1,6 +1,6 @@
 {
  "sku": "6511414",
- "order": 583,
+ "order": 525,
  "n": "4x1 4K60 4:4:4 HDR Presentation System (HD-PS401)",
  "b": "Crestron",
  "c": "Presentation System",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-PS401",
  "d": "HD-PS401 4x1 4K60 4:4:4 HDR Presentation System",
- "specs": []
+ "specs": [
+  {
+   "label": "Switcher",
+   "value": "4x1 auto-switching or manual, audio‑follows‑video, Crestron Auto-Locking® and QuickSwitch HD™ technologies"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+, and Dolby Vision support, Deep Color support, and 4K60 4:4:4 support (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI, DM Essentials, and HDBaseT with HDR10, HDR10+, and Dolby Vision pass-through support, Deep Color support, and 4K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "(2) mono, balanced analog MIC/LINE inputs; (2) mono, balanced analog LINE inputs; (1) stereo, digital LPCM audio input extracted from the selected HDMI input source"
+  },
+  {
+   "label": "Audio Outputs",
+   "value": "(1) mirrored HDMI and DM Essentials audio output; (2) stereo, balanced analog AUX outputs"
+  },
+  {
+   "label": "Analog-to-Digital Conversion",
+   "value": "24-bit, 48 kHz"
+  },
+  {
+   "label": "Digital-to-Analog Conversion",
+   "value": "24-bit, 48 kHz"
+  },
+  {
+   "label": "Gain Range",
+   "value": "-10 dB to +10 dB in 1 dB increments"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48VDC, 12mA, enabled or disabled per channel"
+  },
+  {
+   "label": "Mute",
+   "value": "Enabled or disabled per channel"
+  },
+  {
+   "label": "Audio, Line Inputs (CH 3-4) input signal type",
+   "value": "Mono analog, balanced or unbalanced, line-level audio"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Switchers/HD-PS401",
+ "checked": "2026-10-18"
 }

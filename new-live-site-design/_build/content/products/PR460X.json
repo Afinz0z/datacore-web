@@ -1,16 +1,67 @@
 {
  "sku": "PR460X",
- "order": 3195,
+ "order": 3093,
  "n": "High-performance 6-port 10G/Multi-Gigabit Pro Router - Netgear",
  "b": "Netgear",
  "c": "Router",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "6PT 10G/MG PRO ROUTER W/4Y INSIGHT",
- "specs": [],
+ "specs": [
+  {
+   "label": "DC power adapter (varies by region)",
+   "value": "​"
+  },
+  {
+   "label": "Ethernet cable",
+   "value": "​"
+  },
+  {
+   "label": "Installation guide",
+   "value": "​"
+  },
+  {
+   "label": "Width",
+   "value": "440mm"
+  },
+  {
+   "label": "Depth",
+   "value": "100mm"
+  },
+  {
+   "label": "Height",
+   "value": "43.2mm"
+  },
+  {
+   "label": "Hardware",
+   "value": "Quad Core ARM A73 @ 2.2 GHz, 2GB DDR4, Flash Memory 4GB eMMC"
+  },
+  {
+   "label": "Performance",
+   "value": "WAN/LAN speed at 2.5G or 10G port wired speed."
+  },
+  {
+   "label": "LAN/VLAN",
+   "value": "Maximum Number of VLANs is 8, DHCP Server (limit is 32), VLANs 802.1Q"
+  },
+  {
+   "label": "VoIP SIP ALG",
+   "value": "Yes"
+  },
+  {
+   "label": "VPN",
+   "value": "IPSec"
+  },
+  {
+   "label": "Encryption/Authentication",
+   "value": "3DES, AES (128, 192, 256 bit)/SHA-1, SHA-2 (256bit), MD5"
+  }
+ ],
  "acc": [
   "DRV-PR460X-12",
   "DRV-PR460X-36",
   "DRV-PR460X-60"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/routers/pr460x/",
+ "checked": "2026-10-18"
 }

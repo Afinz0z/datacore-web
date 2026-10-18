@@ -1,6 +1,6 @@
 {
  "sku": "6511658",
- "order": 2335,
+ "order": 2239,
  "n": "FlipTop™ FT2 Series Cable Management System, 1400 Size, Electrical (FT2-1400-ELEC-PTL-B)",
  "b": "Crestron",
  "c": "Cable Cubby",
@@ -8,9 +8,49 @@
  "avail": "lead",
  "model": "FT2-1400-ELEC-PTL-B",
  "d": "FT2-1400-ELEC-PTL-B FlipTop™ FT2 Series Cable Management System, 1400 Size, Electrical, Pass-Through Lid, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum",
+   "value": "18"
+  },
+  {
+   "label": "Rows",
+   "value": "2 rows (9 modules per row)"
+  },
+  {
+   "label": "Lid Open",
+   "value": "(2) Mechanical button; Slide the button to open the corresponding lid; ​Cutouts in the lid allow cables to be extended while the lid is closed."
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish"
+  },
+  {
+   "label": "Cover",
+   "value": "Metal, black or alloy finish, mechanically retracting lid, magnetically-attached bezel"
+  },
+  {
+   "label": "Mounting",
+   "value": "Flush tabletop mount, fastened by 4 swiveling dogs, 1-3/4 in. (44 mm) maximum surface thickness, 6-3/4 in.(171 mm) deep x 10 in. (254 mm) wide cutout (template provided)"
+  },
+  {
+   "label": "Power Supply (included)",
+   "value": "Input: 1.5A maximum @ 100-240VAC, 50/60 Hz; Output: 2.5A @ 24VDC; Model: FT2A-UTK-PWS; NOTE: A second power supply, model FT2A‑UTK‑PWS , must be purchased and installed to support a second USB charging module. A maximum "
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 112° F (0° to 45° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (non‑condensing)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "Attaches to the left, right, or front side of the FlipTop chassis beneath the table"
+  }
+ ],
  "acc": [
-  "6506163",
   "6508365",
   "6508373",
   "6508374",
@@ -41,5 +81,7 @@
   "6510719",
   "6511101",
   "6511181"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Compartment/FT2-1400-ELEC-PTL-B",
+ "checked": "2026-10-18"
 }

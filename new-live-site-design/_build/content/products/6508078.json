@@ -1,6 +1,6 @@
 {
  "sku": "6508078",
- "order": 1712,
+ "order": 1630,
  "n": "DigitalMedia 8G+® 4K60 4:4:4 HDR Transmitter 302 (DM-TX-4KZ-302-C)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-TX-4KZ-302-C",
  "d": "DM-TX-4KZ-302-C DigitalMedia 8G+® 4K60 4:4:4 HDR Transmitter 302",
- "specs": []
+ "specs": [
+  {
+   "label": "Switcher",
+   "value": "3x1 manual or auto-switching, Crestron QuickSwitch HD technology"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI w/HDR10, Deep Color, 3D, & 4K60 4:4:4 support (DVI & Dual-Mode DisplayPort™ compatible ); DisplayPort w/Deep Color & 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "DM 8G+ & HDBaseT w/, Deep Color, 3D, & 4K60 4:4:4 support; HDMI w/HDR10, Deep Color, 3D, & 4K60 4:4:4 support (DVI compatible )"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Audio switcher",
+   "value": "3x1 audio-follow-video"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (Dual-Mode DisplayPort compatible ), DisplayPort"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "DM 8G+ & HDBaseT, HDMI"
+  },
+  {
+   "label": "Formats, HDMI",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS-ES, DTS 96/24, DTS HD High Res, DTS HD Master Audio™,DTS:X, LPCM up to 8 channels"
+  },
+  {
+   "label": "Formats, DisplayPort",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, DTS®, DTS-ES, DTS 96/24, DTS-HD High Res, DTS-HD Master Audio™, LPCM up to 8 channels"
+  },
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP"
+  },
+  {
+   "label": "USB Host",
+   "value": "Supports signal extension of USB HID class devices, supports a TT-100 series cable caddy"
+  },
+  {
+   "label": "USB Device",
+   "value": "USB HID signal extension to a USB host, supports computer console (for setup)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Distributed-AV-USB/DigitalMedia-Endpoints/Transmitters/DM-TX-4KZ-302-C",
+ "checked": "2026-10-18"
 }

@@ -1,16 +1,67 @@
 {
  "sku": "MS324TXUP",
- "order": 2995,
+ "order": 2893,
  "n": "24PT MG U60 POE++ SMART SWITCH - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24PT MG U60 POE++ SMART SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "DC power cord (varies by region)",
+   "value": "​"
+  },
+  {
+   "label": "Rackmount kit",
+   "value": "​"
+  },
+  {
+   "label": "Installation guide",
+   "value": "​"
+  },
+  {
+   "label": "Width",
+   "value": "440mm"
+  },
+  {
+   "label": "Depth",
+   "value": "310mm"
+  },
+  {
+   "label": "Height",
+   "value": "43.2mm"
+  },
+  {
+   "label": "Multi-gigabit copper ports",
+   "value": "24 (1G/2.5G)"
+  },
+  {
+   "label": "SFP+ ports",
+   "value": "4"
+  },
+  {
+   "label": "Number of PoE++ (802.3bt) ports",
+   "value": "24"
+  },
+  {
+   "label": "Total PoE Power budget",
+   "value": "720 Watts"
+  },
+  {
+   "label": "Uninterrupted PoE",
+   "value": "Yes"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "32K"
+  }
+ ],
  "acc": [
   "DRV-MS324TXUP-12",
   "DRV-MS324TXUP-36",
   "DRV-MS324TXUP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/switches/smart-cloud/ms324txup/",
+ "checked": "2026-10-18"
 }

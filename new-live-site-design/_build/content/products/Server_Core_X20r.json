@@ -1,6 +1,6 @@
 {
  "sku": "Server Core X20r",
- "order": 1242,
+ "order": 1180,
  "n": "X-Class Server Core for AV&C processing buil (Server Core X20r)",
  "b": "Q-SYS",
  "c": "DSP",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "Server Core X20r",
  "d": "Q-SYS X-Class Server Core for AV&C processing buil",
- "specs": [],
+ "specs": [
+  {
+   "label": "Q-SYS Capacities Total network I/O channels",
+   "value": "384 x 384"
+  },
+  {
+   "label": "Total network I/O streams",
+   "value": "192 x 192"
+  },
+  {
+   "label": "Dante network I/O",
+   "value": "8 x 8 included (up to 256 x 256 with Software-based Dante feature license)"
+  },
+  {
+   "label": "Media/WAN channel capacity",
+   "value": "96 x 96"
+  },
+  {
+   "label": "VoIP softphones",
+   "value": "64"
+  },
+  {
+   "label": "AEC channels (at 200 ms tail length)",
+   "value": "128"
+  },
+  {
+   "label": "Audio recording / playback",
+   "value": "4 channels recording / 16 channels playback, [expandable up to 256 channels playback with optional multi track playback license (SLMTP-32) stackable up to 8x]"
+  },
+  {
+   "label": "Media drive capacity",
+   "value": "480 GB (at least 400 GB available for user media, or at least 800 hours of uncompressed 48 kHz, 24 bit, mono WAV format audio files)"
+  },
+  {
+   "label": "Hardware Platform",
+   "value": "Dell R360XE"
+  },
+  {
+   "label": "Power",
+   "value": "2x universal input, 600 W PSU module"
+  },
+  {
+   "label": "LAN",
+   "value": "4x 1000 Mbps ports (2x Q-SYS Multimedia, 2x Q-SYS Aux)"
+  },
+  {
+   "label": "RS232",
+   "value": "1x DB-9 RS-232 port (rear panel), 16550-compliant"
+  }
+ ],
  "acc": [
   "SLDAN-16-P",
   "SLDAN-32-P"
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/processing/server-core-x20r/",
+ "checked": "2026-10-18"
 }

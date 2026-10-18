@@ -1,6 +1,6 @@
 {
  "sku": "unDX2IO+",
- "order": 2042,
+ "order": 1956,
  "n": "Dante/AES67 network audio Wall Plate - 4x2 mic/line I/O with face (unDX2IO+)",
  "b": "QSC",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "unDX2IO+",
  "d": "Dante/AES67 network audio Wall Plate - 4x2 mic/line I/O with face plate",
- "specs": []
+ "specs": [
+  {
+   "label": "Input types",
+   "value": "3-pin XLR (balanced and RF filtered)"
+  },
+  {
+   "label": "Gain",
+   "value": "-18 dB, -3 dB, +25 dB, +40 dB, software-selectable"
+  },
+  {
+   "label": "Phantom power",
+   "value": "+48 V, software-selectable"
+  },
+  {
+   "label": "Output type",
+   "value": "Balanced line level with automatic muting on loss of Dante signal"
+  },
+  {
+   "label": "Maximum output level",
+   "value": "+20 dBu"
+  },
+  {
+   "label": "Physical level",
+   "value": "Standard ethernet"
+  },
+  {
+   "label": "Connector",
+   "value": "Single RJ-45"
+  },
+  {
+   "label": "Dimensions (HWD)",
+   "value": "4.2 x 3.5 x 2 in (114.3 x 88.9 x 50.8 mm) Decora wall plate (2-gang): 4.87 x 4.94 x 0.08 in (123.7 x 125.48 x 2.03 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.6 lb (.27 kg)"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/attero-tech-peripherals-non-q-sys-native/at-wall-mount-network-audio-interfaces/undx2io/",
+ "checked": "2026-10-18"
 }

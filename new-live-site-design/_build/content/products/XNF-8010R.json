@@ -1,6 +1,6 @@
 {
  "sku": "XNF-8010R",
- "order": 3260,
+ "order": 3158,
  "n": "6MP IR Fisheye Indoor Camera",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "WISENET, 6MP IR Fisheye Indoor Camera, 1.6mm, 15m IR",
  "specs": [
   {
+   "label": "Imaging Device",
+   "value": "Size 1/1.8\""
+  },
+  {
    "label": "Type",
-   "value": "Indoor Dome"
+   "value": "CMOS"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "15fps"
+  },
+  {
+   "label": "Min. Illumination (Lux)",
+   "value": "Color(1/30sec, 30IRE) 0.1"
+  },
+  {
+   "label": "BW(1/30sec, 30IRE)",
+   "value": "0.01"
+  },
+  {
+   "label": "Video Out",
+   "value": "CVBS: 1.0 Vp-p / 75Ω composite for installation, USB: Micro USB Type B. Preview and installation ONLY. Requires WiFi dongle."
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "1.6"
+  },
+  {
+   "label": "Max Aperture Ratio (F number)",
+   "value": "Wide 1.6"
+  },
+  {
+   "label": "Angular Field of View",
+   "value": "Horizontal 192°"
+  },
+  {
+   "label": "Vertical",
+   "value": "192°"
+  },
+  {
+   "label": "Diagonal",
+   "value": "192°"
   }
- ]
+ ],
+ "src": "https://www.hanwhavision.com/uk/products/product-details/XNF-8010R",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6512656",
- "order": 2676,
+ "order": 2575,
  "n": "Retrofit Mounting Bracket for TSW 1070 Series (TSW-1070-RMB-4-W)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,11 +8,34 @@
  "avail": "lead",
  "model": "TSW-1070-RMB-4-W",
  "d": "TSW-1070-RMB-4-W Retrofit Mounting Bracket for TSW 1070 Series, White - Converts from TSW-760/1060-MSMK-W-S",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Installs into a TSW‑760/1060‑MSMK multisurface mount kit using provided mounting hardware"
+  },
+  {
+   "label": "Height",
+   "value": "4.33 in. (110 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "5.94 in. (151 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.31 in. (8 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Plastic bracket"
+  }
+ ],
  "for": [
   "6510814",
   "6510818",
   "6510827",
   "6510830"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-1070-RMB-4-W",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6503160",
- "order": 4131,
+ "order": 4029,
  "n": "Wall Mount Power Pack, 24 VDC, 0.75 A, 2.1 mm, Universal (PW-2407WU)",
  "b": "Crestron",
  "c": "Power Supply",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "PW-2407WU",
  "d": "Wall Mount Power Pack, 24 VDC, 0.75 A, 2.1 mm, Universal",
- "specs": []
+ "specs": [
+  {
+   "label": "Line",
+   "value": "(1) Ungrounded AC power plug, line power input"
+  },
+  {
+   "label": "Load",
+   "value": "(1) 6 ft (1.83 m) attached cable with 2.1 x 5.5 mm DC power barrel connector"
+  },
+  {
+   "label": "Temperature",
+   "value": "41° to 104°F (5° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/Power-Packs/PW-2407WU",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6511506",
- "order": 1719,
+ "order": 1636,
  "n": "DM NVX® 4K60 4:4:4 HDR Network AV Encoder (DM-NVX-E30)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-E30",
  "d": "DM-NVX-E30 DM NVX® 4K60 4:4:4 HDR Network AV Encoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Stream Type",
+   "value": "Pixel Perfect Processing (default) or DM-NVX-D10/D20/D200 Series"
+  },
+  {
+   "label": "Video Resolutions",
+   "value": "Up to 4096x2160@60Hz (DCI 4K60), 4:4:4 color sampling, HDR10, HDR10+, Dolby Vision®, and Deep Color support"
+  },
+  {
+   "label": "Encoding audio formats",
+   "value": "Multichannel (up to 8-channel LPCM or encoded HBR 7.1 surround sound)"
+  },
+  {
+   "label": "Bit Rates",
+   "value": "Fixed: 200 to 950 Mbps - user specified,; Adaptive: Dependent on input resolution of the stream, or; Variable: Less than 150 Mbps to maximum of 750 Mbps, dependent on content and input resolution of the stream"
+  },
+  {
+   "label": "Streaming Protocols",
+   "value": "RTP, SDP"
+  },
+  {
+   "label": "Container",
+   "value": "MPEG-2 transport stream (.ts)"
+  },
+  {
+   "label": "Session Initiation",
+   "value": "Multicast via secure RTSP"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3, AES-128, PKI"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support (Dual-Mode DisplayPort™ interface and DVI compatible)"
+  },
+  {
+   "label": "Video copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (Dual-Mode DisplayPort interface compatible)"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS®, DTS ES, DTS 96/24, DTS HD High Res, DTS HD Master Audio, DTS:X, LPCM up to 8 channels"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-E30",
+ "checked": "2026-10-18"
 }

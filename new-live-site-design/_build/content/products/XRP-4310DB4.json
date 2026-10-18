@@ -1,11 +1,62 @@
 {
  "sku": "XRP-4310DB4",
- "order": 3380,
+ "order": 3278,
  "n": "128CH SSM Recording Server",
  "b": "Hanwha Vision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "128CH SSM Recording Server,400Mbps, 16 SATA Enterprise, Failover, AI Event",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Camera",
+   "value": "Inputs Max. 128CH(※ If clustering, 132CH)"
+  },
+  {
+   "label": "Resolution",
+   "value": "CIF ~ 32MP"
+  },
+  {
+   "label": "Protocols",
+   "value": "Wisenet, ONVIF"
+  },
+  {
+   "label": "Decoding",
+   "value": "Local Display Dual if Full HD monitor Single if UHD monitor"
+  },
+  {
+   "label": "Multi Screen Display",
+   "value": "1/4/9/16/25/36/49/64/72/81/100/121/132/Custom/Auto Mode"
+  },
+  {
+   "label": "Record",
+   "value": "Compression H.265, H.264, MJPEG, WiseStream(H.264, H.265)"
+  },
+  {
+   "label": "Recording Bandwidth",
+   "value": "Max 400Mbps"
+  },
+  {
+   "label": "Mode",
+   "value": "Normal, Schedule (Continuous / Event), Event (Pre / Post), Event Profile, ARB, Dual-Track"
+  },
+  {
+   "label": "Event Action",
+   "value": "Instant Viewer, Preset, Alarm Out, Pop-up, Sound and E-mail notification"
+  },
+  {
+   "label": "Search & Play",
+   "value": "Playback Bandwidth Max. 150Mbps"
+  },
+  {
+   "label": "User",
+   "value": "Max. 1024 Users (132Ch concurrently)"
+  },
+  {
+   "label": "Simultaneous Playback",
+   "value": "Max 128ch(*if clustering, 132ch)"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/mea/products/product-details/XRP-4310DB4",
+ "checked": "2026-10-18"
 }

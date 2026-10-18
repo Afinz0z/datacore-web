@@ -1,6 +1,6 @@
 {
  "sku": "CBT 50LA-LS",
- "order": 890,
+ "order": 830,
  "n": "Line Array Column Loudspeaker with with Eight 50 mm (2 in) Drivers (CBT 50LA-LS)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CBT 50LA-LS",
  "d": "Line Array Column Loudspeaker with with Eight 50 mm (2 in) Drivers and EN54:24 Certification",
- "specs": []
+ "specs": [
+  {
+   "label": "Drivers",
+   "value": "Eight 50 mm(2 in) Full-Range"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "120 Hz – 20 kHz"
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "Vertical: 20° (1.5 kHz - 16 kHz, ±10°) Horizontal: 150° (ave, 1 kHz – 4 kHz, ±20°)"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "Frequency (kHz) Horizontal Coverage° Vertical Coverage°"
+  },
+  {
+   "label": "0.5 kHz",
+   "value": "360° 100°"
+  },
+  {
+   "label": "1 kHz",
+   "value": "247° 55°"
+  },
+  {
+   "label": "2 kHz",
+   "value": "194° 32°"
+  },
+  {
+   "label": "4 kHz",
+   "value": "135° 18°"
+  },
+  {
+   "label": "Sensitivity (1W/1m) free field",
+   "value": "(speech mode) 93 dB (2 kHz - 14 kHz ) (music mode) 89 dB (300 Hz - 18 kHz)"
+  },
+  {
+   "label": "Sensitivity (1W @ 4m)",
+   "value": "(speech mode) 78.8 dB SPL (100 Hz - 10 kHz) (music mode) 76.5 dB SPL (100 Hz - 10 kHz)"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8Ω (in bypass mode) 7.5w@70v; 15w@100v Tap = 667Ω 15w@70v; 30w@100v Tap = 333Ω 30w@70v; 60w@100v Tap = 167Ω 60w@70v; N/C@100v Tap = 83Ω"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "Speech: 115 dB cont ave (121 peak @ 1m); 103 dB cont ave (109 peak @ 4m) Music: 111 dB cont ave (117 peak @ 1m); 99 dB cont ave (105 peak @ 4m)"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/cbt-50la-ls",
+ "checked": "2026-10-18"
 }

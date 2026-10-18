@@ -1,6 +1,6 @@
 {
  "sku": "AD-C8T-SWZB",
- "order": 926,
+ "order": 866,
  "n": "8\" In-Ceiling subwoofer, blind mount ceiling speak (AD-C8T-SWZB)",
  "b": "QSC",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AD-C8T-SWZB",
  "d": "8\" In-Ceiling subwoofer, blind mount ceiling speak",
- "specs": []
+ "specs": [
+  {
+   "label": "LF transducer",
+   "value": "8 in (203 mm), 2.0 in. (50.8 mm) voice coil, ferrite"
+  },
+  {
+   "label": "Enclosure configuration",
+   "value": "Ceiling Subwoofer, Bass Reflex"
+  },
+  {
+   "label": "Coverage",
+   "value": "Omni"
+  },
+  {
+   "label": "Filter",
+   "value": "125 Hz Low Pass, Passive"
+  },
+  {
+   "label": "System bandwidth (1)",
+   "value": "-3 dB: 65 Hz - 155 Hz -6dB: 59 Hz - 170 Hz -10 dB: 53 Hz - 195 Hz"
+  },
+  {
+   "label": "Sensitivity (2)",
+   "value": "92.3 dB @ 1 W/ 1 m"
+  },
+  {
+   "label": "Max SPL (continuous) (3)",
+   "value": "113 dB"
+  },
+  {
+   "label": "Max SPL (peak) (4)",
+   "value": "125 dB"
+  },
+  {
+   "label": "Max SPL (calculated) (5)",
+   "value": "123 dB"
+  },
+  {
+   "label": "Bypass impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Minimum impedance",
+   "value": "6.4 Ω @ 118 Hz"
+  },
+  {
+   "label": "Taps (70v/100v)",
+   "value": "25 W, 50 W, 100 W, 200 W / 50 W, 100 W, 200 W"
+  }
+ ],
+ "src": "https://www.qsys.com/products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c8t-swzb/",
+ "checked": "2026-10-18"
 }

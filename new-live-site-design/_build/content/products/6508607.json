@@ -1,6 +1,6 @@
 {
  "sku": "6508607",
- "order": 2141,
+ "order": 2053,
  "n": "DM NVX Director™ Virtual Switching Appliance, 1000 Endpoints (DM-NVX-DIR-ENT)",
  "b": "Crestron",
  "c": "Director",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-DIR-ENT",
  "d": "DM-NVX-DIR-ENT DM NVX Director™ Virtual Switching Appliance, 1000 Endpoints",
- "specs": []
+ "specs": [
+  {
+   "label": "Endpoints",
+   "value": "Supports 1000 DM NVX devices, each configured as an encoder or decoder"
+  },
+  {
+   "label": "Domains",
+   "value": "Supports 240 domains (allows grouping of endpoints in up to 240 individual subsystems)"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, 10 Gbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, TLS, SSH, IPv4, HTTPS web browser setup and control, Crestron 3-Series® control system integrati"
+  },
+  {
+   "label": "DM NVX (via Ethernet)",
+   "value": "HDCP 2.2, AES audio/video content encryption, RTP, RTSP, SDP, ONVIF, IGMPv2, IGMPv3, SMPTE 2022, FEC (Forward Error Correction)"
+  },
+  {
+   "label": "Mains Power x2",
+   "value": "6.0-3.0A @ 100-240VAC, 50/60 Hz"
+  },
+  {
+   "label": "Redundancy",
+   "value": "(2) Hot-swappable power supply modules, unit continues to operate at full capacity on one functioning power supply module"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "477.7 BTU/hr"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, vented front and rear, variable speed fan cooled"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding or 1 RU 19-inch rack-mountable (includes rack mounting brackets for attachment to front and rear rack rails with 10-32 threaded screw holes or 3/8 in. (10 mm) square holes, adjustable for varying rack depths"
+  },
+  {
+   "label": "Height",
+   "value": "1.71 in. (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "17.50 in. (445 mm) without rack mounting brackets; 19.00 in. (483 mm) with rack mounting brackets"
+  },
+  {
+   "label": "Depth",
+   "value": "18.78 in. (477 mm) without rack mounting brackets"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Management/DM-NVX-DIR-ENT",
+ "checked": "2026-10-18"
 }

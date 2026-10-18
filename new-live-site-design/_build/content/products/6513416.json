@@ -1,6 +1,6 @@
 {
  "sku": "6513416",
- "order": 2650,
+ "order": 2551,
  "n": "Display Mounting Kit for Crestron Videobar 70 (UC-SB2-DMK)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,9 +8,44 @@
  "avail": "lead",
  "model": "UC-SB2-DMK",
  "d": "UC-SB2-DMK Display Mounting Kit for Crestron Videobar 70",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Base Bracket Rails,; Extension Bracket Rails,; Tilt Bracket,; Mounting Bracket"
+  },
+  {
+   "label": "VESA Mounting Range",
+   "value": "Minimum Range: 8 in. (200 mm) (W) x 8 in. (200 mm) (H); Maximum Range: 31.5 in. (800 mm) (H) x 23. 62 in. (600 mm) (W)"
+  },
+  {
+   "label": "Height",
+   "value": "36.2 in. (919 mm)"
+  },
+  {
+   "label": "Height with the Crestron Videobar",
+   "value": "38.02 in. (966 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "31 in. (787 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.97 in. (126 mm); 1.25 in. (32 mm) (Extension Bracket Rails)"
+  },
+  {
+   "label": "Depth with the Crestron Videobar",
+   "value": "5.95 in. (151 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  }
+ ],
  "for": [
   "6512359",
   "6512360"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Flex-Conferencing/Accessories/UC-SB2-DMK",
+ "checked": "2026-10-18"
 }

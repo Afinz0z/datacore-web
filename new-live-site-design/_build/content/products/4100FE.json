@@ -1,6 +1,6 @@
 {
  "sku": "4100FE",
- "order": 2545,
+ "order": 2446,
  "n": "Speaker Cable, 2-14 AWG stranded bare copper conductors (4100FE)",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -10,12 +10,54 @@
  "d": "Speaker Cable, 2-14 AWG stranded bare copper conductors with polypropylene insulation",
  "specs": [
   {
-   "label": "Type",
-   "value": "Speaker Cable"
+   "label": "Suitable Applications",
+   "value": "Intercom/PA Systems, Sound/Audio Systems, Control Systems"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Outer Jacket1 Table Notes",
+   "value": "Ripcord provided under sheath"
+  },
+  {
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "5.65 mm (0.222 in)"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "11.3 Ohm/km (3.44 Ohm/1000ft)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Euroclass Eca, Indoor, Non-Halogenated"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU Directive 2011/65/EU (RoHS 2)"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "Update and Revision",
+   "value": "Revision Number: 0.369 Revision Date: 02-20-2026"
+  },
+  {
+   "label": "4100FE.00305",
+   "value": "Gray Reel 305 m 8719605154965"
+  },
+  {
+   "label": "4100FE.00500",
+   "value": "Gray Reel 500 m 8719605006196"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/4100fe",
+ "checked": "2026-10-18"
 }

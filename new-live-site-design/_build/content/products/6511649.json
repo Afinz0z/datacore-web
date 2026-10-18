@@ -1,6 +1,6 @@
 {
  "sku": "6511649",
- "order": 1714,
+ "order": 1631,
  "n": "DM NVX® 4K60 4:2:0 Network AV Decoder (DM-NVX-D20)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-D20",
  "d": "DM-NVX-D20 DM NVX® 4K60 4:2:0 Network AV Decoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Stream Type",
+   "value": "Default support for DM-NVX-E20/E10 Series; Support available for 4K60 4:4:4 encoders when using DM-NVX-D20 supported resolutions"
+  },
+  {
+   "label": "Video Resolutions",
+   "value": "HDMI with Deep Color and 4K60 4:2:0 support"
+  },
+  {
+   "label": "Decoding audio formats",
+   "value": "Multichannel (up to 8-channel LPCM or encoded HBR 7.1 surround sound)"
+  },
+  {
+   "label": "Bit Rates",
+   "value": "Based on the stream received from the encoder"
+  },
+  {
+   "label": "Streaming Protocols",
+   "value": "RTP, SDP"
+  },
+  {
+   "label": "Container",
+   "value": "MPEG-2 transport stream (.ts)"
+  },
+  {
+   "label": "Session Initiation",
+   "value": "Multicast via secure RTSP"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3, AES-128, PKI"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with Deep Color and 4K60 4:2:0 support (DVI compatible)"
+  },
+  {
+   "label": "Video copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "HDMI, analog stereo"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS®, DTS ES, DTS 96/24, DTS HD High Res, DTS HD Master Audio, DTS:X, LPCM up to 8 channels"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-D20",
+ "checked": "2026-10-18"
 }

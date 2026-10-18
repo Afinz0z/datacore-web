@@ -1,13 +1,38 @@
 {
  "sku": "6510719",
- "order": 2347,
+ "order": 2251,
  "n": "FT2A-CHGR-USBA-BASIC",
  "b": "Crestron",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "FT2A-CHGR-USBA-BASIC FlipTop™ USB Rapid Charging Module for FT2 Series, Mechanical",
- "specs": [],
+ "specs": [
+  {
+   "label": "USB Type-A",
+   "value": "Provides up to 12 W at 2.4 A for each charging device simultaneously"
+  },
+  {
+   "label": "Height",
+   "value": "2.86 in. (73 mm)"
+  },
+  {
+   "label": "Width",
+   "value": ".98 in. (25 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.31 in. (59 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 113° F (0° to 45° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "for": [
   "6511653",
   "6511654",
@@ -24,5 +49,7 @@
   "6511977",
   "6511978",
   "6511980"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Power-Module/FT2A-CHGR-USBA-BASIC",
+ "checked": "2026-10-18"
 }

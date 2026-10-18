@@ -1,11 +1,62 @@
 {
  "sku": "6508076",
- "order": 1729,
+ "order": 1646,
  "n": "DM-RMC-4KZ-SCALER-C",
  "b": "Crestron",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "DM-RMC-4KZ-SCALER-C DigitalMedia 8G+® 4K60 4:4:4 HDR Receiver and Room Controller with Scaler",
- "specs": []
+ "specs": [
+  {
+   "label": "Scaler",
+   "value": "4K60 4:4:4 video scaler with motion-adaptive deinterlacer, intelligent frame rate conversion, Deep Color support, HDR10 support, content-adaptive noise reduction, widescreen format selection (zoom, stretch, maintain aspe"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "DM 8G+, HDBaseT, and HDMI with HDR10, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with HDR10, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "DM 8G+, HDBaseT, HDMI"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "HDMI, analog stereo"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS-ES, DTS 96/24, DTS-HD High Res, DTS-HD Master Audio™, LPCM up to 8 channels"
+  },
+  {
+   "label": "Audio analog formats",
+   "value": "Stereo 2-channel"
+  },
+  {
+   "label": "Digital-To-Analog Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Analog Performance",
+   "value": "Frequency Response: 20 Hz to 20 kHz ±0.5 dB; S/N Ratio: >95 dB 20 Hz to 20 kHz A-weighted; THD+N: <0.005% @ 1 kHz; Stereo Separation: >90 dB"
+  },
+  {
+   "label": "Analog Volume Adjustment",
+   "value": "-80 to 0 dB"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Distributed-AV-USB/DigitalMedia-Endpoints/Receivers/DM-RMC-4KZ-SCALER-C",
+ "checked": "2026-10-18"
 }

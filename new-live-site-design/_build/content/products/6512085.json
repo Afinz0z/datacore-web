@@ -1,6 +1,6 @@
 {
  "sku": "6512085",
- "order": 3510,
+ "order": 3408,
  "n": "RFID Card Reader (RFID-USB)",
  "b": "Crestron",
  "c": "CARD READER",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "RFID-USB",
  "d": "RFID-USB RFID Card Reader",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency",
+   "value": "125 kHz (LF); 13.56 MHz (HF); 2.4 GHz (BLE)"
+  },
+  {
+   "label": "Antenna",
+   "value": "Integrated into device"
+  },
+  {
+   "label": "Read/Write Distance",
+   "value": "Up to 3.15 in. (80 mm) depending on environment (for LF and HF)"
+  },
+  {
+   "label": "Transmission Speed",
+   "value": "USB full speed, 12 Mbit/s (Host); < 848 kbit/s (HF Air); < 100 kbit/s (BT Air)"
+  },
+  {
+   "label": "Bluetooth® Communications (BLE)",
+   "value": "Bluetooth v4.2; GAP, SM, L2CAP, ATT standards; Predefined GATT structure; AES128 supported"
+  },
+  {
+   "label": "MTBF",
+   "value": "500,000 hours"
+  },
+  {
+   "label": "Housing",
+   "value": "Plastic, black finish"
+  },
+  {
+   "label": "Mounting",
+   "value": "Peel-and-stick adhesive mount to glass, drywall, or similar surfaces; Mounting frame provided for integration with mullion mount kit installations"
+  },
+  {
+   "label": "Height",
+   "value": "2.58 in. (66 mm); 3.37 in. (86 mm) with mounting frame"
+  },
+  {
+   "label": "Width",
+   "value": "1.79 in. (46 mm); 1.94 in. (49 mm) with mounting frame"
+  },
+  {
+   "label": "Depth",
+   "value": "0.16 in. (4 mm); 0.26 in. (7 mm) with mounting frame"
+  },
+  {
+   "label": "Power Supply",
+   "value": "4.3–5.5V via micro USB; Limited power source according to IEC60950-1 or PS2 classified IEC 62368‑1, short-circuit current < 8 A"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Accessories/IR-and-RF-Devices/RFID-USB",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6511651",
- "order": 1970,
+ "order": 1884,
  "n": "DM NVX® 4K60 4:2:0 Network AV Encoder, Wall Plate, White Textured (DM-NVX-E20-2G-W-T)",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-E20-2G-W-T",
  "d": "DM-NVX-E20-2G-W-T DM NVX® 4K60 4:2:0 Network AV Encoder, Wall Plate, White Textured",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Resolutions",
+   "value": "HDMI with Deep Color and 4K60 4:2:0 support"
+  },
+  {
+   "label": "Encoding audio formats",
+   "value": "Multichannel (up to 8-channel LPCM or encoded HBR 7.1 surround sound)"
+  },
+  {
+   "label": "Bit Rates",
+   "value": "Fixed: 200 to 950 Mbps; Adaptive: Based on input resolution of the stream"
+  },
+  {
+   "label": "Streaming Protocols",
+   "value": "RTP, SDP"
+  },
+  {
+   "label": "Container",
+   "value": "MPEG-2 transport stream (.ts)"
+  },
+  {
+   "label": "Session Initiation",
+   "value": "Multicast via secure RTSP"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3, AES-128, PKI"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with Deep Color and 4K60 4:2:0 support (Dual-Mode DisplayPort™ interface and DVI compatible)"
+  },
+  {
+   "label": "Video copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (Dual-Mode DisplayPort interface compatible), analog stereo"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS®, DTS ES, DTS 96/24, DTS HD High Res, DTS HD Master Audio, DTS:X, LPCM up to 8 channels"
+  },
+  {
+   "label": "Audio analog formats",
+   "value": "Stereo 2-channel"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-E20-2G-W-T",
+ "checked": "2026-10-18"
 }

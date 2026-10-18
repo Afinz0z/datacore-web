@@ -1,16 +1,67 @@
 {
  "sku": "XS516TM",
- "order": 2984,
+ "order": 2882,
  "n": "16P 10G/MG SMART SWITCH - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "16-Port 10G/Multi-Gigabit Smart Switch that provides high-density",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power cord (varies by region)",
+   "value": "​"
+  },
+  {
+   "label": "Wall mount kit",
+   "value": "​"
+  },
+  {
+   "label": "Rackmount kit",
+   "value": "​"
+  },
+  {
+   "label": "Installation guide",
+   "value": "​"
+  },
+  {
+   "label": "Width",
+   "value": "330mm (13in)"
+  },
+  {
+   "label": "Depth",
+   "value": "206mm (8.12in)"
+  },
+  {
+   "label": "Height",
+   "value": "43mm (1.7in)"
+  },
+  {
+   "label": "10G/Multi-Gigabit ports",
+   "value": "16"
+  },
+  {
+   "label": "10G SFP+ ports",
+   "value": "2"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-XS516TM-12",
   "DRV-XS516TM-36",
   "DRV-XS516TM-60"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/switches/smart-cloud/xs516tm/",
+ "checked": "2026-10-18"
 }

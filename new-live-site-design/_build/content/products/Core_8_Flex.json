@@ -1,6 +1,6 @@
 {
  "sku": "Core 8 Flex",
- "order": 1240,
+ "order": 1178,
  "n": "network + analog I/O processor, 64 x 64 networked audio channels (Core 8 Flex)",
  "b": "Q-SYS",
  "c": "DSP",
@@ -8,10 +8,61 @@
  "avail": "lead",
  "model": "Core 8 Flex",
  "d": "Q-SYS network + analog I/O processor, 64 x 64 networked audio channels (Q-LAN / AES67) with up to 32 x 32 Dante audio channels (8 x 8 included),USB AV bridging, dual LAN ports, VoIP telephony, 8x8 GPIO, 8 AEC processors, Half-size 1RU.",
- "specs": [],
+ "specs": [
+  {
+   "label": "docx",
+   "value": "Architect and Engineering Specifications - Q-SYS Core 8 Flex - German Architect and Engineering Specifications for the Q-SYS Processor Q-SYS Core 8 Flex, German"
+  },
+  {
+   "label": "Channel Capacity Total network I/O channels",
+   "value": "64 x 64"
+  },
+  {
+   "label": "Total network I/O streams",
+   "value": "32 x 32"
+  },
+  {
+   "label": "Dante channels",
+   "value": "8 x 8 (included); licensable up to 32 x 32"
+  },
+  {
+   "label": "Local analog I/O channels",
+   "value": "8 flex"
+  },
+  {
+   "label": "AEC processors",
+   "value": "8"
+  },
+  {
+   "label": "VoIP instances",
+   "value": "2"
+  },
+  {
+   "label": "Audio recording / playback",
+   "value": "4 ch recording / 16 ch playback (expandable to 32 ch with optional license)"
+  },
+  {
+   "label": "Q-SYS NM-T1 capacity",
+   "value": "3 (base capacity); 6 (with Capacity Scaling License)"
+  },
+  {
+   "label": "Network peripherals",
+   "value": "up to 32"
+  },
+  {
+   "label": "Mic/line inputs Phantom power",
+   "value": "+48 VDC, 10 mA per input max"
+  },
+  {
+   "label": "A/D-D/A converters",
+   "value": "24 bit"
+  }
+ ],
  "acc": [
   "SLDAN-16-P",
   "SLDAN-32-P",
   "SLMST-8N-P"
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/processing/core-8-flex/",
+ "checked": "2026-10-18"
 }

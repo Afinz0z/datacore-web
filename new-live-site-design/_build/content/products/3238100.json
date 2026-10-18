@@ -1,14 +1,61 @@
 {
  "sku": "3238100",
- "order": 4024,
+ "order": 3922,
  "n": "Rittal TopTherm Fan-and-Filter Unit",
  "b": "Rittal",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Wall-mounted fan-and-filter unit with diagonal fan technology for cooling electrical enclosures. 230 V AC, with standard IP54 protection.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Version",
+   "value": "wall-mounted"
+  },
+  {
+   "label": "Color",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Complete unit ready to install, including chopped fiber filter mat"
+  },
+  {
+   "label": "Fan",
+   "value": "Axial, shaded pole motor"
+  },
+  {
+   "label": "Unimpeded air flow (with pleated filter)",
+   "value": "At 50 Hz: 63 m³/h At 60 Hz: 72 m³/h ( At 50 Hz: 37.08 cfm At 60 Hz: 42.38 cfm )"
+  },
+  {
+   "label": "Rated power Pel",
+   "value": "At 50 Hz: 15 W At 60 Hz: 14 W"
+  },
+  {
+   "label": "Rated current max.",
+   "value": "At 50 Hz: 0.12 A At 60 Hz: 0.09 A"
+  },
+  {
+   "label": "Installation depth",
+   "value": "58.5 mm ( 2.3 ˝ )"
+  },
+  {
+   "label": "Mounting cut-out",
+   "value": "Width of opening: 124 mm Cut-out height: 124 mm ( Width of opening: 4.88 ˝ Cut-out height: 4.88 ˝ )"
+  },
+  {
+   "label": "Protection category IP to IEC 60 529",
+   "value": "IP 54 with chopped fiber filter/pleated filter"
+  },
+  {
+   "label": "Protection category NEMA",
+   "value": "Type 12 with chopped fiber filter/pleated filter"
+  }
+ ],
  "for": [
   "9791045"
- ]
+ ],
+ "src": "https://www.rittal.com/ca-en/products/PG20231215KLI101/PG20231215KLI102/PG20240718KLI001/PRO0299?variantId=3238100",
+ "checked": "2026-10-18"
 }

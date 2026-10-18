@@ -1,11 +1,54 @@
 {
  "sku": "GS308EPP",
- "order": 3016,
+ "order": 2914,
  "n": "8PT GE PLUS SWCH W/ HI-PWR POE+ (123W) - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8-Port Gigabit Ethernet Easy Smart Managed Essentials PoE Switch (123W)",
- "specs": []
+ "specs": [
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Total PoE+ Ports",
+   "value": "8"
+  },
+  {
+   "label": "Total PoE+ Budget",
+   "value": "123W"
+  },
+  {
+   "label": "Uninterrupted PoE",
+   "value": "Yes"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "16Gbps"
+  },
+  {
+   "label": "Max Mac Entries",
+   "value": "4K"
+  },
+  {
+   "label": "Energy Efficient Ethernet (IEEE 802.3az)",
+   "value": "Yes"
+  },
+  {
+   "label": "Priority Queuing",
+   "value": "WRR"
+  },
+  {
+   "label": "​Dimensions (W x D x H)",
+   "value": "158 x 101 x 27 mm (6.2 x 4.0 x 1.1 in)"
+  },
+  {
+   "label": "​Weight",
+   "value": "0.49 kg (1.08 lb)"
+  }
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/easy-smart/gs308epp/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6508373",
- "order": 2359,
+ "order": 2263,
  "n": "Gravity Cable Retractor for FT2 Series, RJ-45 to RJ-45,CAT6 (FT2A-CBLR-GR-CAT6)",
  "b": "Crestron",
  "c": "Cable Cubby",
@@ -8,7 +8,40 @@
  "avail": "lead",
  "model": "FT2A-CBLR-GR-CAT6",
  "d": "FT2A-CBLR-GR-CAT6 Gravity Cable Retractor for FT2 Series, RJ-45 to RJ-45,CAT6",
- "specs": [],
+ "specs": [
+  {
+   "label": "Pass-Through Module",
+   "value": "Precision fit plastic drop-in module, 2-space, black"
+  },
+  {
+   "label": "Retractor Enclosure",
+   "value": "Metal housing with plastic neck"
+  },
+  {
+   "label": "End Mounting",
+   "value": "• Module requires two consecutive module spaces at the left or right end of any module row within the FlipTop chassis; • Enclosure attaches beneath the table to mounting slots on the left or right side of the FlipTop cha"
+  },
+  {
+   "label": "Height",
+   "value": "25.80 in (656 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.07 in (104 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.85 in (47 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 113° F (0° to 45° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "for": [
   "6511653",
   "6511654",
@@ -24,5 +57,7 @@
   "6511977",
   "6511978",
   "6511980"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Gravity-Retractors/FT2A-CBLR-GR-CAT6",
+ "checked": "2026-10-18"
 }

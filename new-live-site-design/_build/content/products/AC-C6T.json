@@ -1,11 +1,62 @@
 {
  "sku": "AC-C6T",
- "order": 928,
+ "order": 868,
  "n": "Ceiling loudspeaker-AC-C6T",
  "b": "QSC",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "AcousticCoverage™ Series AC-C6T 6.5-inch 2-way, 110° conical,30 watts, ceiling mount loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Effective frequency range",
+   "value": "65 Hz to 20 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage",
+   "value": "30 watts / 15.5 volts (rms)"
+  },
+  {
+   "label": "Broad-band sensitivity",
+   "value": "89 dB SPL"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "110° (500 Hz to 5 kHz)"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "104 dB"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "110 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "70 V",
+   "value": "30, 15, 7.5, 3.7, 1.9 watts and 8-ohm bypass"
+  },
+  {
+   "label": "100V",
+   "value": "30, 15, 7.5, 3.8, watts and 8-ohm bypass"
+  },
+  {
+   "label": "HF Transducer",
+   "value": ".86 -inch silk dome tweeter, coaxially mounted"
+  },
+  {
+   "label": "LF Transducer",
+   "value": "6.5 -inch Polypropylene cone with butyl rubber surround"
+  },
+  {
+   "label": "Input connector type",
+   "value": "Euroblock connector with parallel output terminals"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticcoverage-series/ac-c6t/",
+ "checked": "2026-10-18"
 }

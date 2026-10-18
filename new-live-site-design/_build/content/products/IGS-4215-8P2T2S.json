@@ -1,16 +1,67 @@
 {
  "sku": "IGS-4215-8P2T2S",
- "order": 3040,
+ "order": 2938,
  "n": "Industrial L2/L4 8-Port Switch Planet",
  "b": "PLANET",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP30 Industrial L2/L4 8-Port 10/100/1000T 802.3at PoE + 2-Port 10/100/1000T + 2-Port 100/1000X SFP Managed Switch (-40~75 degrees C), dual redundant power input on 48~56VDC terminal block, SNMPv3, 802.1Q VLAN, IGMP Snooping, TLS, SSH, ACL, 250m Extend mode, supports ERPS Ring, CloudViewer app, MQTT and Cybersecurity feature)",
- "specs": [],
+ "specs": [
+  {
+   "label": "PoE Injector Port",
+   "value": "Eight ports with 802.3af/802.3at PoE+ injector function (Ports 1 to 8)"
+  },
+  {
+   "label": "SFP Ports",
+   "value": "Two 1000BASE-SX/LX/BX SFP interfaces (Ports 11 to 12) Compatible with 100BASE-FX SFP"
+  },
+  {
+   "label": "Console",
+   "value": "1 x RS232-to-RJ45 serial port (115200,8, N, 1)"
+  },
+  {
+   "label": "Reset Button",
+   "value": "> 5 sec: Factory default"
+  },
+  {
+   "label": "Connector",
+   "value": "Removable 6-pin terminal block Pin 1/2 for Power 1; Pin 3/4 for fault alarm; Pin 5/6 for Power 2"
+  },
+  {
+   "label": "Alarm",
+   "value": "One relay output for power failure. Alarm relay current carry ability: 1A @ 24V AC"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "48~54V DC, 6A (max.) (>51V DC for PoE+ output recommended)"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IP30 aluminum case"
+  },
+  {
+   "label": "Installation",
+   "value": "DIN-rail kit and wall-mount ear"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Contact Discharge 6KV DC Air Discharge 8KV DC"
+  },
+  {
+   "label": "Switching Specifications Switch Architecture",
+   "value": "Store-and-Forward"
+  },
+  {
+   "label": "Switch Fabric",
+   "value": "24Gbps/non-blocking"
+  }
+ ],
  "acc": [
   "MGB-TSX",
   "POE-E201",
   "PWR-240-48"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/igs-4215-8p2t2s-v2",
+ "checked": "2026-10-18"
 }

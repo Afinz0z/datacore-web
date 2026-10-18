@@ -1,6 +1,6 @@
 {
  "sku": "WBE750",
- "order": 3113,
+ "order": 3011,
  "n": "AP WiFi 7 10G Tri-Band Indoor - Netgear",
  "b": "Netgear",
  "c": "ACCESS POINT",
@@ -9,8 +9,52 @@
  "d": "AP WiFi 7 10G Tri-Band POE Insight Manageable Indoor AP",
  "specs": [
   {
-   "label": "Type",
-   "value": "Indoor campus access point"
+   "label": "Wall/ceiling mount kit",
+   "value": "​"
+  },
+  {
+   "label": "Installation guide",
+   "value": "​"
+  },
+  {
+   "label": "WiFi Standard",
+   "value": "6GHz: 802.11ax/be, 5GHz: 802.11a/n/ac/ax/be, 2.4GHz: 802.11b/g/n/ax"
+  },
+  {
+   "label": "Wireless Mode (Transmit x Receive)",
+   "value": "2.4GHz is 4x4, 5GHz is 4x4, 6GHz is 4x4"
+  },
+  {
+   "label": "OFDM/OFDMA",
+   "value": "Both OFDM and OFDMA"
+  },
+  {
+   "label": "Multi-User MIMO",
+   "value": "Bidirectional MU-MIMO"
+  },
+  {
+   "label": "Maximum Theoretical Throughput",
+   "value": "18.4Gbps"
+  },
+  {
+   "label": "Maximum Theoretical Throughput per Band",
+   "value": "2.4GHz: 1,147Mbps, 5GHz: 5,765Mbps, 6GHz: 11,530Mbps"
+  },
+  {
+   "label": "Antenna Gain Internal",
+   "value": "2.4G - 3.45dBi/5G - 5.39dBi/6G - 5.49dBi"
+  },
+  {
+   "label": "Power over Ethernet (PoE)",
+   "value": "802.3bt"
+  },
+  {
+   "label": "Centralized Management",
+   "value": "Netgear Insight Cloud"
+  },
+  {
+   "label": "Secure Socket Layer (SSL)",
+   "value": "Yes"
   }
  ],
  "acc": [
@@ -31,5 +75,7 @@
   "NPR5PK1-10000S",
   "NPR5PK3-10000S",
   "NPR5PK5-10000S"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wifi/access-points/wbe750/",
+ "checked": "2026-10-18"
 }

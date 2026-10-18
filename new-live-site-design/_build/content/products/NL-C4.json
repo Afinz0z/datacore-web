@@ -1,11 +1,62 @@
 {
  "sku": "NL-C4",
- "order": 917,
+ "order": 857,
  "n": "NL-C4 network loudspeaker",
  "b": "Q-SYS",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Q-SYS network ceiling-mount loudspeaker 12 W (PoE)",
- "specs": []
+ "specs": [
+  {
+   "label": "Loudspeaker type",
+   "value": "Network PoE ceiling-mount loudspeaker for Q-SYS"
+  },
+  {
+   "label": "Driver",
+   "value": "4-in (101.6 mm) full-range, paper cone woofer, ferrite magnet"
+  },
+  {
+   "label": "Effective frequency range",
+   "value": "100 Hz to 20 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage (W rms)",
+   "value": "12 W (PoE), 24 W (PoE+)"
+  },
+  {
+   "label": "Rated coverage (-6 dB)",
+   "value": "120°"
+  },
+  {
+   "label": "Directivity factor",
+   "value": "3.8"
+  },
+  {
+   "label": "Directivity index",
+   "value": "5.8 dB"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "94 dB (PoE), 97 dB (PoE+)"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "108 dB (PoE), 111 dB (PoE+)"
+  },
+  {
+   "label": "Input connector type",
+   "value": "RJ45, Q-LAN"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP34"
+  },
+  {
+   "label": "Included accessories",
+   "value": "C-rings and tile rails, rail screws, cut-out template, grille"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/nl-c4/",
+ "checked": "2026-10-18"
 }

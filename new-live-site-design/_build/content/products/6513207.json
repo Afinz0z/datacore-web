@@ -1,6 +1,6 @@
 {
  "sku": "6513207",
- "order": 556,
+ "order": 499,
  "n": "1 Beyond p20 PTZ Camera, 20x Optical Zoom, Bright White (IV-CAM-P20-W)",
  "b": "Crestron",
  "c": "AV Camera",
@@ -8,7 +8,56 @@
  "avail": "lead",
  "model": "IV-CAM-P20-W",
  "d": "IV-CAM-P20-W Crestron 1 Beyond p20 PTZ Camera, 20x Optical Zoom, Bright White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "1/2.8 Sony® CMOS Sensor"
+  },
+  {
+   "label": "Optical Zoom",
+   "value": "20x"
+  },
+  {
+   "label": "Focal Length",
+   "value": "F=5.2-94 mm"
+  },
+  {
+   "label": "Field of View",
+   "value": "Horizontal: 56.45°"
+  },
+  {
+   "label": "Shutter Speed",
+   "value": "1/50-1/10,000 sec"
+  },
+  {
+   "label": "Iris",
+   "value": "F1.5-F3.0"
+  },
+  {
+   "label": "Minimum Illumination",
+   "value": "2 lux"
+  },
+  {
+   "label": "Pan/Tilt Angle",
+   "value": "Pan: -130° — 130°, Tilt: -30° — 90°"
+  },
+  {
+   "label": "Pan/Tilt Speed",
+   "value": "Pan: 0.2° — 90°/s, Tilt: 0.2° — 70°/s"
+  },
+  {
+   "label": "Presets",
+   "value": "Up to 256 configurable presets"
+  },
+  {
+   "label": "White Balance",
+   "value": "Auto, Indoor, One Push, Manual"
+  },
+  {
+   "label": "Exposure",
+   "value": "Auto, Manual, Shutter Priority, Iris Priority, Brightness Priority"
+  }
+ ],
  "acc": [
   "6512865",
   "6512866",
@@ -16,5 +65,7 @@
   "6513215",
   "6513408",
   "6513409"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Camera/IV-CAM-P20-W",
+ "checked": "2026-10-18"
 }

@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-XSP",
  "d": "DM-NAX-XSP DM NAX® 8K Smart Display Controller and Network Audio Encoder/Decoder with eARC Support",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI, DM NAX, AES67 audio-over-IP"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "HDMI (multichannel pass-through), DM NAX (2-channel downmix), AES67 audio-over-IP (2-channel downmix)"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, 8K30 4:4:4 12-bit, and 4K120 4:4:4 12-bit support"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, 8K30 4:4:4 12-bit, and 4K120 4:4:4 12-bit support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Ethernet",
+   "value": "For control, and/or console, 100/1000 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP"
+  },
+  {
+   "label": "IR",
+   "value": "1-way device control via infrared up to 1.1 MHz or serial TTL (0-5V) up to 19.2k baud via control system"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, EDID"
+  },
+  {
+   "label": "PoE+",
+   "value": "IEEE 802.3at Type 2 Class 4 (25.5 W) compliant; Compatible with Crestron DM-PSU-ULTRA-MIDSPAN, PoE+ compliant Ethernet switch, or third-party IEEE 802.3at compliant PSE"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, vented sides"
+  },
+  {
+   "label": "Mounting",
+   "value": "Surface-mountable or attachable to a single rack rail"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Processor/DM-NAX-XSP",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "IGS-624HPT",
- "order": 3039,
+ "order": 2937,
  "n": "Industrial 4 Port Switch",
  "b": "PLANET",
  "c": "Network Switch",
@@ -9,8 +9,54 @@
  "d": "IGS-624HPT Industrial 4-Port 10/100/1000T 802.3at PoE + 2-Port 100/1000X SFP Ethernet Switch",
  "specs": [
   {
-   "label": "Type",
-   "value": "Industrial Switch"
+   "label": "PoE Injector Ports",
+   "value": "Four ports with 802.3at PoE+ injector function (Ports 1 to 4)"
+  },
+  {
+   "label": "SFP Slots (Auto Detection)",
+   "value": "Two 100/1000/2500BASE-SX/LX/BX SFP interface (Ports 5 to 6)"
+  },
+  {
+   "label": "DIP Switch",
+   "value": "Switch (default)/fiber redundant mode"
+  },
+  {
+   "label": "Connector",
+   "value": "Removable 6-pin terminal block Pin 1/2 for Power 1; Pin 3/4 for fault alarm; Pin 5/6 for Power 2"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "12~54V DC, 7A (max.) Redundant power with reverse polarity protection"
+  },
+  {
+   "label": "Alarm",
+   "value": "Provides one relay output for power failure Alarm relay current carry ability: 1A @ 24V DC"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IP40 metal case"
+  },
+  {
+   "label": "Installation",
+   "value": "DIN-rail kit and wall-mount kit"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "6KV"
+  },
+  {
+   "label": "Switch Specifications Switch Architecture",
+   "value": "Store-and-Forward"
+  },
+  {
+   "label": "Switch Fabric",
+   "value": "18Gbps"
+  },
+  {
+   "label": "Throughput (packet per second)",
+   "value": "13.39Mpps@64bytes"
   }
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/igs-624hpt-v2",
+ "checked": "2026-10-18"
 }

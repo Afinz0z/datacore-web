@@ -1,6 +1,6 @@
 {
  "sku": "6510627",
- "order": 1966,
+ "order": 1880,
  "n": "DigitalMedia 8G+® 4K60 4:4:4 HDR Wall Plate Transmitter, White (DM-TX-4KZ-100-C-1G-W-T)",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-TX-4KZ-100-C-1G-W-T",
  "d": "DM-TX-4KZ-100-C-1G-W-T DigitalMedia 8G+® 4K60 4:4:4 HDR Wall Plate Transmitter, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, Deep Color, 3D, and 4K60 4:4:4 support (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "DM 8G+ and HDBaseT with HDR10, Deep Color, 3D, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (Dual-Mode DisplayPort interface compatible)"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "DM 8G+, HDBaseT"
+  },
+  {
+   "label": "Audio formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS-HD® High Res, DTS HD Master Audio™, DTS:X, LPCM up to 8 channels"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "1-way device control via infrared up to 1.1 MHz or serial TTL/RS-232 (0-5 V) up to 19.2k baud via control system"
+  },
+  {
+   "label": "DigitalMedia",
+   "value": "DM 8G+, HDCP 2.2, EDID, CEC, PoDM"
+  },
+  {
+   "label": "HDBaseT",
+   "value": "HDCP 2.2, EDID, CEC, PoE"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.2, EDID, CEC"
+  },
+  {
+   "label": "Power over DM (PoDM)",
+   "value": "IEEE 802.3at Type 1 Class 3 (12.95 W) compliant PoDM PD, capable of being powered by PoDM PSE (Power Sourcing Equipment)"
+  },
+  {
+   "label": "Power over HDBaseT",
+   "value": "IEEE 802.3at Type 1 Class 3 (12.95 W) compliant HDBaseT PoE PD (Powered Device), capable of being powered by an HDBaseT PoE PSE (Power Sourcing Equipment)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Distributed-AV-USB/DigitalMedia-Endpoints/Transmitters/DM-TX-4KZ-100-C-1G-W-T",
+ "checked": "2026-10-18"
 }

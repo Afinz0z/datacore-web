@@ -1,6 +1,6 @@
 {
  "sku": "6511129",
- "order": 2695,
+ "order": 2593,
  "n": "Wall Mount Back Box for TSW-70 Series (TSW-UMB-70-BBI)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,28 @@
  "avail": "lead",
  "model": "TSW-UMB-70-BBI",
  "d": "TSW-UMB-70-BBI Wall Mount Back Box for TSW-70 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Installs into cutout in concrete wall or masonry sized to back box dimensions; No minimum clearances required; Universal mounting bracket sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "2.29 in. (58 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.34 in. (110 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.99 in. (76 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal box"
+  }
+ ],
  "for": [
   "6510812",
   "6510813",
@@ -19,19 +40,8 @@
   "6510826",
   "6510827",
   "6510829",
-  "6510830",
-  "6510841",
-  "6511329",
-  "6511330",
-  "6511331",
-  "6511332",
-  "6511515",
-  "6511516",
-  "6511517",
-  "6511518",
-  "6511776",
-  "6511777",
-  "6511778",
-  "6511779"
- ]
+  "6510830"
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-UMB-70-BBI",
+ "checked": "2026-10-18"
 }

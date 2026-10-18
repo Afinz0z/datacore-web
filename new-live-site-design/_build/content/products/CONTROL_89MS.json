@@ -1,6 +1,6 @@
 {
  "sku": "CONTROL®89MS",
- "order": 1304,
+ "order": 1242,
  "n": "8” Mushroom Landscape Subwoofer (CONTROL®89MS)",
  "b": "JBL",
  "c": "Subwoofer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CONTROL®89MS",
  "d": "8” MUSHROOM LANDSCAPE SUBWOOFER",
- "specs": []
+ "specs": [
+  {
+   "label": "Control 89MS BIM Object updated: Apr 2024",
+   "value": "Apr 2024"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "40 Hz – 150 Hz"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "53 Hz – 110 Hz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB (ave. 60 Hz – 105 Hz)"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "115 dB peak (109 dB continuous, 2 hr) @ 1m"
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "2.0 (with half-space, 2π, on-ground loading)"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "3.0"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (at 8Ω tap)"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "70V: 80 W, 40 W, 20 W, 10 W 100V: 80 W, 40 W, 20 W"
+  },
+  {
+   "label": "Terminals",
+   "value": "Bare wire with dielectric-gel-filled wire nuts (internal to top speaker section)"
+  },
+  {
+   "label": "Color",
+   "value": "Hunter Green RAL 6018"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-89ms",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "7965E",
- "order": 3884,
+ "order": 3782,
  "n": "CAT 6 UTP Cable",
  "b": "Belden",
  "c": "UTP CABLE",
@@ -9,8 +9,54 @@
  "d": "23-4P UTP-CM SOL BC CAT 6 PE/PVC JACKET BLUE 305MT/ROLL",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Reel"
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "5.4 mm (0.21 in)"
+  },
+  {
+   "label": "High Frequency Table Notes",
+   "value": "Limits below 4 MHz are for information only. Reference standard: IEC 61156-5"
+  },
+  {
+   "label": "Screening Class",
+   "value": "Type III"
+  },
+  {
+   "label": "Screening Table Notes",
+   "value": "Coupling Attenuation"
+  },
+  {
+   "label": "Max. Pull Tension",
+   "value": "80 N (18 lbf)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Euroclass Eca"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca; CPR UKCA Class: Eca"
+  },
+  {
+   "label": "IEEE Compliance",
+   "value": "PoE: IEEE 802.3bt Type 1, Type 2, Type 3, Type 4"
+  },
+  {
+   "label": "Data Category",
+   "value": "Category 6"
+  },
+  {
+   "label": "TIA/EIA Compliance",
+   "value": "ANSI/TIA 568.2-D"
+  },
+  {
+   "label": "ISO/IEC Compliance",
+   "value": "ISO/IEC 11801-1"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/7965e",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "Control 64P/T",
- "order": 884,
+ "order": 824,
  "n": "Compact Full-Range Pendant Loudspeaker (Control 64P/T)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Control 64P/T",
  "d": "Compact Full-Range Pendant Loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Control 64P/T BIM Object updated: Aug 2019",
+   "value": "Aug 2019"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "65 Hz - 15 kHz"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "85Hz - 14 kHz"
+  },
+  {
+   "label": "Maximum Input Voltage",
+   "value": "18.2 V RMS (2 hrs), 36.4 V peak"
+  },
+  {
+   "label": "Nominal Sensitivity",
+   "value": "88 dB Nominal"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "120° conical"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "6.2"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "7.3dB (averaged 1kHz – 16kHz)"
+  },
+  {
+   "label": "Maximum SPL (1m)",
+   "value": "105 dB continuous pink noise, 111 dB peak"
+  },
+  {
+   "label": "Impedance",
+   "value": "8Ω"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "70V: 30W, 15W, 7.5W & 3.7W 100V: 30W, 15W, 7.5W"
+  },
+  {
+   "label": "Transformer Insertion Loss",
+   "value": "0.94dB @ 3.7W, 0.89dB @ 7.5W, 0.83dB @ 15W, 0.94dB @ 30W"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-64p-t",
+ "checked": "2026-10-18"
 }

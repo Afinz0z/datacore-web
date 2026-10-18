@@ -1,11 +1,62 @@
 {
  "sku": "NVR5216-16P-EI2",
- "order": 3373,
+ "order": 3271,
  "n": "16Ch Network Video Recorder",
  "b": "Dahua",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "16CH 1U 16PoE 2HDDs WizSense Network Video Recorder",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Industrial-grade processor"
+  },
+  {
+   "label": "Face Attributes",
+   "value": "Gender; age group; glasses; expressions; face mask; beard"
+  },
+  {
+   "label": "SMD Plus by Recorder",
+   "value": "16 channels: Secondary filtering for human and motor vehicle, reducing false alarms caused by leaves, rain and lighting condition change"
+  },
+  {
+   "label": "SMD by Camera",
+   "value": "All channels (64 targets/s)"
+  },
+  {
+   "label": "People Attributes",
+   "value": "Top color, top type, bottom color, bottom type, hat, bag, age, gender and umbrella"
+  },
+  {
+   "label": "Motor Vehicle Attributes",
+   "value": "License plate, plate color, vehicle body, vehicle model, vehicle logo, calling, seatbelt, vehicle interior, vehicle registration location"
+  },
+  {
+   "label": "Non-motor Vehicle Attributes",
+   "value": "Vehicle model, vehicle color, number of persons, helmet"
+  },
+  {
+   "label": "ANPR by Camera (Number of Channels)",
+   "value": "All channels (8 targets/s)"
+  },
+  {
+   "label": "License Plate Database Capacity",
+   "value": "1. Create up to 20,000 plate numbers. 2. Blocklist and allowlist"
+  },
+  {
+   "label": "Access Channel",
+   "value": "16 channels"
+  },
+  {
+   "label": "Network Bandwidth",
+   "value": "AI disabled: 448 Mbps incoming, 448 Mbps recording and 448 Mbps outgoing AI enabled: 200 Mbps incoming, 200 Mbps recording and 200 Mbps outgoing"
+  },
+  {
+   "label": "Resolution",
+   "value": "32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p;960p;D1;CIF;QCIF"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-recorders/wizsense-series/nvr-5-ei2-series/nvr5216-16p-ei2",
+ "checked": "2026-10-18"
 }

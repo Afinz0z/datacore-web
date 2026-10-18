@@ -1,6 +1,6 @@
 {
  "sku": "7495000",
- "order": 5304,
+ "order": 5186,
  "n": "DK7495 CASTORS PACK OF 4",
  "b": "Rittal",
  "c": "Accessories",
@@ -8,12 +8,38 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "Castors"
+   "label": "Product description",
+   "value": "For mobile use, can be mounted directly on the enclosure."
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Supply includes",
+   "value": "4 twin castors, 2 x with, 2 x without locks. Assembly components"
+  },
+  {
+   "label": "Note on Model No.",
+   "value": "When mounting on a VX base/plinth, the base/plinth adapter is required"
+  },
+  {
+   "label": "Clearande floor",
+   "value": "125 mm ( 4.92 ˝ )"
+  },
+  {
+   "label": "Max. load capacity (static) per component",
+   "value": "1,200 N ( 269.771 lbf. )"
+  },
+  {
+   "label": "Documentation",
+   "value": "Info sheet DE, EN"
   }
  ],
  "for": [
   "5311116",
   "5314116"
- ]
+ ],
+ "src": "https://www.rittal.com/ca-en/products/PG20231215ZUB101/PG20240311ZUB102/PG20240312ZUB101/PRO13028?variantId=7495000",
+ "checked": "2026-10-18"
 }

@@ -1,22 +1,11 @@
 {
  "sku": "6501623",
- "order": 2206,
+ "order": 2118,
  "n": "CB3-BTNW-T_BLANK",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "CB3-BTNW-T_BLANK Medium Backlit Engravable Button Cap for Cameo Keypads, White Textured, Engraving Not Included",
- "specs": [],
- "for": [
-  "6504676",
-  "6504678",
-  "6504681",
-  "6504683",
-  "6509745",
-  "6509746",
-  "6509747",
-  "6509748",
-  "6509749"
- ]
+ "specs": []
 }

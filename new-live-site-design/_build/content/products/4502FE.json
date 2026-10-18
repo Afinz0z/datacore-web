@@ -1,6 +1,6 @@
 {
  "sku": "4502FE",
- "order": 3874,
+ "order": 3772,
  "n": "4 Core 22AWG Control Cable",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -9,8 +9,54 @@
  "d": "22AWG/4C ST BC PO COLL FOIL LSNH GREY 300V 500MT/ROLL",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Suitable Applications",
+   "value": "Security System, Intercom/PA, Audio/Speaker, Power-Limited Controls, Noisy Environment"
+  },
+  {
+   "label": "Outer Jacket1 Table Notes",
+   "value": "Ripcord provided under sheath"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "52.8 Ohm/km (16.1 Ohm/1000ft)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Euroclass Eca"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "Update and Revision",
+   "value": "Revision Number: 0.347 Revision Date: 03-05-2026"
+  },
+  {
+   "label": "4502FE.00100",
+   "value": "Gray Reel 100 m 8719605007124"
+  },
+  {
+   "label": "4502FE.00500",
+   "value": "Gray Reel 500 m 8719605007131"
+  },
+  {
+   "label": "4502FE.K0500",
+   "value": "Gray Reel 500 m 8719605007148"
+  },
+  {
+   "label": "4502FE 008305M",
+   "value": "Grey Reel 305 m #"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/4502fe",
+ "checked": "2026-10-18"
 }

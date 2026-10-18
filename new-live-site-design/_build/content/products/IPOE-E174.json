@@ -1,14 +1,65 @@
 {
  "sku": "IPOE-E174",
- "order": 3144,
+ "order": 3042,
  "n": "IP30 Industrial 1-Port Extender",
  "b": "PLANET",
  "c": "SWITCH- Installation Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP30 Industrial 1-Port 60W 802.3bt PoE++ to 4-Port 802.3af/at Gigabit PoE Extender (-40 to 75 C)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Switch Architecture",
+   "value": "Store-and-Forward switch architecture"
+  },
+  {
+   "label": "MAC Address Table",
+   "value": "2K MAC address table with auto learning function"
+  },
+  {
+   "label": "Switch Fabric",
+   "value": "10Gbps"
+  },
+  {
+   "label": "Switch Throughput",
+   "value": "7.44Mpps @ 64Bytes"
+  },
+  {
+   "label": "Flow Control",
+   "value": "IEEE 802.3x pause frame for full duplex Back pressure for half duplex"
+  },
+  {
+   "label": "Jumbo Frame",
+   "value": "9Kbytes"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Air 8KV DC Contact 6KV DC"
+  },
+  {
+   "label": "Surge Protection",
+   "value": "6KV"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IP30 metal case"
+  },
+  {
+   "label": "Installation",
+   "value": "DIN-rail kit and wall-mount ear"
+  },
+  {
+   "label": "Weignt",
+   "value": "447g"
+  },
+  {
+   "label": "PoE Power",
+   "value": "PoE in Port 50~57V DC, max. 95 watts Per PoE out Port 44~55V DC, max. 30.8 watts"
+  }
+ ],
  "for": [
   "IGS-5225-4P2S"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/ipoe-e174-v4",
+ "checked": "2026-10-18"
 }

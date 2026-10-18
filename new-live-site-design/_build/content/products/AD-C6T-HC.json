@@ -1,6 +1,6 @@
 {
  "sku": "AD-C6T-HC",
- "order": 915,
+ "order": 855,
  "n": "6.5\" Two-way high ceiling, blind mount ceiling speakers (AD-C6T-HC)",
  "b": "Q-SYS",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AD-C6T-HC",
  "d": "6.5\" Two-way high ceiling, blind mount ceiling speakers, 70/100V transformer with 16Ω bypass. 75° conical coverage, include C-ring and rails for blind mount installation, Ø305mm cut-out.",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducers",
+   "value": "6.5 in (165 mm) paper cone woofer, 1.75 in (44.5 mm) voice coil, ferrite magnet 1.4 in (35.6 mm) kapton dome compression tweeter"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB @ 1 W, 1 m"
+  },
+  {
+   "label": "Freq. range (-10 dB)",
+   "value": "45 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated noise power (@16 Ω bypass)",
+   "value": "120 W"
+  },
+  {
+   "label": "Coverage (-6 dB)",
+   "value": "75°"
+  },
+  {
+   "label": "Directivity factor",
+   "value": "10"
+  },
+  {
+   "label": "Directivity index",
+   "value": "10 dB"
+  },
+  {
+   "label": "Max SPL (continuous/peak)",
+   "value": "110 dB / 116 dB @ 1 m"
+  },
+  {
+   "label": "Taps (70 V/ 100 V)",
+   "value": "7.5 W, 15 W, 30 W, 60 W / 15 W, 30 W, 60 W"
+  },
+  {
+   "label": "Bypass impedance",
+   "value": "16 Ω"
+  },
+  {
+   "label": "Min impedance",
+   "value": "14.97 Ω @ 208 Hz"
+  },
+  {
+   "label": "Crossover frequency",
+   "value": "2.5 kHz"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-hc/",
+ "checked": "2026-10-18"
 }

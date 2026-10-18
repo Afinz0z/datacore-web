@@ -1,6 +1,6 @@
 {
  "sku": "NV-21-HU",
- "order": 659,
+ "order": 599,
  "n": "Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution (NV-21-HU)",
  "b": "Q-SYS",
  "c": "AV Bridge",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "NV-21-HU",
  "d": "Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution Single-Cable USB-C/HDMI AV Bridge for 4K Video Distribution",
- "specs": []
+ "specs": [
+  {
+   "label": "Video I/O HDMI 2.0 inputs",
+   "value": "1x HDMI 2.0, capable of receiving input video formats up to 4K60 4:4:4"
+  },
+  {
+   "label": "USB-C Input",
+   "value": "1x USB 3.2 Gen 1x1 (5Gbps) Type-C Device Port - Supporting DisplayPort Alt-Mode (DP 1.4 Sink) - capable of receiving input video formats up to 4K60 4:4:4"
+  },
+  {
+   "label": "HDMI 2.0 Output",
+   "value": "1x HDMI capable of scaling and outputting video formats up to 4K60 4:4:4"
+  },
+  {
+   "label": "Scaler",
+   "value": "HDMI output features a robust 4K60 4:4:4 scaler that can accomodate the most challenging resolution and frame rate conversions."
+  },
+  {
+   "label": "Audio I/O HDMI inputs",
+   "value": "8-channel PCM audio 1 , Q-SYS routable"
+  },
+  {
+   "label": "USB Type C input",
+   "value": "8-channel PCM audio 1 , 1x1 speakerphone 1 , 2x2 soundcard 1 , Q-SYS routable"
+  },
+  {
+   "label": "HDMI outputs",
+   "value": "8-channel PCM audio 1 , Q-SYS routable"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Flexible surface mounting hardware included"
+  },
+  {
+   "label": "USB Type A input",
+   "value": "USB HID Routing - 5 V DC 900 mA"
+  },
+  {
+   "label": "LAN",
+   "value": "1000BASE-T, 2.5GBASE-T compliant"
+  },
+  {
+   "label": "Power Over Ethernet",
+   "value": "PoE Type 3, Class 5 (40W at PD, 45W at PSE) 2"
+  },
+  {
+   "label": "Expected Product lifecycle",
+   "value": "10 years"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/processing/nv-21-hu/",
+ "checked": "2026-10-18"
 }

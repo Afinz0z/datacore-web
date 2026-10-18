@@ -1,13 +1,34 @@
 {
  "sku": "6510373",
- "order": 2353,
+ "order": 2257,
  "n": "FT2A-UTK-CLOAK",
  "b": "Crestron",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "FT2A-UTK-CLOAK Under Table Cloak for FT2-202,500,700,1200 withGravity Retractors",
- "specs": [],
+ "specs": [
+  {
+   "label": "Weave",
+   "value": "600D x 600D"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Material",
+   "value": "100% Polyester"
+  },
+  {
+   "label": "Weight",
+   "value": "600D"
+  },
+  {
+   "label": "Dimensions",
+   "value": "Width: 34 in. (864 mm); Length: 28 in. (711 mm)"
+  }
+ ],
  "for": [
   "6511653",
   "6511654",
@@ -23,5 +44,7 @@
   "6511977",
   "6511978",
   "6511980"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Accessories/FT2A-UTK-CLOAK",
+ "checked": "2026-10-18"
 }

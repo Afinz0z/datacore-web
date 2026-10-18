@@ -1,6 +1,6 @@
 {
  "sku": "CORE 110f",
- "order": 1243,
+ "order": 1181,
  "n": "Unified Core with 24 local audio I/O channels (CORE 110f)",
  "b": "QSC",
  "c": "DSP",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "CORE 110f",
  "d": "Unified Core with 24 local audio I/O channels, 128x128 total network I/O channels with 8x8 Software-based Dante license included, USB AV bridging, dual LAN ports, POTS and VoIP telephony, 16x16 GPIO, 16 next-generation AEC processors, 1RU.",
- "specs": [],
+ "specs": [
+  {
+   "label": "@ +21 dBu Sensistivity & +10 dBu input",
+   "value": "< 0.0015%"
+  },
+  {
+   "label": "@ +10 dBu Sensistivity & +8 dBu input",
+   "value": "< 0.0007%"
+  },
+  {
+   "label": "@ -10 dBu Sensistivity & -10.5 dBu input",
+   "value": "< 0.0006%"
+  },
+  {
+   "label": "@ -39 dBu Sensistivity & -39.5 dBu input",
+   "value": "< 0.007%"
+  },
+  {
+   "label": "Input to Input Crosstalk @1kHz",
+   "value": ">110dB Typical, 90dB Max"
+  },
+  {
+   "label": "Input Dynamic Range @ +21 dBu Sensitivity",
+   "value": "> 109.5dB"
+  },
+  {
+   "label": "@ +10 dBu Sensitivity",
+   "value": "> 106.4dB"
+  },
+  {
+   "label": "@ -10 dBu Sensitivity",
+   "value": "> 104.6dB"
+  },
+  {
+   "label": "@ -39 dBu Sensitivity",
+   "value": "> 104.6dB"
+  },
+  {
+   "label": "Input Impedance (balanced)",
+   "value": "5K Ohms Nominal"
+  },
+  {
+   "label": "Input Sensitivity Range (1dB Steps)",
+   "value": "-39 dBu min to +21 dBu max"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48v DC, 10mA per input max"
+  }
+ ],
  "acc": [
   "SLDAN-16-P",
   "SLDAN-32-P"
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/processing/core-110f/",
+ "checked": "2026-10-18"
 }

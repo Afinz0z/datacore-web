@@ -1,15 +1,38 @@
 {
  "sku": "6511101",
- "order": 2356,
+ "order": 2260,
  "n": "FT2A-UTK-CLOAK-WIDE-1T",
  "b": "Crestron",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "FT2A-UTK-CLOAK-WIDE-1T Under-Table Cloak for FT2-1400 One-Touch Cable Retractors",
- "specs": [],
+ "specs": [
+  {
+   "label": "Weave",
+   "value": "600D x 600D"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Material",
+   "value": "100% Polyester"
+  },
+  {
+   "label": "Weight",
+   "value": "600D"
+  },
+  {
+   "label": "Dimensions",
+   "value": "Width: 68 in. (1,727 mm); Length: 28 in. (711 mm)"
+  }
+ ],
  "for": [
   "6511657",
   "6511658"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Accessories/FT2A-UTK-CLOAK-WIDE-1T",
+ "checked": "2026-10-18"
 }

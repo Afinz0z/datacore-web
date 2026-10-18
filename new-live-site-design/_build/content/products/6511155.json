@@ -1,6 +1,6 @@
 {
  "sku": "6511155",
- "order": 2670,
+ "order": 2569,
  "n": "Preconstruction Mounting Kit for TSW-570P, Portrait (TSW-UMB-570P-PMK)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,28 @@
  "avail": "lead",
  "model": "TSW-UMB-570P-PMK",
  "d": "TSW-UMB-570P-PMK Preconstruction Mounting Kit for TSW-570P, Portrait",
- "specs": [],
- "for": [
-  "6510841"
- ]
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Fastens to the left or right‑hand stud of a framed wall prior to installing drywall; Universal mounting bracket sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "6.00 in. (152 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.00 in. (152 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.50 in. (38 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal bracket"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-UMB-570P-PMK",
+ "checked": "2026-10-18"
 }

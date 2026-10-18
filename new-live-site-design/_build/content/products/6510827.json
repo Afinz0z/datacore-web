@@ -1,18 +1,65 @@
 {
  "sku": "6510827",
- "order": 1473,
+ "order": 1405,
  "n": "TSW-1070-GV-B-S",
  "b": "Crestron",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "TSW-1070-GV-B-S 10.1 in. Wall Mount Touch Screen, Government Version, Black Smooth",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "TFT active matrix color LCD"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "10.1 in. (257 mm) diagonal"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10 WUXGA"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "1920 x 1200 pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "400 nits (cd/m²)"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Color Depth",
+   "value": "24 bit, 16.7M colors"
+  },
+  {
+   "label": "Illumination",
+   "value": "Edgelit LED with auto brightness control"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "±80° horizontal, ±80° vertical"
+  },
+  {
+   "label": "Touch Screen",
+   "value": "Projected capacitive, 5-point multitouch capable"
+  },
+  {
+   "label": "Crestron Scheduling App",
+   "value": "Crestron Fusion® software, Microsoft Exchange Server® and Office 365® software, Google Calendar™ and G Suite™ software, CollegeNET® 25Live® software, and Ad Astra™ software (IBM® Notes® software is also supported through"
+  },
+  {
+   "label": "Third-Party Apps",
+   "value": "Includes support for various third-party scheduling applications."
+  }
+ ],
  "acc": [
   "6511119",
   "6511120",
-  "6511125",
-  "6511126",
   "6511128",
   "6511129",
   "6511130",
@@ -27,5 +74,7 @@
   "6511964",
   "6512656",
   "6512657"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Touchscreen/TSW-1070-GV-B-S",
+ "checked": "2026-10-18"
 }

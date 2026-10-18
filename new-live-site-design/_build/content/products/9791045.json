@@ -1,17 +1,48 @@
 {
  "sku": "9791045",
- "order": 4020,
+ "order": 3918,
  "n": "Outdoor wall-mounted enclosure",
  "b": "Rittal",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CS Wall-Mounted Enclosure,WHD:630x780x380 mm",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface finish",
+   "value": "Housing: powder-coated, UV-resistant pure polyester"
+  },
+  {
+   "label": "Color",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Clearances",
+   "value": "Clearance width: 560 mm Clearance height: 560 mm Clearance depth: 308 mm ( Clearance width: 22 ˝ Clearance height: 22 ˝ Clearance depth: 12.1 ˝ )"
+  },
+  {
+   "label": "Inner housing",
+   "value": "Width: 580 mm Height: 580 mm Depth: 333 mm ( Width: 22.8 ˝ Height: 22.8 ˝ Depth: 13.1 ˝ )"
+  },
+  {
+   "label": "Lock",
+   "value": "Lock version: Cam No. of locks: 2"
+  },
+  {
+   "label": "Protection category IP to IEC 60 529",
+   "value": "IP 55"
+  },
+  {
+   "label": "Note",
+   "value": "Delivery times on request."
+  }
+ ],
  "acc": [
   "2411831",
   "2584100",
   "3238100",
   "3238200"
- ]
+ ],
+ "src": "https://www.rittal.com/ca-en/products/PG20231215SCH101/PG20240221SCH003/PRO0257?variantId=9791045",
+ "checked": "2026-10-18"
 }

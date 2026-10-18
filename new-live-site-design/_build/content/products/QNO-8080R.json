@@ -1,11 +1,62 @@
 {
  "sku": "QNO-8080R",
- "order": 3254,
+ "order": 3152,
  "n": "5 MP Outdoor Vandal Bullet Camera",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Wisenet Q network outdoor vandal bullet camera, 5MP @ 30fps, motorized vari-focal lens 3.1x (3.2 ~ 10.0mm) (100°~31°), triple codec H.265/H.264/MJPEG with Wisestream II, 120dB WDR, IR LEDs range 98', defocus detection, hallway View, built-in SD card slot (1x128GB), video analytics, CVBS, open platform, IP66, IK10, PoE",
- "specs": []
+ "specs": [
+  {
+   "label": "Zobrazovací zařízení",
+   "value": "Rozměry 1/2,8\""
+  },
+  {
+   "label": "Typ",
+   "value": "CMOS"
+  },
+  {
+   "label": "Rozlišení",
+   "value": "2592 x 1944, 2560 x 1440, 1920 x 1080, 1280 x 960, 1280 x 720, 800 x 600, 800 x 448, 720 x 576, 720 x 480, 640 x 480, 640 x 360, 320 x 240"
+  },
+  {
+   "label": "Max. snímková frekvence",
+   "value": "H.265/H.264 30 snímků za sekundu/25 snímků za sekundu (60 Hz/50 Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "15 snímků za sekundu (při rozlišení 5 MP max. 2 snímky za sekundu)"
+  },
+  {
+   "label": "Min. osvětlení (lux)",
+   "value": "Barva (1/30 s, 30 IRE) 0.15"
+  },
+  {
+   "label": "Č/B (1/30 s, 30 IRE)",
+   "value": "0.015"
+  },
+  {
+   "label": "Video výstup",
+   "value": "CVBS: 1,0 Vp-p / 75 Ω kompozitní pro instalaci"
+  },
+  {
+   "label": "Ohnisková vzdálenost (mm)",
+   "value": "3.2~10"
+  },
+  {
+   "label": "Poměr přiblížení a oddálení",
+   "value": "Optický 3.1x"
+  },
+  {
+   "label": "Max. poměr clony (číslo F)",
+   "value": "Širokoúhlý 1.6"
+  },
+  {
+   "label": "Teleobjektiv",
+   "value": "2.9"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/cz/products/product-details/QNO-8080R",
+ "checked": "2026-10-18"
 }

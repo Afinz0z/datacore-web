@@ -1,14 +1,53 @@
 {
  "sku": "2411831",
- "order": 4022,
+ "order": 3920,
  "n": "Rittal Brass Cable Gland",
  "b": "Rittal",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Nickel-plated brass cable gland with integrated clamping membrane and strain relief for cables with 11-17 mm diameter. M25 × 1.5 thread.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface finish",
+   "value": "Nickel-plated"
+  },
+  {
+   "label": "IP protection category to IEC 60 529",
+   "value": "IP 68 (5 bar, 30 min)"
+  },
+  {
+   "label": "Thread",
+   "value": "M25 x 1.5"
+  },
+  {
+   "label": "Thread length",
+   "value": "8 mm"
+  },
+  {
+   "label": "Min. cable diameter",
+   "value": "11 mm"
+  },
+  {
+   "label": "Max. cable diameter",
+   "value": "17 mm"
+  },
+  {
+   "label": "torque",
+   "value": "14 Nm"
+  },
+  {
+   "label": "Width across flats",
+   "value": "27 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "10 pc(s)."
+  }
+ ],
  "for": [
   "9791045"
- ]
+ ],
+ "src": "https://www.rittal.com/ua-en/products/PG20231215ZUB101/PG20240405ZUB003/PG20240405ZUB006/PRO68835?variantId=2411831",
+ "checked": "2026-10-18"
 }

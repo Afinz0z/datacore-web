@@ -1,6 +1,6 @@
 {
  "sku": "NL-SB42",
- "order": 918,
+ "order": 858,
  "n": "NL-SB42 - Soundbar",
  "b": "Q-SYS",
  "c": "Speaker",
@@ -9,8 +9,54 @@
  "d": "3.5\" Two-way network soundbar, PoE/PoE+ powered. I",
  "specs": [
   {
-   "label": "Type",
-   "value": "soundbar"
+   "label": "Loudspeaker type",
+   "value": "Network PoE soundbar for Q-SYS"
+  },
+  {
+   "label": "LF transducer",
+   "value": "3.5-in (88.9 mm) paper cone woofer"
+  },
+  {
+   "label": "HF transducer",
+   "value": "0.75-in (19.05 mm) silk dome tweeter"
+  },
+  {
+   "label": "Effective frequency range",
+   "value": "110 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated noise power",
+   "value": "12 W (PoE), 24 W (PoE+)"
+  },
+  {
+   "label": "Rated coverage",
+   "value": "150° horizontal, 160° vertical (1 kHz - 10 kHz)"
+  },
+  {
+   "label": "Directivity factor",
+   "value": "2.7"
+  },
+  {
+   "label": "Directivity index",
+   "value": "4.2 dB"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "90 dB (PoE), 93 dB (PoE +)"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "106 dB (PoE), 107 dB (PoE +)"
+  },
+  {
+   "label": "Input connector type",
+   "value": "RJ45"
+  },
+  {
+   "label": "Power requirements",
+   "value": "PoE (Type 1 Class 3) or PoE+ (Type 2 Class 4)"
   }
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/audio-network-loudspeakers/nl-series/nl-sb42/",
+ "checked": "2026-10-18"
 }

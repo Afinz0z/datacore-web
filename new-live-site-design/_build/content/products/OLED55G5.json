@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "OLED55G5",
  "d": "55 inch LG OLED evo AI G5 4K Smart TV 2025",
- "specs": []
+ "specs": [
+  {
+   "label": "GAMING - FreeSync Compatible (AMD)",
+   "value": "Yes"
+  },
+  {
+   "label": "GAMING - G-Sync Compatible (Nvidia)",
+   "value": "Yes"
+  },
+  {
+   "label": "PICTURE (DISPLAY) - Display Type",
+   "value": "4K OLED"
+  },
+  {
+   "label": "PICTURE (DISPLAY) - Refresh Rate",
+   "value": "120Hz Native (VRR 165Hz)"
+  },
+  {
+   "label": "PICTURE (PROCESSING) - Picture Processor",
+   "value": "α11 AI Processor 4K Gen2"
+  },
+  {
+   "label": "AUDIO - Dolby Atmos",
+   "value": "Yes"
+  },
+  {
+   "label": "AUDIO - Speaker System",
+   "value": "4.2 Channel"
+  },
+  {
+   "label": "AUDIO - Audio Output",
+   "value": "60W"
+  },
+  {
+   "label": "PICTURE (DISPLAY) - Wide Colour Gamut",
+   "value": "OLED Colour"
+  }
+ ],
+ "src": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled55g5/",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "6510824",
- "order": 1457,
+ "order": 1389,
  "n": "TS-1070-W-S",
  "b": "Crestron",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "TS-1070-W-S 10.1 in. Tabletop Touch Screen, White Smooth",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "TFT active matrix color LCD"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "10.1 in. (257 mm) diagonal"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10 WUXGA"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "1920 x 1200 pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "400 nits (cd/m²)"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Color Depth",
+   "value": "24 bit, 16.7M colors"
+  },
+  {
+   "label": "Illumination",
+   "value": "Edgelit LED with auto brightness control"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "±80° horizontal, ±80° vertical"
+  },
+  {
+   "label": "Touch Screen",
+   "value": "Projected capacitive, 5-point multitouch capable"
+  },
+  {
+   "label": "Crestron Scheduling App",
+   "value": "Crestron Fusion® software, Microsoft Exchange Server® and Office 365® software, Google Calendar™ and G Suite™ software, CollegeNET® 25Live® software, and Ad Astra™ software (IBM® Notes® software is also supported through"
+  },
+  {
+   "label": "Third-Party Apps",
+   "value": "Includes support for various third-party scheduling applications."
+  }
+ ],
  "acc": [
   "6511519"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Touchscreen/TS-1070-W-S",
+ "checked": "2026-10-18"
 }

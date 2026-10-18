@@ -1,6 +1,6 @@
 {
  "sku": "6511127",
- "order": 2691,
+ "order": 2589,
  "n": "Universal in-wall mounting solution Bracket for TSW-70 Series (TSW-UMB-70)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,9 +8,32 @@
  "avail": "lead",
  "model": "TSW-UMB-70",
  "d": "TSW-UMB-70, Universal in-wall mounting solution Bracket for TSW-70 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Surface mount over a 2 in. H x 3‑3/4 in. W (51 mm H x 96 mm W) cutout; 2‑13/16 in. (72 mm) minimum mounting depth; 1‑1/4 in. (32 mm) maximum mounting surface thickness; Pre/postconstruction mounting bracket and wall moun"
+  },
+  {
+   "label": "Height",
+   "value": "2.29 in. (58 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.34 in. (110 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.78 in. (45 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal bracket and clamp assembly"
+  }
+ ],
  "for": [
   "6510813",
   "6510814"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-UMB-70",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "AMX-UHMR01C",
- "order": 2325,
+ "order": 2231,
  "n": "USB-C 4K60 DisplayPort Alt-Mode Modulewith Retractable Cable (RCM) (HPX-AV103-USBC-R)",
  "b": "AMX",
  "c": "Cable Cubby",
@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "HPX-AV103-USBC-R",
  "d": "HPX-AV103-USBC-R USB-C 4K60 DisplayPort Alt-Mode Modulewith Retractable Cable (RCM)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Front Panel Components",
+   "value": "(1) USB-C Retractable Cable"
+  },
+  {
+   "label": "Long-Term Reliability",
+   "value": "Tested to 10,000 pull & release cycles"
+  },
+  {
+   "label": "SKU Numbers",
+   "value": "AMX-UHMR01C"
+  },
+  {
+   "label": "Dimensions",
+   "value": "1 ½ HydraPort Units"
+  },
+  {
+   "label": "Product Weight",
+   "value": "~ 1lb. (0.46 kg)"
+  }
+ ],
  "for": [
   "FG560-01-BL"
- ]
+ ],
+ "src": "https://www.amx.com/en/products/hpx-av103-usbc-r",
+ "checked": "2026-10-18"
 }

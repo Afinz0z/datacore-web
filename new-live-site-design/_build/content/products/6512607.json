@@ -1,6 +1,6 @@
 {
  "sku": "6512607",
- "order": 1653,
+ "order": 1572,
  "n": "4-Series™ DIN Rail Control System for Crestron Home® OS (DIN-AP4-R)",
  "b": "Crestron",
  "c": "Control Processor",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DIN-AP4-R",
  "d": "DIN-AP4-R 4-Series™ DIN Rail Control System for Crestron Home® OS",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto‑switching, auto‑negotiating, autodiscovery, full/half duplex, industry-standard TCP/IP stack, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), FIPS 140-2 compliant encryption,IPv4 "
+  },
+  {
+   "label": "Cresnet® Network",
+   "value": "Cresnet server mode"
+  },
+  {
+   "label": "USB",
+   "value": "Supports USB mass storage class devices via the bottom panel USB 2.0 host port, supports computer console via the front panel USB 2.0 device port"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "Supports 1-way device control via infrared up to 1.2 MHz or serial TTL/RS-232 (0–5V) up to 115.2k baud"
+  },
+  {
+   "label": "BACnet™ network/IP",
+   "value": "Supports up to 500 BACnet objects"
+  },
+  {
+   "label": "SDRAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Flash",
+   "value": "8 GB"
+  },
+  {
+   "label": "Memory Card",
+   "value": "Supports microSD® cards up to 32 GB (4 GB included)"
+  },
+  {
+   "label": "External Storage",
+   "value": "Supports USB storage devices up to 1 TB"
+  },
+  {
+   "label": "Power Source Options",
+   "value": "Power supply (sold separately) or PoE (Power over Ethernet)"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3at Type 1 (802.3af compatible) Class 0 (12.95W) PoE Powered Device"
+  },
+  {
+   "label": "Available Cresnet Power",
+   "value": "2.5 W maximum when powered via PoE; 20 W maximum when powered via DIN‑PWS30‑277"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Residential/DIN-AP4-R",
+ "checked": "2026-10-18"
 }

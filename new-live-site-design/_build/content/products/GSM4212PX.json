@@ -1,11 +1,46 @@
 {
  "sku": "GSM4212PX",
- "order": 3020,
+ "order": 2918,
  "n": "8x1G PoE+ Switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "8x1G PoE+ 240W 2x1G and 2xSFP+ Managed Switch",
- "specs": []
+ "specs": [
+  {
+   "label": "Primary Port Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "12 (10x 1G, 2x SFP+)"
+  },
+  {
+   "label": "PoE Ports / Budget",
+   "value": "8 PoE+ (30W/port), 240W Budget"
+  },
+  {
+   "label": "Acoustics",
+   "value": "Fanless or 39.22dB@25ºC"
+  },
+  {
+   "label": "What's in the Box",
+   "value": "M4250-10G2XF-PoE+ (GSM4212PX)"
+  },
+  {
+   "label": "Dimensions (WxDxH)",
+   "value": "440 x 200 x 43.2mm"
+  },
+  {
+   "label": "Weight",
+   "value": "2.9Kg (6.39lb)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "With PoE: 306.4W/1046.050Btu/hr; Without PoE: 25W/85.35Btu/hr; Standby without any port connection: 12.96W/44.245Btu/hr"
+  }
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/fully-managed/gsm4212px/",
+ "checked": "2026-10-18"
 }

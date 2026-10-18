@@ -1,15 +1,42 @@
 {
  "sku": "6514210",
- "order": 4125,
+ "order": 4023,
  "n": "CEN-SWPOE-PWS2000-ULTRA",
  "b": "Crestron",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
  "d": "CEN-SWPOE-PWS2000-ULTRA 2000 W Power Supply Unit for CEN-SWPOE-52 Network Switch",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power Output",
+   "value": "Up to 2000 W at 110/220VAC"
+  },
+  {
+   "label": "Height",
+   "value": "1.57 in. (39.8 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.87 in. (73 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "7.28 in. (185 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 113° F (0° to 45° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non‑condensing)"
+  }
+ ],
  "for": [
   "6514202",
   "6514203"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/Network-Switch-Power-Supplies/CEN-SWPOE-PWS2000-ULTRA",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "AMX-N26E001",
- "order": 1682,
+ "order": 1601,
  "n": "4K60 MWC/Dante AV-A & 1080p H.26x Multi-Codec, Dual-Stream Encoder (NMX-ENC-N2612S)",
  "b": "AMX",
  "c": "Extenders",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "NMX-ENC-N2612S",
  "d": "4K60 MWC/Dante AV-A & 1080p H.26x Multi-Codec, Dual-Stream Encoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Inputs",
+   "value": "(2) HDMI"
+  },
+  {
+   "label": "Video Outputs",
+   "value": "Network video over Ethernet via RJ45 port, HDMI Loop-Out"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "Embedded audio on HDMI or Analog Stereo (Balanced)"
+  },
+  {
+   "label": "Audio Outputs",
+   "value": "Network PCM or Dante audio over Ethernet via RJ45, HDMI Loop-Out"
+  },
+  {
+   "label": "Environmental",
+   "value": "Temperature - 32° to 104°F (0° to 40°C) Humidity - 10% to 90% RH (non-condensing) Heat Dissipation - Up to ~85 BTU/hr"
+  },
+  {
+   "label": "FG Numbers",
+   "value": "AMX-N26E001"
+  },
+  {
+   "label": "JITC Status",
+   "value": "Approved - 03/2025"
+  },
+  {
+   "label": "Dimensions (H x W x D)",
+   "value": "1 1/6\" x 7 7/8\" x 5\" (26.6mm x 200mm x 127mm)"
+  },
+  {
+   "label": "Product Weight",
+   "value": "2.16 lbs. (Approx. 0.98kg)"
+  }
+ ],
+ "src": "https://www.amx.com/en/products/nmx-enc-n2612s",
+ "checked": "2026-10-18"
 }

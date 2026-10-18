@@ -1,14 +1,37 @@
 {
  "sku": "6511100",
- "order": 2355,
+ "order": 2259,
  "n": "FT2A-UTK-CLOAK-WIDE",
  "b": "Crestron",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "FT2A-UTK-CLOAK-WIDE Under-Table Cloak for FT2-1400 Gravity Cable Retractors",
- "specs": [],
+ "specs": [
+  {
+   "label": "Weave",
+   "value": "600D x 600D"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Material",
+   "value": "100% Polyester"
+  },
+  {
+   "label": "Weight",
+   "value": "600D"
+  },
+  {
+   "label": "Dimensions",
+   "value": "Width: 43 in. (1,092 mm); Length: 28 in. (711 mm)"
+  }
+ ],
  "for": [
   "6511660"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Accessories/FT2A-UTK-CLOAK-WIDE",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "5200FE",
- "order": 2543,
+ "order": 2444,
  "n": "Audio Cable 2 Conductor 16 AWG Roll 305 Meters (5200FE)",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -10,12 +10,54 @@
  "d": "Audio Cable 2 Conductor 16 AWG Roll 305 Meters",
  "specs": [
   {
-   "label": "Type",
-   "value": "Speaker Cable"
+   "label": "Suitable Applications",
+   "value": "Security System, Intercom/PA, Audio/Speaker, Noisy Environment"
   },
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "0.184 in (4.67 mm)"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "14.4 Ohm/1000ft (47.2 Ohm/km)"
+  },
+  {
+   "label": "Max. Pull Tension",
+   "value": "85.5 lbs (38.8 kg)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Riser, Indoor"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "UL 1666 Riser, FT4, IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca"
+  },
+  {
+   "label": "NEC / UL Compliance",
+   "value": "Article 800, CMR"
+  },
+  {
+   "label": "CEC / C(UL) Compliance",
+   "value": "CMG"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU CE Mark, EU Directive 2015/863/EU (RoHS 2 amendment), EU Directive 2011/65/EU (RoHS 2), EU Directive 2012/19/EU (WEEE)"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "APAC Compliance",
+   "value": "China RoHS II (GB/T 26572-2011)"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/5200fe",
+ "checked": "2026-10-18"
 }

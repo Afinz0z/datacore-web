@@ -1,13 +1,38 @@
 {
  "sku": "6512130",
- "order": 2646,
+ "order": 2547,
  "n": "AM-TX3-100-CRADLE",
  "b": "Crestron",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "AM-TX3-100-CRADLE Tabletop Cradle for up to four AM-TX3-100 Adaptors",
- "specs": [],
+ "specs": [
+  {
+   "label": "Slots",
+   "value": "(4) slots for AM‑TX3‑100 adaptors"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding"
+  },
+  {
+   "label": "Height",
+   "value": "2.40 in. (61 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.97 in. (101 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.65 in. (119 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Black plastic; (2) magnets at the end of the cradle attach to a second AM‑TX3‑100‑CRADLE (sold separately)"
+  }
+ ],
  "for": [
   "6511482",
   "6511484",
@@ -20,5 +45,7 @@
   "6513856",
   "6513859",
   "SP-8100-E3"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Presentation-and-Conferencing/AirMedia/Accessories/AM-TX3-100-CRADLE",
+ "checked": "2026-10-18"
 }

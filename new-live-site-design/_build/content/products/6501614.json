@@ -1,22 +1,11 @@
 {
  "sku": "6501614",
- "order": 2183,
+ "order": 2095,
  "n": "CB3-BTNA-S_ENGRAVED",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "CB3-BTNA-S_ENGRAVED Medium Backlit Engravable Button Cap for Cameo Keypads, Almond Smooth, Includes Custom Engraving",
- "specs": [],
- "for": [
-  "6504676",
-  "6504678",
-  "6504681",
-  "6504683",
-  "6509745",
-  "6509746",
-  "6509747",
-  "6509748",
-  "6509749"
- ]
+ "specs": []
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6511920",
- "order": 1741,
+ "order": 1657,
  "n": "DM® Essentials 4K60 4:4:4 Transmitter for HDMI®, RS-232, IR (HD-TXCA-4KZ-101)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-TXCA-4KZ-101",
  "d": "HD-TXCA-4KZ-101 DM® Essentials 4K60 4:4:4 Transmitter for HDMI®, RS-232, IR, and Analog Audio Signal Extension over CATx Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Type",
+   "value": "HDMI® with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "DM® Essentials with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "HDMI, analog stereo"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "DM Essentials, digital S/PDIF optical (TOSLINK® connector)"
+  },
+  {
+   "label": "Digital Formats, HDMI",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "Digital Formats, S/PDIF",
+   "value": "Dolby Digital, Dolby Digital EX, DTS, DTS‑ES, LPCM up to 6 channels"
+  },
+  {
+   "label": "Audio analog format",
+   "value": "Stereo 2-channel"
+  },
+  {
+   "label": "Analog-to-Digital Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Analog Performance",
+   "value": "Frequency Response: 20 Hz to 20 kHz ±0.5 dB; S/N Ratio: >95 dB 20 Hz to 20 kHz A‑weighted; THD+N: <0.005% @ 1 kHz; Stereo Separation: ≤80 dB"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, EDID, CEC pass-through"
+  },
+  {
+   "label": "DM Essentials",
+   "value": "HDCP 2.3, EDID pass-through"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Transmitter/HD-TXCA-4KZ-101",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6510878",
- "order": 1431,
+ "order": 1366,
  "n": "DM NAX™ 8-Zone Streaming Amplifier (DM-NAX-8ZSA)",
  "b": "Crestron",
  "c": "Streaming Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-8ZSA",
  "d": "DM-NAX-8ZSA DM NAX™ 8-Zone Streaming Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio input signal types",
+   "value": "4 stereo analog (RCA); 4 digital S/PDIF (2 TOSLINK and 2 Coaxial); Up to 8 stereo DM NAX or AES67 audio-over-IP streams; Up to 8 stereo cloud-based media streams from streaming service providers"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "8 stereo speaker-level amplified outputs; 4 stereo line-level analog outputs (mirroring speaker zone outputs 1-4); Up to 24 stereo DM NAX or AES67 audio-over-IP streams"
+  },
+  {
+   "label": "Source Compensation",
+   "value": "±10.0 dB per input"
+  },
+  {
+   "label": "Input Monitoring",
+   "value": "Source Signal Detect"
+  },
+  {
+   "label": "Output Power",
+   "value": "150 Watts per channel at 8 Ohms; 300 Watts per channel at 4 Ohms; 500 Watts per channel at 8 Ohms bridged"
+  },
+  {
+   "label": "Amplifier Monitoring",
+   "value": "Over Current, Over/Under Voltage, Over Temperature, DC Offset, Clipping"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.6 dB"
+  },
+  {
+   "label": "THD",
+   "value": "0.006%"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "110 dB digital in, 108 dB analog in"
+  },
+  {
+   "label": "Stereo Separation",
+   "value": "85 dB @ 1 kHz, 8 ohm; 80 dB @ 1 kHz, 4 ohm"
+  },
+  {
+   "label": "Zone Separation",
+   "value": "100 dB @ 1 kHz, 8 ohm; 95 dB @ 1 kHz, 4 ohm"
+  },
+  {
+   "label": "Zone Volume Level Control",
+   "value": "-80.0 to +20.0 dB, adjustable from 0% to 100% plus mute"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Amplifiers/DM-NAX-8ZSA",
+ "checked": "2026-10-18"
 }

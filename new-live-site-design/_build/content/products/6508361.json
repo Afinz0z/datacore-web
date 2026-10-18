@@ -1,6 +1,6 @@
 {
  "sku": "6508361",
- "order": 998,
+ "order": 938,
  "n": "4-Channel Power Amplifier, 600W/Ch. (AMP-4600)",
  "b": "Crestron",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AMP-4600",
  "d": "AMP-4600 4-Channel Power Amplifier, 600W/Ch.",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, SSH, SFTP (SSH File Transfer Protocol)"
+  },
+  {
+   "label": "USB Device",
+   "value": "USB device port for computer console (setup)"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "Balanced or unbalanced analog line-level"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "4/8 Ohm, 70 or 100 Volt direct-coupled"
+  },
+  {
+   "label": "Output Power",
+   "value": "600 Watts per channel @ 4-8 Ohms or 70/100 Volts nominal; 1200 Watts per bridged pair of channels @ 8 Ohms"
+  },
+  {
+   "label": "Power Throttle",
+   "value": "600, 500, 400, 300, 250, 200, 150, 125, 100, 75, 50 Watts per channel"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.5 dB at 1 Watt, 4-8 Ohms; 200 Hz to 20 kHz ±0.5 dB at 1 Watt, 70/100 Volts"
+  },
+  {
+   "label": "High Pass Filter",
+   "value": "-3 dB @ 80 Hz, 12 dB per octave in 70V or 100V mode"
+  },
+  {
+   "label": "THD+N",
+   "value": "<0.05% @ 1 kHz at 3 dB below clipping"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": ">103 dBA, 20 Hz to 20 kHz"
+  },
+  {
+   "label": "Channel Separation",
+   "value": ">70 dB"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "1.29 Vrms, +4 dBu (balanced) for full rated output power"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Amplifiers/AMP-4600",
+ "checked": "2026-10-18"
 }

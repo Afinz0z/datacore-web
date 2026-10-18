@@ -1,6 +1,6 @@
 {
  "sku": "CONTROL 128WT",
- "order": 887,
+ "order": 827,
  "n": "Control 128W With Transformer for Use on a 70.7V or 100V (CONTROL 128WT)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CONTROL 128WT",
  "d": "Control 128W With Transformer for Use on a 70.7V or 100V",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Range",
+   "value": "30 Hz - 20 kHz (-10 dB)"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "70 V: 50 W, 25 W, 12 W & 6 W 100 V: 50 W, 25 W, & 12 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB SPL"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "180°H x 160°V"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Input Connectors",
+   "value": "Screw-down Euroblock-type connector. Max wire size 14 AWG (1.5 mm)2"
+  },
+  {
+   "label": "Crossover Network",
+   "value": "2nd order Low Pass to the woofer and 2nd order High Pass to the tweeter."
+  },
+  {
+   "label": "Optimum Air Cavity Behind Speaker",
+   "value": "40 to 80 liters (1.4 to 2.8 cu ft)"
+  },
+  {
+   "label": "Maximum Wall Thickness",
+   "value": "32 mm (1.25 in)"
+  },
+  {
+   "label": "Cutout Size (H x W)",
+   "value": "300 x 225 mm (11.9 x 8.9 in)Cutout template included."
+  },
+  {
+   "label": "Included Accessories",
+   "value": "Cutout template & paint shield"
+  },
+  {
+   "label": "Optional Accessories",
+   "value": "WB8 Rough-In Frame for newconstruction installation to wallstuds"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-128-wt",
+ "checked": "2026-10-18"
 }

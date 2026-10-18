@@ -1,6 +1,6 @@
 {
  "sku": "TNO-C4060T",
- "order": 3265,
+ "order": 3163,
  "n": "Thermal Compact Bullet Camera",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "Powered by WN8, Network AI Thermal Compact Bullet Camera, 640 x 480 (uncooled); ＜16mK (NETD), Max 1280 x 960 @ 30fps resolution support, 35mm fixed focal lens (HFoV: 17.5°), Triple codec H.265/H.264/MJPEG with Wisestream II and WiseStream III (based on AI engine) support, Analytics events based on AI engine: Object detection (Person/Vehicle/Vessel), Virtual line (Crossing/ Direction), Virtual area (Loitering/Intrusion/Enter/Exit), Analytics events: Motion detection, Tampering, Audio detection, Sound classification, Shock detection, Virtual area(Appear/Disappear), PTZ handover, built-in SD card slot (1x1TB), integrated back box, IP66/IP67, NEMA4X, NEMA TS2 (2.2.7~2.2.9), MIL-STD-810H, IK10, PoE/12VDC, white color This product is subject to the Thermal agreement.",
  "specs": [
   {
-   "label": "Type",
-   "value": "Thermal Camera"
+   "label": "Imaging Device",
+   "value": "Type Uncooled micro bolometer (640x480)"
+  },
+  {
+   "label": "Resolution",
+   "value": "1280x960, 640x480, 640x360, 320x240"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "30fps"
+  },
+  {
+   "label": "Spectral Range",
+   "value": "8~14㎛"
+  },
+  {
+   "label": "NETD",
+   "value": "≤16mK@25°C, F1.0"
+  },
+  {
+   "label": "Pixel Size",
+   "value": "17㎛"
+  },
+  {
+   "label": "Video Out",
+   "value": "USB: USB Type C. Preview and installation ONLY. Requires WiFi dongle."
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "35"
+  },
+  {
+   "label": "Max Aperture Ratio (F number)",
+   "value": "Wide 1.0"
+  },
+  {
+   "label": "Angular Field of View",
+   "value": "Horizontal 17.5°"
+  },
+  {
+   "label": "Vertical",
+   "value": "13.2°"
   }
- ]
+ ],
+ "src": "https://www.hanwhavision.com/uk/products/product-details/TNO-C4060T",
+ "checked": "2026-10-18"
 }

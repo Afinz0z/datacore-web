@@ -1,14 +1,45 @@
 {
  "sku": "SBP-300WMW1",
- "order": 3461,
+ "order": 3359,
  "n": "Wall Mount Accessory white hanging caps",
  "b": "Hanwha Vision",
  "c": "CCTV Mounting Equipment",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Wall Mount Accessory (white), Compatible with white hanging caps",
- "specs": [],
+ "specs": [
+  {
+   "label": "Barva",
+   "value": "White"
+  },
+  {
+   "label": "Materiál",
+   "value": "Aluminum"
+  },
+  {
+   "label": "Kód RAL",
+   "value": "RAL9003"
+  },
+  {
+   "label": "Rozměry / hmotnost výrobku",
+   "value": "112x183x207.5mm / 625g"
+  },
+  {
+   "label": "Max. zatížení",
+   "value": "10kg"
+  },
+  {
+   "label": "Podporované výrobky",
+   "value": "SBP-120HMW, SBP-140HMW, SBP-160HMW1, SBP-180HMW1 ※ For further compatible models, please visit our website or use Toolbox"
+  },
+  {
+   "label": "Kategorie Název souboru Poslední aktualizace",
+   "value": "DataSheet DataSheet_SBP-300WMW1_20260227_EN_143534.pdf 2026-09-04"
+  }
+ ],
  "for": [
   "QND-7082R"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/cz/products/product-details/SBP-300WMW1",
+ "checked": "2026-10-18"
 }

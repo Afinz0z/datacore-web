@@ -1,6 +1,6 @@
 {
  "sku": "6511929",
- "order": 1731,
+ "order": 1648,
  "n": "DM® Essentials 4K60 4:4:4 Receiver and 2x2 Auto-Switcher for HDMI® (HD-RXU-4KZ-202)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-RXU-4KZ-202",
  "d": "HD-RXU-4KZ-202 DM® Essentials 4K60 4:4:4 Receiver and 2x2 Auto-Switcher for HDMI® and USB 2.0 Signal Extension over CATx Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI® (DVI and Dual-Mode DisplayPort™ interface compatible) and DM® Essentials with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "HDMI® (DVI compatible) with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "HDMI, DM Essentials"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, EDID, CEC pass-through"
+  },
+  {
+   "label": "DM Essentials",
+   "value": "HDCP 2.3, EDID pass-through; USB 2.0 up to 300 Mbps"
+  },
+  {
+   "label": "USB",
+   "value": "USB signal extension via USB 2.0 host ports; USB host for one TT-100 series cable caddy (sold separately) via SERVICE port"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, DHCP, Web browser setup and control, Crestron control system integration, IEEE 802.1X, Secure CIP, Authentication, SSH/SSL, TLS"
+  },
+  {
+   "label": "Power Pack (Included)",
+   "value": "Input: 100-240VAC; Output: 24VDC 1.3A; Model: PW-2420RU"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, vented top and sides, 2 mounting brackets included"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Receiver-w-USB/HD-RXU-4KZ-202",
+ "checked": "2026-10-18"
 }

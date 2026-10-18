@@ -1,13 +1,52 @@
 {
  "sku": "5301254",
- "order": 5316,
+ "order": 5198,
  "n": "side panel lockable (Pack of 01)",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product description",
+   "value": "For sealing IT enclosure systems, both stand-alone and baying arrangements."
+  },
+  {
+   "label": "Surface finish",
+   "value": "Powder-coated"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Console Pedestal 6 mounting brackets 2 lock components Assembly parts"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX IT Height: = 2,000 mm Depth: = 1,200 mm"
+  },
+  {
+   "label": "IP protection category to IEC 60 529",
+   "value": "IP 20"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "85.5 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  }
+ ],
  "for": [
   "5311116"
- ]
+ ],
+ "src": "https://www.rittal.com/ua-en/products/PG20231215ZUB101/PG20240313ZUB102/PG20240313ZUB103/PRO108670?variantId=5301254",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "4506FE",
- "order": 3876,
+ "order": 3774,
  "n": "8 Core 22AWG Control Cable",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -9,8 +9,54 @@
  "d": "22AWG/8C ST BC PO COLL FOIL LSNH GREY 300V 500MT/ROLL",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Suitable Applications",
+   "value": "Intercom/PA Systems, Sound/Audio Systems"
+  },
+  {
+   "label": "Outer Jacket1 Table Notes",
+   "value": "Ripcord provided under sheath"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "46 Ohm/km (14 Ohm/1000ft)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Euroclass Eca"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca; CPR UKCA Class: Eca"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "Update and Revision",
+   "value": "Revision Number: 0.337 Revision Date: 02-20-2026"
+  },
+  {
+   "label": "4506FE.00500",
+   "value": "Gray Reel 500 m 8719605007247"
+  },
+  {
+   "label": "4506FE.K0500",
+   "value": "Gray Reel 500 m 8719605007254"
+  },
+  {
+   "label": "4506FE.01500",
+   "value": "Orange Reel 500 m 8719605192493"
+  },
+  {
+   "label": "Size Stranding Material 22",
+   "value": "7x30 BC - Bare Copper"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/4506fe",
+ "checked": "2026-10-18"
 }

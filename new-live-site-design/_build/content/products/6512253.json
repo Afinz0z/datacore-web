@@ -1,11 +1,62 @@
 {
  "sku": "6512253",
- "order": 783,
+ "order": 723,
  "n": "REFERENCE OD4.1-4-S10-BRZ-T KIT",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "REFERENCE OD4.1-4-S10-BRZ-T KIT Reference 4.1 Landscape Solution, Bronze Textured, Four 4 in. Satellites, One 10 in. Subwoofer",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "4 x 4 in. (102 mm) polypropylene woofer and 1 x 10 in. (254 mm) polypropylene woofer"
+  },
+  {
+   "label": "Tweeter",
+   "value": "4 x 0.75 in. (19 mm) PEI mylar tweeter"
+  },
+  {
+   "label": "Crossover",
+   "value": "100 Hz"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "2.5 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "Kit 8 Ohms Nominal"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "Kit 35 Hz to 20 kHz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "Satellite Speaker: 90 Hz to 20 kHz (±10 dB); Subwoofer: 35 Hz to 150 Hz (±10 dB)"
+  },
+  {
+   "label": "Power Handling (8 Ohms)",
+   "value": "Program: 120 W; Peak: 240 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB @ 1 W/1 M"
+  },
+  {
+   "label": "Coverage",
+   "value": "1500 sq ft"
+  },
+  {
+   "label": "Connections input",
+   "value": "(1) 32.5 in. (826 mm) attached direct-burial 2-conductor speaker wire per satellite speaker; (1) 39.5 in. (1003 mm) attached direct-burial 4-conductor speaker wire for the subwoofer; Includes one pair of silicone filled "
+  },
+  {
+   "label": "Wire Gauge",
+   "value": "(2) 12 AWG (4 mm²)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Landscape-Speakers/REFERENCE-OD4-1-4-S10-BRZ-T-KIT",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6514127",
- "order": 2549,
+ "order": 2450,
  "n": "DM NAX® Audio-over-IP Wall Plate with Bluetooth® Audio Support (DM-NAX-BTIO-100-1G)",
  "b": "Crestron",
  "c": "Audio Wallplate",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-BTIO-100-1G",
  "d": "DM-NAX-BTIO-100-1G DM NAX® Audio-over-IP Wall Plate with Bluetooth® Audio Support, Analog Audio Input and Output, 1-Gang",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio input signal types",
+   "value": "Unbalanced stereo analog line-level; Stereo Bluetooth wireless; DM NAX/AES67 audio-over-IP"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "Unbalanced stereo analog line-level; Stereo Bluetooth wireless; DM NAX/AES67 audio-over-IP"
+  },
+  {
+   "label": "Source Compensation",
+   "value": "±10.0 dB per input"
+  },
+  {
+   "label": "Input Monitoring",
+   "value": "Source Signal Detect"
+  },
+  {
+   "label": "Frequency Response (at line-level output)",
+   "value": "20 Hz to 20 kHz ±0.5 dB"
+  },
+  {
+   "label": "THD+N (at line-level output)",
+   "value": "0.005% @ 1 kHz, max output"
+  },
+  {
+   "label": "S/N Ratio (at line-level output)",
+   "value": "From line-level input: 108 dB, 20 Hz to 20 kHz, A‑weighted; From digital input: 111 dB, 20 Hz to 20 kHz, A‑weighted"
+  },
+  {
+   "label": "Balance Control",
+   "value": "Left/right adjustable"
+  },
+  {
+   "label": "Ethernet",
+   "value": "For control and PoE, AoIP, and/or console, 100/1000 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP"
+  },
+  {
+   "label": "Bluetooth",
+   "value": "As receiver: Bluetooth 5.4 sink device, recalls up to seven previously paired devices, persistent or nonpersistent pairing, exclusive, interrupting, or temporary connection modes; Maximum Simultaneous Connections: 1 acti"
+  },
+  {
+   "label": "PoE",
+   "value": "IEEE 802.3af Class 0 (12.95 W) compliant; Compatible with IEEE 802.3af compliant Ethernet switch or third-party PoE compliant PSE"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "11.95 BTU/hr"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Edge-Devices/DM-NAX-BTIO-100-1G",
+ "checked": "2026-10-18"
 }

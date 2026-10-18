@@ -1,14 +1,45 @@
 {
  "sku": "3238200",
- "order": 4023,
+ "order": 3921,
  "n": "Rittal Standard Outlet Filter",
  "b": "Rittal",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Standard outlet filter for enclosure ventilation, supplied with chopped-fibre filter mat. Suitable for use with Rittal SK 3238 series fan-and-filter units.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product description",
+   "value": "For ventilation by convection, an outlet filter can be installed in the upper and lower sections of the enclosure."
+  },
+  {
+   "label": "Color",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Outlet Filters Chopped fiber filter mat"
+  },
+  {
+   "label": "Mounting cut-out",
+   "value": "Width of opening: 124 mm Cut-out height: 124 mm ( Width of opening: 4.88 ˝ Cut-out height: 4.88 ˝ )"
+  },
+  {
+   "label": "Suitable for Model No.",
+   "value": "SK 3238.1xx"
+  },
+  {
+   "label": "Protection category NEMA",
+   "value": "Type 1 with pleated filter"
+  },
+  {
+   "label": "Protection category IP to IEC 60 529",
+   "value": "IP 54 with chopped fiber filter/pleated filter"
+  }
+ ],
  "for": [
   "9791045"
- ]
+ ],
+ "src": "https://www.rittal.com/ca-en/products/PG20231215KLI101/PG20231215KLI1008/PG20240123KLI201/PRO0301?variantId=3238200",
+ "checked": "2026-10-18"
 }

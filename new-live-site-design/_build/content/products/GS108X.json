@@ -1,16 +1,67 @@
 {
  "sku": "GS108X",
- "order": 3010,
+ "order": 2908,
  "n": "8-port Gigabit Ethernet Unmanaged Switch - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8PT GIG UM +1P 10G SFP+ UPLINK",
- "specs": [],
+ "specs": [
+  {
+   "label": "NETGEAR GS108X Unmanaged Switch",
+   "value": "​"
+  },
+  {
+   "label": "Power adapter (varies by region)",
+   "value": "​"
+  },
+  {
+   "label": "Wall-mount kit",
+   "value": "​"
+  },
+  {
+   "label": "Installation guide",
+   "value": "​"
+  },
+  {
+   "label": "Width",
+   "value": "236mm (9.3in)"
+  },
+  {
+   "label": "Depth",
+   "value": "101mm (4.0in)"
+  },
+  {
+   "label": "Height",
+   "value": "27mm (1.1in)"
+  },
+  {
+   "label": "Gigabit copper ports",
+   "value": "8"
+  },
+  {
+   "label": "Uplink port",
+   "value": "1 x 10G SFP+"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "Buffer size",
+   "value": "768Kbit or 0.75Mbit"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS108X-12",
   "DRV-GS108X-36",
   "DRV-GS108X-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/unmanaged/gs108x/",
+ "checked": "2026-10-18"
 }

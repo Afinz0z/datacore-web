@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "HD-CTL-101",
  "d": "HD-CTL-101 8K Smart Display Controller with HDMI® connectivity",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+. Dolby Vision™, Deep Color, 8K60 4:4:4 support (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 8K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (Dual-Mode DisplayPort interface compatible)"
+  },
+  {
+   "label": "Audio formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS-ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS: X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, vented sides"
+  },
+  {
+   "label": "Mounting",
+   "value": "Surface mountable or attachment to a single rack rail"
+  },
+  {
+   "label": "Height",
+   "value": "1.20 in. (31 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "5.93 in. (151 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.09 in. (104 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (noncondensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Expansion-IO/HD-CTL-101",
+ "checked": "2026-10-18"
 }

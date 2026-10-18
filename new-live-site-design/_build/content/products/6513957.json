@@ -1,6 +1,6 @@
 {
  "sku": "6513957",
- "order": 2669,
+ "order": 2568,
  "n": "Multisurface Mount Kit for TSW-880 and TSW-1080 Series, White (TSW-880/1080-MSMK-W)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,28 @@
  "avail": "lead",
  "model": "TSW-880/1080-MSMK-W",
  "d": "TSW-880/1080-MSMK-W Multisurface Mount Kit for TSW-880 and TSW-1080 Series, White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Housing",
+   "value": "Plastic, black or white finish"
+  },
+  {
+   "label": "Surface Mounting",
+   "value": "Peel-and-stick adhesive mounting to glass or other flat, smooth surface"
+  },
+  {
+   "label": "Height",
+   "value": "4.28 in. (109 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "7.25 in. (184 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.44 in. (36 mm)"
+  }
+ ],
  "for": [
   "6513822",
   "6513823",
@@ -23,5 +44,7 @@
   "6513839",
   "6513920",
   "6513928"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-80-Series-Accessories/TSW-880-1080-MSMK-W",
+ "checked": "2026-10-18"
 }

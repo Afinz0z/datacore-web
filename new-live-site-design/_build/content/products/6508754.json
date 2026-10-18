@@ -1,11 +1,46 @@
 {
  "sku": "6508754",
- "order": 2053,
+ "order": 1966,
  "n": "CGDMX-512BI",
  "b": "Crestron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
  "d": "CGDMX-512BI Interface DMX-512, Bi-directional serial DMX512 interface which makes easy interfacing possible between a Crestron control system and lighting product using the DMX512 protocol",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Power",
+   "value": "2.4 Amps, 100-250 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Chassis",
+   "value": "UL-94-V-0, heavily inflammable"
+  },
+  {
+   "label": "Isolation",
+   "value": "All I/O (DIN3 56930-2/4.2.3)"
+  },
+  {
+   "label": "Length",
+   "value": "200 mm (7.87 in)"
+  },
+  {
+   "label": "Width",
+   "value": "110 mm (4.33 in)"
+  },
+  {
+   "label": "Height",
+   "value": "57 mm (2.24 in)"
+  },
+  {
+   "label": "Temperature",
+   "value": "5° to 40°C (41° to 104°F)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Lighting-Fixture-Accessories/Interfaces/CGDMX-512BI",
+ "checked": "2026-10-18"
 }

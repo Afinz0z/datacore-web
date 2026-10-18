@@ -1,6 +1,6 @@
 {
  "sku": "6510864",
- "order": 1865,
+ "order": 1779,
  "n": "DMPS Lite™ 4K Multiformat 5x1 AV Switch and Receiver (HD-RX-4K-510-C-E)",
  "b": "Crestron",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-RX-4K-510-C-E",
  "d": "HD-RX-4K-510-C-E DMPS Lite™ 4K Multiformat 5x1 AV Switch and Receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Switcher",
+   "value": "5x1 auto-switching or manual, audio-follows-video, Crestron Auto-Locking® and QuickSwitch HD™ technologies"
+  },
+  {
+   "label": "Scaler (HDMI Output)",
+   "value": "4K video scaler with motion-adaptive deinterlacing, intelligent frame rate conversion, Deep Color support, content-adaptive noise reduction, 3:2/2:2 pull-down detection and recovery"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with Deep Color and 4K (DVI and Dual-Mode DisplayPort™ interface compatible) on Inputs 1-2, DM Lite with Deep Color and 4K on Inputs 3-5"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with Deep Color and 4K (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Switcher/Mixer",
+   "value": "6x2 audio mixer"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "Two stereo 2-channel LINE inputs; Two mono 1-channel MIC inputs; One mono 1-channel AUX input; One stereo 2-channel LPCM audio extracted from the selected HDMI or DM Lite input source"
+  },
+  {
+   "label": "Audio Outputs",
+   "value": "One mirrored AUX 1, SPEAKER, and HDMI mixer output, stereo 2-channel; One AUX 2 output, stereo 2-channel"
+  },
+  {
+   "label": "Analog-to-Digital Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Digital-to-Analog Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Frequency Response, Analog Audio Outputs",
+   "value": "20 Hz to 20 kHz ±0.5 dB (AUX outputs); 20 Hz to 20 kHz @ full power ±3 dB (speaker output)"
+  },
+  {
+   "label": "S/N Ratio, Analog Audio Outputs",
+   "value": ">95 dB @ 10 dBV, 20 Hz to 20 kHz, A-weighted (AUX outputs); >90 dB @ 10 dBV, 20 Hz to 20 kHz, A-weighted (speaker output)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/HDMI-Solutions/HDMI-Extenders/HD-RX-4K-510-C-E",
+ "checked": "2026-10-18"
 }

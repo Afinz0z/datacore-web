@@ -1,6 +1,6 @@
 {
  "sku": "6511484",
- "order": 621,
+ "order": 563,
  "n": "AirMedia® Receiver 3200 with Wi-Fi® Network Connectivity (AM-3200-WF-I)",
  "b": "Crestron",
  "c": "Wireless content sharing",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "AM-3200-WF-I",
  "d": "AM-3200-WF-I AirMedia® Receiver 3200 with Wi-Fi® Network Connectivity, International",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto-switching, autonegotiating, autodiscovery, full/half duplex, TCP/IP, UDP/IP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), IEEE 802.1x, Active Directory authentication, HTTPS web browser set"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Dual-band 802.11a/b/g/n/ac/ax (2.4 GHz & 5 GHz); Up to 100 ft (30 m) range at 80 Mbps, subject to site‑specific conditions"
+  },
+  {
+   "label": "Bluetooth® Communications",
+   "value": "Bluetooth version 5.0"
+  },
+  {
+   "label": "AirMedia",
+   "value": "Via Ethernet: IPv4, mDNS, TLS, AES; Via wireless access point: IEEE 802.11/b/g/n/ac/ax, 2.4 GHz or 5 GHz"
+  },
+  {
+   "label": "USB Host",
+   "value": "USB 2.0 for connecting a USB conferencing peripheral; USB 3.0 for connecting a USB conferencing peripheral"
+  },
+  {
+   "label": "USB Device",
+   "value": "USB 3.0 for computer console (installer setup and firmware update)"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "1-way display device control via infrared up to 1.1 MHz or serial TTL/RS-232 (0-5V) up to 19.2k baud"
+  },
+  {
+   "label": "HDMI Input",
+   "value": "HDCP 1.4, EDID; Supports management of HDCP and EDID"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "HDCP 2.2, EDID, CEC; Supports management of HDCP and EDID"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "AirMedia, HDMI (DVI & Dual-Mode DisplayPort™ compatible); Supports simultaneous display of up to four sources with AirMedia Canvas when presenting using the AirMedia Applications, Apple Screen Mirroring or Chrome Extensi"
+  },
+  {
+   "label": "Maximum Input Resolutions",
+   "value": "HDMI Input: 1920x1080@60Hz (HD 1080p60); AirMedia presentation: 1920x1080@30Hz (1080p30); AirMedia Connect Adapter: 3840x2160@30Hz (4K30); NOTES: Other input resolutions are supported at pixel clock rates up to 148 MHz; "
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI (DVI compatible)"
+  }
+ ],
  "acc": [
   "6512130"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Presentation-and-Conferencing/AirMedia/Receiver/AM-3200-WF-I",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6507875",
- "order": 999,
+ "order": 939,
  "n": "8-Channel Power Amplifier, 150W/Ch., 4/8 Ohm or 100V, International (AMPI-8150)",
  "b": "Crestron",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AMPI-8150",
  "d": "AMPI-8150 8-Channel Power Amplifier, 150W/Ch., 4/8 Ohm or 100V, International, 220-240V",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, SSH, SFTP (SSH File Transfer Protocol)"
+  },
+  {
+   "label": "USB Device",
+   "value": "USB device port for computer console (setup)"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "Balanced or unbalanced analog line-level"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "4/8 Ohm; 70 Volt direct-coupled (AMP-8150 only); 100 Volt direct-coupled (AMPI-8150 only)"
+  },
+  {
+   "label": "Output Power,; AMP-8150",
+   "value": "150 Watts per channel @ 4-8 Ohms or 70 Volts nominal; 300 Watts per bridged pair of channels @ 8 Ohms"
+  },
+  {
+   "label": "Output Power,; AMPI-8150",
+   "value": "150 Watts per channel @ 4-8 Ohms or 100 Volts nominal; 300 Watts per bridged pair of channels @ 8 Ohms"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.5 dB at 1 Watt, 4-8 Ohms; 200 Hz to 20 kHz ±0.5 dB at 1 Watt, 70/100 Volts"
+  },
+  {
+   "label": "High Pass Filter",
+   "value": "-3 dB @ 80 Hz, 12 dB per octave in 70V or 100V mode"
+  },
+  {
+   "label": "THD+N",
+   "value": "<0.1% @ 1 kHz at 3 dB below clipping"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": ">103 dBA, 20 Hz to 20 kHz"
+  },
+  {
+   "label": "Channel Separation",
+   "value": ">70 dB"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "1.23 Vrms, +4 dBu (balanced) for full rated output power"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Amplifiers/AMPI-8150",
+ "checked": "2026-10-18"
 }

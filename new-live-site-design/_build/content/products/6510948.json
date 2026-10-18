@@ -1,6 +1,6 @@
 {
  "sku": "6510948",
- "order": 1621,
+ "order": 1519,
  "n": "Dual-Technology Occupancy Sensor, PoE, 2,000 Sq Ft (CEN-ODT-C-POE)",
  "b": "Crestron",
  "c": "Sensors",
@@ -10,8 +10,50 @@
  "d": "CEN-ODT-C-POE -Dual-Technology Occupancy Sensor, PoE, 2,000 Sq Ft",
  "specs": [
   {
-   "label": "Type",
-   "value": "Ceiling Mount"
+   "label": "Motion Detection Technology",
+   "value": "Passive infrared (PIR) motion detection; Ultrasonic (US) (40 kHz)"
+  },
+  {
+   "label": "Coverage Area",
+   "value": "2,000 sq ft"
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "360 degrees"
+  },
+  {
+   "label": "SETUP",
+   "value": "(1) Pushbutton located behind the front cover; Press to acknowledge an identify command sent by the host; Press and hold for 7 seconds to reset the device"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3af PoE Powered Device; 4 W max"
+  },
+  {
+   "label": "Housing",
+   "value": "Plastic, white"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounts to a 4 in. (102 mm) octagon box or 3-1/2 in. (88 mm) diameter hole created by provided cutout template; Includes mounting screws and integral toggle clamps; A 2-1/8 in. (54 mm) minimum mounting depth is recommende"
+  },
+  {
+   "label": "Diameter",
+   "value": "4.80 in (122 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.185 in (81 mm) overall; Projects 0.97 in. (25 mm) from the surface when installed"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (noncondensing)"
   }
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Sensors/Occupancy-Sensors/CEN-ODT-C-POE",
+ "checked": "2026-10-18"
 }

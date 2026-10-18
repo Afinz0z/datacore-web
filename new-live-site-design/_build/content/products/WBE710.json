@@ -1,6 +1,6 @@
 {
  "sku": "WBE710",
- "order": 3114,
+ "order": 3012,
  "n": "AP WiFi 7 2.5G Tri-Band Indoor - Netgear",
  "b": "Netgear",
  "c": "ACCESS POINT",
@@ -9,8 +9,52 @@
  "d": "AP WiFi 7 2.5G Tri-Band POE Insight Manageable Indoor AP",
  "specs": [
   {
-   "label": "Type",
-   "value": "Indoor campus access point"
+   "label": "Wall/ceiling mount kit",
+   "value": "​"
+  },
+  {
+   "label": "Installation guide",
+   "value": "​"
+  },
+  {
+   "label": "Width",
+   "value": "157mm (6.2in)"
+  },
+  {
+   "label": "Depth",
+   "value": "157mm (6.2in)"
+  },
+  {
+   "label": "Height",
+   "value": "40mm (1.6in)"
+  },
+  {
+   "label": "WiFi Standard",
+   "value": "6GHz: 802.11ax/be, 5GHz: 802.11a/n/ac/ax/be, 2.4GHz: 802.11b/g/n/ax/be"
+  },
+  {
+   "label": "Wireless Mode (Transmit x Receive)",
+   "value": "2.4GHz is 2x2, 5GHz is 2x2, 6GHz is 2x2"
+  },
+  {
+   "label": "OFDM/OFDMA",
+   "value": "Both OFDM and OFDMA"
+  },
+  {
+   "label": "Multi-User MIMO",
+   "value": "Bidirectional MU-MIMO"
+  },
+  {
+   "label": "Bidirectional MU-MIMO",
+   "value": "37 pre group"
+  },
+  {
+   "label": "Maximum Wireless Theoretical Throughput",
+   "value": "9.4Gbps"
+  },
+  {
+   "label": "Maximum Theoretical Throughput per Band",
+   "value": "2.4GHz: 688Mbps, 5GHz: 2,882Mbps, 6GHz: 5,765Mbps"
   }
  ],
  "acc": [
@@ -34,5 +78,7 @@
   "NPR5PK1-10000S",
   "NPR5PK3-10000S",
   "NPR5PK5-10000S"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wifi/access-points/wbe710/",
+ "checked": "2026-10-18"
 }

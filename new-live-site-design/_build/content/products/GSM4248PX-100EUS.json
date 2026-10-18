@@ -1,6 +1,6 @@
 {
  "sku": "GSM4248PX-100EUS",
- "order": 3021,
+ "order": 2919,
  "n": "Fully Managed Network 48 Ports switch with POE+ ,40 x 1G PoE+,8 x SFP+ (GSM4248PX)",
  "b": "Netgear",
  "c": "Network Switch",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "GSM4248PX",
  "d": "Fully Managed Network 48 Ports switch with POE+ ,40 x 1G PoE+,8 x SFP+",
- "specs": []
+ "specs": [
+  {
+   "label": "Primary Port Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "48 (40x 1G PoE+, 8x SFP+)"
+  },
+  {
+   "label": "PoE Ports / Budget",
+   "value": "40 PoE+ (30W/port), 960W Budget"
+  },
+  {
+   "label": "Acoustics",
+   "value": "Fanless or 59dB@25ºC"
+  },
+  {
+   "label": "Dimensions (WxDxH)",
+   "value": "440 x 400 x 43.2 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "6.31 kg (13.91lb)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "With PoE: 1197W/4086.56Btu/hr"
+  }
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/switches/fully-managed/gsm4248px/",
+ "checked": "2026-10-18"
 }

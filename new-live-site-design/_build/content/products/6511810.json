@@ -1,6 +1,6 @@
 {
  "sku": "6511810",
- "order": 1977,
+ "order": 1891,
  "n": "DM® Essentials 4K60 4:4:4 Transmitter for HDMI®, RS-232 (HD-TXC-4KZ-101-1G-W)",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-TXC-4KZ-101-1G-W",
  "d": "HD-TXC-4KZ-101-1G-W DM® Essentials 4K60 4:4:4 Transmitter for HDMI®, RS-232, and IR Signal Extension over CATx Cable, Wall Plate, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Type",
+   "value": "HDMI® with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "DM® Essentials with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "DM Essentials"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, EDID, CEC pass-through"
+  },
+  {
+   "label": "DM Essentials",
+   "value": "HDCP 2.3, EDID pass-through"
+  },
+  {
+   "label": "IR",
+   "value": "Bidirectional IR signal pass-through up to 60 kHz"
+  },
+  {
+   "label": "Power Pack",
+   "value": "Input: 100-240VAC; Output: 24VDC 0.75A; Model: PW-2407WUL (sold separately, required only if the HD-TXC-4KZ-101-1G is used with a wall plate receiver)"
+  },
+  {
+   "label": "Composition",
+   "value": "Metal housing and bracket with white polycarbonate front label overlay"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounts in a 1-gang (or larger) 2-1/4 inch (57 mm) deep U.S. electrical box or plaster ring (not included)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Transmitter/HD-TXC-4KZ-101-1G-W",
+ "checked": "2026-10-18"
 }

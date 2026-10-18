@@ -1,6 +1,6 @@
 {
  "sku": "10GB24",
- "order": 4091,
+ "order": 3989,
  "n": "CAT 6A UTP Cable, LSZH, Indoor",
  "b": "Belden",
  "c": "Copper Cabling Solution",
@@ -9,16 +9,54 @@
  "d": "23-4P U/UTP SOL BC CAT6A PO/LSZH WHITE JACKET (305Mtr/Reel)",
  "specs": [
   {
-   "label": "Type",
-   "value": "U/utp"
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "7.0 mm (0.28 in)"
   },
   {
-   "label": "Series",
-   "value": "Unshielded"
+   "label": "Max. Pull Tension",
+   "value": "110 N (25 lbf)"
   },
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Environmental Suitability",
+   "value": "Euroclass Eca"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca; CPR UKCA Class: Eca"
+  },
+  {
+   "label": "IEEE Compliance",
+   "value": "PoE: IEEE 802.3bt Type 1, Type 2, Type 3, Type 4"
+  },
+  {
+   "label": "Data Category",
+   "value": "Category 6A"
+  },
+  {
+   "label": "TIA/EIA Compliance",
+   "value": "ANSI/TIA 568.2-D"
+  },
+  {
+   "label": "ISO/IEC Compliance",
+   "value": "ISO/IEC 11801-1"
+  },
+  {
+   "label": "CENELEC Compliance",
+   "value": "EN 50173-1, Segregation class according EN50174-2 = b"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU CE Mark"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/10gb24",
+ "checked": "2026-10-18"
 }

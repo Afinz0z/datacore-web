@@ -1,11 +1,62 @@
 {
  "sku": "XRN-6410B4",
- "order": 3385,
+ "order": 3283,
  "n": "64 CH NVR, 16 SATA, 400 Mbps - HANWHA",
  "b": "Hanwha Vision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "64 CH NVR, 16 SATA, 400 Mbps, N+1 failover, AI Serach",
- "specs": []
+ "specs": [
+  {
+   "label": "Network camera",
+   "value": "Inputs Max. 64CH"
+  },
+  {
+   "label": "Resolution",
+   "value": "32MP ~ CIF"
+  },
+  {
+   "label": "Protocols",
+   "value": "SUNAPI, ONVIF"
+  },
+  {
+   "label": "Decoding",
+   "value": "Local Display [Dual Display] HDMI 1: 3840 x 2160 (30Hz) HDMI 2: 1920x1080 (60Hz)"
+  },
+  {
+   "label": "Record",
+   "value": "Compression H.265, H.264, MJPEG"
+  },
+  {
+   "label": "Recording Bandwidth",
+   "value": "Distributed mode : Up to 400 Mbps Normal mode : Up to 150 Mbps [RAID mode] Normal : Up to 400 Mbps Degrade/ Rebuild : Up to 320 Mbps"
+  },
+  {
+   "label": "Mode",
+   "value": "Normal, Dual Stream, Schedule(Continuous/Event), Event (Pre/Post), Bookmark"
+  },
+  {
+   "label": "Event Trigger",
+   "value": "Alarm Input, Video Loss, Camera Event(Sensor, MD, Video Analytics, Defocus, Audio), Dynamic Event, User Event"
+  },
+  {
+   "label": "Event Action",
+   "value": "e-Mail, Event Push, PTZ Preset, Alarm Out, Buzzer, Monitor Out, FTP, SUNAPI Command, Shutdown"
+  },
+  {
+   "label": "Search & Play",
+   "value": "Playback Bandwidth RAID Mode : Max. 64Mbps(64CH simultaneously) Non-RAID Mode : Max. 32Mbps"
+  },
+  {
+   "label": "User",
+   "value": "Max. 4 Users (Local 1, Remote 3)"
+  },
+  {
+   "label": "Simultaneous playback",
+   "value": "Max. 112CH(Local 64CH, Remote 16CH per user)"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/cis/products/product-details/XRN-6410B4",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "XGS-6350-24X2C",
- "order": 3170,
+ "order": 3068,
  "n": "24-Port High density Managed Ethernet Switch - Planet",
  "b": "PLANET",
  "c": "Fiber Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Layer 3 24-Port 10G SFP+ + 2-Port 40G/100G QSFP28 Managed Switch with optional Redundant Power,(Hardware stacking up to 10 units, supports VRRP and ERPS Ring redundancy)",
- "specs": [],
+ "specs": [
+  {
+   "label": "SFP+ Slots",
+   "value": "24 10GBASE-SR/LR SFP+ interfaces Compatible with 1000BASE-SX/LX/BX SFP transceiver"
+  },
+  {
+   "label": "MGMT",
+   "value": "1 x 10/100/1000BASE-T RJ45 port"
+  },
+  {
+   "label": "Console",
+   "value": "1 x RJ45-to-DB9 serial port (9600, 8, N, 1)"
+  },
+  {
+   "label": "USB",
+   "value": "1 x USB 2.0"
+  },
+  {
+   "label": "LED Indicator",
+   "value": "System: PWR, SYS( Green ) Ports: 10G SFP+ interfaces: LNK/ACT( Green ) 40G/100G QSFP Port: LNK/ACT( Green )"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "AC 100~240V, 50/60Hz"
+  },
+  {
+   "label": "Fan",
+   "value": "4"
+  },
+  {
+   "label": "Switching Performance Switch Architecture",
+   "value": "Store-and-forward"
+  },
+  {
+   "label": "Switch Capacity",
+   "value": "880Gbps/non-blocking"
+  },
+  {
+   "label": "Switch Throughput",
+   "value": "654Mpps"
+  },
+  {
+   "label": "Address Table",
+   "value": "132K MAC address table with auto learning function"
+  },
+  {
+   "label": "Flow Control",
+   "value": "Back pressure for half duplex IEEE 802.3x pause frame for full duplex"
+  }
+ ],
  "acc": [
   "MTB-LR"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/xgs-6350-24x2c",
+ "checked": "2026-10-18"
 }

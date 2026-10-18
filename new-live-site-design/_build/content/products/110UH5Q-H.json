@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "110UH5Q-H",
  "d": "110'' 4K UHD Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size (Inch)",
+   "value": "110"
+  },
+  {
+   "label": "Panel Technology",
+   "value": "ADS"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Direct"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "120Hz"
+  },
+  {
+   "label": "Brightness",
+   "value": "500nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,200:1"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "1,000,000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "BT709 95%"
+  },
+  {
+   "label": "Viewing Angle (H x V)",
+   "value": "178º x 178º"
+  },
+  {
+   "label": "Color Depth (Number of Colors)",
+   "value": "1.07 Billion colors"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-110uh5q-h",
+ "checked": "2026-10-18"
 }

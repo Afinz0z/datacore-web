@@ -1,6 +1,6 @@
 {
  "sku": "6510957",
- "order": 4128,
+ "order": 4026,
  "n": "Plenum Kit for Crestron X-Series Audio Amplifiers (AMP-PNMK)",
  "b": "Crestron",
  "c": "Power Supply",
@@ -8,7 +8,36 @@
  "avail": "lead",
  "model": "AMP-PNMK",
  "d": "AMP-PNMK Plenum Kit for Crestron X-Series Audio Amplifiers",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wire lead size",
+   "value": "16 AWG"
+  },
+  {
+   "label": "Knockout size",
+   "value": "3/4 in. NPT Fitting"
+  },
+  {
+   "label": "Height",
+   "value": "3.85 in. (978 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.67 in. (42 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.58 in. (40 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "4° to 176° F (-15.5° to 80° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (non‑condensing)"
+  }
+ ],
  "for": [
   "6510866",
   "6511106",
@@ -16,5 +45,7 @@
   "6511742",
   "6511743",
   "6511744"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Local-AV-USB/Audio/Amplifier-Accessories/AMP-PNMK",
+ "checked": "2026-10-18"
 }

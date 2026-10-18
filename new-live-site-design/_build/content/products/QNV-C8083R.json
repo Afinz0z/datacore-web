@@ -1,6 +1,6 @@
 {
  "sku": "QNV-C8083R",
- "order": 3257,
+ "order": 3155,
  "n": "5MP AI IR Vandal Dome Camera",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "Wisenet Q network outdoor vandal dome camera, 5MP @ 30fps, motorized vari-focal lens 3.2~10.2mm (H: 95°~29° / V: 69°~21°), triple codec H.265/H.264/MJPEG with Wisestream III (Based on AI engine), WiseNR Ⅱ (Based on AI engine), WDR 120dB, IR viewable length 30m (98ft), WiseMD based on AI engine, Classified object type: Person/Vehicle (vehicle type: car/bus/truck/motorcycle/bicycle); IVA events based on AI engine: Virtual line (Crossing/Direction), Virtual area (Loitering/Intrusion/Enter/Exit/(Dis)Appear), *Audio: Selectable(mic in/line in), defocus detection, hallway View, built-in SD card slot (1x256GB), video analytics, USB for easy installation, open platform, IP66, IK10, PoE, Operating temperature -30°C~+55°C(-22°F ~ +131°F) white color. * Alarm I/O and audio is supported through an optional cable (SPP-C7400)",
  "specs": [
   {
+   "label": "Imaging Device",
+   "value": "Size 1/2.8\""
+  },
+  {
    "label": "Type",
-   "value": "Dome Camera"
+   "value": "CMOS"
+  },
+  {
+   "label": "Resolution",
+   "value": "2592x1944, 2560x1440, 1920x1080, 1280x960, 1280x720, 800x600, 800x448, 720x576, 720x480, 640x480, 640x360, 320x240"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "30fps(@5MP Max. 5fps)"
+  },
+  {
+   "label": "Min. Illumination (Lux)",
+   "value": "Color(1/30sec, 30IRE) 0.07"
+  },
+  {
+   "label": "BW(1/30sec, 30IRE)",
+   "value": "0.007"
+  },
+  {
+   "label": "Video Out",
+   "value": "USB: Micro USB Type B. Preview and installation ONLY. Requires WiFi dongle."
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "3.2~10.2"
+  },
+  {
+   "label": "Zoom Ratio",
+   "value": "Optical 3.2x"
+  },
+  {
+   "label": "Max Aperture Ratio (F number)",
+   "value": "Wide 1.6"
+  },
+  {
+   "label": "Tele",
+   "value": "3.1"
   }
- ]
+ ],
+ "src": "https://www.hanwhavision.com/ca/products/product-details/QNV-C8083R",
+ "checked": "2026-10-18"
 }

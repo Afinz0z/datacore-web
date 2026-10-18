@@ -1,6 +1,6 @@
 {
  "sku": "6512151",
- "order": 2455,
+ "order": 2358,
  "n": "Certified HDMI® 2.1 Cable, 48 Gbps, 9 ft (2.7 m) (CBL-8K-HD-9)",
  "b": "Crestron",
  "c": "AV CABLE",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "CBL-8K-HD-9",
  "d": "Certified HDMI® 2.1 Cable, 48 Gbps, 9 ft (2.7 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable Type",
+   "value": "Passive, bidirectional HDMI to HDMI cable"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "48 Gbps"
+  },
+  {
+   "label": "Performance resolutions",
+   "value": "Without DSC: up to 8K @ 30Hz 4:4:4 or 4K @ 120Hz 4:4:4; With DSC: up to 8K @ 120Hz 4:4:4"
+  },
+  {
+   "label": "Color Sampling",
+   "value": "4:4:4"
+  },
+  {
+   "label": "HDCP",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Length",
+   "value": "CBL‑8K‑HD‑1.5 : 1.5 ft (0.5 m); CBL‑8K‑HD‑3 : 3 ft (0.9 m); CBL‑8K‑HD‑6 : 6 ft (1.8 m); CBL‑8K‑HD‑9 : 9 ft (2.7 m); CBL‑8K‑HD‑12 : 12 ft (3.7 m); CBL‑8K‑HD‑16 : 16 ft (5 m)"
+  },
+  {
+   "label": "Connector Boot (HxW)",
+   "value": "CBL‑8K‑HD‑1.5 : 0.71 in. (18 mm) x 0.36 in. (9 mm); CBL‑8K‑HD‑3 : 0.71 in. (18 mm) x 0.36 in. (9 mm); CBL‑8K‑HD‑6 : 0.71 in. (18 mm) x 0.36 in. (9 mm); CBL‑8K‑HD‑9 : 0.83 in. (21 mm) x 0.43 in. (11 mm); CBL‑8K‑HD‑12 : 0."
+  },
+  {
+   "label": "Diameter",
+   "value": "CBL‑8K‑HD‑1.5 , CBL‑8K‑HD‑3 , and CBL‑8K‑HD‑6 : 4.5 mm; CBL‑8K‑HD‑9 : 6.0 mm; CBL‑8K‑HD‑12 and CBL‑8K‑HD‑16 : 8.0 mm"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Video,-Audio-and-USB/Video-Cables/CBL-8K-HD-9",
+ "checked": "2026-10-18"
 }

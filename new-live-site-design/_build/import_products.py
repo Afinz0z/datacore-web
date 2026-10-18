@@ -53,6 +53,9 @@ NO_BRAND = {'generic', 'local', 'queue management system'}
 # Rows that only reserve a slot in the inventory system ("Custom-1", "Rack", "Structure").
 PLACEHOLDER = re.compile(r'^(custom|structure|rack|wap|pc)(-\d+)?$', re.I)
 TBA = re.compile(r'^tba(-\d+)?$', re.I)
+# Models the maker marks as discontinued on its own site, with that page as proof. They stay off the site.
+_DISC_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'product_discontinued.json')
+DISCONTINUED = json.load(open(_DISC_FILE, encoding='utf-8')) if os.path.exists(_DISC_FILE) else {}
 DASHES = re.compile('[%s]' % ''.join(map(chr, (0x2010, 0x2011, 0x2012, 0x2013, 0x2014, 0x2212))))   # hyphen and dash variants
 INVISIBLE = re.compile('[%s]' % ''.join(map(chr, (0x200B, 0x200C, 0x200D, 0x2060, 0xFEFF, 0xAD))))   # zero-width, soft hyphen
 
@@ -190,6 +193,9 @@ def readable_name(name, desc, brand):
     if not desc:
         return name
     phrase = re.split(r'\s*(?:\u2022|;|\||\.\s)\s*', desc.strip(' \u2022'))[0]
+    # a title run into a sentence: "Amplifier, 75 W The AMP-X75 provides..." (but not Samsung's "The Wall")
+    phrase = re.split(r'\s+(?=(?:The|This|These|It|Its)\s+(?:\S+\s+){0,2}(?:is|are|provides|offers|delivers|'
+                      r'features|has|allows|enables|combines|supports|brings|gives|lets)\b)', phrase)[0]
     phrase = clean(phrase).strip(' -:,')
     for _ in range(2):                         # the export sometimes misspells the brand ("FONOSEL")
         head, _, rest = phrase.partition(' ')
@@ -265,6 +271,7 @@ def main(xlsx, skipped_csv=None):
         sku, name = clean(d['Part Number']), clean(d['Product Name'])
         raw_brand, cat, dept = clean(d['Manufacturer']), clean(d['Category']), clean(d['Department']).upper()
         why = ('Inactive in the inventory system' if clean(d.get('Status')).upper() != 'ACTIVE'
+               else 'Discontinued by the maker' if sku in DISCONTINUED
                else skip_reason(raw_brand, cat, sku, name))
         if why:
             skipped.append((d, why)); continue
@@ -289,6 +296,9 @@ def main(xlsx, skipped_csv=None):
         if better != entry['n']:
             entry['model'] = entry['n']
             entry['n'] = better
+        tail = re.search(r'\s*\(([^()]+)\)$', entry['n'])   # "Switch License (Huawei)": the card already shows the brand
+        if tail and brand and _key(tail.group(1)).lower() == _key(brand).lower() and tail.start() > 3:
+            entry['n'] = entry['n'][:tail.start()]
         if desc:
             entry['d'] = desc
         entry['specs'] = classification(d, info)
@@ -357,6 +367,8 @@ def main(xlsx, skipped_csv=None):
             for d, why in skipped:
                 bundled = [c for c in _list(d.get('Supporting Products (Children)')) if _key(c) in all_keys]
                 note = (f'Has {len(bundled)} supporting products, which are on the site' if bundled else '')
+                if why == 'Discontinued by the maker':
+                    note = '; '.join(x for x in (DISCONTINUED[clean(d['Part Number'])]['page'], note) if x)
                 w.writerow([clean(d['Part Number']), clean(d['Product Name']), clean(d['Manufacturer']),
                             clean(d['Category']), clean(d['Department']), why, note])
         print('skipped rows listed in', skipped_csv)

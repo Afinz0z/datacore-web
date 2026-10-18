@@ -1,6 +1,6 @@
 {
  "sku": "6514221",
- "order": 2140,
+ "order": 2052,
  "n": "DM NVX Director® Network AV Switching Appliance (DM-NVX-DIR2)",
  "b": "Crestron",
  "c": "Director",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-DIR2",
  "d": "DM-NVX-DIR2 DM NVX Director® Network AV Switching Appliance",
- "specs": []
+ "specs": [
+  {
+   "label": "Processor",
+   "value": "Intel Core® i5-10500T CPU @ 2.30 GHz"
+  },
+  {
+   "label": "RAM",
+   "value": "8 GB DDR4 2666 MT/s"
+  },
+  {
+   "label": "Storage",
+   "value": "256 GB SSD"
+  },
+  {
+   "label": "Graphics",
+   "value": "Intel® UHD Graphics 630"
+  },
+  {
+   "label": "Network",
+   "value": "Intel I219-LM 100/1000 Mbps Ethernet"
+  },
+  {
+   "label": "Operating System",
+   "value": "AlmaLinux OS® 9.5 software"
+  },
+  {
+   "label": "Endpoints",
+   "value": "Supports 100 DM NVX® AV-over-IP devices, each configured as an encoder or decoder"
+  },
+  {
+   "label": "Domains",
+   "value": "Supports 20 domains (allows grouping of endpoints in up to 20 individual subsystems)"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, TLS, SSH, IPv4, HTTPS web browser setup and control, Crestron 3-Series® (or later) control system integra"
+  },
+  {
+   "label": "Power Adapter (included)",
+   "value": "Input: 100-240VAC, 50/60 Hz; Output: 130 W @ 19.5VDC"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "42.9 BTU/hr (short idle)"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Metal, plastic"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Management/DM-NVX-DIR2",
+ "checked": "2026-10-18"
 }

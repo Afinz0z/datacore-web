@@ -1,22 +1,11 @@
 {
  "sku": "6507951",
- "order": 2235,
+ "order": 2147,
  "n": "CB6-BTNRED-S_ENGRAVED",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "CB6-BTNRED-S_ENGRAVED Small Backlit Engravable Button Cap for Cameo Keypads, Red Smooth, Includes Custom Engraving",
- "specs": [],
- "for": [
-  "6504676",
-  "6504678",
-  "6504681",
-  "6504683",
-  "6509745",
-  "6509746",
-  "6509747",
-  "6509748",
-  "6509749"
- ]
+ "specs": []
 }

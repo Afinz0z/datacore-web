@@ -1,6 +1,6 @@
 {
  "sku": "6512142",
- "order": 2461,
+ "order": 2362,
  "n": "USB Cable, USB-A Male to USB-C® Male, USB 2.0, 12 ft (3.7 m) (CBL-USB2-A-C-12)",
  "b": "Crestron",
  "c": "AV CABLE",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "CBL-USB2-A-C-12",
  "d": "CBL-USB2-A-C-12 USB Cable, USB-A Male to USB-C® Male, USB 2.0, 12 ft (3.7 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable Type",
+   "value": "Passive"
+  },
+  {
+   "label": "Supported Modes",
+   "value": "USB 2.0 (480 Mbps)"
+  },
+  {
+   "label": "Length",
+   "value": "12 ft (3.7 m)"
+  },
+  {
+   "label": "Diameter",
+   "value": "4.5 mm"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Video,-Audio-and-USB/USB-Cables/CBL-USB2-A-C-12",
+ "checked": "2026-10-18"
 }

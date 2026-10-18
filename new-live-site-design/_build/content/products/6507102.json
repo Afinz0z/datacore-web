@@ -1,6 +1,6 @@
 {
  "sku": "6507102",
- "order": 2145,
+ "order": 2057,
  "n": "Digital Graphics Engine 200 with 4K DM 8G+® Input (DM-DGE-200-C)",
  "b": "Crestron",
  "c": "Graphics Engine",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-DGE-200-C",
  "d": "DM-DGE-200-C Digital Graphics Engine 200 with 4K DM 8G+® Input",
- "specs": []
+ "specs": [
+  {
+   "label": "Smart Graphics Technology",
+   "value": "Arabic, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English (UK), English (US), Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Portugue"
+  },
+  {
+   "label": "On-screen Keyboard",
+   "value": "Arabic, Chinese (Simplified), Croatian, Czech, Danish, Dutch, English (UK), English (US), Finnish, French (Canada), French (Switzerland), German, Hebrew, Hungarian, Italian, Japanese, Norwegian Bokmal, Polish, Portuguese"
+  },
+  {
+   "label": "Web Browser",
+   "value": "Arabic, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Filipino, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian Bokm"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB DDR3-SDRAM"
+  },
+  {
+   "label": "Flash",
+   "value": "4 GB"
+  },
+  {
+   "label": "Maximum Project Size",
+   "value": "1 GB"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), SNMP, IPv4 or IPv6, Active Directory® authentication, HTTPS web brow"
+  },
+  {
+   "label": "USB Host",
+   "value": "Supports TSD‑2220 touch screen display and most third-party USB HID compliant peripherals"
+  },
+  {
+   "label": "USB Device",
+   "value": "For computer console (installer setup and firmware update)"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "1-way device control via infrared up to 1.1 MHz or serial TTL/RS-232 (0–5V) up to 19200 baud"
+  },
+  {
+   "label": "DigitalMedia™ Technology",
+   "value": "DM 8G+, HDCP 2.2, EDID, Ethernet, PoDM (Power over DM®) sourcing"
+  },
+  {
+   "label": "HDMI, Input",
+   "value": "HDCP 1.4, EDID, CEC"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Graphics-Engine/DM-DGE-200-C",
+ "checked": "2026-10-18"
 }

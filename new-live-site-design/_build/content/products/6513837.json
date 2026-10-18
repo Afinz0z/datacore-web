@@ -1,13 +1,62 @@
 {
  "sku": "6513837",
- "order": 1478,
+ "order": 1410,
  "n": "TSW-1080-UC-B",
  "b": "Crestron",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "TSW-1080-UC-B 10.1 in. Wall Mount Touch Screen, Unified Communication Version",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "TFT active matrix color LCD"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "10.1 in. (257 mm) diagonal"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "1920 x 1200 pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "Minimum: 350 nits (cd/m²); Maximum: 400 nits (cd/m²)"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Color Depth",
+   "value": "24 bit, 16.7M colors"
+  },
+  {
+   "label": "Illumination",
+   "value": "Edgelit LED with auto brightness control"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "±80° horizontal, ±80° vertical"
+  },
+  {
+   "label": "Touch Screen",
+   "value": "Projected capacitive, 5 point multitouch capable"
+  },
+  {
+   "label": "RAM",
+   "value": "8GB LPDDR4"
+  },
+  {
+   "label": "Storage",
+   "value": "40GB eMMC pSLC"
+  },
+  {
+   "label": "Maximum Project Size",
+   "value": "1000 MB"
+  }
+ ],
  "acc": [
   "6513956",
   "6513957",
@@ -18,5 +67,7 @@
   "6514114",
   "6514116",
   "6514118"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Touchscreen/TSW-1080-UC-B",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "6510277",
- "order": 1569,
+ "order": 1546,
  "n": "ZUMMESH-KP10AMBATT-B-S",
  "b": "Crestron",
  "c": "Control Keypad/Remote Panel",
  "dept": "AV",
  "avail": "lead",
  "d": "ZUMMESH-KP10AMBATT-B-S AirMedia® Wireless Battery-Powered Keypad, Black Smooth",
- "specs": []
+ "specs": [
+  {
+   "label": "RF Transceiver",
+   "value": "Zūm® Mesh 2-way RF, 2.4 GHz ISM Channels 15, 20, 25, or 26 (channel auto-selected), IEEE 802.15.4 compliant, AES-128 encryption"
+  },
+  {
+   "label": "Range (typical)",
+   "value": "50 ft (15 m), subject to site-specific conditions"
+  },
+  {
+   "label": "Battery",
+   "value": "(1) CR2032 3 Volt lithium coin cell disposable battery (included)"
+  },
+  {
+   "label": "Battery Life",
+   "value": "≥5 years"
+  },
+  {
+   "label": "Composition",
+   "value": "Plastic; black or white smooth finish"
+  },
+  {
+   "label": "Surface Mounting",
+   "value": "Adheres to a smooth, flat wall surface using double-sided tape (included) or screws (not included)"
+  },
+  {
+   "label": "Wall Box Mounting",
+   "value": "Mounts to a 1-gang (or larger) US electrical box"
+  },
+  {
+   "label": "Faceplate",
+   "value": "Requires a decorator-style faceplate ( sold separately )"
+  },
+  {
+   "label": "Height",
+   "value": "4.26 in (109 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.76 in (45 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.42 in (11 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Presentation-and-Conferencing/AirMedia/Keypad/ZUMMESH-KP10AMBATT-B-S",
+ "checked": "2026-10-18"
 }

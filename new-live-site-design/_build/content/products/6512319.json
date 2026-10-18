@@ -1,6 +1,6 @@
 {
  "sku": "6512319",
- "order": 1430,
+ "order": 1365,
  "n": "DM NAX™ 4-Zone Streaming Preamplifier (DM-NAX-4ZSP)",
  "b": "Crestron",
  "c": "Streaming Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-4ZSP",
  "d": "DM-NAX-4ZSP DM NAX™ 4-Zone Streaming Preamplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio input signal types",
+   "value": "4 stereo analog (RCA); 4 digital S/PDIF (2 TOSLINK and 2 Coaxial); Up to 4 stereo DM NAX or AES67 audio-over-IP streams; Up to 4 stereo cloud-based media streams from streaming service providers"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "4 stereo line-level analog outputs; Up to 16 stereo DM NAX or AES67 audio-over-IP streams"
+  },
+  {
+   "label": "Sampling Rates and Bit Depths",
+   "value": "Digital Input (Coaxial): Up to 192 kHz,; 24-bit; Digital Input (Optical): Up to 96 kHz,; 24-bit; Media Players: Up to 192 kHz, 24-bit"
+  },
+  {
+   "label": "Source Compensation",
+   "value": "±10.0 dB per input"
+  },
+  {
+   "label": "Input Monitoring",
+   "value": "Source Signal Detect"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.2 dB"
+  },
+  {
+   "label": "THD",
+   "value": "0.006%"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "110 dB digital in, 108 dB analog in"
+  },
+  {
+   "label": "Zone Volume Level Control",
+   "value": "-80.0 to +20.0 dB, adjustable from 0% to 100% plus mute"
+  },
+  {
+   "label": "Bass Control",
+   "value": "±12.0 dB"
+  },
+  {
+   "label": "Treble Control",
+   "value": "±12.0 dB"
+  },
+  {
+   "label": "Loudness Compensation",
+   "value": "On/Off"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Pre-Amplifier/DM-NAX-4ZSP",
+ "checked": "2026-10-18"
 }

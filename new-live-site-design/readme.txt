@@ -177,7 +177,9 @@ You do not need this section to use the site, but it helps to know:
 
   • The product list comes from the inventory system. To refresh it,
     send the latest "Products-All-Categories" spreadsheet export to
-    your web maintainer.
+    your web maintainer. Items marked TBA, placeholder rows and models
+    the maker has discontinued are left out, and a separate
+    spreadsheet lists each one and why.
 
 
 --------------------------------------------------------------------

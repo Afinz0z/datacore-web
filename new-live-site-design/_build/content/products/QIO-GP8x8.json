@@ -1,6 +1,6 @@
 {
  "sku": "QIO-GP8x8",
- "order": 1418,
+ "order": 1353,
  "n": "Control expansion 8/8 logic inputs (QIO-GP8x8)",
  "b": "Q-SYS",
  "c": "Audio Expander",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "QIO-GP8x8",
  "d": "Control expansion 8/8 logic inputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Specificiations",
+   "value": "QIO-GP8x8"
+  },
+  {
+   "label": "GPIO Ports General purpose inputs",
+   "value": "0-24 VDC analog input, digital, or contact closure; configurable pull-up to +12 V"
+  },
+  {
+   "label": "General purpose outputs",
+   "value": "Open collector, 24 VDC @ 200 mA sink max; internal pullup to 3.3.V"
+  },
+  {
+   "label": "GPIO 12 VDC power pins",
+   "value": "12 VDC out at 100 mA max per pin, with resettable fuse"
+  },
+  {
+   "label": "LAN (PoE)",
+   "value": "Gigabit LAN connection for Q-LAN, PoE"
+  },
+  {
+   "label": "PoE specification",
+   "value": "Conforms to IEEE 802.3af Type 1"
+  },
+  {
+   "label": "LAN (Thru)",
+   "value": "Ethernet daisy-chaining"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Surface- and wall-mountable (hardware included) Rack-mountable; 1RU, quarter-rack width (QIO-RMK rack kit sold separately)"
+  },
+  {
+   "label": "Other Connectors External power supply",
+   "value": "24 VDC nominal, 2.5 A on Euro connector with second connector for daisy-chaining (QIO-PSU power supply sold separately)"
+  },
+  {
+   "label": "General Dimensions",
+   "value": "5.5 x 4.25 x 1.59 in (139.7 x 108 x 40.4 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.18 lb (0.54 kg)"
+  },
+  {
+   "label": "Humidity",
+   "value": "0%-85% through 30°C non-condensing"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/control-io-controllers/qio-series/qio-gp8x8/",
+ "checked": "2026-10-18"
 }

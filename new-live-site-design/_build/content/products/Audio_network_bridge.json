@@ -1,6 +1,6 @@
 {
  "sku": "Audio network bridge",
- "order": 1024,
+ "order": 964,
  "n": "The d&b system interface between Dante/AES67 and AES3 (Audio network bridge)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",

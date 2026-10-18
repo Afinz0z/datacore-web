@@ -1,6 +1,6 @@
 {
  "sku": "6511320",
- "order": 2057,
+ "order": 1970,
  "n": "DM NUX USB over Network with Routing, Remote (DM-NUX-R2)",
  "b": "Crestron",
  "c": "Converter",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NUX-R2",
  "d": "DM-NUX-R2 DM NUX USB over Network with Routing, Remote",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100Base-T or 1000Base-T, Layer 2"
+  },
+  {
+   "label": "Link Speed",
+   "value": "Up to 480 Mbps, dependent upon network speed and quality"
+  },
+  {
+   "label": "USB Device Support",
+   "value": "USB 1.0/1.1 and 2.0 with Hub compatible including isochronous devices"
+  },
+  {
+   "label": "USB Hub Support",
+   "value": "Any signal chain may include up to 4 USB hubs plus one DM‑NUX‑L2 and one DM‑NUX‑R2"
+  },
+  {
+   "label": "Maximum USB Devices",
+   "value": "30 USB devices, or 4 USB hubs with 26 USB devices"
+  },
+  {
+   "label": "Host Computer OS Support",
+   "value": "Windows®, macOS®, and Linux® operating systems"
+  },
+  {
+   "label": "USB Throughput",
+   "value": "USB 2.0 up to 480 Mbps; USB 1.1 up to 12 Mbps"
+  },
+  {
+   "label": "Power",
+   "value": "Input: 100-240VAC, 50/60 Hz; Output: 0.75A @ 24VDC; PW-2407WU power pack included"
+  },
+  {
+   "label": "Construction",
+   "value": "Black anodized aluminum"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding or surface mount (mounting bracket included)"
+  },
+  {
+   "label": "Height",
+   "value": "1.02 in. (26 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.94 in. (100 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/USB-Endpoint/DM-NUX-R2",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6513408",
- "order": 2644,
+ "order": 2545,
  "n": "1 Beyond Wall Mount Bracket, Black (IVA-WMT-BRKT-1B-B)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,24 @@
  "avail": "lead",
  "model": "IVA-WMT-BRKT-1B-B",
  "d": "IVA-WMT-BRKT-1B-B Crestron 1 Beyond Wall Mount Bracket, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "3.74 in. (95 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.56 in. (65 mm)"
+  },
+  {
+   "label": "Length",
+   "value": "7.44 in. (189 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal"
+  }
+ ],
  "for": [
   "6513202",
   "6513204",
@@ -21,5 +38,7 @@
   "6513987",
   "6513988",
   "6514446"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Accessories/IVA-WMT-BRKT-1B-B",
+ "checked": "2026-10-18"
 }

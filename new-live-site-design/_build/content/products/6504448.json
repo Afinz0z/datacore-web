@@ -1,16 +1,11 @@
 {
  "sku": "6504448",
- "order": 2240,
+ "order": 2152,
  "n": "CB6E-BTNA-S_BLANK",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "CB6E-BTNA-S_BLANK Small Engravable Button Cap for Cameo Express Keypads, Almond Smooth, Engraving Not Included",
- "specs": [],
- "for": [
-  "6509742",
-  "6509743",
-  "6509744"
- ]
+ "specs": []
 }

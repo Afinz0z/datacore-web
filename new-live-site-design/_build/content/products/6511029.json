@@ -1,6 +1,6 @@
 {
  "sku": "6511029",
- "order": 1661,
+ "order": 1580,
  "n": "Universal Wireless Gateway - ER, SG (CENI-GW1)",
  "b": "Crestron",
  "c": "Gateway",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CENI-GW1",
  "d": "CENI-GW1 Universal Wireless Gateway - ER, SG, and infiNET EX® Wireless Networks, International Version",
- "specs": []
+ "specs": [
+  {
+   "label": "Transceiver",
+   "value": "infiNET EX Transceiver:; 2‑way RF, 2.4 GHz ISM; Channels 11‑26 (2400 to 2483.5 MHz), default channel 15; IEEE 802.15.4 compliant; Mesh network topology; infiNET EX devices act as expanders; Dedicated infiNET EX expanders"
+  },
+  {
+   "label": "SG:; +27 dBm range",
+   "value": "infiNET EX:; 150 ft (46 m) indoor (250 ft (76 m) outdoor) to nearest mesh network device(s)"
+  },
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps, auto‑switching, auto‑negotiating, auto‑discovery, full/half duplex, DHCP, IEEE 802.3at Type 1 compliant"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3at Type 1 (802.3af compatible) Class 3 (5.3 W) PoE Powered Device"
+  },
+  {
+   "label": "Power Pack",
+   "value": "0.75A (minimum) @ 24VDC (PW‑2407WU sold separately)"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "18.1 BTU/hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IFE small form factor, black and blue plastic with die‑cast zinc top cover"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding, stackable, surface mount, or 35 mm DIN EN 60715 rail mount; Occupies 8 DIN module spaces (144 mm); Surface/DIN rail mounting bracket included; Rack mount and pole mount kits sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "1.35 in. (35 mm); 1.77 in. (45 mm) with bracket"
+  },
+  {
+   "label": "Width",
+   "value": "5.04 in. (128 mm); 5.36 in. (137 mm) with bracket"
+  },
+  {
+   "label": "Depth",
+   "value": "5.17 in. (131 mm)"
+  },
+  {
+   "label": "Gateway",
+   "value": "13.1 oz (372 g) with antennas"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Wireless-Communications/Gateway/CENI-GW1",
+ "checked": "2026-10-18"
 }

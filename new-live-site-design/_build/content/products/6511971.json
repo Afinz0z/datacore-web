@@ -1,6 +1,6 @@
 {
  "sku": "6511971",
- "order": 2550,
+ "order": 2451,
  "n": "DM NAX® Audio-over-IP Wall Plate with XLR, Black, 1-Gang (DM-NAX-2XLRI-1G)",
  "b": "Crestron",
  "c": "Audio Wallplate",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-2XLRI-1G",
  "d": "DM-NAX-2XLRI-1G DM NAX® Audio-over-IP Wall Plate with XLR, Black, 1-Gang",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio input signal types",
+   "value": "Balanced/unbalanced analog line/mic-level; DM NAX/AES67 audio-over-IP"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "Balanced/unbalanced analog line-level; DM NAX/AES67 audio-over-IP"
+  },
+  {
+   "label": "Source Compensation",
+   "value": "±10.0 dB per input"
+  },
+  {
+   "label": "Input Monitoring",
+   "value": "Source Signal Detect"
+  },
+  {
+   "label": "Frequency Response (at line-level output)",
+   "value": "From mic-level input: 20 Hz to 20 kHz ±1.0 dB; From line-level input: 20 Hz to 20 kHz +0.1/-1.0 dB"
+  },
+  {
+   "label": "THD+N (at line-level output)",
+   "value": "From mic-level input: 0.3% @ 1 kHz, max output; From line-level input: 0.005% @ 1 kHz, max output"
+  },
+  {
+   "label": "S/N Ratio (at line-level output)",
+   "value": "From analog input: 105 dB, 20 Hz to 20 kHz, A‑weighted; From digital input: 111 dB, 20 Hz to 20 kHz, A‑weighted"
+  },
+  {
+   "label": "Balance Control",
+   "value": "Left/right adjustable"
+  },
+  {
+   "label": "EQ Filter Types",
+   "value": "EQ, High Pass, Low Pass, Treble Shelf, Bass Shelf, Notch"
+  },
+  {
+   "label": "EQ Center Frequency",
+   "value": "10 Hz to 20 kHz per band"
+  },
+  {
+   "label": "EQ Gain",
+   "value": "+20/-40 dB per band"
+  },
+  {
+   "label": "EQ Bandwidth",
+   "value": "0.1 to 4.0 octaves per band"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Edge-Devices/DM-NAX-2XLRI-1G",
+ "checked": "2026-10-18"
 }

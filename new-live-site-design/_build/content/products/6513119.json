@@ -1,6 +1,6 @@
 {
  "sku": "6513119",
- "order": 1555,
+ "order": 1541,
  "n": "Cameo® Keypad - International Version, Almond Textured (C2NI-CB-A-T)",
  "b": "Crestron",
  "c": "Control Keypad/Remote Panel",
@@ -8,7 +8,56 @@
  "avail": "lead",
  "model": "C2NI-CB-A-T",
  "d": "C2NI-CB-A-T Cameo® Keypad - International Version, Almond Textured",
- "specs": [],
+ "specs": [
+  {
+   "label": "Cresnet Power Usage",
+   "value": "0.5 W (0.02 A @ 24VDC)"
+  },
+  {
+   "label": "Cresnet",
+   "value": "Cresnet secondary mode"
+  },
+  {
+   "label": "Connections input",
+   "value": "(2) 3-pin 3.5 mm detachable terminal blocks; Comprises (2) dry contact closure sensing inputs"
+  },
+  {
+   "label": "NET",
+   "value": "4-pin 3.5 mm detachable terminal block; Cresnet secondary port, connects to a Cresnet control network"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "1.7 BTU/hr"
+  },
+  {
+   "label": "Keypad",
+   "value": "Plastic with metal mounting plate; Textured white, almond, or black finish"
+  },
+  {
+   "label": "Faceplate / Bezel",
+   "value": "Plastic faceplate included, color-matched to keypad; Architectural series faceplates ( C2NI/INETI-FP series ) available separately"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounts in a 1-Gang UK (BS 4662) electrical box, 1-Gang European (DIN 49073) electrical box, or 51 x 51 mm (2 x 2 in.) cutout"
+  },
+  {
+   "label": "Height",
+   "value": "87 mm (3.42 in.) including bezel"
+  },
+  {
+   "label": "Width",
+   "value": "87 mm (3.42 in.) including bezel"
+  },
+  {
+   "label": "Depth",
+   "value": "38 mm (1.49 in.)"
+  },
+  {
+   "label": "Temperature",
+   "value": "0° to 45°C (32° to 113°F)"
+  }
+ ],
  "acc": [
   "6501601",
   "6501602",
@@ -47,5 +96,7 @@
   "6507419",
   "6507933",
   "6507938"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Keypads/Cameo-Keypad/C2NI-CB-A-T",
+ "checked": "2026-10-18"
 }

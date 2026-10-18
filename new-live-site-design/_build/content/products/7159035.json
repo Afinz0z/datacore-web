@@ -1,6 +1,6 @@
 {
  "sku": "7159035",
- "order": 5298,
+ "order": 5180,
  "n": "Cable management with plastic rings Rittal",
  "b": "Rittal",
  "c": "Accessories",
@@ -9,11 +9,41 @@
  "d": "Cable management with plastic rings",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cable management panel"
+   "label": "Product description",
+   "value": "For horizontal management of the patch cables, with 5 cable shunting rings."
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Cable management panel Cable shunting rings (supplied loose)"
+  },
+  {
+   "label": "Note",
+   "value": "The sizes given are external dimensions."
+  },
+  {
+   "label": "Units",
+   "value": "1 U"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "1.8 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
   }
  ],
  "for": [
   "7507110"
- ]
+ ],
+ "src": "https://www.rittal.com/lt-en/products/PG20231215ZUB101/PG20240405ZUB003/PG20240405ZUB008/PRO37934?variantId=7159035",
+ "checked": "2026-10-18"
 }

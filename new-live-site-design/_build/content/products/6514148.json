@@ -1,6 +1,6 @@
 {
  "sku": "6514148",
- "order": 1117,
+ "order": 1057,
  "n": "\"PoE Speaker and Microphone Pod with support for DM NAX Intelligent (DM-NAX-POD-MIC-SPK)",
  "b": "Crestron",
  "c": "Mic",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-POD-MIC-SPK",
  "d": "DM-NAX-POD-MIC-SPK \"PoE Speaker and Microphone Pod with support for DM NAX Intelligent Audio",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "For control and PoE, AoIP, and/or console, 100/1000 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP"
+  },
+  {
+   "label": "Microphones",
+   "value": "360° 12-element array"
+  },
+  {
+   "label": "Pickup Radius",
+   "value": "7.5 ft (2.3 m)"
+  },
+  {
+   "label": "Driver",
+   "value": "One full range 2 in. speaker"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "100 Hz to 7 kHz"
+  },
+  {
+   "label": "Output Level",
+   "value": "74 dB SPL @ 1 m"
+  },
+  {
+   "label": "DSP",
+   "value": "Acoustic echo cancellation, automatic gain control, dynamic noise suppression, and speaker volume control Full-duplex IEEE 1329 Type 1 compliant"
+  },
+  {
+   "label": "PoE+",
+   "value": "IEEE 802.3at Class 4 (25.5 W) compliant; Compatible with IEEE 802.3at compliant Ethernet switch or third-party PoE+ compliant PSE"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Lightly textured black finish, plastic housing, perforated stainless steel grilles, and die-cast aluminum bottom cover"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tabletop mounting only"
+  },
+  {
+   "label": "Height",
+   "value": "2.50 in. (64 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "5.52 in. (140 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/DM-NAX-Intelligent-Audio/DM-NAX-POD-MIC-SPK",
+ "checked": "2026-10-18"
 }

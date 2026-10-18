@@ -1,14 +1,65 @@
 {
  "sku": "GS-6311-48P6X",
- "order": 3037,
+ "order": 2935,
  "n": "48-Port Managed Ethernet Switch - Planet",
  "b": "PLANET",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Layer 3 48-Port 10/100/1000T 802.3at PoE + 6-Port 10G SFP+ Managed Ethernet Switch (600W PoE budget, hardware-based Layer 3 RIPv1/v2, OSPFv2 dynamic routing, supports ERPS Ring, PoE PD alive check and schedule management)",
- "specs": [],
+ "specs": [
+  {
+   "label": "PoE Injector Port",
+   "value": "48 ports with 802.3af/802.3at PoE+ injector function (ports 1 to 48)"
+  },
+  {
+   "label": "10G SFP+ Ports",
+   "value": "6 10GBASE-SR/LR SFP+ interfaces (ports 49 to 54) Backward compatible with 1000BASE-SX/LX/BX SFP transceiver"
+  },
+  {
+   "label": "Console Port",
+   "value": "1 x RJ45-to-RS232 serial port (9600, 8, N, 1)"
+  },
+  {
+   "label": "CPU",
+   "value": "MIPS 800MHz"
+  },
+  {
+   "label": "RAM",
+   "value": "512Mbytes"
+  },
+  {
+   "label": "Flash Memory",
+   "value": "32Mbytes"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Contact ±6KV , Air ±8KV"
+  },
+  {
+   "label": "Surge Protection",
+   "value": "Differential mode ±2KV , Common mode ±4KV"
+  },
+  {
+   "label": "Power Requirements- AC",
+   "value": "AC 100~240V, 50/60Hz"
+  },
+  {
+   "label": "Fan",
+   "value": "5"
+  },
+  {
+   "label": "LED",
+   "value": "System: PWR ( Green ), SYS ( Green ) Ports: LNK/ACT ( Green ) PoE-in-Use ( Amber )"
+  },
+  {
+   "label": "Switching Specifications Switch Architecture",
+   "value": "Store-and-forward"
+  }
+ ],
  "acc": [
   "MTB-LR"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/gs-6311-48p6x",
+ "checked": "2026-10-18"
 }

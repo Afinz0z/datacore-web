@@ -1,6 +1,6 @@
 {
  "sku": "GS-4210-8P2S",
- "order": 3038,
+ "order": 2936,
  "n": "8-Port Managed 802.3at POE+ Gigabit Ethernet Switch",
  "b": "PLANET",
  "c": "Network Switch",
@@ -9,8 +9,54 @@
  "d": "IPv4/IPv6, 8-Port Managed 802.3at POE+ Gigabit Ethernet Switch + 2-Port 100/1000X SFP (120W PoE Budget, 250m Extend mode, supports CloudViewer app, MQTT and cybersecurity features, fanless design)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Industrial Network Switch"
+   "label": "SFP Ports",
+   "value": "2 x 100/1000BASE-X SFP interfaces Supports 100/1000Mbps dual mode and DDM"
+  },
+  {
+   "label": "PoE Injector Port",
+   "value": "8 ports with 802.3at/af PoE injector function with Port-1 to Port-8"
+  },
+  {
+   "label": "Console",
+   "value": "1 x RS-232-to-RJ45 serial port (115200, 8, N, 1)"
+  },
+  {
+   "label": "Reset Button",
+   "value": "> 5 sec: Factory default"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Metal"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "AC 100~240V, 50/60Hz, 2.5A, auto-sensing"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Contact Discharge 6KV DC Air Discharge 8KV DC"
+  },
+  {
+   "label": "Fan",
+   "value": "Fanless design"
+  },
+  {
+   "label": "Switching Specifications Switch Architecture",
+   "value": "Store-and-Forward"
+  },
+  {
+   "label": "Switch Fabric",
+   "value": "20Gbps/non-blocking"
+  },
+  {
+   "label": "Switch Throughput@64Bytes",
+   "value": "14.88Mpps"
+  },
+  {
+   "label": "Address Table",
+   "value": "8K entries"
   }
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/gs-4210-8p2s-v3",
+ "checked": "2026-10-18"
 }

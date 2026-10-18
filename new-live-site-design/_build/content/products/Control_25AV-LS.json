@@ -1,6 +1,6 @@
 {
  "sku": "Control 25AV-LS",
- "order": 898,
+ "order": 838,
  "n": "Two-Way Professional Compact Loudspeaker for Life/Safety Applications (Control 25AV-LS)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Control 25AV-LS",
  "d": "Two-Way Professional Compact Loudspeaker for Life/Safety Applications",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "90 Hz - 20 kHz"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "60W, 30W, 15W (& 7.5W @ 70V)"
+  },
+  {
+   "label": "Nominal Sensitivity",
+   "value": "88dB, 1W at 1m (1kHz–10kHz, ave., at 8 ohm bypass mode); 76 dB, 1W at 4m per EN54-24 (100 Hz – 10 kHz, ave., 8 ohm bypass mode)"
+  },
+  {
+   "label": "Nominal Coverage",
+   "value": "110°H x 85°V (1 kHz to 16 kHz, avg.)"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "4.8 (500 Hz to 4kHz)"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "6.5dB (500 Hz to 4kHz)"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "107 dB @ 1m (3.3 ft) average, 113 dB peak, at 8 ohms bypass mode, 92 dB at 4 m (13.2 ft.) average, at 60W tap setting, measured"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 ohms (in bypass, position 5, mode) - tap 1: 667 ohms; tap 2: 333 ohms; tap 3: 166 ohms, tap 4: 82 ohms (typical)"
+  },
+  {
+   "label": "Drivers",
+   "value": "130mm (5.25 in) with polypropylene coated paper cone withWeatherEdge surround, 25 mm (1 in) voicecoil on kapton former HF: 20mm (.75 in) titanium coated PEI"
+  },
+  {
+   "label": "Enclosure",
+   "value": "ABS, (materials rated UL94-5VA)"
+  },
+  {
+   "label": "Grille",
+   "value": "Aluminum with polyester powder coating"
+  },
+  {
+   "label": "Outdoor Capability",
+   "value": "Exceeds Mil Spec 810 for humidity, salt spray, temperature & UV, IEC 529 IP-x5 splashproof rating"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-25av-ls",
+ "checked": "2026-10-18"
 }

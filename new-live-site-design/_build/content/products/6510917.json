@@ -1,11 +1,58 @@
 {
  "sku": "6510917",
- "order": 658,
+ "order": 598,
  "n": "ZUMMESH-AVBRIDGE-I",
  "b": "Crestron",
  "c": "AV Bridge",
  "dept": "AV",
  "avail": "lead",
  "d": "ZUMMESH-AVBRIDGE-I AV Bridge - Wireless Control Integration Module, International",
- "specs": []
+ "specs": [
+  {
+   "label": "RF Transceiver",
+   "value": "Zūm Mesh 2‑way RF, 2.4 GHz ISM Channels 15, 20, 25, or 26 (channel auto‑selected), IEEE 802.15.4 compliant, AES‑128 encryption<"
+  },
+  {
+   "label": "Wireless Communications range",
+   "value": "50 ft (15 m) to nearest peer‑to‑peer mesh network device(s), subject to site‑specific conditions and individual device capabilities"
+  },
+  {
+   "label": "USB",
+   "value": "USB 1.1, appears as a virtual COM port on the host computer"
+  },
+  {
+   "label": "Power Options",
+   "value": "12‑24 VDC or USB"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "3 BTU/hr"
+  },
+  {
+   "label": "Height",
+   "value": "0.69 in (18 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.58 in (66 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.49 in (64 mm)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "1 W"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 113°F (0° to 45°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (noncondensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Enviromental/Zum-Wireless-Lighting/Control/ZUMMESH-AVBRIDGE-I",
+ "checked": "2026-10-18"
 }

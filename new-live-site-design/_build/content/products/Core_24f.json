@@ -1,6 +1,6 @@
 {
  "sku": "Core 24f",
- "order": 1239,
+ "order": 1177,
  "n": "Core Processor with 24 localaudio I/O, 160×160 network I/O (Core 24f)",
  "b": "Q-SYS",
  "c": "DSP",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "Core 24f",
  "d": "CORE 24f Q-SYS Core Processor with 24 localaudio I/O, 160×160 network I/O, 8×8 Software Dante, dual RS232, 8×8 GPIO, 24 AEC channels, 1RU, and built-in Scripting/UCI support",
- "specs": [],
+ "specs": [
+  {
+   "label": "Processing Processor",
+   "value": "Intel 64-bit architecture"
+  },
+  {
+   "label": "Audio processing",
+   "value": "32-bit floating point"
+  },
+  {
+   "label": "Q-LAN network audio transport",
+   "value": "32-bit floating point"
+  },
+  {
+   "label": "Q-SYS Capacities Total network I/O channels",
+   "value": "160 x 160"
+  },
+  {
+   "label": "Total network I/O streams",
+   "value": "80 x 80"
+  },
+  {
+   "label": "Analog I/O",
+   "value": "24x (8x mic/line in, 8x line out, 8x Flex)"
+  },
+  {
+   "label": "Dante channels",
+   "value": "8 x 8 included (up to 64 x 64 with Software-based Dante feature license)"
+  },
+  {
+   "label": "AEC channels",
+   "value": "24"
+  },
+  {
+   "label": "Q-SYS NM-T1 capacity",
+   "value": "10"
+  },
+  {
+   "label": "WAN / media streaming channels",
+   "value": "36 x 36"
+  },
+  {
+   "label": "VoIP softphones",
+   "value": "8"
+  },
+  {
+   "label": "Audio recording / playback",
+   "value": "4 channels recording / 16 channels playback, [expandable up to 64 channels playback with optional multi track playback license (SLMTP-32) stackable up to 2x]"
+  }
+ ],
  "acc": [
   "SLDAN-16-P",
   "SLDAN-32-P"
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/processing/core-24f/",
+ "checked": "2026-10-18"
 }

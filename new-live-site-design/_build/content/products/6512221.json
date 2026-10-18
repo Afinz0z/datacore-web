@@ -1,6 +1,6 @@
 {
  "sku": "6512221",
- "order": 1853,
+ "order": 1767,
  "n": "2x1 8K AV Switcher and Smart Display Controller (HD-MD2X1-8K)",
  "b": "Crestron",
  "c": "AV Switcher",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "HD-MD2X1-8K",
  "d": "HD-MD2X1-8K 2x1 8K AV Switcher and Smart Display Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+. Dolby Vision™, Deep Color, 8K60 4:4:4 support (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 8K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (Dual-Mode DisplayPort interface compatible)"
+  },
+  {
+   "label": "Audio formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS-ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS: X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, vented sides"
+  },
+  {
+   "label": "Mounting",
+   "value": "Surface mountable or attachment to a single rack rail"
+  },
+  {
+   "label": "Height",
+   "value": "1.12 in. (28 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.36 in. (212 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.88 in. (99 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (noncondensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/HDMI-Solutions/HDMI-Switchers/HD-MD2X1-8K",
+ "checked": "2026-10-18"
 }

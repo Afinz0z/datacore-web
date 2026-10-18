@@ -1,6 +1,6 @@
 {
  "sku": "6513792",
- "order": 2566,
+ "order": 2467,
  "n": "USB Plug and Play Camera Adapter for Huddly® L1™ AI Collaboration (UC-CAMA-ADPT-ENET-USB)",
  "b": "Crestron",
  "c": "Adapters",
@@ -8,8 +8,39 @@
  "avail": "lead",
  "model": "UC-CAMA-ADPT-ENET-USB",
  "d": "UC-CAMA-ADPT-ENET-USB USB Plug and Play Camera Adapter for Huddly® L1™ AI Collaboration Camera",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity connector",
+   "value": "RJ-45"
+  },
+  {
+   "label": "USB",
+   "value": "USB Type-C® port"
+  },
+  {
+   "label": "Connectivity power",
+   "value": "Requires external 5V 3A power"
+  },
+  {
+   "label": "Height",
+   "value": "1.1 in. (27 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.2 in. (82 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.2 in. (82 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum"
+  }
+ ],
  "for": [
   "6512296"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Flex-Conferencing/Accessories/UC-CAMA-ADPT-ENET-USB",
+ "checked": "2026-10-18"
 }

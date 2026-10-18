@@ -1,11 +1,54 @@
 {
  "sku": "unD6IO-BT",
- "order": 2561,
+ "order": 2462,
  "n": "Dante™ Networked Audio Wall Plate",
  "b": "Q-SYS",
  "c": "Audio Wallplate",
  "dept": "AV",
  "avail": "lead",
  "d": "DanteTM/AES67 network audio wallplate 4x2 multi-I/O with Bluetooth audio",
- "specs": []
+ "specs": [
+  {
+   "label": "Details",
+   "value": "unD6IO-BT"
+  },
+  {
+   "label": "Bluetooth ® range",
+   "value": "10 m (30 ft) minimum. Typical range is 15 - 23 m (50 - 75 ft)"
+  },
+  {
+   "label": "RCA and 3.5 mm input",
+   "value": "RF filtered line level, input source software selectable"
+  },
+  {
+   "label": "Maximum input levels (3.5 mm / RCA)",
+   "value": "+12 dBu"
+  },
+  {
+   "label": "Output volume range",
+   "value": "0 dB to -60 dB in 1 dB steps, \"software selectable\""
+  },
+  {
+   "label": "3.5 mm output",
+   "value": "RF filtered line level"
+  },
+  {
+   "label": "Maximum output level (3.5 mm)",
+   "value": "+12 dBu"
+  },
+  {
+   "label": "Product dimensions (H × W × D)",
+   "value": "3.54 x 4.2 x 1.88 inches (89.91 x 106.68 x 47.752 mm) Decora wall plate (2-gang): 4.87 x 4.94 x 0.08 in (123.7 x 125.48 x 2.03 mm)"
+  },
+  {
+   "label": "Shipping dimensions (H × W × D)",
+   "value": "6 x 6 x 4 inches (152.4 x 152.4 x 101.6 mm)"
+  },
+  {
+   "label": "Shipping weight",
+   "value": "1.0 lb (0.45 kg)"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/attero-tech-peripherals-non-q-sys-native/at-wall-mount-network-audio-interfaces/und6io-bt/",
+ "checked": "2026-10-18"
 }

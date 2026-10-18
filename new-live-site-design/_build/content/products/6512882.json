@@ -1,6 +1,6 @@
 {
  "sku": "6512882",
- "order": 2647,
+ "order": 2548,
  "n": "CAEN Automation Enclosure Mounting Kit for 4-Series™ Automation (CAEN-UMP1X2-DIN-PWS)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "CAEN-UMP1X2-DIN-PWS",
  "d": "CAEN-UMP1X2-DIN-PWS CAEN Automation Enclosure Mounting Kit for 4-Series™ Automation Processor and Hub",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Power",
+   "value": "100-277VAC, 50/60 Hz"
+  },
+  {
+   "label": "Available Power",
+   "value": "30 W maximum from the DIN‑PWS30‑277"
+  },
+  {
+   "label": "Height",
+   "value": "7.40 in. (188 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "14 in. (356 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.91 in. (74 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "41° to 113 °F (5° to 45 °C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (noncondensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/CAEN-Enclosure/CAEN-UMP1X2-DIN-PWS",
+ "checked": "2026-10-18"
 }

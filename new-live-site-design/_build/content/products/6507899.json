@@ -1,11 +1,62 @@
 {
  "sku": "6507899",
- "order": 799,
+ "order": 739,
  "n": "SAROS SB-200-P-B",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS SB-200-P-B Saros® Sound Bar 200, Powered, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofers",
+   "value": "(2) 3 inch (76 mm) polypropylene cone w/rubber surround"
+  },
+  {
+   "label": "Passive Radiators",
+   "value": "(2) 3 x 4-3/8 inch (76 x 112 mm) polypropylene cone w/rubber surround"
+  },
+  {
+   "label": "Tweeters",
+   "value": "(2) 1 inch (25 mm) polyester dome"
+  },
+  {
+   "label": "Amplifier Power",
+   "value": "20 Watts per channel, stereo"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "100 Hz to 20 kHz (±3 dB)"
+  },
+  {
+   "label": "Output Sensitivity",
+   "value": "83 dB SPL @ 1 meter, both channels driven @ 1 Watt each"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "0.75 Vrms per channel for full rated output"
+  },
+  {
+   "label": "Go To Sleep Time",
+   "value": "20 minutes (±5 minutes) with no signal present"
+  },
+  {
+   "label": "Wake Threshold",
+   "value": "5 mV (±2 mV) typical"
+  },
+  {
+   "label": "Main Power",
+   "value": "50 Watts (500 mA maximum) @ 100-240 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Plastic housing with perforate metal grille, black"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding or wall mount (bracket included)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Soundbar/SAROS-SB-200-P-B",
+ "checked": "2026-10-18"
 }

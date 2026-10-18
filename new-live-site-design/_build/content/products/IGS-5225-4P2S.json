@@ -1,15 +1,66 @@
 {
  "sku": "IGS-5225-4P2S",
- "order": 3043,
+ "order": 2941,
  "n": "IP40 Industrial L2+/L4 4-Port Managed Switch Planet",
  "b": "PLANET",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP40 Industrial L2+/L4 4-Port 1000T 802.3at PoE + 2-Port 100/1000X SFP Full Managed Switch (-40 to 75 C, dual redundant power input on 48~56VDC terminal block, ERPS Ring, 1588, Modbus TCP, ONVIF, supports Cloud Viewer app, MQTT and Cybersecurity features)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Copper Ports",
+   "value": "4 10/100/1000BASE-T RJ45 auto-MDI/MDI-X ports"
+  },
+  {
+   "label": "SFP Slots",
+   "value": "2 100/1000/2500BASE-X mini-GBIC SFP ports (Port 5 and Port 6)"
+  },
+  {
+   "label": "Console",
+   "value": "1 x RJ45-to-RS232 serial port (115200, 8, N, 1)"
+  },
+  {
+   "label": "Reset Button",
+   "value": "> 5 sec: Factory default"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IP40 metal case"
+  },
+  {
+   "label": "Installation",
+   "value": "DIN-rail kit and wall-mount kit"
+  },
+  {
+   "label": "Connector",
+   "value": "Removable 6-pin terminal block for power input Pin 1/2 for Power 1, Pin 3/4 for fault alarm, Pin 5/6 for Power 2"
+  },
+  {
+   "label": "Alarm",
+   "value": "One relay output for power failure. Alarm Relay current carry ability: 1A @ DC 24V"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "48-54V"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "6KV DC"
+  },
+  {
+   "label": "EFT Protection",
+   "value": "6KV DC"
+  },
+  {
+   "label": "Switching Specifications Switch Architecture",
+   "value": "Store-and-Forward"
+  }
+ ],
  "acc": [
   "IPOE-E174",
   "PWR-120-48"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/igs-5225-4p2s-v2",
+ "checked": "2026-10-18"
 }

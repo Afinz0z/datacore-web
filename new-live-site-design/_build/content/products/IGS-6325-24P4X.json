@@ -1,15 +1,66 @@
 {
  "sku": "IGS-6325-24P4X",
- "order": 3041,
+ "order": 2939,
  "n": "Industrial L3 Managed PoE Switch Planet",
  "b": "PLANET",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP30 19\" Rack Mountable Industrial L3 Managed PoE Switch, 24- Port 10/100/1000T 802.3at PoE + 4-Port 10G SFP+ (-40 to 75 C, dual redundant power input on 48~56VDC, DIDO, ERPS Ring, 1588, Modbus TCP, ONVIF, Cybersecurity features, Hardware Layer3 OSPFv2, fanless design, supports CloudViewer app and MQTT, supports 100FX, 1000X, 2.5G SFP and 10G SFP+)",
- "specs": [],
+ "specs": [
+  {
+   "label": "SFP/mini-GBIC Slots",
+   "value": "4 100/1000BASE-X SFP interfaces, shared with Port-21 to Port-24 Backward compatible with 100BASE-FX SFP transceiver"
+  },
+  {
+   "label": "SFP+ Slots",
+   "value": "4 10GbBASE-SR/LR SFP+ interfaces (Port-25 to Port-28) Backward compatible with 1000BASE-SX/LX/BX and 2500BASE-X SFP"
+  },
+  {
+   "label": "PoE Injector Port",
+   "value": "24 ports with 802.3af/at PoE injector function with Port-1 to Port-24"
+  },
+  {
+   "label": "Console",
+   "value": "1 x RJ45-to-RS232 serial port (115200, 8, N, 1)"
+  },
+  {
+   "label": "Switch Architecture",
+   "value": "Store-and-Forward"
+  },
+  {
+   "label": "Switch Fabric",
+   "value": "128Gbps/non-blocking"
+  },
+  {
+   "label": "Throughput (packet per second)",
+   "value": "95.2Mpps@ 64 bytes packet"
+  },
+  {
+   "label": "Address Table",
+   "value": "16K entries, automatic source address learning and aging"
+  },
+  {
+   "label": "Flow Control",
+   "value": "IEEE 802.3x pause frame for full duplex Back pressure for half duplex"
+  },
+  {
+   "label": "Jumbo Frame",
+   "value": "10K bytes"
+  },
+  {
+   "label": "Reset Button",
+   "value": "> 5 sec: Factory default"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "5KV DC"
+  }
+ ],
  "acc": [
   "MTB-LR",
   "PWR-960-48"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/igs-6325-24p4x",
+ "checked": "2026-10-18"
 }

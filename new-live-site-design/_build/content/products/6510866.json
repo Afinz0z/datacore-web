@@ -1,6 +1,6 @@
 {
  "sku": "6510866",
- "order": 1003,
+ "order": 943,
  "n": "X-Series Amplifier, 300 W -AMP-X300 provides a professional amplifier",
  "b": "Crestron",
  "c": "Amplifier",
@@ -10,12 +10,58 @@
  "d": "X-Series Amplifier, 300 W -AMP-X300 provides a professional amplifier solution for a broad range of applications that saves energy, space, and money. The modular design is easy to configure and ships with everything required to enable surface mounting, rack mounting, and ganging multiple units together.",
  "specs": [
   {
-   "label": "Type",
-   "value": "X Series"
+   "label": "Audio input signal types",
+   "value": "Balanced or unbalanced analog line-level"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.5 dB at 1 W"
+  },
+  {
+   "label": "THD+N",
+   "value": "<0.1% at 1 kHz @ -3 dB full rated output power"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": ">103 dBA, 20 Hz to 20 kHz, balanced"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "-75 dB at 1 kHz"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "1.23 Vrms, +4 dBu balanced; 0.316 Vrms, -10 dBV unbalanced; For 150 W (8 Ω), 300 W (8 Ω Bridged), 300 W (70V/100V)"
+  },
+  {
+   "label": "Gain",
+   "value": "29 dB @ 8 Ω"
+  },
+  {
+   "label": "Protection",
+   "value": "Over current, under voltage, over temperature, DC offset, extreme high frequency"
+  },
+  {
+   "label": "Go to Sleep Time",
+   "value": "25 minutes with no signal present (when set to POWER SAVER)"
+  },
+  {
+   "label": "Wake Time",
+   "value": "0.5 s typical"
+  },
+  {
+   "label": "Wake Threshold",
+   "value": "0.44 mV typical"
+  },
+  {
+   "label": "Main Power",
+   "value": "1.2-0.6A @ 100‑240VAC, 50/60 Hz"
   }
  ],
  "acc": [
   "6510957",
   "6511998"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Amplifiers/AMP-X300",
+ "checked": "2026-10-18"
 }

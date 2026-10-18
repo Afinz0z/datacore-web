@@ -1,6 +1,6 @@
 {
  "sku": "305P MkII",
- "order": 881,
+ "order": 821,
  "n": "2 WAY Studio Monitor (305P MkII)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "305P MkII",
  "d": "2 WAY STUDIO MONITOR",
- "specs": []
+ "specs": [
+  {
+   "label": "LF Driver",
+   "value": "126mm (5\")"
+  },
+  {
+   "label": "HF Driver Size",
+   "value": "25mm (1\")"
+  },
+  {
+   "label": "HF Driver Type",
+   "value": "Soft dome"
+  },
+  {
+   "label": "Crossover",
+   "value": "1725Hz 4th order acoustic Linkwitz-Riley"
+  },
+  {
+   "label": "Input Sensitivity (-10 dBV Input)",
+   "value": "92dB / 1m"
+  },
+  {
+   "label": "Power Configuration",
+   "value": "Bi-amplified"
+  },
+  {
+   "label": "HF Driver Power Amp",
+   "value": "41W, Class-D"
+  },
+  {
+   "label": "LF Driver Power Handling",
+   "value": "41W, Class-D"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "49Hz – 20kHz"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "43Hz – 24kHz"
+  },
+  {
+   "label": "Low Frequency Extension (-10 dB)",
+   "value": "43Hz"
+  },
+  {
+   "label": "Maximum Continuous SPL",
+   "value": "94dB"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/305p-mkii",
+ "checked": "2026-10-18"
 }

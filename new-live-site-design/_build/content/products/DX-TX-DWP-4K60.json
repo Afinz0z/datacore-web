@@ -1,11 +1,50 @@
 {
  "sku": "DX-TX-DWP-4K60",
- "order": 1962,
+ "order": 1876,
  "n": "Wall Plate Transmitter",
  "b": "AMX",
  "c": "Wall Plate / Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "DXLink 4K60 HDMI Wallplate Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "DXLink Compatibility Tool updated: Apr 2021",
+   "value": "Apr 2021"
+  },
+  {
+   "label": "Front Connectors",
+   "value": "(1) HDMI, (1) USB 2.0 Type B Host Port"
+  },
+  {
+   "label": "Back Connectors",
+   "value": "(1) 2-pin Phoenix Port for 12V DC Power, (1) RJ-45 DXLink Output Port, (1) 3-pin Phoenix Port for RS-232"
+  },
+  {
+   "label": "HDMI",
+   "value": "Compatible Formats: HDMI, HDCP, DVI"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "5.5W Max 12V DC"
+  },
+  {
+   "label": "Regulatory Compliance",
+   "value": "FCC CE EN 55032 CE EN 55035 ICES-003 IEC 62368-1 UL 62368-1 VCCI-CISPR 32 RCM RoHS"
+  },
+  {
+   "label": "SKU Numbers",
+   "value": "AMX-VTT0001B (DX-TX-DWP-4K60-BL - Black) AMX-VTT0001W (DX-TX-DWP-4K60-WH - White)"
+  },
+  {
+   "label": "Dimensions (H x W x D)",
+   "value": "4.23’’(107.5mm) x 1.78’’ (45.3mm) x 2.01’’(51mm)"
+  },
+  {
+   "label": "Product Weight",
+   "value": "0.44 lbs (200g)"
+  }
+ ],
+ "src": "https://www.amx.com/en/products/dx-tx-dwp-4k60",
+ "checked": "2026-10-18"
 }

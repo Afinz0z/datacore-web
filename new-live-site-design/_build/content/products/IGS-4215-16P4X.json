@@ -1,16 +1,67 @@
 {
  "sku": "IGS-4215-16P4X",
- "order": 3033,
+ "order": 2931,
  "n": "16-Port Industrial Managed Ethernet Switch - Planet",
  "b": "PLANET",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP30 Industrial L2+ 16-Port 10/100/1000T 802.3at PoE + 4-Port 10G SFP+ Managed Switch (-40~75 degrees C, 360W PoE budget, 802.3at/Legacy/Force modes, PoE PD alive check and schedule management, 250m Extend mode, dual redundant power input on 48~54VDC terminal block, DIDO, Type-C console port, 802.1Q VLAN, IGMP Snooping, TLSv1.2, SSHv2, SNMPv3 Cybersecurity,ACL, ERPS Ring, CloudViewerPro app, NMSViewerPro app andNMS MQTT, supports 100FX, 1000X, 2.5G SFP and 10G SFP+)",
- "specs": [],
+ "specs": [
+  {
+   "label": "PoE Injector Port",
+   "value": "16 ports with 802.3at PoE+ injector function (Ports 1 to 16)"
+  },
+  {
+   "label": "SFP+ Ports",
+   "value": "4 10GBASE-SR/LR SFP+ interfaces (Port XG1 to Port XG4) Backward compatible with 100M/1G/2.5GBASE-SX/LX/BX SFP transceivers"
+  },
+  {
+   "label": "Console",
+   "value": "1 x USB Type C to RS232 serial port (115200,8, N, 1)"
+  },
+  {
+   "label": "Reset Button",
+   "value": "> 5 sec: Factory default"
+  },
+  {
+   "label": "Alarm",
+   "value": "One relay output for power failure. Alarm relay current carry ability: 1A @ 24V AC"
+  },
+  {
+   "label": "Digital input (DI)",
+   "value": "2 digital input (DI): Level 0: -24V~2.1V (±0.1V) Level 1: 2.1V~24V (±0.1V) Input load to 24V DC, 10mA max."
+  },
+  {
+   "label": "Digital output (DO)",
+   "value": "2 digital output (DO): Open collector to 24V DC, 100mA max."
+  },
+  {
+   "label": "Power Requirements",
+   "value": "48~54V DC, 9A (max.)"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IP30 aluminum case"
+  },
+  {
+   "label": "Installation",
+   "value": "DIN-rail kit and wall-mount ear"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Contact Discharge 6KV DC Air Discharge 8KV DC"
+  },
+  {
+   "label": "Switching Specification Switch Architecture",
+   "value": "Store-and-Forward"
+  }
+ ],
  "acc": [
   "MTB-LR",
   "MTB-TLR",
   "PWR-480-48"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/igs-4215-16p4x",
+ "checked": "2026-10-18"
 }

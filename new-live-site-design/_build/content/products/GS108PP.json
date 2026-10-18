@@ -1,15 +1,46 @@
 {
  "sku": "GS108PP",
- "order": 3018,
+ "order": 2916,
  "n": "8PT POE/POE+ GIGABIT UNMANAGED SWCH - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8PT POE/POE+ GIGABIT UNMANAGED SWCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Model Description",
+   "value": "GS108PP 8-Port High-power PoE+ Gigabit Ethernet Unmanaged Switch with 123W total power budget."
+  },
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "8"
+  },
+  {
+   "label": "PoE Ports / Max power outlet",
+   "value": "8 PoE+ ports, up to 30W per port"
+  },
+  {
+   "label": "MAC table size",
+   "value": "4K"
+  },
+  {
+   "label": "PoE Auto balance",
+   "value": "Yes"
+  },
+  {
+   "label": "PoE budget",
+   "value": "Up to 123W"
+  }
+ ],
  "acc": [
   "DRV-GS108PP-12",
   "DRV-GS108PP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/unmanaged/gs108pp/",
+ "checked": "2026-10-18"
 }

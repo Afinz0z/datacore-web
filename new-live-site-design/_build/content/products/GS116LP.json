@@ -1,15 +1,66 @@
 {
  "sku": "GS116LP",
- "order": 2983,
+ "order": 2881,
  "n": "16-Port Gigabit Ethernet Unmanaged Switch PoE (76W) - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "16-Port Gigabit Ethernet Unmanaged Switch PoE+ Switch with FlexPoE (76W)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "16"
+  },
+  {
+   "label": "Number of PoE+ Ports",
+   "value": "16 PoE+ ports, up to 30W per port"
+  },
+  {
+   "label": "PoE Budget",
+   "value": "76W"
+  },
+  {
+   "label": "MAC Table Size",
+   "value": "4K"
+  },
+  {
+   "label": "IEEE 802.1p QoS",
+   "value": "Yes"
+  },
+  {
+   "label": "Fans",
+   "value": "0"
+  },
+  {
+   "label": "MTBF (hours)",
+   "value": "2,362,192 hours"
+  },
+  {
+   "label": "FCC Class",
+   "value": "Class A"
+  },
+  {
+   "label": "Dimensions (WxDxH) @mm",
+   "value": "286 x 102 x 27 mm"
+  },
+  {
+   "label": "Weight (kg)",
+   "value": "0.88 kg"
+  },
+  {
+   "label": "Max Power Consumption",
+   "value": "90W"
+  }
+ ],
  "acc": [
   "DRV-GS116LP-12",
   "DRV-GS116LP-36"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/unmanaged/gs116lp/",
+ "checked": "2026-10-18"
 }

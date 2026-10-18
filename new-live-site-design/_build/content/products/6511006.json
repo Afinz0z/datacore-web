@@ -1,6 +1,6 @@
 {
  "sku": "6511006",
- "order": 1723,
+ "order": 1640,
  "n": "DM NVX® 4K60 4:4:4 HDR Network AV Encoder/Decoder (DM-NVX-360)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NVX-360",
  "d": "DM-NVX-360 DM NVX® 4K60 4:4:4 HDR Network AV Encoder/Decoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Stream Type",
+   "value": "Encoder: Pixel Perfect Processing (default) or DM-NVX-D10/D20/D200 Series; Decoder: Pixel Perfect Processing or DM-NVX-E10/E20 Series"
+  },
+  {
+   "label": "Video Resolutions",
+   "value": "Up to 4096x2160@60Hz (DCI 4K60); 4:4:4 color sampling; HDR10, HDR10+, Dolby Vision, and Deep Color support"
+  },
+  {
+   "label": "Encoding/Decoding audio formats",
+   "value": "Multichannel (up to 8-channel LPCM or encoded HBR 7.1 surround sound), 2-channel LPCM"
+  },
+  {
+   "label": "Bit Rates",
+   "value": "Encoder: Fixed (200 to 950 Mbps - user specified),; Adaptive (dependent on input resolution of the stream), or; Variable (less than 150 Mbps to maximum of 750 Mbps, dependent on content and input resolution of the stream"
+  },
+  {
+   "label": "Streaming Protocols",
+   "value": "RTP, SDP"
+  },
+  {
+   "label": "Container",
+   "value": "MPEG-2 transport stream (.ts)"
+  },
+  {
+   "label": "Session Initiation",
+   "value": "Multicast via secure RTSP"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3, AES-128, PKI"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Switcher",
+   "value": "2x1 in decoder mode (HDMI, Stream), manual or auto-switching, limited audio breakaway, Crestron QuickSwitch HD™ technology"
+  },
+  {
+   "label": "Scaler (Decoder Mode Only)",
+   "value": "4K60 4:4:4 video scaler with motion-adaptive deinterlacing, intelligent frame rate conversion, Deep Color support, HDR10, HDR10+, and Dolby Vision support, widescreen format selection (zoom, stretch, maintain aspect-rati"
+  },
+  {
+   "label": "Video copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-360",
+ "checked": "2026-10-18"
 }

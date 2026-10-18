@@ -1,6 +1,6 @@
 {
  "sku": "6511803",
- "order": 1980,
+ "order": 1894,
  "n": "DM® Essentials 4K60 4:4:4 Transmitter for USB-C® DisplayPort™ Signal (HD-TX-4KZ-111-1G-B)",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-TX-4KZ-111-1G-B",
  "d": "HD-TX-4KZ-111-1G-B DM® Essentials 4K60 4:4:4 Transmitter for USB-C® DisplayPort™ Signal Extension over CATx Cable, Wall Plate, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Type",
+   "value": "DisplayPort™ over USB-C® (DisplayPort Alt Mode) with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "DM Lite® with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "DisplayPort over USB-C (DisplayPort Alt Mode)"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "DM Lite"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "USB-C",
+   "value": "HDCP 2.3, EDID, CEC pass-through"
+  },
+  {
+   "label": "DM Lite",
+   "value": "HDCP 2.3, EDID pass-through"
+  },
+  {
+   "label": "Power Pack",
+   "value": "Input: 100-240VAC; Output: 24VDC 0.75A; Model: PW-2407WUL (sold separately, required only if the HD-TX-4KZ-111-1G is used with a wall plate receiver)"
+  },
+  {
+   "label": "Composition",
+   "value": "Metal housing and bracket with black polycarbonate front label overlay"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounts in a 1-gang (or larger) 2-1/4 inch (57 mm) deep U.S. electrical box or plaster ring (not included)"
+  },
+  {
+   "label": "Faceplate",
+   "value": "Requires a decorator style faceplate; ( FP-G series, sold separately)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Transmitter/HD-TX-4KZ-111-1G-B",
+ "checked": "2026-10-18"
 }

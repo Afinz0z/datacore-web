@@ -1,11 +1,50 @@
 {
  "sku": "DVX-2265-4K",
- "order": 579,
+ "order": 521,
  "n": "Presentation switcher",
  "b": "AMX",
  "c": "Presentation System",
  "dept": "AV",
  "avail": "lead",
  "d": "6x2+1 4K60 4:4:4 All-In-One Presentation Switcher (4 HDMI Inputs, 2 DXLink-4K60 Inputs)",
- "specs": []
+ "specs": [
+  {
+   "label": "DXLink Compatibility Tool updated: Apr 2021",
+   "value": "Apr 2021"
+  },
+  {
+   "label": "Video Inputs",
+   "value": "(4) HDMI, (2) DXLink 4K60"
+  },
+  {
+   "label": "Video Outputs",
+   "value": "(2) HDMI; supports HDMI/HDCP. (1) 4K60 DXLink; mirrors associated HDMI output; supports digital video, audio, Ethernet, USB 2.0, and bi-directional control"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "(6) Analog Mic/Line, (2) Analog Stereo Audio, (8) Dante Channels. See Data Sheet for details."
+  },
+  {
+   "label": "Audio Outputs",
+   "value": "(1) Amp (8-Ohm and 70/100V), (2) Analog Stereo Audio, (8) Dante Channel. See Data Sheet for details."
+  },
+  {
+   "label": "RS-232 Port",
+   "value": "(2) 3-position 3.5mm Screw Terminal 2 bi-directional serial ports 300 -115,200 baud"
+  },
+  {
+   "label": "FG Numbers",
+   "value": "AMX-FG1906-0202 (TAA version) FG1906-0201 (non-TAA version)"
+  },
+  {
+   "label": "JITC Status",
+   "value": "Approved - 04/2023"
+  },
+  {
+   "label": "Dimensions (H x W x D)",
+   "value": "8.8 cm x 44 cm x 38 cm"
+  }
+ ],
+ "src": "https://www.amx.com/en/products/dvx-2265-4k",
+ "checked": "2026-10-18"
 }

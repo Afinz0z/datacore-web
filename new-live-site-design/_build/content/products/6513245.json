@@ -1,14 +1,65 @@
 {
  "sku": "6513245",
- "order": 641,
+ "order": 583,
  "n": "UC-AUDIO-POD-B-DR2",
  "b": "Crestron",
  "c": "Audio Conference System",
  "dept": "AV",
  "avail": "lead",
  "d": "UC-AUDIO-POD-B-DR2 Crestron Flex Pod Wireless Speaker and Microphone, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Driver",
+   "value": "One full range 2 in. speaker"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "100 Hz to 7 kHz"
+  },
+  {
+   "label": "Output Level",
+   "value": "74 dB SPL at 1 m"
+  },
+  {
+   "label": "Microphones",
+   "value": "360° quad mic array"
+  },
+  {
+   "label": "Pickup Range",
+   "value": "7.5 ft (approx. 2.3 m)"
+  },
+  {
+   "label": "DSP",
+   "value": "Acoustic echo cancellation, automatic gain control, dynamic noise suppression, and speaker volume control; Full-duplex IEEE 1329 Type 1 compliant"
+  },
+  {
+   "label": "Frequency",
+   "value": "Frequency bands:; DR1: 1920 – 1930 MHz 5 channels (For US and Canada only); DR2: 1880 – 1900 MHz 10 channels (For Europe, Australia, New Zealand, Israel, Saudi Arabia, Kuwait, Qatar, United Arab Emirates, Yemen, Oman, Ho"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "12 BTU/hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Lightly textured black/white finish, plastic housing, perforated stainless steel grilles, and die-cast aluminum bottom cover"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tabletop mounting only"
+  },
+  {
+   "label": "Height",
+   "value": "3.0 in. (76 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.40 in. (112 mm)"
+  }
+ ],
  "acc": [
   "6513146"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Audio/Distributed/UC-AUDIO-POD-B-DR2",
+ "checked": "2026-10-18"
 }

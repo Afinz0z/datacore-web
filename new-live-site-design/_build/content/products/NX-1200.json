@@ -1,11 +1,62 @@
 {
  "sku": "NX-1200",
- "order": 1643,
+ "order": 1562,
  "n": "Controller",
  "b": "AMX",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
  "d": "NetLinx NX Integrated Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "AxLink Port",
+   "value": "(1) 4-position 3.5mm Screw Terminal, provides data and power to external AxLink control devices"
+  },
+  {
+   "label": "AxLink Indicator",
+   "value": "(1) AxLink LED (green) indicates the state of the AxLink port"
+  },
+  {
+   "label": "RS-232/422/485 Ports",
+   "value": "(1) 10-position 3.5mm Screw Terminal, NetLinx Port 1, XON/XOFF (transmit on / transmit off), CTS/RTS (clear to send/ready to send), 300 - 115,200 baud"
+  },
+  {
+   "label": "RS-232 Port",
+   "value": "(1) 5-position 3.5mm Screw Terminal, NetLinx Port 2, XON/XOFF (transmit on / transmit off), CTS/RTS (clear to send/ready to send), 300 - 115,200 baud"
+  },
+  {
+   "label": "Serial Indicator",
+   "value": "(2) sets of LEDs (red/yellow) indicate when serial Ports 1 and 2 are transmitting and receiving data"
+  },
+  {
+   "label": "IR/Serial Indicators",
+   "value": "(2) LEDs (red) indicate when each of the IR/Serial ports (11-12) are transmitting control data"
+  },
+  {
+   "label": "I/O Indicator",
+   "value": "(4) LEDs (yellow) indicate each of the I/O channels (1-4) are active"
+  },
+  {
+   "label": "IR/RX Ports",
+   "value": "(1) 1/8” mini-jack"
+  },
+  {
+   "label": "IR/RX Indicator",
+   "value": "(1) IR RX LED (red) LED lights when IR data is being received via the IR/RX port"
+  },
+  {
+   "label": "FG Numbers",
+   "value": "FG2106-01"
+  },
+  {
+   "label": "JITC Status",
+   "value": "Approved - 04/2023"
+  },
+  {
+   "label": "Dimensions (HWD)",
+   "value": "1 11/16” x 5 13/16” x 5 1/8” (42.16 mm x 147.32 mm x 130.81 mm)"
+  }
+ ],
+ "src": "https://www.amx.com/en/products/nx-1200",
+ "checked": "2026-10-18"
 }

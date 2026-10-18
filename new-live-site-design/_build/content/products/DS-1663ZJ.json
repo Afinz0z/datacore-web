@@ -1,6 +1,6 @@
 {
  "sku": "DS-1663ZJ",
- "order": 3471,
+ "order": 3369,
  "n": "PTZ Camera Ceiling Mount Bracket for speed dome",
  "b": "Hikvision",
  "c": "CCTV Mounting Equipment",
@@ -16,10 +16,6 @@
   {
    "label": "Appearance",
    "value": "Hik white"
-  },
-  {
-   "label": "Feature",
-   "value": "Suitable for speed dome ceiling mount,(not suitable for DS-2AE-714）,"
   },
   {
    "label": "Description",

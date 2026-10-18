@@ -1,17 +1,60 @@
 {
  "sku": "5503020",
- "order": 3775,
+ "order": 3673,
  "n": "Fan mounting plate for VX IT including 2 fans -Rittal",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fan mounting plate for VX IT including 2 fans",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "Without roof plate"
+  },
+  {
+   "label": "Product description",
+   "value": "For active ventilation. The unit may optionally be extended with additional fans."
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "1 fan unit 2 fans Fully wired ready for connection Assembly parts Installation and Short User's Guide"
+  },
+  {
+   "label": "Rated current max.",
+   "value": "At 50 Hz: 0.7 A At 60 Hz: 0.69 A"
+  },
+  {
+   "label": "IP protection category to IEC 60 529",
+   "value": "IP 20"
+  },
+  {
+   "label": "Speed",
+   "value": "100 %"
+  },
+  {
+   "label": "Pre-fuse",
+   "value": "Miniature circuit-breaker/fuse: 10 A"
+  },
+  {
+   "label": "Installation options",
+   "value": "In VX IT with W x D (mm): 800 x 800 / 800 x 1000 / 800 x 1200"
+  },
+  {
+   "label": "Note",
+   "value": "Reduction in the specified air throughput to 280 m³/h at 25 Pa counterpressure"
+  }
+ ],
  "for": [
   "5307114",
   "5309116",
   "5311116",
   "5314116"
- ]
+ ],
+ "src": "https://www.rittal.com/nz-en/products/PG20231215KLI101/PG20231245KLI1005/PG20240116KLI209/PRO134965?variantId=5503020",
+ "checked": "2026-10-18"
 }

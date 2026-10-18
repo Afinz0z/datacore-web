@@ -1,14 +1,45 @@
 {
  "sku": "7829150",
- "order": 5309,
+ "order": 5191,
  "n": "Extension kit for earthing/potential equalisation Rittal",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Extension kit for earthing/potential equalisation",
- "specs": [],
+ "specs": [
+  {
+   "label": "Applications",
+   "value": "For extending the existing earthing/potential equalisation kit"
+  },
+  {
+   "label": "Supply includes",
+   "value": "8 earth straps, UL style 1015 AWG 12 Connection accessories"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "Product description",
+   "value": "DK Earthing extension kit for TS IT, 8 earth straps, UL Style 1015 AWG 12"
+  },
+  {
+   "label": "Documentation",
+   "value": "Info sheet DE, EN"
+  },
+  {
+   "label": "Net weight",
+   "value": "0.2 kg"
+  },
+  {
+   "label": "Gross weight",
+   "value": "0.238 kg"
+  }
+ ],
  "for": [
   "5314116"
- ]
+ ],
+ "src": "https://www.rittal.com/sg-en/products/PG20231215ZUB101/PG2024040ZUB112/PG2024040ZUB114/PRO12118?variantId=7829150",
+ "checked": "2026-10-18"
 }

@@ -1,25 +1,11 @@
 {
  "sku": "6502568",
- "order": 2163,
+ "order": 2075,
  "n": "CB2-BTNDSK-T_ENGRAVED",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "CB2-BTNDSK-T_ENGRAVED Large Backlit Engravable Button Cap for Cameo Keypads, Dusk Textured, Includes Custom Engraving",
- "specs": [],
- "for": [
-  "6504676",
-  "6504678",
-  "6504681",
-  "6504683",
-  "6509742",
-  "6509743",
-  "6509744",
-  "6509745",
-  "6509746",
-  "6509747",
-  "6509748",
-  "6509749"
- ]
+ "specs": []
 }

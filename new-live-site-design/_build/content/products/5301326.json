@@ -1,15 +1,46 @@
 {
  "sku": "5301326",
- "order": 3786,
+ "order": 3684,
  "n": "VX Leveling feet for internal adjustment",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Supply includes",
+   "value": "4 levelling feet, M12, with TX30 hex socket drive 4 mounting brackets Assembly parts"
+  },
+  {
+   "label": "Load capacity",
+   "value": "Max. admissible static load: 3000 N per levelling foot"
+  },
+  {
+   "label": "Levelling range",
+   "value": "18 ‐ 63 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "4 pc(s)."
+  },
+  {
+   "label": "Documentation",
+   "value": "Instructions DE, EN, FR"
+  },
+  {
+   "label": "Net weight",
+   "value": "0.76 kg"
+  },
+  {
+   "label": "Gross weight",
+   "value": "0.796 kg"
+  }
+ ],
  "for": [
   "5307114",
   "5309116",
   "5311116"
- ]
+ ],
+ "src": "https://www.rittal.com/lt-en/products/PG20231215ZUB101/PG20240311ZUB102/PG20240311ZUB101/PRO108672?variantId=5301326",
+ "checked": "2026-10-18"
 }

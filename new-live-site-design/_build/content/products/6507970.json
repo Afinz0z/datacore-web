@@ -1,6 +1,6 @@
 {
  "sku": "6507970",
- "order": 2064,
+ "order": 1976,
  "n": "Wired Ethernet Module with 4 IR Ports (CEN-IO-IR-104)",
  "b": "Crestron",
  "c": "Converter",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CEN-IO-IR-104",
  "d": "CEN-IO-IR-104 Wired Ethernet Module with 4 IR Ports",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP, SSL, TLS, IEEE 802.3af and 802.3at Type 1 compliant"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "Supports 1-way device control via infrared up to 1.2 MHz or Serial TTL/RS-232 (0–5 Volts) up to 115.2k baud"
+  },
+  {
+   "label": "PoE (Power over Ethernet)",
+   "value": "IEEE 802.3at Type 1 (802.af compatible) Class 0 (12.95 Watts) PoE Powered Device"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "8 BTU/hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IFE micro form factor, black and blue plastic"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding, stackable, surface mount, or 35 mm DIN EN 60715 rail mount; Occupies 8 DIN module spaces (144 mm); Surface/DIN rail mounting bracket included, optional rack mount and pole kits sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "1.35 in. (34 mm), 1.77 in. (45 mm) with bracket"
+  },
+  {
+   "label": "Width",
+   "value": "5.04 in. (128 mm), 5.36 in. (136 mm) with bracket"
+  },
+  {
+   "label": "Depth",
+   "value": "2.86 in. (73 mm), 3.33 in. (85 mm) with bracket"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "2.3 Watts"
+  },
+  {
+   "label": "Temperature",
+   "value": "41 to 104 °F (5 to 40 °C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (noncondensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Expansion-IO/CEN-IO-IR-104",
+ "checked": "2026-10-18"
 }

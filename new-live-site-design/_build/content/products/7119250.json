@@ -1,14 +1,57 @@
 {
  "sku": "7119250",
- "order": 5301,
+ "order": 5183,
  "n": "DK Component Shelf",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "482.6 mm (19\")"
+  },
+  {
+   "label": "Product description",
+   "value": "For mounting between 482.6 mm (19\") mounting angles."
+  },
+  {
+   "label": "Surface finish",
+   "value": "Spray-finished"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Load capacity",
+   "value": "25 kg surface load, static"
+  },
+  {
+   "label": "Note",
+   "value": "Not suitable for combination with telescopic slides."
+  },
+  {
+   "label": "Units",
+   "value": "2 U"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "9 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  }
+ ],
  "for": [
   "7507120",
   "7507200"
- ]
+ ],
+ "src": "https://www.rittal.com/in-en/products/PG20231215ZUB101/PG2024040ZUB108/PRO13939?variantId=7119250",
+ "checked": "2026-10-18"
 }

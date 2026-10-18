@@ -1,6 +1,6 @@
 {
  "sku": "Control® 25-1",
- "order": 885,
+ "order": 825,
  "n": "Compact Indoor/Outdoor Background/Foreground Speaker (Control® 25-1)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Control® 25-1",
  "d": "Compact Indoor/Outdoor Background/Foreground Speaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Control 25-1 BIM Object updated: Aug 2019",
+   "value": "Aug 2019"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "60 Hz to 20 kHz"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "85Hz - 17 kHz"
+  },
+  {
+   "label": "Maximum Input Voltage",
+   "value": "25.3 V RMS (2 hrs), 50.6 V peak"
+  },
+  {
+   "label": "Maximum SPL (1m)",
+   "value": "110 dB ave. Continuous Pink Noise (116 dB peak)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB, 1W/1m (ave. 100 Hz – 10 kHz)"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "100°H x 100°V"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "6.04 (averaged 1kHz – 16kHz)"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "7.6dB (averaged 1kHz – 16kHz)"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 ohms (THRU setting)"
+  },
+  {
+   "label": "Crossover Type",
+   "value": "2nd order low-pass, 3rd order high-pass"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "70V: 30W, 15W, 7.5W, 3.7W 100V: 30W, 15W, 7.5W Insertion Loss <0.94 dB at any tap setting Thru Setting: 8Ω nominal"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-25-1",
+ "checked": "2026-10-18"
 }

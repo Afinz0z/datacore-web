@@ -1,18 +1,61 @@
 {
  "sku": "7507220",
- "order": 3778,
+ "order": 3676,
  "n": "Rittal 21U 700x700 mm Cabinet",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "DK FLATBOX 21HE, WxD 700x700 mm",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "with 482.6 mm (19\") mounting frame"
+  },
+  {
+   "label": "Product description",
+   "value": "For flexible use as a wall-mounted or floor-standing enclosure."
+  },
+  {
+   "label": "Surface finish",
+   "value": "Powder-coated"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Units",
+   "value": "21 U"
+  },
+  {
+   "label": "Installation height for components",
+   "value": "21 U"
+  },
+  {
+   "label": "Load capacity",
+   "value": "max. 750 N"
+  },
+  {
+   "label": "Note",
+   "value": "Max. installation depth: Depth - 58 mm to rear panel"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "201.9 kg CO2 eq (Cat B)"
+  }
+ ],
  "acc": [
   "3110000",
   "7113000",
   "7200217",
   "7979102",
   "7980100"
- ]
+ ],
+ "src": "https://www.rittal.com/lt-en/products/PG20231215ITI101/PG20240402ITI202/PRO0042?variantId=7507220",
+ "checked": "2026-10-18"
 }

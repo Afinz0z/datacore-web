@@ -1,11 +1,62 @@
 {
  "sku": "GS348",
- "order": 3003,
+ "order": 2901,
  "n": "48PT GIGE UNMANAGED RACKMOUNT SWCH - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "48PT GIGE UNMANAGED RACKMOUNT SWCH",
- "specs": []
+ "specs": [
+  {
+   "label": "Model Description",
+   "value": "NETGEAR 48-Port Gigabit Ethernet Unmanaged Essentials Switch (GS348)"
+  },
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "48"
+  },
+  {
+   "label": "Connector Type",
+   "value": "Metal"
+  },
+  {
+   "label": "Switch Housing",
+   "value": "Metal"
+  },
+  {
+   "label": "LEDs",
+   "value": "Power, Speed, Link/Activity"
+  },
+  {
+   "label": "Short cable power saving",
+   "value": "Yes"
+  },
+  {
+   "label": "MAC Table Size",
+   "value": "16K"
+  },
+  {
+   "label": "Power",
+   "value": "Internal (AC 110-240V, 50-60Hz, 1.0A max)"
+  },
+  {
+   "label": "Acoustic Noise Level @ 25° C (dBA)",
+   "value": "0 dBA (Fanless)"
+  },
+  {
+   "label": "MTBF (@ 25° C)",
+   "value": "0° to 50°C (32° to 122°F)"
+  },
+  {
+   "label": "Electromagnetic compliance (A or B)",
+   "value": "Class A"
+  }
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/unmanaged/gs348/",
+ "checked": "2026-10-18"
 }

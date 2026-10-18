@@ -1,6 +1,6 @@
 {
  "sku": "6511916",
- "order": 1974,
+ "order": 1888,
  "n": "DM® Essentials 4K60 4:4:4 Transmitter and 2x1 Auto-Switcher for HDMI® (HD-TX-4KZ-211-2G-B)",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-TX-4KZ-211-2G-B",
  "d": "HD-TX-4KZ-211-2G-B DM® Essentials 4K60 4:4:4 Transmitter and 2x1 Auto-Switcher for HDMI® and USB-C® DisplayPort™ Signal Extension over CATx Cable, Wall Plate, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI® (DVI and Dual-Mode DisplayPort™ interface compatible) and DisplayPort over USB-C® (DisplayPort Alt Mode) with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "DM® Essentials with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI, DisplayPort over USB-C (DisplayPort Alt Mode)"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "DM Essentials"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, CEC pass-through"
+  },
+  {
+   "label": "USB‑C",
+   "value": "HDCP 2.3, CEC pass-through"
+  },
+  {
+   "label": "DM Essentials",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Power Pack",
+   "value": "Input: 100-240VAC; Output: 24VDC 0.75A; Model: PW-2407WUL (sold separately, required only if the HD-TX-4KZ-211-2G is used with a wall plate receiver)"
+  },
+  {
+   "label": "Composition",
+   "value": "Metal housing and bracket with black polycarbonate front label overlay"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounts in a 2-gang (or larger) 2-inch (51 mm) deep U.S. electrical box or plaster ring (not included)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Transmitter-w-Switching/HD-TX-4KZ-211-2G-B",
+ "checked": "2026-10-18"
 }

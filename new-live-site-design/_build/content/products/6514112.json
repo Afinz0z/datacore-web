@@ -1,6 +1,6 @@
 {
  "sku": "6514112",
- "order": 2671,
+ "order": 2570,
  "n": "Preconstruction Mounting Kit for TSW-60/70/80 Series (TSW-UMB-U-PMK)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,28 @@
  "avail": "lead",
  "model": "TSW-UMB-U-PMK",
  "d": "TSW-UMB-U-PMK Preconstruction Mounting Kit for TSW-60/70/80 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface Mounting",
+   "value": "Fastens to the left or right‑hand stud of a framed wall prior to installing drywall; Universal mounting bracket sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "4.5 in. (114 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "7.5 in. (190 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.5 in. (38 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal bracket"
+  }
+ ],
  "for": [
   "6513822",
   "6513823",
@@ -23,5 +44,7 @@
   "6513839",
   "6513920",
   "6513928"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Accessories/Mounting-Hardware/TSW-UMB-U-PMK",
+ "checked": "2026-10-18"
 }

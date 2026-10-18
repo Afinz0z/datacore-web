@@ -1,6 +1,6 @@
 {
  "sku": "ECX-02WM",
- "order": 3936,
+ "order": 3834,
  "n": "Wall Mounted Patch panel",
  "b": "Belden",
  "c": "Fiber Optic Patch panel",
@@ -9,8 +9,54 @@
  "d": "FX ECX Wall-Mount Patch Panel, 2-Module",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mounted"
+   "label": "Suitable Applications",
+   "value": "FiberExpress Solutions, Backbone, Telecommunications Room, Main Distribution Room"
+  },
+  {
+   "label": "Overall Height",
+   "value": "8.5 in"
+  },
+  {
+   "label": "Overall Width",
+   "value": "20.70 in"
+  },
+  {
+   "label": "Overall Depth",
+   "value": "4.400 in"
+  },
+  {
+   "label": "Max Capacity",
+   "value": "2 Cassettes/Frames: 64 Fibers (LC); 32 Fibers (SC)"
+  },
+  {
+   "label": "Cassette Rail Assembly",
+   "value": "PC/ABS Black"
+  },
+  {
+   "label": "Grommet",
+   "value": "Elastomer Black"
+  },
+  {
+   "label": "Management clip",
+   "value": "Polycarbonate Black"
+  },
+  {
+   "label": "MII Order #39 (China RoHS)",
+   "value": "EUP 50"
+  },
+  {
+   "label": "Included Parts",
+   "value": "ECX-WALLMOUNT-02; Bonding Wire Kit; (4) Wood Screws; (4) Velcro Straps; (4) Dust Grommets; Identification Label, Installation Guide"
+  },
+  {
+   "label": "Related Parts",
+   "value": "FiberExpress ECX Cassettes & Frames, Fiber Patch Cords, Distribution Fiber Cable"
+  },
+  {
+   "label": "Notes",
+   "value": "For more information, please refer to our web site at http://www.belden.com . Installation Guide: TBD"
   }
- ]
+ ],
+ "src": "https://belden.com/products/panels-patching-systems/fiber-patch-systems/wall-mount-panel/ecx-02wm",
+ "checked": "2026-10-18"
 }

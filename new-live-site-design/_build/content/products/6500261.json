@@ -1,6 +1,6 @@
 {
  "sku": "6500261",
- "order": 1618,
+ "order": 1516,
  "n": "Cresnet Remote Temperature and Relative Humidity Sensor (C2N-RTHS)",
  "b": "Crestron",
  "c": "Sensors",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "C2N-RTHS",
  "d": "C2N-RTHS Cresnet Remote Temperature and Relative Humidity Sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Over Full Range",
+   "value": "±1ºF (±0.5ºC)"
+  },
+  {
+   "label": "Output Resolution",
+   "value": "0.1ºF (0.1ºC); 1% RH"
+  },
+  {
+   "label": "Setup",
+   "value": "(1) recessed miniature push button; Used for Touch-Settable ID (TSID)"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "0.25 W (0.01A @ 24VDC)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Drywall mountable in a 1 in. (26 mm) diameter round hole, protrudes ~1/8 in. (3 mm) from wall surface; Flush drywall mount or non-drywall surface mount with MMK-RS mounting kit (sold separately)"
+  },
+  {
+   "label": "Diameter",
+   "value": "1.50 in. (39 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.22 in. (57 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "-40° to 176°F (-40° to 80°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "0% to 100% RH"
+  },
+  {
+   "label": "Material",
+   "value": "Cylindrical plastic; Primed metal cap suitable for paint or wallpaper"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Climate-Control/Thermostat-Accessories/C2N-RTHS",
+ "checked": "2026-10-18"
 }

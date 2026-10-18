@@ -1,16 +1,39 @@
 {
  "sku": "6513146",
- "order": 2689,
+ "order": 2588,
  "n": "UC-AUDIO-POD-TTMK",
  "b": "Crestron",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "UC-AUDIO-POD-TTMK Tabletop Mounting Kit for Crestron Flex Pod Wireless Speaker and Microphone",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Installs into 1.50 in. (38 mm) standard hole on the table; 3/4 in. (19 mm) minimum surface thickness; 1.50 in. (38 mm) maximum surface thickness"
+  },
+  {
+   "label": "Height",
+   "value": "3.35 in. (85 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.10 in. (79 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.05 in. (78 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Plastic flange and threaded tube"
+  }
+ ],
  "for": [
   "6513245",
   "6513246",
   "6513255"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Audio/Distributed/UC-AUDIO-POD-TTMK",
+ "checked": "2026-10-18"
 }

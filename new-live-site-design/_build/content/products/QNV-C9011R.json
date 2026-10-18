@@ -1,6 +1,6 @@
 {
  "sku": "QNV-C9011R",
- "order": 3266,
+ "order": 3164,
  "n": "Wisenet Q mini network outdoor vandal bullet camera",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "Wisenet Q mini network outdoor vandal bullet camera, 4K @ 30fps, fix lens 3mm, triple codec H.265/H.264/MJPEG with Wisestream II, extremeWDR 120dB, IR 20m(65.6ft) WiseMD based on AI engine, Classified object type: Person/Vehicle Attributes: Not support; IVA events based on AI engine: Classified object type : Person/Vehicle Virtual line*(Crossing/Direction), Virtual area*(Loitering(TBD)/Intrusion/Enter/Exit/(Dis)Appear) Audio: Selectable(mic in/line in), defocus detection, hallway View, SD card, video analytics, USB for easy installation, open platform, IP66, IK10, PoE, white color",
  "specs": [
   {
+   "label": "Imaging Device",
+   "value": "Size 1/2.8\""
+  },
+  {
    "label": "Type",
-   "value": "Dome Camera"
+   "value": "CMOS"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "30fps(@8MP Max. 5fps)"
+  },
+  {
+   "label": "Min. Illumination (Lux)",
+   "value": "Color(1/30sec, 30IRE) 0.03"
+  },
+  {
+   "label": "BW(1/30sec, 30IRE)",
+   "value": "0.003"
+  },
+  {
+   "label": "Video Out",
+   "value": "USB: Micro USB Type B. Preview and installation ONLY. Requires WiFi dongle."
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "3.0"
+  },
+  {
+   "label": "Max Aperture Ratio (F number)",
+   "value": "Wide 1.6"
+  },
+  {
+   "label": "Angular Field of View",
+   "value": "Horizontal 108°"
+  },
+  {
+   "label": "Vertical",
+   "value": "59°"
+  },
+  {
+   "label": "Diagonal",
+   "value": "127°"
   }
- ]
+ ],
+ "src": "https://www.hanwhavision.com/ca/products/product-details/QNV-C9011R",
+ "checked": "2026-10-18"
 }

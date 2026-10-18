@@ -1,6 +1,6 @@
 {
  "sku": "6512777",
- "order": 1854,
+ "order": 1768,
  "n": "4-input USB 3.2 Data Matrix Switcher (USB-SW-400)",
  "b": "Crestron",
  "c": "AV Switcher",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "USB-SW-400",
  "d": "USB-SW-400 4-input USB 3.2 Data Matrix Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Pack",
+   "value": "4A @ 24VDC"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding or surface mount"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish"
+  },
+  {
+   "label": "Height",
+   "value": "1.12 in. (28 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.36 in. (212 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "5.04 in. (128 mm)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "47 W"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (non‑condensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/USB/USB-Switch/USB-SW-400",
+ "checked": "2026-10-18"
 }

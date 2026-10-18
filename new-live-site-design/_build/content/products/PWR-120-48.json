@@ -1,6 +1,6 @@
 {
  "sku": "PWR-120-48",
- "order": 3137,
+ "order": 3035,
  "n": "48V, 120W Din-Rail Power Supply Planet",
  "b": "PLANET",
  "c": "SWITCH- Installation Accessories",
@@ -9,11 +9,57 @@
  "d": "48V, 120W Din-Rail Power Supply (NDR-120-48, adjustable 48- 56V DC Output)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Din Rail"
+   "label": "Input Voltage",
+   "value": "85 ~ 264VAC, 50/60Hz 127 ~ 370VDC [DC input operation possible by connecting AC/L(+), AC/N(-)]"
+  },
+  {
+   "label": "Power Output",
+   "value": "75 watts,48V, 1.6A"
+  },
+  {
+   "label": "Installation",
+   "value": "DIN rail TS-35/7.5 or 15"
+  },
+  {
+   "label": "Remark",
+   "value": "*The specification is for PWR-75-48 hardware version 2 only. ** Please refer to output load derating curve from product specification."
+  },
+  {
+   "label": "Remrk",
+   "value": "*The specification is for PWR-240-48 hardware version 3 only. ** Please refer to output load derating curve from product specification."
+  },
+  {
+   "label": "PWR-120-48 (MEAN WELL -- XDR-120E-48)",
+   "value": "120W 48V DC Single Output Industrial DIN-rail Power Supply (-40~ 70 degrees C)"
+  },
+  {
+   "label": "PWR-240-48 (MEAN WELL -- XDR-240E-48)",
+   "value": "240W 48V DC Single Output Industrial DIN-rail Power Supply (-40~ 70 degrees C)"
+  },
+  {
+   "label": "PWR-480-48 (MEAN WELL -- XDR-480E-48)",
+   "value": "480W 48V DC Single Output Industrial DIN-rail Power Supply (-40 ~ 70 degrees C)"
+  },
+  {
+   "label": "PWR-960-48 (MEAN WELL -- XDR-960E-48)",
+   "value": "960W 48V DC Single Output Industrial DIN-rail Power Supply (-40 ~ 70 degrees C)"
+  },
+  {
+   "label": "Dimensions (W x H x D)",
+   "value": "30 x 125 x 116 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "400g"
+  },
+  {
+   "label": "Temperature",
+   "value": "Operating:-40~70 degrees C (**) Storage:-40~85 degrees C"
   }
  ],
  "for": [
   "IGS-5225-4P2S"
- ]
+ ],
+ "src": "https://www.planet.com.tw/en/product/pwr-120-48-pwr-240-48-pwr-480-48-pwr-75-48",
+ "checked": "2026-10-18"
 }

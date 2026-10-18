@@ -1,14 +1,37 @@
 {
  "sku": "SBP-122HMW",
- "order": 3457,
+ "order": 3355,
  "n": "Cap adapter for camera",
  "b": "Hanwha Vision",
  "c": "CCTV Mounting Equipment",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cap adapter for the (QND-8080R/6082R, QNV-8010R/20R/30R, QNV-6012R/22R/32R, LNV-6012R/22R/32R, HCF-8010V ), white color",
- "specs": [],
+ "specs": [
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "RAL code",
+   "value": "RAL9003"
+  },
+  {
+   "label": "Category File Name Last Update",
+   "value": "DataSheet DataSheet_SBP-122HMW_20260127_EN_144645.pdf 2026-09-04"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum"
+  },
+  {
+   "label": "Product dimensions / weight",
+   "value": "ø128.2x47mm / 159g"
+  }
+ ],
  "for": [
   "QND-6082R"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/us/products/product-details/SBP-122HMW",
+ "checked": "2026-10-18"
 }

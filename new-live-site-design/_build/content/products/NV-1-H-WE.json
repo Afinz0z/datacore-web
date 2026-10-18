@@ -1,6 +1,6 @@
 {
  "sku": "NV-1-H-WE",
- "order": 2041,
+ "order": 1955,
  "n": "Wallplate 1x HDMI 2.0, capable of receiving input (NV-1-H-WE)",
  "b": "Q-SYS",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "NV-1-H-WE",
  "d": "Wallplate 1x HDMI 2.0, capable of receiving input",
- "specs": []
+ "specs": [
+  {
+   "label": "Video I/O HDMI 2.0 input",
+   "value": "1x HDMI 2.0, capable of receiving input video formats up to 4K60 4:4:4 Support for HDCP 2.3 and HDCP 1.4"
+  },
+  {
+   "label": "Audio I/O HDMI input",
+   "value": "8-channel PCM audio, Q-SYS routable"
+  },
+  {
+   "label": "Other Connectors LAN",
+   "value": "1000BASE-T, 2.5GBASE-T compliant"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "802.3at Type 2 Class 4 (30W from PSE, 25.5W at NV-1-H-WE)"
+  },
+  {
+   "label": "Mounting options",
+   "value": "See User Manual"
+  },
+  {
+   "label": "Optional accessories",
+   "value": "Black insert kit (NV-1-INSERT KIT), not included"
+  },
+  {
+   "label": "General Dimensions",
+   "value": "4.06 x 3.43 x 2.64 in (103 x 87 x 67 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.84 lbs / 0.38 kg"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/video/nv-series/nv-1-h-we/",
+ "checked": "2026-10-18"
 }

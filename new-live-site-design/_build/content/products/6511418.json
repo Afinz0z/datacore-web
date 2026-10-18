@@ -1,6 +1,6 @@
 {
  "sku": "6511418",
- "order": 585,
+ "order": 527,
  "n": "8x2 4K60 4:4:4 HDR Presentation System (HD-PS622)",
  "b": "Crestron",
  "c": "Presentation System",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-PS622",
  "d": "HD-PS622 8x2 4K60 4:4:4 HDR Presentation System",
- "specs": []
+ "specs": [
+  {
+   "label": "Switcher",
+   "value": "8x2 auto-switching or manual, audio-follows-video, Crestron Auto-Locking® and QuickSwitch HD™ technologies"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+, and Dolby Vision support, Deep Color support, and 4K60 4:4:4 support (DVI and Dual-Mode DisplayPort™ interface compatible) on Inputs 1-6, DM Essentials with Deep Color and 4K on Inputs 7-8"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI, DM Essentials, and HDBaseT with HDR10, HDR10+, and Dolby Vision pass-through support, Deep Color support, and 4K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "Two mono 1-channel MIC/LINE inputs; Six mono 1-channel LINE inputs; One stereo 2-channel LPCM audio extracted from the selected HDMI or DM Essentials input source"
+  },
+  {
+   "label": "Audio Outputs",
+   "value": "One mirrored HDMI 1 and DM Essentials 1 audio output; One mirrored HDMI 2 and DM Essentials 2 audio output; One AUX 1 output, stereo 2-channel; One AUX 2 output, stereo 2-channel"
+  },
+  {
+   "label": "Analog-to-Digital Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Digital-to-Analog Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Gain Range",
+   "value": "-10 dB to +10 dB in 1 dB increments"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48 VDC, 12 mA, enable or disable per channel"
+  },
+  {
+   "label": "Mute",
+   "value": "Enable or disable per channel"
+  },
+  {
+   "label": "Audio, Line Inputs (CH3-CH8) gain range",
+   "value": "-10 dB to +10 dB in 1 dB increments"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Switchers/HD-PS622",
+ "checked": "2026-10-18"
 }

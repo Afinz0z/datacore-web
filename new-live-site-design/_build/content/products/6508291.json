@@ -1,6 +1,6 @@
 {
  "sku": "6508291",
- "order": 2447,
+ "order": 2350,
  "n": "Active Converter Cable, USB-C® to HDMI®, 18 Gbps, 6 ft (1.8 m) (CBL-4K-USBC-HD-6)",
  "b": "Crestron",
  "c": "AV CABLE",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CBL-4K-USBC-HD-6",
  "d": "CBL-4K-USBC-HD-6 Active Converter Cable, USB-C® to HDMI®, 18 Gbps, 6 ft (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Functionality",
+   "value": "Active, directional USB-C to HDMI converter cable"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps TMDS"
+  },
+  {
+   "label": "Performance resolutions",
+   "value": "Up to 4096 x 2160 @ 60Hz (DCI 4K60)"
+  },
+  {
+   "label": "Color Sampling",
+   "value": "4:4:4 @ 24 bit color depth, 4:2:2 @ 36 bit color depth"
+  },
+  {
+   "label": "HDCP",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "IN> (Source)",
+   "value": "(1) USB Type-C connector, male, gold plated, USB-C input"
+  },
+  {
+   "label": "OUT> (Sink)",
+   "value": "(1) HDMI Type A connector, male, gold plated, HDMI output"
+  },
+  {
+   "label": "Cable Construction",
+   "value": "CBL-4K-USBC-HD-6: 30 AWG conductors, double shielded; CBL-4K-USBC-HD-12: 28 AWG conductors, double shielded"
+  },
+  {
+   "label": "Cable Length",
+   "value": "CBL-4K-USBC-HD-6: 6 ft (1.83 m); CBL-4K-USBC-HD-12: 12 ft (3.66 m); nominal including connector boots"
+  },
+  {
+   "label": "Cable Outer Diameter",
+   "value": "CBL-4K-USBC-HD-6: 0.24 in (6 mm) nominal; CBL-4K-USBC-HD-12: 0.28 in (7 mm) nominal"
+  },
+  {
+   "label": "Outer Jacket Material",
+   "value": "PVC, black"
+  },
+  {
+   "label": "Connector Boot Material",
+   "value": "ABS shell, soft PVC strain relief, black"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Video,-Audio-and-USB/Video-Cables/CBL-4K-USBC-HD-6",
+ "checked": "2026-10-18"
 }

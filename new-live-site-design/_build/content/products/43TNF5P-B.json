@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "43TNF5P-B",
  "d": "Brightness : 500 nit, Multi Touch Point : 10 Points (Max.) Interface : HDMI (2, HDCP 2.2/1.4), RS-232C In, RJ45(LAN), IR In, USB2.0 Type A, Audio Out, Touch USB (USB 2.0 Type B)",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size",
+   "value": "55\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "IPS"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3,840 x 2,160 (UHD)"
+  },
+  {
+   "label": "Brightness (nit)",
+   "value": "450"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,000:1"
+  },
+  {
+   "label": "Color gamut",
+   "value": "NTSC 72%"
+  },
+  {
+   "label": "Viewing Angle (H x V)",
+   "value": "178 x 178"
+  },
+  {
+   "label": "Color Depth",
+   "value": "10 bit (D), 1.07 Billion Colors"
+  },
+  {
+   "label": "Response Time",
+   "value": "9ms(G to G)"
+  },
+  {
+   "label": "Surface Treatment (Haze)",
+   "value": "Haze 12%"
+  },
+  {
+   "label": "Life time",
+   "value": "50,000Hrs (Min.)"
+  },
+  {
+   "label": "Operation Hours (Hours / Day)",
+   "value": "24 / 7"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-43tnf5p-b",
+ "checked": "2026-10-18"
 }

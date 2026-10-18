@@ -1,6 +1,6 @@
 {
  "sku": "6513114",
- "order": 490,
+ "order": 442,
  "n": "Jabra® PanaCast® 50 Intelligent Video Bar for Crestron Flex Systems (UC-SB-P50)",
  "b": "Crestron",
  "c": "Video Conferencing System",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "UC-SB-P50",
  "d": "UC-SB-P50 Jabra® PanaCast® 50 Intelligent Video Bar for Crestron Flex Systems",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofers",
+   "value": "(2) 2 in. (50 mm) woofers"
+  },
+  {
+   "label": "Tweeters",
+   "value": "(2) 2 x 3/4 in. (50 x 20 mm) tweeters"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "80 Hz to 20 kHz"
+  },
+  {
+   "label": "Microphone",
+   "value": "(8) microphone beamforming array"
+  },
+  {
+   "label": "Pickup Range",
+   "value": "Suitable for rooms up to 15 x 15 ft; (4.5 x 4.5 m)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "-37 dBFS"
+  },
+  {
+   "label": "Cameras",
+   "value": "(3) cameras"
+  },
+  {
+   "label": "Video resolution",
+   "value": "3840 x 1080 @ 30 fps; 13 megapixels"
+  },
+  {
+   "label": "Field of View",
+   "value": "180º horizontal, 54º vertical"
+  },
+  {
+   "label": "Zoom",
+   "value": "6x lossless digital zoom; Automatically adjusts the field of view to frame all participants"
+  },
+  {
+   "label": "Power",
+   "value": "From external power pack; Input: 100‑240VAC, 50/60 Hz; Output: 5A @ 12V"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Black speaker and camera housing, rear air vents, integrated adjustable mounting bracket"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Smart-Soundbars/UC-SB-P50",
+ "checked": "2026-10-18"
 }

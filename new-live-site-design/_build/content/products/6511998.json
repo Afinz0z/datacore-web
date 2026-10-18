@@ -1,15 +1,66 @@
 {
  "sku": "6511998",
- "order": 2681,
+ "order": 2580,
  "n": "RMK-AMP-X",
  "b": "Crestron",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "0.85 in. (22 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "9.50 in. (241 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.72 in. (44 mm)"
+  },
+  {
+   "label": "Joining Plate width",
+   "value": "1.96 in. (50 mm)"
+  },
+  {
+   "label": "Joining Plate depth",
+   "value": "1.185 in. (30 mm)"
+  },
+  {
+   "label": "Dimension‑Rack Ear (Quarter Width) height",
+   "value": "0.85 in. (22 mm)"
+  },
+  {
+   "label": "Dimension‑Rack Ear (Quarter Width) width",
+   "value": "5.17 in. (131 mm)"
+  },
+  {
+   "label": "Dimension‑Rack Ear (Quarter Width) depth",
+   "value": "1.72 in. (44 mm)"
+  },
+  {
+   "label": "Dimension‑Fascia plate (Half Width) height",
+   "value": "1.74 in. (44 mm)"
+  },
+  {
+   "label": "Dimension‑Fascia plate (Half Width) width",
+   "value": "8.66 in. (220 mm)"
+  },
+  {
+   "label": "Dimension‑Fascia plate (Quarter Width) height",
+   "value": "1.74 in. (44 mm)"
+  },
+  {
+   "label": "Dimension‑Fascia plate (Quarter Width) width",
+   "value": "4.33 in. (110 mm)"
+  }
+ ],
  "for": [
   "6510866",
   "6511106",
   "6511136"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Local-AV-USB/Audio/Amplifier-Accessories/RMK-AMP-X",
+ "checked": "2026-10-18"
 }

@@ -1,13 +1,58 @@
 {
  "sku": "5311116",
- "order": 3776,
+ "order": 3674,
  "n": "Network Enclosure VXIT 42U W 800 D 1200 Rittal",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Network Enclosure VXIT 42U W 800 D 1200 with vented doors",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "Vented Standard with 482.6 mm (19\") mounting angles"
+  },
+  {
+   "label": "General colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Units",
+   "value": "42 U"
+  },
+  {
+   "label": "Mounting position of the 482.6 mm (19\") level",
+   "value": "front and rear"
+  },
+  {
+   "label": "Distance between levels as delivered",
+   "value": "720 mm"
+  },
+  {
+   "label": "482.6 mm (19\") attachment",
+   "value": "screw-fastened onto depth stays, top and bottom, and to the support rail on the frame structure"
+  },
+  {
+   "label": "Roof design",
+   "value": "multi-piece, with side cable entry in the depth, double-sided, prepared for fan mounting plate"
+  },
+  {
+   "label": "Rear door design",
+   "value": "Sheet steel door, vented, vertically divided, 180° hinges"
+  },
+  {
+   "label": "Front door design",
+   "value": "Aluminium/sheet steel door, vented, one-piece, 180° hinges"
+  },
+  {
+   "label": "Mounting angle design",
+   "value": "482.6 mm (19\") mounting angles, standard in the VX IT"
+  },
+  {
+   "label": "Base design",
+   "value": "Open"
+  }
+ ],
  "acc": [
   "5301254",
   "5301326",
@@ -15,5 +60,7 @@
   "5503020",
   "6450060",
   "7495000"
- ]
+ ],
+ "src": "https://www.rittal.com/gr-en/products/PG20231215ITI101/PG20240402ITI203/PRO106268?variantId=5311116",
+ "checked": "2026-10-18"
 }

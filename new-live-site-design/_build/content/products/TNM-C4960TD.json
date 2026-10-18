@@ -1,6 +1,6 @@
 {
  "sku": "TNM-C4960TD",
- "order": 3264,
+ "order": 3162,
  "n": "Thermal Camera",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "Wisenet T network Bi-spectrum AI Thermal Camera (uncooled), Dual sensor camera with VGA thermal and 4K visible video output, built-in 25mm fixed lens (FoV: 17.4° thermal) & 10.9~29mm motorized varifocal lens (FoV: 42°~15° visible), Triple codec (H.265/H.264/MJPEG), WiseStream II (thermal), WDR 120dB, Features Based on AI engine: WiseNR II, Wise Stream III (visible only), Analytics events based on AI engine (visible only): Object detection (Person/Face/Vehicle/License plate), IVA (Virtual line/Area, Enter/Exit, Loitering, direction, intrusion), Stopped vehicle, Traffic jam, FIPS 140-2, 2x micro SD card (512GB x2), IP66/IP67, IK10, NEMA4X, NEMA TS 2(2.2.8, 2.2.9), PoE+/12VDC",
  "specs": [
   {
+   "label": "Imaging Device",
+   "value": "Size - 1/1.8\""
+  },
+  {
    "label": "Type",
-   "value": "Thermal Camera"
+   "value": "Uncooled micro bolometer (640x480) CMOS"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz) 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "3fps 1fps"
+  },
+  {
+   "label": "Others",
+   "value": "Max. 15fps when both channel AI on Max. 15fps when both channel AI on"
+  },
+  {
+   "label": "Spectral Range",
+   "value": "8~14㎛ -"
+  },
+  {
+   "label": "NETD",
+   "value": "≤60mK -"
+  },
+  {
+   "label": "Pixel Size",
+   "value": "12㎛ -"
+  },
+  {
+   "label": "Min. Illumination (Lux)",
+   "value": "Color(1/30sec, 30IRE) - 0.06"
+  },
+  {
+   "label": "BW(1/30sec, 30IRE)",
+   "value": "- 0.005"
+  },
+  {
+   "label": "Video Out",
+   "value": "USB: Micro USB Type B. Preview and installation ONLY. Requires WiFi dongle. -"
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "25 10.9~29"
   }
- ]
+ ],
+ "src": "https://www.hanwhavision.com/us/products/product-details/TNM-C4960TD",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,41 @@
 {
  "sku": "5301344",
- "order": 3784,
+ "order": 3682,
  "n": "VX IT Gland plate, for WD: 800x1000 mm-Rittal",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "VX IT Gland plate, for WD: 800x1000 mm",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface finish",
+   "value": "Zinc-plated"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX IT Width: = 800 mm Depth: = 1,000 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "30.3 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  },
+  {
+   "label": "Product description",
+   "value": "VX IT gland plate module, multi-piece, solid, for width 800 mm, W x D 800 x 1000 mm, sheet steel"
+  }
+ ],
  "for": [
   "5309116"
- ]
+ ],
+ "src": "https://www.rittal.com/ie-en/products/PG20231215ZUB101/PG20240311ZUB102/PG20240312ZUB102/PRO108766?variantId=5301344",
+ "checked": "2026-10-18"
 }

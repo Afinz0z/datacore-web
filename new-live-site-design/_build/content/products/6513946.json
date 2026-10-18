@@ -1,6 +1,6 @@
 {
  "sku": "6513946",
- "order": 1730,
+ "order": 1647,
  "n": "DM® Essentials 4K60 4:4:4 eARC Transmitter/Receiver Kit for HDMI® (HD-EARC KIT)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-EARC KIT",
  "d": "HD-EARC KIT DM® Essentials 4K60 4:4:4 eARC Transmitter/Receiver Kit for HDMI®, RS-232, IR, and Optical Audio Signal Extension over CATx Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with Deep Color and 4K (DVI and Dual-Mode DisplayPort™ interface compatible)"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with Deep Color and 4K (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3 compliant"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI eARC, S/PDIF"
+  },
+  {
+   "label": "Digital Formats, HDMI",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "Digital Formats, S/PDIF",
+   "value": "Dolby Digital, Dolby Digital EX, DTS, DTS‑ES, LPCM up to 6 channels"
+  },
+  {
+   "label": "IR",
+   "value": "One way device control via infrared up to 60 kHz"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, EDID, CEC"
+  },
+  {
+   "label": "DM Essentials",
+   "value": "HDCP 2.3, EDID"
+  },
+  {
+   "label": "eARC",
+   "value": "Enhanced audio return channel via HDMI; Supports all Dolby® audio formats up to Dolby Atmos® and all DTS® formats up to DTS:X®"
+  },
+  {
+   "label": "Power Pack (included with transmitter)",
+   "value": "Input: 100-240VAC; Output: 24VDC 2.5A; Model: PW-2420RU"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "102 BTU/hr"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Kits/HD-EARC-KIT",
+ "checked": "2026-10-18"
 }

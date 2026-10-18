@@ -1,6 +1,6 @@
 {
  "sku": "Control 14C-VA",
- "order": 896,
+ "order": 836,
  "n": "Two-Way 4” Coaxial Ceiling Loudspeaker",
  "b": "JBL",
  "c": "Speaker",
@@ -9,8 +9,54 @@
  "d": "Control 14C-VA Professional Series Two-Way 4\" Co-axial CeilingLoudspeaker for EN54-24 Applications / EN 54-24 Compliant for Life Safety Applications EN54 Certified and BS5839/8 version of JBL Control",
  "specs": [
   {
-   "label": "Type",
-   "value": "Ceiling Speaker"
+   "label": "Frequency Range (-10 dB)",
+   "value": "74 Hz – 20 kHz"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "100 Hz – 15 kHz"
+  },
+  {
+   "label": "Rated Noise Power",
+   "value": "25W (25W tap)"
+  },
+  {
+   "label": "Rated Noise Voltage",
+   "value": "70V/100V (with 70V/100V tap settings)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB (1kHz - 16 kHz)"
+  },
+  {
+   "label": "EN54 Sensitivity (@ 4m)",
+   "value": "75 dB (per EN54-24 spectrum and measurement conditions at 4 meters.)"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "120° conical"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "7.6"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "8.1 dB"
+  },
+  {
+   "label": "Maximum SPL (1m)",
+   "value": "102 dB (low-impedance, 108 dB peak) 101 dB (top 70V/100 tap) EN54: 87 dB (4m, top 70/100V tap)"
+  },
+  {
+   "label": "EN54 Max SPL (@ 4m)",
+   "value": "87 dB (per EN54-24 spectrum and measurement 25W tap, at 4 meters)"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "25W, 12.5W, 6.3W @ 70V or 100V (plus 3.2W @ 70V only)"
   }
- ]
+ ],
+ "src": "https://jblpro.com/en/products/control-14c-va",
+ "checked": "2026-10-18"
 }

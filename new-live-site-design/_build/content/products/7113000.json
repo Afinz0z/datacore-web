@@ -1,14 +1,45 @@
 {
  "sku": "7113000",
- "order": 5306,
+ "order": 5188,
  "n": "EARTH RAIL",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "DK7113 EARTH RAIL 450MM LONG CABS",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product description",
+   "value": "Current carrying capacity approx. 200 A."
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: AX VX VX IT TS TS IT AX wall-mounted enclosure, 3-part Width: > 600 mm Depth: > 600 mm Width/depth: 800 mm"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "Declarations",
+   "value": "Manufacturer's declaration DE, EN"
+  },
+  {
+   "label": "Documentation",
+   "value": "Info sheet DE, EN"
+  },
+  {
+   "label": "Dimensions",
+   "value": "Width: 15 mm Height: 5 mm Length: 450 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "0.402 kg"
+  }
+ ],
  "for": [
   "7507220"
- ]
+ ],
+ "src": "https://www.rittal.com/nz-en/products/PG20231215ZUB101/PG2024040ZUB112/PG2024040ZUB115/PRO12136?variantId=7113000",
+ "checked": "2026-10-18"
 }

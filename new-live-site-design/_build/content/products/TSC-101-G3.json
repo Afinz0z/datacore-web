@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Q-SYS 10.1” PoE Touch Screen Controller for In-Wall",
- "specs": []
+ "specs": [
+  {
+   "label": "Display Description",
+   "value": "Projective capacitive (PCAP) multi-touch, Power over Ethernet, 24-bit color display."
+  },
+  {
+   "label": "Simultaneous touch points",
+   "value": "10"
+  },
+  {
+   "label": "Resolution",
+   "value": "1920 × 1200"
+  },
+  {
+   "label": "Wallmount Option",
+   "value": "Yes"
+  },
+  {
+   "label": "Table Top Option",
+   "value": "Yes, TSC-710t-G3 accessory sold separately"
+  },
+  {
+   "label": "Panel Orientation",
+   "value": "Vertical / horizontal on wall; horizontal only on stand"
+  },
+  {
+   "label": "Brightness",
+   "value": "380 Nits"
+  },
+  {
+   "label": "Power PoE (Power over Ethernet)",
+   "value": "PoE+ Class 4"
+  },
+  {
+   "label": "BTUs",
+   "value": "47 typical"
+  },
+  {
+   "label": "Rear Panel",
+   "value": "LAN (1x RJ45) 1 Gbps"
+  },
+  {
+   "label": "Panel Dimensions (H×W×D)",
+   "value": "6.2 x 9.97 x 1.54 inch 253.2 x 158.5 x 39.1 mm"
+  },
+  {
+   "label": "Viewable Screen Dimensions (diagonal)",
+   "value": "10.07 inch / 255.8 mm"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/control-io-controllers/q-sys-touch-screen-controllers/tsc-101-g3/",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,46 @@
 {
  "sku": "DX-RX-4K60",
- "order": 1684,
+ "order": 1603,
  "n": "Receiver Module",
  "b": "AMX",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "DXLink 4K60 HDMI Receiver Module",
- "specs": []
+ "specs": [
+  {
+   "label": "DXLink Compatibility Tool updated: Apr 2021",
+   "value": "Apr 2021"
+  },
+  {
+   "label": "Twisted Pair Cable Type & Length",
+   "value": "Shielded Cat6, Shielded Cat6A, Cat7. Distances up to 328 ft (100 m) supported on Shielded Cat6A and Cat7"
+  },
+  {
+   "label": "USB2.0",
+   "value": "USB2.0 supported point-to-point to DXLink 4K60 compatible switcher or DXLink 4K60 HDMI Transmitter"
+  },
+  {
+   "label": "HDMI",
+   "value": "Compatible Formats: HDMI2.0, HDCP2.2, DVI"
+  },
+  {
+   "label": "HDMI Audio",
+   "value": "Audio Resolution: 16 bit to 24 bit; Audio Sample Rate: 32 kHz, 44.1 kHz, 48 kHz, 96 kHz, 192 kHz"
+  },
+  {
+   "label": "HDCP",
+   "value": "HDCP2.2"
+  },
+  {
+   "label": "FG Numbers",
+   "value": "FG1010-512-01 FG1010-512-02 (TAA)"
+  },
+  {
+   "label": "Dimensions (HWD)",
+   "value": "1\" x 8 2/3\" x 6 1/3\" (2.54 cm x 22.0 cm x 16.0 cm)"
+  }
+ ],
+ "src": "https://www.amx.com/en/products/dx-rx-4k60",
+ "checked": "2026-10-18"
 }

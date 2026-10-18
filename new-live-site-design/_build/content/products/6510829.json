@@ -1,18 +1,65 @@
 {
  "sku": "6510829",
- "order": 1485,
+ "order": 1416,
  "n": "TSW-770-GV-W-S",
  "b": "Crestron",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "TSW-770-GV-W-S 7 in. Wall Mount Touch Screen, Government Version, White Smooth",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "TFT active matrix color LCD"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "7 in. (178 mm) diagonal"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10 WXGA"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "1280 x 800 pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "350 nits (cd/m²)"
+  },
+  {
+   "label": "Contrast",
+   "value": "850:1"
+  },
+  {
+   "label": "Color Depth",
+   "value": "24 bit, 16.7M colors"
+  },
+  {
+   "label": "Illumination",
+   "value": "Edgelit LED with auto brightness control"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "±80° horizontal, ±80° vertical"
+  },
+  {
+   "label": "Touch Screen",
+   "value": "Projected capacitive, 5-point multitouch capable"
+  },
+  {
+   "label": "Crestron Scheduling App",
+   "value": "Crestron Fusion® software, Microsoft Exchange Server® and Office 365® software, Google Calendar™ and G Suite™ software, CollegeNET® 25Live® software, and Ad Astra™ software (IBM® Notes® software is also supported through"
+  },
+  {
+   "label": "Third-Party Apps",
+   "value": "Includes support for various third-party scheduling applications."
+  }
+ ],
  "acc": [
   "6511117",
   "6511118",
-  "6511123",
-  "6511124",
   "6511128",
   "6511129",
   "6511130",
@@ -26,5 +73,7 @@
   "6511787",
   "6511963",
   "6511964"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Touchscreen/TSW-770-GV-W-S",
+ "checked": "2026-10-18"
 }

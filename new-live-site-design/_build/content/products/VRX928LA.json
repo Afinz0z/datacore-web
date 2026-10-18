@@ -1,11 +1,62 @@
 {
  "sku": "VRX928LA",
- "order": 900,
+ "order": 840,
  "n": "VRX928LA",
  "b": "JBL",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "8 in. Two-Way Line Array Loudspeaker System",
- "specs": []
+ "specs": [
+  {
+   "label": "VRX928LA BIM Object updated: Jul 2023",
+   "value": "Jul 2023"
+  },
+  {
+   "label": "Venue Synthesis released: Jul 2026",
+   "value": "Jul 2026"
+  },
+  {
+   "label": "Performance Manager 3 released: Jul 2024",
+   "value": "Jul 2024"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "70 Hz - 20 kHz"
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "100 x 15 nominal"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "85 Hz - 19 Hz"
+  },
+  {
+   "label": "Crossover Modes",
+   "value": "Bi-amp / passive,"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "2.0 kHz"
+  },
+  {
+   "label": "Inputs",
+   "value": "Neutrik® Speakon NL-4 (x2)"
+  },
+  {
+   "label": "Outputs",
+   "value": "1 x XLR"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Duraflex coated plywood"
+  },
+  {
+   "label": "System Type",
+   "value": "Constant Curvature 8\" Two-Way Line Array System"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/vrx928la",
+ "checked": "2026-10-18"
 }

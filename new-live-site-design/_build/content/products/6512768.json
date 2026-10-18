@@ -1,11 +1,62 @@
 {
  "sku": "6512768",
- "order": 2950,
+ "order": 2848,
  "n": "CEN-SWPOE-5AC",
  "b": "Crestron",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "CEN-SWPOE-5AC 5-Port PoE Network Switch",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet ports",
+   "value": "(5) 100BASE-TX/1000BASE-T"
+  },
+  {
+   "label": "Ethernet Network Standards",
+   "value": "IEEE 802.3, 802.3u, 802.3ab, 802.3x, & 802.3af /at"
+  },
+  {
+   "label": "Transmission Method",
+   "value": "Store-and-forward"
+  },
+  {
+   "label": "Input Range",
+   "value": "100-277VAC 50/60Hz"
+  },
+  {
+   "label": "Input Current",
+   "value": "2A @ 115VAC, 1A @ 277VAC max"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "10 BTU/hour"
+  },
+  {
+   "label": "Chassis",
+   "value": "Metal, black finish, with (2) integral mounting flanges"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding, surface mount, ceiling wall box, DIN 49073, DIN Rail or attach to a single rack rail"
+  },
+  {
+   "label": "Height",
+   "value": "4.72 in. (120 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "7.34 in. (187 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.85 in. (47 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Network-Switches/Unmanaged/CEN-SWPOE-5AC",
+ "checked": "2026-10-18"
 }

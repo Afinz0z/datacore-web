@@ -1,6 +1,6 @@
 {
  "sku": "7200217",
- "order": 5299,
+ "order": 5181,
  "n": "Connection cable for PDU",
  "b": "Rittal",
  "c": "Accessories",
@@ -8,11 +8,37 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "connection cable"
+   "label": "Design",
+   "value": "Extension cable"
+  },
+  {
+   "label": "Product description",
+   "value": "Connection and extension cable with various connector/jack types (earthing-pin/C19/C20). PVC line, 3-pole."
+  },
+  {
+   "label": "Connector (type)",
+   "value": "IEC 320 connector C20"
+  },
+  {
+   "label": "Rated current (max.)",
+   "value": "16 A"
+  },
+  {
+   "label": "Sockets",
+   "value": "IEC 320 socket C19"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "Dimensions",
+   "value": "Length: 1.8 m"
   }
  ],
  "for": [
   "7507220"
- ]
+ ],
+ "src": "https://www.rittal.com/sg-en/products/PG20231215ITI101/PG20240403ITI201/PG20240913ITI003/PRO29837?variantId=7200217",
+ "checked": "2026-10-18"
 }

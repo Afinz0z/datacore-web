@@ -1,6 +1,6 @@
 {
  "sku": "GSM4230PX",
- "order": 3024,
+ "order": 2922,
  "n": "M4250-26G4XF-POE+ Managed Switch (GSM4230PX-100EUS)",
  "b": "Netgear",
  "c": "Network Switch",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "GSM4230PX-100EUS",
  "d": "Netgear M4250-26G4XF-POE+ Managed Switch, 24x1G PoE+ 480W 2x1G and 4xSFP+ Managed Switch",
- "specs": []
+ "specs": [
+  {
+   "label": "Primary Port Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "30 (24x 1G PoE+, 2x 1G, 4x SFP+)"
+  },
+  {
+   "label": "PoE Ports / Budget",
+   "value": "24 PoE+ (30W/port), 480W Budget"
+  },
+  {
+   "label": "Acoustics",
+   "value": "Fanless or 42dB@25ºC"
+  },
+  {
+   "label": "What's in the Box",
+   "value": "M4250-26G4XF-PoE+ (GSM4230PX)"
+  },
+  {
+   "label": "Dimensions (WxDxH)",
+   "value": "440 x 400 x 43.2 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "5.45 kg (12.02lb)"
+  },
+  {
+   "label": "TBD Power Consumption",
+   "value": "With PoE: 614W/2096.2Btu/hr"
+  }
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wired/switches/fully-managed/gsm4230px/",
+ "checked": "2026-10-18"
 }

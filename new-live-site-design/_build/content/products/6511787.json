@@ -1,6 +1,6 @@
 {
  "sku": "6511787",
- "order": 2663,
+ "order": 2562,
  "n": "Multisurface Mount Kit for TSW-770 and TSW-1070 Series, Angled (TSW-770/1070-MSMK-ANG-W-S)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,44 @@
  "avail": "lead",
  "model": "TSW-770/1070-MSMK-ANG-W-S",
  "d": "TSW-770/1070-MSMK-ANG-W-S Multisurface Mount Kit for TSW-770 and TSW-1070 Series, Angled, White Smooth",
- "specs": [],
+ "specs": [
+  {
+   "label": "Housing",
+   "value": "Plastic, smooth black or white finish"
+  },
+  {
+   "label": "Surface Mounting",
+   "value": "Peel-and-stick adhesive mount to glass or other flat, smooth surface"
+  },
+  {
+   "label": "Wall Mounting",
+   "value": "Attaches to a wall or to a 2-gang or 3-gang US electrical box, US electrical box, 2-gang European electrical box, or 2-gang UK electrical box"
+  },
+  {
+   "label": "Surface mount without touch screen",
+   "value": "Height: 4.45 in. (113 mm); Width: 5.96 in. (151 mm); Depth: 2.50 in. (63 mm)"
+  },
+  {
+   "label": "Wall mount without touch screen",
+   "value": "Height: 5.11 in. (130 mm); Width: 6.71 in. (170 mm); Depth: 2.77 in. (70 mm)"
+  },
+  {
+   "label": "Surface mount with TSW‑770",
+   "value": "Height: 4.76 in. (121 mm); Width: 6.80 in. (173 mm); Depth: 3.07 in. (78 mm)"
+  },
+  {
+   "label": "Wall mount with TSW‑770 installed",
+   "value": "Height: 5.11 in. (130 mm); Width: 6.80 in. (173 mm); Depth: 3.35 in. (85 mm)"
+  },
+  {
+   "label": "Surface mount with TSW‑1070 installed",
+   "value": "Height: 5.60 in. (142 mm); Width: 9.46 in. (240 mm); Depth: 3.38 in. (86 mm)"
+  },
+  {
+   "label": "Wall mount with TSW‑1070 installed",
+   "value": "Height: 6.22 in. (158 mm); Width: 9.46 in. (240 mm); Depth: 3.66 in. (93 mm)"
+  }
+ ],
  "for": [
   "6510813",
   "6510814",
@@ -17,18 +54,8 @@
   "6510826",
   "6510827",
   "6510829",
-  "6510830",
-  "6511329",
-  "6511330",
-  "6511331",
-  "6511332",
-  "6511515",
-  "6511516",
-  "6511517",
-  "6511518",
-  "6511776",
-  "6511777",
-  "6511778",
-  "6511779"
- ]
+  "6510830"
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-770-1070-MSMK-ANG-W-S",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6513188",
- "order": 622,
+ "order": 564,
  "n": "AirMedia® Receiver 3200, Government Version AM-3200-GV AirMedia®",
  "b": "Crestron",
  "c": "Wireless content sharing",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "AM-3200-GV",
  "d": "AM-3200-GV AirMedia® Receiver 3200, Government Version AM-3200-GV AirMedia® Receiver 3200, Government Version",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto-switching, autonegotiating, autodiscovery, full/half duplex, TCP/IP, UDP/IP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), IEEE 802.1x, Active Directory authentication, HTTPS web browser set"
+  },
+  {
+   "label": "AirMedia",
+   "value": "Via Ethernet: IPv4, mDNS, TLS, AES"
+  },
+  {
+   "label": "USB Host",
+   "value": "USB 2.0 for connecting a USB conferencing peripheral; USB 3.0 for connecting a USB conferencing peripheral"
+  },
+  {
+   "label": "USB Device",
+   "value": "USB 3.0 for computer console (installer setup and firmware update)"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "1-way display device control via infrared up to 1.1 MHz or serial TTL/RS-232 (0-5V) up to 19.2k baud"
+  },
+  {
+   "label": "HDMI Input",
+   "value": "HDCP 1.4, EDID; Supports management of HDCP and EDID"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "HDCP 2.2, EDID, CEC; Supports management of HDCP and EDID"
+  },
+  {
+   "label": "OS Support",
+   "value": "Apple® iOS®, Android™, Windows 10, Windows 11, macOS®, Chrome OS™"
+  },
+  {
+   "label": "Video Frame Rate",
+   "value": "Up to 30 fps, audio supported"
+  },
+  {
+   "label": "Output Resolutions",
+   "value": "640x480@60Hz, 800x600@60Hz, 1024x768@60Hz, 1280x720@50Hz (720p50), 1280x720@60Hz (720p60), 1280x800@60Hz, 1366x768@60Hz, 1440x900@60Hz, 1600x900@60Hz, 1600x1200@60Hz, 1680x1050@60Hz, 1920x1080@50Hz (1080p50), 1920x1080@6"
+  },
+  {
+   "label": "Bitrate Peak",
+   "value": "0.25 to 8.5 Mbps, variable depending on content complexity"
+  },
+  {
+   "label": "Bitrate Average",
+   "value": "1.4 Mbps typical; NOTES: The bitrate for Apple native mirroring may deviate from above depending on the OS version and content. The AirMedia Extension for the Google Chrome browser relies on web technologies for screen s"
+  }
+ ],
  "acc": [
   "6512130"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Presentation-and-Conferencing/AirMedia/Receiver/AM-3200-GV",
+ "checked": "2026-10-18"
 }

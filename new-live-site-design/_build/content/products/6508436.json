@@ -1,13 +1,30 @@
 {
  "sku": "6508436",
- "order": 2350,
+ "order": 2254,
  "n": "FT2A-PWR-EU-1-BASIC",
  "b": "Crestron",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "FT2A-PWR-EU-1-BASIC AC Power Outlet Module for FT2 Series, Single, European “Schuko,” Type F",
- "specs": [],
+ "specs": [
+  {
+   "label": "Composition",
+   "value": "Precision-fit plastic drop-in module, black"
+  },
+  {
+   "label": "Mounting",
+   "value": "Requires two consecutive module slots within the FlipTop chassis"
+  },
+  {
+   "label": "Temperature",
+   "value": "0° to 45° C (32° to 113° F)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "for": [
   "6511653",
   "6511654",
@@ -24,5 +41,7 @@
   "6511977",
   "6511978",
   "6511980"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Power-Module/FT2A-PWR-EU-1-BASIC",
+ "checked": "2026-10-18"
 }

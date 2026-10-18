@@ -9,12 +9,42 @@
  "d": "OLED 4K evo G5 Series 65\" Screen",
  "specs": [
   {
-   "label": "Type",
-   "value": "screen"
+   "label": "GAMING - FreeSync Compatible (AMD)",
+   "value": "Yes"
   },
   {
-   "label": "Series",
-   "value": "G5"
+   "label": "GAMING - G-Sync Compatible (Nvidia)",
+   "value": "Yes"
+  },
+  {
+   "label": "PICTURE (DISPLAY) - Display Type",
+   "value": "4K OLED"
+  },
+  {
+   "label": "PICTURE (DISPLAY) - Refresh Rate",
+   "value": "120Hz Native (VRR 165Hz)"
+  },
+  {
+   "label": "PICTURE (PROCESSING) - Picture Processor",
+   "value": "α11 AI Processor 4K Gen2"
+  },
+  {
+   "label": "AUDIO - Dolby Atmos",
+   "value": "Yes"
+  },
+  {
+   "label": "AUDIO - Speaker System",
+   "value": "4.2 Channel"
+  },
+  {
+   "label": "AUDIO - Audio Output",
+   "value": "60W"
+  },
+  {
+   "label": "PICTURE (DISPLAY) - Wide Colour Gamut",
+   "value": "OLED Colour"
   }
- ]
+ ],
+ "src": "https://www.lg.com/au/tv-soundbars/oled-evo-tv/oled65g5/",
+ "checked": "2026-10-18"
 }

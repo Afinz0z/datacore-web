@@ -1,11 +1,62 @@
 {
  "sku": "AC-C4T",
- "order": 913,
+ "order": 853,
  "n": "4.5 inch Full-range ceiling speaker",
  "b": "Q-SYS",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "4.5\" Full-range ceiling speaker, 70/100V transformer with 8Ω bypass, 140° conical coverage, includes C-ring and rails for blind mount installation. Priced individually, sold only in pairs. Priced individually, sold only in pairs.",
- "specs": []
+ "specs": [
+  {
+   "label": "Effective frequency range",
+   "value": "70 Hz to 16 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage",
+   "value": "16 watts / 11.3 volts (rms)"
+  },
+  {
+   "label": "Broad-band sensitivity",
+   "value": "89 dB SPL"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "140° (500 Hz to 5 kHz)"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "101 dB"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "107 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "70 V",
+   "value": "16, 8, 4, 2, 1 watts and 8-ohm bypass"
+  },
+  {
+   "label": "100V",
+   "value": "16, 8, 4, 2, watts and 8-ohm bypass"
+  },
+  {
+   "label": "Transducer",
+   "value": "4-inch Polypropylene cone with butyl rubber surround"
+  },
+  {
+   "label": "Input connector type",
+   "value": "Euroblock connector with parallel output terminals"
+  },
+  {
+   "label": "Testing",
+   "value": "Listed UL1480, UL2043 safe for use in air handling space"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/ceiling-mount/acousticcoverage-series/ac-c4t/",
+ "checked": "2026-10-18"
 }

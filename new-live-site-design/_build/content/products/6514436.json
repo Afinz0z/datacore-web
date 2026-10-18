@@ -1,6 +1,6 @@
 {
  "sku": "6514436",
- "order": 4582,
+ "order": 4480,
  "n": "Collab Compute with the Intel® Core™ Ultra 7 for Microsoft Teams® (CCC-120-T)",
  "b": "Crestron",
  "c": "PC",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "CCC-120-T",
  "d": "CCC-120-T Crestron Collab Compute with the Intel® Core™ Ultra 7 for Microsoft Teams® Rooms Software",
- "specs": [],
+ "specs": [
+  {
+   "label": "Processor",
+   "value": "Intel® Core™ Ultra 7 155H"
+  },
+  {
+   "label": "RAM",
+   "value": "32 GB Dual Channel DDR5 SODIMM"
+  },
+  {
+   "label": "Storage",
+   "value": "256 GB"
+  },
+  {
+   "label": "Graphics",
+   "value": "Intel® ARC"
+  },
+  {
+   "label": "Network",
+   "value": "1x Intel I219-LM 100/1000 Mbps Ethernet; 2x Intel I210 100/1000Mbps Ethernet"
+  },
+  {
+   "label": "Operating System",
+   "value": "Windows® 11 Enterprise IoT Edition OS"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps"
+  },
+  {
+   "label": "USB Type-C® (DisplayPort Alt Mode) (Rear)",
+   "value": "HDCP 2.3, EDID, CEC, USB 3"
+  },
+  {
+   "label": "USB Type-A (Rear)",
+   "value": "USB 3 10 Gbps"
+  },
+  {
+   "label": "USB Type-A (Front)",
+   "value": "USB 2 480 Mbps"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Intel BE200 (Wi-Fi 7 2x2 MIMO)"
+  },
+  {
+   "label": "Bluetooth® Communications",
+   "value": "Bluetooth version 5.4"
+  }
+ ],
  "acc": [
   "6514473"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Foundation/Compute/CCC-120-T",
+ "checked": "2026-10-18"
 }

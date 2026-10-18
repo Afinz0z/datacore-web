@@ -1,6 +1,6 @@
 {
  "sku": "WAX610",
- "order": 3110,
+ "order": 3008,
  "n": "AP WiFi 6 AX1800 Dual Band POE Indoor - Netgear",
  "b": "Netgear",
  "c": "ACCESS POINT",
@@ -9,8 +9,40 @@
  "d": "AP WiFi 6 AX1800 Dual Band POE Multi-Gig Insight Managed Indoor AP // 1-Year NETGEAR Insight Subscription Included",
  "specs": [
   {
-   "label": "Type",
-   "value": "Indoor campus access point"
+   "label": "Speed",
+   "value": "AX1800"
+  },
+  {
+   "label": "# of Max Users",
+   "value": "250"
+  },
+  {
+   "label": "# of Concurrent Users",
+   "value": "50"
+  },
+  {
+   "label": "Ideal Use",
+   "value": "Small and Medium Business"
+  },
+  {
+   "label": "Ethernet port",
+   "value": "2.5G"
+  },
+  {
+   "label": "PoE",
+   "value": "Yes"
+  },
+  {
+   "label": "Remote management",
+   "value": "Insight or Standalone"
+  },
+  {
+   "label": "Dimensions",
+   "value": "160.9 x 160.9 x 33.25 mm (6.33 x 6.33 x 1.30 in)"
+  },
+  {
+   "label": "Weight",
+   "value": "412 g (0.90 lb)"
   }
  ],
  "acc": [
@@ -30,5 +62,7 @@
   "NPR50PK5-10000S",
   "NPR5PK1-10000S",
   "NPR5PK5-10000S"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wifi/access-points/wax610/",
+ "checked": "2026-10-18"
 }

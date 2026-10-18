@@ -1,6 +1,6 @@
 {
  "sku": "AD-S6T",
- "order": 925,
+ "order": 865,
  "n": "6.5\" Two-way surface speaker,70/100V transformer (AD-S6T)",
  "b": "QSC",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AD-S6T",
  "d": "6.5\" Two-way surface speaker,70/100V transformer",
- "specs": []
+ "specs": [
+  {
+   "label": "System Details",
+   "value": "AD-S6T"
+  },
+  {
+   "label": "Effective frequency range 1",
+   "value": "60 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage 2",
+   "value": "150 watts / 35 volts (rms)"
+  },
+  {
+   "label": "Broadband sensitivity 3",
+   "value": "89 dB SPL"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "105° conical DMT™"
+  },
+  {
+   "label": "Directivity factor (Q)",
+   "value": "5"
+  },
+  {
+   "label": "Directivity Index",
+   "value": "7 dB"
+  },
+  {
+   "label": "Maximum continuous SPL 4",
+   "value": "110 dB"
+  },
+  {
+   "label": "Maximum peak SPL 4",
+   "value": "116 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 60, 30, 15, 7.5 W and 8Ω bypass 100V: 60, 30, 15 W and 8Ω bypass"
+  },
+  {
+   "label": "HF transducer",
+   "value": "1 inch silk dome tweeter / 1 inch voice coil, horn loaded"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/surface-mount/acousticdesign-series/ad-s6t/",
+ "checked": "2026-10-18"
 }

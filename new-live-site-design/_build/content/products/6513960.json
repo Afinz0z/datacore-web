@@ -1,6 +1,6 @@
 {
  "sku": "6513960",
- "order": 2692,
+ "order": 2590,
  "n": "Universal Mounting Bracket for TSW-80 Series (TSW-UMB-80)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,28 @@
  "avail": "lead",
  "model": "TSW-UMB-80",
  "d": "TSW-UMB-80 Universal Mounting Bracket for TSW-80 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface Mounting",
+   "value": "Surface mount over a 2 in. H x 3‑3/4 in. W (51 mm H x 96 mm W) cutout; 2‑13/16 in. (72 mm) minimum mounting depth; 1‑1/4 in. (32 mm) maximum mounting surface thickness; Pre/postconstruction mounting bracket and wall moun"
+  },
+  {
+   "label": "Height",
+   "value": "2.98 in. (76 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.65 in. (169 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.56 in. (40 mm)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal bracket and clamp assembly"
+  }
+ ],
  "for": [
   "6513822",
   "6513823",
@@ -23,5 +44,7 @@
   "6513839",
   "6513920",
   "6513928"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-80-Series-Accessories/TSW-UMB-80",
+ "checked": "2026-10-18"
 }

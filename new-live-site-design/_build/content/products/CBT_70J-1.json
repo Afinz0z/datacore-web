@@ -1,6 +1,6 @@
 {
  "sku": "CBT 70J-1",
- "order": 886,
+ "order": 826,
  "n": "Constant Beamwidth Technology™ Two-Way Line Array Column (CBT 70J-1)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CBT 70J-1",
  "d": "Constant Beamwidth Technology™ Two-Way Line Array Column with Asymmetrical Vertical Coverage",
- "specs": []
+ "specs": [
+  {
+   "label": "Drivers",
+   "value": "Four 130 mm (5 in) LF drivers Sixteen 25 mm (1 in) HF drivers"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "60 Hz – 20 kHz"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "Vertical: Switchable, Narrow Mode: 25° (±10°), Broad Mode: 45° (±10°), Horizontal: 150° (±20°)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "Narrow: (speech mode) 98 dB (1 kHz - 8 kHz) (music mode) 93 dB (300 Hz - 18 kHz) Broad: (speech mode) 96 dB (1 kHz - 8 kHz) (music mode) 92 dB (300 Hz - 18 kHz)"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 ohms; Min Imp: 4.0 ohms @ 1kHz, 5.4 ohms @ 225Hz"
+  },
+  {
+   "label": "Power Capacity",
+   "value": "500 W (2000 W peak), 2 hrs 350 W (1400 W peak), 100 hrs"
+  },
+  {
+   "label": "High Frequency Drivers",
+   "value": "16 pcs, 25 mm (1 in) drivers, dual magnet neodymium, encased magnet and coated diaphragm for moisture, UV and salt resistance, shielded."
+  },
+  {
+   "label": "Enclosure",
+   "value": "Fiberglass reinforced ABS cabinet, painted aluminum grille"
+  },
+  {
+   "label": "Outdoor Capability",
+   "value": "IP-55 rated, per IEC529, when installed with optional MTC-PC2 panel cover. UV, moisture and 200-hr ASTM G85 acid-air/salt-spray resistant."
+  },
+  {
+   "label": "Color",
+   "value": "Black or white (-WH)"
+  },
+  {
+   "label": "Insert Points",
+   "value": "10 M6 swivel (pan)/tilt (16 mm deep) insert points on back panel."
+  },
+  {
+   "label": "Included Accessories",
+   "value": "Swivel (pan) / tilt wall bracket"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/cbt-70j-1",
+ "checked": "2026-10-18"
 }

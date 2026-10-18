@@ -1,6 +1,6 @@
 {
  "sku": "XNP-8300RW",
- "order": 3259,
+ "order": 3157,
  "n": "6MP 30x Outdoor non Dome PTZ",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,11 +9,57 @@
  "d": "WISENET, 6MP 30x Outdoor non Dome PTZ, IR, Wiper, IP66, IK10, NEMA",
  "specs": [
   {
+   "label": "Imaging Device",
+   "value": "Size 1/2.8\""
+  },
+  {
    "label": "Type",
-   "value": "PTZ Camera"
+   "value": "CMOS"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "30fps(@6MP Max. 5fps)"
+  },
+  {
+   "label": "Min. Illumination (Lux)",
+   "value": "Color(1/30sec, 30IRE) 0.1"
+  },
+  {
+   "label": "BW(1/30sec, 30IRE)",
+   "value": "0.01"
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "5~150"
+  },
+  {
+   "label": "Zoom Ratio",
+   "value": "Optical 30x"
+  },
+  {
+   "label": "Digital",
+   "value": "32x"
+  },
+  {
+   "label": "Max Aperture Ratio (F number)",
+   "value": "Wide 1.6"
+  },
+  {
+   "label": "Tele",
+   "value": "4.56"
+  },
+  {
+   "label": "Angular Field of View",
+   "value": "Horizontal 57.42°~2.19°"
   }
  ],
  "acc": [
   "SBP-156WMW"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/uk/products/product-details/XNP-8300RW",
+ "checked": "2026-10-18"
 }

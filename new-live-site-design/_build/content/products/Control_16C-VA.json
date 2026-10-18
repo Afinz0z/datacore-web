@@ -1,6 +1,6 @@
 {
  "sku": "Control 16C-VA",
- "order": 897,
+ "order": 837,
  "n": "Two-Way 6.5\" Co-axial Ceiling Loudspeaker (Control 16C-VA)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Control 16C-VA",
  "d": "Two-Way 6.5\" Co-axial Ceiling Loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "62 Hz – 20 kHz"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "96 Hz – 15 kHz"
+  },
+  {
+   "label": "Rated Noise Power",
+   "value": "30W (30W tap)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "91 dB (1kHz - 16 kHz)"
+  },
+  {
+   "label": "EN54 Sensitivity (@ 4m)",
+   "value": "77 dB (per EN54-24 spectrum and measurement conditions at 4 meters)."
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "Frequency (kHz) Horizontal Coverage° Vertical Coverage°"
+  },
+  {
+   "label": "0.5 kHz",
+   "value": "175° 174°"
+  },
+  {
+   "label": "1 kHz",
+   "value": "154° 157°"
+  },
+  {
+   "label": "2 kHz",
+   "value": "148° 149°"
+  },
+  {
+   "label": "4 kHz",
+   "value": "70° 72°"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "7.8"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "8.2 dB"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-16c-va",
+ "checked": "2026-10-18"
 }

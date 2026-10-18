@@ -1,6 +1,6 @@
 {
  "sku": "NV-32-H",
- "order": 1837,
+ "order": 1751,
  "n": "NV-32-H (Core Capable)",
  "b": "Q-SYS",
  "c": "Extenders",
@@ -9,8 +9,54 @@
  "d": "4K60 4:4:4 Network Video Endpoint for the Q-SYS",
  "specs": [
   {
-   "label": "Type",
-   "value": "Encoder"
+   "label": "Total network I/O streams",
+   "value": "32 x 16"
+  },
+  {
+   "label": "Dante Channels",
+   "value": "licensable up to 32 x 32 (none included)"
+  },
+  {
+   "label": "AEC processors",
+   "value": "8"
+  },
+  {
+   "label": "VoIP instances",
+   "value": "1"
+  },
+  {
+   "label": "Audio recording / playback",
+   "value": "4 ch recording / 16 ch playback"
+  },
+  {
+   "label": "Q-SYS NM-T1 capacity",
+   "value": "3"
+  },
+  {
+   "label": "Bitrates",
+   "value": "10 Mbps - 800 Mbps"
+  },
+  {
+   "label": "Content protection",
+   "value": "HDCP 2.2 compliant, AES-128 encryption for all audio and video signals between encoders and decoders"
+  },
+  {
+   "label": "Audio I/O HDMI inputs",
+   "value": "8-channel PCM audio, Q-SYS routable"
+  },
+  {
+   "label": "HDMI outputs",
+   "value": "8-channel PCM audio, Q-SYS routable"
+  },
+  {
+   "label": "Analog input",
+   "value": "3.5 mm unbalanced stereo mic/line input Q-SYS routable"
+  },
+  {
+   "label": "Analog output",
+   "value": "3.5 mm unbalanced stereo line output Q-SYS routable"
   }
- ]
+ ],
+ "src": "https://www.qsys.com/products/q-sys/video/nv-series/nv-32-h-core-capable/",
+ "checked": "2026-10-18"
 }

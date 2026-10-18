@@ -1,6 +1,6 @@
 {
  "sku": "6508077",
- "order": 1711,
+ "order": 1629,
  "n": "DigitalMedia 8G+® 4K60 4:4:4 HDR Receiver & Room Controller 100 (DM-RMC-4KZ-100-C)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-RMC-4KZ-100-C",
  "d": "DM-RMC-4KZ-100-C DigitalMedia 8G+® 4K60 4:4:4 HDR Receiver & Room Controller 100",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "DM 8G+ & HDBaseT w/HDR10, Deep Color, 3D, & 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI w/HDR10, Deep Color, 3D, & 4K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "DM 8G+, HDBaseT"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS®, DTS ES, DTS 96/24, DTS HD High Res, DTS HD Master Audio, DTS:X, LPCM up to 8 channels"
+  },
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "1-way device control via infrared up to 1.1 MHz or serial TTL/RS-232 (0-5 Volts) up to 19.2k baud (via control system)"
+  },
+  {
+   "label": "DigitalMedia",
+   "value": "DM 8G+, HDCP 2.2, EDID, CEC, PoDM, Ethernet"
+  },
+  {
+   "label": "HDBaseT",
+   "value": "HDCP 2.2, EDID, CEC, RS-232, PoE, Ethernet"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.2, EDID, CEC"
+  },
+  {
+   "label": "Power over DM (PoDM)",
+   "value": "IEEE 802.3at Type 1 Class 0 (12.95 W) compliant PoDM PD (Powered Device), capable of being powered by a PoDM PSE (Power Sourcing Equipment)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Distributed-AV-USB/DigitalMedia-Endpoints/Receivers/DM-RMC-4KZ-100-C",
+ "checked": "2026-10-18"
 }

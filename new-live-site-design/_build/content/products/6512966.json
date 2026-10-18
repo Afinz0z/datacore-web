@@ -1,6 +1,6 @@
 {
  "sku": "6512966",
- "order": 2659,
+ "order": 2558,
  "n": "Multisurface Mount Kit for TSS-470E, Black Textured (TSS-470E-MSMK-B-T)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "TSS-470E-MSMK-B-T",
  "d": "TSS-470E-MSMK-B-T Multisurface Mount Kit for TSS-470E, Black Textured",
- "specs": [],
+ "specs": [
+  {
+   "label": "Housing",
+   "value": "Plastic, textured black finish"
+  },
+  {
+   "label": "Surface Mounting",
+   "value": "Peel-and-stick adhesive mounting to glass or other flat, smooth surface"
+  },
+  {
+   "label": "Height",
+   "value": "3.95 in. (100 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.95 in. (100 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.80 in. (46 mm); 1.99 in. (51 mm) with touch screen installed"
+  }
+ ],
  "for": [
   "6512606"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Scheduling/Desk-Scheduling/Accessories/TSS-470E-MSMK-B-T",
+ "checked": "2026-10-18"
 }

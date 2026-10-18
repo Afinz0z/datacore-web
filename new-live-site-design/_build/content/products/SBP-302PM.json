@@ -1,6 +1,6 @@
 {
  "sku": "SBP-302PM",
- "order": 3459,
+ "order": 3357,
  "n": "Pole Mount Adapter Accessory for camera",
  "b": "Hanwha Vision",
  "c": "CCTV Mounting Equipment",
@@ -9,11 +9,25 @@
  "d": "Pole Mount Adapter Accessory, use with SBO-100 B1, PNO-9080R, SNO-8081R SBO-100 B1",
  "specs": [
   {
-   "label": "Type",
-   "value": "Pole mount"
+   "label": "Color",
+   "value": "Dark Grey"
+  },
+  {
+   "label": "Category File Name Last Update",
+   "value": "DataSheet DataSheet_SBP-302PM_20260227_EN_160351.pdf 2026-04-19"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum"
+  },
+  {
+   "label": "Product dimensions / weight",
+   "value": "166x183x65.1mm / 1300g"
   }
  ],
  "for": [
   "QNO-7082R"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/ca/products/product-details/SBP-302PM",
+ "checked": "2026-10-18"
 }

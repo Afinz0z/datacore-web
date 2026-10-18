@@ -1,6 +1,6 @@
 {
  "sku": "6512880",
- "order": 2684,
+ "order": 2583,
  "n": "Table Dock for TST-1080 (TST-1080-DS)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,39 @@
  "avail": "lead",
  "model": "TST-1080-DS",
  "d": "TST-1080-DS Table Dock for TST-1080",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power Pack (Included)",
+   "value": "Input: 0.8A (maximum) @ 100–240VAC, 50/60 Hz; Output: 1.25A @ 24VDC; DC power connection can be made via charging dock or onboard DC power connector; Includes 6 ft (1.83 m) attached cable with 2.1 x 5.5 mm DC power barre"
+  },
+  {
+   "label": "Height",
+   "value": "3.64 in. (93 mm); 6.17 in. (157 mm) with touch screen docked"
+  },
+  {
+   "label": "Width",
+   "value": "4.87 in. (125 mm); 10.31 in. (262 mm) with touch screen docked"
+  },
+  {
+   "label": "Depth",
+   "value": "4.31 in. (110 mm)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "6 W"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 112°F (0° to 45°C); 50° to 104°F (10° to 40°C) while charging"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (noncondensing)"
+  }
+ ],
  "for": [
   "6512879"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Wireless-Touchscreen-Accessories/TST-1080-DS",
+ "checked": "2026-10-18"
 }

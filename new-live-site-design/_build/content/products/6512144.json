@@ -1,6 +1,6 @@
 {
  "sku": "6512144",
- "order": 2464,
+ "order": 2365,
  "n": "USB Cable, USB-C® Male to USB-C Male, USB 3.2 Gen 1 (5 Gbps) (CBL-USB3G1-C-C-6)",
  "b": "Crestron",
  "c": "AV CABLE",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "CBL-USB3G1-C-C-6",
  "d": "CBL-USB3G1-C-C-6 USB Cable, USB-C® Male to USB-C Male, USB 3.2 Gen 1 (5 Gbps), DisplayPort™ Alt Mode, 100 W, 6 ft (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable Type",
+   "value": "Passive"
+  },
+  {
+   "label": "Supported Modes",
+   "value": "USB 3.2 Gen 1 (5 Gbps); USB 2.0 (480 Mbps); DisplayPort™ 1.4 Video (4K60 4:4:4, 2 lanes); 100 W Power Delivery"
+  },
+  {
+   "label": "Length",
+   "value": "6 ft (1.8 m)"
+  },
+  {
+   "label": "Diameter",
+   "value": "5.0 mm"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Video,-Audio-and-USB/USB-Cables/CBL-USB3G1-C-C-6",
+ "checked": "2026-10-18"
 }

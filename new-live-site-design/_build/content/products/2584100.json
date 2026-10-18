@@ -1,14 +1,53 @@
 {
  "sku": "2584100",
- "order": 4021,
+ "order": 3919,
  "n": "Rittal AX Pole Clamp",
  "b": "Rittal",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Pole mounting clamp set for securing compatible Rittal enclosures to round or square poles. Suitable for round poles Ø40-170 mm and square poles 50-150 mm.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product description",
+   "value": "For reliable, convenient fastening to round or square poles."
+  },
+  {
+   "label": "Technical specifications",
+   "value": "For pole diameter: Ø from 40 to 170 mm"
+  },
+  {
+   "label": "Surface finish",
+   "value": "Mounting angle, clamp strip: Galvanic zinc-nickel, passivated"
+  },
+  {
+   "label": "Supply includes",
+   "value": "2 mounting angles, 600 mm long 4 clamping sections 2 clamping straps 4 clamping brackets 4 self-tapping M10 bolts for mounting onto the enclosure"
+  },
+  {
+   "label": "Note",
+   "value": "Only suitable for enclosures up to a width of 600 mm."
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: AX KX AX plastic AX IT CS wall-mounted enclosures AX outdoor housing AE KL EB AX wall-mounted enclosure, 3-part"
+  },
+  {
+   "label": "Packs of",
+   "value": "2 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "7.3 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  }
+ ],
  "for": [
   "9791045"
- ]
+ ],
+ "src": "https://www.rittal.com/ua-en/products/PG20231215ZUB101/PG20240402ZUB104/PRO99876?variantId=2584100",
+ "checked": "2026-10-18"
 }

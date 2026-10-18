@@ -1,6 +1,6 @@
 {
  "sku": "6511961",
- "order": 1984,
+ "order": 1898,
  "n": "Media Presentation Wall Plate - RCA, Black, 1-Gang (MP-WP-2RCAO-1G)",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "MP-WP-2RCAO-1G",
  "d": "MP-WP-2RCAO-1G Media Presentation Wall Plate - RCA, Black, 1-Gang",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Mountable on the following:; 1-gang U.S. electrical box or plaster ring (not included),; 3.5 in. (26 mm) electrical box depth recommended; Rack rail; Flat surface with included mounting bracket"
+  },
+  {
+   "label": "Faceplate",
+   "value": "Requires FP-G1 decorative faceplate (sold separately)"
+  },
+  {
+   "label": "Height",
+   "value": "4.12 in. (105 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.72 in. (44 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.66 in. (42 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 111° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (noncondensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/AV-Wall-Plates/RCA/MP-WP-2RCAO-1G",
+ "checked": "2026-10-18"
 }

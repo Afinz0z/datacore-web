@@ -1,6 +1,6 @@
 {
  "sku": "CBT100LA-LS",
- "order": 893,
+ "order": 833,
  "n": "Line Array Column Loudspeaker with with Sixteen 50 mm (2 in) Drivers (CBT100LA-LS)",
  "b": "JBL",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CBT100LA-LS",
  "d": "Line Array Column Loudspeaker with with Sixteen 50 mm (2 in) Drivers and EN54:24 Certification",
- "specs": []
+ "specs": [
+  {
+   "label": "Drivers",
+   "value": "Sixteen 50 mm (2 in) Full-Range"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "120 Hz – 20 kHz"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "In Music Voicing, Broad Vertical Switch Settings: Frequency (kHz) Horizontal Coverage° Vertical Coverage°"
+  },
+  {
+   "label": "0.5 kHz",
+   "value": "360° 59°"
+  },
+  {
+   "label": "1 kHz",
+   "value": "247° 41°"
+  },
+  {
+   "label": "2 kHz",
+   "value": "194° 32°"
+  },
+  {
+   "label": "4 kHz",
+   "value": "135° 72°"
+  },
+  {
+   "label": "Frequency (kHz)",
+   "value": "Horizontal Coverage° Vertical Coverage°"
+  },
+  {
+   "label": "EN54 Sensitivity (@ 4m)",
+   "value": "76 dB (per EN54:24 spectrum and measurement conditions at 4 meters, set at broad/music mode.)"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "5Ω (in Thru mode) 15w@70v; 30w@100v Tap = 292Ω 30w@70v; 60w@100v Tap = 148Ω 60w@70v; 120w@100v Tap = 78Ω 120w@70v; N/C@100v Tap = 39Ω"
+  },
+  {
+   "label": "Power Capacity",
+   "value": "325 W (1300W peak), 2 hrs 200 W (800W peak), 100 hrs"
+  },
+  {
+   "label": "EN54 Max SPL (@ 4m)",
+   "value": "92 dB (per EN54:24 spectrum and measurement conditions, at 4 meters)"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/cbt-100la-ls",
+ "checked": "2026-10-18"
 }

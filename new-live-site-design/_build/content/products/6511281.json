@@ -1,6 +1,6 @@
 {
  "sku": "6511281",
- "order": 491,
+ "order": 443,
  "n": "UC Video Conference Smart Soundbar & Camera (UC-SB1-CAM)",
  "b": "Crestron",
  "c": "Video Conferencing System",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "UC-SB1-CAM",
  "d": "UC-SB1-CAM UC Video Conference Smart Soundbar & Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofers",
+   "value": "(2) 3 in. (76 mm) polypropylene cone w/rubber surround"
+  },
+  {
+   "label": "Passive Radiators",
+   "value": "(2) 3 x 4‑3/8 in. (76 x 112 mm) polypropylene cone w/rubber surround"
+  },
+  {
+   "label": "Tweeters",
+   "value": "(2) 1 in. (25 mm) polyester dome"
+  },
+  {
+   "label": "Amplifier Power",
+   "value": "20 W RMS per channel, stereo"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "80 Hz to 20 kHz (±3 dB)"
+  },
+  {
+   "label": "Effective Output Level",
+   "value": "91 dB SPL @ 1 m, both channels driven at full power"
+  },
+  {
+   "label": "Microphone",
+   "value": "Linear quad‑element far‑field adaptive beamforming microphone array"
+  },
+  {
+   "label": "Pickup Range",
+   "value": "15 ft. (4.6m)"
+  },
+  {
+   "label": "Pickup Angle",
+   "value": "180° horizontal and 180° vertical"
+  },
+  {
+   "label": "Microphone frequency response",
+   "value": "20 Hz to 8 kHz"
+  },
+  {
+   "label": "DSP",
+   "value": "Acoustic echo cancellation, dereverberation, automatic gain control, dynamic noise suppression, adaptive beamforming, speaker volume control, speaker EQ and limiting (fixed); Full‑duplex IEEE 1329 Type 1 compliant; NOTE:"
+  },
+  {
+   "label": "USB Audio In/Out",
+   "value": "USB 3.0, UAC 1.0 & HID, AEC‑enabled USB speakerphone, 2‑channel stereo far‑end/content signal input, 2‑channel mono microphone signal output; Plug & play compatible with the computer, or other USB Audio Class host"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Audio/Soundbar/UC-SB1-CAM",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "8120245",
- "order": 5321,
+ "order": 5203,
  "n": "VX Side panel, for HD: 2200x1000 mm, Rittal",
  "b": "Rittal",
  "c": "Accessories",
@@ -9,11 +9,41 @@
  "d": "VX Side panel, screw-fastened, for HD: 2200x1000 mm, sheet steel",
  "specs": [
   {
-   "label": "Type",
-   "value": "Rack Side panel"
+   "label": "Surface finish",
+   "value": "Dipcoat-primed, powder-coated on the outside"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Assembly parts"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX IT Height: = 2,200 mm Depth: = 1,000 mm"
+  },
+  {
+   "label": "IP protection category to IEC 60 529",
+   "value": "IP 55"
+  },
+  {
+   "label": "Packs of",
+   "value": "2 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "153.33 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
   }
  ],
  "for": [
   "5314116"
- ]
+ ],
+ "src": "https://www.rittal.com/ua-en/products/PG20231215ZUB101/PG20240313ZUB102/PG20240313ZUB103/PRO70135?variantId=8120245",
+ "checked": "2026-10-18"
 }

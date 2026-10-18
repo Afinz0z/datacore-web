@@ -1,6 +1,6 @@
 {
  "sku": "6510482",
- "order": 559,
+ "order": 502,
  "n": "Huddly IQ™ Collaboration Camera (CCS-CAM-USB-F-400)",
  "b": "Crestron",
  "c": "AV Camera",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CCS-CAM-USB-F-400",
  "d": "CCS-CAM-USB-F-400 Huddly IQ™ Collaboration Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "12 Megapixel 1/2.3 CMOS sensor"
+  },
+  {
+   "label": "Lens",
+   "value": "High precision, ultra wide angle, six element aspherical glass lens"
+  },
+  {
+   "label": "Field of View",
+   "value": "150º diagonal, 120º horizontal, 90º vertical"
+  },
+  {
+   "label": "Aperture",
+   "value": "f/2.8"
+  },
+  {
+   "label": "Processor",
+   "value": "Neural Compute Engine based on Intel® Movidius™ Myriad™ X video processing unit"
+  },
+  {
+   "label": "Pan/Tilt/Zoom",
+   "value": "4x lossless digital zoom, pan, and tilt"
+  },
+  {
+   "label": "Autozoom",
+   "value": "Genius Framing automatic lossless digital zoom intelligently frames around people in the room"
+  },
+  {
+   "label": "Auto-Flip",
+   "value": "Automatic 180° image rotation when mounted upside down"
+  },
+  {
+   "label": "Dynamic Light Optimization",
+   "value": "Auto-adjusts light levels and white balance"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "3D noise reduction, bias compensating spatio-temporal filtering, wide area chroma filtering, flicker elimination"
+  },
+  {
+   "label": "Scaling",
+   "value": "Real-time scaling, dewarping, and perspective correction"
+  },
+  {
+   "label": "People Counting",
+   "value": "Detects and reports the number of people in frame"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Camera/CCS-CAM-USB-F-400",
+ "checked": "2026-10-18"
 }

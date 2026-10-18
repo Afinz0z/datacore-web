@@ -1,6 +1,6 @@
 {
  "sku": "6511766",
- "order": 1001,
+ "order": 941,
  "n": "DM NAX® X-Series Flexible Output Amplifier, 300 W (DM-NAX-AMP-X300)",
  "b": "Crestron",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-AMP-X300",
  "d": "DM-NAX-AMP-X300 DM NAX® X-Series Flexible Output Amplifier, 300 W",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio input signal types",
+   "value": "Balanced/unbalanced analog line/mic-level and AoIP streams."
+  },
+  {
+   "label": "Balanced Analog Input",
+   "value": "Maximum signal level: +21 dBu (8.7 Vrms); Impedance: >10k Ohms; ƒ Response: 20 Hz to 20 kHz±0.5 dB; THD+N: <0.005% @ 1 KHz; S/N Ratio: 105 dB A-weight; Channel Separation: 100 dB @ 1 KHz"
+  },
+  {
+   "label": "Mic Input",
+   "value": "Maximum gain: 60 dB; Impedance: >10k Ohms; ƒ Response: 20 Hz to 20 kHz±0.5 dB; THD+N: <0.005% @ 1 KHz @ 60 dB gain; S/N Ratio: 71 dB @ 60 dB gain A-weight; Channel Separation: 69 dB @ 60 dB gain @ 1 KHz"
+  },
+  {
+   "label": "Balanced Analog Output",
+   "value": "Maximum signal level: +21 dBu (8.7 Vrms); Impedance: 200 Ohms; ƒ Response: 20 Hz to 20 kHz ±0.5 dB; THD+N: 0.005% @ 1 kHz at max output; S/N Ratio: 113 dB digital in, 105 dB analog in, 20 Hz -20 kHz, A-weight; Channel Se"
+  },
+  {
+   "label": "Speaker Output",
+   "value": "ƒ Response: 20 Hz to 20 kHz ±0.5 dB at 1 W; High-Pass Filter (70V and 100V operation only): -3 dB @ 80 Hz, -12 dB/octave; THD+N: <0.1% at 1 kHz @ -3 dB full rated output power; S/N Ratio: >103 dB, 20 Hz to 20 kHz, balanc"
+  },
+  {
+   "label": "Main Power",
+   "value": "1.2-0.6A @ 100-240VAC, 50/60 Hz"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "130 BTU/hr"
+  },
+  {
+   "label": "Height",
+   "value": "1.74 in. (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "9.38 in. (238 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "11.03 in. (280 mm)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "75 W (All channels driven at 1/8th power, 8 ohms)"
+  },
+  {
+   "label": "Temperature",
+   "value": "41 to 104°F (5° to 40°C)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Amplifiers/DM-NAX-AMP-X300",
+ "checked": "2026-10-18"
 }

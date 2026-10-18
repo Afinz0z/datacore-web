@@ -1,6 +1,6 @@
 {
  "sku": "6512320",
- "order": 1429,
+ "order": 1364,
  "n": "DM NAX® 4+1 Zone Streaming Amplifier (DM-NAX-4ZSA-50)",
  "b": "Crestron",
  "c": "Streaming Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-4ZSA-50",
  "d": "DM-NAX-4ZSA-50 DM NAX® 4+1 Zone Streaming Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio input signal types",
+   "value": "2 stereo analog (RCA); 2 digital S/PDIF (2 TOSLINK and 2 Coaxial); Up to 5 stereo DM NAX or AES67 audio-over-IP streams; Up to 5 stereo cloud-based media streams from streaming service providers"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "4 stereo speaker-level amplified outputs; 1 stereo analog line-level output; Up to 9 stereo DM NAX or AES67 audio-over-IP streams"
+  },
+  {
+   "label": "Sampling Rates and Bit Depths",
+   "value": "Digital Input (Coaxial): Up to 192 kHz, 24‑bit; Digital Input (Optical): Up to 192 kHz, 24‑bit; Media Players: Up to 192 kHz, 24‑bit"
+  },
+  {
+   "label": "Source Compensation",
+   "value": "±10.0 dB per input"
+  },
+  {
+   "label": "Input Monitoring",
+   "value": "Source Signal Detect"
+  },
+  {
+   "label": "Output Power",
+   "value": "50 W per channel at 4 or 8 Ohms"
+  },
+  {
+   "label": "Amplifier Monitoring",
+   "value": "Over Current, Over/Under Voltage, Over Temperature, DC Offset, Clipping"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.5 dB"
+  },
+  {
+   "label": "THD",
+   "value": "0.006%"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "110 dB digital in; 108 dB analog in"
+  },
+  {
+   "label": "Stereo Separation",
+   "value": "95 dB @ 1 kHz, 8 Ohm; 90 dB @ 1 kHz, 4 Ohm"
+  },
+  {
+   "label": "Zone Separation",
+   "value": "100 dB @ 1 kHz, 8 Ohm; 95 dB @ 1 kHz, 4 Ohm"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Amplifiers/DM-NAX-4ZSA-50",
+ "checked": "2026-10-18"
 }

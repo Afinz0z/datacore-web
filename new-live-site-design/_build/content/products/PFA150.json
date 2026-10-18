@@ -1,10 +1,61 @@
 {
  "sku": "PFA150",
- "order": 5267,
+ "order": 5149,
  "n": "Pole Mount Bracket",
  "b": "Dahua",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Appearance Color",
+   "value": "White"
+  },
+  {
+   "label": "Load bearing",
+   "value": "7.0 kg (15.43 lb)"
+  },
+  {
+   "label": "Installation",
+   "value": "Pole mount"
+  },
+  {
+   "label": "Pole Diameter",
+   "value": "Φ80 mm–150 mm (Φ3.15\"–5.91\")"
+  },
+  {
+   "label": "Applicable Camera",
+   "value": "Please see \"Camera Accessories Selection\""
+  },
+  {
+   "label": "Anti-corrosion Level",
+   "value": "Basic Protection"
+  },
+  {
+   "label": "Structure Product Material",
+   "value": "SECC; Hoop: SUS304"
+  },
+  {
+   "label": "Product Dimensions",
+   "value": "130.4 mm × 45.0 mm × 170.0 mm (5.13\" × 1.77\" × 6.69\") (L × W × H)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "1.09 kg (2.40 lb)"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "1.28 kg (2.82 lb)"
+  },
+  {
+   "label": "Packaging Dimensions",
+   "value": "177.0 mm × 177.0 mm × 52.0 mm (6.97\" × 6.97\" × 2.05\") (L × W × H)"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "–40 °C to +60 °C (–40 °F to +140 °F)"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/accessories/camera-accessories/camera-mounts/pole-mount-brackets/pfa150",
+ "checked": "2026-10-18"
 }

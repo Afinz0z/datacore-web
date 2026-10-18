@@ -1,13 +1,40 @@
 {
  "sku": "7980100",
- "order": 5303,
+ "order": 5185,
  "n": "DK FAN EXPANSION KIT",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product description",
+   "value": "Can be used as a stand-alone fan and for retrofitting various fan units or to extend the fan mounting plate."
+  },
+  {
+   "label": "Supply includes",
+   "value": "Fans Connection cable (0.61 m) Assembly components"
+  },
+  {
+   "label": "Rated power Pel",
+   "value": "At 50 Hz: 14 W At 60 Hz: 12 W"
+  },
+  {
+   "label": "Noise pressure level",
+   "value": "At 50 Hz: 34 dB(A) At 60 Hz: 34 dB(A)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "Width: 119 mm Height: 119 mm Depth: 25 mm ( Width: 4.69 ˝ Height: 4.69 ˝ Depth: 0.98 ˝ )"
+  },
+  {
+   "label": "Net weight",
+   "value": "0.43 kg"
+  }
+ ],
  "for": [
   "7507220"
- ]
+ ],
+ "src": "https://www.rittal.com/ca-en/products/PG20231215KLI101/PG20231245KLI1005/PG20240116KLI209/PRO0322?variantId=7980100",
+ "checked": "2026-10-18"
 }

@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CCC-BYOD-KIT",
  "d": "Crestron Collab Compute Bring Your Own Device (BYOD) Kit",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP"
+  },
+  {
+   "label": "HDMI over CAT5 Ethernet",
+   "value": "HDCP"
+  },
+  {
+   "label": "USB",
+   "value": "USB 2.0 and USB 3.0"
+  },
+  {
+   "label": "Input Signals",
+   "value": "HDMI, DisplayPort 1.2 via the USB Type-C® port"
+  },
+  {
+   "label": "Output Signal",
+   "value": "HDMI over CAT5"
+  },
+  {
+   "label": "Video resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Video Content Protection",
+   "value": "HDCP 1.4 and HDCP 2.2"
+  },
+  {
+   "label": "Input Signal",
+   "value": "HDMI, DisplayPort 1.2 via the USB Type-C port"
+  },
+  {
+   "label": "Audio output signal",
+   "value": "HDMI over CAT5"
+  },
+  {
+   "label": "Device Charging",
+   "value": "Up to 60 W charging for devices connected via the USB Type-C port"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "360 BTU/hr Idle, 430 BTU/hr typical; 553 BTU/hr maximum"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Foundation/Accessories/CCC-BYOD-KIT",
+ "checked": "2026-10-18"
 }

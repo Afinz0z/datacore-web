@@ -7,5 +7,44 @@
  "dept": "AV",
  "avail": "lead",
  "d": "27\" Player Monitor - 4K 120Hz",
- "specs": []
+ "specs": [
+  {
+   "label": "Display - Size [Inch]",
+   "value": "27"
+  },
+  {
+   "label": "Display - Resolution",
+   "value": "3840 x 2160"
+  },
+  {
+   "label": "Display - Panel Type",
+   "value": "IPS"
+  },
+  {
+   "label": "Display - Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Display - Color Gamut (Typ.)",
+   "value": "DCI-P3 95% (CIE1976)"
+  },
+  {
+   "label": "Display - Brightness (Typ.) [cd/m²]",
+   "value": "400"
+  },
+  {
+   "label": "Display - Refresh Rate (Max.) [Hz]",
+   "value": "144"
+  },
+  {
+   "label": "Display - Response Time",
+   "value": "1ms (GtG at Faster)"
+  },
+  {
+   "label": "Mechanical - Display Position Adjustments",
+   "value": "Tilt/Height/Pivot"
+  }
+ ],
+ "src": "https://www.lg.com/hk_en/monitors/gaming/27gr93u-b/",
+ "checked": "2026-10-18"
 }

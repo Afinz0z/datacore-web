@@ -1,11 +1,62 @@
 {
  "sku": "4000FE",
- "order": 2441,
+ "order": 2345,
  "n": "speaker cable",
  "b": "Belden",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
  "d": "Speaker cable(1000 Mtr)",
- "specs": []
+ "specs": [
+  {
+   "label": "Suitable Applications",
+   "value": "Commercial applications"
+  },
+  {
+   "label": "Outer Jacket1 Table Notes",
+   "value": "Ripcord provided under sheath"
+  },
+  {
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "7.1 mm (0.28 in)"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "23.3 Ohm/km (7.10 Ohm/1000ft)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor, Indoor, Non-Halogenated"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca"
+  },
+  {
+   "label": "CENELEC Compliance",
+   "value": "EN 50290-2-20"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU CE Mark, EU Directive 2011/65/EU (RoHS 2)"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "Update and Revision",
+   "value": "Revision Number: 0.363 Revision Date: 04-13-2026"
+  },
+  {
+   "label": "4000FE.001000",
+   "value": "Gray Reel 1,000 m 8719605006141"
+  }
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/4000fe",
+ "checked": "2026-10-18"
 }

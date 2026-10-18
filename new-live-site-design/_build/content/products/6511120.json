@@ -1,6 +1,6 @@
 {
  "sku": "6511120",
- "order": 2661,
+ "order": 2560,
  "n": "Multisurface Mount Kit for TSW-1070 Series, White Smooth (TSW-1070-MSMK-W-S)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,11 +8,38 @@
  "avail": "lead",
  "model": "TSW-1070-MSMK-W-S",
  "d": "TSW-1070-MSMK-W-S Multisurface Mount Kit for TSW-1070 Series, White Smooth",
- "specs": [],
+ "specs": [
+  {
+   "label": "Housing",
+   "value": "Plastic, black or white finish"
+  },
+  {
+   "label": "Surface Mounting",
+   "value": "Peel-and-stick adhesive mounting to glass or other flat, smooth surface"
+  },
+  {
+   "label": "Raceway",
+   "value": "Peel-and-stick adhesive mount plastic raceway, white (paintable), 0.77 in. W x 0.46 in. D (19.6 mm W x 11.7 mm D) profile; includes (3) 3 ft (0.91 m) straight sections, (2) straight couplers, (2) 90° flat elbows, (1) ins"
+  },
+  {
+   "label": "Without touch screen",
+   "value": "Height: 5.04 in. (128 mm); Width: 8.63 in. (219 mm); Depth: 1.69 in. (43 mm)"
+  },
+  {
+   "label": "With touch screen installed",
+   "value": "Height: 5.87 in. (149 mm); Width: 9.46 in. (240 mm); Depth: 2.28 in. (58 mm)"
+  },
+  {
+   "label": "With touch screen and light bar installed",
+   "value": "Height: 6.59 in. (167 mm); Width: 10.95 in. (278 mm); Depth: 2.25 in. (57 mm)"
+  }
+ ],
  "for": [
   "6510814",
   "6510818",
   "6510827",
   "6510830"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-1070-MSMK-W-S",
+ "checked": "2026-10-18"
 }

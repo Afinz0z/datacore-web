@@ -1,13 +1,54 @@
 {
  "sku": "7888618",
- "order": 3779,
+ "order": 3677,
  "n": "Rittal 24 U",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "TX CableNet, glazed, 24U WHD 600x1200x800, with side panels P/N. 7888618 - RITTAL",
- "specs": [],
+ "specs": [
+  {
+   "label": "Design",
+   "value": "2nd generation with glazed door with side panels With roof plate"
+  },
+  {
+   "label": "Surface finish",
+   "value": "Enclosure frame: Dipcoat-primed Enclosure panels: Dipcoat-primed, powder-coated"
+  },
+  {
+   "label": "General colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Units",
+   "value": "24 U"
+  },
+  {
+   "label": "Distance between levels as delivered",
+   "value": "445 mm"
+  },
+  {
+   "label": "Rear door design",
+   "value": "Sheet steel door, one-piece, solid"
+  },
+  {
+   "label": "Front door design",
+   "value": "Glazed door, one-piece"
+  },
+  {
+   "label": "Load capacity",
+   "value": "5000 N"
+  },
+  {
+   "label": "Load capacity (static)",
+   "value": "500 kg"
+  }
+ ],
  "acc": [
   "4612000",
   "5502115",
@@ -15,5 +56,7 @@
   "5503010",
   "6450060",
   "7990000"
- ]
+ ],
+ "src": "https://www.rittal.com/ie-en/products/PG20231215ITI101/PG20240402ITI203/PRO125564?variantId=7888618",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "6511886",
- "order": 1324,
+ "order": 1302,
  "n": "SPKA-GRILLE-IW4X8-AL",
  "b": "Crestron",
  "c": "Grilles",
  "dept": "AV",
  "avail": "lead",
  "d": "SPKA-GRILLE-IW4X8-AL Rectangular Grilles for 4 in. X 8 in. Reference In-Wall Speakers, Aluminum, 1 Pair",
- "specs": []
+ "specs": [
+  {
+   "label": "Rectangular",
+   "value": "SPKA-GRILLE-IWLCR62-AL; SPKA-GRILLE-IWLCR62-W-T"
+  },
+  {
+   "label": "Height",
+   "value": "15.84 in. (402 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.13 in. (206 mm)"
+  },
+  {
+   "label": "Thickness",
+   "value": "0.32 in. (8 mm)"
+  },
+  {
+   "label": "Reference In-Wall Speaker Grilles rectangular",
+   "value": "SPKA-GRILLE-IW4X8-AL; SPKA-GRILLE-IW4X8-W-T"
+  },
+  {
+   "label": "Reference In-Wall Speaker Grilles height",
+   "value": "12.42 in. (315 mm)"
+  },
+  {
+   "label": "Reference In-Wall Speaker Grilles width",
+   "value": "6.12 in. (155 mm)"
+  },
+  {
+   "label": "Reference In-Wall Speaker Grilles thickness",
+   "value": "0.27 in. (7 mm)"
+  },
+  {
+   "label": "Round",
+   "value": "SPKA-GRILLE-IC6/IC8-AL; SPKA-GRILLE-IC6/IC8-W-T"
+  },
+  {
+   "label": "Diameter",
+   "value": "10.20 in. (259 mm)"
+  },
+  {
+   "label": "Square",
+   "value": "SPKA-GRILLE-IC6/IC8-SQ-AL; SPKA-GRILLE-IC6/IC8-SQ-W-T"
+  },
+  {
+   "label": "All Weather Speaker Grilles round",
+   "value": "SPKA-GRILLE-IC6/IC8-AW-AL; SPKA-GRILLE-IC6/IC8-AW-W-T"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Local-AV-USB/Audio/In-Wall-Speaker-Accessories/SPKA-GRILLE-IW4X8-AL",
+ "checked": "2026-10-18"
 }

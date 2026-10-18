@@ -1,11 +1,30 @@
 {
  "sku": "6512671",
- "order": 2050,
+ "order": 1963,
  "n": "ADPT-USB3.0-GBENET",
  "b": "Crestron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
  "d": "ADPT-USB3.0-GBENET - USB-to-Ethernet Adapter for Audio Isolation",
- "specs": []
+ "specs": [
+  {
+   "label": "Data transmission speed",
+   "value": "1000 Mbps"
+  },
+  {
+   "label": "Height",
+   "value": "0.6 in (15 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.0 in (25 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.2 in (56 mm) plus 6 in. (152 mm) cord"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Flex-Conferencing/Accessories/ADPT-USB3-0-GBENET",
+ "checked": "2026-10-18"
 }

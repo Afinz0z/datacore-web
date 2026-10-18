@@ -1,6 +1,6 @@
 {
  "sku": "6511457",
- "order": 2309,
+ "order": 2217,
  "n": "Face Plate for TSW-770 Series, Black Smooth (TSW-770-FP-B-S)",
  "b": "Crestron",
  "c": "Faceplate",
@@ -8,17 +8,34 @@
  "avail": "lead",
  "model": "TSW-770-FP-B-S",
  "d": "TSW-770-FP-B-S Face Plate for TSW-770 Series, Black Smooth",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Installs over supported electrical box or cutout in mounting surface"
+  },
+  {
+   "label": "Height",
+   "value": "4.70 in. (119 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "7.33 in. (186 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.17 in. (4 mm) without touch screen; 0.70 in. (18 mm) with TSW-770"
+  },
+  {
+   "label": "Material",
+   "value": "Plastic, white or black smooth finish"
+  }
+ ],
  "for": [
   "6510813",
   "6510817",
   "6510826",
-  "6510829",
-  "6511329",
-  "6511330",
-  "6511517",
-  "6511518",
-  "6511778",
-  "6511779"
- ]
+  "6510829"
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-70-Series-Accessories/TSW-770-FP-B-S",
+ "checked": "2026-10-18"
 }

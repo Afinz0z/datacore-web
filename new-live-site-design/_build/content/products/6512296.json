@@ -1,6 +1,6 @@
 {
  "sku": "6512296",
- "order": 560,
+ "order": 503,
  "n": "Huddly® L1™ AI Collaboration Camera for Large Meeting Rooms (UC-CAM-L1)",
  "b": "Crestron",
  "c": "AV Camera",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "UC-CAM-L1",
  "d": "UC-CAM-L1 Huddly® L1™ AI Collaboration Camera for Large Meeting Rooms",
- "specs": [],
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "20.30 Megapixels 1 in. CMOS Sensor"
+  },
+  {
+   "label": "Lens",
+   "value": "High precision, wide angle, aspherical glass lens"
+  },
+  {
+   "label": "Field of View",
+   "value": "103º diagonal, 92º horizontal, 65º vertical"
+  },
+  {
+   "label": "Aperture",
+   "value": "f/2.9"
+  },
+  {
+   "label": "Pan/Tilt/Zoom",
+   "value": "5x digital zoom, pan, and tilt"
+  },
+  {
+   "label": "Autozoom",
+   "value": "Genius Framing automatic lossless digital zoom intelligently frames around people in the room"
+  },
+  {
+   "label": "Auto-Flip",
+   "value": "Automatic 180° image rotation when mounted upside down"
+  },
+  {
+   "label": "Dynamic Light Optimization",
+   "value": "Auto-adjusts light levels and white balance"
+  },
+  {
+   "label": "Aspect Ratio Output",
+   "value": "16:9"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "Noise reduction through bias compensating spatio-temporal filtering, wide area chroma filtering, flicker elimination"
+  },
+  {
+   "label": "Scaling",
+   "value": "Real-time scaling, dewarping, and perspective correction"
+  },
+  {
+   "label": "People Counting",
+   "value": "Detects and reports the number of people in the frame"
+  }
+ ],
  "acc": [
   "6510998",
   "6513792"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Camera/UC-CAM-L1",
+ "checked": "2026-10-18"
 }

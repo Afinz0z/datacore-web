@@ -1,6 +1,6 @@
 {
  "sku": "XNO-9082R",
- "order": 3251,
+ "order": 3149,
  "n": "4K IR Bullet Camera, 2.8~8.4mm motorized VF",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "WISENET, 4K IR Bullet Camera, 2.8~8.4mm motorized VF, IR 40m, IP66/IP67, IK10, NEMA4X",
  "specs": [
   {
+   "label": "Imaging Device",
+   "value": "Size 1/2.8\""
+  },
+  {
    "label": "Type",
-   "value": "Bullet Camera"
+   "value": "CMOS"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "30fps(@8MP Max. 5fps)"
+  },
+  {
+   "label": "Min. Illumination (Lux)",
+   "value": "Color(1/30sec, 30IRE) 0.05"
+  },
+  {
+   "label": "BW(1/30sec, 30IRE)",
+   "value": "0.005"
+  },
+  {
+   "label": "Video Out",
+   "value": "CVBS: 1.0 Vp-p / 75Ω composite for installation, USB: Micro USB Type B. Preview and installation ONLY. Requires WiFi dongle."
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "2.8~8.4"
+  },
+  {
+   "label": "Zoom Ratio",
+   "value": "Optical 3x"
+  },
+  {
+   "label": "Max Aperture Ratio (F number)",
+   "value": "Wide 1.2"
+  },
+  {
+   "label": "Tele",
+   "value": "2.8"
+  },
+  {
+   "label": "Angular Field of View",
+   "value": "Horizontal 114°~40°"
   }
- ]
+ ],
+ "src": "https://www.hanwhavision.com/us/products/product-details/XNO-9082R",
+ "checked": "2026-10-18"
 }

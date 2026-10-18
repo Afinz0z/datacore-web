@@ -1,10 +1,61 @@
 {
  "sku": "6512572",
- "order": 1971,
+ "order": 1885,
  "n": "DM-NUX-R2-1G-W",
  "b": "Crestron",
  "c": "Wall Plate / Extenders",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100Base-T or 1000Base-T, Layer 2"
+  },
+  {
+   "label": "LINK Speed",
+   "value": "Up to 480 Mbps, dependent upon network speed and quality"
+  },
+  {
+   "label": "USB Device Support",
+   "value": "USB 1.0/1.1 and 2.0 with Hub compatible including isochronous devices"
+  },
+  {
+   "label": "USB Hub Support",
+   "value": "Any signal chain may include up to 4 USB hubs plus one DM‑NUX‑L2‑1G and one DM‑NUX‑R2‑1G"
+  },
+  {
+   "label": "Maximum USB Devices",
+   "value": "30 USB devices, or 4 USB hubs with 26 USB devices"
+  },
+  {
+   "label": "Host Computer OS Support",
+   "value": "Windows®, macOS®, and Linux® operating systems"
+  },
+  {
+   "label": "USB Throughput",
+   "value": "USB 2.0 up to 480 Mbps, USB 1.1 up to 12 Mbps"
+  },
+  {
+   "label": "Construction",
+   "value": "Metal, black finish with white or black polycarbonate label overlay"
+  },
+  {
+   "label": "Flush Wall Mount",
+   "value": "Mounts in an unobstructed North American 1-gang electrical box (not included); FP-G1 series decorator style faceplate (not included)"
+  },
+  {
+   "label": "Height",
+   "value": "4.12 in. (105 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.72 in. (44 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.95 in. (50 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/USB-Endpoint/DM-NUX-R2-1G-W",
+ "checked": "2026-10-18"
 }

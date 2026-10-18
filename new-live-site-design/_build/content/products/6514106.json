@@ -1,6 +1,6 @@
 {
  "sku": "6514106",
- "order": 2658,
+ "order": 2557,
  "n": "Mullion Mount Kit for TSW-880 and TSW-1080 Series, White (TSW-880/1080-MUMK-W)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,28 @@
  "avail": "lead",
  "model": "TSW-880/1080-MUMK-W",
  "d": "TSW-880/1080-MUMK-W Mullion Mount Kit for TSW-880 and TSW-1080 Series, White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Housing",
+   "value": "Aluminum, steel"
+  },
+  {
+   "label": "Surface Mounting",
+   "value": "Attaches to the inside surface of a hollow metallic mullion in side or front mount configuration"
+  },
+  {
+   "label": "Height",
+   "value": "2.51 in. (64 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.97 in. (227 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.12 in. (28 mm)"
+  }
+ ],
  "for": [
   "6513822",
   "6513823",
@@ -23,5 +44,7 @@
   "6513839",
   "6513920",
   "6513928"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/TSW-80-Series-Accessories/TSW-880-1080-MUMK-W",
+ "checked": "2026-10-18"
 }

@@ -1,13 +1,56 @@
 {
  "sku": "5501655",
- "order": 5319,
+ "order": 5201,
  "n": "Static shelf, depth 400 - 600 mm",
  "b": "Rittal",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Applications",
+   "value": "Depth-variable to adapt to individual distances between levels"
+  },
+  {
+   "label": "Surface finish",
+   "value": "Spray-finished"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL 9005"
+  },
+  {
+   "label": "Supply includes",
+   "value": "Assembly parts"
+  },
+  {
+   "label": "Installation options",
+   "value": "482.6 mm (19\") L mounting angles, front and rear"
+  },
+  {
+   "label": "Load capacity",
+   "value": "50 kg"
+  },
+  {
+   "label": "To fit",
+   "value": "Enclosure type: VX IT TS IT TE TX CableNet"
+  },
+  {
+   "label": "Distance between levels",
+   "value": "400 ‐ 600 mm"
+  },
+  {
+   "label": "Units",
+   "value": "0.5 U"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  }
+ ],
  "for": [
   "5307114"
- ]
+ ],
+ "src": "https://www.rittal.com/nz-en/products/PG20231215ZUB101/PG2024040ZUB108/PRO29853?variantId=5501655",
+ "checked": "2026-10-18"
 }

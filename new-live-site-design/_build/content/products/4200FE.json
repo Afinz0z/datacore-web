@@ -1,6 +1,6 @@
 {
  "sku": "4200FE",
- "order": 3870,
+ "order": 3768,
  "n": "2 Core 16AWG Control Cable",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -9,12 +9,54 @@
  "d": "16AWG/2C ST BC PO COLL FOIL LSNH GREY 300V 500MT/ROLL",
  "specs": [
   {
-   "label": "Type",
-   "value": "Speaker Cable"
+   "label": "Suitable Applications",
+   "value": "Intercom/PA Systems, Sound/Audio Systems, Control Systems"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Outer Jacket1 Table Notes",
+   "value": "Ripcord provided under sheath"
+  },
+  {
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "4.7 mm (0.19 in)"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "15.4 Ohm/km (4.69 Ohm/1000ft)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Euroclass Eca, Non-Halogenated"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca"
+  },
+  {
+   "label": "CENELEC Compliance",
+   "value": "EN 50290-2-20"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU Directive 2011/65/EU (RoHS 2)"
+  },
+  {
+   "label": "UK Regulation Compliance",
+   "value": "UKCA Mark"
+  },
+  {
+   "label": "Update and Revision",
+   "value": "Revision Number: 0.530 Revision Date: 02-20-2026"
+  },
+  {
+   "label": "4200FE.00500",
+   "value": "Gray, RAL 7032 Reel 500 m 8719605006318"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/4200fe",
+ "checked": "2026-10-18"
 }

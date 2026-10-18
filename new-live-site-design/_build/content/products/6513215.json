@@ -1,6 +1,6 @@
 {
  "sku": "6513215",
- "order": 2642,
+ "order": 2543,
  "n": "1 Beyond Universal Mount Bracket, Bright White (IV-CAMA-UMB-W)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,7 +8,28 @@
  "avail": "lead",
  "model": "IV-CAMA-UMB-W",
  "d": "IV-CAMA-UMB-W Crestron 1 Beyond Universal Mount Bracket, Bright White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.73 in. (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.90 in. (226 mm)"
+  },
+  {
+   "label": "Length",
+   "value": "8.33 in. (212 mm)"
+  },
+  {
+   "label": "Base Material",
+   "value": "Die-cast aluminum"
+  },
+  {
+   "label": "Cover Material",
+   "value": "Plastic"
+  }
+ ],
  "for": [
   "6513202",
   "6513204",
@@ -21,5 +42,7 @@
   "6513987",
   "6513988",
   "6514446"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Accessories/IV-CAMA-UMB-W",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6510860",
- "order": 1864,
+ "order": 1778,
  "n": "DMPS Essentials 4K Multiformat 2x1 AV Switch and Receiver (HD-RX-4K-210-C-E)",
  "b": "Crestron",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-RX-4K-210-C-E",
  "d": "HD-RX-4K-210-C-E DMPS Essentials 4K Multiformat 2x1 AV Switch and Receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Switcher",
+   "value": "2x1 auto-switching or manual, audio-follows-video, Crestron Auto-Locking® and QuickSwitch HD™ technologies"
+  },
+  {
+   "label": "Scaler (HDMI Output)",
+   "value": "4K video scaler with intelligent frame rate conversion, Deep Color support, content-adaptive noise reduction, 3:2/2:2 pull-down detection and recovery"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with Deep Color and 4K (DVI and Dual Mode DisplayPort™ interface compatible) on Input 1, DM Essentials with Deep Color and 4K on Input 2"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with Deep Color and 4K (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (Dual-Mode DisplayPort compatible), DM Essentials"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "HDMI, stereo analog"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "2-channel LPCM"
+  },
+  {
+   "label": "Audio analog formats",
+   "value": "Stereo 2-channel"
+  },
+  {
+   "label": "Digital-to-Analog Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "200 Ω balanced; 100 Ω unbalanced"
+  },
+  {
+   "label": "Maximum Output Level",
+   "value": "4Vrms balanced; 2Vrms unbalanced"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Receiver-w-Switching/HD-RX-4K-210-C-E",
+ "checked": "2026-10-18"
 }

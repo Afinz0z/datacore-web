@@ -1,6 +1,6 @@
 {
  "sku": "6512359",
- "order": 459,
+ "order": 433,
  "n": "Flex All-In-One Videobar 70 for Microsoft Teams® Rooms, International (UC-SB2-CAM-A-T-I)",
  "b": "Crestron",
  "c": "Video Conferencing System",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "UC-SB2-CAM-A-T-I",
  "d": "UC-SB2-CAM-A-T-I Crestron Flex All-In-One Videobar 70 for Microsoft Teams® Rooms, International",
- "specs": [],
+ "specs": [
+  {
+   "label": "Speaker",
+   "value": "Dual 10 W speakers"
+  },
+  {
+   "label": "Audio DSP",
+   "value": "Acoustic echo cancellation, dereverberation, automatic gain control, dynamic noise suppression, adaptive beamforming, speaker volume control, speaker EQ and limiting (fixed)"
+  },
+  {
+   "label": "Microphone",
+   "value": "24 mic linear array"
+  },
+  {
+   "label": "Quad Camera Configuration",
+   "value": "(1) Main camera; (1) Left, (1) center, and (1) right sub cameras with 14º overlap"
+  },
+  {
+   "label": "Main Camera Optics",
+   "value": "Main camera 20 Megapixels 1 in. sensor"
+  },
+  {
+   "label": "Camera Field of View",
+   "value": "Main Camera: 84.3º horizontal, 53.8º vertical; Left, center and right sub cameras: 41º horizontal, 23º vertical"
+  },
+  {
+   "label": "Camera Resolution",
+   "value": "Main Camera: 5472 x 3078 pixels; Left, center and right sub camera: 3840 x 2160 pixels"
+  },
+  {
+   "label": "Auto zoom",
+   "value": "7.5x digital zoom"
+  },
+  {
+   "label": "Camera Shutter",
+   "value": "Mechanical, electronically controlled"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps Ethernet connectivity"
+  },
+  {
+   "label": "Wi-Fi® Connectivity",
+   "value": "Dual Band Simultaneous Wi-Fi 6 2x2 80 MHz"
+  },
+  {
+   "label": "Bluetooth® Connectivity",
+   "value": "Bluetooth 5.2 (for future use)"
+  }
+ ],
  "acc": [
   "6513416",
   "6513417"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Audio/Smart-Soundbars/UC-SB2-CAM-A-T-I",
+ "checked": "2026-10-18"
 }

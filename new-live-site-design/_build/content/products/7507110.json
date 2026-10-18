@@ -1,14 +1,57 @@
 {
  "sku": "7507110",
- "order": 3772,
+ "order": 3670,
  "n": "DK Flat Box, WHD: 600x492x600 mm, 9 U - Rittal",
  "b": "Rittal",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "DK FlatBox, WHD: 600x492x600 mm, 9 U, with 482.6 mm (19\") mounting angles",
- "specs": [],
+ "specs": [
+  {
+   "label": "Version",
+   "value": "with 19\" mounting rails"
+  },
+  {
+   "label": "Product description",
+   "value": "For flexible use as a wall-mounted or floor-standing enclosure."
+  },
+  {
+   "label": "Surface finish",
+   "value": "Powder-coated"
+  },
+  {
+   "label": "Color",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Height units",
+   "value": "9 U"
+  },
+  {
+   "label": "Installation height for components",
+   "value": "9 U"
+  },
+  {
+   "label": "Load capacity",
+   "value": "max. 450 N"
+  },
+  {
+   "label": "Note",
+   "value": "Max. installation depth: Depth - 58 mm to rear panel"
+  },
+  {
+   "label": "PCF/VE (cradle-to-gate)",
+   "value": "102.9 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Information regarding the PCF class",
+   "value": "Category B: PCF value (cradle-to-gate) calculated approximately on the basis of the product weight and self-declared"
+  }
+ ],
  "acc": [
   "7159035"
- ]
+ ],
+ "src": "https://www.rittal.com/ca-en/products/PG20231215ITI101/PG20240402ITI202/PRO0042?variantId=7507110",
+ "checked": "2026-10-18"
 }

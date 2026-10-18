@@ -1,6 +1,6 @@
 {
  "sku": "Server Core X50r",
- "order": 1659,
+ "order": 1578,
  "n": "Network I/O processor (Server Core X50r)",
  "b": "QSC",
  "c": "Control Processor",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "Server Core X50r",
  "d": "Network I/O processor",
- "specs": [],
+ "specs": [
+  {
+   "label": "@ 10Gbps",
+   "value": "4096 x 4096"
+  },
+  {
+   "label": "@ 1Gbps",
+   "value": "512 x 512"
+  },
+  {
+   "label": "Dante network I/O",
+   "value": "8 x 8 included (up to 512 x 512 with Software-based Dante feature license)"
+  },
+  {
+   "label": "Media/WAN channel capacity",
+   "value": "256 x 256"
+  },
+  {
+   "label": "VoIP softphones",
+   "value": "96"
+  },
+  {
+   "label": "AEC channels (at 200 ms tail length)",
+   "value": "256"
+  },
+  {
+   "label": "Audio recording / playback",
+   "value": "4 channels recording / 16 channels playback, [expandable up to 256 channels playback with optional multi track playback license (SLMTP-32) stackable up to 8x]"
+  },
+  {
+   "label": "Media drive capacity",
+   "value": "960 GB (at least 900 GB available for user media, or at least 1800 hours of uncompressed 48 kHz, 24 bit, mono WAV format audio files)"
+  },
+  {
+   "label": "Hardware Platform",
+   "value": "Dell PowerEdge R570"
+  },
+  {
+   "label": "Power",
+   "value": "2x universal input, 1100 W PSU module"
+  },
+  {
+   "label": "LAN",
+   "value": "4x 10Gbps capable SFP+ ports (pre-installed 2x 10Gbps multi-mode fiber / 2x 1Gbps copper RJ45; field-replaceable)"
+  },
+  {
+   "label": "USB",
+   "value": "2x USB-A"
+  }
+ ],
  "acc": [
   "SLDAN-32-P"
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/processing/server-core-x50r/",
+ "checked": "2026-10-18"
 }

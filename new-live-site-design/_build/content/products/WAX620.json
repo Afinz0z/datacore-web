@@ -1,6 +1,6 @@
 {
  "sku": "WAX620",
- "order": 3112,
+ "order": 3010,
  "n": "AP WiFi 6 AX3600 Dual Band POE Indoor - Netgear",
  "b": "Netgear",
  "c": "ACCESS POINT",
@@ -9,8 +9,44 @@
  "d": "AP WiFi 6 AX3600 Dual Band POE Multi-Gig Insight Managed Indoor AP // 1-Year NETGEAR Insight Subscription Included",
  "specs": [
   {
-   "label": "Type",
-   "value": "Indoor campus access point"
+   "label": "Speed",
+   "value": "AX3600"
+  },
+  {
+   "label": "# of Max Users",
+   "value": "256"
+  },
+  {
+   "label": "# of Concurrent Users",
+   "value": "75"
+  },
+  {
+   "label": "Ideal Use",
+   "value": "Small and Medium Business"
+  },
+  {
+   "label": "Ethernet port",
+   "value": "2.5G"
+  },
+  {
+   "label": "PoE",
+   "value": "Yes"
+  },
+  {
+   "label": "Wireless Mesh",
+   "value": "Yes – Dual band with a shared backhaul. Compatible with WAX610, WAX610Y, WAC540, WAC564"
+  },
+  {
+   "label": "Remote management",
+   "value": "NETGEAR Insight and Standalone"
+  },
+  {
+   "label": "Dimensions (W x D x H)",
+   "value": "205.7 x 205.7 x 34.3 mm (8.09 x 8.09 x 1.35 in)"
+  },
+  {
+   "label": "Weight",
+   "value": "783 g (1.72 lb)"
   }
  ],
  "acc": [
@@ -31,5 +67,7 @@
   "NPR5PK1-10000S",
   "NPR5PK3-10000S",
   "NPR5PK5-10000S"
- ]
+ ],
+ "src": "https://www.netgear.com/ca-en/business/wifi/access-points/wax620/",
+ "checked": "2026-10-18"
 }

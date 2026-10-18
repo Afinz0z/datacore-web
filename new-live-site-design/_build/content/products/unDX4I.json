@@ -1,6 +1,6 @@
 {
  "sku": "unDX4I",
- "order": 2562,
+ "order": 2463,
  "n": "4x2 Channel Dual Gang, Dante/AES67 US Wall Plate 4 (unDX4I)",
  "b": "QSC",
  "c": "Audio Wallplate",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "unDX4I",
  "d": "4x2 Channel Dual Gang, Dante/AES67 US Wall Plate 4",
- "specs": []
+ "specs": [
+  {
+   "label": "Input types",
+   "value": "4x XLR (balanced and RF filtered)"
+  },
+  {
+   "label": "Gain",
+   "value": "-18 dB, -3 dB, +25 dB and +40 dB, software selectable"
+  },
+  {
+   "label": "Maximum input level",
+   "value": "+20 dBu @ -18 dB gain, +6 dBu @ - 3 dB gain, -23 dBu @ +25 dB gain -38 dBu @ +40 dB gain"
+  },
+  {
+   "label": "Phantom power",
+   "value": "+48 V, software selectable"
+  },
+  {
+   "label": "Output type",
+   "value": "Two balanced line level with automatic muting on loss of Dante signal on 3-pin depluggable Phoenix"
+  },
+  {
+   "label": "Attenuation range",
+   "value": "Software controlled volume (0 to -60 dB, 1 dB increments)"
+  },
+  {
+   "label": "Maximum output levels",
+   "value": "+20 dBu at 0 dB attenuation"
+  },
+  {
+   "label": "Physical level",
+   "value": "Standard ethernet"
+  },
+  {
+   "label": "Connector",
+   "value": "Single RJ-45"
+  },
+  {
+   "label": "Cable quality",
+   "value": "CAT-5e or higher"
+  },
+  {
+   "label": "Transmission speed",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "PoE",
+   "value": "802.3af PoE PD compliant"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/audio-io-peripherals/attero-tech-peripherals-non-q-sys-native/at-wall-mount-network-audio-interfaces/undx4i/",
+ "checked": "2026-10-18"
 }

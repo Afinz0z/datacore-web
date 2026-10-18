@@ -1,6 +1,6 @@
 {
  "sku": "5309126",
- "order": 3780,
+ "order": 3678,
  "n": "Rittal 42U Rack",
  "b": "Rittal",
  "c": "NETWORK CABINET",
@@ -9,8 +9,50 @@
  "d": "[53591586] \"VX IT, solid, 19\"\"mounting angles mounting anglesstandard,RAL7035,WHD 800x2000x1000mm,42U P/N.5309126 - RITTAL\"",
  "specs": [
   {
-   "label": "Type",
-   "value": "42u"
+   "label": "Surface finish",
+   "value": "Enclosure frame: Dipcoat-primed Interior: Spray-finished Rear door and roof: dipcoat-primed, powder-coated Front door: Aluminum, anodized/spray-finished"
+  },
+  {
+   "label": "General color",
+   "value": "RAL 7035"
+  },
+  {
+   "label": "Height units",
+   "value": "42 U"
+  },
+  {
+   "label": "Mounting space to 19\" level, front/rear",
+   "value": "87 mm / 193 mm"
+  },
+  {
+   "label": "Distance between levels as delivered",
+   "value": "720 mm ( 28.3 ˝ )"
+  },
+  {
+   "label": "19\" attachment",
+   "value": "On depth stays, screw-fastened at the top and bottom"
+  },
+  {
+   "label": "Version",
+   "value": "Standard"
+  },
+  {
+   "label": "Roof version",
+   "value": "multi-piece, with side depth-adjustable cable entry on both sides, prepared for fan mounting plate"
+  },
+  {
+   "label": "Design of rear door",
+   "value": "Carbon steel door rear, closed, vertically divided, 180° hinges"
+  },
+  {
+   "label": "Design for front door",
+   "value": "Glazed aluminum door, solid, one-piece, 180° hinges"
+  },
+  {
+   "label": "Versions of profile rails",
+   "value": "19\" standard profile rails in VX IT"
   }
- ]
+ ],
+ "src": "https://www.rittal.com/ca-en/products/PG20231215ITI101/PG20240402ITI203/PRO106564?variantId=5309126",
+ "checked": "2026-10-18"
 }

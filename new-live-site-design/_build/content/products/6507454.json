@@ -1,6 +1,6 @@
 {
  "sku": "6507454",
- "order": 1379,
+ "order": 1314,
  "n": "6-Channel USB Microphone Mixer (MMX-6-USB)",
  "b": "Crestron",
  "c": "Audio Mixer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MMX-6-USB",
  "d": "MMX-6-USB 6-Channel USB Microphone Mixer",
- "specs": []
+ "specs": [
+  {
+   "label": "Sampling Rate and Bit Depth",
+   "value": "48 kHz, 16-bit"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz, ±0.5 dB"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "100 dB (single channel @ 0 dB level settings)"
+  },
+  {
+   "label": "THD+N",
+   "value": "<-100 dB"
+  },
+  {
+   "label": "Crosstalk",
+   "value": ">70 dB"
+  },
+  {
+   "label": "USB",
+   "value": "USB 2.0 device for connection to a codec or a PC"
+  },
+  {
+   "label": "Power Pack",
+   "value": "0.5 Amps @ 12 Volts DC; 100-240 Volts AC, 50/60 Hz power pack, model PW-1215WU included"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IFE medium form factor, black and blue plastic"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding, stackable, surface mount, or 35 mm DIN EN 60715 rail mount; Surface/DIN rail mounting bracket included; Optional rack mount kit ( RMK-IFE-1U )sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "1.37 in (35 mm); 1.78 in (46 mm) with bracket"
+  },
+  {
+   "label": "Width",
+   "value": "7.01 in (178 mm); 7.35 in (187 mm) with bracket"
+  },
+  {
+   "label": "Depth",
+   "value": "7.01 in (178 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Mixers/MMX-6-USB",
+ "checked": "2026-10-18"
 }

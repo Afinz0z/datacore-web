@@ -1,6 +1,6 @@
 {
  "sku": "6508441",
- "order": 2326,
+ "order": 2232,
  "n": "AC Power Outlet Module for FT2 Series, Dual, Universal (FT2A-PWR-UN-2)",
  "b": "Crestron",
  "c": "Cable Cubby",
@@ -8,7 +8,24 @@
  "avail": "lead",
  "model": "FT2A-PWR-UN-2",
  "d": "FT2A-PWR-UN-2 AC Power Outlet Module for FT2 Series, Dual, Universal",
- "specs": [],
+ "specs": [
+  {
+   "label": "Composition",
+   "value": "Precision-fit plastic drop-in module, black"
+  },
+  {
+   "label": "Mounting",
+   "value": "Requires four consecutive module slots within the FlipTop chassis"
+  },
+  {
+   "label": "Temperature",
+   "value": "0° to 45° C (32° to 113° F)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "for": [
   "6511653",
   "6511654",
@@ -25,5 +42,7 @@
   "6511977",
   "6511978",
   "6511980"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Fliptops/Power-Module/FT2A-PWR-UN-2",
+ "checked": "2026-10-18"
 }

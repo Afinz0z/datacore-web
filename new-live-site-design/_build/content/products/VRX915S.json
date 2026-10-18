@@ -1,11 +1,62 @@
 {
  "sku": "VRX915S",
- "order": 899,
+ "order": 839,
  "n": "VRX915S",
  "b": "JBL",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "15 in. Bass Reflex Subwoofer",
- "specs": []
+ "specs": [
+  {
+   "label": "VRX915S BIM Object updated: Jul 2023",
+   "value": "Jul 2023"
+  },
+  {
+   "label": "Venue Synthesis released: Jul 2026",
+   "value": "Jul 2026"
+  },
+  {
+   "label": "Performance Manager 3 released: Jul 2024",
+   "value": "Jul 2024"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "35 Hz - 250 Hz"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "40 Hz - 250 Hz"
+  },
+  {
+   "label": "System Maximum SPL",
+   "value": "126 dB SPL"
+  },
+  {
+   "label": "System Sensitivity (1w @ 1m)",
+   "value": "91 dB SPL"
+  },
+  {
+   "label": "LF Driver",
+   "value": "1 x JBL 2265G-1, 250 mm (15 in) Differential Drive® woofer"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "4 Ohms"
+  },
+  {
+   "label": "Active Tunings",
+   "value": "Tunings available at www.jblpro.com"
+  },
+  {
+   "label": "Enclosure",
+   "value": "15 mm - 18 mm, multi ply birch plywood"
+  },
+  {
+   "label": "Finish",
+   "value": "Black DuraFlex™ finish"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/vrx915s",
+ "checked": "2026-10-18"
 }

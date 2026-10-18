@@ -1,6 +1,6 @@
 {
  "sku": "4300FE",
- "order": 3871,
+ "order": 3769,
  "n": "2 Core 18AWG Control Cable",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -9,8 +9,54 @@
  "d": "18AWG/2C ST BC PO COLL FOIL LSNH GREY 300V 500MT/ROLL",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Suitable Applications",
+   "value": "Intercom/PA Systems, Sound/Audio Systems"
+  },
+  {
+   "label": "Life Cycle",
+   "value": "Active - Product is available"
+  },
+  {
+   "label": "Discontinuation Announcement Date",
+   "value": "2024-04-29"
+  },
+  {
+   "label": "Outer Jacket1 Table Notes",
+   "value": "Ripcord provided under sheath"
+  },
+  {
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "4.15 mm (0.163 in)"
+  },
+  {
+   "label": "Nom Outer Shield DCR",
+   "value": "23.6 Ohm/km (7.19 Ohm/1000ft)"
+  },
+  {
+   "label": "Max. Pull Tension",
+   "value": "90 N (20 lbf)"
+  },
+  {
+   "label": "Environmental Suitability",
+   "value": "Indoor - Euroclass Eca, Indoor, Non-Halogenated"
+  },
+  {
+   "label": "Flammability / Reaction to Fire",
+   "value": "IEC 60332-1-2"
+  },
+  {
+   "label": "CPR Compliance",
+   "value": "CPR Euroclass: Eca; CPR UKCA Class: Eca"
+  },
+  {
+   "label": "CENELEC Compliance",
+   "value": "EN 50290-2-20"
+  },
+  {
+   "label": "European Directive Compliance",
+   "value": "EU CE Mark, EU Directive 2011/65/EU (RoHS 2)"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-copper/4300fe",
+ "checked": "2026-10-18"
 }

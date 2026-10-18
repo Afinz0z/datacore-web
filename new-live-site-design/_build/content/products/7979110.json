@@ -1,14 +1,65 @@
 {
  "sku": "7979110",
- "order": 4202,
+ "order": 4100,
  "n": "PDU basic 16A/1P CEE 12xC13+1xC19 Rittal",
  "b": "Rittal",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "PDU basic 16A/1P CEE 12xC13+1xC19",
- "specs": [],
+ "specs": [
+  {
+   "label": "Best.-nr.",
+   "value": "DK 7979110"
+  },
+  {
+   "label": "Udgave",
+   "value": "PDU Basic"
+  },
+  {
+   "label": "Fordele",
+   "value": "Ved lodret montage kan placeringen i Zero-U-Space i Rittal VX IT eller TS IT rack sker uden brug af værktøj"
+  },
+  {
+   "label": "Leveringsomfang",
+   "value": "Stiklås til IEC C14, C20 stik Inkl. montagematerialer"
+  },
+  {
+   "label": "Valgmuligheder",
+   "value": "Overspændingsbeskyttelse type 3 med hot swap-afledere, med statusovervågning, kan integreres i PDU-kabinet Kabinet fås også i andre farver"
+  },
+  {
+   "label": "Antal stikdåser og type",
+   "value": "12 x C13 / 1 x C19"
+  },
+  {
+   "label": "Mærkedriftsspænding",
+   "value": "230 V (AC)"
+  },
+  {
+   "label": "Mærkestrøm (maks.)",
+   "value": "16 A"
+  },
+  {
+   "label": "Nom. effekt",
+   "value": "3,7 kW"
+  },
+  {
+   "label": "Strømforsyninger",
+   "value": "Antal: 1 Faser per forsyning: 1~"
+  },
+  {
+   "label": "Længde tilslutningskabel",
+   "value": "3 m"
+  },
+  {
+   "label": "Tilslutningstype (elektrisk)",
+   "value": "CEE"
+  }
+ ],
  "for": [
   "5314116"
- ]
+ ],
+ "src": "https://www.rittal.com/lt-en/products/PG20231215ITI101/PG20240403ITI201/PG20240913ITI001/PG20240925ZUB101/PRO115364?variantId=7979110",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "6514203",
- "order": 2949,
+ "order": 2847,
  "n": "CEN-SWPOE-52-ULTRA-TAA",
  "b": "Crestron",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "CEN-SWPOE-52-ULTRA-TAA 52 Port Ultra PoE Managed Switch, TAA Compliant",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ethernet ports",
+   "value": "(44) 2.5 Gigabit auto-sensing Ethernet w/PoE++; (4) 10 Gigabit auto-sensing 10G/Multi-Gigabit Ethernet w/PoE++; (4) 25 Gigabit Base-X SFP28"
+  },
+  {
+   "label": "Network Standards",
+   "value": "IEEE 802.3af, 802.3at, 802.3bt"
+  },
+  {
+   "label": "MAC Addresses",
+   "value": "Up to 16K"
+  },
+  {
+   "label": "Switch Fabric",
+   "value": "500 bps non-blocking"
+  },
+  {
+   "label": "Management",
+   "value": "Out-of-band; IT Web GUI (main); HTTPs, CLI, Telnet, SSH; SNMP, MIBs, RSPAN; Radius users, TACACS+"
+  },
+  {
+   "label": "IPv4/IPv6 ACL and QoS",
+   "value": "Ingress/egress; 1 Kbps shaping, time-based; Single rate policing"
+  },
+  {
+   "label": "IPv4/IPv6 Multicast Filtering",
+   "value": "Automated IGMP between switches; IGMPv3 MLDv2 snooping, proxy ASM and SSM; IGMPv1, v2 querier (compatible with v3); Control packet flooding"
+  },
+  {
+   "label": "IPv4/IPv6 Policing and Convergence",
+   "value": "Auto-VoIP; Policy-based routing; LLDP-MED; IEEE 1588 PTPv2"
+  },
+  {
+   "label": "IPv4/IPv6 Authentication Security",
+   "value": "Successive tiering (DOT1X, MAB, Captive portal); DHCP snooping; Dynamic ARP inspection; IP source guard"
+  },
+  {
+   "label": "IPv4/IPv6 Static Routing",
+   "value": "Port, subnet, VLAN routing; Multicast static routes; DHCPv4 server; DHCP relay; Stateful DHCPv6 Server"
+  },
+  {
+   "label": "IPv4/IPv6 Dynamic Routing",
+   "value": "IPv4: RIP; IPv4/IPv6: PIM-SM, PIM-DM, SSM"
+  },
+  {
+   "label": "Spanning Tree Green Ethernet",
+   "value": "STP, MTP, RSTP; PV(R)STP; BPDU/STRG; EEE 802.3az"
+  }
+ ],
  "acc": [
   "6514210"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Network-Switches/Managed/CEN-SWPOE-52-ULTRA-TAA",
+ "checked": "2026-10-18"
 }

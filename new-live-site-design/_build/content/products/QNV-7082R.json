@@ -1,11 +1,62 @@
 {
  "sku": "QNV-7082R",
- "order": 3250,
+ "order": 3148,
  "n": "4 MP Dome camera",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "4MP IR Vandal Dome Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Imaging Device",
+   "value": "Size 1/3\""
+  },
+  {
+   "label": "Type",
+   "value": "CMOS"
+  },
+  {
+   "label": "Resolution",
+   "value": "2560x1440, 1920x1080, 1280x960, 1280x720, 800x600, 800x448, 720x576, 720x480, 640x480, 640x360, 320x240"
+  },
+  {
+   "label": "Max. Framerate",
+   "value": "H.265/H.264 30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "15fps(@4MP Max. 2fps)"
+  },
+  {
+   "label": "Min. Illumination (Lux)",
+   "value": "Color(1/30sec, 30IRE) 0.1"
+  },
+  {
+   "label": "BW(1/30sec, 30IRE)",
+   "value": "0.01"
+  },
+  {
+   "label": "Video Out",
+   "value": "CVBS: 1.0 Vp-p / 75Ω composite for installation"
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "3.2~10"
+  },
+  {
+   "label": "Zoom Ratio",
+   "value": "Optical 3.1x"
+  },
+  {
+   "label": "Max Aperture Ratio (F number)",
+   "value": "Wide 1.6"
+  },
+  {
+   "label": "Tele",
+   "value": "2.9"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/ca/products/product-details/QNV-7082R",
+ "checked": "2026-10-18"
 }

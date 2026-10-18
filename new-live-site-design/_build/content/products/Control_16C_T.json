@@ -1,11 +1,62 @@
 {
  "sku": "Control 16C/T",
- "order": 882,
+ "order": 822,
  "n": "6.5 inch Coaxial Ceiling Loudspeaker",
  "b": "JBL",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Two-Way 6.5\" Coaxial Ceiling Loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "CONTROL 16C/T BIM Object updated: Aug 2019",
+   "value": "Aug 2019"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "62 Hz – 20 kHz"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "30 W, 15 W, 7.5 W @ 70V or 100V (plus 3.8 W @ 70V only)"
+  },
+  {
+   "label": "Frequency Response (±3 dB)",
+   "value": "96 Hz – 15 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "91 dB (1kHz - 16 kHz)"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "110° conical"
+  },
+  {
+   "label": "Directivity Factor (Q)",
+   "value": "7.8"
+  },
+  {
+   "label": "Directivity Index (DI)",
+   "value": "8.2 dB"
+  },
+  {
+   "label": "Maximum SPL (1m)",
+   "value": "108 dB (low-impedance, 116 dB peak) 106 dB (top 70V/100V tap)"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 ohms (in direct/bypass setting)"
+  },
+  {
+   "label": "Crossover Network",
+   "value": "12 dB/oct (2nd order) low-pass to LF driver, 12 dB/oct (2nd order) high-pass to HF driver"
+  },
+  {
+   "label": "Drivers",
+   "value": "LF Driver: 165 mm (6.5 in) HF Driver: 19 mm (3/4 in)"
+  }
+ ],
+ "src": "https://jblpro.com/en/products/control-16c-t",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "5502225",
- "order": 5297,
+ "order": 5179,
  "n": "Cable management panel, 1 U- Rittal",
  "b": "Rittal",
  "c": "Accessories",
@@ -9,11 +9,37 @@
  "d": "CDK Cable management panel, 1 U, with cable routing bars",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cable management panel"
+   "label": "Depth of bars",
+   "value": "100 mm"
+  },
+  {
+   "label": "Number bars per U",
+   "value": "5"
+  },
+  {
+   "label": "Units",
+   "value": "1 U"
+  },
+  {
+   "label": "Packs of",
+   "value": "1 pc(s)."
+  },
+  {
+   "label": "PCF per pack (cradle-to-gate)",
+   "value": "2.4 kg CO2 eq (Cat B)"
+  },
+  {
+   "label": "Note on PCF category",
+   "value": "Category B: PCF value (cradle-to-gate) based on the product weight, approximately calculated and self-declared"
+  },
+  {
+   "label": "Product description",
+   "value": "DK Cable management panel, 1 U, with cable routing bars"
   }
  ],
  "for": [
   "7888618"
- ]
+ ],
+ "src": "https://www.rittal.com/au-en/products/PG20231215ZUB101/PG20240405ZUB003/PG20240405ZUB008/PRO13568?variantId=5502225",
+ "checked": "2026-10-18"
 }

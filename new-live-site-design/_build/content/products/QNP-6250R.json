@@ -1,6 +1,6 @@
 {
  "sku": "QNP-6250R",
- "order": 3249,
+ "order": 3147,
  "n": "2MP-PTZ Camera- Hanwha",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,12 +9,58 @@
  "d": "2MP Network 25x IR PTZ Camera, 4.44~111mm (25x) lens, IP66, IK10, NEMA4X",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Zobrazovací zařízení",
+   "value": "Rozměry 1/2,8\""
+  },
+  {
+   "label": "Typ",
+   "value": "CMOS"
+  },
+  {
+   "label": "Rozlišení",
+   "value": "1920 x 1080, 1280 x 1024, 1280 x 960, 1280 x 720, 1024 x 768, 800 x 600, 800 x 448, 720 x 576, 720 x 480, 640 x 480, 640 x 360, 320 x 240"
+  },
+  {
+   "label": "Max. snímková frekvence",
+   "value": "H.265/H.264 60 snímků za sekundu/50 snímků za sekundu (60 Hz/50 Hz)"
+  },
+  {
+   "label": "MJPEG",
+   "value": "30 snímků za sekundu"
+  },
+  {
+   "label": "Min. osvětlení (lux)",
+   "value": "Barva (1/30 s, 30 IRE) 0.05"
+  },
+  {
+   "label": "Č/B (1/30 s, 30 IRE)",
+   "value": "0.005"
+  },
+  {
+   "label": "Ohnisková vzdálenost (mm)",
+   "value": "4.44~111"
+  },
+  {
+   "label": "Poměr přiblížení a oddálení",
+   "value": "Optický 25x"
+  },
+  {
+   "label": "Digitální",
+   "value": "32x"
+  },
+  {
+   "label": "Max. poměr clony (číslo F)",
+   "value": "Širokoúhlý 1.6"
+  },
+  {
+   "label": "Teleobjektiv",
+   "value": "3.9"
   }
  ],
  "acc": [
   "SBP-156WMW",
   "SPC-7000"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/cz/products/product-details/QNP-6250R",
+ "checked": "2026-10-18"
 }

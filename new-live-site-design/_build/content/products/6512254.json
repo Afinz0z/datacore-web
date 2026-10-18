@@ -1,6 +1,6 @@
 {
  "sku": "6512254",
- "order": 1648,
+ "order": 1567,
  "n": "4-Series™ Control Processor for Crestron Home® OS (CP4-R)",
  "b": "Crestron",
  "c": "Control Processor",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "CP4-R",
  "d": "CP4-R 4-Series™ Control Processor for Crestron Home® OS",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, industry‑standard TCP/IP stack, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), FIPS 140‑2 compliant encryption, IEEE 8"
+  },
+  {
+   "label": "Cresnet® Network",
+   "value": "Cresnet server mode"
+  },
+  {
+   "label": "USB",
+   "value": "Supports USB mass storage class devices via the rear panel USB 2.0 host port, supports computer console via the front panel USB 2.0 device port"
+  },
+  {
+   "label": "IR",
+   "value": "Supports 1‑way device control via infrared up to 1.2 MHz"
+  },
+  {
+   "label": "BACnet™ network/IP",
+   "value": "Supports up to 2000 BACnet objects"
+  },
+  {
+   "label": "SDRAM",
+   "value": "4 GB"
+  },
+  {
+   "label": "Flash",
+   "value": "8 GB"
+  },
+  {
+   "label": "Memory Card",
+   "value": "Supports SD and SDHC cards up to 32 GB (4 GB included)"
+  },
+  {
+   "label": "External Storage",
+   "value": "Supports USB mass storage devices up to 1 TB"
+  },
+  {
+   "label": "Power Source Options",
+   "value": "Power pack or Cresnet (connect only one)"
+  },
+  {
+   "label": "Power Pack (included)",
+   "value": "Input: 100–240VAC, 50/60 Hz; Output: 2.5A @ 24VDC"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "15 W (0.625A @ 24VDC) when powered by a Cresnet power supply only"
+  }
+ ],
  "acc": [
   "IRP2"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Residential/CP4-R",
+ "checked": "2026-10-18"
 }

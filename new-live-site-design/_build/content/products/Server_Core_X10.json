@@ -1,6 +1,6 @@
 {
  "sku": "Server Core X10",
- "order": 1241,
+ "order": 1179,
  "n": "Networked audio, video and control processor with 32-bit (Server Core X10)",
  "b": "Q-SYS",
  "c": "DSP",
@@ -8,10 +8,61 @@
  "avail": "lead",
  "model": "Server Core X10",
  "d": "Networked audio, video and control processor with 32-bit floating-point DSP, Dante/AES67 support, enterprise networking, scalable software licensing, and Q-SYS Designer programming.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Q-SYS Capacities Total network I/O channels",
+   "value": "256 x 256"
+  },
+  {
+   "label": "Total network I/O streams",
+   "value": "128 x 128"
+  },
+  {
+   "label": "Dante network I/O",
+   "value": "8 x 8 included (up to 128 x 128 with Software-based Dante feature license)"
+  },
+  {
+   "label": "Media/WAN channel capacity",
+   "value": "64 x 64"
+  },
+  {
+   "label": "VoIP softphones",
+   "value": "32"
+  },
+  {
+   "label": "AEC channels (at 200 ms tail length)",
+   "value": "64"
+  },
+  {
+   "label": "Audio recording / playback",
+   "value": "4 channels recording / 16 channels playback, [expandable up to 128 channels playback with optional multi track playback license (SLMTP-32) stackable up to 4x]"
+  },
+  {
+   "label": "Media drive capacity",
+   "value": "256 GB (at least 200 GB available for user media, or at least 400 hours of uncompressed 48 kHz, 24 bit, mono WAV format audio files)"
+  },
+  {
+   "label": "Hardware Power",
+   "value": "1x universal input, 500 W PSU module"
+  },
+  {
+   "label": "LAN",
+   "value": "4x 2500 Mbps ports (2x Q-SYS Multimedia, 2x Q-SYS Aux)"
+  },
+  {
+   "label": "RS232",
+   "value": "1x DB-9 RS-232 port (rear panel), 16550-compliant"
+  },
+  {
+   "label": "USB",
+   "value": "2 USB-A and 2 USB-C port"
+  }
+ ],
  "acc": [
   "SLDAN-16-P",
   "SLDAN-32-P",
   "SLDAN-64-P"
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/processing/server-core-x10/",
+ "checked": "2026-10-18"
 }

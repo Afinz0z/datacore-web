@@ -1,6 +1,6 @@
 {
  "sku": "6507972",
- "order": 2061,
+ "order": 1973,
  "n": "Wi-Fi® Network I/O Extender with 4 IR Ports (CEN-IO-IR-204)",
  "b": "Crestron",
  "c": "Converter",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CEN-IO-IR-204",
  "d": "CEN-IO-IR-204 Wi-Fi® Network I/O Extender with 4 IR Ports",
- "specs": []
+ "specs": [
+  {
+   "label": "Transceiver",
+   "value": "IEEE 802.11a/b/g/n Wi-Fi (2.4 or 5 GHz 2-way RF), static IP or dynamic IP via DHCP"
+  },
+  {
+   "label": "Security",
+   "value": "64 and 128-bit WEP, WPA and WPA2-PSK with TKIP and AES"
+  },
+  {
+   "label": "Wireless Communication range",
+   "value": "Up to 50 feet (15 m), subject to site-specific conditions"
+  },
+  {
+   "label": "Gateway",
+   "value": "Requires an 802.11a/b/g/n wireless access point and Ethernet-enabled Crestron control system"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "Supports 1-way device control via infrared up to 1.2 MHz or Serial TTL/RS-232 (0–5 V) up to 115.2k baud"
+  },
+  {
+   "label": "Power Pack (included)",
+   "value": "Input: 100–240 VAC, 50/60 Hz; Output: 1.2 A @ 5 VDC; Model: PW-0510WUL"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "3.6 BTU/hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "IFE micro form factor, black and blue plastic"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding, stackable, surface mount, or 35 mm DIN EN 60715 rail mount; Occupies 8 DIN module spaces (144 mm); Surface/DIN rail mounting bracket included, optional rack mount and pole kits sold separately"
+  },
+  {
+   "label": "Height",
+   "value": "1.35 in. (34 mm), 1.77 in. (45 mm) with bracket"
+  },
+  {
+   "label": "Width",
+   "value": "5.04 in. (128 mm), 5.36 in. (136 mm) with bracket"
+  },
+  {
+   "label": "Depth",
+   "value": "2.86 in. (73 mm), 3.33 in. (85 mm) with bracket"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Expansion-IO/CEN-IO-IR-204",
+ "checked": "2026-10-18"
 }

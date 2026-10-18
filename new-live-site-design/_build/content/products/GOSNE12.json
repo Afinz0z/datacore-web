@@ -1,6 +1,6 @@
 {
  "sku": "GOSNE12",
- "order": 4026,
+ "order": 3924,
  "n": "multi-mode OM4 fibers",
  "b": "Belden",
  "c": "MULTI MODE FIBER OPTIC CABLE",
@@ -9,8 +9,54 @@
  "d": "outdoor optical fiber central loose tube cable featuring 12 multi-mode OM4 fibers",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Fiber Type",
+   "value": "OM4"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "12"
+  },
+  {
+   "label": "Fiber Color Coding",
+   "value": "TIA coding (Gxxxxxx.T): Blue, Orange, Green, Brown, Gray, White, Red, Black, Yellow, Violet, Pink, Aqua"
+  },
+  {
+   "label": "Number of Active Subunits",
+   "value": "1"
+  },
+  {
+   "label": "Fibers Per Subunit",
+   "value": "12"
+  },
+  {
+   "label": "Subunit Waterblocking",
+   "value": "Gel Filled"
+  },
+  {
+   "label": "Subunit Diameter",
+   "value": "3.3 mm"
+  },
+  {
+   "label": "Subunit Color",
+   "value": "TIA coding (Gxxxxxx.T): Natural"
+  },
+  {
+   "label": "Cable Core Water Blocking",
+   "value": "Waterblocking Glass Yarns"
+  },
+  {
+   "label": "Nom. Diameter",
+   "value": "5.8 mm (0.23 in)"
+  },
+  {
+   "label": "Wavelength 850 nm 1300 nm Max. Attenuation",
+   "value": "2.9 dB/km 0.9 dB/km"
+  },
+  {
+   "label": "Cable Min. Bend Radius Operation (Long Term)",
+   "value": "IEC 60794-1-21-E11 58 mm IEC 60794-3-10"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cpr-euroclass/cpr-fiber/gosne12",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6514147",
- "order": 1116,
+ "order": 1056,
  "n": "\"PoE Microphone Pod with support for DM NAX Intelligent Audio (DM-NAX-POD-MIC)",
  "b": "Crestron",
  "c": "Mic",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM-NAX-POD-MIC",
  "d": "DM-NAX-POD-MIC \"PoE Microphone Pod with support for DM NAX Intelligent Audio",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "For control and PoE, AoIP, and/or console, 100/1000 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP"
+  },
+  {
+   "label": "Microphones",
+   "value": "360° 12-element array"
+  },
+  {
+   "label": "Pickup Radius",
+   "value": "7.5 ft (2.3 m)"
+  },
+  {
+   "label": "DSP",
+   "value": "Automatic gain control and dynamic noise suppression Full-duplex IEEE 1329 Type 1 compliant"
+  },
+  {
+   "label": "PoE",
+   "value": "IEEE 802.3af Class 0 (12.95 W) compliant; Compatible with IEEE 802.3af compliant Ethernet switch or third-party PoE compliant PSE"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Lightly textured black finish, plastic housing, perforated stainless steel grilles, and die-cast aluminum bottom cover"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tabletop mounting only"
+  },
+  {
+   "label": "Height",
+   "value": "1.3 in. (33 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.70 in. (120 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.70 in. (120 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "41° to 104°F (5° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (noncondensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/DM-NAX-Intelligent-Audio/DM-NAX-POD-MIC",
+ "checked": "2026-10-18"
 }

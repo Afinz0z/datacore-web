@@ -1,14 +1,65 @@
 {
  "sku": "6513255",
- "order": 640,
+ "order": 582,
  "n": "UC-AUDIO-1-B-DR2 KIT",
  "b": "Crestron",
  "c": "Audio Conference System",
  "dept": "AV",
  "avail": "lead",
  "d": "UC-AUDIO-1-B-DR2 KIT Crestron Flex Pod Wireless Audio Kit with Hub and Pod, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Driver",
+   "value": "One full range 2 in. speaker"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "100 Hz to 7 kHz"
+  },
+  {
+   "label": "Effective Output Level",
+   "value": "74 dB SPL at 1 m"
+  },
+  {
+   "label": "Microphones",
+   "value": "360° quad mic array Pickup Range: 7.5 ft (approx. 2.3 m)"
+  },
+  {
+   "label": "Audio (DSP)",
+   "value": "Acoustic echo cancellation, automatic gain control, dynamic noise suppression, and speaker volume control; Full-duplex IEEE 1329 Type 1 compliant"
+  },
+  {
+   "label": "Wireless Communication",
+   "value": "Frequency bands:; DR1: 1920 – 1930 MHz 5 channels (For US and Canada only); DR2: 1880 – 1900 MHz 10 channels (For Europe, Australia, New Zealand, Israel, Saudi Arabia, Kuwait, Qatar, United Arab Emirates, Yemen, Oman, Ho"
+  },
+  {
+   "label": "Indicators",
+   "value": "Green LED indicates microphone is unmuted; Red LED indicates microphone is muted; White LED indicates the speaker volume level"
+  },
+  {
+   "label": "Buttons",
+   "value": "Speaker volume up/down: Capacitive, backlit; Mic mute: Capacitive, backlit; Pair: Push button; Reset: Recessed push button"
+  },
+  {
+   "label": "USB-C",
+   "value": "5VDC, 3A via external 100-240VAC power pack (included with the pod)"
+  },
+  {
+   "label": "Security Port",
+   "value": "Kensington Security Slot™ port"
+  },
+  {
+   "label": "Environmental",
+   "value": "Temperature: 41° to 104° F (5° to 40° C); Humidity: 10% to 95% RH (non‑condensing); Heat dissipation: 12 BTU/hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Lightly textured black/white finish, plastic housing, perforated stainless steel grilles, and die-cast aluminum bottom cover"
+  }
+ ],
  "acc": [
   "6513146"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Audio/Distributed/UC-AUDIO-1-B-DR2-KIT",
+ "checked": "2026-10-18"
 }

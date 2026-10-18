@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "TSD-2220-B 21.5 in. HD Touch Screen Display, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "TFT active matrix color LCD"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "21.5 in. (546 mm) diagonal"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9 Full HD"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "1920 x 1080 pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "225 Nit (225 cd/m²)"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Response Time",
+   "value": "14 ms"
+  },
+  {
+   "label": "Color Depth",
+   "value": "24-bit, 16.7M colors"
+  },
+  {
+   "label": "Illumination",
+   "value": "WLED backlit"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "±89° horizontal, ±89° vertical"
+  },
+  {
+   "label": "Touch Screen",
+   "value": "Projected capacitive, 10-point multitouch capable"
+  },
+  {
+   "label": "USB",
+   "value": "USB Human Interface Device (USB HID)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Touchscreen/TSD-2220-B",
+ "checked": "2026-10-18"
 }

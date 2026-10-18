@@ -1,16 +1,67 @@
 {
  "sku": "MS510TXM",
- "order": 3013,
+ "order": 2911,
  "n": "8-Port Multi-Gigabit Ethernet Smart Managed Pro Switch with 2 10G SFP+",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "10P MG SMART MANAGED PRO SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Multi-gigabit copper ports",
+   "value": "4 (1G/2.5G)"
+  },
+  {
+   "label": "Multi-gigabit/10 Gigabit copper ports",
+   "value": "4 (1G/2.5G/5G/10G)"
+  },
+  {
+   "label": "SFP+ ports",
+   "value": "2"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "32K"
+  },
+  {
+   "label": "Buffer size",
+   "value": "16Mbit"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes (32)"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512 ARP"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "DoS Prevention",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-MS510TXM-12",
   "DRV-MS510TXM-36",
   "DRV-MS510TXM-60"
- ]
+ ],
+ "src": "https://www.netgear.com/hk-en/business/wired/switches/smart-cloud/ms510txm/",
+ "checked": "2026-10-18"
 }

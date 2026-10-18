@@ -1,6 +1,6 @@
 {
  "sku": "6509491",
- "order": 2682,
+ "order": 2581,
  "n": "Swivel Mount Kit for CCS-UC-1 (CCS-UCA-SMK)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,5 @@
  "avail": "lead",
  "model": "CCS-UCA-SMK",
  "d": "CCS-UCA-SMK Swivel Mount Kit for CCS-UC-1",
- "specs": [],
- "for": [
-  "6508084"
- ]
+ "specs": []
 }

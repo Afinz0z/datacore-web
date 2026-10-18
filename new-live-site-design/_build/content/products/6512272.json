@@ -1,6 +1,6 @@
 {
  "sku": "6512272",
- "order": 2058,
+ "order": 1971,
  "n": "USB Converter with HDMI® and Analog Audio Input (HD-CONV-USB-300)",
  "b": "Crestron",
  "c": "Converter",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-CONV-USB-300",
  "d": "HD-CONV-USB-300 USB Converter with HDMI® and Analog Audio Input",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Type",
+   "value": "HDMI 2.0 (DVI 1.0 compatible)"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "USB 3.0 supporting UVC; HDMI 2.0 (DVI 1.0 compatible) loop out port with support for HDCP 2.2/1.x"
+  },
+  {
+   "label": "Input Resolution",
+   "value": "4K UHD @ 60 fps 4:4:4 with support for 12‑bit HDR"
+  },
+  {
+   "label": "Output Resolution",
+   "value": "USB: HD 1080p @ 60 fps uncompressed; HDMI: 4K UHD @ 60 fps 4:4:4 with support for 12‑bit HDR"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "HDMI or analog audio input (selectable in configuration software)"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "USB 3.0 supporting UAC"
+  },
+  {
+   "label": "Audio format",
+   "value": "Stereo 2‑channel LPCM"
+  },
+  {
+   "label": "USB",
+   "value": "USB 3.0 device supporting UVC and UAC"
+  },
+  {
+   "label": "USB bus powered",
+   "value": "Works with USB 3.0 and USB 2.0 ports. For USB 2.0, use of a Y-cable connected to two USB 2.0 ports is required to properly power the HD-CONV-USB-300. Power consumption varies depending on the input resolution, use of USB"
+  },
+  {
+   "label": "Housing",
+   "value": "Metal (steel), black"
+  },
+  {
+   "label": "Mounting",
+   "value": "Freestanding, surface mountable, or attachment to a rack rail"
+  },
+  {
+   "label": "Height",
+   "value": "4.55 in. (116 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/USB/Converter/HD-CONV-USB-300",
+ "checked": "2026-10-18"
 }
