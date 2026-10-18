@@ -1,11 +1,12 @@
 {
  "sku": "ASF921",
  "order": 3646,
- "n": "BREAK GLASS",
+ "n": "Emergency Break Glass Button",
  "b": "Dahua",
  "c": "BREAK GLASS",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "BREAK GLASS",
  "d": "Emergency Break Glass Button",
  "specs": []
 }

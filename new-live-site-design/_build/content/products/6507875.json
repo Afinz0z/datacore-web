@@ -1,11 +1,12 @@
 {
  "sku": "6507875",
- "order": 1006,
- "n": "AMPI-8150",
+ "order": 999,
+ "n": "8-Channel Power Amplifier, 150W/Ch., 4/8 Ohm or 100V, International (AMPI-8150)",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "AMPI-8150",
  "d": "AMPI-8150 8-Channel Power Amplifier, 150W/Ch., 4/8 Ohm or 100V, International, 220-240V",
  "specs": []
 }

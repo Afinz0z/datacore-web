@@ -18,6 +18,16 @@ PAGE = 24                                          # cards per page (first page 
 GROUPS, RESOLVE = load_categories()
 
 
+def _tidy(label, value):
+    """Spacing and capitals the way a datasheet prints them; the words and numbers are unchanged."""
+    label = " ".join(str(label).split()).strip(" :")
+    value = " ".join(str(value).split())
+    value = re.sub(r"\s+([,;:)\]])", r"\1", value)
+    value = re.sub(r"([(\[])\s+", r"\1", value)
+    value = re.sub(r",(?=[^\s\d])", ", ", value)
+    return [label[:1].upper() + label[1:], value]
+
+
 def _load_products():
     """One file per product under content/products/<sku>.json (written by import_products.py or
     the CMS). Specs stay an ordered list of [label, value]."""
@@ -31,7 +41,7 @@ def _load_products():
         out.append({"sku": str(e["sku"]), "n": e.get("n") or str(e["sku"]), "b": e.get("b") or "",
                     "cat": cat, "g": e.get("g") or cat["g"], "avail": e.get("avail") or "lead",
                     "d": e.get("d") or "", "acc": e.get("acc") or [], "for": e.get("for") or [],
-                    "specs": [[s["label"], s["value"]] for s in (e.get("specs") or [])
+                    "specs": [_tidy(s["label"], s["value"]) for s in (e.get("specs") or [])
                               if s.get("label") and s.get("value")]})
     return out
 GLYPHS = json.load(open(os.path.join(DATA, "glyphs.json"), encoding="utf-8"))
@@ -87,6 +97,10 @@ LABELS = {
    "showing": "Showing {n} of {t} products", "reset": "Reset filters",
    "empty": "No products match those filters.", "more": "Show more",
    "rel_acc": "Supporting products ({n})", "rel_for": "Compatible products ({n})", "rel_chip": "Linked to {n}",
+   "all_brands": "All brands ({n})", "all_types": "All types ({n})", "close": "Close",
+   "find_brand": "Find a brand", "find_type": "Find a type", "in_cat": "Category", "any_cat": "All categories",
+   "clear_sel": "Clear", "picked": "{n} selected", "show_n": "Show {n} products", "pick_n": "{n} listed",
+   "no_brand": "No brand matches. Try another letter or category.", "no_type": "No type matches. Try another letter or category.",
    "refine": "Refine", "filters": "Filters", "product_one": "product", "product_many": "products",
    "add": "Add to request", "added": "Added",
    "req_title": "Your request", "remove": "Remove", "clear": "Clear all",
@@ -102,6 +116,10 @@ LABELS = {
    "showing": "عرض {n} من {t} منتجاً", "reset": "إعادة تعيين",
    "empty": "لا توجد منتجات مطابقة لهذه المرشحات.", "more": "عرض المزيد",
    "rel_acc": "المنتجات الداعمة ({n})", "rel_for": "المنتجات المتوافقة ({n})", "rel_chip": "مرتبط بـ {n}",
+   "all_brands": "كل العلامات ({n})", "all_types": "كل الأنواع ({n})", "close": "إغلاق",
+   "find_brand": "ابحث عن علامة تجارية", "find_type": "ابحث عن نوع", "in_cat": "الفئة", "any_cat": "كل الفئات",
+   "clear_sel": "مسح", "picked": "المحدد: {n}", "show_n": "عرض {n} منتجاً", "pick_n": "{n} في القائمة",
+   "no_brand": "لا توجد علامة مطابقة. جرّب حرفاً أو فئة أخرى.", "no_type": "لا يوجد نوع مطابق. جرّب حرفاً أو فئة أخرى.",
    "refine": "تصفية", "filters": "المرشحات", "product_one": "منتج", "product_many": "منتجاً",
    "add": "أضف إلى الطلب", "added": "أُضيف",
    "req_title": "طلبك", "remove": "إزالة", "clear": "مسح الكل",
@@ -167,16 +185,19 @@ def card_html(p, ar):
             '</article>')
 
 
-def _fgroup(title, dim, counts, label, order=None, limit=8):
-    """Starting state of one facet group (nothing selected). Mirrors fgroup() in dc-products.js."""
-    keys = order if order else sorted(counts, key=lambda k: label(k).lower())
+def _fgroup(title, dim, counts, label, order=None, limit=8, more=''):
+    """Starting state of one facet group (nothing selected). Mirrors fgroup() in dc-products.js: brands
+    and types list their largest eight and open the rest in the picker window."""
+    keys = order if order else sorted(counts, key=lambda k: (-counts[k], label(k).lower()))
     keys = [k for k in keys if counts.get(k)]
     shown = keys if len(keys) <= limit else keys[:limit]
     h = f'<div class="dcp-fgroup"><h4>{_jesc(title)}</h4>'
     for k in shown:
         h += (f'<label><input type="checkbox" data-dim="{dim}" value="{_jesc(k)}"><span>{_jesc(label(k))}</span>'
               f'<span class="dcp-fc">{counts[k]}</span></label>')
-    if len(keys) > len(shown):
+    if more and len(keys) > limit:
+        h += f'<button class="dcp-more" type="button" data-pick="{dim}">{_jesc(more.replace("{n}", f"{len(keys):,}"))}</button>'
+    elif len(keys) > len(shown):
         h += f'<button class="dcp-more" type="button" data-more="{dim}">+ {len(keys) - len(shown)}</button>'
     return h + '</div>'
 
@@ -193,8 +214,8 @@ def facets_html(ar):
             brand[p['b']] = brand.get(p['b'], 0) + 1
     h = f'<div class="dcp-fhead"><span>{_jesc(L["refine"])}</span></div>'
     h += _fgroup(L['category'], 'grp', grp, lambda k: GROUPS[k][lang], order=list(GROUPS), limit=12)
-    h += _fgroup(L['type'], 'cat', cat, lambda k: names[k])
-    h += _fgroup(L['brand'], 'brand', brand, lambda k: k)
+    h += _fgroup(L['type'], 'cat', cat, lambda k: names[k], more=L['all_types'])
+    h += _fgroup(L['brand'], 'brand', brand, lambda k: k, more=L['all_brands'])
     return h
 
 
@@ -213,8 +234,8 @@ def write_data():
         if p['b'] and p['b'] not in bidx:
             bidx[p['b']] = len(brands); brands.append(p['b'])
         d = p['d']
-        if len(d) > 140:
-            d = d[:140].rsplit(' ', 1)[0]
+        if len(d) > 240:              # enough of the description for search, without bloating the data
+            d = d[:240].rsplit(' ', 1)[0]
         rows.append([p['sku'], p['n'], bidx.get(p['b'], -1), cidx[key], p['g'], _photo(p), p['specs'], d,
                      1 if p['avail'] == 'stock' else 0, [idx[s] for s in p['kids']], [idx[s] for s in p['fits']]])
     body = json.dumps({"groups": groups, "cats": cats, "brands": brands, "p": rows},
@@ -307,6 +328,46 @@ def build_products(ar, data_url):
         '.dcp-morewrap .dcp-btn{width:auto;padding:13px 30px}'
         '.dcp-card-rel{display:flex;flex-wrap:wrap;gap:2px 16px}'
         '.dcp-card-rel .dcp-more{padding:0;text-align:start}'
+        'html.dcp-pick-open{overflow:hidden}'
+        '.dcp-pick{position:fixed;inset:0;z-index:100000;display:flex;align-items:center;justify-content:center;padding:24px}'
+        '.dcp-pick[hidden]{display:none}'
+        '.dcp-pick-bg{position:absolute;inset:0;background:rgba(10,12,14,.55)}'
+        '.dcp-pick-box{position:relative;display:flex;flex-direction:column;width:min(1000px,100%);'
+        'max-height:min(760px,calc(100dvh - 48px));background:var(--dcp-bg);color:var(--dcp-ink);'
+        'border:1px solid var(--dcp-line);border-radius:6px;box-shadow:0 30px 80px -24px rgba(0,0,0,.45);overflow:hidden}'
+        '.dcp-pick-head{display:flex;align-items:baseline;gap:12px;padding:20px 24px 2px}'
+        '.dcp-pick-head h2{margin:0;font-size:1.35rem;font-weight:700;color:var(--dcp-ink)}'
+        '.dcp-pick-n{color:var(--dcp-ink3);font-size:.85rem;font-variant-numeric:tabular-nums}'
+        '.dcp-pick-x{margin-inline-start:auto;align-self:center;background:none;border:0;font-size:1.75rem;line-height:1;'
+        'color:var(--dcp-ink2);cursor:pointer;padding:0 4px}'
+        '.dcp-pick-tools{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:14px 24px 0}'
+        '.dcp-pick-tools .dcp-search-in{flex:1 1 260px;min-width:0}'
+        '.dcp-pick-sel{display:flex;align-items:center;gap:8px;font-size:.85rem;color:var(--dcp-ink2)}'
+        '.dcp-pick-sel select{font:inherit;font-size:.9rem;color:var(--dcp-ink);background:var(--dcp-bg);'
+        'border:1px solid var(--dcp-line);border-radius:3px;padding:10px 12px;max-width:260px;cursor:pointer}'
+        '.dcp-pick-az{display:flex;flex-wrap:wrap;gap:4px;padding:14px 24px;border-bottom:1px solid var(--dcp-line)}'
+        '.dcp-pick-az button{min-width:29px;height:32px;padding:0 7px;border:1px solid var(--dcp-line);border-radius:3px;'
+        'background:var(--dcp-bg);font:inherit;font-size:.82rem;font-weight:600;color:var(--dcp-ink2);cursor:pointer}'
+        '.dcp-pick-az button:hover{border-color:var(--dcp-teal-d);color:var(--dcp-teal-d)}'
+        '.dcp-pick-az button[aria-pressed=true]{background:#00776f;border-color:#00776f;color:#fff}'
+        'html.dc-dark .dcp-pick-az button[aria-pressed=true]{background:#0c8074;border-color:#0c8074}'
+        '.dcp-pick-list{flex:1;min-height:220px;overflow-y:auto;padding:4px 24px 20px;columns:4 190px;column-gap:34px}'
+        '.dcp-pick-list h3{margin:16px 0 6px;padding-bottom:5px;border-bottom:1px solid var(--dcp-line);font-size:.8rem;'
+        'font-weight:700;color:var(--dcp-teal-d);break-after:avoid}'
+        '.dcp-pick-list label{display:flex;align-items:center;gap:9px;padding:5px 0;font-size:.9rem;cursor:pointer;break-inside:avoid}'
+        '.dcp-pick-list label.off{opacity:.4}'
+        '.dcp-pick-list label>span:first-of-type{min-width:0;overflow-wrap:anywhere}'
+        '.dcp-pick-list input{accent-color:var(--dcp-teal-d);width:15px;height:15px;flex:none;margin:0}'
+        '.dcp-pick-none{column-span:all;color:var(--dcp-ink2);padding:28px 0}'
+        '.dcp-pick-foot{display:flex;align-items:center;gap:16px;padding:14px 24px;border-top:1px solid var(--dcp-line);background:var(--dcp-soft)}'
+        '.dcp-pick-sum{color:var(--dcp-ink2);font-size:.88rem}'
+        '.dcp .dcp-pick-foot .dcp-btn{width:auto;margin-inline-start:auto;padding:12px 26px}'
+        '.dcp-pick-x:focus-visible,.dcp-pick-az button:focus-visible,.dcp-pick-sel select:focus-visible{outline:2px solid var(--dcp-teal-d);outline-offset:2px}'
+        '@media(max-width:640px){.dcp-pick{padding:0}.dcp-pick-box{max-height:100dvh;height:100dvh;border-radius:0;border:0}'
+        '.dcp-pick-head,.dcp-pick-tools,.dcp-pick-az,.dcp-pick-list,.dcp-pick-foot{padding-inline:16px}'
+        '.dcp-pick-list{columns:2 140px;column-gap:20px}.dcp-pick-sel{flex:1 1 100%}.dcp-pick-sel select{flex:1;max-width:none}'
+        '.dcp-pick-az{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}.dcp-pick-az::-webkit-scrollbar{display:none}'
+        '.dcp-pick-az button{flex:none}.dcp-pick-head{padding-top:16px}}'
         '</style>')
     sch = ('<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False)
            + '</script>' + page_css)

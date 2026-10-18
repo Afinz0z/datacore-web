@@ -1,11 +1,12 @@
 {
  "sku": "AP8853",
- "order": 4176,
- "n": "Rack PDU 2G",
+ "order": 4174,
+ "n": "Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19 (Rack PDU 2G)",
  "b": "APC",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Rack PDU 2G",
  "d": "Rack PDU 2G, Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19",
  "specs": [],
  "for": [

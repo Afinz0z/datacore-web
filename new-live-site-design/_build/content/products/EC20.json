@@ -1,11 +1,12 @@
 {
  "sku": "EC20",
  "order": 562,
- "n": "EC20",
+ "n": "4K PTZ Camera designed for lecture capture (EC20)",
  "b": "Epiphan",
  "c": "AV Camera",
  "dept": "AV",
  "avail": "lead",
+ "model": "EC20",
  "d": "EC20 4K PTZ Camera designed for lecture capture",
  "specs": []
 }

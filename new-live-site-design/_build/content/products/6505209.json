@@ -1,11 +1,12 @@
 {
  "sku": "6505209",
- "order": 1701,
- "n": "C2N-IO",
+ "order": 1710,
+ "n": "Control Port Expansion Module Compatible with any Crestron 2-Series (C2N-IO)",
  "b": "Crestron",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
+ "model": "C2N-IO",
  "d": "C2N-IO Control Port Expansion Module Compatible with any Crestron 2-Series, 3-Series®, or 4-Series® control system",
  "specs": []
 }

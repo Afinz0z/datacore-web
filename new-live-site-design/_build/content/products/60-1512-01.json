@@ -1,11 +1,12 @@
 {
  "sku": "60-1512-01",
- "order": 1226,
- "n": "DMP 128 Plus C",
+ "order": 1221,
+ "n": "12x8 ProDSP Digital Matrix Processor with AEC (DMP 128 Plus C)",
  "b": "Extron",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DMP 128 Plus C",
  "d": "DMP 128 Plus C - 12x8 ProDSP Digital Matrix Processor with AEC",
  "specs": []
 }

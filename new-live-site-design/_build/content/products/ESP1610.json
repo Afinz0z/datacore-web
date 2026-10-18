@@ -1,11 +1,12 @@
 {
  "sku": "ESP1610",
  "order": 2135,
- "n": "ESP1610",
+ "n": "Pearl Nano (ESP1610)",
  "b": "Epiphan",
  "c": "Recorder",
  "dept": "AV",
  "avail": "lead",
+ "model": "ESP1610",
  "d": "Pearl Nano",
  "specs": [],
  "acc": [

@@ -1,11 +1,12 @@
 {
  "sku": "GSM4230PX",
- "order": 3021,
- "n": "GSM4230PX-100EUS",
+ "order": 3024,
+ "n": "M4250-26G4XF-POE+ Managed Switch (GSM4230PX-100EUS)",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
+ "model": "GSM4230PX-100EUS",
  "d": "Netgear M4250-26G4XF-POE+ Managed Switch, 24x1G PoE+ 480W 2x1G and 4xSFP+ Managed Switch",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "TSC-50-G3",
  "order": 1546,
- "n": "TSC-50-G3",
+ "n": "Network Touch Screen Controller (TSC-50-G3)",
  "b": "Q-SYS",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
+ "model": "TSC-50-G3",
  "d": "Network Touch Screen Controller",
  "specs": []
 }

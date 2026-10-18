@@ -1,11 +1,12 @@
 {
  "sku": "25D",
- "order": 1016,
- "n": "25D",
+ "order": 1020,
+ "n": "Installation specific four channel amplifier (25D)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "25D",
  "d": "Installation specific four channel amplifier",
  "specs": []
 }

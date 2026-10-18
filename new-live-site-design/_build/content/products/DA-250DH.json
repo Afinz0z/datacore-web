@@ -1,11 +1,12 @@
 {
  "sku": "DA-250DH",
- "order": 1099,
- "n": "DA-250DH",
+ "order": 1098,
+ "n": "Digital Power Amplifier (DA-250DH)",
  "b": "TOA",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "DA-250DH",
  "d": "Digital Power Amplifier",
  "specs": []
 }

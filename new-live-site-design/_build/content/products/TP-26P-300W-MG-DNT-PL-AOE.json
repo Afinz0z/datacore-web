@@ -1,11 +1,12 @@
 {
  "sku": "TP-26P-300W-MG-DNT-PL-AOE",
  "order": 3032,
- "n": "TP-26P-300W-MG-DNT-PL-AOE",
+ "n": "PoE+ Managed switch for Dante Technology (26 Port) (TP-26P-300W-MG-DNT-PL-AOE)",
  "b": "PeopleLink",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
+ "model": "TP-26P-300W-MG-DNT-PL-AOE",
  "d": "PoE+ Managed switch for Dante Technology (26 Port)",
  "specs": []
 }

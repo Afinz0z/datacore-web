@@ -1,11 +1,12 @@
 {
  "sku": "EL65M1",
  "order": 9,
- "n": "EL65M1",
+ "n": "65\" Interactive Panel, with 4K resolution and Octa-core CPU (EL65M1)",
  "b": "Elmo",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
+ "model": "EL65M1",
  "d": "65\" Interactive Panel, with 4K resolution and Octa-core CPU and Quad-core GPU. 8GB/128GB",
  "specs": []
 }

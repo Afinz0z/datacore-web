@@ -1,11 +1,12 @@
 {
  "sku": "DS-D60E-B(O-STD)",
  "order": 420,
- "n": "Digital signage box",
+ "n": "Digital signage box, Android8.1, HDMI output, 2GB memory",
  "b": "Hikvision",
  "c": "Digital signage",
  "dept": "AV",
  "avail": "lead",
+ "model": "Digital signage box",
  "d": "HIKVISION Digital signage box, Android8.1, HDMI output, 2GB memory, 16GB built-in storage, working with normal monitor or LCD/LED video wall, support schedule or self-define play video, audio, picture and document.",
  "specs": []
 }

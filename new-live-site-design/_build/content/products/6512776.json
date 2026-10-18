@@ -1,11 +1,12 @@
 {
  "sku": "6512776",
- "order": 1864,
- "n": "USB-SW-200",
+ "order": 1852,
+ "n": "2-input USB 3.2 Data Matrix Switcher (USB-SW-200)",
  "b": "Crestron",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "USB-SW-200",
  "d": "USB-SW-200 2-input USB 3.2 Data Matrix Switcher",
  "specs": []
 }

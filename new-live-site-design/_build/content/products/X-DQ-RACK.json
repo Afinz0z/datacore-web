@@ -1,11 +1,12 @@
 {
  "sku": "X-DQ-RACK",
  "order": 1427,
- "n": "DQ-Rack",
+ "n": "is a 48 input, 24 output rack with Dante connectivity (DQ-Rack)",
  "b": "DiGiCo",
  "c": "Mixer Accessories",
  "dept": "AV",
  "avail": "lead",
+ "model": "DQ-Rack",
  "d": "DQ-Rack is a 48 input, 24 output rack with Dante connectivity. It also features 4 switchable XLR outputs that can either be analogue outputs or AES outputs, giving a maximum of 28 output channels.",
  "specs": []
 }

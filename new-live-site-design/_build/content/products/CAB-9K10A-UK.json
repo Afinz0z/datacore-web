@@ -1,12 +1,13 @@
 {
  "sku": "CAB-9K10A-UK",
  "order": 4242,
- "n": "power cable",
+ "n": "ower cable used to supply AC power to Cisco network switches",
  "b": "Cisco",
  "c": "power cord",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ ower cable used to supply AC power to Cisco network switches and devices .​",
+ "model": "power cable",
+ "d": "ower cable used to supply AC power to Cisco network switches and devices .",
  "specs": [],
  "for": [
   "C9500-48Y4C-A"

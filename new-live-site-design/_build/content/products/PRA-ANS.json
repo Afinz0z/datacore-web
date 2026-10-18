@@ -1,11 +1,12 @@
 {
  "sku": "PRA-ANS",
  "order": 1617,
- "n": "PRA-ANS",
+ "n": "Ambient noise sensor (PRA-ANS)",
  "b": "Bosch",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "PRA-ANS",
  "d": "Ambient noise sensor",
  "specs": []
 }

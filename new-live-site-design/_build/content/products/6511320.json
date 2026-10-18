@@ -1,11 +1,12 @@
 {
  "sku": "6511320",
- "order": 2064,
- "n": "DM-NUX-R2",
+ "order": 2057,
+ "n": "DM NUX USB over Network with Routing, Remote (DM-NUX-R2)",
  "b": "Crestron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM-NUX-R2",
  "d": "DM-NUX-R2 DM NUX USB over Network with Routing, Remote",
  "specs": []
 }

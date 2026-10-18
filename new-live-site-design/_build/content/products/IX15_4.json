@@ -1,11 +1,12 @@
 {
  "sku": "IX15:4",
  "order": 1026,
- "n": "Amplifier",
+ "n": "4-channel networked multichannel DSP amplifier, 1.5 kW",
  "b": "Dynacord",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "Amplifier",
  "d": "4-channel networked multichannel DSP amplifier, 1.5 kW",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Project",
- "order": 4320,
- "n": "HTZ_Project",
+ "order": 4322,
+ "n": "Project Management, per day (HTZ_Project)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Project",
  "d": "Project Management, per day",
  "specs": []
 }

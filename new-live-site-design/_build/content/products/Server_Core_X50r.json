@@ -1,11 +1,12 @@
 {
  "sku": "Server Core X50r",
  "order": 1659,
- "n": "Server Core X50r",
+ "n": "Network I/O processor (Server Core X50r)",
  "b": "QSC",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "Server Core X50r",
  "d": "Network I/O processor",
  "specs": [],
  "acc": [

@@ -1,11 +1,12 @@
 {
  "sku": "SL-SUB",
- "order": 1300,
- "n": "SL-SUB",
+ "order": 1299,
+ "n": "Large format flyable cardioid subwoofer (SL-SUB)",
  "b": "d&b audiotechnik",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
+ "model": "SL-SUB",
  "d": "Large format flyable cardioid subwoofer",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "6508140",
- "order": 1624,
- "n": "CHVI-RTS-1G-SM-W",
+ "order": 1631,
+ "n": "Surface Mount Remote Temperature Sensor, White (CHVI-RTS-1G-SM-W)",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "CHVI-RTS-1G-SM-W",
  "d": "CHVI-RTS-1G-SM-W Surface Mount Remote Temperature Sensor, White",
  "specs": []
 }

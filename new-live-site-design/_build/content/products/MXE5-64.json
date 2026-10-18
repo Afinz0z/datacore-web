@@ -1,11 +1,12 @@
 {
  "sku": "MXE5-64",
  "order": 1218,
- "n": "DSP",
+ "n": "Matrix Mix Engine (DSP)",
  "b": "Dynacord",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DSP",
  "d": "Matrix Mix Engine",
  "specs": []
 }

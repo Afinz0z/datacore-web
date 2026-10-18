@@ -1,11 +1,12 @@
 {
  "sku": "TPS_IR-REMOTE",
  "order": 1676,
- "n": "TPS_IR-REMOTE",
+ "n": "Customised IR remote control (TPS_IR-REMOTE)",
  "b": "Tripleplay",
  "c": "Remote",
  "dept": "AV",
  "avail": "lead",
+ "model": "TPS_IR-REMOTE",
  "d": "Customised IR remote control",
  "specs": []
 }

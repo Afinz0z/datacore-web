@@ -1,12 +1,13 @@
 {
  "sku": "6511136",
- "order": 1004,
- "n": "AMP-X75",
+ "order": 1005,
+ "n": "X-Series Amplifier, 75 W The AMP-X75 provides an amplifier solution",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
- "d": "X-Series Amplifier, 75 W ​ The AMP-X75 provides an amplifier solution that saves energy, space, and money. The modular design is easy to configure and ships with everything required to enable surface mounting, rack mounting, and ganging multiple units together.",
+ "model": "AMP-X75",
+ "d": "X-Series Amplifier, 75 W The AMP-X75 provides an amplifier solution that saves energy, space, and money. The modular design is easy to configure and ships with everything required to enable surface mounting, rack mounting, and ganging multiple units together.",
  "specs": [
   {
    "label": "Type",

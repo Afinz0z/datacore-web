@@ -1,11 +1,12 @@
 {
  "sku": "60-718-10",
- "order": 1034,
- "n": "MP 101",
+ "order": 1047,
+ "n": "Microphone Preamplifier (MP 101)",
  "b": "Extron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "MP 101",
  "d": "MP 101 Microphone Preamplifier",
  "specs": [
   {

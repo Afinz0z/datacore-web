@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Server_License",
- "order": 4321,
- "n": "HTZ_Server_License",
+ "order": 4324,
+ "n": "Server License (HTZ_Server_License)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Server_License",
  "d": "Hoteza Server License",
  "specs": []
 }

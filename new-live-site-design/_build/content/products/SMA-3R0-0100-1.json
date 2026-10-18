@@ -1,11 +1,12 @@
 {
  "sku": "SMA-3R0-0100-1",
- "order": 4466,
- "n": "SMA-3R0-0100-1",
+ "order": 4467,
+ "n": "SMA 3000 Series Master Clock, GPS, Rack Mount (SMA-3R0-0100-1)",
  "b": "Sapling",
  "c": "Master Clock",
  "dept": "AV",
  "avail": "lead",
- "d": "​ SMA 3000 Series Master Clock, GPS, Rack Mount ​",
+ "model": "SMA-3R0-0100-1",
+ "d": "SMA 3000 Series Master Clock, GPS, Rack Mount",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "GSTAR004-MB",
  "order": 3587,
- "n": "Controller",
+ "n": "iSTAR Edge G2, 4 reader controller, Motherboard Only.",
  "b": "Tyco",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Controller",
  "d": "iSTAR Edge G2, 4 reader controller, Motherboard Only.",
  "specs": [
   {

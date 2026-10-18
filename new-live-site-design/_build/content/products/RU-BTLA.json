@@ -1,11 +1,12 @@
 {
  "sku": "RU-BTLA",
  "order": 1442,
- "n": "RU-BTLA",
+ "n": "Bluetooth® Line-Level Audio & Format-A Interface. (RU-BTLA)",
  "b": "RDL",
  "c": "AUDIO SOURCE",
  "dept": "AV",
  "avail": "lead",
+ "model": "RU-BTLA",
  "d": "Bluetooth® Line-Level Audio & Format-A Interface.",
  "specs": []
 }

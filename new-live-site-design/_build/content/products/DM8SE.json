@@ -1,11 +1,12 @@
 {
  "sku": "DM8SE",
- "order": 754,
- "n": "DM8SE",
+ "order": 752,
+ "n": "DesignMax surface-mount loudspeaker (DM8SE)",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM8SE",
  "d": "DesignMax surface-mount loudspeaker",
  "specs": []
 }

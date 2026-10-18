@@ -1,11 +1,12 @@
 {
  "sku": "QIO-GP8x8",
  "order": 1418,
- "n": "QIO-GP8x8",
+ "n": "Control expansion 8/8 logic inputs (QIO-GP8x8)",
  "b": "Q-SYS",
  "c": "Audio Expander",
  "dept": "AV",
  "avail": "lead",
+ "model": "QIO-GP8x8",
  "d": "Control expansion 8/8 logic inputs",
  "specs": []
 }

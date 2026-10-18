@@ -1,11 +1,12 @@
 {
  "sku": "DPA616",
  "order": 965,
- "n": "Amplifier",
+ "n": "Sixteen-channel Class-D amplifier 16 x 60W",
  "b": "Audac",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "Amplifier",
  "d": "Sixteen-channel Class-D amplifier 16 x 60W",
  "specs": []
 }

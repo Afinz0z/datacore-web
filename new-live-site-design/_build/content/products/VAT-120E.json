@@ -1,11 +1,12 @@
 {
  "sku": "VAT-120E",
  "order": 1333,
- "n": "VAT-120E",
+ "n": "Volume Attenuator 120W/EU Type (VAT-120E)",
  "b": "Ateis",
  "c": "Volume Controller",
  "dept": "AV",
  "avail": "lead",
+ "model": "VAT-120E",
  "d": "Volume Attenuator 120W/EU Type",
  "specs": []
 }

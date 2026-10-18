@@ -1,11 +1,12 @@
 {
  "sku": "60-1614-01",
- "order": 2073,
- "n": "DVC RGB-HD A",
+ "order": 2072,
+ "n": "RGB to HDMI Convertor with Audio Embedding (DVC RGB-HD A)",
  "b": "Extron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "DVC RGB-HD A",
  "d": "DVC RGB-HD A - RGB to HDMI Convertor with Audio Embedding",
  "specs": []
 }

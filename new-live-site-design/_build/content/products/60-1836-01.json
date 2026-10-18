@@ -1,11 +1,12 @@
 {
  "sku": "60-1836-01",
- "order": 1236,
- "n": "XMP 240 C AT",
+ "order": 1234,
+ "n": "Dante Audio DSP Matrix Processor w/ 24 AEC (XMP 240 C AT)",
  "b": "Extron",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "XMP 240 C AT",
  "d": "XMP 240 C AT Dante Audio DSP Matrix Processor w/ 24 AEC",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "M720E",
- "order": 4427,
- "n": "M720E",
+ "order": 4425,
+ "n": "Microprocessor monitor module support two inputs. (M720E)",
  "b": "Notifier",
  "c": "Fire Alarm - Field Devices",
  "dept": "AV",
  "avail": "lead",
+ "model": "M720E",
  "d": "Microprocessor monitor module support two inputs.",
  "specs": []
 }

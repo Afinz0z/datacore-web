@@ -1,11 +1,12 @@
 {
  "sku": "AURI-TX2N",
- "order": 1360,
- "n": "AURI-TX2N",
+ "order": 1356,
+ "n": "2 Channel Transmitter (AURI-TX2N)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
+ "model": "AURI-TX2N",
  "d": "2 Channel Transmitter",
  "specs": []
 }

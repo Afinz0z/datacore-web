@@ -1,11 +1,12 @@
 {
  "sku": "CS-MIC-ARRAY-T",
  "order": 1115,
- "n": "Microphone",
+ "n": "Digital conferencing table microphone",
  "b": "Cisco",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
+ "model": "Microphone",
  "d": "Digital conferencing table microphone, supporting cardioid pickuppattern and 4 independent microphone channels. Available in First Lightand Carbon Black.",
  "specs": [
   {

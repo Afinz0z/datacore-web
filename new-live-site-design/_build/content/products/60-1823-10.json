@@ -1,11 +1,12 @@
 {
  "sku": "60-1823-10",
- "order": 1233,
- "n": "DMP 64 Plus C AT",
+ "order": 1230,
+ "n": "6x4 Digital Matrix Processor w/ AEC and Dante (DMP 64 Plus C AT)",
  "b": "Extron",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DMP 64 Plus C AT",
  "d": "DMP 64 Plus C AT 6x4 Digital Matrix Processor w/ AEC and Dante",
  "specs": []
 }

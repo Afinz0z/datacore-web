@@ -1,11 +1,12 @@
 {
  "sku": "KB216",
  "order": 5270,
- "n": "KB216",
+ "n": "Dell keyboard (KB216)",
  "b": "Dell Technologies",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
+ "model": "KB216",
  "d": "Dell keyboard",
  "specs": []
 }

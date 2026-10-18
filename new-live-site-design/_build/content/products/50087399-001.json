@@ -1,11 +1,12 @@
 {
  "sku": "50087399-001",
- "order": 3104,
- "n": "Access Point",
+ "order": 3108,
+ "n": "eKitEngine AP371 Access Point",
  "b": "Huawei",
  "c": "ACCESS POINT",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Access Point",
  "d": "Huawei eKitEngine AP371 Access Point",
  "specs": []
 }

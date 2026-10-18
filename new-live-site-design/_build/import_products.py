@@ -53,7 +53,8 @@ NO_BRAND = {'generic', 'local', 'queue management system'}
 # Rows that only reserve a slot in the inventory system ("Custom-1", "Rack", "Structure").
 PLACEHOLDER = re.compile(r'^(custom|structure|rack|wap|pc)(-\d+)?$', re.I)
 TBA = re.compile(r'^tba(-\d+)?$', re.I)
-DASHES = re.compile('[‐‑‒–—−]')
+DASHES = re.compile('[%s]' % ''.join(map(chr, (0x2010, 0x2011, 0x2012, 0x2013, 0x2014, 0x2212))))   # hyphen and dash variants
+INVISIBLE = re.compile('[%s]' % ''.join(map(chr, (0x200B, 0x200C, 0x200D, 0x2060, 0xFEFF, 0xAD))))   # zero-width, soft hyphen
 
 
 def brand_for(raw, sku, name, desc):
@@ -82,7 +83,7 @@ def skip_reason(raw_brand, cat, sku, name):
 
 
 def clean(s):
-    return ' '.join(DASHES.sub('-', str(s or '')).split())
+    return ' '.join(DASHES.sub('-', INVISIBLE.sub('', str(s or ''))).split())
 
 
 def read_sheet(path, name):
@@ -159,6 +160,72 @@ def parse_specs(text):
     return out
 
 
+def code_like(name, sku):
+    """True when the name is only a model code ("DIN-AO8", "TLP Pro 725C"): every token has a digit
+    or is four letters or fewer."""
+    if re.sub(r'[^a-z0-9]', '', name.lower()) == re.sub(r'[^a-z0-9]', '', sku.lower()):
+        return True
+    toks = re.findall(r'[A-Za-z0-9]+', name)
+    return bool(toks) and all(any(ch.isdigit() for ch in w) or len(w) <= 4 for w in toks)
+
+
+GENERIC_EXTRA = {'system', 'unit', 'accessory', 'accessories', 'kit', 'set', 'device', 'module', 'battery', 'cable',
+                 'mount', 'wall', 'ceiling', 'bracket', 'panel', 'single', 'double', 'manager', 'box'}
+
+
+def generic_name(name, info, cat):
+    """True when the name is only a product kind ("Speaker", "Wireless Access Point"), no model or size."""
+    words = re.findall(r'[A-Za-z]+', name)
+    if not words or re.search(r'\d', name) or len(words) > 4:
+        return False
+    vocab = set(re.findall(r'[a-z]+', f"{info['en']} {cat}".lower())) | GENERIC_EXTRA
+    return all(w.lower() in vocab or w.lower().rstrip('s') in vocab for w in words)
+
+
+def readable_name(name, desc, brand):
+    """For a code-only name, the first phrase of the product's own description with the brand and the
+    code taken off the front, followed by the code: "One-Gang MAAP Mounting Frame - Black (CPM101)".
+    Returns the name unchanged when the description has no usable phrase."""
+    import difflib
+    if not desc:
+        return name
+    phrase = re.split(r'\s*(?:\u2022|;|\||\.\s)\s*', desc.strip(' \u2022'))[0]
+    phrase = clean(phrase).strip(' -:,')
+    for _ in range(2):                         # the export sometimes misspells the brand ("FONOSEL")
+        head, _, rest = phrase.partition(' ')
+        if brand and rest and difflib.SequenceMatcher(None, head.lower().strip(','), brand.lower()).ratio() >= 0.75:
+            phrase = rest.lstrip(' ,:-')
+        if name and phrase.lower().startswith(name.lower()):
+            phrase = phrase[len(name):].lstrip(' ,:-')
+    if (not re.search(r'[A-Za-z]{3,}\W+(?:\w+\W+)*?[A-Za-z]{3,}', phrase) or phrase[:1] in '(*+_'
+            or re.search(r'[_=]|\*\s*\d|\*\s*$', phrase)):
+        return name
+    if len(phrase) > 70:
+        cut = phrase[:70]
+        phrase = cut[:cut.rfind(', ')] if cut.rfind(', ') > 30 else cut[:cut.rfind(' ')]
+        phrase = phrase.rstrip(' ,-:(')
+        phrase = re.sub(r'(?i)(?:\s+(?:and|with|for|of|the|to|in|or|&|-))+$', '', phrase)   # no dangling "and"
+    if phrase.isupper():                       # "RECHARGEABLE BATTERY" -> "Rechargeable Battery"
+        phrase = ' '.join(w if any(c.isdigit() for c in w) or len(w) <= 3 else w.capitalize() for w in phrase.split())
+    key = lambda s: re.sub(r'[^a-z0-9]', '', s.lower())
+    return phrase if key(name) in key(phrase) else f'{phrase} ({name})'
+
+
+def described_name(name, desc, brand):
+    """For a generic name, the description's first phrase, led by the generic word when the phrase lacks it:
+    "Monitor" -> "43-55-Inch Indoor Wall-Mounted Digital Signage Monitor"."""
+    phrase = readable_name('\x00', desc, brand)          # same cleaning, without a code to strip
+    if phrase == '\x00':
+        return name
+    phrase = phrase.replace(' (\x00)', '')
+    have = {w.lower()[:5] for w in re.findall(r'[A-Za-z]+', phrase)}
+    if len(re.findall(r'[A-Za-z0-9]+', phrase)) <= len(re.findall(r'[A-Za-z]+', name)):
+        return name
+    if all(w.lower()[:5] in have for w in re.findall(r'[A-Za-z]+', name)):
+        return phrase
+    return f'{name}, {phrase}'[:90].rsplit(' ', 1)[0] if len(name) + len(phrase) > 88 else f'{name}, {phrase}'
+
+
 def classification(d, info):
     """What the export's classification columns say: product type, series and sale unit. Cards show
     these until the product's specifications have been checked against the manufacturer; the free-text
@@ -213,6 +280,15 @@ def main(xlsx, skipped_csv=None):
         if re.match(r'(?i)^(tba|n/?a)\b', desc) or desc.lower() == name.lower():
             desc = ''
         entry = {'sku': sku, 'order': 0, 'n': name or sku, 'b': brand, 'c': cat, 'dept': dept, 'avail': 'lead'}
+        if code_like(name or sku, sku):           # a code alone: give visitors words to read and search
+            better = readable_name(name or sku, desc, brand or raw_brand)
+        elif generic_name(name, info, cat):         # a kind alone ("Speaker"): say which one
+            better = described_name(name, desc, brand or raw_brand)
+        else:
+            better = entry['n']
+        if better != entry['n']:
+            entry['model'] = entry['n']
+            entry['n'] = better
         if desc:
             entry['d'] = desc
         entry['specs'] = classification(d, info)
@@ -288,6 +364,7 @@ def main(xlsx, skipped_csv=None):
     print('no brand shown (export does not name the maker):', dict(blanked))
     print('categories not in product_categories.json (shown under Other):', dict(unknown) or 'none')
     print('by group:', dict(Counter(i['grp'] for i, _, _ in items).most_common()))
+    print('renamed from a code-only name:', sum(1 for _, e, _ in items if 'model' in e))
     print('with classification specs:', sum(1 for _, e, _ in items if e['specs']),
           '| with description:', sum(1 for _, e, _ in items if 'd' in e))
 

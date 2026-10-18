@@ -1,11 +1,12 @@
 {
  "sku": "P300",
- "order": 1245,
- "n": "P300",
+ "order": 1244,
+ "n": "Amplifier / DSP (P300)",
  "b": "Shure",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "P300",
  "d": "Amplifier / DSP",
  "specs": []
 }

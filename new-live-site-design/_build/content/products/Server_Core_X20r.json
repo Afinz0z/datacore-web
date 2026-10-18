@@ -1,11 +1,12 @@
 {
  "sku": "Server Core X20r",
  "order": 1242,
- "n": "Server Core X20r",
+ "n": "X-Class Server Core for AV&C processing buil (Server Core X20r)",
  "b": "Q-SYS",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "Server Core X20r",
  "d": "Q-SYS X-Class Server Core for AV&C processing buil",
  "specs": [],
  "acc": [

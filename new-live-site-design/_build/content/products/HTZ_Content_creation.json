@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Content creation",
- "order": 4309,
- "n": "HTZ_Content creation",
+ "order": 4312,
+ "n": "GUI design and content creation (HTZ_Content creation)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Content creation",
  "d": "GUI design and content creation",
  "specs": []
 }

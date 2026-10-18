@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Guest app license",
- "order": 4312,
- "n": "HTZ_Guest app license",
+ "order": 4309,
+ "n": "Guest App License (HTZ_Guest app license)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Guest app license",
  "d": "Hoteza Guest App License",
  "specs": []
 }

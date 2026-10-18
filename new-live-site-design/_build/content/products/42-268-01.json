@@ -1,11 +1,12 @@
 {
  "sku": "42-268-01",
- "order": 1787,
- "n": "HC 404",
+ "order": 1798,
+ "n": "Meeting Space Collaboration System (HC 404)",
  "b": "Extron",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
+ "model": "HC 404",
  "d": "HC 404 Meeting Space Collaboration System",
  "specs": []
 }

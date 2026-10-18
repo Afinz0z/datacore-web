@@ -1,11 +1,12 @@
 {
  "sku": "Tesira SERVER-IO AVB",
- "order": 1204,
- "n": "Tesira SERVER-IO AVB",
+ "order": 1201,
+ "n": "Configurable I/O DSP with up to 48 channels of I/O (Tesira SERVER-IO AVB)",
  "b": "Biamp",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "Tesira SERVER-IO AVB",
  "d": "Configurable I/O DSP with up to 48 channels of I/O, 1 DSP-2 card (2 additional DSP-2 cards can be added), and 1 AVB-1 network card",
  "specs": [],
  "acc": [

@@ -1,11 +1,12 @@
 {
  "sku": "GMVSVR-100",
- "order": 4960,
- "n": "GMVSVR-100",
+ "order": 4959,
+ "n": "Basic IPTV Middleware with 437 client licenses and 437 embedded (GMVSVR-100)",
  "b": "WISI",
  "c": "Software - license",
  "dept": "AV",
  "avail": "lead",
+ "model": "GMVSVR-100",
  "d": "Basic IPTV Middleware with 437 client licenses and 437 embedded software components.",
  "specs": []
 }

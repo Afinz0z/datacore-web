@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_POS support",
- "order": 4319,
- "n": "HTZ_POS support",
+ "order": 4321,
+ "n": "POS Interface support (HTZ_POS support)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_POS support",
  "d": "POS Interface support",
  "specs": []
 }

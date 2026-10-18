@@ -1,11 +1,12 @@
 {
  "sku": "SERVICE-ADVANCED-TP",
- "order": 5222,
- "n": "SERVICE-ADVANCED-TP",
+ "order": 5221,
+ "n": "Annual Advanced Uniguest Service Pack - 1st year Mandatory (SERVICE-ADVANCED-TP)",
  "b": "Tripleplay",
  "c": "Service Support Contract",
  "dept": "AV",
  "avail": "lead",
+ "model": "SERVICE-ADVANCED-TP",
  "d": "Annual Advanced Uniguest Service Pack - 1st year Mandatory",
  "specs": []
 }

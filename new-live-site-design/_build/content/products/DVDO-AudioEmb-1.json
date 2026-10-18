@@ -1,11 +1,12 @@
 {
  "sku": "DVDO-AudioEmb-1",
  "order": 2142,
- "n": "DVDO-AudioEmb-1",
+ "n": "HDMI 18Gbps Audio Embedder can embed audio signals from digital (DVDO-AudioEmb-1)",
  "b": "DVDO",
  "c": "Embedder",
  "dept": "AV",
  "avail": "lead",
+ "model": "DVDO-AudioEmb-1",
  "d": "HDMI 18Gbps Audio Embedder can embed audio signals from digital optical or analog stereo Line audio to HDMI output.",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "D25",
- "order": 1021,
- "n": "D25",
+ "order": 1023,
+ "n": "Mobile specific four channel amplifier (D25)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "D25",
  "d": "Mobile specific four channel amplifier",
  "specs": []
 }

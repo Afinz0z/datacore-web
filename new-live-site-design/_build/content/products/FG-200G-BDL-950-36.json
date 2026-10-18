@@ -1,11 +1,12 @@
 {
  "sku": "FG-200G-BDL-950-36",
  "order": 3172,
- "n": "firewall",
+ "n": "firewall, FortiGate-200G Hardware plus 3 Year FortiCare Premium and FortiGuard",
  "b": "Fortinet",
  "c": "FIREWALL",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ FortiGate-200G Hardware plus 3 Year FortiCare Premium and FortiGuard Unified Threat Protection (UTP) ​",
+ "model": "firewall",
+ "d": "FortiGate-200G Hardware plus 3 Year FortiCare Premium and FortiGuard Unified Threat Protection (UTP)",
  "specs": []
 }

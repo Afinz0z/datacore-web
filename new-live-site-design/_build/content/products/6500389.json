@@ -1,11 +1,12 @@
 {
  "sku": "6500389",
- "order": 1703,
- "n": "C2N-IRGW-F",
+ "order": 1745,
+ "n": "Flush Mount IR Gateway (C2N-IRGW-F)",
  "b": "Crestron",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
+ "model": "C2N-IRGW-F",
  "d": "C2N-IRGW-F Flush Mount IR Gateway",
  "specs": []
 }

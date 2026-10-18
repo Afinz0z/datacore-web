@@ -1,11 +1,12 @@
 {
  "sku": "60-1667-102",
- "order": 4681,
- "n": "TLS 300M",
+ "order": 4684,
+ "n": "Black, Desk Scheduling (TLS 300M)",
  "b": "Extron",
  "c": "Room Booking/Scheduling",
  "dept": "AV",
  "avail": "lead",
+ "model": "TLS 300M",
  "d": "TLS 300M Black, Desk Scheduling",
  "specs": [],
  "acc": [

@@ -1,11 +1,12 @@
 {
  "sku": "6507123",
  "order": 1216,
- "n": "DSP-860",
+ "n": "Avia™ 8x6 Digital Signal Processor (DSP-860)",
  "b": "Crestron",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DSP-860",
  "d": "DSP-860 Crestron Avia™ 8x6 Digital Signal Processor",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "DPA-2125E",
- "order": 961,
- "n": "DPA-2125E",
+ "order": 960,
+ "n": "Class D Digital Amplifier 125W x 2CH (DPA-2125E)",
  "b": "Ateis",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "DPA-2125E",
  "d": "Class D Digital Amplifier 125W x 2CH, 100V/50V/8 OHM incl connector pack.",
  "specs": []
 }

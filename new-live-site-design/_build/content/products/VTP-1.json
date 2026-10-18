@@ -1,11 +1,12 @@
 {
  "sku": "VTP-1",
- "order": 2887,
- "n": "VTP-1",
+ "order": 2881,
+ "n": "1 RU Rack Vent Panel, Slotted with 20% Open Area (VTP-1)",
  "b": "Middle Atlantic",
  "c": "Rack (AV)",
  "dept": "AV",
  "avail": "lead",
+ "model": "VTP-1",
  "d": "VTP-1 1 RU Rack Vent Panel, Slotted with 20% Open Area",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "2110 IP Converter 8x12G SFP",
  "order": 2045,
- "n": "2110 IP Converter 8x12G SFP",
+ "n": "Bidirectional 12G-SDI to SMPTE-2110 IP Video Converter (2110 IP Converter 8x12G SFP)",
  "b": "Blackmagic Design",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "2110 IP Converter 8x12G SFP",
  "d": "Bidirectional 12G-SDI to SMPTE-2110 IP Video Converter",
  "specs": []
 }

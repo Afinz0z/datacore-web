@@ -1,11 +1,12 @@
 {
  "sku": "RCAC3I-G-000-1",
- "order": 2577,
- "n": "RCAC3I-G-000-1",
+ "order": 2575,
+ "n": "3 pole AC power inlet connector (RCAC3I-G-000-1)",
  "b": "Rean",
  "c": "Connectors",
  "dept": "AV",
  "avail": "lead",
+ "model": "RCAC3I-G-000-1",
  "d": "3 pole AC power inlet connector",
  "specs": []
 }

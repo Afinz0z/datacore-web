@@ -1,11 +1,12 @@
 {
  "sku": "R1013",
- "order": 3880,
- "n": "2 Core, 18AWG",
+ "order": 3881,
+ "n": "Audio Control & Instrumentation Cable, 300V, OA (2 Core, 18AWG)",
  "b": "Ramcro",
  "c": "CONTROL CABLE",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "2 Core, 18AWG",
  "d": "AUDIO CONTROL & INSTRUMENTATION CABLE, 300V, OA. Sh, 75 C, Stranded BCU/PP/OS/PVC, IEC 60332-1/UL 1581, BS EN 50290-2, IEC 60228 (305 Mtr)",
  "specs": []
 }

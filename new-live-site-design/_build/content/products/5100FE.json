@@ -1,12 +1,13 @@
 {
  "sku": "5100FE",
- "order": 2543,
- "n": "5100FE",
+ "order": 2542,
+ "n": "Audio Cable 2 Conductor 14 AWG BC, Shielded, CL3R (5100FE)",
  "b": "Belden",
  "c": "CONTROL CABLE",
  "dept": "AV",
  "avail": "lead",
- "d": "Audio Cable 2 Conductor 14 AWG BC, Shielded, CL3R, FPLR Roll 305 Meters ​",
+ "model": "5100FE",
+ "d": "Audio Cable 2 Conductor 14 AWG BC, Shielded, CL3R, FPLR Roll 305 Meters",
  "specs": [
   {
    "label": "Type",

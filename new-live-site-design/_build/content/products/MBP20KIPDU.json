@@ -1,11 +1,12 @@
 {
  "sku": "MBP20KIPDU",
  "order": 4257,
- "n": "UPS ACCESSORY",
+ "n": "UPS ACCESSORY, 20 kW MBP with PDU",
  "b": "Eaton",
  "c": "Battery Pack-UPS",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "UPS ACCESSORY",
  "d": "Eaton 20 kW MBP with PDU",
  "specs": [],
  "for": [

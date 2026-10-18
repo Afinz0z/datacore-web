@@ -1,11 +1,12 @@
 {
  "sku": "91310086",
- "order": 1956,
- "n": "MMX8x8-HT440",
+ "order": 1955,
+ "n": "8x8 multiport matrix switcher (MMX8x8-HT440)",
  "b": "Lightware",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "MMX8x8-HT440",
  "d": "MMX8x8-HT440 - 8x8 multiport matrix switcher",
  "specs": []
 }

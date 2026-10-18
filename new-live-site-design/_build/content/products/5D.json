@@ -1,11 +1,12 @@
 {
  "sku": "5D",
- "order": 1018,
- "n": "5D",
+ "order": 1022,
+ "n": "Installation specific high-density four channel amplifier (5D)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "5D",
  "d": "Installation specific high-density four channel amplifier",
  "specs": []
 }

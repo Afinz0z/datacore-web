@@ -1,12 +1,13 @@
 {
  "sku": "C1723",
- "order": 2541,
- "n": "Control Cable",
+ "order": 2540,
+ "n": "Control Cable, 3C 18AWG Shielded HFFR",
  "b": "B3 International",
  "c": "CONTROL CABLE",
  "dept": "AV",
  "avail": "lead",
- "d": "3C 18AWG Shielded HFFR ​",
+ "model": "Control Cable",
+ "d": "3C 18AWG Shielded HFFR",
  "specs": [
   {
    "label": "Unit",

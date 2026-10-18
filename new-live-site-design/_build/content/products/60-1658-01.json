@@ -1,11 +1,12 @@
 {
  "sku": "60-1658-01",
  "order": 1410,
- "n": "SSP 200",
+ "n": "Surround Sound Processor (SSP 200)",
  "b": "Extron",
  "c": "Audio Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "SSP 200",
  "d": "SSP 200 Surround Sound Processor",
  "specs": []
 }

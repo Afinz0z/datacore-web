@@ -1,11 +1,12 @@
 {
  "sku": "60-1378-01",
- "order": 4138,
- "n": "PC 101",
+ "order": 4136,
+ "n": "AC Power Controller (PC 101)",
  "b": "Extron",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
+ "model": "PC 101",
  "d": "PC 101 AC Power Controller",
  "specs": []
 }

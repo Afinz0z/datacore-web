@@ -1,11 +1,12 @@
 {
  "sku": "VX-3K-SW QJ",
  "order": 4950,
- "n": "software license",
+ "n": "software license, Audio Management System VX-3000",
  "b": "TOA",
  "c": "Software - license",
  "dept": "AV",
  "avail": "lead",
+ "model": "software license",
  "d": "AUDIO MANAGEMENT SYSTEM VX-3000",
  "specs": []
 }

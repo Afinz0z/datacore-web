@@ -1,11 +1,12 @@
 {
  "sku": "KA04",
  "order": 1077,
- "n": "KA04",
+ "n": "Kommander - KA04 Compact Amplifier",
  "b": "K-array",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "KA04",
  "d": "K-Array Kommander - KA04 Compact Amplifier",
  "specs": []
 }

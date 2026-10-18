@@ -1,11 +1,12 @@
 {
  "sku": "6500261",
  "order": 1618,
- "n": "C2N-RTHS",
+ "n": "Cresnet Remote Temperature and Relative Humidity Sensor (C2N-RTHS)",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "C2N-RTHS",
  "d": "C2N-RTHS Cresnet Remote Temperature and Relative Humidity Sensor",
  "specs": []
 }

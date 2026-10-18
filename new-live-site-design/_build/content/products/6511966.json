@@ -1,11 +1,12 @@
 {
  "sku": "6511966",
- "order": 2061,
- "n": "DM-NAX-AUD-IO",
+ "order": 2054,
+ "n": "DM NAX® Audio-over-IP Converter with Balanced/Unbalanced Line-Level",
  "b": "Crestron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM-NAX-AUD-IO",
  "d": "DM-NAX-AUD-IO DM NAX® Audio-over-IP Converter with Balanced/Unbalanced Line-Level Audio Input and Output",
  "specs": []
 }

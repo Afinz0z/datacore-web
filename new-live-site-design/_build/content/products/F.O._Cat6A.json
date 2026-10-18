@@ -1,11 +1,12 @@
 {
  "sku": "F.O./Cat6A",
  "order": 2532,
- "n": "F.O./Cat6A",
+ "n": "Interconnection Cables (F.O./Cat6A)",
  "b": "SACO",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
+ "model": "F.O./Cat6A",
  "d": "Interconnection Cables (F.O./Cat6A)",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "6510948",
- "order": 1619,
- "n": "CEN-ODT-C-POE",
+ "order": 1621,
+ "n": "Dual-Technology Occupancy Sensor, PoE, 2,000 Sq Ft (CEN-ODT-C-POE)",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "CEN-ODT-C-POE",
  "d": "CEN-ODT-C-POE -Dual-Technology Occupancy Sensor, PoE, 2,000 Sq Ft",
  "specs": [
   {

@@ -1,12 +1,13 @@
 {
  "sku": "4110621",
- "order": 4181,
- "n": "PDU",
+ "order": 4182,
+ "n": "Ipdu A Series, 16C13, 4C19, 32A 1PHASE - EN - P/N",
  "b": "Datwyler",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ IPDU A SERIES, 16C13, 4C19, 32A 1PHASE - EN - P/N. 4110621 - Datwyler ​",
+ "model": "PDU",
+ "d": "IPDU A SERIES, 16C13, 4C19, 32A 1PHASE - EN - P/N. 4110621 - Datwyler",
  "specs": [
   {
    "label": "Type",

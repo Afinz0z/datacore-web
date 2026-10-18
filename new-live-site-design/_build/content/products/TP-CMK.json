@@ -1,11 +1,12 @@
 {
  "sku": "TP-CMK",
- "order": 2832,
- "n": "TP-CMK",
+ "order": 2831,
+ "n": "Camera Ceiling Mount Kit (TP-CMK)",
  "b": "PeopleLink",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
+ "model": "TP-CMK",
  "d": "Camera Ceiling Mount Kit",
  "specs": [],
  "for": [

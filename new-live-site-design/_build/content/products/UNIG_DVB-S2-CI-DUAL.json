@@ -1,11 +1,12 @@
 {
  "sku": "UNIG_DVB-S2-CI-DUAL",
- "order": 4386,
- "n": "UNIG_DVB-S2-CI-DUAL",
+ "order": 4385,
+ "n": "IPTV DVB-S/S2 encrypted dual interface excl CAM (UNIG_DVB-S2-CI-DUAL)",
  "b": "Tripleplay",
  "c": "Satellite Accessory",
  "dept": "AV",
  "avail": "lead",
+ "model": "UNIG_DVB-S2-CI-DUAL",
  "d": "IPTV DVB-S/S2 encrypted dual interface excl CAM",
  "specs": []
 }

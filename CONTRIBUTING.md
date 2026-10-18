@@ -91,6 +91,8 @@ for the architecture, the build and the deploy.
 - The export's free-text Specifications column is not published. Until a product's specs are checked
   against the manufacturer's page, its card shows only the type, series and sale unit. Checked specs
   are saved in the product file with `src` (the page) and `checked` (the date), and a re-import keeps them.
+- Products the export lists only by a code ("DIN-AO8") or a bare kind ("Speaker") get a readable name from
+  the first phrase of their own description, with the code kept in brackets; the original is saved as `model`.
 - Categories map to filter groups, Arabic names and card icons in `_build/product_categories.json`.
   A category missing from it shows under Other until it is added.
 - Bundles: `acc` lists a product's supporting products (mounts, licences, support contracts) and `for`

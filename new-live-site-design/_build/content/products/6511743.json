@@ -1,11 +1,12 @@
 {
  "sku": "6511743",
- "order": 1005,
- "n": "AMP-X750",
+ "order": 1006,
+ "n": "X-Series Amplifier, 750 The AMP-X750 is a high performance, compact",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "AMP-X750",
  "d": "X-Series Amplifier, 750 The AMP-X750 is a high performance, compact, energy efficient, professional grade amplifier. Supporting Lo-Z and Hi-Z operation, this multichannel amplifier is suitable for both residential and commercial configurations.",
  "specs": [
   {

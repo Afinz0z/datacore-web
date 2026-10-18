@@ -1,11 +1,12 @@
 {
  "sku": "40KTKS-T0-000000",
  "order": 3551,
- "n": "Card Reader",
+ "n": "Card Reader, Signo 40K,BLK/SLVR,TERM,CRD PFL T0-STD,BLE:ON,WIEG,32-B MSB,EACH,4B",
  "b": "Tyco",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Card Reader",
  "d": "SIGNO 40K,BLK/SLVR,TERM,CRD PFL T0-STD,BLE:ON,WIEG,32-B MSB,EACH,4B MSG,NOPAR,LEN:13,LED:RED,FLSH:GRN,BZR,KBD:RED,KBZR,VIS:ON,SRF:ON,IPM:OFF,VEL:OFF,TAP",
  "specs": [
   {

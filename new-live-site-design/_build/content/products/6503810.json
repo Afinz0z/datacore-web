@@ -1,11 +1,12 @@
 {
  "sku": "6503810",
- "order": 1564,
- "n": "C2N-UNI8IO",
+ "order": 1568,
+ "n": "Universal Keypad Interface (C2N-UNI8IO)",
  "b": "Crestron",
  "c": "Control Keypad/Remote Panel",
  "dept": "AV",
  "avail": "lead",
+ "model": "C2N-UNI8IO",
  "d": "C2N-UNI8IO Universal Keypad Interface",
  "specs": [],
  "acc": [

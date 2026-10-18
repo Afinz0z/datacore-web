@@ -1,11 +1,12 @@
 {
  "sku": "PRA-EOL",
  "order": 4435,
- "n": "End-of-line device",
+ "n": "PRA-EOL PRAESENSA End-Of-Line Device",
  "b": "Bosch",
  "c": "End of Line Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "End-of-line device",
  "d": "PRA-EOL PRAESENSA End-Of-Line Device",
  "specs": []
 }

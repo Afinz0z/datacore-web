@@ -1,11 +1,12 @@
 {
  "sku": "IDA8 AUDIO IN",
- "order": 1196,
- "n": "IDA8 AUDIO IN",
+ "order": 1195,
+ "n": "4 Channel Multipurpose 0dB/MIC Audio Input Card (IDA8 AUDIO IN)",
  "b": "Ateis",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "IDA8 AUDIO IN",
  "d": "4 Channel Multipurpose 0dB/MIC Audio Input Card, Compatible with IDA8C & IDA8SAB",
  "specs": []
 }

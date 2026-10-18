@@ -1,11 +1,12 @@
 {
  "sku": "BSNCSUB-12-SB",
  "order": 5041,
- "n": "Service",
+ "n": "Service, BSN.cloud - 1 year Content Cloud subscription (auto renewal)",
  "b": "Brightsign",
  "c": "Service Support Contract",
  "dept": "AV",
  "avail": "lead",
+ "model": "Service",
  "d": "BSN.cloud - 1 year Content Cloud subscription (auto renewal)",
  "specs": []
 }

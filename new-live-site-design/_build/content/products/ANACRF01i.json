@@ -1,11 +1,12 @@
 {
  "sku": "ANACRF01i",
- "order": 383,
- "n": "ANACRF01i",
+ "order": 386,
+ "n": "Model no:ANACRF01i Type:Anchor LVC remote Description:RF Remote LVC",
  "b": "Anchor",
  "c": "Projector Screen",
  "dept": "AV",
  "avail": "lead",
+ "model": "ANACRF01i",
  "d": "Model no:ANACRF01i Type:Anchor LVC remote Description:RF Remote LVC for integration ( Wireless)",
  "specs": [],
  "for": [

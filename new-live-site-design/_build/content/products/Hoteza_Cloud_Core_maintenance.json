@@ -1,11 +1,12 @@
 {
  "sku": "Hoteza Cloud Core maintenance",
- "order": 4300,
- "n": "Hoteza Cloud Core maintenance",
+ "order": 4302,
+ "n": "Cloud Core maintenance, per hotel per year 24/7/365 Customer Care (Hoteza Cloud Core maintenance)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "Hoteza Cloud Core maintenance",
  "d": "Hoteza Cloud Core maintenance, per hotel per year 24/7/365 Customer Care, Remote Support, Customer Success, Release Updates",
  "specs": []
 }

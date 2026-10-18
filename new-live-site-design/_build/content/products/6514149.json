@@ -1,11 +1,12 @@
 {
  "sku": "6514149",
  "order": 1409,
- "n": "DM-NAX-AP-100",
+ "n": "\"DM NAX® Intelligent Audio Processor (DM-NAX-AP-100)",
  "b": "Crestron",
  "c": "Audio Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM-NAX-AP-100",
  "d": "DM-NAX-AP-100 \"DM NAX® Intelligent Audio Processor",
  "specs": []
 }

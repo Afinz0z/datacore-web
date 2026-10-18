@@ -1,11 +1,12 @@
 {
  "sku": "6507970",
- "order": 2055,
- "n": "CEN-IO-IR-104",
+ "order": 2064,
+ "n": "Wired Ethernet Module with 4 IR Ports (CEN-IO-IR-104)",
  "b": "Crestron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "CEN-IO-IR-104",
  "d": "CEN-IO-IR-104 Wired Ethernet Module with 4 IR Ports",
  "specs": []
 }

@@ -6,7 +6,7 @@
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ Up to 128 IP cameras can be connected, Supports live view, storage, and playback of the connected camera at up to 12 megapixels resolution, H.265+ compression effectively reduces the storage space by up to 75%, 4 self-adaptive 10M/100M/1000M network interfaces. ​",
+ "d": "Up to 128 IP cameras can be connected, Supports live view, storage, and playback of the connected camera at up to 12 megapixels resolution, H.265+ compression effectively reduces the storage space by up to 75%, 4 self-adaptive 10M/100M/1000M network interfaces.",
  "specs": [
   {
    "label": "IP Video Input",

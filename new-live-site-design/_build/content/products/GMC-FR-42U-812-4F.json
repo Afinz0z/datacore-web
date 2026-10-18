@@ -1,11 +1,12 @@
 {
  "sku": "GMC-FR-42U-812-4F",
- "order": 3761,
- "n": "RACK 42 U",
+ "order": 3756,
+ "n": "Freestand 42 U 800X1200,4FAN,REMOVSIDEBACK,BLK RAL 9005 (RACK 42 U)",
  "b": "Gamma",
  "c": "NETWORK CABINET",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "RACK 42 U",
  "d": "FREESTAND 42 U 800X1200,4FAN,REMOVSIDEBACK,BLK RAL 9005",
  "specs": []
 }

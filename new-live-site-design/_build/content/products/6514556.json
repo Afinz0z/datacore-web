@@ -1,11 +1,12 @@
 {
  "sku": "6514556",
  "order": 431,
- "n": "CCC-BYOD-KIT ​",
+ "n": "Collab Compute Bring Your Own Device (BYOD) Kit (CCC-BYOD-KIT)",
  "b": "Crestron",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
+ "model": "CCC-BYOD-KIT",
  "d": "Crestron Collab Compute Bring Your Own Device (BYOD) Kit",
  "specs": []
 }

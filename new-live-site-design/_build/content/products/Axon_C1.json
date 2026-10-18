@@ -1,11 +1,12 @@
 {
  "sku": "Axon C1",
- "order": 2562,
- "n": "Axon C1",
+ "order": 2563,
+ "n": "Single-Gang networked audio controller (Attero Tech) (Axon C1)",
  "b": "QSC",
  "c": "Audio Wallplate",
  "dept": "AV",
  "avail": "lead",
+ "model": "Axon C1",
  "d": "Single-Gang networked audio controller (Attero Tech)",
  "specs": []
 }

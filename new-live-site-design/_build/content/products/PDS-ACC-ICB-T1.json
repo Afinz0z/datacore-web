@@ -1,11 +1,12 @@
 {
  "sku": "PDS-ACC-ICB-T1",
  "order": 5329,
- "n": "Dongle",
+ "n": "Wireless Screen Sharing Dongle - designed for local content sharing",
  "b": "PeopleLink",
  "c": "Dongle",
  "dept": "AV",
  "avail": "lead",
+ "model": "Dongle",
  "d": "PeopleLink Wireless Screen Sharing Dongle - designed for local content sharing on Interactive Panels, compatible with AILive Board Core and Lite Series. This is a single transmitter dongle.",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "GSM4248PX-100EUS",
- "order": 3023,
- "n": "GSM4248PX",
+ "order": 3021,
+ "n": "Fully Managed Network 48 Ports switch with POE+ ,40 x 1G PoE+,8 x SFP+ (GSM4248PX)",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
+ "model": "GSM4248PX",
  "d": "Fully Managed Network 48 Ports switch with POE+ ,40 x 1G PoE+,8 x SFP+",
  "specs": []
 }

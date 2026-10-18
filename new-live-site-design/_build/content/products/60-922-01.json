@@ -1,11 +1,12 @@
 {
  "sku": "60-922-01",
- "order": 2107,
- "n": "DVI DA4",
+ "order": 2099,
+ "n": "Four Output DVI (DVI DA4)",
  "b": "Extron",
  "c": "Distribution Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "DVI DA4",
  "d": "DVI DA4 Four Output DVI",
  "specs": []
 }

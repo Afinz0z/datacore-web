@@ -1,11 +1,12 @@
 {
  "sku": "AV-WALL-DT4i",
  "order": 1964,
- "n": "AV-WALL-DT4i",
+ "n": "Wall mounted Dante Mic/Line audio input interface (AV-WALL-DT4i)",
  "b": "Auvitran",
  "c": "Wall Plate / Extenders",
  "dept": "AV",
  "avail": "lead",
+ "model": "AV-WALL-DT4i",
  "d": "Wall mounted Dante Mic/Line audio input interface",
  "specs": []
 }

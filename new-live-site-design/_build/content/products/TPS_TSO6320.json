@@ -1,11 +1,12 @@
 {
  "sku": "TPS_TSO6320",
  "order": 4351,
- "n": "TPS_TSO6320",
+ "n": "Video storage 2TB (TPS_TSO6320)",
  "b": "Tripleplay",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "TPS_TSO6320",
  "d": "Video storage 2TB",
  "specs": []
 }

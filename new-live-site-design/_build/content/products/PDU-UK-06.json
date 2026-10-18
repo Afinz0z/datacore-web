@@ -1,11 +1,12 @@
 {
  "sku": "PDU-UK-06",
  "order": 4185,
- "n": "PDU, 6 Way",
+ "n": "Power Distribution Unit, UK (PDU, 6 Way)",
  "b": "Finosel",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "PDU, 6 Way",
  "d": "FONOSEL, PDU, 6 Way Power Distribution Unit, UK",
  "specs": [],
  "for": [

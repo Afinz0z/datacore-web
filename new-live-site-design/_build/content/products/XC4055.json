@@ -1,11 +1,12 @@
 {
  "sku": "XC4055",
  "order": 371,
- "n": "XC4055",
+ "n": "IPTV Media Player (XC4055)",
  "b": "Brightsign",
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
+ "model": "XC4055",
  "d": "IPTV Media Player",
  "specs": []
 }

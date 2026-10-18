@@ -1,11 +1,12 @@
 {
  "sku": "Horizontal PDU",
- "order": 4174,
- "n": "Horizontal PDU",
+ "order": 4179,
+ "n": "UK Type 6 Way PDU (Horizontal PDU)",
  "b": "APC",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Horizontal PDU",
  "d": "UK Type 6 Way PDU",
  "specs": []
 }

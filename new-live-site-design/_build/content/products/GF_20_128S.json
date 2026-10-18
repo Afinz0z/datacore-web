@@ -1,11 +1,12 @@
 {
  "sku": "GF 20 128S",
- "order": 4356,
- "n": "GF 20 128S",
+ "order": 4357,
+ "n": "Falcon IP Streamer 12 x DVB-S/S2 into 256 SPTS with 8 x CI (GF 20 128S)",
  "b": "WISI",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "GF 20 128S",
  "d": "Falcon IP Streamer 12 x DVB-S/S2 into 256 SPTS with 8 x CI",
  "specs": []
 }

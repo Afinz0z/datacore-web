@@ -1,11 +1,12 @@
 {
  "sku": "LC4-MFD",
- "order": 2592,
- "n": "LC4-MFD",
+ "order": 2594,
+ "n": "Metal fire dome LC4, Standard (LC4-MFD)",
  "b": "Bosch",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
+ "model": "LC4-MFD",
  "d": "Metal fire dome LC4, Standard",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "6502729",
- "order": 2303,
- "n": "CCR-L-1",
+ "order": 2302,
+ "n": "Color Ring sample set of the 12 available colors and finishes (CCR-L-1)",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
+ "model": "CCR-L-1",
  "d": "CCR-L-1 Crestron® Color Ring sample set of the 12 available colors and finishes for Crestron keypads.",
  "specs": []
 }

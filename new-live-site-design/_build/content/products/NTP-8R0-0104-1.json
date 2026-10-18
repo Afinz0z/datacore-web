@@ -1,11 +1,12 @@
 {
  "sku": "NTP-8R0-0104-1",
  "order": 4528,
- "n": "NTP-8R0-0104-1",
+ "n": "NTP 8000 Series Master Clock, GPS,Server Upgrade & Web Interface,Rack (NTP-8R0-0104-1)",
  "b": "Sapling",
  "c": "Server",
  "dept": "AV",
  "avail": "lead",
+ "model": "NTP-8R0-0104-1",
  "d": "NTP 8000 Series Master Clock, GPS,Server Upgrade & Web Interface,Rack Mount, 4 ProgrammableRelays/Zones",
  "specs": [
   {

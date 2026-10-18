@@ -1,11 +1,12 @@
 {
  "sku": "TESIRAFORTÉ® DAN AI",
- "order": 1205,
- "n": "TESIRAFORTÉ® DAN AI",
+ "order": 1204,
+ "n": "Fixed I/O DSP with 12 analog inputs, 8 analog outputs (TESIRAFORTÉ® DAN AI)",
  "b": "Biamp",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "TESIRAFORTÉ® DAN AI",
  "d": "Fixed I/O DSP with 12 analog inputs, 8 analog outputs, 8 channels configurable USB audio, and 32 x 32 channels of Dante",
  "specs": []
 }

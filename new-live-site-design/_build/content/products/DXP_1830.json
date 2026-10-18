@@ -1,11 +1,12 @@
 {
  "sku": "DXP 1830",
- "order": 4355,
- "n": "DXP 1830",
+ "order": 4359,
+ "n": "Power supply (DXP 1830)",
  "b": "WISI",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "DXP 1830",
  "d": "Power supply",
  "specs": []
 }

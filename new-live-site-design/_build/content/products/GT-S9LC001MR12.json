@@ -1,11 +1,12 @@
 {
  "sku": "GT-S9LC001MR12",
  "order": 4069,
- "n": "Fiber Pigtail",
+ "n": "Fiber Pigtail, LC/UPC, Single-mode OS2 (9/125 µm)",
  "b": "Belden",
  "c": "Fiber Pigtails",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Fiber Pigtail",
  "d": "Fiber Pigtail, LC/UPC, Single-mode OS2 (9/125 µm)",
  "specs": [
   {

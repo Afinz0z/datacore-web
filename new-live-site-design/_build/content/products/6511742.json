@@ -1,11 +1,12 @@
 {
  "sku": "6511742",
- "order": 1002,
- "n": "AMP-X500",
+ "order": 1004,
+ "n": "X-Series Amplifier, 500 W The AMP-X500 is a high performance",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "AMP-X500",
  "d": "X-Series Amplifier, 500 W The AMP-X500 is a high performance, compact, energy efficient, professional grade amplifier. Supporting Lo-Z and Hi-Z operation, this multichannel amplifier is suitable for both residential and commercial configurations.",
  "specs": [
   {

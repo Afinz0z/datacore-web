@@ -1,11 +1,12 @@
 {
  "sku": "760237047",
- "order": 3970,
- "n": "patch panel",
+ "order": 3969,
+ "n": "patch panel, Shielded Discrete Distribution Module Panel, SL, 2U, 48 port, Black",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ Shielded Discrete Distribution Module Panel, SL, 2U, 48 port, Black ​",
+ "model": "patch panel",
+ "d": "Shielded Discrete Distribution Module Panel, SL, 2U, 48 port, Black",
  "specs": []
 }

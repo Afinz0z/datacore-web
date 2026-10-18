@@ -1,11 +1,12 @@
 {
  "sku": "93PX20KIPM",
- "order": 4231,
- "n": "UPS",
+ "order": 4223,
+ "n": "93PX 20000i Power Module (UPS)",
  "b": "Eaton",
  "c": "UPS",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "UPS",
  "d": "Eaton 93PX 20000i Power Module",
  "specs": [],
  "acc": [

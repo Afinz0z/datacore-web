@@ -1,11 +1,12 @@
 {
  "sku": "DS-KV8113-WME1",
  "order": 4647,
- "n": "Intercom",
+ "n": "Video Intercom Villa Door Station",
  "b": "Hikvision",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Intercom",
  "d": "Video Intercom Villa Door Station",
  "specs": [
   {

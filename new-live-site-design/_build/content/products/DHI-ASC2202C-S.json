@@ -1,11 +1,12 @@
 {
  "sku": "DHI-ASC2202C-S",
  "order": 3561,
- "n": "Access controller",
+ "n": "Access Controller One Way",
  "b": "Dahua",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Access controller",
  "d": "Access Controller One Way",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "LUNA-F",
  "order": 1199,
- "n": "DSP",
+ "n": "Flexible network audio matrix processor (DSP)",
  "b": "Audac",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DSP",
  "d": "Flexible network audio matrix processor",
  "specs": []
 }

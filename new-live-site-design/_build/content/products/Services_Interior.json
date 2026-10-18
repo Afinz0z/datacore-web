@@ -1,11 +1,12 @@
 {
  "sku": "Services · Interior",
- "order": 5219,
- "n": "Services · Interior",
+ "order": 5218,
+ "n": "Engineering & Shop Drawings, Project Management (Services · Interior)",
  "b": "SACO",
  "c": "Service Support Contract",
  "dept": "AV",
  "avail": "lead",
+ "model": "Services · Interior",
  "d": "Engineering & Shop Drawings, Project Management, Installation Supervision, Commissioning & Pixel Mapping",
  "specs": [
   {

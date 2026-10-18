@@ -1,11 +1,12 @@
 {
  "sku": "P2725HE",
- "order": 263,
- "n": "P2725HE",
+ "order": 260,
+ "n": "Dell monitor (P2725HE)",
  "b": "Dell Technologies",
  "c": "Monitor",
  "dept": "AV",
  "avail": "lead",
+ "model": "P2725HE",
  "d": "Dell monitor",
  "specs": []
 }

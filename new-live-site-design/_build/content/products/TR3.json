@@ -1,11 +1,12 @@
 {
  "sku": "TR3",
  "order": 2583,
- "n": "TR3",
+ "n": "Sky Hook (TR3)",
  "b": "BusPort",
  "c": "AV Service Box",
  "dept": "AV",
  "avail": "lead",
+ "model": "TR3",
  "d": "Sky Hook",
  "specs": []
 }

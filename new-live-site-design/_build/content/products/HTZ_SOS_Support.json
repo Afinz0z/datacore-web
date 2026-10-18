@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_SOS Support",
- "order": 4324,
- "n": "HTZ_SOS Support",
+ "order": 4326,
+ "n": "SOS Interface support (HTZ_SOS Support)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_SOS Support",
  "d": "SOS Interface support",
  "specs": []
 }

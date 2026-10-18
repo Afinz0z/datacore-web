@@ -1,11 +1,12 @@
 {
  "sku": "NET2-SS",
  "order": 1586,
- "n": "Net card",
+ "n": "Netcard, Fiber Optic Single Mode(A)-(B), excl Copper Pillars",
  "b": "Ateis",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "Net card",
  "d": "Netcard, Fiber Optic Single Mode(A)-(B), excl Copper Pillars",
  "specs": [],
  "for": [

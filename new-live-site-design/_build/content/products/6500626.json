@@ -1,11 +1,12 @@
 {
  "sku": "6500626",
- "order": 2644,
- "n": "CAEN-UMP1X1",
+ "order": 2693,
+ "n": "Universal Mounting Plate for CAEN Automation Enclosures (CAEN-UMP1X1)",
  "b": "Crestron",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
+ "model": "CAEN-UMP1X1",
  "d": "CAEN-UMP1X1 Universal Mounting Plate for CAEN Automation Enclosures, fits 1 Module Slot",
  "specs": [],
  "for": [

@@ -1,11 +1,12 @@
 {
  "sku": "UNIG_HDMI-QUAD",
  "order": 4352,
- "n": "UNIG_HDMI-QUAD",
+ "n": "HDMI to MPEG4 HD quad encoder (UNIG_HDMI-QUAD)",
  "b": "Uniguest",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "UNIG_HDMI-QUAD",
  "d": "HDMI to MPEG4 HD quad encoder",
  "specs": []
 }

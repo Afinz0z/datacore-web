@@ -1,11 +1,12 @@
 {
  "sku": "EVID-C6.2",
- "order": 829,
- "n": "Speaker",
+ "order": 828,
+ "n": "Ceiling speaker 6.5\" white",
  "b": "Electro-Voice",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
+ "model": "Speaker",
  "d": "Ceiling speaker 6.5\" white",
  "specs": []
 }

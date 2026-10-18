@@ -1,11 +1,12 @@
 {
  "sku": "MS116",
  "order": 5272,
- "n": "MS116",
+ "n": "Dell mouse (MS116)",
  "b": "Dell Technologies",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
+ "model": "MS116",
  "d": "Dell mouse",
  "specs": []
 }

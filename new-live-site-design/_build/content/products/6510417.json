@@ -1,11 +1,12 @@
 {
  "sku": "6510417",
- "order": 1650,
- "n": "DIN-AP4",
+ "order": 1652,
+ "n": "4-Series™ DIN Rail Control System (DIN-AP4)",
  "b": "Crestron",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "DIN-AP4",
  "d": "DIN-AP4 4-Series™ DIN Rail Control System",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "60-1956-02",
- "order": 4136,
- "n": "IPL EXP PDU4H",
+ "order": 4138,
+ "n": "Control System Power Expansion Interface with Cable Kit (IPL EXP PDU4H)",
  "b": "Extron",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
+ "model": "IPL EXP PDU4H",
  "d": "IPL EXP PDU4H Control System Power Expansion Interface with Cable Kit",
  "specs": []
 }

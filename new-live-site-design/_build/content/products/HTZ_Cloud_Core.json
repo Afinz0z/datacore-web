@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Cloud Core",
- "order": 4308,
- "n": "HTZ_Cloud Core",
+ "order": 4304,
+ "n": "Cloud Core subscription (HTZ_Cloud Core)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Cloud Core",
  "d": "Hoteza Cloud Core subscription",
  "specs": []
 }

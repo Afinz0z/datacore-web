@@ -1,11 +1,12 @@
 {
  "sku": "6510482",
- "order": 547,
- "n": "CCS-CAM-USB-F-400",
+ "order": 559,
+ "n": "Huddly IQ™ Collaboration Camera (CCS-CAM-USB-F-400)",
  "b": "Crestron",
  "c": "AV Camera",
  "dept": "AV",
  "avail": "lead",
+ "model": "CCS-CAM-USB-F-400",
  "d": "CCS-CAM-USB-F-400 Huddly IQ™ Collaboration Camera",
  "specs": []
 }

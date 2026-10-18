@@ -1,11 +1,12 @@
 {
  "sku": "91540067",
- "order": 1831,
- "n": "HDMI-TPS-TX96",
+ "order": 1827,
+ "n": "HDMI1.4 + Ethernet + RS-232 + bidirectional IR HDBaseT transmitter (HDMI-TPS-TX96)",
  "b": "Lightware",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
+ "model": "HDMI-TPS-TX96",
  "d": "HDMI-TPS-TX96 - HDMI1.4 + Ethernet + RS-232 + bidirectional IR HDBaseT transmitter",
  "specs": []
 }

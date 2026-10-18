@@ -1,12 +1,13 @@
 {
  "sku": "SRT6KXLI",
- "order": 4214,
- "n": "APC-6KVA UPS",
+ "order": 4217,
+ "n": "Smart-UPS SRT 6000VA 230V (APC-6KVA UPS)",
  "b": "APC",
  "c": "UPS",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ APC Smart-UPS SRT 6000VA 230V ​",
+ "model": "APC-6KVA UPS",
+ "d": "APC Smart-UPS SRT 6000VA 230V",
  "specs": [],
  "acc": [
   "SRT192BP",

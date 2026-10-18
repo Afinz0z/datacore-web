@@ -1,11 +1,12 @@
 {
  "sku": "XF500006424",
- "order": 3920,
- "n": "CAT6 UTP Jack",
+ "order": 3922,
+ "n": "VOLOCK6UHV CAT6 UTP Jack",
  "b": "Corning",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ VOLOCK6UHV CAT6 UTP Jack ​",
+ "model": "CAT6 UTP Jack",
+ "d": "VOLOCK6UHV CAT6 UTP Jack",
  "specs": []
 }

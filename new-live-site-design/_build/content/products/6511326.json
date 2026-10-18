@@ -1,11 +1,12 @@
 {
  "sku": "6511326",
- "order": 1652,
- "n": "MC4-I",
+ "order": 1647,
+ "n": "4-Series Control System, International (MC4-I)",
  "b": "Crestron",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "MC4-I",
  "d": "MC4-I 4-Series Control System, International",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "CONVCMIC/SH12G/WPSU",
  "order": 2047,
- "n": "CONVCMIC/SH12G/WPSU",
+ "n": "Micro Converter SDI to HDMI 12G PSU (CONVCMIC/SH12G/WPSU)",
  "b": "Blackmagic Design",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "CONVCMIC/SH12G/WPSU",
  "d": "Micro Converter SDI to HDMI 12G PSU",
  "specs": [],
  "for": [

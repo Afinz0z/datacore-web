@@ -1,11 +1,12 @@
 {
  "sku": "DS-7608NI-K1",
- "order": 3427,
- "n": "8CH NVR",
+ "order": 3428,
+ "n": "8CH Network Video Recorder (8CH NVR)",
  "b": "Hikvision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "8CH NVR",
  "d": "HIKVISION 8CH Network Video Recorder",
  "specs": [
   {

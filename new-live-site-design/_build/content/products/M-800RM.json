@@ -1,11 +1,12 @@
 {
  "sku": "M-800RM",
- "order": 4416,
- "n": "M-800RM",
+ "order": 4418,
+ "n": "Remote Microphone (M-800RM)",
  "b": "TOA",
  "c": "Paging mic",
  "dept": "AV",
  "avail": "lead",
+ "model": "M-800RM",
  "d": "Remote Microphone",
  "specs": []
 }

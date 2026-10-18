@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_POS",
- "order": 4318,
- "n": "HTZ_POS",
+ "order": 4315,
+ "n": "Integration to POS (HTZ_POS)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_POS",
  "d": "Integration to POS",
  "specs": []
 }

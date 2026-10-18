@@ -1,11 +1,12 @@
 {
  "sku": "LG STB-6500",
  "order": 4330,
- "n": "LG STB-6500",
+ "n": "Set-top box (Bathroom TV) (LG STB-6500)",
  "b": "LG",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "LG STB-6500",
  "d": "Set-top box (Bathroom TV)",
  "specs": []
 }

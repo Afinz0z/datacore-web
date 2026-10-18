@@ -1,11 +1,12 @@
 {
  "sku": "6500455",
- "order": 1621,
- "n": "CHV-RTHS",
+ "order": 1628,
+ "n": "Remote Temperature and Relative Humidity Sensor (CHV-RTHS)",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "CHV-RTHS",
  "d": "CHV-RTHS Remote Temperature and Relative Humidity Sensor",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "M700KACI-FG",
- "order": 4425,
- "n": "M700KACI-FG",
+ "order": 4422,
+ "n": "Fire alarm points (M700KACI-FG)",
  "b": "Notifier",
  "c": "Fire Alarm - Field Devices",
  "dept": "AV",
  "avail": "lead",
+ "model": "M700KACI-FG",
  "d": "Fire alarm points",
  "specs": []
 }

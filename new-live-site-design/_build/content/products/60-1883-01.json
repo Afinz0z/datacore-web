@@ -1,11 +1,12 @@
 {
  "sku": "60-1883-01",
- "order": 2075,
- "n": "USB-C HD 101",
+ "order": 2076,
+ "n": "USB-C to HDMI Interface (USB-C HD 101)",
  "b": "Extron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "USB-C HD 101",
  "d": "USB-C HD 101 - USB-C to HDMI Interface",
  "specs": []
 }

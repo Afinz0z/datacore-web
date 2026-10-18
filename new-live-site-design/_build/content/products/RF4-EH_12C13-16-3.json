@@ -1,11 +1,12 @@
 {
  "sku": "RF4-EH 12C13-16-3",
  "order": 4199,
- "n": "12 way PDU",
+ "n": "E Range 12 way C13(3xquad C13) Socket,16Amps, 316P6 Plug (12 way PDU)",
  "b": "RitchField",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "12 way PDU",
  "d": "RitchField E Range 12 way C13(3xquad C13) Socket,16Amps, 316P6 Plug, 3x1.5mm² mtr cable, HorizontalInstallation",
  "specs": [],
  "for": [

@@ -1,11 +1,12 @@
 {
  "sku": "RMA-PS1-SEN",
  "order": 1616,
- "n": "SENSOR",
+ "n": "Sensor - Power Sensor (PowerAvailable, 110/240V)",
  "b": "AVTECH",
  "c": "Sensors",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "SENSOR",
  "d": "Sensor - Power Sensor (PowerAvailable, 110/240V)",
  "specs": []
 }

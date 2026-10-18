@@ -1,11 +1,12 @@
 {
  "sku": "40D",
- "order": 1017,
- "n": "40D",
+ "order": 1021,
+ "n": "Installation specific four channel amplifier (40D)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "40D",
  "d": "Installation specific four channel amplifier",
  "specs": []
 }

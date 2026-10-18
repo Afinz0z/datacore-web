@@ -215,6 +215,7 @@ content:
       - { name: sku, label: SKU / model code, type: string, required: true }
       - { name: order, label: Order, type: number, default: 99 }
       - { name: n, label: Name, type: string }
+      - { name: model, label: Model code (when the name was built from the description), type: string }
       - { name: b, label: Brand (leave empty if unknown), type: string }
       - { name: c, label: Category (as in the inventory export), type: string }
       - { name: dept, label: Department, type: select, options: { values: [AV, NETWORK] } }

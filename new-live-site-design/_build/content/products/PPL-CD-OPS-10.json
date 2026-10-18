@@ -1,11 +1,12 @@
 {
  "sku": "PPL-CD-OPS-10",
  "order": 407,
- "n": "PPL-CD-OPS-10",
+ "n": "Opus Micro (i5, 12th Gen) (PPL-CD-OPS-10)",
  "b": "PeopleLink",
  "c": "OPS",
  "dept": "AV",
  "avail": "lead",
+ "model": "PPL-CD-OPS-10",
  "d": "PeopleLink Opus Micro (i5, 12th Gen)",
  "specs": []
 }

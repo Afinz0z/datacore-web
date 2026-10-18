@@ -1,11 +1,12 @@
 {
  "sku": "ATEM 4 M/E 4K",
  "order": 1850,
- "n": "ATEM 4 M/E 4K",
+ "n": "ATEM 4 M/E Constellation 4K (ATEM 4 M/E 4K)",
  "b": "Blackmagic Design",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "ATEM 4 M/E 4K",
  "d": "ATEM 4 M/E Constellation 4K",
  "specs": []
 }

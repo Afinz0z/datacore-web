@@ -1,11 +1,12 @@
 {
  "sku": "CSP-1248",
- "order": 1212,
- "n": "Processor",
+ "order": 1210,
+ "n": "CSP-1248 Processor 230V UK",
  "b": "Bose",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "Processor",
  "d": "CSP-1248 PROCESSOR 230V UK",
  "specs": []
 }

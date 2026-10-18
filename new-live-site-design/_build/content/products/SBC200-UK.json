@@ -1,11 +1,12 @@
 {
  "sku": "SBC200-UK",
- "order": 4281,
- "n": "SBC200-UK",
+ "order": 4282,
+ "n": "Dual docking recharging station charges SB900C batteries in or out (SBC200-UK)",
  "b": "Shure",
  "c": "Charger",
  "dept": "AV",
  "avail": "lead",
+ "model": "SBC200-UK",
  "d": "Dual docking recharging station charges SB900C batteries in or out of their transmitters. Features include the ability to run up to 4 SBC200 stations off 1 power supply.",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "508863",
- "order": 4365,
- "n": "ADP UHF (470 - 1075 MHZ)",
+ "order": 4367,
+ "n": "Passive, directional external paddle antenna (ADP UHF (470 - 1075 MHZ))",
  "b": "Sennheiser",
  "c": "Antenna",
  "dept": "AV",
  "avail": "lead",
+ "model": "ADP UHF (470 - 1075 MHZ)",
  "d": "Passive, directional external paddle antenna, UHF range (470 - 1075 MHz)",
  "specs": [],
  "acc": [

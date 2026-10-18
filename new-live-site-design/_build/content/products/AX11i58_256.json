@@ -1,11 +1,12 @@
 {
  "sku": "AX11i58/256",
  "order": 404,
- "n": "OPS-AX11i58/256",
+ "n": "OPS - i5, 11th Gen, 8GB, RAM 256 SSD ,80 pin config- OS is not (OPS-AX11i58/256)",
  "b": "Logic",
  "c": "OPS",
  "dept": "AV",
  "avail": "lead",
+ "model": "OPS-AX11i58/256",
  "d": "OPS - i5, 11th Gen, 8GB, RAM 256 SSD ,80 pin config- OS is not included",
  "specs": []
 }

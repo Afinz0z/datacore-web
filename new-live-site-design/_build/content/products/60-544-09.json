@@ -1,11 +1,12 @@
 {
  "sku": "60-544-09",
- "order": 4137,
- "n": "IPL T PCS4i",
+ "order": 4141,
+ "n": "Four Port Power Control and Current Sensor, 220 VAC (IPL T PCS4i)",
  "b": "Extron",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
+ "model": "IPL T PCS4i",
  "d": "IPL T PCS4i Four Port Power Control and Current Sensor, 220 VAC",
  "specs": [
   {

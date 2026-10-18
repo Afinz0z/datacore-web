@@ -1,11 +1,12 @@
 {
  "sku": "6511029",
- "order": 1660,
- "n": "CENI-GW1",
+ "order": 1661,
+ "n": "Universal Wireless Gateway - ER, SG (CENI-GW1)",
  "b": "Crestron",
  "c": "Gateway",
  "dept": "AV",
  "avail": "lead",
+ "model": "CENI-GW1",
  "d": "CENI-GW1 Universal Wireless Gateway - ER, SG, and infiNET EX® Wireless Networks, International Version",
  "specs": []
 }

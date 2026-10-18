@@ -6,7 +6,7 @@
  "c": "Server",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "A high-performance backend intelligent analysis server used for AI-based analysis of video/images, including face analytics, vehicle recognition, pedestrian detection, and metadata/attribute analysis . It supports GPU-based processing and can be deployed in distributed video-cloud environments.​",
+ "d": "A high-performance backend intelligent analysis server used for AI-based analysis of video/images, including face analytics, vehicle recognition, pedestrian detection, and metadata/attribute analysis . It supports GPU-based processing and can be deployed in distributed video-cloud environments.",
  "specs": [],
  "acc": [
   "DHI-AIC5000",

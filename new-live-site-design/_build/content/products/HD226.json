@@ -1,11 +1,12 @@
 {
  "sku": "HD226",
- "order": 370,
- "n": "HD226",
+ "order": 369,
+ "n": "enabled media player (HD226)",
  "b": "Brightsign",
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
+ "model": "HD226",
  "d": "BrightSignOS enabled media player. Single UHD video decode. GPIO, Analog/SPDIF Audio output. microSD storage options. WiFi and Cellular connectivity options",
  "specs": []
 }

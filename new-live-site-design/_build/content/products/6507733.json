@@ -1,11 +1,12 @@
 {
  "sku": "6507733",
- "order": 4480,
- "n": "DIN-PWS60",
+ "order": 4479,
+ "n": "DIN Rail High-Voltage Switch with Digital Inputs (DIN-PWS60)",
  "b": "Crestron",
  "c": "Lighting Controller",
  "dept": "AV",
  "avail": "lead",
+ "model": "DIN-PWS60",
  "d": "DIN Rail High-Voltage Switch with Digital Inputs",
  "specs": []
 }

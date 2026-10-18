@@ -1,11 +1,12 @@
 {
  "sku": "60-1251-01",
- "order": 2865,
- "n": "HRP 100",
+ "order": 2871,
+ "n": "1U Half Rack Blank Panel (HRP 100)",
  "b": "Extron",
  "c": "Rack (AV)",
  "dept": "AV",
  "avail": "lead",
+ "model": "HRP 100",
  "d": "HRP 100 1U Half Rack Blank Panel",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "TPS_SIGN-EVENT",
  "order": 4350,
- "n": "TPS_SIGN-EVENT",
+ "n": "Event engine (TPS_SIGN-EVENT)",
  "b": "Tripleplay",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "TPS_SIGN-EVENT",
  "d": "Event engine",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "60-1513-10",
- "order": 1229,
- "n": "DMP 128 Plus C V AT",
+ "order": 1225,
+ "n": "12x8 ProDSP Digital Matrix Processor with AEC, VoIP and Dante (DMP 128 Plus C V AT)",
  "b": "Extron",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DMP 128 Plus C V AT",
  "d": "DMP 128 Plus C V AT -12x8 ProDSP Digital Matrix Processor with AEC, VoIP and Dante",
  "specs": []
 }

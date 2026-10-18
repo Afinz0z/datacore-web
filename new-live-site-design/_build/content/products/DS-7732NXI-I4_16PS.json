@@ -1,11 +1,12 @@
 {
  "sku": "DS-7732NXI-I4 16PS",
  "order": 3410,
- "n": "32-CH 16 POE -NVR",
+ "n": "32-ch 1U 16 POE AcuSense 4K NVR (32-CH 16 POE -NVR)",
  "b": "Hikvision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "32-CH 16 POE -NVR",
  "d": "32-ch 1U 16 POE AcuSense 4K NVR",
  "specs": [
   {

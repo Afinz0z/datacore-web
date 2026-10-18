@@ -1,11 +1,12 @@
 {
  "sku": "E8",
- "order": 816,
- "n": "E8",
+ "order": 810,
+ "n": "2-way compact coaxial loudspeaker (E8)",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
+ "model": "E8",
  "d": "2-way compact coaxial loudspeaker",
  "specs": []
 }

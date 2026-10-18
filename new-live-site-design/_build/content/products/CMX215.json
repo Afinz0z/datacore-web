@@ -1,11 +1,12 @@
 {
  "sku": "CMX215",
  "order": 1111,
- "n": "microphone",
+ "n": "Pipe-neck condenser microphone",
  "b": "Audac",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
+ "model": "microphone",
  "d": "Pipe-neck condenser microphone",
  "specs": []
 }

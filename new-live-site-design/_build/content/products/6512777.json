@@ -1,11 +1,12 @@
 {
  "sku": "6512777",
- "order": 1865,
- "n": "USB-SW-400",
+ "order": 1854,
+ "n": "4-input USB 3.2 Data Matrix Switcher (USB-SW-400)",
  "b": "Crestron",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "USB-SW-400",
  "d": "USB-SW-400 4-input USB 3.2 Data Matrix Switcher",
  "specs": []
 }

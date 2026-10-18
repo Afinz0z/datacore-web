@@ -1,11 +1,12 @@
 {
  "sku": "HikCentral-P-VSS/Base",
- "order": 4855,
- "n": "HCP",
+ "order": 4857,
+ "n": "HikCentral-P-VSS/Base (HCP)",
  "b": "Hikvision",
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "HCP",
  "d": "HikCentral-P-VSS/Base",
  "specs": []
 }

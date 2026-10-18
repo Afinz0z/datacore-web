@@ -1,11 +1,12 @@
 {
  "sku": "60-1914-01",
- "order": 1655,
- "n": "IPCP Pro 255Q xi",
+ "order": 1657,
+ "n": "Quad Core Control Processor (IPCP Pro 255Q xi)",
  "b": "Extron",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "IPCP Pro 255Q xi",
  "d": "IPCP Pro 255Q xi Quad Core Control Processor",
  "specs": []
 }

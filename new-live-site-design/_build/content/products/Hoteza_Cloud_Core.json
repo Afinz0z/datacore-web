@@ -1,11 +1,12 @@
 {
  "sku": "Hoteza Cloud Core",
- "order": 4298,
- "n": "Hoteza Cloud Core",
+ "order": 4303,
+ "n": "Cloud Core setup, per hotel (Hoteza Cloud Core)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "Hoteza Cloud Core",
  "d": "Hoteza Cloud Core setup, per hotel",
  "specs": []
 }

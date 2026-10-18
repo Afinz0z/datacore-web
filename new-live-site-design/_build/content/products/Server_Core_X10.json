@@ -1,11 +1,12 @@
 {
  "sku": "Server Core X10",
  "order": 1241,
- "n": "Server Core X10",
+ "n": "Networked audio, video and control processor with 32-bit (Server Core X10)",
  "b": "Q-SYS",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "Server Core X10",
  "d": "Networked audio, video and control processor with 32-bit floating-point DSP, Dante/AES67 support, enterprise networking, scalable software licensing, and Q-SYS Designer programming.",
  "specs": [],
  "acc": [

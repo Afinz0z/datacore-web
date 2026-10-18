@@ -1,11 +1,12 @@
 {
  "sku": "6510418",
- "order": 1653,
- "n": "RMC4",
+ "order": 1651,
+ "n": "4-Series™ Control System, Compact 4-Series™ control system with 1 GB (RMC4)",
  "b": "Crestron",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "RMC4",
  "d": "RMC4 Crestron 4-Series™ Control System, Compact 4-Series™ control system with 1 GB SDRAM and 8 GB flash memor.",
  "specs": []
 }

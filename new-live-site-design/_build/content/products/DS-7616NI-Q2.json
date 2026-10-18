@@ -1,11 +1,12 @@
 {
  "sku": "DS-7616NI-Q2",
- "order": 3390,
- "n": "16 CH NVR",
+ "order": 3400,
+ "n": "16CH Network Video Recorder- 2 HDD Support (16 CH NVR)",
  "b": "Hikvision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "16 CH NVR",
  "d": "HIKVISION 16CH Network Video Recorder- 2 HDD Support",
  "specs": [
   {

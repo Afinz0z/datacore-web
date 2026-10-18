@@ -1,11 +1,12 @@
 {
  "sku": "Central control host",
  "order": 637,
- "n": "Central control host",
+ "n": "10 serial ports (RS232/RS485/422) supporting DMX512 (Central control host)",
  "b": "AE smartconference",
  "c": "Audio Conference System",
  "dept": "AV",
  "avail": "lead",
+ "model": "Central control host",
  "d": "10 serial ports (RS232/RS485/422) supporting DMX512, 8 infrared (IR) ports, 8 relay ports, 8 I/O ports, 1 bidirectional Ethernet port (capable of controlling UDP/TCP network devices externally), 1 NET port, 1 TF card slot, 11 status indicator LEDs, and 8 programmable buttons with user-definable functions.",
  "specs": []
 }

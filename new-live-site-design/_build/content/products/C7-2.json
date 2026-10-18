@@ -1,11 +1,12 @@
 {
  "sku": "C7-2",
  "order": 1362,
- "n": "C7-2",
+ "n": "C-Series MultiLoop Driver 7A (C7-2)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
+ "model": "C7-2",
  "d": "C-Series MultiLoop Driver 7A",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "60-1962-03",
- "order": 1906,
- "n": "DTP3 IN2004 DI/DO",
+ "order": 1916,
+ "n": "Four Input 4K/60 Scaler, DTP3 I/O (DTP3 IN2004 DI/DO)",
  "b": "Extron",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "DTP3 IN2004 DI/DO",
  "d": "DTP3 IN2004 DI/DO Four Input 4K/60 Scaler, DTP3 I/O",
  "specs": []
 }

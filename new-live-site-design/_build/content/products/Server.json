@@ -1,11 +1,12 @@
 {
  "sku": "Server",
  "order": 4297,
- "n": "Server",
+ "n": "Rack Mount Server for IPTV System",
  "b": "Dell Technologies",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "Server",
  "d": "Rack Mount Server for IPTV System",
  "specs": []
 }

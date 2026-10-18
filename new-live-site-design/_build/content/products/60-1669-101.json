@@ -1,11 +1,12 @@
 {
  "sku": "60-1669-101",
- "order": 1601,
- "n": "TLSI 201",
+ "order": 1600,
+ "n": "Interactive Wayfinding Interface (TLSI 201)",
  "b": "Extron",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "TLSI 201",
  "d": "TLSI 201 Interactive Wayfinding Interface",
  "specs": []
 }

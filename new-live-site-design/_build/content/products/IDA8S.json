@@ -1,11 +1,12 @@
 {
  "sku": "IDA8S",
  "order": 4449,
- "n": "IDA8S",
+ "n": "Stackable Voice Alarm system, Slave module (IDA8S)",
  "b": "Ateis",
  "c": "Slave Controller",
  "dept": "AV",
  "avail": "lead",
+ "model": "IDA8S",
  "d": "Stackable Voice Alarm system, Slave module",
  "specs": []
 }

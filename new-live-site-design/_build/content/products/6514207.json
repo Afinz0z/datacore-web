@@ -1,11 +1,12 @@
 {
  "sku": "6514207",
  "order": 4580,
- "n": "CCC-110-T",
+ "n": "Collab Compute with the Intel® Core™ Ultra 5 for Microsoft Teams® (CCC-110-T)",
  "b": "Crestron",
  "c": "PC",
  "dept": "AV",
  "avail": "lead",
+ "model": "CCC-110-T",
  "d": "CCC-110-T \"Crestron Collab Compute with the Intel® Core™ Ultra 5 for Microsoft Teams® Rooms Software",
  "specs": [],
  "acc": [

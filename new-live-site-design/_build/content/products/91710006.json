@@ -1,11 +1,12 @@
 {
  "sku": "91710006",
- "order": 1828,
- "n": "HDMI-TPN-RX107 A-SR",
+ "order": 1831,
+ "n": "SDVoE compatible scaling receiver for recieving HDMI 2.0, RS-232 (HDMI-TPN-RX107 A-SR)",
  "b": "Lightware",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
+ "model": "HDMI-TPN-RX107 A-SR",
  "d": "SDVoE compatible scaling receiver for recieving HDMI 2.0, RS-232, audio de-embedder, over 10G copper network cable. Seamless switching, 4K up/down scaling, HDCP, 3D and 4K / UHD (60Hz RGB 4:4:4 , 60Hz YCbCr 4:4:4) compliant with HDR support.",
  "specs": []
 }

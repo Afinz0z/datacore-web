@@ -1,11 +1,12 @@
 {
  "sku": "MXA920",
- "order": 1172,
- "n": "MXA920",
+ "order": 1160,
+ "n": "Ceiling Array Microphone (MXA920)",
  "b": "Shure",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
+ "model": "MXA920",
  "d": "Ceiling Array Microphone",
  "specs": []
 }

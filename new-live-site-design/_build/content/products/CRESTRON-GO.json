@@ -1,11 +1,12 @@
 {
  "sku": "CRESTRON-GO",
- "order": 4820,
- "n": "CRESTRON-GO",
+ "order": 4822,
+ "n": "Go App for iPhone® Devices (CRESTRON-GO)",
  "b": "Crestron",
  "c": "Software - license",
  "dept": "AV",
  "avail": "lead",
+ "model": "CRESTRON-GO",
  "d": "Crestron Go App for iPhone® Devices",
  "specs": []
 }

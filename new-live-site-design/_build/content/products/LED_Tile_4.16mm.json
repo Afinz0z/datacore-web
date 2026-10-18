@@ -1,11 +1,12 @@
 {
  "sku": "LED Tile 4.16mm",
- "order": 223,
- "n": "LED Tile 4.16mm",
+ "order": 222,
+ "n": "Digital Sky (4.16mm pitch), all tile geometries (LED Tile 4.16mm)",
  "b": "SACO",
  "c": "Video Wall",
  "dept": "AV",
  "avail": "lead",
+ "model": "LED Tile 4.16mm",
  "d": "Digital Sky (4.16mm pitch), all tile geometries",
  "specs": [
   {

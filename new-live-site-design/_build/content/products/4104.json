@@ -1,11 +1,12 @@
 {
  "sku": "4104",
- "order": 4334,
- "n": "4104",
+ "order": 4332,
+ "n": "\"F\" Connector COMPRESS(T100/CXT60) BOX50 (4104)",
  "b": "Televes",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "4104",
  "d": "\"F\" CONNECTOR COMPRESS(T100/CXT60) BOX50",
  "specs": [
   {

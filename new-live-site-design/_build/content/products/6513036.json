@@ -1,11 +1,12 @@
 {
  "sku": "6513036",
- "order": 1591,
- "n": "DIN-DLI",
+ "order": 1590,
+ "n": "DALI® Interface, DIN Rail Mount (DIN-DLI)",
  "b": "Crestron",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "DIN-DLI",
  "d": "DIN-DLI DALI® Interface, DIN Rail Mount",
  "specs": []
 }

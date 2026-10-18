@@ -1,11 +1,12 @@
 {
  "sku": "60-1748-10",
  "order": 2567,
- "n": "TLCA 1",
+ "n": "TouchLink Control Port Expansion Adapter (TLCA 1)",
  "b": "Extron",
  "c": "Adapters",
  "dept": "AV",
  "avail": "lead",
+ "model": "TLCA 1",
  "d": "TLCA 1 TouchLink Control Port Expansion Adapter",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Installation",
- "order": 4314,
- "n": "HTZ_Installation",
+ "order": 4323,
+ "n": "Server Installation (HTZ_Installation)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Installation",
  "d": "Hoteza Server Installation",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "60-1705-03",
  "order": 1634,
- "n": "ECM S10",
+ "n": "eBUS Partition Sensor (ECM S10)",
  "b": "Extron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "ECM S10",
  "d": "ECM S10 eBUS Partition Sensor",
  "specs": []
 }

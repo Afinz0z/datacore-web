@@ -1,11 +1,12 @@
 {
  "sku": "TPC-1",
  "order": 1490,
- "n": "Touch Panel",
+ "n": "Touch panel controller, 5.7\"",
  "b": "Dynacord",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
+ "model": "Touch Panel",
  "d": "Touch panel controller, 5.7\"",
  "specs": []
 }

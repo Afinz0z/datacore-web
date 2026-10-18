@@ -1,11 +1,12 @@
 {
  "sku": "6509647",
- "order": 2376,
- "n": "FT2A-UTK-PWS",
+ "order": 2377,
+ "n": "Power Supply for FT2 ELEC Series (FT2A-UTK-PWS)",
  "b": "Crestron",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
+ "model": "FT2A-UTK-PWS",
  "d": "FT2A-UTK-PWS Power Supply for FT2 ELEC Series",
  "specs": [],
  "for": [

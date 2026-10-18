@@ -1,11 +1,12 @@
 {
  "sku": "6500593",
- "order": 1620,
- "n": "CHV-RSS",
+ "order": 1627,
+ "n": "Remote Slab Sensor and Outdoor Temperature Sensor (CHV-RSS)",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "CHV-RSS",
  "d": "CHV-RSS Remote Slab Sensor and Outdoor Temperature Sensor",
  "specs": []
 }

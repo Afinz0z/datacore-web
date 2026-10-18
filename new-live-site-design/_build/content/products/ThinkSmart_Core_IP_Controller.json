@@ -1,11 +1,12 @@
 {
  "sku": "ThinkSmart Core + IP Controller",
  "order": 4593,
- "n": "ThinkSmart Core + IP Controller",
+ "n": "Computer,Thinksmart core & IP controller",
  "b": "Lenovo",
  "c": "PC",
  "dept": "AV",
  "avail": "lead",
+ "model": "ThinkSmart Core + IP Controller",
  "d": "Computer,Thinksmart core & IP controller",
  "specs": []
 }

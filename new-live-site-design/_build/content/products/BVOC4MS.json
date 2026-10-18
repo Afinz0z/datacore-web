@@ -1,11 +1,12 @@
 {
  "sku": "BVOC4MS",
  "order": 1646,
- "n": "BVOC4MS",
+ "n": "Master control panel for Disabled Toilet Alarm Disabled pull (BVOC4MS)",
  "b": "Baldwin",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "BVOC4MS",
  "d": "Master control panel for Disabled Toilet Alarm Disabled pull cord,Disabled push/reset button,Corridor Alarm Lamp",
  "specs": []
 }

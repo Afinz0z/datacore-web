@@ -1,11 +1,12 @@
 {
  "sku": "60-1907-01",
  "order": 1597,
- "n": "IPL EXP RIO8",
+ "n": "Control System I/O Expansion Interface (IPL EXP RIO8)",
  "b": "Extron",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "IPL EXP RIO8",
  "d": "IPL EXP RIO8 Control System I/O Expansion Interface",
  "specs": []
 }

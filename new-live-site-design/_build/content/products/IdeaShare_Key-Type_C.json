@@ -1,11 +1,12 @@
 {
  "sku": "IdeaShare Key-Type C",
- "order": 20,
- "n": "IdeaShare Key-Type C",
+ "order": 21,
+ "n": "Media Transfer Unit,IdeaShare Key-Type C",
  "b": "Huawei",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
+ "model": "IdeaShare Key-Type C",
  "d": "Media Transfer Unit,IdeaShare Key-Type C",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "60-1685-01",
- "order": 1919,
- "n": "ISS 612",
+ "order": 1866,
+ "n": "12-Input 4K/60 HDMI, DisplayPort, and 12G-SDI Seamless Switcher (ISS 612)",
  "b": "Extron",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "ISS 612",
  "d": "ISS 612 12-Input 4K/60 HDMI, DisplayPort, and 12G-SDI Seamless Switcher",
  "specs": []
 }

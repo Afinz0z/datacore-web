@@ -1,12 +1,13 @@
 {
  "sku": "311336",
  "order": 4232,
- "n": "UPS",
+ "n": "Keor DK 3000VA Bskeor DK 3000VA Bsor DK 3000VA BS (UPS)",
  "b": "Legrand",
  "c": "UPS",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​UPS UPS KEOR DK 3000VA BSKEOR DK 3000VA BSOR DK 3000VA BS​",
+ "model": "UPS",
+ "d": "UPS UPS KEOR DK 3000VA BSKEOR DK 3000VA BSOR DK 3000VA BS",
  "specs": [
   {
    "label": "Type",

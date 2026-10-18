@@ -1,11 +1,12 @@
 {
  "sku": "BCU-4830A",
  "order": 4274,
- "n": "battery Charger",
+ "n": "Battery Charger 30A@48v with 24v out x3",
  "b": "Ateis",
  "c": "Charger",
  "dept": "AV",
  "avail": "lead",
+ "model": "battery Charger",
  "d": "Battery Charger 30A@48v with 24v out x3",
  "specs": []
 }

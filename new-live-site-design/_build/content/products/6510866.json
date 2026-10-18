@@ -1,11 +1,12 @@
 {
  "sku": "6510866",
- "order": 1001,
- "n": "AMP-X300",
+ "order": 1003,
+ "n": "X-Series Amplifier, 300 W -AMP-X300 provides a professional amplifier",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "AMP-X300",
  "d": "X-Series Amplifier, 300 W -AMP-X300 provides a professional amplifier solution for a broad range of applications that saves energy, space, and money. The modular design is easy to configure and ships with everything required to enable surface mounting, rack mounting, and ganging multiple units together.",
  "specs": [
   {

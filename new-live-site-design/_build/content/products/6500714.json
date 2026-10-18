@@ -1,11 +1,12 @@
 {
  "sku": "6500714",
- "order": 2149,
- "n": "CAEN-CK-7X1",
+ "order": 2303,
+ "n": "Cover Extension Kit for CAEN/CAENIB-7X1 (CAEN-CK-7X1)",
  "b": "Crestron",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
+ "model": "CAEN-CK-7X1",
  "d": "CAEN-CK-7X1 Cover Extension Kit for CAEN/CAENIB-7X1",
  "specs": [],
  "for": [

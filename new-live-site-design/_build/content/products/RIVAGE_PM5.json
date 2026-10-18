@@ -1,11 +1,12 @@
 {
  "sku": "RIVAGE PM5",
- "order": 1390,
- "n": "RIVAGE PM5",
+ "order": 1391,
+ "n": "Mixing System (RIVAGE PM5)",
  "b": "Yamaha",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
+ "model": "RIVAGE PM5",
  "d": "Mixing System",
  "specs": []
 }

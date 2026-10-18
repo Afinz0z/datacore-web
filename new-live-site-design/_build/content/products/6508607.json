@@ -1,11 +1,12 @@
 {
  "sku": "6508607",
- "order": 2140,
- "n": "DM-NVX-DIR-ENT",
+ "order": 2141,
+ "n": "DM NVX Director™ Virtual Switching Appliance, 1000 Endpoints (DM-NVX-DIR-ENT)",
  "b": "Crestron",
  "c": "Director",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM-NVX-DIR-ENT",
  "d": "DM-NVX-DIR-ENT DM NVX Director™ Virtual Switching Appliance, 1000 Endpoints",
  "specs": []
 }

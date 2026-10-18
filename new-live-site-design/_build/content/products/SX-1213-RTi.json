@@ -1,11 +1,12 @@
 {
  "sku": "SX-1213-RTi",
  "order": 4205,
- "n": "SX-1213-RTi",
+ "n": "Remote-controlled sequencing PDU,12A, 13 outlets. (SX-1213-RTi)",
  "b": "SurgeX",
  "c": "PDU",
  "dept": "AV",
  "avail": "lead",
+ "model": "SX-1213-RTi",
  "d": "Remote-controlled sequencing PDU,12A, 13 outlets.",
  "specs": []
 }

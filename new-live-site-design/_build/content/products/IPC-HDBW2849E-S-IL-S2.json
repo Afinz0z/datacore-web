@@ -1,11 +1,12 @@
 {
  "sku": "IPC-HDBW2849E-S-IL-S2",
- "order": 3244,
- "n": "IP Camera",
+ "order": 3245,
+ "n": "IP Camera, 8MP Smart Dual Light Fixed-focal Dome WizSense Network Camera",
  "b": "Dahua",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "IP Camera",
  "d": "8MP Smart Dual Light Fixed-focal Dome WizSense Network Camera",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "XRN-3220B2",
- "order": 3382,
- "n": "32 CH NVR",
+ "order": 3384,
+ "n": "32CHNVRwith12thgen.Intel®Processor",
  "b": "Hanwha Vision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "32 CH NVR",
  "d": "32CHNVRwith12thgen.Intel®Processor",
  "specs": []
 }

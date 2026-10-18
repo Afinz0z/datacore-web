@@ -1,11 +1,12 @@
 {
  "sku": "DCi 4|1250DA",
  "order": 1014,
- "n": "DCi 4|1250DA",
+ "n": "Dante-enabled amplifier with DSP, network control/monitoring (DCi 4|1250DA)",
  "b": "Crown",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "DCi 4|1250DA",
  "d": "Dante-enabled amplifier with DSP, network control/monitoring",
  "specs": []
 }

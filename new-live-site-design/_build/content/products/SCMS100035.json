@@ -1,11 +1,12 @@
 {
  "sku": "SCMS100035",
  "order": 4294,
- "n": "SNMP Card",
+ "n": "Mini SNMP IPv6 card (NEW) - 5 kVA to 20 kVA (SNMP Card)",
  "b": "DELTA",
  "c": "SNMP Card",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "SNMP Card",
  "d": "Mini SNMP IPv6 card (NEW) - 5 kVA to 20 kVA",
  "specs": [],
  "for": [

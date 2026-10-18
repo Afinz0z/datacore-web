@@ -1,11 +1,12 @@
 {
  "sku": "60-952-02",
- "order": 1924,
- "n": "SW2 USB",
+ "order": 1943,
+ "n": "Two Input USB Switcher (SW2 USB)",
  "b": "Extron",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "SW2 USB",
  "d": "SW2 USB Two Input USB Switcher",
  "specs": []
 }

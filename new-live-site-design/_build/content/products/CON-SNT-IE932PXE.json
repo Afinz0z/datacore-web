@@ -1,11 +1,12 @@
 {
  "sku": "CON-SNT-IE932PXE",
- "order": 5044,
- "n": "Service support contract",
+ "order": 5043,
+ "n": "Service support contract, SNTC-8X5XNBD 24 Port PoE+ Downlinks with 4 10G Uplink",
  "b": "Cisco",
  "c": "Service Support Contract",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Service support contract",
  "d": "SNTC-8X5XNBD 24 Port PoE+ Downlinks with 4 10G Uplink",
  "specs": [],
  "for": [

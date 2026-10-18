@@ -1,11 +1,12 @@
 {
  "sku": "WPW",
- "order": 2821,
- "n": "WPW",
+ "order": 2820,
+ "n": "Sealed White Deep Base (WPW)",
  "b": "Notifier",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
+ "model": "WPW",
  "d": "Sealed White Deep Base",
  "specs": [],
  "for": [

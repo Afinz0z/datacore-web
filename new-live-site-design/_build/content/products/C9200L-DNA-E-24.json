@@ -1,11 +1,12 @@
 {
  "sku": "C9200L-DNA-E-24",
  "order": 4991,
- "n": "license for switch",
+ "n": "license for switch, C9200L Cisco DNA Essentials, 24-port Term license",
  "b": "Cisco",
  "c": "License for switch",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "license for switch",
  "d": "C9200L Cisco DNA Essentials, 24-port Term license",
  "specs": [],
  "for": [

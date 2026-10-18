@@ -1,11 +1,12 @@
 {
  "sku": "D80",
- "order": 1023,
- "n": "D80",
+ "order": 1019,
+ "n": "High power four channel amplifier (D80)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "D80",
  "d": "High power four channel amplifier",
  "specs": []
 }

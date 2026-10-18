@@ -1,11 +1,12 @@
 {
  "sku": "SRT5KXLI",
- "order": 4209,
- "n": "APC 5kVA UPS",
+ "order": 4215,
+ "n": "Smart-UPS On-Line, 5kVA,Tower, 230V, 6x C13+4x C19 IECoutlets (APC 5kVA UPS)",
  "b": "APC",
  "c": "UPS",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "APC 5kVA UPS",
  "d": "APC Smart-UPS On-Line, 5kVA,Tower, 230V, 6x C13+4x C19 IECoutlets, Network Card+SmartSlot,Extended runtime, W/O rail kit",
  "specs": [
   {

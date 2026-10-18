@@ -1,11 +1,12 @@
 {
  "sku": "FRX4",
  "order": 1838,
- "n": "SACO FRX4",
+ "n": "Advanced fiber optic video receiver and data processing device (SACO FRX4)",
  "b": "SACO",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
+ "model": "SACO FRX4",
  "d": "Advanced fiber optic video receiver and data processing device",
  "specs": []
 }

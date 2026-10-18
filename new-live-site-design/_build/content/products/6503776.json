@@ -1,11 +1,12 @@
 {
  "sku": "6503776",
  "order": 4478,
- "n": "DIN-8SW8-I",
+ "n": "DIN Rail High-Voltage Switch with Digital Inputs (DIN-8SW8-I)",
  "b": "Crestron",
  "c": "Lighting Controller",
  "dept": "AV",
  "avail": "lead",
+ "model": "DIN-8SW8-I",
  "d": "DIN-8SW8-I DIN Rail High-Voltage Switch with Digital Inputs",
  "specs": []
 }

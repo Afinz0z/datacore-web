@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_OHIP sub",
- "order": 4316,
- "n": "HTZ_OHIP sub",
+ "order": 4306,
+ "n": "Enhanced OHIP Subscription (HTZ_OHIP sub)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_OHIP sub",
  "d": "Enhanced OHIP Subscription",
  "specs": []
 }

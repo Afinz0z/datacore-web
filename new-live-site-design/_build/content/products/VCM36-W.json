@@ -1,11 +1,12 @@
 {
  "sku": "VCM36-W",
  "order": 542,
- "n": "VCM36-W",
+ "n": "Wireless Microphone for Video Conferencing System (VCM36-W)",
  "b": "Yealink",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
- "d": "​Wireless Microphone for Video Conferencing System",
+ "model": "VCM36-W",
+ "d": "Wireless Microphone for Video Conferencing System",
  "specs": []
 }

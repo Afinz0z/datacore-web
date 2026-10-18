@@ -1,11 +1,12 @@
 {
  "sku": "SRLED",
- "order": 4429,
- "n": "SRLED",
+ "order": 4428,
+ "n": "Wall mounted strobe light (SRLED)",
  "b": "Notifier",
  "c": "Fire Alarm - Field Devices",
  "dept": "AV",
  "avail": "lead",
+ "model": "SRLED",
  "d": "Wall mounted strobe light",
  "specs": []
 }

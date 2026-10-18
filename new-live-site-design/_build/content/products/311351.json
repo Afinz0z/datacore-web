@@ -1,11 +1,12 @@
 {
  "sku": "311351",
  "order": 4233,
- "n": "UPS Keor DK 6000VA",
+ "n": "No Batt with Terminal Strips (UPS Keor DK 6000VA)",
  "b": "Legrand",
  "c": "UPS",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "UPS Keor DK 6000VA",
  "d": "UPS Keor DK 6000VA No Batt with Terminal Strips",
  "specs": [],
  "acc": [

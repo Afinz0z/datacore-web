@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_GRMS Support",
- "order": 4311,
- "n": "HTZ_GRMS Support",
+ "order": 4308,
+ "n": "GRMS Integration support (HTZ_GRMS Support)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_GRMS Support",
  "d": "GRMS Integration support",
  "specs": []
 }

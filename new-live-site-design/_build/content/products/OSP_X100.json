@@ -1,11 +1,12 @@
 {
  "sku": "OSP(X100)",
  "order": 5055,
- "n": "Service support contract",
+ "n": "Service support contract, Online support Pack for Controller Firmware and Communication",
  "b": "HID",
  "c": "Service Support Contract",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Service support contract",
  "d": "Online support Pack for Controller Firmware and Communication Support",
  "specs": [
   {

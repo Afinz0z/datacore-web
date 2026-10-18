@@ -1,11 +1,12 @@
 {
  "sku": "DS-7616NI-K2/16P",
- "order": 3403,
- "n": "16CH NVR-16P Poe",
+ "order": 3398,
+ "n": "16CH Network Video Recorder 16 Independent PoE Network Interfaces -2 (16CH NVR-16P Poe)",
  "b": "Hikvision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "16CH NVR-16P Poe",
  "d": "16CH Network Video Recorder 16 Independent PoE Network Interfaces -2 HDD Support",
  "specs": [
   {

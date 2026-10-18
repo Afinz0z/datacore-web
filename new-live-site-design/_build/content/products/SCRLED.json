@@ -1,11 +1,12 @@
 {
  "sku": "SCRLED",
- "order": 4428,
- "n": "SCRLED",
+ "order": 4421,
+ "n": "Ceiling mounted strobe light (SCRLED)",
  "b": "Notifier",
  "c": "Fire Alarm - Field Devices",
  "dept": "AV",
  "avail": "lead",
+ "model": "SCRLED",
  "d": "Ceiling mounted strobe light",
  "specs": []
 }

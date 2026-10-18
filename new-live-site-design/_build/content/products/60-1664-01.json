@@ -1,11 +1,12 @@
 {
  "sku": "60-1664-01",
  "order": 1635,
- "n": "OCS 100C",
+ "n": "Occupancy Sensor - Ceiling Mount (OCS 100C)",
  "b": "Extron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "OCS 100C",
  "d": "OCS 100C Occupancy Sensor - Ceiling Mount",
  "specs": []
 }

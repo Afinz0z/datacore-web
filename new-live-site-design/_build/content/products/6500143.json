@@ -1,11 +1,12 @@
 {
  "sku": "6500143",
  "order": 1213,
- "n": "C2N-VEQ4",
+ "n": "4-Channel Volume/EQ Control Module (C2N-VEQ4)",
  "b": "Crestron",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "C2N-VEQ4",
  "d": "C2N-VEQ4 4-Channel Volume/EQ Control Module",
  "specs": []
 }

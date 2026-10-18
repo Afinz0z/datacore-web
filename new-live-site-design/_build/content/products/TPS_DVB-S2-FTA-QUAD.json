@@ -1,11 +1,12 @@
 {
  "sku": "TPS_DVB-S2-FTA-QUAD",
- "order": 4385,
- "n": "TPS_DVB-S2-FTA-QUAD",
+ "order": 4386,
+ "n": "IPTV DVB-S/S2 free to air quad interface (TPS_DVB-S2-FTA-QUAD)",
  "b": "Tripleplay",
  "c": "Satellite Accessory",
  "dept": "AV",
  "avail": "lead",
+ "model": "TPS_DVB-S2-FTA-QUAD",
  "d": "IPTV DVB-S/S2 free to air quad interface",
  "specs": []
 }

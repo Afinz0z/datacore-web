@@ -1,11 +1,12 @@
 {
  "sku": "IX30:8",
  "order": 1027,
- "n": "Amplifier",
+ "n": "8-channel networked multichannel DSP amplifier, 3 kW",
  "b": "Dynacord",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "Amplifier",
  "d": "8-channel networked multichannel DSP amplifier, 3 kW",
  "specs": []
 }

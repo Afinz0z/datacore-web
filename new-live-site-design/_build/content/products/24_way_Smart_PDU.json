@@ -1,11 +1,12 @@
 {
  "sku": "24 way Smart PDU",
  "order": 4200,
- "n": "24 way Smart PDU",
+ "n": "Smart PDU: Hot-swappable RPDUs with independentcontrol and monitoring (24 way Smart PDU)",
  "b": "RitchField",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "24 way Smart PDU",
  "d": "Smart PDU: Hot-swappable RPDUs with independentcontrol and monitoring for each outlet. Input:230V/16A industrial plug (3-meter cable). Output:20C13+4C19. eatures remote switch control (SNMP/API), hotswappable smart controller, total metering (accuracy±1%), color LCD screen (220x176), accelerometer,temperature and humidity monitoring, residualcurrent monitoring (RCM). Compatible with SecureLock power cords, multiple color options available.Can connect to external temperature and humiditysensors. Heat-resistant: 55°C. Only 1 USB port",
  "specs": [],
  "for": [

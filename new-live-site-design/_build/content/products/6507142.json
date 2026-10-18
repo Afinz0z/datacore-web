@@ -1,11 +1,12 @@
 {
  "sku": "6507142",
  "order": 1671,
- "n": "INET-IOEX-RYIO",
+ "n": "infiNET EX® Wireless Relay/Digital Input Control Module (INET-IOEX-RYIO)",
  "b": "Crestron",
  "c": "Control Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "INET-IOEX-RYIO",
  "d": "INET-IOEX-RYIO infiNET EX® Wireless Relay/Digital Input Control Module",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "60-1906-01",
  "order": 1599,
- "n": "IPL EXP S5",
+ "n": "Control System I/O Expansion Interface (IPL EXP S5)",
  "b": "Extron",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "IPL EXP S5",
  "d": "IPL EXP S5 Control System I/O Expansion Interface",
  "specs": [
   {

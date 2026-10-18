@@ -1,11 +1,12 @@
 {
  "sku": "60-1674-02",
- "order": 2096,
- "n": "DA4 12G HD-SDI",
+ "order": 2095,
+ "n": "Four Output 12G-SDI Distribution Amplifier (DA4 12G HD-SDI)",
  "b": "Extron",
  "c": "Distribution Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "DA4 12G HD-SDI",
  "d": "DA4 12G HD-SDI Four Output 12G-SDI Distribution Amplifier",
  "specs": []
 }

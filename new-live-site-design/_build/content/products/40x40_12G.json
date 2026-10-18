@@ -1,11 +1,12 @@
 {
  "sku": "40x40 12G",
  "order": 3192,
- "n": "40x40 12G",
+ "n": "Zero Latency Video Router (40x40 12G)",
  "b": "Blackmagic Design",
  "c": "Router",
  "dept": "AV",
  "avail": "lead",
+ "model": "40x40 12G",
  "d": "Zero Latency Video Router",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "6507959",
- "order": 2051,
- "n": "CEN-IO-COM-102",
+ "order": 2063,
+ "n": "Wired Ethernet Module with 2 COM Ports (CEN-IO-COM-102)",
  "b": "Crestron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "CEN-IO-COM-102",
  "d": "CEN-IO-COM-102 Wired Ethernet Module with 2 COM Ports",
  "specs": []
 }

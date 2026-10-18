@@ -1,11 +1,12 @@
 {
  "sku": "ST-NMXC42A",
  "order": 1958,
- "n": "ST-NMXC42A",
+ "n": "40Gbps HDMI2.1 4x2 matrix with Audio De-embedder (ST-NMXC42A)",
  "b": "Staison",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "ST-NMXC42A",
  "d": "40Gbps HDMI2.1 4x2 matrix with Audio De-embedder",
  "specs": []
 }

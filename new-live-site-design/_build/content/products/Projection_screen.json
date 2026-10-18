@@ -1,11 +1,12 @@
 {
  "sku": "Projection screen",
- "order": 387,
- "n": "Projection screen",
+ "order": 383,
+ "n": "120-inch diagonal Projection screen",
  "b": "Anchor",
  "c": "Projector Screen",
  "dept": "AV",
  "avail": "lead",
+ "model": "Projection screen",
  "d": "120-inch diagonal Projection screen",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "GS724TP-300UKS",
  "order": 3031,
- "n": "Network switch",
+ "n": "Network switch, 24P GE Poe+ Smart Switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
- "d": "​ 24P GE POE+ SMART SWITCH ​",
+ "model": "Network switch",
+ "d": "24P GE POE+ SMART SWITCH",
  "specs": []
 }

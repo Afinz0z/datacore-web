@@ -1,11 +1,12 @@
 {
  "sku": "HP PRINTER",
  "order": 4609,
- "n": "HP PRINTER",
+ "n": "LaserJet M806x printer (HP PRINTER)",
  "b": "HP",
  "c": "Printer",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "HP PRINTER",
  "d": "HP LaserJet M806x printer",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "6500380",
- "order": 1622,
- "n": "CHV-RTS",
+ "order": 1629,
+ "n": "Remote Temperature Sensor (CHV-RTS)",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
+ "model": "CHV-RTS",
  "d": "CHV-RTS Remote Temperature Sensor",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "Z4103.000",
  "order": 1217,
- "n": "DS110",
+ "n": "Networked Audio Matrix and Processing Engine for d&b Soundscape,Up (DS110)",
  "b": "d&b audiotechnik",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DS110",
  "d": "DS110Networked Audio Matrix and Processing Engine for d&b Soundscape,Up to 128 x 64 channels at 96 kHz,Dante, MADI, or mixed",
  "specs": []
 }

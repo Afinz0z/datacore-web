@@ -1,11 +1,12 @@
 {
  "sku": "UA844+",
  "order": 4394,
- "n": "UA844+",
+ "n": "Antenna Distribution System (UA844+)",
  "b": "Shure",
  "c": "Distribution System",
  "dept": "AV",
  "avail": "lead",
+ "model": "UA844+",
  "d": "Antenna Distribution System",
  "specs": []
 }

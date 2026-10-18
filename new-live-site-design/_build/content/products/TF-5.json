@@ -1,11 +1,12 @@
 {
  "sku": "TF-5",
- "order": 1391,
- "n": "TF-5",
+ "order": 1389,
+ "n": "Digital Mixer (TF-5)",
  "b": "Yamaha",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
+ "model": "TF-5",
  "d": "Digital Mixer",
  "specs": [],
  "acc": [

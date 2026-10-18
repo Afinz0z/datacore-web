@@ -1,11 +1,12 @@
 {
  "sku": "60-697-01",
- "order": 2110,
- "n": "MDA 4V EQ",
+ "order": 2098,
+ "n": "Four Output Composite Video Distribution Amplifier with Gain and EQ (MDA 4V EQ)",
  "b": "Extron",
  "c": "Distribution Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "MDA 4V EQ",
  "d": "MDA 4V EQ Four Output Composite Video Distribution Amplifier with Gain and EQ",
  "specs": []
 }

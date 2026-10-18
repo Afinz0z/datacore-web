@@ -1,11 +1,12 @@
 {
  "sku": "TPS_SIGN-",
  "order": 4952,
- "n": "TPS_SIGN-",
+ "n": "TripleSign client licence per Smart SOC client (TPS_SIGN-)",
  "b": "Tripleplay",
  "c": "Software - license",
  "dept": "AV",
  "avail": "lead",
+ "model": "TPS_SIGN-",
  "d": "TripleSign client licence per Smart SOC client",
  "specs": []
 }

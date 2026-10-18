@@ -1,11 +1,12 @@
 {
  "sku": "M3A-G000SG-K013-13",
  "order": 3648,
- "n": "Break Glass",
+ "n": "Break Glass, MCP3A-GREEN-NO/NC-SURFACE-G L 1140-F218",
  "b": "Honeywell",
  "c": "BREAK GLASS",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ MCP3A-GREEN-NO/NC-SURFACE-G L 1140-F218 ​",
+ "model": "Break Glass",
+ "d": "MCP3A-GREEN-NO/NC-SURFACE-G L 1140-F218",
  "specs": []
 }

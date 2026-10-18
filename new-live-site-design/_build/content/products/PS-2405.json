@@ -1,11 +1,12 @@
 {
  "sku": "PS-2405",
- "order": 5285,
- "n": "PS-2405",
+ "order": 5282,
+ "n": "24V/5A Desktop power supply (PS-2405)",
  "b": "Kramer",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
+ "model": "PS-2405",
  "d": "24V/5A Desktop power supply",
  "specs": []
 }

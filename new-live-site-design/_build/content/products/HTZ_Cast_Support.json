@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Cast Support",
- "order": 4307,
- "n": "HTZ_Cast Support",
+ "order": 4301,
+ "n": "Cast support (HTZ_Cast Support)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Cast Support",
  "d": "Hoteza Cast support",
  "specs": []
 }

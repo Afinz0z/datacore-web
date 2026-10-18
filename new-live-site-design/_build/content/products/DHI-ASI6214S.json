@@ -1,11 +1,12 @@
 {
  "sku": "DHI-ASI6214S",
  "order": 3517,
- "n": "Reader",
+ "n": "Reader, Face Recognition Access Controller",
  "b": "Dahua",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Reader",
  "d": "Face Recognition Access Controller",
  "specs": []
 }

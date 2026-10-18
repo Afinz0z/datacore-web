@@ -1,11 +1,12 @@
 {
  "sku": "Interconnection Cable",
- "order": 2533,
- "n": "Interconnection Cable",
+ "order": 2534,
+ "n": "LED Module Interconnection Cable",
  "b": "SACO",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
+ "model": "Interconnection Cable",
  "d": "LED Module Interconnection Cable",
  "specs": []
 }

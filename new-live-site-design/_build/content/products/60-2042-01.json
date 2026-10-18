@@ -1,11 +1,12 @@
 {
  "sku": "60-2042-01",
  "order": 666,
- "n": "UCS 601",
+ "n": "Pro 4K USB-C 10G Dock (UCS 601)",
  "b": "Extron",
  "c": "Docking Solution",
  "dept": "AV",
  "avail": "lead",
+ "model": "UCS 601",
  "d": "UCS 601 Pro 4K USB-C 10G Dock",
  "specs": [
   {

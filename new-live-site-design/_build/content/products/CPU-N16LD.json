@@ -1,11 +1,12 @@
 {
  "sku": "CPU-N16LD",
- "order": 4441,
- "n": "CPU-N16LD",
+ "order": 4443,
+ "n": "N16x CPU with 10\" Touchscreen Display, 1 SLC loop, 4 NACs (CPU-N16LD)",
  "b": "Notifier",
  "c": "Fire Alarm System",
  "dept": "AV",
  "avail": "lead",
+ "model": "CPU-N16LD",
  "d": "N16x CPU with 10\" Touchscreen Display, 1 SLC loop, 4 NACs, and Power Supply (CAB-5 series chassis mount)",
  "specs": []
 }

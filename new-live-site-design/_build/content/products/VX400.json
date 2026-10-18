@@ -1,11 +1,12 @@
 {
  "sku": "VX400",
- "order": 328,
- "n": "Controller",
+ "order": 333,
+ "n": "Video Wall Controller",
  "b": "Novastar",
  "c": "Video Wall Controller",
  "dept": "AV",
  "avail": "lead",
+ "model": "Controller",
  "d": "Video Wall Controller",
  "specs": []
 }

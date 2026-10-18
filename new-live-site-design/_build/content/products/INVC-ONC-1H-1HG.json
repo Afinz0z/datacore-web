@@ -1,11 +1,12 @@
 {
  "sku": "INVC-ONC-1H-1HG",
  "order": 4923,
- "n": "INVC-ONC-1H-1HG",
+ "n": "InMeet Concurrent Licenses(SMB100) (INVC-ONC-1H-1HG)",
  "b": "PeopleLink",
  "c": "Software - license",
  "dept": "AV",
  "avail": "lead",
+ "model": "INVC-ONC-1H-1HG",
  "d": "InMeet Concurrent Licenses(SMB100)",
  "specs": []
 }

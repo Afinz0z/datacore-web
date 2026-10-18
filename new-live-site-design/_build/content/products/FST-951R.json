@@ -1,11 +1,12 @@
 {
  "sku": "FST-951R",
- "order": 4424,
- "n": "FST-951R",
+ "order": 4423,
+ "n": "Intellignent heat detector (FST-951R)",
  "b": "Notifier",
  "c": "Fire Alarm - Field Devices",
  "dept": "AV",
  "avail": "lead",
+ "model": "FST-951R",
  "d": "Intellignent heat detector",
  "specs": [],
  "acc": [

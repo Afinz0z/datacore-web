@@ -1,11 +1,12 @@
 {
  "sku": "6507960",
- "order": 2057,
- "n": "CEN-IO-RY-104",
+ "order": 2065,
+ "n": "Wired Ethernet Module with 4 Relay Ports (CEN-IO-RY-104)",
  "b": "Crestron",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "CEN-IO-RY-104",
  "d": "CEN-IO-RY-104 Wired Ethernet Module with 4 Relay Ports",
  "specs": []
 }

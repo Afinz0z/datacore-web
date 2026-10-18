@@ -1,11 +1,12 @@
 {
  "sku": "IF-DA64",
- "order": 380,
- "n": "IF-DA64",
+ "order": 378,
+ "n": "64-in/64-out Dante interface card (IF-DA64)",
  "b": "TASCAM",
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
+ "model": "IF-DA64",
  "d": "64-in/64-out Dante interface card",
  "specs": [],
  "for": [

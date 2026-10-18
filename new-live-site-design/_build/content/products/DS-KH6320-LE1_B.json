@@ -1,11 +1,12 @@
 {
  "sku": "DS-KH6320-LE1(B)",
  "order": 4646,
- "n": "Intercom",
+ "n": "Video Intercom Network Indoor Station",
  "b": "Hikvision",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Intercom",
  "d": "Video Intercom Network Indoor Station",
  "specs": [
   {

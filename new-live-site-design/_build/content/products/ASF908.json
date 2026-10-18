@@ -1,11 +1,12 @@
 {
  "sku": "ASF908",
  "order": 3609,
- "n": "Push Button",
+ "n": "Push Button, Infrared Exit Button",
  "b": "Dahua",
  "c": "PUSH BUTTON",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Push Button",
  "d": "Infrared Exit Button",
  "specs": [],
  "for": [

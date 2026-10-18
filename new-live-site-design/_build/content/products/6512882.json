@@ -1,11 +1,12 @@
 {
  "sku": "6512882",
- "order": 2645,
- "n": "CAEN-UMP1X2-DIN-PWS",
+ "order": 2647,
+ "n": "CAEN Automation Enclosure Mounting Kit for 4-Series™ Automation (CAEN-UMP1X2-DIN-PWS)",
  "b": "Crestron",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
+ "model": "CAEN-UMP1X2-DIN-PWS",
  "d": "CAEN-UMP1X2-DIN-PWS CAEN Automation Enclosure Mounting Kit for 4-Series™ Automation Processor and Hub",
  "specs": []
 }

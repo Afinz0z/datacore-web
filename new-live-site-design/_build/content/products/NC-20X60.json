@@ -1,11 +1,12 @@
 {
  "sku": "NC-20X60",
  "order": 571,
- "n": "NC-20X60",
+ "n": "Network PTZ conference camera (NC-20X60)",
  "b": "Q-SYS",
  "c": "AV Camera",
  "dept": "AV",
  "avail": "lead",
+ "model": "NC-20X60",
  "d": "Network PTZ conference camera",
  "specs": []
 }

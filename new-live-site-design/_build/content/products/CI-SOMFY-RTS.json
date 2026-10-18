@@ -1,11 +1,12 @@
 {
  "sku": "CI-SOMFY-RTS",
- "order": 1590,
- "n": "CI-SOMFY-RTS",
+ "order": 1591,
+ "n": "RS485 Somfy RTS Interface (CI-SOMFY-RTS)",
  "b": "Crestron",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "CI-SOMFY-RTS",
  "d": "RS485 Somfy RTS Interface",
  "specs": []
 }

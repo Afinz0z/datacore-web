@@ -1,11 +1,12 @@
 {
  "sku": "91310096",
- "order": 1955,
- "n": "DCX-3x1-TPN-TX10",
+ "order": 1956,
+ "n": "DCX 3x1 switcher with USB-C, HDMI 2.0 ports (DCX-3x1-TPN-TX10)",
  "b": "Lightware",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "DCX-3x1-TPN-TX10",
  "d": "DCX 3x1 switcher with USB-C, HDMI 2.0 ports. Full 4K HDMI 2.0 TPN transmitter (4K UHD @ 60Hz RGB 4:4:4, up to 18 Gbps). USB-C connectivity for video, audio and charging up to 100W. 10GbE Port for SDVoE network connection with 4K video.",
  "specs": []
 }

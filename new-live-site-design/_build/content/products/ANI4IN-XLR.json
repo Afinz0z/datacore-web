@@ -1,11 +1,12 @@
 {
  "sku": "ANI4IN-XLR",
  "order": 1610,
- "n": "ANI4IN-XLR",
+ "n": "Audio Network Interface Audio network interface brings up to 4 analog (ANI4IN-XLR)",
  "b": "Shure",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "ANI4IN-XLR",
  "d": "Audio Network Interface Audio network interface brings up to 4 analog wired microphones onto Dante for easy audio routing and convenient browser-based remote control.",
  "specs": []
 }

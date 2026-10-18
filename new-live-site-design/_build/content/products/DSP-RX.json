@@ -1,11 +1,12 @@
 {
  "sku": "DSP-RX",
  "order": 1251,
- "n": "DSP-RX",
+ "n": "DSP engine (DSP-RX)",
  "b": "Yamaha",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
+ "model": "DSP-RX",
  "d": "DSP engine",
  "specs": []
 }

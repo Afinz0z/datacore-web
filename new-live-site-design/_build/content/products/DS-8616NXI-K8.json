@@ -1,11 +1,12 @@
 {
  "sku": "DS-8616NXI-K8",
- "order": 3406,
- "n": "16CH NVR-8 SATA",
+ "order": 3399,
+ "n": "16CH Network Video Recorder,8 SATA (16CH NVR-8 SATA)",
  "b": "Hikvision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "16CH NVR-8 SATA",
  "d": "HIKVISION 16CH Network Video Recorder,8 SATA",
  "specs": [
   {

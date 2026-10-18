@@ -1,11 +1,12 @@
 {
  "sku": "MTX48",
  "order": 1376,
- "n": "Audio Mixer",
+ "n": "Audio Mixer, 4-zone audio matrix",
  "b": "Audac",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
+ "model": "Audio Mixer",
  "d": "4-zone audio matrix",
  "specs": []
 }

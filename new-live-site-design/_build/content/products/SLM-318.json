@@ -1,11 +1,12 @@
 {
  "sku": "SLM-318",
  "order": 4444,
- "n": "SLM-318",
+ "n": "Signaling Line Module (adds 1 SLC loop up to 318 addressable points) (SLM-318)",
  "b": "Notifier",
  "c": "Fire Alarm System",
  "dept": "AV",
  "avail": "lead",
+ "model": "SLM-318",
  "d": "Signaling Line Module (adds 1 SLC loop up to 318 addressable points)",
  "specs": []
 }

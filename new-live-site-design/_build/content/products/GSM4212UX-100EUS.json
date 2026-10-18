@@ -1,11 +1,12 @@
 {
  "sku": "GSM4212UX-100EUS",
- "order": 3020,
- "n": "GSM4212UX-100EUS",
+ "order": 3022,
+ "n": "M4250-10G2XF-POE++ Managed Switch (GSM4212UX-100EUS)",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
+ "model": "GSM4212UX-100EUS",
  "d": "M4250-10G2XF-POE++ MANAGED SWITCH",
  "specs": []
 }

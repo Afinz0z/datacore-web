@@ -1,11 +1,12 @@
 {
  "sku": "6508361",
  "order": 998,
- "n": "AMP-4600",
+ "n": "4-Channel Power Amplifier, 600W/Ch. (AMP-4600)",
  "b": "Crestron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "AMP-4600",
  "d": "AMP-4600 4-Channel Power Amplifier, 600W/Ch.",
  "specs": []
 }

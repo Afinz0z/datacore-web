@@ -1,11 +1,12 @@
 {
  "sku": "FC108",
- "order": 755,
- "n": "FC108",
+ "order": 762,
+ "n": "full-range coaxial point-source loudspeaker (FC108)",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
+ "model": "FC108",
  "d": "full-range coaxial point-source loudspeaker",
  "specs": []
 }

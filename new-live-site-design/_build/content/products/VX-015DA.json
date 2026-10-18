@@ -1,11 +1,12 @@
 {
  "sku": "VX-015DA",
- "order": 1098,
- "n": "Amplifier",
+ "order": 1099,
+ "n": "Digital Power Amplifier Module 150w",
  "b": "TOA",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "Amplifier",
  "d": "Digital Power Amplifier Module 150w",
  "specs": []
 }

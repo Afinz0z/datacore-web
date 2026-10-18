@@ -1,11 +1,12 @@
 {
  "sku": "6512880",
- "order": 2662,
- "n": "TST-1080-DS",
+ "order": 2684,
+ "n": "Table Dock for TST-1080 (TST-1080-DS)",
  "b": "Crestron",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
+ "model": "TST-1080-DS",
  "d": "TST-1080-DS Table Dock for TST-1080",
  "specs": [],
  "for": [

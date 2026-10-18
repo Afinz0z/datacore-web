@@ -1,11 +1,12 @@
 {
  "sku": "6514148",
- "order": 1118,
- "n": "DM-NAX-POD-MIC-SPK",
+ "order": 1117,
+ "n": "\"PoE Speaker and Microphone Pod with support for DM NAX Intelligent (DM-NAX-POD-MIC-SPK)",
  "b": "Crestron",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM-NAX-POD-MIC-SPK",
  "d": "DM-NAX-POD-MIC-SPK \"PoE Speaker and Microphone Pod with support for DM NAX Intelligent Audio",
  "specs": []
 }

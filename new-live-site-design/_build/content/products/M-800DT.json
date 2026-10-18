@@ -1,11 +1,12 @@
 {
  "sku": "M-800DT",
- "order": 1615,
- "n": "M-800DT",
+ "order": 1612,
+ "n": "DANTE MODULE for M-8080D Matrix Mixer System (M-800DT)",
  "b": "TOA",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
+ "model": "M-800DT",
  "d": "DANTE MODULE for M-8080D Matrix Mixer System",
  "specs": []
 }

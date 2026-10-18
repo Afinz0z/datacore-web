@@ -1,11 +1,12 @@
 {
  "sku": "60-1298-01",
- "order": 3191,
- "n": "XTP PI 400",
+ "order": 3189,
+ "n": "Four Port XTP Power Injector (XTP PI 400)",
  "b": "Extron",
  "c": "PoE Injector",
  "dept": "AV",
  "avail": "lead",
+ "model": "XTP PI 400",
  "d": "XTP PI 400 Four Port XTP Power Injector",
  "specs": []
 }

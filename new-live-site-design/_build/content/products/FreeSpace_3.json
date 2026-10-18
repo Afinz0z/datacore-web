@@ -1,11 +1,12 @@
 {
  "sku": "FreeSpace 3",
  "order": 1291,
- "n": "Subwoofer",
+ "n": "Subwoofer, FreeSpace 3 Module",
  "b": "Bose",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
+ "model": "Subwoofer",
  "d": "FreeSpace 3 Module",
  "specs": []
 }

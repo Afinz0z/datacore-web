@@ -1,11 +1,12 @@
 {
  "sku": "TILR03+",
  "order": 1364,
- "n": "TILR03+",
+ "n": "ILR3+ Induction Loop Receiver (TILR03+)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
+ "model": "TILR03+",
  "d": "ILR3+ Induction Loop Receiver",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "PS-REM-ACT",
- "order": 5221,
- "n": "PS-REM-ACT",
+ "order": 5222,
+ "n": "Remote Configuration & Activation per Day excluding travel expenses (PS-REM-ACT)",
  "b": "Tripleplay",
  "c": "Service Support Contract",
  "dept": "AV",
  "avail": "lead",
+ "model": "PS-REM-ACT",
  "d": "Remote Configuration & Activation per Day excluding travel expenses",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "6512144",
- "order": 2462,
- "n": "CBL-USB3G1-C-C-6",
+ "order": 2464,
+ "n": "USB Cable, USB-C® Male to USB-C Male, USB 3.2 Gen 1 (5 Gbps) (CBL-USB3G1-C-C-6)",
  "b": "Crestron",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
+ "model": "CBL-USB3G1-C-C-6",
  "d": "CBL-USB3G1-C-C-6 USB Cable, USB-C® Male to USB-C Male, USB 3.2 Gen 1 (5 Gbps), DisplayPort™ Alt Mode, 100 W, 6 ft (1.8 m)",
  "specs": []
 }

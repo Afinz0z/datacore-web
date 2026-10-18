@@ -1,11 +1,12 @@
 {
  "sku": "GMI-PDU-613",
- "order": 4191,
- "n": "PDU-6 WAY-13 AMP",
+ "order": 4190,
+ "n": "HPDU-Saudi Standard - 1U-6 Way- 13 AMP-UK-Type Plug-Overload (PDU-6 WAY-13 AMP)",
  "b": "Gamma",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "PDU-6 WAY-13 AMP",
  "d": "HPDU-Saudi Standard - 1U-6 Way- 13 AMP-UK-Type Plug-Overload Protection & ON/OFF",
  "specs": [],
  "for": [

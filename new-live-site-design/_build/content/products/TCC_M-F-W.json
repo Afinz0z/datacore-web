@@ -1,11 +1,12 @@
 {
  "sku": "TCC M-F-W",
- "order": 1146,
- "n": "Mic",
+ "order": 1136,
+ "n": "Flush Mount Ceiling Microphone",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
+ "model": "Mic",
  "d": "Flush Mount Ceiling Microphone",
  "specs": []
 }

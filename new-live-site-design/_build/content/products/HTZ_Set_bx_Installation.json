@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Set bx Installation",
- "order": 4322,
- "n": "HTZ_Set bx Installation",
+ "order": 4319,
+ "n": "LG 6000 Set Top Box Installation (HTZ_Set bx Installation)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Set bx Installation",
  "d": "LG 6000 Set Top Box Installation",
  "specs": []
 }

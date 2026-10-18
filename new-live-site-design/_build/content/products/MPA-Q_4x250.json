@@ -1,11 +1,12 @@
 {
  "sku": "MPA-Q 4x250",
- "order": 1089,
- "n": "MPA-Q 4x250",
+ "order": 1090,
+ "n": "Four-channel Network Amplifier - 4 x 250W (MPA-Q 4x250)",
  "b": "Q-SYS",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "MPA-Q 4x250",
  "d": "Four-channel Network Amplifier - 4 x 250W",
  "specs": []
 }

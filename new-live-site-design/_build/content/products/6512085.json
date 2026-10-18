@@ -1,11 +1,12 @@
 {
  "sku": "6512085",
  "order": 3510,
- "n": "RFID-USB",
+ "n": "RFID Card Reader (RFID-USB)",
  "b": "Crestron",
  "c": "CARD READER",
  "dept": "AV",
  "avail": "lead",
+ "model": "RFID-USB",
  "d": "RFID-USB RFID Card Reader",
  "specs": []
 }

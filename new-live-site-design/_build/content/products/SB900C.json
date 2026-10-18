@@ -1,11 +1,12 @@
 {
  "sku": "SB900C",
- "order": 4270,
- "n": "SB900C",
+ "order": 4269,
+ "n": "Rechargeable Battery (SB900C)",
  "b": "Shure",
  "c": "Battery",
  "dept": "AV",
  "avail": "lead",
+ "model": "SB900C",
  "d": "RECHARGEABLE BATTERY",
  "specs": []
 }

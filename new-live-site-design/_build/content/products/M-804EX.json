@@ -1,11 +1,12 @@
 {
  "sku": "M-804EX",
  "order": 1420,
- "n": "M-804EX",
+ "n": "Port Expander (M-804EX)",
  "b": "TOA",
  "c": "Audio Expander",
  "dept": "AV",
  "avail": "lead",
+ "model": "M-804EX",
  "d": "Port Expander",
  "specs": []
 }

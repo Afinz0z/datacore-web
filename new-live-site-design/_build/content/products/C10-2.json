@@ -1,11 +1,12 @@
 {
  "sku": "C10-2",
  "order": 1361,
- "n": "C10-2",
+ "n": "C-Series MultiLoop Driver 10A (C10-2)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
+ "model": "C10-2",
  "d": "C-Series MultiLoop Driver 10A",
  "specs": [],
  "acc": [

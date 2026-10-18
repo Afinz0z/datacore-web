@@ -1,11 +1,12 @@
 {
  "sku": "60-1683-02",
- "order": 1926,
- "n": "SW4 12G HD-SDI",
+ "order": 1913,
+ "n": "Four Input 12G-SDI Switcher (SW4 12G HD-SDI)",
  "b": "Extron",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
+ "model": "SW4 12G HD-SDI",
  "d": "SW4 12G HD-SDI Four Input 12G-SDI Switcher",
  "specs": []
 }

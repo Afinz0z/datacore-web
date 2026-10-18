@@ -1,11 +1,12 @@
 {
  "sku": "1913010",
- "order": 1667,
- "n": "MN-Z-SFP-RT-SM-1310-25",
+ "order": 1662,
+ "n": "25GE SFP28 Transceiver Singlemode 10km 1310nm. (MN-Z-SFP-RT-SM-1310-25)",
  "b": "Riedel",
  "c": "Gateway",
  "dept": "AV",
  "avail": "lead",
+ "model": "MN-Z-SFP-RT-SM-1310-25",
  "d": "25GE SFP28 Transceiver Singlemode 10km 1310nm.",
  "specs": []
 }

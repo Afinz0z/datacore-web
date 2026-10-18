@@ -1,11 +1,12 @@
 {
  "sku": "Apple Siri Remote",
  "order": 1673,
- "n": "Apple Siri Remote",
+ "n": "Remote Control (Apple Siri Remote)",
  "b": "Apple",
  "c": "Remote",
  "dept": "AV",
  "avail": "lead",
+ "model": "Apple Siri Remote",
  "d": "Remote Control",
  "specs": []
 }

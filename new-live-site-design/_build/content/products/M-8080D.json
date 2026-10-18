@@ -1,11 +1,12 @@
 {
  "sku": "M-8080D",
  "order": 1387,
- "n": "M-8080D",
+ "n": "Digital Matrix Mixer (M-8080D)",
  "b": "TOA",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
+ "model": "M-8080D",
  "d": "Digital Matrix Mixer",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "Lenovo rack server",
  "order": 4525,
- "n": "Lenovo rack server",
+ "n": "rack server for IPTV 16 GB RAM 2TB HDD (Lenovo rack server)",
  "b": "Lenovo",
  "c": "Server",
  "dept": "AV",
  "avail": "lead",
+ "model": "Lenovo rack server",
  "d": "Lenovo rack server for IPTV 16 GB RAM 2TB HDD",
  "specs": []
 }

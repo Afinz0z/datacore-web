@@ -1,11 +1,12 @@
 {
  "sku": "6507102",
  "order": 2145,
- "n": "DM-DGE-200-C",
+ "n": "Digital Graphics Engine 200 with 4K DM 8G+® Input (DM-DGE-200-C)",
  "b": "Crestron",
  "c": "Graphics Engine",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM-DGE-200-C",
  "d": "DM-DGE-200-C Digital Graphics Engine 200 with 4K DM 8G+® Input",
  "specs": []
 }

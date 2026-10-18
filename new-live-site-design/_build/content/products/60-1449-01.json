@@ -1,11 +1,12 @@
 {
  "sku": "60-1449-01",
- "order": 1037,
- "n": "MPA 601-70V",
+ "order": 1064,
+ "n": "One Channel Amp, 60 watts at 70 volts (MPA 601-70V)",
  "b": "Extron",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
+ "model": "MPA 601-70V",
  "d": "MPA 601-70V - One Channel Amp, 60 watts at 70 volts",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "HR-DAC1",
  "order": 2083,
- "n": "HR-DAC1",
+ "n": "Digital to Analog Converter - 24 bit 192 kHz (HR-DAC1)",
  "b": "RDL",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
+ "model": "HR-DAC1",
  "d": "Digital to Analog Converter - 24 bit 192 kHz",
  "specs": []
 }

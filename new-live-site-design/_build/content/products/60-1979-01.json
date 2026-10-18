@@ -1,11 +1,12 @@
 {
  "sku": "60-1979-01",
  "order": 1656,
- "n": "IPCP Pro S1 xi",
+ "n": "IPCP Pro xi Control Processor (IPCP Pro S1 xi)",
  "b": "Extron",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
+ "model": "IPCP Pro S1 xi",
  "d": "IPCP Pro S1 xi IPCP Pro xi Control Processor",
  "specs": []
 }

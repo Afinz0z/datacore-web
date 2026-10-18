@@ -1,12 +1,13 @@
 {
  "sku": "NP44ML-PA4",
  "order": 353,
- "n": "NP44ML-PA4 LENS",
+ "n": "NP44ML UST Lens (0.32:1) for PA4 Series (NP44ML-PA4 LENS)",
  "b": "NEC",
  "c": "Projector Lens",
  "dept": "AV",
  "avail": "lead",
- "d": "​NP44ML UST Lens (0.32:1) for PA4 Series",
+ "model": "NP44ML-PA4 LENS",
+ "d": "NP44ML UST Lens (0.32:1) for PA4 Series",
  "specs": [],
  "for": [
   "XP-V731U-B"

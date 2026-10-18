@@ -1,11 +1,12 @@
 {
  "sku": "6506307",
- "order": 4468,
- "n": "CAEN-1X1",
+ "order": 4469,
+ "n": "Automation Enclosure, 1 module high x 1 module wide (CAEN-1X1)",
  "b": "Crestron",
  "c": "Lighting Controller",
  "dept": "AV",
  "avail": "lead",
+ "model": "CAEN-1X1",
  "d": "CAEN-1X1 Automation Enclosure, 1 module high x 1 module wide",
  "specs": [],
  "acc": [

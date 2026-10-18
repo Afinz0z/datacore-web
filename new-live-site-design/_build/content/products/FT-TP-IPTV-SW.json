@@ -1,11 +1,12 @@
 {
  "sku": "FT-TP-IPTV-SW",
  "order": 4951,
- "n": "FT-TP-IPTV-SW",
+ "n": "IPTV software per hardware interface (FT-TP-IPTV-SW)",
  "b": "Tripleplay",
  "c": "Software - license",
  "dept": "AV",
  "avail": "lead",
+ "model": "FT-TP-IPTV-SW",
  "d": "IPTV software per hardware interface",
  "specs": []
 }

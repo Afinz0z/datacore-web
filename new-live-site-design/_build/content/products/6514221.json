@@ -1,11 +1,12 @@
 {
  "sku": "6514221",
- "order": 2141,
- "n": "DM-NVX-DIR2",
+ "order": 2140,
+ "n": "DM NVX Director® Network AV Switching Appliance (DM-NVX-DIR2)",
  "b": "Crestron",
  "c": "Director",
  "dept": "AV",
  "avail": "lead",
+ "model": "DM-NVX-DIR2",
  "d": "DM-NVX-DIR2 DM NVX Director® Network AV Switching Appliance",
  "specs": []
 }

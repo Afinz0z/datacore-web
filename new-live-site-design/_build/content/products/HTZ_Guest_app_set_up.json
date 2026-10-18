@@ -1,11 +1,12 @@
 {
  "sku": "HTZ_Guest app set up",
- "order": 4313,
- "n": "HTZ_Guest app set up",
+ "order": 4310,
+ "n": "Guest App set up (HTZ_Guest app set up)",
  "b": "Hoteza",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
+ "model": "HTZ_Guest app set up",
  "d": "Hoteza Guest App set up",
  "specs": []
 }

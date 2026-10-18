@@ -1,11 +1,12 @@
 {
  "sku": "HP PLOTTER",
  "order": 4608,
- "n": "HP PLOTTER",
+ "n": "Design Jet T2600 36-inch Multifunction Plotter (HP PLOTTER)",
  "b": "HP",
  "c": "Printer",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "HP PLOTTER",
  "d": "HP Design Jet T2600 36-inch Multifunction Plotter",
  "specs": []
 }

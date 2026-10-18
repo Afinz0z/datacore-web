@@ -1,12 +1,13 @@
 {
  "sku": "SRTGRK1",
- "order": 4290,
- "n": "Rail Kit",
+ "order": 4288,
+ "n": "SMART-UPS RT 19\" Rail Kit For 5k/6k/8k/10k/15k/20kVA\"",
  "b": "APC",
  "c": "Rail kit for ups",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "​ \"APC SMART-UPS RT 19\" Rail Kit For 5k/6k/8k/10k/15k/20kVA\" ​",
+ "model": "Rail Kit",
+ "d": "\"APC SMART-UPS RT 19\" Rail Kit For 5k/6k/8k/10k/15k/20kVA\"",
  "specs": [
   {
    "label": "Type",

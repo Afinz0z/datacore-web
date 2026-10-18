@@ -1,11 +1,12 @@
 {
  "sku": "MX-418D/C",
- "order": 1171,
- "n": "MX418",
+ "order": 1180,
+ "n": "Standard Gooseneck Microphone (MX418)",
  "b": "Shure",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
+ "model": "MX418",
  "d": "Standard Gooseneck Microphone",
  "specs": []
 }

@@ -1,11 +1,12 @@
 {
  "sku": "Rio3224-D3",
  "order": 2894,
- "n": "Rio3224-D3",
+ "n": "Dante-compatible I/O racks (Rio3224-D3)",
  "b": "Yamaha",
  "c": "Rack (AV)",
  "dept": "AV",
  "avail": "lead",
+ "model": "Rio3224-D3",
  "d": "Dante-compatible I/O racks",
  "specs": []
 }

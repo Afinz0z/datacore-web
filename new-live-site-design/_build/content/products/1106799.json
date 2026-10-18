@@ -1,11 +1,12 @@
 {
  "sku": "1106799",
- "order": 539,
- "n": "MVC S90 C5U-004",
+ "order": 538,
+ "n": "MVC S90C5U-004 - The Yealink S90-C5U is acutting-edge solution",
  "b": "Yealink",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
+ "model": "MVC S90 C5U-004",
  "d": "MVC S90C5U-004 - The Yealink S90-C5U is acutting-edge solution forMicrosoft Teams Rooms.Thisset includes the new generationmini-PC MCore 4, the largescreen touch panel MTouchPlus, the 4K dual-eye cameraUVC86, the audio and videoprocessor AVHub, theintelligent detection sensorRoomSensor, and MVC-BYODExtender.",
  "specs": []
 }

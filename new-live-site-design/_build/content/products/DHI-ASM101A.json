@@ -1,11 +1,12 @@
 {
  "sku": "DHI-ASM101A",
  "order": 3674,
- "n": "Enrollment Unit",
+ "n": "Enrollment Unit, Overseas DH ID Card,IC Card,Fingerprint Enrollment Reader",
  "b": "Dahua",
  "c": "Enrollment Reader",
  "dept": "NETWORK",
  "avail": "lead",
+ "model": "Enrollment Unit",
  "d": "Overseas DH ID Card,IC Card,Fingerprint Enrollment Reader",
  "specs": []
 }
