@@ -96,7 +96,9 @@ for the architecture, the build and the deploy.
 - Bundles: `acc` lists a product's supporting products (mounts, licences, support contracts) and `for`
   the main products it supports. The cards link both ways.
 - Photos are `assets1/images/products/<sku>.webp`, 600 × 600, with the SKU's punctuation turned into
-  `_` (`safe_name()` in `product_data.py`). Products with a photo are listed first.
+  `_` (`safe_name()` in `product_data.py`). Products with a photo are listed first. Licences, support
+  contracts, warranties and software show the maker's logo instead (`assets1/images/brands/<brand>.webp`,
+  same size, named with `safe_name()` of the lower-case brand).
 - The page itself carries the first 24 cards. The full catalogue is `assets1/data/products-data.js`,
   stamped with a hash of its contents, so a new import is never served from a stale cache.
 

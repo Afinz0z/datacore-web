@@ -7,7 +7,7 @@ The catalogue is several thousand products, so the page itself carries only the 
 cards and the starting filters (enough for crawlers and the first paint). Everything else is in
 assets1/data/products-data.js, stamped with a hash of its contents, which dc-products.js reads to
 filter, search and page through the rest."""
-import os, sys, json, hashlib
+import os, re, sys, json, hashlib
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER, SITE
@@ -43,13 +43,32 @@ for _f in (sorted(os.listdir(_PDIR)) if os.path.isdir(_PDIR) else []):
     _k, _ext = os.path.splitext(_f)
     if _k not in _PFILES or _ext.lower() == '.webp':   # prefer the WebP when both exist
         _PFILES[_k] = _f
-def _photo(p):
-    return _PFILES.get(safe_name(p["sku"]), "")
-PHOTO_DIR = "assets1/images/products/"
+def _own_photo(p):
+    f = _PFILES.get(safe_name(p["sku"]), "")
+    return "products/" + f if f else ""
 
-# Products with a photo come first, each half in catalogue order; photos are added a brand at a
-# time, so the first page improves with every batch.
-PRODUCTS = sorted(_load_products(), key=lambda p: not _photo(p))
+# Licences, support contracts, warranties and software have nothing to photograph: their cards show
+# the maker's logo (assets1/images/brands/<brand>.webp, 600 x 600) instead.
+_LDIR = os.path.join(ROOT, "assets1", "images", "brands")
+_LOGOS = {os.path.splitext(f)[0] for f in (os.listdir(_LDIR) if os.path.isdir(_LDIR) else [])}
+LOGO_ALT = {"Tripleplay": "Uniguest"}          # the logo shown when it is the maker's, not the brand's
+_SERVICE = re.compile(r'licen[cs]e|subscription|warranty|smart ?net|support contract|care pack|software|saas', re.I)
+def is_service(p):
+    return p["cat"]["grp"] in ("software", "support") or bool(_SERVICE.search(p["n"] + " " + p["cat"]["en"]))
+def _photo(p):
+    """Image path under assets1/images/: the product's own photo, or its maker's logo for a service."""
+    own = _own_photo(p)
+    if own or not (p["b"] and is_service(p)):
+        return own
+    slug = safe_name(p["b"].lower())
+    return "brands/" + slug + ".webp" if slug in _LOGOS else ""
+def _alt(p):
+    return (LOGO_ALT.get(p["b"], p["b"]) + " logo") if _photo(p).startswith("brands/") else p["n"]
+PHOTO_DIR = "assets1/images/"
+
+# Products with their own photo come first, each half in catalogue order; photos are added a brand
+# at a time, so the first page improves with every batch. Logos don't count as photos here.
+PRODUCTS = sorted(_load_products(), key=lambda p: not _own_photo(p))
 _BY = {p["sku"]: p for p in PRODUCTS}
 for _p in PRODUCTS:          # bundle links: supporting products (acc) and the products they fit (for)
     _p["kids"] = [s for s in _p["acc"] if s in _BY]
@@ -125,7 +144,7 @@ def card_html(p, ar):
           else f'<span class="dcp-badge lead">{L["on_order"]}</span>')
     photo = _photo(p)
     if photo:
-        media = (f'<div class="dcp-card-photo"><img src="{PHOTO_DIR}{_jesc(photo)}" alt="{_jesc(p["n"])}" '
+        media = (f'<div class="dcp-card-photo"><img src="{PHOTO_DIR}{_jesc(photo)}" alt="{_jesc(_alt(p))}" '
                  'width="600" height="600" decoding="async"></div>')
     else:
         glyph = GLYPHS.get(p['g']) or GLYPHS.get('rack') or ''
@@ -258,7 +277,7 @@ def build_products(ar, data_url):
       + f'<section class="dcp-sec"><div class="dcp-wrap">{tools}</div></section>'
       + cta_band(ar) + footer(ar) + drawer)
 
-    data = {"lang": lang, "labels": L, "glyphs": GLYPHS, "page": PAGE, "photoDir": PHOTO_DIR}
+    data = {"lang": lang, "labels": L, "glyphs": GLYPHS, "page": PAGE, "photoDir": PHOTO_DIR, "logoAlt": LOGO_ALT}
     js = ('<script>window.DCP_DATA=' + json.dumps(data, ensure_ascii=False) + ';</script>'
           f'<script src="{data_url}"></script>'
           '<script src="dc-products.js?v=' + VER + '"></script>')
