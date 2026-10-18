@@ -1,14 +1,65 @@
 {
  "sku": "C9300X-48TX-M LIC-C9300-48E-3Y",
- "order": 2833,
+ "order": 2821,
  "n": "Cisco Meraki Switch 48p",
  "b": "Cisco",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CISCO C9300X 48-port mGig data only, 715wac PS, w/MERAKI CISCO Meraki Enterprise License for C9300-M 48-port, 3 year",
- "specs": [],
+ "specs": [
+  {
+   "label": "Interfaces",
+   "value": "48 x 10G mGig RJ45"
+  },
+  {
+   "label": "Uplinks (SFP+, SFP28, QSFP+, QSFP28)",
+   "value": "Modular"
+  },
+  {
+   "label": "1T/480G Hardware Stack Ports",
+   "value": "2"
+  },
+  {
+   "label": "Dedicated Management Interface",
+   "value": "1"
+  },
+  {
+   "label": "Mount Type",
+   "value": "1U Rack Mount"
+  },
+  {
+   "label": "Hot Swap Fans",
+   "value": "Yes, 3x"
+  },
+  {
+   "label": "Switching Capacity",
+   "value": "2000 Gbps"
+  },
+  {
+   "label": "Switching Capacity with Stacking",
+   "value": "1 Tbps / 480 Gbps"
+  },
+  {
+   "label": "Forwarding rate",
+   "value": "1488 Mpps"
+  },
+  {
+   "label": "Power Load (idle/max)",
+   "value": "184.3 / 269.8 W"
+  },
+  {
+   "label": "MTBF at 25°C",
+   "value": "206,480"
+  },
+  {
+   "label": "Weight w/ Default Power Supply",
+   "value": "14.6 lb (6.62 kg)"
+  }
+ ],
  "acc": [
   "MA-PWR-CORD-UK-FR"
- ]
+ ],
+ "src": "https://documentation.meraki.com/Switching/Cloud_Management_with_IOS_XE/Product_Information/Overviews_and_Datasheets/Catalyst_9300X-M_Datasheet",
+ "checked": "2026-10-18"
 }

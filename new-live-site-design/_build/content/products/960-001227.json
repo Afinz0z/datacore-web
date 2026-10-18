@@ -1,10 +1,61 @@
 {
  "sku": "960-001227",
- "order": 462,
+ "order": 454,
  "n": "Rally Camera",
  "b": "Logitech",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "182.5 mm"
+  },
+  {
+   "label": "Width",
+   "value": "152 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "152 mm"
+  },
+  {
+   "label": "Rally Camera Power Splitter height",
+   "value": "21.4 mm"
+  },
+  {
+   "label": "Rally Camera Power Splitter width",
+   "value": "81 mm"
+  },
+  {
+   "label": "Rally Camera Power Splitter depth",
+   "value": "60.5 mm"
+  },
+  {
+   "label": "Rally Camera Mounting Bracket height",
+   "value": "88 mm"
+  },
+  {
+   "label": "Rally Camera Mounting Bracket width",
+   "value": "110 mm"
+  },
+  {
+   "label": "Rally Camera Mounting Bracket depth",
+   "value": "170 mm"
+  },
+  {
+   "label": "Length",
+   "value": "2.2 m"
+  },
+  {
+   "label": "Power Adapter Cable length",
+   "value": "3 m"
+  },
+  {
+   "label": "Camera",
+   "value": "Ultra-HD imaging system supports 4K, 1440p, 1080p, 900p, 720p, and SD at 30fps; 1080p, 720p at 30fps and 60 fps"
+  }
+ ],
+ "src": "https://www.logitech.com/en-gb/products/video-conferencing/conference-cameras/rally-ultra-hd-ptz-camera.html",
+ "checked": "2026-10-18"
 }

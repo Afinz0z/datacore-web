@@ -1,6 +1,6 @@
 {
  "sku": "N10G.UF4-OD",
- "order": 3803,
+ "order": 3790,
  "n": "U/FTP Nexans cable",
  "b": "Nexans",
  "c": "UTP CABLE",
@@ -9,8 +9,54 @@
  "d": "LANmark-10G U/FTP AWG23 Cat 6A LSZH Orange 500m reel",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6a"
+   "label": "Colour",
+   "value": "Orange"
+  },
+  {
+   "label": "Outer sheath",
+   "value": "LSZH"
+  },
+  {
+   "label": "Type of cable",
+   "value": "U/FTP"
+  },
+  {
+   "label": "Conductor cross-section (AWG/KCMIL)",
+   "value": "23"
+  },
+  {
+   "label": "Diameter over insulation",
+   "value": "1.32 mm"
+  },
+  {
+   "label": "Nominal outer diameter (mm)",
+   "value": "7.0 mm"
+  },
+  {
+   "label": "Characteristic impedance",
+   "value": "100 Ohm"
+  },
+  {
+   "label": "Max. DC resistance of the conductor at 20°C",
+   "value": "80 Ohm/km"
+  },
+  {
+   "label": "Max. transfer impedance at 30 MHz (Ohm/km)",
+   "value": "120 Ohm/km"
+  },
+  {
+   "label": "Mutual capacitance",
+   "value": "45 nF/km"
+  },
+  {
+   "label": "Attenuation Crosstalk Ratio, 250MHz",
+   "value": "25 dB/100m"
+  },
+  {
+   "label": "Coupling attenuation at 30 MHz",
+   "value": ">70 dB"
   }
- ]
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/copper-cables/lanmark-10g-cable/lanmark-10g-uftp-awg23-cat-6a-lszh-dca-s2-d2-a1-orange-500m-reel",
+ "checked": "2026-10-18"
 }

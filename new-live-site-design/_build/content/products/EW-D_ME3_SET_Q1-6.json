@@ -1,11 +1,62 @@
 {
  "sku": "EW-D ME3 SET (Q1-6)",
- "order": 1074,
+ "order": 1063,
  "n": "EW-D-EM series lavalier",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Digital wireless lavalier set. Includes (1) EW-D EM single channel receiver, (1) EW-D SK bodypack transmitter, (1) new ME 2 lavalier (omni-directional, condenser), (1) NT 12-5 CW+ power supply with country adapters, (1) rack mount kit and AA batteries, frequency range: Q1-6 (470,2 - 526 MHz)",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Pre-polarised condenser"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "470.200 - 526.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB) @ 3 dBfs"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Audio output level",
+   "value": "18 dBu max."
+  },
+  {
+   "label": "Max. sound pressure level",
+   "value": "150 dB SPL"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Connectors",
+   "value": "3.5mm"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "2.3"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-d-me3-set/ew-d-me3-set-q1-6-508710",
+ "checked": "2026-10-18"
 }

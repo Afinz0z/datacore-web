@@ -1,6 +1,6 @@
 {
  "sku": "6503161",
- "order": 4027,
+ "order": 4009,
  "n": "Wall Mount Power Pack 12VDC, 1.5A, Universal (PW-1215WU)",
  "b": "Crestron",
  "c": "Power Supply",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "PW-1215WU",
  "d": "PW-1215WU Wall Mount Power Pack 12VDC, 1.5A, Universal",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Requirements",
+   "value": "100-240 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Line connection",
+   "value": "(1) Ungrounded AC power plug, line power input; Type selectable via region-specific adapter insert"
+  },
+  {
+   "label": "Load connection",
+   "value": "(1) 6 ft (1.8 m) attached cable with 2.5 x 5.5 mm DC power barrel connector"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Black plastic \"wall wart\" type"
+  },
+  {
+   "label": "Temperature",
+   "value": "41° to 104° F (5° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "5 oz (144 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/Power-Packs/PW-1215WU",
+ "checked": "2026-10-18"
 }

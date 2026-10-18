@@ -1,6 +1,6 @@
 {
  "sku": "6508473",
- "order": 1620,
+ "order": 1608,
  "n": "4K HDMI® & USB over HDBaseT® Extender 2000 (HD-EXT-USB-2000-C)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-EXT-USB-2000-C",
  "d": "HD-EXT-USB-2000-C 4K HDMI® & USB over HDBaseT® Extender 2000",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types (@TX)",
+   "value": "HDMI w/Deep Color, 3D, & 4K (DVI & Dual-Mode DisplayPort compatible)"
+  },
+  {
+   "label": "Output Signal Types (@RX)",
+   "value": "HDMI w/Deep Color, 3D, & 4K (DVI compatible)"
+  },
+  {
+   "label": "Audio input signal types (@TX)",
+   "value": "HDMI (Dual-Mode DisplayPort compatible), analog stereo"
+  },
+  {
+   "label": "Audio output signal types (@RX)",
+   "value": "HDMI, analog stereo"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby TrueHD, Dolby Atmos, DTS®, DTS-ES, DTS 96/24, DTS-HD High Res, DTS-HD Master Audio, LPCM up to 8 channels"
+  },
+  {
+   "label": "Audio analog formats",
+   "value": "Stereo 2-channel"
+  },
+  {
+   "label": "Analog-To-Digital Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Digital-To-Analog Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Analog Performance",
+   "value": "Frequency Response: 20 Hz to 20 kHz ±0.5 dB; S/N Ratio: >95 dB, 20 Hz to 20 kHz A-weighted; THD+N: <0.005% @ 1 kHz; Stereo Separation: >80 dB, 20 Hz to 20 kHz"
+  },
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps pass-through"
+  },
+  {
+   "label": "USB",
+   "value": "USB 2.0 pass-through (also supports firmware update via USB mass storage device at TX)"
+  },
+  {
+   "label": "RS-232",
+   "value": "2-way serial pass-through up to 115.2k baud (TD/RD only)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Local-AV-USB/HDMI-Solutions/HDMI-Extenders/HD-EXT-USB-2000-C",
+ "checked": "2026-10-18"
 }

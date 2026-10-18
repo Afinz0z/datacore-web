@@ -1,11 +1,30 @@
 {
  "sku": "TA-34",
- "order": 4546,
+ "order": 4525,
  "n": "Flushmount backbox",
  "b": "Zenitel",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Turbine Extended Flushmount backbox",
- "specs": []
+ "specs": [
+  {
+   "label": "Size (WxHxD)",
+   "value": "120 x 305 x 60mm"
+  },
+  {
+   "label": "Finish",
+   "value": "Zinc coating"
+  },
+  {
+   "label": "Weight",
+   "value": "0.98kg"
+  },
+  {
+   "label": "Material",
+   "value": "Carbon Steel EN 10130 DC01, 1mm"
+  }
+ ],
+ "src": "https://www.zenitel.com/product/ta-34",
+ "checked": "2026-10-18"
 }

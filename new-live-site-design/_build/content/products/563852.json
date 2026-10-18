@@ -1,14 +1,65 @@
 {
  "sku": "563852",
- "order": 1754,
+ "order": 1742,
  "n": "IPTV Headend T.0X IP Modulator Encoder -UIPHDMI-QAC-T",
  "b": "Televes",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "T.0X ENCODER IP HD TWIN COFDM/QAM",
- "specs": [],
+ "specs": [
+  {
+   "label": "Video",
+   "value": "2 sets 3 x RCA (Y, Pb, Pr); 2 sets 1 x RCA (CVBS)"
+  },
+  {
+   "label": "Audio",
+   "value": "2 sets 2 x RCA (L, R); 2 sets 1 x RCA (Digital); 2 sets 1 x Toslink (Optical)"
+  },
+  {
+   "label": "Video + Audio",
+   "value": "2 sets 1 x HDMI® connector"
+  },
+  {
+   "label": "IP Multicast",
+   "value": "2 ports RJ45 switch Gbe SPTS or MPTS (UDP/RTP)"
+  },
+  {
+   "label": "Output format",
+   "value": "MPEG-2 / H264"
+  },
+  {
+   "label": "Resolution",
+   "value": "480i, 480p, 576i, 576p, 720p, 1080i & 1080p; Auto-scan of input resolution"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "4:3, 16:9 y pass through"
+  },
+  {
+   "label": "GOP",
+   "value": "10, 12, 15, 16, 18, 20, 24 ó 30"
+  },
+  {
+   "label": "Audio encoder output format",
+   "value": "Dolby Digital AC-3 only Digital Loop) or; MPEG1 Layer2 (analogue input or HDMI® connector PCM audio)"
+  },
+  {
+   "label": "Sampling rate",
+   "value": "48 kHz"
+  },
+  {
+   "label": "Frequency bands",
+   "value": "46...862 MHz"
+  },
+  {
+   "label": "Maximum output level",
+   "value": "115/55; (103/43 with active loop-through) dBµV / dBmV"
+  }
+ ],
  "acc": [
   "5301"
- ]
+ ],
+ "src": "https://www.televes.com/en/563852-ip-modulator-encoder-a-v-ip-or-ip-dvbt-dvbc-qam-annex-a.html",
+ "checked": "2026-10-18"
 }

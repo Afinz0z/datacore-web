@@ -1,16 +1,58 @@
 {
  "sku": "PAC526F",
- "order": 2533,
+ "order": 2521,
  "n": "PAC526F, Large In-Wall Storage Box with Flange Proximity® Large In-Wall Storage Box Series SKU: PAC526F",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "The PAC526F simplifies flat panel installation by providing an organized, recessed space for routing excess cables and for attaching surge protectors/power conditioners. The addition of the flange adds an aesthetic trimmed appearance and drywall mounting capability.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "3.9 in (9.9 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "14.25 in (36.2 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "14.25 in (36.2 cm)"
+  },
+  {
+   "label": "Application",
+   "value": "In-Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Flange Color",
+   "value": "Black"
+  },
+  {
+   "label": "Special Features",
+   "value": "Flanges"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "21\" x 20\" x 4.88\"(533.4 x 508 x 124 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "12 lbs (5.4 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "10 lbs (4.5 kg)"
+  }
+ ],
  "for": [
-  "55UH5N-E",
   "PN-LC862",
   "PN-M552 PCAP"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/accessories/display-tv-accessories/proximity-large-in-wall-storage-box/pac526f",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "ESP-880A",
- "order": 1343,
+ "order": 1331,
  "n": "Sound processor-ESP-880A",
  "b": "Bose",
  "c": "Audio Processor",
  "dept": "AV",
  "avail": "lead",
  "d": "ControlSpace ESP-880A engineered sound processor High-quality analog circuitry offers both mic and line-level I/O, operates with ultra-low noise and 115 dB dynamic range.",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "< -105 dB at +4 dBu, 1 kHz input signal"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "> 115 dB, A-weighted, 20 Hz – 20 kHz, analog through"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (+0.3 dB/-0.1 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "0.002% at +4 dBu (A-weighted, 20 Hz – 20 kHz)"
+  },
+  {
+   "label": "AEC-Enabled",
+   "value": "No"
+  },
+  {
+   "label": "Input Channels",
+   "value": "8 balanced, mic/line"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(4) 6-pin Euroblock, 3.81 mm"
+  },
+  {
+   "label": "Equivalent Input Noise",
+   "value": "< -119 dBu at 64 dB gain (150 Ω input, 22 Hz – 20 kHz)"
+  },
+  {
+   "label": "Sensitivity Options",
+   "value": "0 dB, +14 dB, +24 dB, +32 dB, +44 dB, +54 dB, +64 dB, pre-gain"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "12 kΩ at 1 kHz, with or without phantom power"
+  },
+  {
+   "label": "Maximum Input Level",
+   "value": "+24 dBu"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "48 VDC, 10 mA, selectable per input"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/processors/open-architecture/esp-880a/controlspace-esp-880a",
+ "checked": "2026-10-18"
 }

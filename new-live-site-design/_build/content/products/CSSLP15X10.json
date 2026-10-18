@@ -1,17 +1,67 @@
 {
  "sku": "CSSLP15X10",
- "order": 2534,
+ "order": 2522,
  "n": "Proximity Component Storage Slide Lock Panel",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Proximity Component Storage Slide Lock Panel concealed mounting of AV equipment behind displays. To simplify service and accessibility to the equipment simply slide the storage panel out Screen size 55\"",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "1.39 in (3.5 cm)"
+  },
+  {
+   "label": "Extension",
+   "value": "10 in (254 mm)"
+  },
+  {
+   "label": "Height",
+   "value": "22.71 in (57.7 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "50\" (1270mm) and up"
+  },
+  {
+   "label": "Width",
+   "value": "10.69 in (27.2 cm)"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Mounting Method",
+   "value": "On-wall or Fusion Mount Extrusion"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape, Portrait"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Slide-Lock Panel"
+  },
+  {
+   "label": "Overall Dimensions",
+   "value": "22.71” x 10.69” x 1.39” (577 mm x 272 mm x 35 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "10.38 lbs (4.7 kg)"
+  }
+ ],
  "for": [
-  "55UH5N-E",
   "HG75U800FAUXUE",
   "PN-LC862",
   "PN-M552 PCAP"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/accessories/display-tv-accessories/proximity-component-storage-panels/csslp15x10",
+ "checked": "2026-10-18"
 }

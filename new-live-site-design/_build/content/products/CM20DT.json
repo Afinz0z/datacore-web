@@ -1,6 +1,6 @@
 {
  "sku": "CM20DT",
- "order": 625,
+ "order": 616,
  "n": "6.5\" two-way thin edge design ceiling speaker 100-70 volt / 20 watts (CM20DT)",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CM20DT",
  "d": "6.5\" two-way thin edge design ceiling speaker 100-70 volt / 20 watts, 16 ohms / 60 watts, white, with basket integrated neodymium magnets for a perfect seal, removable logo and quick fit push connector",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "3.1 inches (80 mm)"
+  },
+  {
+   "label": "Diameter",
+   "value": "Bezel Diameter: 8 inches (205 mm); Cutout: 7.3 inches (186 mm)"
+  },
+  {
+   "label": "Finish",
+   "value": "RAL color: White RAL 9010"
+  },
+  {
+   "label": "Mounting",
+   "value": "3 screws"
+  },
+  {
+   "label": "Power",
+   "value": "30W Cont.; 120W Peak"
+  },
+  {
+   "label": "Loudspeaker System",
+   "value": "2-way"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "2-way, 6.5-inch, thin edge, 70V/100V, white ceiling loudspeaker."
+  },
+  {
+   "label": "Transformer",
+   "value": "70V: 20W, 10W, 5W, 2.5W; 100V: 20W, 10W, 5W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "(1W/1m) 86 dB"
+  },
+  {
+   "label": "Dispersion",
+   "value": "180° conical"
+  },
+  {
+   "label": "Drivers",
+   "value": "LF 1 x 6.5 inch enforced polypropylene; HF 1 x 1 inch"
+  },
+  {
+   "label": "Woofer",
+   "value": "6.5 inch"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Commercial-Loudspeakers-CM20DT/ecom-item/910-01541",
+ "checked": "2026-10-18"
 }

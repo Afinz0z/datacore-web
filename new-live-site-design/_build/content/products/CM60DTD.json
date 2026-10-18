@@ -1,11 +1,62 @@
 {
  "sku": "CM60DTD",
- "order": 630,
+ "order": 621,
  "n": "Desono CM60DTD",
  "b": "Biamp",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "2-way, 6.5-inch, white ceiling loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Diameter",
+   "value": "10.2 inches (258 mm); Cutout Diameter: 9.1 inches (232 mm)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounting Provisions: 2 mounting clamps with grip range of 0.2-inch - 2.6-inches (3 mm - 65 mm); Cover plate with 0.75-inch (22 mm) NPT knockout for conduit connectors"
+  },
+  {
+   "label": "Power",
+   "value": "Continuous Power Handling @ Nominal Impedance:; 31V 60W @ 16Ω (240W peak)"
+  },
+  {
+   "label": "Recommended Amplifiers",
+   "value": "60W - 120W @ 16Ω (31V - 44V)"
+  },
+  {
+   "label": "Safety Features",
+   "value": "2 hang points; Protection: 3-step self-resetting protection"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "Indoor, Ceiling"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "Nominal Beamwidth (H x V): 150° conical"
+  },
+  {
+   "label": "Transducers",
+   "value": "LF 1 x 6.5 inches (165 mm) coated paper cone; HF 1 x 1 inch (25 mm) soft dome"
+  },
+  {
+   "label": "Transformer",
+   "value": "Transformer Taps - 70V: 60W, 30W, 15W, 7.5W, 3.75W; Transformer Taps - 100V: 60W, 30W, 15W, 7.5W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "Nominal Sensitivity @ 1m: @ 1W 86 dB @ 2.83V 83 dB"
+  },
+  {
+   "label": "Input Type",
+   "value": "Input Connection: (1) 4-way Euroblock connector with permanent pass-through"
+  },
+  {
+   "label": "SPL",
+   "value": "Nominal Maximum SPL @ 1m:; Peak 110 dB Continuous 104 dB"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-CM60DTD/ecom-item/910-00633",
+ "checked": "2026-10-18"
 }

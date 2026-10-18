@@ -1,6 +1,6 @@
 {
  "sku": "R3J19A",
- "order": 5119,
+ "order": 5097,
  "n": "AP mount bracket kit",
  "b": "Aruba",
  "c": "Accessories",
@@ -9,7 +9,6 @@
  "d": "HPE Aruba Networking AP-MNT-E Campus AP Type E Wall-Box Mount Bracket Kit",
  "specs": [],
  "for": [
-  "55UH5N-E",
   "R7J49A"
  ]
 }

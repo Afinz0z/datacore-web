@@ -1,6 +1,6 @@
 {
  "sku": "488880-000",
- "order": 3986,
+ "order": 3968,
  "n": "splice tray kit, FIST® Splice Sub-assembly kit with 2 trays",
  "b": "CommScope",
  "c": "splice tray",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "splice tray kit",
  "d": "FIST® Splice Sub-assembly kit with 2 trays, each for holding up to 12 primary or 4 secondary coated fibers, with Heat Shrink type splice holder ( Total 24 Splices)",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Fiber splice tray"
+  },
+  {
+   "label": "Product Brand",
+   "value": "FIST®"
+  },
+  {
+   "label": "Product Series",
+   "value": "FIST-SOSA2"
+  },
+  {
+   "label": "Color",
+   "value": "Gray"
+  },
+  {
+   "label": "Splice Tray Chip Type",
+   "value": "Heat shrink"
+  },
+  {
+   "label": "Splice Tray Construction",
+   "value": "SE (for up to 12 primary or 4 secondary coated fibers)"
+  },
+  {
+   "label": "Splices per Tray, note",
+   "value": "12 splices (250µm) per tray (24 for the SE-MS tray, using micro-SMOUV) | 4 splices (900µm) per tray | 4 splices (mixed 250/900µm) per tray"
+  },
+  {
+   "label": "Height",
+   "value": "8 mm | 0.315 in"
+  },
+  {
+   "label": "Width",
+   "value": "103.5 mm | 4.075 in"
+  },
+  {
+   "label": "Length",
+   "value": "152 mm | 5.984 in"
+  },
+  {
+   "label": "Fiber Storage Length, maximum",
+   "value": "1500 mm for 900 µm fibers | 1500 mm for mixed 250/900 μm fibers | 2050 mm for 250 µm fibers"
+  },
+  {
+   "label": "Fiber Storage Length, minimum",
+   "value": "650 mm | 25.591 in"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/optical-distribution-frames-odf/odf-chassis-accessories/item488880-000/",
+ "checked": "2026-10-18"
 }

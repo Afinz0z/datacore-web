@@ -1,11 +1,62 @@
 {
  "sku": "FS4SE",
- "order": 701,
+ "order": 692,
  "n": "FS4SE surface-mount loudspeaker",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Surface-mount model with a full-range 4.5-inchtransducer, low frequency range down to 70 Hz, and sensitivityof 89 dB SPL / 1W @ 1m.",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black (similar to RAL 9005), white (similar to RAL 9003)"
+  },
+  {
+   "label": "Grille",
+   "value": "Steel, powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "70 – 17,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "130°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "105 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "40 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "160 W"
+  },
+  {
+   "label": "Sensitivity (SPL/1 W at 1 m)",
+   "value": "89 dB"
+  },
+  {
+   "label": "Transformer Taps, 100V",
+   "value": "5, 10, 20, 40 W, bypass"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/surface-mount/freespace-surface-mount/freespace-fs4se-surface-mount-loudspeaker",
+ "checked": "2026-10-18"
 }

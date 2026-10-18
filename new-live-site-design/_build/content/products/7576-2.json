@@ -1,6 +1,6 @@
 {
  "sku": "7576.",
- "order": 4231,
+ "order": 4213,
  "n": "\"T\" BRACKET RCP GROUND 750x200/Ø60x2.9mm (7576)",
  "b": "Televes",
  "c": "IPTV Device",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "7576",
  "d": "\"T\" BRACKET RCP GROUND 750x200/Ø60x2.9mm",
- "specs": []
+ "specs": [
+  {
+   "label": "Mast diameter",
+   "value": "60 mm"
+  },
+  {
+   "label": "Distance",
+   "value": "75 cm"
+  },
+  {
+   "label": "Width",
+   "value": "195 mm"
+  },
+  {
+   "label": "Height",
+   "value": "750 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "195 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "4,583 g"
+  }
+ ],
+ "src": "https://www.televes.com/en/7576-t-support-750-mm-x-200-mm-zinc-rcp.html",
+ "checked": "2026-10-18"
 }

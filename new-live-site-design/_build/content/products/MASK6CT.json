@@ -1,6 +1,6 @@
 {
  "sku": "MASK6CT",
- "order": 631,
+ "order": 622,
  "n": "Desono MASK6CT-WDesono MASK6CT-W 6.5-inch, two-way",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MASK6CT",
  "d": "Desono MASK6CT-WDesono MASK6CT-W 6.5-inch, two-way, surface mount loudspeaker (6o Watts), white (priced individually, sold in pairs).",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "12.9 inches (328 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "7.8 inches (198 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "7.5 inches (190 mm)"
+  },
+  {
+   "label": "Enclosure",
+   "value": "ABS plastic"
+  },
+  {
+   "label": "Mounting",
+   "value": "ClickMount bracket"
+  },
+  {
+   "label": "Recommended Amplifiers",
+   "value": "150W-300W @ 16Ω (49V - 69V)"
+  },
+  {
+   "label": "Specification Notes",
+   "value": "Protection 3-step self-resetting protection"
+  },
+  {
+   "label": "Loudspeaker System",
+   "value": "Two-way"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "Nominal Beamwidth (H x V) 100° x 50°"
+  },
+  {
+   "label": "Transducers",
+   "value": "LF 1 x 6.5 inches (165 mm) coated paper cone; HF 1 x 1 inch (25 mm) soft dome"
+  },
+  {
+   "label": "Transformer",
+   "value": "70V: 60W, 30W, 15W, 7.5W, 3W; 100V: 60W, 30W, 15W, 6W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "Nominal Sensitivity @ 1m; @ 1W; 90 dB; @ 2.83V; 87 dB"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-MASK6CT-W/ecom-item/930-00641-00004",
+ "checked": "2026-10-18"
 }

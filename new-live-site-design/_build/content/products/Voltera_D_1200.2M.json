@@ -1,6 +1,6 @@
 {
  "sku": "Voltera D 1200.2M",
- "order": 910,
+ "order": 901,
  "n": "Audio DSP and Amplified Loudspeaker Controller - 2 channels sharing (Voltera D 1200.2M)",
  "b": "Biamp",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Voltera D 1200.2M",
  "d": "Audio DSP and Amplified Loudspeaker Controller - 2 channels sharing 1200W with Dante & AVB",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.7 inches (44 mm) rack rail to rear panel"
+  },
+  {
+   "label": "Width",
+   "value": "17.5 inches (444 mm) rack rail to rear panel"
+  },
+  {
+   "label": "Depth",
+   "value": "16.9 inches (430 mm) rack rail to rear panel"
+  },
+  {
+   "label": "Channels",
+   "value": "2 Class D channels"
+  },
+  {
+   "label": "Power Output",
+   "value": "Total output all channels driven: 2400 W, 1200 W; Maximum output voltage: 145 Vpk; Maximum output current: 35 Apk"
+  },
+  {
+   "label": "Cooling",
+   "value": "Variable speed fans, front to back airflow"
+  },
+  {
+   "label": "Front Panel Indicator(s)",
+   "value": "System status indicator: Shows if there are faults within the greater system; Device status indicators: Status, activity and faults; Channel status indicators: Mute, signal, limit and temp"
+  },
+  {
+   "label": "THD+N",
+   "value": "THD+N (1000 Hz, at 1 dB below max output) <0.05%; THD+N (20 - 20000 Hz for 1 W) <0.05%"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "+/-0.5 dB (20 - 20000 Hz, 8 ohm, unweighted)"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "117 dB"
+  },
+  {
+   "label": "Crosstalk",
+   "value": ">70 dB"
+  },
+  {
+   "label": "Weight",
+   "value": "16.8 lbs (7.6 kg)"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Voltera-D-1200-2M/ecom-item/920-01984-00001",
+ "checked": "2026-10-18"
 }

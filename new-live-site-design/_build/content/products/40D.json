@@ -1,6 +1,6 @@
 {
  "sku": "40D",
- "order": 961,
+ "order": 950,
  "n": "Installation specific four channel amplifier (40D)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "40D",
  "d": "Installation specific four channel amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Equalizer",
+   "value": "2 x 16-band PEQ/notch/shelving/asymmetric"
+  },
+  {
+   "label": "Latency analog and digital inputs",
+   "value": "0.3 ms"
+  },
+  {
+   "label": "Delay setting",
+   "value": "0.3 ms - 10 s"
+  },
+  {
+   "label": "Configurations",
+   "value": "current d&b loudspeakers (except GSL, SL-SUB, J-Series, M2)"
+  },
+  {
+   "label": "Function switches",
+   "value": "d&b loudspeaker specific circuits"
+  },
+  {
+   "label": "Frequency generator",
+   "value": "Pink noise or Sine wave 10 Hz - 20 kHz"
+  },
+  {
+   "label": "Status information and monitoring",
+   "value": "Color touchscreen, 4.3\" 480 x 272 pixel"
+  },
+  {
+   "label": "Sampling frequency Digital AES/EBU",
+   "value": "44.1, 48, 96, 192 kHz"
+  },
+  {
+   "label": "INPUT ANALOG (A1 - A4)",
+   "value": "3-pin Phoenix Euroblock male"
+  },
+  {
+   "label": "ANALOG LINK (A1 - A4)",
+   "value": "3-pin Phoenix Euroblock male"
+  },
+  {
+   "label": "INPUT DIGITAL (D1/2, D3/4)",
+   "value": "3-pin Phoenix Euroblock male, AES3"
+  },
+  {
+   "label": "INPUT Network Audio (Milan) (M1-M8)",
+   "value": "etherCON built-in 5-port AVB Ethernet switch 100/1000 Mbit"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/amplifiers/40d/",
+ "checked": "2026-10-18"
 }

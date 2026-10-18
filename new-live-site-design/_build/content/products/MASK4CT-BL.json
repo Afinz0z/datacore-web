@@ -1,11 +1,62 @@
 {
  "sku": "MASK4CT-BL",
- "order": 4567,
+ "order": 4546,
  "n": "Speakers",
  "b": "Biamp",
  "c": "Queue Management System",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "4.25\" small design two-way surface mount loudspeaker, 70 - 100 volt / 20 watts or 16 ohms / 70 watts, Black, CLICKMOUNT bracket and safety cable included (priced individually, but sold in pairs)",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "9.4 inches (238 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "5.7 inches (144 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "5.7 inches (144 mm)"
+  },
+  {
+   "label": "Mounting",
+   "value": "ClickMount bracket"
+  },
+  {
+   "label": "Recommended Amplifiers",
+   "value": "50W - 100W @ 16Ω (28V - 40V)"
+  },
+  {
+   "label": "Specification Notes",
+   "value": "Protection 3-step self-resetting protection"
+  },
+  {
+   "label": "Control",
+   "value": "Power tap / low impedance selector switch"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "Nominal Beamwidth (H x V) 100° x 70°"
+  },
+  {
+   "label": "Transducers",
+   "value": "LF 1 x 4.25\" (108 mm) coated paper cone; HF 1 x 1\" (25 mm) soft dome"
+  },
+  {
+   "label": "Transformer",
+   "value": "70V: 20W, 10W, 5W, 2.5W, 1.25W; 100V: 20W, 10W, 5W, 2.5W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "Nominal Sensitivity @ 1m; @ 1W; 88 dB; @ 2.83V; 85 dB"
+  },
+  {
+   "label": "Audio",
+   "value": "Audio connections made at the ClickMount bracket; lever-action input and output terminals accept up to 16 AWG conductors"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-MASK4CT-BL/ecom-item/930-00637-00003",
+ "checked": "2026-10-18"
 }

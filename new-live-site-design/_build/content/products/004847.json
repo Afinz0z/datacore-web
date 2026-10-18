@@ -1,11 +1,62 @@
 {
  "sku": "004847",
- "order": 1090,
+ "order": 1079,
  "n": "Vocal microphone E 865-S",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Sennheiser Vocal microphone, condenser, supercardioid, I/O switch, 3-pin XLR-M, anthracite, includes clip and bag",
- "specs": []
+ "specs": [
+  {
+   "label": "On/off switch",
+   "value": "Yes"
+  },
+  {
+   "label": "Transducer type",
+   "value": "Condenser"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "40 - 20,000 Hz"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Supercardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wired"
+  },
+  {
+   "label": "Connectors",
+   "value": "3-pin XLR"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Phantom power",
+   "value": "P12 - P48 V"
+  },
+  {
+   "label": "Sensitivity in free field, no load (1kHz)",
+   "value": "3.0 mV/Pa"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "200 Ω"
+  },
+  {
+   "label": "Min. terminating impedance",
+   "value": "1000 Ω"
+  },
+  {
+   "label": "Product length",
+   "value": "194"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/microphones/e-865/e-865-s-004847",
+ "checked": "2026-10-18"
 }

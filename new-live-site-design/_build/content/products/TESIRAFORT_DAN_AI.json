@@ -1,6 +1,6 @@
 {
  "sku": "TESIRAFORTÉ® DAN AI",
- "order": 1143,
+ "order": 1131,
  "n": "Fixed I/O DSP with 12 analog inputs, 8 analog outputs (TESIRAFORTÉ® DAN AI)",
  "b": "Biamp",
  "c": "DSP",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "TESIRAFORTÉ® DAN AI",
  "d": "Fixed I/O DSP with 12 analog inputs, 8 analog outputs, 8 channels configurable USB audio, and 32 x 32 channels of Dante",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.75 inches (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "19.0 inches (483 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "10.5 inches (267 mm)"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48VDC (7mA/input)"
+  },
+  {
+   "label": "Audio",
+   "value": "Fixed I/O DSP with 32 bi-directional channels of Dante™ digital audio, 12 analog inputs, 8 analog outputs, and includes up to 8 channels of configurable USB audio."
+  },
+  {
+   "label": "Input Type",
+   "value": "USB: Bit Depth: 16- or 24-bit Number of Channels: up to 8 Sample Rate: 48kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "(balanced): 8kΩ"
+  },
+  {
+   "label": "Input Gain Range",
+   "value": "(6dB steps): 0-66dB"
+  },
+  {
+   "label": "Maximum Input",
+   "value": "+24dBu"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "(balanced): 207Ω"
+  },
+  {
+   "label": "Maximum Output",
+   "value": "(selectable): +24dBu, +18dBu, +12dBu, +6dBu, 0dBu, -31dBu"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20Hz to 20kHz, +4dBu output: +0.25 dB/-0.5 dB"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/TesiraFORTE-DAN-AI/ecom-item/920-00448-00001",
+ "checked": "2026-10-18"
 }

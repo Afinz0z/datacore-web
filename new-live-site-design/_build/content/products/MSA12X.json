@@ -1,6 +1,6 @@
 {
  "sku": "MSA12X",
- "order": 679,
+ "order": 670,
  "n": "Beam-Steering Ldspkr Blk 230v Uk (MSA12X)",
  "b": "Bose",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MSA12X",
  "d": "Beam-Steering Ldspkr Blk 230v Uk",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of Channels",
+   "value": "12"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "600 W"
+  },
+  {
+   "label": "Input Channels",
+   "value": "1"
+  },
+  {
+   "label": "Connectors",
+   "value": "(1) 3-pin Euroblock, 3.81 mm"
+  },
+  {
+   "label": "Sensitivity Options",
+   "value": "0 dBu, +10 dBu, +24 dBu, pad engaged"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "No"
+  },
+  {
+   "label": "AC Power Connector",
+   "value": "IEC 60320-C14"
+  },
+  {
+   "label": "AC Power Input",
+   "value": "85–264 VAC, 50/60 Hz"
+  },
+  {
+   "label": "Software Applications",
+   "value": "ControlSpace Designer (Windows)"
+  },
+  {
+   "label": "Computer Interface Connection",
+   "value": "RJ-45 (Dante), through network router or switch"
+  },
+  {
+   "label": "LED Status Indicators",
+   "value": "Status, signal"
+  },
+  {
+   "label": "Sample Rate / Bit Depth",
+   "value": "48 kHz / 24-bit"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/line-columns/powered/msa/msa12x-powered-beam-steering-array-loudspeaker",
+ "checked": "2026-10-18"
 }

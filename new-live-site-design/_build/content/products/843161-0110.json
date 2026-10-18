@@ -1,15 +1,66 @@
 {
  "sku": "843161-0110",
- "order": 665,
+ "order": 656,
  "n": "AMM112 multipurpose loudspeaker 300W",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "AMM112 multipurpose loudspeaker",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated steel, powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP43 (front-of-house position only)"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "2 × 35 mm (1.4 in) pole cup, 6 × M10 threaded inserts"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "60 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "110°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "121 dB continuous, 131 dB peak, both passive & bi-amp averaged"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "300 W, passive; 300 W (low frequency) + 45 W (high frequency), bi-amp"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "2800 W, passive; 2800 W (low frequency) + 720 W (high frequency), bi-amp"
+  },
+  {
+   "label": "Sensitivity (SPL/1 W at 1 m)",
+   "value": "96 dB, passive & bi-amp averaged"
+  },
+  {
+   "label": "Coverage, Vertical",
+   "value": "60°"
+  },
+  {
+   "label": "High-Frequency",
+   "value": "1 × 3 in (76 mm) compression driver"
+  }
+ ],
  "acc": [
   "843344-0010",
   "843364-0010"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/multipurpose/amm/amm112-multipurpose-loudspeaker",
+ "checked": "2026-10-18"
 }

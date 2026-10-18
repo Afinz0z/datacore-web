@@ -1,11 +1,62 @@
 {
  "sku": "TSW-1080-B-S (6513828)",
- "order": 1388,
+ "order": 1376,
  "n": "10 inch touch panel",
  "b": "Crestron",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "10.1 in. Wall Mount Touch Screen, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "TFT active matrix color LCD"
+  },
+  {
+   "label": "Touch Screen Display size",
+   "value": "10.1 in. (257 mm) diagonal"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10 WXGA"
+  },
+  {
+   "label": "Touch Screen Display resolution",
+   "value": "1920 x 1200 pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "Minimum: 350 nits (cd/m²); Maximum: 400 nits (cd/m²)"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Color Depth",
+   "value": "24 bit, 16.7M colors"
+  },
+  {
+   "label": "Illumination",
+   "value": "Edgelit LED with auto brightness control"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "±80° horizontal, ±80° vertical"
+  },
+  {
+   "label": "Touch Screen",
+   "value": "Projected capacitive, 5 point multitouch capable"
+  },
+  {
+   "label": "Graphics Engine",
+   "value": "Crestron HTML5 multilanguage web browser, multilanguage onscreen keyboard, screensaver, dual scalable streaming video window, native room scheduling applications, native Crestron Home® OS app"
+  },
+  {
+   "label": "Crestron Scheduling App",
+   "value": "Microsoft Exchange Server® and Microsoft 365® software, Google Calendar™ calendaring app and G Suite™ software, CollegeNET® 25Live® software, and Ad Astra™ software"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/User-Interfaces/Touchscreen/TSW-1080-B",
+ "checked": "2026-10-18"
 }

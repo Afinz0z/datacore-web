@@ -1,6 +1,6 @@
 {
  "sku": "760172882",
- "order": 3940,
+ "order": 3922,
  "n": "1U organizer-systimax",
  "b": "CommScope",
  "c": "CABLE ORGANIZER",
@@ -9,8 +9,46 @@
  "d": "Patchcord Management 1U - Silver",
  "specs": [
   {
-   "label": "Type",
-   "value": "1U Organizer"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Horizontal cable management"
+  },
+  {
+   "label": "Configuration Type",
+   "value": "Single-sided"
+  },
+  {
+   "label": "Color",
+   "value": "Silver"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1"
+  },
+  {
+   "label": "Height",
+   "value": "43.942 mm | 1.73 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth",
+   "value": "81.28 mm | 3.2 in"
+  },
+  {
+   "label": "Finish",
+   "value": "Powder-coated, smooth"
+  },
+  {
+   "label": "Material Type",
+   "value": "Plastic | Steel"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cable-management/horizontal-vertical-cable-managers/horizontal-cable-managers/item760172882/",
+ "checked": "2026-10-18"
 }

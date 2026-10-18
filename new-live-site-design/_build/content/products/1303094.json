@@ -1,11 +1,42 @@
 {
  "sku": "1303094",
- "order": 894,
+ "order": 885,
  "n": "CS10",
  "b": "Yealink",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "1303094 • 1x CS10 Ceiling Speaker • 1x White Mesh Cover • 1x Ceiling Tile Bridge • 1x Dust Cover • including 2-year AMS\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response (-6dB)",
+   "value": "100-20kHz"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "Continuous: 99dB @20W 1m Sensitivity: 88dB@1m 1W"
+  },
+  {
+   "label": "LF",
+   "value": "5.7 inch (145 mm) woofer"
+  },
+  {
+   "label": "HF",
+   "value": "1.1 inch (28 mm) tweeter"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8Ω"
+  },
+  {
+   "label": "Nominal Coverage Angle",
+   "value": "120"
+  },
+  {
+   "label": "Size",
+   "value": "ф294 × H125.8mm (with cover mesh) ф287.2 × H125mm (without cover mesh)"
+  }
+ ],
+ "src": "https://www.yealink.com/en/product-detail/accessories-cs10-cs10-d",
+ "checked": "2026-10-18"
 }

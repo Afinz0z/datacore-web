@@ -1,6 +1,6 @@
 {
  "sku": "760178129",
- "order": 3785,
+ "order": 3772,
  "n": "F/UTP-Category 6A -Commscope",
  "b": "CommScope",
  "c": "UTP CABLE",
@@ -9,12 +9,58 @@
  "d": "1592A Category 6A F/UTP filled cable, outdoor, black jacket, aluminum tape shield, inner jacket, 4 pair count, 1000 ft (305 m) length, reel",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Reel"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Twisted pair cable"
+  },
+  {
+   "label": "Product Number",
+   "value": "1592A"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Component Type",
+   "value": "Horizontal"
+  },
+  {
+   "label": "Cable Type",
+   "value": "F/UTP (shielded)"
+  },
+  {
+   "label": "Conductor Type, singles",
+   "value": "Solid"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Black"
+  },
+  {
+   "label": "Separator Type",
+   "value": "Isolator"
+  },
+  {
+   "label": "Transmission Standards",
+   "value": "ANSI/TIA-568.2-D | ISO/IEC 11801 Class EA"
+  },
+  {
+   "label": "Cable Length",
+   "value": "304.8 m | 1000 ft"
+  },
+  {
+   "label": "Diameter Over Inner Jacket",
+   "value": "6.502 mm | 0.256 in"
   }
  ],
  "acc": [
   "RJ 45",
   "RJ45"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/twisted-pair-cables/category-6a-cables/item760178129/",
+ "checked": "2026-10-18"
 }

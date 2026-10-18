@@ -1,6 +1,6 @@
 {
  "sku": "FC108",
- "order": 702,
+ "order": 693,
  "n": "full-range coaxial point-source loudspeaker (FC108)",
  "b": "Bose",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "FC108",
  "d": "full-range coaxial point-source loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Environmental",
+   "value": "Protected-outdoor usage, IP43"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated steel, powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP43"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "M10 threaded inserts"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "53 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "110°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "116 dB continuous, 122 dB peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω, passive / 8 Ω (LF) + 8 Ω (HF), bi-amp"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "150 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "1200 W"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/multipurpose/forum/forum-fc108",
+ "checked": "2026-10-18"
 }

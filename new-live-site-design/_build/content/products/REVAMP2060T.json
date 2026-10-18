@@ -1,6 +1,6 @@
 {
  "sku": "REVAMP2060T",
- "order": 908,
+ "order": 899,
  "n": "2 Channel class D amplifier 2 x 60 Watts (70/100 Volts or RMS @ 4 (REVAMP2060T)",
  "b": "Biamp",
  "c": "Amplifier",
@@ -8,5 +8,28 @@
  "avail": "lead",
  "model": "REVAMP2060T",
  "d": "2 Channel class D amplifier 2 x 60 Watts (70/100 Volts or RMS @ 4 Ohms) or in bridge mode 1 x 120 Watts (70/100 Volts or RMS @ 8 Ohms), convection cooled, 1 U, 19\" rackmount",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1 U (44 mm) rack height"
+  },
+  {
+   "label": "Depth",
+   "value": "230 mm"
+  },
+  {
+   "label": "Power",
+   "value": "Power Supply Technology: Switching mode power supply; Power Supply: 115 - 230 VAC"
+  },
+  {
+   "label": "Channels",
+   "value": "2 channels"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "(max) in watts: 175"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Commercial-Audio-REVAMP2060T/ecom-item/920-00652-00001",
+ "checked": "2026-10-18"
 }

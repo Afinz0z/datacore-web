@@ -1,11 +1,62 @@
 {
  "sku": "6507062",
- "order": 1521,
+ "order": 1509,
  "n": "GLS-PART-CN Sensor",
  "b": "Crestron",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
  "d": "GLS-PART-CN Cresnet® Partition Sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Method of Detection",
+   "value": "Diffuse Reflective"
+  },
+  {
+   "label": "Light Source",
+   "value": "Pulse modulated infrared LED"
+  },
+  {
+   "label": "IR Sensitivity",
+   "value": "Adjustable"
+  },
+  {
+   "label": "Sensing Distance",
+   "value": "4 ft (122 cm)"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "1 Watt"
+  },
+  {
+   "label": "Housing construction",
+   "value": "Plastic"
+  },
+  {
+   "label": "Housing mounting",
+   "value": "Surface mount; 1-gang mountable in a 3-1/2 inch deep electrical box, fits decorator-style faceplate"
+  },
+  {
+   "label": "Height",
+   "value": "2.23 in (57 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.16 in (106 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.35 in (34 mm)"
+  },
+  {
+   "label": "Current Consumption",
+   "value": "42 mA @ 24 Volts DC"
+  },
+  {
+   "label": "Temperature",
+   "value": "-13° to 131° F (-25° to 55° C)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Sensors/Partition-Sensors/GLS-PART-CN",
+ "checked": "2026-10-18"
 }

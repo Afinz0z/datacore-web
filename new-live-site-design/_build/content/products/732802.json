@@ -1,6 +1,6 @@
 {
  "sku": "732802",
- "order": 4065,
+ "order": 4047,
  "n": "Power Supply Unit 12.5v-2.8a",
  "b": "Televes",
  "c": "Power Supply",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "Power supply",
  "d": "Power Supply Unit 12.5v-2.8a",
- "specs": []
+ "specs": [
+  {
+   "label": "Plug type",
+   "value": "EU"
+  },
+  {
+   "label": "Input voltage",
+   "value": "220 ... 230 Vac"
+  },
+  {
+   "label": "Mains frequency",
+   "value": "50 Hz / 60 Hz"
+  },
+  {
+   "label": "Output voltage",
+   "value": "12.5 Vdc"
+  },
+  {
+   "label": "Max. output current",
+   "value": "2.8 A"
+  },
+  {
+   "label": "Protection index (IP)",
+   "value": "20"
+  },
+  {
+   "label": "Width",
+   "value": "55 mm"
+  },
+  {
+   "label": "Height",
+   "value": "143 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "39 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "228 g"
+  }
+ ],
+ "src": "https://www.televes.com/en/732802-power-supply-unit-12v-3a.html",
+ "checked": "2026-10-18"
 }

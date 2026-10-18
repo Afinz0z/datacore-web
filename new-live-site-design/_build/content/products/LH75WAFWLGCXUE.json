@@ -1,6 +1,6 @@
 {
  "sku": "LH75WAFWLGCXUE",
- "order": 131,
+ "order": 123,
  "n": "WA75F 75in Interactive",
  "b": "Samsung",
  "c": "Displays",
@@ -9,12 +9,54 @@
  "d": "Samsung WA75F 75in Interactive Android Flip",
  "specs": [
   {
-   "label": "Type",
-   "value": "Interactive"
+   "label": "Diagonal Size",
+   "value": "75\""
   },
   {
-   "label": "Series",
-   "value": "WAF"
+   "label": "Panel Type",
+   "value": "IPS"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "429.6(H)x429.6(V)"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "400 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,200:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72%"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25%"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "13.5KHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "78MHz"
   }
- ]
+ ],
+ "src": "https://www.samsung.com/levant/business/smart-signage/interactive-display/interactive-display-waf-lh75wafwlgcxue/",
+ "checked": "2026-10-18"
 }

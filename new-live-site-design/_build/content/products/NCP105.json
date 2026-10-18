@@ -1,11 +1,50 @@
 {
  "sku": "NCP105",
- "order": 1877,
+ "order": 1865,
  "n": "wall panel controller",
  "b": "Audac",
  "c": "Wall Plate / Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "Universal network/PoE wall panel controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Control",
+   "value": "4 programmable touch buttons (transparent window name tag), Programmable rotary encoder"
+  },
+  {
+   "label": "Indicators",
+   "value": "RGB LED’s (each button), 360° RGB LED light bar (16 LED)"
+  },
+  {
+   "label": "Configuration",
+   "value": "Audac Touch™"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45 (network + PoE)"
+  },
+  {
+   "label": "Finish front finish",
+   "value": "Elegant ABS front panel with glass"
+  },
+  {
+   "label": "Construction",
+   "value": "ABS"
+  },
+  {
+   "label": "Installation standard",
+   "value": "Compatible with EU installation materials"
+  },
+  {
+   "label": "Power supply",
+   "value": "PoE powered (IEEE 802.3af)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "80 x 80 mm (W x H) (Remote wall panel)"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/ncp105---universal-network-poe-wall-panel-controller",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,50 @@
 {
  "sku": "APH30-IP",
- "order": 611,
+ "order": 602,
  "n": "IP horn speaker",
  "b": "Ateis",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "IP Horn Speaker,30 Watt , (24 VDC, 1.8A external power supply),IP66,S.P.L. @ 1m, 1 watt, dB, test signal bandwidth 100 Hz ~ 10k Hz -108dB ,S.P.L. @ 1m, full power -122dB",
- "specs": []
+ "specs": [
+  {
+   "label": "Driver Impedance, Ohms",
+   "value": "8"
+  },
+  {
+   "label": "Effective Frequency Range, Hz (BSEN60268-5)",
+   "value": "340 - 16,000"
+  },
+  {
+   "label": "Dispersion at 1k/2k Hz, Degrees",
+   "value": "105/49 Horizontal 142/68 Vertical"
+  },
+  {
+   "label": "TTL logic input (max.), VDC HIGH active",
+   "value": "3.3"
+  },
+  {
+   "label": "TTL logic input (max.), VDC LOW active",
+   "value": "1.2"
+  },
+  {
+   "label": "Min/Max amb temp.",
+   "value": "-5°C to 55°C"
+  },
+  {
+   "label": "Colour (Unless Specified)",
+   "value": "Grey RAL7035"
+  },
+  {
+   "label": "Dimensions, mm",
+   "value": "330 x 240 x 90"
+  },
+  {
+   "label": "Net weight, kg",
+   "value": "2.53"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/penton/ip-speakers/aph-ip-series/weatherproof-ip-horn-loudspeaker",
+ "checked": "2026-10-18"
 }

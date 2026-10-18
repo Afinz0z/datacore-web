@@ -1,6 +1,6 @@
 {
  "sku": "19125100DZ",
- "order": 3931,
+ "order": 3913,
  "n": "12C Fiber Optic Cable MM- Datwyler",
  "b": "Datwyler",
  "c": "MULTI MODE FIBER OPTIC CABLE",
@@ -9,11 +9,57 @@
  "d": "12C Fiber Optic Cable MM(OM4-50/125μm ,LooseTube, Glass Armour Indoor/Outdoor LS0H Sheath P/N.19125100DZ - Datwyler",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Fire load [kWh/m]",
+   "value": "0.275"
+  },
+  {
+   "label": "Bending radius [mm]",
+   "value": "115"
+  },
+  {
+   "label": "Outer sheath diameter [mm]",
+   "value": "7.6"
+  },
+  {
+   "label": "Loose tube construction",
+   "value": "1"
+  },
+  {
+   "label": "Number of used loose tubes",
+   "value": "1"
+  },
+  {
+   "label": "Fibres per loose tube",
+   "value": "12"
+  },
+  {
+   "label": "Crush resistance continuous [N]",
+   "value": "3000"
+  },
+  {
+   "label": "Fibre category",
+   "value": "OM4"
+  },
+  {
+   "label": "Tensile load continuous [N]",
+   "value": "1000"
+  },
+  {
+   "label": "Tensile load short term [N]",
+   "value": "3000"
+  },
+  {
+   "label": "Crush resistance short term [N]",
+   "value": "5000"
+  },
+  {
+   "label": "Fibre type",
+   "value": "G50/125 OM4"
   }
  ],
  "acc": [
   "433342"
- ]
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/fibre-networks/fibre-optic-cables/universal-cable/fo-universal-zggfr-u-dqznbh-dca/",
+ "checked": "2026-10-18"
 }

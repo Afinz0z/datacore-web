@@ -1,11 +1,62 @@
 {
  "sku": "N100.161",
- "order": 3802,
+ "order": 3789,
  "n": "CAT6 UTP CABLE",
  "b": "Nexans",
  "c": "UTP CABLE",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Essential-6 U/UTP AWG24 Cat 6 LSZH Orange 305m /reelex box",
- "specs": []
+ "specs": [
+  {
+   "label": "Outer sheath",
+   "value": "LSZH"
+  },
+  {
+   "label": "Type of cable",
+   "value": "U/UTP"
+  },
+  {
+   "label": "Colour",
+   "value": "Orange"
+  },
+  {
+   "label": "Conductor cross-section (AWG/KCMIL)",
+   "value": "24"
+  },
+  {
+   "label": "Nominal outer diameter (mm)",
+   "value": "5.4 mm"
+  },
+  {
+   "label": "Diameter over insulation",
+   "value": "0.92 mm"
+  },
+  {
+   "label": "Mutual capacitance",
+   "value": "56 nF/km"
+  },
+  {
+   "label": "Characteristic impedance",
+   "value": "100 Ohm"
+  },
+  {
+   "label": "Propagation delay, max. 100 MHz",
+   "value": "536 ns/100m"
+  },
+  {
+   "label": "Skew",
+   "value": "45 ns/100m"
+  },
+  {
+   "label": "Field of application",
+   "value": "Indoor"
+  },
+  {
+   "label": "Minimum Bend Radius - Installed",
+   "value": "22 mm"
+  }
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/copper-cables/essential-6-cable/essential-6-uutp-cat-6-lszh-24awg-305m-reelex-box",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,61 @@
 {
  "sku": "SBC203-UK",
- "order": 4061,
+ "order": 4043,
  "n": "Dual docking recharging",
  "b": "Shure",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
  "d": "Dual docking recharging station charges two SB903 lithium-ion batteries in or out of their transmitters.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Charge Current",
+   "value": "625 mA or 250 mA Lower current used when using another power source, or operating between 32 °F and 50 °F (0 °C and 10 °C)"
+  },
+  {
+   "label": "Charge Time",
+   "value": "50%: 1 hour, 15 minutes; 100%: 2 hours, 30 minutes"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "5 VDC, 3 A max"
+  },
+  {
+   "label": "Housing",
+   "value": "ABS"
+  },
+  {
+   "label": "Input Voltage Range",
+   "value": "100 to 240 VAC"
+  },
+  {
+   "label": "Maximum Input Power",
+   "value": "0.6 A at 100 VAC full load"
+  },
+  {
+   "label": "Output Voltage",
+   "value": "4.75 to 5.25 VDC"
+  },
+  {
+   "label": "Maximum Output Power",
+   "value": "3.0 A at 5 V"
+  },
+  {
+   "label": "Weight",
+   "value": "284 g"
+  },
+  {
+   "label": "External Power Supply",
+   "value": "SBC10-USB15W or; SBC10-USB15WS"
+  },
+  {
+   "label": "Charging Temperature Range for Battery",
+   "value": "32 °F to 113 °F (0 °C to 45 °C)"
+  }
+ ],
  "for": [
   "SLXD2/SM58=-G59"
- ]
+ ],
+ "src": "https://www.shure.com/en-US/products/accessories/sbc203",
+ "checked": "2026-10-18"
 }

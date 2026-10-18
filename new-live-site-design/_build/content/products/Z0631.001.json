@@ -1,11 +1,62 @@
 {
  "sku": "Z0631.001",
- "order": 1236,
+ "order": 1224,
  "n": "Bi8-SUB",
  "b": "d&b audiotechnik",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "Bi8-SUB Subwoofer",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "43 Hz - 170 Hz"
+  },
+  {
+   "label": "Frequency response (-5 dB 100 Hz mode)",
+   "value": "43 Hz - 125 Hz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with 10D: 120 dB; with D25/5D/25D: 122 dB; with D40/D80/D90/40D: 122 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "2"
+  },
+  {
+   "label": "Configuration",
+   "value": "Ultra compact subwoofer"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "200/800 W"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 6.5\" driver with ferrite magnet"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NL4 M / 1 x screw terminal (ST - up to 4 mm2/AWG 11) / WR option: Faston type connector 2 x 6.3 mm, female"
+  },
+  {
+   "label": "Pin assignment",
+   "value": "NL4 M: 2+/2– / WR option: brown +/blue –"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "170 x 436 x 580 mm / 6.7 x 17.2 x 22.8\""
+  },
+  {
+   "label": "Weight",
+   "value": "17 kg / 37.5 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/xs-series/bi8-sub/",
+ "checked": "2026-10-18"
 }

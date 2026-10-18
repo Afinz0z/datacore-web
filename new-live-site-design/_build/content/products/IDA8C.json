@@ -1,6 +1,6 @@
 {
  "sku": "IDA8C",
- "order": 1137,
+ "order": 1125,
  "n": "Stackable Voice Alarm system, 8+2In x8 Out, Master module EN54-16 (IDA8C)",
  "b": "Ateis",
  "c": "DSP",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "IDA8C",
  "d": "Stackable Voice Alarm system, 8+2In x8 Out, Master module EN54-16",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "±1 dB @ 20 Hz and 20k Hz"
+  },
+  {
+   "label": "Line inputs (Optional audio input card) SNR",
+   "value": ">81 dBA"
+  },
+  {
+   "label": "Line inputs (Optional audio input card) THD",
+   "value": "< 0.02% @ 1k Hz"
+  },
+  {
+   "label": "Line outputs (Optional audio output card) SNR",
+   "value": ">81 dBA"
+  },
+  {
+   "label": "Line outputs (Optional audio output card) THD",
+   "value": "< 0.02% @ 1k Hz"
+  },
+  {
+   "label": "Amplifier capacity (per zone)",
+   "value": "1000 W (max.)"
+  },
+  {
+   "label": "Speaker line monitoring",
+   "value": "<5 Ohm (SHORT); 5 ~ 5000 Ohm (Impedance value); >5000 Ohm (OPEN)"
+  },
+  {
+   "label": "Air pressure",
+   "value": "600 to 1100 hPa"
+  },
+  {
+   "label": "Mounting",
+   "value": "19\"- 2U rack mount"
+  },
+  {
+   "label": "Mains power supply Voltage",
+   "value": "115/230 VAC ±15%, 50/60 Hz"
+  },
+  {
+   "label": "Mains power supply Power consumption",
+   "value": "48 W"
+  },
+  {
+   "label": "Battery power supply Voltage",
+   "value": "18 - 30 VDC"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/ateis/voice-alarm-systems/ida8-system/matrix/ida8c/main-controller",
+ "checked": "2026-10-18"
 }

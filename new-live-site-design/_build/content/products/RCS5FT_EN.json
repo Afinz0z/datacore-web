@@ -1,11 +1,62 @@
 {
  "sku": "RCS5FT/EN",
- "order": 609,
+ "order": 600,
  "n": "ATEIA 5 inch Metal Ceiling Speaker",
  "b": "Ateis",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "5\" Metal Ceiling Speaker with 6 Watts Rated power",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power, Watts",
+   "value": "6"
+  },
+  {
+   "label": "Tappings 100 volt line, Watts",
+   "value": "6/3/1.5/0.75/0.25"
+  },
+  {
+   "label": "Transformer Impedance, Ohms, 100V",
+   "value": "1.67k/3.33k/6.66k/13.3/40k"
+  },
+  {
+   "label": "Tappings 70.7 volt line, Watts",
+   "value": "3/1.5/0.75/0.375/0.125"
+  },
+  {
+   "label": "Driver impedance, Ohms",
+   "value": "8"
+  },
+  {
+   "label": "Effective frequency range, Hz (BSEN60268-5)",
+   "value": "150-18k"
+  },
+  {
+   "label": "S.P.L. @ Full power Octave Bandwidth, dB",
+   "value": "102"
+  },
+  {
+   "label": "Dispersion at 1k/2k Hz, Degrees",
+   "value": "177/93 (H) 176/118 (V)"
+  },
+  {
+   "label": "Max/Min Amb Temp",
+   "value": "-10°C/+55°C"
+  },
+  {
+   "label": "Colour (Unless Specified)",
+   "value": "White, RAL9016"
+  },
+  {
+   "label": "Mounting",
+   "value": "Torsion springs"
+  },
+  {
+   "label": "Cut-out, mm",
+   "value": "Ø164"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/penton/ceiling/rcs-series/round-metal-speaker",
+ "checked": "2026-10-18"
 }

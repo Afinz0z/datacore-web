@@ -1,10 +1,61 @@
 {
  "sku": "IP-A1AF",
- "order": 1511,
+ "order": 1499,
  "n": "IP Audio Interface",
  "b": "TOA",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "PoE+ or PoE"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated output",
+   "value": "15 W"
+  },
+  {
+   "label": "Data I/F",
+   "value": "1x 100BASE-TX (RJ45)"
+  },
+  {
+   "label": "Network protocol",
+   "value": "TCP/IP, UDP, HTTP, RTP, RTSP, RTCP, ARP, ICMP, IGMPv3, NTP, SIP (RFC3261), SIPS, SIP-TLS, DHCP"
+  },
+  {
+   "label": "Audio input",
+   "value": "1x line/mic (balanced, phantom power, terminal block)"
+  },
+  {
+   "label": "Audio output",
+   "value": "1x line (balanced, terminal block)"
+  },
+  {
+   "label": "Control input",
+   "value": "2x no-voltage make contact (terminal block)"
+  },
+  {
+   "label": "Control output",
+   "value": "1x open collector (terminal block)"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel, black"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "22 W (PoE+, rated output)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "126 x 33 x 80 mm (W x H x D)"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/ip-a1af/",
+ "checked": "2026-10-18"
 }

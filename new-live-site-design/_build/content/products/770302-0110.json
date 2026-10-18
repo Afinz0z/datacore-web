@@ -1,15 +1,34 @@
 {
  "sku": "770302-0110",
- "order": 2515,
+ "order": 2503,
  "n": "ShowMatch SMPULL array pullback bracket",
  "b": "Bose",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Working Load Limit (WLL)",
+   "value": "700 lb (315 kg), center suspension point / 600 lb (270 kg) side suspension point"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "4.1 in × 27.9 in × 20.0 in (105 mm × 710 mm × 507 mm)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "15.0 lb (18.4 kg)"
+  }
+ ],
  "for": [
   "730999-5540",
   "730999-8850",
   "730999-8860"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/loudspeaker-accessories/showmatch-array-pullback-bracket",
+ "checked": "2026-10-18"
 }

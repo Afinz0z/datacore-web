@@ -1,11 +1,62 @@
 {
  "sku": "6507143",
- "order": 1589,
+ "order": 1577,
  "n": "INET-IOEX-IRCOM",
  "b": "Crestron",
  "c": "Control Module",
  "dept": "AV",
  "avail": "lead",
  "d": "INET-IOEX-IRCOM infiNET EX® Wireless IR/RS-232 Control Module",
- "specs": []
+ "specs": [
+  {
+   "label": "RF Transceiver",
+   "value": "infiNET EX 2-way RF, 2.4 GHz ISM Channels 11-26 (2400 to 2483.5 MHz), default channel 15; IEEE 802.15.4 compliant"
+  },
+  {
+   "label": "Range (typical)",
+   "value": "150 ft (46 m) indoor, 250 ft (76 m) outdoor, to nearest mesh network device(s); subject to site-specific conditions and individual device capabilities"
+  },
+  {
+   "label": "Gateway",
+   "value": "Requires an infiNET EX gateway"
+  },
+  {
+   "label": "RS-232",
+   "value": "Supports 2-way device control and monitoring up to 115.2k baud with software handshaking (via the control system)"
+  },
+  {
+   "label": "IR",
+   "value": "Supports 1-way device control via infrared up to 1.2 MHz (via the control system)"
+  },
+  {
+   "label": "Power Pack (included)",
+   "value": "Input: 100-240 Volts AC, 50/60Hz; Output: 1.2 Amps @ 5 Volts DC; Model: PW-0510WUL"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "3 BTU/hr"
+  },
+  {
+   "label": "Construction",
+   "value": "Plastic, black, (2) integral surface mounting flanges, vented sides"
+  },
+  {
+   "label": "Height",
+   "value": "0.68 in (18 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.58 in (66 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.49 in (64 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 113° F (0° to 45° C)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Expansion-IO/INET-IOEX-IRCOM",
+ "checked": "2026-10-18"
 }

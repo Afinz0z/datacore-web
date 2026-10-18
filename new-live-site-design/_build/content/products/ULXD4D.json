@@ -1,10 +1,29 @@
 {
  "sku": "ULXD4D",
- "order": 1211,
+ "order": 1199,
  "n": "Dual-Channel Digital Wireless Receiver",
  "b": "Shure",
  "c": "Mic Accessories",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Transmission",
+   "value": "Digital in VHF, UHF, 900MHz ISM, 1.2 GHz, 1.5 GHz, 1.8 GHz"
+  },
+  {
+   "label": "Encryption",
+   "value": "yes, AES-256"
+  },
+  {
+   "label": "Weight",
+   "value": "3360 g"
+  },
+  {
+   "label": "Type Of Power Supply",
+   "value": "Internal"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/ulx-d_digital_wireless/ulxd4d",
+ "checked": "2026-10-18"
 }

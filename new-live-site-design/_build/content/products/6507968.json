@@ -1,6 +1,6 @@
 {
  "sku": "6507968",
- "order": 2055,
+ "order": 2043,
  "n": "DigitalMedia™ Card Chassis for DM-NVX-C & DMCF, 8 Slots (DMF-CI-8)",
  "b": "Crestron",
  "c": "Chassis",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DMF-CI-8",
  "d": "DMF-CI-8 DigitalMedia™ Card Chassis for DM-NVX-C & DMCF, 8 Slots",
- "specs": []
+ "specs": [
+  {
+   "label": "USB Host",
+   "value": "For loading of firmware via a USB mass storage device"
+  },
+  {
+   "label": "USB Device",
+   "value": "Computer console for setup"
+  },
+  {
+   "label": "RS-232",
+   "value": "Computer console for setup"
+  },
+  {
+   "label": "CARD SLOT ID 1 – 8",
+   "value": "(8) Card slots; Each slot accepts (1) DM-NVX-C series encoder/decoder card or (1) DMCF series transmitter or receiver card"
+  },
+  {
+   "label": "USB (front)",
+   "value": "(1) USB Type A female; Supports USB mass storage devices for firmware update"
+  },
+  {
+   "label": "Main Power",
+   "value": "4.3-1.8 Amps @ 100-240 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "1195 BTU/hr fully loaded"
+  },
+  {
+   "label": "Acoustic Noise",
+   "value": "43 dBA typical @ 70°F (21°C) ambient temperature"
+  },
+  {
+   "label": "Enclosure chassis",
+   "value": "Metal with black finish, vented sides, fan-cooled"
+  },
+  {
+   "label": "Front Panel",
+   "value": "Metal, black finish with polycarbonate label overlay"
+  },
+  {
+   "label": "Enclosure mounting",
+   "value": "Freestanding or 2 RU 19-inch rack-mountable (rack ears included)"
+  },
+  {
+   "label": "Height",
+   "value": "3.47 in (89 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Card-Chassis/DMF-CI-8",
+ "checked": "2026-10-18"
 }

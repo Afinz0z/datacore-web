@@ -1,14 +1,53 @@
 {
  "sku": "760241378",
- "order": 3983,
+ "order": 3965,
  "n": "48-Fiber Splice Tray Kit",
  "b": "CommScope",
  "c": "splice tray",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The CommScope EPX-SPLICE-48 is a stackable fiber optic splice tray designed for AGILE (EPX) fiber panels and enclosures. It provides organized management and protection for up to 48 fiber splices , making it suitable for enterprise, campus, and data center fiber distribution systems.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber splice tray"
+  },
+  {
+   "label": "Product Series",
+   "value": "EPX"
+  },
+  {
+   "label": "Application",
+   "value": "Used in AGILE panels and enclosures"
+  },
+  {
+   "label": "Color",
+   "value": "Light gray"
+  },
+  {
+   "label": "Splicing Capacity, maximum",
+   "value": "48"
+  },
+  {
+   "label": "Height",
+   "value": "17.6 mm | 0.693 in"
+  },
+  {
+   "label": "Width",
+   "value": "220 mm | 8.661 in"
+  },
+  {
+   "label": "Depth",
+   "value": "118.4 mm | 4.661 in"
+  }
+ ],
  "for": [
   "760251048"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-splice-trays-wallets/item760241378/",
+ "checked": "2026-10-18"
 }

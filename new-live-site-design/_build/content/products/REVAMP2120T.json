@@ -1,6 +1,6 @@
 {
  "sku": "REVAMP2120T",
- "order": 907,
+ "order": 898,
  "n": "2 Channel class D amplifier 2 x 120 Watts (70/100 Volts or RMS @ 4 (REVAMP2120T)",
  "b": "Biamp",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "REVAMP2120T",
  "d": "2 Channel class D amplifier 2 x 120 Watts (70/100 Volts or RMS @ 4 Ohms) or in bridge mode 1 x 240 Watts (70/100 Volts or RMS @ 8 Ohms), convection cooled, 1 U, 19\" rackmount",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.73 inches (44 mm); Rack units: 1U 1.73 inches (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "Rack Mounting: 19 inches (483 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "9.40 inches (239 mm (including front); 9.05 inches (230 mm (build in)"
+  },
+  {
+   "label": "Power",
+   "value": "Power supply: 115 - 230 VAC"
+  },
+  {
+   "label": "Channels",
+   "value": "Channel separation > 65 dB @ 1 kHz; output channels 2"
+  },
+  {
+   "label": "Amplifier",
+   "value": "Power amp topology class-D"
+  },
+  {
+   "label": "Power Banks",
+   "value": "Max Power Consumption: 300 watts; Power Supply: 115-230 VAC"
+  },
+  {
+   "label": "Specification Notes",
+   "value": "Applicable in 100V; Line input unbalanced 2; Line input balanced 2"
+  },
+  {
+   "label": "Cooling",
+   "value": "Convectional"
+  },
+  {
+   "label": "Impedance",
+   "value": "Minimum impedance load per channel: 4 ohms; Minimum impedance load bridged per channel: 8 ohms; Applicable low impedance: yes"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "50 - 20 kHz"
+  },
+  {
+   "label": "Weight",
+   "value": "13.44 lbs (6.1 kg)"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Commercial-Audio-REVAMP2120T/ecom-item/920-00653-00001",
+ "checked": "2026-10-18"
 }

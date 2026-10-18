@@ -1,10 +1,33 @@
 {
  "sku": "SB930",
- "order": 4168,
+ "order": 4150,
  "n": "Rechargeable Battery for MXCW640",
  "b": "Shure",
  "c": "Battery",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Battery Chemistry",
+   "value": "Li-Ion"
+  },
+  {
+   "label": "Nominal Output Voltage",
+   "value": "3.6 volts"
+  },
+  {
+   "label": "Nominal Capacity",
+   "value": "35 Wh"
+  },
+  {
+   "label": "Charge Voltage",
+   "value": "4.2 volts"
+  },
+  {
+   "label": "Charge Current",
+   "value": "3.6 amps"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/accessories/sb930",
+ "checked": "2026-10-18"
 }

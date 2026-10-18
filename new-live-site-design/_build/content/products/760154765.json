@@ -1,6 +1,6 @@
 {
  "sku": "760154765",
- "order": 3891,
+ "order": 3893,
  "n": "Fiber indoor/outdoor cable",
  "b": "CommScope",
  "c": "SINGLE MODE FIBER OPTIC CABLE",
@@ -9,8 +9,54 @@
  "d": "Z-012-LN-8W-F12BK/25D/E",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Reel"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber indoor/outdoor cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "Z-LN"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Stranded loose tube"
+  },
+  {
+   "label": "Construction Type",
+   "value": "Non-armored"
+  },
+  {
+   "label": "Subunit Type",
+   "value": "Gel-free"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Black"
+  },
+  {
+   "label": "Jacket Marking",
+   "value": "Feet"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "12"
+  },
+  {
+   "label": "Buffer Tube/Subunit Diameter",
+   "value": "2.5 mm | 0.098 in"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "11.7 mm | 0.461 in"
+  },
+  {
+   "label": "Minimum Bend Radius, loaded",
+   "value": "175 mm | 6.89 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/indoor-outdoor-cables/item760154765/",
+ "checked": "2026-10-18"
 }

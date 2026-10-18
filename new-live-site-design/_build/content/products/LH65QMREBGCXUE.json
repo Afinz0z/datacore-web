@@ -1,6 +1,6 @@
 {
  "sku": "LH65QMREBGCXUE",
- "order": 106,
+ "order": 98,
  "n": "65 inch 4K UHD Smart Signage QMC Series",
  "b": "Samsung",
  "c": "Displays",
@@ -9,8 +9,52 @@
  "d": "65\" QMC series smart signage display",
  "specs": [
   {
-   "label": "Type",
-   "value": "signage display"
+   "label": "Diagonal Size",
+   "value": "65\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "New Edge, 60 Hz"
+  },
+  {
+   "label": "Resolution",
+   "value": "3840 x 2160"
+  },
+  {
+   "label": "Pixel Pitch (HxV)",
+   "value": "0.124 x 0.372 mm"
+  },
+  {
+   "label": "Brightness (Typical)",
+   "value": "500 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4000:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178° / 178°"
+  },
+  {
+   "label": "Response Time",
+   "value": "8 ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "92 % (DCI-P3, CIE 1976)"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "0.25 %"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30 ~ 81 kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594 MHz"
   }
  ],
  "acc": [
@@ -47,5 +91,7 @@
   "VB-WMK-004",
   "WMK-077",
   "XTM1U"
- ]
+ ],
+ "src": "https://www.samsung.com/africa_en/business/smart-signage/uhd-4k-signage/qmr-series-lh65qmrebgcxue/",
+ "checked": "2026-10-18"
 }

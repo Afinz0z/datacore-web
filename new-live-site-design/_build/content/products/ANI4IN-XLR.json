@@ -1,6 +1,6 @@
 {
  "sku": "ANI4IN-XLR",
- "order": 1508,
+ "order": 1496,
  "n": "Audio Network Interface Audio network interface brings up to 4 analog (ANI4IN-XLR)",
  "b": "Shure",
  "c": "Interface Module",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "ANI4IN-XLR",
  "d": "Audio Network Interface Audio network interface brings up to 4 analog wired microphones onto Dante for easy audio routing and convenient browser-based remote control.",
- "specs": []
+ "specs": [
+  {
+   "label": "Analog Inputs",
+   "value": "4 Mic/Line w/ Analog Logic with PEQ"
+  },
+  {
+   "label": "Dante Outputs",
+   "value": "4"
+  },
+  {
+   "label": "USB Audio",
+   "value": "no"
+  },
+  {
+   "label": "Acoustic Echo Cancelation",
+   "value": "no"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "no"
+  },
+  {
+   "label": "Automatic Mixing",
+   "value": "No (Summing available)"
+  },
+  {
+   "label": "Matrix Mixing",
+   "value": "no"
+  },
+  {
+   "label": "Stereo/Mono",
+   "value": "Mono"
+  },
+  {
+   "label": "Weight",
+   "value": "672 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/mixers/ani4in",
+ "checked": "2026-10-18"
 }

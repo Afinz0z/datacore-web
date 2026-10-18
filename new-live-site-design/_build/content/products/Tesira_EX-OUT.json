@@ -1,14 +1,65 @@
 {
  "sku": "Tesira EX-OUT",
- "order": 1144,
+ "order": 1132,
  "n": "Mic or line level audio output expander- Tesira EX-OUT",
  "b": "Biamp",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
  "d": "Half-rack, 4-channel mic or line level audio output expander, powered by PoE+.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.75 inches (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.5 inches (216 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "7.75 inches (197 mm)"
+  },
+  {
+   "label": "Power",
+   "value": "PoE+ (IEEE 802.3at Class 4, 30W)"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48 VDC (7mA/input)"
+  },
+  {
+   "label": "Specification Notes",
+   "value": "Tail Length: up to 300ms,br> Convergence: up to 100dB/sec"
+  },
+  {
+   "label": "Audio",
+   "value": "4 channels of analog audio, the EX-OUT is a 4-channel mic/line level output expander"
+  },
+  {
+   "label": "Impedance",
+   "value": "(balanced): 8kΩ"
+  },
+  {
+   "label": "Input Gain Range",
+   "value": "(6dB Steps): 0 - 66dB"
+  },
+  {
+   "label": "Maximum Input",
+   "value": "+24dBu"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "(balanced): 200Ω"
+  },
+  {
+   "label": "Maximum Output",
+   "value": "+24dBu"
+  }
+ ],
  "for": [
   "TesiraFORTÉ AVB CI"
- ]
+ ],
+ "src": "https://products.biamp.com/product-details/d/Tesira-EX-OUT/ecom-item/920-00309-00001",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6503776",
- "order": 4376,
+ "order": 4355,
  "n": "DIN Rail High-Voltage Switch with Digital Inputs (DIN-8SW8-I)",
  "b": "Crestron",
  "c": "Lighting Controller",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DIN-8SW8-I",
  "d": "DIN-8SW8-I DIN Rail High-Voltage Switch with Digital Inputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Cresnet Power Usage",
+   "value": "5.4 W (0.23A @ 24VDC)"
+  },
+  {
+   "label": "Switch Channels",
+   "value": "8"
+  },
+  {
+   "label": "Maximum Per Channel",
+   "value": "10A incandescent @ 120 to 240VAC, 50/60 Hz; 5A fluorescent @ 120 to 240VAC, 50/60 Hz; 0.5 HP @ 120 to 240VAC, 50/60 Hz; 5A at 30VDC; 16A Resistive"
+  },
+  {
+   "label": "Module Total",
+   "value": "80A incandescent @ 120 to 240VAC, 50/60 Hz; 40A fluorescent @ 120 to 240VAC, 50/60 Hz"
+  },
+  {
+   "label": "Load Types",
+   "value": "Incandescent, Magnetic Low Voltage, Electronic Low Voltage, Neon/Cold Cathode, Fluorescent, Motor (may not be compatible with some high inrush current loads)"
+  },
+  {
+   "label": "Cresnet",
+   "value": "Cresnet secondary mode"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "18 BTU/hr"
+  },
+  {
+   "label": "Construction enclosure",
+   "value": "Light gray polycarbonate housing with polycarbonate label overlay"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "35 mm DIN EN 60715 rail mount, DIN 43880 form factor for enclosures with 45 mm front panel cutout, occupies 9 DIN module spaces (162 mm)"
+  },
+  {
+   "label": "Height",
+   "value": "3.71 in (95 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.26 in (159 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.35 in (60 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/DIN-Modules/DIN-8SW8-I",
+ "checked": "2026-10-18"
 }

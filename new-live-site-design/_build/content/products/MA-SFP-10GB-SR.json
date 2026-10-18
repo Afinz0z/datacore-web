@@ -1,14 +1,45 @@
 {
  "sku": "MA-SFP-10GB-SR",
- "order": 2963,
+ "order": 2951,
  "n": "SFP 10G Multimode-Meraki",
  "b": "Cisco",
  "c": "SFP",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CISCO Meraki 10G Base SR Multi-Mode",
- "specs": [],
+ "specs": [
+  {
+   "label": "Standard",
+   "value": "10GBASE-SR"
+  },
+  {
+   "label": "Wavelength (nm)",
+   "value": "850"
+  },
+  {
+   "label": "Fiber Type",
+   "value": "MMF"
+  },
+  {
+   "label": "Fiber Description",
+   "value": "OM1, OM2, OM3, OM4"
+  },
+  {
+   "label": "Core/Clad Diameter",
+   "value": "62.5 μm / 125 μm, 50 μm / 125 μm"
+  },
+  {
+   "label": "Max Distance",
+   "value": "26 m (OM1); 82 m (OM2); 300 m (OM3); 400 m (OM4)"
+  },
+  {
+   "label": "Data Rate",
+   "value": "10 Gigabit"
+  }
+ ],
  "for": [
   "MS130-24X LIC-MS130-24-3Y"
- ]
+ ],
+ "src": "https://documentation.meraki.com/Platform_Management/Product_Information/Overviews_and_Datasheets/Small-Form_Factor_Pluggable_(SFP)_and_Stacking_Accessories",
+ "checked": "2026-10-18"
 }

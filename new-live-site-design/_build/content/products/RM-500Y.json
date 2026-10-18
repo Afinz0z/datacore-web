@@ -1,6 +1,6 @@
 {
  "sku": "RM-500Y",
- "order": 4314,
+ "order": 4293,
  "n": "Paging Microphone With Lcd, 80-ZONES",
  "b": "TOA",
  "c": "Paging mic",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Paging Microphone",
  "d": "PAGING MICROPHONE WITH LCD, 80-ZONES",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "24 V DC (operation range 15 - 33 VDC, supplied from VX-3000F via RJ45 jack or 5.5 mm DC power input jack)"
+  },
+  {
+   "label": "Frequency response",
+   "value": "100 Hz - 20 kHz"
+  },
+  {
+   "label": "Microphone type",
+   "value": "Electret condenser microphone"
+  },
+  {
+   "label": "Directivity",
+   "value": "Unidirectional"
+  },
+  {
+   "label": "Audio input",
+   "value": "1, sensitivity selectable (-20/-60 dBV), push-in terminal block"
+  },
+  {
+   "label": "Control input",
+   "value": "1, no-voltage make contact inputs, open voltage: 33 V DC, short-circuit current: 10 mA , push-in terminal block"
+  },
+  {
+   "label": "Control output",
+   "value": "1 , open collector output, withstand voltage: 30 V DC, control current: 35 mA, push-in terminal block"
+  },
+  {
+   "label": "Display",
+   "value": "3\" LCD (255 x 160) with backlight"
+  },
+  {
+   "label": "Controls",
+   "value": "10 numeric buttons (0-9): 10, 1 Aux button, 1 arrow left button, 1 arrow right button, 1 All-call button, 2 function buttons, 1 Clear buttons, 1 talk button"
+  },
+  {
+   "label": "Finish",
+   "value": "ABS resin, black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "224 x 47.2 x 136 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "620 g"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/rm-500-y/",
+ "checked": "2026-10-18"
 }

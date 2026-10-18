@@ -1,11 +1,30 @@
 {
  "sku": "N521.660BK",
- "order": 3877,
+ "order": 3861,
  "n": "CAT6 Patch Panel",
  "b": "Nexans",
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LANmark Patch Panel 24 Keystone Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Depth",
+   "value": "82 mm"
+  },
+  {
+   "label": "Heightunit",
+   "value": "1 U"
+  },
+  {
+   "label": "Packaging",
+   "value": "Box"
+  }
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/tiaoxianbanhetiaoxiandaoyinqi/modular-patch-panels-keystone-connectors/essential-patch-panel-24-keystone-black",
+ "checked": "2026-10-18"
 }

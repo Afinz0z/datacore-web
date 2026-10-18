@@ -1,11 +1,50 @@
 {
  "sku": "DA-250DH CE-GB",
- "order": 1042,
+ "order": 1031,
  "n": "DUAL POWER AMPLIFIER- DA-250DH CE-GB",
  "b": "TOA",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "DA-250DH is a 2-Channel Digital Power Amplifier designed for 100 V line high-impedance distribution and features lightweight, compact, high power output, and high efficiency. It delivers 250 W 2 channels (40 output) using a switching power supply. Each channel is equipped with an independent power section. It can be electrically isolated from the high-impedance speaker system by attaching the MT-251H Output Transformer (optional). It can be mounted in an EIA Standard equipment rack (1 unit size).",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "220 - 240 V AC, 50 / 60 Hz"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated output",
+   "value": "2 x 250 W (100 V line, 40 Ω)"
+  },
+  {
+   "label": "Number of channels",
+   "value": "2"
+  },
+  {
+   "label": "Indicator",
+   "value": "Power (blue) x 1, Input (green) x 2, Output (yellow) x 2, Peak (red) x 2, Protect (red) x 2"
+  },
+  {
+   "label": "Finish",
+   "value": "Aluminium, Steel plate, black"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "120 W (EN standard)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "482 x 44 x 401.8 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "5.3 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/da-250dh-ce-gb/",
+ "checked": "2026-10-18"
 }

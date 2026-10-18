@@ -1,6 +1,6 @@
 {
  "sku": "PPM-IT5",
- "order": 4300,
+ "order": 4279,
  "n": "5\" TFT LCD full colour touch panel Zone selection (PPM-IT5)",
  "b": "Ateis",
  "c": "Paging mic",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "PPM-IT5",
  "d": "5\" TFT LCD full colour touch panel Zone selection, paging and control Ethernet interface including PoE (Power Over Ethernet) Half or full duplex intercom with AEC (Acoustic Echo Cancellation) and NR (Noise Reduction) High quality gooseneck microphone and builtin loudspeaker (5W) Web browser interface for management and monitor PoE or 24 VDC power supply (if PoE is not available) Automatic gain control on microphone input SNMP (Simple Network Management Protocol) for device management on IP",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum level",
+   "value": "6 dBu"
+  },
+  {
+   "label": "Microphone output THD @ 1kHz",
+   "value": "< 1%"
+  },
+  {
+   "label": "Bandwidth @ -3dB",
+   "value": "100 Hz ~ 18 kHz"
+  },
+  {
+   "label": "Noise Gate Threshold",
+   "value": "-84 dBu ~ -24 dBu"
+  },
+  {
+   "label": "Target Output Level",
+   "value": "0"
+  },
+  {
+   "label": "Max Output Level",
+   "value": "-54 dBu ~ 6 dBu"
+  },
+  {
+   "label": "Attack Time",
+   "value": "8 ms"
+  },
+  {
+   "label": "Release Time",
+   "value": "100 ms"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ohms"
+  },
+  {
+   "label": "Maximum Power @ 1kHz",
+   "value": "1W"
+  },
+  {
+   "label": "Bandwidth @ -3 dB",
+   "value": "200 Hz - 12 kHz"
+  },
+  {
+   "label": "Microphone length",
+   "value": "275 mm"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/terracom/ip-modules/ppm-it5/touch-screen-ip-paging-console",
+ "checked": "2026-10-18"
 }

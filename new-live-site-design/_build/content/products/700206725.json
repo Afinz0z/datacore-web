@@ -1,11 +1,62 @@
 {
  "sku": "700206725",
- "order": 3811,
+ "order": 3823,
  "n": "Modular Jack, RJ45, Cat6",
  "b": "CommScope",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "MGS400 WHITE OUTLET",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular jack"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSPEED XL®"
+  },
+  {
+   "label": "Product Series",
+   "value": "MGS400"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Mounting",
+   "value": "M Series faceplates and panels"
+  },
+  {
+   "label": "Termination Punchdowns, minimum",
+   "value": "20 times"
+  },
+  {
+   "label": "Termination Tool",
+   "value": "110 Punchdown tool"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/category-6-jacks/item700206725/",
+ "checked": "2026-10-18"
 }

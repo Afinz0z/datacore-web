@@ -1,6 +1,6 @@
 {
  "sku": "19020300DZ",
- "order": 3896,
+ "order": 3898,
  "n": "4C Fibre Optic Cable SM OS2",
  "b": "Datwyler",
  "c": "SINGLE MODE FIBER OPTIC CABLE",
@@ -9,8 +9,54 @@
  "d": "DATWYLER 4C Fibre Optic Cable SM 9/125 OS2 ,Loose Tube, Glass Armoured, Indoor/Outdoor LS0H Sheath -Datwyler.",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Fire load [kWh/m]",
+   "value": "0.275"
+  },
+  {
+   "label": "Bending radius [mm]",
+   "value": "115"
+  },
+  {
+   "label": "Outer sheath diameter [mm]",
+   "value": "7.6"
+  },
+  {
+   "label": "Loose tube construction",
+   "value": "1"
+  },
+  {
+   "label": "Number of used loose tubes",
+   "value": "1"
+  },
+  {
+   "label": "Fibres per loose tube",
+   "value": "4"
+  },
+  {
+   "label": "Crush resistance continuous [N]",
+   "value": "3000"
+  },
+  {
+   "label": "Fibre category",
+   "value": "OS2"
+  },
+  {
+   "label": "Tensile load continuous [N]",
+   "value": "1000"
+  },
+  {
+   "label": "Tensile load short term [N]",
+   "value": "3000"
+  },
+  {
+   "label": "Crush resistance short term [N]",
+   "value": "5000"
+  },
+  {
+   "label": "Fibre type",
+   "value": "E9/125 G.652.D OS2"
   }
- ]
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/fibre-networks/fibre-optic-cables/universal-cable/fo-universal-zggfr-u-dqznbh-dca/",
+ "checked": "2026-10-18"
 }

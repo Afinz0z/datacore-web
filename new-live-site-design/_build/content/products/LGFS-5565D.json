@@ -1,6 +1,6 @@
 {
  "sku": "LGFS-5565D",
- "order": 2700,
+ "order": 2688,
  "n": "Trolley Stand-LGFS-5565D",
  "b": "Logic",
  "c": "Mount",
@@ -9,14 +9,43 @@
  "d": "Logic Floor Mount Trolley Suitable for Dual Display Suitable for 55\" to 65\" Flat Panels. Loading Capacity-80Kg (40Kg+40Kg)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Trolley Stand"
+   "label": "Model Number",
+   "value": "LGFS-5565D"
+  },
+  {
+   "label": "Max. Load",
+   "value": "176.37 lbs 80 (40 + 40) kg"
+  },
+  {
+   "label": "VESA",
+   "value": "400 x 400 to 800 x 600"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "55” to 65”"
+  },
+  {
+   "label": "Height Adjustment",
+   "value": "No"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "34 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "41 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "1780 x 76 x 18"
   }
  ],
  "for": [
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "CDE5530",
   "CDE6514-2C",
   "CDE6530",
@@ -35,5 +64,7 @@
   "LT-IR65AX",
   "PN-M552 PCAP",
   "V6550"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/floor-mount-trolley/lgfs-5565d",
+ "checked": "2026-10-18"
 }

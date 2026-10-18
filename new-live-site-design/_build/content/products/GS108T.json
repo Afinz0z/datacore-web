@@ -1,16 +1,67 @@
 {
  "sku": "GS108T",
- "order": 2904,
+ "order": 2892,
  "n": "8-Port Gigabit Ethernet Smart Switch - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8-Port Gigabit Ethernet Smart Switch with Cloud Management",
- "specs": [],
+ "specs": [
+  {
+   "label": "10/100Mbps ports",
+   "value": "8"
+  },
+  {
+   "label": "Gigabit ports",
+   "value": "8"
+  },
+  {
+   "label": "SFP ports",
+   "value": "0"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "0"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "0"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "8K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512ARP"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS108T-12",
   "DRV-GS108T-36",
   "DRV-GS108T-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs108tv3/",
+ "checked": "2026-10-18"
 }

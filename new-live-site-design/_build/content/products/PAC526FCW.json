@@ -1,11 +1,58 @@
 {
  "sku": "PAC526FCW",
- "order": 5135,
+ "order": 5113,
  "n": "Inwall storage box",
  "b": "Chief",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "Large In-Wall Storage Box with White Flange and Cover",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "3.9 in (9.9 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "14.25 in (36.2 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "14.25 in (36.2 cm)"
+  },
+  {
+   "label": "Application",
+   "value": "In-Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Cover Color",
+   "value": "White"
+  },
+  {
+   "label": "Flange Color",
+   "value": "White"
+  },
+  {
+   "label": "Special Features",
+   "value": "Flanges"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "19.57\" x 19.57\" x 4.72\"(497.1 x 497.1 x 119.9 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "13.88 lbs (6.3 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "10 lbs (4.5 kg)"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/accessories/display-tv-accessories/proximity-large-in-wall-storage-box/pac526fcw",
+ "checked": "2026-10-18"
 }

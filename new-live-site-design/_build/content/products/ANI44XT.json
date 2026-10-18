@@ -1,11 +1,50 @@
 {
  "sku": "ANI44XT",
- "order": 5127,
+ "order": 5105,
  "n": "Dante™ audio network interface",
  "b": "Audac",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "Dante™ audio network interface 4 in / 4 out",
- "specs": []
+ "specs": [
+  {
+   "label": "Inputs other type",
+   "value": "Dante™/AES67"
+  },
+  {
+   "label": "Communication protocol",
+   "value": "Audinate Dante™"
+  },
+  {
+   "label": "Sampling frequency",
+   "value": "48 kHz"
+  },
+  {
+   "label": "Sampling bit depth",
+   "value": "24-bit"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45 (Ethernet)"
+  },
+  {
+   "label": "Network specification",
+   "value": "Standard 100 Mbit or 1 Gbit"
+  },
+  {
+   "label": "Mounting",
+   "value": "Integration in amplifier chassis"
+  },
+  {
+   "label": "Power consumption",
+   "value": "1.5 W"
+  },
+  {
+   "label": "Weight",
+   "value": "0.090 kg"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/ani44xt---dante-audio-network-interface-4-in---4-out",
+ "checked": "2026-10-18"
 }

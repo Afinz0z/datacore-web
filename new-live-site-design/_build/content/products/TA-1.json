@@ -1,13 +1,32 @@
 {
  "sku": "TA-1",
- "order": 4552,
+ "order": 4531,
  "n": "Turbine Compact Onwall Box",
  "b": "Zenitel",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Size (WxHxD)",
+   "value": "120 x 180 x 62mm"
+  },
+  {
+   "label": "Finish",
+   "value": "Grey RAL 9007. Custom colors possible"
+  },
+  {
+   "label": "Weight",
+   "value": "0.8kg"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum alloy - A413.0, AlSi12Fe, painted"
+  }
+ ],
  "for": [
   "TCIV-3+"
- ]
+ ],
+ "src": "https://www.zenitel.com/product/ta-1",
+ "checked": "2026-10-18"
 }

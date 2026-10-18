@@ -1,11 +1,62 @@
 {
  "sku": "DM8C-Sub",
- "order": 1221,
+ "order": 1209,
  "n": "Ceiling Subwoofer-DM8C Sub",
  "b": "Bose",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "DesignMax DM8C-SUB Ceiling Subwoofer, Combine DesignMax models to complete any design, big or small - 12 loudspeakers to mix and match, from 2-inch, lowprofile models to 8-inch, high-SPL compression-driver loudspeakers and outdoor-rated options.",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "White grille (similar to RAL 9003), black grille (similar to RAL 9005), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Indoor only"
+  },
+  {
+   "label": "Grille",
+   "value": "Magnetically attached perforated steel, powder-coated finish, paintable, with safety tether"
+  },
+  {
+   "label": "Ceiling Cutout",
+   "value": "13.8 in (349 mm)"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "(3) QuickHold spring-loaded mounting arms, (3) safety cable attachment points"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "38 Hz – 115 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "Omnidirectional below 200 Hz"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "112 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "180 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "720 W"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/designmax-dm8c-sub",
+ "checked": "2026-10-18"
 }

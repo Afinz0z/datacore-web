@@ -1,6 +1,6 @@
 {
  "sku": "MTX48",
- "order": 1311,
+ "order": 1299,
  "n": "Audio Mixer, 4-zone audio matrix",
  "b": "Audac",
  "c": "Audio Mixer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Audio Mixer",
  "d": "4-zone audio matrix",
- "specs": []
+ "specs": [
+  {
+   "label": "Inputs balanced microphone type",
+   "value": "2 x Balanced Microphone"
+  },
+  {
+   "label": "Inputs balanced microphone connector",
+   "value": "XLR"
+  },
+  {
+   "label": "Inputs balanced microphone sensitivity",
+   "value": "0 dBV ~ 50 dBV"
+  },
+  {
+   "label": "Inputs balanced microphone phantom power",
+   "value": "15 V DC"
+  },
+  {
+   "label": "Inputs balanced microphone signal / noise",
+   "value": "> 80 dB"
+  },
+  {
+   "label": "Inputs balanced microphone thd+n (@ 1 khz)",
+   "value": "< 0.05 dB"
+  },
+  {
+   "label": "Inputs balanced microphone eq high",
+   "value": "± 15 dB (12.5 kHz)"
+  },
+  {
+   "label": "Inputs balanced microphone eq mid",
+   "value": "± 15 dB (2.5 kHz)"
+  },
+  {
+   "label": "Inputs balanced microphone eq low",
+   "value": "± 15 dB (80 Hz)"
+  },
+  {
+   "label": "Inputs unbalanced stereo type",
+   "value": "4 x Stereo Unbalanced Line"
+  },
+  {
+   "label": "Inputs unbalanced stereo connector",
+   "value": "RCA"
+  },
+  {
+   "label": "Inputs unbalanced stereo sensitivity",
+   "value": "-14 dB ~ +9 dB"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/mtx48---4-zone-audio-matrix",
+ "checked": "2026-10-18"
 }

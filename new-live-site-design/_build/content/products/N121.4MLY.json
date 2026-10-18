@@ -1,6 +1,6 @@
 {
  "sku": "N121.4MLY",
- "order": 3974,
+ "order": 3956,
  "n": "Fiber Pigtail SM",
  "b": "Nexans",
  "c": "Fiber Pigtails",
@@ -9,8 +9,22 @@
  "d": "LANmark-OF Pigtail LC/UPC Singlemode Maxistrip LSZH 9/125 1m Yellow",
  "specs": [
   {
-   "label": "Type",
-   "value": "Fiber Pigtail singlemode"
+   "label": "Connector type",
+   "value": "LC"
+  },
+  {
+   "label": "Fiber optic type",
+   "value": "SM (G657.A1)"
+  },
+  {
+   "label": "Insertion Loss, maximum, dB",
+   "value": "0.25 dB"
+  },
+  {
+   "label": "Return Loss, Minimum, dB",
+   "value": "50 dB"
   }
- ]
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/fibre-lan-systems/pigtails-splicing/lanmark-pigtails-maxistrip/lanmark-pigtail-lcupc-singlemode-maxistrip-lszh-9125-1m-yellow",
+ "checked": "2026-10-18"
 }

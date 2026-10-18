@@ -1,6 +1,6 @@
 {
  "sku": "A-2030 H",
- "order": 1352,
+ "order": 1340,
  "n": "MIXER AMPLIFIER, The A-2030 is a high cost-performance mixer poweramplifier suited",
  "b": "TOA",
  "c": "Mixer Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MIXER AMPLIFIER",
  "d": "The A-2030 is a high cost-performance mixer poweramplifier suited for broadcasting paging or backgroundmusic in schools, offices, shops, factories, mosques,churches and large rooms.",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Source",
+   "value": "220 - 240 V AC, or 24 - 30 V DC"
+  },
+  {
+   "label": "Rated Output",
+   "value": "30 W"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "50 - 20,000 Hz (±3 dB)"
+  },
+  {
+   "label": "Distortion",
+   "value": "Under 1% at 1 kHz, 1/3 rated power"
+  },
+  {
+   "label": "Input",
+   "value": "MIC 1 - 3: -60 dB, 600 Ω, balanced, phone jack; AUX 1,2: -20 dB, 10 kΩ, unbalanced, RCA pin jack"
+  },
+  {
+   "label": "Output",
+   "value": "Speaker out: Balanced (floating); High impedance: 330 Ω (100 V), 170 Ω (70 V); Low impedance: 4 Ω (11 V); Rec out: 0 dB, 600 Ω, unbalanced, RCA pin jack"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "DC +21 V (MIC 1)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "Over 60 dB"
+  },
+  {
+   "label": "Tone Control",
+   "value": "Bass: ±10 dB at 100 Hz; Treble: ±10 dB at 10 kHz"
+  },
+  {
+   "label": "Muting",
+   "value": "MIC 1: Mutes other input signals by 0 - 30 dB attenuation"
+  },
+  {
+   "label": "Indicator",
+   "value": "Power, signal, peak"
+  },
+  {
+   "label": "Finish",
+   "value": "Panel: ABS resin, black; Case: Steel plate, black"
+  }
+ ],
+ "src": "https://toa.com.sg/product/a-2030-h-a-2030-mixer-power-amplifier-h-version",
+ "checked": "2026-10-18"
 }

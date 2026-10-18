@@ -1,6 +1,6 @@
 {
  "sku": "719705",
- "order": 1873,
+ "order": 1861,
  "n": "EUROSWITCH 13x13x32 \"F\" TERMINAL/CASCADE (719705)",
  "b": "Televes",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "719705",
  "d": "EUROSWITCH 13x13x32 \"F\" TERMINAL/CASCADE",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of inputs",
+   "value": "13"
+  },
+  {
+   "label": "Number of cascadable outputs",
+   "value": "13"
+  },
+  {
+   "label": "Number of user outputs",
+   "value": "32"
+  },
+  {
+   "label": "Frequency range TERR.",
+   "value": "88 ... 862 MHz"
+  },
+  {
+   "label": "Frequency range SAT.",
+   "value": "950 ... 2400 MHz"
+  },
+  {
+   "label": "Input level TERR.",
+   "value": "80 ... 110 dBµV"
+  },
+  {
+   "label": "Input level SAT.",
+   "value": "65 ... 112 dBµV"
+  },
+  {
+   "label": "Through losses TERR.",
+   "value": "< 5 dB"
+  },
+  {
+   "label": "Through losses SAT.",
+   "value": "4 ... 6.5 dB"
+  },
+  {
+   "label": "Tap losses TERR. Active",
+   "value": "5 dB"
+  },
+  {
+   "label": "Tap losses TERR. Passive",
+   "value": "36 dB"
+  },
+  {
+   "label": "Tap losses SAT.",
+   "value": "2 ... 7 dB"
+  }
+ ],
+ "src": "https://www.televes.com/en/719705-euroswitch-13-inputs-32-outputs.html",
+ "checked": "2026-10-18"
 }

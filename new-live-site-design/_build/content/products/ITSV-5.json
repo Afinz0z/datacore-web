@@ -1,6 +1,6 @@
 {
  "sku": "ITSV-5",
- "order": 4549,
+ "order": 4528,
  "n": "master station",
  "b": "Zenitel",
  "c": "Intercom",
@@ -9,8 +9,54 @@
  "d": "ITSV-5 HD IP Video Phone with 8\" Screen",
  "specs": [
   {
-   "label": "Type",
-   "value": "Video Intercom"
+   "label": "Graphic Display",
+   "value": "8” (1280x800) capacitive (10 points) touch screen IPS LCD"
+  },
+  {
+   "label": "Camera",
+   "value": "Tiltable 2 mega-pixel CMOS camera with privacy shutter, 1080P@30fps"
+  },
+  {
+   "label": "Auxiliary Ports",
+   "value": "RJ9 headset jack (allowing EHS with Plantronics headsets), 3.5mm stereo headset with microphone, USB 3.0 port, Type-C, HDMI-out, HDMI-in"
+  },
+  {
+   "label": "Feature keys",
+   "value": "2 function touch keys VOLUME +/-, 3 dedicated Android touch keys HOME, MENU, and BACK"
+  },
+  {
+   "label": "Video Codec",
+   "value": "H.263, H.264 BP/MP/HP"
+  },
+  {
+   "label": "Video resolution",
+   "value": "Up to 1080p"
+  },
+  {
+   "label": "Video frame rate",
+   "value": "Up to 30 fps"
+  },
+  {
+   "label": "Power options",
+   "value": "Power over Ethernet (PoE & PoE+) or power adapter."
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "802.3af Class 3, 802.3at Class 4"
+  },
+  {
+   "label": "Power adapter",
+   "value": "Input: 100-240VAC 50-60Hz; Output 12VDC 1.5A"
+  },
+  {
+   "label": "Network Interface",
+   "value": "2 x RJ45 (Ethernet) 10/100/1000 Mbps with integrated PoE/PoE+"
+  },
+  {
+   "label": "Bluetooth",
+   "value": "Integrated, Bluetooth 5 + EDR"
   }
- ]
+ ],
+ "src": "https://www.zenitel.com/product/itsv-5",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "FS4CE",
- "order": 699,
+ "order": 690,
  "n": "FreeSpace FS4CE in-ceiling loudspeakers",
  "b": "Bose",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "FS4CE",
  "d": "FreeSpace FS4CE in-ceiling loudspeakers",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black (similar to RAL 9005), white (similar to RAL 9003)"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated steel, powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55"
+  },
+  {
+   "label": "Ceiling Cutout",
+   "value": "9.8 in (249 mm)"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "(3) mounting arms, (1) safety cable attachment point"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "70 – 17,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "145°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "104 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "40 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "160 W"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/ceiling-mount/freespace/freespace-fs4ce-in-ceiling-loudspeaker",
+ "checked": "2026-10-18"
 }

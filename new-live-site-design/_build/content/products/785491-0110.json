@@ -1,11 +1,62 @@
 {
  "sku": "785491-0110",
- "order": 1313,
+ "order": 1301,
  "n": "T8S ToneMatch mixer",
  "b": "Bose",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
  "d": "T8S ToneMatch 8 channel interface mixxer",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Channels",
+   "value": "8 XLR combo jacks, 8 TRS 1/4-in jacks"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "48 VDC, all channels"
+  },
+  {
+   "label": "Channels",
+   "value": "8 (2 XLR + 6 balanced, line)"
+  },
+  {
+   "label": "Computer Interface Connection",
+   "value": "USB Type-B"
+  },
+  {
+   "label": "Display",
+   "value": "OLED"
+  },
+  {
+   "label": "Equalization",
+   "value": "3-band EQ"
+  },
+  {
+   "label": "DSP-Enabled",
+   "value": "Yes"
+  },
+  {
+   "label": "Presets",
+   "value": "Bose factory presets, user presets"
+  },
+  {
+   "label": "Sample Rate / Bit Depth",
+   "value": "48 kHz / 24-bit"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "8.4 in × 12.3 in × 3.3 in (214 mm × 311 mm × 83 mm)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "4.1 lb (1.9 kg)"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/portable-pa/mixers/tonematch/t8s-tonematch-mixer",
+ "checked": "2026-10-18"
 }

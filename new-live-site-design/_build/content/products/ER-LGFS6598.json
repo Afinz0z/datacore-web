@@ -1,6 +1,6 @@
 {
  "sku": "ER-LGFS6598",
- "order": 2683,
+ "order": 2671,
  "n": "Equipment Rack-ER-LGFS6598",
  "b": "Logic",
  "c": "Mount",
@@ -12,8 +12,5 @@
    "label": "Type",
    "value": "Trolley Stand"
   }
- ],
- "for": [
-  "55UH5N-E"
  ]
 }

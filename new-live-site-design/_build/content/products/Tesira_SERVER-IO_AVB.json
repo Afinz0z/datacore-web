@@ -1,6 +1,6 @@
 {
  "sku": "Tesira SERVER-IO AVB",
- "order": 1140,
+ "order": 1128,
  "n": "Configurable I/O DSP with up to 48 channels of I/O (Tesira SERVER-IO AVB)",
  "b": "Biamp",
  "c": "DSP",
@@ -8,11 +8,62 @@
  "avail": "lead",
  "model": "Tesira SERVER-IO AVB",
  "d": "Configurable I/O DSP with up to 48 channels of I/O, 1 DSP-2 card (2 additional DSP-2 cards can be added), and 1 AVB-1 network card",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "5.25 inches (133 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "19.0 inches (483 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "17.0 inches (432 mm)"
+  },
+  {
+   "label": "Power",
+   "value": "Power Consumption: (100~240VAC 50/60Hz): < 150W"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48 VDC, (7mA/input)"
+  },
+  {
+   "label": "Impedance",
+   "value": "(balanced): 8kΩ"
+  },
+  {
+   "label": "Input Gain Range",
+   "value": "(6dB Steps): 0 - 66dB"
+  },
+  {
+   "label": "Maximum Input",
+   "value": "+24dBu"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "(balanced): 200Ω"
+  },
+  {
+   "label": "Maximum Output",
+   "value": "+24dBu"
+  },
+  {
+   "label": "THD+N",
+   "value": "(20Hz~20kHz):; @ 0dB Gain, +4dBu In: < 0.006%; @ 54dB Gain, -50dBu In: < 0.040%"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "(20Hz~20kHz @ +4dBu): +0/-0.25dB"
+  }
+ ],
  "acc": [
   "Tesira DAN-1",
   "Tesira DSP-2",
   "Tesira SIC-4",
   "Tesira SOC-4"
- ]
+ ],
+ "src": "https://products.biamp.com/product-details/d/Tesira-SERVER-IO-AVB/ecom-item/930-00301-00001",
+ "checked": "2026-10-18"
 }

@@ -1,10 +1,53 @@
 {
  "sku": "NX-300",
- "order": 2473,
+ "order": 2461,
  "n": "Network Audio Adapter",
  "b": "TOA",
  "c": "Adapters",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "24 V DC or 24 V AC adapter (optional)"
+  },
+  {
+   "label": "Data I/F",
+   "value": "1x 10BASE-T/100BASE-TX (RJ45)"
+  },
+  {
+   "label": "Audio input",
+   "value": "2x line/mic (balanced, terminal block)"
+  },
+  {
+   "label": "Audio output",
+   "value": "2x line (balanced, terminal block)"
+  },
+  {
+   "label": "Control input",
+   "value": "8x no-voltage make contact (terminal block)"
+  },
+  {
+   "label": "Control output",
+   "value": "8x open collector (terminal block); 2x relay (terminal block)"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate, black"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "10 W (AC), 310 mA (DC)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "210 x 44 x 188 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.2 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/nx-300-w/",
+ "checked": "2026-10-18"
 }

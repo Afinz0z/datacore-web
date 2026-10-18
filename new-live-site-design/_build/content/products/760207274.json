@@ -1,14 +1,65 @@
 {
  "sku": "760207274",
- "order": 3869,
+ "order": 3853,
  "n": "Unshielded Discrete Distribution Module Panel,1U - Systimax",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CPP-UDDM-M-1U-24",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "RJ45 patch panel"
+  },
+  {
+   "label": "Product Series",
+   "value": "M Series"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "Passive"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Flat"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1"
+  },
+  {
+   "label": "Height",
+   "value": "43.7 mm | 1.72 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth",
+   "value": "119.38 mm | 4.7 in"
+  }
+ ],
  "acc": [
   "760172908"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760207274/",
+ "checked": "2026-10-18"
 }

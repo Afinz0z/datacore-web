@@ -1,14 +1,65 @@
 {
  "sku": "509210",
- "order": 1081,
+ "order": 1070,
  "n": "lavalier mic- SL Bodypack - MKE 2 Kit DW-3",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "SL BODYPACK - MKE 2 KIT DW-3 - SpeechLine Digital Wireless Bodypack kit. Includes (1) SL Bodypack DW and (1) MKE 2 lavalier microphone (omnidirectional, condenser)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Permanently-polarized condenser"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "typ. 0.1 %"
+  },
+  {
+   "label": "Frequency range",
+   "value": "1880.000 - 1900.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 to 20,000 Hz"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "> 120 dB(A)"
+  },
+  {
+   "label": "Equivalent noise level (db)",
+   "value": "26 dB"
+  },
+  {
+   "label": "Sampling rates",
+   "value": "24 bit/48 kHz"
+  },
+  {
+   "label": "Signal-to-noise ratio",
+   "value": "> 90 dB(A)"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Cable connections",
+   "value": "3.5 mm Jack Plug"
+  },
+  {
+   "label": "Audio input",
+   "value": "3,5 mm socket, lockable"
+  }
+ ],
  "acc": [
   "508986"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/sl-dw-bodypack-mke2-set/sl-bodypack-mke-2-kit-dw-3-509210",
+ "checked": "2026-10-18"
 }

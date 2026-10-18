@@ -1,13 +1,34 @@
 {
  "sku": "6500568",
- "order": 1626,
+ "order": 1614,
  "n": "CAEN-BLOCK",
  "b": "Crestron",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "CAEN-BLOCK Cresnet® Network Termination Block for CAEN and CAENIB Automation Enclosures",
- "specs": [],
+ "specs": [
+  {
+   "label": "Enclosure",
+   "value": "Gray metal, surface mount module with (2) integral mounting flanges"
+  },
+  {
+   "label": "Height",
+   "value": "2.0 in (5.08 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.0 in (15.24 cm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.75 in (4.44 cm)"
+  },
+  {
+   "label": "Weight",
+   "value": "3.4 oz (0.10 kg)"
+  }
+ ],
  "for": [
   "6500407",
   "6500408",
@@ -18,5 +39,7 @@
   "6506383",
   "6506384",
   "MP-16"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Integrated-Lighting-Systems/CAEN-Enclosure/CAEN-BLOCK",
+ "checked": "2026-10-18"
 }

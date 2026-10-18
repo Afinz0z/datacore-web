@@ -1,11 +1,62 @@
 {
  "sku": "EDGEMAX-180",
- "order": 683,
+ "order": 674,
  "n": "Ceiling loudspeaker-EDGEMAX-180",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "EdgeMax EM180 in-ceiling premium loudspeaker with PhaseGuide technology,PhaseGuide technology provides a unique asymmetrical vertical pattern for roomfilling coverage when mounting near wall-ceiling boundaries Provides improved room visual appearance for demanding interior designs by eliminating center-of-ceiling or wall-mounted loudspeakers and reducing speaker counts Nominal 180° horizontal coverage designed for in-ceiling mounting centered along wall coverage zones High-frequency compression driver for best-in-class audio quality with superior frequency response and coverage consistency versus typical dome tweeters 8-inch woofer with wall-boundary loading provides extended bass impact 2-way passive crossover with 70/100V transformer New QuickHold spring-loaded mounting arms for fast, easy installs Magnetically attached grille for quick access to wiring and tap settings 45 Hz - 20 kHz frequency range eliminates need for subwoofers Coverage pattern similar to a surface-mount loudspeaker enables stereo designs",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "White (similar to RAL 9003), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Indoor only; UL1480A listed, in compliance with UL2043 for plenum-space installation"
+  },
+  {
+   "label": "Grille",
+   "value": "Microperforated steel, powder-coated finish, paintable"
+  },
+  {
+   "label": "Ceiling Cutout",
+   "value": "13.6 in × 13.6 in × 9.3 in (345 mm × 345 mm × 236 mm), length × width × mounting depth"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "(4) QuickHold spring-loaded mounting arms, (4) M6 safety cable attachment points"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "45 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "180°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "114 dB continuous, 120 dB peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypassed)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "125 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "500 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Recommended but not required"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/ceiling-mount/edgemax/edgemax-em180-loudspeaker",
+ "checked": "2026-10-18"
 }

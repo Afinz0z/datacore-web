@@ -1,6 +1,6 @@
 {
  "sku": "P2726H",
- "order": 264,
+ "order": 256,
  "n": "Dell Pro P 27 Monitor - P2726H",
  "b": "Dell Technologies",
  "c": "Monitor",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "P2726H",
  "d": "Dell Pro P 27 Monitor - P2726H",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "LCD Monitor"
+  },
+  {
+   "label": "Number of Screens",
+   "value": "1"
+  },
+  {
+   "label": "Screen Size Class",
+   "value": "27\""
+  },
+  {
+   "label": "Viewable Screen Size",
+   "value": "27\""
+  },
+  {
+   "label": "Screen Mode",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel Technology",
+   "value": "In-plane Switching (IPS) Technology"
+  },
+  {
+   "label": "Response Time Details",
+   "value": "5 ms GTG (Fast); 8 ms GTG"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Pixel Pitch",
+   "value": "0.31140 mm x 0.31140 mm"
+  },
+  {
+   "label": "Horizontal Viewing Angle",
+   "value": "178 °"
+  },
+  {
+   "label": "Vertical Viewing Angle",
+   "value": "178 °"
+  },
+  {
+   "label": "Mount Type",
+   "value": "Panel Mount"
+  }
+ ],
+ "src": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-27-monitor-p2726h/p2726h/-",
+ "checked": "2026-10-18"
 }

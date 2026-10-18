@@ -1,11 +1,50 @@
 {
  "sku": "UA-874",
- "order": 4269,
+ "order": 4251,
  "n": "Active Directional Antenna-UA-874",
  "b": "Shure",
  "c": "Antenna",
  "dept": "AV",
  "avail": "lead",
  "d": "Active Directional Antenna-UA-874 Low-noise signal amplifier compensates for insertion loss in coaxial cable • Compatible with Shure wireless receivers and antenna distribution systems that provide 10-15 V DC bias",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector Type",
+   "value": "BNC, Female"
+  },
+  {
+   "label": "Impedance",
+   "value": "50 ohms"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "10 to 15 V DC bias from coaxial connection, 75 mA"
+  },
+  {
+   "label": "Reception Pattern",
+   "value": "70 degrees"
+  },
+  {
+   "label": "Third-order Intercept Point",
+   "value": ">30 dBm"
+  },
+  {
+   "label": "Antenna Gain (On Axis)",
+   "value": "7.5 dBi"
+  },
+  {
+   "label": "Signal Gain +/- 1dB",
+   "value": "Switchable (Active: +12 dB, +6 dB; Passive: 0 dB, -6 dB)"
+  },
+  {
+   "label": "RF Overload LED Threshold",
+   "value": "-5 dBm"
+  },
+  {
+   "label": "Weight",
+   "value": "317 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/accessories/ua874",
+ "checked": "2026-10-18"
 }

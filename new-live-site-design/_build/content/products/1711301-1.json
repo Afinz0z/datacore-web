@@ -1,11 +1,38 @@
 {
  "sku": "1711301-1",
- "order": 3581,
+ "order": 3568,
  "n": "SINGLE FACEPLATE LJ6C UNLOADED",
  "b": "CommScope",
  "c": "Faceplate",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SINGLE BS FACEPLATE LJ6C UNLOADED",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "NETCONNECT®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Faceplate kit"
+  },
+  {
+   "label": "Product Series",
+   "value": "SL Series"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Outlet Orientation",
+   "value": "Flat"
+  },
+  {
+   "label": "Packaging Type",
+   "value": "Bag"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/faceplates-boxes/faceplates/item1711301-1/",
+ "checked": "2026-10-18"
 }

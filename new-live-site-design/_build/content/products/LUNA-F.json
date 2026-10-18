@@ -1,6 +1,6 @@
 {
  "sku": "LUNA-F",
- "order": 1138,
+ "order": 1126,
  "n": "Flexible network audio matrix processor (DSP)",
  "b": "Audac",
  "c": "DSP",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DSP",
  "d": "Flexible network audio matrix processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Inputs mic / line inputs",
+   "value": "8"
+  },
+  {
+   "label": "Inputs flex inputs / outputs",
+   "value": "8"
+  },
+  {
+   "label": "Inputs gpio inputs",
+   "value": "24 (flex)"
+  },
+  {
+   "label": "Inputs usb inputs (type c)",
+   "value": "Front (file transfer), Rear (file transfer), Mass storage for messages"
+  },
+  {
+   "label": "Outputs line outputs",
+   "value": "8"
+  },
+  {
+   "label": "Outputs gpio outputs",
+   "value": "24 (flex)"
+  },
+  {
+   "label": "Outputs fault",
+   "value": "NO & NC relay contact"
+  },
+  {
+   "label": "Network audio i/o",
+   "value": "16x16 Dante™/AES67 I/O Channels (Up to 64x64 Channels with SL-NAC8)"
+  },
+  {
+   "label": "Zones",
+   "value": "32 Mono, 16 Stereo"
+  },
+  {
+   "label": "Configurable settings phantom power on inputs",
+   "value": "+48 V DC"
+  },
+  {
+   "label": "Configurable settings wavetune (input & zone)",
+   "value": "7-band EQ"
+  },
+  {
+   "label": "Configurable settings wavepreset (output)",
+   "value": "12xBiquad +LP+HP"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/luna-f---flexible-network-audio-matrix-processor",
+ "checked": "2026-10-18"
 }

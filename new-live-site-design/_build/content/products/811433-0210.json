@@ -1,11 +1,62 @@
 {
  "sku": "811433-0210",
- "order": 667,
+ "order": 658,
  "n": "AMU105-White",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "AMU105 100X100 OUTDOOR LDSPK WHT",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Environmental",
+   "value": "Indoor or outdoor. IP55-rated for direct exposure outdoor ratings"
+  },
+  {
+   "label": "Grille",
+   "value": "3 layers (perforated stainless steel, acoustic foam, stainless-steel mesh), powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55 per EN60529; IP33C per EN 54-24"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "2 × M8 threaded inserts for U-bracket, 2 × M8 threaded inserts on rear (75 mm, 2-bolt pattern)"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "90 Hz – 18,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "100°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "116 dB (free field), 118 dB (wall/ceiling)"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "100 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "400 W"
+  },
+  {
+   "label": "Sensitivity (SPL/1 W at 1 m)",
+   "value": "90 dB (free field), 92 dB (wall/celling)"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/surface-mount/amu/arenamatch-amu105-compact-high-performance-loudspeaker",
+ "checked": "2026-10-18"
 }

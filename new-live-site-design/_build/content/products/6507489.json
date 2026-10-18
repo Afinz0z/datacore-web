@@ -1,6 +1,6 @@
 {
  "sku": "6507489",
- "order": 1772,
+ "order": 1760,
  "n": "6x2 4K HDMI® Switcher (HD-MD6X2-4K-E)",
  "b": "Crestron",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HD-MD6X2-4K-E",
  "d": "HD-MD6X2-4K-E 6x2 4K HDMI® Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI® w/Deep Color, 3D, & 4K (DVI & DisplayPort Multimode compatible)"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI w/Deep Color, 3D, & 4K (DVI compatible)"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "HDMI (DisplayPort Multimode compatible)"
+  },
+  {
+   "label": "Audio output signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, DTS®, DTS-ES, DTS 96/24, DTS-HD High Res, DTS-HD Master Audio™, LPCM up to 8 channels"
+  },
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, DHCP, Web browser setup and control, Crestron control system integration"
+  },
+  {
+   "label": "USB",
+   "value": "For factory use only"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP, EDID"
+  },
+  {
+   "label": "Display Type",
+   "value": "2x20 character alphanumeric OLED"
+  },
+  {
+   "label": "Functions",
+   "value": "Displays setup and configuration menus, signal information, customizable input names"
+  },
+  {
+   "label": "Power Pack",
+   "value": "0.75 Amps @ 24 Volts DC; 100-240 Volts AC, 50/60 Hz power pack, model PW-2407WU included"
+  },
+  {
+   "label": "Enclosure chassis",
+   "value": "Metal, black finish, vented sides"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/HDMI-Solutions/HDMI-Switchers/HD-MD6X2-4K-E",
+ "checked": "2026-10-18"
 }

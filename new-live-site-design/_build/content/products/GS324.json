@@ -1,11 +1,62 @@
 {
  "sku": "GS324",
- "order": 2892,
+ "order": 2880,
  "n": "24PT GE UNMANAGED SWITCH (NON-POE)",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24-Port Gigabit Ethernet Unmanaged Switch Switch (NON-POE)",
- "specs": []
+ "specs": [
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "24"
+  },
+  {
+   "label": "Connector Type",
+   "value": "Metal"
+  },
+  {
+   "label": "Switch Housing",
+   "value": "Metal"
+  },
+  {
+   "label": "LEDs",
+   "value": "Power, Speed, Link/Activity"
+  },
+  {
+   "label": "Short cable power saving",
+   "value": "Yes"
+  },
+  {
+   "label": "MAC Table Size",
+   "value": "8K"
+  },
+  {
+   "label": "Power",
+   "value": "Internal (AC: 110-240V, 50-60Hz, 1.0A max)"
+  },
+  {
+   "label": "Acoustic Noise Level @ 25° C (dBA)",
+   "value": "0 dBA (Fanless)"
+  },
+  {
+   "label": "MTBF (@ 25° C)",
+   "value": "620,798 hours"
+  },
+  {
+   "label": "Electromagnetic compliance (A or B)",
+   "value": "Class A"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Desktop, wall-mountable, or rack-mountable"
+  }
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/unmanaged/gs324v2/",
+ "checked": "2026-10-18"
 }

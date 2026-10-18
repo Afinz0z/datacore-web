@@ -1,6 +1,6 @@
 {
  "sku": "DPA616",
- "order": 905,
+ "order": 896,
  "n": "Sixteen-channel Class-D amplifier 16 x 60W",
  "b": "Audac",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Amplifier",
  "d": "Sixteen-channel Class-D amplifier 16 x 60W",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Signal / noise",
+   "value": "> 100 dB"
+  },
+  {
+   "label": "Thd+n (@ 1 khz)",
+   "value": "< 0.1%"
+  },
+  {
+   "label": "Technology",
+   "value": "Class-D"
+  },
+  {
+   "label": "Inputs sensitivity",
+   "value": "-20 dB ~ +20 dB"
+  },
+  {
+   "label": "Inputs connector",
+   "value": "3-pin Euro Terminal Block (Pitch - 3.81 mm)"
+  },
+  {
+   "label": "Outputs connector",
+   "value": "4-pin Euro Terminal Block (Pitch - 5.08 mm)"
+  },
+  {
+   "label": "Power source",
+   "value": "100 ~ 240 V AC / 50 ~ 60 Hz"
+  },
+  {
+   "label": "Protection",
+   "value": "DC Short circuit, Over heating, Over load, Signal limiting"
+  },
+  {
+   "label": "Continuous power (aes) @ 4 ω stereo",
+   "value": "16 x 60 W"
+  },
+  {
+   "label": "Continuous power (aes) @ 8 ω bridge",
+   "value": "8 x 120 W"
+  },
+  {
+   "label": "Continuous power (aes) @ 8 ω stereo",
+   "value": "16 x 30 W"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/dpa616---sixteen-channel-class-d-amplifier-16-x-60w",
+ "checked": "2026-10-18"
 }

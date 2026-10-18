@@ -1,13 +1,62 @@
 {
  "sku": "GS728TX",
- "order": 2886,
+ "order": 2874,
  "n": "24-Port Gigabit Ethernet Smart Managed Switch with 4 10G SFP+",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24P GE SMART SWTH W/10G SFP+",
- "specs": [],
+ "specs": [
+  {
+   "label": "Width",
+   "value": "440mm"
+  },
+  {
+   "label": "Depth",
+   "value": "257mm"
+  },
+  {
+   "label": "Height",
+   "value": "43mm"
+  },
+  {
+   "label": "10/100Mbps ports",
+   "value": "24"
+  },
+  {
+   "label": "10G SFP+ ports",
+   "value": "4"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS728TX-12",
   "DRV-GS728TX-36",
@@ -15,5 +64,7 @@
   "DRV-GS728TXUP-12",
   "DRV-GS728TXUP-36",
   "DRV-GS728TXUP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs728txv3/",
+ "checked": "2026-10-18"
 }

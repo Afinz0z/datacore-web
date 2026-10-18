@@ -1,14 +1,41 @@
 {
  "sku": "760148502",
- "order": 3985,
+ "order": 3967,
  "n": "Fusion Splice Tray Kit",
  "b": "CommScope",
  "c": "splice tray",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fusion Splice Tray Kit, stackable, large format ( Accepts 48 splices)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber splice tray"
+  },
+  {
+   "label": "Application",
+   "value": "For 360G2 and G2 shelves"
+  },
+  {
+   "label": "Splice Trays",
+   "value": "Included"
+  },
+  {
+   "label": "Splicing Capacity, maximum",
+   "value": "48"
+  },
+  {
+   "label": "Splicing Type",
+   "value": "Heat shrink"
+  }
+ ],
  "for": [
   "760231514"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-splice-trays-wallets/item760148502/",
+ "checked": "2026-10-18"
 }

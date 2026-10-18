@@ -1,11 +1,42 @@
 {
  "sku": "GSM4230P-100EUS",
- "order": 2894,
+ "order": 2882,
  "n": "24x1G PoE+ 300W 2x1G and 4xSFP Managed Switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "MANAGED SWITCH PREMIUM -24x1G PoE+ 300W 2x1G and 4xSFP Managed Switch",
- "specs": []
+ "specs": [
+  {
+   "label": "Primary Port Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "30 (24x 1G PoE+, 2x 1G, 4x SFP)"
+  },
+  {
+   "label": "PoE Ports / Budget",
+   "value": "24 PoE+ (30W/port), 300W Budget"
+  },
+  {
+   "label": "Acoustics",
+   "value": "Fanless or 34dB@25ºC"
+  },
+  {
+   "label": "Dimensions (WxDxH)",
+   "value": "440 x 257 x 43.2 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "4.3Kg (9.47lb)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "With PoE: 401W/1369.01Btu/hr; Without PoE: 35.8W/122.22Btu/hr; Standby without any port connection: 23.4W/79.89Btu/hr"
+  }
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/fully-managed/gsm4230p/",
+ "checked": "2026-10-18"
 }

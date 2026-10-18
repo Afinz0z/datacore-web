@@ -1,11 +1,46 @@
 {
  "sku": "760245075",
- "order": 3955,
+ "order": 3937,
  "n": "6-Port LC Single-Mode Fiber Adapter Pack",
  "b": "CommScope",
  "c": "Fiber adaptor",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The CommScope PNL-BK-006-SFA-LC02-BL-NS is a 1000-style fiber adapter pack designed for use with CommScope fiber panels and enclosures. It includes three duplex LC/UPC single-mode adapters, providing six fiber ports for high-density fiber termination in enterprise and data center environments.",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber adapter pack"
+  },
+  {
+   "label": "Product Series",
+   "value": "1000-style"
+  },
+  {
+   "label": "Adapter Color",
+   "value": "Blue"
+  },
+  {
+   "label": "Body Style",
+   "value": "Duplex"
+  },
+  {
+   "label": "Interface",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Shuttered",
+   "value": "No"
+  },
+  {
+   "label": "Fiber Mode",
+   "value": "Singlemode"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-adapter-packs/item760245075/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6508139",
- "order": 1530,
+ "order": 1518,
  "n": "Wall Mount Remote Temperature Sensor, White (CHVI-RTS-1G-N-W)",
  "b": "Crestron",
  "c": "Sensors",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "CHVI-RTS-1G-N-W",
  "d": "CHVI-RTS-1G-N-W Wall Mount Remote Temperature Sensor, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Measurement Range",
+   "value": "-18° to 43° C (0° to 110° F)"
+  },
+  {
+   "label": "Construction housing",
+   "value": "Metal with plastic front, white finish"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "Mounts in a 1-Gang UK (BS 4662) electrical box or 1-Gang European (DIN 49073) electrical box"
+  },
+  {
+   "label": "Faceplate",
+   "value": "Requires a Crestron FP-INTENSE or FP-PURE series faceplate (sold separately)"
+  },
+  {
+   "label": "Height",
+   "value": "71 mm (2.80 in)"
+  },
+  {
+   "label": "Width",
+   "value": "73 mm (2.88 in)"
+  },
+  {
+   "label": "Depth",
+   "value": "43 mm (1.70 in)"
+  },
+  {
+   "label": "Temperature Tolerance",
+   "value": "±0.5° C (±1° F) over full range; +0.1°/-0.4° C (±1° F) at room temperature"
+  },
+  {
+   "label": "Weight",
+   "value": "57 g (2 oz)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Climate-Control/Thermostat-Accessories/CHVI-RTS-1G-N-W",
+ "checked": "2026-10-18"
 }

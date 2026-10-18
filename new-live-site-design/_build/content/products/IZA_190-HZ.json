@@ -1,11 +1,62 @@
 {
  "sku": "IZA 190-HZ",
- "order": 923,
+ "order": 913,
  "n": "IZA 190-HZ integrated zone amplifier",
  "b": "Bose",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "FreeSpace IZA 190-HZ integrated zone amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "≤ -60 dBV below rated power, 1 kHz"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "88 dB"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "60 Hz – 20 kHz (+0 dB/-3 dB) at 1 W, 1 kHz reference"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "2"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "90 W at 70V, 100V"
+  },
+  {
+   "label": "THD+N",
+   "value": "≤ 1% at full rated power"
+  },
+  {
+   "label": "Adjustment Range",
+   "value": "-20 dB to +20 dB, line / 0 dB to +50 dB, mic/line / 0 dB to +50 dB, page / fixed, auxiliary"
+  },
+  {
+   "label": "Input Channels",
+   "value": "2 unbalanced, line + 1 balanced, mic/line + 1 balanced, mic (page) + 1 unbalanced, line (auxiliary)"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(1) RCA stereo pair, (1) XLR-1/4-in combo, (1) 4-pin Euroblock, (1) 1/8-in (3.5 mm) TRS"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "20 kΩ, line / 2 kΩ, mic/line / 2 kΩ, page / 20 kΩ, auxiliary"
+  },
+  {
+   "label": "Input Range",
+   "value": "-10 dBV to +10 dBV, line / -60 dBV to +10 dBV, mic/line / -60 dBV to +10 dBV, page / 0 dBV to +10 dBV, auxiliary"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/mixer-amps/iza/freespace-iza-190-hz-integrated-zone-amplifier",
+ "checked": "2026-10-18"
 }

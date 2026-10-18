@@ -1,6 +1,6 @@
 {
  "sku": "LGWM-3790F",
- "order": 2691,
+ "order": 2679,
  "n": "Fixed Wall Mount-LGWM-3790F (37-90 inch)",
  "b": "Logic",
  "c": "Mount",
@@ -9,19 +9,37 @@
  "d": "Logic Fixed Wall Mount Bracket Support 37″ to 90″ Flat Panels, Max Loading Capacity - 75Kg",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Max. Load",
+   "value": "165 lbs (75 kg)"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "37” to 90”"
+  },
+  {
+   "label": "VESA",
+   "value": "100x100 to 800x400"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "1.9 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "2.1 kg"
+  },
+  {
+   "label": "Shipping Dimension (L × W × H)",
+   "value": "680x160x30 mm"
   }
  ],
  "for": [
   "1203626",
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "98UM5K-B",
   "CDE105UW",
   "CDE4330",
@@ -78,5 +96,7 @@
   "U8640",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgwm-3790f",
+ "checked": "2026-10-18"
 }

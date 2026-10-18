@@ -1,11 +1,54 @@
 {
  "sku": "M822IO",
- "order": 1321,
+ "order": 1309,
  "n": "Audio Input Output Module",
  "b": "TOA",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
  "d": "Remote Audio Input Output Panel",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "24 V DC Powered by M-8080D or M-804EX or external"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Controls",
+   "value": "Volume / Routing"
+  },
+  {
+   "label": "Indicator",
+   "value": "LED Audio Input: 2x Signal (Green), 2x Peak (Red); LED Audio Output: 2x Signal (Green), 2x Peak (Red)"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "79 dB"
+  },
+  {
+   "label": "Outputs",
+   "value": "Audio Output; Line output 1 - 2: 0 dBV, 1.8 kOhm, Maximum output 20 dBu (7.75V), electronic balanced, screw terminal (3 pins x 2)"
+  },
+  {
+   "label": "Sampling frequency",
+   "value": "48 kHz, 24 bit"
+  },
+  {
+   "label": "Finish",
+   "value": "PC resin, ABS resin, traffic white (RAL 9016 or equivalent)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "147 x 86 x 52 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.3 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/m-822io-eb/",
+ "checked": "2026-10-18"
 }

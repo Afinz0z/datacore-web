@@ -1,14 +1,65 @@
 {
  "sku": "BTQ-VM450",
- "order": 1136,
+ "order": 1124,
  "n": "PAVA Controller",
  "b": "Ateis",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
  "d": "PAVA Controller,4 Zone,Amp 500 W includes a redundant Amplifier",
- "specs": [],
+ "specs": [
+  {
+   "label": "AC power input",
+   "value": "100 VAC ~ 240 VAC, 50/60 Hz"
+  },
+  {
+   "label": "Audio characteristics frequency response",
+   "value": "20 Hz ~ 20 kHz (±1 dB) @ 0 dBu"
+  },
+  {
+   "label": "Audio characteristics SNR",
+   "value": "> 80 dB"
+  },
+  {
+   "label": "Audio characteristics THD+N",
+   "value": "< 0.02 % @ 30 dB gain, -24 dBu (1 kHz) in"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "> 70 dB @ 42 dB gain, 0 dBu (10 kHz) in"
+  },
+  {
+   "label": "Internal power amplifier frequency response",
+   "value": "50 Hz ~ 18 kHz (±3 dB) 0 dBu"
+  },
+  {
+   "label": "Internal power amplifier THD+N",
+   "value": "< 0.1 % @ 42 dB gain, 0 dBu (A kHz) in"
+  },
+  {
+   "label": "Internal power amplifier SNR",
+   "value": "> 90 dB"
+  },
+  {
+   "label": "Mounting",
+   "value": "19\" 2U rack"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL7016"
+  },
+  {
+   "label": "Battery power supply",
+   "value": "48 VDC"
+  },
+  {
+   "label": "Dimensions (W x H x D)",
+   "value": "437 x 88 x 412 mm"
+  }
+ ],
  "acc": [
   "NET2-SS"
- ]
+ ],
+ "src": "https://www.ateis-europe.com/en/product/ateis/voice-alarm-systems/boutique-system/matrix/btq-vm4vm8/pava-controller",
+ "checked": "2026-10-18"
 }

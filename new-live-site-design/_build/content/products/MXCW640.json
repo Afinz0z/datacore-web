@@ -1,10 +1,49 @@
 {
  "sku": "MXCW640",
- "order": 584,
+ "order": 575,
  "n": "Wireless Conference Unit",
  "b": "Shure",
  "c": "Audio Conference System",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Headphone Output",
+   "value": "yes, 2"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Portable"
+  },
+  {
+   "label": "Buttons",
+   "value": "Speak/Function, Power"
+  },
+  {
+   "label": "NFC Card Slot",
+   "value": "yes"
+  },
+  {
+   "label": "RF Frequency range",
+   "value": "2.4 GHz and 5 GHz"
+  },
+  {
+   "label": "Battery life",
+   "value": ">11 hours"
+  },
+  {
+   "label": "Maximum number of conference units",
+   "value": "125"
+  },
+  {
+   "label": "Maximum number of active microphones",
+   "value": "8"
+  },
+  {
+   "label": "Weight",
+   "value": "1210 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/mxcw/mxcw640",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "Desono P60DT-W",
- "order": 626,
+ "order": 617,
  "n": "6.5\" two-way, pendant loudspeaker 70-100 volt / 60 watts (Desono P60DT-W)",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Desono P60DT-W",
  "d": "6.5\" two-way, pendant loudspeaker 70-100 volt / 60 watts, 16 ohms / 120 watts, white",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "10.4 inches (264 mm)"
+  },
+  {
+   "label": "Diameter",
+   "value": "10.9 inches (276 mm)"
+  },
+  {
+   "label": "Finish",
+   "value": "RAL Color: White RAL 9003"
+  },
+  {
+   "label": "Power",
+   "value": "60W Cont.; 240W Peak"
+  },
+  {
+   "label": "Recommended Amplifiers",
+   "value": "60W - 120W @ 16Ω (31V - 44V)"
+  },
+  {
+   "label": "Control",
+   "value": "Power tap / low impedance selector switch"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "2-way 6.5-inch pendant mount loudspeaker"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "120° conical"
+  },
+  {
+   "label": "Transducers",
+   "value": "LF 1 x 6.5 inches (165 mm) coated paper cone HF 1 x 1 inch (25 mm) soft dome"
+  },
+  {
+   "label": "Transformer",
+   "value": "70V: 60W, 30W, 15W, 7.5W, 3.75W; 100V: 60W, 30W, 15W, 7.5W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "(1W/1m) 89 dB"
+  },
+  {
+   "label": "Dispersion",
+   "value": "120° conical"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-P60DT-W/ecom-item/920-00647-20000",
+ "checked": "2026-10-18"
 }

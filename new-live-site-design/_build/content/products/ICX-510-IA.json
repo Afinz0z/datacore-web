@@ -1,6 +1,6 @@
 {
  "sku": "ICX-510-IA",
- "order": 4434,
+ "order": 4413,
  "n": "Intelligent Communications Gateway central server for Intercom",
  "b": "Zenitel",
  "c": "Server",
@@ -9,13 +9,59 @@
  "d": "ICX-510 Gateway incl ICX-AlphaCom Core",
  "specs": [
   {
-   "label": "Type",
-   "value": "Intercom server"
+   "label": "Power",
+   "value": "Nominal 24VDC - 48VDC, 15 W (min/max: 20VDC-63VDC)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wallmount or 19” rack"
+  },
+  {
+   "label": "Processor subsystem",
+   "value": "NXP LS1043"
+  },
+  {
+   "label": "Busy Hour Call",
+   "value": "60 000 BHCA"
+  },
+  {
+   "label": "Network ports",
+   "value": "High speed, up to 1 gigabit per second"
+  },
+  {
+   "label": "Software Integrity Check",
+   "value": "SHA256"
+  },
+  {
+   "label": "IP Priority",
+   "value": "DiffServ, IP TOS"
+  },
+  {
+   "label": "IP Security",
+   "value": "Hardware root of trust, SSH, HTTPS, firewall"
+  },
+  {
+   "label": "SIP",
+   "value": "RFC 3261, SIP INFO, RE-Invite. RFC 2833, RFC 4733"
+  },
+  {
+   "label": "VoIP Internal Networking",
+   "value": "64 channels"
+  },
+  {
+   "label": "VoIP External Networking",
+   "value": "64 channels"
+  },
+  {
+   "label": "ISDN Trunk",
+   "value": "ISDN PRI (30 channels); VoIP external networking + gateway"
   }
  ],
  "acc": [
   "IA-RS1",
   "ILR-U64",
   "IPS-AC1"
- ]
+ ],
+ "src": "https://www.zenitel.com/product/icx-510-ia-intelligent-communication-gateway",
+ "checked": "2026-10-18"
 }

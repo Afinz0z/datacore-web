@@ -1,14 +1,65 @@
 {
  "sku": "6511850",
- "order": 528,
+ "order": 519,
  "n": "Presentation System-DMPS3-4K-250-C",
  "b": "Crestron",
  "c": "Presentation System",
  "dept": "AV",
  "avail": "lead",
  "d": "Crestron DMPS3-4K-250-C 3-Series® 4K DigitalMedia™ Presentation System 250 8x2 AV switcher 4K and Ultra HD video support",
- "specs": [],
+ "specs": [
+  {
+   "label": "Flash",
+   "value": "4 GB"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, auto-switching, auto-negotiating, autodiscovery, full/half duplex, industry-standard TCP/IP stack, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), FIPS 140-2 compliant encryption"
+  },
+  {
+   "label": "Control Subnet",
+   "value": "100/1000 Mbps Ethernet, auto-switching, autonegotiating, auto-discovery, full/half duplex, DHCP server, DNS Server, port forwarding, Isolation Mode, IEEE 802.3at Type 1 compliant PoE PSE"
+  },
+  {
+   "label": "AirMedia",
+   "value": "(Via Ethernet) 100 Mbps, IPv4, DHCP, TLS, AES, mDNS, HTTPS web server"
+  },
+  {
+   "label": "Streaming",
+   "value": "(Via Ethernet) 100 Mbps, DHCP, H.264 decoding, MJPEG decoding, HDCP 2.2, RTP, RTSP, SDP"
+  },
+  {
+   "label": "Cresnet",
+   "value": "Cresnet master mode"
+  },
+  {
+   "label": "USB",
+   "value": "USB signal routing via select DM transmitters and receivers, or via USB-EXT-DM series extenders; USB device port for computer console (setup)"
+  },
+  {
+   "label": "RS-232",
+   "value": "2-way device control and monitoring up to 115.2k baud with hardware and software handshaking"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "1-way device control via infrared up to 1.2 MHz or serial TTL/ RS-232 (0-5V) up to 115.2k baud"
+  },
+  {
+   "label": "DigitalMedia",
+   "value": "DM 8G+, HDCP 2.2, EDID, CEC, PoDM+, Ethernet"
+  },
+  {
+   "label": "HDBaseT",
+   "value": "HDCP 2.2, EDID, CEC, RS-232, PoE+, Ethernet"
+  },
+  {
+   "label": "HDMI®",
+   "value": "HDCP 2.2, EDID, CEC"
+  }
+ ],
  "acc": [
   "SW-DMPS3-AIRMEDIA"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/All-In-One-Solutions/DigitalMedia-Presentation-Switchers/DMPS3-4K-250-C",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "86TR3DQ",
- "order": 65,
+ "order": 59,
  "n": "Display 86 inch",
  "b": "LG",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "86\" interactive display",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size (Inch)",
+   "value": "86\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "IPS"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Direct"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz"
+  },
+  {
+   "label": "Brightness",
+   "value": "400nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1200:1"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "5000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "NTSC 72%"
+  },
+  {
+   "label": "Viewing Angle (H x V)",
+   "value": "178 x 178"
+  },
+  {
+   "label": "Color Depth (Number of Colors)",
+   "value": "8bit+FRC, 1.07G"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-86tr3dq-b",
+ "checked": "2026-10-18"
 }

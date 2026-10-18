@@ -1,14 +1,65 @@
 {
  "sku": "565801",
- "order": 2045,
+ "order": 2033,
  "n": "IPTV Headend T.0X Streamer with remultiplex-U3QIP-S2-CI",
  "b": "Televes",
  "c": "Streaming Processor",
  "dept": "AV",
  "avail": "lead",
  "d": "T.0X DVBS/S2-IP CI MUX 3TP(2SAT) : 32IP STR",
- "specs": [],
+ "specs": [
+  {
+   "label": "Input frequency range",
+   "value": "950 ... 2150 MHz"
+  },
+  {
+   "label": "Symbol Rate",
+   "value": "2 ... 45 Mbaud"
+  },
+  {
+   "label": "Frequency steps",
+   "value": "1 MHz"
+  },
+  {
+   "label": "Input level",
+   "value": "-60 ... -20 dBm"
+  },
+  {
+   "label": "Input impedance",
+   "value": "75 Ω"
+  },
+  {
+   "label": "Through losses",
+   "value": "< 1.5 dB"
+  },
+  {
+   "label": "Modulations DVB-S2",
+   "value": "8PSK / QPSK"
+  },
+  {
+   "label": "Modulations DVB-S",
+   "value": "QPSK"
+  },
+  {
+   "label": "FEC inner code",
+   "value": "LDPC (9/10, 8/9, 5/6, 4/5, 3/4, 2/3, 3/5, 1/2)"
+  },
+  {
+   "label": "FEC outer code",
+   "value": "BCH (Bose-Chaudhuri-Hocquenghem)"
+  },
+  {
+   "label": "Roll-off factor",
+   "value": "20% / 25% / 35%"
+  },
+  {
+   "label": "VSWR Min",
+   "value": "10.0000"
+  }
+ ],
  "acc": [
   "5301"
- ]
+ ],
+ "src": "https://www.televes.com/en/565801-streamer-with-remultiplexing-dvbs-s2-ip-with-ci.html",
+ "checked": "2026-10-18"
 }

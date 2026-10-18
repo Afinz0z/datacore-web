@@ -1,6 +1,6 @@
 {
  "sku": "BS-1034EN",
- "order": 885,
+ "order": 876,
  "n": "10W Wall Mount Speaker EN54-24",
  "b": "TOA",
  "c": "Speaker",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "WALL MOUNT SPEAKER",
  "d": "10W WALL MOUNT SPEAKER EN54-24",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "120 Hz - 20 kHz"
+  },
+  {
+   "label": "Sensitivity (1 W, 1 m)",
+   "value": "89 dB"
+  },
+  {
+   "label": "Max. SPL (1 m)",
+   "value": "94 dB"
+  },
+  {
+   "label": "Rated input (100 V)",
+   "value": "10 W"
+  },
+  {
+   "label": "Tappings (100 V)",
+   "value": "100 V line: 1 kΩ (10 W) / 2 kΩ (5 W) / 3.3 kΩ (3 W) / 10 kΩ (1 W); 70 V line: 500 Ω (10 W)/ 1 kΩ (5 W)/ 2 kΩ (2.5 W) / 3.3 kΩ (1.5 W) / 10 kΩ (0.5 W)"
+  },
+  {
+   "label": "Speaker component",
+   "value": "Low: 5\" cone-type High balanced dome tweeter"
+  },
+  {
+   "label": "Finish",
+   "value": "HIPS resin, off-white (RAL 9010 or equivalent)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "208 x 327 x 79 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.4 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/bs-1034en/",
+ "checked": "2026-10-18"
 }

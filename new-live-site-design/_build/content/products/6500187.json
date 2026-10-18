@@ -1,6 +1,6 @@
 {
  "sku": "6500187",
- "order": 5143,
+ "order": 5121,
  "n": "PW-2420RU Desktop Power Pack, 24 VDC, 2.5 A, 2.1 mm (6500187)",
  "b": "Crestron",
  "c": "Accessories",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "6500187",
  "d": "PW-2420RU Desktop Power Pack, 24 VDC, 2.5 A, 2.1 mm",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Requirements",
+   "value": "1.3 Amps (maximum) @ 100-240 VAC, 50/60 Hz"
+  },
+  {
+   "label": "Line connection",
+   "value": "(1) IEC 60320 C7 main power input"
+  },
+  {
+   "label": "Load connection",
+   "value": "(1) 6 ft (1.83 m) attached cable with 2.1 x 5.5 mm DC power barrel connector"
+  },
+  {
+   "label": "Construction",
+   "value": "Plastic, black, desktop"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "0% to 90% RH (non-condensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/Power-Packs/PW-2420RU",
+ "checked": "2026-10-18"
 }

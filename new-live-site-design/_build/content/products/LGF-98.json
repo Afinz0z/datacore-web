@@ -1,6 +1,6 @@
 {
  "sku": "LGF-98",
- "order": 2689,
+ "order": 2677,
  "n": "Fixed Wall Mount-LGF-98 (75-98 inch)",
  "b": "Logic",
  "c": "Mount",
@@ -9,14 +9,36 @@
  "d": "Fixed Wall Mount Bracket LGF-98 Support 75\" to 98\" Flat Panels. Max Loading Capacity - 110Kg",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Max. Load",
+   "value": "242 lbs (110 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "100×100 to 1000×600"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "75″ to 98″"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "6.3 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "6.8 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "1210x90x90 mm"
   }
  ],
  "for": [
-  "55UH5N-E",
   "75UH7N",
-  "86UL3J-B",
   "98TR3DK-B",
   "98UM5K",
   "CDE7514-2C",
@@ -48,5 +70,7 @@
   "PN-LC862",
   "PN-M752",
   "V8650"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgf-98",
+ "checked": "2026-10-18"
 }

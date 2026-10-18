@@ -1,11 +1,62 @@
 {
  "sku": "NPM200",
- "order": 4302,
+ "order": 4281,
  "n": "paging console",
  "b": "Audac",
  "c": "Paging mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Dante™/AES67 paging console",
- "specs": []
+ "specs": [
+  {
+   "label": "Microphone",
+   "value": "Optional (not included)"
+  },
+  {
+   "label": "Indicators",
+   "value": "Fully configurable touchscreen interface"
+  },
+  {
+   "label": "Configuration",
+   "value": "Audac Touch™"
+  },
+  {
+   "label": "Pre-recorded messages",
+   "value": "Yes"
+  },
+  {
+   "label": "Pre-programmed events",
+   "value": "Yes"
+  },
+  {
+   "label": "Integrated dsp",
+   "value": "Yes (EQ, Filters, ...)"
+  },
+  {
+   "label": "Integrated chime",
+   "value": "Yes (Programmable)"
+  },
+  {
+   "label": "Phantom power",
+   "value": "+48 V DC"
+  },
+  {
+   "label": "Connectors",
+   "value": "XLR Female (mic in), RJ45 (network + PoE)"
+  },
+  {
+   "label": "Colours",
+   "value": "Black (RAL9005)"
+  },
+  {
+   "label": "Construction",
+   "value": "Die-cast metal"
+  },
+  {
+   "label": "Finish front finish",
+   "value": "Elegant front panel with glass"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/npm200---dante-aes67-paging-console",
+ "checked": "2026-10-18"
 }

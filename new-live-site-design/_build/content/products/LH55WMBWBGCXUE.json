@@ -1,6 +1,6 @@
 {
  "sku": "LH55WMBWBGCXUE",
- "order": 103,
+ "order": 95,
  "n": "55 Interactive Display Flip Pro (LH55WMBWBGCXUE)",
  "b": "Samsung",
  "c": "Displays",
@@ -10,8 +10,54 @@
  "d": "Samsung 55 Interactive Display Flip Pro",
  "specs": [
   {
-   "label": "Type",
-   "value": "Interactive"
+   "label": "Diagonal Size",
+   "value": "55\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "VA"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.315 x 0.315"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "350 (w/o glass), 220 (w/glass)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4000:1(without glass)"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72%"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "2%(without glass)"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81 khz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594Mhz"
   }
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/interactive-display/flip-pro-wm55b-interactive-display-lh55wmbwbgcxue/",
+ "checked": "2026-10-18"
 }

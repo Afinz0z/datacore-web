@@ -1,6 +1,6 @@
 {
  "sku": "5-1933433-3",
- "order": 4001,
+ "order": 3983,
  "n": "Modular Plug Kit, Category 6A, shielded, 8-position",
  "b": "CommScope",
  "c": "MODULAR PLUG KIT",
@@ -10,11 +10,57 @@
  "d": "Modular Plug Kit, Category 6A, shielded, 8-position, 7.87 mm max cable jack OD, 100/bag For 3291B F/UTP Cable",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Pack"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular plug"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Round, shielded"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Interface",
+   "value": "RJ45"
+  },
+  {
+   "label": "Positions/Loaded Contacts",
+   "value": "8/8"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
+  },
+  {
+   "label": "Contact Plating Thickness",
+   "value": "1.27 µm"
+  },
+  {
+   "label": "Insulation Resistance, minimum",
+   "value": "500 MOhm"
+  },
+  {
+   "label": "Plug Insertion Life, minimum",
+   "value": "1000 times"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "UL 1863"
   }
  ],
  "for": [
   "2153365-2"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-plugs-accessories/category-6a-plugs/item5-1933433-3/",
+ "checked": "2026-10-18"
 }

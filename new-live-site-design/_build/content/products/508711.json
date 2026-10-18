@@ -1,14 +1,65 @@
 {
  "sku": "508711",
- "order": 1080,
+ "order": 1069,
  "n": "Headmic Set-EW-D ME3 SET (R1-6)",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "EW-D ME3 SET Digital wireless Cardioid headset microphone",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Pre-polarised condenser"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "520.000 - 576.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB) @ 3 dBfs"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Audio output level",
+   "value": "18 dBu max."
+  },
+  {
+   "label": "Max. sound pressure level",
+   "value": "150 dB SPL"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Connectors",
+   "value": "3.5mm"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "2.3"
+  }
+ ],
  "acc": [
   "508986"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-d-me3-set/ew-d-me3-set-r1-6-508711",
+ "checked": "2026-10-18"
 }

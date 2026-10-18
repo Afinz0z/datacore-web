@@ -1,6 +1,6 @@
 {
  "sku": "ANIUSB-Matrix",
- "order": 5204,
+ "order": 5182,
  "n": "USB Audio Network Interface with Matrix Mixing. (ANIUSB-Matrix)",
  "b": "Shure",
  "c": "Accessories",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "ANIUSB-Matrix",
  "d": "ANIUSB-MATRIX USB Audio Network Interface with Matrix Mixing.",
- "specs": []
+ "specs": [
+  {
+   "label": "Analog Inputs",
+   "value": "1 Line/Aux"
+  },
+  {
+   "label": "Analog Outputs",
+   "value": "1 Mic/Line/Aux"
+  },
+  {
+   "label": "Dante Inputs",
+   "value": "4"
+  },
+  {
+   "label": "Dante Outputs",
+   "value": "2"
+  },
+  {
+   "label": "USB Audio",
+   "value": "1 In, 1 Out with PEQ"
+  },
+  {
+   "label": "Acoustic Echo Cancelation",
+   "value": "no"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "no"
+  },
+  {
+   "label": "Automatic Mixing",
+   "value": "no"
+  },
+  {
+   "label": "Matrix Mixing",
+   "value": "yes"
+  },
+  {
+   "label": "Stereo/Mono",
+   "value": "Mono"
+  },
+  {
+   "label": "Weight",
+   "value": "668 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/mixers/aniusb-matrix",
+ "checked": "2026-10-18"
 }

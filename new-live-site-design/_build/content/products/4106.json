@@ -1,6 +1,6 @@
 {
  "sku": "4106",
- "order": 4236,
+ "order": 4218,
  "n": "Connector Compression (Tr165) Box25",
  "b": "Televes",
  "c": "IPTV Device",
@@ -9,8 +9,38 @@
  "d": "\"F\" Connector Compression (Tr165) Box25",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Lot"
+   "label": "Connector type",
+   "value": "F"
+  },
+  {
+   "label": "Connection type",
+   "value": "Male"
+  },
+  {
+   "label": "Connector mounting method",
+   "value": "Compression"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "75 Ω"
+  },
+  {
+   "label": "Width",
+   "value": "16 mm"
+  },
+  {
+   "label": "Height",
+   "value": "48 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "16 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "20 g"
   }
- ]
+ ],
+ "src": "https://www.televes.com/en/4106-f-compression-connector-ek1672plus-tr-165-underground-cable.html",
+ "checked": "2026-10-18"
 }

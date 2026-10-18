@@ -1,6 +1,6 @@
 {
  "sku": "CM30DTD",
- "order": 628,
+ "order": 619,
  "n": "ceiling speaker, T wo-way 4.25-inch ceiling loudspeaker",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "ceiling speaker",
  "d": "T wo-way 4.25-inch ceiling loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Diameter",
+   "value": "8.8 inches (223 mm); Cutout Diameter: 7.6 inches (193 mm)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Mounting Provisions: 2 mounting clamps with grip range of 0.2-inches - 2.6-inches (3 - 65 mm); Cover plate with 0.75-inches (22 mm) NPT knockout for conduit connectors"
+  },
+  {
+   "label": "Power",
+   "value": "Continuous Power Handling @ Nominal Impedance: 28V 50W @ 16Ω (200W peak)"
+  },
+  {
+   "label": "Safety Features",
+   "value": "2 hang points"
+  },
+  {
+   "label": "Loudspeaker System",
+   "value": "Protection: 3-step self-resetting protectionTransducers: LF: 1 x 4.25\" (108 mm) treated paper cone, HF: 1 x 1\" (25 mm) soft dome"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "Nominal Beamwidth (H x V): 120° conical"
+  },
+  {
+   "label": "Transformer",
+   "value": "Transformer Taps - 70V: 30W, 15W, 7.5W, 3.75W, 1.75W; Transformer Taps - 100V: 30W, 15W, 7.5W, 3.75W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "Nominal Sensitivity @ 1m: @ 1W 87 dB @ 2.83V 83 dB"
+  },
+  {
+   "label": "Input Type",
+   "value": "Input Connection: (1) 4-way Euroblock connector with permanent pass-through"
+  },
+  {
+   "label": "SPL",
+   "value": "Nominal Maximum SPL @ 1m: Peak 110 dB Continuous 104 dB"
+  },
+  {
+   "label": "Weight",
+   "value": "5.5 lbs (2.5 kg)"
+  },
+  {
+   "label": "Certifications",
+   "value": "ETL listed to comply with UL 1480A and UL 2043;; Certified to CSA C22.2#62368-1;; Suitable for use in air handling spaces per NFPA 70, NFPA 90; Conforms with City of Chicago Codes"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-CM30DTD/ecom-item/910-00632",
+ "checked": "2026-10-18"
 }

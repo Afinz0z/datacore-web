@@ -1,11 +1,62 @@
 {
  "sku": "Z0770.000",
- "order": 764,
+ "order": 755,
  "n": "XSL8 Loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "XSL8 Loudspeaker NLT4F/M 3-way line array loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "60 Hz - 18 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "90 Hz - 18 kHz"
+  },
+  {
+   "label": "Max. sound pressure with D40/D80/D90/40D",
+   "value": "141 dB"
+  },
+  {
+   "label": "Max. sound pressure 4x Cabinets with",
+   "value": "D40/D80/D90/40D: 153 dB"
+  },
+  {
+   "label": "Nominal impedance front LF",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Nominal impedance side LF/MF/HF",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Nominal dispersion angle (horizontal)",
+   "value": "80 °"
+  },
+  {
+   "label": "Splay angle settings",
+   "value": "0 … 14° (1° increment)"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 8\" front LF driver / 2 x 6.5\" side LF driver / (2x 10.3\" total equivalent LF driver size) / 1 x 6.5\" MF driver / 2 x 1\" exit compression driver with 2\" voice coil / Passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NLT4 F/M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "283 x 700 x 507 mm / 11.1 x 27.5 x 20\""
+  },
+  {
+   "label": "Weight",
+   "value": "39 kg / 86 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/sl-series/xsl8/",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "6512987",
- "order": 728,
+ "order": 719,
  "n": "SAROS IC6ULPT-W-T-EACH+",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS IC6ULPT-W-T-EACH+ Saros® 6 in. Ultra Low Profile 2-Way In-Ceiling Speaker, White Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "4 in. (102 mm) polypropylene with ring mode decoupled cloth surround and steel basket"
+  },
+  {
+   "label": "Tweeter",
+   "value": "0.98 in. (25 mm) titanium dome"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "2.5 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω nominal with transformer set to 8 Ω"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "3.75 W, 7.5 W, 15 W, 30 W at 70V; 7.5 W, 15 W, 30 W at 100V"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "120 Hz-20 kHz +/-3 dB"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "100 Hz-20 kHz +/-10 dB"
+  },
+  {
+   "label": "Power Handling",
+   "value": "35 W program (8 Ω)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "85 dB @ 1 W/1 m"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "100 dB"
+  },
+  {
+   "label": "Coverage",
+   "value": "150° conical (speech); 140° conical (music)"
+  },
+  {
+   "label": "Input connection",
+   "value": "(1) gland nut with two (2) wire pig tails; Speaker input with parallel pass through (4) water tight wire nuts"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Ceiling-Speakers/SAROS-IC6ULPT-W-T-EACH",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,46 @@
 {
  "sku": "N420.216",
- "order": 3828,
+ "order": 3840,
  "n": "CAT6 Module",
  "b": "Nexans",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LANmark-6A Keystone Connector Category 6A Unscreened",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector type",
+   "value": "RJ45 and Tool-less IDC"
+  },
+  {
+   "label": "Screen",
+   "value": "No"
+  },
+  {
+   "label": "Depth",
+   "value": "35.85 mm"
+  },
+  {
+   "label": "Height",
+   "value": "21.4 mm"
+  },
+  {
+   "label": "Width",
+   "value": "17.3 mm"
+  },
+  {
+   "label": "Range",
+   "value": "LANmark-6A"
+  },
+  {
+   "label": "Ambient installation temperature, range",
+   "value": "-10...60 °C"
+  },
+  {
+   "label": "Storage temperature, range",
+   "value": "-20...60 °C"
+  }
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/connectors/lanmark-6a-utp-keystone-connector/lanmark-6a-keystone-connector-category-6a-unscreened",
+ "checked": "2026-10-18"
 }

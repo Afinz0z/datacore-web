@@ -1,6 +1,6 @@
 {
  "sku": "760253100",
- "order": 3582,
+ "order": 3569,
  "n": "Single faceplate(systimax)",
  "b": "CommScope",
  "c": "Faceplate",
@@ -9,8 +9,54 @@
  "d": "FPUS-BS-1P-W,1 Port Unshuttered White",
  "specs": [
   {
-   "label": "Type",
-   "value": "Single port"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Faceplate kit"
+  },
+  {
+   "label": "Product Series",
+   "value": "FPUS-BS"
+  },
+  {
+   "label": "Color",
+   "value": "Pro white"
+  },
+  {
+   "label": "Integrated Dust Cover Type",
+   "value": "Dust cover"
+  },
+  {
+   "label": "Mounting",
+   "value": "Flush"
+  },
+  {
+   "label": "Outlet Orientation",
+   "value": "Flat"
+  },
+  {
+   "label": "Port Marking Type",
+   "value": "Label"
+  },
+  {
+   "label": "Height",
+   "value": "86.106 mm | 3.39 in"
+  },
+  {
+   "label": "Width",
+   "value": "86.106 mm | 3.39 in"
+  },
+  {
+   "label": "Depth",
+   "value": "12.446 mm | 0.49 in"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "UL | cUL"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/faceplates-boxes/faceplates/item760253100/",
+ "checked": "2026-10-18"
 }

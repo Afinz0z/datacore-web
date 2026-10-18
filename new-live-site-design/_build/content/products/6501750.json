@@ -1,11 +1,50 @@
 {
  "sku": "6501750",
- "order": 4289,
+ "order": 4262,
  "n": "DIN-BLOCK",
  "b": "Crestron",
  "c": "Distribution System",
  "dept": "AV",
  "avail": "lead",
  "d": "DIN-BLOCK DIN Rail Cresnet Distribution Block",
- "specs": []
+ "specs": [
+  {
+   "label": "Cresnet Power Usage",
+   "value": "0.3 Watts (0.01 Amp @ 24 Volts DC)"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "1 BTU/hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Light gray polycarbonate housing with polycarbonate label overlay, UL94 V-0 rated, 35mm DIN EN 60715 rail mount, DIN 43880 form factor for enclosures with 45mm front panel cutout, occupies 6 DIN module spaces (108mm)"
+  },
+  {
+   "label": "Height",
+   "value": "3.71 in (94.2 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.18 in (106 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.29 in (58.0 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "5.0 oz (148 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/DIN-Modules/DIN-BLOCK",
+ "checked": "2026-10-18"
 }

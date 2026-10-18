@@ -1,6 +1,6 @@
 {
  "sku": "LG STB-6500",
- "order": 4228,
+ "order": 4210,
  "n": "Set-top box (Bathroom TV) (LG STB-6500)",
  "b": "LG",
  "c": "IPTV Device",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LG STB-6500",
  "d": "Set-top box (Bathroom TV)",
- "specs": []
+ "specs": [
+  {
+   "label": "Output Resolution",
+   "value": "UHD / FHD / HD / 1,366 × 768"
+  },
+  {
+   "label": "LG Sound Sync",
+   "value": "Yes (Required Bluetooth)"
+  },
+  {
+   "label": "Digital (Terrestrial, Cable, Satellite)",
+   "value": "ATSC (Clear QAM)"
+  },
+  {
+   "label": "Analog (NTSC / SECAM / PAL)",
+   "value": "NTSC"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Pro:Centric (Smart, Direct, V), Quick Menu 4.0"
+  },
+  {
+   "label": "Pro:Centric Server",
+   "value": "PCS400R"
+  },
+  {
+   "label": "DRM",
+   "value": "Pro:Idiom (S/W Type), Pro:Idiom Media"
+  },
+  {
+   "label": "Hospitality Feature",
+   "value": "Installer Menu, One Channel Map (Logical Channel Management), External Speaker Out (Int Variable / Fixed, 3.5mm, Stereo, Line-Out, Typ. 400mVrms ± 100mVrms @10KΩ), Instant ON"
+  },
+  {
+   "label": "Upper Side",
+   "value": "External MPI Control (RJ12 Jack), MPI/MTI Television Control (RJ12 Jack),HDMI 2.0 (2, HDCP 2,2), USB 2.0"
+  },
+  {
+   "label": "Right Side",
+   "value": "60 pin interface"
+  },
+  {
+   "label": "Safety",
+   "value": "UL"
+  },
+  {
+   "label": "EMC",
+   "value": "FCC"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/commercial-tv/lg-stb-6500",
+ "checked": "2026-10-18"
 }

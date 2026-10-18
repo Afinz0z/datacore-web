@@ -1,6 +1,6 @@
 {
  "sku": "214911",
- "order": 4247,
+ "order": 4229,
  "n": "TR165 LSFH Dca/A 11RtC GR.250m (COAX.CAB.)",
  "b": "Televes",
  "c": "IPTV Device",
@@ -10,8 +10,54 @@
  "d": "COAX.CAB.TR165 LSFH Dca/A 11RtC GR.250m",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Cable type",
+   "value": "RG-11"
+  },
+  {
+   "label": "Standard",
+   "value": "EN 50117-10-2"
+  },
+  {
+   "label": "Euroclass",
+   "value": "Dca"
+  },
+  {
+   "label": "Euroclass: Smoke Production",
+   "value": "s2"
+  },
+  {
+   "label": "Euroclass: Flaming droplets",
+   "value": "d2"
+  },
+  {
+   "label": "Euroclass: Acidity",
+   "value": "a1"
+  },
+  {
+   "label": "Class",
+   "value": "A"
+  },
+  {
+   "label": "Inner conductor Diameter",
+   "value": "1.63 mm"
+  },
+  {
+   "label": "Inner conductor Resistance",
+   "value": "< 9 Ohm/km"
+  },
+  {
+   "label": "Dielectric Diameter",
+   "value": "7.2 mm"
+  },
+  {
+   "label": "Dielectric Color",
+   "value": "White RAL 9003"
+  },
+  {
+   "label": "Overlapped foil",
+   "value": "Aluminium + Polypropylene + Aluminium"
   }
- ]
+ ],
+ "src": "https://www.televes.com/en/214911-11rtc-tr-165-coaxial-cable-dca-euroclass-a-class-shielded.html",
+ "checked": "2026-10-18"
 }

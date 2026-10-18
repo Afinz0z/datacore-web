@@ -1,6 +1,6 @@
 {
  "sku": "719709",
- "order": 4240,
+ "order": 4222,
  "n": "EUROSWITCH AMPLIF.13x13 \"F\" G-/27/31dB Vo112/119 (719709)",
  "b": "Televes",
  "c": "IPTV Device",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "719709",
  "d": "EUROSWITCH AMPLIF.13x13 \"F\" G-/27/31dB Vo112/119",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of inputs",
+   "value": "13"
+  },
+  {
+   "label": "Number of outputs",
+   "value": "13"
+  },
+  {
+   "label": "Frequency range",
+   "value": "TERR 88 ... 862 MHz; SAT 950 ... 2400 MHz"
+  },
+  {
+   "label": "Output level",
+   "value": "TERR 114 dBµV; SAT 118 dBµV"
+  },
+  {
+   "label": "Gain",
+   "value": "TERR 27 dB; SAT 31 dB"
+  },
+  {
+   "label": "Gain adjustment range",
+   "value": "0 ... 20 dB"
+  },
+  {
+   "label": "Slope regulation",
+   "value": "0 ... 12 dB"
+  },
+  {
+   "label": "Isolation",
+   "value": "> 30 dB"
+  },
+  {
+   "label": "Powering",
+   "value": "12 ... 18 Vdc"
+  },
+  {
+   "label": "Protection index (IP)",
+   "value": "20"
+  },
+  {
+   "label": "Width",
+   "value": "275 mm"
+  },
+  {
+   "label": "Height",
+   "value": "122 mm"
+  }
+ ],
+ "src": "https://www.televes.com/en/719709-euroswitch-amplifier-13-inputs-27-31-db.html",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "DM5C",
- "order": 681,
+ "order": 672,
  "n": "Ceiling loudspeaker-DM5C White",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "DesignMax DM5C in-ceiling loudspeaker,DesignMax Ceiling Speaker White",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "White grille (similar to RAL 9003), black grille (similar to RAL 9005), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Indoor only"
+  },
+  {
+   "label": "Grille",
+   "value": "Magnetically attached perforated steel, powder-coated finish, paintable, with safety tether"
+  },
+  {
+   "label": "Ceiling Cutout",
+   "value": "9.8 in (250 mm)"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "(3) QuickHold spring-loaded mounting arms, (3) safety cable attachment points"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "65 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "130° conical"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "105 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "60 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "240 W"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/ceiling-mount/designmax/designmax-dm5c-1-pair",
+ "checked": "2026-10-18"
 }

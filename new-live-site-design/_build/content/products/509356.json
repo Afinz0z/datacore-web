@@ -1,11 +1,62 @@
 {
  "sku": "509356",
- "order": 1196,
+ "order": 1184,
  "n": "EW-DX EM 2 DANTE (Q1-9)",
  "b": "Sennheiser",
  "c": "Mic Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "EW-DX EM 2 DANTE (Q1-9) - 2 channel half-rack (9,5“) Dante® receiver. Includes (1) EW-DX EM 2 DANTE, (2) 1/4 wave antenna, (1) rack mount kit, and (1) EW-D power supply Q1-9 470.2 - 550 MHz",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Condenser"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "470.200 - 550.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB)"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Audio output level",
+   "value": "18 dBu max."
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Omnidirectional, Cardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Audio output",
+   "value": "2x 70 mW @ 32 Ω"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Charging current (mA)",
+   "value": "≤ 1 A at 12 V DC"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-dx-em-2-dante/ew-dx-em-2-dante-q1-9-509356",
+ "checked": "2026-10-18"
 }

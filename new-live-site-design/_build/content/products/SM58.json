@@ -1,6 +1,6 @@
 {
  "sku": "SM58",
- "order": 1096,
+ "order": 1085,
  "n": "Cardioid microphone (SM58)",
  "b": "Shure",
  "c": "Mic",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "SM58",
  "d": "Cardioid microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensitivity",
+   "value": "-54.50 dBV/Pa–1.60 mV/Pa"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "50 Hz–15 kHz"
+  },
+  {
+   "label": "Impedance (Ω)",
+   "value": "300"
+  },
+  {
+   "label": "Impedance",
+   "value": "Rated impedance is 150Ω (300Ω actual) for connection to microphone inputs rated low impedance"
+  },
+  {
+   "label": "Case",
+   "value": "Dark gray, enamel-painted, die cast metal; matte-finished, silver colored, spherical steel mesh grille"
+  },
+  {
+   "label": "Weight",
+   "value": "298 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/microphones/sm58",
+ "checked": "2026-10-18"
 }

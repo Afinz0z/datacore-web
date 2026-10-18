@@ -1,13 +1,62 @@
 {
  "sku": "EB-L260F",
- "order": 294,
+ "order": 286,
  "n": "Projector -EB-L260F",
  "b": "Epson",
  "c": "Projector",
  "dept": "AV",
  "avail": "lead",
  "d": "EB-L260F - 4,600 lumens brightness display",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection System",
+   "value": "Epson 3LCD, 3-chip technology"
+  },
+  {
+   "label": "LCD Panel",
+   "value": "0.62-inch"
+  },
+  {
+   "label": "Zoom",
+   "value": "1 – 1.62 (Optical Zoom)"
+  },
+  {
+   "label": "Screen Size",
+   "value": "31\" to 310\""
+  },
+  {
+   "label": "Projection Distance",
+   "value": "62\" screen 1.8 m"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "1.32 (Zoom: Wide) – 2.12 (Zoom: Tele)"
+  },
+  {
+   "label": "Projection Lens F Number",
+   "value": "1.51 – 1.77"
+  },
+  {
+   "label": "Projection Lens Focal Length",
+   "value": "18.2 mm – 29.1 mm"
+  },
+  {
+   "label": "Focus Method",
+   "value": "Manual Focus"
+  },
+  {
+   "label": "Offset",
+   "value": "10:0"
+  },
+  {
+   "label": "Light Source",
+   "value": "Laser Diode"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  }
+ ],
  "acc": [
   "CMS0305",
   "CMS115",
@@ -18,5 +67,7 @@
   "ELPLW06",
   "ELPLW08",
   "SI-H L 300"
- ]
+ ],
+ "src": "https://www.epson.com.au/products/projectors-for-business-education/mid-range-education/eb-l260f",
+ "checked": "2026-10-18"
 }

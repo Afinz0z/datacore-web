@@ -1,11 +1,30 @@
 {
  "sku": "XSM4324CS-100NES",
- "order": 2923,
+ "order": 2911,
  "n": "M4300-24X MANAGED SWITCH",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "XSM4324CS 24x10G and 4xSFP+ (shared) Managed Switch",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "24 Ports Copper 100M / 1G / 10G. 4 Ports SFP+ 1G / 10G (shared)"
+  },
+  {
+   "label": "Ethernet",
+   "value": "Out-of-band 1G port (Back)"
+  },
+  {
+   "label": "Console",
+   "value": "RJ45 RS232 (Back). Mini-USB (Front)"
+  },
+  {
+   "label": "Storage",
+   "value": "USB (Front)"
+  }
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/fully-managed/m4300-24x/",
+ "checked": "2026-10-18"
 }

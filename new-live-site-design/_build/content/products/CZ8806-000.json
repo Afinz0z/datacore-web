@@ -1,11 +1,62 @@
 {
  "sku": "CZ8806-000",
- "order": 3909,
+ "order": 3871,
  "n": "Fiber Optic Wall mount Enclosure",
  "b": "CommScope",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "BUDI Fiber Optic Wall mount Enclosure, single element FIST splice trays for 12 SMOUV splices ( Max. 12 Splice)",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber wall box"
+  },
+  {
+   "label": "Product Brand",
+   "value": "BUDI™"
+  },
+  {
+   "label": "Product Series",
+   "value": "BUDI-2S"
+  },
+  {
+   "label": "Functionality",
+   "value": "Splicing"
+  },
+  {
+   "label": "Access",
+   "value": "Front"
+  },
+  {
+   "label": "Enclosure Color",
+   "value": "Gray"
+  },
+  {
+   "label": "Front Cover Type",
+   "value": "Snap-on cover"
+  },
+  {
+   "label": "Interface",
+   "value": "Splicing only"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall"
+  },
+  {
+   "label": "Splice Tray Construction",
+   "value": "SE (Single element)"
+  },
+  {
+   "label": "Splicing Capacity, maximum",
+   "value": "12"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/hubs-closures-terminals-boxes/wall-boxes-accessories/fiber-wall-boxes/itemcz8806-000/",
+ "checked": "2026-10-18"
 }

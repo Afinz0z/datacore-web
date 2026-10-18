@@ -1,11 +1,62 @@
 {
  "sku": "MS130-24X-HW",
- "order": 2832,
+ "order": 2820,
  "n": "Cisco Meraki MS130-24X PoE switch",
  "b": "Cisco",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "MS130-24X CISCO Meraki MS130-24X 18GE + 6x(2.5GE) PoE Switch (no power cord)",
- "specs": []
+ "specs": [
+  {
+   "label": "1Gbe RJ45",
+   "value": "18"
+  },
+  {
+   "label": "mGbe RJ45 (100M/1G/2.5G)",
+   "value": "6 x 2.5G"
+  },
+  {
+   "label": "10Gbe SFP+",
+   "value": "4"
+  },
+  {
+   "label": "Dedicated Mgmt Interface",
+   "value": "1"
+  },
+  {
+   "label": "PoE Type",
+   "value": "802.3at"
+  },
+  {
+   "label": "PoE Port Budget",
+   "value": "30W"
+  },
+  {
+   "label": "PoE Switch Budget",
+   "value": "370W"
+  },
+  {
+   "label": "Power Input",
+   "value": "100-240V~, 8A-4A, 50-60Hz"
+  },
+  {
+   "label": "Power Load (idle/max)",
+   "value": "50W/421W"
+  },
+  {
+   "label": "Mounting",
+   "value": "Integrated 1U Rack Mount"
+  },
+  {
+   "label": "Switching Capacity",
+   "value": "146 Gbps"
+  },
+  {
+   "label": "Fan Operation",
+   "value": "Fixed Internal"
+  }
+ ],
+ "src": "https://documentation.meraki.com/Switching/MS_-_Switches/Product_Information/Overviews_and_Datasheets/MS130_Datasheet",
+ "checked": "2026-10-18"
 }

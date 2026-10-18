@@ -1,11 +1,50 @@
 {
  "sku": "MD-210CTU-EB",
- "order": 381,
+ "order": 373,
  "n": "Audio Player-MD-210CTU-EB",
  "b": "TOA",
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
  "d": "Music Device with CD Player",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "100 - 240 V AC, 50 / 60 Hz"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Audio input",
+   "value": "FM 75 Ω antenna terminal; USB port for memory stick (up to 32 GB, type file MP3 file and WAV file); SD/MMC card slot (up to 32 GB, type file MP3 file and WAV file); CD port for disk (type file MP3 file)"
+  },
+  {
+   "label": "Audio output",
+   "value": "RCA audio output L and R channels for FM; RCA audio output L and R channels for CD/USB/SD; RCA audio output L and R channels for priority"
+  },
+  {
+   "label": "Controls",
+   "value": "ON/OFF; Control (PROGRAM, REV/SKIP/CUE, STOP, PLAY/PAUSE, EJECT, REPEAT, FOLDER, A/B, MUTE, CD/USB/SD); CD (Open); FM Control ( 1 - 10 Control knobs, DOWN, UP, +10/-, MEMORY), IR, TUNER"
+  },
+  {
+   "label": "Finish",
+   "value": "Aluminium, Steel plate, black"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "8 W"
+  },
+  {
+   "label": "Dimensions",
+   "value": "482 x 44 x 250 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "3.5 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/md-210ctu-eb/",
+ "checked": "2026-10-18"
 }

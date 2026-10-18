@@ -1,6 +1,6 @@
 {
  "sku": "QB13R-T",
- "order": 121,
+ "order": 113,
  "n": "QBR-T Series Digital Signage 13\" (QB13R-T)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "QB13R-T",
  "d": "QBR-T Series Digital Signage 13\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "13\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "ADS"
+  },
+  {
+   "label": "Resolution",
+   "value": "1,920 x 1,080"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.153 (H) x 0.153 (V)"
+  },
+  {
+   "label": "Brightness (Typical, cd/m2)",
+   "value": "250 cd/㎡"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "600:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "45%"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25%, 10%(glass)"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594MHz"
+  }
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/interactive-display/qbr-t-13-full-hd-interactive-display-fhd-1080p-capacitive-touch-8ms-lh13qbrtbgcxue/",
+ "checked": "2026-10-18"
 }

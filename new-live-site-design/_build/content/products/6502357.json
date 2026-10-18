@@ -1,6 +1,6 @@
 {
  "sku": "6502357",
- "order": 4028,
+ "order": 4010,
  "n": "Wall Mount Power Pack, 12VDC, 0.5A, 2.5mm, Universal (PW-1205RU)",
  "b": "Crestron",
  "c": "Power Supply",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "PW-1205RU",
  "d": "PW-1205RU Wall Mount Power Pack, 12VDC, 0.5A, 2.5mm, Universal",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Requirements",
+   "value": "<300 mA @ 100-240 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Line connection",
+   "value": "(1) Ungrounded AC power plug, line power input; Type selectable via region-specific adapter inserts"
+  },
+  {
+   "label": "Load connection",
+   "value": "(1) 6 ft (1.83 m) attached cable with 2.5 x 5.5 mm DC power barrel connector"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Plastic, black, outlet-mountable"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "0% to 90% RH (non-condensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/Power-Packs/PW-1205RU",
+ "checked": "2026-10-18"
 }

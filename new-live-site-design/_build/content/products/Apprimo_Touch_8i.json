@@ -1,6 +1,6 @@
 {
  "sku": "Apprimo Touch 8i",
- "order": 1386,
+ "order": 1374,
  "n": "8\" control panel, black (Apprimo Touch 8i)",
  "b": "Biamp",
  "c": "Touch Panel Controllers",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "Apprimo Touch 8i",
  "d": "8\" control panel, black",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "5.1 inches (130 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "7.7 inches (196 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.5 inches (38 mm)"
+  },
+  {
+   "label": "Display",
+   "value": "High-Contrast Capacitive Touch LCD; Display Size: 8” (203 mm) diagonal; Display Resolution: 1280x800; Maximum Display Brightness: 350 nits"
+  },
+  {
+   "label": "Power",
+   "value": "PoE (IEEE 802.3at Class 3, 15W)"
+  },
+  {
+   "label": "Rear Panel Indicator(s)",
+   "value": "LED Indicators: 3 colors"
+  },
+  {
+   "label": "Proximity Sensor",
+   "value": "Proximity; Ambient Light"
+  },
+  {
+   "label": "Weight",
+   "value": "1.0 lb (0.45 kg)"
+  },
+  {
+   "label": "Certifications",
+   "value": "CE marked (Europe); RoHS Directive (Europe)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10-90% (non-condensing)"
+  },
+  {
+   "label": "Altitude",
+   "value": "0-6,600 ft (0-2000m) MSL"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Apprimo-Touch-8i-Touch-Control-Panel-Black/ecom-item/910-01898",
+ "checked": "2026-10-18"
 }

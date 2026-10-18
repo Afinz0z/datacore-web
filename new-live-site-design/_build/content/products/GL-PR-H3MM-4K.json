@@ -1,6 +1,6 @@
 {
  "sku": "GL-PR-H3MM-4K",
- "order": 2415,
+ "order": 2403,
  "n": "HDMI Cable-GL-PR-H3MM-4K",
  "b": "Logic",
  "c": "AV CABLE",
@@ -9,8 +9,54 @@
  "d": "GrandLogic HDMI 2.0V Cable 3m Male to Male - 4K@60Hz 18G",
  "specs": [
   {
-   "label": "Type",
-   "value": "HDMI Cable"
+   "label": "Resolution & Refresh rate",
+   "value": "3840×2160 @ 60Hz"
+  },
+  {
+   "label": "Frame rate",
+   "value": "24, 25, 30, 50, 60"
+  },
+  {
+   "label": "Chroma sampling",
+   "value": "4:4:4, 4:2:2, 4:2:0"
+  },
+  {
+   "label": "Color bit depth",
+   "value": "8 and 12 bits per color"
+  },
+  {
+   "label": "Max. video data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Ethernet Channel",
+   "value": "Compatible"
+  },
+  {
+   "label": "Signal Transmission",
+   "value": "Bidirectional"
+  },
+  {
+   "label": "Marking",
+   "value": "Source & Display"
+  },
+  {
+   "label": "Resolution range",
+   "value": "Up to 4K @ 60 Hz (4096×2160), UHD @ 60 Hz (3840×2160) 8 bit color depth, max. 18 Gbps data rate"
+  },
+  {
+   "label": "Voltage",
+   "value": "30 V"
+  },
+  {
+   "label": "Conductor Resistance",
+   "value": "400 Ω/km"
+  },
+  {
+   "label": "HDMI",
+   "value": "V 2.0"
   }
- ]
+ ],
+ "src": "https://www.logicav.in/connectivity-solutions/av-cables/gl-pr-h3mm-4k",
+ "checked": "2026-10-18"
 }

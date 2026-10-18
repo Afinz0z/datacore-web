@@ -1,10 +1,57 @@
 {
  "sku": "IP-A1PG",
- "order": 1512,
+ "order": 1500,
  "n": "IP Paging Interface",
  "b": "TOA",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "PoE"
+  },
+  {
+   "label": "Data I/F",
+   "value": "1x 100BASE-TX (RJ45)"
+  },
+  {
+   "label": "Network protocol",
+   "value": "TCP/IP, UDP, HTTP, RTP, RTSP, RTCP, ARP, ICMP, IGMPv3, NTP, SIP (RFC3261), SIPS, SIP-TLS, DHCP"
+  },
+  {
+   "label": "Audio input",
+   "value": "1 channel, electronically-balanced; , LINE/MIC selectable, pad function (–20 dBV), Phantom power ON/OFF (12 V DC), volume adjustable"
+  },
+  {
+   "label": "Audio output",
+   "value": "1x monitor (balanced, RCA pin jack)"
+  },
+  {
+   "label": "Control input",
+   "value": "4x no-voltage make contact (terminal block); 1x mute control (24 V, terminal block)"
+  },
+  {
+   "label": "Control output",
+   "value": "1x open collector (terminal block)"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate, black"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "2.5 W"
+  },
+  {
+   "label": "Dimensions",
+   "value": "126 x 33 x 80 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "390 g"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/ip-a1pg/",
+ "checked": "2026-10-18"
 }

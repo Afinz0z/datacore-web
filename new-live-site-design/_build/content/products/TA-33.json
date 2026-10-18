@@ -1,11 +1,30 @@
 {
  "sku": "TA-33",
- "order": 4550,
+ "order": 4529,
  "n": "Telephone Adapter",
  "b": "Zenitel",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Turbine Extended Onwall backbox",
- "specs": []
+ "specs": [
+  {
+   "label": "Size (WxHxD)",
+   "value": "120 x 305 x 62mm"
+  },
+  {
+   "label": "Finish",
+   "value": "IGP-DURA®pol 681T, Grey RAL 9007. Custom colors possible"
+  },
+  {
+   "label": "Weight",
+   "value": "1.05kg"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum alloy - AlSi12 (EN AB-44200,DIN230), painted"
+  }
+ ],
+ "src": "https://www.zenitel.com/product/ta-33",
+ "checked": "2026-10-18"
 }

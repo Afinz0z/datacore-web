@@ -1,11 +1,62 @@
 {
  "sku": "IP6-1152/64B",
- "order": 632,
+ "order": 623,
  "n": "Two-way Loudspeaker-IP6-1152/64B",
  "b": "Biamp",
  "c": "Speaker",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Biamp Medium power 15 inch 2 way 60x 40 black installation loudspeaker. 3-inch voice coil, 1.4” exit HF driver; hybrid titanium/polyimide diaphragm on low compression phase plug",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "30.8 inches (782 MM)"
+  },
+  {
+   "label": "Width",
+   "value": "16.5 inches (419 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "20.1 inches (510 mm)"
+  },
+  {
+   "label": "Finish",
+   "value": "RAL Color: Black RAL 9005"
+  },
+  {
+   "label": "Power",
+   "value": "600W Cont.; 2400W Peak"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "Two-way, 15-inch medium power point source loudspeaker"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "Sensitivity (1W/1m) 96 dB1"
+  },
+  {
+   "label": "Dispersion",
+   "value": "(H x V) 60° x 40°"
+  },
+  {
+   "label": "Drivers",
+   "value": "LF 1 x 15\"; HF 1 x 1.4\""
+  },
+  {
+   "label": "Impedance",
+   "value": "8Ω"
+  },
+  {
+   "label": "Maximum Output",
+   "value": "Max Output @1m: 124 dB1; 130 dB Peak"
+  },
+  {
+   "label": "Weight",
+   "value": "79 lbs (35.8 kg)"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Community-IP6-1152-64B/ecom-item/930-00911-00003",
+ "checked": "2026-10-18"
 }

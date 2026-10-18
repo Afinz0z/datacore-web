@@ -1,11 +1,62 @@
 {
  "sku": "NWP300",
- "order": 5128,
+ "order": 5106,
  "n": "Network Input Panel",
  "b": "Audac",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "Network input panel - BT + 3.5 mm jack (4 CH)",
- "specs": []
+ "specs": [
+  {
+   "label": "Inputs",
+   "value": "Bluetooth, 3.5 mm Jack"
+  },
+  {
+   "label": "Control",
+   "value": "1 button - Bluetooth discoverable"
+  },
+  {
+   "label": "Indicators",
+   "value": "1 LED (RGB) - Bluetooth status"
+  },
+  {
+   "label": "Configurable settings",
+   "value": "IP settings, Device name, Gain, DSP (EQ), Mixing"
+  },
+  {
+   "label": "Configuration",
+   "value": "Audac Touch™"
+  },
+  {
+   "label": "Integrated dsp",
+   "value": "Yes (EQ)"
+  },
+  {
+   "label": "Automatic level control",
+   "value": "Yes"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45 (network + PoE), 3.5 mm Jack stereo"
+  },
+  {
+   "label": "Construction",
+   "value": "ABS"
+  },
+  {
+   "label": "Finish front finish",
+   "value": "Elegant ABS front panel with glass"
+  },
+  {
+   "label": "Colours",
+   "value": "White (RAL9003)"
+  },
+  {
+   "label": "Installation standard",
+   "value": "Compatible with EU installation materials"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/nwp300---network-input-panel---bt-plus-3-5-mm-jack-4-ch",
+ "checked": "2026-10-18"
 }

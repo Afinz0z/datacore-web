@@ -1,6 +1,6 @@
 {
  "sku": "XSM1U",
- "order": 2529,
+ "order": 2517,
  "n": "LegrandAV- Chief Mounts-XSM1U (24-42 inch)",
  "b": "Chief",
  "c": "Mount",
@@ -9,8 +9,52 @@
  "d": "Mounts - Fusion Wall Mounts - X-Large Fusion Micro-Adjustable Fixed Wall Display Mount Screen size 24\" - 42\" Weight capacity 250 lbs (113.4)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mounted"
+   "label": "Depth",
+   "value": "2.25 in (5.7 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "26.25 in (66.7 cm)"
+  },
+  {
+   "label": "Lateral Shift",
+   "value": "21.4 in (54.4 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "55\" - 100\" (1397mm - 2540mm)"
+  },
+  {
+   "label": "Width",
+   "value": "42.75 in (108.6 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Fixed, Micro-Adjustable, Height Adjustable, Lateral Shift"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "VESA Mounting Pattern",
+   "value": "100 x 100mm - 1070 x 600 mm"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "45.75\" x 18.49\" x 2.86\" (116.2 x 47 x 7.3 cm)"
   }
  ],
  "for": [
@@ -20,5 +64,7 @@
   "LH65QMCEBGCLXL",
   "LH85QMCEBGCXXL",
   "PN-LC862"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fusion-wall-fixed-series/xsm1u",
+ "checked": "2026-10-18"
 }

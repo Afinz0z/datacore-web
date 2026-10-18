@@ -1,11 +1,46 @@
 {
  "sku": "N101.21EFOO",
- "order": 3749,
+ "order": 3736,
  "n": "3 Mtr Patch Cord",
  "b": "Nexans",
  "c": "UTP Patch cord",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Essential-6 Patch Cord Category 6 Unscreened LSZH Orange Boot 3m Orange",
- "specs": []
+ "specs": [
+  {
+   "label": "Outer sheath",
+   "value": "LSZH"
+  },
+  {
+   "label": "Screen",
+   "value": "UTP"
+  },
+  {
+   "label": "Colour",
+   "value": "Orange"
+  },
+  {
+   "label": "Characteristic impedance",
+   "value": "100 Ohm"
+  },
+  {
+   "label": "Range",
+   "value": "essential-6"
+  },
+  {
+   "label": "Component function",
+   "value": "Patchcord"
+  },
+  {
+   "label": "Length",
+   "value": "3 m"
+  },
+  {
+   "label": "Flame retardant",
+   "value": "IEC 60332-1"
+  }
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/patch-cords/essential-6-patch-cords/essential-6-patch-cord-utp-cat-6-lszh-orange-3m",
+ "checked": "2026-10-18"
 }

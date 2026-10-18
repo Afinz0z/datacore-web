@@ -1,11 +1,46 @@
 {
  "sku": "M-800RCT-EB",
- "order": 1269,
+ "order": 1257,
  "n": "Audio control panel",
  "b": "TOA",
  "c": "Volume Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "Remote Audio Control Panel With Touch Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "24 V DC Powered by M-8080D or M-804EX or external"
+  },
+  {
+   "label": "Controls",
+   "value": "Volume / Routing / Presets"
+  },
+  {
+   "label": "Indicator",
+   "value": "Touch LC-Display; Displays device information: ID, Volume, communication status"
+  },
+  {
+   "label": "Inputs",
+   "value": "RD In: Transmits and receives AES3 digital audio plus control data; Connect to M-8080D, M-804EX or M-800RC, M-800RCT for daisy chain, RJ45 connector"
+  },
+  {
+   "label": "Outputs",
+   "value": "RD EXP: Transmits and receives control data; Connect to M-800RC or M-800RCT, RJ45 connector"
+  },
+  {
+   "label": "Finish",
+   "value": "PC resin, ABS resin, traffic white (RAL 9016 or equivalent)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "150 x 115 x 28 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.28 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/m-800rct-eb/",
+ "checked": "2026-10-18"
 }

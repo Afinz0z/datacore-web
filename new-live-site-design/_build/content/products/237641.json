@@ -1,11 +1,62 @@
 {
  "sku": "237641",
- "order": 4244,
+ "order": 4226,
  "n": "Overlight Optical Receiver",
  "b": "Televes",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
  "d": "Overlight Quattro Optical Receiver FM/DAB/UHF/SAT",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of outputs",
+   "value": "5"
+  },
+  {
+   "label": "TERR number of outputs",
+   "value": "1"
+  },
+  {
+   "label": "Legacy number of outputs",
+   "value": "4"
+  },
+  {
+   "label": "Output frequency range",
+   "value": "TERR 87 ... 694 MHz; Legacy 950 ... 2150 MHz"
+  },
+  {
+   "label": "Output level (OLC range)",
+   "value": "TERR 90 ... 91 dBµV; Legacy 80 ... 81 dBµV"
+  },
+  {
+   "label": "Input wavelength",
+   "value": "1200 ... 1600 nm"
+  },
+  {
+   "label": "OLC range",
+   "value": "-10 ... -1 dBm"
+  },
+  {
+   "label": "Optical input power",
+   "value": "-15 ... 1 dBm"
+  },
+  {
+   "label": "Optical return losses",
+   "value": "> 40 dB"
+  },
+  {
+   "label": "Optical receiving device",
+   "value": "InGaAs PIN photodiode"
+  },
+  {
+   "label": "Optical connectors",
+   "value": "SC/APC"
+  },
+  {
+   "label": "RF connectors",
+   "value": "\"F\" female"
+  }
+ ],
+ "src": "https://www.televes.com/en/237641-overlight-quattro-optical-receiver-fm-dab-uhf-sat.html",
+ "checked": "2026-10-18"
 }

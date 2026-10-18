@@ -1,14 +1,45 @@
 {
  "sku": "APS1200W-200NES",
- "order": 4056,
+ "order": 4038,
  "n": "Modular power supply For M4350",
  "b": "Netgear",
  "c": "Power Supply",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "1200W 100-240VAC MODULAR PSU",
- "specs": [],
+ "specs": [
+  {
+   "label": "Width",
+   "value": "73.5mm"
+  },
+  {
+   "label": "Depth",
+   "value": "193.8mm"
+  },
+  {
+   "label": "Height",
+   "value": "39mm"
+  },
+  {
+   "label": "Connector Type",
+   "value": "C14 connector"
+  },
+  {
+   "label": "Power Input",
+   "value": "110V-240V AC power input"
+  },
+  {
+   "label": "Power Output",
+   "value": "Up to 1200W output power at 110/220V AC"
+  },
+  {
+   "label": "Weight",
+   "value": "0.835kg"
+  }
+ ],
  "for": [
   "CSM4316-100NES"
- ]
+ ],
+ "src": "https://www.netgear.com/uk/business/wired/switches/accessories/aps1200wv2/",
+ "checked": "2026-10-18"
 }

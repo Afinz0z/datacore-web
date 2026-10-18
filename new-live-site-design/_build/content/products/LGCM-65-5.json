@@ -1,6 +1,6 @@
 {
  "sku": "LGCM-65-5",
- "order": 2680,
+ "order": 2668,
  "n": "Ceiling Mount 42 t0 65 -LGCM-65-5",
  "b": "Logic",
  "c": "Mount",
@@ -9,16 +9,35 @@
  "d": "Logic Ceiling Mount -LGCM-65-5 Suitable for 42\" to 65\" Flat Panels with 3 to 5 ft. Adjustable. Loading Capacity -110 lbs (50 kg)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Ceiling Mount"
+   "label": "Max. Load",
+   "value": "110 lbs (50 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "200×200 to 600×400"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "42″ to 65″"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "6.3 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "7.3 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "980x230x150 mm"
   }
  ],
  "for": [
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "CDE4330",
   "CDE5530",
   "CDE6514-2C",
@@ -39,5 +58,7 @@
   "PN-M432",
   "PN-M552 PCAP",
   "V6550"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgcm-65-5",
+ "checked": "2026-10-18"
 }

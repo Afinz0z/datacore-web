@@ -1,6 +1,6 @@
 {
  "sku": "6510224",
- "order": 1524,
+ "order": 1512,
  "n": "Passive Infrared Occupancy Sensor with Cresnet® (GLS-OIR-C-CN)",
  "b": "Crestron",
  "c": "Sensors",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "GLS-OIR-C-CN",
  "d": "GLS-OIR-C-CN Passive Infrared Occupancy Sensor with Cresnet®",
- "specs": [],
+ "specs": [
+  {
+   "label": "Sensor Technology",
+   "value": "Passive infrared"
+  },
+  {
+   "label": "Ambient Light Recognition",
+   "value": "Built-in photosensor (0-1000 lux)"
+  },
+  {
+   "label": "Coverage Area",
+   "value": "2,000 sq ft"
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "360 degrees"
+  },
+  {
+   "label": "Controls",
+   "value": "(1) Pushbutton located behind the front cover for testing the unit"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "1 Watt"
+  },
+  {
+   "label": "Enclosure housing",
+   "value": "Plastic, white"
+  },
+  {
+   "label": "Enclosure mounting",
+   "value": "Mounts to a 4” (102 mm) octagon box or ~3-1/2” (88 mm) diameter hole created by provided cutout template; Includes mounting screws and integral toggle clamps; A 1-1/2” (38 mm) minimum mounting depth is recommended"
+  },
+  {
+   "label": "Diameter",
+   "value": "4.80 in (122 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.30 in (59 mm) overall, 0.97 in (25 mm) exposed"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "acc": [
   "6505250"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Sensors/Occupancy-Sensors/GLS-OIR-C-CN",
+ "checked": "2026-10-18"
 }

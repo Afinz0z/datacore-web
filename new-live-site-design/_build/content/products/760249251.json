@@ -1,6 +1,6 @@
 {
  "sku": "760249251",
- "order": 3574,
+ "order": 3562,
  "n": "DUAL FACE PLATE",
  "b": "CommScope",
  "c": "Faceplate",
@@ -9,8 +9,54 @@
  "d": "FPS-BS-2P-W, 2 PORT SHUTTERED WHITE",
  "specs": [
   {
-   "label": "Type",
-   "value": "Dual faceplate"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Faceplate kit"
+  },
+  {
+   "label": "Product Series",
+   "value": "FPS-BS"
+  },
+  {
+   "label": "Color",
+   "value": "Pro white"
+  },
+  {
+   "label": "Integrated Dust Cover Type",
+   "value": "Sliding"
+  },
+  {
+   "label": "Mounting",
+   "value": "Flush"
+  },
+  {
+   "label": "Outlet Orientation",
+   "value": "Flat"
+  },
+  {
+   "label": "Port Marking Type",
+   "value": "Label"
+  },
+  {
+   "label": "Height",
+   "value": "85.979 mm | 3.385 in"
+  },
+  {
+   "label": "Width",
+   "value": "85.979 mm | 3.385 in"
+  },
+  {
+   "label": "Depth",
+   "value": "8.001 mm | 0.315 in"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "UL | cUL"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/faceplates-boxes/faceplates/item760249251/",
+ "checked": "2026-10-18"
 }

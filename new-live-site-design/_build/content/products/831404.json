@@ -1,11 +1,62 @@
 {
  "sku": "831404",
- "order": 3094,
+ "order": 3082,
  "n": "ARANTIA VPN ROUTER -A-VPNR",
  "b": "Televes",
  "c": "Router",
  "dept": "AV",
  "avail": "lead",
  "d": "VPN access management router - A-VPNR",
- "specs": []
+ "specs": [
+  {
+   "label": "Input voltage",
+   "value": "100 ... 240 Vac"
+  },
+  {
+   "label": "Mains frequency",
+   "value": "50 Hz / 60 Hz"
+  },
+  {
+   "label": "Output voltage",
+   "value": "12 Vdc"
+  },
+  {
+   "label": "Max. output current",
+   "value": "1 A"
+  },
+  {
+   "label": "Number of Fast Ethernet ports (10/100BASE-T)",
+   "value": "4"
+  },
+  {
+   "label": "Number of USB ports",
+   "value": "1"
+  },
+  {
+   "label": "PoE input",
+   "value": "No"
+  },
+  {
+   "label": "OS",
+   "value": "ASUSWRT"
+  },
+  {
+   "label": "Colour",
+   "value": "Grey"
+  },
+  {
+   "label": "Width",
+   "value": "182 mm"
+  },
+  {
+   "label": "Height",
+   "value": "50 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "200 mm"
+  }
+ ],
+ "src": "https://www.televes.com/en/831404-vpn-access-management-router.html",
+ "checked": "2026-10-18"
 }

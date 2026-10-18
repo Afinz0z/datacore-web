@@ -1,6 +1,6 @@
 {
  "sku": "ULXD4QUK=-G65",
- "order": 1219,
+ "order": 1207,
  "n": "Wireless Receiver, Quad (ULXD4QUK=-G65)",
  "b": "Shure",
  "c": "Mic Accessories",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "ULXD4QUK=-G65",
  "d": "Wireless Receiver, Quad",
- "specs": []
+ "specs": [
+  {
+   "label": "Transmission",
+   "value": "Digital in VHF, UHF, 900MHz ISM, 1.2 GHz, 1.5 GHz, 1.8 GHz"
+  },
+  {
+   "label": "Encryption",
+   "value": "yes, AES-256"
+  },
+  {
+   "label": "Weight",
+   "value": "3450 g"
+  },
+  {
+   "label": "Type Of Power Supply",
+   "value": "Internal"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/ulx-d_digital_wireless/ulxd4q",
+ "checked": "2026-10-18"
 }

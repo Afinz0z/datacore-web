@@ -1,11 +1,62 @@
 {
  "sku": "6511864",
- "order": 742,
+ "order": 733,
  "n": "SAROS SMT8T-AW-B-T-EACH",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS SMT8T-AW-B-T-EACH Saros® 8 in. 2-Way All Weather Surface Mount Indoor/Outdoor Speaker, Black Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "8 in. IMPP"
+  },
+  {
+   "label": "Tweeter",
+   "value": "1 in. ceramic-coated aluminum"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "2 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω nominal with tap transformer set to 8 Ω"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "10 W, 20 W, 40 W, 80 W, 8 Ω"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "57 Hz-20 kHz +/-3 dB"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "42 Hz-20 kHz +/-10 dB"
+  },
+  {
+   "label": "Power Handling",
+   "value": "160 W Program, 250 W Peak (8 Ω)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "92 dB @1 m"
+  },
+  {
+   "label": "Coverage",
+   "value": "115° conical (speech); 110° conical (music)"
+  },
+  {
+   "label": "Input connection",
+   "value": "(1) 4-pin 5 mm detachable terminal block; Speaker input with parallel pass-through; 12 AWG maximum"
+  },
+  {
+   "label": "Transformer Tap",
+   "value": "Front mounted, screwdriver-adjustable; Used to select 70/100 V tap or 8 Ω"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Surface-Mount-Speakers/SAROS-SMT8T-AW-B-T-EACH",
+ "checked": "2026-10-18"
 }

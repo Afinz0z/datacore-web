@@ -1,6 +1,6 @@
 {
  "sku": "760237047",
- "order": 3867,
+ "order": 3852,
  "n": "patch panel, Shielded Discrete Distribution Module Panel, SL, 2U, 48 port, Black",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "patch panel",
  "d": "Shielded Discrete Distribution Module Panel, SL, 2U, 48 port, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "RJ45 patch panel"
+  },
+  {
+   "label": "Product Series",
+   "value": "SLX Series"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Shielded"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "Passive"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Flat"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "2"
+  },
+  {
+   "label": "Height",
+   "value": "88.9 mm | 3.5 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth, with cable management",
+   "value": "119.38 mm | 4.7 in"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760237047/",
+ "checked": "2026-10-18"
 }

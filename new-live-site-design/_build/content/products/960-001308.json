@@ -1,15 +1,66 @@
 {
  "sku": "960-001308",
- "order": 460,
+ "order": 452,
  "n": "Rally Bar",
  "b": "Logitech",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "Rally Bar All-in-one video bar for medium to large rooms",
- "specs": [],
+ "specs": [
+  {
+   "label": "Built-in Components",
+   "value": "6 beamforming microphones, PTZ camera, 2 speakers, AI Viewfinder, cable management and retention system, table stand, Logitech CollabOS platform"
+  },
+  {
+   "label": "Enclosure",
+   "value": "All-in-one enclosure with integrated table stand and patented speaker suspension system to eliminate vibration-induced camera shake and audio interference"
+  },
+  {
+   "label": "Device Management",
+   "value": "Logitech Sync"
+  },
+  {
+   "label": "Display Resolution",
+   "value": "Up to 1080p"
+  },
+  {
+   "label": "Rally Bar No-Radio",
+   "value": "All radio frequency technology and connectivity such as Wi-Fi and Bluetooth has been removed from this model."
+  },
+  {
+   "label": "Resolution",
+   "value": "4K, 1440p, 1080p, 900p, 720p, and SD at 30fps"
+  },
+  {
+   "label": "Pan",
+   "value": "Motorized ±25°"
+  },
+  {
+   "label": "Tilt",
+   "value": "Motorized ±15°"
+  },
+  {
+   "label": "Zoom",
+   "value": "15X HD zoom (5X optical and 3X digital)"
+  },
+  {
+   "label": "Diagonal Field of View",
+   "value": "90°"
+  },
+  {
+   "label": "Horizontal Field of View",
+   "value": "82.1°"
+  },
+  {
+   "label": "Vertical Field of View",
+   "value": "52.2°"
+  }
+ ],
  "acc": [
   "952-000041",
   "952-000044"
- ]
+ ],
+ "src": "https://www.logitech.com/en-us/business/shop/p/rallybar",
+ "checked": "2026-10-18"
 }

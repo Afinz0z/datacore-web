@@ -1,6 +1,6 @@
 {
  "sku": "Voltera D 2400.4",
- "order": 912,
+ "order": 903,
  "n": "Four-channel Amplified Loudspeaker Controller (Voltera D 2400.4)",
  "b": "Biamp",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Voltera D 2400.4",
  "d": "Four-channel Amplified Loudspeaker Controller, 2400 watt total power with DSP, Dante & AVB",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.7 inches (44 mm) rack rail to rear panel"
+  },
+  {
+   "label": "Width",
+   "value": "17.5 inches (444 mm) rack rail to rear panel"
+  },
+  {
+   "label": "Depth",
+   "value": "16.9 inches (430 mm) rack rail to rear panel"
+  },
+  {
+   "label": "Channels",
+   "value": "4 Class D channels"
+  },
+  {
+   "label": "Power Output",
+   "value": "Total output all channels driven: 2400 W; Maximum output voltage: 160 Vpk; Maximum output current: 40 Apk"
+  },
+  {
+   "label": "Cooling",
+   "value": "Variable speed fans, front to back airflow"
+  },
+  {
+   "label": "THD+N",
+   "value": "THD+N (1000 Hz, at 1 dB below max output) <0.05%; THD+N (20 - 20000 Hz for 1 W) <0.05%"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "+/-0.5 dB (20 - 20000 Hz, 8 ohm, unweighted)"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "117 dB"
+  },
+  {
+   "label": "Crosstalk",
+   "value": ">70 dB"
+  },
+  {
+   "label": "Weight",
+   "value": "17.2 lbs (7.8 kg)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "Nominal Voltage: 100-240 VAC, 50/60 Hz"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Voltera-D-2400-4/ecom-item/920-01955-00001",
+ "checked": "2026-10-18"
 }

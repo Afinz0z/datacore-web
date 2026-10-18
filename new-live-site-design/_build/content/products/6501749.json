@@ -1,6 +1,6 @@
 {
  "sku": "6501749",
- "order": 4366,
+ "order": 4345,
  "n": "4 Channel 0-10V Dimmer, 4 Feeds, DIN Rail Mount (DIN-4DIMFLV4)",
  "b": "Crestron",
  "c": "Lighting Controller",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DIN-4DIMFLV4",
  "d": "4 Channel 0-10V Dimmer, 4 Feeds, DIN Rail Mount",
- "specs": []
+ "specs": [
+  {
+   "label": "Dimmer Channels",
+   "value": "4"
+  },
+  {
+   "label": "Maximum Per Channel",
+   "value": "5 Amps @ 120 to 240 Volts AC, 50/60 Hz; 600 Watts @ 120 Volts AC; 1150 Watts @ 230 Volts AC; 1200 Watts @ 240 Volts AC, 0.5 HP; 16 Amps Resistive"
+  },
+  {
+   "label": "Module Total",
+   "value": "20 Amps @ 120 to 240 Volts AC, 50/60 Hz; 2400 Watts @ 120 Volts AC; 4600 Watts @ 230 Volts AC; 4800 Watts @ 240 Volts AC"
+  },
+  {
+   "label": "Dim Load Types",
+   "value": "0-10 Volt fluorescent ballast or LED driver (4-wire); Maximum of 30 dimmable ballasts/drivers"
+  },
+  {
+   "label": "Switch Load Types",
+   "value": "Incandescent, magnetic low-voltage, electronic low-voltage, neon/cold cathode, fluorescent, motors"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Light gray polycarbonate housing with polycarbonate label overlay, UL94 V-0 rated, 35mm DIN EN 60715 rail mount, DIN 43880 form factor for enclosures with 45mm front panel cutout, occupies 9 DIN module spaces (162mm)"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "4.2 Watts (0.18 Amps) @ 24 Volts DC"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "17 BTU/hr"
+  },
+  {
+   "label": "Height",
+   "value": "3.71 in (95 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.26 in (159 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.35 in (60 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/DIN-Modules/DIN-4DIMFLV4",
+ "checked": "2026-10-18"
 }

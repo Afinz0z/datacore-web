@@ -1,11 +1,62 @@
 {
  "sku": "6511870",
- "order": 1234,
+ "order": 1222,
  "n": "ULTIMATE IGS12T-BRZ-T-EACH",
  "b": "Crestron",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "ULTIMATE IGS12T-BRZ-T-EACH Ultimate 12 in. In-Ground Subwoofer, Bronze Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "12 in. (305 mm) polypropylene"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "150 Hz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "150 W @ 70V; 300 W @ 100V"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "23 Hz to 100 Hz (±3 dB)"
+  },
+  {
+   "label": "Power Handling",
+   "value": "Program: 200 W; Peak: 400 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "86 dB @ 1 W/1 M"
+  },
+  {
+   "label": "Input connection",
+   "value": "(1) 44 in. (1118 mm) attached direct-burial speaker wire; Includes one pair of silicone filled waterproof wire nuts"
+  },
+  {
+   "label": "Maximum Wire Size",
+   "value": "(2) 12 AWG (4 mm²)"
+  },
+  {
+   "label": "Splash Resistance",
+   "value": "IPX6 waterproof"
+  },
+  {
+   "label": "Construction enclosure",
+   "value": "Rugged poly composite PVC"
+  },
+  {
+   "label": "Construction in-ground installation",
+   "value": "Designed for direct-burial in soil with good drainage"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Landscape-Speakers/ULTIMATE-IGS12T-BRZ-T-EACH",
+ "checked": "2026-10-18"
 }

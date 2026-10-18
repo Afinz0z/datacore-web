@@ -1,6 +1,6 @@
 {
  "sku": "LH55WMRWBGCXUE",
- "order": 132,
+ "order": 124,
  "n": "WM55R - 55'' Interactive Display (LH55WMRWBGCXUE)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LH55WMRWBGCXUE",
  "d": "WM55R - 55'' Interactive Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "55\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "New Edge, 60 Hz"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV)",
+   "value": "0.315 (H) x 0.315 (V) mm"
+  },
+  {
+   "label": "Brightness (Typical)",
+   "value": "350 cd/m² (220 cd/m² with glass)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4,000:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178°"
+  },
+  {
+   "label": "Response Time",
+   "value": "8 ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72 %"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "2.3 %(without glass)"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30 ~ 81 khz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594 MHz"
+  }
+ ],
+ "src": "https://www.samsung.com/africa_en/business/smart-signage/digital-flipchart/wm65r-flip-lh55wmrwbgcxue/",
+ "checked": "2026-10-18"
 }

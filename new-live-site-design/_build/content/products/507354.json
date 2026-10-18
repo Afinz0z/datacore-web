@@ -1,11 +1,34 @@
 {
  "sku": "507354",
- "order": 1091,
+ "order": 1080,
  "n": "Wired Gooseneck mic with table stand - MAT 153 + MEG14-40-L-II SET",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Sennheiser MEG 14-40-L-II | MAT 153-S Gooseneck Microphone and Tablestand Clearly visible LED ring and microphone button",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Condenser"
+  },
+  {
+   "label": "Height (mm)",
+   "value": "106"
+  },
+  {
+   "label": "Length (mm)",
+   "value": "536"
+  },
+  {
+   "label": "Width (mm)",
+   "value": "306"
+  },
+  {
+   "label": "Weight (g)",
+   "value": "2270"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/meeting-and-conference-systems/mat-153/mat-153--meg14-40-l-ii-set-507354",
+ "checked": "2026-10-18"
 }

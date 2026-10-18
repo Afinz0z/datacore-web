@@ -1,6 +1,6 @@
 {
  "sku": "Z0774",
- "order": 1239,
+ "order": 1227,
  "n": "Subwoofer NLT4F/M, Medium format flyable cardioid subwoofer (XSL-SUB)",
  "b": "d&b audiotechnik",
  "c": "Subwoofer",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "XSL-SUB",
  "d": "XSL-SUB Subwoofer NLT4F/M, Medium format flyable cardioid subwoofer",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "37 Hz - 110 Hz"
+  },
+  {
+   "label": "Frequency response (–5 dB INFRA mode)",
+   "value": "35 Hz - 85 Hz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with D40/D80/D90/40D: 137 dB"
+  },
+  {
+   "label": "Cabinets per D40/D80/D90/40D",
+   "value": "4"
+  },
+  {
+   "label": "Nominal impedance front/rear",
+   "value": "8/16 ohms"
+  },
+  {
+   "label": "Power handling capacity rear (RMS/peak 10 ms)",
+   "value": "400/800 W"
+  },
+  {
+   "label": "Splay angle settings",
+   "value": "0° and 2.5°"
+  },
+  {
+   "label": "Components",
+   "value": "1 x 18\" front LF driver / 1 x 12\" rear LF driver"
+  },
+  {
+   "label": "Connections",
+   "value": "NLT4 F/M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "565 x 700 x 773 / 898 mm / 22.2 x 27.6 x 30.4 / 35.4\""
+  },
+  {
+   "label": "Weight",
+   "value": "66 kg / 146 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/all/series/sl-series/xsl-sub/",
+ "checked": "2026-10-18"
 }

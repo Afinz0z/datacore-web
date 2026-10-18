@@ -1,10 +1,45 @@
 {
  "sku": "MP-032B",
- "order": 1479,
+ "order": 1467,
  "n": "Monitor Panel",
  "b": "TOA",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Functions",
+   "value": "Aural/visual monitoring (up to 10 power amplifiers)"
+  },
+  {
+   "label": "Controls",
+   "value": "Channel selector switch; Monitor volume control; Watt meter; Line voltage selector switch"
+  },
+  {
+   "label": "Speaker",
+   "value": "Full-range 12 cm speaker"
+  },
+  {
+   "label": "Input Lines",
+   "value": "25 V (625 Ω), 50 V (2.5 kΩ), 70 V (5 kΩ), 100 V (10 kΩ) switchable"
+  },
+  {
+   "label": "Terminals",
+   "value": "M4 screw terminals, distance between barriers: 8.8 mm"
+  },
+  {
+   "label": "Finish",
+   "value": "Surface-treated steel plate, black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "483 (W) × 133 (H) × 87 (D) mm"
+  },
+  {
+   "label": "Weight",
+   "value": "2.2 kg"
+  }
+ ],
+ "src": "https://toa.com.sg/product/mp-032b-monitor-panel",
+ "checked": "2026-10-18"
 }

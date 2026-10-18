@@ -1,11 +1,62 @@
 {
  "sku": "6506407",
- "order": 737,
+ "order": 728,
  "n": "SAROS PD8T-B-T-EACH",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS PD8T-B-T-EACH Saros® 8” 2-Way Pendant Speaker, Black Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "8 inch (203 mm) polypropylene w/ring mode decoupled cloth surround & steel basket"
+  },
+  {
+   "label": "Tweeter",
+   "value": "0.98 inch (25 mm) titanium dome, horn loaded"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "2.5 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal with transformer set to \"8Ω\""
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "3.75W/7.5W/15W/30W/60W at 70V; 7.5W/15W/30W/60W at 100V"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "50 Hz to 20 kHz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "40 Hz to 20 kHz (-10 dB)"
+  },
+  {
+   "label": "Power Handling",
+   "value": "150 Watts program (8 Ohms)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90.5 dB @ 1W/1m"
+  },
+  {
+   "label": "Coverage",
+   "value": "95° conical (nominal)"
+  },
+  {
+   "label": "Input connection",
+   "value": "(1) 4-pin 5 mm detachable terminal block with screw-down flanges and weather boot; Speaker input with parallel pass-thru; Maximum Wire Size: 12 AWG"
+  },
+  {
+   "label": "Transformer Tap",
+   "value": "(1) Recessed screwdriver-adjustable rotary switch on baffle; Used to select 70/100V tap or 8 Ohms (bypass)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Pendant-Speakers/SAROS-PD8T-B-T-EACH",
+ "checked": "2026-10-18"
 }

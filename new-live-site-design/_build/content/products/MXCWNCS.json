@@ -1,10 +1,33 @@
 {
  "sku": "MXCWNCS",
- "order": 4181,
+ "order": 4163,
  "n": "Networked Charging Station 10BAY SB930",
  "b": "Shure",
  "c": "Charger",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Headphone Output",
+   "value": "no"
+  },
+  {
+   "label": "Buttons",
+   "value": "Storage Mode, Network/Factory Reset"
+  },
+  {
+   "label": "NFC Card Slot",
+   "value": "no"
+  },
+  {
+   "label": "Power Requirements",
+   "value": "100-240 volts AC, 50-60 Hz, 2 A max"
+  },
+  {
+   "label": "Network Connection",
+   "value": "RJ-45, 10/100 Mbps"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/mxcw/mxcwncs",
+ "checked": "2026-10-18"
 }

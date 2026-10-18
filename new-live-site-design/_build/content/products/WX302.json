@@ -1,6 +1,6 @@
 {
  "sku": "WX302",
- "order": 618,
+ "order": 609,
  "n": "Universal wall speaker 3\"",
  "b": "Audac",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Speaker",
  "d": "Universal wall speaker 3\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Crossover frequency",
+   "value": "2.5 kHz"
+  },
+  {
+   "label": "Crossover type",
+   "value": "Passive built-in"
+  },
+  {
+   "label": "Drivers hf",
+   "value": "1”"
+  },
+  {
+   "label": "Drivers lf",
+   "value": "3”"
+  },
+  {
+   "label": "Frequency range (-10 db)",
+   "value": "60 Hz - 20 kHz"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "90 Hz - 18 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Sensitivity (1w/1m)",
+   "value": "85 dB"
+  },
+  {
+   "label": "Sound pressure (max. w/1m) @ 100 v",
+   "value": "95 dB"
+  },
+  {
+   "label": "Sound pressure (max. w/1m) @ 8 ω",
+   "value": "100 dB"
+  },
+  {
+   "label": "Speaker type",
+   "value": "2-way"
+  },
+  {
+   "label": "Continuous power (aes)",
+   "value": "30 W"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/wx302---universal-wall-speaker-3inch",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "E-A-W-25-4",
- "order": 1380,
+ "order": 1368,
  "n": "Cambridge E-A-W-25-4 Standard Emitter Pack (White)",
  "b": "Biamp",
  "c": "Sound Masking Emitters",
  "dept": "AV",
  "avail": "lead",
  "d": "Sound masking emitter with a four-pack of white standard emitters engineered for wide dispersion, easy installation, and consistent acoustic comfort in commercial and open environments.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2.5 inches (64mm)"
+  },
+  {
+   "label": "Diameter",
+   "value": "3.25 inches (83mm)"
+  },
+  {
+   "label": "Finish",
+   "value": "White"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Sealed"
+  },
+  {
+   "label": "Power",
+   "value": "Power Consumption Max: .02 W"
+  },
+  {
+   "label": "Channels",
+   "value": "Channel Selection: 4 Auto-Sequencing and Repeating Channels; Selectable Attenuation: 0 dB, -3 dB, -6 dB, -9 dB"
+  },
+  {
+   "label": "Sound Masking System",
+   "value": "Sound Masking: 200Hz to 6.3kHz; Cabling: Category UTP Cabling (8 conductors); I/O Connectors: 2 RJ-45 connectors"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "Passive with transformer"
+  },
+  {
+   "label": "Dispersion",
+   "value": "Nominal: 170° conical / half space"
+  },
+  {
+   "label": "Drivers",
+   "value": "Driver Diameter: 1.25” (32mm)"
+  },
+  {
+   "label": "Impedance",
+   "value": "Nominal: 3.6 kΩ"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "Sound Masking: 200Hz to 6.3kHz; Music/Paging: 200Hz to 10kHz"
+  }
+ ],
  "acc": [
   "AE-UB-B"
- ]
+ ],
+ "src": "https://products.biamp.com/product-details/d/Cambridge-E-A-W-25-4-Standard-Emitter-Pack-White/ecom-item/930-00857-00002",
+ "checked": "2026-10-18"
 }

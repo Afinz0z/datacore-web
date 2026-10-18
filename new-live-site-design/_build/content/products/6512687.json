@@ -1,15 +1,66 @@
 {
  "sku": "6512687",
- "order": 745,
+ "order": 736,
  "n": "ULTIMATE IC8-AW-W-T-EACH",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "ULTIMATE IC8-AW-W-T-EACH Ultimate 8 in. 2-Way All Weather In-Ceiling Speaker, White Textured, Single",
- "specs": [],
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "8 in. (203 mm) carbon fiber"
+  },
+  {
+   "label": "Tweeter",
+   "value": "1 in. (25 mm) ceramic-coated aluminum; Steerable up to 30° off-axis"
+  },
+  {
+   "label": "Crossover Slope",
+   "value": "30 dB/oct"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "3.5 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "45 Hz to 30 kHz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "35 Hz to 30 kHz (±10 dB)"
+  },
+  {
+   "label": "Power Handling",
+   "value": "Program: 150 W; Peak: 300 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "86 dB @ 1 W/1 M"
+  },
+  {
+   "label": "Input connection",
+   "value": "2-pin 5.08 mm pitch, 10A, detachable terminal block"
+  },
+  {
+   "label": "Maximum Wire Size",
+   "value": "12 AWG (3.31 mm²)"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP66 rated for particles and water"
+  }
+ ],
  "acc": [
   "6511894",
   "6512636"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Ceiling-Speakers/ULTIMATE-IC8-AW-W-T-EACH",
+ "checked": "2026-10-18"
 }

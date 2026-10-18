@@ -1,6 +1,6 @@
 {
  "sku": "509440",
- "order": 1199,
+ "order": 1187,
  "n": "Wireless table stand transmitter with 3-pin XLR connector (EW-DX TS 3-Pin (Q1-9))",
  "b": "Sennheiser",
  "c": "Mic Accessories",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "EW-DX TS 3-Pin (Q1-9)",
  "d": "EW-DX TS 3-Pin (Q1-9) EW-DX TS 3-PIN (Q1-9) - Wireless table stand transmitter with 3-pin XLR connector. Compatible with any gooseneck microphone without LED ring for a 3-pin variant. Includes EW-DX table stand transmitter, (1) BA 40 rechargeable battery, quick guide and safety instructions. Q1-9 470.2 - 550 MHz",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Condenser"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "470.200 - 550.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB)"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid, Omnidirectional"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "2.2"
+  },
+  {
+   "label": "Battery count",
+   "value": "1"
+  },
+  {
+   "label": "Battery included",
+   "value": "Yes"
+  },
+  {
+   "label": "Battery voltage (V)",
+   "value": "3.6"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-dx-ts-3-pin/ew-dx-ts-3-pin-q1-9-509440",
+ "checked": "2026-10-18"
 }

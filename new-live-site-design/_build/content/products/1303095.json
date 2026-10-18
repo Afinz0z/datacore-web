@@ -1,11 +1,38 @@
 {
  "sku": "1303095",
- "order": 1131,
+ "order": 1119,
  "n": "CM20",
  "b": "Yealink",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "1303095 - • 1x CM20 Ceiling Microphone • 1x White Mesh Cover • 1x Black Mesh Cover • 1x Ceiling Tile Bridge • 1x Dust Cover • including 2-year AMS",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "120Hz-16kHz"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "122dBSPL"
+  },
+  {
+   "label": "Signal Noise Ratio",
+   "value": "86dB @<1% THD"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "0 dBV/Pa 94dBSPL@1kHZ"
+  },
+  {
+   "label": "Microphone",
+   "value": "16 omni-direction microphone"
+  },
+  {
+   "label": "AEC Channel",
+   "value": "1 channel internal"
+  }
+ ],
+ "src": "https://www.yealink.com/en/product-detail/accessories-cm20",
+ "checked": "2026-10-18"
 }

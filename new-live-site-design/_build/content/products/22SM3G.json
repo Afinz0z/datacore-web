@@ -1,6 +1,6 @@
 {
  "sku": "22SM3G",
- "order": 27,
+ "order": 26,
  "n": "22inch UHD Signage Display",
  "b": "LG",
  "c": "Displays",
@@ -10,7 +10,51 @@
  "specs": [
   {
    "label": "Type",
-   "value": "signage display"
+   "value": "Standard Performance"
+  },
+  {
+   "label": "Screen Size",
+   "value": "21.5\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "IPS"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "1,920 x 1,080 (FHD)"
+  },
+  {
+   "label": "Brightness",
+   "value": "250 nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,000:1"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "400,000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "BT.709 95%"
+  },
+  {
+   "label": "Viewing Angle(H x V)",
+   "value": "178 x 178"
+  },
+  {
+   "label": "Color Depth",
+   "value": "6bit, 16.7Million Colors"
+  },
+  {
+   "label": "Response Time",
+   "value": "14ms (G to G)"
+  },
+  {
+   "label": "Surface Treatment(Haze)",
+   "value": "25%"
   }
  ],
  "acc": [
@@ -22,5 +66,7 @@
   "VB-WMK-001-2C",
   "WMK-077",
   "XSM1U"
- ]
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-22SM3G-B",
+ "checked": "2026-10-18"
 }

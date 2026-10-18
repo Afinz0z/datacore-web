@@ -1,6 +1,6 @@
 {
  "sku": "DM8SE",
- "order": 692,
+ "order": 683,
  "n": "DesignMax surface-mount loudspeaker (DM8SE)",
  "b": "Bose",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM8SE",
  "d": "DesignMax surface-mount loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black (RAL 9005), white (RAL 9003), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Outdoor per IEC 529 IP55 (suitable for use outdoors in wet locations), includes aluminum grille to prevent red corrosion and weather resistant input cover"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated aluminum, powder-coated finish, tamper-resistant design, paintable"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "52 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "130° conical"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "115 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "150 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "600 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Not required, Bose Professional EQ voicing and SmartBass processing available"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm8se-loudspeaker",
+ "checked": "2026-10-18"
 }

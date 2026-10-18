@@ -1,14 +1,53 @@
 {
  "sku": "760242979",
- "order": 3956,
+ "order": 3938,
  "n": "CommScope Distribution Panel (Fiber Adapter Pack)",
  "b": "CommScope",
  "c": "Fiber adaptor",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Distribution Panel 24 Fiber ( 12 LC Duplex ports) Aqua (iPatch Ready)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber adapter pack"
+  },
+  {
+   "label": "Adapter Color",
+   "value": "Aqua"
+  },
+  {
+   "label": "Body Style",
+   "value": "Ganged"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "iPatch® ready"
+  },
+  {
+   "label": "Interface",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Interface Feature",
+   "value": "Dust caps"
+  },
+  {
+   "label": "Shuttered",
+   "value": "No"
+  },
+  {
+   "label": "Fiber Mode",
+   "value": "Multimode"
+  }
+ ],
  "for": [
   "760231514"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-adapter-packs/item760242979/",
+ "checked": "2026-10-18"
 }

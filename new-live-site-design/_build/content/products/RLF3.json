@@ -1,6 +1,6 @@
 {
  "sku": "RLF3",
- "order": 2540,
+ "order": 2528,
  "n": "Wall Mounts - Large Universal Fixed Mount (RLF3)",
  "b": "Chief",
  "c": "Mount",
@@ -10,11 +10,57 @@
  "d": "Wall Mounts - Large Universal Fixed Mount",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Depth",
+   "value": "1 in (2.5 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "19.19 in (48.7 cm)"
+  },
+  {
+   "label": "Manual Height Adjustment",
+   "value": "0.75 in (19.1 mm)"
+  },
+  {
+   "label": "Minimum Depth",
+   "value": "1 in (2.5 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "43\"- 86\" (1092mm - 2184mm)"
+  },
+  {
+   "label": "Width",
+   "value": "38 in (96.5 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Fixed"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "VESA Mounting Pattern",
+   "value": "100 x 100mm - 960 x 450mm"
   }
  ],
  "for": [
   "75BDL3511Q/00"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fit-fixed-wall-mounts/rlf3",
+ "checked": "2026-10-18"
 }

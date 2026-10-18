@@ -1,10 +1,61 @@
 {
  "sku": "811432-0210",
- "order": 1225,
+ "order": 1213,
  "n": "MB210-WR outdoor subwoofer",
  "b": "Bose",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black, white"
+  },
+  {
+   "label": "Environmental",
+   "value": "Rated for direct-exposure outdoor installations (IEC 60529: IP55)"
+  },
+  {
+   "label": "Grille",
+   "value": "3 layers (perforated stainless steel, acoustic foam, stainless-steel mesh), powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "3 × M8 threaded inserts for U-bracket (per side)"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "37 Hz – 180 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "Omnidirectional below 200 Hz"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "117 dB (free field), 123 dB (wall/ceiling) continuous / 123 dB (free field), 129 dB (wall/ceiling) peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "500 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "2000 W"
+  },
+  {
+   "label": "Recommended Power Amplification",
+   "value": "500 W – 2000 W"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/subwoofers/mb-sub/mb210-wr-outdoor-subwoofer",
+ "checked": "2026-10-18"
 }

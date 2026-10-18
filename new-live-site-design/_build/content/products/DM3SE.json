@@ -1,6 +1,6 @@
 {
  "sku": "DM3SE",
- "order": 689,
+ "order": 680,
  "n": "DesignMax DM3SE loudspeakers (1 pair)",
  "b": "Bose",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM3SE",
  "d": "DesignMax DM3SE loudspeakers (1 pair)",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black (RAL 9005), white (similar to RAL 9003), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Outdoor per IEC 529 IP55 (suitable for use outdoors in wet locations), includes aluminum grille to prevent red corrosion and weather resistant input cover"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated aluminum, powder-coated finish, tamper-resistant design, paintable"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "75 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "140° conical"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "101 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "30 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "120 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Not required, Bose Professional EQ voicing and SmartBass processing available"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm3se-1-pair",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "CS2725-000",
- "order": 3959,
+ "order": 3941,
  "n": "Fiber Optic Duplex Adapter",
  "b": "CommScope",
  "c": "Fiber adaptor",
@@ -9,8 +9,54 @@
  "d": "Fiber Optic Duplex Adapter, Multimode LC/UPC, Aqua, with flanges",
  "specs": [
   {
-   "label": "Type",
-   "value": "Fiber adaptor MM"
+   "label": "Product Type",
+   "value": "Fiber adapter"
+  },
+  {
+   "label": "Product Series",
+   "value": "OC-ADP"
+  },
+  {
+   "label": "Body Style",
+   "value": "Duplex"
+  },
+  {
+   "label": "Color",
+   "value": "Aqua"
+  },
+  {
+   "label": "Interface",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Mounting",
+   "value": "Square flange"
+  },
+  {
+   "label": "Transmission Standards",
+   "value": "IEC 60754-1 | IEC 61300-3-42"
+  },
+  {
+   "label": "Coupling Retention Force",
+   "value": "70 N | 15.737 lbf"
+  },
+  {
+   "label": "Fiber Mode",
+   "value": "Multimode"
+  },
+  {
+   "label": "Insertion Loss, maximum",
+   "value": "0.1 dB"
+  },
+  {
+   "label": "Alignment Sleeve Material",
+   "value": "Ceramic"
+  },
+  {
+   "label": "Packaging Type",
+   "value": "Bag"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/fiber-adapters-connectors/adapters/itemcs2725-000/",
+ "checked": "2026-10-18"
 }

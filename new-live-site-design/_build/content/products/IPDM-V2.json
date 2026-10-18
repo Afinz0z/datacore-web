@@ -1,6 +1,6 @@
 {
  "sku": "IPDM-V2",
- "order": 4548,
+ "order": 4527,
  "n": "IP Desk Master-V2",
  "b": "Zenitel",
  "c": "Intercom",
@@ -8,11 +8,57 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "Audio Intercom"
+   "label": "Display",
+   "value": "Backlit display, 35 x 68 mm (64 x 128 pixels)"
+  },
+  {
+   "label": "Connectors",
+   "value": "2 x RJ45 (Ethernet) 10/100 Mbps"
+  },
+  {
+   "label": "SIP",
+   "value": "RFC 3261, SIP Info (DTMF), RFC 2833 (DTMF)"
+  },
+  {
+   "label": "IP protocols",
+   "value": "IP v4 - TCP - UDP - HTTPS – TFTP - RTP - RTCP -DHCP - SNMP - DiffServ - TOS – ONVIF - CCoIP® - SIP - RSTP"
+  },
+  {
+   "label": "LAN protocols",
+   "value": "Power over Ethernet (IEEE 802.3 a-f), VLAN (IEEE 802.1pq), Network Access Control (IEEE 802.1x)"
+  },
+  {
+   "label": "Audio technology",
+   "value": "Wideband 200 Hz - 7 kHz (G.722), Telephony 3.4kHz (G.711), Active noise filtering, Acoustic echo cancellation, Open duplex, Adaptive jitter filter, Handset and volume override"
+  },
+  {
+   "label": "Audio output",
+   "value": "1.5 Watt, 85 dB audio pressure 1m from speaker"
+  },
+  {
+   "label": "Management and operation",
+   "value": "HTTPS (Web configuration), DHCP and static IP, Remote automatic software upgrade, Centralized monitoring, Status LED"
+  },
+  {
+   "label": "Advanced features",
+   "value": "Dual port managed data switch supporting VLAN and network access control"
+  },
+  {
+   "label": "Compliance",
+   "value": "CE and FCC Part 15"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP22"
+  },
+  {
+   "label": "Dimension (WxHxD)",
+   "value": "168 x 75 x 176 mm"
   }
  ],
  "acc": [
   "1008091100"
- ]
+ ],
+ "src": "https://www.zenitel.com/product/ipdm-v2",
+ "checked": "2026-10-18"
 }

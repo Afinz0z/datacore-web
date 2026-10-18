@@ -1,6 +1,6 @@
 {
  "sku": "ER-LGFS-5586-N23",
- "order": 2682,
+ "order": 2670,
  "n": "Equipement Rack-ER-LGFS-5586-N23",
  "b": "Logic",
  "c": "Mount",
@@ -14,7 +14,6 @@
   }
  ],
  "for": [
-  "55UH5N-E",
   "HG75U800FAUXUE"
  ]
 }

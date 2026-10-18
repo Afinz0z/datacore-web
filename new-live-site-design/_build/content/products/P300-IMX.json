@@ -1,11 +1,58 @@
 {
  "sku": "P300-IMX",
- "order": 1183,
+ "order": 1171,
  "n": "IntelliMix P300",
  "b": "Shure",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
  "d": "Audio Conferencing Processor includes 10 Dante inputs, 2 analog inputs, 8 channels of microphone processing with AEC, delay, compressor, gain control, and more.",
- "specs": []
+ "specs": [
+  {
+   "label": "Analog Inputs",
+   "value": "2 Line + 3.5mm TRRS"
+  },
+  {
+   "label": "Analog Outputs",
+   "value": "2 Mic/Line/Aux with PEQ & Delay & 1 - 3.5mm TRRS"
+  },
+  {
+   "label": "Dante Inputs",
+   "value": "10 [8 with IntelliMix DSP (AEC, NR, AGC) 2 with PEQ]"
+  },
+  {
+   "label": "Dante Outputs",
+   "value": "8 with PEQ"
+  },
+  {
+   "label": "USB Audio",
+   "value": "1 in, 1 Out with PEQ"
+  },
+  {
+   "label": "Acoustic Echo Cancelation",
+   "value": "yes"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "yes"
+  },
+  {
+   "label": "Automatic Mixing",
+   "value": "yes"
+  },
+  {
+   "label": "Matrix Mixing",
+   "value": "yes"
+  },
+  {
+   "label": "Stereo/Mono",
+   "value": "Mono"
+  },
+  {
+   "label": "Weight",
+   "value": "1710 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/mixers/p300",
+ "checked": "2026-10-18"
 }

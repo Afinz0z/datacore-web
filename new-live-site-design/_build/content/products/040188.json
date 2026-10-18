@@ -1,14 +1,65 @@
 {
  "sku": "040188",
- "order": 705,
+ "order": 696,
  "n": "MA12 modular column array loudspeaker",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black, white"
+  },
+  {
+   "label": "Grille",
+   "value": "Aluminum, powder-coated finish"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "4 × M6 threaded inserts"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "100 Hz – 16,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "145°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "113 dB continuous, 119 dB peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "300 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "1200 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Bose Professional loudspeaker EQ"
+  },
+  {
+   "label": "Sensitivity (SPL/1 W at 1 m)",
+   "value": "88 dB"
+  },
+  {
+   "label": "Transformer Taps, 100V",
+   "value": "CVT-MA12 transformer available"
+  }
+ ],
  "acc": [
   "318337-0100",
   "318338-0200"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/line-columns/passive/ma/ma12-modular-columnar-array-loudspeaker",
+ "checked": "2026-10-18"
 }

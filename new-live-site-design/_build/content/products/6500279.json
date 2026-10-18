@@ -1,11 +1,38 @@
 {
  "sku": "6500279",
- "order": 4287,
+ "order": 4260,
  "n": "CNTBLOCK",
  "b": "Crestron",
  "c": "Distribution System",
  "dept": "AV",
  "avail": "lead",
  "d": "CNTBLOCK Cresnet® Distribution Block",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure chassis",
+   "value": "metal, black finish, with (2) integral mounting flanges"
+  },
+  {
+   "label": "Enclosure mounting",
+   "value": "freestanding or surface mount"
+  },
+  {
+   "label": "Height",
+   "value": "0.92 in (24 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "5.75 in (147 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.89 in (48 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.5 lb (0.2 kg)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Integrated-Lighting-Systems/CAEN-Enclosure/CNTBLOCK",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "757401",
- "order": 4295,
+ "order": 4274,
  "n": "1300 satellite dish",
  "b": "Televes",
  "c": "Dish",
  "dept": "AV",
  "avail": "lead",
  "d": "OFFSET DISH 1300 AL G42dBi WHI.1U",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "10.7 ... 12.75 GHz"
+  },
+  {
+   "label": "Gain (11.75GHz)",
+   "value": "42 dBi"
+  },
+  {
+   "label": "Elevation angle",
+   "value": "30 ... 80 º"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "1.65 º"
+  },
+  {
+   "label": "F/D ratio",
+   "value": "0.6000"
+  },
+  {
+   "label": "Dish size: Height",
+   "value": "1410 mm"
+  },
+  {
+   "label": "Dish size: Width",
+   "value": "1300 mm"
+  },
+  {
+   "label": "LNB-bracket diameter",
+   "value": "40 mm"
+  },
+  {
+   "label": "Wind load (@130Km/h)",
+   "value": "1392 N"
+  },
+  {
+   "label": "Wind load (@150Km/h)",
+   "value": "1914 N"
+  },
+  {
+   "label": "Max. withstanding wind speed",
+   "value": "160 km/h"
+  },
+  {
+   "label": "Width",
+   "value": "1,300 mm"
+  }
+ ],
+ "src": "https://www.televes.com/en/757401-1300-aluminium-satellite-dish-areas-with-poor-satellite-coverage.html",
+ "checked": "2026-10-18"
 }

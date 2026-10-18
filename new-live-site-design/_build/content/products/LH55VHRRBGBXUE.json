@@ -1,6 +1,6 @@
 {
  "sku": "LH55VHRRBGBXUE",
- "order": 227,
+ "order": 219,
  "n": "Video-Wall, 55\", FHD, VHR series,24/7 (LH55VHRRBGBXUE- Kit)",
  "b": "Samsung",
  "c": "Video Wall",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LH55VHRRBGBXUE- Kit",
  "d": "Samsung Video-Wall, 55\", FHD, VHR series,24/7, 0.88mm Bezel-To-Bezel,700 NIT,(4x4 configuration) with 8 x HDMI input, 8xHDMI output videowall controller,mount included",
- "specs": []
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "55\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "Direct LED"
+  },
+  {
+   "label": "Resolution",
+   "value": "1,920 x 1,080"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.63 x 0.63"
+  },
+  {
+   "label": "Brightness (Typical, cd/m2)",
+   "value": "Max 700"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,100 : 1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178 / 178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8 ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "0.72 %"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "0.28 %"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "57.3 kHz ~ 70 kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "78 MHz"
+  }
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/video-wall/video-wall-vh55r-r-lh55vhrrbgbxue/",
+ "checked": "2026-10-18"
 }

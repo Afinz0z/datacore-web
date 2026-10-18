@@ -1,14 +1,65 @@
 {
  "sku": "317302-0200",
- "order": 708,
+ "order": 699,
  "n": "MA12EX modular column array loudspeaker",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black, white"
+  },
+  {
+   "label": "Environmental",
+   "value": "Outdoor use"
+  },
+  {
+   "label": "Grille",
+   "value": "Aluminum, powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IPX5"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "6 × M6 threaded inserts"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "58 Hz – 16,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "160°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "112 dB continuous, 118 dB peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "150 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "600 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Bose Professional loudspeaker EQ"
+  }
+ ],
  "acc": [
   "318337-0100",
   "318338-0200"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/line-columns/passive/ma/ma12ex-modular-columnar-array-loudspeaker",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "Z4103.000",
- "order": 1155,
+ "order": 1143,
  "n": "Networked Audio Matrix and Processing Engine for d&b Soundscape,Up (DS110)",
  "b": "d&b audiotechnik",
  "c": "DSP",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DS110",
  "d": "DS110Networked Audio Matrix and Processing Engine for d&b Soundscape,Up to 128 x 64 channels at 96 kHz,Dante, MADI, or mixed",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio Formats",
+   "value": "Dante audio network/AES67 / MADI"
+  },
+  {
+   "label": "Input processing",
+   "value": "8-Band PEQ with high/low shelf / Gain -120 to +24 dB / Delay up to 500 ms / Polarity 0° / 180° / Mute On/Off"
+  },
+  {
+   "label": "Matrix processing",
+   "value": "Level+Delay Matrix on each I/O crosspoint / Gain -120 to +10 dB / Delay On/Off up to 500 ms / Mute On/Off"
+  },
+  {
+   "label": "Output processing",
+   "value": "16-Band PEQ with high/low shelf / Gain -120 to +10 dB / Delay up to 500 ms / Mute On/Off"
+  },
+  {
+   "label": "Sample rate for I/O",
+   "value": "48/96 kHz"
+  },
+  {
+   "label": "Latency",
+   "value": "< 1.4 ms @ 48 kHz / < 1.6 ms @ 96 kHz"
+  },
+  {
+   "label": "Power",
+   "value": "Push-button switch with integrated ring-LED indicator"
+  },
+  {
+   "label": "Audio Network",
+   "value": "2 x RJ45 for primary / secondary"
+  },
+  {
+   "label": "MADI",
+   "value": "4 x MADI IN / 4 x MADI OUT / WORD CLOCK IN / WORD CLOCK OUT"
+  },
+  {
+   "label": "Remote control",
+   "value": "2 x RJ45 / LAN 100/1000 Mbps / OCA/AES70, OSC"
+  },
+  {
+   "label": "Mains connector",
+   "value": "IEC type socket"
+  },
+  {
+   "label": "Rated mains voltage",
+   "value": "100 to 240 V, 50 – 60 Hz"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/processing-and-matrix/ds110/",
+ "checked": "2026-10-18"
 }

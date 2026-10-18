@@ -1,6 +1,6 @@
 {
  "sku": "LGWM-5586SW",
- "order": 2696,
+ "order": 2684,
  "n": "Swivel Wall Mount-LGWM-5586SW",
  "b": "Logic",
  "c": "Mount",
@@ -9,17 +9,37 @@
  "d": "Swivel Wall Mount Bracket Support 55\" to 86\" Flat Panels, Max Loading Capacity - 50Kg",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Max. Load",
+   "value": "110 lbs (50 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "100 x 100 to 600 x 400"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "55” to 86”"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "18.0 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "20.0 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "645 x 207 x 85"
   }
  ],
  "for": [
   "1203626",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "CDE5530",
   "CDE6514-2C",
   "CDE6530",
@@ -60,5 +80,7 @@
   "PN-M752",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgwm-5586sw",
+ "checked": "2026-10-18"
 }

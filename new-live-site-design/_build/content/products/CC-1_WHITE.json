@@ -1,11 +1,42 @@
 {
  "sku": "CC-1 WHITE",
- "order": 1368,
+ "order": 1356,
  "n": "Zone controller-CC-1 WHITE",
  "b": "Bose",
  "c": "Zone Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "Control Center Zone Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable Requirements",
+   "value": "Cat 5"
+  },
+  {
+   "label": "Maximum Cable Length",
+   "value": "2000 ft (609 m) to FreeSpace or PowerShare amplifiers / 500 ft (152 m) shielded, 100 ft (30 m) unshielded to ControlSpace processors"
+  },
+  {
+   "label": "Connectors",
+   "value": "(2) RJ-45, TIA/EIA 568B wiring standard"
+  },
+  {
+   "label": "Controls, Front Panel",
+   "value": "(1) volume knob"
+  },
+  {
+   "label": "Colors",
+   "value": "Black, white"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "1-gang electrical box (North America, Europe, Japan)"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "4.1 in × 1.5 in × 1.4 in (105 mm × 38 mm × 36 mm), North America / 3.4 in × 3.4 in × 1.4 in (86 mm × 86 mm × 36 mm), Europe / 4.3 in × 1.7 in × 1.5 in (110 mm × 42 mm × 38 mm), Japan"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/controllers/analog/ccs-analog/controlcenter-cc-1-zone-controller",
+ "checked": "2026-10-18"
 }

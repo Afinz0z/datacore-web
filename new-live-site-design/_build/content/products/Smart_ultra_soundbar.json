@@ -1,6 +1,6 @@
 {
  "sku": "Smart ultra soundbar",
- "order": 696,
+ "order": 687,
  "n": "Dolby Atmos soundbar (Smart ultra soundbar)",
  "b": "Bose",
  "c": "Speaker",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "Smart ultra soundbar",
  "d": "Dolby Atmos soundbar",
- "specs": []
+ "specs": [
+  {
+   "label": "Microphones",
+   "value": "Built-in Microphone"
+  },
+  {
+   "label": "Sound Options",
+   "value": "Surround Sound Configuration, Multiroom"
+  },
+  {
+   "label": "Entire Product System",
+   "value": "2.29\" H x 41.14\" W x 4.21\" D (12.68 lb)"
+  },
+  {
+   "label": "Wireless Connectivity",
+   "value": "Bluetooth, Network (WiFi Enabled)"
+  },
+  {
+   "label": "Bluetooth Version",
+   "value": "5.0"
+  },
+  {
+   "label": "Bluetooth Range",
+   "value": "33'"
+  },
+  {
+   "label": "Bose App",
+   "value": "Bose App"
+  },
+  {
+   "label": "Product Material",
+   "value": "Plastic, Metal"
+  }
+ ],
+ "src": "https://www.bose.com/p/home-theater/bose-smart-ultra-soundbar/SUSB-SOUNDBAR.html",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "Z1616",
- "order": 753,
+ "order": 744,
  "n": "5S loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "5” ferrite LF driver in a bass-reflex enclosure covering the range from 80 Hz to 20 kHz.",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "80 Hz - 20 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "130 Hz - 20 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with 10D: 117 dB; with D25/5D/25D: 118 dB; with D40/D80/D90/40D: 118 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "4"
+  },
+  {
+   "label": "Configuration",
+   "value": "Installation specific 2-way compact coaxial loudspeaker"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "16 Ω"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "60/400 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "100° conical"
+  },
+  {
+   "label": "Components",
+   "value": "5\" driver / 1\" dome tweeter coaxially mounted / passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NL4 / screw terminal block"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "240 x 164 x 160 mm / 9.4 x 6.5 x 6.3\""
+  },
+  {
+   "label": "Weight",
+   "value": "2.5 kg / 5.5 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/xs-series/5s/",
+ "checked": "2026-10-18"
 }

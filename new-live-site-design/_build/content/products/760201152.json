@@ -1,11 +1,62 @@
 {
  "sku": "760201152",
- "order": 3861,
+ "order": 3846,
  "n": "24-port intelligent copper patch panel",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "360 iPatch 1100 Evolve 24P, Blank",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "RJ45 patch panel"
+  },
+  {
+   "label": "Product Brand",
+   "value": "iPatch® | SYSTIMAX 360™"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "Silver"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "iPatch® enabled"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Flat"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1"
+  },
+  {
+   "label": "Height",
+   "value": "44.6 mm | 1.756 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth",
+   "value": "206.5 mm | 8.13 in"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760201152/",
+ "checked": "2026-10-18"
 }

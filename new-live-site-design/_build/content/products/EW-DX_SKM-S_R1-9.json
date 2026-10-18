@@ -1,6 +1,6 @@
 {
  "sku": "EW-DX SKM-S (R1-9)",
- "order": 1079,
+ "order": 1068,
  "n": "Handheld transmitter with switch (EW-DX SKM-S (R1-9))",
  "b": "Sennheiser",
  "c": "Mic",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "EW-DX SKM-S (R1-9)",
  "d": "Handheld transmitter with switch. Includes (1) EW-DX SKM-S, (1) MZQ1 microphone clip, and (2) AA batteries R1-9 520 - 607.8 MHz",
- "specs": [],
+ "specs": [
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "520.000 - 607.800"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB)"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "2.3"
+  },
+  {
+   "label": "Battery count",
+   "value": "2"
+  },
+  {
+   "label": "Battery included",
+   "value": "Yes"
+  },
+  {
+   "label": "Battery voltage (V)",
+   "value": "1.5"
+  },
+  {
+   "label": "Charging current (mA)",
+   "value": "< 300 mA"
+  },
+  {
+   "label": "Input voltage",
+   "value": "2.0 - 4.35 V"
+  }
+ ],
  "acc": [
   "MMD 835-1 BK"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-dx-skm-s/ew-dx-skm-s-r1-9-509413",
+ "checked": "2026-10-18"
 }

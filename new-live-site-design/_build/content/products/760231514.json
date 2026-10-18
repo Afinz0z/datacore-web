@@ -1,6 +1,6 @@
 {
  "sku": "760231514",
- "order": 3837,
+ "order": 3798,
  "n": "Commscope High density Patchpanel",
  "b": "CommScope",
  "c": "Fiber Optic Patch panel",
@@ -9,8 +9,52 @@
  "d": "360G2 Mod Panel Blank Adapter Pack, 4 Panels",
  "specs": [
   {
-   "label": "Type",
-   "value": "High density"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber patch/splice panel"
+  },
+  {
+   "label": "Product Series",
+   "value": "HD"
+  },
+  {
+   "label": "Color",
+   "value": "Black + Silver gray (front)"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "iPatch® ready"
+  },
+  {
+   "label": "Interface, front",
+   "value": "Unloaded"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "2"
+  },
+  {
+   "label": "Shelf Movement",
+   "value": "Sliding"
+  },
+  {
+   "label": "Height",
+   "value": "88.9 mm | 3.5 in"
+  },
+  {
+   "label": "Width",
+   "value": "450.85 mm | 17.75 in"
+  },
+  {
+   "label": "Depth",
+   "value": "501.65 mm | 19.75 in"
   }
  ],
  "acc": [
@@ -29,5 +73,7 @@
   "UFVLCLC42-NXF035",
   "UFVLCLC42-NXF040",
   "UFVLCLC42-NXF045"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/item760231514/",
+ "checked": "2026-10-18"
 }

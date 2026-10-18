@@ -1,14 +1,65 @@
 {
  "sku": "734302-0110",
- "order": 1226,
+ "order": 1214,
  "n": "ShowMatch™ SMS118 DeltaQ™ array subwoofer",
  "b": "Bose",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "ShowMatch™ SMS118DeltaQ™ array subwoofer",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Grille",
+   "value": "16-gauge (1.5 mm) perforated steel, powder-coated finish"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "4-point “quick pin” rigging, 4 × M10 top & 4 × M10 bottom inserts, M20 pole cup"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "29 Hz – 300 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "121 dB (free field/array), 127 dB (half-space/ground stack) continuous / 127 dB (free field/array), 133 dB (half-space/ground stack) peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "4 Ω"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "750 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "3000 W"
+  },
+  {
+   "label": "Sensitivity (SPL/1 W at 1 m)",
+   "value": "92 dB (free field/array), 98 dB (half-space/ground stack)"
+  },
+  {
+   "label": "Coverage, Vertical",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Crossover",
+   "value": "60 Hz – 100 Hz, requires active crossover in DSP"
+  }
+ ],
  "acc": [
   "770300-0110"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/subwoofers/showmatch-sub/showmatch-sms118-subwoofer",
+ "checked": "2026-10-18"
 }

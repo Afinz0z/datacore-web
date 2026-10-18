@@ -1,11 +1,62 @@
 {
  "sku": "P2600A",
- "order": 924,
+ "order": 914,
  "n": "Power amplifier-P2600A",
  "b": "Bose",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "PowerSpace P2600Aversatile power amplifier,600 watts per channel and compatible with Bose Professional loudspeakers, DSPs, and controls to create complete commercial sound systems Bose Professional AmpLink input for simplified multichannel digital audio connection to compatible DSPs, reducing terminations and related points of failure Load-independent outputs deliver full channel power to either low-impedance (4-8 Ω) or high-impedance (70/100V) loads without bridging",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "> 80 dB at 1 kHz, > 65 dB at 20 kHz"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "≥ 100 dB at rated power, A-weighted"
+  },
+  {
+   "label": "Gain, High-Impedance",
+   "value": "35 dB, 70V mode / 38 dB, 100V mode"
+  },
+  {
+   "label": "Gain, Low-Impedance",
+   "value": "35 dB"
+  },
+  {
+   "label": "Maximum Peak Power, Symmetrical",
+   "value": "1200 W"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (±1 dB) at 1 W, 4–8 Ω / 20 Hz – 20 kHz (±1 dB) at 1 W with 50 Hz high-pass filter, 70/100V"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "2"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "600 W"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.04% at 1 kHz, 4–8 Ω, 70V/100V"
+  },
+  {
+   "label": "Input Channels",
+   "value": "2 balanced"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(1) 6-pin Euroblock"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/non-dsp/powerspace-non-dsp/powerspace-p2600",
+ "checked": "2026-10-18"
 }

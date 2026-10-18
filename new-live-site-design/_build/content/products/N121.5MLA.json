@@ -1,6 +1,6 @@
 {
  "sku": "N121.5MLA",
- "order": 3973,
+ "order": 3955,
  "n": "Fiber Pigtail MM",
  "b": "Nexans",
  "c": "Fiber Pigtails",
@@ -9,8 +9,22 @@
  "d": "LANmark-OF Pigtail LC OM3 Maxistrip LSZH 50/125 1m Aqua",
  "specs": [
   {
-   "label": "Type",
-   "value": "Pigtail MM"
+   "label": "Connector type",
+   "value": "LC"
+  },
+  {
+   "label": "Fiber optic type",
+   "value": "OM3 50/125"
+  },
+  {
+   "label": "Insertion Loss, maximum, dB",
+   "value": "0.25 dB"
+  },
+  {
+   "label": "Return Loss, Minimum, dB",
+   "value": "30 dB"
   }
- ]
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/fibre-lan-systems/pigtails-splicing/lanmark-pigtails-maxistrip/lanmark-pigtail-lc-om3-maxistrip-lszh-50125-1m-aqua",
+ "checked": "2026-10-18"
 }

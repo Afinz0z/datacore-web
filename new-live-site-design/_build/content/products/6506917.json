@@ -1,6 +1,6 @@
 {
  "sku": "6506917",
- "order": 1152,
+ "order": 1140,
  "n": "Avia™ 12x8 Digital Signal Processor (DSP-1280)",
  "b": "Crestron",
  "c": "DSP",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DSP-1280",
  "d": "DSP-1280 Crestron Avia™ 12x8 Digital Signal Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Analog-To-Digital Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Digital-to-Analog Conversion",
+   "value": "24-bit 48 kHz"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz ±0.5 dB"
+  },
+  {
+   "label": "THD",
+   "value": "0.001%, 20 Hz to 20 kHz, 0 dB gain, +4 dBu input; 0.01%, 22 Hz to 22 kHz, 54 dB gain, -50 dBu input"
+  },
+  {
+   "label": "EIN",
+   "value": "-125 dBu, 22 Hz to 22 kHz, no weighting"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "110 dB, 22 Hz to 22 kHz, 0 dB gain"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "-85 dB, 1 kHz, +4 dBu input, channel to channel; -75 dB, 1 kHz, -50 dBu input, channel to channel"
+  },
+  {
+   "label": "Latency",
+   "value": "3.0 ms (analog in to analog out)"
+  },
+  {
+   "label": "Ethernet",
+   "value": "10/100/1000 Mbps, auto-switching, auto-negotiating, auto-discovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, SSH, SFTP (SSH File Transfer Protocol)"
+  },
+  {
+   "label": "USB Device",
+   "value": "USB device port for computer console (setup)"
+  },
+  {
+   "label": "Main Power",
+   "value": "1.8 Amps @ 100-240 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "102 BTU/hr"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/DSP-Processors/DSP-1280",
+ "checked": "2026-10-18"
 }

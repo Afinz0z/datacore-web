@@ -1,10 +1,61 @@
 {
  "sku": "760237041",
- "order": 3866,
+ "order": 3851,
  "n": "CPP-UDDM-SL-2U-48",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "RJ45 patch panel"
+  },
+  {
+   "label": "Product Series",
+   "value": "SL Series"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "Passive"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Flat"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "2"
+  },
+  {
+   "label": "Height",
+   "value": "88.1 mm | 3.469 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth, with cable management",
+   "value": "113.3 mm | 4.461 in"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760237041/",
+ "checked": "2026-10-18"
 }

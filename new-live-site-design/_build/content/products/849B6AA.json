@@ -1,6 +1,6 @@
 {
  "sku": "849B6AA",
- "order": 1060,
+ "order": 1049,
  "n": "rioC60 IPConference Phone for MicrosoftTeams Full Radio (Trio C60 IP CP)",
  "b": "HP Poly",
  "c": "Mic",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "Trio C60 IP CP",
  "d": "rioC60 IPConference Phone for MicrosoftTeams Full Radio and PoE-enabled -Trio C60 IP CP MS FR PoE-e",
- "specs": [],
+ "specs": [
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native resolution",
+   "value": "720 x 1280"
+  },
+  {
+   "label": "Display features",
+   "value": "On-screen virtual keyboard"
+  },
+  {
+   "label": "Panel technology",
+   "value": "Color LCD"
+  },
+  {
+   "label": "Display size (diagonal)",
+   "value": "12.7 cm (5\")"
+  },
+  {
+   "label": "Touch-enabled",
+   "value": "Gesture-based, multi-touch capable touchscreen"
+  },
+  {
+   "label": "Wireless range",
+   "value": "Up to 6.1 m"
+  },
+  {
+   "label": "Ports",
+   "value": "1 USB 2.0 Type-A (for USB battery charging); 1 USB 2.0 Micro-B (for USB audio device); 2 RJ-45 (10/100/1000BASE-TX Mbps)"
+  },
+  {
+   "label": "Wireless technologies",
+   "value": "Bluetooth® 4.2; Wi-Fi network connectivity: 2.4-2.4835 GHz (802.11b, 802.11g, 802.11n HT-20); 5.15-5.825 GHz (802.11a, 802.11n, HT-20, 802.11n HT-40)"
+  },
+  {
+   "label": "Sensitivity (speaker)",
+   "value": "92 dB"
+  },
+  {
+   "label": "Audio codecs",
+   "value": "G.711 (A-law and μ-law); G.722; G.722.1; G.722.1C; G.729AB; G.719; Polycom® Siren™ 7; Siren™ 14; iLBC; OPUS"
+  },
+  {
+   "label": "Microphone type",
+   "value": "Three cardioid microphones"
+  }
+ ],
  "acc": [
   "P86240160"
- ]
+ ],
+ "src": "https://www.hp.com/ch-en/shop/products/accessories/poly-trio-c60-ip-conference-phone-for-microsoft-teams-full-radio-and-poe-enabled-849b6aa-abb",
+ "checked": "2026-10-18"
 }

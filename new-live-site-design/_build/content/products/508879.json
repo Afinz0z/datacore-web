@@ -1,6 +1,6 @@
 {
  "sku": "508879",
- "order": 4263,
+ "order": 4245,
  "n": "Active antenna splitter (dual 1:4) with DC power distribution (EW-D ASA)",
  "b": "Sennheiser",
  "c": "Antenna",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "EW-D ASA",
  "d": "Active antenna splitter (dual 1:4) with DC power distribution for EW-D receivers. Includes (1) NT 12-35 CS power supply and (8) BNC cable (470-706 MHz)",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "470-694 MHz"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Product height",
+   "value": "75"
+  },
+  {
+   "label": "Product length",
+   "value": "351"
+  },
+  {
+   "label": "Product width",
+   "value": "232"
+  },
+  {
+   "label": "Product weight (g)",
+   "value": "2517"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-d-asa/ew-d-asa-470-694-mhz-508879",
+ "checked": "2026-10-18"
 }

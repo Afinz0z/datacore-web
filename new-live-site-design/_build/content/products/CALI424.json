@@ -1,6 +1,6 @@
 {
  "sku": "CALI424",
- "order": 617,
+ "order": 608,
  "n": "Safelatch™ 2-way 4\" ceiling speaker with TwistFix™ grill",
  "b": "Audac",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Speaker",
  "d": "Safelatch™ 2-way 4\" ceiling speaker with TwistFix™ grill",
- "specs": []
+ "specs": [
+  {
+   "label": "Peak power handling",
+   "value": "120 W"
+  },
+  {
+   "label": "Program power handling",
+   "value": "60 W"
+  },
+  {
+   "label": "Continuous power (aes)",
+   "value": "30 W"
+  },
+  {
+   "label": "Sound pressure (max. w/1m) @ 100 v",
+   "value": "101 dB"
+  },
+  {
+   "label": "Sensitivity (1w/1m)",
+   "value": "84 dB"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "105 Hz - 20 kHz"
+  },
+  {
+   "label": "Frequency range (-10 db)",
+   "value": "70 Hz - 20 kHz"
+  },
+  {
+   "label": "Speaker type",
+   "value": "2-way coaxial"
+  },
+  {
+   "label": "Connection",
+   "value": "Ceramic screw terminal with link through"
+  },
+  {
+   "label": "Line transformer tappings 1",
+   "value": "208 Ω - 100 V / Not used - 70 V / 24 W"
+  },
+  {
+   "label": "Line transformer tappings 2",
+   "value": "417 Ω - 100 V / 24 W - 70 V / 12 W"
+  },
+  {
+   "label": "Line transformer tappings 3",
+   "value": "833 Ω - 100 V / 12 W - 70 V / 6 W"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/cali424---safelatch-2-way-4inch-ceiling-speaker-with-twistfix-grill",
+ "checked": "2026-10-18"
 }

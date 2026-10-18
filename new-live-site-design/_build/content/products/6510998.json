@@ -1,6 +1,6 @@
 {
  "sku": "6510998",
- "order": 2595,
+ "order": 2583,
  "n": "Wall Mount Kit for Crestron® Cameras (UC-CAM-WMK)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,27 @@
  "avail": "lead",
  "model": "UC-CAM-WMK",
  "d": "UC-CAM-WMK Wall Mount Kit for Crestron® Cameras",
- "specs": [],
+ "specs": [
+  {
+   "label": "Construction",
+   "value": "Steel, black finish"
+  },
+  {
+   "label": "Height",
+   "value": "3.80 in. (97 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.50 in. (38 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "Small Bracket: 4.61 in. (117 mm); Large Bracket: 6.10 in. (155 mm)"
+  }
+ ],
  "for": [
   "6512296"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Intelligent-Video/Camera-Accessories/UC-CAM-WMK",
+ "checked": "2026-10-18"
 }

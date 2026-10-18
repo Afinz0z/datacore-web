@@ -1,6 +1,6 @@
 {
  "sku": "LGC-7598",
- "order": 2693,
+ "order": 2681,
  "n": "Push Pull Wall Mount-LGC-7598",
  "b": "Logic",
  "c": "Mount",
@@ -9,15 +9,37 @@
  "d": "Push Pull Wall Mount Bracket Support 75\" to 98\" Flat Panels, Max Loading Capacity - 120Kgs",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Max. Load",
+   "value": "265 lbs (120 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "400 x 400 to 900 x 600"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "75″ to 98″"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "19 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "22 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "2040 x 610 x 160 mm"
   }
  ],
  "for": [
   "1203626",
-  "55UH5N-E",
   "75UH7N",
-  "86UL3J-B",
   "98TR3DK-B",
   "98UM5K",
   "CDE7514-2C",
@@ -47,5 +69,7 @@
   "PN-LC862",
   "PN-M752",
   "V8650"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgc-7598",
+ "checked": "2026-10-18"
 }

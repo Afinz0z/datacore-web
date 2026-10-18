@@ -1,11 +1,34 @@
 {
  "sku": "359844-0020",
- "order": 1487,
+ "order": 1475,
  "n": "Dante network card",
  "b": "Bose",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
  "d": "CARD,POWERMATCH,DANTE NETWORK",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "8 Dante in × 8 Dante out"
+  },
+  {
+   "label": "Connectors",
+   "value": "(2) RJ-45 Dante in/thru"
+  },
+  {
+   "label": "LED Status Indicators",
+   "value": "(2) network speed LEDs, (2) Link/Act LEDs"
+  },
+  {
+   "label": "Sample Rate / Bit Depth",
+   "value": "48 kHz / 24-bit"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/amplifier-accessories/powermatch-dante-network-card",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "LGC-5586",
- "order": 2692,
+ "order": 2680,
  "n": "Push Pull Wall Mount 55 to 86-LGC-5586",
  "b": "Logic",
  "c": "Mount",
@@ -9,17 +9,37 @@
  "d": "LOGIC Push Pull Wall Mount Bracket LGC-5586 Support 55\" to 86\" Flat Panels, Max Loading Capacity - 50Kgs",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Max. Load",
+   "value": "110 lbs (50 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "100 x 100 to 600 x 400"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "55” to 86”"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "14.2 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "17.5 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "640 x 300 x 130"
   }
  ],
  "for": [
   "1203626",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "CDE105UW",
   "CDE4330",
   "CDE5530",
@@ -63,5 +83,7 @@
   "PN-M752",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgc-5586",
+ "checked": "2026-10-18"
 }

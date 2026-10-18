@@ -1,6 +1,6 @@
 {
  "sku": "DM3C",
- "order": 685,
+ "order": 676,
  "n": "DesignMax DM-3C",
  "b": "Bose",
  "c": "Speaker",
@@ -9,8 +9,54 @@
  "d": "In-ceiling loudspeaker,Design Max Ceiling Loud Speaker Black",
  "specs": [
   {
-   "label": "Type",
-   "value": "Ceiling Speaker"
+   "label": "Colors",
+   "value": "White grille (similar to RAL 9003), black grille (similar to RAL 9005), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Indoor only"
+  },
+  {
+   "label": "Grille",
+   "value": "Magnetically attached perforated steel, powder-coated finish, paintable, with safety tether"
+  },
+  {
+   "label": "Ceiling Cutout",
+   "value": "8.2 in (208 mm)"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "(3) QuickHold spring-loaded mounting arms, (3) safety cable attachment points"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "75 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "135° conical"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "98 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "30 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "120 W"
   }
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/ceiling-mount/designmax/designmax-dm3c-1-pair",
+ "checked": "2026-10-18"
 }

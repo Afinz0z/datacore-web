@@ -1,11 +1,62 @@
 {
  "sku": "41521400ZY",
- "order": 3850,
+ "order": 3811,
  "n": "Fiber Patch Panel 1U 24 LC (12 LCD) Single Mode",
  "b": "Datwyler",
  "c": "Fiber Optic Patch panel",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fiber Patch Panel 1U 24 LC (12 LCD) Single Mode , Full Loaded with Adapters, Ceramic Sleeve and 24 Pigtails SM OS2 2meter",
- "specs": []
+ "specs": [
+  {
+   "label": "Pigtails",
+   "value": "24 x LC"
+  },
+  {
+   "label": "Number of adapters",
+   "value": "12"
+  },
+  {
+   "label": "Packing unit",
+   "value": "1 pc."
+  },
+  {
+   "label": "Adapter orientation",
+   "value": "offset horizontal"
+  },
+  {
+   "label": "Colour (Frontplate)",
+   "value": "light grey"
+  },
+  {
+   "label": "Ferrule polishing",
+   "value": "PC 0°"
+  },
+  {
+   "label": "Fibre type",
+   "value": "E9/125 G.652.D BLO"
+  },
+  {
+   "label": "Fibre class",
+   "value": "Singlemode"
+  },
+  {
+   "label": "Fibre category",
+   "value": "OS2"
+  },
+  {
+   "label": "Colour code",
+   "value": "IEC 60304"
+  },
+  {
+   "label": "Adapter",
+   "value": "LCD/PC"
+  },
+  {
+   "label": "Adapter colour",
+   "value": "blue"
+  }
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/fibre-networks/patch-panels/19-inch-splice/ov-s-splice-os2-lcd-2/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "CL-LGFS-5586-N23",
- "order": 2679,
+ "order": 2667,
  "n": "Camera Ledge-CL-LGFS-5586-N23",
  "b": "Logic",
  "c": "Mount",
@@ -14,7 +14,6 @@
   }
  ],
  "for": [
-  "55UH5N-E",
   "HG65U800FAUXUE"
  ]
 }

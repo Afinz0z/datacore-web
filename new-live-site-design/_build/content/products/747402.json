@@ -1,14 +1,65 @@
 {
  "sku": "747402",
- "order": 4282,
+ "order": 4270,
  "n": "Wideband LNB (2 Outputs V/H)-SPWB30",
  "b": "Televes",
  "c": "Satellite Accessory",
  "dept": "AV",
  "avail": "lead",
  "d": "LNB WIDEBAND 2O: H-V G57dB, Wideband LNB 2 outputs:V/H - Overlight series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "10.7 ... 12.75 GHz"
+  },
+  {
+   "label": "Output frequency range",
+   "value": "290 ... 2340 MHz"
+  },
+  {
+   "label": "L.O. frequency 22KHz",
+   "value": "10.41 GHz"
+  },
+  {
+   "label": "Gain",
+   "value": "57 dB"
+  },
+  {
+   "label": "Noise figure",
+   "value": "0.3 dB"
+  },
+  {
+   "label": "L.O. stability",
+   "value": "-1.5 ... 1.5 MHz"
+  },
+  {
+   "label": "Polarities discrimination",
+   "value": "> 20 dB"
+  },
+  {
+   "label": "Phase noise (@10 KHz)",
+   "value": "-80 dBc"
+  },
+  {
+   "label": "Powering",
+   "value": "10.5 ... 21 Vdc"
+  },
+  {
+   "label": "Max. current",
+   "value": "100 mA"
+  },
+  {
+   "label": "Impedance",
+   "value": "75 Ω"
+  },
+  {
+   "label": "Connectors",
+   "value": "\"F\" female"
+  }
+ ],
  "for": [
   "7575"
- ]
+ ],
+ "src": "https://www.televes.com/en/747402-wideband-lnb-2-outputs-v-h-overlight-series.html",
+ "checked": "2026-10-18"
 }

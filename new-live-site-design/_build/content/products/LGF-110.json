@@ -1,6 +1,6 @@
 {
  "sku": "LGF-110",
- "order": 2688,
+ "order": 2676,
  "n": "Fixed Wall Mount 98 to 110 -LGF-110",
  "b": "Logic",
  "c": "Mount",
@@ -9,12 +9,31 @@
  "d": "Logic Fixed Wall Mount Bracket LGF-110 Support 98\" to 110\" Flat Panels, Max Loading Capacity - 130Kg",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Max. Load",
+   "value": "286.6 lbs (130 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "400 x 400 to 1500 x 600"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "98″ to 110″"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "8.5 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "9.0 kg"
   }
  ],
  "for": [
-  "55UH5N-E",
   "98TR3DK-B",
   "98UM5K",
   "HG65U800FAUXUE",
@@ -24,5 +43,7 @@
   "IFP9850-4",
   "PANA105D",
   "PN-LC862"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgf-110",
+ "checked": "2026-10-18"
 }

@@ -1,13 +1,62 @@
 {
  "sku": "6507800",
- "order": 1627,
+ "order": 1615,
  "n": "CAEN-BLOCK-CENCN-2-POE",
  "b": "Crestron",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "CAEN-BLOCK-CENCN-2-POE Ethernet to Cresnet® Bridge for CAEN Automation Enclosures",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, DHCP, web server, IEEE 802.3at compliant"
+  },
+  {
+   "label": "Cresnet",
+   "value": "Cresnet server mode with two separate subnets"
+  },
+  {
+   "label": "USB",
+   "value": "Supports computer console via front panel USB 2.0 device port"
+  },
+  {
+   "label": "Memory Card",
+   "value": "(1) SD memory card slot; Accepts one SD or SDHC card for log file storage"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3at Type 2 PoE+ Powered Device"
+  },
+  {
+   "label": "Cresnet Power",
+   "value": "24 Volts DC"
+  },
+  {
+   "label": "Construction chassis",
+   "value": "Metal, gray, surface mount module with (2) integral mounting flanges"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "Installs in a Crestron CAEN, CAEN-MLO, or CAENIB enclosure"
+  },
+  {
+   "label": "Height",
+   "value": "3.61 in. (92 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "9.30 in. (237 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.00 in. (51 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  }
+ ],
  "for": [
   "6500407",
   "6500408",
@@ -18,5 +67,7 @@
   "6506383",
   "6506384",
   "MP-16"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Expansion-IO/CAEN-BLOCK-CENCN-2-POE",
+ "checked": "2026-10-18"
 }

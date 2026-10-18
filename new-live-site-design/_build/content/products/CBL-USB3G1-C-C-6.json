@@ -1,11 +1,34 @@
 {
  "sku": "CBL-USB3G1-C-C-6",
- "order": 2279,
+ "order": 2267,
  "n": "Pass-Through Cable for FT2 Series, USB-C",
  "b": "Crestron",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "Pass-Through Cable for FT2 Series, USB-C? Male to USB-C Male, USB 3.2 Gen 1 (5 Gbps),6 ft (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable Type",
+   "value": "Passive"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB Type-C® (Male), USB Type-C (Male)"
+  },
+  {
+   "label": "Length",
+   "value": "6 ft (1.8 m)"
+  },
+  {
+   "label": "Diameter",
+   "value": "5.0 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "3.0 oz (85 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Video,-Audio-and-USB/USB-Cables/CBL-USB3G1-C-C-6",
+ "checked": "2026-10-18"
 }

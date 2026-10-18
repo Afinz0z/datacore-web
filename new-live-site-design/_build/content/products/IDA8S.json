@@ -1,6 +1,6 @@
 {
  "sku": "IDA8S",
- "order": 4347,
+ "order": 4326,
  "n": "Stackable Voice Alarm system, Slave module (IDA8S)",
  "b": "Ateis",
  "c": "Slave Controller",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "IDA8S",
  "d": "Stackable Voice Alarm system, Slave module",
- "specs": []
+ "specs": [
+  {
+   "label": "Voltage",
+   "value": "18 - 30 VDC"
+  },
+  {
+   "label": "Frequency response",
+   "value": "±1 dB @ 20 Hz and 20 kHz"
+  },
+  {
+   "label": "Line inputs (Optional audio input card) SNR",
+   "value": ">81 dBA"
+  },
+  {
+   "label": "Line inputs (Optional audio input card) THD",
+   "value": "< 0.02% @ 1 kHz"
+  },
+  {
+   "label": "Line outputs (Optional audio output card) SNR",
+   "value": ">81 dBA"
+  },
+  {
+   "label": "Line outputs (Optional audio output card) THD",
+   "value": "< 0.02% @ 1 kHz"
+  },
+  {
+   "label": "Mounting",
+   "value": "19\"-rack mount"
+  },
+  {
+   "label": "Color",
+   "value": "RAL7016"
+  },
+  {
+   "label": "Air pressure",
+   "value": "600 to 1100 h Pa"
+  },
+  {
+   "label": "Weight",
+   "value": "4.2 kg"
+  },
+  {
+   "label": "Storage temperature",
+   "value": "-40ºC ~ 70ºC (-40ºF ~ 158ºF)"
+  },
+  {
+   "label": "Relative humidity",
+   "value": "15% to 90%"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/ateis/voice-alarm-systems/ida8-system/matrix/ida8s-ida8sab/secondary-units",
+ "checked": "2026-10-18"
 }

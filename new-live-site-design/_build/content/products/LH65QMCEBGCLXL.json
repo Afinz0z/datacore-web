@@ -1,15 +1,66 @@
 {
  "sku": "LH65QMCEBGCLXL",
- "order": 108,
+ "order": 100,
  "n": "65 inch QM65C Smart Signage",
  "b": "Samsung",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "1.63 m (65) QM65C Smart Signage",
- "specs": [],
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "1.63 m"
+  },
+  {
+   "label": "Panel Type",
+   "value": "VA"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV)",
+   "value": "0.372 x 0.372 mm"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "500 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4,000:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Colour Gamut",
+   "value": "72% (NTSC)"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25%"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594MHz"
+  }
+ ],
  "acc": [
   "KITXWXSM1U",
   "XSM1U"
- ]
+ ],
+ "src": "https://www.samsung.com/in/business/smart-signage/uhd-4k-signage/crystal-uhd-signage-qmc-65-inch-lh65qmcebgclxl/",
+ "checked": "2026-10-18"
 }

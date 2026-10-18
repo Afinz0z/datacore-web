@@ -1,11 +1,58 @@
 {
  "sku": "83032303",
- "order": 4430,
+ "order": 4409,
  "n": "IPTV Server-ARANTIA TV MDW BUS",
  "b": "Televes",
  "c": "Server",
  "dept": "AV",
  "avail": "lead",
  "d": "ARANTIA TV MDW BUS. UP TO 1000 USERS, Interactive TV and IPTV",
- "specs": []
+ "specs": [
+  {
+   "label": "Storage capacity",
+   "value": "240 GB"
+  },
+  {
+   "label": "Number of dedicated RJ45 IPMI connectors",
+   "value": "1"
+  },
+  {
+   "label": "Input voltage",
+   "value": "100 ... 240 Vac"
+  },
+  {
+   "label": "Mains frequency",
+   "value": "50 Hz / 60 Hz"
+  },
+  {
+   "label": "Energy efficiency",
+   "value": "92 %"
+  },
+  {
+   "label": "Width",
+   "value": "437 mm"
+  },
+  {
+   "label": "Height",
+   "value": "43 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "420 mm"
+  },
+  {
+   "label": "Max. power consumption",
+   "value": "350 W"
+  },
+  {
+   "label": "Relative humidity",
+   "value": "8 ... 90 %"
+  },
+  {
+   "label": "Net weight",
+   "value": "6,350 g"
+  }
+ ],
+ "src": "https://www.televes.com/en/8303xxxx-mdw-arantia-tv-middleware-business.html",
+ "checked": "2026-10-18"
 }

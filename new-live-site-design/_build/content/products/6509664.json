@@ -1,6 +1,6 @@
 {
  "sku": "6509664",
- "order": 2059,
+ "order": 2047,
  "n": "2-Gang Decorator Style Faceplate for HD-MD-300-C-E and DM-TX-200-C-2G (FP-G2-DM-B-T)",
  "b": "Crestron",
  "c": "Faceplate",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "FP-G2-DM-B-T",
  "d": "2-Gang Decorator Style Faceplate for HD-MD-300-C-E and DM-TX-200-C-2G Series, Black Textured",
- "specs": []
+ "specs": [
+  {
+   "label": "Construction",
+   "value": "Plastic, two-piece"
+  },
+  {
+   "label": "Height",
+   "value": "4.69 in (120 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.75 in (121 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.30 in (7.5 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Keypad-Faceplates-Covers/2-Gang/FP-G2-DM-B-T",
+ "checked": "2026-10-18"
 }

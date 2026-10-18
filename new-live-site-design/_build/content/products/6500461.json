@@ -1,11 +1,54 @@
 {
  "sku": "6500461",
- "order": 4288,
+ "order": 4261,
  "n": "CNXHUB",
  "b": "Crestron",
  "c": "Distribution System",
  "dept": "AV",
  "avail": "lead",
  "d": "CNXHUB Cresnet® Hub configuration of large Cresnet® networks",
- "specs": []
+ "specs": [
+  {
+   "label": "Cresnet Power Usage",
+   "value": "2 Watts (0.084 Amp @ 24 Volts DC)"
+  },
+  {
+   "label": "Enclosure chassis",
+   "value": "Metal, black finish"
+  },
+  {
+   "label": "Front Panel",
+   "value": "Metal, black finish, polycarbonate label overlay"
+  },
+  {
+   "label": "Enclosure mounting",
+   "value": "Freestanding, under-table mountable, or 1RU half-width rack-mountable (adhesive feet included, under-table and rack mounting kits sold separately)"
+  },
+  {
+   "label": "Height",
+   "value": "1.70 in (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "7.07 in (180 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "6.32 in (161 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "41° to 113° F (5° to 45° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.91 lb (0.86 kg)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Accessories/CNXHUB",
+ "checked": "2026-10-18"
 }

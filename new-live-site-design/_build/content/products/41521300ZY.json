@@ -1,11 +1,62 @@
 {
  "sku": "41521300ZY",
- "order": 3847,
+ "order": 3808,
  "n": "FIBER PATCH PANEL 1U 12 LC",
  "b": "Datwyler",
  "c": "Fiber Optic Patch panel",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FIBER PATCH PANEL 1U 12 LC (6 LCD) MULTIMODE, FULL LOADED WITH ADAPTERS, CERAMIC SLEEVEAND 12 PIGTAILS MM OM4 2METER P/N. 41521300ZY -DATWYLER",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of adapters",
+   "value": "6"
+  },
+  {
+   "label": "Pigtails",
+   "value": "12 x LC"
+  },
+  {
+   "label": "Packing unit",
+   "value": "1 pc."
+  },
+  {
+   "label": "Adapter orientation",
+   "value": "offset horizontal"
+  },
+  {
+   "label": "Colour (Frontplate)",
+   "value": "light grey"
+  },
+  {
+   "label": "Ferrule polishing",
+   "value": "PC 0°"
+  },
+  {
+   "label": "Fibre type",
+   "value": "G50/125"
+  },
+  {
+   "label": "Fibre class",
+   "value": "Multimode"
+  },
+  {
+   "label": "Fibre category",
+   "value": "OM4"
+  },
+  {
+   "label": "Colour code",
+   "value": "IEC 60304"
+  },
+  {
+   "label": "Adapter",
+   "value": "LCD/PC"
+  },
+  {
+   "label": "Adapter colour",
+   "value": "heather violet"
+  }
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/fibre-networks/patch-panels/19-inch-splice/ov-s-splice-om4-lcd-2/",
+ "checked": "2026-10-18"
 }

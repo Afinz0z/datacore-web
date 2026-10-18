@@ -1,16 +1,67 @@
 {
  "sku": "875K5AA",
- "order": 1472,
+ "order": 1460,
  "n": "TC10 Touch Controller Black",
  "b": "HP Poly",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "Poly TC10 Touch Controller 10.1\" Black, Zoom-certified scheduling panel Schedule meeting rooms and Control video conferences",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "1 RJ-45"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Power",
+   "value": "Power over Ethernet (PoE), compatible with IEEE 802.3at class 0"
+  },
+  {
+   "label": "Management Software",
+   "value": "Poly Lens; Device Management Service"
+  },
+  {
+   "label": "Interoperability",
+   "value": "Support for native 3rd party applications includes: Zoom Rooms, 8x8, BlueJeans, GoToRoom, Tencent, RingCentral, DialPad and others (when paired to a Poly Video OS system); Integration with Extron (environmental controls)"
+  },
+  {
+   "label": "Physical security",
+   "value": "Standard Kensington lock slot"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Brightness",
+   "value": "300 nits"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1000:1"
+  },
+  {
+   "label": "Display size (diagonal)",
+   "value": "25.7 cm (10.1\")"
+  },
+  {
+   "label": "Panel technology",
+   "value": "IPS"
+  },
+  {
+   "label": "Horizontal viewing angle",
+   "value": "75°"
+  }
+ ],
  "acc": [
   "P37760112",
   "P37760160",
   "P37760362"
- ]
+ ],
+ "src": "https://www.hp.com/ca-en/shop/products/accessories/poly-tc10-touch-controller-black-875k5aa",
+ "checked": "2026-10-18"
 }

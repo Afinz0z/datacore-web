@@ -1,14 +1,65 @@
 {
  "sku": "B22X6AA",
- "order": 1058,
+ "order": 1047,
  "n": "HP Poly Studio A2 Black Table Microphone",
  "b": "HP Poly",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "HP Poly Studio A2 Black Table Microphone w/ Mounting Plate I/O cables (B22X6AA)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "3-pin JST output; 4-pin JST input"
+  },
+  {
+   "label": "Signal-to-noise ratio",
+   "value": ">68 dBA"
+  },
+  {
+   "label": "Sensitivity (microphone)",
+   "value": "-35 dB (V/Pa) at 1 kHz"
+  },
+  {
+   "label": "Microphone type",
+   "value": "Four uni-directional cardioid microphone elements"
+  },
+  {
+   "label": "Microphone pickup range (imperial)",
+   "value": "Up to 6 ft radius (Poly Noise Block AI off); Up to 14 ft radius (Poly Noise Block AI on)"
+  },
+  {
+   "label": "Microphone pickup range (metric)",
+   "value": "Up to 1.8 m radius (Poly Noise Block AI off); Up to 4.3 m radius (Poly Noise Block AI on)"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Management Software",
+   "value": "Poly Lens"
+  },
+  {
+   "label": "Special features",
+   "value": "Digital transport (up to 18 m between devices); Supports daisy-chain capability of up to 8 A2 table mics; Built on A2B technology"
+  },
+  {
+   "label": "Package dimensions (W x D x H)",
+   "value": "168 x 140 x 67 mm"
+  },
+  {
+   "label": "Dimensions (W x D x H)",
+   "value": "92 x 92 x 24 mm"
+  },
+  {
+   "label": "Package weight",
+   "value": "470 g"
+  }
+ ],
  "acc": [
   "UJ9B8PV"
- ]
+ ],
+ "src": "https://www.hp.com/ca-en/shop/products/accessories/hp-poly-studio-a2-black-table-microphone-w-mounting-plate-i-o-cables-b22x6aa-ac3",
+ "checked": "2026-10-18"
 }

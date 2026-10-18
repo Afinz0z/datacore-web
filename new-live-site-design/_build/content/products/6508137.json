@@ -1,11 +1,62 @@
 {
  "sku": "6508137",
- "order": 1230,
+ "order": 1218,
  "n": "SAROS ICS8T-W-T-EACH+",
  "b": "Crestron",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS ICS8T-W-T-EACH+ Saros® 8” In-Ceiling Subwoofer, White Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "8 inch (203 mm) polypropylene w/rubber surround, steel basket & phase plug"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal with transformer set to \"8Ω\""
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "60W or 120W at 70V; 120W at 100V"
+  },
+  {
+   "label": "Low-Pass Filter",
+   "value": "125 Hz, 2nd order"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "45 Hz to 125 Hz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "35 Hz to 125 Hz (-10 dB)"
+  },
+  {
+   "label": "Power Handling",
+   "value": "100 Watts program (8 Ohms)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB @ 1W/1m"
+  },
+  {
+   "label": "Input connection",
+   "value": "(1) 4-pin 5mm detachable terminal block with screw-down flanges; Speaker input with parallel pass-thru; Maximum Wire Size: 12 AWG"
+  },
+  {
+   "label": "Transformer Tap",
+   "value": "(1) Recessed screwdriver-adjustable rotary switch on baffle; Used to select 70/100V tap or 8 Ohms (bypass)"
+  },
+  {
+   "label": "Construction enclosure",
+   "value": "Zinc-plated steel, plenum-rated, 1/2\" or 3/4\" conduit knockout top and side, (1) cable clamp included"
+  },
+  {
+   "label": "Baffle",
+   "value": "ABS UL 94V-0 plastic"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Local-AV-USB/Audio/In-Ceiling-Speakers/SAROS-ICS8T-W-T-EACH",
+ "checked": "2026-10-18"
 }

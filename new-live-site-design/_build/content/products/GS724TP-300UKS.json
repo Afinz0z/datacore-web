@@ -1,6 +1,6 @@
 {
  "sku": "GS724TP-300UKS",
- "order": 2929,
+ "order": 2917,
  "n": "Network switch, 24P GE Poe+ Smart Switch",
  "b": "Netgear",
  "c": "Network Switch",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Network switch",
  "d": "24P GE POE+ SMART SWITCH",
- "specs": []
+ "specs": [
+  {
+   "label": "Gigabit ports",
+   "value": "24"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "24"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "24"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "190W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "DoS Prevention",
+   "value": "Yes"
+  },
+  {
+   "label": "Internal/External",
+   "value": "Internal 100-240VAC 50-60Hz"
+  },
+  {
+   "label": "FAN",
+   "value": "2"
+  },
+  {
+   "label": "Acoustic Noise Level @25C (dBA)",
+   "value": "26.10"
+  }
+ ],
+ "src": "https://www.netgear.com/uk/business/wired/switches/smart-cloud/gs724tpv3/",
+ "checked": "2026-10-18"
 }

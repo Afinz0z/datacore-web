@@ -1,13 +1,50 @@
 {
  "sku": "CMS0305",
- "order": 2521,
+ "order": 2509,
  "n": "CMS0305, Extension Column, Pole",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Mounts - Projector Accessories - NPT threaded Adjustable Extension Column 24\" (915mm) to 60\" (1524mm) Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2.3 in (5.8 cm)"
+  },
+  {
+   "label": "Extension",
+   "value": "3' - 5' (0.91m - 1.52m)"
+  },
+  {
+   "label": "Height",
+   "value": "60 in (152.4 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.3 in (5.8 cm)"
+  },
+  {
+   "label": "Application",
+   "value": "Pole"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Overall Dimensions",
+   "value": "60.0\" x 2.3\" x 2.3\" (1524 x 59 x 59 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "6.3 lbs (2.9 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "500 lbs (226.8 kg)"
+  }
+ ],
  "for": [
   "A201U",
   "EB-L260F",
@@ -23,5 +60,7 @@
   "PT-MZ20KL",
   "SP4K-25C",
   "UDX-4K40 FLEX"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/accessories/projector-accessories/extension-adjustable/cms0305",
+ "checked": "2026-10-18"
 }

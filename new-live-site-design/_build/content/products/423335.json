@@ -1,11 +1,62 @@
 {
  "sku": "423335",
- "order": 3709,
+ "order": 3696,
  "n": "Fibre Optic Patch Cord OM3 Duplex 5Meter",
  "b": "Datwyler",
  "c": "Fiber Patch Cord",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "DATWYLER Fibre Optic Patch Cord MM 50/125 OM3 LC-LC Duplex 5Meter -Datwyler.",
- "specs": []
+ "specs": [
+  {
+   "label": "Length (m)",
+   "value": "5"
+  },
+  {
+   "label": "Polarity",
+   "value": "A to B"
+  },
+  {
+   "label": "Lifetime",
+   "value": "1000 connections with stable attenuation values"
+  },
+  {
+   "label": "Reproducibility of the IL",
+   "value": "a maximum of +/- 0.1dB"
+  },
+  {
+   "label": "Fibre type",
+   "value": "G50/125 OM3"
+  },
+  {
+   "label": "IL maximal, connector A",
+   "value": "0.25 dB"
+  },
+  {
+   "label": "IL typical, connector A",
+   "value": "0.15 dB"
+  },
+  {
+   "label": "RL minimal, connector A",
+   "value": "30 dB"
+  },
+  {
+   "label": "RL typical, connector A",
+   "value": "35 dB"
+  },
+  {
+   "label": "Grade IEC61755, connector A (better than)",
+   "value": "Bm2m"
+  },
+  {
+   "label": "Standard connector A",
+   "value": "IEC 61754-20"
+  },
+  {
+   "label": "IL maximal, connector B",
+   "value": "0.25 dB"
+  }
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/fibre-networks/preassembled-fibre-optic-cables/patch-cords/duplex-lcd-lcd-g50-125-om3/",
+ "checked": "2026-10-18"
 }

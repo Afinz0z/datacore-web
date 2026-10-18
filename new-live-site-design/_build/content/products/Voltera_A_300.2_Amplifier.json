@@ -1,6 +1,6 @@
 {
  "sku": "Voltera A 300.2 Amplifier",
- "order": 913,
+ "order": 904,
  "n": "High-efficiency two-channel amplifier designed to deliver flexible (Voltera A 300.2 Amplifier)",
  "b": "Biamp",
  "c": "Amplifier",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "Voltera A 300.2 Amplifier",
  "d": "High-efficiency two-channel amplifier designed to deliver flexible, reliable sound reinforcement for commercial audio applications. Delivering up to 300 watts per channel.",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.7 inches (44 mm) rack rail to rear panel"
+  },
+  {
+   "label": "Width",
+   "value": "8.7 inches (220 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "11.4 inches (290 mm)"
+  },
+  {
+   "label": "Channels",
+   "value": "2 Class D Channels"
+  },
+  {
+   "label": "Power Output",
+   "value": "Total output all channels driven: 300 W; Maximum output voltage: 147 Vpk; Maximum output current: 16 Apk"
+  },
+  {
+   "label": "Impedance",
+   "value": "(balanced): 8 kohm"
+  },
+  {
+   "label": "THD+N",
+   "value": "THD+N (20 - 20000 Hz for 1 W into 8 ohm): <0.5%; THD+N (1 kHz, 1 dB below clip): <0.008%"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "(20 - 20000 Hz, 8 ohm, unweighted): +/-0.5 dB"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "Channel separation (crosstalk at 1 kHz): >75 dB"
+  },
+  {
+   "label": "Weight",
+   "value": "6.1 lbs (2.7 kg)"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Voltera-A-300-2-Amplifier/ecom-item/920-01948-00001",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "960-001681",
- "order": 458,
+ "order": 450,
  "n": "Meetup 2",
  "b": "Logitech",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "Logitech MeetUp 2",
- "specs": [],
+ "specs": [
+  {
+   "label": "Enclosure",
+   "value": "All-in-one enclosure"
+  },
+  {
+   "label": "Device Management",
+   "value": "Logitech Sync"
+  },
+  {
+   "label": "Display Resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Digital pan",
+   "value": "±48° at 4x zoom"
+  },
+  {
+   "label": "Digital Tilt",
+   "value": "±32° at 4x zoom"
+  },
+  {
+   "label": "Zoom",
+   "value": "4X HD digital zoom"
+  },
+  {
+   "label": "Diagonal Field of View",
+   "value": "120°"
+  },
+  {
+   "label": "Horizontal Field of View",
+   "value": "113°"
+  },
+  {
+   "label": "Vertical Field of View",
+   "value": "80°"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Driver",
+   "value": "55 mm with bass reflex enclosure and patented suspension design"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "83 dB SPL @1W +/-2dB @ 1 meter"
+  }
+ ],
  "acc": [
   "939-001498"
- ]
+ ],
+ "src": "https://www.logitech.com/en-gb/products/video-conferencing/conference-cameras/meetup2-conferencecam.html",
+ "checked": "2026-10-18"
 }

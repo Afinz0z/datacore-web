@@ -1,13 +1,62 @@
 {
  "sku": "98TR3DK-B",
- "order": 60,
+ "order": 54,
  "n": "98 inch LG CreateBoard",
  "b": "LG",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "LG 98 inch Createboard MultiTouch with Bracket",
- "specs": [],
+ "specs": [
+  {
+   "label": "Safety",
+   "value": "CB / NRTL"
+  },
+  {
+   "label": "EMC",
+   "value": "FCC Class “A” / CE / KC"
+  },
+  {
+   "label": "ErP / Energy Star",
+   "value": "Yes / Yes"
+  },
+  {
+   "label": "Bezel Color",
+   "value": "Black"
+  },
+  {
+   "label": "Bezel Width",
+   "value": "T/R/L/B : 30/27/27/45mm"
+  },
+  {
+   "label": "Handle",
+   "value": "Yes"
+  },
+  {
+   "label": "VESA™ Standard Mount Interface",
+   "value": "800 × 600 mm"
+  },
+  {
+   "label": "Screen Size",
+   "value": "98\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "IPS"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Direct"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  }
+ ],
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",
@@ -26,5 +75,7 @@
   "VB-WMK-004",
   "WMK-077",
   "XTM1U"
- ]
+ ],
+ "src": "https://www.lg.com/eg_en/business/information-display/digital-signage/touch/98tr3dk-b/",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "6511861",
- "order": 1231,
+ "order": 1219,
  "n": "ULTIMATE ASUB10-B-T-EACH",
  "b": "Crestron",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "ULTIMATE ASUB10-B-T-EACH Ultimate 10 in. Active Subwoofer, Black Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "10 in. Carbon Fiber"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "35 Hz to 175 Hz (±3 dB)"
+  },
+  {
+   "label": "Power RMS",
+   "value": "200 W"
+  },
+  {
+   "label": "Power Peak",
+   "value": "400 W"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Aluminum Cabinet"
+  },
+  {
+   "label": "Line Out",
+   "value": "(1) RCA connector, female; Stereo line-level output; Maximum Output Level: 2Vrms"
+  },
+  {
+   "label": "Trigger In",
+   "value": "12V signal"
+  },
+  {
+   "label": "AC Power Connection",
+   "value": "100-240, 50/60 Hz; 200 W"
+  },
+  {
+   "label": "Baffle",
+   "value": "ABS"
+  },
+  {
+   "label": "Grille",
+   "value": "Powder coated steel"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "Wall mount or floorstanding (mounting hardware and feet included)"
+  },
+  {
+   "label": "Wall Mount",
+   "value": "Powder coated steel"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Wall-Speakers/ULTIMATE-ASUB10-B-T-EACH",
+ "checked": "2026-10-18"
 }

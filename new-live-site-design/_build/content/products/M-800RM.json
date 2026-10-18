@@ -1,6 +1,6 @@
 {
  "sku": "M-800RM",
- "order": 4316,
+ "order": 4295,
  "n": "Remote Microphone (M-800RM)",
  "b": "TOA",
  "c": "Paging mic",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "M-800RM",
  "d": "Remote Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "24 V DC (Powered by M-8080D or M-804EX)"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Microphone type",
+   "value": "Electret condenser microphone"
+  },
+  {
+   "label": "Directivity",
+   "value": "Unidirectional"
+  },
+  {
+   "label": "Audio output",
+   "value": "0dBV, electronic balanced, RJ45 Connector"
+  },
+  {
+   "label": "Controls",
+   "value": "Microphone volume control and all zone selector"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB port: Load WAV files for chimes sound"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate, black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "176 x 61.8 x 162.4 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.8 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/m-800rm-eb/",
+ "checked": "2026-10-18"
 }

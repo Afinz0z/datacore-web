@@ -1,6 +1,6 @@
 {
  "sku": "760246281",
- "order": 3577,
+ "order": 3564,
  "n": "Faceplate, 2-port,",
  "b": "CommScope",
  "c": "Faceplate",
@@ -9,8 +9,54 @@
  "d": "M12D-F-262 FP, 2 PORT, WH, ECO BULK",
  "specs": [
   {
-   "label": "Type",
-   "value": "Dual port"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Faceplate kit"
+  },
+  {
+   "label": "Product Series",
+   "value": "M Series"
+  },
+  {
+   "label": "Color",
+   "value": "Electrical white"
+  },
+  {
+   "label": "Mounting",
+   "value": "Flush"
+  },
+  {
+   "label": "Height",
+   "value": "85.852 mm | 3.38 in"
+  },
+  {
+   "label": "Width",
+   "value": "85.852 mm | 3.38 in"
+  },
+  {
+   "label": "Depth",
+   "value": "8.89 mm | 0.35 in"
+  },
+  {
+   "label": "Environmental Space",
+   "value": "Indoor"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "cUL US 1863"
+  },
+  {
+   "label": "Material Type",
+   "value": "High-impact, flame retardant, thermoplastic"
+  },
+  {
+   "label": "Packaging Material",
+   "value": "Eco-friendly, single-use plastics-free"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/faceplates-boxes/faceplates/item760246281/",
+ "checked": "2026-10-18"
 }

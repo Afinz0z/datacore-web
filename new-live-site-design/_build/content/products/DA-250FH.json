@@ -1,10 +1,61 @@
 {
  "sku": "DA-250FH",
- "order": 1043,
+ "order": 1032,
  "n": "Multi-channel Digital Power Amplifier",
  "b": "TOA",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Source",
+   "value": "220 - 240 V AC, 50/60 Hz"
+  },
+  {
+   "label": "Amplification System",
+   "value": "Class D"
+  },
+  {
+   "label": "Input",
+   "value": "4 circuits, +4 dB (1.23V) (input level control in max. position), 10 kΩ, electronically-balanced, removable terminal block (3 pins), CH 1 mode ON/OFF switch (ON: CH 1 to All ch, OFF: Each ch)"
+  },
+  {
+   "label": "Rated Output",
+   "value": "4 channels: 250 W × 4 (100 V line, 40 Ω); M4 screw terminal, distance between barriers: 8.8 mm (0.35\")"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "50 Hz - 20 kHz (-3 dB, +1 dB)"
+  },
+  {
+   "label": "Total Harmonic Distortion",
+   "value": "0.1 % (1 kHz); 0.3 % (100 Hz - 20 kHz)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "100 dB (A-weighted)"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "70 dB (A-weighted)"
+  },
+  {
+   "label": "LED Indicator",
+   "value": "Power (blue) × 1, Input (green) x 4, Output (yellow) x 4, Peak (red) x 4, Protect (red) × 4"
+  },
+  {
+   "label": "Cooling",
+   "value": "Forced air cooling"
+  },
+  {
+   "label": "Finish",
+   "value": "Panel: Aluminum, black, alumite; Case: Plated steel sheet"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "294 W (based on EN standards); 1150 W (rated output 100 V line, 40 Ω x 4)"
+  }
+ ],
+ "src": "https://toa.com.sg/product/da-250fh-multichannel-power-amplifier",
+ "checked": "2026-10-18"
 }

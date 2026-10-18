@@ -1,15 +1,66 @@
 {
  "sku": "760251048",
- "order": 3836,
+ "order": 3797,
  "n": "4U Sliding Fiber Patch Panel",
  "b": "CommScope",
  "c": "Fiber Optic Patch panel",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The CommScope EPX-4U-MOD-ENC is a 4U sliding fiber patch/splice panel designed for high-density fiber management. It accommodates up to 16 G2 modular cassettes, splice cassettes, or adapter packs , supporting up to 192 duplex LC ports (384 fibers) in a 19-inch rack, making it suitable for enterprise, campus, and data center applications.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber patch panel | Fiber patch/splice panel"
+  },
+  {
+   "label": "Product Series",
+   "value": "EPX"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "Not iPatch® ready"
+  },
+  {
+   "label": "Interface, front",
+   "value": "Unloaded"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "4"
+  },
+  {
+   "label": "Shelf Movement",
+   "value": "Sliding"
+  },
+  {
+   "label": "Height",
+   "value": "177.8 mm | 7 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth",
+   "value": "412.75 mm | 16.25 in"
+  }
+ ],
  "acc": [
   "760230946",
   "760241378"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/item760251048/",
+ "checked": "2026-10-18"
 }

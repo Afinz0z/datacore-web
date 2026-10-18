@@ -1,6 +1,6 @@
 {
  "sku": "6512967",
- "order": 2585,
+ "order": 2573,
  "n": "Tabletop Kit for TSS-470E, Black Textured (TSS-470E-TTK-B-T)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "TSS-470E-TTK-B-T",
  "d": "TSS-470E-TTK-B-T Tabletop Kit for TSS-470E, Black Textured",
- "specs": [],
+ "specs": [
+  {
+   "label": "Construction",
+   "value": "Plastic, enclosure, textured black, 45° fixed operating angle, for freestanding tabletop use"
+  },
+  {
+   "label": "Height",
+   "value": "3.47 in. (88 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.95 in. (100 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.19 in. (107 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.1 lb (500 g)"
+  }
+ ],
  "for": [
   "6512606"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Scheduling/Desk-Scheduling/Accessories/TSS-470E-TTK-B-T",
+ "checked": "2026-10-18"
 }

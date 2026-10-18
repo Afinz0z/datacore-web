@@ -1,6 +1,6 @@
 {
  "sku": "760004333",
- "order": 3892,
+ "order": 3894,
  "n": "indoor fiber optic cable",
  "b": "CommScope",
  "c": "SINGLE MODE FIBER OPTIC CABLE",
@@ -9,8 +9,54 @@
  "d": "P-006-DS-8W-FSUYL",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber indoor cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "P-DS"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Distribution"
+  },
+  {
+   "label": "Construction Type",
+   "value": "Non-armored"
+  },
+  {
+   "label": "Subunit Type",
+   "value": "Gel-free"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Yellow"
+  },
+  {
+   "label": "Jacket Marking",
+   "value": "Feet"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "6"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "4.74 mm | 0.187 in"
+  },
+  {
+   "label": "Minimum Bend Radius, loaded",
+   "value": "71 mm | 2.795 in"
+  },
+  {
+   "label": "Minimum Bend Radius, unloaded",
+   "value": "47 mm | 1.85 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/indoor-cables/item760004333/",
+ "checked": "2026-10-18"
 }

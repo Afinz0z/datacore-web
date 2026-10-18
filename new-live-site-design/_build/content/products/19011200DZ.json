@@ -1,11 +1,62 @@
 {
  "sku": "19011200DZ",
- "order": 3932,
+ "order": 3914,
  "n": "6C Fiber Optic Cable MM Armor Indoor/Outdoor LS0H Sheath",
  "b": "Datwyler",
  "c": "MULTI MODE FIBER OPTIC CABLE",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "6C Fiber Optic Cable MM (OM3-50/125μm, Loose Tube, Glass Armor Indoor/Outdoor LS0H Sheath",
- "specs": []
+ "specs": [
+  {
+   "label": "Fire load [kWh/m]",
+   "value": "0.275"
+  },
+  {
+   "label": "Bending radius [mm]",
+   "value": "115"
+  },
+  {
+   "label": "Outer sheath diameter [mm]",
+   "value": "7.6"
+  },
+  {
+   "label": "Loose tube construction",
+   "value": "1"
+  },
+  {
+   "label": "Number of used loose tubes",
+   "value": "1"
+  },
+  {
+   "label": "Fibres per loose tube",
+   "value": "6"
+  },
+  {
+   "label": "Crush resistance continuous [N]",
+   "value": "3000"
+  },
+  {
+   "label": "Fibre category",
+   "value": "OM3"
+  },
+  {
+   "label": "Tensile load continuous [N]",
+   "value": "1000"
+  },
+  {
+   "label": "Tensile load short term [N]",
+   "value": "3000"
+  },
+  {
+   "label": "Crush resistance short term [N]",
+   "value": "5000"
+  },
+  {
+   "label": "Fibre type",
+   "value": "G50/125 OM3"
+  }
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/fibre-networks/fibre-optic-cables/universal-cable/fo-universal-zggfr-u-dqznbh-dca/",
+ "checked": "2026-10-18"
 }

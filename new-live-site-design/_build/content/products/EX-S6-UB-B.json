@@ -1,6 +1,6 @@
 {
  "sku": "EX-S6-UB-B",
- "order": 627,
+ "order": 618,
  "n": "6.5” Coaxial Surface Mount Indoor/Outdoor Loudspeaker (EX-S6-UB-B)",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "EX-S6-UB-B",
  "d": "6.5” Coaxial Surface Mount Indoor/Outdoor Loudspeaker. 8 Ohm or 70V/100V operation, included indexing u-bracket and weather cover, black",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "14.37 inches (365 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.55 inches (217 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "9.96 inches (253 mm)"
+  },
+  {
+   "label": "Finish",
+   "value": "RAL Color: Black RAL 9017"
+  },
+  {
+   "label": "Mounting",
+   "value": "ClickMount pan-tilt bracket or ClickMount U-Bracket"
+  },
+  {
+   "label": "Power",
+   "value": "200W Cont.; 800W Peak"
+  },
+  {
+   "label": "Recommended Amplifiers",
+   "value": "200 W - 400 W, 8 Ω (40 V - 57 V)"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "2-way, 6.5-inch, indoor/outdoor, coaxial, surface mount, black loudspeaker."
+  },
+  {
+   "label": "Transducers",
+   "value": "LF 1 x 6.5 inches (165 mm) treated paper cone; HF 1 x 1 inch (25 mm) treated soft dome tweeter w/ waveguide"
+  },
+  {
+   "label": "Crossover",
+   "value": "1.58 kHz crossover, driver protection circuitry"
+  },
+  {
+   "label": "Transformer",
+   "value": "70V: 80W, 40W, 20W, 10W; 100V: 80W, 40W, 20W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "(1W/1m) 89 dB"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-EX-S6-UB-B/ecom-item/920-01811-10000",
+ "checked": "2026-10-18"
 }

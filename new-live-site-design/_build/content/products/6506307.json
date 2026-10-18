@@ -1,6 +1,6 @@
 {
  "sku": "6506307",
- "order": 4367,
+ "order": 4346,
  "n": "Automation Enclosure, 1 module high x 1 module wide (CAEN-1X1)",
  "b": "Crestron",
  "c": "Lighting Controller",
@@ -8,10 +8,41 @@
  "avail": "lead",
  "model": "CAEN-1X1",
  "d": "CAEN-1X1 Automation Enclosure, 1 module high x 1 module wide",
- "specs": [],
+ "specs": [
+  {
+   "label": "Enclosure",
+   "value": "16-gauge galvanized steel backbox with perforated grey steel cover, surface or flush wall-mount installation"
+  },
+  {
+   "label": "Backbox height",
+   "value": "16.56 in (42.06 cm)"
+  },
+  {
+   "label": "Backbox width",
+   "value": "16.10 in (40.90 cm)"
+  },
+  {
+   "label": "Backbox depth",
+   "value": "4.25 in (10.80 cm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "14.0 lbs (6.35 kg)"
+  }
+ ],
  "acc": [
   "6500568",
   "6500626",
   "6507800"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/Cabinets-Enclosures/CAEN-1X1",
+ "checked": "2026-10-18"
 }

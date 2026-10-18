@@ -1,6 +1,6 @@
 {
  "sku": "760154757",
- "order": 3889,
+ "order": 3891,
  "n": "6-core Fiber Optic Cable",
  "b": "CommScope",
  "c": "SINGLE MODE FIBER OPTIC CABLE",
@@ -9,12 +9,54 @@
  "d": "Fiber indoor/outdoor cable, TeraSPEED®, Single Jacket AllDielectric, Low Smoke Zero Halogen (LSZH),6 fiber, Singlemode",
  "specs": [
   {
-   "label": "Type",
-   "value": "6 core FOC"
+   "label": "Portfolio",
+   "value": "CommScope®"
   },
   {
-   "label": "Unit",
+   "label": "Product Type",
+   "value": "Fiber indoor/outdoor cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "Z-LN"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Stranded loose tube"
+  },
+  {
+   "label": "Construction Type",
+   "value": "Non-armored"
+  },
+  {
+   "label": "Subunit Type",
+   "value": "Gel-free"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Black"
+  },
+  {
+   "label": "Jacket Marking",
    "value": "Feet"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "6"
+  },
+  {
+   "label": "Buffer Tube/Subunit Diameter",
+   "value": "2.5 mm | 0.098 in"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "11.7 mm | 0.461 in"
+  },
+  {
+   "label": "Minimum Bend Radius, loaded",
+   "value": "175 mm | 6.89 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/indoor-outdoor-cables/item760154757/",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "50UL3Q-E",
- "order": 38,
+ "order": 36,
  "n": "50 inch UHD Signage",
  "b": "LG",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "50'' UHD Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size (Inch)",
+   "value": "50\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "VA"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Direct"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz"
+  },
+  {
+   "label": "Brightness",
+   "value": "350nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4,500:1"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "1,000,000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "DCI 80%"
+  },
+  {
+   "label": "Viewing Angle (H x V)",
+   "value": "178 x 178"
+  },
+  {
+   "label": "Color Depth (Number of Colors)",
+   "value": "10bit(D), 1.07Billion colors"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-50ul3q-e",
+ "checked": "2026-10-18"
 }

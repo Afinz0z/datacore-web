@@ -1,6 +1,6 @@
 {
  "sku": "LH55VMBUBGBXUE",
- "order": 228,
+ "order": 220,
  "n": "VMB-U Ultra Narrow Bezel-to-Bezel Video Wall 3.5mm, 500 nits (LH55VMBUBGBXUE)",
  "b": "Samsung",
  "c": "Video Wall",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "LH55VMBUBGBXUE",
  "d": "VMB-U Ultra Narrow Bezel-to-Bezel Video Wall 3.5mm, 500 nits",
- "specs": [],
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "55\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "IPS"
+  },
+  {
+   "label": "Resolution",
+   "value": "1,920 x 1,080"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.63 x 0.63"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "MAX 500 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,200:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72 %"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25 %"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "62.7~72.3 kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "82 MHz"
+  }
+ ],
  "acc": [
   "WMN-55VD-EN"
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/video-wall/vmb-u-fhd-1080p-500nit-ip5x-35mm-lh55vmbubgbxue/",
+ "checked": "2026-10-18"
 }

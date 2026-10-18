@@ -1,14 +1,65 @@
 {
  "sku": "237561",
- "order": 4281,
+ "order": 4269,
  "n": "Overlight WideBand Amplifier-OLV-LG",
  "b": "Televes",
  "c": "Satellite Accessory",
  "dept": "AV",
  "avail": "lead",
  "d": "OVERLIGHT WB AMP. 2X2 \"F\" G13dB Vo118 Overlight WideBandAmplifier 13 dB, (1satellite) 250...2400 MHz, 2 in and 2 out",
- "specs": [],
+ "specs": [
+  {
+   "label": "Number of inputs",
+   "value": "2"
+  },
+  {
+   "label": "Number of outputs",
+   "value": "2"
+  },
+  {
+   "label": "Frequency range",
+   "value": "SAT 250 ... 2400 MHz"
+  },
+  {
+   "label": "Output level EN60728-3 IMD3 2tones -35dB",
+   "value": "SAT 118 dBμV"
+  },
+  {
+   "label": "Gain",
+   "value": "SAT 13 dB"
+  },
+  {
+   "label": "Gain adjustment range",
+   "value": "0 ... 13 dB"
+  },
+  {
+   "label": "Slope regulation",
+   "value": "0 ... 12 dB"
+  },
+  {
+   "label": "Isolation",
+   "value": "> 25 dB"
+  },
+  {
+   "label": "Powering",
+   "value": "12 ... 18 Vdc"
+  },
+  {
+   "label": "DC pass through SAT line",
+   "value": "500 mA"
+  },
+  {
+   "label": "Max current (@18V)",
+   "value": "73 mA"
+  },
+  {
+   "label": "Protection index (IP)",
+   "value": "20"
+  }
+ ],
  "for": [
   "7575"
- ]
+ ],
+ "src": "https://www.televes.com/en/237561-overlight-wideband-amplifier-13-db-1-satellite-250-2400-mhz.html",
+ "checked": "2026-10-18"
 }

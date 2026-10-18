@@ -1,11 +1,62 @@
 {
  "sku": "Z2860.000",
- "order": 958,
+ "order": 947,
  "n": "D90 Amplifier",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "D90 four channel amplifier, Maximum output power 4 x 5400/2700 W into 4/8 Ω",
- "specs": []
+ "specs": [
+  {
+   "label": "Equalizer",
+   "value": "2 x 16-band PEQ/notch/shelving/asymmetric"
+  },
+  {
+   "label": "Latency analog and digital inputs",
+   "value": "0.3 ms"
+  },
+  {
+   "label": "Delay setting",
+   "value": "0.3 ms - 10 s"
+  },
+  {
+   "label": "Configurations",
+   "value": "current d&b loudspeakers"
+  },
+  {
+   "label": "Function switches",
+   "value": "d&b loudspeaker specific circuits"
+  },
+  {
+   "label": "Frequency generator",
+   "value": "Pink noise or Sine wave 10 Hz - 20 kHz"
+  },
+  {
+   "label": "Power",
+   "value": "Mains power switch"
+  },
+  {
+   "label": "SCROLL/EDIT",
+   "value": "Digital rotary encoder"
+  },
+  {
+   "label": "Display",
+   "value": "Colour TFT touchscreen, 4.3\"/480 x 272 pixel"
+  },
+  {
+   "label": "Sampling frequency Digital AES/EBU",
+   "value": "44.1, 48, 96, 192 kHz"
+  },
+  {
+   "label": "INPUT ANALOG (A1 - A4)",
+   "value": "3 pin XLR female"
+  },
+  {
+   "label": "ANALOG LINK (A1 - A4)",
+   "value": "3 pin XLR male"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/amplifiers/d90/",
+ "checked": "2026-10-18"
 }

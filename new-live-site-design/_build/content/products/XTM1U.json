@@ -1,20 +1,64 @@
 {
  "sku": "XTM1U",
- "order": 2530,
+ "order": 2518,
  "n": "LegrandAV- Chief Mounts-XTM1U (55-100 inch)",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Mounts - Fusion Wall Mounts - X-Large Fusion Micro-Adjustable Tilt Fixed Wall Display Mount, Screen size 55\" - 100\" ,Weight Capacity 250 lbs (113.4 Kg)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2.5 in (6.4 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "24.5 in (62.2 cm)"
+  },
+  {
+   "label": "Manual Height Adjustment",
+   "value": "1 in (25.4 mm)"
+  },
+  {
+   "label": "Max Screen Size",
+   "value": "6 in (15.2 cm)"
+  },
+  {
+   "label": "Maximum Screen Thickness",
+   "value": "6 in (152.4 mm)"
+  },
+  {
+   "label": "Minimum Depth",
+   "value": "2.5 in (6.4 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "55\" - 100\" (1397mm - 2540mm)"
+  },
+  {
+   "label": "Width",
+   "value": "42.75 in (108.6 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Height Adjustable, Lateral Shift, Micro-Adjustable, Tilt"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Number of Displays",
+   "value": "1"
+  }
+ ],
  "for": [
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "98TR3DK-B",
   "98UM5K",
   "CDE105UW",
@@ -63,5 +107,7 @@
   "PN-M752",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fusion-wall-tilt/xtm1u",
+ "checked": "2026-10-18"
 }

@@ -1,15 +1,37 @@
 {
  "sku": "760039867",
- "order": 3987,
+ "order": 3969,
  "n": "Systimax Splice tray",
  "b": "CommScope",
  "c": "splice tray",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "RS-2AF-16SF RoloSplice/2Fus Spl Tray-1KT",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber splice wallet"
+  },
+  {
+   "label": "Application",
+   "value": "For G2 1U shelves and surface mount enclosures"
+  },
+  {
+   "label": "Splice Trays",
+   "value": "Included"
+  },
+  {
+   "label": "Splicing Capacity, maximum",
+   "value": "32"
+  }
+ ],
  "for": [
-  "760012161",
-  "760053280"
- ]
+  "760012161"
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-splice-trays-wallets/item760039867/",
+ "checked": "2026-10-18"
 }

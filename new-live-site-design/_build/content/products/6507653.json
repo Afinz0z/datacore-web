@@ -1,6 +1,6 @@
 {
  "sku": "6507653",
- "order": 4379,
+ "order": 4358,
  "n": "RGBW LED Controller (CLC-1LEDPWM-RGBW-EX)",
  "b": "Crestron",
  "c": "Lighting Controller",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CLC-1LEDPWM-RGBW-EX",
  "d": "CLC-1LEDPWM-RGBW-EX RGBW LED Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Load Type",
+   "value": "LED"
+  },
+  {
+   "label": "PWM Default",
+   "value": "1,000 Hz; Configurable for 24 Hz to 1,200 Hz"
+  },
+  {
+   "label": "RF Transceiver",
+   "value": "infiNET EX® 2-way RF, 2.4 GHz ISM Channels 11-26 (2400 to 2483.5 MHz), default channel 15; IEEE 802.15.4 compliant"
+  },
+  {
+   "label": "Range (Typical)",
+   "value": "150 ft (46 m) indoor, 250 ft (76 m) outdoor to nearest mesh network device(s); Subject to site-specific conditions and individual device capabilities"
+  },
+  {
+   "label": "Gateway",
+   "value": "Requires an infiNET EX gateway"
+  },
+  {
+   "label": "Control",
+   "value": "12 Volts DC to 24 Volts DC (to match the LEDs)"
+  },
+  {
+   "label": "Max Current Capacity",
+   "value": "4 Amps"
+  },
+  {
+   "label": "Construction",
+   "value": "Plastic, black, (2) integral surface mounting flanges, vented sides"
+  },
+  {
+   "label": "Height",
+   "value": "0.68 in (18 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.58 in (66 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.49 in (64 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/In-Ceiling-Solutions/Dimmer-Switch/CLC-1LEDPWM-RGBW-EX",
+ "checked": "2026-10-18"
 }

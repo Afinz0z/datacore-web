@@ -1,6 +1,6 @@
 {
  "sku": "FBWLCUC11-JXF005",
- "order": 3970,
+ "order": 3952,
  "n": "Single mode pigtail-systimax",
  "b": "CommScope",
  "c": "Fiber Pigtails",
@@ -12,8 +12,5 @@
    "label": "Type",
    "value": "single mode pigtail"
   }
- ],
- "for": [
-  "760053280"
  ]
 }

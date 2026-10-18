@@ -1,6 +1,6 @@
 {
  "sku": "75UH5Q-E",
- "order": 66,
+ "order": 60,
  "n": "Display, UH5Q Series - 75\" UHD Standard Signage",
  "b": "LG",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Display",
  "d": "UH5Q Series - 75\" UHD Standard Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Speaker (Built-in)",
+   "value": "YES (10W x 2)"
+  },
+  {
+   "label": "Internal Memory (eMMC)",
+   "value": "16GB"
+  },
+  {
+   "label": "Wi-Fi/BT (Built-in)",
+   "value": "Yes"
+  },
+  {
+   "label": "Auto Brightness Sensor",
+   "value": "Yes(Built-in for Europe only, sold separately in other regions)"
+  },
+  {
+   "label": "Acceleration(Gyro) Sensor",
+   "value": "Yes"
+  },
+  {
+   "label": "Local Key Operation",
+   "value": "Yes"
+  },
+  {
+   "label": "BLU Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Current Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Proximity Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Pixel Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Power Indicator",
+   "value": "NO"
+  },
+  {
+   "label": "FAN (Built-in)",
+   "value": "NO"
+  }
+ ],
+ "src": "https://www.lg.com/au/business/information-display/digital-signage/standard/75uh5q-e/",
+ "checked": "2026-10-18"
 }

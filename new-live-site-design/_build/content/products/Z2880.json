@@ -1,11 +1,62 @@
 {
  "sku": "Z2880",
- "order": 956,
+ "order": 945,
  "n": "5D amplifier",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "5D amplifier 4 x 600 W",
- "specs": []
+ "specs": [
+  {
+   "label": "Latency analog / Dante input",
+   "value": "1.1 ms / < 3 ms"
+  },
+  {
+   "label": "Configurations",
+   "value": "Selected loudspeakers from E-Series, xS-Series, xC Series, T-Series; Linear setup"
+  },
+  {
+   "label": "Frequency generator",
+   "value": "Pink noise or Sine wave 10 Hz – 20 kHz"
+  },
+  {
+   "label": "Display",
+   "value": "LED indicators"
+  },
+  {
+   "label": "Ethernet, Dante Input",
+   "value": "2 x RJ 45, 1 Gbit / 100 Mbit"
+  },
+  {
+   "label": "Input / Link ANALOG (A1-A4)",
+   "value": "2 x 6-pin Euroblock male, 3.5 mm"
+  },
+  {
+   "label": "GPI",
+   "value": "1 x 6-pin Euroblock 3.5 mm male"
+  },
+  {
+   "label": "FAULT",
+   "value": "1 x 3-pin Euroblock 3.5 mm male"
+  },
+  {
+   "label": "Speaker outputs A/B/C/D",
+   "value": "2 x 4-pin Euroblock 5.08 mm female"
+  },
+  {
+   "label": "Mains connector",
+   "value": "IEC"
+  },
+  {
+   "label": "Type",
+   "value": "Wide range switched mode power supply with active Power Factor Correction (PFC)"
+  },
+  {
+   "label": "Rated mains voltage",
+   "value": "100 - 240 V, 50 - 60 Hz"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/amplifiers/5d/",
+ "checked": "2026-10-18"
 }

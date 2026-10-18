@@ -1,6 +1,6 @@
 {
  "sku": "DM10S-SUB",
- "order": 1223,
+ "order": 1211,
  "n": "DesignMax DM10S-SUB subwoofer",
  "b": "Bose",
  "c": "Subwoofer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DM10S-SUB",
  "d": "DesignMax DM10S-SUB subwoofer",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black (RAL 9005), white (similar to RAL 9003), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Indoor only"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated steel, powder-coated finish, paintable, tamper-resistant design"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "QuickHold mounting system with included U-Bracket, (1) M8 safety cable attachment insert"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "35 Hz – 125 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "Omnidirectional below 200 Hz"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "115 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "300 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "1200 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Not required, Bose Professional EQ voicing and SmartBass processing available"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/designmax-dm10s-sub",
+ "checked": "2026-10-18"
 }

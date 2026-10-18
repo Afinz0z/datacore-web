@@ -1,11 +1,62 @@
 {
  "sku": "6511868",
- "order": 747,
+ "order": 738,
  "n": "ULTIMATE OD6T-BRZ-T-EACH",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "ULTIMATE OD6T-BRZ-T-EACH Ultimate 6 in. 2-Way Outdoor Speaker, Ribbon Tweeter, Bronze Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "5.25 in. (133 mm) glass fiber"
+  },
+  {
+   "label": "Tweeter",
+   "value": "3 in. (76 mm) planar magnetic ribbon"
+  },
+  {
+   "label": "Crossover",
+   "value": "Passive custom 12 dB/oct"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "2 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "75 W @ 70V; 150 W @ 100V"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "120 Hz to 20 kHz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "95 Hz to 25 kHz (±10 dB)"
+  },
+  {
+   "label": "Power Handling (8 Ohms)",
+   "value": "Program: 150 W; Peak: 300 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "86 dB @ 1 W/1 M"
+  },
+  {
+   "label": "Coverage",
+   "value": "110° horizontal and 75° vertical coverage"
+  },
+  {
+   "label": "Input connection",
+   "value": "24 in. x 14 AWG (2.5 mm²) pigtail with water proof wire nuts"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Landscape-Speakers/ULTIMATE-OD6T-BRZ-T-EACH",
+ "checked": "2026-10-18"
 }

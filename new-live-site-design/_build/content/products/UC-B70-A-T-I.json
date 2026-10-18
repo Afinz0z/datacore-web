@@ -1,11 +1,62 @@
 {
  "sku": "UC-B70-A-T-I",
- "order": 444,
+ "order": 436,
  "n": "Videobar 70",
  "b": "Crestron",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "Crestron Flex Large Room Conference Solution with All-In-One Videobar 70 for Microsoft Teams® Rooms, International",
- "specs": []
+ "specs": [
+  {
+   "label": "Touch Screen",
+   "value": "10 in. (254 mm) diagonal capacitive multi-touch TFT active matrix color LCD, 1920 x 1200 pixels"
+  },
+  {
+   "label": "Ethernet",
+   "value": "100/1000 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, TCP/IP, UDP/IP, CIP, DHCP, SSL, TLS, SSH, SFTP (SSH File Transfer Protocol), IEEE 802.1X, SNMP, IPv4 or IPv6"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3at Type 2 compliant PoE+ PD (Powered Device); Normally requests 15 W from an 802.3at Type 2 PSE with LLDP advanced power management"
+  },
+  {
+   "label": "Tabletop Touch Screen construction",
+   "value": "Plastic, smooth black finish, edge-to-edge glass with black surround"
+  },
+  {
+   "label": "Height",
+   "value": "5.29 in. (134 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "9.63 in. (245 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.67 in. (119 mm)"
+  },
+  {
+   "label": "Speakers",
+   "value": "Dual 10-watt speakers"
+  },
+  {
+   "label": "Microphone",
+   "value": "24 mic linear array"
+  },
+  {
+   "label": "Audio DSP",
+   "value": "Acoustic echo cancellation, dereverberation, automatic gain control, dynamic noise suppression, adaptive beamforming, speaker volume control, speaker EQ and limiting (fixed)"
+  },
+  {
+   "label": "Quad Camera Configuration",
+   "value": "(1) Main camera (1) Left, (1) center, and (1) right sub cameras with 14º overlap"
+  },
+  {
+   "label": "Main Camera Optics",
+   "value": "Main camera 20 Megapixels 1 in. sensor"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Flex-Conferencing/Room-Kits/UC-B70-A-T-I",
+ "checked": "2026-10-18"
 }

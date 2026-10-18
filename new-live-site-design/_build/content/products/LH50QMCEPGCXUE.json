@@ -1,6 +1,6 @@
 {
  "sku": "LH50QMCEPGCXUE",
- "order": 101,
+ "order": 93,
  "n": "50 inch Crystal UHD Signage QMC",
  "b": "Samsung",
  "c": "Displays",
@@ -9,12 +9,52 @@
  "d": "50\" Crystal UHD Signage QMC display",
  "specs": [
   {
-   "label": "Type",
-   "value": "signage display"
+   "label": "Diagonal Size",
+   "value": "50\""
   },
   {
-   "label": "Series",
-   "value": "QMC series"
+   "label": "Panel Type",
+   "value": "IPS"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.285x0.285mm"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "500 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,200:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72% (NTSC)"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25 %"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594MHz"
   }
  ],
  "acc": [
@@ -38,5 +78,7 @@
   "TS525TU",
   "VB-WMK-001-2C",
   "WMK-077"
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/uhd-4k-signage/crystal-uhd-signage-qmc-lh50qmcepgcxue/",
+ "checked": "2026-10-18"
 }

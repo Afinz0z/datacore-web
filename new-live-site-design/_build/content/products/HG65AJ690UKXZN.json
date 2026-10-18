@@ -1,10 +1,61 @@
 {
  "sku": "HG65AJ690UKXZN",
- "order": 127,
+ "order": 119,
  "n": "SMART Hospitality Display HJ690U",
  "b": "Samsung",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Screen Size",
+   "value": "65\""
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Picture Engine",
+   "value": "UHD Mastering Engine"
+  },
+  {
+   "label": "Micro Dimming",
+   "value": "UHD Dimming"
+  },
+  {
+   "label": "Auto Motion Plus",
+   "value": "Yes"
+  },
+  {
+   "label": "Film Mode",
+   "value": "Yes"
+  },
+  {
+   "label": "Motion Rate",
+   "value": "100"
+  },
+  {
+   "label": "PQI (Picture Quality Index)",
+   "value": "1300"
+  },
+  {
+   "label": "HDR(High Dynamic Range)",
+   "value": "HDR"
+  },
+  {
+   "label": "HDR10+",
+   "value": "Yes"
+  },
+  {
+   "label": "HLG (Hybrid Log Gamma)",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.samsung.com/levant/business/commercial-tvs/hotel-tv/hotel-tv-hj690u-hg65aj690ukxzn/",
+ "checked": "2026-10-18"
 }

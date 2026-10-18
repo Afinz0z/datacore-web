@@ -1,6 +1,6 @@
 {
  "sku": "760095554",
- "order": 3783,
+ "order": 3770,
  "n": "Category 6 U/UTP Cable",
  "b": "CommScope",
  "c": "UTP CABLE",
@@ -9,12 +9,58 @@
  "d": "3071E SLT C6 4/23 U/UTP W1000",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Reel"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Twisted pair cable"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSPEED XL®"
+  },
+  {
+   "label": "Product Number",
+   "value": "3071E"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6"
+  },
+  {
+   "label": "Cable Component Type",
+   "value": "Horizontal"
+  },
+  {
+   "label": "Cable Type",
+   "value": "U/UTP (unshielded)"
+  },
+  {
+   "label": "Conductor Type, singles",
+   "value": "Solid"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Slate"
+  },
+  {
+   "label": "Separator Type",
+   "value": "Bisector"
+  },
+  {
+   "label": "Transmission Standards",
+   "value": "ANSI/TIA-568.2-D | CENELEC EN 50288-6-1 | ISO/IEC 11801 Class E"
+  },
+  {
+   "label": "Cable Length",
+   "value": "304.8 m | 1000 ft"
   }
  ],
  "acc": [
   "760244128",
   "760246151"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/twisted-pair-cables/category-6-cables/item760095554/",
+ "checked": "2026-10-18"
 }

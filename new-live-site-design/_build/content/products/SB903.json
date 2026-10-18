@@ -1,13 +1,44 @@
 {
  "sku": "SB903",
- "order": 4165,
+ "order": 4147,
  "n": "Lithium-ion battery for SLX-D Wireless Transmitters",
  "b": "Shure",
  "c": "Battery",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Charge Voltage",
+   "value": "4.2 V (±0.03 V)"
+  },
+  {
+   "label": "Charge Current",
+   "value": "SBC10-903: 220 mA; SBC203: 625 mA (normal); 250 mA (reduced)"
+  },
+  {
+   "label": "Nominal Voltage",
+   "value": "3.6 V"
+  },
+  {
+   "label": "Nominal Capacity",
+   "value": "1200 mAh"
+  },
+  {
+   "label": "Housing",
+   "value": "Molded Polycarbonate"
+  },
+  {
+   "label": "Weight",
+   "value": "28 g"
+  },
+  {
+   "label": "Charging Temperature Range",
+   "value": "SBC10-903: 50 °F to 113 °F (10 °C to 45 °C); SBC203: 50 °F to 113 °F (10 °C to 45 °C), normal; 32 °F to 50 °F (0 °C to 10 °C), reduced"
+  }
+ ],
  "for": [
   "SLXD2/SM58=-G59"
- ]
+ ],
+ "src": "https://www.shure.com/en-US/products/accessories/sb903",
+ "checked": "2026-10-18"
 }

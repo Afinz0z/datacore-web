@@ -1,18 +1,68 @@
 {
  "sku": "TS318TU",
- "order": 2532,
+ "order": 2520,
  "n": "Mount - TS318TU (32-65 inch)",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Medium Thinstall Dual Swing Arm Wall Display Mount - 18 inch Extension. Screen 32\" - 65\" Weight capacity 75 lbs (34 kg)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "1.8 in (4.6 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "17.24 in (43.8 cm)"
+  },
+  {
+   "label": "Maximum Extension",
+   "value": "18 in (45.7 cm)"
+  },
+  {
+   "label": "Minimum Depth",
+   "value": "1.8 in (4.6 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "32\" - 65\" (813mm - 1651mm)"
+  },
+  {
+   "label": "Width",
+   "value": "22.56 in (57.3 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Extension, Swivel, Tilt, Micro-Adjustable, Height Adjustable, Lateral Shift"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape"
+  },
+  {
+   "label": "Post-Installation Leveling Roll",
+   "value": "Yes"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  }
+ ],
  "for": [
-  "55UH5N-E",
   "LH50QMCEPGCXUE",
   "LH65QMREBGCXUE",
   "PN-LC862",
   "PN-M552 PCAP"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/thinstall_series/ts318tu",
+ "checked": "2026-10-18"
 }

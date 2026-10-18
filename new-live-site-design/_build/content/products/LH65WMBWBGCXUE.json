@@ -1,6 +1,6 @@
 {
  "sku": "LH65WMBWBGCXUE",
- "order": 126,
+ "order": 118,
  "n": "Samsung Flip Pro WM65B Interactive Display",
  "b": "Samsung",
  "c": "Displays",
@@ -9,12 +9,58 @@
  "d": "WM65B Flip Pro 65″ 4K Interactive Display",
  "specs": [
   {
-   "label": "Type",
-   "value": "Interactive"
+   "label": "Diagonal Size",
+   "value": "65\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "VA"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.372 x 0.372"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "350 (w/o glass), 220 (w/glass)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4000:1(without glass)"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72%"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "2%(without glass)"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81 khz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594Mhz"
   }
  ],
  "acc": [
   "LGWM-3265F-IN",
   "LGWM-3790F"
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/interactive-display/flip-pro-wm65b-interactive-display-lh65wmbwbgcxue/",
+ "checked": "2026-10-18"
 }

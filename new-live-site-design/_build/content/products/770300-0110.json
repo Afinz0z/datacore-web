@@ -1,16 +1,35 @@
 {
  "sku": "770300-0110",
- "order": 2512,
+ "order": 2500,
  "n": "ShowMatch SMAF array frame",
  "b": "Bose",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Working Load Limit (WLL)",
+   "value": "1800 lb (815 kg), center rail / 1400 lb (630 kg) side rail"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "5.9 in × 28.6 in × 30.0 in (149 mm × 727 mm × 762 mm)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "83.0 lb (37.6 kg)"
+  }
+ ],
  "for": [
   "730999-5540",
   "730999-8850",
   "730999-8860",
   "734302-0110"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/loudspeaker-accessories/showmatch-array-frame",
+ "checked": "2026-10-18"
 }

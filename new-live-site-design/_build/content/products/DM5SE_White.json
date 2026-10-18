@@ -1,11 +1,62 @@
 {
  "sku": "DM5SE White",
- "order": 694,
+ "order": 685,
  "n": "DesignMax-DM-5SE White",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "DesignMax DM5SE,Design Max surface-mounted Loud Speaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black (RAL 9005), white (similar to RAL 9003), paintable"
+  },
+  {
+   "label": "Environmental",
+   "value": "Outdoor per IEC 529 IP55 (suitable for use outdoors in wet locations), includes aluminum grille to prevent red corrosion and weather resistant input cover"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated aluminum, powder-coated finish, tamper-resistant design, paintable"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55"
+  },
+  {
+   "label": "Logo",
+   "value": "Rotatable, removable"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "65 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "135° conical"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "107 dB"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω (transformer bypass)"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "60 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "240 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Not required, Bose Professional EQ voicing and SmartBass processing available"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/surface-mount/designmax-surface-mount/designmax-dm5se-1-pair",
+ "checked": "2026-10-18"
 }

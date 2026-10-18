@@ -1,10 +1,53 @@
 {
  "sku": "VX-030DA",
- "order": 1040,
+ "order": 1029,
  "n": "Digital Power Amplifier Module 300W",
  "b": "TOA",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "31 V DC operating range: 20 – 33 V DC"
+  },
+  {
+   "label": "Frequency response",
+   "value": "40 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated output",
+   "value": "300 W 100 V"
+  },
+  {
+   "label": "Inputs",
+   "value": "DA control link (15-pin connector)"
+  },
+  {
+   "label": "Outputs",
+   "value": "100 V/70 V/50 V selectable"
+  },
+  {
+   "label": "Number of channels",
+   "value": "1"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "1.3 W (standby mode), 14 W (idle), 65 W (EN 62368-1: 1/8 rated output), 375 W (rated output)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "79 x 91 x 358.2 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.4 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/vx-030da/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "Y7P",
- "order": 757,
+ "order": 748,
  "n": "High performance 2-way passive point source loudspeaker (Y7P)",
  "b": "d&b audiotechnik",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Y7P",
  "d": "High performance 2-way passive point source loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "59 Hz - 18 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "118 Hz - 18 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with 10D: 132 dB; with D25/25D: 135 dB; with D40/D80/D90/40D: 137 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "2"
+  },
+  {
+   "label": "Configuration",
+   "value": "High performance 2-way passive point source loudspeaker"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "400/1600 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "75° x 40°"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 8\" driver with neodymium magnet / 1.4\" exit compression driver / passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NLT4 F/M / optional 2 x NL4"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "580 x 257 x 341 mm / 22.8 x 10 x 13.4\""
+  },
+  {
+   "label": "Weight",
+   "value": "18 kg / 40 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/y-series/y7p/",
+ "checked": "2026-10-18"
 }

@@ -1,16 +1,67 @@
 {
  "sku": "GS752TP",
- "order": 2903,
+ "order": 2891,
  "n": "52-Port Gigabit Ethernet PoE+ Smart Managed network switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "52PT GE POE+ SMART SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Gigabit ports",
+   "value": "48"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "48"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "48"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "380W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "32"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS752TP-12",
   "DRV-GS752TP-36",
   "DRV-GS752TP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs752tpv3/",
+ "checked": "2026-10-18"
 }

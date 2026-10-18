@@ -1,14 +1,65 @@
 {
  "sku": "Qt X 300",
- "order": 1379,
+ "order": 1367,
  "n": "Qt X Controller, 3 Qt Outputs",
  "b": "Biamp",
  "c": "Sound Masking controller",
  "dept": "AV",
  "avail": "lead",
  "d": "Three-zone, networkable controller that combines a sound masking generator, third-octave band equalizer, and amplifier into one powerful, scalable platform.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "3.5 inches (89mm)"
+  },
+  {
+   "label": "Width",
+   "value": "14 5/8 inches (371.5mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.8 inches (97mm)"
+  },
+  {
+   "label": "Power",
+   "value": "Power Supply:; Operating Voltage: 100-240VAC 50/60Hz; Current Draw: 0.9A;"
+  },
+  {
+   "label": "Power Output",
+   "value": "Output: 24VDC @ 2.7A"
+  },
+  {
+   "label": "Sound Masking System",
+   "value": "Number of Masking Zones: 3 (2 cable runs per zone); Number of Non-Correlated Masking Sources: 4 per zone; Masking Level Adjustment: 0.5dB steps"
+  },
+  {
+   "label": "Control",
+   "value": "Remote Control:; Connector Type: Captive Screw Terminal; Input Type: Contact Closure (Normally Open); Number of Inputs: 2; Output Type: Logic Status (5VDC); Number of Outputs: 2; 2 Channels GPIO"
+  },
+  {
+   "label": "Audio",
+   "value": "Output Connections: (6) RJ-45"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "Minimum: 2Ω (per channel)"
+  },
+  {
+   "label": "Weight",
+   "value": "4.1 lbs (1.88 kg) (with surface mount bracket installed)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "Max. Power Consumption (24VDC): 22W"
+  },
+  {
+   "label": "Certifications",
+   "value": "FCC Part 15B (USA); UL Listed (USA and Canada); CE Marked (Europe); RoHS Directive (Europe); Met Works with WELL licensing criteria for sound masking;"
+  }
+ ],
  "acc": [
   "Qt X RMT-KT"
- ]
+ ],
+ "src": "https://products.biamp.com/product-details/d/Cambridge-Qt-X-300/ecom-item/920-00078-00002",
+ "checked": "2026-10-18"
 }

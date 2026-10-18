@@ -1,6 +1,6 @@
 {
  "sku": "4104",
- "order": 4230,
+ "order": 4212,
  "n": "\"F\" Connector COMPRESS(T100/CXT60) BOX50 (4104)",
  "b": "Televes",
  "c": "IPTV Device",
@@ -10,8 +10,38 @@
  "d": "\"F\" CONNECTOR COMPRESS(T100/CXT60) BOX50",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Lot"
+   "label": "Connector type",
+   "value": "F"
+  },
+  {
+   "label": "Connection type",
+   "value": "Male"
+  },
+  {
+   "label": "Connector mounting method",
+   "value": "Compression"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "75 Ω"
+  },
+  {
+   "label": "Width",
+   "value": "12 mm"
+  },
+  {
+   "label": "Height",
+   "value": "33 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "12 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "9 g"
   }
- ]
+ ],
+ "src": "https://www.televes.com/en/4104-410401-f-compression-connector-cables-t100plus-t100-cxt-1-cxt-60.html",
+ "checked": "2026-10-18"
 }

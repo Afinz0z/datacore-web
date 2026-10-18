@@ -1,6 +1,6 @@
 {
  "sku": "HG43EJ690UBXEN",
- "order": 128,
+ "order": 120,
  "n": "SMART Hospitality Display HJ690U 43\" (HG43EJ690UBXEN)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HG43EJ690UBXEN",
  "d": "SMART Hospitality Display HJ690U 43\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Screen Size",
+   "value": "43\""
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Picture Engine",
+   "value": "UHD Mastering Engine"
+  },
+  {
+   "label": "Auto Motion Plus",
+   "value": "Yes"
+  },
+  {
+   "label": "Film Mode",
+   "value": "Yes"
+  },
+  {
+   "label": "Motion Rate",
+   "value": "100"
+  },
+  {
+   "label": "PQI (Picture Quality Index)",
+   "value": "1300"
+  },
+  {
+   "label": "HDR(High Dynamic Range)",
+   "value": "HDR"
+  },
+  {
+   "label": "HDR10+",
+   "value": "Yes"
+  },
+  {
+   "label": "HLG (Hybrid Log Gamma)",
+   "value": "Yes"
+  },
+  {
+   "label": "Contrast",
+   "value": "Mega Contrast"
+  }
+ ],
+ "src": "https://www.samsung.com/levant/business/commercial-tvs/hotel-tv/hotel-tv-hj690u-hg43ej690ubxen/",
+ "checked": "2026-10-18"
 }

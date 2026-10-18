@@ -1,11 +1,58 @@
 {
  "sku": "760161075",
- "order": 3579,
+ "order": 3566,
  "n": "LF80 Angled Faceplate-Systimax",
  "b": "CommScope",
  "c": "Faceplate",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LF80 U/F/STP-262 Angled Shuttered Faceplate Module, white",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Insert kit"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Mounting",
+   "value": "Flush"
+  },
+  {
+   "label": "Height",
+   "value": "38.35 mm | 1.51 in"
+  },
+  {
+   "label": "Width",
+   "value": "24.89 mm | 0.98 in"
+  },
+  {
+   "label": "Depth",
+   "value": "13.21 mm | 0.52 in"
+  },
+  {
+   "label": "Environmental Space",
+   "value": "Indoor"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "cUL US 1863"
+  },
+  {
+   "label": "Material Type",
+   "value": "High-impact, flame retardant, thermoplastic"
+  },
+  {
+   "label": "Weight, net",
+   "value": "0.005 kg | 0.01 lb"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/faceplates-boxes/accessories/item760161075/",
+ "checked": "2026-10-18"
 }

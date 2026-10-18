@@ -1,6 +1,6 @@
 {
  "sku": "LG-CMBB-65",
- "order": 2681,
+ "order": 2669,
  "n": "Ceiling Mount 42 to 65-LG-CMBB-65",
  "b": "Logic",
  "c": "Mount",
@@ -9,16 +9,35 @@
  "d": "Logic Ceiling Mount Suitable for 42\" to 65\" Dual Flat Panels with 3 to 5ft Adjustable. Loading Capacity - 100Kg",
  "specs": [
   {
-   "label": "Type",
-   "value": "Ceiling Mount"
+   "label": "Max. Load",
+   "value": "220 lbs (100 kg)"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "42″ to 65″"
+  },
+  {
+   "label": "VESA",
+   "value": "200×200 to 600×400"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "9 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "10 kg"
+  },
+  {
+   "label": "Shipping Dimension (LxWxH)",
+   "value": "860x320x150 mm"
   }
  ],
  "for": [
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "CDE4330",
   "CDE5530",
   "CDE6514-2C",
@@ -39,5 +58,7 @@
   "PN-M432",
   "PN-M552 PCAP",
   "V6550"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lg-cmbb-65",
+ "checked": "2026-10-18"
 }

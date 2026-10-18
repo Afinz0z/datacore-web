@@ -1,14 +1,65 @@
 {
  "sku": "5629",
- "order": 4064,
+ "order": 4046,
  "n": "IPTV Headend T.0X Power Supply Unit-UPSU120",
  "b": "Televes",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
  "d": "T.0X SM PSU 120W 24V-5A",
- "specs": [],
+ "specs": [
+  {
+   "label": "Plug type",
+   "value": "EU"
+  },
+  {
+   "label": "Input voltage",
+   "value": "196 ... 264 Vac"
+  },
+  {
+   "label": "Mains frequency",
+   "value": "50 Hz / 60 Hz"
+  },
+  {
+   "label": "Max. power",
+   "value": "140 W"
+  },
+  {
+   "label": "Output voltage",
+   "value": "24 Vdc"
+  },
+  {
+   "label": "Max. output current",
+   "value": "5 A"
+  },
+  {
+   "label": "Max. output power",
+   "value": "120 W"
+  },
+  {
+   "label": "Protection index (IP)",
+   "value": "20"
+  },
+  {
+   "label": "Width",
+   "value": "71 mm"
+  },
+  {
+   "label": "Height",
+   "value": "219 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "165 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "1,471 g"
+  }
+ ],
  "acc": [
   "5301"
- ]
+ ],
+ "src": "https://www.televes.com/en/5629-24v-5a-power-supply-for-several-t-0x-modules-196-264vac.html",
+ "checked": "2026-10-18"
 }

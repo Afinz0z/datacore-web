@@ -1,11 +1,62 @@
 {
  "sku": "FCAV1U",
- "order": 2538,
+ "order": 2526,
  "n": "wall mount accessory",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Chief Pull-out Adaptor",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "1.56 in (4 cm)"
+  },
+  {
+   "label": "Extension",
+   "value": "11.54"
+  },
+  {
+   "label": "Height",
+   "value": "19.5 in (49.5 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "Large"
+  },
+  {
+   "label": "Width",
+   "value": "5.86 in (14.9 cm)"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape, Portrait"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "Special Features",
+   "value": "Multi-Display"
+  },
+  {
+   "label": "Overall Dimensions",
+   "value": "19.5\" x 5.86\" x 1.56\" (495 x 149 x 40 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "18.48 lbs (8.4 kg)"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/accessories/display-tv-accessories/fusion-pull-out-accessory/fcav1u",
+ "checked": "2026-10-18"
 }

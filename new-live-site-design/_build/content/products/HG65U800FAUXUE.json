@@ -1,13 +1,62 @@
 {
  "sku": "HG65U800FAUXUE",
- "order": 109,
+ "order": 101,
  "n": "65Google Chrome Cast Supported Hotel TV",
  "b": "Samsung",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "65\" Google Chrome Cast Supported Hotel TV",
- "specs": [],
+ "specs": [
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Screen Size",
+   "value": "65"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K (3,840 x 2,160)"
+  },
+  {
+   "label": "Picture Engine",
+   "value": "Quantum Processor Lite"
+  },
+  {
+   "label": "Film Mode",
+   "value": "Yes"
+  },
+  {
+   "label": "HDR (High Dynamic Range)",
+   "value": "HDR"
+  },
+  {
+   "label": "HDR10+",
+   "value": "Support"
+  },
+  {
+   "label": "HLG (Hybrid Log Gamma)",
+   "value": "Yes"
+  },
+  {
+   "label": "Contrast",
+   "value": "Mega Contrast"
+  },
+  {
+   "label": "Color",
+   "value": "Dynamic Crystal Color"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Contrast Enhancer",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "CL-LGFS-5586-N23",
   "CMS0305",
@@ -38,5 +87,7 @@
   "RMF3",
   "WMK-077",
   "XTM1U"
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/commercial-tvs/hotel-tv/65-google-chrome-cast-supported-hotel-tv-hg65u800fauxue/",
+ "checked": "2026-10-18"
 }

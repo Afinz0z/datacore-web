@@ -1,14 +1,45 @@
 {
  "sku": "6506383",
- "order": 4372,
+ "order": 4351,
  "n": "CAEN-5X1-MLO-120/2P",
  "b": "Crestron",
  "c": "Lighting Controller",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Line Power, 3-Phase",
+   "value": "120/208 Volts AC, 225 Amps maximum, 50/60 Hz phase to-neutral"
+  },
+  {
+   "label": "Line Power, Split-Phase",
+   "value": "120/240 Volts AC, 225 Amps maximum, 50/60 Hz phase to-neutral"
+  },
+  {
+   "label": "Circuit Breakers types",
+   "value": "Eaton® CHF120, CHFCAF120PN, and CHFGF120PN; single-pole, 20A, 10kAIC rated"
+  },
+  {
+   "label": "Maximum Wire Gauge",
+   "value": "4 AWG"
+  },
+  {
+   "label": "Enclosure",
+   "value": "16 Gauge galvanized steel backbox with perforated grey steel cover, surface or flush wall mount, invertible"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "acc": [
   "6500568",
   "6507800"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/Cabinets-Enclosures/CAEN-5X1-MLO-120-2P",
+ "checked": "2026-10-18"
 }

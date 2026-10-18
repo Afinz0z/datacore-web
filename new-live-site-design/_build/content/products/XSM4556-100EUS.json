@@ -1,13 +1,54 @@
 {
  "sku": "XSM4556-100EUS",
- "order": 3067,
+ "order": 3055,
  "n": "M4500-48XF8C MANAGED SWITCH - Netgear",
  "b": "Netgear",
  "c": "Fiber Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "M4500-48XF8C MANAGED SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Acoustics",
+   "value": "68.0dB @ 25°C (77°F) - the noise is reduced when the two PSUs connect to a power source"
+  },
+  {
+   "label": "25G SFP28 Ports",
+   "value": "48 SFP28 ports (1x10G default mode, other modes can be 1x25G and 1x10G)"
+  },
+  {
+   "label": "100G QSFP28 Ports",
+   "value": "8 QSFP28 ports (1x100G default mode, other modes can be 1x50G, 1x40G)"
+  },
+  {
+   "label": "PSU and Fans",
+   "value": "2 modular Power Supply Units and 6 modular Fan Trays come pre-installed"
+  },
+  {
+   "label": "Management",
+   "value": "CLI only (local console, telnet port 1223 and SSH port 1234)"
+  },
+  {
+   "label": "Management Ports",
+   "value": "1G Ethernet service port for out-of-band management (OOB, RJ45); RS232 straight-through serial RJ45 for local management console"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Full width 1U (508mm depth) with two mounting ears (front) and rail kits (back)"
+  },
+  {
+   "label": "Dimensions: (WxDxH)",
+   "value": "440 x 508 x 43.2 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "9.78 Kg (21.54lb"
+  },
+  {
+   "label": "Power Consumption (Max)",
+   "value": "394 Watts"
+  }
+ ],
  "acc": [
   "AFT402-10000S",
   "AGM731F",
@@ -15,5 +56,7 @@
   "DRV-XSM4556-12",
   "DRV-XSM4556-36",
   "DRV-XSM4556-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/fully-managed/m4500-48xf8c/",
+ "checked": "2026-10-18"
 }

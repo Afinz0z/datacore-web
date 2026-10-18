@@ -1,11 +1,62 @@
 {
  "sku": "p2600",
- "order": 932,
+ "order": 921,
  "n": "Power space amplifier",
  "b": "Bose",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Power spce amplfier 2 channel ech 600 watt",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "> 80 dB at 1 kHz, > 65 dB at 20 kHz"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "≥ 100 dB at rated power, A-weighted"
+  },
+  {
+   "label": "Gain, High-Impedance",
+   "value": "35 dB, 70V mode / 38 dB, 100V mode"
+  },
+  {
+   "label": "Gain, Low-Impedance",
+   "value": "35 dB"
+  },
+  {
+   "label": "Maximum Peak Power, Symmetrical",
+   "value": "1200 W"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (±1 dB) at 1 W, 4–8 Ω / 20 Hz – 20 kHz (±1 dB) at 1 W with 50 Hz high-pass filter, 70/100V"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "2"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "600 W"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.04% at 1 kHz, 4–8 Ω, 70V/100V"
+  },
+  {
+   "label": "Input Channels",
+   "value": "2 balanced"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(1) 6-pin Euroblock"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/non-dsp/powerspace-non-dsp/powerspace-p2600",
+ "checked": "2026-10-18"
 }

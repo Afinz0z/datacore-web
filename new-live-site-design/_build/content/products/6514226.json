@@ -1,14 +1,33 @@
 {
  "sku": "6514226",
- "order": 4025,
+ "order": 4007,
  "n": "CEN-SWSFP-PWS600",
  "b": "Crestron",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
  "d": "CEN-SWSFP-PWS600 600 W Power Supply Unit for CEN-SWSFP-40-TAA Network Switch",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power Inlet",
+   "value": "(1) C14 110-240VAC power input"
+  },
+  {
+   "label": "Power Output",
+   "value": "Up to 600 W at 110/220VAC"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 122° F (0° to 50° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "for": [
   "6514197"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/Network-Switch-Power-Supplies/CEN-SWSFP-PWS600",
+ "checked": "2026-10-18"
 }

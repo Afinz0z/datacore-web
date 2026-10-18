@@ -1,6 +1,6 @@
 {
  "sku": "760092429",
- "order": 3816,
+ "order": 3828,
  "n": "RJ45 Module (Systimax)",
  "b": "CommScope",
  "c": "RJ45 MODULE (JACK)",
@@ -9,8 +9,54 @@
  "d": "MGS600 OUTLET-WHITE",
  "specs": [
   {
-   "label": "Type",
-   "value": "module systimax"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular jack"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSPEED X10D®"
+  },
+  {
+   "label": "Product Series",
+   "value": "MGS600"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Mounting",
+   "value": "M Series faceplates and panels"
+  },
+  {
+   "label": "Termination Punchdowns, minimum",
+   "value": "20 times"
+  },
+  {
+   "label": "Termination Tool",
+   "value": "110 Punchdown tool"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/category-6a-jacks/item760092429/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6500626",
- "order": 2591,
+ "order": 2579,
  "n": "Universal Mounting Plate for CAEN Automation Enclosures (CAEN-UMP1X1)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "CAEN-UMP1X1",
  "d": "CAEN-UMP1X1 Universal Mounting Plate for CAEN Automation Enclosures, fits 1 Module Slot",
- "specs": [],
+ "specs": [
+  {
+   "label": "Construction",
+   "value": "Gray metal surface mount plate with (2) mounting flanges"
+  },
+  {
+   "label": "Height",
+   "value": "7.44 in (18.89 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.94 in (17.62 cm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.63 in (1.59 cm)"
+  },
+  {
+   "label": "Weight",
+   "value": "6.6 lb (2.99 kg)"
+  }
+ ],
  "for": [
   "6506307"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/Accessories/CAEN-UMP1X1",
+ "checked": "2026-10-18"
 }

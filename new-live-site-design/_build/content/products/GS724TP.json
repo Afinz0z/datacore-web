@@ -1,16 +1,67 @@
 {
  "sku": "GS724TP",
- "order": 2928,
+ "order": 2916,
  "n": "NETGEAR - 24-Port Gigabit Ethernet PoE Smart Switch with 2 SFP Ports",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "24-Port Gigabit Ethernet PoE Smart Switch with 2 SFP Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Gigabit ports",
+   "value": "24"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "24"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "24"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "190W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "DoS Prevention",
+   "value": "Yes"
+  },
+  {
+   "label": "Internal/External",
+   "value": "Internal 100-240VAC 50-60Hz"
+  },
+  {
+   "label": "FAN",
+   "value": "2"
+  },
+  {
+   "label": "Acoustic Noise Level @25C (dBA)",
+   "value": "26.10"
+  }
+ ],
  "acc": [
   "DRV-GS724TP-12",
   "DRV-GS724TP-36",
   "DRV-GS724TP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs724tpv3/",
+ "checked": "2026-10-18"
 }

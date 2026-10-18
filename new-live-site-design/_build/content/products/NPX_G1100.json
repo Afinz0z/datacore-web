@@ -1,6 +1,6 @@
 {
  "sku": "NPX G1100",
- "order": 4303,
+ "order": 4282,
  "n": "10-button convenience paging station with gooseneck microphone (NPX G1100)",
  "b": "Biamp",
  "c": "Paging mic",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "NPX G1100",
  "d": "10-button convenience paging station with gooseneck microphone, tabletop or wall mount",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.9 inches (47 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "9.1 inches (230 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "7.2 inches (182 mm)"
+  },
+  {
+   "label": "Power",
+   "value": "PoE (IEEE 802.3at Class 3, 15.4W)"
+  },
+  {
+   "label": "Paging System",
+   "value": "Mic Type: MEMS; Mic Pattern: Cardioid; Mic Gooseneck Length: 13.3 inches (338 mm); SNR (1kHz, 94dBSPL A-Weighted): > 76dB"
+  },
+  {
+   "label": "Network Connection(s)",
+   "value": "Gigabit Ethernet, RJ-45 (Cat 5e and above)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "(150Hz - 16kHz): ± 3dB"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "Dynamic Range (THD+N < 1%):; 92dB, A-Weighted"
+  },
+  {
+   "label": "SPL",
+   "value": "Maximum SPL (THD+N < 1%): 109dB"
+  },
+  {
+   "label": "Weight",
+   "value": "2.4 lbs (1080 g)"
+  },
+  {
+   "label": "Certifications",
+   "value": "FCC Part 15B (USA); CE marked (Europe); NRTL listed to UL 62638-1 (USA); NRTL listed to CSA C22.2 #62368-1 (Canada); RoHS Directive (Europe)"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/NPX-G1100/ecom-item/910-01839",
+ "checked": "2026-10-18"
 }

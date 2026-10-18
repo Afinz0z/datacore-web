@@ -1,11 +1,62 @@
 {
  "sku": "SSP500/W",
- "order": 614,
+ "order": 605,
  "n": "Flush mount 2-way sauna speaker",
  "b": "Audac",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Flush mount 2-way sauna speaker 20W -RAL9010 White",
- "specs": []
+ "specs": [
+  {
+   "label": "Program power handling",
+   "value": "40 W"
+  },
+  {
+   "label": "Continuous power (aes)",
+   "value": "20 W"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Sensitivity (1w/1m)",
+   "value": "86 dB"
+  },
+  {
+   "label": "Sound pressure (max. w/1m)",
+   "value": "99 dB"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "75 Hz - 20 kHz"
+  },
+  {
+   "label": "Drivers hf",
+   "value": "1”"
+  },
+  {
+   "label": "Drivers lf",
+   "value": "5”"
+  },
+  {
+   "label": "Peak power handling",
+   "value": "80 W"
+  },
+  {
+   "label": "Construction",
+   "value": "Heat resistant ABS"
+  },
+  {
+   "label": "Mounting",
+   "value": "4 Screws"
+  },
+  {
+   "label": "Cut-out measurement",
+   "value": "120 mm (Ø)"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/ssp500---flush-mount-2-way-sauna-speaker-20w",
+ "checked": "2026-10-18"
 }

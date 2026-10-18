@@ -1,6 +1,6 @@
 {
  "sku": "LGWM-5598SW",
- "order": 2697,
+ "order": 2685,
  "n": "Swivel Wall Mount-LGWM-5598SW",
  "b": "Logic",
  "c": "Mount",
@@ -9,17 +9,41 @@
  "d": "Swivel Wall Mount Bracket Support 55\" to 98\" Flat Panels. Max Loading Capacity - 130Kg",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Max. Load",
+   "value": "265 lbs (120 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "400 x 400 to 900 x 600"
+  },
+  {
+   "label": "Swivel Angle",
+   "value": "30° for 98″ display"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "55″ to 98″"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "28.5 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "32 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "1065 x 825 x 110 mm"
   }
  ],
  "for": [
   "1203626",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "98TR3DK-B",
   "98UM5K",
   "CDE5530",
@@ -67,5 +91,7 @@
   "PN-M752",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/display-mount-brackets/lgwm-5598sw",
+ "checked": "2026-10-18"
 }

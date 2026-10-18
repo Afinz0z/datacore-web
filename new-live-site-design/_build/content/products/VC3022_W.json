@@ -1,6 +1,6 @@
 {
  "sku": "VC3022/W",
- "order": 1249,
+ "order": 1237,
  "n": "VC3022/W-100V volume controller 20W 80 x 80 mm",
  "b": "Audac",
  "c": "Volume Controller",
@@ -8,8 +8,51 @@
  "avail": "lead",
  "model": "Volume controller",
  "d": "VC3022/W-100V volume controller 20W 80 x 80 mm",
- "specs": [],
+ "specs": [
+  {
+   "label": "Peak power handling",
+   "value": "40 W"
+  },
+  {
+   "label": "Program power handling",
+   "value": "20 W"
+  },
+  {
+   "label": "Max. operation voltage",
+   "value": "100 V"
+  },
+  {
+   "label": "Attenuation",
+   "value": "11 x 3 dB"
+  },
+  {
+   "label": "Priority relay",
+   "value": "24 V / 25 mA"
+  },
+  {
+   "label": "Built-in depth",
+   "value": "46 mm"
+  },
+  {
+   "label": "Construction",
+   "value": "ABS"
+  },
+  {
+   "label": "Colours",
+   "value": "White"
+  },
+  {
+   "label": "Dimensions",
+   "value": "80 x 80 x 50 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.100 kg"
+  }
+ ],
  "acc": [
   "WB3102/FS"
- ]
+ ],
+ "src": "https://audac.eu/me/products/d/vc3022---100v-volume-controller-20w-80-x-80-mm",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "PS404D",
- "order": 926,
+ "order": 915,
  "n": "Power amplifier-PS404D",
  "b": "Bose",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "PowerShare Amplifier 4 x 100w",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "> 85 dB at 1 kHz, > 65 dB at 20 kHz"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "100 dB at rated power, A-weighted"
+  },
+  {
+   "label": "Gain, High-Impedance",
+   "value": "35 dB, 70V mode / 38 dB, 100V mode"
+  },
+  {
+   "label": "Gain, Low-Impedance",
+   "value": "30.2 dB"
+  },
+  {
+   "label": "Maximum Peak Power, Symmetrical",
+   "value": "200 W"
+  },
+  {
+   "label": "Maximum Peak Power, Asymmetrical",
+   "value": "800 W"
+  },
+  {
+   "label": "Rated Power, Asymmetrical",
+   "value": "400 W"
+  },
+  {
+   "label": "SNR",
+   "value": "100 dB (at rated power, A-weighted)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (±0.5 dB) at 1 W"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "4"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "100 W"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.04% at 1 kHz, 4–8 Ω, 70V/100V"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/multichannel-dsp/powershare/powershare-ps404d",
+ "checked": "2026-10-18"
 }

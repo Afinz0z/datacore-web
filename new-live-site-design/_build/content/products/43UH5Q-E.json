@@ -1,11 +1,62 @@
 {
  "sku": "43UH5Q-E",
- "order": 29,
+ "order": 28,
  "n": "43 inch Signage",
  "b": "LG",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "43'' UHD Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size (Inch)",
+   "value": "43\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "ADS"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Edge"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz"
+  },
+  {
+   "label": "Brightness",
+   "value": "500nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,200 : 1 (Typ.)"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "1,000,000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "BT709 95%"
+  },
+  {
+   "label": "Viewing Angle (H x V)",
+   "value": "178x178"
+  },
+  {
+   "label": "Color Depth (Number of Colors)",
+   "value": "10bit(D), 1.07Billion colors"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-43uh5q-e",
+ "checked": "2026-10-18"
 }

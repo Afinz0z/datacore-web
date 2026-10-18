@@ -1,13 +1,60 @@
 {
  "sku": "Z1010.000",
- "order": 759,
+ "order": 750,
  "n": "U5 Loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "58 Hz - 17 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "105 Hz - 17 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with D90/D80/D40/D25/D20: 133 dB; with 5D/25D/30D/40D: 133 dB; with 10D: 130 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "2"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "200/700 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "90° x 60°"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 6.5\" driver with neodymium magnet / 1 x1\" exit HF compression driver with 1.7\" coil / Rotatable CD horn / Passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "NL4 M and 2-pin Euroblock in parallel / Additional option: NLT4 F/M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "20 x 8.8 x 11.6\" / 509 x 223 x 295 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "25.4 lb / 11.5 kg"
+  }
+ ],
  "acc": [
   "Z5805.000"
- ]
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/all/series/u-series/u5/",
+ "checked": "2026-10-18"
 }

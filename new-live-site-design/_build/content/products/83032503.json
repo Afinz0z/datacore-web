@@ -1,11 +1,34 @@
 {
  "sku": "83032503",
- "order": 4233,
+ "order": 4215,
  "n": "Arantia Tv Mdw",
  "b": "Televes",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
  "d": "Arantia Tv Mdw Basic Up To 1000 Users",
- "specs": []
+ "specs": [
+  {
+   "label": "HDD",
+   "value": "240GB SSD"
+  },
+  {
+   "label": "Width",
+   "value": "437 mm"
+  },
+  {
+   "label": "Height",
+   "value": "43 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "420 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "5,630 g"
+  }
+ ],
+ "src": "https://www.televes.com/en/83032503-arantia-tv-middleware-basic-up-to-1000-users.html",
+ "checked": "2026-10-18"
 }

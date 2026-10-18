@@ -1,6 +1,6 @@
 {
  "sku": "LH015IACCHS",
- "order": 93,
+ "order": 85,
  "n": "130’’ All in one Screen 2K (LH015IACCHS)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LH015IACCHS",
  "d": "130’’ All in one Screen 2K",
- "specs": []
+ "specs": [
+  {
+   "label": "Pixel Pitch",
+   "value": "1.5mm"
+  },
+  {
+   "label": "Pixel Configuration",
+   "value": "1920 x 1080"
+  },
+  {
+   "label": "Diode Type",
+   "value": "SMD(Surface Mount Device) LED(3-in-1 1212)"
+  },
+  {
+   "label": "Brightness",
+   "value": "500nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "6000:1"
+  },
+  {
+   "label": "Viewing Angle (Horizontal/Vertical)",
+   "value": "160/160°"
+  },
+  {
+   "label": "Video Rate",
+   "value": "60 Hz"
+  },
+  {
+   "label": "Input Voltage (alternating current)",
+   "value": "100~240V AC"
+  },
+  {
+   "label": "Power Frequency",
+   "value": "50/60Hz"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "3840 Hz"
+  },
+  {
+   "label": "Working Temperature",
+   "value": "0℃~+40℃ / 10~80%RH"
+  },
+  {
+   "label": "Colour Temperature",
+   "value": "6,500K ± 500K (floating bin)"
+  }
+ ],
+ "src": "https://www.samsung.com/uk/business/led-signage/the-wall/all-in-one-led-iac-series-lh015iacchs-en/",
+ "checked": "2026-10-18"
 }

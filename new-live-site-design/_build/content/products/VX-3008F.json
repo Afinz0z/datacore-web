@@ -1,14 +1,61 @@
 {
  "sku": "VX-3008F",
- "order": 1185,
+ "order": 1173,
  "n": "Voice Evacuation Frame 8SS",
  "b": "TOA",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "31 V DC operating range: 20 – 40 V DC)"
+  },
+  {
+   "label": "Frequency response",
+   "value": "40 Hz - 20 kHz"
+  },
+  {
+   "label": "Audio input",
+   "value": "4 balanced channels, nominal sensitivity between -60 dBV and -20 dBV, can be attenuated by potentiometer behind front panel, phantom power selectable"
+  },
+  {
+   "label": "Control input",
+   "value": "16 (by contact) + 2 (by 24 VDC polarty change)"
+  },
+  {
+   "label": "Control output",
+   "value": "Open collector: 8 + 3 (CPU OFF), Relay (125 VDC, 5 A): 8"
+  },
+  {
+   "label": "Input / Output",
+   "value": "Speaker Output: 8 zones; Audio Input: 4 (Line: -20 dBV / Mic: -60 dBV, phantom power selectable)"
+  },
+  {
+   "label": "Indicator",
+   "value": "power, run, CPU off, LAN status, RM status; emergency status faults: general, network, EMG microphone, fuse, power, CPU, zones; amplifier status: signal, peak, operate, power"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate, black"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "max. 85 W at 31 VDC"
+  },
+  {
+   "label": "Dimensions",
+   "value": "482 x 132.6 x 345 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "7.9 kg"
+  }
+ ],
  "acc": [
   "VX-050DA",
   "VX-300LO"
- ]
+ ],
+ "src": "https://www.toa.co.uk/products/vx-3008f/",
+ "checked": "2026-10-18"
 }

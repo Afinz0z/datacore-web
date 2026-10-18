@@ -1,10 +1,33 @@
 {
  "sku": "RM-210F",
- "order": 4317,
+ "order": 4296,
  "n": "Remote Microphone Extension",
  "b": "TOA",
  "c": "Paging mic",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "From Remote Microphone"
+  },
+  {
+   "label": "Controls",
+   "value": "10 buttons for free assignable functions"
+  },
+  {
+   "label": "Finish",
+   "value": "ABS resin, black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "110 x 76.5 x 215 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.35 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/rm-210f/",
+ "checked": "2026-10-18"
 }

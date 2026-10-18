@@ -1,6 +1,6 @@
 {
  "sku": "65NU85CB",
- "order": 36,
+ "order": 34,
  "n": "4K UHD Smart TV Resolution : 3,840 × 2,160 (4K Ultra HD) Google Cast (65NU85CB)",
  "b": "LG",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "65NU85CB",
  "d": "LG 4K UHD Smart TV Resolution : 3,840 × 2,160 (4K Ultra HD) Google Cast Netflix LG Shield",
- "specs": []
+ "specs": [
+  {
+   "label": "Display Type",
+   "value": "4K UHD"
+  },
+  {
+   "label": "Backlight Type",
+   "value": "Direct"
+  },
+  {
+   "label": "Display Resolution",
+   "value": "4K Ultra HD (3,840 x 2,160)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz Native"
+  },
+  {
+   "label": "AI Upscaling",
+   "value": "4K Super Upscaling"
+  },
+  {
+   "label": "FILMMAKER MODE™",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic Tone Mapping",
+   "value": "Yes"
+  },
+  {
+   "label": "HDR (High Dynamic Range)",
+   "value": "HDR10 / HLG"
+  },
+  {
+   "label": "HGIG Mode",
+   "value": "Yes"
+  },
+  {
+   "label": "ALLM (Auto Low Latency Mode)",
+   "value": "Yes"
+  },
+  {
+   "label": "Game Optimizer",
+   "value": "Yes (Game Dashboard)"
+  },
+  {
+   "label": "VRR (Variable Refresh Rate)",
+   "value": "Yes (Up to 60Hz)"
+  }
+ ],
+ "src": "https://www.lg.com/hk_en/business/information-display/commercial-tv/hotel-tv/65nu85cbpca/",
+ "checked": "2026-10-18"
 }

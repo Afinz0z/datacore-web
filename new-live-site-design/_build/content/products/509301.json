@@ -1,14 +1,65 @@
 {
  "sku": "509301",
- "order": 1078,
+ "order": 1067,
  "n": "Handheld Set-EW-DX 835-S SET (R1-9)",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Sennheiser EW-DX 835-S SET (R1-9) Digital wireless Dual handheld set This set consists of 2 x EW-DX SKM-S (handheld with mute switch), 2 x MMD 835 capsule (cardioid, dynamic), 1 x EW-DX EM 2 rackmout receiver (2 channels) and 2 x BA 70 rechargeable batteries.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Dynamic"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "520.000 - 607.800"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB) @ 3 dBfs"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Audio output level",
+   "value": "18 dBu max."
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "1.72"
+  },
+  {
+   "label": "Battery count",
+   "value": "2"
+  },
+  {
+   "label": "Battery included",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "508986"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-dx-835-s-set/ew-dx-835-s-set-r1-9-509301",
+ "checked": "2026-10-18"
 }

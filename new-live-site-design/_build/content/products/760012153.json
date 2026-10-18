@@ -1,6 +1,6 @@
 {
  "sku": "760012153",
- "order": 3926,
+ "order": 3908,
  "n": "6 core FOC multimode",
  "b": "CommScope",
  "c": "MULTI MODE FIBER OPTIC CABLE",
@@ -9,12 +9,54 @@
  "d": "N-006-DS-5K-FSUAQ/D",
  "specs": [
   {
-   "label": "Type",
-   "value": "6 core FOC"
+   "label": "Portfolio",
+   "value": "CommScope®"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Product Type",
+   "value": "Fiber indoor cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "N-DS"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Distribution"
+  },
+  {
+   "label": "Construction Type",
+   "value": "Non-armored"
+  },
+  {
+   "label": "Subunit Type",
+   "value": "Gel-free"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Aqua"
+  },
+  {
+   "label": "Jacket Marking",
+   "value": "Feet"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "6"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "5.07 mm | 0.2 in"
+  },
+  {
+   "label": "Minimum Bend Radius, loaded",
+   "value": "76 mm | 2.992 in"
+  },
+  {
+   "label": "Minimum Bend Radius, unloaded",
+   "value": "51 mm | 2.008 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/indoor-cables/item760012153/",
+ "checked": "2026-10-18"
 }

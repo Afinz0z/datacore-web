@@ -1,6 +1,6 @@
 {
  "sku": "LTM1U",
- "order": 2522,
+ "order": 2510,
  "n": "Large Fusion® Micro-Adjustable Tilt Wall Mount",
  "b": "Chief",
  "c": "Mount",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Mount",
  "d": "Large Fusion® Micro-Adjustable Tilt Wall Mount",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2 in (5.1 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "17 in (43.2 cm)"
+  },
+  {
+   "label": "Manual Height Adjustment",
+   "value": "1 in (25.4 mm)"
+  },
+  {
+   "label": "Max Screen Size",
+   "value": "6 in (15.2 cm)"
+  },
+  {
+   "label": "Maximum Screen Thickness",
+   "value": "6 in (152.4 mm)"
+  },
+  {
+   "label": "Minimum Depth",
+   "value": "2 in (5.1 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "42\"- 86\" (1067mm - 2184mm)"
+  },
+  {
+   "label": "Width",
+   "value": "34.75 in (88.3 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Height Adjustable, Lateral Shift, Micro-Adjustable, Tilt"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Number of Displays",
+   "value": "1"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fusion-wall-tilt/ltm1u",
+ "checked": "2026-10-18"
 }

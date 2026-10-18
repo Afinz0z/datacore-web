@@ -1,6 +1,6 @@
 {
  "sku": "D25",
- "order": 963,
+ "order": 952,
  "n": "Mobile specific four channel amplifier (D25)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "D25",
  "d": "Mobile specific four channel amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Equalizer",
+   "value": "2 x 16-band / PEQ/notch/shelving/asymmetric"
+  },
+  {
+   "label": "Latency analog and digital inputs",
+   "value": "0.3 ms"
+  },
+  {
+   "label": "Delay setting",
+   "value": "0.3 ms - 10 s"
+  },
+  {
+   "label": "Function switches",
+   "value": "d&b loudspeaker specific circuits"
+  },
+  {
+   "label": "Frequency generator",
+   "value": "Pink noise or Sine wave 10 Hz - 20 kHz"
+  },
+  {
+   "label": "Power",
+   "value": "Mains Power switch"
+  },
+  {
+   "label": "Status information and monitoring",
+   "value": "Colour touchscreen, 4.3\" 480 x 272 pixel"
+  },
+  {
+   "label": "SCROLL/EDIT",
+   "value": "Digital rotary encoder"
+  },
+  {
+   "label": "Display",
+   "value": "Colour TFT touchscreen, 4.25\"/480 * 272 pixel"
+  },
+  {
+   "label": "Sampling frequency Digital AES/EBU",
+   "value": "44.1, 48, 96, 192 kHz"
+  },
+  {
+   "label": "INPUT ANALOG (A1 - A4)",
+   "value": "3-pin XLR female"
+  },
+  {
+   "label": "ANALOG LINK (A1 - A4)",
+   "value": "3-pin XLR male"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/all/product-types/amplifiers/d25/",
+ "checked": "2026-10-18"
 }

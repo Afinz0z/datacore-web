@@ -1,11 +1,58 @@
 {
  "sku": "Z1630",
- "order": 749,
+ "order": 740,
  "n": "12S subwoofer",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "12S Compact Installation Subwoofer (1x 12\" driver, bass-reflex, 45 Hz - 130 Hz, 127 dB max SPL, 8 ohm, 300W/1600W power).",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "45 - 130 Hz"
+  },
+  {
+   "label": "Frequency response (-5 dB 100 Hz mode)",
+   "value": "45 - 100 Hz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with 10D: 124 dB; with D25/5D/25D: 127 dB; with D40/D80/D90/40D: 127 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "2"
+  },
+  {
+   "label": "Configuration",
+   "value": "Installation specific compact subwoofer"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "300/1600 W"
+  },
+  {
+   "label": "Components",
+   "value": "12\" driver with neodymium magnet"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NL4 / screw terminal block"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "354 x 530 x 448 mm / 13.9 x 20.9 x 17.6\""
+  },
+  {
+   "label": "Weight",
+   "value": "16 kg / 35 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/xs-series/12s-sub/",
+ "checked": "2026-10-18"
 }

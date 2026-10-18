@@ -1,11 +1,34 @@
 {
  "sku": "MXWAPT2=-Z11",
- "order": 3015,
+ "order": 3003,
  "n": "ACCESS POINT TRANSCEIVER",
  "b": "Shure",
  "c": "ACCESS POINT",
  "dept": "AV",
  "avail": "lead",
  "d": "2-CHANNEL ACCESS POINT TRANSCEIVER",
- "specs": []
+ "specs": [
+  {
+   "label": "Transmission",
+   "value": "Digital via DECT (1.9GHz)"
+  },
+  {
+   "label": "Encryption",
+   "value": "yes, AES-256"
+  },
+  {
+   "label": "Power Requirement",
+   "value": "Power over Ethernet (PoE) Class 0, 6.5W"
+  },
+  {
+   "label": "Antenna Type",
+   "value": "Internal, Spatial Diversity, Circular Polarization"
+  },
+  {
+   "label": "Weight",
+   "value": "845 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/microflex_wireless/mxwapt2",
+ "checked": "2026-10-18"
 }

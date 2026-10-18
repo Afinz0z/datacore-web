@@ -1,6 +1,6 @@
 {
  "sku": "7475",
- "order": 4246,
+ "order": 4228,
  "n": "SINGLE LNB UNIVERSAL HH/VH/HL/VL G60dB (7475)",
  "b": "Televes",
  "c": "IPTV Device",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "7475",
  "d": "SINGLE LNB UNIVERSAL HH/VH/HL/VL G60dB",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "10.7 ... 12.75 GHz"
+  },
+  {
+   "label": "Control signals Horizontal",
+   "value": "16 ... 20 Vdc"
+  },
+  {
+   "label": "Control signals Vertical",
+   "value": "12 ... 14 Vdc"
+  },
+  {
+   "label": "Output frequency range",
+   "value": "950 ... 2150 MHz"
+  },
+  {
+   "label": "L.O. frequency 0KHz",
+   "value": "9.75 GHz"
+  },
+  {
+   "label": "L.O. frequency 22KHz",
+   "value": "10.6 GHz"
+  },
+  {
+   "label": "Gain",
+   "value": "60 dB"
+  },
+  {
+   "label": "Noise figure",
+   "value": "0.3 dB"
+  },
+  {
+   "label": "L.O. stability",
+   "value": "-1.5 ... 1.5 MHz"
+  },
+  {
+   "label": "Polarities discrimination",
+   "value": "> 20 dB"
+  },
+  {
+   "label": "Phase noise (@10 KHz)",
+   "value": "-75 dBc"
+  },
+  {
+   "label": "Powering",
+   "value": "10 ... 20 Vdc"
+  }
+ ],
+ "src": "https://www.televes.com/en/lnb-single-single-lnb-offset-universal-1-output-hh-vh-hl-vl.html",
+ "checked": "2026-10-18"
 }

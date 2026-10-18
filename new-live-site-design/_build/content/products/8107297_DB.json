@@ -1,6 +1,6 @@
 {
  "sku": "8107297/DB",
- "order": 3883,
+ "order": 3886,
  "n": "12 Core Single mode Fiber Cables",
  "b": "CommScope",
  "c": "SINGLE MODE FIBER OPTIC CABLE",
@@ -9,8 +9,54 @@
  "d": "D-012-LA-8W-F12NS",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber OSP cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "D-LA"
+  },
+  {
+   "label": "Armor Type",
+   "value": "Corrugated steel"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Stranded loose tube"
+  },
+  {
+   "label": "Construction Type",
+   "value": "Armored"
+  },
+  {
+   "label": "Subunit Type",
+   "value": "Gel-free"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Black"
+  },
+  {
+   "label": "Jacket Marking",
+   "value": "Feet"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "12"
+  },
+  {
+   "label": "Buffer Tube/Subunit Diameter",
+   "value": "2.5 mm | 0.098 in"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "11.5 mm | 0.453 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/outside-plant-cables/item8107297-db/",
+ "checked": "2026-10-18"
 }

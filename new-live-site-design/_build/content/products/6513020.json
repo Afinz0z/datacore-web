@@ -1,6 +1,6 @@
 {
  "sku": "6513020",
- "order": 2596,
+ "order": 2584,
  "n": "Wall Mount Kit for TSS-470E (TSS-470E-WMK)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "TSS-470E-WMK",
  "d": "TSS-470E-WMK Wall Mount Kit for TSS-470E",
- "specs": [],
+ "specs": [
+  {
+   "label": "Construction",
+   "value": "Metal mounting plate with zip rail mounting system"
+  },
+  {
+   "label": "Height",
+   "value": "3.79 in. (96 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.15 in. (106 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.59 in. (91 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "3.8 oz (108 g)"
+  }
+ ],
  "for": [
   "6512606"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Scheduling/Desk-Scheduling/Accessories/TSS-470E-WMK",
+ "checked": "2026-10-18"
 }

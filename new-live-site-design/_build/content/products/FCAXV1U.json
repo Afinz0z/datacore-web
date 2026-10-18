@@ -1,6 +1,6 @@
 {
  "sku": "FCAXV1U",
- "order": 5136,
+ "order": 5114,
  "n": "Mounts - Fusion Accessories - Fusion™ Extra-Large Pull Out Accessory (FCAXV1U)",
  "b": "Chief",
  "c": "Accessories",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "FCAXV1U",
  "d": "Mounts - Fusion Accessories - Fusion™ Extra-Large Pull Out Accessory",
- "specs": []
+ "specs": [
+  {
+   "label": "Plumb Adjustment",
+   "value": "+0.5° / -2°"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "Extra Large"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "Special Features",
+   "value": "Multi-Display"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "22.51\" x 12.99\" x 4.61\"(571.8 x 330 x 117.1 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "30.81 lbs (14 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "250 lbs (113.4 kg)"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/accessories/display-tv-accessories/fusion-pull-out-accessory/fcaxv1u",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "RMT3",
- "order": 2523,
+ "order": 2511,
  "n": "LegrandAV- Chief 32 to 65 wall Mount-RMT3",
  "b": "Chief",
  "c": "Mount",
@@ -9,18 +9,57 @@
  "d": "Mounts - Wall Mounts - Medium Universal Tilt Mount Typical Screen Size 32\" - 65\" (813mm - 1651mm) Weight Capacity 125 lbs (56.7 kg) Width 55.88 cm (22 in)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mounted"
+   "label": "Depth",
+   "value": "2 in (5.1 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "19.18 in (48.7 cm)"
+  },
+  {
+   "label": "Manual Height Adjustment",
+   "value": "0.75 in (19.1 mm)"
+  },
+  {
+   "label": "Minimum Depth",
+   "value": "2 in (5.1 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "32\" - 65\" (813mm - 1651mm)"
+  },
+  {
+   "label": "Width",
+   "value": "22 in (55.9 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Tilt"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape, Portrait"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "Tilt",
+   "value": "-12°"
   }
  ],
  "for": [
   "22SM3G",
   "32SM5J",
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "CDE4330",
   "CDE5530",
   "CDE6514-2C",
@@ -44,5 +83,7 @@
   "PN-M552 PCAP",
   "PN-M752",
   "V6550"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fit-tilt-wall-mounts/rmt3",
+ "checked": "2026-10-18"
 }

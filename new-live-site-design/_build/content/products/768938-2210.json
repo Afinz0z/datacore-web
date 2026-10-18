@@ -1,11 +1,42 @@
 {
  "sku": "768938-2210",
- "order": 1367,
+ "order": 1355,
  "n": "ControlCenter CC-2-White",
  "b": "Bose",
  "c": "Zone Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "CONTROLCENTER CC-2 EU WHITE",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable Requirements",
+   "value": "Cat 5"
+  },
+  {
+   "label": "Maximum Cable Length",
+   "value": "2000 ft (609 m) to FreeSpace amplifiers / 500 ft (152 m) shielded, 100 ft (30 m) unshielded to ControlSpace processors"
+  },
+  {
+   "label": "Connectors",
+   "value": "(2) RJ-45, TIA/EIA 568B wiring standard"
+  },
+  {
+   "label": "Controls, Front Panel",
+   "value": "(1) volume knob, (1) source selection knob"
+  },
+  {
+   "label": "Colors",
+   "value": "Black, white"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "1-gang electrical box (North America, Europe, Japan)"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "4.1 in × 1.5 in × 1.5 in (105 mm × 38 mm × 38 mm), North America / 3.4 in × 3.4 in × 1.5 in (86 mm × 86 mm × 38 mm), Europe / 4.3 in × 1.7 in × 1.5 in (110 mm × 42 mm × 39 mm), Japan"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/controllers/analog/ccs-analog/controlcenter-cc-2-zone-controller",
+ "checked": "2026-10-18"
 }

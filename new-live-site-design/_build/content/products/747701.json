@@ -1,6 +1,6 @@
 {
  "sku": "747701",
- "order": 4242,
+ "order": 4224,
  "n": "OFFS.LNB QUATTRO HH-VH-HL-VL G60dB (747701)",
  "b": "Televes",
  "c": "IPTV Device",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "747701",
  "d": "OFFS.LNB QUATTRO HH-VH-HL-VL G60dB",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "10.7 ... 12.75 GHz"
+  },
+  {
+   "label": "Control signals Horizontal",
+   "value": "16 ... 19 Vdc"
+  },
+  {
+   "label": "Control signals Vertical",
+   "value": "12 ... 14 Vdc"
+  },
+  {
+   "label": "Output frequency range",
+   "value": "950 ... 2150 MHz"
+  },
+  {
+   "label": "L.O. frequency 0KHz",
+   "value": "9.75 GHz"
+  },
+  {
+   "label": "L.O. frequency 22KHz",
+   "value": "10.6 GHz"
+  },
+  {
+   "label": "Gain",
+   "value": "60 dB"
+  },
+  {
+   "label": "Noise figure",
+   "value": "0.3 dB"
+  },
+  {
+   "label": "L.O. stability",
+   "value": "-1.5 ... 1.5 MHz"
+  },
+  {
+   "label": "Polarities discrimination",
+   "value": "> 20 dB"
+  },
+  {
+   "label": "Phase noise (@10 KHz)",
+   "value": "-75 dBc"
+  },
+  {
+   "label": "Powering",
+   "value": "12 ... 20 Vdc"
+  }
+ ],
+ "src": "https://www.televes.com/en/lnb-quattro-quattro-lnb-offset-4-outputs-hh-vh-hl-vl.html",
+ "checked": "2026-10-18"
 }

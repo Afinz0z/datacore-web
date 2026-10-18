@@ -1,6 +1,6 @@
 {
  "sku": "6507733",
- "order": 4377,
+ "order": 4356,
  "n": "DIN Rail High-Voltage Switch with Digital Inputs (DIN-PWS60)",
  "b": "Crestron",
  "c": "Lighting Controller",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DIN-PWS60",
  "d": "DIN Rail High-Voltage Switch with Digital Inputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Ripple/Noise",
+   "value": "<1%"
+  },
+  {
+   "label": "Efficiency",
+   "value": "85%"
+  },
+  {
+   "label": "Line Power/Mains",
+   "value": "200 VA (2 Amps maximum) at 100-277 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Input Current",
+   "value": "1.1 Amps at 120 Volts AC; 0.65 Amps at 230 Volts AC; 0.57 Amps at 277 Volts AC; Measured at full rated output"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Light gray polycarbonate housing with polycarbonate label overlay, UL 94 V-0 rated, 35 mm DIN EN 60715 rail mount, DIN 43880 form factor for enclosures with 45 mm front panel cutout, occupies 6 DIN module spaces (108 mm)"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "26 BTU/hr"
+  },
+  {
+   "label": "Height",
+   "value": "3.70 in (94 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.25 in (108 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.29 in (58 mm)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "70 Watts at full rated output"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Power-Supplies/Cresnet-Power-Supplies/DIN-PWS60",
+ "checked": "2026-10-18"
 }

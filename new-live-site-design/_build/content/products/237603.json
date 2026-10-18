@@ -1,11 +1,62 @@
 {
  "sku": "237603",
- "order": 4245,
+ "order": 4227,
  "n": "Overlight Optical Transmitter",
  "b": "Televes",
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
  "d": "Tx Overl 1310nm Sc/Apc 10dbm Int Bt",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "TERR 47 ... 694 MHz; V 290 ... 2340 MHz; H 290 ... 2340 MHz"
+  },
+  {
+   "label": "Input level",
+   "value": "TERR 83 ... 95 dBµV; V 70 ... 85 dBµV; H 70 ... 85 dBµV"
+  },
+  {
+   "label": "Equalizator",
+   "value": "V 0 ... 12 dB; H 0 ... 12 dB"
+  },
+  {
+   "label": "Gain",
+   "value": "V 18 dB; H 18 dB"
+  },
+  {
+   "label": "Number of MUX for Input level",
+   "value": "TERR 24; V 52; H 52"
+  },
+  {
+   "label": "MUX bandwidth for Input level",
+   "value": "TERR 8 MHz; V 40 MHz; H 40 MHz"
+  },
+  {
+   "label": "Powering per inputs",
+   "value": "TERR 12 Vdc; V 12 Vdc"
+  },
+  {
+   "label": "Max. current pass",
+   "value": "TERR 500 mA; V 500 mA"
+  },
+  {
+   "label": "Max. current pass total inputs",
+   "value": "720 mA"
+  },
+  {
+   "label": "Wavelength",
+   "value": "1310 nm"
+  },
+  {
+   "label": "Optical output power",
+   "value": "10 dBmW"
+  },
+  {
+   "label": "Transmitter type",
+   "value": "MQW-DFB"
+  }
+ ],
+ "src": "https://www.televes.com/en/237603-indoor-overlight-optical-transmitter-fm-dab-uhf-sat-cwdm-1310-nm-10-dbm.html",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "LH85QMCEBGCXXL",
- "order": 95,
+ "order": 87,
  "n": "2.16 m QM85C Smart signage (85 inch QMC)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "85 inch QMC",
  "d": "2.16 m QM85C Smart signage",
- "specs": [],
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "2 m 16 cm"
+  },
+  {
+   "label": "Panel Type",
+   "value": "VA"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV)",
+   "value": "0.487 x 0.487 mm"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "500 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4,000:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "10ms"
+  },
+  {
+   "label": "Colour Gamut",
+   "value": "72% (NTSC)"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25%"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594MHz"
+  }
+ ],
  "acc": [
   "KITXWXSM1U",
   "XSM1U"
- ]
+ ],
+ "src": "https://www.samsung.com/in/business/smart-signage/uhd-4k-signage/crystal-uhd-signage-qmc-85-inch-lh85qmcebgcxxl/",
+ "checked": "2026-10-18"
 }

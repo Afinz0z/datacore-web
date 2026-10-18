@@ -1,14 +1,65 @@
 {
  "sku": "SBB-SS08NU1XUE",
- "order": 375,
+ "order": 367,
  "n": "SAMSUNG Signage Player",
  "b": "Samsung",
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
  "d": "UHD digital signage player box designed to deliver high-quality video content efficiently and reliably for professional display installations.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Version of HDMI",
+   "value": "2.0"
+  },
+  {
+   "label": "Version of HDCP",
+   "value": "2.2"
+  },
+  {
+   "label": "USB",
+   "value": "2"
+  },
+  {
+   "label": "IR In",
+   "value": "Yes"
+  },
+  {
+   "label": "Audio Out",
+   "value": "Stereo Mini Jack"
+  },
+  {
+   "label": "Video Out",
+   "value": "Yes"
+  },
+  {
+   "label": "RS232 In",
+   "value": "Yes"
+  },
+  {
+   "label": "RS232 Out",
+   "value": "Yes"
+  },
+  {
+   "label": "RJ45 In",
+   "value": "Yes"
+  },
+  {
+   "label": "WiFi",
+   "value": "Yes"
+  },
+  {
+   "label": "EMC",
+   "value": "KCC, CE, FCC, CCC"
+  },
+  {
+   "label": "Safety",
+   "value": "UL, CSA"
+  }
+ ],
  "acc": [
   "BW-MIP70PA"
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/others/sbb-ssnu-sbb-ss08nu1xue/",
+ "checked": "2026-10-18"
 }

@@ -1,17 +1,68 @@
 {
  "sku": "2153365-2",
- "order": 3814,
+ "order": 3826,
  "n": "RJ45 Modular Jack",
  "b": "CommScope",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SL-Series Modular Jack, RJ45, Cat6A Shielded, with Dust Cover, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "NETCONNECT®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular jack"
+  },
+  {
+   "label": "Product Series",
+   "value": "SLX Series"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Shielded"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Integrated Dust Cover Type",
+   "value": "Hinged"
+  },
+  {
+   "label": "Mounting",
+   "value": "SL Series faceplates and panels"
+  },
+  {
+   "label": "Termination Tool",
+   "value": "JTT Termination tool"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
+  },
+  {
+   "label": "Transmission Standards",
+   "value": "ANSI/TIA-568.2-D | ISO/IEC 11801 Class EA"
+  }
+ ],
  "acc": [
   "1-1933943-1",
   "1711658-2",
   "1711897-1",
   "5-1933433-3"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/category-6a-jacks/item2153365-2/",
+ "checked": "2026-10-18"
 }

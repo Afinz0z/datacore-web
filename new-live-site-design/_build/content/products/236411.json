@@ -1,11 +1,62 @@
 {
  "sku": "236411",
- "order": 1371,
+ "order": 1359,
  "n": "Optical Attenuator-ODG5-SC",
  "b": "Televes",
  "c": "Attenuator",
  "dept": "AV",
  "avail": "lead",
  "d": "F.O. ATTENUATOR 1310/1550nm SC/APC 5dB 5dB optical attenuator in 1310/1550nm equipped with SC/APC connection.",
- "specs": []
+ "specs": [
+  {
+   "label": "Attenuation",
+   "value": "5 dB"
+  },
+  {
+   "label": "Optical connectors",
+   "value": "SC/APC"
+  },
+  {
+   "label": "Connection type",
+   "value": "Male/Female"
+  },
+  {
+   "label": "Wavelength",
+   "value": "1270 ... 1650 nm"
+  },
+  {
+   "label": "Return losses",
+   "value": "65 dB"
+  },
+  {
+   "label": "Max. optical power",
+   "value": "27 dBm"
+  },
+  {
+   "label": "Attenuation tolerance (1310/1550 nm)",
+   "value": "0.5 dB"
+  },
+  {
+   "label": "Colour",
+   "value": "Metallic"
+  },
+  {
+   "label": "Width",
+   "value": "39 mm"
+  },
+  {
+   "label": "Height",
+   "value": "9 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "13 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "10 g"
+  }
+ ],
+ "src": "https://www.televes.com/en/236411-sc-apc-optical-attenuator-1270-1650-nm-5db.html",
+ "checked": "2026-10-18"
 }

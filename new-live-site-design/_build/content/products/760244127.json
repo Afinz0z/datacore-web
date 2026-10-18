@@ -1,11 +1,62 @@
 {
  "sku": "760244127",
- "order": 3812,
+ "order": 3824,
  "n": "Modular Plug, RJ45, Cat6A",
  "b": "CommScope",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FIELD TERM RJ45 MP CAT6A, PACK OF 25",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular plug"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "U/UTP (unshielded)"
+  },
+  {
+   "label": "Color",
+   "value": "Clear"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Interface",
+   "value": "RJ45"
+  },
+  {
+   "label": "Positions/Loaded Contacts",
+   "value": "8"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
+  },
+  {
+   "label": "Contact Plating Thickness",
+   "value": "1.27 µm"
+  },
+  {
+   "label": "Plug Insertion Life, minimum",
+   "value": "750 times"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "UL 114344"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-plugs-accessories/category-6a-plugs/item760244127/",
+ "checked": "2026-10-18"
 }

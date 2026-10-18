@@ -1,11 +1,30 @@
 {
  "sku": "MA-CBL-TA-3M",
- "order": 3051,
+ "order": 3039,
  "n": "Twinax Cable",
  "b": "Cisco",
  "c": "Stacking cable",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CISCO Meraki 10 GbE Twinax Cable with SFP+ Modules, 3 Meter",
- "specs": []
+ "specs": [
+  {
+   "label": "Standard",
+   "value": "10GSFP+Cu"
+  },
+  {
+   "label": "Cable Length",
+   "value": "3 m"
+  },
+  {
+   "label": "Assembly Type",
+   "value": "Passive Twinax"
+  },
+  {
+   "label": "Data Rate",
+   "value": "10 Gigabit"
+  }
+ ],
+ "src": "https://documentation.meraki.com/Platform_Management/Product_Information/Overviews_and_Datasheets/Small-Form_Factor_Pluggable_(SFP)_and_Stacking_Accessories",
+ "checked": "2026-10-18"
 }

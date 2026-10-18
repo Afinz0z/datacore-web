@@ -1,11 +1,62 @@
 {
  "sku": "6507140",
- "order": 597,
+ "order": 588,
  "n": "DIN-CENCN-2-POE",
  "b": "Crestron",
  "c": "AV Bridge",
  "dept": "AV",
  "avail": "lead",
  "d": "DIN-CENCN-2-POE Ethernet to Cresnet® Network Bridge with PoE",
- "specs": []
+ "specs": [
+  {
+   "label": "Ethernet",
+   "value": "100 Mbps, autoswitching, autonegotiating, autodiscovery, full/half duplex, DHCP, web server, IEEE 802.3af and 802.3at Type 1 compliant"
+  },
+  {
+   "label": "Cresnet",
+   "value": "Cresnet server mode with two separate subnets"
+  },
+  {
+   "label": "USB",
+   "value": "Supports computer console via front panel USB 2.0 device port"
+  },
+  {
+   "label": "Memory Card",
+   "value": "(1) SD memory card slot; Accepts one SD or SDHC card for log file storage"
+  },
+  {
+   "label": "Power Source Options",
+   "value": "PoE or Cresnet power supply"
+  },
+  {
+   "label": "Power over Ethernet",
+   "value": "IEEE 802.3at Type 2 PoE+ Powered Device; Use PoE Class 0 Type 1 or PoE+ Class 4 Type 2 PSE; PoE Class 0 (12.95 W) 802.3at Type 1 PSE; PoE Class 0 (12.95 W) 802.3af Type 1 PSE; PoE+ Class 4 (25.5 W) 802.3at Type 2 PSE"
+  },
+  {
+   "label": "Cresnet Power",
+   "value": "24VDC"
+  },
+  {
+   "label": "Construction chassis",
+   "value": "Light gray polycarbonate housing with polycarbonate label overlay, UL94 V-0 rated"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "35 mm DIN EN 60715 rail mount, DIN 43880 form factor for enclosures with 45 mm front panel cutout, occupies 9 DIN module spaces (162 mm)"
+  },
+  {
+   "label": "Height",
+   "value": "3.61 in (92 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.33 in (161 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.30 in (59 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/DIN-Modules/DIN-CENCN-2-POE",
+ "checked": "2026-10-18"
 }

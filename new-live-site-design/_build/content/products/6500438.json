@@ -1,15 +1,46 @@
 {
  "sku": "6500438",
- "order": 4374,
+ "order": 4353,
  "n": "CAEN-7X1",
  "b": "Crestron",
  "c": "Lighting Controller",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Enclosure",
+   "value": "16-gauge galvanized steel backbox with perforated grey steel cover, surface or flush wall-mount installation"
+  },
+  {
+   "label": "Backbox height",
+   "value": "62.00 in (157.48 cm)"
+  },
+  {
+   "label": "Backbox width",
+   "value": "14.38 in (36.51 cm)"
+  },
+  {
+   "label": "Backbox depth",
+   "value": "4.00 in (10.16 cm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "42.0 lbs (19.05 kg)"
+  }
+ ],
  "acc": [
   "6500568",
   "6500714",
   "6507800"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/Cabinets-Enclosures/CAEN-7X1",
+ "checked": "2026-10-18"
 }

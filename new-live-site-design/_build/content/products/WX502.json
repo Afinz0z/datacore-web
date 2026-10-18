@@ -1,6 +1,6 @@
 {
  "sku": "WX502",
- "order": 619,
+ "order": 610,
  "n": "Universal wall speaker 5 1/4\"",
  "b": "Audac",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Wall speaker",
  "d": "Universal wall speaker 5 1/4\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Crossover frequency",
+   "value": "2.5 kHz"
+  },
+  {
+   "label": "Crossover type",
+   "value": "Passive built-in"
+  },
+  {
+   "label": "Drivers hf",
+   "value": "1”"
+  },
+  {
+   "label": "Drivers lf",
+   "value": "5”"
+  },
+  {
+   "label": "Frequency range (-10 db)",
+   "value": "55 Hz - 20 kHz"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "70 Hz - 18 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Peak power handling",
+   "value": "200 W"
+  },
+  {
+   "label": "Program power handling",
+   "value": "100 W"
+  },
+  {
+   "label": "Sensitivity (1w/1m)",
+   "value": "87 dB"
+  },
+  {
+   "label": "Sound pressure (max. w/1m) @ 100 v",
+   "value": "102 dB"
+  },
+  {
+   "label": "Sound pressure (max. w/1m) @ 8 ω",
+   "value": "104 dB"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/wx502---universal-wall-speaker-5-1-4inch",
+ "checked": "2026-10-18"
 }

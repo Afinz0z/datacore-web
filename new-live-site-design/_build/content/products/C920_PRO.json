@@ -1,11 +1,42 @@
 {
  "sku": "C920 PRO",
- "order": 594,
+ "order": 585,
  "n": "C920 HD Pro Webcam",
  "b": "Logitech",
  "c": "Web Camera",
  "dept": "AV",
  "avail": "lead",
  "d": "C920 HD Pro Webcam Full HD 1080p video calling with stereo audio",
- "specs": []
+ "specs": [
+  {
+   "label": "Max Resolution",
+   "value": "1080 p/30 fps - 720p/ 30 fps"
+  },
+  {
+   "label": "Camera mega pixel",
+   "value": "3"
+  },
+  {
+   "label": "Focus type",
+   "value": "Autofocus"
+  },
+  {
+   "label": "Lens type",
+   "value": "Glass"
+  },
+  {
+   "label": "Built-in mic",
+   "value": "Stereo"
+  },
+  {
+   "label": "Mic range",
+   "value": "Up to 1 m"
+  },
+  {
+   "label": "Diagonal field of view (dFoV)",
+   "value": "78°"
+  }
+ ],
+ "src": "https://www.logitech.com/en-gb/shop/p/c920-pro-hd-webcam",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6502429",
- "order": 3085,
+ "order": 3073,
  "n": "PoE Injector (PWE-4803RU)",
  "b": "Crestron",
  "c": "PoE Injector",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "PWE-4803RU",
  "d": "PWE-4803RU PoE Injector",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Requirements",
+   "value": "100-250 Volts AC, 50/60 Hz"
+  },
+  {
+   "label": "Main Power Input",
+   "value": "(1) IEC 320 C14 socket; Mates with removable power cord, included"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "28 BTU/Hr"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Black plastic, desktop"
+  },
+  {
+   "label": "Height",
+   "value": "1.35 in (3.43 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.40 in (6.10 cm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.98 in (10.11 cm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "6.0 oz (169 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/PoE-Injector/PWE-4803RU",
+ "checked": "2026-10-18"
 }

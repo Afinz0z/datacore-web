@@ -1,14 +1,65 @@
 {
  "sku": "840917-4100",
- "order": 1228,
+ "order": 1216,
  "n": "Sub2 powered bass module",
  "b": "Bose",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "Sub2 subwoofer portable bass module",
- "specs": [],
+ "specs": [
+  {
+   "label": "Number of Channels",
+   "value": "1"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Input Channels",
+   "value": "2"
+  },
+  {
+   "label": "Connectors",
+   "value": "(1) XLR-1/4-in TRS combo, (1) SubMatch (proprietary multi-pin cable)"
+  },
+  {
+   "label": "Sensitivity Options",
+   "value": "+10 dB to +45 dB, input to driver"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "No"
+  },
+  {
+   "label": "AC Power Connector",
+   "value": "IEC, SubMatch"
+  },
+  {
+   "label": "AC Power Input",
+   "value": "100–240 VAC (±20%, 50/60 Hz)"
+  },
+  {
+   "label": "Current Draw, Inrush",
+   "value": "15.2 A at 120 VAC, 60 Hz / 28.6 A at 230 VAC, 50 Hz"
+  },
+  {
+   "label": "Software Applications",
+   "value": "Bose Music (Android, iOS)"
+  },
+  {
+   "label": "Computer Interface Connection",
+   "value": "USB Type-C"
+  },
+  {
+   "label": "Controls, Rear Panel",
+   "value": "Power, EQ, and Volume Control"
+  }
+ ],
  "acc": [
   "857000-0110"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/portable-pa/powered-loudspeakers/l1-powered-loudspeakers/sub2-powered-bass-module",
+ "checked": "2026-10-18"
 }

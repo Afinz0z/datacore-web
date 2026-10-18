@@ -1,6 +1,6 @@
 {
  "sku": "65351200DY",
- "order": 3742,
+ "order": 3729,
  "n": "patch cord 3 mtr",
  "b": "Datwyler",
  "c": "UTP Patch cord",
@@ -9,8 +9,54 @@
  "d": "Cat 6A Patch Cord Shielded, FRNC/LS0H Sheath , Grey Color,3Meter -Datwyler.",
  "specs": [
   {
-   "label": "Type",
-   "value": "patchcord 3m"
+   "label": "Length (m)",
+   "value": "3"
+  },
+  {
+   "label": "Fire retardant version",
+   "value": "yes"
+  },
+  {
+   "label": "Colour anti-kink sleeve",
+   "value": "grey"
+  },
+  {
+   "label": "Halogen free",
+   "value": "yes"
+  },
+  {
+   "label": "Outer sheath colour",
+   "value": "grey"
+  },
+  {
+   "label": "Packing unit",
+   "value": "1 pc."
+  },
+  {
+   "label": "Pin assignment",
+   "value": "1:1"
+  },
+  {
+   "label": "GBit/s",
+   "value": "Up to 10 Gbit/s"
+  },
+  {
+   "label": "NVP %",
+   "value": "78"
+  },
+  {
+   "label": "Shielding",
+   "value": "shielded"
+  },
+  {
+   "label": "Cable type",
+   "value": "S/FTP"
+  },
+  {
+   "label": "Type of connector connection 1",
+   "value": "RJ45 8(8)"
   }
- ]
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/copper-networks/patch-cords/rj45-patch-cords-cat-6a-iec-stp-dca/",
+ "checked": "2026-10-18"
 }

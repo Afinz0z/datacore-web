@@ -1,6 +1,6 @@
 {
  "sku": "760254802",
- "order": 3893,
+ "order": 3895,
  "n": "optic fibre cable, Indoor/outdoor Fiber Optic Cable, 4-fiber, office distribution",
  "b": "CommScope",
  "c": "SINGLE MODE FIBER OPTIC CABLE",
@@ -10,12 +10,54 @@
  "d": "Indoor/outdoor Fiber Optic Cable, 4-fiber, office distribution, multimode, OS2, ULSZH, aqua. Provides Rodent Resistance. Black Jacket",
  "specs": [
   {
-   "label": "Type",
-   "value": "4 core sm(foc)"
+   "label": "Portfolio",
+   "value": "CommScope®"
   },
   {
-   "label": "Unit",
-   "value": "Reel"
+   "label": "Product Type",
+   "value": "Fiber indoor/outdoor cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "C-DS"
+  },
+  {
+   "label": "Standards Compliance",
+   "value": "IEC 60794-1 | TIA-492CAAB (OS2)"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Tight buffer"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Black"
+  },
+  {
+   "label": "Jacket Marking",
+   "value": "Meters"
+  },
+  {
+   "label": "Jacket Marking Method",
+   "value": "Inkjet"
+  },
+  {
+   "label": "Jacket Marking Text",
+   "value": "COMMSCOPE GB OPTICAL CABLE 760254802 INT/EXT RODENT RESISTANT DISTRIBUTION ULSZH 4x9/125 OS2 [Serial number] [metre mark]"
+  },
+  {
+   "label": "Strength Members",
+   "value": "E-glass yarns"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "4"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "5.5 mm | 0.217 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/indoor-outdoor-cables/item760254802/",
+ "checked": "2026-10-18"
 }

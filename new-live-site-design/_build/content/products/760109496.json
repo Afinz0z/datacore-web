@@ -1,6 +1,6 @@
 {
  "sku": "760109496",
- "order": 3997,
+ "order": 3979,
  "n": "Fiber cassette with pigtails 12 LC",
  "b": "CommScope",
  "c": "Fiber Casette",
@@ -9,8 +9,54 @@
  "d": "360G2 Cartridge 12-LC-SM-BL-Pigtails",
  "specs": [
   {
-   "label": "Type",
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
    "value": "Fiber cassette with pigtails"
+  },
+  {
+   "label": "Product Series",
+   "value": "G2"
+  },
+  {
+   "label": "Color, front",
+   "value": "Blue"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "iPatch® ready"
+  },
+  {
+   "label": "Interface, front",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Interface, rear",
+   "value": "Stranded pigtail"
+  },
+  {
+   "label": "Shuttered",
+   "value": "No"
+  },
+  {
+   "label": "Height",
+   "value": "25.908 mm | 1.02 in"
+  },
+  {
+   "label": "Width",
+   "value": "94.996 mm | 3.74 in"
+  },
+  {
+   "label": "Depth",
+   "value": "123.012 mm | 4.843 in"
+  },
+  {
+   "label": "Fiber Mode",
+   "value": "Singlemode"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-cassettes/item760109496/",
+ "checked": "2026-10-18"
 }

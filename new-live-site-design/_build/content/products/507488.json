@@ -1,14 +1,65 @@
 {
  "sku": "507488",
- "order": 1089,
+ "order": 1078,
  "n": "TeamConnect Ceiling 2 White",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Sennheiser TeamConnect Ceiling 2 Ceiling array microphone White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Pre-polarised condenser"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "4 ms"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "160 Hz to 18,000 Hz"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "93 dB(A)"
+  },
+  {
+   "label": "Equivalent noise level (db)",
+   "value": "11 dB(A)"
+  },
+  {
+   "label": "Max. sound pressure level",
+   "value": "104 dB SPL"
+  },
+  {
+   "label": "Signal-to-noise ratio",
+   "value": "83 dB(A)"
+  },
+  {
+   "label": "Connection",
+   "value": "Wired"
+  },
+  {
+   "label": "Audio output",
+   "value": "1 x 3-pin terminal (fits Phoenix contact MCVW 1.5-3-ST-3.81); 2 x Digital Dante Network Audio (RJ-45 Primary and Secondary)"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "0 dBV/Pa (988 mV/Pa)"
+  }
+ ],
  "acc": [
   "508291"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/meeting-and-conference-systems/teamconnect-ceiling-2/teamconnect-ceiling-2-white-507488",
+ "checked": "2026-10-18"
 }

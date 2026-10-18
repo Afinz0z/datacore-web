@@ -1,11 +1,42 @@
 {
  "sku": "WP220",
- "order": 5126,
+ "order": 5104,
  "n": "Bluetooth receiver input",
  "b": "Audac",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "Universal wall panel - Bluetooth receiver input - 80 x 80 mm",
- "specs": []
+ "specs": [
+  {
+   "label": "Control",
+   "value": "Bluetooth pairing button with LED, Output level +12 dBV enable / disable (DIP switch on rear), Bluetooth enable / disable (DIP switch on rear), Mono / Stereo (DIP switch on rear)"
+  },
+  {
+   "label": "Inputs wall panel type",
+   "value": "Bluetooth receiver (Version 5.0)"
+  },
+  {
+   "label": "Outputs level",
+   "value": "+12 dB, 0 dB"
+  },
+  {
+   "label": "Connection",
+   "value": "8-pin terminal block (3.81 mm pitch) output connection"
+  },
+  {
+   "label": "Finish front finish",
+   "value": "Elegant ABS front panel with glass"
+  },
+  {
+   "label": "Installation standard",
+   "value": "Compatible with EU installation materials"
+  },
+  {
+   "label": "Dimensions",
+   "value": "80 x 80 mm (W x H) (Remote wall panel)"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/wp220---universal-wall-panel---bluetooth-receiver-input---80-x-80-mm",
+ "checked": "2026-10-18"
 }

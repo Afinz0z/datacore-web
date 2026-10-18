@@ -1,11 +1,62 @@
 {
  "sku": "XSW 2-835-GB",
- "order": 1092,
+ "order": 1081,
  "n": "Wireless Microphone",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Wireless vocal set. Includes 1x EM XSW 2, 1x EM XSW 2, SKM 835 XSW (dynamic, cardioid), NT 12-5 CW, MZQ 1, GA 1 XSW 2, frequency range: GB (606 - 630 MHz)",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Dynamic"
+  },
+  {
+   "label": "Receiver principle",
+   "value": "Double superheterodyne"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ 0.9%"
+  },
+  {
+   "label": "Adjustment range transmitter",
+   "value": "0 to -30 dB, adjustable in 10 dB steps"
+  },
+  {
+   "label": "Frequency range",
+   "value": "606.000 - 630.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "50 to 16,000 Hz (–3 dB)"
+  },
+  {
+   "label": "Signal-to-noise ratio",
+   "value": "≥ 103 dB(A)"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Squelch",
+   "value": "switchable from 3 dBμV to 28 dBμV (via Pilot Tone)"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "2.3"
+  },
+  {
+   "label": "Battery count",
+   "value": "2"
+  },
+  {
+   "label": "Battery included",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/xsw-2-835/xsw-2-835-gb-507148",
+ "checked": "2026-10-18"
 }

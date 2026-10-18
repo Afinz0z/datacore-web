@@ -1,14 +1,65 @@
 {
  "sku": "960-001340",
- "order": 461,
+ "order": 453,
  "n": "Rally Bar Mini Graphite UK-ME",
  "b": "Logitech",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "All-in-one video bar for small to medium rooms",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "91.4 mm"
+  },
+  {
+   "label": "Width",
+   "value": "719 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "101 mm"
+  },
+  {
+   "label": "Lens depth",
+   "value": "18.5 mm"
+  },
+  {
+   "label": "Built-in Components",
+   "value": "6 beamforming microphones, PTZ camera, 3 speakers, AI Viewfinder, cable management and retention system, table stand, Logitech CollabOS platform"
+  },
+  {
+   "label": "Enclosure",
+   "value": "All-in-one enclosure with integrated table stand and patented speaker suspension system to eliminate vibration-induced camera shake and audio interference"
+  },
+  {
+   "label": "Device Management",
+   "value": "Logitech Sync"
+  },
+  {
+   "label": "Display Resolution",
+   "value": "Up to 1080p"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K, 1440p, 1080p, 900p, 720p, and SD at 30fps"
+  },
+  {
+   "label": "Pan",
+   "value": "Motorized ±25°"
+  },
+  {
+   "label": "Tilt",
+   "value": "Motorized ±15°"
+  },
+  {
+   "label": "Zoom",
+   "value": "4X HD digital zoom"
+  }
+ ],
  "acc": [
   "952-000041"
- ]
+ ],
+ "src": "https://www.logitech.com/en-gb/products/video-conferencing/room-solutions/rallybarmini.html",
+ "checked": "2026-10-18"
 }

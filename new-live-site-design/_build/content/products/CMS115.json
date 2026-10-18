@@ -1,6 +1,6 @@
 {
  "sku": "CMS115",
- "order": 2518,
+ "order": 2506,
  "n": "6 Inch (152 mm) Speed-Connect Ceiling Plate",
  "b": "Chief",
  "c": "Mount",
@@ -9,12 +9,47 @@
  "d": "Mounts - Projector Accessories - 6\" (152 mm) Speed-Connect Ceiling Plate Black",
  "specs": [
   {
-   "label": "Type",
-   "value": "Ceiling Plate"
+   "label": "Ceiling Plate Size",
+   "value": "6 in (15.2 cm)"
+  },
+  {
+   "label": "Depth",
+   "value": "6.5 in (16.5 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "1.8 in (4.6 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.5 in (16.5 cm)"
+  },
+  {
+   "label": "Application",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Ceiling Plate Type",
+   "value": "Speed-Connect"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Overall Dimensions",
+   "value": "1.8\" x 6.5\" x 6.5\" (46 x 165 x 165 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "1.31 lbs (0.6 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "500 lbs (226.8 kg)"
   }
  ],
  "for": [
-  "55UH5N-E",
   "A201U",
   "EB-L260F",
   "EB-L530U",
@@ -28,5 +63,7 @@
   "PT-MZ20KL",
   "SP4K-25C",
   "UDX-4K40 FLEX"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/accessories/projector-accessories/ceiling-plates/cms115",
+ "checked": "2026-10-18"
 }

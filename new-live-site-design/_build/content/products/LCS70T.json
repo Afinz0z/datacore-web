@@ -1,11 +1,62 @@
 {
  "sku": "LCS70T",
- "order": 610,
+ "order": 601,
  "n": "horn speaker 70W",
  "b": "Ateis",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Industrial Low Ceiling Horn. Effective range: 50m. 100V / 70W. Fire-rated glass fiber reinforced polyester. Color: Grey",
- "specs": []
+ "specs": [
+  {
+   "label": "100/70/50 Volt transformer Maximum power",
+   "value": "70 Watts RMS, Two ceramic terminals with M20 PG12 screw connection"
+  },
+  {
+   "label": "Max. SPL",
+   "value": "132 dBA @ 70 Watts"
+  },
+  {
+   "label": "Frequency response",
+   "value": "300 Hz - 8 kHz"
+  },
+  {
+   "label": "Horizontal opening angle @ 1 kHz",
+   "value": "30 degrees"
+  },
+  {
+   "label": "Vertical opening angle @ 1 kHz",
+   "value": "15 degrees"
+  },
+  {
+   "label": "Sensitivity 1 W / 1 m",
+   "value": "112 dB @ 500 Hz; 120 dB @ 1 kHz; 116 dB @ 2 KHz; 108 dB @ 8 KHz"
+  },
+  {
+   "label": "Q-factor @ 1 kHz",
+   "value": "250 Hz = 7.3; 500 Hz = 14; 1 kHz = 30.5; 2 kHz = 38; 4 kHz = 38; 8 kHz = 38"
+  },
+  {
+   "label": "Requirements for external High-pass filter",
+   "value": "250 Hz, 2nd order (filter not included)"
+  },
+  {
+   "label": "IP",
+   "value": "IP56"
+  },
+  {
+   "label": "Colour",
+   "value": "RAL7004 (dark gray)"
+  },
+  {
+   "label": "Mounting",
+   "value": "8 x M12 holes"
+  },
+  {
+   "label": "Splash guard Front",
+   "value": "stainless steel grill"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/messenger-pro/speaker/lcs70t/industrial-horn-speaker",
+ "checked": "2026-10-18"
 }

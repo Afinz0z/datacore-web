@@ -1,11 +1,46 @@
 {
  "sku": "N420.116",
- "order": 3827,
+ "order": 3839,
  "n": "CAT6 Module",
  "b": "Nexans",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Essential-6 Keystone Connector Cat 6 Unscreened",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector type",
+   "value": "RJ45 and Tool-less IDC"
+  },
+  {
+   "label": "Screen",
+   "value": "No"
+  },
+  {
+   "label": "Depth",
+   "value": "29 mm"
+  },
+  {
+   "label": "Height",
+   "value": "24 mm"
+  },
+  {
+   "label": "Width",
+   "value": "16.7 mm"
+  },
+  {
+   "label": "Range",
+   "value": "essential-6"
+  },
+  {
+   "label": "Ambient installation temperature, range",
+   "value": "-10...60 °C"
+  },
+  {
+   "label": "Storage temperature, range",
+   "value": "-20...60 °C"
+  }
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/connectors/essential-6-keystone-connector/essential-6-keystone-connector-unscreened-0",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,46 @@
 {
  "sku": "6511960",
- "order": 2452,
+ "order": 2440,
  "n": "Presentation Wall Plate-MP-WP-2XLRO-1G",
  "b": "Crestron",
  "c": "Audio Wallplate",
  "dept": "AV",
  "avail": "lead",
  "d": "Crestron Media Presentation Wall Plate - XLR, Black, 1- Gang Two XLR output connectors Mountable on rack rail or flat surface",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure mounting",
+   "value": "Mountable on the following:; 1-gang U.S. electrical box or plaster ring (not included),; 3.5 in. (26 mm) electrical box depth recommended; Rack rail; Flat surface with included mounting bracket"
+  },
+  {
+   "label": "Faceplate",
+   "value": "Requires FP-G1 decorative faceplate (sold separately)"
+  },
+  {
+   "label": "Height",
+   "value": "4.12 in. (105 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.72 in. (44 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "1.85 in. (47 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 111° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (noncondensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.17 lb (80 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/AV-Wall-Plates/XLR/MP-WP-2XLRO-1G",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "EW-D AB (R)",
- "order": 1197,
+ "order": 1185,
  "n": "Inline antenna booster, +10 dB gain, BNC connectors (EW-D AB (R))",
  "b": "Sennheiser",
  "c": "Mic Accessories",
@@ -8,8 +8,39 @@
  "avail": "lead",
  "model": "EW-D AB (R)",
  "d": "Inline antenna booster, +10 dB gain, BNC connectors, frequency range: R (520-608 MHz)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "520-608 MHz"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Product height",
+   "value": "30"
+  },
+  {
+   "label": "Product length",
+   "value": "125"
+  },
+  {
+   "label": "Product width",
+   "value": "85"
+  },
+  {
+   "label": "Product weight (g)",
+   "value": "173"
+  }
+ ],
  "for": [
   "508863"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-d-ab/ew-d-ab-r-508874",
+ "checked": "2026-10-18"
 }

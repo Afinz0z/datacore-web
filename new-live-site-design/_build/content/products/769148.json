@@ -1,11 +1,62 @@
 {
  "sku": "769148",
- "order": 2945,
+ "order": 2933,
  "n": "Ethernet Switch -48 GbE",
  "b": "Televes",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "Ethernet Switch Layer 3 48xGbE + 6xSFP+ (10Gbps)",
- "specs": []
+ "specs": [
+  {
+   "label": "Switch type",
+   "value": "Layer 3"
+  },
+  {
+   "label": "Staking function",
+   "value": "Yes"
+  },
+  {
+   "label": "Number of SFP+ ports (10 Gbps)",
+   "value": "6"
+  },
+  {
+   "label": "Switching capacity",
+   "value": "216 Mbps"
+  },
+  {
+   "label": "Forwarding rate",
+   "value": "162 Mpps"
+  },
+  {
+   "label": "MAC Addresses",
+   "value": "32000"
+  },
+  {
+   "label": "Number of VLANs",
+   "value": "4000"
+  },
+  {
+   "label": "Jumbo Frame",
+   "value": "9000 B"
+  },
+  {
+   "label": "Input voltage",
+   "value": "100 ... 240 Vac"
+  },
+  {
+   "label": "Mains frequency",
+   "value": "50 Hz"
+  },
+  {
+   "label": "Max. power",
+   "value": "75 W"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "src": "https://www.televes.com/en/769148-ethernet-switch-layer-3-48xgbe-6xsfp-10gbps.html",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "FFWLCLC42-JXF010",
- "order": 3699,
+ "order": 3686,
  "n": "single mode fiber patchcord - SYSTIMAX",
  "b": "CommScope",
  "c": "Fiber Patch Cord",
@@ -12,8 +12,5 @@
    "label": "Type",
    "value": "Single mode patch cord"
   }
- ],
- "for": [
-  "760053280"
  ]
 }

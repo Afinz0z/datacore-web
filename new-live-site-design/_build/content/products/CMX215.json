@@ -1,6 +1,6 @@
 {
  "sku": "CMX215",
- "order": 1051,
+ "order": 1040,
  "n": "Pipe-neck condenser microphone",
  "b": "Audac",
  "c": "Mic",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "microphone",
  "d": "Pipe-neck condenser microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Microphone type",
+   "value": "Back electret condenser"
+  },
+  {
+   "label": "Polar pattern",
+   "value": "Cardioid (unidirectional)"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "50 Hz - 18 kHz"
+  },
+  {
+   "label": "Sensitivity (1w/1m)",
+   "value": "-45 dB ± 3 dB / Pa (@ 1 kHz)"
+  },
+  {
+   "label": "Impedance ± 30%",
+   "value": "200 Ω"
+  },
+  {
+   "label": "Signal / noise",
+   "value": "75 dB"
+  },
+  {
+   "label": "Sound pressure (max. w/1m)",
+   "value": "130 dB"
+  },
+  {
+   "label": "Outputs connector",
+   "value": "3-pin XLR"
+  },
+  {
+   "label": "Colours",
+   "value": "Black"
+  },
+  {
+   "label": "Power supply",
+   "value": "10 ~ 52 V DC Phantom Power"
+  },
+  {
+   "label": "Weight",
+   "value": "0.070 kg"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/cmx215---pipe-neck-condenser-microphone",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "760249998",
- "order": 3835,
+ "order": 3796,
  "n": "1U Fiber patch panel",
  "b": "CommScope",
  "c": "Fiber Optic Patch panel",
@@ -9,8 +9,54 @@
  "d": "EPX 1U sliding panel, G2 style splice cassettes, modules or adapter packs, 48 duplex LC ports",
  "specs": [
   {
-   "label": "Type",
-   "value": "fiber patch panel 1U"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber patch panel | Fiber patch/splice panel"
+  },
+  {
+   "label": "Product Series",
+   "value": "EPX"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "Not iPatch® ready"
+  },
+  {
+   "label": "Interface, front",
+   "value": "Unloaded"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1"
+  },
+  {
+   "label": "Shelf Movement",
+   "value": "Sliding"
+  },
+  {
+   "label": "Height",
+   "value": "44.45 mm | 1.75 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth",
+   "value": "412.75 mm | 16.25 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-panels/item760249998/",
+ "checked": "2026-10-18"
 }

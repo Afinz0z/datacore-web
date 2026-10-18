@@ -1,6 +1,6 @@
 {
  "sku": "760027433",
- "order": 3958,
+ "order": 3940,
  "n": "Fiber adapter pack",
  "b": "CommScope",
  "c": "Fiber adaptor",
@@ -9,8 +9,46 @@
  "d": "Adapter Pack, Black, 1000-Type, with 12 TeraSPEED® Singlemode duplex LC Adapters, blue, shuttered",
  "specs": [
   {
-   "label": "Type",
-   "value": "Fiber adaptor SM"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber adapter pack"
+  },
+  {
+   "label": "Product Brand",
+   "value": "TeraSPEED®"
+  },
+  {
+   "label": "Product Series",
+   "value": "1000-style"
+  },
+  {
+   "label": "Adapter Color",
+   "value": "Blue"
+  },
+  {
+   "label": "Body Style",
+   "value": "Duplex"
+  },
+  {
+   "label": "Color, front",
+   "value": "Black"
+  },
+  {
+   "label": "Interface",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Shuttered",
+   "value": "Yes"
+  },
+  {
+   "label": "Fiber Mode",
+   "value": "Singlemode"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-adapter-packs/item760027433/",
+ "checked": "2026-10-18"
 }

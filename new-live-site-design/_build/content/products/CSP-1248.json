@@ -1,6 +1,6 @@
 {
  "sku": "CSP-1248",
- "order": 1149,
+ "order": 1137,
  "n": "CSP-1248 Processor 230V UK",
  "b": "Bose",
  "c": "DSP",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Processor",
  "d": "CSP-1248 PROCESSOR 230V UK",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "< -105 dB at +4 dBu, 1 kHz input signal"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "> 115 dB, A-weighted, 20 Hz – 20 kHz, analog through"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (+0.3 dB/-0.5 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.01% at +4 dBu (A-weighted, 20 Hz – 20 kHz)"
+  },
+  {
+   "label": "AEC-Enabled",
+   "value": "No"
+  },
+  {
+   "label": "Input Channels",
+   "value": "12 (4 unbalanced, summed-mono + 8 balanced, mic/line)"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(4) RCA stereo pairs, (7) 3-pin Euroblock, (1) 4-pin Euroblock"
+  },
+  {
+   "label": "Equivalent Input Noise",
+   "value": "< -119 dBu at 64 dB gain (150 Ω input, 22 Hz – 20 kHz)"
+  },
+  {
+   "label": "Sensitivity Options",
+   "value": "-70 dBu, -60 dBu, -50 dBu, 0 dBu, +4 dBu, -10 dBV, with selectable phantom power"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "12 kΩ at 1 kHz, with or without phantom power"
+  },
+  {
+   "label": "Maximum Input Level",
+   "value": "+24 dBu at 0 dB gain (20 Hz – 20 kHz, THD+N < 0.3%)"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "48 V, selectable per input, open circuit, 10 mA maximum per channel, 80 mA maximum across all channels"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/processors/fixed-architecture/csp/csp-1248-commercial-sound-processor",
+ "checked": "2026-10-18"
 }

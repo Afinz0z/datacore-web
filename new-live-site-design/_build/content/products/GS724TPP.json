@@ -1,16 +1,67 @@
 {
  "sku": "GS724TPP",
- "order": 2888,
+ "order": 2876,
  "n": "24-port Gigabit PoE+ Smart Managed Pro Switch - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24P GE POE+ SMART SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Gigabit ports",
+   "value": "24"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "24"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "24"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "380W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "DoS Prevention",
+   "value": "Yes"
+  },
+  {
+   "label": "Internal/External",
+   "value": "Internal 100 240VAC 50 60Hz"
+  },
+  {
+   "label": "FAN",
+   "value": "2"
+  },
+  {
+   "label": "Acoustic Noise Level @25C (dBA)",
+   "value": "33.60"
+  }
+ ],
  "acc": [
   "DRV-GS724TPP-12",
   "DRV-GS724TPP-36",
   "DRV-GS724TPP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs724tppv3/",
+ "checked": "2026-10-18"
 }

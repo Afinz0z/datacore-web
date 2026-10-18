@@ -1,16 +1,67 @@
 {
  "sku": "GS748T",
- "order": 2898,
+ "order": 2886,
  "n": "48-port Gigabit Smart Managed Network Switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "48PT GE SMART SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Gigabit ports",
+   "value": "48"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2 combo, 2 dedicated"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  },
+  {
+   "label": "DoS Prevention",
+   "value": "Yes"
+  },
+  {
+   "label": "Internal/External",
+   "value": "Internal 100-240VAC 50-60Hz"
+  }
+ ],
  "acc": [
   "DRV-GS748T-12",
   "DRV-GS748T-36",
   "DRV-GS748T-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs748tv6/",
+ "checked": "2026-10-18"
 }

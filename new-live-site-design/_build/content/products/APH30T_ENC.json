@@ -1,6 +1,6 @@
 {
  "sku": "APH30T/ENC",
- "order": 613,
+ "order": 604,
  "n": "Plastic 30watt horn w/cap (APH30T/ENC)",
  "b": "Ateis",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "APH30T/ENC",
  "d": "Plastic 30watt horn w/cap",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power, Watts",
+   "value": "30"
+  },
+  {
+   "label": "Tappings 100 volt line, Watts",
+   "value": "30/15/7.5/3.75"
+  },
+  {
+   "label": "Transformer Impedance, Ohms, 100V",
+   "value": "330/660/1.32k/2.64k"
+  },
+  {
+   "label": "Tappings 70.7 volt line, Watts",
+   "value": "15/7.5/3.75/1.875"
+  },
+  {
+   "label": "Driver impedance, Ohms",
+   "value": "8"
+  },
+  {
+   "label": "Effective frequency range, Hz (BSEN60268-5)",
+   "value": "340-16K"
+  },
+  {
+   "label": "Dispersion at 1k/2k Hz, Degrees",
+   "value": "105/49 (H) 142/68 (V)"
+  },
+  {
+   "label": "Max/Min Amb Temp",
+   "value": "-25°C/+70°C"
+  },
+  {
+   "label": "Colour (Unless Specified)",
+   "value": "Grey, RAL7035"
+  },
+  {
+   "label": "Mounting",
+   "value": "Stainless Steel U bracket"
+  },
+  {
+   "label": "Safety",
+   "value": "Ceramic Block, Thermal Fuse, Capacitor for DC line monitoring"
+  },
+  {
+   "label": "Relative Humidity",
+   "value": "≤95%"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/penton/horn-speaker/aph-series/horn-speakers",
+ "checked": "2026-10-18"
 }

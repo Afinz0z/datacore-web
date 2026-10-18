@@ -1,11 +1,30 @@
 {
  "sku": "6514151",
- "order": 1306,
+ "order": 1294,
  "n": "SPKA-GRILLE-SAROS DM-NAX-IC4A/P-W-10",
  "b": "Crestron",
  "c": "Grilles",
  "dept": "AV",
  "avail": "lead",
  "d": "SPKA-GRILLE-SAROS DM-NAX-IC4A/P-W-10 Round Grilles for Saros® 3 in. Full-Range In-Ceiling Speakers, White, 10-Pack",
- "specs": []
+ "specs": [
+  {
+   "label": "Grille",
+   "value": "Steel with white textured finish; Safety tethers included"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "Magnetically held by speaker enclosure"
+  },
+  {
+   "label": "Diameter",
+   "value": "7.19 in. (183 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.9 oz (54 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Ceiling-Speaker-Accessories/SPKA-GRILLE-SAROS-DM-NAX-IC4A-P-W-10",
+ "checked": "2026-10-18"
 }

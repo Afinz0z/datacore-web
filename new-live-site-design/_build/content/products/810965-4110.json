@@ -1,11 +1,62 @@
 {
  "sku": "810965-4110",
- "order": 935,
+ "order": 924,
  "n": "PowerSpace P4150+",
  "b": "Bose",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "PowerSpace P4150+ versatile power amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "> 80 dB at 1 kHz, > 65 dB at 20 kHz"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "≥ 100 dB at rated power, A-weighted"
+  },
+  {
+   "label": "Gain, High-Impedance",
+   "value": "35 dB, 70V mode / 38 dB, 100V mode"
+  },
+  {
+   "label": "Gain, Low-Impedance",
+   "value": "29 dB"
+  },
+  {
+   "label": "Maximum Peak Power, Symmetrical",
+   "value": "300 W"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (±1 dB) at 1 W, 4–8 Ω / 20 Hz – 20 kHz (±1 dB) at 1 W with 50 Hz high-pass filter, 70/100V"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "4"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "150 W"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.04% at 1 kHz, 4–8 Ω, 70V/100V"
+  },
+  {
+   "label": "Input Channels",
+   "value": "4 balanced, 2 unbalanced"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(3) 3-pin Euroblock, (1) 4-pin Euroblock, (2) RCA stereo pairs"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/multichannel-dsp/powerspace/powerspace-p4150",
+ "checked": "2026-10-18"
 }

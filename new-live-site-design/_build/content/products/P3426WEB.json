@@ -1,6 +1,6 @@
 {
  "sku": "P3426WEB",
- "order": 265,
+ "order": 257,
  "n": "Dell Pro P 34 USB-C Hub Conferencing Monitor - P3426WEB",
  "b": "Dell Technologies",
  "c": "Monitor",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "P3426WEB",
  "d": "Dell Pro P 34 USB-C Hub Conferencing Monitor - P3426WEB",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "LCD Monitor"
+  },
+  {
+   "label": "Number of Screens",
+   "value": "1"
+  },
+  {
+   "label": "Screen Size Class",
+   "value": "34\""
+  },
+  {
+   "label": "Viewable Screen Size",
+   "value": "34.1\""
+  },
+  {
+   "label": "Screen Mode",
+   "value": "WQHD"
+  },
+  {
+   "label": "Panel Technology",
+   "value": "In-plane Switching (IPS) Technology"
+  },
+  {
+   "label": "Response Time Details",
+   "value": "5 ms GTG (Fast); 8 ms GTG"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "21:9"
+  },
+  {
+   "label": "Pixel Pitch",
+   "value": "0.23300 mm x 0.23300 mm"
+  },
+  {
+   "label": "Horizontal Viewing Angle",
+   "value": "178 °"
+  },
+  {
+   "label": "Vertical Viewing Angle",
+   "value": "178 °"
+  },
+  {
+   "label": "Mount Type",
+   "value": "Panel Mount"
+  }
+ ],
+ "src": "https://www.dell.com/en-us/shop/monitors/apd/dell-pro-p-34-usb-c-hub-conferencing-monitor-p3426web/p3426web/-",
+ "checked": "2026-10-18"
 }

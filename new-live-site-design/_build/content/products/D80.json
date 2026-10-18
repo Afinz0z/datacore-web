@@ -1,6 +1,6 @@
 {
  "sku": "D80",
- "order": 959,
+ "order": 948,
  "n": "High power four channel amplifier (D80)",
  "b": "d&b audiotechnik",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "D80",
  "d": "High power four channel amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Equalizer",
+   "value": "2 x 16-band PEQ/notch/shelving/asymmetric"
+  },
+  {
+   "label": "Latency analog and digital inputs",
+   "value": "0.3 ms"
+  },
+  {
+   "label": "Delay setting",
+   "value": "0.3 - 10000 ms"
+  },
+  {
+   "label": "Configurations",
+   "value": "current d&b loudspeakers and linear mode"
+  },
+  {
+   "label": "Function switches",
+   "value": "d&b loudspeaker specific circuits"
+  },
+  {
+   "label": "Frequency generator",
+   "value": "Pink noise or Sine wave"
+  },
+  {
+   "label": "Sampling rate",
+   "value": "96 kHz/27 Bit ADC/24 Bit DAC"
+  },
+  {
+   "label": "Power",
+   "value": "Mains power switch"
+  },
+  {
+   "label": "SCROLL/EDIT",
+   "value": "Digital rotary encoder"
+  },
+  {
+   "label": "Display",
+   "value": "Colour TFT touchscreen, 3.5\"/320 x 240 pixel"
+  },
+  {
+   "label": "ISP, GR, OVL A/B",
+   "value": "Colour TFT"
+  },
+  {
+   "label": "INPUT ANALOG (A1 - A4)",
+   "value": "3 pin XLR female"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/amplifiers/d80/",
+ "checked": "2026-10-18"
 }

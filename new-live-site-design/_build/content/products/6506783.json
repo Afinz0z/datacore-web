@@ -1,6 +1,6 @@
 {
  "sku": "6506783",
- "order": 1625,
+ "order": 1613,
  "n": "Audio over CAT5 Extender for One Unbalanced Stereo Signal (AUD-EXT-100)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "AUD-EXT-100",
  "d": "AUD-EXT-100 Audio over CAT5 Extender for One Unbalanced Stereo Signal",
- "specs": []
+ "specs": [
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  },
+  {
+   "label": "THD+N",
+   "value": "<0.1% @ 20 Hz, 2Vrms"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "Greater than 100 dB"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "Less than -70 dB"
+  },
+  {
+   "label": "Enclosure chassis",
+   "value": "Aluminum w/polycarbonate label overlay and (4) integral mounting flanges"
+  },
+  {
+   "label": "Enclosure mounting",
+   "value": "Freestanding, surface mount, or attach to a single rack rail"
+  },
+  {
+   "label": "Height",
+   "value": "1.68 in (43 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "5.12 in (131 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.79 in (97 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "41° to 122°F (5° to 50°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/Extender-Kit/AUD-EXT-100",
+ "checked": "2026-10-18"
 }

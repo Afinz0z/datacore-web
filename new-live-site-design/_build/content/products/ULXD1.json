@@ -1,6 +1,6 @@
 {
  "sku": "ULXD1",
- "order": 1206,
+ "order": 1194,
  "n": "Digital Bodypack Transmitter (ULXD1)",
  "b": "Shure",
  "c": "Mic Accessories",
@@ -8,5 +8,28 @@
  "avail": "lead",
  "model": "ULXD1",
  "d": "Digital Bodypack Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "Batteries",
+   "value": "AA, Shure Lithium-Ion battery"
+  },
+  {
+   "label": "Battery Status",
+   "value": "Leveled battery life indication with AA, HH:MM (Hours and minutes) with rechargeable Shure battery"
+  },
+  {
+   "label": "Encryption",
+   "value": "yes, AES-256"
+  },
+  {
+   "label": "Transmission",
+   "value": "Digital in VHF, UHF, 900MHz ISM, 1.2 GHz, 1.5 GHz, 1.8 GHz"
+  },
+  {
+   "label": "Weight",
+   "value": "79 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/ulx-d_digital_wireless/ulxd1",
+ "checked": "2026-10-18"
 }

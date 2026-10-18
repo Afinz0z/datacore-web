@@ -1,6 +1,6 @@
 {
  "sku": "65UM5N-H",
- "order": 33,
+ "order": 31,
  "n": "4K UHD Signage (65UM5N-H)",
  "b": "LG",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "65UM5N-H",
  "d": "4K UHD Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size (Inch)",
+   "value": "65\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "IPS"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Direct"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz"
+  },
+  {
+   "label": "Brightness (Typ.)",
+   "value": "500nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,000:1"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "1,000,000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "BT709 95%"
+  },
+  {
+   "label": "Viewing Angle(H x V)",
+   "value": "178 x 178"
+  },
+  {
+   "label": "Color Depth",
+   "value": "10bit(D), 1.07Billion colors"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-65um5n-h",
+ "checked": "2026-10-18"
 }

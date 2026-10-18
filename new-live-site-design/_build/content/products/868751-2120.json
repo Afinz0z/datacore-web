@@ -1,11 +1,62 @@
 {
  "sku": "868751-2120",
- "order": 424,
+ "order": 416,
  "n": "VIDEOBAR VB-S",
  "b": "Bose",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "VIDEOBAR VB-S,230V UK",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum Peak Power, Symmetrical",
+   "value": "15 W"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "15 W, < 0.3% distortion over frequency range"
+  },
+  {
+   "label": "Safety",
+   "value": "IEC/UL/EN 60065:2014/A11:2017, IEC/UL/EN 62368-1:2014/A11:2017"
+  },
+  {
+   "label": "Environmental",
+   "value": "RoHS"
+  },
+  {
+   "label": "EMC",
+   "value": "FCC Part 15B Class B, ICES-003 Class B, CISPR 13, EN55032 Class B, EN55035, EN61000-3-2, EN61000-3-3, BSMI CNS13439"
+  },
+  {
+   "label": "Focus Distance",
+   "value": "0.5 m (1.6 ft) to ∞"
+  },
+  {
+   "label": "Field of View (FOV)",
+   "value": "123° diagonal × 115° horizontal × 81° vertical"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Up to 5x digital zoom"
+  },
+  {
+   "label": "Positioning",
+   "value": "2 autoframing modes (Group or Individual), manual pan-tilt-zoom (PTZ) with configurable presets"
+  },
+  {
+   "label": "Processing",
+   "value": "Automatic white balance, automatic brightness, digital noise reduction"
+  },
+  {
+   "label": "USB Device Video Class (UVC)",
+   "value": "v1.1"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/videobars/vb-s/videobar-vb-s",
+ "checked": "2026-10-18"
 }

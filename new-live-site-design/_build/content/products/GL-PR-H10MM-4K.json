@@ -1,6 +1,6 @@
 {
  "sku": "GL-PR-H10MM-4K",
- "order": 2414,
+ "order": 2402,
  "n": "HDMI Cable-GL-PR-H10MM-4K",
  "b": "Logic",
  "c": "AV CABLE",
@@ -9,8 +9,54 @@
  "d": "GrandLogic HDMI 2.0V Cable 10m Male to Male - 4K@30Hz 10.2G",
  "specs": [
   {
-   "label": "Type",
-   "value": "HDMI Cable"
+   "label": "Model Number",
+   "value": "GL-PR-H10MM-4K"
+  },
+  {
+   "label": "Resolution & Refresh Rate",
+   "value": "3840×2160 @ 30Hz"
+  },
+  {
+   "label": "Frame Rate",
+   "value": "24, 25, 30"
+  },
+  {
+   "label": "Chroma sampling",
+   "value": "4:4:4"
+  },
+  {
+   "label": "Color bit depth",
+   "value": "8 and 12 bits per color"
+  },
+  {
+   "label": "Max. video data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Ethernet Channel",
+   "value": "Compatible"
+  },
+  {
+   "label": "Signal Transmission",
+   "value": "Unidirectional"
+  },
+  {
+   "label": "Marking",
+   "value": "SOURCE & DISPLAY"
+  },
+  {
+   "label": "Resolution range",
+   "value": "Up to 4K @60 Hz (3840 x 2160), FHD @ 60 Hz (1920×1080) 8 bit color depth, max. 18 Gbps data rate"
+  },
+  {
+   "label": "Voltage",
+   "value": "30 V"
+  },
+  {
+   "label": "Conductor Resistance",
+   "value": "400Œ©/km"
   }
- ]
+ ],
+ "src": "https://www.logicav.in/connectivity-solutions/av-cables/gl-pr-h10mm-4k",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "7575",
- "order": 4296,
+ "order": 4275,
  "n": "Offset Satellite dish-S1300-W",
  "b": "Televes",
  "c": "Dish",
@@ -9,9 +9,7 @@
  "d": "OFFSET DISH 1300 STEEL G42dBi WHI.20U",
  "specs": [],
  "acc": [
-  "237503",
   "237561",
-  "237640",
   "747402",
   "7576"
  ]

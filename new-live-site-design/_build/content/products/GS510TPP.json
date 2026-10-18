@@ -1,16 +1,67 @@
 {
  "sku": "GS510TPP",
- "order": 2906,
+ "order": 2894,
  "n": "8-Port Gigabit Ethernet Smart Switch with High-Power 2*1G SFP Ports-Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8-Port Gigabit Ethernet Smart Switch with High-Power PoE+ (190W) 2*1G SFP Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Gigabit ports",
+   "value": "8"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "8"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "8"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "190W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "32"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "479"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS510TPP-12",
   "DRV-GS510TPP-36",
   "DRV-GS510TPP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs510tpp/",
+ "checked": "2026-10-18"
 }

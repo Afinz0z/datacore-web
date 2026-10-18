@@ -1,6 +1,6 @@
 {
  "sku": "MTMP1U",
- "order": 2524,
+ "order": 2512,
  "n": "LegrandAV- Chief Mounts - MTMP1U (43-47 inch)",
  "b": "Chief",
  "c": "Mount",
@@ -9,19 +9,58 @@
  "d": "Medium Fusion® Micro-Adjustable Portrait Tilt Wall Mount",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mounted"
+   "label": "Depth",
+   "value": "3.2 in (8.1 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "24.5 in (62.2 cm)"
+  },
+  {
+   "label": "Lateral Shift",
+   "value": "10.4 in (26.4 cm)"
+  },
+  {
+   "label": "Manual Height Adjustment",
+   "value": "1 in (25.4 mm)"
+  },
+  {
+   "label": "Maximum Screen Thickness",
+   "value": "6 in (152.4 mm)"
+  },
+  {
+   "label": "Minimum Depth",
+   "value": "3.2 in (8.1 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "43\" - 47\" (1092mm - 1194mm)"
+  },
+  {
+   "label": "Width",
+   "value": "20.88 in (53 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Height Adjustable, Lateral Shift, Micro-Adjustable, Tilt"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Number of Displays",
+   "value": "1"
   }
  ],
  "for": [
   "22SM3G",
   "32SM5J",
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "98TR3DK-B",
   "98UM5K",
   "CDE105UW",
@@ -69,5 +108,7 @@
   "PN-M432",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fusion-wall-tilt/mtmp1u",
+ "checked": "2026-10-18"
 }

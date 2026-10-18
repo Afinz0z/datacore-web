@@ -1,11 +1,34 @@
 {
  "sku": "6500129",
- "order": 4286,
+ "order": 4259,
  "n": "C2N-HBLOCK",
  "b": "Crestron",
  "c": "Distribution System",
  "dept": "AV",
  "avail": "lead",
  "d": "C2N-HBLOCK Multi-type Cresnet Distribution Block",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure",
+   "value": "Metal with black finish, surface mount box with removable mounting plate, rack mount kit available separately"
+  },
+  {
+   "label": "Height",
+   "value": "1.33 in (34 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "6.55 in (167 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "4.30 in (110 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "10.9 oz (309 g) including all supplied terminal block connectors"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Accessories/C2N-HBLOCK",
+ "checked": "2026-10-18"
 }

@@ -1,4 +1,71 @@
 {
+ "1106984": {
+  "brand": "Yealink",
+  "name": "1106984-Native Microsoft Teams Rooms system for Medium-to-large rooms (MVC860-C5-000)",
+  "page": "https://www.yealink.com/en/product-detail/microsoft-teams-rooms-mvc860-iii",
+  "checked": "2026-10-18",
+  "evidence": "Yealink hereby informs you that the MVC860-C5(with MCore Pro) has been discontinued since 2025-12-31",
+  "replacement": "MVC S80 or MVC S90 (new package MVC860-C5U-000)"
+ },
+ "1303124": {
+  "brand": "Yealink",
+  "name": "RoomPanel Plus Black",
+  "page": "https://www.yealink.com/en/product-detail/roompanel-plus",
+  "checked": "2026-10-18",
+  "evidence": "Yealink hereby informs you that the RoomPanel Plus has been discontinued since Dec 31 2024",
+  "replacement": "RoomPanel Plus E2"
+ },
+ "22XE1J-B": {
+  "brand": "LG",
+  "name": "22 inch screen",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-22xe1j-b",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
+ "237503": {
+  "brand": "Televes",
+  "name": "Overlight optical transmitter-OLT1310K",
+  "page": "https://www.televes.com/en/237503-overlight-optical-transmitter-cwdm-indoor-use-dab-uhf-sat-1310nm-po-10dbm.html",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued Replaced by: Ref. 237603",
+  "replacement": "237603"
+ },
+ "237640": {
+  "brand": "Televes",
+  "name": "Overlight Optical Receiver-OLR44N",
+  "page": "https://www.televes.com/en/237640-overlight-quattro-optical-receiver-fm-dab-uhf-sat.html",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued Replaced by: Ref. 237641",
+  "replacement": "237641"
+ },
+ "43UL3J-B": {
+  "brand": "LG",
+  "name": "43” UHD Signage Display",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-43ul3j-b",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
+ "50UL3J-B": {
+  "brand": "LG",
+  "name": "50” UHD Signage Display",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-50ul3j-b",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
+ "55UH5N-E": {
+  "brand": "LG",
+  "name": "UHD Signage Display -55",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-55uh5n-e",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
+ "55UL3J-B": {
+  "brand": "LG",
+  "name": "55inch UHD Signage Display",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-55ul3j-b",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
  "6500072": {
   "brand": "Crestron",
   "name": "4 Wire to RJ11 Cresnet Converter (CNRJ11)",
@@ -706,5 +773,108 @@
   "name": "UC-ENGINE-BRKTX-PRO-Z-UPGRD",
   "page": "https://www.crestron.com/Products/Catalog/Unified-Communications/Flex-Conferencing/Upgrade-Kits/UC-ENGINE-BRKTX-PRO-Z-UPGRD",
   "checked": "2026-10-18"
+ },
+ "65UL3J-B": {
+  "brand": "LG",
+  "name": "65inch UHD Signage Display",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-65ul3j-b",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
+ "714709": {
+  "brand": "Televes",
+  "name": "NevoSwitch amplifier -MS1327VGQ",
+  "page": "https://www.televes.com/en/714709-nevoswitch-amplifier-13-inputs-27-31-db.html",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued Replaced by: Ref. 719709",
+  "replacement": "719709"
+ },
+ "760053280": {
+  "brand": "CommScope",
+  "name": "12 core fiber cable - SYSTIMAX",
+  "page": "https://www.commscope.com/product-type/cables/fiber-cables/outside-plant-cables/item760053280/",
+  "checked": "2026-10-18",
+  "evidence": "This product was discontinued on: December 31, 2025",
+  "replacement": "8107297/DB | D-012-LA-8W-F12NS"
+ },
+ "760053298": {
+  "brand": "CommScope",
+  "name": "24 fibers, Singlemode",
+  "page": "https://www.commscope.com/product-type/cables/fiber-cables/outside-plant-cables/item760053298/",
+  "checked": "2026-10-18",
+  "evidence": "This product was discontinued on: December 31, 2025",
+  "replacement": "8107298/DB | D-024-LA-8W-F12NS"
+ },
+ "760150144": {
+  "brand": "CommScope",
+  "name": "patch panel, SYSTIMAX 360™ GigaSPEED X10D® Evolve High DensityShielded Modular",
+  "page": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760150144/",
+  "checked": "2026-10-18",
+  "evidence": "This product was discontinued on: July 31, 2026",
+  "replacement": "760237062 | 360-IPR-SMOD-6A-1U-24"
+ },
+ "760152801": {
+  "brand": "CommScope",
+  "name": "GigaSPEED X10D ® HGS-Series Modular Jack, RJ45, Cat6A, Shielded",
+  "page": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/category-6a-jacks/item760152801/",
+  "checked": "2026-10-18",
+  "evidence": "This product was discontinued on: July 31, 2026",
+  "replacement": "MGS600S"
+ },
+ "760200436": {
+  "brand": "CommScope",
+  "name": "Dual Faceplate Unshuttered, Commscope",
+  "page": "https://www.commscope.com/product-type/faceplates-boxes/faceplates/item760200436/",
+  "checked": "2026-10-18",
+  "evidence": "This product was discontinued on: March 31, 2022"
+ },
+ "86UH5J-H": {
+  "brand": "LG",
+  "name": "LG 85 inch UHD Display 24/7",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-86uh5j-h",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
+ "86UL3J-B": {
+  "brand": "LG",
+  "name": "86inch UHD Signage Display",
+  "page": "https://www.lg.com/ae/business/digital-signage/lg-86ul3j-b",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
+ },
+ "N10G.CONSS": {
+  "brand": "Nexans",
+  "name": "Nexans Module",
+  "page": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/connectors/lanmark-10g-snap-connector/lanmark-10g-evo-snap-connector-category-6a-500mhz-screened-discontinued",
+  "checked": "2026-10-18",
+  "evidence": "LANmark-10G Evo Snap-In Connector Category 6A 500MHz Screened - DISCONTINUED"
+ },
+ "N420.66A": {
+  "brand": "Nexans",
+  "name": "Nexans Cat 6A module Screened",
+  "page": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/connectors/lanmark-6a-snap-connector/lanmark-6a-evo-snap-connector-category-6a-500mhz-screened-discontinued",
+  "checked": "2026-10-18",
+  "evidence": "LANmark-6A Evo Snap-In Connector Category 6A 500MHz Screened - DISCONTINUED"
+ },
+ "PGA48": {
+  "brand": "Shure",
+  "name": "Vocal Mic-PGA4",
+  "page": "https://www.shure.com/en-US/products/microphones/pga48",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued"
+ },
+ "PM-4500N": {
+  "brand": "Bose",
+  "name": "configurable power amplifier-PM-4500N",
+  "page": "https://boseprofessional.com/resources/discontinued-products/amplifiers/powermatch",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued Products > Amplifiers > PowerMatch: \"PowerMatch PM4500N configurable power amplifier\""
+ },
+ "PM-8250N": {
+  "brand": "Bose",
+  "name": "Power amplifier-PM-8250N",
+  "page": "https://boseprofessional.com/resources/discontinued-products/amplifiers/powermatch",
+  "checked": "2026-10-18",
+  "evidence": "Discontinued Products > Amplifiers > PowerMatch: \"PowerMatch PM8250N configurable power amplifier\""
  }
 }

@@ -1,6 +1,6 @@
 {
  "sku": "VCMU",
- "order": 2535,
+ "order": 2523,
  "n": "RPA Universal Ceiling Projector Mount Kits (VCMU-Heavy Duty Universal",
  "b": "Chief",
  "c": "Mount",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "VCMU",
  "d": "RPA Universal Ceiling Projector Mount Kits (VCMU-Heavy Duty Universal Projector Mount)",
- "specs": []
+ "specs": [
+  {
+   "label": "Adjustability",
+   "value": "Independent Roll-Pitch-Yaw"
+  },
+  {
+   "label": "Application",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Interface Included",
+   "value": "Yes"
+  },
+  {
+   "label": "Interface Type",
+   "value": "Universal"
+  },
+  {
+   "label": "Protective Glass",
+   "value": "No"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "25.75\" x 16.25\" x 11.75\"(654.1 x 412.8 x 298.5 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "43.35 lbs (19.7 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "250 lbs (113.4 kg)"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/mounts/projector-mounts/vcmu",
+ "checked": "2026-10-18"
 }

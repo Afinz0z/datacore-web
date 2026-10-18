@@ -1,6 +1,6 @@
 {
  "sku": "Tesira SEC-4",
- "order": 1333,
+ "order": 1321,
  "n": "Tesira 4 channel mic/line input card with acoustic echo cancellation (Tesira SEC-4)",
  "b": "Biamp",
  "c": "Audio Card",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "Tesira SEC-4",
  "d": "Tesira 4 channel mic/line input card with acoustic echo cancellation per channel",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "Tail Length: up to 300ms"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48 VDC (7mA/input)"
+  },
+  {
+   "label": "THD+N",
+   "value": "THD+N (20Hz~20kHz @ +4dBu, AEC off):; @ 0dB Gain (line level): < 0.006%; @ 54dB Gain (mic level): < 0.055%"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "(20Hz~20kHz @ +4dBu): +0/-0.25dB"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "Cross Talk (channel to channel @ 1kHz):; @ 0dB Gain, +4dBu In < 85dB; @ 54dB Gain, -50dBu In < 75dB"
+  },
+  {
+   "label": "Sampling Rate",
+   "value": "48kHz"
+  },
+  {
+   "label": "A/D Converters",
+   "value": "24-bit"
+  },
+  {
+   "label": "Certifications",
+   "value": "AES48-2005 Grounding; and EMI practices; RoHS Directive (Europe)"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Tesira-SEC-4/ecom-item/901.0304",
+ "checked": "2026-10-18"
 }

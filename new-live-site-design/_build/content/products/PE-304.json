@@ -1,11 +1,46 @@
 {
  "sku": "PE-304",
- "order": 891,
+ "order": 882,
  "n": "PENDANT SPEAKER",
  "b": "TOA",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "PENDANT SPEAKER 30W 2WAY",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "70 Hz - 20 kHz"
+  },
+  {
+   "label": "Sensitivity (1 W, 1 m)",
+   "value": "91 dB"
+  },
+  {
+   "label": "Rated input (100 V)",
+   "value": "30 W"
+  },
+  {
+   "label": "Tappings (100 V)",
+   "value": "100 V line: 330 Ω (30 W), 500 Ω (20 W), 670 Ω (15 W), 1 kΩ (10 W), 2 kΩ (5 W); 70 V line: 170 Ω (30 W), 250 Ω (20 W), 330 Ω (15 W), 500 Ω (10 W), 1 kΩ (5 W); Low impedance: 8 Ω"
+  },
+  {
+   "label": "Speaker component",
+   "value": "12 cm cone-type + balanced-dome tweeter"
+  },
+  {
+   "label": "Finish",
+   "value": "HIPS resin, off-white (RAL 9010 or equivalent)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "186 x 251 mm (Ø x H)"
+  },
+  {
+   "label": "Weight",
+   "value": "2.1 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/pe-304/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "808932-0210",
- "order": 1054,
+ "order": 1043,
  "n": "Controlcenter AVM-1 Sense MIC WHT",
  "b": "Bose",
  "c": "Mic",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AVM-1",
  "d": "AVM-1 CONTROLCENTER AVM-1 SENSE MIC WHT",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "100 Hz – 6 kHz (±4 dB), relative level 1 kHz"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 1% at 1 kHz (1 Pa/94 dB SPL)"
+  },
+  {
+   "label": "Maximum Input Level",
+   "value": "115 dB at 1 kHz"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "48 VDC, 10 mA, via ground terminal (typical)"
+  },
+  {
+   "label": "Channels",
+   "value": "1 balanced, mic"
+  },
+  {
+   "label": "Audio outputs, analog connectors",
+   "value": "(1) fixed 3-terminal bare-wire, 3.5 mm"
+  },
+  {
+   "label": "Electrical connectors",
+   "value": "(1) fixed 3-terminal bare-wire, 3.5 mm"
+  },
+  {
+   "label": "Power Range",
+   "value": "48 VDC, 10 mA phantom power via ground terminal (typical)"
+  },
+  {
+   "label": "Technology",
+   "value": "Omnidirectional electret condenser"
+  },
+  {
+   "label": "Colors",
+   "value": "White"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "Spring-loaded clips for ceiling < 1.0 in (25 mm) thick"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "1.7 in × 2.8 in × 3.9 in (43 mm × 70 mm × 99 mm)"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/processors/processor-accessories/avm-1-sense-microphone",
+ "checked": "2026-10-18"
 }

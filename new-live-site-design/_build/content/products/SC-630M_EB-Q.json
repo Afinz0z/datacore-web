@@ -1,11 +1,46 @@
 {
  "sku": "SC-630M EB-Q",
- "order": 890,
+ "order": 881,
  "n": "Horn Speaker",
  "b": "TOA",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "30 Watt Wide Range Horn Speaker EN54-24",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "250 Hz - 10 kHz"
+  },
+  {
+   "label": "Sensitivity (1 W, 1 m)",
+   "value": "113 dB"
+  },
+  {
+   "label": "Max. SPL (1 m)",
+   "value": "128 dB"
+  },
+  {
+   "label": "Rated input (100 V)",
+   "value": "30 W"
+  },
+  {
+   "label": "Tappings (100 V)",
+   "value": "100 V: 330 Ω (30 W) / 670 Ω (15 W) / 1 kΩ (10 W) / 2 kΩ (5 W); 70 V: 170 Ω (30 W) / 330 Ω (15 W) / 670 Ω (10 W) / 1 kΩ (5 W) / 2 kΩ (2.5 W)"
+  },
+  {
+   "label": "Finish",
+   "value": "Aluminium, off-white (RAL 9010 or equivalent)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "285 x 227 x 277 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "2 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/sc-630m-eb-q/",
+ "checked": "2026-10-18"
 }

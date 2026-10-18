@@ -1,11 +1,42 @@
 {
  "sku": "QT-RC3",
- "order": 1250,
+ "order": 1238,
  "n": "Cambridge QT-RC3",
  "b": "Biamp",
  "c": "Volume Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "In Room Volume Control with Decora Style Plate for the Qt-300 and Qt-600",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "4.1 inches (104 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "1.9 inches (48 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.2 inches (56 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "4.7 oz. (133 g)"
+  },
+  {
+   "label": "Certifications",
+   "value": "Met Works with WELL licensing criteria for sound masking;"
+  },
+  {
+   "label": "Humidity",
+   "value": "0-95% relative humidity (non-condensing)"
+  },
+  {
+   "label": "Altitude",
+   "value": "0-6,600 ft (0-2000m) MSL"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Cambridge-QT-RC3/ecom-item/910-00969",
+ "checked": "2026-10-18"
 }

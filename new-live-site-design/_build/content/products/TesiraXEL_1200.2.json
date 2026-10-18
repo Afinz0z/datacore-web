@@ -1,11 +1,62 @@
 {
  "sku": "TesiraXEL 1200.2",
- "order": 909,
+ "order": 900,
  "n": "4 channel, 2400W amplifier",
  "b": "Biamp",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Tesira 4-channel, 2400W asymmetric amplifier, dual power banks",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "3.5 inches (89 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "19 inches (483 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "17.4 inches (442 mm)"
+  },
+  {
+   "label": "Power",
+   "value": "Operating Voltage: 100-240VAC 50/60Hz"
+  },
+  {
+   "label": "Channels",
+   "value": "4 Output Channels"
+  },
+  {
+   "label": "Amplifier",
+   "value": "Class D"
+  },
+  {
+   "label": "Power Banks",
+   "value": "2 Power Banks"
+  },
+  {
+   "label": "Power Output",
+   "value": "Burst Power Output: 25ms, 400ms duration, 1 kHz sine, 12 dB crest factor"
+  },
+  {
+   "label": "Cooling",
+   "value": "Variable speed fan"
+  },
+  {
+   "label": "Network Connection(s)",
+   "value": "(2) Gigabit Ethernet with RJ-45 (Cat 5e and above)"
+  },
+  {
+   "label": "Audio",
+   "value": "2-pin, 0.3-inch Euroblock [up to 10 AWG]"
+  },
+  {
+   "label": "Maximum Output",
+   "value": "Maximum Rated Output (4Ω, 8Ω, 70V, 100V), all channels driven: 2400W; Maximum Rated Output (4Ω, 8Ω, 70V, 100V), single channel driven: 1200W"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/TesiraXEL-1200-2/ecom-item/920-00479-00001",
+ "checked": "2026-10-18"
 }

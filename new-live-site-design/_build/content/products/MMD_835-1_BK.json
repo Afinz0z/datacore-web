@@ -1,6 +1,6 @@
 {
  "sku": "MMD 835-1 BK",
- "order": 1086,
+ "order": 1075,
  "n": "Microphone module, dynamic, cardioid, for SKM 100/300/500 G3 and G4 (MMD 835-1 BK)",
  "b": "Sennheiser",
  "c": "Mic",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "MMD 835-1 BK",
  "d": "Microphone module, dynamic, cardioid, for SKM 100/300/500 G3 and G4, SKM 2000/6000/9000, SKM D1/AVX, SL Handheld DW, black",
- "specs": [],
+ "specs": [
+  {
+   "label": "On/off switch",
+   "value": "No"
+  },
+  {
+   "label": "Transducer type",
+   "value": "Dynamic"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "40 - 16,000 Hz"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "2,1 mV/Pa"
+  },
+  {
+   "label": "Sensitivity in free field, no load (1kHz)",
+   "value": "2,1 mV/Pa"
+  },
+  {
+   "label": "Product length",
+   "value": "72.3"
+  },
+  {
+   "label": "Product_diameter (mm)",
+   "value": "50.5"
+  },
+  {
+   "label": "Product weight (g)",
+   "value": "112"
+  }
+ ],
  "for": [
   "EW-DX SKM-S (R1-9)"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/microphones/mmd-835/mmd-835-1-bk-502575",
+ "checked": "2026-10-18"
 }

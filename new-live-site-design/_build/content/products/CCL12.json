@@ -1,6 +1,6 @@
 {
  "sku": "CCL12",
- "order": 754,
+ "order": 745,
  "n": "Compact Cardioid Line Array Loudspeaker (CCL12)",
  "b": "d&b audiotechnik",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CCL12",
  "d": "Compact Cardioid Line Array Loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "60 Hz - 18 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "90 Hz - 18 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with D25/25D: 134 dB; with D40/D80/D90/40D: 136 dB"
+  },
+  {
+   "label": "Max. sound pressure 4x Cabinets with",
+   "value": "D40/D80/D90/40D: 148 dB"
+  },
+  {
+   "label": "Cabinets per D40/D80/D90 (ArrayProcessing)",
+   "value": "4"
+  },
+  {
+   "label": "Cabinets per D40/D80/D90 (Line or Arc mode)",
+   "value": "8"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "10 ohms"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "400/1200 W"
+  },
+  {
+   "label": "Nominal dispersion angle (horizontal)",
+   "value": "120°"
+  },
+  {
+   "label": "Splay angle settings",
+   "value": "0 ... 14° (1° increment)"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 7\" front LF driver / 2 x 5\" side LF driver / (2x 8.7\" total equivalent LF driver size) / 2 x 1.75\" HF compression driver / Passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "NLT4 F/M"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/all/series/cl-series/ccl12/",
+ "checked": "2026-10-18"
 }

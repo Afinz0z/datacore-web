@@ -1,11 +1,54 @@
 {
  "sku": "6512150",
- "order": 2360,
+ "order": 2348,
  "n": "HDMI Cable-CBL-8K-HD-6",
  "b": "Crestron",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
  "d": "Crestron Certified HDMI® 2.1 Cable, 48 Gbps, 6 ft (1.8 m) Capable of transporting 8K60 4:4:4 HDR signal with data rates up to 48 Gbps. Gold-plated 19-pin Type-A connectors",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable Type",
+   "value": "Passive, bidirectional HDMI to HDMI cable"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "48 Gbps"
+  },
+  {
+   "label": "Resolutions",
+   "value": "Without DSC: up to 8K @ 30Hz 4:4:4 or 4K @ 120Hz 4:4:4; With DSC: up to 8K @ 120Hz 4:4:4"
+  },
+  {
+   "label": "Color Sampling",
+   "value": "4:4:4"
+  },
+  {
+   "label": "HDCP",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "(2) HDMI Type-A connector (male), gold plated"
+  },
+  {
+   "label": "Length",
+   "value": "6 ft (1.8 m)"
+  },
+  {
+   "label": "Connector Boot (HxW)",
+   "value": "0.71 in. (18 mm) x 0.36 in. (9 mm)"
+  },
+  {
+   "label": "Diameter",
+   "value": "4.5 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "2.4 oz (68 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Infrastructure/Video,-Audio-and-USB/Video-Cables/CBL-8K-HD-6",
+ "checked": "2026-10-18"
 }

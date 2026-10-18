@@ -1,6 +1,6 @@
 {
  "sku": "EW-DX EM 4 DANTE (R1-9)",
- "order": 1193,
+ "order": 1181,
  "n": "4 channel 1U rack (19“) Dante® receiver (EW-DX EM 4 DANTE (R1-9))",
  "b": "Sennheiser",
  "c": "Mic Accessories",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "EW-DX EM 4 DANTE (R1-9)",
  "d": "4 channel 1U rack (19“) Dante® receiver. Includes (1) EW-DX EM 4 DANTE, (2) 1/4 wave antenna, (1) rack mount kit, and (1) mains cable R1-9 520 - 607.8 MHz",
- "specs": []
+ "specs": [
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "520.000 - 607.800"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB)"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Audio output level",
+   "value": "18 dBu max."
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Audio output",
+   "value": "2x 70 mW @ 32 Ω"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Input voltage",
+   "value": "90 - 265 V AC, 47 - 63 Hz"
+  },
+  {
+   "label": "Transmission power (mA)",
+   "value": "BLE: max. 10 mW EIRP"
+  },
+  {
+   "label": "Product height",
+   "value": "175"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-dx-em-4-dante/ew-dx-em-4-dante-r1-9-509371",
+ "checked": "2026-10-18"
 }

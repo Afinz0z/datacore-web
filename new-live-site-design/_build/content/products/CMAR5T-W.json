@@ -1,6 +1,6 @@
 {
  "sku": "CMAR5T-W",
- "order": 624,
+ "order": 615,
  "n": "5\" two-way built-in marine speaker 8ohms/50W (CMAR5T-W)",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CMAR5T-W",
  "d": "5\" two-way built-in marine speaker 8ohms/50W; 100V/20W",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2.2 inches (55 mm)"
+  },
+  {
+   "label": "Diameter",
+   "value": "Bezel Diameter: 6 inches (152 mm); Cutout Diameter: 4.4 inches (113 mm)"
+  },
+  {
+   "label": "Mounting",
+   "value": "4 screws"
+  },
+  {
+   "label": "Power",
+   "value": "25W cont.; 100W Peak"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "5- inch, 2-way, built-in, 70V/100V marine loudspeaker."
+  },
+  {
+   "label": "Transformer",
+   "value": "100 V: 20 W - 10 W - 5 W - 2.5 W; 70 V: 20 W - 10 W - 5 W - 2.5 W - 1.25 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "(1W/1m) 88 dB"
+  },
+  {
+   "label": "Dispersion",
+   "value": "180° conical"
+  },
+  {
+   "label": "Drivers",
+   "value": "LF 1 x 5.25 inches; HF 1 x 1 inch"
+  },
+  {
+   "label": "Woofer",
+   "value": "5.25 inches"
+  },
+  {
+   "label": "Tweeter",
+   "value": "1 inch"
+  },
+  {
+   "label": "Impedance",
+   "value": "8Ω"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/CMAR5T-W/ecom-item/910-01560",
+ "checked": "2026-10-18"
 }

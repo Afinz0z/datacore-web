@@ -1,6 +1,6 @@
 {
  "sku": "6501743",
- "order": 4375,
+ "order": 4354,
  "n": "DIN Rail Analog Output Module (DIN-AO8)",
  "b": "Crestron",
  "c": "Lighting Controller",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "DIN-AO8",
  "d": "DIN-AO8 DIN Rail Analog Output Module",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure",
+   "value": "Light gray polycarbonate housing with polycarbonate label overlay, UL94 V-0 rated, 35mm DIN EN 60715 rail mount, DIN 43880 form factor for enclosures with 45mm front panel cutout, occupies 6 DIN module spaces (108mm)"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "6 Watts (0.25 Amps @ 24 Volts DC)"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "21 BTU/hr"
+  },
+  {
+   "label": "Height",
+   "value": "3.71 in (9.42 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.18 in (10.60 cm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.35 in (5.95 cm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "6.3 oz (179 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Integrated-Lighting-Systems/DIN-Modules/DIN-AO8",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "LH85WMBWLGCXUE",
- "order": 116,
+ "order": 108,
  "n": "Flip Pro WM85B Interactive Display (LH85WMBWLGCXUE)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LH85WMBWLGCXUE",
  "d": "Flip Pro WM85B Interactive Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "85\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "VA"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.4875 x 0.4875"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "350 (w/o glass), 220 (w/glass)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4000:1(without glass)"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72%"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "2%(without glass)"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81khz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594Mhz"
+  }
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/interactive-display/flip-pro-wm85b-interactive-display-85-inch-lh85wmbwlgcxue/",
+ "checked": "2026-10-18"
 }

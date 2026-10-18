@@ -1,6 +1,6 @@
 {
  "sku": "CEP803",
- "order": 904,
+ "order": 895,
  "n": "Octo channel 4 Ohm energy-efficient amplifier - 8 x 30W - 70/100V",
  "b": "Audac",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Amplifier",
  "d": "Octo channel 4 Ohm energy-efficient amplifier - 8 x 30W - 70/100V",
- "specs": []
+ "specs": [
+  {
+   "label": "Continuous power (aes) @ 4 ω",
+   "value": "8 x 30 W"
+  },
+  {
+   "label": "Continuous power (aes) @ 70 v",
+   "value": "8 x 30 W"
+  },
+  {
+   "label": "Continuous power (aes) @ 100 v",
+   "value": "8 x 30 W"
+  },
+  {
+   "label": "Signal / noise",
+   "value": "> 100 dB"
+  },
+  {
+   "label": "Thd+n (@ 1 khz)",
+   "value": "< 0.05% (1/8 rated Power)"
+  },
+  {
+   "label": "Crosstalk (@ 1 khz)",
+   "value": "< 70 dB"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "110 Hz - 20 kHz"
+  },
+  {
+   "label": "Technology",
+   "value": "Class-D"
+  },
+  {
+   "label": "Protection",
+   "value": "DC Short circuit, Over heating, Over load, Signal limiting"
+  },
+  {
+   "label": "Cooling",
+   "value": "Convection cooled"
+  },
+  {
+   "label": "Power source",
+   "value": "100 ~ 240 V AC / 50 ~ 60 Hz"
+  },
+  {
+   "label": "System specifications inputs connector",
+   "value": "IEC C14 Connector, Input linking through miniature switches"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/cep803---octo-channel-4-ohm-energy-efficient-amplifier---8-x-30w---70-100v",
+ "checked": "2026-10-18"
 }

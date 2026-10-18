@@ -1,11 +1,62 @@
 {
  "sku": "HG55U800FAULXL",
- "order": 117,
+ "order": 109,
  "n": "HG55U800FAULXL",
  "b": "Samsung",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "1.38 m HU800F Hospitality TV",
- "specs": []
+ "specs": [
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Screen Size",
+   "value": "1.38 m"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K (3,840 x 2,160)"
+  },
+  {
+   "label": "Picture Engine",
+   "value": "Quantum Processor Lite"
+  },
+  {
+   "label": "Film Mode",
+   "value": "Yes"
+  },
+  {
+   "label": "HDR(High Dynamic Range)",
+   "value": "HDR"
+  },
+  {
+   "label": "HDR10+",
+   "value": "Support"
+  },
+  {
+   "label": "HLG (Hybrid Log Gamma)",
+   "value": "Yes"
+  },
+  {
+   "label": "Contrast",
+   "value": "Mega Contrast"
+  },
+  {
+   "label": "Colour",
+   "value": "Dynamic Crystal Color"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Contrast Enhancer",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.samsung.com/in/business/commercial-tvs/hotel-tv/hu800f-hospitality-tv-hg55u800faulxl/",
+ "checked": "2026-10-18"
 }

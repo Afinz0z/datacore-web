@@ -1,6 +1,6 @@
 {
  "sku": "A4LZ8AA",
- "order": 453,
+ "order": 445,
  "n": "Poly X72 Video Bar (Poly X72 AVB)",
  "b": "HP Poly",
  "c": "Video Conferencing System",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "Poly X72 AVB",
  "d": "Poly X72 Video Bar",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wireless technologies",
+   "value": "Bluetooth® 5.0; Wi-Fi 802.11a/b/g/n/ac/ax (MIMO) Multi-channel Concurrency"
+  },
+  {
+   "label": "Ports",
+   "value": "1 USB Type-C® 5Gbps signaling rate; 2 USB Type-A 5Gbps signaling rate; 1 line in; 1 line out; 1 line in (optional microphone); 2 HDMI-out 2.0 (video, 4K @ 30 Hz); 1 HDMI-in 1.4 (video and audio, 4K @ 30 Hz)"
+  },
+  {
+   "label": "Audio",
+   "value": "Poly NoiseBlockAI technology; Poly Acoustic Fence technology; Automatic gain control (AGC)"
+  },
+  {
+   "label": "Microphone pickup range (metric)",
+   "value": "Up to 7.62 m"
+  },
+  {
+   "label": "Microphone type",
+   "value": "Two MEMS microphones; Two second-order microphones"
+  },
+  {
+   "label": "Sensitivity (speaker)",
+   "value": "83 dB (mid speakers); 89 dB (tweeter speakers)"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Two-way dual speakers"
+  },
+  {
+   "label": "Speaker output power",
+   "value": "2 x 20 W (RMS for mid speakers); 2 x 30 W (maximum for mid speakers); 2 x 15 W (RMS for tweeter speakers); 2 x 20 W (maximum for tweeter speakers)"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Heat dissipation cooling",
+   "value": "65 BTU/h"
+  },
+  {
+   "label": "Management Software",
+   "value": "Poly Lens"
+  },
+  {
+   "label": "Interoperability",
+   "value": "Google Meet, Microsoft Teams, Zoom certified; All cloud service providers through Poly Video App mode; USB Device mode"
+  }
+ ],
  "acc": [
   "875L2AA",
   "U99PCPV"
- ]
+ ],
+ "src": "https://www.hp.com/ca-en/shop/products/accessories/poly-studio-x72-all-in-one-video-bar-a4lz8aa-aba",
+ "checked": "2026-10-18"
 }

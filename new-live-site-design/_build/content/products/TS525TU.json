@@ -1,15 +1,63 @@
 {
  "sku": "TS525TU",
- "order": 2537,
+ "order": 2525,
  "n": "Wall Display Mount - TS525TU (42-75 inch)",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Large Thinstall™ Dual Swing Arm Wall Display Mount - 25 Inch Extension Screen size 42\" - 75\" Weight capacity 125 lbs (56.7 Kg)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2 in (5.1 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "20.39 in (51.8 cm)"
+  },
+  {
+   "label": "Lateral Shift",
+   "value": "16 in (40.6 cm)"
+  },
+  {
+   "label": "Maximum Extension",
+   "value": "25 in (63.5 cm)"
+  },
+  {
+   "label": "Maximum Screen Thickness",
+   "value": "3 in (76.2 mm)"
+  },
+  {
+   "label": "Minimum Depth",
+   "value": "2 in (5.1 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "42\" - 75\" (1067mm - 1905mm)"
+  },
+  {
+   "label": "Width",
+   "value": "29.5 in (74.9 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Extension, Height Adjustable, Lateral Shift, Micro-Adjustable, Swivel, Tilt"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape"
+  }
+ ],
  "for": [
-  "55UH5N-E",
   "HG75U800FAUXUE",
   "LH50QMCEPGCXUE",
   "LH65QMREBGCXUE",
@@ -17,5 +65,7 @@
   "PN-LC862",
   "PN-M552 PCAP",
   "PN-M752"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/thinstall_series/ts525tu",
+ "checked": "2026-10-18"
 }

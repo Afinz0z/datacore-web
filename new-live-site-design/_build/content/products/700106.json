@@ -1,6 +1,6 @@
 {
  "sku": "700106",
- "order": 475,
+ "order": 467,
  "n": "TeamConnect Bar S all-in-one audio and video conferencing device (TC BAR S)",
  "b": "Sennheiser",
  "c": "Video Conferencing System",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "TC BAR S",
  "d": "Sennheiser TeamConnect Bar S all-in-one audio and video conferencing device for small meeting rooms and collaboration spaces It features 4 microphones and 2 speakers",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "MEMS"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "<5%"
+  },
+  {
+   "label": "Frequency range",
+   "value": "100 Hz to 14.5 kHz"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "100 Hz to 18 kHz"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "69 dB(A)"
+  },
+  {
+   "label": "Max. sound pressure level",
+   "value": "80 dB SPL"
+  },
+  {
+   "label": "Connection ports",
+   "value": "(1) HDMI out 2.0"
+  },
+  {
+   "label": "Connection",
+   "value": "Wired"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB, RJ45 (for Ethernet)"
+  },
+  {
+   "label": "Dante™",
+   "value": "Yes"
+  },
+  {
+   "label": "Microphone pickup range",
+   "value": "4.5m"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "0.38"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/meeting-and-conference-systems/tc-bar-s/teamconnect-bar-s-uk-700106",
+ "checked": "2026-10-18"
 }

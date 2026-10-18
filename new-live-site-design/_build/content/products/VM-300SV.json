@@ -1,10 +1,37 @@
 {
  "sku": "VM-300SV",
- "order": 4335,
+ "order": 4314,
  "n": "End Of Line Module",
  "b": "TOA",
  "c": "End of Line Device",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "Supplied from speaker line output"
+  },
+  {
+   "label": "Control output",
+   "value": "Line status"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "0,2 W"
+  },
+  {
+   "label": "Dimensions",
+   "value": "70 x 18 x 45 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "20 g"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/vm-300sv/",
+ "checked": "2026-10-18"
 }

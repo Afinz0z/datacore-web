@@ -1,6 +1,6 @@
 {
  "sku": "COLW101",
- "order": 621,
+ "order": 612,
  "n": "10 x 3.3\" sound column loudspeaker with 1\" tweeter 70 - 100 volt / (COLW101)",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "COLW101",
  "d": "10 x 3.3\" sound column loudspeaker with 1\" tweeter 70 - 100 volt / 100 watts or 8 ohms / 140 watts, white",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "46.5 inches (1181 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.9 inches (99 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.3 inches (84 mm)"
+  },
+  {
+   "label": "Finish",
+   "value": "RAL Color: White RAL 9016"
+  },
+  {
+   "label": "Mounting",
+   "value": "Adjustable tilt L-bracket"
+  },
+  {
+   "label": "Power",
+   "value": "100W Cont.; 400W Peak"
+  },
+  {
+   "label": "Recommended Amplifiers",
+   "value": "100W - 200W @ 8Ω (28V - 40V)"
+  },
+  {
+   "label": "Control",
+   "value": "None; select transformer tap or low impedance input via terminal block wiring"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Multi-position pass-through, screw-down terminal block"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "2-way 10 x 3.3-inch column loudspeaker"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "Nominal Beamwidth (H x V): 100° x 8°"
+  },
+  {
+   "label": "Transducers",
+   "value": "LF 10 x 3.3 inches (84 mm) coated paper cone; HF 1 x 1 inch (25 mm) soft dome"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-COLW101/ecom-item/910-01591",
+ "checked": "2026-10-18"
 }

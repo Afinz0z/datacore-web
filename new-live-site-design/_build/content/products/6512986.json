@@ -1,11 +1,62 @@
 {
  "sku": "6512986",
- "order": 729,
+ "order": 720,
  "n": "SAROS IC6VLPT-W-T-EACH+",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS IC6VLPT-W-T-EACH+ Saros® 6 in. Very Low Profile 2-Way In-Ceiling Speaker, White Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "6.5 in. (165 mm) polypropylene with ring mode decoupled cloth surround and steel basket"
+  },
+  {
+   "label": "Tweeter",
+   "value": "0.98 in. (25 mm) titanium dome, horn loaded"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "2.5 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω nominal with transformer set to 8 Ω"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "3.75 W, 7.5 W, 15 W, 30 W, 60 W at 70V; 7.5 W, 15 W, 30 W, 60 W at 100V"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "65 Hz-20 kHz +/-3 dB"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "55 Hz-20 kHz +/-10 dB"
+  },
+  {
+   "label": "Power Handling",
+   "value": "50 W program (8 Ω)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "88 dB @ 1 W/1 m"
+  },
+  {
+   "label": "Maximum SPL",
+   "value": "108 dB"
+  },
+  {
+   "label": "Coverage",
+   "value": "85° conical (speech); 75° conical (music)"
+  },
+  {
+   "label": "Input connection",
+   "value": "(1) 4-pin 5 mm detachable terminal block with screw-down flanges; Speaker input with parallel pass through"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Ceiling-Speakers/SAROS-IC6VLPT-W-T-EACH",
+ "checked": "2026-10-18"
 }

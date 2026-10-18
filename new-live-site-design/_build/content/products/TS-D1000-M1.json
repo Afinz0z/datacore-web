@@ -1,11 +1,34 @@
 {
  "sku": "TS-D1000-M1",
- "order": 1130,
+ "order": 1118,
  "n": "STANDARD MICROPHONE",
  "b": "TOA",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "The TS-D1000-M1 Microphone is a dedicatedcomponent of the Digital conference system's Chairmanunit and Delegate unit. Its mic head is equipped with anilluminated display ring that allows the status of the unitsin use to be monitored at a glance.",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "100 Hz - 13 kHz"
+  },
+  {
+   "label": "Directivity",
+   "value": "Unidirectional"
+  },
+  {
+   "label": "Finish",
+   "value": "ABS resin, Stainless steel, black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "25 x 518 mm (Ø x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.11 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/ts-d1000-m1/",
+ "checked": "2026-10-18"
 }

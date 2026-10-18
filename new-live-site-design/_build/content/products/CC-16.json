@@ -1,11 +1,54 @@
 {
  "sku": "CC-16",
- "order": 1260,
+ "order": 1248,
  "n": "Zone controller-CC-16",
  "b": "Bose",
  "c": "Volume Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "ControlSpace® CC-16 zone controller,The CC-16 is a RS-485 device wired directly to a ControlSpace ESP88 engineered sound processor.",
- "specs": []
+ "specs": [
+  {
+   "label": "EMC",
+   "value": "ICES-003 Class B, EN55103-1, EN55103-2, FCC Part 15 Class B"
+  },
+  {
+   "label": "Cable Requirements",
+   "value": "Cat 5 (24–18 AWG), unshielded twisted-pair (UTP)"
+  },
+  {
+   "label": "Maximum Cable Length",
+   "value": "2000 ft (609 m)"
+  },
+  {
+   "label": "Connectors",
+   "value": "(1) Euroblock, 6 pins"
+  },
+  {
+   "label": "Power Range",
+   "value": "8–18 VDC, 100 mA"
+  },
+  {
+   "label": "Controls, Front Panel",
+   "value": "(2) volume buttons (+, –), (2) select buttons (+, –)"
+  },
+  {
+   "label": "Display",
+   "value": "122 × 32 pixel LCD, backlit blue"
+  },
+  {
+   "label": "Colors",
+   "value": "White"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "2-gang electrical box (North America, Japan)"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "4.8 in × 4.7 in × 1.5 in (121 mm × 118 mm × 37 mm)"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/controllers/digital/cc-16/controlcenter-cc-16-zone-controller",
+ "checked": "2026-10-18"
 }

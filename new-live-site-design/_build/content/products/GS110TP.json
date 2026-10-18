@@ -1,16 +1,67 @@
 {
  "sku": "GS110TP",
- "order": 2905,
+ "order": 2893,
  "n": "8-Port Gigabit Ethernet Smart Switch 2*1G SFP Ports - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8-Port Gigabit Ethernet Smart Switch with Cloud Management PoE+ (55W) 2*1G SFP Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "10/100Mbps ports",
+   "value": "8"
+  },
+  {
+   "label": "Gigabit ports",
+   "value": "8"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "8"
+  },
+  {
+   "label": "P oE+ (802.3at)",
+   "value": "8"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "8 PoE+ (55W)"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "8K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes (32)"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512 ARP"
+  }
+ ],
  "acc": [
   "DRV-GS110TP-12",
   "DRV-GS110TP-36",
   "DRV-GS110TP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs110tpv3/",
+ "checked": "2026-10-18"
 }

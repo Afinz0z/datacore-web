@@ -1,6 +1,6 @@
 {
  "sku": "657054-000",
- "order": 3984,
+ "order": 3966,
  "n": "Commscope Fiber Optic Splice Protector",
  "b": "CommScope",
  "c": "splice tray",
@@ -9,12 +9,42 @@
  "d": "SMOUV-1120-01-PK SMOUV Fiber Optic Splice Heat Shrink Protective Sleeve, pack of 100 pcs",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Pack"
+   "label": "Product Type",
+   "value": "Fiber protection sleeve"
+  },
+  {
+   "label": "Product Brand",
+   "value": "SMOUV®"
+  },
+  {
+   "label": "Product Series",
+   "value": "SMOUV"
+  },
+  {
+   "label": "Application",
+   "value": "single fusion splices"
+  },
+  {
+   "label": "Splicing Type",
+   "value": "Heat shrink, single fiber fusion"
+  },
+  {
+   "label": "Length",
+   "value": "61 mm | 2.402 in"
+  },
+  {
+   "label": "Environmental Space",
+   "value": "Indoor | Outdoor"
+  },
+  {
+   "label": "Packaging Type",
+   "value": "Bag | Carton"
   }
  ],
  "for": [
   "760012161",
   "760231514"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/structural-support-tools-accessories/fiber-tools-consumables-accessories/fiber-splice-protectors/item657054-000/",
+ "checked": "2026-10-18"
 }

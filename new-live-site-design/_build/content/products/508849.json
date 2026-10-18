@@ -1,6 +1,6 @@
 {
  "sku": "508849",
- "order": 1198,
+ "order": 1186,
  "n": "SpeechLine Multi-Channel Receiver with 2 SL DW RF Links (SL MCR 2 DW-3)",
  "b": "Sennheiser",
  "c": "Mic Accessories",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "SL MCR 2 DW-3",
  "d": "SL MCR 2 DW-3 - SpeechLine Multi-Channel Receiver with 2 SL DW RF Links. Features Analog output with (2) Dante Interfaces and PoE power supply.",
- "specs": []
+ "specs": [
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "23 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "typ. 0.1 %"
+  },
+  {
+   "label": "Automatic gain control (AGC)",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency range",
+   "value": "1880.000 - 1900.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 to 20,000 Hz"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "> 120 dB(A)"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45 (for Ethernet)"
+  },
+  {
+   "label": "Dante™",
+   "value": "Primary and Secondary"
+  },
+  {
+   "label": "Audio output",
+   "value": "One 3-pin socket (suitable for Phoenix Contact MCVW 1.5-3-ST-3.81) Two Dante™ Digital Audio Network sockets (RJ-45)"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/sl-dw-mcr/sl-mcr-2-dw-3-508849",
+ "checked": "2026-10-18"
 }

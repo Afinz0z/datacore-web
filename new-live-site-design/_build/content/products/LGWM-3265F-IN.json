@@ -1,6 +1,6 @@
 {
  "sku": "LGWM-3265F-IN",
- "order": 2690,
+ "order": 2678,
  "n": "Fixed Wall Mount-LGWM-3265F-IN (32-65 inch)",
  "b": "Logic",
  "c": "Mount",
@@ -10,11 +10,6 @@
  "specs": [],
  "for": [
   "32SM5J",
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "CDE4330",
   "CDE5530",
   "CDE6514-2C",

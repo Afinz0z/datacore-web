@@ -1,10 +1,29 @@
 {
  "sku": "MXCWAPT-W",
- "order": 1093,
+ "order": 1082,
  "n": "Access Point Transceiver",
  "b": "Shure",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Headphone Output",
+   "value": "no"
+  },
+  {
+   "label": "Buttons",
+   "value": "Menu Navigation, Network/Factory Reset"
+  },
+  {
+   "label": "NFC Card Slot",
+   "value": "no"
+  },
+  {
+   "label": "Weight",
+   "value": "1150 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/mxcw/mxcwapt",
+ "checked": "2026-10-18"
 }

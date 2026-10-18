@@ -1,11 +1,62 @@
 {
  "sku": "PSX2404D",
- "order": 929,
+ "order": 918,
  "n": "power amplifier-PSX2404D",
  "b": "Bose",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "PowerShareX PSX2404D adaptable power amplifier,adaptable four-channel power amplifiers",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "-70 dB typical at 1 kHz"
+  },
+  {
+   "label": "Gain, Low-Impedance",
+   "value": "26 dB, 29 dB, 32 dB, 35 dB, selectable"
+  },
+  {
+   "label": "Maximum Peak Power, Symmetrical",
+   "value": "1600 W at 2 Ω / 1200 W at 4 Ω, 8 Ω, 70V, 100V"
+  },
+  {
+   "label": "Maximum Peak Power, Asymmetrical",
+   "value": "3200 W at 2 Ω / 3400 W at 4 Ω / 2600 W at 8 Ω / 3400 W at 70V / 3000 W at 100V"
+  },
+  {
+   "label": "Rated Power, Asymmetrical",
+   "value": "1600 W at 2 Ω / 1700 W at 4 Ω / 1300 W at 8 Ω in 100V mode / 1700 W at 70V / 1500 W at 100V"
+  },
+  {
+   "label": "SNR",
+   "value": "> 104 dB (A-weighted)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (±1.0 dB), 1 W at 8 Ω"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "4"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "800 W per channel at 2 Ω / 600 W per channel at 4 Ω, 8 Ω, 70V, 100V"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.1% (< 0.05% typical, from 0.1 W to half-power)"
+  },
+  {
+   "label": "Input Channels",
+   "value": "4 balanced, line"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/multichannel-dsp/powershare/powersharex-psx2404d",
+ "checked": "2026-10-18"
 }

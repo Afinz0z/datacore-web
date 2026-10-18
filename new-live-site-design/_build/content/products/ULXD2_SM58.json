@@ -1,11 +1,34 @@
 {
  "sku": "ULXD2/SM58",
- "order": 1107,
+ "order": 1096,
  "n": "Handheld Transmitter with SM58",
  "b": "Shure",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "ULXD2 transmitter with SM58® cardioid dynamic microphone head",
- "specs": []
+ "specs": [
+  {
+   "label": "Batteries",
+   "value": "AA, Shure Lithium-Ion battery"
+  },
+  {
+   "label": "Battery Status",
+   "value": "Leveled battery life indication with AA, HH:MM (Hours and minutes) with rechargeable Shure battery"
+  },
+  {
+   "label": "Encryption",
+   "value": "yes, AES-256"
+  },
+  {
+   "label": "Transmission",
+   "value": "Digital in VHF, UHF, 900MHz ISM, 1.2 GHz, 1.5 GHz, 1.8 GHz"
+  },
+  {
+   "label": "Weight",
+   "value": "340 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/ulx-d_digital_wireless/ulxd2_sm58",
+ "checked": "2026-10-18"
 }

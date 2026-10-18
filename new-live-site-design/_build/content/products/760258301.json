@@ -1,6 +1,6 @@
 {
  "sku": "760258301",
- "order": 3815,
+ "order": 3827,
  "n": "RJ45 Modular Jack",
  "b": "CommScope",
  "c": "RJ45 MODULE (JACK)",
@@ -9,8 +9,54 @@
  "d": "GigaSHIELD X10D® M-Series Modular Jack, RJ45, Cat6A Shielded, White (24 ea/pkg)",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Pack"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular jack"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSPEED X10D®"
+  },
+  {
+   "label": "Product Series",
+   "value": "MGS600S"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Shielded"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Mounting",
+   "value": "M Series faceplates"
+  },
+  {
+   "label": "Termination Tool",
+   "value": "JTT Termination tool"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
+  },
+  {
+   "label": "Transmission Standards",
+   "value": "ANSI/TIA-568.2-D | ISO/IEC 11801 Class EA"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/category-6a-jacks/item760258301/",
+ "checked": "2026-10-18"
 }

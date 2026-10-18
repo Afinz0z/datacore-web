@@ -1,11 +1,62 @@
 {
  "sku": "DM-NVX-385",
- "order": 1660,
+ "order": 1648,
  "n": "Encoder / Decoder with switcher",
  "b": "Crestron",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "DM NVX 5k 4 x 1 AVOIP switcher with hdmi and USB",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Resolutions",
+   "value": "Up to 5120x2160 @30 Hz (5K Ultra-Wide) or 5120x1440 @60 Hz (5K Super-Wide); Up to 4:4:4 color sampling; HDR10, HDR10+, Dolby Vision, and Deep Color support"
+  },
+  {
+   "label": "Encoding/Decoding audio formats",
+   "value": "Primary multichannel (up to 8-channel LPCM or encoded HBR 7.1 surround sound), secondary 2-channel LPCM"
+  },
+  {
+   "label": "Bit Rates",
+   "value": "200 to 950 Mbps"
+  },
+  {
+   "label": "Streaming Protocols",
+   "value": "RTP, SDP"
+  },
+  {
+   "label": "Container",
+   "value": "MPEG-2 transport stream (.ts)"
+  },
+  {
+   "label": "Session Initiation",
+   "value": "Multicast via secure RTSP"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3, AES-128, PKI"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 5K support (Dual-Mode DisplayPort™ interface and DVI compatible); DisplayPort over USB-C (DisplayPort Alt Mode) with HDR10, HDR10+, and 5K support"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "HDMI with HDR10, HDR10+, Dolby Vision, Deep Color, and 5K support (DVI compatible)"
+  },
+  {
+   "label": "Switcher",
+   "value": "4x1 in encoder mode (Two HDMI, Two USB-C), manual or auto-switching, breakaway audio, Crestron QuickSwitch HD™ technology"
+  },
+  {
+   "label": "Scaler (Decoder Mode Only)",
+   "value": "5K video scaler with motion-adaptive deinterlacing, intelligent frame rate conversion, Deep Color support, HDR10, HDR10+, and Dolby Vision support, widescreen format selection (zoom, stretch, maintain aspect ratio"
+  },
+  {
+   "label": "Video copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/AV-Over-IP/DM-NVX-AV-Over-IP/Video-Endpoint/DM-NVX-385",
+ "checked": "2026-10-18"
 }

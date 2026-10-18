@@ -1,6 +1,6 @@
 {
  "sku": "LSM1U",
- "order": 2539,
+ "order": 2527,
  "n": "Wall Mount Bracket (LSM1U)",
  "b": "Chief",
  "c": "Mount",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LSM1U",
  "d": "Chief Wall Mount Bracket",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2 in (5.1 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "18.25 in (46.4 cm)"
+  },
+  {
+   "label": "Typical Screen Size",
+   "value": "42\"- 86\" (1067mm - 2184mm)"
+  },
+  {
+   "label": "Width",
+   "value": "25.75 in (65.4 cm)"
+  },
+  {
+   "label": "Adjustability",
+   "value": "Fixed, Micro-Adjustable, Height Adjustable, Lateral Shift"
+  },
+  {
+   "label": "Application",
+   "value": "Wall"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "VESA Mounting Pattern",
+   "value": "100 x 100mm - 800 x 500mm"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "37.21\" x 18.5\" x 2.84\" (945.2 x 469.9 x 72.2 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "19.44 lbs (8.8 kg)"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/mounts/display-tv-mounts/fusion-wall-fixed-series/lsm1u",
+ "checked": "2026-10-18"
 }

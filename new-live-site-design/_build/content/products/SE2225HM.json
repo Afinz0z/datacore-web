@@ -1,11 +1,62 @@
 {
  "sku": "SE2225HM",
- "order": 245,
+ "order": 237,
  "n": "Dell 22 inch Monitor",
  "b": "Dell Technologies",
  "c": "Monitor",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dell SE2225HM 21.5\" Full HD Monitor, VA Panel, 1920×1080 Resolution, 75Hz Refresh Rate, HDMI & VGA Ports, Anti-glare Display, VESA Mount Compatible, 3Yr Warranty.",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "LED Monitor"
+  },
+  {
+   "label": "Number of Screens",
+   "value": "1"
+  },
+  {
+   "label": "Screen Size Class",
+   "value": "22\""
+  },
+  {
+   "label": "Viewable Screen Size",
+   "value": "21.5\""
+  },
+  {
+   "label": "Screen Mode",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel Technology",
+   "value": "Vertical Alignment (VA)"
+  },
+  {
+   "label": "Response Time Details",
+   "value": "5 ms GTG (Fast); 8 ms GTG"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Pixel Pitch",
+   "value": "0.24000 mm x 0.24000 mm"
+  },
+  {
+   "label": "Horizontal Viewing Angle",
+   "value": "178 °"
+  },
+  {
+   "label": "Vertical Viewing Angle",
+   "value": "178 °"
+  },
+  {
+   "label": "Mount Type",
+   "value": "Panel Mount"
+  }
+ ],
+ "src": "https://www.dell.com/en-us/shop/monitors/apd/dell-22-monitor-se2225hm/se2225hm/-",
+ "checked": "2026-10-18"
 }

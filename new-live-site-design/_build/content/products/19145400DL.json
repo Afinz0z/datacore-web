@@ -1,6 +1,6 @@
 {
  "sku": "19145400DL",
- "order": 3793,
+ "order": 3780,
  "n": "Cat 6A F/FTP Cable Orange Color (500 Meter/Roll)",
  "b": "Datwyler",
  "c": "UTP CABLE",
@@ -9,12 +9,54 @@
  "d": "Cat 6A Data Cable F/FTP 4 Pairs, 500MHz, FRNC/LS0H Sheath , Orange Color (500 Meter/Roll)",
  "specs": [
   {
-   "label": "Type",
-   "value": "F/ftp"
+   "label": "Fire load [kWh/m]",
+   "value": "0.14"
   },
   {
-   "label": "Unit",
-   "value": "Reel"
+   "label": "CU rate [kg/km]",
+   "value": "20.0"
+  },
+  {
+   "label": "Reaction to fire",
+   "value": "Dca-s2,d1,a1"
+  },
+  {
+   "label": "Packing unit",
+   "value": "500 m drum"
+  },
+  {
+   "label": "AWG",
+   "value": "23"
+  },
+  {
+   "label": "Solid / Flex",
+   "value": "Solid wire"
+  },
+  {
+   "label": "Minimum bending radius (during installation)",
+   "value": "56 mm"
+  },
+  {
+   "label": "Tensile strength (4P)",
+   "value": "95 N"
+  },
+  {
+   "label": "Minimum number of impacts",
+   "value": "10"
+  },
+  {
+   "label": "Minimal crush resistance / 10cm",
+   "value": "1000 N"
+  },
+  {
+   "label": "GBit/s",
+   "value": "Up to 10 Gbit/s"
+  },
+  {
+   "label": "Loop resistance at 20 °C",
+   "value": "150 Ω/km"
   }
- ]
+ ],
+ "src": "https://datwyler-itinfra.com/en_mea/copper-networks/copper-cables/cu-6552-4p-2x4p-f8-dca/",
+ "checked": "2026-10-18"
 }

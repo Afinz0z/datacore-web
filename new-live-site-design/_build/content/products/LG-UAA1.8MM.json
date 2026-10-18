@@ -1,6 +1,6 @@
 {
  "sku": "LG-UAA1.8MM",
- "order": 2417,
+ "order": 2405,
  "n": "USB Cable-LG-UAA1.8MM",
  "b": "Logic",
  "c": "AV CABLE",
@@ -9,8 +9,46 @@
  "d": "Logic USB 3.0V Type A to Type A Cable 1.8m - Male to Male Copper Cable",
  "specs": [
   {
-   "label": "Type",
-   "value": "USB Cable"
+   "label": "Connector",
+   "value": "Type A (male) to Type A (male)"
+  },
+  {
+   "label": "Available Cable Length",
+   "value": "1.8 m (5.9 ft) , 5 m (16.4 ft), 10 m (32.8 ft)"
+  },
+  {
+   "label": "Version",
+   "value": "3.2 Gen 1"
+  },
+  {
+   "label": "Data Transfer Speed",
+   "value": "5 Gbps"
+  },
+  {
+   "label": "Conductor",
+   "value": "Copper"
+  },
+  {
+   "label": "Transmission Type",
+   "value": "Bi-Directional"
+  },
+  {
+   "label": "Nominal Voltage",
+   "value": "20 Volts"
+  },
+  {
+   "label": "Maximum Current",
+   "value": "3A"
+  },
+  {
+   "label": "Min. Bend Radius",
+   "value": "90mm"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-40 ℃C ~ +85 ℃C"
   }
- ]
+ ],
+ "src": "https://www.logicav.in/connectivity-solutions/av-cables/lg-uaa18mm",
+ "checked": "2026-10-18"
 }

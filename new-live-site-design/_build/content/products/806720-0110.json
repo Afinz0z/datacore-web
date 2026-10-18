@@ -1,11 +1,30 @@
 {
  "sku": "806720-0110",
- "order": 2502,
+ "order": 2490,
  "n": "ArenaMatch AMUBRKT",
  "b": "Bose",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "ARENAMATCH AMUBRKT U-BRACKET KIT",
- "specs": []
+ "specs": [
+  {
+   "label": "Working Load Limit (WLL)",
+   "value": "85 lb (40 kg), for use with 1 ArenaMatch AM10/AM20/AM40 module"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "4.9 in × 32.1 in × 14.8 in (126 mm × 815 mm × 375 mm)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "19.3 lb (8.8 kg)"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/loudspeaker-accessories/arenamatch-amubrkt-u-bracket",
+ "checked": "2026-10-18"
 }

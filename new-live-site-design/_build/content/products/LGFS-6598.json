@@ -1,6 +1,6 @@
 {
  "sku": "LGFS-6598",
- "order": 2702,
+ "order": 2690,
  "n": "Trolley Stand-LGFS-6598",
  "b": "Logic",
  "c": "Mount",
@@ -9,15 +9,41 @@
  "d": "Floor Mount Trolley Stand (Sleek) Suitable for 65\" to 98\" Flat Panel Displays. Max Loading Capacity-120Kg",
  "specs": [
   {
-   "label": "Type",
-   "value": "Trolley Stand"
+   "label": "Max. Load",
+   "value": "265 lbs (120 kg)"
+  },
+  {
+   "label": "VESA",
+   "value": "400 x 400 to 900 x 600"
+  },
+  {
+   "label": "Display Sizes",
+   "value": "65″ to 98″"
+  },
+  {
+   "label": "Height Adjustment",
+   "value": "No"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Product Weight",
+   "value": "24 kg"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "30 kg"
+  },
+  {
+   "label": "Shipping Dimension (L x W x H)",
+   "value": "1760 x 740 x 160 mm"
   }
  ],
  "for": [
   "1203626",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "98TR3DK-B",
   "98UM5K",
   "CDE6514-2C",
@@ -54,5 +80,7 @@
   "PN-M752",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.logicav.in/mounting-solutions/floor-mount-trolley/lgfs-6598",
+ "checked": "2026-10-18"
 }

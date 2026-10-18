@@ -1,6 +1,6 @@
 {
  "sku": "EX-S10-CM-B",
- "order": 622,
+ "order": 613,
  "n": "10” Coaxial Surface Mount Indoor/Outdoor Loudspeaker w/ HF (EX-S10-CM-B)",
  "b": "Biamp",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "EX-S10-CM-B",
  "d": "10” Coaxial Surface Mount Indoor/Outdoor Loudspeaker w/ HF compression driver. 8 Ohm or 70V/100V operation, included ClickMount pan-tilt mounting bracket, black",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "20.82 inches (529 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "12.17 inches (309 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "17.28 inches (439 mm)"
+  },
+  {
+   "label": "Finish",
+   "value": "RAL Color: Black RAL 9017"
+  },
+  {
+   "label": "Mounting",
+   "value": "ClickMount pan-tilt bracket or ClickMount U-Bracket"
+  },
+  {
+   "label": "Power",
+   "value": "300W Cont.; 1200W Peak"
+  },
+  {
+   "label": "Recommended Amplifiers",
+   "value": "300 W - 600 W, 8 Ω (49 V - 69 V)"
+  },
+  {
+   "label": "Loudspeaker Type",
+   "value": "2-way, 10-inch, coaxial, full-range, surface mount loudspeaker"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "100° x 100°"
+  },
+  {
+   "label": "Transducers",
+   "value": "LF 1 x 10 inches (250 mm) treated paper cone; HF 1 x 1.4 inches (35 mm) voice coil compression driver"
+  },
+  {
+   "label": "Transformer",
+   "value": "70V: 120W, 60W, 30W, 15W; 100V: 120W, 60W, 30W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "(1W/1m) 91 dB"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Desono-EX-S10-CM-B/ecom-item/920-01817-10000",
+ "checked": "2026-10-18"
 }

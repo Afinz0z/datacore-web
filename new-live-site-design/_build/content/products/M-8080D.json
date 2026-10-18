@@ -1,6 +1,6 @@
 {
  "sku": "M-8080D",
- "order": 1322,
+ "order": 1310,
  "n": "Digital Matrix Mixer (M-8080D)",
  "b": "TOA",
  "c": "Audio Mixer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "M-8080D",
  "d": "Digital Matrix Mixer",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "220 - 240 V AC, 50 / 60 Hz"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "79 dB"
+  },
+  {
+   "label": "Inputs",
+   "value": "AUDIO INPUT: 1-8: -48 to 0dBv, 6.8 kΩ, electronic balanced, removable terminal block (3 pins x8)"
+  },
+  {
+   "label": "Outputs",
+   "value": "AUDIO OUTPUT: 1-8: 0dBv, 1.8kΩ, Maximum output 20 dBu(7.75V), electronic balanced, removable terminal block (3 pins x 8)"
+  },
+  {
+   "label": "LAN",
+   "value": "100 MBit, DHCP"
+  },
+  {
+   "label": "Signal processing",
+   "value": "Equalizer / Filter; Gate; Compressor; Ducker; Feedback Compression (FBC); Auto Mixer; Delay"
+  },
+  {
+   "label": "Sampling frequency",
+   "value": "48 kHz, 24 bit"
+  },
+  {
+   "label": "Equalizer / Filter",
+   "value": "5 band EQ (LPF and HPF) for IN and 8 band EQ (LPF and HPF) for OUT; Parametic Equalizer: 19.7 - 20160 HZ, range: ±18 dB, Q: 0.4 - 128, Type: peak/low/high"
+  },
+  {
+   "label": "Compressor",
+   "value": "Threshold: -30 to +20 dB in 1 dB steps; Attack: 10 -150 ms; Release: 10 ms - 1 s"
+  },
+  {
+   "label": "Delay",
+   "value": "0 - 1361.2916 ms"
+  },
+  {
+   "label": "Matrix",
+   "value": "8 x 8; 12 x 12 (Expandable via optional equipment)"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/m-8080d-eb/",
+ "checked": "2026-10-18"
 }

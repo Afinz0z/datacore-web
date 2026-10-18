@@ -1,11 +1,62 @@
 {
  "sku": "6511859",
- "order": 1235,
+ "order": 1223,
  "n": "ULTIMATE IWS82-AW-W-T-EACH",
  "b": "Crestron",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "ULTIMATE IWS82-AW-W-T-EACH Ultimate In-Wall Dual 8 in. Subwoofer, All Weather, White Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "8 in. (203 mm) aluminum active and 8 in.(203 mm) aluminum passive radiator woofers"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "35 Hz to 175 Hz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "30 Hz to 250 Hz (±10 dB)"
+  },
+  {
+   "label": "Power Handling",
+   "value": "Program: 200 W; Peak: 400 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "86 dB @ 1 W/1 M"
+  },
+  {
+   "label": "Input connection",
+   "value": "2-pin 5.08 mm pitch, 10A, detachable terminal block"
+  },
+  {
+   "label": "Maximum Wire Size",
+   "value": "12 AWG (3.31 mm²)"
+  },
+  {
+   "label": "Splash Resistance",
+   "value": "IP66 rated for water"
+  },
+  {
+   "label": "Baffle",
+   "value": "Aluminum, brushed and anodized"
+  },
+  {
+   "label": "Grille",
+   "value": "Electroplated and powder coated steel, paintable, magnetically held bezel design"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "In-wall dog ear mounting system"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Wall-Speakers/ULTIMATE-IWS82-AW-W-T-EACH",
+ "checked": "2026-10-18"
 }

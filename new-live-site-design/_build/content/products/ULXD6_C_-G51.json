@@ -1,6 +1,6 @@
 {
  "sku": "ULXD6/C=-G51",
- "order": 1126,
+ "order": 1114,
  "n": "Wireless ULXD CARDIOID Boundary Microphone Transmitter (ULXD6/C=-G51)",
  "b": "Shure",
  "c": "Mic",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "ULXD6/C=-G51",
  "d": "Wireless ULXD CARDIOID Boundary Microphone Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "Batteries",
+   "value": "AA, Shure Lithium-Ion battery"
+  },
+  {
+   "label": "Encryption",
+   "value": "yes, AES-256"
+  },
+  {
+   "label": "Transmission",
+   "value": "Digital in UHF, 900MHz ISM"
+  },
+  {
+   "label": "Weight",
+   "value": "241 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/ulx-d_digital_wireless/ulxd6",
+ "checked": "2026-10-18"
 }

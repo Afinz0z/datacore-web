@@ -1,11 +1,62 @@
 {
  "sku": "55UL5Q-M",
- "order": 72,
+ "order": 65,
  "n": "UHD Signage Display",
  "b": "LG",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "55\"4K UHD Signage Brightness : 500 nit (Typ.)",
- "specs": []
+ "specs": [
+  {
+   "label": "Speaker (Built-in)",
+   "value": "YES (10W x 2)"
+  },
+  {
+   "label": "DP In",
+   "value": "NO"
+  },
+  {
+   "label": "HDMI In",
+   "value": "YES (3ea)"
+  },
+  {
+   "label": "HDMI In (HDCP Ver.)",
+   "value": "2.2/1.4"
+  },
+  {
+   "label": "RS232C In",
+   "value": "YES"
+  },
+  {
+   "label": "RJ45(LAN) In",
+   "value": "YES (1ea)"
+  },
+  {
+   "label": "USB In",
+   "value": "USB2.0 Type A (2ea)"
+  },
+  {
+   "label": "Audio Out",
+   "value": "YES"
+  },
+  {
+   "label": "RS232C Out",
+   "value": "YES"
+  },
+  {
+   "label": "DP Out",
+   "value": "NO"
+  },
+  {
+   "label": "IR In",
+   "value": "NO"
+  },
+  {
+   "label": "HDMI Out",
+   "value": "NO"
+  }
+ ],
+ "src": "https://www.lg.com/au/business/information-display/digital-signage/standard/55ul5q-m/",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "AMS115",
- "order": 684,
+ "order": 675,
  "n": "COMPACT SUBWOOFER",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Multipurpose Subwoofer",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated steel, powder-coated finish"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "1 × M20 threaded pole mount, 12 × M10 threaded inserts, 16 × M8 caster attachment points"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "35 Hz – 130 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "117 dB (free field), 123 dB (half-space) continuous / 124 dB (free field), 130 dB (half-space) peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "500 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "2800 W"
+  },
+  {
+   "label": "Sensitivity (SPL/1 W at 1 m)",
+   "value": "90 dB (free field), 96 dB (half-space)"
+  },
+  {
+   "label": "Coverage, Vertical",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Low-Frequency",
+   "value": "1 × 15 in (381 mm) high-excursion woofer"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/subwoofers/amm-sub/ams115-compact-subwoofer",
+ "checked": "2026-10-18"
 }

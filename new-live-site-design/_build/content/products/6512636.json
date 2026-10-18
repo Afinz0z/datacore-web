@@ -1,6 +1,6 @@
 {
  "sku": "6512636",
- "order": 1308,
+ "order": 1296,
  "n": "Square Flush Mount Kit for 6 in (SPKA-FMKT-IC6/IC8-SQ)",
  "b": "Crestron",
  "c": "Grilles",
@@ -8,12 +8,31 @@
  "avail": "lead",
  "model": "SPKA-FMKT-IC6/IC8-SQ",
  "d": "SPKA-FMKT-IC6/IC8-SQ Square Flush Mount Kit for 6 in. or 8 in. Reference and Ultimate In-Ceiling Speakers, 1 Pair",
- "specs": [],
+ "specs": [
+  {
+   "label": "Inner Diameter",
+   "value": "8.74 in. (222 mm)"
+  },
+  {
+   "label": "Side length",
+   "value": "12.10 in. (307 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.42 in. (61 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.98 lb (0.89 kg)"
+  }
+ ],
  "for": [
   "6511844",
   "6511845",
   "6511856",
   "6511860",
   "6512687"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Local-AV-USB/Audio/In-Ceiling-Speaker-Accessories/SPKA-FMKT-IC6IC8-SQ",
+ "checked": "2026-10-18"
 }

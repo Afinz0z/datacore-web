@@ -1,6 +1,6 @@
 {
  "sku": "M-804EX",
- "order": 1355,
+ "order": 1343,
  "n": "Port Expander (M-804EX)",
  "b": "TOA",
  "c": "Audio Expander",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "M-804EX",
  "d": "Port Expander",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "24 V DC Powered by M-8080D or external"
+  },
+  {
+   "label": "Indicator",
+   "value": "RD IN (Green); RD exp audio (Green); RD exp control (Green) x3; Power (Red)"
+  },
+  {
+   "label": "Inputs",
+   "value": "RD IN: Transmits and receives AES3 digital audio plus control data; Connect to M-8080D, RJ45 connector"
+  },
+  {
+   "label": "Finish",
+   "value": "Aluminium, Steel, black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "196.2 x 44.2 x 133 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.92 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/m-804ex-eb/",
+ "checked": "2026-10-18"
 }

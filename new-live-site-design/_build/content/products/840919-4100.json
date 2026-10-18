@@ -1,10 +1,61 @@
 {
  "sku": "840919-4100",
- "order": 703,
+ "order": 694,
  "n": "L1 Pro8 portable line array system",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of Channels",
+   "value": "2"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Input Channels",
+   "value": "3"
+  },
+  {
+   "label": "Connectors",
+   "value": "(1) XLR-1/4-in TRS combo, (1) 1/4-in TRS, (1) 1/8-in TRS, Bluetooth audio streaming"
+  },
+  {
+   "label": "Sensitivity Options",
+   "value": "-100 dB to +75 dB, XLR / -115 dB to +60 dB, TRS, input to driver / -105 dB to +50 dB, 3.5 mm / -115 dB to +40 dB, TRS, input to driver"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "48 VDC, Channels 1 & 2"
+  },
+  {
+   "label": "AC Power Connector",
+   "value": "IEC"
+  },
+  {
+   "label": "AC Power Input",
+   "value": "100–240 VAC (±15%, 50/60 Hz)"
+  },
+  {
+   "label": "Current Draw, Inrush",
+   "value": "15.8 A at 120 VAC, 60 Hz / 30.1 A at 230 VAC, 50 Hz"
+  },
+  {
+   "label": "Software Applications",
+   "value": "Bose Music (Android, iOS)"
+  },
+  {
+   "label": "Computer Interface Connection",
+   "value": "USB Type-C"
+  },
+  {
+   "label": "Controls, Rear Panel",
+   "value": "3 digital rotary encoders"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/line-columns/portable-powered/l1/l1-pro8-portable-line-array-system",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "LHA15MMFRHS",
- "order": 94,
+ "order": 86,
  "n": "136\" The Wall All-in-One MMF-A 2K 1.56PP (LHA15MMFRHS)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "LHA15MMFRHS",
  "d": "136\" The Wall All-in-One MMF-A 2K 1.56PP",
- "specs": []
+ "specs": [
+  {
+   "label": "Pixel Pitch",
+   "value": "1.56 mm"
+  },
+  {
+   "label": "Pixel Configuration",
+   "value": "1920 x 1080"
+  },
+  {
+   "label": "Diode Type",
+   "value": "CoB"
+  },
+  {
+   "label": "Brightness",
+   "value": "500 nit"
+  },
+  {
+   "label": "Viewing Angle (Horizontal/Vertical)",
+   "value": "160 / 160°"
+  },
+  {
+   "label": "Video Rate",
+   "value": "50 / 60 Hz"
+  },
+  {
+   "label": "Input Voltage (alternating current)",
+   "value": "100~240V AC"
+  },
+  {
+   "label": "Power Frequency",
+   "value": "50/60 Hz"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "3840 Hz"
+  },
+  {
+   "label": "Working Temperature",
+   "value": "0 ~ 40℃ / 10 ~ 80% RH"
+  },
+  {
+   "label": "Color Temperature",
+   "value": "6500 ± 500 K"
+  }
+ ],
+ "src": "https://www.samsung.com/ae/business/led-signage/the-wall/the-wall-m-all-in-one-mmf-a-lha15mmfrhs-ue/",
+ "checked": "2026-10-18"
 }

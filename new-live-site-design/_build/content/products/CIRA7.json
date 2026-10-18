@@ -1,6 +1,6 @@
 {
  "sku": "CIRA7",
- "order": 616,
+ "order": 607,
  "n": "QuickFit™ 2-way 6.5\" ceiling speaker with TwistFix™ grill",
  "b": "Audac",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Speaker",
  "d": "QuickFit™ 2-way 6.5\" ceiling speaker with TwistFix™ grill",
- "specs": []
+ "specs": [
+  {
+   "label": "Peak power handling",
+   "value": "120 W"
+  },
+  {
+   "label": "Program power handling",
+   "value": "60 W"
+  },
+  {
+   "label": "Continuous power (aes)",
+   "value": "30 W"
+  },
+  {
+   "label": "Sound pressure (max. w/1m) @ 100 v",
+   "value": "103 dB"
+  },
+  {
+   "label": "Sensitivity (1w/1m)",
+   "value": "88 dB"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "55 Hz - 20 kHz"
+  },
+  {
+   "label": "Speaker type",
+   "value": "2-way coaxial"
+  },
+  {
+   "label": "Frequency range (-10 db)",
+   "value": "45 Hz - 20 kHz"
+  },
+  {
+   "label": "Coverage conical",
+   "value": "150°"
+  },
+  {
+   "label": "Connectors",
+   "value": "Multi-tap Fast-con™ connections"
+  },
+  {
+   "label": "Drivers hf",
+   "value": "1”"
+  },
+  {
+   "label": "Drivers lf",
+   "value": "6.5¼”"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/cira7---quickfit-2-way-6-5inch-ceiling-speaker-with-twistfix-grill",
+ "checked": "2026-10-18"
 }

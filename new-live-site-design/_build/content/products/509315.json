@@ -1,14 +1,65 @@
 {
  "sku": "509315",
- "order": 1082,
+ "order": 1071,
  "n": "Lavalier Set- EW-DX MKE2 SET (R1-9)",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Sennheiser EW-DX MKE2 SET (R1-9) Digital wireless Dual lavalier set wireless lavalier microphone set consists of 2 x EW-DX SK (wireless bodypack transmitter), 2 x MKE 2 (omni-directional clip-on lavalier microphone), 1 x EW-DX EM 2 rackmount receiver (2 channels) and 2 x BA 70 rechargeable batteries",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Pre-polarised condenser"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "520.000 - 607.800"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB)"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Equivalent noise level (db)",
+   "value": "26 dB"
+  },
+  {
+   "label": "Audio output level",
+   "value": "18 dBu max."
+  },
+  {
+   "label": "Max. sound pressure level",
+   "value": "142 dB"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Connectors",
+   "value": "3.5mm"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "1.72"
+  }
+ ],
  "acc": [
   "508986"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-dx-mke-2-set/ew-dx-mke-2-set-r1-9-509315",
+ "checked": "2026-10-18"
 }

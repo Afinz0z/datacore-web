@@ -1,15 +1,66 @@
 {
  "sku": "9W1A6AA",
- "order": 505,
+ "order": 496,
  "n": "E60 Smart Camera 4K MPTZ",
  "b": "HP Poly",
  "c": "AV Camera",
  "dept": "AV",
  "avail": "lead",
  "d": "Poly Studio E60 Smart Camera 4K MPTZ with 12x Optical Zoom",
- "specs": [],
+ "specs": [
+  {
+   "label": "Camera type",
+   "value": "Dual-lens"
+  },
+  {
+   "label": "People video resolution",
+   "value": "4K, 30 fps (TX and RX) from 2048 Kbps"
+  },
+  {
+   "label": "Camera resolution",
+   "value": "2160p, 4K UHD (3840 x 2160)"
+  },
+  {
+   "label": "Video frame rate",
+   "value": "30 fps (up to 4K resolution)"
+  },
+  {
+   "label": "Total camera resolution (megapixels)",
+   "value": "2 x 8 MP"
+  },
+  {
+   "label": "Lens cover capabilites",
+   "value": "Attachable; Face away"
+  },
+  {
+   "label": "Zoom capability",
+   "value": "12x optical"
+  },
+  {
+   "label": "Smart camera technology",
+   "value": "Group framing; Presenter tracking; Poly DirectorAI"
+  },
+  {
+   "label": "Horizontal field of view (hFoV)",
+   "value": "71° (PTZ camera); 107° (panoramic camera)"
+  },
+  {
+   "label": "Focus type",
+   "value": "Auto focus"
+  },
+  {
+   "label": "Camera features",
+   "value": "Motorized pan (±170°), tilt (±30°) and zoom (MPTZ)"
+  },
+  {
+   "label": "Diagonal field of view (dFoV)",
+   "value": "78.1° (PTZ camera)"
+  }
+ ],
  "acc": [
   "U86LFPV",
   "U86LGPV"
- ]
+ ],
+ "src": "https://www.hp.com/ch-en/shop/products/accessories/poly-studio-e60-smart-camera-4k-mptz-with-12x-optical-zoom-9w1a6aa-ac3",
+ "checked": "2026-10-18"
 }

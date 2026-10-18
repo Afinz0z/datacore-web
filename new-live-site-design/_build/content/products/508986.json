@@ -1,13 +1,58 @@
 {
  "sku": "508986",
- "order": 4175,
+ "order": 4157,
  "n": "Charger-CHG 2N UK",
  "b": "Sennheiser",
  "c": "Charger",
  "dept": "AV",
  "avail": "lead",
  "d": "CHG 2N UK - 2-compartment charger for SL HANDHELD and SL BODYPACK, network-compatible IPv4/6, including PSU",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45 (for Ethernet)"
+  },
+  {
+   "label": "Charging time (h)",
+   "value": "approx. 2h"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Charging current (mA)",
+   "value": "1A per bay"
+  },
+  {
+   "label": "Charging voltage (V)",
+   "value": "5V"
+  },
+  {
+   "label": "Product height",
+   "value": "105"
+  },
+  {
+   "label": "Product length",
+   "value": "230"
+  },
+  {
+   "label": "Product width",
+   "value": "170"
+  },
+  {
+   "label": "Dimensions",
+   "value": "140 x 100 x 102 mm (5.3\" x 3.9\" x 4\")"
+  },
+  {
+   "label": "Product weight (g)",
+   "value": "609"
+  }
+ ],
  "for": [
   "505885",
   "508701",
@@ -18,5 +63,7 @@
   "509210",
   "509301",
   "509315"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/accessories/chg-2/chg-2n-uk-508986",
+ "checked": "2026-10-18"
 }

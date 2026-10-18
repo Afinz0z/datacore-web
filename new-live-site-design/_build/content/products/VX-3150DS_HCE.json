@@ -1,10 +1,57 @@
 {
  "sku": "VX-3150DS HCE",
- "order": 4067,
+ "order": 4049,
  "n": "Power Supply Manager",
  "b": "TOA",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "220 - 230 V AC, 50 / 60 Hz"
+  },
+  {
+   "label": "Charging method",
+   "value": "Temperature compensated trickle charging"
+  },
+  {
+   "label": "Battery connection",
+   "value": "One each positive and negative terminal, applicable cable diameter: AWG 6 – AWG 0 (AWG 1/0) (16 mm2 – 50 mm2); Line resistance within 4 mΩ / total"
+  },
+  {
+   "label": "Charging output voltage",
+   "value": "27.3 V ±0.3 V (at 25 ˚C), Temperature correction coefficient: -40 mV/ ˚C"
+  },
+  {
+   "label": "Control connector",
+   "value": "RJ45 female connector for connecting the system and cascade connection; Shielded Twisted-pair straight cable (TIA/EIA-568A standard)"
+  },
+  {
+   "label": "DS LINK IN/OUT",
+   "value": "Type of control signal: Battery check, AC power status, DC power status, charging circuit failure, battery failure, and communication"
+  },
+  {
+   "label": "Panel indicator",
+   "value": "AC power IN 1, Charging (Green), Battery power (Green), Battery connect (Green), Battery condition (Green)"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate, black"
+  },
+  {
+   "label": "Power / current consumption",
+   "value": "Approx. 1460 W max. (at rated output with charging), 460 W (EN 60065)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "482 x 132.6 x 400.5 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "9 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/vx-3150ds-hce/",
+ "checked": "2026-10-18"
 }

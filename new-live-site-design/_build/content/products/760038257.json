@@ -1,6 +1,6 @@
 {
  "sku": "760038257",
- "order": 3942,
+ "order": 3924,
  "n": "2u organizer-systimax",
  "b": "CommScope",
  "c": "CABLE ORGANIZER",
@@ -9,8 +9,46 @@
  "d": "2U Patchcord Management",
  "specs": [
   {
-   "label": "Type",
-   "value": "2U oraganizer"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Horizontal cable management"
+  },
+  {
+   "label": "Configuration Type",
+   "value": "Single-sided"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Rack Units",
+   "value": "2"
+  },
+  {
+   "label": "Height",
+   "value": "88.138 mm | 3.47 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
+  },
+  {
+   "label": "Depth",
+   "value": "81.28 mm | 3.2 in"
+  },
+  {
+   "label": "Finish",
+   "value": "Powder-coated, smooth"
+  },
+  {
+   "label": "Material Type",
+   "value": "Steel"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cable-management/horizontal-vertical-cable-managers/horizontal-cable-managers/item760038257/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "760152561",
- "order": 3865,
+ "order": 3850,
  "n": "Category 6 U/UTP Patch Panel, 24 port",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
@@ -9,8 +9,54 @@
  "d": "360-IPR-1100-E-GS3-1U-24",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "RJ45 patch panel"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSPEED XL®"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "Silver"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "iPatch® ready"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Flat"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760152561/",
+ "checked": "2026-10-18"
 }

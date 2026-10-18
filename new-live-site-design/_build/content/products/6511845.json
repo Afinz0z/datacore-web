@@ -1,15 +1,66 @@
 {
  "sku": "6511845",
- "order": 719,
+ "order": 710,
  "n": "REFERENCE IC6-W-T-EACH",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "REFERENCE IC6-W-T-EACH Reference 6.5 in. 2-Way In-Ceiling Speaker, White Textured, Single",
- "specs": [],
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "6.5 in. (165 mm) woven glass fiber"
+  },
+  {
+   "label": "Tweeter",
+   "value": "1 in. (25 mm) Silk DPSD; Steerable up to 30° off-axis"
+  },
+  {
+   "label": "Crossover Slope",
+   "value": "30 dB/oct"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "3 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "60 Hz to 20 kHz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "41 Hz to 20 kHz (±10 dB)"
+  },
+  {
+   "label": "Power Handling",
+   "value": "Program: 100 W; Peak: 200 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB @ 1 W/1 M"
+  },
+  {
+   "label": "Input connection",
+   "value": "(2) Gold-plated spring terminals"
+  },
+  {
+   "label": "Maximum Wire Size",
+   "value": "10 AWG (6 mm²)"
+  },
+  {
+   "label": "Baffle",
+   "value": "Glass fiber reinforced ABS"
+  }
+ ],
  "acc": [
   "6511894",
   "6512636"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Ceiling-Speakers/REFERENCE-IC6-W-T-EACH",
+ "checked": "2026-10-18"
 }

@@ -1,13 +1,60 @@
 {
  "sku": "Z1015.000",
- "order": 760,
+ "order": 751,
  "n": "U7 Loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "55 Hz - 18 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "105 Hz - 18 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with D90/D80/D40/D25/D20: 136 dB; with 5D/25D/30D/40D: 136 dB; with 10D: 133 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "2"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "6 ohms"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "400/1400 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "80° x 55°"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 8\" driver with neodymium magnet / 1 x 1.26\" exit HF compression driver with 2.4\" coil / Rotatable CD horn / Passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "NL4 M and 2-pin Euroblock in parallel / Additional option: NLT4 F/M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "24 x 10.6 x 14\" / 611 x 268 x 355 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "42.3 lb / 19.2 kg"
+  }
+ ],
  "acc": [
   "Z5806.000"
- ]
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/all/series/u-series/u7/",
+ "checked": "2026-10-18"
 }

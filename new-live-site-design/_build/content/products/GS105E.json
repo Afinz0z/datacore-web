@@ -1,16 +1,59 @@
 {
  "sku": "GS105E",
- "order": 2902,
+ "order": 2890,
  "n": "5-port Gigabit Ethernet Plus Switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "5PT GIGE SMART MANAGED PLUS SWCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Gigabit Ports",
+   "value": "5"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "8K"
+  },
+  {
+   "label": "FAN",
+   "value": "0"
+  },
+  {
+   "label": "Acoustic Noise Level @25C (dBA)",
+   "value": "0"
+  },
+  {
+   "label": "MTBF",
+   "value": "2.531.294"
+  },
+  {
+   "label": "Electromagnetic Compliance (A or B)",
+   "value": "B"
+  },
+  {
+   "label": "Weight (kg)",
+   "value": "0.252kg"
+  },
+  {
+   "label": "Dimensions (WxDxH) mm",
+   "value": "94x100x27"
+  },
+  {
+   "label": "Power supply",
+   "value": "External power adapter; Switch Input: 12VDC/1A"
+  },
+  {
+   "label": "Max consumption (Watts)",
+   "value": "2.6W"
+  }
+ ],
  "acc": [
   "DRV-GS105E-12",
   "DRV-GS105E-36",
   "DRV-GS105E-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/easy-smart/gs105ev2/",
+ "checked": "2026-10-18"
 }

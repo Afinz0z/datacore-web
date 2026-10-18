@@ -1,11 +1,62 @@
 {
  "sku": "869583-2120",
- "order": 710,
+ "order": 701,
  "n": "S1 PRO+ WIRELESS PA SYSTEM",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "BOSE S1 PRO+ WIRELESS PA SYSTEM,120V US",
- "specs": []
+ "specs": [
+  {
+   "label": "Processing Functions",
+   "value": "EQ, reverb"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Grille",
+   "value": "Steel, powder-coated finish"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "35 mm stand flange"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "120°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "109 dB"
+  },
+  {
+   "label": "Coverage, Vertical",
+   "value": "50°"
+  },
+  {
+   "label": "High-Frequency",
+   "value": "3 × 2.25 in (57 mm) tweeter"
+  },
+  {
+   "label": "Low-Frequency",
+   "value": "1 × 6 in (152 mm) woofer"
+  },
+  {
+   "label": "Enclosure Material",
+   "value": "Polypropylene plastic"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "13.1 in × 9.4 in × 11 in (333 mm × 239 mm × 279 mm)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "14.4 lb / 6.5 kg"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/portable-pa/powered-loudspeakers/s1-powered-loudspeakers/bose-s1-pro-portable-bluetooth-speaker-system",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "760109462",
- "order": 3957,
+ "order": 3939,
  "n": "Commscope Mod Panel Blank Adapter Pack, 4 Panels",
  "b": "CommScope",
  "c": "Fiber adaptor",
@@ -9,12 +9,42 @@
  "d": "360G2 Mod Panel Blank Adapter Pack, 4 Panels",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Pack"
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber adapter pack, blank"
+  },
+  {
+   "label": "Interface",
+   "value": "Unloaded"
+  },
+  {
+   "label": "Interface Feature",
+   "value": "Blank plate"
+  },
+  {
+   "label": "Height",
+   "value": "30.48 mm | 1.2 in"
+  },
+  {
+   "label": "Width",
+   "value": "91.44 mm | 3.6 in"
+  },
+  {
+   "label": "Depth",
+   "value": "2.54 mm | 0.1 in"
+  },
+  {
+   "label": "Fiber Mode",
+   "value": "Multimode | Singlemode"
   }
  ],
  "for": [
   "760012161",
   "760231514"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-adapter-packs/item760109462/",
+ "checked": "2026-10-18"
 }

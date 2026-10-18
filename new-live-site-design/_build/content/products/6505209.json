@@ -1,6 +1,6 @@
 {
  "sku": "6505209",
- "order": 1628,
+ "order": 1616,
  "n": "Control Port Expansion Module Compatible with any Crestron 2-Series (C2N-IO)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "C2N-IO",
  "d": "C2N-IO Control Port Expansion Module Compatible with any Crestron 2-Series, 3-Series®, or 4-Series® control system",
- "specs": []
+ "specs": [
+  {
+   "label": "Cresnet® Network",
+   "value": "Cresnet client mode, 2-Series, 3-Series®, or 4-Series® control system compatible"
+  },
+  {
+   "label": "RS-232",
+   "value": "Supports 2-way device control and monitoring up to 115.2k baud with software; handshaking"
+  },
+  {
+   "label": "IR/Serial",
+   "value": "Supports 1-way device control via infrared up to 1.2 MHz or serial TTL/RS-232 (0-5 VDC) up to 115.2k baud"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "2.5 W (105 mA @ 24 VDC)"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "3.5 BTU/hr"
+  },
+  {
+   "label": "Construction",
+   "value": "Metal, freestanding or surface mount, surface mount bracket and 3M® Dual Lock® reclosable fastener included, fits inside a 2-gang electrical box or 2-gang UK (BS 4662) electrical box"
+  },
+  {
+   "label": "Height",
+   "value": "2.25 in. (58 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.50 in. (89 mm), 4.38 in (112 mm) with bracket"
+  },
+  {
+   "label": "Depth",
+   "value": "0.83 in. (21 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (noncondensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "2.7 oz (75 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Expansion-IO/C2N-IO",
+ "checked": "2026-10-18"
 }

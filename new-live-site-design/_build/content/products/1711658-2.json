@@ -1,6 +1,6 @@
 {
  "sku": "1711658-2",
- "order": 2466,
+ "order": 2454,
  "n": "Rail adaptor cover for RJ45 modular jack",
  "b": "CommScope",
  "c": "Adapters",
@@ -9,11 +9,45 @@
  "d": "DIN rail adaptor cover for RJ45 modular jack",
  "specs": [
   {
-   "label": "Type",
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
    "value": "Cover"
+  },
+  {
+   "label": "Color",
+   "value": "Gray"
+  },
+  {
+   "label": "Height",
+   "value": "77.7 mm | 3.059 in"
+  },
+  {
+   "label": "Width",
+   "value": "2.13 mm | 0.084 in"
+  },
+  {
+   "label": "Depth",
+   "value": "64.5 mm | 2.539 in"
+  },
+  {
+   "label": "Environmental Space",
+   "value": "Indoor"
+  },
+  {
+   "label": "Material Type",
+   "value": "Polyamide (PA) 30% glass filled"
+  },
+  {
+   "label": "Packaging Type",
+   "value": "Bag"
   }
  ],
  "for": [
   "2153365-2"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/accessories/item1711658-2/",
+ "checked": "2026-10-18"
 }

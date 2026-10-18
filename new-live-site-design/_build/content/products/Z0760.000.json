@@ -1,10 +1,53 @@
 {
  "sku": "Z0760.000",
- "order": 1238,
+ "order": 1226,
  "n": "SL- SUBWOOFER",
  "b": "d&b audiotechnik",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "33 Hz - 84 Hz"
+  },
+  {
+   "label": "Frequency response (–5 dB INFRA mode)",
+   "value": "30 Hz - 65 Hz"
+  },
+  {
+   "label": "Max. sound pressure with D80/D90",
+   "value": "144 dB"
+  },
+  {
+   "label": "Cabinets per D80",
+   "value": "2"
+  },
+  {
+   "label": "Nominal impedance front/rear",
+   "value": "3/6 ohms"
+  },
+  {
+   "label": "Power handling capacity rear (RMS/peak 10 ms)",
+   "value": "500/2000 W"
+  },
+  {
+   "label": "Components",
+   "value": "3 x 21\" driver"
+  },
+  {
+   "label": "Connections",
+   "value": "1 x NLT4 F"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "585 x 1300 x 975 / 1100 mm / 23.0 x 51.2 x 38.4 / 43.3\""
+  },
+  {
+   "label": "Weight",
+   "value": "138 kg / 304 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/all/series/sl-series/sl-sub/",
+ "checked": "2026-10-18"
 }

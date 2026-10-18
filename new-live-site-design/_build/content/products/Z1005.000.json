@@ -1,13 +1,60 @@
 {
  "sku": "Z1005.000",
- "order": 758,
+ "order": 749,
  "n": "U3 Loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "61 Hz - 18 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "105 Hz - 18 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with D90/D80/D40/D25/D20: 128 dB; with 5D/25D/30D/40D: 128 dB; with 10D: 126 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "3"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "12 ohms"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "150/500 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "100° x 65°"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 5\" driver with neodymium magnet / 1 x 0.75\" exit HF compression driver with 1.4\" coil / Rotatable CD horn / Passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "NL4 M and 2-pin Euroblock in parallel / Additional option: NLT4 F/M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "16.2 x 7.4 x 9.6\" / 411 x 187 x 245 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "15.7 lb / 7.1 kg"
+  }
+ ],
  "acc": [
   "Z5802.000"
- ]
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/all/series/u-series/u3/",
+ "checked": "2026-10-18"
 }

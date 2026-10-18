@@ -1,14 +1,45 @@
 {
  "sku": "VX-300LO",
- "order": 1513,
+ "order": 1501,
  "n": "Line Output Module",
  "b": "TOA",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "Supplied from VX-3000 frame"
+  },
+  {
+   "label": "Frequency response",
+   "value": "40 Hz - 20 kHz"
+  },
+  {
+   "label": "Audio output",
+   "value": "Transformer balanced, 3-pin removable screw terminal"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel"
+  },
+  {
+   "label": "Current consumption",
+   "value": "2 mA"
+  },
+  {
+   "label": "Dimensions",
+   "value": "76 x 39 x 33.2 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "56 g"
+  }
+ ],
  "for": [
   "VX-3004F",
   "VX-3008F"
- ]
+ ],
+ "src": "https://www.toa.co.uk/products/vx-300lo/",
+ "checked": "2026-10-18"
 }

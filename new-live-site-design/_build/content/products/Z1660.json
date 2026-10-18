@@ -1,10 +1,61 @@
 {
  "sku": "Z1660",
- "order": 751,
+ "order": 742,
  "n": "42S loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "77 Hz -20 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "130 Hz -20 kHz"
+  },
+  {
+   "label": "Max. sound pressure with 5D",
+   "value": "117 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "5D/5DM: 4 recommended, 6 max.; 10D/25D/30D/40D: 8; D20/D25/D40/D80/D90: 8"
+  },
+  {
+   "label": "Configuration",
+   "value": "Ultra-compact universal high performance 2-way loudspeaker with an asymmetric cabinet shape"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "24 ohms"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "75/250 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "120° x 90°"
+  },
+  {
+   "label": "Components",
+   "value": "1 x 4.5″ driver with neodymium magnet / 1 x 0.75″ dome tweeter"
+  },
+  {
+   "label": "Connections",
+   "value": "4-pin Phoenix Euroblock / 2 x NL4 M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "128 x 220 x 150 mm / 140 x 310 x 180 mm with Backbox / 5 x 8.7 x 5.9″ / 5.5 x 12.2 x 7.1″ with Backbox"
+  },
+  {
+   "label": "Weight",
+   "value": "1.6 kg / 3.6 kg with backbox / 3.5 lb / 8 lb with backbox"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/xs-series/42s/",
+ "checked": "2026-10-18"
 }

@@ -1,13 +1,64 @@
 {
  "sku": "A09D4AA",
- "order": 451,
+ "order": 443,
  "n": "Poly V52 UVB",
  "b": "HP Poly",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Network capabilities",
+   "value": "IPv4; IPv6; 1x 10/100/1G Ethernet; Web proxy support: basic, digest, and NTLM"
+  },
+  {
+   "label": "Sensitivity (speaker)",
+   "value": "79 dB"
+  },
+  {
+   "label": "Microphone type",
+   "value": "Two MEMS microphones; Two second-order microphones"
+  },
+  {
+   "label": "Microphone pickup range (metric)",
+   "value": "Up to 6.09 m"
+  },
+  {
+   "label": "Speaker output power",
+   "value": "2 x 20 W (40 W maximum)"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Dual speakers"
+  },
+  {
+   "label": "Audio",
+   "value": "Full duplex audio; Acoustic echo cancellation; Poly NoiseBlockAI technology; Poly Acoustic Fence technology; Automatic gain control (AGC)"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Heat dissipation cooling",
+   "value": "65 BTU/h"
+  },
+  {
+   "label": "Power",
+   "value": "37 VA, 120 V 60 Hz; 37 VA, 230 V 50/60 Hz"
+  },
+  {
+   "label": "Interoperability",
+   "value": "Google Meet, Microsoft Teams, Zoom certified; USB Device mode"
+  },
+  {
+   "label": "Management Software",
+   "value": "Poly Lens Cloud"
+  }
+ ],
  "acc": [
   "U86MRPV"
- ]
+ ],
+ "src": "https://www.hp.com/ch-en/shop/products/accessories/poly-studio-v52-usb-video-bar-a09d4aa-uuz",
+ "checked": "2026-10-18"
 }

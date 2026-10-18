@@ -1,11 +1,62 @@
 {
  "sku": "AM-TX3-100",
- "order": 558,
+ "order": 549,
  "n": "Airmedia connector adaptor",
  "b": "Crestron",
  "c": "Wireless content sharing",
  "dept": "AV",
  "avail": "lead",
  "d": "AirMedia® Series 3 Connect Adaptor",
- "specs": []
+ "specs": [
+  {
+   "label": "Wi-Fi",
+   "value": "Dual-band WiFi 6 802.11a/b/g/n/ac/ax (2.4 GHz & 5 GHz); Up to 70 ft (23 m) range at 80 Mbps, subject to site-specific conditions"
+  },
+  {
+   "label": "USB",
+   "value": "USB 2.0"
+  },
+  {
+   "label": "Input Signal Types",
+   "value": "DisplayPort™ Alt Mode over USB-C"
+  },
+  {
+   "label": "Output Signal Types",
+   "value": "Network stream over Wi-Fi, received by a paired AirMedia Series 3 receiver (AM-3000-WF, AM-3100-WF or AM-3200-WF)"
+  },
+  {
+   "label": "Maximum Output Resolution",
+   "value": "3840x2160@30Hz (2160p30); Output resolution is determined by the HDMI® output on a paired AirMedia Series 3 receiver (AM-3000-WF, AM-3100-WF or AM-3200-WF)"
+  },
+  {
+   "label": "Audio input signal types",
+   "value": "DisplayPort Alt over USB-C"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "Network stream over Wi-Fi, received by a paired AirMedia Series 3 receiver (AM-3000-WF, AM-3100-WF or AM-3200-WF)"
+  },
+  {
+   "label": "Audio input/output format",
+   "value": "2 channel LPCM"
+  },
+  {
+   "label": "Power USB",
+   "value": "Powered via USB-C connection to personal device"
+  },
+  {
+   "label": "Heat Dissipation",
+   "value": "8.5 BTU/hr"
+  },
+  {
+   "label": "Construction chassis",
+   "value": "Plastic, black finish"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "Freestanding"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Presentation-and-Conferencing/AirMedia/Transmitter/AM-TX3-100",
+ "checked": "2026-10-18"
 }

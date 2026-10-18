@@ -1,14 +1,33 @@
 {
  "sku": "6514209",
- "order": 4024,
+ "order": 4006,
  "n": "CEN-SWSFP-PWS350",
  "b": "Crestron",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
  "d": "CEN-SWSFP-PWS350 350 W Power Supply Unit for CEN-SWSFP-28 or CEN-SWPOE-52 Network Switch",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power Inlet",
+   "value": "(1) C14 110-240VAC power input"
+  },
+  {
+   "label": "Power Output",
+   "value": "Up to 350 W at 110/220VAC"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 113° F (0° to 45° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  }
+ ],
  "for": [
   "6514196"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Accessories/Power-Supplies/Network-Switch-Power-Supplies/CEN-SWSFP-PWS350",
+ "checked": "2026-10-18"
 }

@@ -1,16 +1,67 @@
 {
  "sku": "GS116PP",
- "order": 2883,
+ "order": 2871,
  "n": "16PT POE/POE+GIGABIT UNMANAGED SWCH (183W) - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "16-Port Gigabit Ethernet Unmanaged Switch High-Power PoE+ Switch with FlexPoE (183W)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Speed",
+   "value": "Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "16"
+  },
+  {
+   "label": "Number of PoE+ Ports",
+   "value": "16 PoE+ ports, up to 30W per port"
+  },
+  {
+   "label": "PoE Budget",
+   "value": "183W"
+  },
+  {
+   "label": "MAC Table Size",
+   "value": "4K"
+  },
+  {
+   "label": "IEEE 802.1p QoS",
+   "value": "Yes"
+  },
+  {
+   "label": "Fans",
+   "value": "0"
+  },
+  {
+   "label": "MTBF (hours)",
+   "value": "2,362,192 hours"
+  },
+  {
+   "label": "FCC Class",
+   "value": "Class A"
+  },
+  {
+   "label": "Dimensions (W x D x H)",
+   "value": "286 x 102 x 27 mm 11.26 x 4.02 x 1.06 in"
+  },
+  {
+   "label": "Weight",
+   "value": "0.88kg"
+  },
+  {
+   "label": "Max Power Consumption",
+   "value": "200W"
+  }
+ ],
  "acc": [
   "DRV-GS116PP-12",
   "DRV-GS116PP-36",
   "DRV-GS116PP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/unmanaged/gs116pp/",
+ "checked": "2026-10-18"
 }

@@ -1,16 +1,67 @@
 {
  "sku": "GS728TPP",
- "order": 2895,
+ "order": 2883,
  "n": "28PT GE POE+ SMART SWITCH - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24-Port Gigabit Ethernet Smart Switch PoE+ (380W), optional Remote/Cloud Management and 4*1G SFP Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Gigabit ports",
+   "value": "24"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Number of PoE ports",
+   "value": "24"
+  },
+  {
+   "label": "PoE+ (802.3at)",
+   "value": "24"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "380W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "32"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS728TPP-12",
   "DRV-GS728TPP-36",
   "DRV-GS728TPP-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs728tppv3/",
+ "checked": "2026-10-18"
 }

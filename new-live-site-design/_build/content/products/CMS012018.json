@@ -1,6 +1,6 @@
 {
  "sku": "CMS012018",
- "order": 1616,
+ "order": 1604,
  "n": "12-18 Inch Adjustable Extension Column, Pole (CMS012018)",
  "b": "Chief",
  "c": "Extenders",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "CMS012018",
  "d": "CMS012018, 12-18 Inch Adjustable Extension Column, Pole",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "2.3 in (5.8 cm)"
+  },
+  {
+   "label": "Extension",
+   "value": "12\" - 18\" (30.48cm - 45.72cm)"
+  },
+  {
+   "label": "Height",
+   "value": "108 in (274.3 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.3 in (5.8 cm)"
+  },
+  {
+   "label": "Application",
+   "value": "Pole"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "2.44 lbs (1.1 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "500 lbs (226.8 kg)"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/accessories/projector-accessories/extension-adjustable/cms012018",
+ "checked": "2026-10-18"
 }

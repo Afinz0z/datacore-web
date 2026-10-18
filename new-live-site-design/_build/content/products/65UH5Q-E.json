@@ -1,6 +1,6 @@
 {
  "sku": "65UH5Q-E",
- "order": 48,
+ "order": 44,
  "n": "65\" UHD Standard Signage (65UH5Q-E)",
  "b": "LG",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "65UH5Q-E",
  "d": "65\" UHD Standard Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size (Inch)",
+   "value": "65\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "ADS"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Edge"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz"
+  },
+  {
+   "label": "Brightness",
+   "value": "500nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,200:1 (Typ)"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "1,000,000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "BT709 95%"
+  },
+  {
+   "label": "Viewing Angle (H x V)",
+   "value": "178 x 178"
+  },
+  {
+   "label": "Color Depth (Number of Colors)",
+   "value": "10bit(D), 1.07Billion colors"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-65uh5q-e",
+ "checked": "2026-10-18"
 }

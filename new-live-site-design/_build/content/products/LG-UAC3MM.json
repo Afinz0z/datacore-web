@@ -1,6 +1,6 @@
 {
  "sku": "LG-UAC3MM",
- "order": 2421,
+ "order": 2409,
  "n": "USB Cable-LG-UAC3MM",
  "b": "Logic",
  "c": "AV CABLE",
@@ -9,8 +9,46 @@
  "d": "Logic USB 3.0V Type A to Type C Cable 3m - Male to Male Copper Cable",
  "specs": [
   {
-   "label": "Type",
-   "value": "USB Cable"
+   "label": "Connector",
+   "value": "Type A (male) to Type c (male)"
+  },
+  {
+   "label": "Available Cable Length",
+   "value": "1.8 m (5.9 ft) , 3 m (9.8 ft)"
+  },
+  {
+   "label": "Version",
+   "value": "3.2 Gen 1"
+  },
+  {
+   "label": "Data Transfer Speed",
+   "value": "5 Gbps"
+  },
+  {
+   "label": "Conductor",
+   "value": "Copper"
+  },
+  {
+   "label": "Transmission Type",
+   "value": "Uni-Directiona"
+  },
+  {
+   "label": "Nominal Voltage",
+   "value": "20 Volts"
+  },
+  {
+   "label": "Maximum Current",
+   "value": "3A"
+  },
+  {
+   "label": "Min. Bend Radius",
+   "value": "90mm"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-40 ℃C ~ +85 ℃C"
   }
- ]
+ ],
+ "src": "https://www.logicav.in/connectivity-solutions/av-cables/lg-uac3mm",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,34 @@
 {
  "sku": "939-001799",
- "order": 2428,
+ "order": 2416,
  "n": "USB 3.1 CABLE",
  "b": "Logitech",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - STRONG USB 3.1 CABLE - GRAPHITE - USB - N/A - WW-9004 - 10M AOC CABLE",
- "specs": []
+ "specs": [
+  {
+   "label": "Throughput",
+   "value": "SuperSpeed USB 10 Gbps"
+  },
+  {
+   "label": "Tensile strength",
+   "value": "200 newtons"
+  },
+  {
+   "label": "Crush load",
+   "value": "1000 kg"
+  },
+  {
+   "label": "Dynamic bend radius (minimum)",
+   "value": "0.98 in (25 mm)"
+  },
+  {
+   "label": "Conduit Diameter (minimum)",
+   "value": "0.75 in (19 mm)"
+  }
+ ],
+ "src": "https://www.logitech.com/en-us/business/shop/p/strong-usb-cable",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,61 @@
 {
  "sku": "760230946",
- "order": 3954,
+ "order": 3936,
  "n": "12-Port LC Single-Mode Fiber Adapter Pack",
  "b": "CommScope",
  "c": "Fiber adaptor",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The CommScope 360DPis-12LC-SM is a G2 fiber adapter pack designed for high-density fiber distribution systems. It provides 12 LC/UPC single-mode ports with internal shutters for dust protection and enhanced laser safety. It is compatible with CommScope EPX, HD, and other G2 modular fiber panels and enclosures.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber adapter pack"
+  },
+  {
+   "label": "Product Series",
+   "value": "G2"
+  },
+  {
+   "label": "Adapter Color",
+   "value": "Blue"
+  },
+  {
+   "label": "Interface",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Interface Feature",
+   "value": "Internal shutters"
+  },
+  {
+   "label": "Shuttered",
+   "value": "Yes"
+  },
+  {
+   "label": "Fiber Mode",
+   "value": "Singlemode"
+  },
+  {
+   "label": "Qualification Standards",
+   "value": "IEC 61753-1 | TIA-568.3-D"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "UL"
+  },
+  {
+   "label": "Alignment Sleeve Material",
+   "value": "Zirconia"
+  }
+ ],
  "for": [
   "760251048"
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/fiber-panels-modules-cassettes/fiber-adapter-packs/item760230946/",
+ "checked": "2026-10-18"
 }

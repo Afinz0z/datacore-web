@@ -1,6 +1,6 @@
 {
  "sku": "ANI4OUT-XLR",
- "order": 1997,
+ "order": 1985,
  "n": "ANI4OUT Audio Network Interface - 4CH Mic Line Out (ANI4OUT-XLR)",
  "b": "Shure",
  "c": "Converter",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "ANI4OUT-XLR",
  "d": "ANI4OUT Audio Network Interface - 4CH Mic Line Out",
- "specs": []
+ "specs": [
+  {
+   "label": "Analog Outputs",
+   "value": "4 Mic/Line/Aux with PEQ"
+  },
+  {
+   "label": "Dante Inputs",
+   "value": "4"
+  },
+  {
+   "label": "USB Audio",
+   "value": "no"
+  },
+  {
+   "label": "Acoustic Echo Cancelation",
+   "value": "no"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "no"
+  },
+  {
+   "label": "Automatic Mixing",
+   "value": "No (Summing available)"
+  },
+  {
+   "label": "Matrix Mixing",
+   "value": "no"
+  },
+  {
+   "label": "Stereo/Mono",
+   "value": "Mono"
+  },
+  {
+   "label": "Weight",
+   "value": "663 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/mixers/ani4out",
+ "checked": "2026-10-18"
 }

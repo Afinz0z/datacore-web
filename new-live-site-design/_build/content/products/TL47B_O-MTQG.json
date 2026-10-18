@@ -1,6 +1,6 @@
 {
  "sku": "TL47B/O-MTQG",
- "order": 1115,
+ "order": 1104,
  "n": "OMNI Lavalier Microphone, LOW SENS, MTQG,BLACK (TL47B/O-MTQG)",
  "b": "Shure",
  "c": "Mic",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "TL47B/O-MTQG",
  "d": "OMNI Lavalier Microphone, LOW SENS, MTQG,BLACK",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensitivity",
+   "value": "-45.00 dBV/Pa–5.62 mV/Pa"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz–20 kHz"
+  },
+  {
+   "label": "Impedance (Ω)",
+   "value": "100"
+  },
+  {
+   "label": "Weight",
+   "value": "12 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/microphones/tl47",
+ "checked": "2026-10-18"
 }

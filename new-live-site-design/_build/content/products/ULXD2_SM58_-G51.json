@@ -1,6 +1,6 @@
 {
  "sku": "ULXD2/SM58=-G51",
- "order": 1121,
+ "order": 1110,
  "n": "ULXD2 Wireless Handheld W/SM58 Head (ULXD2/SM58=-G51)",
  "b": "Shure",
  "c": "Mic",
@@ -8,5 +8,28 @@
  "avail": "lead",
  "model": "ULXD2/SM58=-G51",
  "d": "ULXD2 WIRELESS HANDHELD W/SM58 HEAD",
- "specs": []
+ "specs": [
+  {
+   "label": "Batteries",
+   "value": "AA, Shure Lithium-Ion battery"
+  },
+  {
+   "label": "Battery Status",
+   "value": "Leveled battery life indication with AA, HH:MM (Hours and minutes) with rechargeable Shure battery"
+  },
+  {
+   "label": "Encryption",
+   "value": "yes, AES-256"
+  },
+  {
+   "label": "Transmission",
+   "value": "Digital in VHF, UHF, 900MHz ISM, 1.2 GHz, 1.5 GHz, 1.8 GHz"
+  },
+  {
+   "label": "Weight",
+   "value": "340 g"
+  }
+ ],
+ "src": "https://www.shure.com/en-US/products/wireless-systems/ulx-d_digital_wireless/ulxd2_sm58",
+ "checked": "2026-10-18"
 }

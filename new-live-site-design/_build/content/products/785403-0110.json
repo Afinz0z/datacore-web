@@ -1,11 +1,62 @@
 {
  "sku": "785403-0110",
- "order": 1312,
+ "order": 1300,
  "n": "T4S ToneMatch mixer",
  "b": "Bose",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
  "d": "T4S ToneMatch 4 channel Mixer",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Channels",
+   "value": "4 XLR combo jacks, 2 TRS 1/4-in jacks"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "48 VDC, all channels"
+  },
+  {
+   "label": "Channels",
+   "value": "4 balanced, line"
+  },
+  {
+   "label": "Computer Interface Connection",
+   "value": "USB Type-B"
+  },
+  {
+   "label": "Display",
+   "value": "OLED"
+  },
+  {
+   "label": "Equalization",
+   "value": "3-band EQ"
+  },
+  {
+   "label": "DSP-Enabled",
+   "value": "Yes"
+  },
+  {
+   "label": "Presets",
+   "value": "Bose factory presets, user presets"
+  },
+  {
+   "label": "Sample Rate / Bit Depth",
+   "value": "48 kHz / 24-bit"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Product Dimensions (H×W×D)",
+   "value": "8.4 in × 7.3 in × 3.3 in (214 mm × 184 mm × 83 mm)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "2.1 lb (1.0 kg)"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/portable-pa/mixers/tonematch/t4s-tonematch-mixer",
+ "checked": "2026-10-18"
 }

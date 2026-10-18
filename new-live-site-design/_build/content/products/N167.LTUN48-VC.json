@@ -1,6 +1,6 @@
 {
  "sku": "N167.LTUN48-VC",
- "order": 3936,
+ "order": 3918,
  "n": "48-Core Multimode Fiber Optical Cable- OM4",
  "b": "Nexans",
  "c": "MULTI MODE FIBER OPTIC CABLE",
@@ -9,8 +9,54 @@
  "d": "LANmark-OF Loose Tube Universal 48xMultimode 50/125 OM4 LSZH Cca Violet",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Construction type",
+   "value": "Loose Tube"
+  },
+  {
+   "label": "Fiber optic type",
+   "value": "OM4 50/125"
+  },
+  {
+   "label": "Halogen free",
+   "value": "IEC 60754-2"
+  },
+  {
+   "label": "Outer sheath",
+   "value": "LSZH"
+  },
+  {
+   "label": "Nominal outer diameter (mm)",
+   "value": "10.4 mm"
+  },
+  {
+   "label": "Number of optical fibres",
+   "value": "48"
+  },
+  {
+   "label": "Number of tubes",
+   "value": "4"
+  },
+  {
+   "label": "Crush resistance (IEC 60794-1-E3)",
+   "value": "2000/10 N/cm"
+  },
+  {
+   "label": "Maximum pulling force (IEC 60794-1-2-E1)",
+   "value": "1800 N"
+  },
+  {
+   "label": "Nominal permanent tensile strength",
+   "value": "0.6 kN"
+  },
+  {
+   "label": "Flame retardant",
+   "value": "IEC 60332-3-24"
+  },
+  {
+   "label": "Installation type",
+   "value": "Indoor/Outdoor"
   }
- ]
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/fibre-lan-systems/fibre-cables/lanmark-loose-tube-universal-48-72-96-144fo-cca/lanmark-loose-tube-universal-48xmultimode-50125-om4-lszh-cca-violet",
+ "checked": "2026-10-18"
 }

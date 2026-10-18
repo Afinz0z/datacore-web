@@ -1,14 +1,65 @@
 {
  "sku": "TesiraFORTÉ AVB CI",
- "order": 1142,
+ "order": 1130,
  "n": "Fixed I/O DSP -TesiraFORTÉ AVB CI",
  "b": "Biamp",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
  "d": "BIAMP Fixed I/O DSP with 12 analog inputs, 8 analog outputs, 8 channels configurable USB audio, 128 x 128 channels of AVB, and AEC technology (all 12 inputs)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.75 inches (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "19.0 inches (483 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "10.5 inches (267 mm)"
+  },
+  {
+   "label": "Power",
+   "value": "Power Consumption: 100-240VAC 50/60Hz: < 35W"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48VDC (7mA/input)"
+  },
+  {
+   "label": "Audio",
+   "value": "Fixed I/O DSP with 12 analog inputs and 8 analog outputs and includes Acoustic Echo Cancellation (AEC) technology on all 12 inputs. It also includes up to 8 channels of configurable USB audio."
+  },
+  {
+   "label": "Input Type",
+   "value": "USB: Bit Depth: 16- or 24-bit Number of Channels: up to 8 Sample Rate: 48kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "(balanced): 8kΩ"
+  },
+  {
+   "label": "Input Gain Range",
+   "value": "(6dB steps): 0-66dB"
+  },
+  {
+   "label": "Maximum Input",
+   "value": "+24dBu"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "(balanced): 207Ω"
+  },
+  {
+   "label": "Maximum Output",
+   "value": "(selectable): +24dBu, +18dBu, +12dBu, +6dBu, 0dBu, -31dBu"
+  }
+ ],
  "acc": [
   "Tesira EX-OUT"
- ]
+ ],
+ "src": "https://products.biamp.com/product-details/d/TesiraFORTE-AVB-CI/ecom-item/920-00395-00001",
+ "checked": "2026-10-18"
 }

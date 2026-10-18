@@ -1,6 +1,6 @@
 {
  "sku": "6513476",
- "order": 2574,
+ "order": 2562,
  "n": "Retrofit Mounting Bracket for TSS-470E, 2-Gang (TSS-470E-RMB-2G)",
  "b": "Crestron",
  "c": "Mount",
@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "TSS-470E-RMB-2G",
  "d": "TSS-470E-RMB-2G Retrofit Mounting Bracket for TSS-470E, 2-Gang",
- "specs": [],
+ "specs": [
+  {
+   "label": "Construction",
+   "value": "Metal adapter and mounting plates for installation over a 2-gang U.S. electrical box"
+  },
+  {
+   "label": "Height",
+   "value": "4.70 in. (119 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "4.70 in. (119 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.06 in. (2 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "5.3 oz (150 g)"
+  }
+ ],
  "for": [
   "6512606"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Scheduling/Desk-Scheduling/Accessories/TSS-470E-RMB-2G",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "IPS-AC1",
- "order": 4070,
+ "order": 4052,
  "n": "PSU, input DIN-Rail",
  "b": "Zenitel",
  "c": "Power Supply",
@@ -9,11 +9,57 @@
  "d": "PSU, input 85-264 VAC, output 48VDC, DIN-Rail",
  "specs": [
   {
-   "label": "Type",
-   "value": "Din Rail"
+   "label": "Size (WxHxD)",
+   "value": "35 x 90 x 55 mm"
+  },
+  {
+   "label": "Nominal output voltage",
+   "value": "48V DC"
+  },
+  {
+   "label": "Voltage adjustment range",
+   "value": "43.2 - 55.2 V DC - fully within the ICX-500 min/max voltage specification"
+  },
+  {
+   "label": "Input voltage",
+   "value": "85VAC - 264VAC"
+  },
+  {
+   "label": "Rated power",
+   "value": "36W"
+  },
+  {
+   "label": "Vibration",
+   "value": "10 ~ 500Hz, 2G 10min./1cycle, period for 60min. each along X, Y, Z axes; Mounting: Compliance to IEC60068-2-6"
+  },
+  {
+   "label": "Mounting",
+   "value": "DIN rail TS-35/7.5 or 15 mountable"
+  },
+  {
+   "label": "EMC Emission",
+   "value": "EN55032, EN61000-3-2, EN61000-3-3"
+  },
+  {
+   "label": "EMC Immunity",
+   "value": "EN55024, EN55035, EN61000-6-2, EN61204-3, EN61000-4-2, EN61000-4-3, EN61000-4-4, EN61000-4-5, EN61000-4-6, EN61000-4-8, EN61000-4-11"
+  },
+  {
+   "label": "Safety",
+   "value": "UL60950-1, UL508, EN61558-2-16, IEC60950-1, EACTP TC 004, BSMI CNS14336-1"
+  },
+  {
+   "label": "Weight",
+   "value": "0.12 kg including packaging"
+  },
+  {
+   "label": "Storage Temperature and humidity",
+   "value": "-40 °C to 85 °C; 10-95 % non-condensing"
   }
  ],
  "for": [
   "ICX-510-IA"
- ]
+ ],
+ "src": "https://www.zenitel.com/product/ips-ac1",
+ "checked": "2026-10-18"
 }

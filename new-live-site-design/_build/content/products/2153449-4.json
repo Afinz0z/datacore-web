@@ -1,10 +1,61 @@
 {
  "sku": "2153449-4",
- "order": 3809,
+ "order": 3821,
  "n": "AMP-TWIST SLX,6AS, GY",
  "b": "CommScope",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "NETCONNECT®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular jack"
+  },
+  {
+   "label": "Product Series",
+   "value": "SLX Series"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Shielded"
+  },
+  {
+   "label": "Color",
+   "value": "Gray"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Mounting",
+   "value": "SL Series faceplates and panels"
+  },
+  {
+   "label": "Termination Tool",
+   "value": "JTT Termination tool"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
+  },
+  {
+   "label": "Transmission Standards",
+   "value": "ANSI/TIA-568.2-D | ISO/IEC 11801 Class EA"
+  },
+  {
+   "label": "Wiring",
+   "value": "T568A | T568B"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/category-6a-jacks/item2153449-4/",
+ "checked": "2026-10-18"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "6502480",
- "order": 4378,
+ "order": 4357,
  "n": "Green Light® Sensor Integration Module (GLS-SIM)",
  "b": "Crestron",
  "c": "Lighting Controller",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "GLS-SIM",
  "d": "GLS-SIM Crestron Green Light® Sensor Integration Module",
- "specs": []
+ "specs": [
+  {
+   "label": "Cresnet Power Usage",
+   "value": "1 W (0.04A @ 24 VDC) Does not include power draw of attached devices."
+  },
+  {
+   "label": "Height",
+   "value": "2.00 in. (51 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.00 in. (51 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.86 in. (22 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "0% to 95% RH (noncondensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "2 oz (46 g)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Sensors/Sensor-Accessories/GLS-SIM",
+ "checked": "2026-10-18"
 }

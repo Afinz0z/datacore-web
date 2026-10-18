@@ -1,16 +1,67 @@
 {
  "sku": "GS752TX",
- "order": 2900,
+ "order": 2888,
  "n": "48P GE SMART SWTH W/10G SFP+ - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "48-Port Gigabit Ethernet Smart Switch, (NON POE)optional Remote/Cloud Management and 4*10G SFP+ Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Width",
+   "value": "440mm"
+  },
+  {
+   "label": "Depth",
+   "value": "257mm"
+  },
+  {
+   "label": "Height",
+   "value": "43.2mm"
+  },
+  {
+   "label": "10/100Mbps ports",
+   "value": "48"
+  },
+  {
+   "label": "10G SFP+ ports",
+   "value": "4"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  },
+  {
+   "label": "Static route",
+   "value": "Yes"
+  },
+  {
+   "label": "Host ARP table",
+   "value": "512"
+  },
+  {
+   "label": "EEE",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "DRV-GS752TX-12",
   "DRV-GS752TX-36",
   "DRV-GS752TX-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs752txv3/",
+ "checked": "2026-10-18"
 }

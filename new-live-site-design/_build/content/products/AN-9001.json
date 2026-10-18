@@ -1,10 +1,29 @@
 {
  "sku": "AN-9001",
- "order": 1540,
+ "order": 1528,
  "n": "Ambient Noise Sensor Microphone",
  "b": "TOA",
  "c": "Sensors",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Directivity",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Finish",
+   "value": "ABS resin, Steel plate, white"
+  },
+  {
+   "label": "Dimensions",
+   "value": "130 x 37 mm (Ø x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "170 g"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/an-9001/",
+ "checked": "2026-10-18"
 }

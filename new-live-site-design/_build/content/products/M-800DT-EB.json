@@ -1,10 +1,33 @@
 {
  "sku": "M-800DT-EB",
- "order": 1509,
+ "order": 1497,
  "n": "Dante module",
  "b": "TOA",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power source",
+   "value": "supplied by main unit (Powered by M-8080D)"
+  },
+  {
+   "label": "Data I/F",
+   "value": "RGMII/MII"
+  },
+  {
+   "label": "Finish",
+   "value": "Steel plate, black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "122.2 x 33.5 x 119.5 mm (W x H x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.118 kg"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/m-800dt-eb/",
+ "checked": "2026-10-18"
 }

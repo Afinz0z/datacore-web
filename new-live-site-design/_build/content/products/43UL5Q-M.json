@@ -1,11 +1,62 @@
 {
  "sku": "43UL5Q-M",
- "order": 71,
+ "order": 64,
  "n": "UHD Signage Display",
  "b": "LG",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "43\"4K UHD Signage Brightness : 500 nit (Typ.)",
- "specs": []
+ "specs": [
+  {
+   "label": "Internal Memory (eMMC)",
+   "value": "8GB"
+  },
+  {
+   "label": "Wi-Fi/BT (Built-in)",
+   "value": "YES"
+  },
+  {
+   "label": "Auto Brightness Sensor",
+   "value": "YES"
+  },
+  {
+   "label": "Acceleration(Gyro) Sensor",
+   "value": "YES"
+  },
+  {
+   "label": "Power Indicator",
+   "value": "NO"
+  },
+  {
+   "label": "Local Key Operation",
+   "value": "YES"
+  },
+  {
+   "label": "Proximity Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "BLU Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Pixel Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Current Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "FAN (Built-in)",
+   "value": "NO"
+  },
+  {
+   "label": "DP In",
+   "value": "NO"
+  }
+ ],
+ "src": "https://www.lg.com/au/business/information-display/digital-signage/standard/43ul5q-m/",
+ "checked": "2026-10-18"
 }

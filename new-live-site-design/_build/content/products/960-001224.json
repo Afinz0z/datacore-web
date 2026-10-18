@@ -1,11 +1,62 @@
 {
  "sku": "960-001224",
- "order": 466,
+ "order": 458,
  "n": "Rally plus",
  "b": "Logitech",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "Logitech Rally Ultra-HD ConferenceCam - BLACK - USB -PLUGC - EMEA - DUAL SPEAKER EU",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "182.5 mm"
+  },
+  {
+   "label": "Width",
+   "value": "152 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "152 mm"
+  },
+  {
+   "label": "Rally Speaker height",
+   "value": "103 mm"
+  },
+  {
+   "label": "Rally Speaker width",
+   "value": "449 mm"
+  },
+  {
+   "label": "Rally Speaker depth",
+   "value": "80 mm"
+  },
+  {
+   "label": "Rally Mic Pod height",
+   "value": "21 mm"
+  },
+  {
+   "label": "Rally Mic Pod width",
+   "value": "102 mm"
+  },
+  {
+   "label": "Rally Mic Pod depth",
+   "value": "102 mm"
+  },
+  {
+   "label": "Rally Display Hub height",
+   "value": "40 mm"
+  },
+  {
+   "label": "Rally Display Hub width",
+   "value": "206 mm"
+  },
+  {
+   "label": "Rally Display Hub depth",
+   "value": "179 mm"
+  }
+ ],
+ "src": "https://www.logitech.com/en-eu/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html",
+ "checked": "2026-10-18"
 }

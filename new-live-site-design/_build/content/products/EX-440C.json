@@ -1,11 +1,62 @@
 {
  "sku": "EX-440C",
- "order": 1148,
+ "order": 1136,
  "n": "Conference DSP",
  "b": "Bose",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
  "d": "CONTROLSPACE EX-440C PROCESSOR 230V UK conference application eco cancellation",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "< -105 dB at +4 dBu, 1 kHz input signal"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "> 115 dB, A-weighted, 20 Hz – 18 kHz, analog input to analog output"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "18 Hz – 20 kHz (+0.8 dB/-0.2 dB), 1 kHz reference"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.003% at +4 dBu (A-weighted, 20 Hz – 18 kHz) / < 0.01% at +44 dBu (A-weighted, 20 Hz – 18 kHz)"
+  },
+  {
+   "label": "AEC-Enabled",
+   "value": "Yes"
+  },
+  {
+   "label": "Acoustic echo cancelation (aec) channels",
+   "value": "8"
+  },
+  {
+   "label": "Latency",
+   "value": "50 ms"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "32 dB"
+  },
+  {
+   "label": "References",
+   "value": "4"
+  },
+  {
+   "label": "Tail Length",
+   "value": "480 ms"
+  },
+  {
+   "label": "Input Channels",
+   "value": "4 balanced, mic/line"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(1) 6-pin Euroblock, 3.81 mm, detachable"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/processors/open-architecture-for-conferencing/ex-440/controlspace-ex-440c-conferencing-signal-processor",
+ "checked": "2026-10-18"
 }

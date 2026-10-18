@@ -1,6 +1,6 @@
 {
  "sku": "A02FDAA",
- "order": 2674,
+ "order": 2662,
  "n": "Poly Studio G62 Plate Mount",
  "b": "HP Poly",
  "c": "Mount",
@@ -9,7 +9,6 @@
  "d": "Poly Studio G62 Plate Mount (A02FDAA)",
  "specs": [],
  "for": [
-  "55UH5N-E",
   "99T09AA"
  ]
 }

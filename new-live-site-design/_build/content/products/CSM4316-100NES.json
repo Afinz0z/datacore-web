@@ -1,17 +1,52 @@
 {
  "sku": "CSM4316-100NES",
- "order": 2926,
+ "order": 2914,
  "n": "M4350-16C MANAGED SWITCH - Netgear",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "M4350-16C MANAGED SWITCH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Width",
+   "value": "440mm"
+  },
+  {
+   "label": "Depth",
+   "value": "400mm"
+  },
+  {
+   "label": "Height",
+   "value": "43.2mm"
+  },
+  {
+   "label": "Primary Port Speed",
+   "value": "100 Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "16 (16 x 100G QSFP28)"
+  },
+  {
+   "label": "Acoustics",
+   "value": "Quiet Mode 30.4dB@25ºC"
+  },
+  {
+   "label": "Weight",
+   "value": "8.03kg (17.70lb)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "Maximum: 161.9W/552.40Btu/hr Standby (no port connection): 69.1W/235.43Btu/hr"
+  }
+ ],
  "acc": [
   "APS1200W-200NES",
   "DRV-CSM4316-12",
   "DRV-CSM4316-36",
   "DRV-CSM4316-60"
- ]
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/fully-managed/csm4316/",
+ "checked": "2026-10-18"
 }

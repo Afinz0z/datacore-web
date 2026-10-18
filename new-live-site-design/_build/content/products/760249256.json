@@ -1,11 +1,62 @@
 {
  "sku": "760249256",
- "order": 3576,
+ "order": 3563,
  "n": "Dual faceplate-Systimax",
  "b": "CommScope",
  "c": "Faceplate",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FPUS-BS-2P-W, 2 PORT SHUTTERED WHITE, Faceplate Kit, universal, two ports, British Standard style, unshuttered, white",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Faceplate kit"
+  },
+  {
+   "label": "Product Series",
+   "value": "FPUS-BS"
+  },
+  {
+   "label": "Color",
+   "value": "Pro white"
+  },
+  {
+   "label": "Integrated Dust Cover Type",
+   "value": "Dust cover"
+  },
+  {
+   "label": "Mounting",
+   "value": "Flush"
+  },
+  {
+   "label": "Outlet Orientation",
+   "value": "Flat"
+  },
+  {
+   "label": "Port Marking Type",
+   "value": "Label"
+  },
+  {
+   "label": "Height",
+   "value": "86.106 mm | 3.39 in"
+  },
+  {
+   "label": "Width",
+   "value": "86.106 mm | 3.39 in"
+  },
+  {
+   "label": "Depth",
+   "value": "12.446 mm | 0.49 in"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "UL | cUL"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/faceplates-boxes/faceplates/item760249256/",
+ "checked": "2026-10-18"
 }

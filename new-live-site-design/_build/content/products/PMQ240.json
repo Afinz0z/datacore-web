@@ -1,6 +1,6 @@
 {
  "sku": "PMQ240",
- "order": 906,
+ "order": 897,
  "n": "WaveDynamics™ quad-channel 70/100V power amplifier",
  "b": "Audac",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Amplifier",
  "d": "WaveDynamics™ quad-channel 70/100V power amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Continuous power (aes) @ 8 ω",
+   "value": "4 x 240 W"
+  },
+  {
+   "label": "Continuous power (aes) @ 70 v",
+   "value": "4 x 240 W"
+  },
+  {
+   "label": "Continuous power (aes) @ 100 v",
+   "value": "4 x 240 W"
+  },
+  {
+   "label": "Frequency response (± 3 db)",
+   "value": "50 Hz - 20 kHz"
+  },
+  {
+   "label": "Signal / noise",
+   "value": "> 95 dB"
+  },
+  {
+   "label": "Thd+n (@ 1 khz)",
+   "value": "< 0.05% (1/2 Rated Power)"
+  },
+  {
+   "label": "Crosstalk (@ 1 khz)",
+   "value": "> 70 dB"
+  },
+  {
+   "label": "Min. load impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Technology",
+   "value": "Class-D"
+  },
+  {
+   "label": "Inputs sensitivity",
+   "value": "-30 dB ~ +5 dB"
+  },
+  {
+   "label": "Inputs impedance",
+   "value": "10 kΩ balanced"
+  },
+  {
+   "label": "Common mode rejection ratio",
+   "value": "70 dB"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/pmq240---wavedynamics-quad-channel-70-100v-power-amplifier",
+ "checked": "2026-10-18"
 }

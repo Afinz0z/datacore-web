@@ -1,11 +1,62 @@
 {
  "sku": "65TR3DQ-B",
- "order": 51,
+ "order": 47,
  "n": "65inch Interactive Display Board",
  "b": "LG",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "65\"Interactive Display Board, Internal Memory : 64GB (Storage) /8GB (RAM), Brightness (w/o Glass) : 440 nit (Max.) Multi-Touch Point : 40 Points (Max.)",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size (Inch)",
+   "value": "65\""
+  },
+  {
+   "label": "Panel Technology",
+   "value": "VA"
+  },
+  {
+   "label": "Back Light Type",
+   "value": "Direct"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160 (UHD)"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz"
+  },
+  {
+   "label": "Brightness",
+   "value": "400nit (Typ.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "5000:1"
+  },
+  {
+   "label": "Dynamic CR",
+   "value": "5000:1"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "NTSC 72%"
+  },
+  {
+   "label": "Viewing Angle (H x V)",
+   "value": "178 x 178"
+  },
+  {
+   "label": "Color Depth (Number of Colors)",
+   "value": "8bit+FRC, 1.07G"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/digital-signage/lg-65tr3dq-b",
+ "checked": "2026-10-18"
 }

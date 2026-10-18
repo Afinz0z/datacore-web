@@ -1,11 +1,62 @@
 {
  "sku": "TesiraFORTÉ DAN VT4",
- "order": 1139,
+ "order": 1127,
  "n": "Biamp TesiraFORTÉ DAN VT4",
  "b": "Biamp",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
  "d": "Delivers professional-grade communication performance with Dante networking and flexible I/O options. And Combine VoIP, analog telephony, and advanced AEC processing.",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "1.75 inches (44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "19.0 inches (483 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "10.5 inches (267 mm)"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "+48VDC (7mA/input)"
+  },
+  {
+   "label": "Input Type",
+   "value": "USB: Bit Depth: 16- or 24-bit Number of Channels: up to 8 Sample Rate: 48kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "(balanced): 8kΩ"
+  },
+  {
+   "label": "Input Gain Range",
+   "value": "(6dB steps): 0-66dB"
+  },
+  {
+   "label": "Maximum Input",
+   "value": "+24dBu"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "(balanced): 207Ω"
+  },
+  {
+   "label": "Maximum Output",
+   "value": "(selectable): +24dBu, +18dBu, +12dBu, +6dBu, 0dBu, -31dBu"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20Hz to 20kHz, +4dBu output: +0.25 dB/-0.5 dB"
+  },
+  {
+   "label": "EIN",
+   "value": "(no weighting, 22Hz to 22kHz): < -125dBu"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/TesiraFORTE-DAN-VT4/ecom-item/920-00453-00001",
+ "checked": "2026-10-18"
 }

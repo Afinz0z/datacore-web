@@ -1,6 +1,6 @@
 {
  "sku": "HG55U800FAUXUE",
- "order": 104,
+ "order": 96,
  "n": "55\" Google Chrome Cast Supported Hotel TV (HG55U800FAUXUE)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,11 +8,62 @@
  "avail": "lead",
  "model": "HG55U800FAUXUE",
  "d": "55\" Google Chrome Cast Supported Hotel TV",
- "specs": [],
+ "specs": [
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Screen Size",
+   "value": "55"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K (3,840 x 2,160)"
+  },
+  {
+   "label": "Picture Engine",
+   "value": "Quantum Processor Lite"
+  },
+  {
+   "label": "Film Mode",
+   "value": "Yes"
+  },
+  {
+   "label": "HDR (High Dynamic Range)",
+   "value": "HDR"
+  },
+  {
+   "label": "HDR10+",
+   "value": "Support"
+  },
+  {
+   "label": "HLG (Hybrid Log Gamma)",
+   "value": "Yes"
+  },
+  {
+   "label": "Contrast",
+   "value": "Mega Contrast"
+  },
+  {
+   "label": "Color",
+   "value": "Dynamic Crystal Color"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Contrast Enhancer",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "LGWM-3265T",
   "LGWM-3790F",
   "LGWM-4365R",
   "ST33M"
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/commercial-tvs/hotel-tv/55-google-chrome-cast-supported-hotel-tv-hg55u800fauxue/",
+ "checked": "2026-10-18"
 }

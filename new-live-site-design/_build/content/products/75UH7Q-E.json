@@ -1,6 +1,6 @@
 {
  "sku": "75UH7Q-E",
- "order": 53,
+ "order": 48,
  "n": "75\"4K UHD Signage (75UH7Q-E)",
  "b": "LG",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "75UH7Q-E",
  "d": "75\"4K UHD Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Internal Memory (eMMC)",
+   "value": "16GB"
+  },
+  {
+   "label": "Wi-Fi/BT (Built-in)",
+   "value": "YES"
+  },
+  {
+   "label": "Auto Brightness Sensor",
+   "value": "YES (EU in-box / Others Acc.)"
+  },
+  {
+   "label": "Acceleration(Gyro) Sensor",
+   "value": "YES"
+  },
+  {
+   "label": "Local Key Operation",
+   "value": "YES"
+  },
+  {
+   "label": "Speaker (Built-in)",
+   "value": "YES (10W x 2)"
+  },
+  {
+   "label": "EMC",
+   "value": "FCC Class \"B\" / CE / KC"
+  },
+  {
+   "label": "Safety",
+   "value": "CB / NRTL"
+  },
+  {
+   "label": "ERP / Energy Star",
+   "value": "NA / O"
+  },
+  {
+   "label": "ePEAT(US only)",
+   "value": "YES"
+  },
+  {
+   "label": "Power Type",
+   "value": "Built-in Power"
+  },
+  {
+   "label": "DP In",
+   "value": "YES (HDCP 2.2/1.3)"
+  }
+ ],
+ "src": "https://www.lg.com/au/business/information-display/digital-signage/standard/75uh7q-e/",
+ "checked": "2026-10-18"
 }

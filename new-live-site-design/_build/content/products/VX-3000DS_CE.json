@@ -1,10 +1,53 @@
 {
  "sku": "VX-3000DS CE",
- "order": 4066,
+ "order": 4048,
  "n": "Power Supply Manager",
  "b": "TOA",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Source",
+   "value": "220-230 V AC, 50/60 Hz"
+  },
+  {
+   "label": "DC Power Output (AC mode)",
+   "value": "Rated output: 2300 W (total DC power output); Peak output: 2780 W (total DC power output)"
+  },
+  {
+   "label": "Charging Method",
+   "value": "Temperature compensated trickle charging"
+  },
+  {
+   "label": "Battery Connection",
+   "value": "1 pair of positive and negative terminals; Applicatble cable diameter: AWG 6 - AWG 0 (AWG 1/0) (16 mm² - 50 mm²); Line resistance within 4m Ω/total"
+  },
+  {
+   "label": "Applicable Battery",
+   "value": "Yuasa: NPL65-12I (65 Ah), NPL100-12 (100 Ah), NPL130-6IFR (130 Ah), NPL200-6 (200 Ah)"
+  },
+  {
+   "label": "Panel Indicator",
+   "value": "AC power IN 1, IN 2 (Green), Charging (Green), Battery power (Green), Battery connect (Green), Battery condition (Green)"
+  },
+  {
+   "label": "Finish",
+   "value": "Panel: Surface-treated steel plate, black, 30% gloss, paint"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "2800 W max in total (at rated output with charging); 650 W max in total, 350 W max each (EN62368-1)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "482 (W) x 132.6 (H) x 400.5 (D) mm (18.98\" × 5.22\" × 15.77\")"
+  },
+  {
+   "label": "Weight",
+   "value": "11.8 kg (26.01 lb)"
+  }
+ ],
+ "src": "https://toa.com.sg/product/vx-3000ds-ce-vx-3000ds-power-supply-manager",
+ "checked": "2026-10-18"
 }

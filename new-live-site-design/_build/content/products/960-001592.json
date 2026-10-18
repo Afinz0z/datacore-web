@@ -1,6 +1,6 @@
 {
  "sku": "960-001592",
- "order": 595,
+ "order": 586,
  "n": "WEBCAM - Logitech Brio 105 Full HD 1080p Webcam",
  "b": "Logitech",
  "c": "Web Camera",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "Webcam",
  "d": "WEBCAM - Logitech Brio 105 Full HD 1080p Webcam",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "31.91 mm"
+  },
+  {
+   "label": "Width",
+   "value": "72.91 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "66.64 mm"
+  },
+  {
+   "label": "Length",
+   "value": "1.5 m"
+  },
+  {
+   "label": "Multiple resolutions",
+   "value": "1080p/30fps (1920x1080 pixels) or 720p/30fps (1280x720 pixels)"
+  },
+  {
+   "label": "Video",
+   "value": "2 megapixels CMOS image sensor; 58° diagonal field of view (dFoV); Fixed focus; Custom 4 element plastic lens with anti-reflective coating"
+  },
+  {
+   "label": "Audio",
+   "value": "1 built-in, omnidirectional microphone with range up to 1 m"
+  },
+  {
+   "label": "Connectivity",
+   "value": "USB-A plug-and-play"
+  },
+  {
+   "label": "Privacy shutter",
+   "value": "Integrated"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Attached mounting clip fits monitors, LCD displays, and laptops"
+  },
+  {
+   "label": "Weight",
+   "value": "75 g"
+  }
+ ],
+ "src": "https://www.logitech.com/en-gb/products/webcams/brio-105-business-webcam.html",
+ "checked": "2026-10-18"
 }

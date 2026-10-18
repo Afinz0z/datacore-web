@@ -1,11 +1,62 @@
 {
  "sku": "SPA-2060",
- "order": 899,
+ "order": 890,
  "n": "ATEIS Power amplifier 2x60W",
  "b": "Ateis",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Two channels Power amplifier 2x60W/100V-230/24V- 19''/2U",
- "specs": []
+ "specs": [
+  {
+   "label": "Line inputs",
+   "value": "2 (one per channel)"
+  },
+  {
+   "label": "Connector",
+   "value": "3-pin XLR and 3-pin Phoenix"
+  },
+  {
+   "label": "Line input frequency response",
+   "value": "+/- 3 dB @ 40 Hz and 20k Hz"
+  },
+  {
+   "label": "Line input S/N",
+   "value": "> 90 dB"
+  },
+  {
+   "label": "Line input THD",
+   "value": "< 1% @ 1k Hz"
+  },
+  {
+   "label": "Line input input range",
+   "value": "-6 dBV to 6 dBV / 770 mV"
+  },
+  {
+   "label": "Line input input impedance",
+   "value": "22k Ohms"
+  },
+  {
+   "label": "Air pressure",
+   "value": "600 to 1100 h PA"
+  },
+  {
+   "label": "Color",
+   "value": "RAL7016"
+  },
+  {
+   "label": "Mains power supply voltage",
+   "value": "230 VAC +/- 10%, 50/60 Hz"
+  },
+  {
+   "label": "Battery power supply voltage",
+   "value": "21-28 VDC"
+  },
+  {
+   "label": "Storage temperature",
+   "value": "-40° C to +70° C"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/ateis/voice-alarm-systems/ida8-system/amplifiers/spa-series/security-pava-power-amplifiers",
+ "checked": "2026-10-18"
 }

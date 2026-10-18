@@ -1,6 +1,6 @@
 {
  "sku": "LAPA136",
- "order": 217,
+ "order": 209,
  "n": "All-in-one Pixel Pitch: 1.56 mm Screen Size: 136\" (Full HD) Embedded (LAPA136)",
  "b": "LG",
  "c": "Video Wall",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LAPA136",
  "d": "All-in-one Pixel Pitch: 1.56 mm Screen Size: 136\" (Full HD) Embedded System Controller Built-in Speaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Pitch Name",
+   "value": "P1.56"
+  },
+  {
+   "label": "Pixel Configuration",
+   "value": "Single SMD"
+  },
+  {
+   "label": "Pixel Pitch(mm)",
+   "value": "1.56"
+  },
+  {
+   "label": "Module Resolution",
+   "value": "192*108"
+  },
+  {
+   "label": "No. of Modules per Screen (WxH)",
+   "value": "10x10 (Total 100)"
+  },
+  {
+   "label": "Screen Resolution (WxH)",
+   "value": "1,920x1,080"
+  },
+  {
+   "label": "Screen Surface Area (㎡)",
+   "value": "5.06"
+  },
+  {
+   "label": "Physical Pixel Density (pixels/㎡)",
+   "value": "409,600"
+  },
+  {
+   "label": "Flatness of Cabinet (mm)",
+   "value": "±0.15"
+  },
+  {
+   "label": "Service access",
+   "value": "Front"
+  },
+  {
+   "label": "Brightness (After Calibration)",
+   "value": "Typ. 500"
+  },
+  {
+   "label": "Visual Viewing Angle (Horizontal)",
+   "value": "150"
+  }
+ ],
+ "src": "https://www.lg.com/ae/business/led-signage/lg-lapa136-gf",
+ "checked": "2026-10-18"
 }

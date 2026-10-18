@@ -1,15 +1,58 @@
 {
  "sku": "989-000430",
- "order": 465,
+ "order": 457,
  "n": "Rally Mic Pod Graphite",
  "b": "Logitech",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "Modular microphones with RightSound for Rally Bar Mini, Rally Bar, and Rally",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "90Hz – 16kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": ">-27 dB +/-1dB @ 1Pa"
+  },
+  {
+   "label": "Microphone data rate output",
+   "value": "48 kHz"
+  },
+  {
+   "label": "Pickup Range",
+   "value": "15 ft / 4.5m"
+  },
+  {
+   "label": "Beamforming Elements",
+   "value": "Four omnidirectional microphones forming eight acoustic beams"
+  },
+  {
+   "label": "Audio processing",
+   "value": "AEC (Acoustic Echo Cancellation), VAD (Voice Activity Detector)"
+  },
+  {
+   "label": "Noise suppression",
+   "value": "AI filter"
+  },
+  {
+   "label": "Output",
+   "value": "9.6 ft (2.95 m) 12-pin captive cable"
+  },
+  {
+   "label": "Input",
+   "value": "12-pin interface to daisy-chain Mic Pods or connect to Rally Mic Pod Hub"
+  },
+  {
+   "label": "Platform",
+   "value": "Logitech Sync"
+  }
+ ],
  "acc": [
   "952-000002",
   "952-000181"
- ]
+ ],
+ "src": "https://www.logitech.com/en-us/business/shop/p/mic-pod-for-rally",
+ "checked": "2026-10-18"
 }

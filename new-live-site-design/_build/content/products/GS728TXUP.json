@@ -1,11 +1,62 @@
 {
  "sku": "GS728TXUP",
- "order": 2887,
+ "order": 2875,
  "n": "24-Port Gigabit Ethernet Ultra60 PoE++ 4 10G SFP+ uplink port Switch",
  "b": "Netgear",
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24P GE POE++ SMART SWTH W/10G SFP+",
- "specs": []
+ "specs": [
+  {
+   "label": "Width",
+   "value": "440 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "316 mm"
+  },
+  {
+   "label": "Height",
+   "value": "43mm"
+  },
+  {
+   "label": "10/100Mbps ports",
+   "value": "24"
+  },
+  {
+   "label": "10G SFP+ ports",
+   "value": "4"
+  },
+  {
+   "label": "Number of PoE+ ports (802.3at)",
+   "value": "16"
+  },
+  {
+   "label": "Number of PoE++ ports (802.3bt)",
+   "value": "8"
+  },
+  {
+   "label": "Total PoE Power budget (Watts)",
+   "value": "420W"
+  },
+  {
+   "label": "Max MAC entries",
+   "value": "16K"
+  },
+  {
+   "label": "VLAN routing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dynamic VLAN assignment",
+   "value": "Yes"
+  },
+  {
+   "label": "MLD Snooping",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/smart-cloud/gs728txupv3/",
+ "checked": "2026-10-18"
 }

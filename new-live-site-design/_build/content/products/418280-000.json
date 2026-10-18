@@ -1,11 +1,46 @@
 {
  "sku": "418280-000",
- "order": 4002,
+ "order": 3984,
  "n": "Splice Heat Shrink Protective Sleeve",
  "b": "CommScope",
  "c": "FIBER PROTECTIVE SLEEVE",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SMOUV Fiber Optic Splice Heat Shrink Protective Sleeve for FIST Trays, pack of 100 pcs (45 mm)",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Fiber protection sleeve"
+  },
+  {
+   "label": "Product Brand",
+   "value": "SMOUV®"
+  },
+  {
+   "label": "Product Series",
+   "value": "SMOUV"
+  },
+  {
+   "label": "Application",
+   "value": "single fusion splices"
+  },
+  {
+   "label": "Splicing Type",
+   "value": "Heat shrink, single fiber fusion"
+  },
+  {
+   "label": "Length",
+   "value": "45 mm | 1.772 in"
+  },
+  {
+   "label": "Environmental Space",
+   "value": "Indoor | Outdoor"
+  },
+  {
+   "label": "Packaging Type",
+   "value": "Bag | Carton"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/structural-support-tools-accessories/fiber-tools-consumables-accessories/fiber-splice-protectors/item418280-000/",
+ "checked": "2026-10-18"
 }

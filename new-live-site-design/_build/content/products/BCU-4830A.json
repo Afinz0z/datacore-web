@@ -1,6 +1,6 @@
 {
  "sku": "BCU-4830A",
- "order": 4172,
+ "order": 4154,
  "n": "Battery Charger 30A@48v with 24v out x3",
  "b": "Ateis",
  "c": "Charger",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "battery Charger",
  "d": "Battery Charger 30A@48v with 24v out x3",
- "specs": []
+ "specs": [
+  {
+   "label": "AC power input",
+   "value": "100-240 VAC ± 10%, 50/60 Hz"
+  },
+  {
+   "label": "Battery DC input",
+   "value": "48 VDC"
+  },
+  {
+   "label": "Maximum charging current (DC)",
+   "value": "3 A"
+  },
+  {
+   "label": "Colour",
+   "value": "Grey, RAL7016"
+  },
+  {
+   "label": "Mounting",
+   "value": "19\" 2U rack"
+  },
+  {
+   "label": "Power consumption (AC)",
+   "value": "full power: 220 W/standby mode: 5 W"
+  },
+  {
+   "label": "Dimension (WxHxD)",
+   "value": "436 x 88 x 275 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "6kg"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/ateis/voice-alarm-systems/boutique-system/battery-charges/bcu-4830a-bcu-4875a/battery-chargers",
+ "checked": "2026-10-18"
 }

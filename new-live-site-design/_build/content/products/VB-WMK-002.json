@@ -1,6 +1,6 @@
 {
  "sku": "VB-WMK-002",
- "order": 2753,
+ "order": 2741,
  "n": "TV Mount-VB-WMK-002",
  "b": "ViewSonic",
  "c": "Mount",
@@ -14,7 +14,6 @@
   }
  ],
  "for": [
-  "55UH5N-E",
   "HG75U800FAUXUE",
   "PN-LC862",
   "PN-M552 PCAP"

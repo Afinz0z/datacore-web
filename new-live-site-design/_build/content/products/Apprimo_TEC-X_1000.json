@@ -1,6 +1,6 @@
 {
  "sku": "Apprimo TEC-X 1000",
- "order": 1251,
+ "order": 1239,
  "n": "Networked AV control pad with rotary knob. (Apprimo TEC-X 1000)",
  "b": "Biamp",
  "c": "Volume Controller",
@@ -8,5 +8,52 @@
  "avail": "lead",
  "model": "Apprimo TEC-X 1000",
  "d": "Networked AV control pad with rotary knob.",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "5.1 inches (130 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "3.5 inches (90 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.5 inches (13 mm)"
+  },
+  {
+   "label": "Display",
+   "value": "User Interface: Rotary Knob; Capacitive Touch Screen; Display Type: High-Contrast Capacitive Touch LCD; Display Size: 2.9” (74 mm) diagonal; Status Indicator: RGB LED bar with adjustable brightness"
+  },
+  {
+   "label": "Power",
+   "value": "PoE (IEEE 802.3at Class 3, 15W)"
+  },
+  {
+   "label": "Network Connection(s)",
+   "value": "RJ-45 with Ethernet cable; (Cat 5e and above); Daisy chain 4 devices (MAX)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.35 lbs (159 g)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "< 2W Max"
+  },
+  {
+   "label": "Certifications",
+   "value": "FCC Part 15B (USA); CE marked (Europe); UL and C-UL listed (USA and Canada); RoHS Directive (Europe)"
+  },
+  {
+   "label": "Humidity",
+   "value": "0-95% relative humidity (non-condensing)"
+  },
+  {
+   "label": "Altitude",
+   "value": "0-10,000 ft (0-3000m) MSL"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Apprimo-TEC-X-1000-Black/ecom-item/920-10692-10000",
+ "checked": "2026-10-18"
 }

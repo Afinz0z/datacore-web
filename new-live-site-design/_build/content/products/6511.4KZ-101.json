@@ -1,6 +1,6 @@
 {
  "sku": "6511.4KZ-101",
- "order": 1661,
+ "order": 1649,
  "n": "HD-RXC-4KZ-101 DM® Essentials 4K60 4:4:4 Receiver for HDMI®, RS-232 (6511.4KZ-101)",
  "b": "Crestron",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "6511.4KZ-101",
  "d": "HD-RXC-4KZ-101 DM® Essentials 4K60 4:4:4 Receiver for HDMI®, RS-232, and IRSignal Extension over CATx Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Signal Type",
+   "value": "DM® Essentials with HDR10, HDR10+, Dolby Vision®, Deep Color, and 4K60 4:4:4 support"
+  },
+  {
+   "label": "Output Signal Type",
+   "value": "HDMI® with HDR10, HDR10+, Dolby Vision, Deep Color, and 4K60 4:4:4 support (DVI compatible)"
+  },
+  {
+   "label": "Copy Protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Audio input signal type",
+   "value": "DM Essentials"
+  },
+  {
+   "label": "Audio output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "Dolby Digital®, Dolby Digital EX, Dolby Digital Plus, Dolby® TrueHD, Dolby Atmos®, DTS®, DTS ES, DTS 96/24, DTS HD® High Res, DTS-HD Master Audio, DTS:X®, LPCM up to 8 channels"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDCP 2.3, EDID, CEC pass-through"
+  },
+  {
+   "label": "DM Essentials",
+   "value": "HDCP 2.3, EDID pass-through"
+  },
+  {
+   "label": "RS-232",
+   "value": "2-way serial pass-through up to 115.2k baud (TD/RD only)"
+  },
+  {
+   "label": "IR",
+   "value": "Bidirectional IR signal pass-through up to 60 kHz"
+  },
+  {
+   "label": "Power Pack (Included)",
+   "value": "Input: 100-240VAC; Output: 24VDC 2.5A; Model: PW-2420RU"
+  },
+  {
+   "label": "Enclosure chassis",
+   "value": "Metal, black finish, vented sides, 2 mounting brackets included"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/DM-Essentials-Point-to-Point/Receiver/HD-RXC-4KZ-101",
+ "checked": "2026-10-18"
 }

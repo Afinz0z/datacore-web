@@ -1,14 +1,65 @@
 {
  "sku": "843160-0110",
- "order": 664,
+ "order": 655,
  "n": "AMM108 multipurpose loudspeaker 150W",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "AMM108multipurpose loudspeaker AMM108 multipurpose loudspeaker",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Grille",
+   "value": "Perforated steel, powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP43 (front-of-house position only)"
+  },
+  {
+   "label": "Suspension/Mounting",
+   "value": "1 × 35 mm (1.4 in) pole cup, 4 × M8 threaded inserts, 6 × M10 threaded inserts"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "75 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Coverage, Horizontal",
+   "value": "110°"
+  },
+  {
+   "label": "Calculated Maximum SPL @ 1 m",
+   "value": "116 dB continuous, 128 dB peak"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω, passive"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "150 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "2400 W"
+  },
+  {
+   "label": "Sensitivity (SPL/1 W at 1 m)",
+   "value": "94 dB"
+  },
+  {
+   "label": "Coverage, Vertical",
+   "value": "60°"
+  }
+ ],
  "acc": [
   "843344-0010"
- ]
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/multipurpose/amm/amm108-multipurpose-loudspeaker",
+ "checked": "2026-10-18"
 }

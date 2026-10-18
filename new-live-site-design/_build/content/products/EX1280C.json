@@ -1,11 +1,62 @@
 {
  "sku": "EX1280C",
- "order": 1342,
+ "order": 1330,
  "n": "Digital Signal Processor",
  "b": "Bose",
  "c": "Audio Processor",
  "dept": "AV",
  "avail": "lead",
  "d": "Digital Signal Processor-EX-1280 c, • All-in-one design supports simultaneous VoIP, PSTN and USB soft codecs in a single 1RU model • 12-channel advanced AEC routes to both analog and Dante™ inputs. Multiple references allow one EX-1280C processor to support multiple rooms, or AECsharing across multiple processors. Each AEC channel includes adaptable noise cancellation, non-linear processing and comfort noise to enhance the clarity and intelligibility of the meeting • 2-line VoIP supports all popular codecs. A VoIP web interface allows IT personnel to configure VoIP parameters without audio system design file access or integrator involvement",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "< -105 dB at +4 dBu, 1 kHz input signal"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "> 115 dB, A-weighted, 20 Hz – 20 kHz, analog input to analog output"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (+0.3 dB/-0.1 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "0.002% at +4 dBu (A-weighted, 20 Hz – 20 kHz)"
+  },
+  {
+   "label": "AEC-Enabled",
+   "value": "Yes"
+  },
+  {
+   "label": "Acoustic echo cancelation (aec) channels",
+   "value": "12"
+  },
+  {
+   "label": "Latency",
+   "value": "50 ms"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "32 dB"
+  },
+  {
+   "label": "References",
+   "value": "4"
+  },
+  {
+   "label": "Tail Length",
+   "value": "480 ms"
+  },
+  {
+   "label": "Input Channels",
+   "value": "12 balanced, mic/line"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(1) 6-pin Euroblock, 3.81 mm, detachable"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/processors/open-architecture-for-conferencing/ex-1280c/controlspace-ex-1280c-conferencing-sound-processor",
+ "checked": "2026-10-18"
 }

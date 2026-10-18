@@ -1,6 +1,6 @@
 {
  "sku": "QA85QN90DAUXZN",
- "order": 112,
+ "order": 104,
  "n": "85 Inch Neo QLED 4K QN90D Smart AI TV (2024) (QA85QN90DAUXZN)",
  "b": "Samsung",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "QA85QN90DAUXZN",
  "d": "85 Inch Neo QLED 4K QN90D Smart AI TV (2024)",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size",
+   "value": "85\""
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "100Hz (Up to 144Hz)"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K (3,840 x 2,160)"
+  },
+  {
+   "label": "Anti Reflection",
+   "value": "Yes"
+  },
+  {
+   "label": "Picture Engine",
+   "value": "NQ4 AI Gen2 Processor"
+  },
+  {
+   "label": "HDR (High Dynamic Range)",
+   "value": "Neo Quantum HDR+"
+  },
+  {
+   "label": "HDR 10+",
+   "value": "Yes (ADAPTIVE/ GAMING)"
+  },
+  {
+   "label": "AI Upscale",
+   "value": "4K AI Upscaling"
+  },
+  {
+   "label": "Contrast",
+   "value": "Quantum Matrix Technology"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "Ultra Viewing Angle"
+  },
+  {
+   "label": "Micro Dimming",
+   "value": "Ultimate UHD Dimming"
+  },
+  {
+   "label": "Contrast Enhancer",
+   "value": "Real Depth Enhancer Pro"
+  }
+ ],
+ "src": "https://www.samsung.com/ae/tvs/qled-tv/qn90d-85-inch-neo-qled-4k-tizen-os-smart-tv-qa85qn90dauxzn/",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,46 @@
 {
  "sku": "EW-D CHARGING SET",
- "order": 1195,
+ "order": 1183,
  "n": "EW-D Series",
  "b": "Sennheiser",
  "c": "Mic Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "EW-D Charging set. Includes (1) L 70 USB charger and (2) BA 70 rechargeable batteries and (1) NT 5-20 UCW power supply",
- "specs": []
+ "specs": [
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "1.72"
+  },
+  {
+   "label": "Battery count",
+   "value": "2"
+  },
+  {
+   "label": "Battery included",
+   "value": "Yes"
+  },
+  {
+   "label": "Battery voltage (V)",
+   "value": "3.8"
+  },
+  {
+   "label": "Product height",
+   "value": "83"
+  },
+  {
+   "label": "Product length",
+   "value": "180"
+  },
+  {
+   "label": "Product width",
+   "value": "133"
+  },
+  {
+   "label": "Product weight (g)",
+   "value": "462"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/accessories/ew-d-charging-set/ew-d-charging-set-508862",
+ "checked": "2026-10-18"
 }

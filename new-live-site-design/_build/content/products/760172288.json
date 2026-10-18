@@ -1,11 +1,62 @@
 {
  "sku": "760172288",
- "order": 3907,
+ "order": 3869,
  "n": "1-Port Wall Mount Fiber Enclosure",
  "b": "CommScope",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The CommScope Ready™ WBE-EMT-BK-1P-PNL is a compact indoor wall-mounted fiber enclosure designed for fiber termination and splicing applications. It accommodates one ReadyPATCH® module or one splice tray and supports up to two PNL-type adapters for pre-terminated cable deployments. The enclosure features a durable steel construction and is intended for enterprise and building entrance fiber installations.",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "Uniprise®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber wall box"
+  },
+  {
+   "label": "Product Brand",
+   "value": "Ready™"
+  },
+  {
+   "label": "Product Series",
+   "value": "WBE"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Interface",
+   "value": "Unloaded"
+  },
+  {
+   "label": "Height",
+   "value": "154.94 mm | 6.1 in"
+  },
+  {
+   "label": "Width",
+   "value": "142.24 mm | 5.6 in"
+  },
+  {
+   "label": "Depth",
+   "value": "43.18 mm | 1.7 in"
+  },
+  {
+   "label": "Environmental Space",
+   "value": "Indoor"
+  },
+  {
+   "label": "Safety Standard",
+   "value": "UL"
+  },
+  {
+   "label": "Material Type",
+   "value": "Steel"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/hubs-closures-terminals-boxes/wall-boxes-accessories/fiber-wall-boxes/item760172288/",
+ "checked": "2026-10-18"
 }

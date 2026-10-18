@@ -1,6 +1,6 @@
 {
  "sku": "760254805",
- "order": 3887,
+ "order": 3890,
  "n": "24 Core Fiber Optic Cable",
  "b": "CommScope",
  "c": "SINGLE MODE FIBER OPTIC CABLE",
@@ -9,12 +9,54 @@
  "d": "Indoor/Outdoor Low Smoke Zero Halogen, TeraSPEED® Tight Buffered , 24 fiber, Singlemode",
  "specs": [
   {
-   "label": "Type",
-   "value": "24 Core FOC"
+   "label": "Portfolio",
+   "value": "CommScope®"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Product Type",
+   "value": "Fiber indoor/outdoor cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "C-DS"
+  },
+  {
+   "label": "Standards Compliance",
+   "value": "IEC 60794-1 | TIA-492CAAB (OS2)"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Tight buffer"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Black"
+  },
+  {
+   "label": "Jacket Marking",
+   "value": "Meters"
+  },
+  {
+   "label": "Jacket Marking Method",
+   "value": "Inkjet"
+  },
+  {
+   "label": "Strength Members",
+   "value": "E-glass yarns"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "24"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "9.5 mm | 0.374 in"
+  },
+  {
+   "label": "Minimum Bend Radius, loaded",
+   "value": "240 mm | 9.449 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/indoor-outdoor-cables/item760254805/",
+ "checked": "2026-10-18"
 }

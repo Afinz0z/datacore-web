@@ -1,11 +1,62 @@
 {
  "sku": "760053728",
- "order": 3927,
+ "order": 3909,
  "n": "Fiber OSP cable",
  "b": "CommScope",
  "c": "MULTI MODE FIBER OPTIC CABLE",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LazrSPEED® Single Jacket/Single Armor, Gel-Free, Outdoor Stranded Loose Tube Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber OSP cable"
+  },
+  {
+   "label": "Product Series",
+   "value": "D-LA"
+  },
+  {
+   "label": "Armor Type",
+   "value": "Corrugated steel"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Stranded loose tube"
+  },
+  {
+   "label": "Construction Type",
+   "value": "Armored"
+  },
+  {
+   "label": "Subunit Type",
+   "value": "Gel-free"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "Black"
+  },
+  {
+   "label": "Jacket Marking",
+   "value": "Feet"
+  },
+  {
+   "label": "Total Fiber Count",
+   "value": "6"
+  },
+  {
+   "label": "Buffer Tube/Subunit Diameter",
+   "value": "2.5 mm | 0.098 in"
+  },
+  {
+   "label": "Diameter Over Jacket",
+   "value": "11.5 mm | 0.453 in"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/cables/fiber-cables/outside-plant-cables/item760053728/",
+ "checked": "2026-10-18"
 }

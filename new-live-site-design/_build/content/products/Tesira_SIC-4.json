@@ -1,14 +1,65 @@
 {
  "sku": "Tesira SIC-4",
- "order": 1330,
+ "order": 1318,
  "n": "Mic line input card -SIC-4",
  "b": "Biamp",
  "c": "Audio Card",
  "dept": "AV",
  "avail": "lead",
  "d": "Tesira 4 channel mic/line input card",
- "specs": [],
+ "specs": [
+  {
+   "label": "Phantom Power",
+   "value": "+48V Phantom Power"
+  },
+  {
+   "label": "Channels",
+   "value": "4 channels of balanced mic or line level input"
+  },
+  {
+   "label": "Specification Notes",
+   "value": "Plug-in barrier strip connectors; 0 – 66dB gain, adjustable in 6dB increments; Clip indicator; +48V Phantom Power; 100 to +12dB fader range for level; Signal invert for reverse polarity"
+  },
+  {
+   "label": "Network Connection(s)",
+   "value": "Plug-in barrier strip connectors"
+  },
+  {
+   "label": "Signal Processing",
+   "value": "Signal invert for reverse polarity"
+  },
+  {
+   "label": "Maximum Input",
+   "value": "+24dBu"
+  },
+  {
+   "label": "THD+N",
+   "value": "20Hz~20kHz; @ 0dB Gain, +4dBu In < 0.006%; @ 54dB Gain, -50dBu In < 0.040%"
+  },
+  {
+   "label": "EIN",
+   "value": "(20Hz~20kHz, 66dB Gain, 150Ω): < -125dBu"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "(20Hz~20kHz, 0dB): > 108dB"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "Channel to Channel @ 1kHz; @ 0dB Gain, +4dBu In < 85dB; @ 54dB Gain, -50dBu In < 75dB"
+  },
+  {
+   "label": "Sampling Rate",
+   "value": "48kHz"
+  },
+  {
+   "label": "A/D Converters",
+   "value": "24-bit"
+  }
+ ],
  "for": [
   "Tesira SERVER-IO AVB"
- ]
+ ],
+ "src": "https://products.biamp.com/product-details/d/Tesira-SIC-4/ecom-item/901.0302",
+ "checked": "2026-10-18"
 }

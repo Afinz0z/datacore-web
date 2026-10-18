@@ -1,6 +1,6 @@
 {
  "sku": "760187187",
- "order": 3860,
+ "order": 3845,
  "n": "24 port patch panel-systimax",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
@@ -9,8 +9,54 @@
  "d": "360-E-MOD-1U-24",
  "specs": [
   {
-   "label": "Type",
-   "value": "24 port patch panel"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "RJ45 patch panel"
+  },
+  {
+   "label": "Product Brand",
+   "value": "SYSTIMAX 360™"
+  },
+  {
+   "label": "Product Series",
+   "value": "M Series"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "Silver"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "Passive"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Flat"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1"
+  },
+  {
+   "label": "Height",
+   "value": "43.7 mm | 1.72 in"
+  },
+  {
+   "label": "Width",
+   "value": "482.6 mm | 19 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760187187/",
+ "checked": "2026-10-18"
 }

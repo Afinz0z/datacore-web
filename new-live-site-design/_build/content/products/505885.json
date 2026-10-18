@@ -1,14 +1,65 @@
 {
  "sku": "505885",
- "order": 1087,
+ "order": 1076,
  "n": "SL Handheld 865 DW-3-EU",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "SL HANDHELD 865 DW-3-EU - Handheld transmitter SL HANDHELD, includes BA 10, MME 865-1, digital, 1.9 GHz",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Condenser"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "typ. 0.1 %"
+  },
+  {
+   "label": "Frequency range",
+   "value": "1880.000 - 1900.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 to 20,000 Hz"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "> 120 dB(A)"
+  },
+  {
+   "label": "Sampling rates",
+   "value": "24 bit/48 kHz"
+  },
+  {
+   "label": "Signal-to-noise ratio",
+   "value": "> 90 dB(A)"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Supercardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wireless"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "2.2"
+  },
+  {
+   "label": "Battery count",
+   "value": "1"
+  },
+  {
+   "label": "Battery included",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "508986"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/sl-dw-handheld-865/sl-handheld-865-dw-3-eu-505885",
+ "checked": "2026-10-18"
 }

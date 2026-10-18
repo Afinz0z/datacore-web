@@ -1,6 +1,6 @@
 {
  "sku": "6510223",
- "order": 1517,
+ "order": 1505,
  "n": "Dual-Technology Ceiling Mount Occupancy Sensor (GLS-ODT-C-NS)",
  "b": "Crestron",
  "c": "Sensors",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "GLS-ODT-C-NS",
  "d": "GLS-ODT-C-NS Dual-Technology Ceiling Mount Occupancy Sensor",
- "specs": [],
+ "specs": [
+  {
+   "label": "Sensor Technology",
+   "value": "Passive infrared and ultrasonic (40 kHz)"
+  },
+  {
+   "label": "Coverage Area",
+   "value": "2,000 sq ft"
+  },
+  {
+   "label": "Coverage Pattern",
+   "value": "360 degrees"
+  },
+  {
+   "label": "Cresnet® Power Usage",
+   "value": "1.5 Watts"
+  },
+  {
+   "label": "Enclosure housing",
+   "value": "Plastic, white"
+  },
+  {
+   "label": "Enclosure mounting",
+   "value": "Mounts to a 4” (102 mm) octagon box or ~3-1/2” (88 mm) diameter hole created by provided cutout template; Includes mounting screws and integral toggle clamps; A 1-1/2” (38 mm) minimum mounting depth is recommended"
+  },
+  {
+   "label": "Diameter",
+   "value": "4.80 in (122 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.30 in (59 mm) overall, 0.97 in (25 mm) exposed"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104° F (0° to 40° C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 90% RH (non-condensing)"
+  },
+  {
+   "label": "Current Consumption",
+   "value": "60 mA at 24 Volts DC"
+  },
+  {
+   "label": "Weight",
+   "value": "5.1 oz (144 g)"
+  }
+ ],
  "acc": [
   "6505250"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Sensors/Occupancy-Sensors/GLS-ODT-C-NS",
+ "checked": "2026-10-18"
 }

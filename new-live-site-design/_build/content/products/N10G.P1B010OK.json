@@ -1,6 +1,6 @@
 {
  "sku": "N10G.P1B010OK",
- "order": 3750,
+ "order": 3737,
  "n": "Nexans patch cord",
  "b": "Nexans",
  "c": "UTP Patch cord",
@@ -9,8 +9,54 @@
  "d": "LANmark-10G Patch Cord Cat 6A Screened LSZH 1m Orange",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6a"
+   "label": "Colour",
+   "value": "Orange"
+  },
+  {
+   "label": "Screen",
+   "value": "Yes"
+  },
+  {
+   "label": "Outer sheath",
+   "value": "LSZH"
+  },
+  {
+   "label": "Nominal outer diameter (mm)",
+   "value": "6.0 mm"
+  },
+  {
+   "label": "Characteristic impedance",
+   "value": "100 Ohm"
+  },
+  {
+   "label": "Range",
+   "value": "LANmark-10G"
+  },
+  {
+   "label": "Field of application",
+   "value": "Indoor"
+  },
+  {
+   "label": "Length",
+   "value": "1 m"
+  },
+  {
+   "label": "Flame retardant",
+   "value": "IEC 60332-1"
+  },
+  {
+   "label": "Component function",
+   "value": "Patchcord"
+  },
+  {
+   "label": "Mechanical durability/matings",
+   "value": "750"
+  },
+  {
+   "label": "Packaging",
+   "value": "Box of 50 items"
   }
- ]
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/patch-cords/lanmark-10g-patch-cords/lanmark-10g-patch-cord-cat-6a-screened-lszh-1m-orange",
+ "checked": "2026-10-18"
 }

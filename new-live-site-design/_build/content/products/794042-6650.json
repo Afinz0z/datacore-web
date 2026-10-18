@@ -1,11 +1,62 @@
 {
  "sku": "794042-6650",
- "order": 662,
+ "order": 653,
  "n": "AM10/80 Outdoor Loudspeaker",
  "b": "Bose",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "ARENAMATCH AM10/80 OUTDOOR LDSPKR 80x10",
- "specs": []
+ "specs": [
+  {
+   "label": "Colors",
+   "value": "Black"
+  },
+  {
+   "label": "Grille",
+   "value": "3 layers (perforated stainless steel, acoustic foam, stainless-steel mesh), powder-coated finish"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55 per EN60529; IP33C per EN 54-24"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "55 Hz – 18,000 Hz"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "Passive: 8 Ω / Bi-amp: 8 Ω + 8 Ω"
+  },
+  {
+   "label": "Power Handling, long-term continuous",
+   "value": "Low Frequency: 600 W / High Frequency: 150 W / Passive 750 W"
+  },
+  {
+   "label": "Power Handling, Peak",
+   "value": "Low Frequency: 2400 W peak / High Frequency: 600 W peak / Passive: 3000 W peak"
+  },
+  {
+   "label": "Recommended Power Amplification",
+   "value": "Bi-amp, LF, 600 W – 1200 W / Bi-amp, HF,150 W – 300 W / Low-Z Passive, 750 W – 1500 W"
+  },
+  {
+   "label": "Recommended Signal Processing",
+   "value": "Presets in ControlSpace Designer software"
+  },
+  {
+   "label": "Transformer Taps, 100V",
+   "value": "200 W, 400 W"
+  },
+  {
+   "label": "Transformer Taps, 70V",
+   "value": "100 W, 200 W, 400 W"
+  },
+  {
+   "label": "Coverage, Vertical",
+   "value": "10°"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/loudspeakers/arrayable/arenamatch/arenamatch-am10-deltaq-array-loudspeaker",
+ "checked": "2026-10-18"
 }

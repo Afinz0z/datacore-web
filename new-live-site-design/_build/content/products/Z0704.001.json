@@ -1,11 +1,62 @@
 {
  "sku": "Z0704.001",
- "order": 761,
+ "order": 752,
  "n": "V7P Loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "V7P Loudspeaker NL4",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "59 Hz - 18 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "100 Hz - 18 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with D40/D80/D90/40D: 140 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "2"
+  },
+  {
+   "label": "Configuration",
+   "value": "High performance 3-way passive point source loudspeaker"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "500/2000 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "75° x 40°"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 10\" LF driver with neodymium magnet / 1 x 8\" MF driver with neodymium magnet / 1 x 1.4” exit compression driver / Passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NLT4 F/M / optional 2 x NL4 M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "700 x 308 x 466 mm / 27.5 x 12 x 18.3\""
+  },
+  {
+   "label": "Weight",
+   "value": "33 kg / 75 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/v-series/v7p/",
+ "checked": "2026-10-18"
 }

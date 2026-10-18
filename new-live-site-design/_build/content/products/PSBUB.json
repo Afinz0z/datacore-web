@@ -1,22 +1,42 @@
 {
  "sku": "PSBUB",
- "order": 2525,
+ "order": 2513,
  "n": "LegrandAV- Chief Mounts - PSBUB",
  "b": "Chief",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Mounts - Interface - UNIVERSAL PSB BLACK",
- "specs": [],
+ "specs": [
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Solution Type",
+   "value": "Universal"
+  },
+  {
+   "label": "VESA Mounting Pattern",
+   "value": "200 x 200mm - 862 x 517mm"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "38.11\" x 3.02\" x 2.97\" (968 x 76.8 x 75.5 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "12-12 lbs (5.44-5.44 kg)"
+  },
+  {
+   "label": "Weight Capacity",
+   "value": "200 lbs (90.7 kg)"
+  }
+ ],
  "for": [
   "22SM3G",
   "32SM5J",
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "98TR3DK-B",
   "98UM5K",
   "CDE105UW",
@@ -63,5 +83,7 @@
   "PN-LC862",
   "V6550",
   "V8650"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/accessories/display-tv-accessories/psbub/psbub",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "760237062",
- "order": 3864,
+ "order": 3849,
  "n": "Cat 6A Patch Panel",
  "b": "CommScope",
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SYSTIMAX 360™ GigaSHIELD X10D® Shielded Modular Panel, Cat 6A, 1U, 24 port, Silver",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Copper patch panel"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSHIELD X10D®"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Shielded"
+  },
+  {
+   "label": "Color",
+   "value": "Cool gray | Satin chrome"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Straight"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1"
+  },
+  {
+   "label": "Wiring",
+   "value": "T568A | T568B"
+  },
+  {
+   "label": "Height",
+   "value": "44.8 mm | 1.764 in"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760237062/",
+ "checked": "2026-10-18"
 }

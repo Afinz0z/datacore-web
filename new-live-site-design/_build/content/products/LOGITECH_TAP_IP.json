@@ -1,6 +1,6 @@
 {
  "sku": "LOGITECH TAP IP",
- "order": 1474,
+ "order": 1462,
  "n": "Meeting Room Touch Controller With Poe Connectivity (LOGITECH TAP IP)",
  "b": "Logitech",
  "c": "Touch Panel Controllers",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LOGITECH TAP IP",
  "d": "Meeting Room Touch Controller With Poe Connectivity",
- "specs": []
+ "specs": [
+  {
+   "label": "Size",
+   "value": "10.1” (256.54 mm) diagonal"
+  },
+  {
+   "label": "Resolution",
+   "value": "1280 x 800 resolution"
+  },
+  {
+   "label": "Touch",
+   "value": "Capacitive, 10 points multi-touch"
+  },
+  {
+   "label": "Brightness",
+   "value": "400 nits"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Anti Fingerprint",
+   "value": "Oleophobic coating"
+  },
+  {
+   "label": "Viewing angle",
+   "value": "85 degrees (U/D/L/R)"
+  },
+  {
+   "label": "Position angle",
+   "value": "14 degrees"
+  },
+  {
+   "label": "Ethernet",
+   "value": "10/100 Mbps"
+  },
+  {
+   "label": "WiFi",
+   "value": "802.11a/b/g/n/ac"
+  },
+  {
+   "label": "Full Disk Encryption",
+   "value": "AES-128"
+  },
+  {
+   "label": "Data Encryption",
+   "value": "Symmetric Keys, PKI"
+  }
+ ],
+ "src": "https://www.logitech.com/en-us/business/shop/p/tap-ip",
+ "checked": "2026-10-18"
 }

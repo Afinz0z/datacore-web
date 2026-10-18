@@ -1,6 +1,6 @@
 {
  "sku": "86UH7Q-E",
- "order": 56,
+ "order": 51,
  "n": "86\"4K UHD Signage (86UH7Q-E)",
  "b": "LG",
  "c": "Displays",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "86UH7Q-E",
  "d": "86\"4K UHD Signage",
- "specs": [],
+ "specs": [
+  {
+   "label": "Speaker (Built-in)",
+   "value": "YES (10W x 2)"
+  },
+  {
+   "label": "Internal Memory (eMMC)",
+   "value": "16GB"
+  },
+  {
+   "label": "Wi-Fi/BT (Built-in)",
+   "value": "YES"
+  },
+  {
+   "label": "Auto Brightness Sensor",
+   "value": "YES (EU in-box / Others Acc.)"
+  },
+  {
+   "label": "Acceleration(Gyro) Sensor",
+   "value": "YES"
+  },
+  {
+   "label": "Local Key Operation",
+   "value": "YES"
+  },
+  {
+   "label": "Power Indicator",
+   "value": "NO"
+  },
+  {
+   "label": "Proximity Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Pixel Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "FAN (Built-in)",
+   "value": "NO"
+  },
+  {
+   "label": "BLU Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Current Sensor",
+   "value": "NO"
+  }
+ ],
  "acc": [
   "DS-VW795-QR"
- ]
+ ],
+ "src": "https://www.lg.com/au/business/information-display/digital-signage/standard/86uh7q-e/",
+ "checked": "2026-10-18"
 }

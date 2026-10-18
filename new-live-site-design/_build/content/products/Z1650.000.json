@@ -1,13 +1,64 @@
 {
  "sku": "Z1650.000",
- "order": 752,
+ "order": 743,
  "n": "44S Loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "90 Hz - 17 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "150 Hz - 17 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with 10D: 121 dB; with D25/5D/25D: 123 dB; with D40/D80/D90/40D: 123 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "4"
+  },
+  {
+   "label": "Configuration",
+   "value": "Compact universal high performance 2-way loudspeaker with an asymmetric cabinet shape"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "16 ohms"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "150/500 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "90° x 30°"
+  },
+  {
+   "label": "Components",
+   "value": "2 x 4.5″ driver with neodymium magnet / 2 x 1.25″ dome tweeter mounted on CD horn"
+  },
+  {
+   "label": "Connections",
+   "value": "4-pin Phoenix Euroblock and 2 x NL4 M"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "390 x 128 x 150 mm / 480 x 140 x 180 mm with Backbox / 15.3 x 5 x 5.9″ / 18.9 x 5.5 x 7.1″ with Backbox"
+  },
+  {
+   "label": "Weight",
+   "value": "3.6 kg / 6.2 kg with Backbox / 8 lb / 13.7 lb with Backbox"
+  }
+ ],
  "acc": [
   "Z5427.000"
- ]
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/xs-series/44s/",
+ "checked": "2026-10-18"
 }

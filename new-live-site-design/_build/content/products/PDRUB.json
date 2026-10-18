@@ -1,6 +1,6 @@
 {
  "sku": "PDRUB",
- "order": 2527,
+ "order": 2515,
  "n": "LegrandAV- Chief Mounts-PDRUB (42-86 inch)",
  "b": "Chief",
  "c": "Mount",
@@ -14,13 +14,7 @@
   }
  ],
  "for": [
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "75UH7N",
-  "86UL3J-B",
   "CDE4330",
   "CDE5530",
   "CDE6514-2C",

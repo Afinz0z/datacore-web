@@ -1,11 +1,58 @@
 {
  "sku": "N521.661BK",
- "order": 3878,
+ "order": 3862,
  "n": "UTP Patch panel Nexans",
  "b": "Nexans",
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LANmark Patch Panel 24 Snap-In Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Depth",
+   "value": "75 mm"
+  },
+  {
+   "label": "Width",
+   "value": "19 inches"
+  },
+  {
+   "label": "Heightunit",
+   "value": "1 U"
+  },
+  {
+   "label": "Field of application",
+   "value": "Fixed installations"
+  },
+  {
+   "label": "Number of ports",
+   "value": "24"
+  },
+  {
+   "label": "Mechanical Resistance",
+   "value": "Good mechanical resistance"
+  },
+  {
+   "label": "Resistance to vibrations",
+   "value": "High"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Approximate weight per piece",
+   "value": "0.65 kg"
+  },
+  {
+   "label": "Packaging",
+   "value": "Box"
+  }
+ ],
+ "src": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/tiaoxianbanhetiaoxiandaoyinqi/modular-patch-panels-snap-connectors/patch-panel-24-snap-fixed-black",
+ "checked": "2026-10-18"
 }

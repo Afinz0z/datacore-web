@@ -1,17 +1,68 @@
 {
  "sku": "LH75QMCEBGCXUE",
- "order": 113,
+ "order": 105,
  "n": "Crystal UHD Signage QMC",
  "b": "Samsung",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "75\" UHD QMC signage display",
- "specs": [],
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "75\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "VA"
+  },
+  {
+   "label": "Resolution",
+   "value": "3,840 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.429x0.429mm"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "500 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4,000:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72% (NTSC)"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25 %"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "594MHz"
+  }
+ ],
  "acc": [
   "Kiosk",
   "LGFS-5586-N23",
   "LGWM-3790F",
   "ST33M"
- ]
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/uhd-4k-signage/crystal-uhd-signage-qmc-lh75qmcebgcxue/",
+ "checked": "2026-10-18"
 }

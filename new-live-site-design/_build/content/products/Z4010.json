@@ -1,11 +1,62 @@
 {
  "sku": "Z4010",
- "order": 1978,
+ "order": 1966,
  "n": "DS10 Audio network bridge",
  "b": "d&b audiotechnik",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
  "d": "DS10 Audio network bridge d&b system interface between Dante/AES67 and AES3",
- "specs": []
+ "specs": [
+  {
+   "label": "BYPASS/NETWORK",
+   "value": "Toggle switch"
+  },
+  {
+   "label": "SYNC ERROR",
+   "value": "Red LED indicator"
+  },
+  {
+   "label": "Switch port modes/Audio loss",
+   "value": "LED indicators"
+  },
+  {
+   "label": "DIGITAL IN",
+   "value": "3 pin XLR female AES3"
+  },
+  {
+   "label": "Digital inputs sampling",
+   "value": "32 - 192 kHz"
+  },
+  {
+   "label": "Digital inputs synchronization",
+   "value": "Sample Rate Converter (SRC)"
+  },
+  {
+   "label": "DIGITAL OUT",
+   "value": "3 pin XLR male AES3"
+  },
+  {
+   "label": "Digital outputs sampling",
+   "value": "48 / 96 kHz"
+  },
+  {
+   "label": "Digital outputs synchronization",
+   "value": "Dante network"
+  },
+  {
+   "label": "Connectors",
+   "value": "etherCON / built-in 5-port Ethernet switch / 100/1000 Mbit"
+  },
+  {
+   "label": "Mains connector",
+   "value": "powerCON"
+  },
+  {
+   "label": "Overvoltage protection",
+   "value": "Up to 400 VAC"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/processing-and-matrix/ds10/",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,45 @@
 {
  "sku": "MA-SFP-10GB-LR",
- "order": 2964,
+ "order": 2952,
  "n": "SFP 10G Singlemode",
  "b": "Cisco",
  "c": "SFP",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CISCO Meraki 10G Base LR Single-Mode",
- "specs": [],
+ "specs": [
+  {
+   "label": "Standard",
+   "value": "10GBASE-LR"
+  },
+  {
+   "label": "Wavelength (nm)",
+   "value": "1310"
+  },
+  {
+   "label": "Fiber Type",
+   "value": "SMF"
+  },
+  {
+   "label": "Fiber Description",
+   "value": "OS1/OS2"
+  },
+  {
+   "label": "Core/Clad Diameter",
+   "value": "9 μm / 125 μm"
+  },
+  {
+   "label": "Max Distance",
+   "value": "10 km"
+  },
+  {
+   "label": "Data Rate",
+   "value": "10 Gigabit"
+  }
+ ],
  "for": [
   "MS130-24X LIC-MS130-24-3Y"
- ]
+ ],
+ "src": "https://documentation.meraki.com/Platform_Management/Product_Information/Overviews_and_Datasheets/Small-Form_Factor_Pluggable_(SFP)_and_Stacking_Accessories",
+ "checked": "2026-10-18"
 }

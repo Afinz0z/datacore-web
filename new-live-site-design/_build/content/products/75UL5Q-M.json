@@ -1,6 +1,6 @@
 {
  "sku": "75UL5Q-M",
- "order": 35,
+ "order": 33,
  "n": "4K UHD Signage, Brightness : 500 nit (Typ.) Face Up/Down with Tilt (75UL5Q-M)",
  "b": "LG",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "75UL5Q-M",
  "d": "4K UHD Signage, Brightness : 500 nit (Typ.) Face Up/Down with Tilt Support Operation Hours: 24/7, Life Time (Min.) 50,000 Hrs Portrait / Landscape Yes / Ye",
- "specs": []
+ "specs": [
+  {
+   "label": "Internal Memory (eMMC)",
+   "value": "8GB"
+  },
+  {
+   "label": "Wi-Fi/BT (Built-in)",
+   "value": "YES"
+  },
+  {
+   "label": "Auto Brightness Sensor",
+   "value": "YES"
+  },
+  {
+   "label": "Acceleration(Gyro) Sensor",
+   "value": "YES"
+  },
+  {
+   "label": "Power Indicator",
+   "value": "NO"
+  },
+  {
+   "label": "Local Key Operation",
+   "value": "YES"
+  },
+  {
+   "label": "BLU Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "FAN (Built-in)",
+   "value": "NO"
+  },
+  {
+   "label": "Pixel Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Current Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Proximity Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "DP In",
+   "value": "NO"
+  }
+ ],
+ "src": "https://www.lg.com/au/business/information-display/digital-signage/standard/75ul5q-m/",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "508751",
- "order": 1077,
+ "order": 1066,
  "n": "Handheld set -EW-D 835-S Set (R1-6)",
  "b": "Sennheiser",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Sennheiser EW-D 835-S Set (R1-6) All-in-one digital wireless handheld set",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Dynamic"
+  },
+  {
+   "label": "Latency (ms)",
+   "value": "1.9 ms"
+  },
+  {
+   "label": "Total harmonic distortion (THD)",
+   "value": "≤ -60 dB for 1 kHz @ -3 dBfs input level"
+  },
+  {
+   "label": "Frequency range",
+   "value": "520.000 - 576.000"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "20 Hz - 20 kHz (-3 dB) @ 3 dBfs"
+  },
+  {
+   "label": "Dynamic range (>)",
+   "value": "134 dB"
+  },
+  {
+   "label": "Audio output level",
+   "value": "18 dBu max."
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wired"
+  },
+  {
+   "label": "Battery capacity (Ah)",
+   "value": "2.3"
+  },
+  {
+   "label": "Battery count",
+   "value": "2"
+  },
+  {
+   "label": "Battery included",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "508986"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/wireless-systems/ew-d-835-set/ew-d-835-s-set-r1-6-508751",
+ "checked": "2026-10-18"
 }

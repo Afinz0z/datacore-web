@@ -1,11 +1,62 @@
 {
  "sku": "DPM-MAIN",
- "order": 4301,
+ "order": 4280,
  "n": "ATEIS Paging microphone console",
  "b": "Ateis",
  "c": "Paging mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Digital Redundant loop paging microphone console",
- "specs": []
+ "specs": [
+  {
+   "label": "DC power input",
+   "value": "21 ~ 29 VDC"
+  },
+  {
+   "label": "A/D-D/A bit resolution",
+   "value": "24 bit"
+  },
+  {
+   "label": "Sampling rate",
+   "value": "48k Hz"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz ~ 20k Hz (±1 dB) @ 0 dBu"
+  },
+  {
+   "label": "SNR",
+   "value": "> 85 dB"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.2 % @ 26 dB gain, -26 dBu (1k Hz) in"
+  },
+  {
+   "label": "Max. speaker SPL",
+   "value": "90 dBA @ 3m"
+  },
+  {
+   "label": "Max. mic SPL",
+   "value": "105 dBA @ 3m"
+  },
+  {
+   "label": "Capsule type",
+   "value": "Electret condenser"
+  },
+  {
+   "label": "Capsule Sensitivity",
+   "value": "-15 dBu/Pa @1 kHz"
+  },
+  {
+   "label": "Capsule directivity",
+   "value": "Uni-directional"
+  },
+  {
+   "label": "Polar pattern",
+   "value": "Cardioid"
+  }
+ ],
+ "src": "https://www.ateis-europe.com/en/product/ateis/voice-alarm-systems/boutique-system/paging-consoles/dpm-series/paging-consoles",
+ "checked": "2026-10-18"
 }

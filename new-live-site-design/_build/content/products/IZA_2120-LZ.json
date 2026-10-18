@@ -1,6 +1,6 @@
 {
  "sku": "IZA 2120-LZ",
- "order": 922,
+ "order": 912,
  "n": "FreeSpace IZA 2120-LZ integrated zone amplifier DM+FS EQ 230V UK",
  "b": "Bose",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "IZA 2120-LZ",
  "d": "FreeSpace IZA 2120-LZ integrated zone amplifier DM+FS EQ 230V UK",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "≤ -58 dBu below rated power, 1 kHz"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "88 dB"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (+0/-3 dB) at 1 W, 1 kHz reference"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "2"
+  },
+  {
+   "label": "Power Class",
+   "value": "Class D"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "120 W per channel at 4 Ω / 60 W per channel at 8 Ω"
+  },
+  {
+   "label": "THD+N",
+   "value": "≤ 0.5% at rated power"
+  },
+  {
+   "label": "Adjustment Range",
+   "value": "0 dB to -30 dB, line / 0 dB to +50 dB, page / fixed, auxiliary"
+  },
+  {
+   "label": "Input Channels",
+   "value": "2 unbalanced, line + 2 balanced, line + 1 balanced, mic/line (page) + 1 unbalanced, line (auxiliary)"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(2) RCA stereo pairs, (2) 5-pin Euroblock, (1) 4-pin Euroblock, (1) 1/8-in (3.5 mm) TRS"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "20 kΩ, line / 2 kΩ, page / 20 kΩ, auxiliary"
+  },
+  {
+   "label": "Input Range",
+   "value": "-8 dBu to +22 dBu, line / -58 dBu to +12 dBu, page / -60 dBu to -1 dBu, auxiliary"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/mixer-amps/iza/freespace-iza-2120-lz-integrated-zone-amplifier",
+ "checked": "2026-10-18"
 }

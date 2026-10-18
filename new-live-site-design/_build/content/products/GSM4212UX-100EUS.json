@@ -1,6 +1,6 @@
 {
  "sku": "GSM4212UX-100EUS",
- "order": 2920,
+ "order": 2908,
  "n": "M4250-10G2XF-POE++ Managed Switch (GSM4212UX-100EUS)",
  "b": "Netgear",
  "c": "Network Switch",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "GSM4212UX-100EUS",
  "d": "M4250-10G2XF-POE++ MANAGED SWITCH",
- "specs": []
+ "specs": [
+  {
+   "label": "Primary Port Speed",
+   "value": "1 Gigabit"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "12 (10x 1G, 2x SFP+)"
+  },
+  {
+   "label": "PoE Ports / Budget",
+   "value": "8 PoE++ (90W/port), 720W Budget"
+  },
+  {
+   "label": "Acoustics",
+   "value": "Fanless or 50.5dB@25ºC"
+  },
+  {
+   "label": "Dimensions (WxDxH)",
+   "value": "440 x 200 x 43.2mm"
+  },
+  {
+   "label": "Weight",
+   "value": "3.83Kg (8.44lb)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "With PoE: 837.7W/2859.91Btu/hr; Without PoE: 26.3W/89.79Btu/hr; Standby without any port connection: 18W/61.45Btu/hr"
+  }
+ ],
+ "src": "https://www.netgear.com/ae/business/wired/switches/fully-managed/gsm4212ux/",
+ "checked": "2026-10-18"
 }

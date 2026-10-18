@@ -1,6 +1,6 @@
 {
  "sku": "6503810",
- "order": 1545,
+ "order": 1533,
  "n": "Universal Keypad Interface (C2N-UNI8IO)",
  "b": "Crestron",
  "c": "Control Keypad/Remote Panel",
@@ -8,7 +8,44 @@
  "avail": "lead",
  "model": "C2N-UNI8IO",
  "d": "C2N-UNI8IO Universal Keypad Interface",
- "specs": [],
+ "specs": [
+  {
+   "label": "Digital Inputs",
+   "value": "(8) Inputs rated for 0-24 Volts DC, includes 10K ohm pull-up to 5VDC; Logic Low Threshold: ≤1 Volt Logic High Threshold: ≥3.7 Volts"
+  },
+  {
+   "label": "Digital Outputs",
+   "value": "(8) Open drain outputs rated for 100mA @ 24VDC, 500mA max (combined for all 8 outputs), when not in \"current limit\" mode; Maximum Power Load: 1A @ 24VDC and 40mA @ 5VDC"
+  },
+  {
+   "label": "Cresnet Power Usage",
+   "value": "0.5 Watts (0.02 Amps @ 24 Volts DC); Does not account for LED, bulbs, or other device's power consumption."
+  },
+  {
+   "label": "Height",
+   "value": "2.06 in (52.3 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.05 in (51.9 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.68 in (17.3 mm)"
+  },
+  {
+   "label": "Temperature",
+   "value": "32° to 104°F (0° to 40°C)"
+  },
+  {
+   "label": "Humidity",
+   "value": "10% to 95% RH (non-condensing)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.815 oz (23.1 g)"
+  }
+ ],
  "acc": [
   "6501601",
   "6501602",
@@ -21,5 +58,7 @@
   "6502563",
   "6507933",
   "6507938"
- ]
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Control-and-Management/Control-System/Expansion-IO/C2N-UNI8IO",
+ "checked": "2026-10-18"
 }

@@ -1,14 +1,45 @@
 {
  "sku": "MR57-HW LIC-ENT-3YR",
- "order": 2999,
+ "order": 2987,
  "n": "cisco meraki indoor wap",
  "b": "Cisco",
  "c": "ACCESS POINT",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CISCO Meraki MR57 Wi-Fi 6E Indoor APMeraki MR Enterprise License, 3YR.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Interfaces",
+   "value": "2x 100/1000/2.5G/5G BASE-T Ethernet (RJ45); 1x DC power connector (5.5 mm x 2.5 mm, center positive)"
+  },
+  {
+   "label": "Mounting",
+   "value": "All standard mounting hardware included (AIR-AP-BRACKET-2); Desktop, ceiling, and wall mount capable ; Ceiling tile rail (9/16, 15/16, or 1 ½” flush or recessed rails), assorted cable junction boxes"
+  },
+  {
+   "label": "Physical Security",
+   "value": "Kensington lock slot; Concealed mount plate with anti-tamper cable bay"
+  },
+  {
+   "label": "Environment",
+   "value": "Operating temperature: 32 °F - 104 °F (0 °C - 40 °C) ; Humidity: 5% to 95% non-condensing"
+  },
+  {
+   "label": "Reliability",
+   "value": "Mean time between failure (MTBF): 998,440 hrs at +25° C operating temperature"
+  },
+  {
+   "label": "LED Indicators",
+   "value": "One power/booting/firmware upgrade status"
+  },
+  {
+   "label": "Physical Dimensions",
+   "value": "260 mm x 260 mm x 56 mm, including desk-mount feet or mount plate ; Weight: 1.7 kg"
+  }
+ ],
  "acc": [
   "LIC-ENT-3YR"
- ]
+ ],
+ "src": "https://documentation.meraki.com/Wireless/Product_Information/Overviews_and_Datasheets/MR57_Datasheet",
+ "checked": "2026-10-18"
 }

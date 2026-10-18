@@ -1,11 +1,62 @@
 {
  "sku": "6512666",
- "order": 1232,
+ "order": 1220,
  "n": "ULTIMATE IC3-AW-SA-BOX-WOOFER-W-T-EACH",
  "b": "Crestron",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "ULTIMATE IC3-AW-SA-BOX-WOOFER-W-T-EACH Ultimate 3 in. All Weather In-Ceiling Woofer, White Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "6 in. (162 mm) carbon fiber"
+  },
+  {
+   "label": "Crossover",
+   "value": "Custom 2-way passive"
+  },
+  {
+   "label": "Crossover Point",
+   "value": "200 Hz"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "44 Hz to 20 kHz (±3 dB)"
+  },
+  {
+   "label": "Coverage",
+   "value": "100° conical"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "82 dB @ 1 W/1 M"
+  },
+  {
+   "label": "Input",
+   "value": "2-pin pluggable screw terminals"
+  },
+  {
+   "label": "Max Wire Size",
+   "value": "12 AWG (4 mm²)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Overlapping formed steel straps; Adjustable from 14.25 in. (362 mm) to 24 in. (610 mm)."
+  },
+  {
+   "label": "Splash Resistance",
+   "value": "IP66 rated for water"
+  },
+  {
+   "label": "Height",
+   "value": "14 in. (356 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Audio-Video-and-USB/Audio/In-Ceiling-Speakers/ULTIMATE-IC3-AW-SA-BOX-WOOFER-W-T-EACH",
+ "checked": "2026-10-18"
 }

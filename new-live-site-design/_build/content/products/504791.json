@@ -1,6 +1,6 @@
 {
  "sku": "504791",
- "order": 1076,
+ "order": 1065,
  "n": "Gooseneck microphone (cardioid, condenser) with 3-pin XLR-M and 12-48 (MEG 14-40 B)",
  "b": "Sennheiser",
  "c": "Mic",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "MEG 14-40 B",
  "d": "MEG 14-40 B - Gooseneck microphone (cardioid, condenser) with 3-pin XLR-M and 12-48 V phantom power. MAT 133 table stand available separately",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Pre-polarised condenser"
+  },
+  {
+   "label": "Equivalent noise level (db)",
+   "value": "26 dB(A)"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Impedance",
+   "value": "< 100 Ω"
+  },
+  {
+   "label": "Product height",
+   "value": "500"
+  },
+  {
+   "label": "Product length",
+   "value": "40"
+  },
+  {
+   "label": "Product width",
+   "value": "40"
+  },
+  {
+   "label": "Dimensions",
+   "value": "length: 450 mm (17,72\")"
+  },
+  {
+   "label": "Product weight (g)",
+   "value": "147"
+  }
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/microphones/meg-14-40/meg-14-40-b-504791",
+ "checked": "2026-10-18"
 }

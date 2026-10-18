@@ -1,6 +1,6 @@
 {
  "sku": "VERITAS-2160",
- "order": 1348,
+ "order": 1336,
  "n": "Veritas 2160BH Mixer Amplifiers",
  "b": "Bose",
  "c": "Mixer Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "VERITAS-2160",
  "d": "Veritas 2160BH Mixer Amplifiers",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "≤ -58 dBu below rated power, 1 kHz"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "88 dB"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz – 20 kHz (+0/-3 dB) at 1 W, 1 kHz reference"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "2 x 160 W at 70/100V"
+  },
+  {
+   "label": "THD+N",
+   "value": "≤ 0.5% at rated power"
+  },
+  {
+   "label": "Adjustment Range",
+   "value": "0 dB to -30 dB (line), 0 dB to +50 dB (page)"
+  },
+  {
+   "label": "Input Channels",
+   "value": "(2) balanced line, (2) unbalanced line, (1) balanced mic/line"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(2) RCA stereo pairs, (2) 5-pin Euroblock, (1) 4-pin Euroblock"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "20 kΩ (line), 2 kΩ (page)"
+  },
+  {
+   "label": "Input Range",
+   "value": "-8 dBu to +22 dBu (line), -58 dBu to +12 dBu (page)"
+  },
+  {
+   "label": "Maximum Input Level",
+   "value": "22 dBu (line), 12 dBu (page)"
+  },
+  {
+   "label": "Nominal Input Level",
+   "value": "4 dBu (line), -38 dBu (page)"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/mixer-amps/veritas/veritas-2160bh",
+ "checked": "2026-10-18"
 }

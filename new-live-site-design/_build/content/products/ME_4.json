@@ -1,6 +1,6 @@
 {
  "sku": "ME 4",
- "order": 1068,
+ "order": 1057,
  "n": "Clip-on microphone for SK 100/300/500, cardioid, EW jack, anthracite (ME 4)",
  "b": "Sennheiser",
  "c": "Mic",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "ME 4",
  "d": "Clip-on microphone for SK 100/300/500, cardioid, EW jack, anthracite",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transducer type",
+   "value": "Permanently-polarized condenser"
+  },
+  {
+   "label": "Audio frequency response",
+   "value": "50 - 18,000 Hz"
+  },
+  {
+   "label": "Equivalent noise level (db)",
+   "value": "31 dB"
+  },
+  {
+   "label": "Max. sound pressure level",
+   "value": "120 dB"
+  },
+  {
+   "label": "Pickup pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Connection",
+   "value": "Wired"
+  },
+  {
+   "label": "Connectors",
+   "value": "3.5mm"
+  },
+  {
+   "label": "Cable connections",
+   "value": "mini jack"
+  },
+  {
+   "label": "Battery included",
+   "value": "No"
+  },
+  {
+   "label": "Sensitivity in free field, no load (1kHz)",
+   "value": "40 mV/Pa"
+  },
+  {
+   "label": "Input voltage",
+   "value": "10 V"
+  },
+  {
+   "label": "Product height",
+   "value": "0.1"
+  }
+ ],
  "for": [
   "EW-DX SK (R1-9)"
- ]
+ ],
+ "src": "https://www.sennheiser.com/en-ae/catalog/products/microphones/me-4/me-4-508936",
+ "checked": "2026-10-18"
 }

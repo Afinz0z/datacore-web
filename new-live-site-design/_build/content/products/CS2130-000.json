@@ -1,11 +1,62 @@
 {
  "sku": "CS2130-000",
- "order": 3908,
+ "order": 3870,
  "n": "Fiber Optic Wall Mount Enclosure",
  "b": "CommScope",
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "BUDI Fiber Optic Wall mount Enclosure, empty for holding FIST Splice Trays, with lock (Up to 168 splices)",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "CommScope®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Fiber wall box"
+  },
+  {
+   "label": "Product Brand",
+   "value": "BUDI™"
+  },
+  {
+   "label": "Product Series",
+   "value": "BUDI-S"
+  },
+  {
+   "label": "Functionality",
+   "value": "Splicing"
+  },
+  {
+   "label": "Access",
+   "value": "Front"
+  },
+  {
+   "label": "Enclosure Color",
+   "value": "Gray"
+  },
+  {
+   "label": "Front Cover Type",
+   "value": "Snap-on cover"
+  },
+  {
+   "label": "Interface",
+   "value": "Splicing only"
+  },
+  {
+   "label": "Lock Type",
+   "value": "Key lock"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall"
+  },
+  {
+   "label": "Splicing Capacity, maximum",
+   "value": "168"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/hubs-closures-terminals-boxes/wall-boxes-accessories/fiber-wall-boxes/itemcs2130-000/",
+ "checked": "2026-10-18"
 }

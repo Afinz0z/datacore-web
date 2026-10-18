@@ -1,6 +1,6 @@
 {
  "sku": "LGWM-4365R",
- "order": 2687,
+ "order": 2675,
  "n": "Fixed Wall Mount 43 to 65-LGWM-4365-R",
  "b": "Logic",
  "c": "Mount",
@@ -14,11 +14,6 @@
   }
  ],
  "for": [
-  "43UL3J-B",
-  "50UL3J-B",
-  "55UH5N-E",
-  "55UL3J-B",
-  "65UL3J-B",
   "CDE4330",
   "CDE5530",
   "CDE6514-2C",

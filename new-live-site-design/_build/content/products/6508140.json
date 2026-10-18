@@ -1,6 +1,6 @@
 {
  "sku": "6508140",
- "order": 1529,
+ "order": 1517,
  "n": "Surface Mount Remote Temperature Sensor, White (CHVI-RTS-1G-SM-W)",
  "b": "Crestron",
  "c": "Sensors",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "CHVI-RTS-1G-SM-W",
  "d": "CHVI-RTS-1G-SM-W Surface Mount Remote Temperature Sensor, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Measurement Range",
+   "value": "-18° to 43° C (0° to 110° F)"
+  },
+  {
+   "label": "Construction housing",
+   "value": "Plastic, white finish"
+  },
+  {
+   "label": "Construction mounting",
+   "value": "Attaches to a flat wall surface over a 25 mm (1 inch) round hole, a 1-Gang UK (BS 4662) electrical box, or a 1-Gang European (DIN 49073) electrical box"
+  },
+  {
+   "label": "Height",
+   "value": "80 mm (3.15 in)"
+  },
+  {
+   "label": "Width",
+   "value": "80 mm (3.15 in)"
+  },
+  {
+   "label": "Depth",
+   "value": "30 mm (1.15 in)"
+  },
+  {
+   "label": "Temperature Tolerance",
+   "value": "±0.5° C (±1° F) over full range; +0.1°/-0.4° C (±1° F) at room temperature"
+  },
+  {
+   "label": "Weight",
+   "value": "54 g (1.9 oz)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Lighting-and-Environmental/Climate-Control/Thermostat-Accessories/CHVI-RTS-1G-SM-W",
+ "checked": "2026-10-18"
 }

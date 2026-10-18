@@ -1,6 +1,6 @@
 {
  "sku": "PARLÉ VBC 2800",
- "order": 423,
+ "order": 415,
  "n": "CONFERENCING VIDEO BAR",
  "b": "Biamp",
  "c": "Video Conferencing System",
@@ -9,8 +9,54 @@
  "d": "Parlé VBC 2800 Conferencing Video Bar",
  "specs": [
   {
-   "label": "Type",
-   "value": "bar"
+   "label": "Height",
+   "value": "3.9 inches (100 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "37 inches (940 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "2.5 inches (64 mm)"
+  },
+  {
+   "label": "Power",
+   "value": "SOURCES:; USB-C: 60W; External Power Supply: 100-240VAC 50/60Hz; (12VDC, 4.74A)"
+  },
+  {
+   "label": "Microsoft Teams",
+   "value": "Microsoft Teams Certified"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "Nominal Beamwidth (H x V): 180° x 180°"
+  },
+  {
+   "label": "Transducers",
+   "value": "2x 2.5 inches (60 mm) full range"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "(@ 1m, 2.83V): 84 dB"
+  },
+  {
+   "label": "Camera",
+   "value": "DUAL CAMERA SYSTEM; Ultrawide Lens; Wide Angle Lens"
+  },
+  {
+   "label": "Physical Interfaces",
+   "value": "USB 3.0: 1x Type C; Analog Audio Input 1x 3.5mm mono unbalanced; Assistive Listening Feed: 1x 3.5mm mono balanced"
+  },
+  {
+   "label": "Diagonal Field of View",
+   "value": "ULTRAWIDE LENS: 150°; WIDE ANGLE LENS: 110°"
+  },
+  {
+   "label": "Horizontal Filed of View",
+   "value": "ULTRAWIDE LENS: 122°; WIDE ANGLE LENS: 86°"
   }
- ]
+ ],
+ "src": "https://products.biamp.com/product-details/d/Parle-VBC-2800-Conferencing-Video-Bar/ecom-item/920-01987-00001",
+ "checked": "2026-10-18"
 }

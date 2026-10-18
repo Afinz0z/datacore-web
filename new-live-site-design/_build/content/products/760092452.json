@@ -1,11 +1,62 @@
 {
  "sku": "760092452",
- "order": 3813,
+ "order": 3825,
  "n": "Modular RJ45 jack (Cat6A, unshielded, blue) - Systimax",
  "b": "CommScope",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "MGS600 OUTLET-BLUE",
- "specs": []
+ "specs": [
+  {
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Modular jack"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSPEED X10D®"
+  },
+  {
+   "label": "Product Series",
+   "value": "MGS600"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "Blue"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Mounting",
+   "value": "M Series faceplates and panels"
+  },
+  {
+   "label": "Termination Punchdowns, minimum",
+   "value": "20 times"
+  },
+  {
+   "label": "Termination Tool",
+   "value": "110 Punchdown tool"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
+  }
+ ],
+ "src": "https://www.commscope.com/product-type/connectors/rj45-jacks-accessories/category-6a-jacks/item760092452/",
+ "checked": "2026-10-18"
 }

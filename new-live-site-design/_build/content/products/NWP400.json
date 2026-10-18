@@ -1,11 +1,62 @@
 {
  "sku": "NWP400",
- "order": 5129,
+ "order": 5107,
  "n": "Network input panel",
  "b": "Audac",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "Network input panel - USB Type-C + BT (4 CH)",
- "specs": []
+ "specs": [
+  {
+   "label": "Inputs",
+   "value": "Bluetooth, USB Type C (in)"
+  },
+  {
+   "label": "Control",
+   "value": "1 button - Bluetooth discoverable"
+  },
+  {
+   "label": "Indicators",
+   "value": "1 LED (RGB) - Bluetooth status"
+  },
+  {
+   "label": "Configurable settings",
+   "value": "IP settings, Device name, Gain, DSP (EQ), Mixing"
+  },
+  {
+   "label": "Configuration",
+   "value": "Audac Touch™"
+  },
+  {
+   "label": "Integrated dsp",
+   "value": "Yes (EQ)"
+  },
+  {
+   "label": "Automatic level control",
+   "value": "Yes"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB Type C (audio in), RJ45 (network + PoE)"
+  },
+  {
+   "label": "Construction",
+   "value": "ABS"
+  },
+  {
+   "label": "Finish front finish",
+   "value": "Elegant ABS front panel with glass"
+  },
+  {
+   "label": "Installation standard",
+   "value": "Compatible with EU installation materials"
+  },
+  {
+   "label": "Power supply",
+   "value": "PoE powered (IEEE 802.3af)"
+  }
+ ],
+ "src": "https://audac.eu/me/products/d/nwp400---network-input-panel---usb-type-c-plus-bt-4-ch",
+ "checked": "2026-10-18"
 }

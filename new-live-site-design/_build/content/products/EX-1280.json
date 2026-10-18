@@ -1,11 +1,62 @@
 {
  "sku": "EX-1280",
- "order": 1150,
+ "order": 1138,
  "n": "Digital Signal Processor-EX-1280",
  "b": "Bose",
  "c": "DSP",
  "dept": "AV",
  "avail": "lead",
  "d": "Open-architecture, 1RU design built for general-purpose and PA applications USB connection facilitates easy integration with PC audio sources Dante audio networking supports 64 x 64 audio channels for connection to other Dante-enabled products, including native Dante-integrated microphones, amplifiers, mixers, and end points Bose AmpLink port provides 8 channels of uncompressed, low-latency digital audio to AmpLink-equipped Bose amplifiers Front-panel interface features a large OLED display and rotary encoder for setting network parameters and monitoring channel activity GPIO (5 in/5 out) and Serial for interfacing with external devices and control systems High-quality analog circuitry offers both mic and line-level I/O,",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel Separation (Crosstalk)",
+   "value": "< -105 dB at +4 dBu, 1 kHz input signal"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "> 115 dB, A-weighted, 20 Hz – 20 kHz, analog input to analog output"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "18 Hz – 20 kHz (+0.8 dB/-0.2 dB), 1 kHz reference"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.003% at +4 dBu (A-weighted, 20 Hz – 18 kHz) / < 0.01% at +44 dBu (A-weighted, 20 Hz – 18 kHz)"
+  },
+  {
+   "label": "AEC-Enabled",
+   "value": "No"
+  },
+  {
+   "label": "Input Channels",
+   "value": "12 balanced, mic/line"
+  },
+  {
+   "label": "Audio inputs, analog connectors",
+   "value": "(1) 6-pin Euroblock, 3.81 mm, detachable"
+  },
+  {
+   "label": "Equivalent Input Noise",
+   "value": "-118 dB at 44 dB gain"
+  },
+  {
+   "label": "Sensitivity Options",
+   "value": "0 dB, +14 dB, +24 dB, +32 dB, +44 dB, +54 dB, +64 dB"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "12 kΩ at 1 kHz, with or without phantom power"
+  },
+  {
+   "label": "Maximum Input Level",
+   "value": "+24 dBu"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "48 VDC, 10 mA, software-selectable per input"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/processors/open-architecture/ex-1280/controlspace-ex-1280-digital-signal-processor",
+ "checked": "2026-10-18"
 }

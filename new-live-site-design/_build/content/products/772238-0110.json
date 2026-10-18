@@ -1,10 +1,45 @@
 {
  "sku": "772238-0110",
- "order": 1334,
+ "order": 1322,
  "n": "PowerMatch AmpLink 24-channel input card",
  "b": "Bose",
  "c": "Audio Card",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "24 AmpLink in"
+  },
+  {
+   "label": "Connectors",
+   "value": "(1) RJ-45 AmpLink in / (1) RJ-45 AmpLink thru"
+  },
+  {
+   "label": "Cable Requirements",
+   "value": "Cat 5, shielded TIA/EIA 568B straight cable or equivalent"
+  },
+  {
+   "label": "Maximum Cable Length",
+   "value": "32 ft (10 m)"
+  },
+  {
+   "label": "LED Status Indicators",
+   "value": "(2) network speed LEDs, (2) Link/Act LEDs"
+  },
+  {
+   "label": "Audio Latency",
+   "value": "24 ns, thru"
+  },
+  {
+   "label": "Sample Rate / Bit Depth",
+   "value": "48 kHz / 24-bit"
+  },
+  {
+   "label": "Colors",
+   "value": "Black"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/power-amplifiers/amplifier-accessories/powermatch-amplink-24-channel-input-card",
+ "checked": "2026-10-18"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "6507583",
- "order": 731,
+ "order": 722,
  "n": "SAROS ICI4T-W-T-EACH+",
  "b": "Crestron",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "SAROS ICI4T-W-T-EACH+ Saros® Integrator 4” 2-Way In-Ceiling Speaker, White Textured, Single",
- "specs": []
+ "specs": [
+  {
+   "label": "Woofer",
+   "value": "4 inch (102 mm) cone, ported"
+  },
+  {
+   "label": "Tweeter",
+   "value": "0.79 inch (20 mm) dome"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohms nominal with transformer set to \"8Ω\""
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "3.75W/7.5W/15W/30W at 70V; 7.5W/15W/30W at 100V"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "100 Hz to 15 kHz (±3 dB)"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "80 Hz to 20 kHz (-10 dB)"
+  },
+  {
+   "label": "Power Handling",
+   "value": "30 Watts program"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "89 dB @ 1W/1m"
+  },
+  {
+   "label": "Coverage",
+   "value": "120° conical (nominal)"
+  },
+  {
+   "label": "Input connection",
+   "value": "(1) 4-pin 5 mm detachable terminal block; Speaker input with parallel pass-through; Maximum Wire Size: 12 AWG"
+  },
+  {
+   "label": "Transformer Tap",
+   "value": "(1) Screwdriver-adjustable rotary switch on baffle; Used to select 70/100V tap or 8 Ohms (bypass)"
+  },
+  {
+   "label": "Construction enclosure",
+   "value": "Painted steel, plenum-rated, top mounted dual cable clamp (1/2\" or 3/4\" flexible conduit compatible)"
+  }
+ ],
+ "src": "https://www.crestron.com/Products/Catalog/Local-AV-USB/Audio/In-Ceiling-Speakers/SAROS-ICI4T-W-T-EACH",
+ "checked": "2026-10-18"
 }

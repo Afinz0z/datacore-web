@@ -1,6 +1,6 @@
 {
  "sku": "55UH7Q-E",
- "order": 44,
+ "order": 41,
  "n": "55\"UHD Signage (55UH7Q-E)",
  "b": "LG",
  "c": "Displays",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "55UH7Q-E",
  "d": "55\"UHD Signage",
- "specs": []
+ "specs": [
+  {
+   "label": "Speaker (Built-in)",
+   "value": "YES (10W x 2)"
+  },
+  {
+   "label": "Internal Memory (eMMC)",
+   "value": "16GB"
+  },
+  {
+   "label": "Wi-Fi/BT (Built-in)",
+   "value": "YES"
+  },
+  {
+   "label": "Auto Brightness Sensor",
+   "value": "YES (EU in-box / Others Acc.)"
+  },
+  {
+   "label": "Pixel Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Proximity Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Current Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "BLU Sensor",
+   "value": "NO"
+  },
+  {
+   "label": "Acceleration(Gyro) Sensor",
+   "value": "YES"
+  },
+  {
+   "label": "Power Indicator",
+   "value": "NO"
+  },
+  {
+   "label": "Local Key Operation",
+   "value": "YES"
+  },
+  {
+   "label": "FAN (Built-in)",
+   "value": "NO"
+  }
+ ],
+ "src": "https://www.lg.com/au/business/information-display/digital-signage/standard/55uh7q-e/",
+ "checked": "2026-10-18"
 }

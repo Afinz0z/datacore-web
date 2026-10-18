@@ -1,6 +1,6 @@
 {
  "sku": "E8",
- "order": 750,
+ "order": 741,
  "n": "2-way compact coaxial loudspeaker (E8)",
  "b": "d&b audiotechnik",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "E8",
  "d": "2-way compact coaxial loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "62 Hz - 18 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "120 Hz - 18 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with 10D: 126 dB; with D25/5D/25D: 129 dB; with D40/D80/D90/40D: 129 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "3"
+  },
+  {
+   "label": "Configuration",
+   "value": "2-way compact coaxial loudspeaker"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "12 Ω"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "150/800 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "90° x 50° rotatable through 50° x 90°"
+  },
+  {
+   "label": "Components",
+   "value": "8\" driver with neodymium magnet / 1\" exit compression driver with 1.75\" coil and rotatable CD horn / passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NLT4 F/M / optional 2 x NL4"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "390 x 232 x 223 mm / 15.4 x 9.1 x 8.8\""
+  },
+  {
+   "label": "Weight",
+   "value": "7.3 kg / 16.1 lb"
+  }
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/e-series/e8/",
+ "checked": "2026-10-18"
 }

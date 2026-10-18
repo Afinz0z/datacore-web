@@ -1,11 +1,42 @@
 {
  "sku": "PCR3000RMKIII",
- "order": 365,
+ "order": 357,
  "n": "Music source -PCR3000RMKIII",
  "b": "Biamp",
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
  "d": "Versatile DAB+ and FM RDS / CD / USB / SD-card /Bluetooth music source, RS232 control, IR remote included, 1U, 19\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Height",
+   "value": "Rack units: (1U=44 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "Rack Mounting: 19 inches (483 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "Depth (build in): 12 inches (305 mm); Depth (incl front): 12.40 inches (315 mm)"
+  },
+  {
+   "label": "Power",
+   "value": "Power Supply: 230 VAC"
+  },
+  {
+   "label": "USB",
+   "value": "32 GB up to 9999 songs"
+  },
+  {
+   "label": "Impedance",
+   "value": "Applicable low impedance"
+  },
+  {
+   "label": "Weight",
+   "value": "10.14 lbs (4.60 kg)"
+  }
+ ],
+ "src": "https://products.biamp.com/product-details/d/Commercial-Audio-PCR3000RMKIII/ecom-item/920-01455-00002",
+ "checked": "2026-10-18"
 }

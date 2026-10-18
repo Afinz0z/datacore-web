@@ -1,6 +1,6 @@
 {
  "sku": "6506262",
- "order": 2216,
+ "order": 2204,
  "n": "Decorator Style Faceplate, 1-Gang (FP-G1-B-T)",
  "b": "Crestron",
  "c": "Faceplate",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "FP-G1-B-T",
  "d": "Crestron Decorator Style Faceplate, 1-Gang, Black Textured Faceplates for in-wall keypads, lighting controls, and other devices",
- "specs": []
+ "specs": [
+  {
+   "label": "Construction",
+   "value": "Plastic, two-piece"
+  },
+  {
+   "label": "Height",
+   "value": "4.69 in (120 mm)"
+  },
+  {
+   "label": "Width",
+   "value": "2.94 in (75 mm)"
+  },
+  {
+   "label": "Depth",
+   "value": "0.30 in (7.5 mm)"
+  }
+ ],
+ "src": "https://www.crestron.com/model/6506262",
+ "checked": "2026-10-18"
 }

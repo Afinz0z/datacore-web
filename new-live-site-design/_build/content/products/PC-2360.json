@@ -1,10 +1,41 @@
 {
  "sku": "PC-2360",
- "order": 888,
+ "order": 879,
  "n": "Ceiling Speaker",
  "b": "TOA",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "60 Hz - 20 kHz"
+  },
+  {
+   "label": "Sensitivity (1 W, 1 m)",
+   "value": "94 dB SPL"
+  },
+  {
+   "label": "Rated input (100 V)",
+   "value": "6 W"
+  },
+  {
+   "label": "Tappings (100 V)",
+   "value": "6/3/1.5/0.8 W (100V); 3/1.5/0.8/0.4 W (70V)"
+  },
+  {
+   "label": "Speaker component",
+   "value": "16 cm cone-type"
+  },
+  {
+   "label": "Finish",
+   "value": "traffic white (RAL 9016 or equivalent)"
+  },
+  {
+   "label": "Weight",
+   "value": "560 g"
+  }
+ ],
+ "src": "https://www.toa.co.uk/products/pc-2360/",
+ "checked": "2026-10-18"
 }

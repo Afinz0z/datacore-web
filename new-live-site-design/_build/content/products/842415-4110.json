@@ -1,11 +1,62 @@
 {
  "sku": "842415-4110",
- "order": 425,
+ "order": 417,
  "n": "VIDEOBAR VB1",
  "b": "Bose",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "VIDEOBAR VB1,230V UK",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum Peak Power, Symmetrical",
+   "value": "20 W"
+  },
+  {
+   "label": "Rated Power, Symmetrical",
+   "value": "20 W per channel, < 0.3% distortion over frequency range"
+  },
+  {
+   "label": "Connectors",
+   "value": "(1) stereo 1/8-in (3.5 mm)"
+  },
+  {
+   "label": "Safety",
+   "value": "IEC/UL/EN 60065:2014/A11:2017, IEC/UL/EN 62368-1:2014/A11:2017"
+  },
+  {
+   "label": "Environmental",
+   "value": "RoHS"
+  },
+  {
+   "label": "EMC",
+   "value": "FCC Part 15B Class B, ICES-003 Class B, CISPR 13, EN55032 Class B, EN55035, EN61000-3-2, EN61000-3-3, BSMI CNS13439"
+  },
+  {
+   "label": "Focus Distance",
+   "value": "0.5 m (1.6 ft) to ∞"
+  },
+  {
+   "label": "Field of View (FOV)",
+   "value": "123° diagonal × 115° horizontal × 81° vertical"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Up to 5x digital zoom"
+  },
+  {
+   "label": "Positioning",
+   "value": "Autoframing mode, manual pan-tilt-zoom (PTZ) with configurable presets"
+  },
+  {
+   "label": "Processing",
+   "value": "Automatic white balance, automatic brightness, digital noise reduction"
+  }
+ ],
+ "src": "https://boseprofessional.com/products/videobars/vb1/videobar-vb1",
+ "checked": "2026-10-18"
 }

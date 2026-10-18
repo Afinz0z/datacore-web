@@ -1,14 +1,65 @@
 {
  "sku": "Z0350.002",
- "order": 756,
+ "order": 747,
  "n": "E6 Loudspeaker",
  "b": "d&b audiotechnik",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "E6 Loudspeaker NLT4F/M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Frequency response (-5 dB standard)",
+   "value": "85 Hz - 20 kHz"
+  },
+  {
+   "label": "Frequency response (-5 dB CUT mode)",
+   "value": "120 Hz - 20 kHz"
+  },
+  {
+   "label": "Max. sound pressure",
+   "value": "with 10D: 120 dB; with D25/5D/25D: 123 dB; with D40/D80/D90/40D: 123 dB"
+  },
+  {
+   "label": "Cabinets per amplifier channel",
+   "value": "5"
+  },
+  {
+   "label": "Configuration",
+   "value": "2-way compact coaxial loudspeaker"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "20 Ω"
+  },
+  {
+   "label": "Power handling capacity (RMS/peak 10 ms)",
+   "value": "150/800 W"
+  },
+  {
+   "label": "Nominal dispersion angle (h x v)",
+   "value": "100° x 55° rotatable through 55° x 100°"
+  },
+  {
+   "label": "Components",
+   "value": "6.5\" driver with neodymium magnet / 1\" exit compression driver with 1.75\" coil and rotatable CD horn / passive crossover network"
+  },
+  {
+   "label": "Connections",
+   "value": "2 x NLT4 F/M / optional 2 x NL4"
+  },
+  {
+   "label": "Dimensions (h x w x d)",
+   "value": "300 x 188 x 175 mm / 11.8 x 7.4 x 7\""
+  },
+  {
+   "label": "Weight",
+   "value": "5 kg / 11 lb"
+  }
+ ],
  "acc": [
   "Z5378.000"
- ]
+ ],
+ "src": "https://www.dbaudio.com/global/en/products/series/e-series/e6/",
+ "checked": "2026-10-18"
 }

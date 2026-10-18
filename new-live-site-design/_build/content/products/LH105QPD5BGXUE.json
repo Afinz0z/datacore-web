@@ -1,11 +1,62 @@
 {
  "sku": "LH105QPD5BGXUE",
- "order": 123,
+ "order": 115,
  "n": "QPDX-5K series 105-inch supersized display",
  "b": "Samsung",
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "QP105D 105\" 5120x2160/5K 21:9 Non-glare Multipurpose LED Screen",
- "specs": []
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "105\""
+  },
+  {
+   "label": "Panel Type",
+   "value": "VA(Direct)"
+  },
+  {
+   "label": "Resolution",
+   "value": "5,120 x 2,160"
+  },
+  {
+   "label": "Pixel Pitch (HxV, mm)",
+   "value": "0.1595 x 0.4785 mm"
+  },
+  {
+   "label": "Brightness (Typ)",
+   "value": "500 nit"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "4,000:1"
+  },
+  {
+   "label": "Viewing Angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Response Time",
+   "value": "6ms(Typ.)"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72%(NTSC)"
+  },
+  {
+   "label": "Glass Haze",
+   "value": "25%"
+  },
+  {
+   "label": "H-Scanning Frequency",
+   "value": "30~81kHz"
+  },
+  {
+   "label": "Maximum Pixel Frequency",
+   "value": "742.5MHz"
+  }
+ ],
+ "src": "https://www.samsung.com/ae/business/smart-signage/uhd-4k-signage/5k-uhd-signage-qpdx-5k-series-lh105qpd5bgxue/",
+ "checked": "2026-10-18"
 }
