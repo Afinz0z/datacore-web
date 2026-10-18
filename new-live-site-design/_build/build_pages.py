@@ -3,7 +3,7 @@
 in the live Texta look. Each page loads the developed-site header + dark mode via
 dc-overlay.css/js and the live-look content styles via dc-pages.css. Live body
 HTML is not touched: these are brand-new pages the header's nav links point to."""
-import os, json, html, sys, re
+import os, json, html, sys, re, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # the site root (parent of _build)
@@ -160,7 +160,7 @@ def loc(base, ar): return PAGE_ALIAS.get(base, base) + ('-ar' if ar else '') + '
 # Asset cache-busting version. Bump whenever dc-overlay.* / dc-pages.css /
 # dc-products.js change, so browsers refetch instead of serving a stale copy.
 # Keep in sync with the value stamped into the 6 live core pages.
-VER = "71"
+VER = "72"
 # Calmer styling (dc-calm.css) is piloted on these pages until the client decides.
 CALM_PILOT = {'projects'}
 
@@ -729,6 +729,17 @@ def build_projects(ar):
                  extra_head=PROJ_FILTER_CSS + SELECTED_CSS + REF_CSS)
 
 # ── CASE-STUDY DETAIL PAGES ───────────────────────────────────────────────
+_CAT_BRANDS = []
+def catalogue_brands():
+    """Brand names in the product catalogue (content/products/*.json), longest first."""
+    if not _CAT_BRANDS:
+        import glob
+        names = {json.load(open(f, encoding="utf-8")).get("b") or ""
+                 for f in glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "content", "products", "*.json"))}
+        _CAT_BRANDS.extend(sorted((n for n in names if n), key=lambda n: (-len(n), n)))
+    return _CAT_BRANDS
+
+
 def build_case(slug, ar):
     lang = 'ar' if ar else 'en'
     C = CASES[slug]; c = C[lang]; U = CASE_UI[lang]; s = STR[lang]
@@ -777,13 +788,22 @@ def build_case(slug, ar):
                    for ds in (PROJ_DISC[_idx] if _idx >= 0 else []))
     _oth = ''.join(f'<a class="dcp-dir" href="{loc("project-"+sl, ar)}">{E(CASES[sl][lang]["name"])} {I_ARROW}</a>'
                    for sl in CASE_SLUG if sl and sl != slug and CASES.get(sl, {}).get(lang, {}).get("name"))
+    # makers the case study names, each linked to its products in the catalogue
+    _txt = json.dumps(c, ensure_ascii=False)
+    _brands = [b for b in catalogue_brands()
+               if re.search(r'(?<![A-Za-z0-9])' + re.escape(b) + r'(?![A-Za-z0-9])', _txt)]
+    _br = ''.join(f'<a class="dcp-dir" href="{loc("products", ar)}?brand={urllib.parse.quote(b)}" dir="ltr">{esc(b)} {I_ARROW}</a>'
+                  for b in _brands)
     _related = ''
-    if _svc or _oth:
+    if _svc or _oth or _br:
         _rh_s = 'خدمات ذات صلة' if ar else 'Related services'
         _rh_p = 'مشاريع أخرى' if ar else 'More projects'
+        _rh_b = 'العلامات التجارية في هذا المشروع' if ar else 'Brands on this project'
         _related = ('<section class="dcp-sec alt"><div class="dcp-wrap" style="max-width:820px">'
                     + (f'<div class="dcp-head"><h2>{esc(_rh_s)}</h2></div>'
                        f'<div style="display:flex;flex-wrap:wrap;gap:12px">{_svc}</div>' if _svc else '')
+                    + (f'<div class="dcp-head" style="margin-top:22px"><h2>{esc(_rh_b)}</h2></div>'
+                       f'<div style="display:flex;flex-wrap:wrap;gap:12px">{_br}</div>' if _br else '')
                     + (f'<div class="dcp-head" style="margin-top:22px"><h2>{esc(_rh_p)}</h2></div>'
                        f'<div style="display:flex;flex-direction:column;gap:13px">{_oth}</div>' if _oth else '')
                     + '</div></section>')

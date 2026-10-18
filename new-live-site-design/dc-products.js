@@ -1,27 +1,38 @@
 /* Datacore product catalogue engine. Left faceted sidebar (category group / type / brand,
    multi-select, live cross-filtered counts), a photo grid shown a page at a time, and a
    request (RFQ) basket persisted per browser. The page carries the first page of cards and the
-   starting filters; the full catalogue comes from assets1/data/products-data.js
-   (window.DCP_PRODUCTS, written by build_products.py). No backend: submitting the request
-   shows a reference number, same as the contact form. */
+   starting filters; the catalogue comes from assets1/data/products-data.js (window.DCP_PRODUCTS),
+   and descriptions, full spec lists and sources from products-text.js (window.DCP_TEXT), loaded
+   once the page has drawn. Both are written by build_products.py.
+   Also here: search and filters kept in the address, sorting, suggestions under the search box,
+   a quick view per product, recently viewed products, comparing up to four products, a filter
+   sheet on phones, and a request list that can be shared as a link or saved as CSV.
+   No backend: requests go through dcpDeliver() in dc-forms.js. */
 (function () {
   var D = window.DCP_DATA, RAW = window.DCP_PRODUCTS; if (!D || !RAW) return;
-  var L = D.labels, AR = D.lang === 'ar', PAGE = D.page || 24;
-  var KEY = 'dcp-rfq2';   // basket is { sku: qty }
+  var L = D.labels, AR = D.lang === 'ar', PAGE = D.page || 24, LOW = D.lowAfter || 12, PRE = D.preset || {};
+  var KEY = 'dcp-rfq2', SEEN = 'dcp-seen';   // basket is { sku: qty }; recently viewed is [sku]
   var basket = load();
 
   function load() { try { var v = JSON.parse(localStorage.getItem(KEY)); if (Array.isArray(v)) { var o = {}; v.forEach(function (s) { o[s] = 1; }); return o; } return (v && typeof v === 'object') ? v : {}; } catch (e) { return {}; } }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(basket)); } catch (e) {} }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
   function num(n) { return n.toLocaleString('en-US'); }
-  function glyph(g) {
-    return '<svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" ' +
+  function glyph(g, size) {
+    return '<svg viewBox="0 0 24 24" width="' + (size || 30) + '" height="' + (size || 30) + '" fill="none" stroke="currentColor" ' +
       'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
       (D.glyphs[g] || D.glyphs.rack || '') + '</svg>';
   }
+  function fmtDate(iso) {
+    var d = new Date(iso + 'T00:00:00');
+    if (isNaN(d)) return iso;
+    try { return new Intl.DateTimeFormat(AR ? 'ar-u-ca-gregory-nu-latn' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' }).format(d); }
+    catch (e) { return iso; }
+  }
 
-  // letters and digits only, so "DM NVX 360", "dm-nvx-360" and "DMNVX360" all meet
-  function compact(s) { return String(s).toLowerCase().replace(/[^a-z0-9\u0600-\u06ff]+/g, ''); }
+  // letters and digits only, so "DM NVX 360", "dm-nvx-360" and "DMNVX360" all meet (Arabic letters kept)
+  var NONWORD = new RegExp('[^a-z0-9' + String.fromCharCode(0x600) + '-' + String.fromCharCode(0x6ff) + ']+', 'g');
+  function compact(s) { return String(s).toLowerCase().replace(NONWORD, ''); }
   // words visitors type for things the catalogue names differently
   var SYN = { tv: ['display', 'monitor'], screen: ['display', 'monitor', 'screen'], monitor: ['monitor', 'display'],
     cctv: ['camera', 'surveillance', 'recorder'], cam: ['camera'], mic: ['microphone', 'mic'], microphone: ['microphone', 'mic'],
@@ -55,21 +66,25 @@
   }
   var QT = [];
 
-  // ── catalogue: [sku, name, brand#, category#, icon, photo, specs, description, inStock,
-  //    supporting products (row numbers), products it fits (row numbers)] ──
+  // ── catalogue: [sku, name, brand#, category#, icon, photo, card specs, (unused), inStock,
+  //    supporting products (row numbers), products it fits (row numbers), own page, small photo] ──
   var GROUP = {}, GORDER = [];
   RAW.groups.forEach(function (g) { GROUP[g[0]] = AR ? g[2] : g[1]; GORDER.push(g[0]); });
   var BY = {};
   var P = RAW.p.map(function (r) {
     var c = RAW.cats[r[3]];
-    var p = { sku: r[0], n: r[1], b: r[2] > -1 ? RAW.brands[r[2]] : '', ck: c[0], c: AR ? c[1] : c[0], grp: c[2],
-      g: r[4], photo: r[5], specs: r[6] || [], avail: r[8] ? 'stock' : 'lead', kids: r[9] || [], fits: r[10] || [] };
-    p.t = (p.n + ' ' + p.b + ' ' + p.sku + ' ' + c[0] + ' ' + c[1] + ' ' + GROUP[p.grp] + ' ' +
-      p.specs.map(function (s) { return s[1]; }).join(' ') + ' ' + (r[7] || '')).toLowerCase();
-    p.tc = compact(p.t); p.nc = compact(p.n + ' ' + p.sku);
+    var p = { sku: r[0], n: r[1], b: r[2] > -1 ? RAW.brands[r[2]] : '', ck: c[0], c: AR ? c[1] : c[0], cx: c[0] + ' ' + c[1], grp: c[2],
+      g: r[4], photo: r[5], specs: r[6] || [], d: '', avail: r[8] ? 'stock' : 'lead', kids: r[9] || [], fits: r[10] || [],
+      page: r[11] ? r[11] + (AR ? '-ar' : '') + '.html' : '', sm: !!r[12], src: '', checked: '', model: '' };
+    index(p);
     BY[p.sku] = p;
     return p;
   });
+  function index(p) {   // what search looks through
+    p.t = (p.n + ' ' + p.b + ' ' + p.sku + ' ' + p.model + ' ' + p.cx + ' ' + GROUP[p.grp] + ' ' +
+      p.specs.map(function (s) { return s[1]; }).join(' ') + ' ' + p.d).toLowerCase();
+    p.tc = compact(p.t); p.nc = compact(p.n + ' ' + p.sku);
+  }
   P.forEach(function (p, i) { p.i = i; });
   P.forEach(function (p) {   // row numbers -> products
     p.kids = p.kids.map(function (i) { return P[i]; }); p.fits = p.fits.map(function (i) { return P[i]; });
@@ -78,43 +93,113 @@
   // requests saved before a catalogue update may name products that are gone
   Object.keys(basket).forEach(function (s) { if (!BY[s]) delete basket[s]; }); save();
 
+  // descriptions, full spec lists, model codes and the maker's page arrive in a second file
+  var TEXT = false, textWait = [];
+  function withText(cb) {
+    if (TEXT || !D.textUrl) { cb(); return; }
+    textWait.push(cb);
+    if (textWait.length > 1) return;
+    var sc = document.createElement('script'); sc.src = D.textUrl; sc.async = true;
+    sc.onerror = function () {   // try again on the next request for it; meanwhile show what the cards know
+      sc.remove();
+      var w = textWait; textWait = []; w.forEach(function (f) { f(); });
+    };
+    sc.onload = function () {
+      var T = window.DCP_TEXT || {};
+      P.forEach(function (p, i) {
+        p.d = (T.d && T.d[i]) || '';
+        if (T.s && T.s[i]) p.specs = T.s[i];
+        if (T.src && T.src[i]) { p.src = T.src[i][0]; p.checked = T.src[i][1]; }
+        if (T.m && T.m[i]) p.model = T.m[i];
+        index(p);
+      });
+      TEXT = true;
+      var w = textWait; textWait = []; w.forEach(function (f) { f(); });
+    };
+    document.head.appendChild(sc);
+  }
+
   function availName(a) { return a === 'stock' ? L.in_stock : L.on_order; }
   // the specs a card shows: the first four short enough for one line (same rule as build_products.card_specs)
   function cardSpecs(p) { return p.specs.filter(function (s) { return s[1].length <= 48; }).slice(0, 4); }
+  function alt(p) { return p.photo.indexOf('brands/') === 0 ? ((D.logoAlt || {})[p.b] || p.b) + ' logo' : p.n; }
+  function smallSrc(p) { return D.photoDir + esc(p.sm ? p.photo.replace('/', '/sm/') : p.photo); }
+  function imgHTML(p, i, big) {   // same markup as build_products.img_html
+    var src = D.photoDir + esc(p.photo);
+    var set = !big && p.sm ? ' srcset="' + smallSrc(p) + ' 300w, ' + src + ' 600w" sizes="' + D.sizes + '"' : '';
+    return '<img src="' + src + '"' + set + ' alt="' + esc(alt(p)) + '" width="600" height="600" decoding="async"' +
+      (i >= LOW ? ' fetchpriority="low"' : '') + '>';
+  }
+  function thumb(p) {   // small picture for lists: suggestions, recently viewed, related, compare
+    return p.photo ? '<span class="dcp-th"><img src="' + smallSrc(p) + '" alt="" width="300" height="300" decoding="async"></span>'
+      : '<span class="dcp-th dcp-noimg">' + glyph(p.g, 22) + '</span>';
+  }
+  function miniHTML(p) {
+    return '<button type="button" class="dcp-mini" data-open="' + esc(p.sku) + '">' + thumb(p) +
+      '<span class="dcp-mini-t" dir="auto">' + esc(p.n) + '</span><span class="dcp-mini-b" dir="ltr">' + esc(p.b || p.sku) + '</span></button>';
+  }
+  function brandHTML(p) { return p.b ? '<span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span>' : '<span class="dcp-card-brand"></span>'; }
+  function availHTML(p) {
+    return p.avail === 'stock' ? '<span class="dcp-badge stock">' + L.in_stock + '</span>' : '<span class="dcp-badge lead">' + L.on_order + '</span>';
+  }
   function relHTML(p) {
     var b = '';
     if (p.kids.length) b += '<button type="button" class="dcp-more" data-rel="' + esc(p.sku) + '">' + L.rel_acc.replace('{n}', p.kids.length) + '</button>';
     if (p.fits.length) b += '<button type="button" class="dcp-more" data-rel="' + esc(p.sku) + '">' + L.rel_for.replace('{n}', p.fits.length) + '</button>';
     return b ? '<div class="dcp-card-rel">' + b + '</div>' : '';
   }
-  function cardHTML(p, i) {
+  function qtyHTML(p) {   // same markup as build_products.qty_html
+    return '<div class="dcp-add-row"><div class="dcp-qty">' +
+      '<button class="dcp-qb" type="button" data-q="-1" aria-label="' + esc(L.dec) + '">&minus;</button>' +
+      '<input class="dcp-qn" type="text" inputmode="numeric" value="1" aria-label="' + esc(L.qty) + '" data-sku="' + esc(p.sku) + '">' +
+      '<button class="dcp-qb" type="button" data-q="1" aria-label="' + esc(L.inc) + '">+</button>' +
+      '</div><button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button></div>';
+  }
+  function cmpBox(p) {
+    return '<label class="dcp-cmp"><input type="checkbox" data-cmp="' + esc(p.sku) + '"' + (cmp.indexOf(p.sku) > -1 ? ' checked' : '') +
+      '><span>' + L.cmp + '</span></label>';
+  }
+  function cardHTML(p, i) {   // same markup as build_products.card_html
     var specs = cardSpecs(p).map(function (s) {
       return '<div><dt>' + esc(s[0]) + '</dt><dd dir="ltr">' + esc(s[1]) + '</dd></div>';
     }).join('');
-    var av = p.avail === 'stock'
-      ? '<span class="dcp-badge stock">' + L.in_stock + '</span>'
-      : '<span class="dcp-badge lead">' + L.on_order + '</span>';
     var media = p.photo
-      ? '<div class="dcp-card-photo"><img src="' + D.photoDir + esc(p.photo) + '" alt="' + esc(p.photo.indexOf('brands/') === 0 ? ((D.logoAlt || {})[p.b] || p.b) + ' logo' : p.n) + '" width="600" height="600" decoding="async"' + (i >= (D.lowAfter || 12) ? ' fetchpriority="low"' : '') + '></div>'
+      ? '<div class="dcp-card-photo">' + imgHTML(p, i) + '</div>'
       : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g) + '</span></div>';
+    var name = p.page
+      ? '<a class="dcp-open" href="' + esc(p.page) + '" data-open="' + esc(p.sku) + '">' + esc(p.n) + '</a>'
+      : '<button type="button" class="dcp-open" data-open="' + esc(p.sku) + '">' + esc(p.n) + '</button>';
     return '<article class="dcp-card" data-sku="' + esc(p.sku) + '">' + media +
-      '<div class="dcp-card-top">' + (p.b ? '<span class="dcp-card-brand" dir="ltr">' + esc(p.b) + '</span>' : '<span class="dcp-card-brand"></span>') + av + '</div>' +
-      '<h3 dir="auto">' + esc(p.n) + '</h3>' +
+      '<div class="dcp-card-top">' + brandHTML(p) + availHTML(p) + '</div>' +
+      '<h3 dir="auto">' + name + '</h3>' +
       '<div class="dcp-card-meta"><span class="dcp-tag">' + esc(p.c) + '</span></div>' +
       '<dl class="dcp-specs">' + specs + '</dl>' + relHTML(p) +
-      '<div class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</div>' +
-      '<div class="dcp-add-row">' +
-        '<div class="dcp-qty">' +
-          '<button class="dcp-qb" type="button" data-q="-1" aria-label="Decrease quantity">−</button>' +
-          '<input class="dcp-qn" type="text" inputmode="numeric" value="1" aria-label="Quantity" data-sku="' + esc(p.sku) + '">' +
-          '<button class="dcp-qb" type="button" data-q="1" aria-label="Increase quantity">+</button>' +
-        '</div>' +
-        '<button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button>' +
-      '</div></article>';
+      '<div class="dcp-card-sub"><span class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</span>' + cmpBox(p) + '</div>' +
+      qtyHTML(p) + '</article>';
+  }
+
+  // keep the focus inside an open window
+  function trap(e, root) {
+    if (e.key !== 'Tab') return;
+    var f = [].filter.call(root.querySelectorAll('a[href],button:not([disabled]),input,select,textarea'), function (x) { return x.offsetParent !== null; });
+    if (!f.length) return;
+    if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
+    else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+  }
+  function copyText(text, btn) {
+    var done = function () { if (!btn) return; var t = btn.textContent; btn.textContent = L.copied; setTimeout(function () { btn.textContent = t; }, 1800); };
+    if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(text).then(done, function () { fallback(); }); return; }
+    fallback();
+    function fallback() {
+      var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', ''); ta.style.cssText = 'position:fixed;opacity:0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); done(); } catch (e) { window.prompt('', text); }
+      ta.remove();
+    }
   }
 
   // ── faceted state + filtering (multi-select) ────────────────────
-  var S = { q: '', grp: [], cat: [], brand: [], avail: [], rel: '' };
+  var S = { q: '', grp: [], cat: [], brand: [], avail: [], rel: '', sort: '' };
   function base() {
     if (!S.rel || !BY[S.rel]) return P;
     var p = BY[S.rel], seen = {}, out = [];
@@ -146,6 +231,49 @@
     base().forEach(function (p) { if (match(p, dim)) { var v = get(p); if (v != null) m[v] = (m[v] || 0) + 1; } });
     return m;
   }
+  // a category page opens on its own group; that alone is not a filter the visitor chose
+  function onPreset() { return !!(PRE.grp && S.grp.join('|') === PRE.grp.join('|')); }
+  function idle() {
+    return !S.q && !S.rel && !S.cat.length && !S.brand.length && !S.avail.length && (!S.grp.length || onPreset());
+  }
+
+  // ── search and filters live in the address, so a view can be shared and Back works ──
+  var search = document.getElementById('dcp-search'), sortEl = document.getElementById('dcp-sort'), openSku = '';
+  function readURL() {
+    var u = new URLSearchParams(location.search), any = false;
+    S.q = (u.get('q') || '').trim(); if (S.q) any = true;
+    DIMS.forEach(function (d) { if (u.has(d)) any = true; S[d] = u.getAll(d).filter(Boolean); });
+    S.rel = BY[u.get('rel')] ? u.get('rel') : '';
+    S.sort = /^(name|brand)$/.test(u.get('sort') || '') ? u.get('sort') : '';
+    if (!any && !S.rel && PRE.grp) S.grp = PRE.grp.slice();
+    search.value = S.q;
+    if (sortEl) sortEl.value = S.sort;
+    return u;
+  }
+  function writeURL(push) {
+    var u = new URLSearchParams();
+    if (S.q) u.set('q', S.q);
+    DIMS.forEach(function (d) {
+      if (d === 'grp' && PRE.grp) {
+        if (onPreset()) return;
+        if (!S.grp.length) { u.set('grp', ''); return; }   // the visitor cleared the page's own group
+      }
+      S[d].forEach(function (v) { u.append(d, v); });
+    });
+    if (S.rel) u.set('rel', S.rel);
+    if (S.sort) u.set('sort', S.sort);
+    if (openSku) u.set('p', openSku);
+    var qs = u.toString(), url = location.pathname + (qs ? '?' + qs : '');
+    if (url === location.pathname + location.search) return;
+    try { history[push ? 'pushState' : 'replaceState'](null, '', url); } catch (e) {}
+  }
+  function stateKey() { return JSON.stringify([S.q, S.grp, S.cat, S.brand, S.avail, S.rel, S.sort]); }
+  window.addEventListener('popstate', function () {
+    var before = stateKey(), u = readURL();
+    if (stateKey() !== before) { apply(); renderFacets(); }
+    var p = u.get('p');
+    if (p && BY[p]) openQV(p, true); else closeQV(true);
+  });
 
   // ── left sidebar ────────────────────────────────────────────────
   var facetsEl = document.getElementById('dcp-facets');
@@ -188,7 +316,6 @@
   var countEl = document.getElementById('dcp-count'), chipsEl = document.getElementById('dcp-chips'),
     emptyEl = document.getElementById('dcp-empty'), moreBtn = document.getElementById('dcp-more');
   var results = P, shown = 0;
-  var countTop = document.getElementById('dcp-count');
   function showCount() {
     countEl.innerHTML = results.length > shown
       ? L.showing.replace('{n}', '<b>' + num(shown) + '</b>').replace('{t}', num(results.length))
@@ -196,10 +323,13 @@
     emptyEl.hidden = results.length > 0;
     if (moreBtn) moreBtn.hidden = shown >= results.length;
   }
-  function apply() {
+  function byName(a, b) { return a.n.localeCompare(b.n, 'en', { numeric: true, sensitivity: 'base' }) || a.i - b.i; }
+  function apply(how) {   // how: 'push' or 'replace' records the view in the address; nothing leaves it alone
     QT = terms(S.q);
     results = base().filter(function (p) { return match(p, null); });
-    if (S.q) {   // best first: the exact model, then names holding every word, then the rest
+    if (S.sort === 'name') results.sort(byName);
+    else if (S.sort === 'brand') results.sort(function (a, b) { return (!a.b) - (!b.b) || a.b.localeCompare(b.b, 'en', { sensitivity: 'base' }) || byName(a, b); });
+    else if (S.q) {   // best first: the exact model, then names holding every word, then the rest
       var qc = compact(S.q);
       var rank = function (p) {
         if (compact(p.sku) === qc || p.nc.indexOf(qc) === 0) return 0;
@@ -212,7 +342,8 @@
     }
     shown = Math.min(PAGE, results.length);
     grid.innerHTML = results.slice(0, shown).map(cardHTML).join('');
-    showCount(); renderChips(); syncButtons();
+    showCount(); renderChips(); syncButtons(); drawRecent(); sheetCount(); noteEmpty();
+    if (how) writeURL(how === 'push');
   }
   function more() {
     var from = shown;
@@ -227,21 +358,33 @@
     DIMS.forEach(function (d) { S[d].forEach(function (v) { ch.push([d, v, LABEL[d](v)]); }); });
     chipsEl.innerHTML = ch.map(function (x) {
       return '<span class="dcp-chip">' + esc(x[2]) + '<button type="button" data-chip="' + x[0] +
-        '" data-val="' + esc(x[1]) + '" aria-label="' + L.remove + '">&times;</button></span>';
+        '" data-val="' + esc(x[1]) + '" aria-label="' + L.remove + ': ' + esc(x[2]) + '">&times;</button></span>';
     }).join('');
+  }
+  // searches that find nothing tell us what visitors expect to find; recorded only with analytics consent
+  var emptyT;
+  function noteEmpty() {
+    clearTimeout(emptyT);
+    if (!S.q || results.length) return;
+    var q = S.q;
+    emptyT = setTimeout(function () {
+      if (S.q === q && window.google_tag_manager && window.dataLayer)
+        window.dataLayer.push({ event: 'dcp_search_none', search_term: q, page_language: D.lang });
+    }, 1500);
   }
 
   facetsEl.addEventListener('change', function (ev) {
     var d = ev.target.getAttribute('data-dim'); if (!d) return;
     var v = ev.target.value, arr = S[d], i = arr.indexOf(v);
     if (ev.target.checked) { if (i < 0) arr.push(v); } else if (i > -1) arr.splice(i, 1);
-    apply(); renderFacets();
+    apply('push'); renderFacets();
   });
   facetsEl.addEventListener('click', function (ev) {
-    if (ev.target.id === 'dcp-clearall') { DIMS.forEach(function (d) { S[d] = []; }); S.rel = ''; apply(); renderFacets(); return; }
+    if (ev.target.id === 'dcp-clearall') { DIMS.forEach(function (d) { S[d] = []; }); S.rel = ''; apply('push'); renderFacets(); return; }
     var m = ev.target.getAttribute('data-more'); if (m) { S['_m_' + m] = true; renderFacets(); }
     var pk = ev.target.getAttribute('data-pick'); if (pk) openPick(pk, ev.target);
   });
+  if (sortEl) sortEl.addEventListener('change', function () { S.sort = sortEl.value; apply('push'); });
 
   // -- picker window for brands and types: search, a category filter, the starting letters, and
   //    every value in columns. Ticks wait in "pending" until "Show N products" applies them. --
@@ -269,7 +412,7 @@
       var lb = e.target.closest('[data-letter]');
       if (lb) { pickLetter = lb.getAttribute('data-letter'); drawPick(); return; }
       if (e.target.id === 'dcp-pick-clear') { pending = []; drawPick(); return; }
-      if (e.target.closest('#dcp-pick-go')) { S[pickDim] = pending.slice(); closePick(); apply(); renderFacets(); }
+      if (e.target.closest('#dcp-pick-go')) { S[pickDim] = pending.slice(); closePick(); apply('push'); renderFacets(); }
     });
     pick.addEventListener('change', function (e) {
       if (e.target.id === 'dcp-pick-grp') { pickGrp = e.target.value; drawPick(); return; }
@@ -284,10 +427,7 @@
     });
     pick.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') { e.stopPropagation(); closePick(); return; }
-      if (e.key !== 'Tab') return;                 // keep the focus inside the window
-      var f = [].filter.call(pick.querySelectorAll('button,input,select'), function (x) { return x.offsetParent; });
-      if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
-      else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+      trap(e, pick);
     });
   }
   // counts for each value under every other active filter, optionally within one category group
@@ -309,18 +449,18 @@
     pick.querySelector('#dcp-pick-az').innerHTML =
       '<button type="button" data-letter="" aria-pressed="' + (!pickLetter) + '">' + L.all + '</button>' +
       letters.map(function (c) { return '<button type="button" data-letter="' + esc(c) + '" aria-pressed="' + (pickLetter === c) + '">' + esc(c) + '</button>'; }).join('');
-    var shown = vals.filter(function (v) {
+    var list = vals.filter(function (v) {
       return (!pickLetter || initial(lab(v)) === pickLetter) && (!pickQ || lab(v).toLowerCase().indexOf(pickQ) > -1);
     });
     var h = '', last = '';
-    shown.forEach(function (v) {
+    list.forEach(function (v) {
       var c = initial(lab(v)), n = counts[v] || 0, on = pending.indexOf(v) > -1;
       if (c !== last) { h += '<h3>' + esc(c) + '</h3>'; last = c; }
       h += '<label class="' + (n === 0 && !on ? 'off' : '') + '"><input type="checkbox" data-v="' + esc(v) + '"' + (on ? ' checked' : '') +
         '><span dir="auto">' + esc(lab(v)) + '</span><span class="dcp-fc">' + n + '</span></label>';
     });
     pick.querySelector('#dcp-pick-list').innerHTML = h || '<p class="dcp-pick-none">' + (pickDim === 'brand' ? L.no_brand : L.no_type) + '</p>';
-    pick.querySelector('#dcp-pick-n').textContent = L.pick_n.replace('{n}', num(shown.length));
+    pick.querySelector('#dcp-pick-n').textContent = L.pick_n.replace('{n}', num(list.length));
     drawFoot();
   }
   function drawFoot() {
@@ -343,7 +483,8 @@
     q.focus();
   }
   function closePick() {
-    pick.hidden = true; document.documentElement.classList.remove('dcp-pick-open');
+    pick.hidden = true;
+    if (!sheet || sheet.hidden) document.documentElement.classList.remove('dcp-pick-open');
     var back = document.querySelector('#dcp-facets [data-pick="' + pickDim + '"]');
     if (back) back.focus();
   }
@@ -352,22 +493,253 @@
     var d = b.getAttribute('data-chip'), v = b.getAttribute('data-val');
     if (d === 'rel') S.rel = '';
     else { var i = S[d].indexOf(v); if (i > -1) S[d].splice(i, 1); }
-    apply(); renderFacets();
+    apply('push'); renderFacets();
   });
-  var search = document.getElementById('dcp-search'), typing;
+
+  // ── search box with suggestions ─────────────────────────────────
+  var ac = document.getElementById('dcp-ac'), acIdx = -1, typing;
   search.addEventListener('input', function () {
     clearTimeout(typing);
-    typing = setTimeout(function () { S.q = search.value.trim(); apply(); renderFacets(); }, 120);
+    typing = setTimeout(function () { S.q = search.value.trim(); apply('replace'); renderFacets(); drawAC(); }, 120);
   });
-  var mobBtn = document.getElementById('dcp-mobfilter');
-  if (mobBtn) mobBtn.addEventListener('click', function () {
-    var on = facetsEl.classList.toggle('open'); mobBtn.setAttribute('aria-expanded', String(on));
+  function drawAC() {
+    if (!ac) return;
+    if (!S.q || document.activeElement !== search || !results.length) { hideAC(); return; }
+    var top = results.slice(0, 6);
+    acIdx = -1; search.removeAttribute('aria-activedescendant');
+    ac.innerHTML = top.map(function (p, i) {
+      return '<div class="dcp-ac-it" role="option" id="dcp-ac-' + i + '" data-open="' + esc(p.sku) + '" aria-selected="false">' + thumb(p) +
+        '<span class="dcp-ac-t"><span dir="auto">' + esc(p.n) + '</span><small dir="ltr">' + esc((p.b ? p.b + '  ' : '') + p.sku) + '</small></span></div>';
+    }).join('') + (results.length > top.length
+      ? '<div class="dcp-ac-it dcp-ac-all" role="option" id="dcp-ac-' + top.length + '" data-acall="1" aria-selected="false">' + L.ac_all.replace('{n}', num(results.length)) + '</div>' : '');
+    ac.hidden = false; search.setAttribute('aria-expanded', 'true');
+  }
+  function hideAC() {
+    if (!ac) return;
+    ac.hidden = true; search.setAttribute('aria-expanded', 'false'); search.removeAttribute('aria-activedescendant'); acIdx = -1;
+  }
+  function pickAC(el) {
+    hideAC();
+    if (el.hasAttribute('data-acall')) { countEl.scrollIntoView({ block: 'start' }); return; }
+    openQV(el.getAttribute('data-open'));
+  }
+  if (ac) {
+    ac.addEventListener('mousedown', function (e) { e.preventDefault(); });   // keep the focus in the box
+    ac.addEventListener('click', function (e) { var it = e.target.closest('[role=option]'); if (it) pickAC(it); });
+    search.addEventListener('keydown', function (e) {
+      if (ac.hidden) { if (e.key === 'ArrowDown' && S.q) drawAC(); return; }
+      var opts = ac.querySelectorAll('[role=option]');
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        acIdx = e.key === 'ArrowDown' ? (acIdx + 1) % opts.length : (acIdx <= 0 ? opts.length - 1 : acIdx - 1);
+        opts.forEach(function (o, i) { o.setAttribute('aria-selected', String(i === acIdx)); });
+        search.setAttribute('aria-activedescendant', opts[acIdx].id);
+        opts[acIdx].scrollIntoView({ block: 'nearest' });
+      } else if (e.key === 'Enter') {
+        if (acIdx > -1) { e.preventDefault(); pickAC(opts[acIdx]); } else hideAC();
+      } else if (e.key === 'Escape') { e.stopPropagation(); hideAC(); }
+    });
+    search.addEventListener('blur', function () { setTimeout(hideAC, 120); });
+    search.addEventListener('focus', function () { if (S.q) drawAC(); });
+  }
+
+  // ── recently viewed (this browser only) ─────────────────────────
+  var recentEl = document.getElementById('dcp-recent');
+  var seen = (function () { try { var v = JSON.parse(localStorage.getItem(SEEN)); return Array.isArray(v) ? v.filter(function (s) { return BY[s]; }) : []; } catch (e) { return []; } })();
+  function noteSeen(sku) {
+    seen = [sku].concat(seen.filter(function (s) { return s !== sku; })).slice(0, 12);
+    try { localStorage.setItem(SEEN, JSON.stringify(seen)); } catch (e) {}
+  }
+  function drawRecent() {
+    if (!recentEl) return;
+    if (!idle() || !seen.length) { recentEl.hidden = true; recentEl.innerHTML = ''; return; }
+    recentEl.hidden = false;
+    recentEl.innerHTML = '<div class="dcp-recent-head"><h2>' + L.recent + '</h2><button type="button" class="dcp-clearall" data-seen-clear="1">' +
+      L.recent_clear + '</button></div><div class="dcp-recent-row">' + seen.map(function (s) { return miniHTML(BY[s]); }).join('') + '</div>';
+  }
+  if (recentEl) recentEl.addEventListener('click', function (e) {
+    if (e.target.closest('[data-seen-clear]')) { seen = []; try { localStorage.removeItem(SEEN); } catch (x) {} drawRecent(); return; }
+    var o = e.target.closest('[data-open]'); if (o) openQV(o.getAttribute('data-open'));
   });
+
+  // ── quick view: everything about one product without leaving the catalogue ──
+  var qv = null, qvPushed = false, qvBack = null;
+  function buildQV() {
+    qv = document.createElement('div'); qv.className = 'dcp-pick dcp-qv'; qv.hidden = true;
+    qv.innerHTML = '<div class="dcp-pick-bg" data-qclose="1"></div>' +
+      '<div class="dcp-pick-box" role="dialog" aria-modal="true" aria-labelledby="dcp-qv-h">' +
+      '<button class="dcp-pick-x dcp-qv-x" type="button" data-qclose="1" aria-label="' + L.close + '">&times;</button>' +
+      '<div class="dcp-qv-body" id="dcp-qv-body"></div></div>';
+    document.body.appendChild(qv);
+    qv.addEventListener('click', function (e) {
+      if (e.target.closest('[data-qclose]')) { closeQV(); return; }
+      var o = e.target.closest('[data-open]'); if (o) { openQV(o.getAttribute('data-open')); return; }
+      var rl = e.target.closest('[data-rel]'); if (rl) { closeQV(); showRel(rl.getAttribute('data-rel')); return; }
+      var cp = e.target.closest('[data-copy]');
+      if (cp) { var p = BY[openSku]; copyText(p && p.page ? new URL(p.page, location.href).href : location.href, cp); return; }
+      actions(e);
+    });
+    qv.addEventListener('change', changes);
+    qv.addEventListener('keydown', function (e) { if (e.key === 'Escape') { e.stopPropagation(); closeQV(); } else trap(e, qv); });
+  }
+  function qvHTML(p) {
+    var specs = p.specs.map(function (s) { return '<div><dt>' + esc(s[0]) + '</dt><dd dir="ltr">' + esc(s[1]) + '</dd></div>'; }).join('');
+    var note = p.src
+      ? '<p class="dcp-qv-src">' + esc(L.qv_checked.replace('{d}', fmtDate(p.checked))) + ' <a href="' + esc(p.src) + '" target="_blank" rel="noopener nofollow">' + L.qv_maker + '</a></p>'
+      : (TEXT && specs ? '<p class="dcp-qv-src">' + L.qv_inv + '</p>' : '');
+    function rel(title, list) {
+      if (!list.length) return '';
+      return '<section class="dcp-qv-rel"><h3>' + title + ' <span class="dcp-fc">' + list.length + '</span></h3><div class="dcp-recent-row">' +
+        list.slice(0, 8).map(miniHTML).join('') + '</div>' +
+        (list.length > 8 ? '<button type="button" class="dcp-more" data-rel="' + esc(p.sku) + '">' + L.qv_all + '</button>' : '') + '</section>';
+    }
+    return '<div class="dcp-qv-grid">' +
+      (p.photo ? '<div class="dcp-card-photo">' + imgHTML(p, 0, true) + '</div>'
+               : '<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic">' + glyph(p.g, 48) + '</span></div>') +
+      '<div class="dcp-qv-info"><div class="dcp-card-top">' + brandHTML(p) + availHTML(p) + '</div>' +
+        '<h2 id="dcp-qv-h" dir="auto">' + esc(p.n) + '</h2>' +
+        '<p class="dcp-qv-meta"><span class="dcp-tag">' + esc(p.c) + '</span><span class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</span></p>' +
+        (p.d ? '<p class="dcp-qv-d" dir="auto">' + esc(p.d) + '</p>' : '') + qtyHTML(p) +
+        '<div class="dcp-qv-links">' + (p.page ? '<a href="' + esc(p.page) + '">' + L.qv_page + '</a>' : '') +
+          '<button type="button" class="dcp-more" data-copy="1">' + L.qv_link + '</button>' + cmpBox(p) + '</div>' +
+      '</div></div>' +
+      (specs ? '<section class="dcp-qv-specs"><h3>' + L.qv_specs + '</h3><dl>' + specs + '</dl>' + note + '</section>' : '') +
+      rel(L.qv_acc, p.kids) + rel(L.qv_for, p.fits);
+  }
+  function openQV(sku, fromHistory) {
+    var p = BY[sku]; if (!p) return;
+    if (!qv) buildQV();
+    var wasOpen = !qv.hidden;
+    if (!wasOpen) qvBack = document.activeElement;
+    openSku = sku;
+    var body = qv.querySelector('#dcp-qv-body');
+    var draw = function () { if (openSku === sku) { body.innerHTML = qvHTML(p); syncButtons(); } };
+    draw(); withText(draw);
+    body.scrollTop = 0;
+    qv.hidden = false; document.documentElement.classList.add('dcp-pick-open');
+    qv.querySelector('.dcp-qv-x').focus();
+    noteSeen(sku);
+    if (!fromHistory) { writeURL(!wasOpen); if (!wasOpen) qvPushed = true; }
+  }
+  function closeQV(fromHistory) {
+    if (!qv || qv.hidden) return;
+    qv.hidden = true; document.documentElement.classList.remove('dcp-pick-open'); openSku = '';
+    if (fromHistory) qvPushed = false;
+    else if (qvPushed) { qvPushed = false; history.back(); }
+    else writeURL(false);
+    drawRecent();
+    if (qvBack && qvBack.focus && document.contains(qvBack)) qvBack.focus();
+  }
+  function showRel(sku) {
+    S.rel = sku; S.q = ''; search.value = '';
+    DIMS.forEach(function (d) { S[d] = []; });
+    apply('push'); renderFacets();
+    countEl.scrollIntoView({ block: 'start' });
+  }
+
+  // ── compare up to four products ─────────────────────────────────
+  var cmp = [], tray = null, cmpv = null, cmpMsg = '', cmpT;
+  function setCmp(sku, on) {
+    var i = cmp.indexOf(sku);
+    if (on && i < 0) {
+      if (cmp.length >= 4) { cmpMsg = L.cmp_max; clearTimeout(cmpT); cmpT = setTimeout(function () { cmpMsg = ''; syncCmp(); }, 3500); }
+      else cmp.push(sku);
+    }
+    if (!on && i > -1) cmp.splice(i, 1);
+    syncCmp();
+  }
+  function syncCmp() {
+    document.querySelectorAll('[data-cmp]').forEach(function (b) { b.checked = cmp.indexOf(b.getAttribute('data-cmp')) > -1; });
+    if (!tray) {
+      if (!cmp.length) return;
+      tray = document.createElement('div'); tray.className = 'dcp-tray'; tray.setAttribute('role', 'region'); tray.setAttribute('aria-label', L.cmp_h);
+      document.body.appendChild(tray);
+      tray.addEventListener('click', function (e) {
+        if (e.target.closest('[data-cmp-go]')) openCmp();
+        else if (e.target.closest('[data-cmp-clear]')) { cmp = []; syncCmp(); }
+        else { var x = e.target.closest('[data-cmp-x]'); if (x) setCmp(x.getAttribute('data-cmp-x'), false); }
+      });
+    }
+    tray.hidden = !cmp.length;
+    tray.innerHTML = '<div class="dcp-tray-items">' + cmp.map(function (s) {
+        var p = BY[s]; return '<span class="dcp-tray-it" title="' + esc(p.n) + '">' + thumb(p) + '<button type="button" data-cmp-x="' + esc(s) + '" aria-label="' + esc(L.remove + ': ' + p.n) + '">&times;</button></span>';
+      }).join('') + '</div>' +
+      '<button type="button" class="dcp-btn" data-cmp-go="1"' + (cmp.length < 2 ? ' disabled' : '') + '>' + L.cmp_n.replace('{n}', cmp.length) + '</button>' +
+      '<button type="button" class="dcp-clearall" data-cmp-clear="1">' + L.cmp_clear + '</button>' +
+      (cmpMsg ? '<span class="dcp-tray-msg" role="status">' + cmpMsg + '</span>' : '');
+  }
+  function openCmp() {
+    if (cmp.length < 2) return;
+    withText(function () {
+      if (!cmpv) {
+        cmpv = document.createElement('div'); cmpv.className = 'dcp-pick dcp-cmpv'; cmpv.hidden = true;
+        cmpv.innerHTML = '<div class="dcp-pick-bg" data-cclose="1"></div><div class="dcp-pick-box" role="dialog" aria-modal="true" aria-labelledby="dcp-cmp-h">' +
+          '<div class="dcp-pick-head"><h2 id="dcp-cmp-h">' + L.cmp_h + '</h2>' +
+          '<button class="dcp-pick-x" type="button" data-cclose="1" aria-label="' + L.close + '">&times;</button></div>' +
+          '<div class="dcp-cmpv-body"></div></div>';
+        document.body.appendChild(cmpv);
+        cmpv.addEventListener('click', function (e) {
+          if (e.target.closest('[data-cclose]')) { closeCmp(); return; }
+          var o = e.target.closest('[data-open]'); if (o) { closeCmp(); openQV(o.getAttribute('data-open')); return; }
+          actions(e);
+        });
+        cmpv.addEventListener('keydown', function (e) { if (e.key === 'Escape') { e.stopPropagation(); closeCmp(); } else trap(e, cmpv); });
+      }
+      var ps = cmp.map(function (s) { return BY[s]; }), labels = [];
+      ps.forEach(function (p) { p.specs.forEach(function (s) { if (labels.indexOf(s[0]) < 0) labels.push(s[0]); }); });
+      var row = function (th, cells) { return '<tr><th scope="row">' + th + '</th>' + cells.map(function (c) { return '<td>' + c + '</td>'; }).join('') + '</tr>'; };
+      var val = function (p, l) { for (var i = 0; i < p.specs.length; i++) if (p.specs[i][0] === l) return '<span dir="ltr">' + esc(p.specs[i][1]) + '</span>'; return ''; };
+      cmpv.querySelector('.dcp-cmpv-body').innerHTML = '<table class="dcp-cmpt"><thead><tr><td></td>' +
+        ps.map(function (p) { return '<th scope="col">' + miniHTML(p) + '</th>'; }).join('') + '</tr></thead><tbody>' +
+        row(L.brand, ps.map(function (p) { return '<span dir="ltr">' + esc(p.b) + '</span>'; })) +
+        row(L.type, ps.map(function (p) { return esc(p.c); })) +
+        row(L.part, ps.map(function (p) { return '<span class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</span>'; })) +
+        labels.map(function (l) { return row(esc(l), ps.map(function (p) { return val(p, l); })); }).join('') +
+        row('', ps.map(function (p) { return '<button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button>'; })) +
+        '</tbody></table>';
+      syncButtons();
+      cmpv.hidden = false; document.documentElement.classList.add('dcp-pick-open');
+      cmpv.querySelector('.dcp-pick-x').focus();
+    });
+  }
+  function closeCmp() {
+    cmpv.hidden = true; document.documentElement.classList.remove('dcp-pick-open');
+    var go = tray && tray.querySelector('[data-cmp-go]'); if (go) go.focus();
+  }
+
+  // ── filters in a sheet from the bottom on phones ────────────────
+  var mobBtn = document.getElementById('dcp-mobfilter'), sheet = null, facetsHome = document.createComment('facets');
+  function openSheet() {
+    if (!sheet) {
+      sheet = document.createElement('div'); sheet.className = 'dcp-pick dcp-sheet'; sheet.hidden = true;
+      sheet.innerHTML = '<div class="dcp-pick-bg" data-sclose="1"></div><div class="dcp-sheet-box" role="dialog" aria-modal="true" aria-labelledby="dcp-sheet-h">' +
+        '<div class="dcp-sheet-head"><h2 id="dcp-sheet-h">' + L.filters + '</h2><button class="dcp-pick-x" type="button" data-sclose="1" aria-label="' + L.close + '">&times;</button></div>' +
+        '<div class="dcp-sheet-body"></div><div class="dcp-sheet-foot"><button class="dcp-btn" type="button" data-sclose="1" id="dcp-sheet-go"></button></div></div>';
+      document.body.appendChild(sheet);
+      sheet.addEventListener('click', function (e) { if (e.target.closest('[data-sclose]')) closeSheet(); });
+      sheet.addEventListener('keydown', function (e) { if (e.key === 'Escape' && (!pick || pick.hidden)) closeSheet(); else trap(e, sheet); });
+    }
+    facetsEl.parentNode.insertBefore(facetsHome, facetsEl);   // the sidebar moves into the sheet and back
+    sheet.querySelector('.dcp-sheet-body').appendChild(facetsEl);
+    sheetCount();
+    sheet.hidden = false; document.documentElement.classList.add('dcp-pick-open');
+    mobBtn.setAttribute('aria-expanded', 'true');
+    sheet.querySelector('.dcp-pick-x').focus();
+  }
+  function closeSheet() {
+    if (!sheet || sheet.hidden) return;
+    facetsHome.parentNode.insertBefore(facetsEl, facetsHome); facetsHome.remove();
+    sheet.hidden = true; document.documentElement.classList.remove('dcp-pick-open');
+    mobBtn.setAttribute('aria-expanded', 'false'); mobBtn.focus();
+    countEl.scrollIntoView({ block: 'start' });
+  }
+  function sheetCount() { var b = sheet && sheet.querySelector('#dcp-sheet-go'); if (b) b.textContent = L.show_n.replace('{n}', num(results.length)); }
+  if (mobBtn) mobBtn.addEventListener('click', openSheet);
 
   // ── request (RFQ) basket ────────────────────────────────────────
   var drawer = document.getElementById('dcp-drawer'), list = document.getElementById('dcp-rlist'),
     fab = document.getElementById('dcp-fab'), fabN = document.getElementById('dcp-fabn'),
-    scrim = document.getElementById('dcp-scrim');
+    scrim = document.getElementById('dcp-scrim'), rtools = document.getElementById('dcp-rtools');
   // move fixed overlays out of #dc-content (its dark-mode filter would trap
   // position:fixed against it instead of the viewport)
   [fab, scrim, drawer].forEach(function (el) { if (el) document.body.appendChild(el); });
@@ -375,7 +747,7 @@
   function count() { return Object.keys(basket).length; }
   function flyToCart(btn) {
     if (matchMedia('(prefers-reduced-motion:reduce)').matches) return;
-    var card = btn.closest('.dcp-card'), ph = card && card.querySelector('.dcp-card-photo');
+    var card = btn.closest('#dcp-grid .dcp-card'), ph = card && card.querySelector('.dcp-card-photo');
     if (!ph || fab.hidden) return;
     var r = ph.getBoundingClientRect(), t = fab.getBoundingClientRect();
     var fly = document.createElement('div');
@@ -383,7 +755,7 @@
       + 'left:' + r.left + 'px;top:' + r.top + 'px;width:' + r.width + 'px;height:' + r.height + 'px;'
       + 'transition:transform .6s cubic-bezier(.5,-.35,.35,1),opacity .6s';
     var im = ph.querySelector('img');
-    if (im) { fly.style.backgroundImage = 'url(' + im.src + ')'; fly.style.backgroundSize = 'cover'; fly.style.backgroundPosition = 'center'; }
+    if (im) { fly.style.backgroundImage = 'url(' + (im.currentSrc || im.src) + ')'; fly.style.backgroundSize = 'cover'; fly.style.backgroundPosition = 'center'; }
     document.body.appendChild(fly);
     requestAnimationFrame(function () {
       var dx = t.left + t.width / 2 - (r.left + r.width / 2), dy = t.top + t.height / 2 - (r.top + r.height / 2);
@@ -393,12 +765,12 @@
   }
   var lastN = -1;
   function syncButtons() {
-    grid.querySelectorAll('.dcp-add').forEach(function (btn) {
+    document.querySelectorAll('.dcp-add').forEach(function (btn) {
       var on = inBasket(btn.dataset.sku);
       btn.classList.toggle('on', on);
       btn.textContent = on ? L.added : L.add;
     });
-    grid.querySelectorAll('.dcp-qn').forEach(function (inp) {   // reflect a saved quantity on the card
+    document.querySelectorAll('.dcp-qn').forEach(function (inp) {   // reflect a saved quantity
       if (inBasket(inp.dataset.sku)) inp.value = basket[inp.dataset.sku];
     });
     var n = count();
@@ -410,31 +782,26 @@
     }
     lastN = n;
   }
-  function renderList() {
+  function renderList(note) {
     var keys = Object.keys(basket);
-    if (!keys.length) { list.innerHTML = '<p class="dcp-rempty">' + L.r_empty + '</p>'; return; }
-    list.innerHTML = keys.map(function (sku) {
+    if (rtools) rtools.hidden = !keys.length;
+    var head = note ? '<li class="dcp-rnote" role="status">' + esc(note) + '</li>' : '';
+    if (!keys.length) { list.innerHTML = head + '<p class="dcp-rempty">' + L.r_empty + '</p>'; return; }
+    list.innerHTML = head + keys.map(function (sku) {
       var p = BY[sku]; if (!p) return '';
       return '<li><div><strong>' + esc(p.n) + '</strong><span dir="ltr">' + (p.b ? esc(p.b) + ' &middot; ' : '') + esc(p.sku) + '</span></div>' +
         '<div class="dcp-rqty">' +
-          '<button type="button" class="dcp-rq" data-sku="' + esc(sku) + '" data-q="-1" aria-label="Decrease quantity">−</button>' +
+          '<button type="button" class="dcp-rq" data-sku="' + esc(sku) + '" data-q="-1" aria-label="' + esc(L.dec) + '">&minus;</button>' +
           '<span>' + basket[sku] + '</span>' +
-          '<button type="button" class="dcp-rq" data-sku="' + esc(sku) + '" data-q="1" aria-label="Increase quantity">+</button>' +
+          '<button type="button" class="dcp-rq" data-sku="' + esc(sku) + '" data-q="1" aria-label="' + esc(L.inc) + '">+</button>' +
         '</div>' +
-        '<button type="button" class="dcp-rrm" data-sku="' + esc(sku) + '" aria-label="' + L.remove + '">&times;</button></li>';
+        '<button type="button" class="dcp-rrm" data-sku="' + esc(sku) + '" aria-label="' + esc(L.remove + ': ' + p.n) + '">&times;</button></li>';
     }).join('');
   }
-  grid.addEventListener('click', function (e) {
-    var rl = e.target.closest('[data-rel]');
-    if (rl) {
-      S.rel = rl.getAttribute('data-rel'); S.q = ''; search.value = '';
-      DIMS.forEach(function (d) { S[d] = []; });
-      apply(); renderFacets();
-      countTop.scrollIntoView({ block: 'start' });
-      return;
-    }
+  // quantity buttons and Add, wherever a product is shown (cards, quick view, compare)
+  function actions(e) {
     var qb = e.target.closest('.dcp-qb');
-    if (qb) {   // +/- on a card adjusts its quantity (and the basket if already added)
+    if (qb) {
       var inp = qb.parentNode.querySelector('.dcp-qn');
       inp.value = Math.max(1, (parseInt(inp.value, 10) || 1) + (+qb.dataset.q));
       if (inBasket(inp.dataset.sku)) { basket[inp.dataset.sku] = +inp.value; save(); syncButtons(); renderList(); }
@@ -442,16 +809,25 @@
     }
     var btn = e.target.closest('.dcp-add'); if (!btn) return;
     var sku = btn.dataset.sku, adding = !inBasket(sku);
-    if (inBasket(sku)) { delete basket[sku]; }
-    else { var qn = btn.parentNode.querySelector('.dcp-qn'); basket[sku] = Math.max(1, parseInt(qn.value, 10) || 1); }
+    if (!adding) delete basket[sku];
+    else { var row = btn.closest('.dcp-add-row'), qn = row && row.querySelector('.dcp-qn'); basket[sku] = Math.max(1, qn ? parseInt(qn.value, 10) || 1 : 1); }
     save(); syncButtons(); renderList();
     if (adding) flyToCart(btn);
-  });
-  grid.addEventListener('change', function (e) {   // typed quantity
+  }
+  function changes(e) {   // a typed quantity or a compare tick
+    var c = e.target.closest('[data-cmp]'); if (c) { setCmp(c.getAttribute('data-cmp'), c.checked); return; }
     var inp = e.target.closest('.dcp-qn'); if (!inp) return;
     inp.value = Math.max(1, parseInt(inp.value, 10) || 1);
     if (inBasket(inp.dataset.sku)) { basket[inp.dataset.sku] = +inp.value; save(); syncButtons(); renderList(); }
+  }
+  grid.addEventListener('click', function (e) {
+    var rl = e.target.closest('[data-rel]'); if (rl) { showRel(rl.getAttribute('data-rel')); return; }
+    var o = e.target.closest('[data-open]');
+    if (o) { if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return; e.preventDefault(); openQV(o.getAttribute('data-open')); return; }
+    var ph = e.target.closest('.dcp-card-photo'); if (ph) { openQV(ph.closest('.dcp-card').getAttribute('data-sku')); return; }
+    actions(e);
   });
+  grid.addEventListener('change', changes);
   list.addEventListener('click', function (e) {
     var qb = e.target.closest('.dcp-rq');
     if (qb) { var s = qb.dataset.sku; basket[s] = Math.max(1, (basket[s] || 1) + (+qb.dataset.q)); save(); syncButtons(); renderList(); return; }
@@ -466,15 +842,47 @@
   function closeD() {
     if (!drawer.classList.contains('open')) return;
     drawer.classList.remove('open'); scrim.hidden = true; drawer.setAttribute('aria-hidden', 'true');
-    fab.focus();
+    if (!fab.hidden) fab.focus();
   }
   fab.addEventListener('click', openD);
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeD(); });
+  drawer.addEventListener('keydown', function (e) { if (drawer.classList.contains('open')) trap(e, drawer); });
   document.getElementById('dcp-dclose').addEventListener('click', closeD);
   scrim.addEventListener('click', closeD);
   document.getElementById('dcp-clear').addEventListener('click', function () {
     basket = {}; save(); syncButtons(); renderList();
   });
+  // a request can travel as a link (the list rides in the address) or as a spreadsheet
+  function shareLink() {
+    var items = Object.keys(basket).map(function (s) { return [s, basket[s]]; });
+    return location.href.split(/[?#]/)[0] + '?rfq=' + encodeURIComponent(JSON.stringify(items));
+  }
+  function csvCell(c) {
+    c = String(c);
+    if (/^[=+\-@]/.test(c)) c = "'" + c;   // a part number such as "=X" must not become a spreadsheet formula
+    return /[",\r\n]/.test(c) ? '"' + c.replace(/"/g, '""') + '"' : c;
+  }
+  function downloadCSV() {
+    var rows = [[L.part, L.product, L.brand, L.qty]].concat(Object.keys(basket).map(function (s) {
+      var p = BY[s]; return [s, p ? p.n : s, p ? p.b : '', basket[s]];
+    }));
+    var csv = String.fromCharCode(0xFEFF) + rows.map(function (r) { return r.map(csvCell).join(','); }).join('\r\n');
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+    a.download = 'datacore-request-' + new Date().toISOString().slice(0, 10) + '.csv';
+    document.body.appendChild(a); a.click();
+    setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  }
+  var shareBtn = document.getElementById('dcp-share'), csvBtn = document.getElementById('dcp-csv');
+  if (shareBtn) shareBtn.addEventListener('click', function () { copyText(shareLink(), shareBtn); });
+  if (csvBtn) csvBtn.addEventListener('click', downloadCSV);
+  function takeShared(u) {
+    var raw = u.get('rfq'), n = 0; if (!raw) return 0;
+    try {
+      JSON.parse(raw).forEach(function (x) { if (x && BY[x[0]]) { basket[x[0]] = Math.max(1, parseInt(x[1], 10) || 1); n++; } });
+    } catch (e) { return 0; }
+    save(); return n;
+  }
   var form = document.getElementById('dcp-rform');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -499,5 +907,11 @@
     });
   });
 
-  renderFacets(); apply(); renderList();
+  // ── start: the address decides the view; a shared list or ?req=1 opens the request ──
+  var u0 = readURL(), shared = takeShared(u0);
+  renderFacets(); apply(); renderList(shared === 1 ? L.shared_one : shared ? L.shared.replace('{n}', num(shared)) : '');
+  if (u0.get('p') && BY[u0.get('p')]) openQV(u0.get('p'), true);
+  if (shared || u0.has('req')) openD();
+  if (u0.has('rfq') || u0.has('req')) writeURL(false);
+  setTimeout(function () { withText(function () { if (S.q) apply(); }); }, 30);
 })();

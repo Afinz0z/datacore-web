@@ -64,12 +64,18 @@ each page is for:
                           (there are 38 service pages in total).
 
   • Products ............ A searchable catalogue of hardware. Visitors
-                          can filter by category, type or brand, see
-                          the accessories and licences that go with a
-                          product, add items to a "request" list,
-                          and send it to Datacore for a price quote.
-                          (No payment happens on the site — it simply
-                          creates a quote request.)
+                          can filter by category, type or brand, sort
+                          the list, open any product for its full
+                          details, compare up to four products side
+                          by side, see the accessories and licences
+                          that go with a product, add items to a
+                          "request" list, and send it to Datacore for
+                          a price quote. The list can also be shared
+                          as a link or saved as a spreadsheet. Each
+                          category has its own page, and so does each
+                          product with a photo or checked specs. (No
+                          payment happens on the site. It only creates
+                          a quote request.)
 
   • Projects ............ Real example projects ("case studies") with
                           photos, showing work Datacore has delivered.

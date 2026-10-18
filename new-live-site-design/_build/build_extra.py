@@ -187,6 +187,14 @@ for slug in SVC:
     urls += ["service-" + slug + ".html", "service-" + slug + "-ar.html"]
 for slug in ["owis", "aou-council", "psau", "taqeem", "auditorium"]:
     urls += ["project-" + slug + ".html", "project-" + slug + "-ar.html"]
+# products: a page per category group, then one per product with a photo or checked specs.
+# build_products.py writes (and prunes) them, so the sitemap lists what is there.
+_site = sorted(os.listdir(ROOT))
+for _start in ("products-", "product-"):
+    for _f in _site:
+        if _f.startswith(_start) and _f.endswith(".html") and not _f.endswith("-ar.html") \
+                and os.path.exists(os.path.join(ROOT, _f[:-5] + "-ar.html")):
+            urls += [_f, _f[:-5] + "-ar.html"]
 import glob as _glob
 _ins_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content", "insights")
 _lastmod = {}   # per-URL content date, so the sitemap doesn't drift on every rebuild

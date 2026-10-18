@@ -120,8 +120,26 @@ for the architecture, the build and the deploy.
 - The default order mixes the catalogue: products with a photo first, then each half dealt out one at a
   time across filter groups, then brands inside a group, then categories (`_variety()` in
   `build_products.py`). A page never opens on one category, and one maker with many photos can't fill it.
-- The page itself carries the first page of cards. The full catalogue is `assets1/data/products-data.js`,
-  stamped with a hash of its contents, so a new import is never served from a stale cache.
+- Product pages: every product with its own photo or checked specs gets `product-<brand>-<sku>.html` and
+  `-ar.html` at the site root (page links are relative to the root, so pages can't live in a folder).
+  `build_products.py` writes them and deletes the pages of products that no longer qualify, and
+  `build_extra.py` lists whatever is there in the sitemap. They carry Product schema without prices.
+- Category pages: `products-<group>.html` for each filter group except Other, the catalogue opened on that
+  group. Their introduction is written from the catalogue (count, makers, commonest types), so it stays true
+  after every import. Write no claims into it by hand.
+- Small photos: after adding photos or logos, run `python make_thumbs.py` in `_build/` (it needs Pillow, so CI
+  doesn't run it). It writes 300 px copies to `sm/` folders, and grids offer them to standard screens. A
+  product without a small copy still shows its full photo.
+- The catalogue keeps its view in the address: `q`, `grp`, `cat`, `brand`, `rel`, `sort` and `p` (an open
+  quick view), so any view can be shared and Back works. `rfq` (a request list someone shared) and `req=1`
+  (open the request) are read once and removed. Links from elsewhere on the site can use these, as the
+  project pages do for the brands a case study names.
+- Searches that find nothing are sent to analytics as `dcp_search_none`, and only once Google Tag Manager has
+  loaded, which happens after the visitor accepts cookies.
+- The page itself carries the first page of cards. Card data is `assets1/data/products-data.js`; descriptions,
+  full spec lists, model codes and makers' pages are in `assets1/data/products-text.js`, which loads once the
+  page has drawn. Both are
+  stamped with a hash of their contents, so a new import is never served from a stale cache.
 
 ## Operational notes
 
