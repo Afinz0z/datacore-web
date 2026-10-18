@@ -7,10 +7,61 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HIKVISION 4CH Network Video Recorder 4 Independent PoE - 1 HDD Support",
- "specs": [],
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "4-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "40 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "1 SATA interface"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Operating System",
+   "value": "Embedded Linux"
+  },
+  {
+   "label": "IP Speaker Input",
+   "value": "4-ch"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "80 Mbps"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "1-ch, 4K(3840×2160)/30Hz, 2K(2560×1440)/60Hz, 1080P(1920×1080)/60Hz, UXGA(1600×1200)/60Hz, SXGA(1280×1024)/60Hz, 720P(1280×720)/60Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1-ch, 1080P(1920×1080)/60Hz, UXGA(1600×1200)/60Hz, SXGA(1280×1024)/60Hz, 720P(1280×720)/60Hz"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI/VGA simultaneous output"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch, RCA"
+  },
+  {
+   "label": "Audio Input",
+   "value": "1-ch, RCA"
+  }
+ ],
  "acc": [
   "WD43PURZ",
   "WD64PURZ",
   "WD8002PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7604ni-k1-4p-4k/",
+ "checked": "2026-10-18"
 }

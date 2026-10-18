@@ -9,12 +9,58 @@
  "d": "HIKVISION 4CH Network Video Recorder 4 Independent PoE - 1 HDD Support",
  "specs": [
   {
-   "label": "Series",
-   "value": "NVR K series"
+   "label": "IP Video Input",
+   "value": "4-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "40 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "1 SATA interface"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1, RJ-45 10/100 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Human/Vehicle Analysis",
+   "value": "1-ch;4-ch"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "80 Mbps"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "1-ch, 4K (4096 x 2160)/30 Hz, 4K (3840 x 2160)/30 Hz, 2K (2560 x 1440)/60 Hz, 1920 x 1080/60 Hz, 1600 x 1200/60 Hz, 1280 x 1024/60 Hz, 1280 x 720/60 Hz;1-ch, 4K（4096x2160）/30Hz，4K (3840×2160) /30Hz, 2K（2560×1440）/60Hz，1920×1080/60Hz，1600×1200/60Hz，1280×1024/60Hz，1280×720/60Hz; ,HDMI/VGA simultaneous output,;1-ch, 4K (3840 × 2160)/30Hz, 1920 × 1080p/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz; ,HDMI/VGA simultaneous output,;1-ch, 4K（4096x2160）/30Hz，4K (3840×2160) /30Hz, 2K（2560×1440）/60Hz，1920×1080/60Hz，1600×1200/60Hz，1280×1024/60Hz，1280×720/60Hz ,HDMI/VGA simultaneous output,"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1-ch, 1920 × 1080p/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz ;HDMI/VGA simultaneous output,;1-ch, 1920 × 1080/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz;1-ch, 1920 × 1080p/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz ;,HDMI/VGA simultaneous output,"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI/VGA simultaneous output"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch, RCA (Linear, 1 KΩ)"
+  },
+  {
+   "label": "Two-Way Audio",
+   "value": "1-ch, RCA (2.0 Vp-p, 1 k Ω)"
+  },
+  {
+   "label": "Stream Type",
+   "value": "Video, Video & Audio"
   }
  ],
  "acc": [
   "DC HC320",
   "WD8002PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7604ni-q1-4p/",
+ "checked": "2026-10-18"
 }

@@ -6,5 +6,56 @@
  "c": "PTZ Joystick",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Interface",
+   "value": "Not supported"
+  },
+  {
+   "label": "USB Interface",
+   "value": "USB 2.0 × 1"
+  },
+  {
+   "label": "Serial Interface",
+   "value": "RS-232 × 1, RS-485 × 1, RS-422 × 1"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Not supported"
+  },
+  {
+   "label": "Control Method",
+   "value": "Serial control"
+  },
+  {
+   "label": "Display",
+   "value": "128 × 64 dot-matrix screen"
+  },
+  {
+   "label": "Joystick",
+   "value": "4-axis single button joystick"
+  },
+  {
+   "label": "Operating System Supported",
+   "value": "Linux system"
+  },
+  {
+   "label": "Working Temperature",
+   "value": "-10 °C to 55 °C (14 °F to 131 °F)"
+  },
+  {
+   "label": "Working Humidity",
+   "value": "10% to 90%"
+  },
+  {
+   "label": "Net Weight",
+   "value": "1.6 kg (3.53 lb.)"
+  },
+  {
+   "label": "Dimensions (W × H × D)",
+   "value": "348.2 mm × 169 mm × 123.2 mm (13.7 inch × 6.65 inch × 4.85 inch)"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/display-and-control/control-and-decode/keyboards/DS-1006KI/",
+ "checked": "2026-10-18"
 }

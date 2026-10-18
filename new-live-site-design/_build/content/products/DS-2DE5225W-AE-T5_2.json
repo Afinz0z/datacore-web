@@ -9,8 +9,54 @@
  "d": "2 MP 25X Powered by DarkFighter Network Speed Dome - OUTDOOR",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Max. Resolution",
+   "value": "1920 × 1080"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/2.8″ Progressive Scan CMOS"
+  },
+  {
+   "label": "Protection",
+   "value": "IP66 (IEC 60529-2013), IK10 (IEC 62262:2002), TVS 6000V lightning protection, surge protection and voltage transient protection"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264 Sub-stream: H.265/H.264/MJPEG Third stream: H.265/H.264/MJPEG"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 Lux @ (F1.6, AGC ON); B/W: 0.001 Lux @ (F1.6, AGC ON)"
+  },
+  {
+   "label": "Shutter Speed",
+   "value": "1 s to 1/30,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Zoom",
+   "value": "25x optional, 16x digital"
+  },
+  {
+   "label": "Slow Shutter",
+   "value": "Yes"
+  },
+  {
+   "label": "Focal Length",
+   "value": "4.8 mm to 120 mm"
+  },
+  {
+   "label": "FOV",
+   "value": "Horizontal field of view: 57.6° to 2.5° (wide-tele), Vertical field of view: 34.4° to 1.4° (wide-tele), Diagonal field of view: 64.5° to 2.9° (wide-tele)"
+  },
+  {
+   "label": "Focus",
+   "value": "Auto, semi-auto, manual"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/PTZ-Cameras/Pro-Series/ds-2de5225w-ae-t5-/",
+ "checked": "2026-10-18"
 }

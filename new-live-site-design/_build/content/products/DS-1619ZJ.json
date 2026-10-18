@@ -9,13 +9,35 @@
  "d": "PTZ Camera Hikvision Swan Neck Bracket",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Bracket"
+   "label": "",
+   "value": "6426g"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hik white"
+  },
+  {
+   "label": "Adjustment Angle",
+   "value": "Suitable for PTZ dome cameras"
+  },
+  {
+   "label": "Description",
+   "value": "Swan neck bracket"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum alloy and steel tube"
+  },
+  {
+   "label": "Dimension",
+   "value": "455.2×130.4×841.5mm"
   }
  ],
  "for": [
   "DS-2DE4425IW-DE-T5",
   "DS-2DE5432IW-AE-S5",
   "DS-2DE7A432IW-AEB-T5"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/brackets/ds-1619zj/",
+ "checked": "2026-10-18"
 }

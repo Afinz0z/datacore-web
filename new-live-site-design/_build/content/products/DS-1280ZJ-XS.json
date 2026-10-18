@@ -9,8 +9,24 @@
  "d": "Hikvision Aluminum alloy junction box bracket Bullet For DS-2CD (1043G0 ,1053G0)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Junction box"
+   "label": "",
+   "value": "Approx. 320 g (0.66 lb.)"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Description",
+   "value": "Junction Box for Dome (Bullet) Camera"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum Alloy"
+  },
+  {
+   "label": "Dimension",
+   "value": "100 × 43.5 × 132.1 mm (3.94'' × 1.71'' × 5.20'')"
   }
  ],
  "for": [
@@ -20,5 +36,7 @@
   "DS-2CD2087G2H-LIU",
   "DS-2CD2183G2-I",
   "DS-2CD2183G2-IS"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/junctions/ds-1280zj-xs/",
+ "checked": "2026-10-18"
 }

@@ -9,12 +9,58 @@
  "d": "HIKVISION 16CH Network Video Recorder - 160Mbps Bit Rate Input Max (up to 16-ch IP video), 2 SATA interfaces, 380 1U case, alarm I/O:4/1(optional)",
  "specs": [
   {
-   "label": "Series",
-   "value": "NVR K2 Series"
+   "label": "IP Video Input",
+   "value": "16-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "2 SATA interface"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Operating System",
+   "value": "Embedded Linux"
+  },
+  {
+   "label": "IP Speaker Input",
+   "value": "4-ch"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "1-ch, 4K(3840×2160)/30Hz, 2K(2560×1440)/60Hz, 1080P(1920×1080)/60Hz, UXGA(1600×1200)/60Hz, SXGA(1280×1024)/60Hz, 720P(1280×720)/60Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1-ch, 1080P(1920×1080)/60Hz, UXGA(1600×1200)/60Hz, SXGA(1280×1024)/60Hz, 720P(1280×720)/60Hz"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI/VGA simultaneous output"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch, RCA"
+  },
+  {
+   "label": "Audio Input",
+   "value": "1-ch, RCA"
   }
  ],
  "acc": [
   "DC HC330",
   "WD102PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7616ni-k2-4k/",
+ "checked": "2026-10-18"
 }

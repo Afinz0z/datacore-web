@@ -9,12 +9,52 @@
  "d": "HIKVISION 4MP 25X IR Optical Zoom PTZ Dome Network Camera - 100 M IR. Including wall Bracket",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Max. Resolution",
+   "value": "2560 × 1440"
   },
   {
-   "label": "Series",
-   "value": "AcuSense"
+   "label": "Image Sensor",
+   "value": "1/2.8\" progressive scan CMOS"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "IR Distance: up to 100 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP66 (IEC 60529-2013), TVS 6000V lightning protection, surge protection and voltage transient protection"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264 Sub-stream: H.265/H.264/MJPEG Third stream: H.265/H.264/MJPEG"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 Lux @ (F1.6, AGC ON); B/W: 0.001 Lux @ (F1.6, AGC ON), 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Speed",
+   "value": "1 s to 1/30,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Zoom",
+   "value": "25x optical, 16x digital"
+  },
+  {
+   "label": "Slow Shutter",
+   "value": "yes"
+  },
+  {
+   "label": "Focal Length",
+   "value": "4.8 mm to 120 mm"
+  },
+  {
+   "label": "FOV",
+   "value": "Horizontal field of view: 55° to 2.4° (wide-tele), Vertical field of view: 33° to 1.4° (wide-tele), Diagonal field of view: 61.5° to 2.8° (wide-tele)"
   }
  ],
  "acc": [
@@ -23,5 +63,7 @@
   "DS-1619ZJ",
   "DS-1663ZJ",
   "DS-1672ZJ"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/PTZ-Cameras/Pro-Series/ds-2de4425iw-de-t5-/",
+ "checked": "2026-10-18"
 }

@@ -9,11 +9,57 @@
  "d": "HIKVISION 4MP ANPR Dark Fighter Bullet Camera, Car plate Number for streets",
  "specs": [
   {
-   "label": "Type",
-   "value": "ANPR Camera"
+   "label": "Max. Resolution",
+   "value": "2688 × 1520"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/1.8\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "2.8 to 12 mm: 50 m 8 to 32 mm: 100 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP67: IEC 60529-2013,IK10: IEC 62262:2002"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264, Sub-stream: H.265/H.264/MJPEG, Third stream: H.265/H.264, Fourth stream: H.265/H.264/MJPEG, Fifth stream: H.265/H.264/MJPEG"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.0005 Lux @ (F1.2, AGC ON); B/W: 0.0001 Lux @ (F1.2, AGC ON), 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter Blue glass module to reduce ghost phenomenon"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 to 12 mm, horizontal FOV: 114.5° to 41.8°, vertical FOV: 59.3° to 23.6°, diagonal FOV: 141.1° to 48° 8 to 32 mm, horizontal FOV: 42.5° to 15.1°, vertical FOV: 23.3° to 8.64°, diagonal FOV: 49.6° to 17.3°"
+  },
+  {
+   "label": "Focus",
+   "value": "Auto,Semi-auto,Manual"
+  },
+  {
+   "label": "Iris Type",
+   "value": "P-iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "2.8 to 12 mm: F1.2 to F2.5 8 to 32 mm: F1.7 to F1.73"
   }
  ],
  "acc": [
   "DS-1602ZJ"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/DeepinView-Series/ids-2cd7a46g0-p-izhs-y-/",
+ "checked": "2026-10-18"
 }

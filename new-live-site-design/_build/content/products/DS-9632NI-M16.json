@@ -9,8 +9,54 @@
  "d": "M Series 8K NVR",
  "specs": [
   {
-   "label": "Series",
-   "value": "M-Series"
+   "label": "IP Video Input",
+   "value": "32-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "320 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "16 SATA interfaces supporting hot-plug"
+  },
+  {
+   "label": "Network Interface",
+   "value": "2, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "400 Mbps"
+  },
+  {
+   "label": "HDMI 1 Output",
+   "value": "8K (7680 × 4320)/30 Hz, 4K (3840 × 2160)/60 Hz, 4K (3840 × 2160)/30 Hz, 2K (2560 × 1440)/60 Hz, 1920 × 1080/60 Hz"
+  },
+  {
+   "label": "HDMI 2 Output",
+   "value": "4K (3840 × 2160)/60 Hz, 4K (3840 × 2160)/30 Hz, 2K (2560 × 1440)/60 Hz, 1920 × 1080/60 Hz *: When HDMI 1 output resolution is 8K, the maximum HDMI 2 output resolution is 1080p."
+  },
+  {
+   "label": "VGA 1 Output",
+   "value": "1920 × 1080/60 Hz"
+  },
+  {
+   "label": "VGA 2 Output",
+   "value": "1920 × 1080/60 Hz"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI 1 and VGA 1 provide simultaneous video output, and work as the main output; HDMI 2 and VGA 2 provide simultaneous video output, and work as the auxiliary output"
+  },
+  {
+   "label": "CVBS Output",
+   "value": "1-ch, BNC (1.0 Vp-p, 75 Ω), resolution: PAL: 704 × 576, NTSC: 704 × 480"
+  },
+  {
+   "label": "Audio Input",
+   "value": "1-ch, RCA (2.0 Vp-p, 1 KΩ)"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Ultra-Series/ds-9632ni-m16/",
+ "checked": "2026-10-18"
 }

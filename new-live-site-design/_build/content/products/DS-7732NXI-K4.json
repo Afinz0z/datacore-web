@@ -9,13 +9,59 @@
  "d": "HIKVISION (4K & H.265) 32CH Network Video Recorder - 4 HDD Support -AcuSense",
  "specs": [
   {
-   "label": "Series",
-   "value": "NVR K4 Series"
+   "label": "IP Video Input",
+   "value": "32-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "256 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "4 SATA interfaces"
+  },
+  {
+   "label": "Network Interface",
+   "value": "2 RJ-45 10/100/1000 Mbps self-adaptive Ethernet interfaces"
+  },
+  {
+   "label": "AI by Device",
+   "value": "Facial recognition, perimeter protection, motion detection 2.0"
+  },
+  {
+   "label": "AI by Camera",
+   "value": "Facial recognition, perimeter protection, throwing objects from building, motion detection2.0, ANPR, VCA"
+  },
+  {
+   "label": "By Device",
+   "value": "2-ch, 4 MP (HD network camera, H.264/H.265) video analysis for human and vehicle recognition to reduce false alarm"
+  },
+  {
+   "label": "By Camera",
+   "value": "All channels"
+  },
+  {
+   "label": "Facial Detection and Analytics",
+   "value": "Face picture comparison, human face capture, face picture search"
+  },
+  {
+   "label": "Face Picture Library",
+   "value": "Up to 16 face picture libraries, with up to 20,000 face pictures in total (each picture ≤ 4 MB, total capacity ≤ 1 GB)"
+  },
+  {
+   "label": "Facial Detection and Analytics Performance",
+   "value": "1-ch, 8 MP"
+  },
+  {
+   "label": "Face Picture Comparison",
+   "value": "4-ch"
   }
  ],
  "acc": [
   "DC HC330",
   "WD102PURP",
   "[303801152]Seagate Exos 8TB"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7732nxi-k4-d-/",
+ "checked": "2026-10-18"
 }

@@ -9,12 +9,58 @@
  "d": "HIKVISION 16ch 4G NVR, 2 SATA interface, 4G wireless network",
  "specs": [
   {
-   "label": "Series",
-   "value": "NVR K2 Series"
+   "label": "IP Video Input",
+   "value": "16-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "2 SATA interfaces"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1 RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Human/Vehicle Analysis",
+   "value": "4-ch"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "80 Mbps"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "4K (3840 × 2160)/30 Hz, 2K (2560 × 1440)/60 Hz, 1920 × 1080/60 Hz, 1600 × 1200/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1920 × 1080/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI/VGA simultaneous output"
+  },
+  {
+   "label": "Audio Input",
+   "value": "1-ch, RCA (2.0 Vp-p, 1 KΩ)"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch, RCA (Linear, 1 KΩ)"
+  },
+  {
+   "label": "Two-Way Audio",
+   "value": "1-ch, RCA (2.0 Vp-p, 1kΩ, using the audio input)"
   }
  ],
  "acc": [
   "DC HC320",
   "WD8002PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Special-Series/ds-7616ni-k2-4g/",
+ "checked": "2026-10-18"
 }

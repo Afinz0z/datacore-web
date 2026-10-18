@@ -7,12 +7,63 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HIKVISION 4K Fixed Dome Network Camera, 8MP - built in MIC and Support memory card",
- "specs": [],
+ "specs": [
+  {
+   "label": "Max. Resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/2.8\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed focal lens, 2.8 and 4 mm optional"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "Up to 30 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP67 (IEC 60529-2013) IK10 (IEC 62262: 2002)"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.264+/H.265 Sub-stream: H.265/MJPEG"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.01 Lux @ (F2.0, AGC ON), B/W: 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 355°, tilt: 0° to 75°"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 mm, horizontal FOV 108°, vertical FOV 60°, diagonal FOV 127° 4 mm, horizontal FOV 86°, vertical FOV 46°, diagonal FOV 102°"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
+  }
+ ],
  "acc": [
   "DS-1271ZJ-110",
   "DS-1272ZJ-110",
   "DS-1272ZJ-110B",
   "DS-1275ZJ-S-SUS",
   "DS-1276ZJ-SUS"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/value-series/ds-2cd1183g0-iuf/",
+ "checked": "2026-10-18"
 }

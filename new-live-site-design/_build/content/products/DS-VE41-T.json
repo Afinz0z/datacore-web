@@ -6,5 +6,56 @@
  "c": "Workstation",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "CPU",
+   "value": "Ultra 5 235 Total Cores: 14 (Performance-cores: 6; Efficient-cores: 8) Total Threads: 14 Max Turbo Frequency: 5 GHz"
+  },
+  {
+   "label": "Memory",
+   "value": "2 × 8GB Support 8GB/16GB/32GB, DDR5 Slots: 4 x DDR5 slots, supports 4 x 32 GB MAX"
+  },
+  {
+   "label": "Hard Disks",
+   "value": "1TB M.2 SSD Support 256GB/ 512GB/ 1TB/2TB M.2 NVMe SSD Support 2TB 7200RPM/ 4TB 5400RPM 3.5-inch SATA HDD Slots: 1 x 3.5-inch SATA HDD slot"
+  },
+  {
+   "label": "Supported Operating Systems",
+   "value": "Win11 IoT"
+  },
+  {
+   "label": "Graphic Card",
+   "value": "Integrated Graphic"
+  },
+  {
+   "label": "PCIe Slots",
+   "value": "1 half-height Gen4 PCIe x16 slot 1 half-height Gen3 PCIe x4 slot 1 half-height Gen3 PCIe x1 slot"
+  },
+  {
+   "label": "Front Ports",
+   "value": "1 USB 2.0 (480 Mbps) port 1 USB 2.0 (480 Mbps) port with PowerShare 1 USB 3.2 Gen 2 (10 Gbps) port 1 USB 3.2 Gen 2x2 (20 Gbps) Type-C® port 1 global headset jack"
+  },
+  {
+   "label": "Rear Ports",
+   "value": "2 x USB 2.0 (480 Mbps) ports with SmartPower On 3 x USB 3.2 Gen 1 (5 Gbps) ports 1 x USB 3.2 Gen 2 (10 Gbps) Type-C port 1 x HDMI 2.1, up to 5120 x 3200 @60Hz 3 x DisplayPort™ 1.4a (HBR3) ports up to 5120 x 3200 @ 60Hz 1 x RJ45 (1GbE) Ethernet port"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Tower SFF"
+  },
+  {
+   "label": "Net Weight",
+   "value": "6.58 kg (14.51 lb)"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "7.93 kg (17.49 lb)"
+  },
+  {
+   "label": "Dimension (W × H × D)",
+   "value": "95.00 mm × 303.5 mm × 293.0 mm (3.74'' × 11.95'' × 11.54'')"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/software/server-products/general-purpose-server/ds-ve41-t-hw5-b-/",
+ "checked": "2026-10-18"
 }

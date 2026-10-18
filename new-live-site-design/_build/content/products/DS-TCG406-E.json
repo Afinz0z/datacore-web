@@ -9,12 +9,54 @@
  "d": "4 MP Access ANPR Camera",
  "specs": [
   {
-   "label": "Type",
-   "value": "ANPR Camera"
+   "label": "Max. Resolution",
+   "value": "2688 × 1520"
   },
   {
-   "label": "Series",
-   "value": "DarkFighter"
+   "label": "Lens Type",
+   "value": "2.8 to 12 mm 8 to 32 mm"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "Video: 2.8 mm to 12 mm: 25 m 8 mm to 32 mm: 50 m Vehicle License Plate: 2.8 mm to 12 mm: 10 m 8 mm to 32 mm: 20 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IK10 (IEC 62262: 2002), IP67 (IEC 60529-2013)"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1 RJ45 10M/100M self-adaptive Ethernet port"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265/H.264/MJPEG, Sub-stream: H.265/H.264/MJPEG,"
+  },
+  {
+   "label": "Aperture",
+   "value": "2.8 to 12 mm: F1.2 to F2.5 8 to 32 mm: F1.7 to F1.73"
+  },
+  {
+   "label": "Focal Length & FoV",
+   "value": "2.8 to 12 mm, horizontal FoV: 114.5° to 41.8°, vertical FoV: 59.3° to 23.6°, diagonal FoV: 141.1° to 48°, 8 to 32 mm, horizontal FoV: 42.5° to 15.1°, vertical FoV: 23.3° to 8.64°, diagonal FoV: 49.6° to 17.3°"
+  },
+  {
+   "label": "Focus",
+   "value": "Auto，Vari-focal lens, motor-driven lens"
+  },
+  {
+   "label": "Supplement Light Type",
+   "value": "IR Light, Warm White Light"
+  },
+  {
+   "label": "IR Wavelength",
+   "value": "Warm White Light 3000 K, IR Light 850 nm"
+  },
+  {
+   "label": "Trigger Type",
+   "value": "Video Detection, I/O Coil, Radar Mixed Traffic"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/parking-management/vehicle-access-control-management/anpr-cameras/ds-tcg406-e/",
+ "checked": "2026-10-18"
 }

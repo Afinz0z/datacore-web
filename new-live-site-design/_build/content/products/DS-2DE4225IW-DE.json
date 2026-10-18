@@ -9,11 +9,57 @@
  "d": "HIKVISION 2MP 25X IR Optical Zoom PTZ Dome Network Camera - 100 M IR - OUTDOOR",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Max. Resolution",
+   "value": "1920 × 1080"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/2.8\" progressive scan CMOS"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1 RJ45 10 M/100 M Ethernet, PoE+ (802.3 at, class4)"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main Stream: H.265+/H.265/H.264+/H.264 Sub-stream: H.265/H.264/MJPEG Third Stream: H.265/H.264/MJPEG"
+  },
+  {
+   "label": "FOV",
+   "value": "Horizontal field of view: 57.6° to 2.5° (Wide-Tele) Vertical field of view: 34.4° to 1.4° (Wide-Tele) Diagonal field of view: 64.5° to 2.9° (Wide-Tele)"
+  },
+  {
+   "label": "Zoom Speed",
+   "value": "Approx. 3.6 s (optical lens, wide-tele)"
+  },
+  {
+   "label": "Working Distance",
+   "value": "10 mm to 1500 mm (wide-tele)"
+  },
+  {
+   "label": "Aperture Range",
+   "value": "F1.6 to F3.5"
+  },
+  {
+   "label": "Focal Length",
+   "value": "4.8 mm to 120 mm, 25× optical zoom"
+  },
+  {
+   "label": "Image Enhancement",
+   "value": "HLC/BLC/3D DNR/Defog/EIS/Regional Exposure/Regional Focus"
+  },
+  {
+   "label": "Sub-Stream",
+   "value": "50Hz: 25fps (704 × 576, 640 × 480, 352 × 288) 60Hz: 30fps (704 × 480, 640 × 480, 352 × 240)"
+  },
+  {
+   "label": "Main Stream",
+   "value": "50Hz: 25fps (1920 × 1080, 1280 × 960, 1280 × 720) 50fps (1280 × 960, 1280 × 720) 60Hz: 30fps (1920 × 1080, 1280 × 960, 1280 × 720) 60fps (1280 × 960, 1280 × 720)"
   }
  ],
  "acc": [
   "DS-1602ZJ"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/PTZ-Cameras/Pro-Series/ds-2de4225iw-de/",
+ "checked": "2026-10-18"
 }

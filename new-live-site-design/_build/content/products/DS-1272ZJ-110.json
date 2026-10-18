@@ -7,7 +7,28 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HIKVISION Wall Mounting Bracket for Mini Dome Camera 2CD (1153G0, 1143G0, 2143G2, 2163G2, 2183G2)",
- "specs": [],
+ "specs": [
+  {
+   "label": "",
+   "value": "480g"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Description",
+   "value": "Wall Mounting Bracket for Dome Camera"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum Alloy"
+  },
+  {
+   "label": "Dimension",
+   "value": "122×120×169mm"
+  }
+ ],
  "for": [
   "DS-2CD1123G0E-I",
   "DS-2CD1143G0-I",
@@ -16,5 +37,7 @@
   "DS-2CD1363G2-LIUF",
   "DS-2CD2163G2-IS",
   "DS-2CD2543G0-IS"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/brackets/ds-1272zj-110/",
+ "checked": "2026-10-18"
 }

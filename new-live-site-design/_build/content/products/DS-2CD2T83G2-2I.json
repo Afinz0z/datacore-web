@@ -9,16 +9,58 @@
  "d": "8 MP AcuSense Fixed Bullet Network Camera - 2.8mm / 4.0mm lens 60M IR .",
  "specs": [
   {
-   "label": "Type",
-   "value": "Bullet Camera"
+   "label": "Max. Resolution",
+   "value": "3840 × 2160"
   },
   {
-   "label": "Series",
-   "value": "AcuSense"
+   "label": "Image Sensor",
+   "value": "1/2.8\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed focal lens, 2.8, 4, and 6 mm optional"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "-2I: up to 60 m; -4I: up to 80 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IK10: IEC 62262:2002;IP67: IEC 60529-2013"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264, Sub-stream: H.265/H.264/MJPEG, Third stream: H.265/H.264"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 Lux @ (F1.6, AGC ON),B/W: 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 360°,tilt: 0° to 90°,rotate: 0° to 360°"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 mm, horizontal FOV 107°, vertical FOV 57°, diagonal FOV 128° 4 mm, horizontal FOV 87°, vertical FOV 46°, diagonal FOV 105° 6 mm, horizontal FOV 54°, vertical FOV 29°, diagonal FOV 63°"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
   }
  ],
  "acc": [
   "DS-1260ZJ",
   "DS-1276ZJ-SUS"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2t83g2-2i-4i/",
+ "checked": "2026-10-18"
 }

@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Video Intercom Network Indoor Station",
- "specs": []
+ "specs": [
+  {
+   "label": "Operating system",
+   "value": "Linux"
+  },
+  {
+   "label": "ROM",
+   "value": "32 MB"
+  },
+  {
+   "label": "RAM",
+   "value": "128 MB"
+  },
+  {
+   "label": "CPU",
+   "value": "Embedded processor"
+  },
+  {
+   "label": "Screen size",
+   "value": "7-inch"
+  },
+  {
+   "label": "Operation method",
+   "value": "Capactive touch"
+  },
+  {
+   "label": "Type",
+   "value": "TFT LCD"
+  },
+  {
+   "label": "Resolution",
+   "value": "1024 × 600"
+  },
+  {
+   "label": "Lens",
+   "value": "/"
+  },
+  {
+   "label": "FOV",
+   "value": "/"
+  },
+  {
+   "label": "WDR",
+   "value": "/"
+  },
+  {
+   "label": "Video compression standard",
+   "value": "H.265；H.264"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/Video-Intercom-Products/IP-Series/Pro-Series/ds-kh6320-le1-b--white/",
+ "checked": "2026-10-18"
 }

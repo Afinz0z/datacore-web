@@ -9,8 +9,28 @@
  "d": "Hikvision Pendant Mount Aluminum Alloy Bracket 150×560mm Dome 2CD (1153G0, 1143G0, 2143G2, 2163G2, 2183G2)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Pendant Mount"
+   "label": "",
+   "value": "1270 g (2.80 lb.)"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Range of Application",
+   "value": "Suitable for dome camera pendent mounting"
+  },
+  {
+   "label": "Description",
+   "value": "Pendent Mounting Bracket for Dome Camera"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum Alloy"
+  },
+  {
+   "label": "Dimension",
+   "value": "Φ 150 mm × 543 mm (Φ5.91” × 21.38”)"
   }
  ],
  "for": [
@@ -20,5 +40,7 @@
   "DS-2CD1753G0-I",
   "DS-2CD2163G2-IS",
   "DS-2CD2347G3E-L"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/brackets/ds-1271zj-110/",
+ "checked": "2026-10-18"
 }

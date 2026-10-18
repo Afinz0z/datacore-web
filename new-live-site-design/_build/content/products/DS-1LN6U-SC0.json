@@ -9,12 +9,54 @@
  "d": "CAT6 WHITE UTP Cable (305m per box), Orang Color, 23 AWG",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6"
+   "label": "Rip-cord",
+   "value": "Yes"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Category",
+   "value": "Cat.6"
+  },
+  {
+   "label": "Sheath printing",
+   "value": "HIKVISION 4PR 23AWG 75°C U/UTP CAT6 VERIFIED TO ANSI/TIA-568-C.2 PVC ****m mm/dd/yyyy Tracing Code-HS"
+  },
+  {
+   "label": "Reference standard",
+   "value": "ISO/IEC11801, ANSI/TIA-568-C.2, RoHS 2.0"
+  },
+  {
+   "label": "Fire resistance",
+   "value": "No"
+  },
+  {
+   "label": "Separator",
+   "value": "Yes"
+  },
+  {
+   "label": "Diameter",
+   "value": "0.55 ± 0.005 mm, 23 AWG"
+  },
+  {
+   "label": "Before aging",
+   "value": "Tensile strength ≥ 13.5 Mpa Elongation ≥ 150%"
+  },
+  {
+   "label": "Aging period",
+   "value": "100°C × 24h × 10d"
+  },
+  {
+   "label": "After aging",
+   "value": "Tensile strength ≥ 12.5 Mpa Elongation ≥ 125%"
+  },
+  {
+   "label": "Cold bend",
+   "value": "-20 ± 2°C × 4h, 8 × cable O.D, no visible cracks"
+  },
+  {
+   "label": "1.0-250.0 MHz impedance",
+   "value": "100 ± 15 Ω @ ≤ 100 MHz 100 ± 25 Ω @100-250 MHz"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/premises-distribution-system/cable/copper-cables/ds-1ln6u-sc0/",
+ "checked": "2026-10-18"
 }

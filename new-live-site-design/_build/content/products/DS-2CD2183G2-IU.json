@@ -9,12 +9,54 @@
  "d": "HIKVISION 8 MP AcuSense Vandal Fixed Dome Network Camera -Built in MIC",
  "specs": [
   {
-   "label": "Type",
-   "value": "Bullet Camera"
+   "label": "Max. Resolution",
+   "value": "3840 × 2160"
   },
   {
-   "label": "Series",
-   "value": "AcuSense"
+   "label": "Image Sensor",
+   "value": "1/2.8\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed focal lens, 2.8 and 4 mm optional"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "Up to 30 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP67: IEC 60529-2013;IK10: IEC 62262:2002"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264, Sub-stream: H.265/H.264/MJPEG, Third stream: H.265/H.264 (*Third stream is supported under certain settings.)"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 Lux @ (F1.6, AGC ON),B/W: 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 355°,tilt: 0° to 75°,rotate: 0° to 355°"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 mm, horizontal FOV 107°, vertical FOV 57°, diagonal FOV 128° 4 mm, horizontal FOV 87°, vertical FOV 46°, diagonal FOV 105°"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2183g2-iu/",
+ "checked": "2026-10-18"
 }

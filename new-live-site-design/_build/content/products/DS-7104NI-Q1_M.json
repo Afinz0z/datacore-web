@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HIKVISION 4CH Network Video Recorder 4 Independent PoE - 1 HDD Support",
- "specs": []
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "4-ch Up to 6 MP resolution"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "40 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "1 SATA interface"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1, RJ-45 10/100Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "60 Mbps"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "1-ch, 1920 × 1080p/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1-ch, 1920 × 1080p/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI/VGA simultaneous output"
+  },
+  {
+   "label": "Decoding Format",
+   "value": "H.265+/H.265/ H.264+/H.264"
+  },
+  {
+   "label": "Recording Resolution",
+   "value": "6 MP/4 MP/3 MP/1080p/UXGA /720p/VGA/4CIF/DCIF/ 2CIF/CIF/QCIF"
+  },
+  {
+   "label": "Synchronous playback",
+   "value": "4-ch"
+  },
+  {
+   "label": "Decoding Capability",
+   "value": "4-ch@1080p (30 fps) or 2-ch@4 MP (30 fps) or 1-ch@6 MP (30 fps)"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Value-Series/ds-7104ni-q1-m/",
+ "checked": "2026-10-18"
 }

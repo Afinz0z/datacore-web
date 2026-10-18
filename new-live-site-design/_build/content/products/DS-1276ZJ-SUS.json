@@ -9,8 +9,24 @@
  "d": "PTZ Camera Bracket Corner Mount Bracket",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Bracket"
+   "label": "",
+   "value": "1990 g (4.39 lb.)"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Description",
+   "value": "Corner Mount"
+  },
+  {
+   "label": "Material",
+   "value": "Stainless Steel"
+  },
+  {
+   "label": "Dimension",
+   "value": "126 mm × 105 mm × 250 mm (4.96\" × 4.13\" × 9.84\")"
   }
  ],
  "for": [
@@ -42,5 +58,7 @@
   "DS-2CD2T83G2-2I",
   "DS-2CD2T83G2-4",
   "DS-2CD2T87G2H-LI"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/brackets/ds-1276zj-sus/",
+ "checked": "2026-10-18"
 }

@@ -7,7 +7,28 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Hikvision Vertical Pole Mount Bracket for outdoor bullet cameras",
- "specs": [],
+ "specs": [
+  {
+   "label": "Description",
+   "value": "Vertical Pole Mount"
+  },
+  {
+   "label": "Appearance",
+   "value": "White"
+  },
+  {
+   "label": "",
+   "value": "760 g (1.68 lb.)"
+  },
+  {
+   "label": "Material",
+   "value": "Stainless Steel"
+  },
+  {
+   "label": "Dimension",
+   "value": "144 mm × 131.6 mm × 44.3 mm (5.67\" × 5.18\" × 1.74\")"
+  }
+ ],
  "for": [
   "DS-2CD1043G0-I",
   "DS-2CD1063G2-LIU",
@@ -34,5 +55,7 @@
   "DS-2CD2T47G2-L",
   "DS-2CD2T83G2-4",
   "DS-2CD2T87G2H-LI"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/brackets/ds-1275zj-s-sus/",
+ "checked": "2026-10-18"
 }

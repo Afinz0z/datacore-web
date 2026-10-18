@@ -9,12 +9,54 @@
  "d": "HIKVISION 24 Port Fast Ethernet 10/100Mbps Smart POE Switch - low power 230 W",
  "specs": [
   {
-   "label": "Type",
-   "value": "Access switch"
+   "label": "Shell",
+   "value": "Metal material"
   },
   {
-   "label": "Series",
-   "value": "L2 Series Switch"
+   "label": "Installation Mode",
+   "value": "Rack (equipped with mounting ears)"
+  },
+  {
+   "label": "Surge Protection",
+   "value": "6 kV"
+  },
+  {
+   "label": "Ports",
+   "value": "24 × 10/100 Mbps PoE port,1 × Gigabit combo,1 × Gigabit RJ45 port"
+  },
+  {
+   "label": "MAC Address Table",
+   "value": "16 K"
+  },
+  {
+   "label": "Switching Capacity",
+   "value": "Whole-Device Performance: 14.8 Gbps Port Performance: 8.8 Gbps"
+  },
+  {
+   "label": "Packet Forwarding Rate",
+   "value": "Whole-Device Performance: 11.01 Mpps Port Performance: 6.55 Mpps"
+  },
+  {
+   "label": "Internal Cache",
+   "value": "4 Mbits"
+  },
+  {
+   "label": "Long Range",
+   "value": "Ports 1 to 24: up to 300 m. Long range performance may vary depend on camera model or cable condition."
+  },
+  {
+   "label": "VIP Port",
+   "value": "Ports 1 to 8: data on VIP ports is preferentially forwarded when bandwidth resources are insufficient."
+  },
+  {
+   "label": "Port Isolation",
+   "value": "Ports 1 to 26: port isolation mode to improve network security Ports in an isolation group cannot communicate with each other, but they can communicate with ports outside the isolation group."
+  },
+  {
+   "label": "PoE Watchdog",
+   "value": "Ports 1 to 24: auto detect and restart the cameras that do not respond."
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/transmission/Network-Switches/smart-managed-series/ds-3e1326p-ei-m/",
+ "checked": "2026-10-18"
 }

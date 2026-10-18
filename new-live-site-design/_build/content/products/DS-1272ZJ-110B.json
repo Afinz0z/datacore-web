@@ -9,8 +9,28 @@
  "d": "HIKVISION Wall Mounting Bracket for Dome Camera with Junction Box 2CD (1153G0, 1143G0, 2143G2, 2163G2, 2183G2)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall mounting Bracket"
+   "label": "",
+   "value": "1205g"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Range of Application",
+   "value": "Dome camera wall mounting"
+  },
+  {
+   "label": "Description",
+   "value": "Wall Mounting Bracket forDome Camera (with Junction Box)"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum Alloy"
+  },
+  {
+   "label": "Dimension",
+   "value": "123×180×227.8mm"
   }
  ],
  "for": [
@@ -18,5 +38,7 @@
   "DS-2CD1183G0-I",
   "DS-2CD1183G0-IUF",
   "DS-2CD2163G2-IS"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/brackets/ds-1272zj-110b/",
+ "checked": "2026-10-18"
 }

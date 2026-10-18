@@ -9,17 +9,59 @@
  "d": "HIKVISION 7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome, Including wall Bracket",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Max. Resolution",
+   "value": "2560 × 1440"
   },
   {
-   "label": "Series",
-   "value": "AcuSense"
+   "label": "Image Sensor",
+   "value": "1/1.8\" progressive scan CMOS"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "IR Distance: up to 200 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP66 (IEC 60529-2013), IK10 (excluding glass window), TVS 6000V lightning protection, surge protection and voltage transient protection"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264 Sub-stream: H.265/H.264/MJPEG Third stream: H.265/H.264/MJPEG"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 Lux @ (F1.5, AGC ON), B/W: 0.001 Lux@(F1.5, AGC ON), 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Speed",
+   "value": "1/1 s to 1/30000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Zoom",
+   "value": "32x optical, 16x digital"
+  },
+  {
+   "label": "Slow Shutter",
+   "value": "Yes"
+  },
+  {
+   "label": "DORI",
+   "value": "Detect (25px/m): 2046.9 m Observe (63px/m): 812.3 m Recognize (125px/m): 409.4 m Identify (250px/m): 204.7 m"
+  },
+  {
+   "label": "Focal Length",
+   "value": "5.9 mm to 188.8 mm"
   }
  ],
  "acc": [
   "DS-1602ZJ",
   "DS-1619ZJ",
   "DS-1663ZJ"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/PTZ-Cameras/Pro-Series/ds-2de7a432iw-aeb-t5-/",
+ "checked": "2026-10-18"
 }

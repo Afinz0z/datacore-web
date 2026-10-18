@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HIKVISION 5MP Compact Fisheye Network Camera with IR with audio",
- "specs": []
+ "specs": [
+  {
+   "label": "Max. Resolution",
+   "value": "2560 × 1920"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/2.7\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed focal lens, 1.05 mm"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "Up to 8 m"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264, Sub-stream: H.265/H.264/MJPEG"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.017 Lux @ (F2.25, AGC ON),B/W: 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "1.05 mm, horizontal FOV: 180°, vertical FOV: 180°, diagonal FOV: 180°"
+  },
+  {
+   "label": "Focus",
+   "value": "Fixed"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
+  },
+  {
+   "label": "Iris Type",
+   "value": "Fixed"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2955g0-is-u-/",
+ "checked": "2026-10-18"
 }

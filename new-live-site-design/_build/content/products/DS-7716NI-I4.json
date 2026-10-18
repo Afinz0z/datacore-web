@@ -9,8 +9,54 @@
  "d": "16-ch 1.5U 4K NVR Up to 16 channel IP cameras can be connected",
  "specs": [
   {
-   "label": "Series",
-   "value": "B Series NVR"
+   "label": "IP Video Input",
+   "value": "16-ch Up to 12 MP resolution *: 32 MP and 24 MP is only available for channel 1 when ultra HD resolution mode is enabled."
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "4 SATA interfaces"
+  },
+  {
+   "label": "Network Interface",
+   "value": "2 RJ-45 10/100/1000 Mbps self-adaptive Ethernet interfaces"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "256 Mbps"
+  },
+  {
+   "label": "HDMI 1 Output",
+   "value": "4K (3840 × 2160)/60Hz, 4K (3840 × 2160)/30Hz, 1920 × 1080/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz"
+  },
+  {
+   "label": "HDMI 2 Output",
+   "value": "1920 × 1080/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1920 × 1080/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI1/VGA simultaneous output, HDMI2/VGA independent output"
+  },
+  {
+   "label": "CVBS Output",
+   "value": "1-ch, BNC (1.0 Vp-p, 75 Ω), resolution: PAL: 704 × 576, NTSC: 704 × 480"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch, RCA (Linear, 1 KΩ)"
+  },
+  {
+   "label": "Two-Way Audio",
+   "value": "1-ch, RCA (2.0 Vp-p, 1 KΩ, using the audio input)"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7716ni-i4-b-/",
+ "checked": "2026-10-18"
 }

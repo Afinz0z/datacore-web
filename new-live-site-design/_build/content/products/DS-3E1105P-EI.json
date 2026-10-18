@@ -9,12 +9,54 @@
  "d": "HIKVISION 4 Port 10/100Mbps Fast Ethernet Smart POE Switch high power - 60 W",
  "specs": [
   {
-   "label": "Type",
-   "value": "Access switch"
+   "label": "Shell",
+   "value": "Metal material, fan-free design"
   },
   {
-   "label": "Series",
-   "value": "L2 Series Switch"
+   "label": "Installation Mode",
+   "value": "Desk-Mounted,Wall-Mounted"
+  },
+  {
+   "label": "Surge Protection",
+   "value": "6 kV"
+  },
+  {
+   "label": "Ports",
+   "value": "4 × 10/100 Mbps PoE port,1 × 10/100 Mbps RJ45 port"
+  },
+  {
+   "label": "MAC Address Table",
+   "value": "2 K"
+  },
+  {
+   "label": "Switching Capacity",
+   "value": "1.2 Gbps"
+  },
+  {
+   "label": "Packet Forwarding Rate",
+   "value": "0.89 Mpps"
+  },
+  {
+   "label": "Internal Cache",
+   "value": "768 Kbits"
+  },
+  {
+   "label": "Port Isolation",
+   "value": "Ports 1 to 4: port isolation mode to improve network security Ports in an isolation group cannot communicate with each other, but they can communicate with ports outside the isolation group."
+  },
+  {
+   "label": "PoE Watchdog",
+   "value": "Ports 1 to 4: auto detect and restart the cameras that do not respond."
+  },
+  {
+   "label": "Link Aggregation",
+   "value": "Link aggregation is used to aggregate multiple physical ports to form a logical port for load balancing, bandwidth expansion, and port protection. Support static link aggregation. Support 1 aggregation groups."
+  },
+  {
+   "label": "Loop Prevention",
+   "value": "Loop prevention is used to prevent the switching network from forming loops, which will seriously affect network communication. Disabled by default. Support 802.1D STP. Support 802.1w RSTP."
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/transmission/Network-Switches/smart-managed-series/ds-3e1105p-ei-m-v2/",
+ "checked": "2026-10-18"
 }

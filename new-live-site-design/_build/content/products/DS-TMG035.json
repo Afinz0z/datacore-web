@@ -8,8 +8,54 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "Card Reader"
+   "label": "Protection",
+   "value": "IP67"
+  },
+  {
+   "label": "Transmitting Frequency",
+   "value": "79GHz"
+  },
+  {
+   "label": "Beamwidth",
+   "value": "Vertical 10°, Horizontal 38°"
+  },
+  {
+   "label": "Response Time (ms)",
+   "value": "50ms"
+  },
+  {
+   "label": "Trigger Distance (m)",
+   "value": "0.3 to 6 m (adjustable)"
+  },
+  {
+   "label": "Detection Area (m)",
+   "value": "Horizontal width: 0 to 2 m (adjustable)"
+  },
+  {
+   "label": "Detection Target",
+   "value": "Trigger Mode ：Vehicle/Person"
+  },
+  {
+   "label": "Online Debug",
+   "value": "Serial port/Bluetooth"
+  },
+  {
+   "label": "Online Upgrade",
+   "value": "Serial port/Bluetooth"
+  },
+  {
+   "label": "Transmitting Power",
+   "value": "≤ 10mW"
+  },
+  {
+   "label": "Area Vehicle Following",
+   "value": "Distinguish following distance of vehicle: 0.5 to 2 m (adjustable)"
+  },
+  {
+   "label": "Working Current",
+   "value": "＜ 0.25A"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/parking-management/vehicle-access-control-management/entrance---exit-accessories/ds-tmg035-trigger-radar-/",
+ "checked": "2026-10-18"
 }

@@ -9,12 +9,58 @@
  "d": "HIKVISION 16CH Network Video Recorder 1.5U AcuSense 4K - Support 4*HDD",
  "specs": [
   {
-   "label": "Series",
-   "value": "NVR Pro Series"
+   "label": "IP Video Input",
+   "value": "16-ch Up to 32 MP resolution *: The NVR supports up to 4-ch 32/24/16 MP IP video inputs."
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "4 SATA interfaces"
+  },
+  {
+   "label": "Network Interface",
+   "value": "2, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "AI by NVR",
+   "value": "Facial recognition, perimeter protection, motion detection 2.0,AcuSearch"
+  },
+  {
+   "label": "AI by Camera",
+   "value": "Facial recognition, perimeter protection, video structuralization, throwing objects from building, motion detection 2.0, ANPR, people counting, VCA"
+  },
+  {
+   "label": "Engine",
+   "value": "1, engine mode is adjustable"
+  },
+  {
+   "label": "By Camera",
+   "value": "All channels ,up to 172,800 targets/day The camera should enable AcuSearch function"
+  },
+  {
+   "label": "Facial Detection and Analytics",
+   "value": "Face picture comparison, human face capture, face picture search"
+  },
+  {
+   "label": "Face Attributes",
+   "value": "Wearing glasses, wearing a mask, facial expression, body temperature"
+  },
+  {
+   "label": "Face Picture Library",
+   "value": "Up to 16 face picture libraries, with up to 50,000 face pictures in total (each picture ≤ 512 KB, total capacity ≤ 1 GB)"
+  },
+  {
+   "label": "Face Picture Comparison (Captured from Camera)",
+   "value": "8-ch"
   }
  ],
  "acc": [
   "DC HC330",
   "WD102PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7716nxi-i4-s/",
+ "checked": "2026-10-18"
 }

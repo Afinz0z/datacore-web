@@ -9,17 +9,59 @@
  "d": "Hikvision 4MP ColorVu Network Bullet Camera,4.0MM",
  "specs": [
   {
-   "label": "Type",
-   "value": "Bullet Camera"
+   "label": "Max. Resolution",
+   "value": "2688 × 1520"
   },
   {
-   "label": "Series",
-   "value": "ColorVu"
+   "label": "Image Sensor",
+   "value": "1/1.8\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed focal lens, 2.8, 4, and 6 mm optional"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "60 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP67 (IEC 60529-2013)"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265/H.264/H.265+/H.264+ Sub-stream: H.265/H.264/MJPEG Third stream: H.265/H.264 *Third stream is supported under certain settings."
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.0005 Lux @ (F1.0, AGC ON), 0 Lux with white light"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 360°, tilt: 0° to 90°, rotate: 0° to 360°"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 mm, horizontal FOV 112°, vertical FOV 61°, diagonal FOV 134° 4 mm, horizontal FOV 95°, vertical FOV 51°, diagonal FOV 115° 6 mm, horizontal FOV 58°, vertical FOV 31°, diagonal FOV 69°"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M16"
+  },
+  {
+   "label": "Iris Type",
+   "value": "Fixed"
   }
  ],
  "acc": [
   "DS-1260ZJ",
   "DS-1275ZJ-S-SUS",
   "DS-1280ZJ-S"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2t47g2-l/",
+ "checked": "2026-10-18"
 }

@@ -9,8 +9,26 @@
  "d": "PTZ Camera Hikvision Vertical Pole Mount - for PTZ or Bullet",
  "specs": [
   {
-   "label": "Type",
-   "value": "Pole mount"
+   "label": "",
+   "value": "1205 g (2.66 lb.)"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Description",
+   "value": "Vertical Pole Mount"
+  },
+  {
+   "label": "Material",
+   "value": "Stainless Steel"
+  },
+  {
+   "label": "Dimension",
+   "value": "250 mm × 127 mm × 46 mm (9.84\" × 5\" × 1.81\")"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/brackets/ds-1475zj-sus/",
+ "checked": "2026-10-18"
 }

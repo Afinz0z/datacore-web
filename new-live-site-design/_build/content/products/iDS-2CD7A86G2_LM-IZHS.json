@@ -9,8 +9,54 @@
  "d": "8 MP Smart Hybrid Light Motion 2.0 Motorized Varifocal Bullet Network Camera",
  "specs": [
   {
-   "label": "Type",
-   "value": "Bullet Camera"
+   "label": "Max. Resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/1.8\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "2.8 to 12 mm: Monitoring: 60 m; 8 to 32 mm: Monitoring: 100 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP67: IEC 60529-2013,IK10: IEC 62262:2002"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264, Sub-stream: H.265/H.264/MJPEG, Third stream: H.265/H.264"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.002 Lux @ (F1.2, AGC ON),B/W: 0.0002 Lux @ (F1.2, AGC ON),B/W: 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter, Blue glass module (less ghost phenomenon)"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 to 12 mm, horizontal FOV 112.0° to 47.5°, vertical FOV 58.0° to 26.6°, diagonal FOV 137.5° to 54.6° 8 to 32 mm, horizontal FOV 41.8° to 15.0°, vertical FOV 22.9° to 8.5°, diagonal FOV 48.7° to 17.1°"
+  },
+  {
+   "label": "Focus",
+   "value": "Auto,Semi-auto,Manual"
+  },
+  {
+   "label": "Iris Type",
+   "value": "P-iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "2.8 to 12 mm: F1.4 to F2.1 8 to 32 mm: F1.7 to F1.7"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/DeepinView-Series/ids-2cd7a86g2-lm-izhs-y-/",
+ "checked": "2026-10-18"
 }

@@ -9,12 +9,58 @@
  "d": "HIKVISION 4-ch PoE 1U K Series AcuSense 4K NVR - 4 Independent PoE - 1 HDD Support",
  "specs": [
   {
-   "label": "Series",
-   "value": "NVR K series"
+   "label": "IP Video Input",
+   "value": "4-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "40 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "1 SATA interface"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1 RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "AI by Device",
+   "value": "Facial recognition, perimeter protection, motion detection 2.0"
+  },
+  {
+   "label": "AI by Camera",
+   "value": "Facial recognition, perimeter protection, throwing objects from building, motion detection2.0, ANPR, VCA;perimeter protection, throwing objects from building, motion detection2.0, ANPR, VCA"
+  },
+  {
+   "label": "By Device",
+   "value": "1-ch, 4 MP (HD network camera, H.264/H.265) video analysis for human and vehicle recognition to reduce false alarm"
+  },
+  {
+   "label": "By Camera",
+   "value": "All channels"
+  },
+  {
+   "label": "Face Attributes",
+   "value": "N/A"
+  },
+  {
+   "label": "Facial Detection and Analytics",
+   "value": "Face picture comparison, human face capture, face picture search;NA"
+  },
+  {
+   "label": "Face Picture Library",
+   "value": "NA;Up to 16 face picture libraries, with up to 20,000 face pictures in total (each picture ≤ 4 MB, total capacity ≤ 1 GB)"
+  },
+  {
+   "label": "Facial Detection and Analytics Performance",
+   "value": "NA;1-ch, 8 MP"
   }
  ],
  "acc": [
   "WD64PURZ",
   "WD8002PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7604nxi-k1-4p/",
+ "checked": "2026-10-18"
 }

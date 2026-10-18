@@ -7,8 +7,59 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Intel® Core, i7 12th, 16GB+512GB",
- "specs": [],
+ "specs": [
+  {
+   "label": "Network Interface",
+   "value": "RJ45 (10/100/1000 Mbps) * 1 WIFI 6"
+  },
+  {
+   "label": "Operation System",
+   "value": "WIN11 ENT"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel® Core, i7-12650H, 12th"
+  },
+  {
+   "label": "CPU Clock Speed",
+   "value": "2.3 GHz Base, 4.7 GHz Turbo"
+  },
+  {
+   "label": "CPU Cores",
+   "value": "10"
+  },
+  {
+   "label": "CPU Threads",
+   "value": "16"
+  },
+  {
+   "label": "Memory",
+   "value": "8G * 2"
+  },
+  {
+   "label": "Graphics",
+   "value": "Intel UHD Graphics for 12th Gen Intel Processors"
+  },
+  {
+   "label": "Platform Architecture",
+   "value": "Intel® Alder Lake H"
+  },
+  {
+   "label": "Cooling System",
+   "value": "Single Brass & Single Fan"
+  },
+  {
+   "label": "Storage",
+   "value": "512G"
+  },
+  {
+   "label": "Video & Audio Input",
+   "value": "Audio in *1"
+  }
+ ],
  "for": [
   "DS-D5C86RB/B2L(O-STD)(EDLA)"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/interactive-flat-panel-display/interactive-flat-panels/accessories/ds-d5ac12t7-16s5/",
+ "checked": "2026-10-18"
 }

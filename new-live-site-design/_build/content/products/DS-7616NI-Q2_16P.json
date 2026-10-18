@@ -7,8 +7,59 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HIKVISION 16CH Network Video Recorder- 2 HDD Support - 16 port POE",
- "specs": [],
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "16-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "2 SATA interfaces"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Human/Vehicle Analysis",
+   "value": "4"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "1-ch, 4K (4096 x 2160)/30 Hz, 4K (3840 x 2160)/30 Hz, 2K (2560 x 1440)/60 Hz, 1920 x 1080/60 Hz, 1600 x 1200/60 Hz, 1280 x 1024/60 Hz, 1280 x 720/60 Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1-ch, 1920 × 1080/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI/VGA simultaneous output"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "80 Mbps"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch, RCA (Linear, 1 KΩ)"
+  },
+  {
+   "label": "Two-Way Audio",
+   "value": "1-ch, RCA (2.0 Vp-p, 1 k Ω)"
+  },
+  {
+   "label": "Decoding Format",
+   "value": "H.265+,H.265,H.264+,H.264"
+  }
+ ],
  "acc": [
   "WD8002PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7616ni-q2-16p/",
+ "checked": "2026-10-18"
 }

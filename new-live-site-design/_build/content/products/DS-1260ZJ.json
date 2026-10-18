@@ -9,8 +9,28 @@
  "d": "Junction Box for larger Bullet Camera ø88.5mm DS-2CD( 2T63 - 2T83 - 2683 -2663 - 1643 - 1653 )",
  "specs": [
   {
-   "label": "Type",
-   "value": "Junction box"
+   "label": "",
+   "value": "Approx. 215 g (0.47 lb.)"
+  },
+  {
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Description",
+   "value": "Junction Box for Bullet Camera"
+  },
+  {
+   "label": "Max. Load Capacity",
+   "value": "Approx. 3 kg (6.61 lb.)"
+  },
+  {
+   "label": "Material",
+   "value": "Metal"
+  },
+  {
+   "label": "Dimension",
+   "value": "112 mm × 112 mm × 37 mm (4.41\" × 4.41'' × 1.46\")"
   }
  ],
  "for": [
@@ -22,5 +42,7 @@
   "DS-2CD2T83G2-2I",
   "DS-2CD2T83G2-4",
   "DS-2CD2T87G2H-LI"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/cctv-accessories/junctions/ds-1260zj/",
+ "checked": "2026-10-18"
 }

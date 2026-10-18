@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "128-ch 3U 4K Super NVR, Up to 576 Mbps high incoming bandwidth ensures IP cameras can be connected, 2 HDMI (different source) and 1 VGA interfaces16 HDD can be used for continuous video recording",
- "specs": []
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "128-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "576 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "2 × mini SAS interface (optional)"
+  },
+  {
+   "label": "Network Interface",
+   "value": "4, RJ45 10M/100M/1000M self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Incoming Bandwidth (RAID Mode)",
+   "value": "576 Mbps"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "512 Mbps"
+  },
+  {
+   "label": "Outgoing Bandwidth (RAID mode)",
+   "value": "512 Mbps"
+  },
+  {
+   "label": "TLS outgoing bandwidth",
+   "value": "128 Mbps, or 64 Mbps (when RAID is enabled)"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "Two independent HDMI outputs of 4K resolution. Resolution: 4K (4096 × 2160), 4K (3840 × 2160)/30Hz, 2K (2560 × 1440)/60Hz, 1080p (1920 × 1080)/60Hz, UXGA (1600 × 1200)/60Hz, SXGA (1280 × 1024)/60Hz, 720p (1280 × 720)/60Hz, XGA (1024 × 768)/60Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1-ch. Resolution: 1080p (1920 × 1080)/60Hz, UXGA (1600 × 1200)/60Hz, SXGA (1280 × 1024)/60Hz, 720p (1280 × 720)/60Hz, XGA (1024 × 768)/60Hz"
+  },
+  {
+   "label": "LCD Output",
+   "value": "Optional: One 7 inch LCD"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch. RCA (2.0 Vp-p, 1 KΩ)"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Ultra-Series/ds-96128ni-i16/",
+ "checked": "2026-10-18"
 }

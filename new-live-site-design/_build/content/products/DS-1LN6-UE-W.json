@@ -9,12 +9,54 @@
  "d": "HIKVISION CAT6 White UTP Cable (305m per box) ,24AWG",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6"
+   "label": "Core Color",
+   "value": "1 White- Blue /Blue 2 White-Orange /Orange,3 White-Green /Green 4 White- Brown /Brown,"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Packing",
+   "value": "Wooden Tray & Carton"
+  },
+  {
+   "label": "Packing length",
+   "value": "305±1.5m"
+  },
+  {
+   "label": "Rip-cord",
+   "value": "Yes"
+  },
+  {
+   "label": "Drain wire",
+   "value": "No"
+  },
+  {
+   "label": "Sheath Physical Properties",
+   "value": "Before Aging Tensile Strength (Mpa) ≥13.5, Elongation(%) ≥150,Aging Period (℃×hrs) 100℃×24h×10d,After Aging Tensile Strength(Mpa) ≥12.5, Elongation(%) ≥125,Cold bend(-20±2℃×4h) 8×Cable O.D.，No visible cracks,"
+  },
+  {
+   "label": "Electrical Characteristics (20℃)",
+   "value": "1.0-250.0MHz Impedance ((Ω) 100±15,1.0-250.0MHz Delay Skew (ns/100m) ≤45,DC Resistance (Ω/100m) max 9.38,DC Conductor Resistance Unbalance (%) max 5.0,"
+  },
+  {
+   "label": "Nom.O.D.(mm)",
+   "value": "0.530±0.005"
+  },
+  {
+   "label": "Diameter",
+   "value": "0.95±0.05mm"
+  },
+  {
+   "label": "Thickness",
+   "value": "0.55±0.05 mm"
+  },
+  {
+   "label": "External O.D.",
+   "value": "5.8±0.4mm"
+  },
+  {
+   "label": "Surface",
+   "value": "Clean,Frap,Satiation"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/premises-distribution-system/cable/copper-cables/ds-1ln6-ue-w/",
+ "checked": "2026-10-18"
 }

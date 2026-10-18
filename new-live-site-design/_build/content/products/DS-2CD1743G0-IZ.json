@@ -9,8 +9,54 @@
  "d": "HIKVISION 4MP IR VF Dome Network Camera 2.8 to 12mm Varifocal motorized lens",
  "specs": [
   {
-   "label": "Type",
-   "value": "Dome Camera"
+   "label": "Max. Resolution",
+   "value": "2560 × 1440"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/3\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Varifocal Lens, motoried lens, 2.8 to 12 mm"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265+/H.265/H.264+/H.264 Sub-stream: H.265/H.264/MJPEG"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 Lux @(F1.6, AGC ON), B/W: 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Speed",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Wide Dynamic Range",
+   "value": "120 dB"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR Cut Filter"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 355°, tilt: 0° to 70°, rotation: 0° to 355°"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 to 12 mm: horizontal FOV 102° to 31°, vertical FOV 54° to 17°, diagonal FOV 123° to 35°"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "Ø14"
+  },
+  {
+   "label": "Iris Type",
+   "value": "Fixed"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/value-series/ds-2cd1743g0-i-z-/",
+ "checked": "2026-10-18"
 }

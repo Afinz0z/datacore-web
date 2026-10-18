@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8-ch 1U 8 PoE AcuSeek K VPro NVR",
- "specs": []
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "8-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "80 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "1 SATA interface"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1 RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "AI by NVR",
+   "value": "Facial recognition, perimeter protection, motion detection 2.0, AcuSearch, AcuSeek"
+  },
+  {
+   "label": "AI by NVR and Camera",
+   "value": "Facial recognition, perimeter protection, motion detection2.0, ANPR, VCA"
+  },
+  {
+   "label": "By Camera",
+   "value": "All channels *: The camera should enable AcuSearch function"
+  },
+  {
+   "label": "Performance",
+   "value": "If the cameras support Hikvision AcuSense Technology and have enabled AcuSearch function, the NVR supports AcuSeek in all channels, capable of modeling 50,000 targets/day."
+  },
+  {
+   "label": "Search Language",
+   "value": "English"
+  },
+  {
+   "label": "By NVR",
+   "value": "Video analysis (HD network camera, H.264/H.265) for human and vehicle recognition to reduce false alarm. Up to 4 MP: 2-ch; 5 MP to 8 MP: 1-ch"
+  },
+  {
+   "label": "Facial Detection and Analytics",
+   "value": "Face picture comparison, human face capture, face picture search"
+  },
+  {
+   "label": "Face Picture Library",
+   "value": "Up to 16 face picture libraries, with up to 50,000 face pictures in total (each picture ≤ 1 MB, total capacity ≤ 800 MB)"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/vpro-series/ds-7608nxi-k1-8p-vpro/",
+ "checked": "2026-10-18"
 }

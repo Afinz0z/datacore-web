@@ -7,9 +7,60 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "​ Up to 128 IP cameras can be connected, Supports live view, storage, and playback of the connected camera at up to 12 megapixels resolution, H.265+ compression effectively reduces the storage space by up to 75%, 4 self-adaptive 10M/100M/1000M network interfaces. ​",
- "specs": [],
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "128-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "1024 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "24 SATA interfaces supporting hot-plug"
+  },
+  {
+   "label": "Network Interface",
+   "value": "4, RJ-45 10/100/1000/2500 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "1024 Mbps"
+  },
+  {
+   "label": "Incoming Bandwidth (RAID Mode)",
+   "value": "1024 Mbps"
+  },
+  {
+   "label": "Outgoing Bandwidth (RAID mode)",
+   "value": "1024 Mbps"
+  },
+  {
+   "label": "HDMI 1 Output",
+   "value": "4K (4096 × 2160)/30 Hz, 4K (3840 × 2160)/30 Hz, 2K (2560 × 1440)/60 Hz, 1920 × 1080/60 Hz, 1600 × 1200/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz, 1024 × 768/60 Hz"
+  },
+  {
+   "label": "HDMI 2 Output",
+   "value": "4K (3840 × 2160)/60 Hz, 4K (3840 × 2160)/30 Hz, 2K (2560 × 1440)/60 Hz, 1920 × 1080/60 Hz, 1600 × 1200/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz, 1024 × 768/60 Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1920 × 1080/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz, 1024 × 768/60 Hz"
+  },
+  {
+   "label": "DP 1",
+   "value": "8K (7680 × 4320)/30Hz, 4K (4096×2160)/30 Hz, 4K (3840×2160)/60 Hz, 4K (3840 × 2160)/30 Hz, 2K (2560 × 1440)/60 Hz, 1920 × 1080/60Hz, 1600 × 1200/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz, 1024 × 768/60 Hz"
+  },
+  {
+   "label": "DP 2",
+   "value": "8K (7680 × 4320)/30Hz, 4K (4096×2160)/30 Hz, 4K (3840×2160)/60 Hz, 4K (3840 × 2160)/30 Hz, 2K (2560 × 1440)/60 Hz, 1920 × 1080/60Hz, 1600 × 1200/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz, 1024 × 768/60 Hz"
+  }
+ ],
  "acc": [
   "Hikcentral-P-VSS- 128Ch/Base/Promo",
   "Hikcentral-P-VSS- 1Ch/ANPR"
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Ultra-Series/ds-96128ni-h24r-lcd/",
+ "checked": "2026-10-18"
 }

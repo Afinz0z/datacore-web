@@ -9,12 +9,54 @@
  "d": "HIKVISION 16 Port Fast Ethernet 10/100Mbps Smart POE Switch - Low Power 130 W.",
  "specs": [
   {
-   "label": "Type",
-   "value": "Access switch"
+   "label": "Power Input",
+   "value": "100~240 V AC，50/60 Hz"
   },
   {
-   "label": "Series",
-   "value": "L2 Series Switch"
+   "label": "Switching Capacity",
+   "value": "7.2 Gbps"
+  },
+  {
+   "label": "Store-and-forward",
+   "value": "Supported"
+  },
+  {
+   "label": "MAC Address Table",
+   "value": "4 k"
+  },
+  {
+   "label": "MAC Address Learning",
+   "value": "Auto-learning/ Auto-aging"
+  },
+  {
+   "label": "Working Mode",
+   "value": "Priority, Standard, Isolate, Extend"
+  },
+  {
+   "label": "PoE Standard",
+   "value": "IEEE 802.3af, IEEE802.3at"
+  },
+  {
+   "label": "PoE Powering Mode",
+   "value": "Supports 8-pin power supply"
+  },
+  {
+   "label": "PoE Port",
+   "value": "1-16"
+  },
+  {
+   "label": "Maximum Total Output",
+   "value": "135 W"
+  },
+  {
+   "label": "Maximum Port Output",
+   "value": "30 W"
+  },
+  {
+   "label": "High-priority Port",
+   "value": "Port 1 - 8"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/transmission/Network-Switches/unmanaged-switch/ds-3e0318p-e-m/",
+ "checked": "2026-10-18"
 }

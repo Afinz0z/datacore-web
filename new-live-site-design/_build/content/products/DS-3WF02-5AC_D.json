@@ -9,8 +9,54 @@
  "d": "5GHz 867Mbps 5KM Wireless Bridge Kit",
  "specs": [
   {
-   "label": "Type",
-   "value": "5GHz"
+   "label": "Network Interface",
+   "value": "2 × 10/100 Mbps RJ45 ports"
+  },
+  {
+   "label": "Packing List",
+   "value": "Wireless Bridge × 2,PoE Power Supply × 2,AC Cord × 2,Quick Start Guide ×1,Regulatory Compliance and Safety Information × 1,Binding Tape × 4"
+  },
+  {
+   "label": "Packing Method",
+   "value": "Packing in pairs"
+  },
+  {
+   "label": "Installation Mode",
+   "value": "Pole Mounting"
+  },
+  {
+   "label": "Ingress Protection",
+   "value": "IP55"
+  },
+  {
+   "label": "Max. Transmission Rate of Air Interface",
+   "value": "≤ 867 Mbps"
+  },
+  {
+   "label": "Wireless Standard",
+   "value": "IEEE 802.11/a/n/ac"
+  },
+  {
+   "label": "Working Frequency Band",
+   "value": "5150 MHz ~ 5250 MHz,5250 MHz~ 5350 MHz,5470 MHz~ 5725 MHz,5725 MHz~ 5825 MHz,(Note: Available channel may vary with local regulations.)"
+  },
+  {
+   "label": "Antenna Gain",
+   "value": "12 dBi"
+  },
+  {
+   "label": "Antenna Angle",
+   "value": "(H) Beamwidth [3 dB] 35°, (V) Beamwidth [3 dB] 35°"
+  },
+  {
+   "label": "Transmitting Power",
+   "value": "22 dBm @11ac MCS0 (Note: Transmitting power may vary with local regulations.)"
+  },
+  {
+   "label": "Receiving Sensitivity",
+   "value": "-84 ±2dBm@AC80-MCS0"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/transmission/wireless-bridge/outdoor-wireless-bridge/ds-3wf02-5ac-d/",
+ "checked": "2026-10-18"
 }

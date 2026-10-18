@@ -8,8 +8,54 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "Card Reader"
+   "label": "Lens",
+   "value": "1"
+  },
+  {
+   "label": "Video compression standard",
+   "value": "H.264 and H.265"
+  },
+  {
+   "label": "Resolution",
+   "value": "2 MP"
+  },
+  {
+   "label": "FOV",
+   "value": "HFOV = 110°; VFOV = 81°; DFOV = 122°"
+  },
+  {
+   "label": "Wired network",
+   "value": "10/100 Mbps self adaptive"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Support, 2.4 G, 802.11b/g/n"
+  },
+  {
+   "label": "Bluetooth",
+   "value": "Support"
+  },
+  {
+   "label": "Network interface",
+   "value": "1 RJ-45 10/100 Mbps self-adaptive"
+  },
+  {
+   "label": "Lock control",
+   "value": "1"
+  },
+  {
+   "label": "Exit button",
+   "value": "1"
+  },
+  {
+   "label": "Door contact input",
+   "value": "1"
+  },
+  {
+   "label": "Alarm input",
+   "value": "1"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/Access-Control-Products/terminals/card-terminal/ds-k1t502dbwx-cqr/",
+ "checked": "2026-10-18"
 }

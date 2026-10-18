@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "32-ch 1U 16 POE AcuSense 4K NVR",
- "specs": []
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "32-ch Up to 12 MP resolution"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "256 Mbps"
+  },
+  {
+   "label": "SATA",
+   "value": "4 SATA interfaces supporting hot-plug"
+  },
+  {
+   "label": "Network Interface",
+   "value": "1, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Performance",
+   "value": "N/A"
+  },
+  {
+   "label": "Facial Detection and Analytics",
+   "value": "Face picture comparison, human face capture, face picture search"
+  },
+  {
+   "label": "Face Picture Library",
+   "value": "Up to 16 face picture libraries, with up to 10,000 face pictures in total (each picture ≤ 512 KB, total capacity ≤ 150 MB)"
+  },
+  {
+   "label": "Face Picture Comparison (Captured from Camera)",
+   "value": "4-ch"
+  },
+  {
+   "label": "Facial Detection and Analytics Performance",
+   "value": "1-ch human face capture (HD network camera, up to 4 MP, H.264/H.265)"
+  },
+  {
+   "label": "By Device",
+   "value": "32-ch"
+  },
+  {
+   "label": "By Camera",
+   "value": "All channels Support Countries & Regions: 1. Myanmar, Philippines, Indonesia, Vietnam, Pakistan, New Zealand, Australia, Sri Lanka, Singapore, Malaysia 2. Turkey, Croatia, Slovakia, Czech Republic, Bulgaria, Macedonia, Hungary, Greece, Poland, France, Netherlands, Switzerland, Spain, The United Kingdom, Ireland, Germany, Italy, Austria, Palestine, Latvia, Lithuania, Estonia, Belgium, Luxembourg, Ukraine, Uzbekistan, Kazakhstan, Mongolia, Moldova, Kyrgyzstan, Azerbaijan, Georgia, Armenia, Albania, Kosovo, Belarus, Cyprus, Denmark, Finland, Malta, Portugal, Romania, Slovenia, Sweden, Israel, Bosnia and Herzegovina, Turkmenistan, Montenegro, Serbia, Tajikistan, Iceland, Liechtenstein 3. Argentina, Brazil, Chile, Colombia, Peru, Ecuador, Paraguay, Uruguay, Salvador, Bolivia, Canada, Algeria, Mexico, Panama, Costa Rica, Nigeria, Kenya, Mauritius, Tanzania, Cote d'Ivoire, South Africa, Tunisia, Sierra Leone, Zambia, Ghana, Zimbabwe, Uganda, Angola, Ethiopia, Republic of Trinidad and Tobago, Dominica, Guatemala, Senegal, Algeria, Cameroon 4. Qatar, Kuwait, Oman, Jordan, Lebanon, Iraq, United Arab Emirates, Saudi Arabia, Bahrain, Egypt, Libya"
+  },
+  {
+   "label": "Vehicle Attributes",
+   "value": "Vehicle brand, vehicle color, vehicle type"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7732nxi-i4-16p-s/",
+ "checked": "2026-10-18"
 }

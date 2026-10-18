@@ -9,8 +9,54 @@
  "d": "HIKVISION Network Keyboard and 4-axis Joystick buttons",
  "specs": [
   {
-   "label": "Type",
-   "value": "Joystick Keyboard"
+   "label": "Network Interface",
+   "value": "1 x 10 M/100 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "USB Interface",
+   "value": "1 × USB 2.0"
+  },
+  {
+   "label": "Serial Interface",
+   "value": "1 RS-232, 1 RS-422, 1 RS-485"
+  },
+  {
+   "label": "Display",
+   "value": "128 x 64 pixel screen"
+  },
+  {
+   "label": "Joystick",
+   "value": "4-axis joystick"
+  },
+  {
+   "label": "Working Temperature",
+   "value": "-10 to +55° C (14 to 131° F)"
+  },
+  {
+   "label": "Working Humidity",
+   "value": "10% to 90%"
+  },
+  {
+   "label": "Net Weight",
+   "value": "≤ 1 kg (2.2 lb)"
+  },
+  {
+   "label": "Dimensions (W × H × D)",
+   "value": "435 × 110 × 193 mm (17.1 × 4.3 × 7.6 inch)"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "≤ 4.5W"
+  },
+  {
+   "label": "Power Supply",
+   "value": "12 VDC"
+  },
+  {
+   "label": "Obtained Certification",
+   "value": "CE-EMC/CE-LVD/ROHS/CB/UL/FCC-SDoC/BIS"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/en/products/display-and-control/control-and-decode/keyboards/DS-1200KI/",
+ "checked": "2026-10-18"
 }

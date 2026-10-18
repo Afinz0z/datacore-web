@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HIKVISION Main network cable, 10m",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Cat 6"
+  },
+  {
+   "label": "length",
+   "value": "0.5,1,2,3,5,10m"
+  },
+  {
+   "label": "Operating Voltage",
+   "value": "57V"
+  },
+  {
+   "label": "Conductor Diameter",
+   "value": "7*0.2mm 24AWG"
+  },
+  {
+   "label": "Sheath Thickness",
+   "value": "0.50 ± 0.05mm"
+  },
+  {
+   "label": "Sheath Diameter",
+   "value": "5.8±0.20 mm"
+  },
+  {
+   "label": "Sheath Color",
+   "value": "Orange/Gray"
+  },
+  {
+   "label": "Gold Plating",
+   "value": "30u inch"
+  },
+  {
+   "label": "Impedance",
+   "value": "100±15 Ω"
+  },
+  {
+   "label": "DC Resistance",
+   "value": "≤ 9.4 Ω/100 m"
+  },
+  {
+   "label": "Conductor Material",
+   "value": "Bare Copper (99.95%)"
+  },
+  {
+   "label": "Insulation Material",
+   "value": "HDPE"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/premises-distribution-system/cable/cable-accessories/ds-1np6uec0/",
+ "checked": "2026-10-18"
 }

@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Video Intercom Villa Door Station",
- "specs": []
+ "specs": [
+  {
+   "label": "Operation system",
+   "value": "Linux"
+  },
+  {
+   "label": "ROM",
+   "value": "32 MB"
+  },
+  {
+   "label": "RAM",
+   "value": "256 MB"
+  },
+  {
+   "label": "Processor",
+   "value": "Embeded high performance processor"
+  },
+  {
+   "label": "Screen size",
+   "value": "/"
+  },
+  {
+   "label": "Operation method",
+   "value": "/"
+  },
+  {
+   "label": "Type",
+   "value": "/"
+  },
+  {
+   "label": "Resolution",
+   "value": "/"
+  },
+  {
+   "label": "Lens",
+   "value": "1"
+  },
+  {
+   "label": "FOV",
+   "value": "Horizontal: 124° Vertical: 75°"
+  },
+  {
+   "label": "Wide dynamic range (WDR)",
+   "value": "Digital WDR/76.9 dB"
+  },
+  {
+   "label": "Supplement light",
+   "value": "IR light, up to 3 m"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/Video-Intercom-Products/IP-Series/Pro-Series/ds-kv8113-wme1-c-/",
+ "checked": "2026-10-18"
 }

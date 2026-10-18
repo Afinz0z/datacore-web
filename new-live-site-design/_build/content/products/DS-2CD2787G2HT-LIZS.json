@@ -6,5 +6,56 @@
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Max. Resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Image Sensor",
+   "value": "1/1.8\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Varifocal lens, motorized lens, 2.8 to 12 mm"
+  },
+  {
+   "label": "Supplement Light Range",
+   "value": "Up to 40 m"
+  },
+  {
+   "label": "Protection",
+   "value": "IP67: IEC 60529-2013,IK10: IEC 62262:2002"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Main stream: H.265/H.264/H.264+/H.265+, Sub-stream: H.265/H.264/MJPEG, Third stream: H.265/H.264, *Third stream is supported under certain settings."
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.0028 Lux @ (F1.2, AGC ON),0 Lux with light"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 355°,tilt: 0° to 75°,rotate: 0° to 355°"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 to 12 mm, horizontal FOV 112.3° to 41.2°, vertical FOV 58.1°to 23.1°, diagonal FOV 137.4°to 47.3°"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "Integrated"
+  }
+ ],
+ "src": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2787g2ht-lizs/",
+ "checked": "2026-10-18"
 }
