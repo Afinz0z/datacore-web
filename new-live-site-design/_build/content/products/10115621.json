@@ -1,0 +1,16 @@
+{
+ "sku": "10115621",
+ "order": 4708,
+ "n": "Queue Management License",
+ "b": "Qmatic",
+ "c": "Queue Management System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Orchestra 7, Appointment Manager Standard",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Queue Management License"
+  }
+ ]
+}

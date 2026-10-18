@@ -1,0 +1,16 @@
+{
+ "sku": "N121.4MLY",
+ "order": 4076,
+ "n": "Fiber Pigtail SM (nexans)",
+ "b": "Nexans",
+ "c": "Fiber Pigtails",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Pigtail LC/UPC Singlemode Maxistrip LSZH 9/125 1m Yellow",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fiber Pigtail singlemode"
+  }
+ ]
+}

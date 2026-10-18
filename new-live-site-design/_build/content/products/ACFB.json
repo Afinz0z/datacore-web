@@ -1,0 +1,19 @@
+{
+ "sku": "ACFB",
+ "order": 1356,
+ "n": "ACFB",
+ "b": "Listen Technologies",
+ "c": "Assistive Listening",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "3.0 mm² Flat Copper Tape",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ],
+ "for": [
+  "C10-2"
+ ]
+}

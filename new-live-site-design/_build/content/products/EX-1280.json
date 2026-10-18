@@ -1,0 +1,11 @@
+{
+ "sku": "EX-1280",
+ "order": 1210,
+ "n": "Digital Signal Processor-EX-1280",
+ "b": "Bose",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Open-architecture, 1RU design built for general-purpose and PA applications USB connection facilitates easy integration with PC audio sources Dante audio networking supports 64 x 64 audio channels for connection to other Dante-enabled products, including native Dante-integrated microphones, amplifiers, mixers, and end points Bose AmpLink port provides 8 channels of uncompressed, low-latency digital audio to AmpLink-equipped Bose amplifiers Front-panel interface features a large OLED display and rotary encoder for setting network parameters and monitoring channel activity GPIO (5 in/5 out) and Serial for interfacing with external devices and control systems High-quality analog circuitry offers both mic and line-level I/O,",
+ "specs": []
+}

@@ -1,0 +1,48 @@
+{
+ "sku": "EP5542T",
+ "order": 143,
+ "n": "Digital ePoster EP5542T",
+ "b": "ViewSonic",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "55\", 4K Kiosk, 450 nits, Android 8.0, Floor Standing, No vSignage, Touch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Kiosk"
+  }
+ ],
+ "acc": [
+  "LG-CMBB-65",
+  "LG-Emerald1",
+  "LG-VW04-IN",
+  "LGC-5586",
+  "LGCM-65-5",
+  "LGFS-5565D",
+  "LGFS-5586-N23",
+  "LGWM-3265F-IN",
+  "LGWM-3265SW",
+  "LGWM-3265T",
+  "LGWM-3790F",
+  "LGWM-3790T",
+  "LGWM-4365R",
+  "LGWM-5586SW",
+  "LGWM-5598SW",
+  "LPAUB",
+  "MCB1U",
+  "MTMP1U",
+  "PDRUB",
+  "PNRUB",
+  "PSBUB",
+  "RMF3",
+  "RMT3",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "WMK-077",
+  "XTM1U"
+ ]
+}

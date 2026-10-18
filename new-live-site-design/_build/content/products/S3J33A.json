@@ -1,0 +1,19 @@
+{
+ "sku": "S3J33A",
+ "order": 3089,
+ "n": "10-Pack Campus WAP Aruba AP-615",
+ "b": "Aruba",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Wi-Fi 6E tri-band 2x2 MIMO indoor campus access point with internal antennas. Supplied as a 10-unit bundle.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor campus access point"
+  }
+ ],
+ "acc": [
+  "R1C72A"
+ ]
+}

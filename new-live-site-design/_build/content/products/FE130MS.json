@@ -1,0 +1,19 @@
+{
+ "sku": "FE130MS",
+ "order": 3599,
+ "n": "Single magnetic lock 300KGS",
+ "b": "LenelS2",
+ "c": "Magnetic Lock",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ECO LINE MAG 300KGS, MONITORED, SURFACE MOUNT",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Sml"
+  }
+ ],
+ "acc": [
+  "FE130ZL"
+ ]
+}

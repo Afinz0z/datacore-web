@@ -1,0 +1,20 @@
+{
+ "sku": "C1045",
+ "order": 3864,
+ "n": "B3 2Cx2.5 MM² Shielded LSZH Cables",
+ "b": "B3 International",
+ "c": "CONTROL CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "2x2.5 mm² SHIELDED LSZH CABLE (500MTR/ROLL)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "LSZH, Shielded"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

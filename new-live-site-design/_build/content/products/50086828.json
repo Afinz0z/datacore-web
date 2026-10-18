@@ -1,0 +1,21 @@
+{
+ "sku": "50086828",
+ "order": 3106,
+ "n": "AirEngine Indoor Wi-Fi 7 Access Point",
+ "b": "Huawei",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "AirEngine6776-57T(11be indoor,2+2+4 tri bands,smart antenna,USB,BLE)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor campus access point"
+  }
+ ],
+ "acc": [
+  "88063NWL",
+  "88134UGJ-61K",
+  "88134UJL-5PJ"
+ ]
+}

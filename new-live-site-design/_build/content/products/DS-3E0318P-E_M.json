@@ -1,0 +1,20 @@
+{
+ "sku": "DS-3E0318P-E/M",
+ "order": 2956,
+ "n": "16 Port Fast Ethernet Smart POE Switch",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 16 Port Fast Ethernet 10/100Mbps Smart POE Switch - Low Power 130 W.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  },
+  {
+   "label": "Series",
+   "value": "L2 Series Switch"
+  }
+ ]
+}

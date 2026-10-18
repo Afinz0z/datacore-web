@@ -1,0 +1,26 @@
+{
+ "sku": "70-1065-50",
+ "order": 2421,
+ "n": "Retractor USB-C Power",
+ "b": "Extron",
+ "c": "Cable Cubby",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Retractor USB-C Power Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - USB-C Male to USB-C Female",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cable Retraction System"
+  }
+ ],
+ "for": [
+  "70-1045-02",
+  "70-1045-08",
+  "70-1046-02",
+  "70-1046-08",
+  "70-1184-02",
+  "70-1184-08",
+  "70-1185-02",
+  "70-1185-08"
+ ]
+}

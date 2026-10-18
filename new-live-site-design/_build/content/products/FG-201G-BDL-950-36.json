@@ -1,0 +1,14 @@
+{
+ "sku": "FG-201G-BDL-950-36",
+ "order": 3174,
+ "n": "Fortinet Firewall",
+ "b": "Fortinet",
+ "c": "FIREWALL",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FortiGate-201G Hardware plus 3 Year FortiCare Premium and FortiGuard Unified Threat Protection (UTP)",
+ "specs": [],
+ "acc": [
+  "FN-TRAN-SFP+SR"
+ ]
+}

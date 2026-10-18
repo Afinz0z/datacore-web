@@ -1,0 +1,19 @@
+{
+ "sku": "D12FBB",
+ "order": 5291,
+ "n": "Finger Bracket Kit",
+ "b": "Panduit",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ 42RU Finger Bracket Kit, Black ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "bracket kit"
+  }
+ ],
+ "for": [
+  "DAE8212B"
+ ]
+}

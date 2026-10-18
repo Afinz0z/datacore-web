@@ -1,0 +1,16 @@
+{
+ "sku": "TS-2",
+ "order": 3607,
+ "n": "Push Button",
+ "b": "ASSA ABLOY",
+ "c": "PUSH BUTTON",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ANSI Push button UL294 Listed",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "UL294 Listed Push Button"
+  }
+ ]
+}

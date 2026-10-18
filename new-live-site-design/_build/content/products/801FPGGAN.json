@@ -1,0 +1,19 @@
+{
+ "sku": "801FPGGAN",
+ "order": 3636,
+ "n": "MIFARE DESFire EV3 8K Smart Card",
+ "b": "LenelS2",
+ "c": "ID CARD PRINTER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "COMPOSITE MIFARE DESFIRE EV3 8K, PROG SIO COMPATIBILITY, F-GLOSS, B-GLOSS, LASER MATCH #, NO SLOT, Legacy EV1 SIO Application Compatibility: Supported by HID Signo, iCLASS SE and multiCLASS SE readers",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "smart card"
+  }
+ ],
+ "for": [
+  "SWS-PRO"
+ ]
+}

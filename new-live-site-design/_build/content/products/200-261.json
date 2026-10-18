@@ -1,0 +1,16 @@
+{
+ "sku": "200-261",
+ "order": 3814,
+ "n": "Fiber Optic Patch Cord Single Mode",
+ "b": "Excel",
+ "c": "Fiber Patch Cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Excel Enbeam OS2 Fibre Optic Patch Lead SC-SC Singlemode 9/125 Duplex LS0H Yellow 1 m",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single mode patch cord"
+  }
+ ]
+}

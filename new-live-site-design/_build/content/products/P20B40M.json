@@ -1,0 +1,14 @@
+{
+ "sku": "P20B40M",
+ "order": 4196,
+ "n": "BASIC PDU,32 AMP",
+ "b": "Panduit",
+ "c": "PDU",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "BASIC PDU,32 AMP,(20) C13,332P6-3M,BALXK",
+ "specs": [],
+ "for": [
+  "DAE8212B"
+ ]
+}

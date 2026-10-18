@@ -1,0 +1,16 @@
+{
+ "sku": "VITS-D1000-DU YS-M485",
+ "order": 643,
+ "n": "DELEGATE UNIT",
+ "b": "TOA",
+ "c": "Audio Conference System",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "The Digital conference system's dedicated TS-D1000-DU Delegate unit can be instantly used by simplyconnecting it to the TS-D1100-MU Master control unitusing CAT5e STP LAN cables. It can also be optionallyequipped with either the TS-D1000-M1 Standardmicrophone or the TS-D1000-M2 Long microphone.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Delegate Unit"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "RS4021xs+",
+ "order": 4529,
+ "n": "NAS/SAN storage system 16-bay rackmount - Synology",
+ "b": "Synology",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Synology | 16-Bay High capacityand scalable NAS with CPU IntelXeon D-1531 & 8 GB DDR4",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Network Attached Storage (NAS)"
+  }
+ ]
+}

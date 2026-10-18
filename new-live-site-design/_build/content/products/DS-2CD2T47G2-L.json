@@ -1,0 +1,25 @@
+{
+ "sku": "DS-2CD2T47G2-L",
+ "order": 3289,
+ "n": "4MP ColorVu Network Bullet Camera,4.0MM",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Hikvision 4MP ColorVu Network Bullet Camera,4.0MM",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  },
+  {
+   "label": "Series",
+   "value": "ColorVu"
+  }
+ ],
+ "acc": [
+  "DS-1260ZJ",
+  "DS-1275ZJ-S-SUS",
+  "DS-1280ZJ-S"
+ ]
+}

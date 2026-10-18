@@ -1,0 +1,16 @@
+{
+ "sku": "UU001622909",
+ "order": 3973,
+ "n": "UTP PATCHPANEL (3M)",
+ "b": "Corning",
+ "c": "UTP PATCHPANEL",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "VOLPPCBF48K - RJ-45 Patch PANEL 48P 2U BLACK EMPTY",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6a"
+  }
+ ]
+}

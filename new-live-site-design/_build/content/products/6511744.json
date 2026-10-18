@@ -1,0 +1,19 @@
+{
+ "sku": "6511744",
+ "order": 1000,
+ "n": "AMP-X1000",
+ "b": "Crestron",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "X-Series Amplifier, 1000 W The AMP-X1000 is a high performance, compact, energy efficient, professional grade amplifier. Supporting Lo-Z and Hi-Z operation, this multichannel amplifier is suitable for both residential and commercial configurations.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "X Series"
+  }
+ ],
+ "acc": [
+  "6510957"
+ ]
+}

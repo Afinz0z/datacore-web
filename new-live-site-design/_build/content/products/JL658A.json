@@ -1,0 +1,22 @@
+{
+ "sku": "JL658A",
+ "order": 2919,
+ "n": "HPE Aruba Networking CX 6300 -KVM SWITCH",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ HPE Aruba Networking CX 6300M 24-port SFP+ and 4-port SFP56 Switch ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Kvm switch"
+  }
+ ],
+ "acc": [
+  "HR4C2E",
+  "J4858D",
+  "JL085A",
+  "Q9Y74AAE"
+ ]
+}

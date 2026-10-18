@@ -1,0 +1,16 @@
+{
+ "sku": "FPP1U-12DLC-OS1",
+ "order": 3956,
+ "n": "24 Core 1U Fiber Patch Panel",
+ "b": "Finosel",
+ "c": "Fiber Optic Patch panel",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FINOSEL, Fiber Shelf, 1U Chassis Panel 12 Duplex LC Slot With SM Coupler and Splice Tray",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "fiber patch panel 1U"
+  }
+ ]
+}

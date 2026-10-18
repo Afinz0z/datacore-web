@@ -1,0 +1,18 @@
+{
+ "sku": "DHI-IVSS7124DR",
+ "order": 3374,
+ "n": "256 Channel Intelligent Video Surveillance Server (Dahua)",
+ "b": "Dahua",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DHI-IVSS7124DR is a 4U enterprise-grade intelligent video surveillance server that combines video management, recording, storage, and AI analytics in a single platform. It supports up to 256 IP cameras, advanced face recognition, video metadata, perimeter protection, and license plate comparison, making it suitable for large-scale surveillance deployments.",
+ "specs": [],
+ "acc": [
+  "DSS8PRAML",
+  "DSS8PRAPML",
+  "DSS8PRD",
+  "DSS8PRDB",
+  "DSS8PRRB"
+ ]
+}

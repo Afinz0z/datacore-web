@@ -1,0 +1,16 @@
+{
+ "sku": "60-635-21",
+ "order": 1921,
+ "n": "MVX 44 VGA A",
+ "b": "Extron",
+ "c": "AV Switcher",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "MVX 44 VGA A 4x4 VGA and Stereo Audio Matrix Switcher",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Audio Switcher"
+  }
+ ]
+}

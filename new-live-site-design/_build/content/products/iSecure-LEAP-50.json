@@ -1,0 +1,19 @@
+{
+ "sku": "iSecure-LEAP-50",
+ "order": 4846,
+ "n": "Controller Licence",
+ "b": "HID",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Per Controller Licence (beyond 50 Controllers)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Software Integration License"
+  }
+ ],
+ "for": [
+  "X1100C"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "sku": "FAP-231K-E",
+ "order": 3103,
+ "n": "Fortinet Wi-Fi 7 Tri- band WAP",
+ "b": "Fortinet",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FortiAP-231K Indoor Wireless AP - (Wi-Fi-7 IEEE Tri-band 2.4/5/6GHz 2+2+2 2 streams 3 radios), internal antennas, 100/1000/2500/5000 Base-T RJ45, BT/BLE, 1x RS-232 RJ45 Serial Port. Ceiling/wall mount kit included. For power order: 802.3at PoE injector GPI-130(1Gbps)/GPI-145(10Gbps) or AC adapter SP-FAP200-PA. Region Code E",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor"
+  },
+  {
+   "label": "Series",
+   "value": "FortiAP 231K"
+  }
+ ],
+ "acc": [
+  "FC-10-P231K-247-02-12"
+ ]
+}

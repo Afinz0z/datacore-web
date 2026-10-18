@@ -1,0 +1,13 @@
+{
+ "sku": "C9300-STACK-NONE",
+ "order": 4993,
+ "n": "No Stack Cable Selected",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "sku": "AC6508",
+ "order": 3183,
+ "n": "Wireless Access Controller",
+ "b": "Huawei",
+ "c": "WAP Controller",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "AC6508 mainframe (10*GE ports, 2*10GE SFP+ ports, with the AC/DC adapter)",
+ "specs": [],
+ "acc": [
+  "02354FRJ-001_88134UGQ-42Y_36",
+  "88034UWA_88134UKY-04D_36",
+  "E5700MK00",
+  "L-ACSSAP-1AP"
+ ]
+}

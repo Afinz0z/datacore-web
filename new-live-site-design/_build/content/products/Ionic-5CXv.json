@@ -1,0 +1,23 @@
+{
+ "sku": "Ionic-5CXv",
+ "order": 907,
+ "n": "Speaker - Ionic-5CXv",
+ "b": "Lynx Pro",
+ "c": "Speaker",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Wall Mounted Loudspeaker Type (WS1): 5″ coaxial speaker offering a coverage of 70º conical dispersion and 117dB SPL",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Series",
+   "value": "Ionic"
+  }
+ ],
+ "acc": [
+  "UBR-5CX"
+ ]
+}

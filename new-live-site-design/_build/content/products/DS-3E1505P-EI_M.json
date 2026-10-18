@@ -1,0 +1,16 @@
+{
+ "sku": "DS-3E1505P-EI/M",
+ "order": 2963,
+ "n": "4 Port Switch",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "4 Port Gigabit Smart POE Switch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "4 port switch"
+  }
+ ]
+}

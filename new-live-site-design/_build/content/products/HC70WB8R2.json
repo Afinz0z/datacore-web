@@ -1,0 +1,25 @@
+{
+ "sku": "HC70WB8R2",
+ "order": 3358,
+ "n": "8MP Network IR Bullet Camara,TDN",
+ "b": "Honeywell",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8MP Network IR Bullet Camara,TDN,130DB,WDR,1/2.7\"CMOS,,3.6-11mm MFZ ,Piris Smart code/H.265,H.264,IP66/IP67/IK10/nema 4x,built-in Smart Video Analytics,Built in FIPS 140-2 certified encryption chipset",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Outdoor Bullet"
+  },
+  {
+   "label": "Series",
+   "value": "70 seies"
+  }
+ ],
+ "acc": [
+  "HA60BB1",
+  "HA60PLMZ",
+  "HV70LPRL2"
+ ]
+}

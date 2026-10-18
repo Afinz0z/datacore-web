@@ -1,0 +1,23 @@
+{
+ "sku": "JW735A",
+ "order": 3179,
+ "n": "Aruba 7205 Controller",
+ "b": "Aruba",
+ "c": "WAP Controller",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ Aruba 7205 (RW) 2-port 10GBASE-X (SFP+) Controller ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "WLAN Access Controller"
+  }
+ ],
+ "acc": [
+  "H2XW4E",
+  "H3CW3E",
+  "H3CX1E",
+  "JW127A",
+  "JW471AAE"
+ ]
+}

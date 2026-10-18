@@ -1,0 +1,20 @@
+{
+ "sku": "C1721",
+ "order": 3863,
+ "n": "B3 2 Core 18AWG Shielded LSZH Cables",
+ "b": "B3 International",
+ "c": "CONTROL CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "2 CORE 18 AWG SHIELDED LSZH CABLE (305MTR/ROLL)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "LSZH, Shielded"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

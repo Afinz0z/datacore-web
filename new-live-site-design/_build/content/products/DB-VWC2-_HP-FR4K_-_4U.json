@@ -1,0 +1,16 @@
+{
+ "sku": "DB-VWC2- HP-FR4K - 4U",
+ "order": 315,
+ "n": "DB-VWC2- HP-FR4K - 4U",
+ "b": "DigiBird",
+ "c": "Video Wall Controller",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "4U Chassis, up to 8x input cards, 3x output cards.",
+ "specs": [],
+ "acc": [
+  "DB-VWC2- HP-IC - HDMI4",
+  "DB-VWC2- HP-OC - HDMI4",
+  "DB-VWC2- HP-OC - NPC"
+ ]
+}

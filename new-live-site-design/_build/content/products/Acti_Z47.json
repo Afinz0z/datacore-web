@@ -1,0 +1,16 @@
+{
+ "sku": "Acti Z47",
+ "order": 3201,
+ "n": "8MP Outdoor fixed IP camera pole/wall mounted",
+ "b": "ACTi",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Outdoor fixed IP camera pole/wall mounted, 8MP, IR30m, POE, WDR,VARIFOCAL, (or Bullet Type Camera with 8 MP)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ]
+}

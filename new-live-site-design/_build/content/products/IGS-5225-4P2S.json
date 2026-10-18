@@ -1,0 +1,15 @@
+{
+ "sku": "IGS-5225-4P2S",
+ "order": 3043,
+ "n": "IP40 Industrial L2+/L4 4-Port Managed Switch Planet",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IP40 Industrial L2+/L4 4-Port 1000T 802.3at PoE + 2-Port 100/1000X SFP Full Managed Switch (-40 to 75 C, dual redundant power input on 48~56VDC terminal block, ERPS Ring, 1588, Modbus TCP, ONVIF, supports Cloud Viewer app, MQTT and Cybersecurity features)",
+ "specs": [],
+ "acc": [
+  "IPOE-E174",
+  "PWR-120-48"
+ ]
+}

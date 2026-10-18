@@ -1,0 +1,16 @@
+{
+ "sku": "98012238",
+ "order": 2969,
+ "n": "16-Port PoE+ Access Switch (Huawei)",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CloudEngine S5735-L16P2UM2X-QA-V2 - 16 × Gigabit PoE+ access ports, 2 × 10G Multigig PoE++ ports, 2 × 10G SFP+ uplinks, 247 W PoE budget, fanless Layer 3 managed access switch.​",
+ "specs": [],
+ "acc": [
+  "88134UGQ-427",
+  "L-MLIC-S57L",
+  "SFP+STACK-CU0M5"
+ ]
+}

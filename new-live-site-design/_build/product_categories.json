@@ -1,0 +1,1343 @@
+{
+ "_about": "Maps each category in the inventory export to a display name (English, Arabic first draft), a filter group and a card icon (a key of glyphs.json). Keys are matched ignoring case and extra spaces. 'Category|DEPARTMENT' entries override the plain one for that department. Groups are listed in the order the catalogue shows them.",
+ "groups": {
+  "displays": [
+   "Displays and projection",
+   "الشاشات والعرض"
+  ],
+  "conferencing": [
+   "Conferencing and collaboration",
+   "المؤتمرات والتعاون"
+  ],
+  "audio": [
+   "Audio",
+   "الصوتيات"
+  ],
+  "control": [
+   "Control and automation",
+   "التحكم والأتمتة"
+  ],
+  "distribution": [
+   "Signal distribution",
+   "توزيع الإشارة"
+  ],
+  "avcable": [
+   "AV cables and connectivity",
+   "كابلات وتوصيلات الصوت والصورة"
+  ],
+  "mounts": [
+   "Mounts and racks",
+   "الحوامل والخزائن"
+  ],
+  "networking": [
+   "Networking",
+   "الشبكات"
+  ],
+  "surveillance": [
+   "Surveillance",
+   "المراقبة"
+  ],
+  "access": [
+   "Access control and security",
+   "التحكم في الدخول والأمن"
+  ],
+  "cabling": [
+   "Structured cabling",
+   "الكابلات المهيكلة"
+  ],
+  "power": [
+   "Power",
+   "الطاقة"
+  ],
+  "iptv": [
+   "IPTV and satellite TV",
+   "IPTV والبث الفضائي"
+  ],
+  "fire": [
+   "Public address and fire alarm",
+   "النداء العام وإنذار الحريق"
+  ],
+  "clocks": [
+   "Clock systems",
+   "أنظمة الساعات"
+  ],
+  "lighting": [
+   "Lighting",
+   "الإضاءة"
+  ],
+  "computing": [
+   "Computers and storage",
+   "الحواسيب والتخزين"
+  ],
+  "telephony": [
+   "Telephony and intercom",
+   "الهاتف والاتصال الداخلي"
+  ],
+  "rooms": [
+   "Room and queue management",
+   "إدارة الغرف والطوابير"
+  ],
+  "software": [
+   "Software and licences",
+   "البرمجيات والتراخيص"
+  ],
+  "support": [
+   "Support and warranty",
+   "الدعم والضمان"
+  ],
+  "other": [
+   "Other",
+   "أخرى"
+  ]
+ },
+ "categories": {
+  "ACCESS POINT": [
+   "Access point",
+   "نقطة وصول",
+   "networking",
+   "ap"
+  ],
+  "Accessories": [
+   "Accessory",
+   "ملحقات",
+   "other",
+   "rack"
+  ],
+  "ACS CONTROLLER": [
+   "Access control panel",
+   "وحدة تحكم الدخول",
+   "access",
+   "controller"
+  ],
+  "ACS POWER ADAPTOR": [
+   "Access control power adapter",
+   "محول طاقة لأنظمة الدخول",
+   "access",
+   "ups"
+  ],
+  "Adapters": [
+   "Adapter",
+   "محول توصيل",
+   "avcable",
+   "copper"
+  ],
+  "Amplifier": [
+   "Amplifier",
+   "مضخم صوت",
+   "audio",
+   "amp"
+  ],
+  "Antenna": [
+   "Antenna",
+   "هوائي",
+   "iptv",
+   "ap"
+  ],
+  "Antenna|NETWORK": [
+   "Antenna",
+   "هوائي",
+   "networking",
+   "ap"
+  ],
+  "Assistive Listening": [
+   "Assistive listening",
+   "أنظمة الاستماع المساعد",
+   "audio",
+   "mic"
+  ],
+  "Attendance Software": [
+   "Time attendance software",
+   "برنامج الحضور والانصراف",
+   "software",
+   "reader"
+  ],
+  "Attenuator": [
+   "Attenuator",
+   "مخفف إشارة",
+   "audio",
+   "dsp"
+  ],
+  "Audio Card": [
+   "Audio card",
+   "بطاقة صوت",
+   "audio",
+   "dsp"
+  ],
+  "Audio Conference System": [
+   "Audio conference system",
+   "نظام مؤتمرات صوتية",
+   "conferencing",
+   "mic"
+  ],
+  "Audio Expander": [
+   "Audio expander",
+   "موسّع صوت",
+   "audio",
+   "dsp"
+  ],
+  "Audio Mixer": [
+   "Audio mixer",
+   "خلاط صوت",
+   "audio",
+   "dsp"
+  ],
+  "Audio Processor": [
+   "Audio processor",
+   "معالج صوت",
+   "audio",
+   "dsp"
+  ],
+  "Audio Router": [
+   "Audio router",
+   "موجّه صوت",
+   "audio",
+   "dsp"
+  ],
+  "AUDIO SOURCE": [
+   "Audio source",
+   "مصدر صوت",
+   "audio",
+   "speaker"
+  ],
+  "Audio Wallplate": [
+   "Audio wall plate",
+   "لوحة صوت جدارية",
+   "avcable",
+   "copper"
+  ],
+  "Automation Controller": [
+   "Automation controller",
+   "وحدة تحكم بالأتمتة",
+   "control",
+   "controller"
+  ],
+  "AV Bridge": [
+   "AV bridge",
+   "جسر صوت وصورة",
+   "conferencing",
+   "collab"
+  ],
+  "AV CABLE": [
+   "AV cable",
+   "كابل صوت وصورة",
+   "avcable",
+   "copper"
+  ],
+  "AV Camera": [
+   "Conference camera",
+   "كاميرا مؤتمرات",
+   "conferencing",
+   "camera"
+  ],
+  "AV Service Box": [
+   "Floor box",
+   "صندوق أرضي",
+   "avcable",
+   "copper"
+  ],
+  "AV Switcher": [
+   "AV switcher",
+   "مبدّل صوت وصورة",
+   "distribution",
+   "avoverip"
+  ],
+  "AV System Manager": [
+   "AV system manager",
+   "مدير نظام الصوت والصورة",
+   "control",
+   "controller"
+  ],
+  "Battery": [
+   "Battery",
+   "بطارية",
+   "power",
+   "ups"
+  ],
+  "Battery Pack-UPS": [
+   "UPS battery pack",
+   "حزمة بطاريات UPS",
+   "power",
+   "ups"
+  ],
+  "BREAK GLASS": [
+   "Break glass unit",
+   "وحدة كسر الزجاج",
+   "access",
+   "security"
+  ],
+  "BREAK GLASS|AV": [
+   "Manual call point",
+   "نقطة إنذار يدوية",
+   "fire",
+   "security"
+  ],
+  "Cable Cubby": [
+   "Cable cubby",
+   "صندوق توصيلات الطاولة",
+   "avcable",
+   "copper"
+  ],
+  "CABLE ORGANIZER": [
+   "Cable organiser",
+   "منظم كابلات",
+   "cabling",
+   "rack"
+  ],
+  "Call station extension": [
+   "Call station extension",
+   "ملحق محطة النداء",
+   "fire",
+   "mic"
+  ],
+  "Camera Controller": [
+   "Camera controller",
+   "وحدة تحكم الكاميرا",
+   "conferencing",
+   "controller"
+  ],
+  "Camera Switcher / Mixer": [
+   "Camera switcher",
+   "مبدّل كاميرات",
+   "conferencing",
+   "avoverip"
+  ],
+  "CARD READER": [
+   "Card reader",
+   "قارئ بطاقات",
+   "access",
+   "reader"
+  ],
+  "Card writer": [
+   "Card writer",
+   "جهاز كتابة البطاقات",
+   "access",
+   "reader"
+  ],
+  "CCTV Mounting Equipment": [
+   "Camera mount",
+   "حامل كاميرا",
+   "surveillance",
+   "camera"
+  ],
+  "Charger": [
+   "Charger",
+   "شاحن",
+   "power",
+   "ups"
+  ],
+  "Chassis": [
+   "Card chassis",
+   "هيكل بطاقات",
+   "distribution",
+   "rack"
+  ],
+  "Connectors": [
+   "Connector",
+   "موصل",
+   "avcable",
+   "copper"
+  ],
+  "Connectors|NETWORK": [
+   "Connector",
+   "موصل",
+   "cabling",
+   "copper"
+  ],
+  "CONTROL CABLE": [
+   "Control cable",
+   "كابل تحكم",
+   "avcable",
+   "copper"
+  ],
+  "CONTROL CABLE|NETWORK": [
+   "Control cable",
+   "كابل تحكم",
+   "cabling",
+   "copper"
+  ],
+  "Control Keypad/Remote Panel": [
+   "Control keypad",
+   "لوحة مفاتيح التحكم",
+   "control",
+   "controller"
+  ],
+  "Control Module": [
+   "Control module",
+   "وحدة تحكم",
+   "control",
+   "controller"
+  ],
+  "Control Processor": [
+   "Control processor",
+   "معالج تحكم",
+   "control",
+   "controller"
+  ],
+  "Converter": [
+   "Converter",
+   "محول إشارة",
+   "distribution",
+   "extender"
+  ],
+  "Copper Cabling Solution": [
+   "Copper cabling",
+   "الكابلات النحاسية",
+   "cabling",
+   "copper"
+  ],
+  "Custom": [
+   "Custom item",
+   "منتج مخصص",
+   "other",
+   "rack"
+  ],
+  "Digital signage": [
+   "Digital signage",
+   "اللافتات الرقمية",
+   "displays",
+   "display"
+  ],
+  "Director": [
+   "AV-over-IP director",
+   "وحدة إدارة الصوت والصورة عبر الشبكة",
+   "distribution",
+   "avoverip"
+  ],
+  "Dish": [
+   "Satellite dish",
+   "طبق استقبال فضائي",
+   "iptv",
+   "ap"
+  ],
+  "Display Controller": [
+   "Display controller",
+   "وحدة تحكم الشاشات",
+   "displays",
+   "controller"
+  ],
+  "Displays": [
+   "Display",
+   "شاشة",
+   "displays",
+   "display"
+  ],
+  "Distribution Amplifier": [
+   "Distribution amplifier",
+   "مضخم توزيع",
+   "distribution",
+   "extender"
+  ],
+  "Distribution System": [
+   "TV distribution",
+   "نظام توزيع البث التلفزيوني",
+   "iptv",
+   "extender"
+  ],
+  "Docking Solution": [
+   "Docking station",
+   "محطة إرساء",
+   "conferencing",
+   "collab"
+  ],
+  "Dongle": [
+   "Dongle",
+   "دونجل",
+   "other",
+   "extender"
+  ],
+  "Door Contact": [
+   "Door contact",
+   "حساس باب",
+   "access",
+   "security"
+  ],
+  "DSP": [
+   "Digital signal processor",
+   "معالج إشارة رقمي",
+   "audio",
+   "dsp"
+  ],
+  "Electric Strike": [
+   "Electric strike",
+   "مزلاج كهربائي",
+   "access",
+   "security"
+  ],
+  "Elevator Controller": [
+   "Elevator controller",
+   "وحدة تحكم المصاعد",
+   "access",
+   "controller"
+  ],
+  "Embedder": [
+   "Audio embedder",
+   "وحدة دمج الصوت",
+   "distribution",
+   "extender"
+  ],
+  "Enclosure": [
+   "Enclosure",
+   "حاوية",
+   "cabling",
+   "rack"
+  ],
+  "End of Line Device": [
+   "End-of-line device",
+   "جهاز نهاية الخط",
+   "fire",
+   "security"
+  ],
+  "Enrollment Reader": [
+   "Enrolment reader",
+   "قارئ تسجيل",
+   "access",
+   "reader"
+  ],
+  "Equalizer": [
+   "Equaliser",
+   "معادل صوت",
+   "audio",
+   "dsp"
+  ],
+  "Extenders": [
+   "Extender",
+   "موسّع إشارة",
+   "distribution",
+   "extender"
+  ],
+  "FA Cable": [
+   "Fire alarm cable",
+   "كابل إنذار الحريق",
+   "fire",
+   "copper"
+  ],
+  "Faceplate": [
+   "Faceplate",
+   "لوحة واجهة",
+   "avcable",
+   "copper"
+  ],
+  "Faceplate|NETWORK": [
+   "Faceplate",
+   "لوحة واجهة",
+   "cabling",
+   "copper"
+  ],
+  "Fan": [
+   "Fan",
+   "مروحة",
+   "mounts",
+   "rack"
+  ],
+  "Façade": [
+   "Façade",
+   "واجهة",
+   "lighting",
+   "display"
+  ],
+  "Fiber adaptor": [
+   "Fibre adapter",
+   "محول ألياف",
+   "cabling",
+   "fibre"
+  ],
+  "FIBER CABLE CEILING KIT": [
+   "Fibre ceiling kit",
+   "طقم ألياف للسقف",
+   "cabling",
+   "fibre"
+  ],
+  "Fiber Casette": [
+   "Fibre cassette",
+   "كاسيت ألياف",
+   "cabling",
+   "fibre"
+  ],
+  "Fiber Casette Cover": [
+   "Fibre cassette cover",
+   "غطاء كاسيت ألياف",
+   "cabling",
+   "fibre"
+  ],
+  "Fiber Optic Patch panel": [
+   "Fibre patch panel",
+   "لوحة توصيل ألياف",
+   "cabling",
+   "fibre"
+  ],
+  "Fiber Patch Cord": [
+   "Fibre patch cord",
+   "سلك توصيل ألياف",
+   "cabling",
+   "fibre"
+  ],
+  "Fiber Pigtails": [
+   "Fibre pigtail",
+   "ضفيرة ألياف",
+   "cabling",
+   "fibre"
+  ],
+  "FIBER PROTECTIVE SLEEVE": [
+   "Fibre splice sleeve",
+   "غلاف حماية لحام الألياف",
+   "cabling",
+   "fibre"
+  ],
+  "Fiber Switch": [
+   "Fibre switch",
+   "سويتش ألياف",
+   "networking",
+   "switch"
+  ],
+  "FIELD EQUIPMENT CABINET": [
+   "Field equipment cabinet",
+   "خزانة معدات ميدانية",
+   "cabling",
+   "rack"
+  ],
+  "Fire Alarm - Field Devices": [
+   "Fire alarm device",
+   "جهاز إنذار حريق",
+   "fire",
+   "security"
+  ],
+  "Fire Alarm System": [
+   "Fire alarm system",
+   "نظام إنذار الحريق",
+   "fire",
+   "security"
+  ],
+  "FIREWALL": [
+   "Firewall",
+   "جدار حماية",
+   "networking",
+   "security"
+  ],
+  "Gate Barrier": [
+   "Gate barrier",
+   "حاجز بوابة",
+   "access",
+   "security"
+  ],
+  "Gateway": [
+   "Gateway",
+   "بوابة اتصال",
+   "control",
+   "controller"
+  ],
+  "Graphics Engine": [
+   "Graphics engine",
+   "محرك رسوميات",
+   "distribution",
+   "display"
+  ],
+  "Grilles": [
+   "Speaker grille",
+   "شبكة سماعة",
+   "audio",
+   "speaker"
+  ],
+  "HARD DISK": [
+   "Hard disk",
+   "قرص صلب",
+   "computing",
+   "recorder"
+  ],
+  "Headphones": [
+   "Headphones",
+   "سماعات رأس",
+   "audio",
+   "speaker"
+  ],
+  "ID CARD PRINTER": [
+   "ID card printer",
+   "طابعة بطاقات الهوية",
+   "access",
+   "reader"
+  ],
+  "Indicators": [
+   "Indicator",
+   "مؤشر",
+   "control",
+   "controller"
+  ],
+  "Integration System": [
+   "EDID emulator",
+   "محاكي EDID",
+   "distribution",
+   "extender"
+  ],
+  "Intercom": [
+   "Intercom",
+   "اتصال داخلي (إنتركم)",
+   "telephony",
+   "station"
+  ],
+  "Interface Module": [
+   "Interface module",
+   "وحدة واجهة",
+   "control",
+   "controller"
+  ],
+  "IP CAMERA": [
+   "IP camera",
+   "كاميرا IP",
+   "surveillance",
+   "camera"
+  ],
+  "IP Mixer": [
+   "IP mixer",
+   "خلاط صوت IP",
+   "audio",
+   "dsp"
+  ],
+  "IP TELEPHONY": [
+   "IP phone",
+   "هاتف IP",
+   "telephony",
+   "station"
+  ],
+  "IPTV Device": [
+   "IPTV device",
+   "جهاز IPTV",
+   "iptv",
+   "display"
+  ],
+  "KVM Console Drawer": [
+   "KVM console drawer",
+   "درج وحدة تحكم KVM",
+   "computing",
+   "rack"
+  ],
+  "Laptop": [
+   "Laptop",
+   "حاسوب محمول",
+   "computing",
+   "display"
+  ],
+  "License": [
+   "Licence",
+   "ترخيص",
+   "software",
+   "controller"
+  ],
+  "License for switch": [
+   "Switch licence",
+   "ترخيص سويتش",
+   "software",
+   "switch"
+  ],
+  "Light": [
+   "Light",
+   "وحدة إضاءة",
+   "lighting",
+   "display"
+  ],
+  "Lighting Accessories": [
+   "Lighting accessory",
+   "ملحق إضاءة",
+   "lighting",
+   "controller"
+  ],
+  "Lighting Console": [
+   "Lighting console",
+   "وحدة تحكم الإضاءة",
+   "lighting",
+   "controller"
+  ],
+  "Lighting Controller": [
+   "Lighting controller",
+   "وحدة تحكم بالإضاءة",
+   "lighting",
+   "controller"
+  ],
+  "Magnetic Lock": [
+   "Magnetic lock",
+   "قفل مغناطيسي",
+   "access",
+   "security"
+  ],
+  "Master Clock": [
+   "Clock",
+   "ساعة",
+   "clocks",
+   "controller"
+  ],
+  "Media Converter": [
+   "Media converter",
+   "محول وسائط",
+   "networking",
+   "fibre"
+  ],
+  "Media Player": [
+   "Media player",
+   "مشغل وسائط",
+   "displays",
+   "display"
+  ],
+  "Metal Door": [
+   "Metal door",
+   "باب معدني",
+   "access",
+   "security"
+  ],
+  "Mic": [
+   "Microphone",
+   "ميكروفون",
+   "audio",
+   "mic"
+  ],
+  "Mic Accessories": [
+   "Microphone accessory",
+   "ملحق ميكروفون",
+   "audio",
+   "mic"
+  ],
+  "Mixer Accessories": [
+   "Mixer accessory",
+   "ملحق خلاط صوت",
+   "audio",
+   "dsp"
+  ],
+  "Mixer Amplifier": [
+   "Mixer amplifier",
+   "مضخم مع خلاط",
+   "audio",
+   "amp"
+  ],
+  "Modem": [
+   "Modem",
+   "مودم",
+   "networking",
+   "switch"
+  ],
+  "MODULAR PLUG KIT": [
+   "Modular plug kit",
+   "طقم قوابس معيارية",
+   "cabling",
+   "copper"
+  ],
+  "Module": [
+   "Module",
+   "وحدة",
+   "other",
+   "controller"
+  ],
+  "Monitor": [
+   "Monitor",
+   "شاشة عرض",
+   "displays",
+   "display"
+  ],
+  "Mortise Lock": [
+   "Mortise lock",
+   "قفل مدمج",
+   "access",
+   "security"
+  ],
+  "Mount": [
+   "Mount",
+   "حامل",
+   "mounts",
+   "rack"
+  ],
+  "MULTI MODE FIBER OPTIC CABLE": [
+   "Multimode fibre cable",
+   "كابل ألياف متعدد الأنماط",
+   "cabling",
+   "fibre"
+  ],
+  "NAS (Network attached storage)": [
+   "Network storage (NAS)",
+   "تخزين شبكي (NAS)",
+   "computing",
+   "recorder"
+  ],
+  "NETWORK CABINET": [
+   "Network cabinet",
+   "خزانة شبكة",
+   "cabling",
+   "rack"
+  ],
+  "Network Switch": [
+   "Network switch",
+   "سويتش شبكة",
+   "networking",
+   "switch"
+  ],
+  "Network Video Recorder (NVR)": [
+   "Network video recorder (NVR)",
+   "مسجل فيديو شبكي (NVR)",
+   "surveillance",
+   "recorder"
+  ],
+  "OPS": [
+   "OPS computer",
+   "حاسوب OPS",
+   "displays",
+   "display"
+  ],
+  "Paging mic": [
+   "Paging microphone",
+   "ميكروفون نداء",
+   "fire",
+   "mic"
+  ],
+  "PAVA Device": [
+   "PA/VA device",
+   "جهاز نداء عام وإخلاء صوتي",
+   "fire",
+   "speaker"
+  ],
+  "PC": [
+   "PC",
+   "حاسوب مكتبي",
+   "computing",
+   "display"
+  ],
+  "PDU": [
+   "PDU",
+   "وحدة توزيع الطاقة",
+   "power",
+   "pdu"
+  ],
+  "Podium": [
+   "Lectern",
+   "منصة خطابة",
+   "conferencing",
+   "collab"
+  ],
+  "PoE Injector": [
+   "PoE injector",
+   "حاقن طاقة PoE",
+   "networking",
+   "switch"
+  ],
+  "power cord": [
+   "Power cord",
+   "سلك طاقة",
+   "power",
+   "pdu"
+  ],
+  "Power Module": [
+   "Power module",
+   "وحدة طاقة",
+   "power",
+   "ups"
+  ],
+  "Power Supply": [
+   "Power supply",
+   "مزود طاقة",
+   "power",
+   "ups"
+  ],
+  "Power Wallplate": [
+   "Power wall plate",
+   "لوحة طاقة جدارية",
+   "avcable",
+   "pdu"
+  ],
+  "Presentation System": [
+   "Presentation system",
+   "نظام عرض تقديمي",
+   "conferencing",
+   "collab"
+  ],
+  "Printer": [
+   "Printer",
+   "طابعة",
+   "computing",
+   "station"
+  ],
+  "Projector": [
+   "Projector",
+   "جهاز عرض (بروجكتر)",
+   "displays",
+   "display"
+  ],
+  "Projector Lens": [
+   "Projector lens",
+   "عدسة بروجكتر",
+   "displays",
+   "display"
+  ],
+  "Projector Lift": [
+   "Projector lift",
+   "رافعة بروجكتر",
+   "mounts",
+   "rack"
+  ],
+  "Projector Screen": [
+   "Projector screen",
+   "شاشة بروجكتر",
+   "displays",
+   "display"
+  ],
+  "PTZ Joystick": [
+   "PTZ joystick",
+   "عصا تحكم PTZ",
+   "surveillance",
+   "controller"
+  ],
+  "PTZ Joystick|AV": [
+   "PTZ joystick",
+   "عصا تحكم PTZ",
+   "conferencing",
+   "controller"
+  ],
+  "PUSH BUTTON": [
+   "Exit button",
+   "زر خروج",
+   "access",
+   "security"
+  ],
+  "Pvc Card": [
+   "PVC card",
+   "بطاقة PVC",
+   "access",
+   "reader"
+  ],
+  "Queue Management System": [
+   "Queue management",
+   "نظام إدارة الطوابير",
+   "rooms",
+   "display"
+  ],
+  "Rack (AV)": [
+   "AV rack",
+   "خزانة صوت وصورة",
+   "mounts",
+   "rack"
+  ],
+  "Rail kit for ups": [
+   "UPS rail kit",
+   "طقم قضبان UPS",
+   "power",
+   "ups"
+  ],
+  "RAM": [
+   "Memory (RAM)",
+   "ذاكرة (RAM)",
+   "computing",
+   "recorder"
+  ],
+  "Recorder": [
+   "Recorder",
+   "جهاز تسجيل",
+   "distribution",
+   "recorder"
+  ],
+  "Remote": [
+   "Remote control",
+   "جهاز تحكم عن بعد",
+   "control",
+   "controller"
+  ],
+  "RJ45 MODULE (JACK)": [
+   "RJ45 jack",
+   "مقبس RJ45",
+   "cabling",
+   "copper"
+  ],
+  "Room Alert & Monitoring System": [
+   "Room environment monitor",
+   "جهاز مراقبة بيئة الغرف",
+   "rooms",
+   "controller"
+  ],
+  "Room Booking/Scheduling": [
+   "Room booking panel",
+   "لوحة حجز الغرف",
+   "rooms",
+   "display"
+  ],
+  "Router": [
+   "Router",
+   "راوتر",
+   "networking",
+   "switch"
+  ],
+  "Satellite Accessory": [
+   "Satellite accessory",
+   "ملحق استقبال فضائي",
+   "iptv",
+   "ap"
+  ],
+  "Scalers": [
+   "Scaler",
+   "محول دقة الصورة",
+   "distribution",
+   "extender"
+  ],
+  "SD Card": [
+   "SD card",
+   "بطاقة SD",
+   "computing",
+   "recorder"
+  ],
+  "Sensors": [
+   "Sensor",
+   "حساس",
+   "control",
+   "controller"
+  ],
+  "Server": [
+   "Server",
+   "خادم",
+   "computing",
+   "recorder"
+  ],
+  "Service Support Contract": [
+   "Support contract",
+   "عقد دعم",
+   "support",
+   "controller"
+  ],
+  "Set-top box": [
+   "Set-top box",
+   "جهاز استقبال",
+   "iptv",
+   "display"
+  ],
+  "SFP": [
+   "SFP module",
+   "وحدة SFP",
+   "networking",
+   "fibre"
+  ],
+  "SINGLE MODE FIBER OPTIC CABLE": [
+   "Single-mode fibre cable",
+   "كابل ألياف أحادي النمط",
+   "cabling",
+   "fibre"
+  ],
+  "Slave Controller": [
+   "System expansion unit",
+   "وحدة توسعة النظام",
+   "fire",
+   "controller"
+  ],
+  "SNMP Card": [
+   "SNMP card",
+   "بطاقة SNMP",
+   "power",
+   "ups"
+  ],
+  "Software - license": [
+   "Software licence",
+   "ترخيص برمجيات",
+   "software",
+   "controller"
+  ],
+  "Sound Masking controller": [
+   "Sound masking controller",
+   "وحدة تحكم إخفاء الصوت",
+   "audio",
+   "dsp"
+  ],
+  "Sound Masking Emitters": [
+   "Sound masking emitter",
+   "باعث إخفاء الصوت",
+   "audio",
+   "speaker"
+  ],
+  "Speaker": [
+   "Speaker",
+   "سماعة",
+   "audio",
+   "speaker"
+  ],
+  "splice tray": [
+   "Splice tray",
+   "صينية لحام",
+   "cabling",
+   "fibre"
+  ],
+  "Splitter": [
+   "Splitter",
+   "مقسم إشارة",
+   "distribution",
+   "extender"
+  ],
+  "SSD Storage": [
+   "SSD",
+   "قرص SSD",
+   "computing",
+   "recorder"
+  ],
+  "Stacking cable": [
+   "Stacking cable",
+   "كابل تكديس",
+   "networking",
+   "switch"
+  ],
+  "Streaming Amplifier": [
+   "Streaming amplifier",
+   "مضخم بث",
+   "audio",
+   "amp"
+  ],
+  "Streaming Processor": [
+   "Streaming processor",
+   "معالج بث",
+   "distribution",
+   "avoverip"
+  ],
+  "Structure": [
+   "Structure",
+   "هيكل",
+   "other",
+   "rack"
+  ],
+  "Subscription": [
+   "Subscription",
+   "اشتراك",
+   "software",
+   "controller"
+  ],
+  "Subwoofer": [
+   "Subwoofer",
+   "سماعة ترددات منخفضة",
+   "audio",
+   "speaker"
+  ],
+  "SWITCH- Installation Accessories": [
+   "Switch installation accessory",
+   "ملحق تركيب سويتش",
+   "networking",
+   "switch"
+  ],
+  "TBA": [
+   "Other",
+   "أخرى",
+   "other",
+   "rack"
+  ],
+  "Touch Panel Controllers": [
+   "Touch panel",
+   "شاشة تحكم لمسية",
+   "control",
+   "controller"
+  ],
+  "UPS": [
+   "UPS",
+   "مزود طاقة غير منقطعة (UPS)",
+   "power",
+   "ups"
+  ],
+  "UTP CABLE": [
+   "UTP cable",
+   "كابل UTP",
+   "cabling",
+   "copper"
+  ],
+  "UTP Patch cord": [
+   "UTP patch cord",
+   "سلك توصيل UTP",
+   "cabling",
+   "copper"
+  ],
+  "UTP PATCHPANEL": [
+   "UTP patch panel",
+   "لوحة توصيل UTP",
+   "cabling",
+   "copper"
+  ],
+  "Video Conferencing System": [
+   "Video conferencing system",
+   "نظام مؤتمرات مرئية",
+   "conferencing",
+   "collab"
+  ],
+  "Video Management System (VMS)": [
+   "Video management software (VMS)",
+   "برنامج إدارة الفيديو (VMS)",
+   "surveillance",
+   "recorder"
+  ],
+  "Video Mixer": [
+   "Video mixer",
+   "خلاط فيديو",
+   "distribution",
+   "avoverip"
+  ],
+  "Video Wall": [
+   "Video wall",
+   "جدار فيديو",
+   "displays",
+   "display"
+  ],
+  "Video Wall Controller": [
+   "Video wall controller",
+   "وحدة تحكم جدار الفيديو",
+   "displays",
+   "controller"
+  ],
+  "Volume Controller": [
+   "Volume control",
+   "وحدة التحكم بالصوت",
+   "audio",
+   "dsp"
+  ],
+  "Wall Brackets for Displays": [
+   "Display wall bracket",
+   "حامل جداري للشاشات",
+   "mounts",
+   "rack"
+  ],
+  "Wall Plate / Extenders": [
+   "Wall plate extender",
+   "موسّع لوحة جدارية",
+   "distribution",
+   "extender"
+  ],
+  "WAP Controller": [
+   "Wireless controller",
+   "وحدة تحكم لاسلكية",
+   "networking",
+   "ap"
+  ],
+  "Warranty/Coverage": [
+   "Warranty",
+   "ضمان",
+   "support",
+   "controller"
+  ],
+  "Web Camera": [
+   "Webcam",
+   "كاميرا ويب",
+   "conferencing",
+   "camera"
+  ],
+  "Wireless Audio Systems": [
+   "Wireless audio system",
+   "نظام صوت لاسلكي",
+   "audio",
+   "mic"
+  ],
+  "Wireless Bridge Kit (P2P)": [
+   "Wireless bridge kit",
+   "طقم جسر لاسلكي",
+   "networking",
+   "ap"
+  ],
+  "Wireless content sharing": [
+   "Wireless presentation",
+   "عرض لاسلكي",
+   "conferencing",
+   "collab"
+  ],
+  "Workstation": [
+   "Workstation",
+   "محطة عمل",
+   "computing",
+   "display"
+  ],
+  "Zone Controller": [
+   "Zone controller",
+   "وحدة تحكم بالمناطق",
+   "audio",
+   "dsp"
+  ]
+ }
+}

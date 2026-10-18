@@ -1,0 +1,11 @@
+{
+ "sku": "02313URK",
+ "order": 3070,
+ "n": "10G SFP+ LR Optical Transceiver (Huawei)",
+ "b": "Huawei",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Huawei OSX010000 is a hot-pluggable 10 Gbps SFP+ optical transceiver designed for long-range 10 Gigabit Ethernet connectivity over single-mode fiber. It complies with the 10GBASE-LR standard, operates at a wavelength of 1310 nm, supports transmission distances up to 10 km, and features a duplex LC optical interface with Digital Diagnostic Monitoring (DDM).",
+ "specs": []
+}

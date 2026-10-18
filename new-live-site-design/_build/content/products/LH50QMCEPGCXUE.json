@@ -1,0 +1,42 @@
+{
+ "sku": "LH50QMCEPGCXUE",
+ "order": 95,
+ "n": "50 inch Crystal UHD Signage QMC",
+ "b": "Samsung",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "50\" Crystal UHD Signage QMC display",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "signage display"
+  },
+  {
+   "label": "Series",
+   "value": "QMC series"
+  }
+ ],
+ "acc": [
+  "Kiosk",
+  "LG-CMBB-65",
+  "LG-Emerald1",
+  "LG-VW04-IN",
+  "LGCM-65-5",
+  "LGWM-3265F-IN",
+  "LGWM-3265SW",
+  "LGWM-3265T",
+  "LGWM-3790F",
+  "LGWM-3790T",
+  "LGWM-4365R",
+  "LPAUB",
+  "PDRUB",
+  "PNRUB",
+  "RMF3",
+  "RMT3",
+  "TS318TU",
+  "TS525TU",
+  "VB-WMK-001-2C",
+  "WMK-077"
+ ]
+}

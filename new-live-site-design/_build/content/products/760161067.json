@@ -1,0 +1,16 @@
+{
+ "sku": "760161067",
+ "order": 3682,
+ "n": "LF80 faceplate-systimax",
+ "b": "CommScope",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LF80-262 Shut'd Faceplate Clip,1-port,Wh",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "1 port floor box"
+  }
+ ]
+}

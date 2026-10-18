@@ -1,0 +1,20 @@
+{
+ "sku": "DS-8632NI-I8",
+ "order": 3414,
+ "n": "32CH NVR-8 SATA",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 32CH Network Video Recorder,8 SATA - 8 HDD Support.",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR Pro Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

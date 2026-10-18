@@ -1,0 +1,16 @@
+{
+ "sku": "700512396",
+ "order": 4622,
+ "n": "IP Phone",
+ "b": "Avaya",
+ "c": "IP TELEPHONY",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "J189 IP PHONE",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "IP telephone server"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "OSP(X100)",
+ "order": 5055,
+ "n": "Service support contract",
+ "b": "HID",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Online support Pack for Controller Firmware and Communication Support",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "service"
+  }
+ ],
+ "for": [
+  "X1100C"
+ ]
+}

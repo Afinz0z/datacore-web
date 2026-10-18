@@ -1,0 +1,15 @@
+{
+ "sku": "FSF2-ODB",
+ "order": 3541,
+ "n": "CARD READER-SUPREMA-face+Finger",
+ "b": "Suprema",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Fusion Face+Fingerprint Recognition(Multimodal), Dual RFID(125kHz EM & 13.56Mhz MIFARE, MIFARE Plus, DESFire EV1/EV2, FeliCa, NFC, BLE)",
+ "specs": [],
+ "acc": [
+  "220V-24V-3Ah",
+  "Biotar2-TA-STD"
+ ]
+}

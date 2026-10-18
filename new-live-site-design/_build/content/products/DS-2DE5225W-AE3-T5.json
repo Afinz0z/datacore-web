@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2DE5225W-AE3-T5",
+ "order": 3268,
+ "n": "2 MP 25X Network Speed Dome - INDOOR",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "2 MP 25X Powered by DarkFighter Network Speed Dome - INDOOR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  }
+ ],
+ "acc": [
+  "DS-1672ZJ",
+  "SBP-156WMW"
+ ]
+}

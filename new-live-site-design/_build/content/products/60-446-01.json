@@ -1,0 +1,16 @@
+{
+ "sku": "60-446-01",
+ "order": 2111,
+ "n": "MDA 5V",
+ "b": "Extron",
+ "c": "Distribution Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "MDA 5V Five Output Composite Video Distribution Amplifier",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Video Distribution Amplifier"
+  }
+ ]
+}

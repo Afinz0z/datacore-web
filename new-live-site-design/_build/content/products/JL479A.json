@@ -1,0 +1,20 @@
+{
+ "sku": "JL479A",
+ "order": 3162,
+ "n": "HPE Aruba Networking 8320 Core/aggregation switch",
+ "b": "Aruba",
+ "c": "Fiber Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The HPE Aruba Networking CX 8320 Switch Series is a campus core and aggregation switch series solution offering a flexible and innovative approach to dealing with the demands of the mobile, cloud and IoT era",
+ "specs": [],
+ "acc": [
+  "H8XJ8E",
+  "J9151ER",
+  "J9283D",
+  "Q9Y59AAE",
+  "Q9Y79AAE",
+  "R3K04AAE",
+  "powercord"
+ ]
+}

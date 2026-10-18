@@ -1,0 +1,25 @@
+{
+ "sku": "DS-2CD2183G2-I",
+ "order": 3326,
+ "n": "8 MP AcuSense Vandal WDR Fixed Dome Network Camera-no mic",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 8 MP AcuSense Vandal WDR Fixed Dome Network Camera 2.8mm / 4.0mm lens",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ],
+ "acc": [
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-XS"
+ ]
+}

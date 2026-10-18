@@ -1,0 +1,13 @@
+{
+ "sku": "C9300-NW-A-24",
+ "order": 4981,
+ "n": "C9300 Network Advantage, 24-port license",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "sku": "S5735-S24PN4XE-V2",
+ "order": 2970,
+ "n": "24*10/100/1000/2.5GBASE-T ports(PoE+) Switch",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5735-S24PN4XE-V2 (24*10/100/1000/2.5GBASE-T ports(PoE+), 4*10GE SFP+ ports, 2*12GE stack ports, without power module)",
+ "specs": [],
+ "acc": [
+  "88134UGQ-6AU_36",
+  "98012400_88134UGQ-6AU_36",
+  "L-MLIC-S57S",
+  "OMXD30000",
+  "PAC600S56-EB"
+ ]
+}

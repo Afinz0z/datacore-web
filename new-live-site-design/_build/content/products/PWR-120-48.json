@@ -1,0 +1,19 @@
+{
+ "sku": "PWR-120-48",
+ "order": 3137,
+ "n": "48V, 120W Din-Rail Power Supply Planet",
+ "b": "PLANET",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "48V, 120W Din-Rail Power Supply (NDR-120-48, adjustable 48- 56V DC Output)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Din Rail"
+  }
+ ],
+ "for": [
+  "IGS-5225-4P2S"
+ ]
+}

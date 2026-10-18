@@ -1,0 +1,19 @@
+{
+ "sku": "IGS-4215-16P2T2S",
+ "order": 3042,
+ "n": "IP30 Industrial L2/L4 16-Port Managed Switch",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IP30 Industrial L2/L4 16-Port 10/100/1000T 802.3at PoE + 2-Port 10/100/1000T + 2-Port 100/1000X SFP Managed Switch (320 watts PoE budget, -40~75 degrees C, dual redundant power input on 48~54VDC terminal block, DIDO, SNMPv3, 802.1Q VLAN, IGMP Snooping, TLS, SSH, ACL, 250m Extend mode, supports ERPS Ring, CloudViewerPro app, MQTT and Cybersecurity feature)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  }
+ ],
+ "acc": [
+  "PWR-480-48"
+ ]
+}

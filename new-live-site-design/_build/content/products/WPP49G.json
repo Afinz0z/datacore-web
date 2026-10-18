@@ -1,0 +1,19 @@
+{
+ "sku": "WPP49G",
+ "order": 3501,
+ "n": "​WIN-PAK Software",
+ "b": "Honeywell",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ WIN-PAK Professional Edition - Software AC/Video/Intrusion-Galaxy ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ACS Software"
+  }
+ ],
+ "acc": [
+  "SSAWPP"
+ ]
+}

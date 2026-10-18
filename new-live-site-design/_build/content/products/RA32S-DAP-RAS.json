@@ -1,0 +1,21 @@
+{
+ "sku": "RA32S-DAP-RAS",
+ "order": 4729,
+ "n": "Room Alert 32S Foundation",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Room Alert 32S Foundation - with2 Sensors, PoE,PRO (1U)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Room Alert & Monitoring System Headend Unit"
+  }
+ ],
+ "acc": [
+  "RMA-DTH-SEN",
+  "RMA-F024-SEN",
+  "RMA-SS2-SEN"
+ ]
+}

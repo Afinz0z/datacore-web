@@ -1,0 +1,20 @@
+{
+ "sku": "UBR-WCX8",
+ "order": 2817,
+ "n": "Wall Bracket - UBR-WCX8",
+ "b": "Lynx Pro",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Wall bracket for the WCX-8",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mounted"
+  }
+ ],
+ "for": [
+  "HG75U800FAUXUE",
+  "WCX-8"
+ ]
+}

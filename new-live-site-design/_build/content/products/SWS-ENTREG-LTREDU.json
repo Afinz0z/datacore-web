@@ -1,0 +1,23 @@
+{
+ "sku": "SWS-ENTREG-LTREDU",
+ "order": 4894,
+ "n": "OnGuard Enterprise Regional Lite Redundant Server Software License",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "OnGuard Enterprise Regional Lite Redundant Server Software License - OnGuard Redundant Server software license includes; System Administration; Alarm Monitoring; Map Designer; License Server; Comm. Server; Replication Administration; Database Segmentation; Video Verify Support; E-mail Support; Guard Tour; Login Driver; Account Linkage; support for up to 64 card access readers; ID Credential Center Application; Badge DesignerApplication; Image Capture; ID Printing; License Server; Cardholder Image Export; Login Driver; Enhanced Imaging Option (Chromakey and Ghosting) and first year support plan for new systems. (does not bump existing SUSP), MUST BE USED IN CONJUNCTION WITH EQUAL LEVEL PRIMARY SERVER)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Reduntant license"
+  }
+ ],
+ "acc": [
+  "CS-DEV-ECMON",
+  "NEC-EC-R5-2CPU",
+  "NEC-EC-SUPV4-1Y- 2C",
+  "PES-NEC-LAN-WAN",
+  "PES-PRM-CFQ"
+ ]
+}

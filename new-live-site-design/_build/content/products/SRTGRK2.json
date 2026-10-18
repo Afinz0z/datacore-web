@@ -1,0 +1,19 @@
+{
+ "sku": "SRTGRK2",
+ "order": 4286,
+ "n": "APC Rail Kit",
+ "b": "APC",
+ "c": "Rail kit for ups",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ \"APC SMART-UPS RT 19\" Rail Kit For External Battery Pack 15/20kVA\" ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "battery rail kit"
+  }
+ ],
+ "for": [
+  "SRTG20KXLI"
+ ]
+}

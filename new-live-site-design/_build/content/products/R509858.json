@@ -1,0 +1,20 @@
+{
+ "sku": "R509858",
+ "order": 4092,
+ "n": "1 Mtr CAT 6A, S/FTP Patchcord",
+ "b": "R&M",
+ "c": "Copper Cabling Solution",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Patch Cord Cat.6A ISO, S/FTP, 4P, LSFRZH, gray, RJ45/s-RJ45/s, 1.0 m",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "CAT 6A, 1 Mtr, S/FTP Patch cord"
+  },
+  {
+   "label": "Series",
+   "value": "Shielded"
+  }
+ ]
+}

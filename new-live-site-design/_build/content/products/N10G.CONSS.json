@@ -1,0 +1,16 @@
+{
+ "sku": "N10G.CONSS",
+ "order": 3932,
+ "n": "Nexans Module",
+ "b": "Nexans",
+ "c": "RJ45 MODULE (JACK)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-10G Evo Snap-In Connector Category 6A 500MHz Screened",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6a"
+  }
+ ]
+}

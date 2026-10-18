@@ -1,0 +1,15 @@
+{
+ "sku": "CSM4532-100EUS",
+ "order": 3029,
+ "n": "M4500-32C Managed Switch",
+ "b": "Netgear",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "acc": [
+  "DRV-CSM4532-12",
+  "DRV-CSM4532-36",
+  "DRV-CSM4532-60"
+ ]
+}

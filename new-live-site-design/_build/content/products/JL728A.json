@@ -1,0 +1,21 @@
+{
+ "sku": "JL728A",
+ "order": 2917,
+ "n": "Aruba 6200F 48G Class4 PoE 4SFP+ 740W Switch",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ Aruba 6200F 48G Class4 PoE 4SFP+ 740W Switch ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "HL2M0E",
+  "HR0W9E",
+  "J9150D"
+ ]
+}

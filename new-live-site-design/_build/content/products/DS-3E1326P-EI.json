@@ -1,0 +1,20 @@
+{
+ "sku": "DS-3E1326P-EI",
+ "order": 2959,
+ "n": "24 Port Fast Ethernet Smart POE Switch high power - 370W",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 24 Port 10/100Mbps Fast Ethernet Smart POE Switch high power - 370W.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  },
+  {
+   "label": "Series",
+   "value": "L2 Series Switch"
+  }
+ ]
+}

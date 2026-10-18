@@ -1,0 +1,20 @@
+{
+ "sku": "60-632-02",
+ "order": 2727,
+ "n": "AAP 301",
+ "b": "Extron",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "AAP 301 Full Rack Width, 1U AAP Mounting Frame - Black",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Mounting Frame"
+  }
+ ],
+ "for": [
+  "60-1030-11",
+  "60-1785-02"
+ ]
+}

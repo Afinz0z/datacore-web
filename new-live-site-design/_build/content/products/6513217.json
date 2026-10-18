@@ -1,0 +1,15 @@
+{
+ "sku": "6513217",
+ "order": 1674,
+ "n": "IV-CAMA-REMOTE",
+ "b": "Crestron",
+ "c": "Remote",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "IV-CAMA-REMOTE Crestron 1 Beyond IR Camera Remote",
+ "specs": [],
+ "for": [
+  "6513204",
+  "6514446"
+ ]
+}

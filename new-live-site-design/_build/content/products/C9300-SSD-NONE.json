@@ -1,0 +1,13 @@
+{
+ "sku": "C9300-SSD-NONE",
+ "order": 3131,
+ "n": "No SSD Card Selected",
+ "b": "Cisco",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

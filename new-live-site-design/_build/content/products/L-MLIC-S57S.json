@@ -1,0 +1,15 @@
+{
+ "sku": "L-MLIC-S57S",
+ "order": 4874,
+ "n": "Basic SW for S5735",
+ "b": "Huawei",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S57XX-S Series Basic SW,Per Device",
+ "specs": [],
+ "for": [
+  "S5735-S24PN4XE-V2",
+  "S5735-S48PN4XE-V2"
+ ]
+}

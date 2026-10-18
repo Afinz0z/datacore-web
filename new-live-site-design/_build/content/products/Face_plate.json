@@ -1,0 +1,16 @@
+{
+ "sku": "Face plate",
+ "order": 3685,
+ "n": "Face plate 2 Jack 3M",
+ "b": "Corning",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FACEPLATE WHITE FOR 2 JACK",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dual port"
+  }
+ ]
+}

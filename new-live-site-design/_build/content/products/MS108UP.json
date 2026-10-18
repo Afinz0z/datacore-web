@@ -1,0 +1,16 @@
+{
+ "sku": "MS108UP",
+ "order": 3012,
+ "n": "8-port Multi-gigabit (2.5G) Ethernet Unmanaged Switch",
+ "b": "Netgear",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8PT POE++ MULTIGIG UM SWCH",
+ "specs": [],
+ "acc": [
+  "DRV-MS108UP-12",
+  "DRV-MS108UP-36",
+  "DRV-MS108UP-60"
+ ]
+}

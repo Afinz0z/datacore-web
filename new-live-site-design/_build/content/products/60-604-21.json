@@ -1,0 +1,16 @@
+{
+ "sku": "60-604-21",
+ "order": 2869,
+ "n": "RSB 123",
+ "b": "Extron",
+ "c": "Rack (AV)",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "RSB 123 1U 3.5\" Deep Basic Rack Shelf",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rack Shelf"
+  }
+ ]
+}

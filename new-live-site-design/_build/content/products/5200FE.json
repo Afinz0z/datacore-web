@@ -1,0 +1,20 @@
+{
+ "sku": "5200FE",
+ "order": 2544,
+ "n": "5200FE",
+ "b": "Belden",
+ "c": "CONTROL CABLE",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Audio Cable 2 Conductor 16 AWG Roll 305 Meters",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Speaker Cable"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "sku": "DSS8PRVB128",
+ "order": 3482,
+ "n": "DSS Professional V8 Base License - 128 Video Channels",
+ "b": "Dahua",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DSS8PRVB128 is a DSS Professional V8 software base license supporting up to 128 video channels. It provides centralized video management, device monitoring, event management, user administration, and intelligent surveillance integration for enterprise and multi-site security deployments.",
+ "specs": [],
+ "acc": [
+  "DSS8PRAML",
+  "DSS8PRAPML",
+  "DSS8PRRB",
+  "DSS8PRVML"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "sku": "Server Core X50r",
+ "order": 1659,
+ "n": "Server Core X50r",
+ "b": "QSC",
+ "c": "Control Processor",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Network I/O processor",
+ "specs": [],
+ "acc": [
+  "SLDAN-32-P"
+ ]
+}

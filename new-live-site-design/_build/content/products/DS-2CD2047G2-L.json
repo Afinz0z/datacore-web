@@ -1,0 +1,25 @@
+{
+ "sku": "DS-2CD2047G2-L",
+ "order": 3277,
+ "n": "4 MP ColorVu Fixed Bullet Network Camera- Lens 2.8mm/4.0mm",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISISION 4 MP ColorVu Fixed Bullet Network Camera- Lens 2.8mm/4.0mm",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  },
+  {
+   "label": "Series",
+   "value": "ColorVu"
+  }
+ ],
+ "acc": [
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-S"
+ ]
+}

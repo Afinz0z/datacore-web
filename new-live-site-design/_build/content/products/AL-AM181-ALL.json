@@ -1,0 +1,19 @@
+{
+ "sku": "AL-AM181-ALL",
+ "order": 3533,
+ "n": "Handheld mobile card reader",
+ "b": "LenelS2",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ALUTEL - 5.5 inch, Wireless 802.11b-g-n, Bluetooth, GPS, 5MP Camera, 4G, Android 10, Capable of reading iCLASS, Seos, Prox, Mifare/DESFire CSN, QR. Includes Wallcharger, 2 years warranty",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "mobile card reader"
+  }
+ ],
+ "for": [
+  "SWS-ENTREG-LT"
+ ]
+}

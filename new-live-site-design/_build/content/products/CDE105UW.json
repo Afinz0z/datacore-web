@@ -1,0 +1,33 @@
+{
+ "sku": "CDE105UW",
+ "order": 144,
+ "n": "Presentation Display-CDE105UW",
+ "b": "ViewSonic",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "105\", 5K, 21:9, Android 13, Landscape & Portrait mode, Daisy Chain 3x3, USB Type C (vController / Viewboard Cast / myViewBoard Display / Revel Digital), Stardard Intel OPS slot (Recommend VPC3 series to support 5K)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Non Interactive"
+  }
+ ],
+ "acc": [
+  "KITXWXSM1U",
+  "LGC-5586",
+  "LGC-98110",
+  "LGWM-3790F",
+  "MTMP1U",
+  "PNRUB",
+  "PSBUB",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "VB-WMK-004",
+  "WMK-077",
+  "XTM1U"
+ ]
+}

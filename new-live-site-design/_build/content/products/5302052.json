@@ -1,0 +1,19 @@
+{
+ "sku": "5302052",
+ "order": 5313,
+ "n": "IT Cable duct vertical, for VX IT Rittal",
+ "b": "Rittal",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IT Cable duct vertical, for VX IT",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "cable duct"
+  }
+ ],
+ "for": [
+  "5309116"
+ ]
+}

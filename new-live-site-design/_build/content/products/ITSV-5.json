@@ -1,0 +1,16 @@
+{
+ "sku": "ITSV-5",
+ "order": 4651,
+ "n": "master station",
+ "b": "Zenitel",
+ "c": "Intercom",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ITSV-5 HD IP Video Phone with 8\" Screen",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Video Intercom"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "sku": "907900",
+ "order": 4510,
+ "n": "NETSILON 7 AC",
+ "b": "Bodet",
+ "c": "Server",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "NETSILON 7 AC Time Server TCXO oscillator Accuracy: 1x10-9 Stability: 1x10-7 / day Holdover after 24h: 5ms Input Signal: GPS (antenna not included) NTP Ouput Signal: NTP 4 slots for option cards Configuration & supervision using a web interface Network: IPv4, IPv6, DHCP, 802.1Q, LDAP, RADIUS Security: HTTPS, SSH, SFTP, 802.1X, embedded firewall Alarm monitoring with Syslog, SNMP (v1/v2/v3), e-mail and dry contacts 1U rack mounting Power supply 100-240V AC",
+ "specs": [],
+ "acc": [
+  "907047",
+  "907052"
+ ]
+}

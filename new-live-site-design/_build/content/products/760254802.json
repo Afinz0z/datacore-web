@@ -1,0 +1,20 @@
+{
+ "sku": "760254802",
+ "order": 3995,
+ "n": "optic fibre cable",
+ "b": "CommScope",
+ "c": "SINGLE MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Indoor/outdoor Fiber Optic Cable, 4-fiber, office distribution, multimode, OS2, ULSZH, aqua. Provides Rodent Resistance. Black Jacket",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "4 core sm(foc)"
+  },
+  {
+   "label": "Unit",
+   "value": "Reel"
+  }
+ ]
+}

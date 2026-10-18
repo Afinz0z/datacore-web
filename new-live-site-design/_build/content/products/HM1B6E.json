@@ -1,0 +1,15 @@
+{
+ "sku": "HM1B6E",
+ "order": 4743,
+ "n": "HPE Aruba support / warranty service SKU",
+ "b": "Aruba",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba 3Y FC NBD Exch AP-575 SVC [for R4H17A]",
+ "specs": [],
+ "for": [
+  "JZ336A",
+  "R4H17A"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "PWR-960-48",
+ "order": 3141,
+ "n": "Din-Rail Power Supply planet",
+ "b": "PLANET",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "48V, 960W Din-Rail Power Supply (SDR-960-48, adjustable 48-56V DC Output, 180~264V AC input)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Din Rail"
+  }
+ ],
+ "for": [
+  "IGS-6325-24P4X"
+ ]
+}

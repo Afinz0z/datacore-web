@@ -1,0 +1,19 @@
+{
+ "sku": "FBWLCUC11-JXF005",
+ "order": 4072,
+ "n": "Single mode pigtail-systimax",
+ "b": "CommScope",
+ "c": "Fiber Pigtails",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "PIGTAIL,RISR,SBJ,TS,0.9MM,LC/UC,YL,FT005",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "single mode pigtail"
+  }
+ ],
+ "for": [
+  "760053280"
+ ]
+}

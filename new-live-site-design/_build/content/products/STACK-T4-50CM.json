@@ -1,0 +1,18 @@
+{
+ "sku": "STACK-T4-50CM",
+ "order": 3124,
+ "n": "50CM Type 4 Stacking Cable",
+ "b": "Cisco",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Stacking module"
+  }
+ ],
+ "for": [
+  "C9200L-48P-4X-E"
+ ]
+}

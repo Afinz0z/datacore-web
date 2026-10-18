@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2CD2763G1-IZS",
+ "order": 3317,
+ "n": "6MP Dome Network EXIR Camera- support MIC",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "6MP Dome Network EXIR Camera,, 2.8~12mm Motorized Vari-focal Lens - support MIC",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "DS-1473ZJ-155",
+  "DS-1473ZJ-155B"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "sku": "DS-2CD1123G0E-I",
+ "order": 3270,
+ "n": "2 MP IR Fixed Network Dome Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION IP 2 MP IR Fixed Network Dome Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor Dome"
+  }
+ ],
+ "acc": [
+  "DS-1271ZJ-110",
+  "DS-1272ZJ-110",
+  "DS-1273ZJ-135"
+ ]
+}

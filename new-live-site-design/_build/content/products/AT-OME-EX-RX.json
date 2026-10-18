@@ -1,0 +1,16 @@
+{
+ "sku": "AT-OME-EX-RX",
+ "order": 1690,
+ "n": "Receiver - AT-OME-EX-RX",
+ "b": "Atlona",
+ "c": "Extenders",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Omega 4K/UHD HDMI Over HDBaseT Receiver with USB, Control and PoE",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Receiver"
+  }
+ ]
+}

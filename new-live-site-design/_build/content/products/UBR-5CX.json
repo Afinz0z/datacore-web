@@ -1,0 +1,24 @@
+{
+ "sku": "UBR-5CX",
+ "order": 2816,
+ "n": "Wall Bracket - UBR-5CX",
+ "b": "Lynx Pro",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Wall bracket for the Ionic-5CXv",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Series",
+   "value": "Ionic"
+  }
+ ],
+ "for": [
+  "HG75U800FAUXUE",
+  "Ionic-5CXv"
+ ]
+}

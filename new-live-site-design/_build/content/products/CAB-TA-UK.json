@@ -1,0 +1,16 @@
+{
+ "sku": "CAB-TA-UK",
+ "order": 4244,
+ "n": "United Kingdom AC Type A Power Cable",
+ "b": "Cisco",
+ "c": "power cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9200L-24P-4X-E",
+  "C9200L-48P-4X-E",
+  "C9300-24P-A",
+  "C9300-48P-E"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "SRTRK2",
+ "order": 4288,
+ "n": "APC Smart-UPS SRT Rail Kit",
+ "b": "APC",
+ "c": "Rail kit for ups",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Rack mounting rail kit designed for installing APC Smart-UPS",
+ "specs": [],
+ "for": [
+  "SRT5KXLI",
+  "SRT6KXLI",
+  "SRT8KXLI"
+ ]
+}

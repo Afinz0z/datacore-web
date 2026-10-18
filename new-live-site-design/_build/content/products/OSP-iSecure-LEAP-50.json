@@ -1,0 +1,19 @@
+{
+ "sku": "OSP-iSecure-LEAP-50",
+ "order": 5058,
+ "n": "Service support contract",
+ "b": "HID",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Support Pack for Per Controller Licence (beyond 50 Controllers)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "service"
+  }
+ ],
+ "for": [
+  "X1100C"
+ ]
+}

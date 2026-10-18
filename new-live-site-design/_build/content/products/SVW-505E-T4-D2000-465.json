@@ -1,0 +1,14 @@
+{
+ "sku": "SVW-505E-T4-D2000-465",
+ "order": 4567,
+ "n": "Genetec Streamvault™ 505E Series tower workstation appliance",
+ "b": "Genetec",
+ "c": "Workstation",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Streamvault™ 505E Series is a high-performance workstation platform built to deliver smooth playback of high-resolution video streams and support multi-monitor environments using GPU-accelerated decoding",
+ "specs": [],
+ "for": [
+  "GSC-5.13"
+ ]
+}

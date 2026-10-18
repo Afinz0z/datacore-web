@@ -1,0 +1,19 @@
+{
+ "sku": "DS-2DE4225IW-DE",
+ "order": 3271,
+ "n": "2MP 25X IR Optical Zoom PTZ Dome Network Camera - OUTDOOR",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 2MP 25X IR Optical Zoom PTZ Dome Network Camera - 100 M IR - OUTDOOR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  }
+ ],
+ "acc": [
+  "DS-1602ZJ"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "sku": "CON-SNT-IEM3308P",
+ "order": 5045,
+ "n": "Service support contract",
+ "b": "Cisco",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SNTC-8X5XNBD Catalyst IE3300 Rugged 8 Port GE PoE+ Ex",
+ "specs": [],
+ "for": [
+  "IE3300"
+ ]
+}

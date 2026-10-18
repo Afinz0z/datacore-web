@@ -1,0 +1,16 @@
+{
+ "sku": "CPCSSZ2-03F010",
+ "order": 3833,
+ "n": "patchcord 3m systimax",
+ "b": "CommScope",
+ "c": "UTP Patch cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "360GS10E-L-DG-10FT",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "patchcord 3m"
+  }
+ ]
+}

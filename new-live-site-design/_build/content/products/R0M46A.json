@@ -1,0 +1,19 @@
+{
+ "sku": "R0M46A",
+ "order": 3061,
+ "n": "Direct Attach Copper Cable",
+ "b": "Aruba",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking 50G SFP56 to SFP56 0.65m Direct Attach Copper Cable",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "DAC cable for switch"
+  }
+ ],
+ "for": [
+  "JL662A"
+ ]
+}

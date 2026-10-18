@@ -1,0 +1,19 @@
+{
+ "sku": "7495000",
+ "order": 5304,
+ "n": "DK7495 CASTORS PACK OF 4",
+ "b": "Rittal",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Castors"
+  }
+ ],
+ "for": [
+  "5311116",
+  "5314116"
+ ]
+}

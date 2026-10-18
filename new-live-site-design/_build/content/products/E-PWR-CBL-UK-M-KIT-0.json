@@ -1,0 +1,15 @@
+{
+ "sku": "E-PWR-CBL-UK-M-KIT-0",
+ "order": 4161,
+ "n": "Master Clock UK Power Cable Kit",
+ "b": "Sapling",
+ "c": "Power Supply",
+ "dept": "AV",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "NTP-8R0-0100-1",
+  "NTP-8R0-0104-1",
+  "SBP-31S-254-0R"
+ ]
+}

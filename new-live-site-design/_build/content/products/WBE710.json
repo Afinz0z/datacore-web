@@ -1,0 +1,38 @@
+{
+ "sku": "WBE710",
+ "order": 3114,
+ "n": "AP WiFi 7 2.5G Tri-Band Indoor - Netgear",
+ "b": "Netgear",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "AP WiFi 7 2.5G Tri-Band POE Insight Manageable Indoor AP",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor campus access point"
+  }
+ ],
+ "acc": [
+  "DRV-WBE710-12",
+  "DRV-WBE710-36",
+  "DRV-WBE710-60",
+  "NPR100PK1-10000S",
+  "NPR100PK3-10000S",
+  "NPR100PK5-10000S",
+  "NPR10PK1-10000S",
+  "NPR10PK3-10000S",
+  "NPR10PK5-10000S",
+  "NPR1SNG1-10000S",
+  "NPR1SNG3-10000S",
+  "NPR1SNG5-10000S",
+  "NPR25PK1-10000S",
+  "NPR25PK3-10000S",
+  "NPR25PK5-10000S",
+  "NPR50PK1-10000S",
+  "NPR50PK5-10000S",
+  "NPR5PK1-10000S",
+  "NPR5PK3-10000S",
+  "NPR5PK5-10000S"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "sku": "C9300-DNA-A-24",
+ "order": 4813,
+ "n": "Software license for C9300 series access switch",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cisco DNA Advantage subscription license for Catalyst 9300 24-port access switch, enabling SD-Access, advanced automation, analytics, and security features",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

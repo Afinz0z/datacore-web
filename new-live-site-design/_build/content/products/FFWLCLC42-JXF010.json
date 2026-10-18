@@ -1,0 +1,19 @@
+{
+ "sku": "FFWLCLC42-JXF010",
+ "order": 3801,
+ "n": "single mode fiber patchcord - SYSTIMAX",
+ "b": "CommScope",
+ "c": "Fiber Patch Cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "JUMPER,LSZH,TS,1.6MM,DPLX,LC/LC,YL,FT010",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single mode patch cord"
+  }
+ ],
+ "for": [
+  "760053280"
+ ]
+}

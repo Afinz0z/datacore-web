@@ -73,6 +73,33 @@ for the architecture, the build and the deploy.
   the map is near the screen.
   The privacy pages describe both, so change them together.
 
+## Products
+
+- The catalogue comes from the inventory export (`Products-All-Categories-<date>.xlsx`). To refresh it:
+
+  ```bash
+  cd new-live-site-design/_build
+  python import_products.py path/to/Products-All-Categories-<date>.xlsx --skipped ../../../skipped.csv
+  python build_products.py
+  ```
+
+  Keep the skipped list outside the repository. It names every row left out and why.
+- Rows left out: inactive items, anything marked TBA (to be assigned), placeholder rows such as
+  `Custom-1`, `Rack` or `Structure`, and custom items with no brand or model.
+- Only public fields are imported. Prices, fees, distributors, lead times, Zoho IDs and the names of
+  the staff who created records never reach the site.
+- The export's free-text Specifications column is not published. Until a product's specs are checked
+  against the manufacturer's page, its card shows only the type, series and sale unit. Checked specs
+  are saved in the product file with `src` (the page) and `checked` (the date), and a re-import keeps them.
+- Categories map to filter groups, Arabic names and card icons in `_build/product_categories.json`.
+  A category missing from it shows under Other until it is added.
+- Bundles: `acc` lists a product's supporting products (mounts, licences, support contracts) and `for`
+  the main products it supports. The cards link both ways.
+- Photos are `assets1/images/products/<sku>.webp`, 600 × 600, with the SKU's punctuation turned into
+  `_` (`safe_name()` in `product_data.py`). Products with a photo are listed first.
+- The page itself carries the first 24 cards. The full catalogue is `assets1/data/products-data.js`,
+  stamped with a hash of its contents, so a new import is never served from a stale cache.
+
 ## Operational notes
 
 - **Cache-busting.** Shared assets (`dc-overlay.*`, `dc-pages.css`,

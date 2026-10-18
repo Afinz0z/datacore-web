@@ -1,0 +1,20 @@
+{
+ "sku": "ER-LGFS-5586-N23",
+ "order": 2784,
+ "n": "Equipement Rack-ER-LGFS-5586-N23",
+ "b": "Logic",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Logic Equipment Rack Accessory for LGFS-5586-N23",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Trolley Stand"
+  }
+ ],
+ "for": [
+  "55UH5N-E",
+  "HG75U800FAUXUE"
+ ]
+}

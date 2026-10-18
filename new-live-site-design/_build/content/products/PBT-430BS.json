@@ -1,0 +1,19 @@
+{
+ "sku": "PBT-430BS",
+ "order": 3611,
+ "n": "Exit Button",
+ "b": "GEM",
+ "c": "PUSH BUTTON",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "European-size Stainless Steel Faceplate, Mortise Mount, Momentary, DPDT (PRESS TO EXIT) Button",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Request To Exit"
+  }
+ ],
+ "for": [
+  "GEM-1200M"
+ ]
+}

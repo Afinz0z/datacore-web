@@ -1,0 +1,20 @@
+{
+ "sku": "BioTime",
+ "order": 4967,
+ "n": "ZKTeco BioTime License",
+ "b": "ZKTeco",
+ "c": "Software - license",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "BioTime License for 10 Devices",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Time Attendance"
+  },
+  {
+   "label": "Unit",
+   "value": "Lot"
+  }
+ ]
+}

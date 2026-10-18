@@ -1,0 +1,18 @@
+{
+ "sku": "E3SUPS10KHB",
+ "order": 4219,
+ "n": "UPS 3S 10 kVA",
+ "b": "APC",
+ "c": "UPS",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "High-efficiency 3-phase 10 kVA UPS S for internal batteries",
+ "specs": [],
+ "acc": [
+  "AP9547",
+  "E3SBT4",
+  "E3SBTH4",
+  "GVSBPSU10K20H",
+  "WSTRTUP-EZ-15"
+ ]
+}

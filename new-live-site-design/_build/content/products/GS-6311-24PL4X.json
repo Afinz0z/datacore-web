@@ -1,0 +1,14 @@
+{
+ "sku": "GS-6311-24PL4X",
+ "order": 3036,
+ "n": "24-Port Managed Ethernet Switch - Planet",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Layer 3 24-Port 10/100/1000T 802.3at PoE + 4-Port 10G SFP+ Managed Ethernet Switch (720 Watts PoE budget, hardware-based Layer 3 RIPv1/v2, OSPFv2 dynamic routing, ERPS Ring, PoE PD alive check and schedule management, supports PLANET NMS Controller MQTT)",
+ "specs": [],
+ "acc": [
+  "MTB-LR"
+ ]
+}

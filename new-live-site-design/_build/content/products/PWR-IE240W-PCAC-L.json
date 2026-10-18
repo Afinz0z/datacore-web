@@ -1,0 +1,14 @@
+{
+ "sku": "PWR-IE240W-PCAC-L",
+ "order": 4121,
+ "n": "Cisco 240W AC/DC Power Supply",
+ "b": "Cisco",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "240W AC Power Supply (Lite)",
+ "specs": [],
+ "for": [
+  "IE-3100-8P2C-E"
+ ]
+}

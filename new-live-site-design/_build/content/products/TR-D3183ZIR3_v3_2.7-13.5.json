@@ -1,0 +1,16 @@
+{
+ "sku": "TR-D3183ZIR3 v3 2.7-13.5",
+ "order": 3365,
+ "n": "Trassir 8MP DOME Outdoor",
+ "b": "TRASSIR",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Outdoor 8Mp IP-camera with IR. 1/2.7\" CMOS sensor,8MP resolution (3840x2160) @15fps, 5MP(2592x1944)@25fps; sensitivity: 0.003 Lux (F1.3), Day/Night(mechanical ICR), 2.7-13.5 mm lens (motor-zoom); H.264,H.264+, H.265, H.265+ codec, real WDR (120dB), 3DDNR,BLC, Defog; built-in microphone, audio in+out, alarm 1/1, Edge Storage (MicroSD up to 128 Gb); PoE (802.2af) or 12V DC; -40°C … +60°C, IP67, IK10, TVS 4000V, IR upto 30m.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

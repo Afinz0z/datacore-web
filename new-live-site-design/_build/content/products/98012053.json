@@ -1,0 +1,19 @@
+{
+ "sku": "98012053",
+ "order": 2979,
+ "n": "Huawei 48 Gigabit Ethernet ports",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5735-S48P4XE-V2 (48*10/100/1000BASE-T ports, 4*10GE SFP+ ports, 2*12GE stack ports, PoE+, without power module)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "02314APU-001"
+ ]
+}

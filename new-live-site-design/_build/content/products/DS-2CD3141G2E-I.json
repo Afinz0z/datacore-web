@@ -1,0 +1,16 @@
+{
+ "sku": "DS-2CD3141G2E-I",
+ "order": 3352,
+ "n": "Dome-4MP-HIKVISION",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "4MP Fixed Mini Dome Network Camera, High quality imaging with 4 MP resolution Support Human Detection, Water and dust resistant (IP67) and vandal resistant (IK08) Clear imaging even with strong back lighting due to 120 dB WDR, Efficient H.265+ compression technology EXIR 2.0: advanced infrared technology with long IR range, Support Human and Vehicle Detection",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

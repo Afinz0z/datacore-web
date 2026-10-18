@@ -1,0 +1,14 @@
+{
+ "sku": "02311VGN",
+ "order": 3154,
+ "n": "1.5m SFP+ Stack Cable (Huawei)",
+ "b": "Huawei",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Huawei SFP+STACK-CU1M5 is a 1.5 m passive high-speed dedicated stacking cable designed to interconnect compatible Huawei switches through SFP+ stack ports, enabling switch stacking with low latency and high reliability.​",
+ "specs": [],
+ "for": [
+  "S5735-L48P4XE-A-V2"
+ ]
+}

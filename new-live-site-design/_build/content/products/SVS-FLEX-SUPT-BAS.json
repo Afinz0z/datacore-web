@@ -1,0 +1,14 @@
+{
+ "sku": "SVS-FLEX-SUPT-BAS",
+ "order": 4776,
+ "n": "Basic Support for Flex Plan",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Basic Support for Cisco Collaboration Flex Plan.",
+ "specs": [],
+ "for": [
+  "BE6K-M6-K9"
+ ]
+}

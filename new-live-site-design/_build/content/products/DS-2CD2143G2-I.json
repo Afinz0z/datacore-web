@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2CD2143G2-I",
+ "order": 3291,
+ "n": "4MP Dome Camera-Hikvision",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4MP Indoor/Outdoor Dome Network Camera Lens Size: 2.8mm",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ]
+}

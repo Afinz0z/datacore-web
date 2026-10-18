@@ -1,0 +1,19 @@
+{
+ "sku": "RKS-03",
+ "order": 4531,
+ "n": "Synology Sliding rack rail for rack mount server",
+ "b": "Synology",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Synology | Sliding rack rails for Synology rackmount servers",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Sliding Rack Rail Kit"
+  }
+ ],
+ "for": [
+  "HD6500"
+ ]
+}

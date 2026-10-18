@@ -1,0 +1,24 @@
+{
+ "sku": "8205NH",
+ "order": 3872,
+ "n": "2 Core, LSZH, Unshielded",
+ "b": "Belden",
+ "c": "CONTROL CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "20-1P STR TNC LSZH JKT CMG 300V 80C CHR (500Mtr/Roll)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "LSZH, Unshielded"
+  },
+  {
+   "label": "Series",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

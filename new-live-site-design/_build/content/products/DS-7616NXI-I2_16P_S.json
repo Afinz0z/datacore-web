@@ -1,0 +1,20 @@
+{
+ "sku": "DS-7616NXI-I2/16P/S",
+ "order": 3396,
+ "n": "16CH Acusense NVR,16 Port POE I Series",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 16ch Acusense NVR,16 Port POE up to 12MP resolution",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR I Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

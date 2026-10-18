@@ -1,0 +1,24 @@
+{
+ "sku": "DS-2CD2T83G2-2I",
+ "order": 3329,
+ "n": "8 MP Fixed Bullet Network Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8 MP AcuSense Fixed Bullet Network Camera - 2.8mm / 4.0mm lens 60M IR .",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ],
+ "acc": [
+  "DS-1260ZJ",
+  "DS-1276ZJ-SUS"
+ ]
+}

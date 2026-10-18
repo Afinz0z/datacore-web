@@ -1,0 +1,14 @@
+{
+ "sku": "GSC-BASE-E",
+ "order": 3489,
+ "n": "Genetec Security Center (GSC) Base Enterprise Package",
+ "b": "Genetec",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Genetec Security Center (GSC) Base Enterprise Package. Includes Synergis Enterprise Package with Access Manage support, Remote Security Desk, Badge Designer.",
+ "specs": [],
+ "for": [
+  "GSC-5.13"
+ ]
+}

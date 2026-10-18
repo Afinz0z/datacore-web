@@ -1,0 +1,14 @@
+{
+ "sku": "SUSP-W-ENT-REG-LTR1",
+ "order": 5094,
+ "n": "Covers Regional Lite Servers Lenel",
+ "b": "LenelS2",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Covers Regional Lite Servers (supports up to 64 readers). Redundant covers both Servers",
+ "specs": [],
+ "for": [
+  "SWS-ENTREG-LT"
+ ]
+}

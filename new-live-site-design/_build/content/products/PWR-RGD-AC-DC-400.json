@@ -1,0 +1,14 @@
+{
+ "sku": "PWR-RGD-AC-DC-400",
+ "order": 4117,
+ "n": "400W, ruggedized, modular power supply module",
+ "b": "Cisco",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Higher PoE, 400W PSU for IE9300, 100-240VAC/100-250VDC",
+ "specs": [],
+ "for": [
+  "IE-9320-24P4X-E"
+ ]
+}

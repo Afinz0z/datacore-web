@@ -1,0 +1,23 @@
+{
+ "sku": "NDE-3702-AL",
+ "order": 3226,
+ "n": "Dome Camera-2MP Outdoor-Bosch",
+ "b": "Bosch",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​Fixed dome 2MP 3.3-10.2mm IP66 IK10 IR Fixed dome camera for outdoor 30 fps surveillance; 2MP resolution; IVA Pro Buildings; 3.3-10.2 mm lens; IP66; IK10; IR; NDAA compliant​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "NDA-3083 LWMT",
+  "NDA-3083-LWMT",
+  "NDA-3083-PIP",
+  "NDA-3083-PLEN",
+  "NDA-U-PMT"
+ ]
+}

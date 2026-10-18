@@ -1,0 +1,14 @@
+{
+ "sku": "2315204",
+ "order": 3072,
+ "n": "1G SFP SX Optical Transceiver (Huawei)",
+ "b": "Huawei",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Huawei 2315204 is a Gigabit Ethernet eSFP optical transceiver designed for short-distance multimode fiber communication. Operating at 850 nm with duplex LC connectors, it supports transmission distances up to 550 m on multimode fiber. The hot-swappable module is ideal for enterprise campus networks, aggregation switches, and data center applications.",
+ "specs": [],
+ "for": [
+  "02353UYT-002"
+ ]
+}

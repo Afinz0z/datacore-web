@@ -1,0 +1,14 @@
+{
+ "sku": "LNL-300XA",
+ "order": 4019,
+ "n": "LenelS2 (PSU + Enclosure)",
+ "b": "LenelS2",
+ "c": "Enclosure",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LenelS2 XA -13.8 VDC 4 A Switched Mode Power Supply (=LNL-XA-PSU12V4-4A), with LNL-300XA-ENC enclosure (437 x 245 x 110 mm) to mount any PCB on a meshed backplate, including cable saddle, key and screw locked, front and pryoff tamper - CE marked",
+ "specs": [],
+ "for": [
+  "LNL-M2220"
+ ]
+}

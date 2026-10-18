@@ -1,0 +1,16 @@
+{
+ "sku": "PRA-SCL",
+ "order": 1208,
+ "n": "System controller-PRA-SCL",
+ "b": "Bosch",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch PRA-SCL System controller, large, IP-networked system controller designed for large-scale public address and voice alarm.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "System controller"
+  }
+ ]
+}

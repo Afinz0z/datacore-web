@@ -1,0 +1,19 @@
+{
+ "sku": "C864201",
+ "order": 3518,
+ "n": "Bio enrollment reader",
+ "b": "Gallagher",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SAGEM BIO ENROLLMENT READER MSO330",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fingerprint scanner"
+  }
+ ],
+ "for": [
+  "C400100"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "DAN-EDGE-12V-4A",
+ "order": 4170,
+ "n": "12V 4A DC PSU",
+ "b": "Tyco",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Wall mount power centre for iSTAR Edge PCB or (RM-4E Enhanced Relay Module) and two RM4 or two I/O boards or the combination of the two. Power Supply for controller PCB, locks and readers. accommodation for a 7Ah VRLA standby battery and includes mountings for.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "12v 4a dc psu"
+  }
+ ],
+ "for": [
+  "GSTAR004-MB"
+ ]
+}

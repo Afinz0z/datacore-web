@@ -1,0 +1,14 @@
+{
+ "sku": "GSC-IIOT",
+ "order": 3492,
+ "n": "Industrial IoT plugin",
+ "b": "Genetec",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1 Industrial IoT plugin. Allows connection to one of the following protocols: BACnet, Modbus, OPC Client, HTTP Server, MQTT Client, SNMP, TCP Server. 1 additional GSC-IIoT part is required per additional protocol used at a time. Unlimited data point connections and IoT support (BACnet, Modbus, OPC Client, HTTP Server, MQTT Client, SNMP, TCP Server).",
+ "specs": [],
+ "for": [
+  "GSC-5.13"
+ ]
+}

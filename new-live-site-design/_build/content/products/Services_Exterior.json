@@ -1,0 +1,16 @@
+{
+ "sku": "Services · Exterior",
+ "order": 5218,
+ "n": "Services · Exterior",
+ "b": "SACO",
+ "c": "Service Support Contract",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Engineering & Shop Drawings, Project Management, Installation Supervision, Commissioning & Pixel Mapping",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Lot"
+  }
+ ]
+}

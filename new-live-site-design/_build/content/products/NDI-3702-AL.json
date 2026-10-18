@@ -1,0 +1,19 @@
+{
+ "sku": "NDI-3702-AL",
+ "order": 3220,
+ "n": "2MP Dome Camera-Bosch",
+ "b": "Bosch",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Fixed dome 2MP 3.3-10.2mm IR Fixed dome camera for indoor 30 fps surveillance; 2MP resolution; IVA Pro Buildings; 3.3-10.2 mm lens; IR; NDAA compliant",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "NDA-3083 LWMT"
+ ]
+}

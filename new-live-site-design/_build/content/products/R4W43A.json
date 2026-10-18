@@ -1,0 +1,19 @@
+{
+ "sku": "R4W43A",
+ "order": 3091,
+ "n": "Aruba 560 Series Outdoor Access Point, WP, Wi-Fi 6, Outdoor rated",
+ "b": "Aruba",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba AP-565 (RW) Outdoor 11ax AP",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Outdoor accesspoint"
+  }
+ ],
+ "acc": [
+  "HU4S7E"
+ ]
+}

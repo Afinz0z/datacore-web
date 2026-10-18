@@ -1,0 +1,15 @@
+{
+ "sku": "DSS8PRAPML",
+ "order": 4830,
+ "n": "DSS Professional V8 Alarm Plus Module License",
+ "b": "Dahua",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DSS8PRAPML is an Alarm Plus Module license for DSS Professional V8. It extends the DSS platform with advanced alarm management capabilities, enabling centralized monitoring, alarm linkage, event handling, notifications, and integration with supported Dahua security devices for enterprise security operations.",
+ "specs": [],
+ "for": [
+  "DHI-IVSS7124DR",
+  "DSS8PRVB128"
+ ]
+}

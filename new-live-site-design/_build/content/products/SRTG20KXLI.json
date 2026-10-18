@@ -1,0 +1,21 @@
+{
+ "sku": "SRTG20KXLI",
+ "order": 4218,
+ "n": "UPS",
+ "b": "APC",
+ "c": "UPS",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ APC Smart-UPS RT 20kVA 230V International ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "UPS Unit"
+  }
+ ],
+ "acc": [
+  "SRTG192XLBP2",
+  "SRTGRK1",
+  "SRTGRK2"
+ ]
+}

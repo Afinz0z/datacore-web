@@ -1,0 +1,14 @@
+{
+ "sku": "D-DNAS-EXT-S-3Y",
+ "order": 4995,
+ "n": "software subscription extension (renewal) -CISCO 9300 Series switch",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cisco DNA Software Standard (Essentials) subscription extension for Catalyst access switches, 3-year term.",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

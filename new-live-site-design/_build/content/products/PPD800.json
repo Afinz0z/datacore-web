@@ -1,0 +1,19 @@
+{
+ "sku": "PPD800",
+ "order": 3537,
+ "n": "Salto Portable Programming Device (PPD)",
+ "b": "Salto",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Portable Programming Device (PPD)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Programming Device"
+  }
+ ],
+ "for": [
+  "WRDM0E4B"
+ ]
+}

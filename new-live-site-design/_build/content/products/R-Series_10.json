@@ -1,0 +1,11 @@
+{
+ "sku": "R-Series 10",
+ "order": 4507,
+ "n": "R-Series 10",
+ "b": "7thSense",
+ "c": "Server",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "High-Performance Media Server. Configured with dual NVIDIA RTX A6000 GPUs (NVLink), 128 GB DDR4 RAM, 2 × 3.6 TB NVMe SSD (PCIe 4.0), and 8x DisplayPort 1.4 outputs. Windows 10 Enterprise LTSC 21H2.",
+ "specs": []
+}

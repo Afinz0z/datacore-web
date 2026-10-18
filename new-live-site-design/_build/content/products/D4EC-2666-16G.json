@@ -1,0 +1,16 @@
+{
+ "sku": "D4EC-2666-16G",
+ "order": 4605,
+ "n": "16 GB RAM DDR4 ECC UDIMM",
+ "b": "Synology",
+ "c": "RAM",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "16 GB RAM DDR4ECC UDIMM",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "16gb ram"
+  }
+ ]
+}

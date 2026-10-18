@@ -1,0 +1,19 @@
+{
+ "sku": "02312FFU-002",
+ "order": 4153,
+ "n": "600 w AC Power Module",
+ "b": "Huawei",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "600W AC Power Module(Back to Front, Power panel side exhaust)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power supply module"
+  }
+ ],
+ "for": [
+  "98011805-001"
+ ]
+}

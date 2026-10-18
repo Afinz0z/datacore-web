@@ -1,0 +1,11 @@
+{
+ "sku": "I/O-USB Bridge",
+ "order": 660,
+ "n": "I/O-USB Bridge",
+ "b": "QSC",
+ "c": "AV Bridge",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Q-SYS AV Bridging Endpoint",
+ "specs": []
+}

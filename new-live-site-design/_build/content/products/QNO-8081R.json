@@ -1,0 +1,16 @@
+{
+ "sku": "QNO-8081R",
+ "order": 3255,
+ "n": "5M H.265 IR Bullet Camera",
+ "b": "Hanwha Vision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "5M H.265 IR Bullet Camera, Max. 5Megapixel (2592 x 1944) resolution, 3.2~10mm(3.1x) motorized varifocal lens, 0.15Lux (Color), 0Lux (B/W, IR LED on), H.265, H.264, MJPEG codec support, Multiple streaming",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ]
+}

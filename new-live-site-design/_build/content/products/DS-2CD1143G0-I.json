@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2CD1143G0-I",
+ "order": 3293,
+ "n": "4MP Indoor/Outdoor Dome Network Camera - 2.8mm Lens",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4MP Indoor/Outdoor Dome Network Camera, Fixed 4.0mm - 2.8mm Lens",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "DS-1272ZJ-110",
+  "DS-1272ZJ-110B"
+ ]
+}

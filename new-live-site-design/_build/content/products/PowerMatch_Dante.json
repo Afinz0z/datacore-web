@@ -1,0 +1,15 @@
+{
+ "sku": "PowerMatch Dante",
+ "order": 1400,
+ "n": "PowerMatch Dante network card",
+ "b": "Bose",
+ "c": "Audio Card",
+ "dept": "AV",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dante Card"
+  }
+ ]
+}

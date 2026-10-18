@@ -1,0 +1,18 @@
+{
+ "sku": "ILR-U64",
+ "order": 4965,
+ "n": "Redundancy License 64 Users",
+ "b": "Zenitel",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Expansion license"
+  }
+ ],
+ "for": [
+  "ICX-510-IA"
+ ]
+}

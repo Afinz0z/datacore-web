@@ -1,0 +1,28 @@
+{
+ "sku": "760012161",
+ "order": 4027,
+ "n": "12 Fiber OM4 FOC (Commscope)",
+ "b": "CommScope",
+ "c": "MULTI MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Fiber indoor cable, LazrSPEED® Low Smoke Zero Halogen Riser Distribution, 12 fiber single-unit, Multimode OM4, Feet jacket marking, Aqua jacket color, Dca flame rating",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Om4"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ],
+ "acc": [
+  "657054-000",
+  "760039867",
+  "760109462",
+  "760109470",
+  "760193771",
+  "FFXLCLC42-MXF010"
+ ]
+}

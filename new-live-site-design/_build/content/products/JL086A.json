@@ -1,0 +1,14 @@
+{
+ "sku": "JL086A",
+ "order": 4113,
+ "n": "Power supply for switch- ARUBA",
+ "b": "Aruba",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking X372 54VDC 680W 100-240VAC Power Supply",
+ "specs": [],
+ "for": [
+  "R8Q68A"
+ ]
+}

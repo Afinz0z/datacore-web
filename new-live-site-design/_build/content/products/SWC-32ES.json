@@ -1,0 +1,19 @@
+{
+ "sku": "SWC-32ES",
+ "order": 4886,
+ "n": "Client Software License for the LenelS2 OnGuard 32ES system",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "OnGuard 32ES Client Software License",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Client software license"
+  }
+ ],
+ "for": [
+  "SWS-32ES"
+ ]
+}

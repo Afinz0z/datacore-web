@@ -1,0 +1,20 @@
+{
+ "sku": "GS-4210-24P4C",
+ "order": 3035,
+ "n": "24-Port Managed 802.3at PoE+ Gigabit Ethernet Switc",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IPv6/IPv4, 24-Port Managed 802.3at PoE+ Gigabit Ethernet Switch + 4-Port Gigabit Combo TP/SFP (220W PoE Budget, 250m Extend mode, supports ERPS Ring, CloudViewer app, MQTT and cybersecurity features)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "IGTP-805AT",
+  "MGB-LX"
+ ]
+}

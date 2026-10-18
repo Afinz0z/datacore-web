@@ -1,0 +1,15 @@
+{
+ "sku": "AIR-DNA-NWSTACK-E",
+ "order": 4786,
+ "n": "Cisco DNA Essentials Network Stack license for wireless access points.",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ Wireless DNA Perpetual Network Stack - Essentials ​",
+ "specs": [],
+ "for": [
+  "CW9163E-ROW",
+  "CW9164I-ROW"
+ ]
+}

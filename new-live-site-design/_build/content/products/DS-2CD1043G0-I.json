@@ -1,0 +1,21 @@
+{
+ "sku": "DS-2CD1043G0-I",
+ "order": 3296,
+ "n": "4MP Mini Bullet Network Camera, Fixed 2.8mm Lens",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4MP Mini Bullet Network Camera, Fixed 2.8mm Lens",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ],
+ "acc": [
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-XS"
+ ]
+}

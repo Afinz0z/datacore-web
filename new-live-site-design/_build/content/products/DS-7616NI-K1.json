@@ -1,0 +1,20 @@
+{
+ "sku": "DS-7616NI-K1",
+ "order": 3402,
+ "n": "16CH NVR- without built-in Poe",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 16CH Network Video Recorder - 160Mbps Bit Rate Input Max (up to 16-ch IP video), 1 SATA interfaces",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR K series"
+  }
+ ],
+ "acc": [
+  "DC HC320",
+  "WD8002PURP"
+ ]
+}

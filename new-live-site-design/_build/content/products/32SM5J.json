@@ -1,0 +1,33 @@
+{
+ "sku": "32SM5J",
+ "order": 28,
+ "n": "32inch UHD Signage Display",
+ "b": "LG",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "32” UHD Signage Display or equivalent",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "signage display"
+  }
+ ],
+ "acc": [
+  "LGWM-3265F-IN",
+  "LGWM-3265SW",
+  "LGWM-3265T",
+  "LGWM-3790T",
+  "MCB1U",
+  "MTMP1U",
+  "PNRUB",
+  "PSBUB",
+  "RMF3",
+  "RMT3",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "WMK-077",
+  "XSM1U"
+ ]
+}

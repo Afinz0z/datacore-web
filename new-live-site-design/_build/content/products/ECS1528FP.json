@@ -1,0 +1,16 @@
+{
+ "sku": "ECS1528FP",
+ "order": 2955,
+ "n": "Cloud Switch L2Plus 24 Full PoE",
+ "b": "EnGenius",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "EnGenius Cloud Managed Layer 2+ Switch with 24 Gigabit PoE+ ports, 4x 10G SFP+ uplink ports, and a 410W budget",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cloud Managed"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "R1-FP-X-X-2PW",
+ "order": 3699,
+ "n": "Double Port Faceplate-White",
+ "b": "Ramcro",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Double Port 86 x 86 Faceplate-White",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dual faceplate"
+  }
+ ],
+ "for": [
+  "R1-BPL19-1U"
+ ]
+}

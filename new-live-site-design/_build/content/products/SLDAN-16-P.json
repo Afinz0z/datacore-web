@@ -1,0 +1,19 @@
+{
+ "sku": "SLDAN-16-P",
+ "order": 4931,
+ "n": "Dante License -SLDAN-16-P",
+ "b": "QSC",
+ "c": "Software - license",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Q-SYS Software-based Dante 16x16 Channel License",
+ "specs": [],
+ "for": [
+  "CORE 110f",
+  "Core 110f v2",
+  "Core 24f",
+  "Core 8 Flex",
+  "Server Core X10",
+  "Server Core X20r"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "4000700",
+ "order": 4049,
+ "n": "2U Cable Managment with Cover",
+ "b": "Datwyler",
+ "c": "CABLE ORGANIZER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "2U Cable Managment 19\" with Cover",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "2u"
+  }
+ ],
+ "for": [
+  "4001171"
+ ]
+}

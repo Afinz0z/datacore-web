@@ -1,0 +1,19 @@
+{
+ "sku": "5502225",
+ "order": 5297,
+ "n": "Cable management panel, 1 U- Rittal",
+ "b": "Rittal",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CDK Cable management panel, 1 U, with cable routing bars",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cable management panel"
+  }
+ ],
+ "for": [
+  "7888618"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "sku": "DS-7732NXI-K4",
+ "order": 3413,
+ "n": "32CH NVR- 4 HDD Support -AcuSense",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION (4K & H.265) 32CH Network Video Recorder - 4 HDD Support -AcuSense",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR K4 Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP",
+  "[303801152]Seagate Exos 8TB"
+ ]
+}

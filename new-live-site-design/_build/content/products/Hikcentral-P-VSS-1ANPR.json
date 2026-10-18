@@ -1,0 +1,16 @@
+{
+ "sku": "Hikcentral-P-VSS-1ANPR",
+ "order": 4852,
+ "n": "ANPR Camera License",
+ "b": "Hikvision",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Hikcentral-P-VSS-1ANPR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ANPR Camera License"
+  }
+ ]
+}

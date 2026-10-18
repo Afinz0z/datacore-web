@@ -1,0 +1,15 @@
+{
+ "sku": "JW127A",
+ "order": 4234,
+ "n": "AC Power Cord",
+ "b": "Aruba",
+ "c": "power cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking PC-AC-UK 250V/10A 1.8m C13 to BS1363 (UK) AC Power Cord",
+ "specs": [],
+ "for": [
+  "JW735A",
+  "Q9H62A"
+ ]
+}

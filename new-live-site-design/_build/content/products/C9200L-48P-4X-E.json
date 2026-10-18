@@ -1,0 +1,32 @@
+{
+ "sku": "C9200L-48P-4X-E",
+ "order": 2928,
+ "n": "Catalyst 9200L 48-port PoE+, 4 x 10G, Access switch",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Catalyst 9200L 48-port PoE+, 4 x 10G, Network Essentials",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "C9200-STACK",
+  "C9200L-DNA-E-48",
+  "C9200L-DNA-E-48-3Y",
+  "C9200L-NW-E-48",
+  "C9200L-STACK-KIT",
+  "C9K-ACC-RBFT",
+  "C9K-ACC-SCR-4",
+  "CAB-GUIDE-1RU",
+  "CAB-TA-UK",
+  "CON-SNT-C9200L4X",
+  "NETWORK-PNP-LIC",
+  "PWR-C5-1KWAC/2",
+  "STACK-T4-3M=",
+  "STACK-T4-50CM"
+ ]
+}

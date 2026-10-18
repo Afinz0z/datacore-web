@@ -1,0 +1,15 @@
+{
+ "sku": "C9K-ACC-SCR-4",
+ "order": 3121,
+ "n": "12-24 and 10-32 SCREWS FOR RACK INSTALLATION, QTY 4",
+ "b": "Cisco",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9200L-24P-4X-E",
+  "C9200L-48P-4X-E",
+  "C9300-24P-A"
+ ]
+}

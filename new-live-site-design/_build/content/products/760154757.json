@@ -1,0 +1,20 @@
+{
+ "sku": "760154757",
+ "order": 3991,
+ "n": "6-core Fiber Optic Cable",
+ "b": "CommScope",
+ "c": "SINGLE MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Fiber indoor/outdoor cable, TeraSPEED®, Single Jacket AllDielectric, Low Smoke Zero Halogen (LSZH),6 fiber, Singlemode",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "6 core FOC"
+  },
+  {
+   "label": "Unit",
+   "value": "Feet"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "sku": "M-GPS-MTG-KIT-1",
+ "order": 2840,
+ "n": "GPS Mounting Kit",
+ "b": "Sapling",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Sapling GPS Mounting Kit",
+ "specs": [],
+ "for": [
+  "NTP-8R0-0100-1",
+  "NTP-8R0-0104-1",
+  "SBP-31S-254-0R",
+  "SBP-32S-256-0R"
+ ]
+}

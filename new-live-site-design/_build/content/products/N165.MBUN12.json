@@ -1,0 +1,16 @@
+{
+ "sku": "N165.MBUN12",
+ "order": 4040,
+ "n": "Nexans 12x Multimode 50/125 OM3",
+ "b": "Nexans",
+ "c": "MULTI MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Micro-Bundle Universal 12x Multimode 50/125 OM3 LSZH Black",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "OM3 cable"
+  }
+ ]
+}

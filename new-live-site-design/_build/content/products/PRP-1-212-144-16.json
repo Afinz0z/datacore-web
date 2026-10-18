@@ -1,0 +1,16 @@
+{
+ "sku": "PRP-1-212-144-16",
+ "order": 3379,
+ "n": "128 CH NVR",
+ "b": "Hanwha Vision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "128-2U 12 bay, (1) Intel Xeon Silver Scalable Processor, 12Core, 2x480GB SSD on RAID 1 for OS, 32GB RAM, (9)x16TB HDD (2)1GbE, (4) 10Gb BASE T, PERC H755 8GB NV Cache RAID Controller, iDRAC Enterprise 16G, (2) 800W PSU, Windows Server 2022 IoT, 5Yrs Warranty with KYHD ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "128 ch nvr"
+  }
+ ]
+}

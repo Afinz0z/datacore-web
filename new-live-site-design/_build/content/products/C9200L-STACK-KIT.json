@@ -1,0 +1,19 @@
+{
+ "sku": "C9200L-STACK-KIT",
+ "order": 3129,
+ "n": "Cisco Catalyst 9200L Stack Module",
+ "b": "Cisco",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Stacking module"
+  }
+ ],
+ "for": [
+  "C9200L-24P-4X-E",
+  "C9200L-48P-4X-E"
+ ]
+}

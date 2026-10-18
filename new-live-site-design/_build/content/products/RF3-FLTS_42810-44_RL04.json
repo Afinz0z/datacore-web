@@ -1,0 +1,19 @@
+{
+ "sku": "RF3-FLTS 42810-44 RL04",
+ "order": 3767,
+ "n": "42U Floor-standing server cabinet",
+ "b": "RitchField",
+ "c": "NETWORK CABINET",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "RitchField THRIFTY SERIES 42U 800x1000 (WxD) FloorStanding Server Cabinet featuring front and rearperforated metal double door, top and bottom cablesentries. Color - RAL 9004 Accessories: 1x 4 way fan, 2x mounting rail, 4x castors(2 with brakes), 4 x leveling feet, 1x fixed shelf, 2xstandard vertical cable manager",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "42u"
+  }
+ ],
+ "acc": [
+  "24 way Smart PDU"
+ ]
+}

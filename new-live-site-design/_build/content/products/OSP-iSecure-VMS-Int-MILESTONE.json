@@ -1,0 +1,19 @@
+{
+ "sku": "OSP-iSecure-VMS-Int-MILESTONE",
+ "order": 5059,
+ "n": "Service support contract",
+ "b": "HID",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Support Pack for MILESTONE Video Management Platform Integration Connector",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "service"
+  }
+ ],
+ "for": [
+  "X1100C"
+ ]
+}

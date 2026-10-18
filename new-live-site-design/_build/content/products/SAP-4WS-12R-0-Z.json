@@ -1,0 +1,16 @@
+{
+ "sku": "SAP-4WS-12R-0-Z",
+ "order": 4458,
+ "n": "Analog, Slim Line IP, 12 Round Clock",
+ "b": "Sapling",
+ "c": "Master Clock",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Sapling Analog, Slim Line IP, 12\" Round, PoE, Surface Wall Mount, White Case, Custom Logo Dial",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Analog Clock"
+  }
+ ]
+}

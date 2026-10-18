@@ -1,0 +1,14 @@
+{
+ "sku": "SWG-1407",
+ "order": 4888,
+ "n": "Lenel Finger Print Capture",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CrossMatch/Sagem-Morpho - Finger Print Capture. Captures 500PPI images, ANSI378 templates, and Sagem- Morpho PKCOMP templates (for Lenel/HID bioCLASS support)",
+ "specs": [],
+ "for": [
+  "SWS-PRO"
+ ]
+}

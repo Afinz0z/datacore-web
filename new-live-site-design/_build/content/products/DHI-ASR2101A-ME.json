@@ -1,0 +1,14 @@
+{
+ "sku": "DHI-ASR2101A-ME",
+ "order": 3514,
+ "n": "Dahua Access Reader",
+ "b": "Dahua",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Dahua ID Card,IC Card,Password Access Reader",
+ "specs": [],
+ "for": [
+  "DHI-ASC2204C-D"
+ ]
+}

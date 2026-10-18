@@ -1,0 +1,14 @@
+{
+ "sku": "GSC-1PSALTOSVN",
+ "order": 3484,
+ "n": "ACS Integration-(Salto ACS)",
+ "b": "Genetec",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1 Salto SVN Plugin including 10 doors. Only available with Synergis™ Professional or Enterprise packages. Mandatory Synergis reader advantage per each Salto door on the system wih Genetec Advantage.",
+ "specs": [],
+ "for": [
+  "GSC-5.13"
+ ]
+}

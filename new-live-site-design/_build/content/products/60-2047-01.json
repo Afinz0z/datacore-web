@@ -1,0 +1,16 @@
+{
+ "sku": "60-2047-01",
+ "order": 1039,
+ "n": "NetPA 204 POE",
+ "b": "Extron",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "NetPA 204 POE Four Ch PoE Dante Amplifier - Up to 20 Watts/Ch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dante Amplifier"
+  }
+ ]
+}

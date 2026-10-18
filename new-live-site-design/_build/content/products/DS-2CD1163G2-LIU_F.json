@@ -1,0 +1,15 @@
+{
+ "sku": "DS-2CD1163G2-LIU(F)",
+ "order": 3308,
+ "n": "6 MP Smart Hybrid Light Fixed Dome Network Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

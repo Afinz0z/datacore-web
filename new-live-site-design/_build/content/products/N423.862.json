@@ -1,0 +1,16 @@
+{
+ "sku": "N423.862",
+ "order": 3697,
+ "n": "Nexans dual facepate",
+ "b": "Nexans",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark 86 x 86 Wallplate 2 Snap-In White",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dual port"
+  }
+ ]
+}

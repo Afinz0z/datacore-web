@@ -1,0 +1,14 @@
+{
+ "sku": "VX-3004F",
+ "order": 1246,
+ "n": "Voice Evacuation Frame",
+ "b": "TOA",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "specs": [],
+ "acc": [
+  "VX-050DA",
+  "VX-300LO"
+ ]
+}

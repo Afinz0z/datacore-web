@@ -1,0 +1,26 @@
+{
+ "sku": "22SM3G",
+ "order": 27,
+ "n": "22inch UHD Signage Display",
+ "b": "LG",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "22” UHD Signage Display or equivalent",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "signage display"
+  }
+ ],
+ "acc": [
+  "MTMP1U",
+  "PNRUB",
+  "PSBUB",
+  "RMT3",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "WMK-077",
+  "XSM1U"
+ ]
+}

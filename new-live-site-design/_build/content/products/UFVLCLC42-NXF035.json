@@ -1,0 +1,19 @@
+{
+ "sku": "UFVLCLC42-NXF035",
+ "order": 3795,
+ "n": "Commscope JUMPER,LSZH,OM5,LC,LC,1.6-35m",
+ "b": "CommScope",
+ "c": "Fiber Patch Cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ULL,JUMPER,LSZH,OM5,LC,LC,1.6,DPX FT035",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ],
+ "for": [
+  "760231514"
+ ]
+}

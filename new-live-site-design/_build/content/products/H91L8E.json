@@ -1,0 +1,19 @@
+{
+ "sku": "H91L8E",
+ "order": 4969,
+ "n": "Aruba 3 year hardware license",
+ "b": "Aruba",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba 3Y FC NBD Exch HW 6200M 48G PoE SVC [for R8Q70A]",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Base license"
+  }
+ ],
+ "for": [
+  "R8Q70A"
+ ]
+}

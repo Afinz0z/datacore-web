@@ -1,0 +1,16 @@
+{
+ "sku": "760200436",
+ "order": 3677,
+ "n": "Dual Faceplate Unshuttered, Commscope",
+ "b": "CommScope",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "M12CF Modular Faceplate, two port, white",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dual port"
+  }
+ ]
+}

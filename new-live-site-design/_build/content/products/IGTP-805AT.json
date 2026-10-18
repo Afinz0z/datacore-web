@@ -1,0 +1,15 @@
+{
+ "sku": "IGTP-805AT",
+ "order": 3143,
+ "n": "Industrial 10/100/1000BASE-T to 100/1000BASE-X SFP Converter Planet",
+ "b": "PLANET",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IP30 Industrial 10/100/1000BASE-T to 100/1000BASE-X SFP Converter with 802.3at PoE+ (-40 to 75C, 12V~48V DC power boost, LFP Supported)",
+ "specs": [],
+ "for": [
+  "GS-4210-16P4C",
+  "GS-4210-24P4C"
+ ]
+}

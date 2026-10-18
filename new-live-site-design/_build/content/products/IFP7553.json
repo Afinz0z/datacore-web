@@ -1,0 +1,42 @@
+{
+ "sku": "IFP7553",
+ "order": 163,
+ "n": "ViewBoard IFP7553",
+ "b": "ViewSonic",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "75\"4k UHD IFP Panel, 8GB/128GB, Android 13, Slim IR, Dual Pen NFC log-in, 8 array mic, front HDMI/Type-C, 16W x 2 + 20W subwoofer",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Interactive"
+  }
+ ],
+ "acc": [
+  "LG-Emerald3-N20",
+  "LGC-5586",
+  "LGC-7598",
+  "LGF-98",
+  "LGFS-5586-N23",
+  "LGFS-6598",
+  "LGWM-3790F",
+  "LGWM-3790T",
+  "LGWM-5586SW",
+  "LGWM-5598SW",
+  "LPAUB",
+  "MCB1U",
+  "MTMP1U",
+  "PDRUB",
+  "PNRUB",
+  "PSBUB",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "VB-WMK-004",
+  "WMK-077",
+  "XTM1U"
+ ]
+}

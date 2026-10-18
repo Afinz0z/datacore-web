@@ -1,0 +1,48 @@
+{
+ "sku": "RMF3",
+ "order": 2626,
+ "n": "LegrandAV- Chief Mounts-RMF3 (32-65 inch)",
+ "b": "Chief",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "The Fit series RMF3 is a medium fixed display wall mount for 32” to 65” typical display sizes and supports mounting patterns up to 550 x 450 mm. Weight capacity 125 lbs (56.7 kg)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mounted"
+  }
+ ],
+ "for": [
+  "32SM5J",
+  "43UL3J-B",
+  "50UL3J-B",
+  "55UH5N-E",
+  "55UL3J-B",
+  "65UL3J-B",
+  "CDE4330",
+  "CDE5530",
+  "CDE6514-2C",
+  "CDE6530",
+  "CDE92UW",
+  "EP5542",
+  "EP5542T",
+  "HG65U800FAUXUE",
+  "HG75U800FAUXUE",
+  "IFP5550-5F",
+  "IFP6533-G",
+  "IFP6534",
+  "IFP6550-5F",
+  "IFP6551",
+  "IFP6553",
+  "IFP6562",
+  "LH50QMCEPGCXUE",
+  "LH65QMREBGCXUE",
+  "LT-IR65AX",
+  "PN-LC862",
+  "PN-M432",
+  "PN-M552 PCAP",
+  "PN-M752",
+  "V6550"
+ ]
+}

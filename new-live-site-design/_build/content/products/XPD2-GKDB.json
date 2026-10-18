@@ -1,0 +1,15 @@
+{
+ "sku": "XPD2-GKDB",
+ "order": 3547,
+ "n": "RF Card reader",
+ "b": "Suprema",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Gang Box Keypad type RF Card reader, Dual RFID(125kHz EM & 13.56Mhz MIFARE, DESFire/EV1, FeliCa, NFC, ISO14443A), IP67, IK08, BLE",
+ "specs": [],
+ "acc": [
+  "EN-PS03WS-5A",
+  "MFCA"
+ ]
+}

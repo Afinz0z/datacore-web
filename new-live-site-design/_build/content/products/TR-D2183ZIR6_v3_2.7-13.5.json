@@ -1,0 +1,16 @@
+{
+ "sku": "TR-D2183ZIR6 v3 2.7-13.5",
+ "order": 3364,
+ "n": "Trassir 8MP Bullet Outdoor",
+ "b": "TRASSIR",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "13.5 Outdoor 8Mp IP-camera with IR. 1/2.7\" CMOS sensor,8MP resolution (3840x2160) @15fps, 5MP(2592x1944)@25fps; sensitivity: 0.003 Lux (F1.3), Day/Night (mechanical ICR), 2.7-13.5 mm lens; H.264, H.264+,H.265, H.265+ codec, real WDR (120dB), 3D-DNR, BLC,Defog; built-in microphone, audio in/out, alarm 1/1; Edge Storage (MicroSD up to 128 Gb); PoE (802.2af) or 12V DC; -40°C … +60°C, IP67, TVS 4000V, IR up to 60m.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Outdoor Bullet"
+  }
+ ]
+}

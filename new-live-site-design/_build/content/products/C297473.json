@@ -1,0 +1,19 @@
+{
+ "sku": "C297473",
+ "order": 3629,
+ "n": "MIFARE DESFIRE ISO CARD",
+ "b": "Gallagher",
+ "c": "ID CARD PRINTER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "MIFARE DESFIRE ISO CARD 2K EV3",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "smart card"
+  }
+ ],
+ "for": [
+  "C300470"
+ ]
+}

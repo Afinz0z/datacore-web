@@ -1,0 +1,16 @@
+{
+ "sku": "AX104441",
+ "order": 3675,
+ "n": "modular outlet faceplate",
+ "b": "Belden",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "single-port, UK-style Key Connect modular outlet faceplate designed for copper and fiber network connectivity",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single faceplate"
+  }
+ ]
+}

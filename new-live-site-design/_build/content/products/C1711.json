@@ -1,0 +1,20 @@
+{
+ "sku": "C1711",
+ "order": 3862,
+ "n": "B3 2 Core 16AWG Shielded LSZH Cables",
+ "b": "B3 International",
+ "c": "CONTROL CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "2 CORE 16 AWG SHIELDED LSZH CABLE (305MTR/ROLL)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "LSZH, Shielded"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "sku": "RJ45",
+ "order": 4080,
+ "n": "RJ45 CONNECTOR",
+ "b": "CommScope",
+ "c": "Connectors",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "760178129"
+ ]
+}

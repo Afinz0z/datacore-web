@@ -1,0 +1,15 @@
+{
+ "sku": "SFP-10G-LR=",
+ "order": 3064,
+ "n": "10GBASE-LR SFP Module",
+ "b": "Cisco",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9300-24P-A",
+  "C9300-48P-E",
+  "C9500-48Y4C-A"
+ ]
+}

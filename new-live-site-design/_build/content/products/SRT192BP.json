@@ -1,0 +1,15 @@
+{
+ "sku": "SRT192BP",
+ "order": 4253,
+ "n": "Battery Pack APC UPS 5kVA and 6kVA",
+ "b": "APC",
+ "c": "Battery Pack-UPS",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "External 192V battery pack designed to extend the backup runtime of APC Smart-UPS SRT 5kVA and 6kVA UPS systems.",
+ "specs": [],
+ "for": [
+  "SRT5KXLI",
+  "SRT6KXLI"
+ ]
+}

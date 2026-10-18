@@ -1,0 +1,16 @@
+{
+ "sku": "LNL-R50000-RTES",
+ "order": 3614,
+ "n": "Request-To-Exit sensor - (86 x 86 x 30 mm) Lenel",
+ "b": "LenelS2",
+ "c": "PUSH BUTTON",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LenelS2 Readers - 5000 Series - Standard - Stainless steel - Flush mount - Touchless Request-To-Exit sensor - (86 x 86 x 30 mm)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Request To Exit"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "OSP-i Secure-LEAP",
+ "order": 5057,
+ "n": "Service support contract",
+ "b": "HID",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Support Pack for \"SSI i Secure Web Based Access Control + Time Attendance Enterprise S/W up to Unlimited employees Note: Web Interface for Access Control is available to generate access reports with 'ADMIN' Login & 5 User Login This Base Licence includes, 1",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "service"
+  }
+ ],
+ "for": [
+  "X1100C"
+ ]
+}

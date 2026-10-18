@@ -1,0 +1,19 @@
+{
+ "sku": "C300660",
+ "order": 3568,
+ "n": "HBUS 8 IN 2 OUTDOOR MODULE- Sub controller",
+ "b": "Gallagher",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HBUS 8 IN 2 OUTDOOR MODULE",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Acs Sub controller"
+  }
+ ],
+ "for": [
+  "C400100"
+ ]
+}

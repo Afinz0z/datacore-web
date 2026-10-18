@@ -1,0 +1,23 @@
+{
+ "sku": "RA3S-ES0-BAS",
+ "order": 4724,
+ "n": "AVTECH Room Alert System",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Room Alert 3S- Compact Monitor with PoE, PRO",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Room Alert & Monitoring System Headend Unit"
+  },
+  {
+   "label": "Series",
+   "value": "3S"
+  }
+ ],
+ "acc": [
+  "RMA-RE1-SEN"
+ ]
+}

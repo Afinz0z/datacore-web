@@ -1,0 +1,20 @@
+{
+ "sku": "FSB42-81D",
+ "order": 3742,
+ "n": "Finosel 42U 800x1000 CABINET",
+ "b": "Finosel",
+ "c": "NETWORK CABINET",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FINOSEL, Cabinet, 42U FS 4xfans, organizer,wheels, FD Glass and Rear Double Doors 800x1000",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "42u"
+  }
+ ],
+ "acc": [
+  "MDB42-8HS",
+  "PDU-UK-06"
+ ]
+}

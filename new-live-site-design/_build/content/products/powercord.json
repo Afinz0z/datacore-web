@@ -1,0 +1,17 @@
+{
+ "sku": "powercord",
+ "order": 4236,
+ "n": "Power cord for aruba switch",
+ "b": "Aruba",
+ "c": "power cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "INCLUDED: Power Cord - United Kingdom localization",
+ "specs": [],
+ "for": [
+  "JL479A",
+  "JL725A",
+  "R8Q68A",
+  "R8Q70A"
+ ]
+}

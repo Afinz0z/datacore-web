@@ -1,0 +1,19 @@
+{
+ "sku": "AL-INST-4",
+ "order": 5098,
+ "n": "Remote Installation and Start Up Service",
+ "b": "LenelS2",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ALUTEL - Remote Installation and Start Up. For Systems up to 4 Mobile Devices (up to 5 hours. Request for quote if you need extra time",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Remote Installation and Start Up"
+  }
+ ],
+ "for": [
+  "SWS-ENTREG-LT"
+ ]
+}

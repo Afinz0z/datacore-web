@@ -1,0 +1,16 @@
+{
+ "sku": "N122.4LLY3",
+ "order": 3821,
+ "n": "Patch Cord Slimflex Duplex DLC/UPC-DLC/UPC SM(Nexans)",
+ "b": "Nexans",
+ "c": "Fiber Patch Cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Slimflex Duplex Patch Cord DLC/UPC-DLC/UPC SM LSZH 3m Yellow",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fibre optic patch cord"
+  }
+ ]
+}

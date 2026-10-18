@@ -1,0 +1,18 @@
+{
+ "sku": "IPDM-V2",
+ "order": 4650,
+ "n": "IP Desk Master-V2",
+ "b": "Zenitel",
+ "c": "Intercom",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Audio Intercom"
+  }
+ ],
+ "acc": [
+  "1008091100"
+ ]
+}

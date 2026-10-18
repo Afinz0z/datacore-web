@@ -1,0 +1,22 @@
+{
+ "sku": "DS-2CD2683G2-IZS",
+ "order": 3345,
+ "n": "8MP Motorized Bullet Network Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Hikvision 8MP Motorized Bullet Network Camera, 2.8~12mm , support MIC and speaker .",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ],
+ "acc": [
+  "DS-1260ZJ",
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-S"
+ ]
+}

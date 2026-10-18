@@ -1,0 +1,19 @@
+{
+ "sku": "DS-1473ZJ-155B",
+ "order": 3470,
+ "n": "Large Wall Mount bracket with Junction Box",
+ "b": "Hikvision",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Wall Mount for Dome Camera with Junction Box",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mount"
+  }
+ ],
+ "for": [
+  "DS-2CD2763G1-IZS"
+ ]
+}

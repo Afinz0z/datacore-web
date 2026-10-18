@@ -1,0 +1,14 @@
+{
+ "sku": "BATTERY 12 V 7 AH",
+ "order": 4265,
+ "n": "BATTERY 12 V 7 AH",
+ "b": "LenelS2",
+ "c": "Battery",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "LNL-M2220",
+  "LNL-M4420"
+ ]
+}

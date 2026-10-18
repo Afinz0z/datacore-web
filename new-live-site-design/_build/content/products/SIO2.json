@@ -1,0 +1,16 @@
+{
+ "sku": "SIO2",
+ "order": 3584,
+ "n": "Secure I/O Expansion Module",
+ "b": "Suprema",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Secure I/O Expansion Module (2 inputs / 1 output) compatible with BioStar 2 compatiable readers and CoreStation(for Fire Alarm Interface)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Expansion module"
+  }
+ ]
+}

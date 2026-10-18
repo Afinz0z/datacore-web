@@ -1,0 +1,16 @@
+{
+ "sku": "DS-2CD2763G2-IZS",
+ "order": 3350,
+ "n": "Dome camera-6MP-HIKVISION",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "6 MP AcuSense Motorized Varifocal Dome Network Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

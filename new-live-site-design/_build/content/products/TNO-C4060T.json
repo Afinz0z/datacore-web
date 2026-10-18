@@ -1,0 +1,16 @@
+{
+ "sku": "TNO-C4060T",
+ "order": 3265,
+ "n": "Thermal Compact Bullet Camera",
+ "b": "Hanwha Vision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Powered by WN8, Network AI Thermal Compact Bullet Camera, 640 x 480 (uncooled); ＜16mK (NETD), Max 1280 x 960 @ 30fps resolution support, 35mm fixed focal lens (HFoV: 17.5°), Triple codec H.265/H.264/MJPEG with Wisestream II and WiseStream III (based on AI engine) support, Analytics events based on AI engine: Object detection (Person/Vehicle/Vessel), Virtual line (Crossing/ Direction), Virtual area (Loitering/Intrusion/Enter/Exit), Analytics events: Motion detection, Tampering, Audio detection, Sound classification, Shock detection, Virtual area(Appear/Disappear), PTZ handover, built-in SD card slot (1x1TB), integrated back box, IP66/IP67, NEMA4X, NEMA TS2 (2.2.7~2.2.9), MIL-STD-810H, IK10, PoE/12VDC, white color This product is subject to the Thermal agreement.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Thermal Camera"
+  }
+ ]
+}

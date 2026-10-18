@@ -1,0 +1,23 @@
+{
+ "sku": "Axis TQ5001-E",
+ "order": 3446,
+ "n": "Wall/Pole Mount Bracket",
+ "b": "Axis",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "For indoor and outdoor use wall and pole mounting bracket designed for compatible Axis cameras. Can be installed directly on flat walls. For pole installations, stainless steel mounting straps required (AXIS STEEL STRAPS TX30)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall/Pole Mount Bracket"
+  }
+ ],
+ "for": [
+  "AXIS P1467-LE",
+  "AXIS P3277-LV",
+  "AXIS Q6358-LE US",
+  "P1468-LE",
+  "P3268-LV"
+ ]
+}

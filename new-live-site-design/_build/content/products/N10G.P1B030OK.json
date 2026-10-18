@@ -1,0 +1,16 @@
+{
+ "sku": "N10G.P1B030OK",
+ "order": 3853,
+ "n": "Nexans patch cord",
+ "b": "Nexans",
+ "c": "UTP Patch cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-10G Patch Cord Cat 6A Screened LSZH 3m Orange",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6a"
+  }
+ ]
+}

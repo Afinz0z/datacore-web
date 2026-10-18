@@ -1,0 +1,16 @@
+{
+ "sku": "HT801",
+ "order": 2569,
+ "n": "Analog Telephone Adapter",
+ "b": "Grandstream",
+ "c": "Adapters",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "1- Port ATA",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Analog Telephone Adapter"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "sku": "DS-2CD2163G2-I",
+ "order": 3313,
+ "n": "6MP AcuSense Vandal Fixed Dome Network Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 6MP AcuSense Vandal Fixed Dome Network Camera- 2.8mm/4.0mm lens-no mic",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ],
+ "acc": [
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS"
+ ]
+}

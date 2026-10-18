@@ -1,0 +1,19 @@
+{
+ "sku": "2A8067",
+ "order": 4838,
+ "n": "Command Centre Workstation License",
+ "b": "Gallagher",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LICENSE WORKSTATION",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Workstation license"
+  }
+ ],
+ "for": [
+  "C201311"
+ ]
+}

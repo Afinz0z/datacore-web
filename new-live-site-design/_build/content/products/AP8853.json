@@ -1,27 +1,14 @@
 {
  "sku": "AP8853",
- "n": "Rack PDU 2G metered-by-outlet, 16A, 21 x C13",
+ "order": 4176,
+ "n": "Rack PDU 2G",
  "b": "APC",
- "c": "Power",
- "g": "pdu",
- "avail": "stock",
- "specs": [
-  {
-   "label": "Outlets",
-   "value": "21 x C13 / 3 x C19"
-  },
-  {
-   "label": "Current",
-   "value": "16 A"
-  },
-  {
-   "label": "Phase",
-   "value": "Single"
-  },
-  {
-   "label": "Mount",
-   "value": "0U vertical"
-  }
- ],
- "order": 35
+ "c": "PDU",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Rack PDU 2G, Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19",
+ "specs": [],
+ "for": [
+  "AR3300"
+ ]
 }

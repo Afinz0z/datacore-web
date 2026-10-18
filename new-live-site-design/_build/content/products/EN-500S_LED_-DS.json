@@ -1,0 +1,19 @@
+{
+ "sku": "EN-500S(LED)-DS",
+ "order": 3600,
+ "n": "ACS Single Door Magnetic Lock (Suprema)",
+ "b": "Suprema",
+ "c": "Magnetic Lock",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Single Door Magnetic Lock with LED & Bond Sensor - 1200 LBS+Bracket",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "single magnetic lock"
+  }
+ ],
+ "for": [
+  "BLN2-ODB"
+ ]
+}

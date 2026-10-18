@@ -1,0 +1,19 @@
+{
+ "sku": "NETWORK-PNP-LIC",
+ "order": 4992,
+ "n": "Network Plug-n-Play Connect for zero-touch device deployment",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9200L-24P-4X-E",
+  "C9200L-48P-4X-E",
+  "C9300-24P-A",
+  "C9300-48P-E",
+  "C9500-48Y4C-A",
+  "CW9163E-ROW",
+  "CW9164I-ROW"
+ ]
+}

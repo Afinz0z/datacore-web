@@ -1,0 +1,14 @@
+{
+ "sku": "IE3X00_SW",
+ "order": 5010,
+ "n": "license for switch",
+ "b": "Cisco",
+ "c": "License",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Software for Catalyst IE3x00 rugged series",
+ "specs": [],
+ "for": [
+  "IE3300"
+ ]
+}

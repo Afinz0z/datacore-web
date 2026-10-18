@@ -1,0 +1,11 @@
+{
+ "sku": "STHSB",
+ "order": 1641,
+ "n": "Temperature/humidity sensor",
+ "b": "NTI",
+ "c": "Sensors",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Temperature/humidity sensor-outlines the specifications for the enviromux-sthsb combined temperature, humidity, and dew-point sensor",
+ "specs": []
+}

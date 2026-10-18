@@ -1,0 +1,15 @@
+{
+ "sku": "IGS-6325-24P4X",
+ "order": 3041,
+ "n": "Industrial L3 Managed PoE Switch Planet",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IP30 19\" Rack Mountable Industrial L3 Managed PoE Switch, 24- Port 10/100/1000T 802.3at PoE + 4-Port 10G SFP+ (-40 to 75 C, dual redundant power input on 48~56VDC, DIDO, ERPS Ring, 1588, Modbus TCP, ONVIF, Cybersecurity features, Hardware Layer3 OSPFv2, fanless design, supports CloudViewer app and MQTT, supports 100FX, 1000X, 2.5G SFP and 10G SFP+)",
+ "specs": [],
+ "acc": [
+  "MTB-LR",
+  "PWR-960-48"
+ ]
+}

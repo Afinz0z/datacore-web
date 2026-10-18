@@ -1,0 +1,16 @@
+{
+ "sku": "RKS-02",
+ "order": 5325,
+ "n": "Railkit for Synology Rackstation - Synology",
+ "b": "Synology",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Railkit for SynologyRackstation",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Sliding Rack Rail Kit"
+  }
+ ]
+}

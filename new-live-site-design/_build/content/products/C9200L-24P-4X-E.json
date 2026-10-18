@@ -1,0 +1,26 @@
+{
+ "sku": "C9200L-24P-4X-E",
+ "order": 2930,
+ "n": "CISCO 24 PORT SWITCH",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Catalyst 9200L 24-port PoE+, 4 x 10G, Network Essentials",
+ "specs": [],
+ "acc": [
+  "C9200-STACK",
+  "C9200L-DNA-E-24",
+  "C9200L-DNA-E-24-3Y",
+  "C9200L-NW-E-24",
+  "C9200L-STACK-KIT",
+  "C9K-ACC-RBFT",
+  "C9K-ACC-SCR-4",
+  "CAB-GUIDE-1RU",
+  "CAB-TA-UK",
+  "CON-SNT-C920024X",
+  "NETWORK-PNP-LIC",
+  "PWR-C5-600WAC/2",
+  "STACK-T4-1M"
+ ]
+}

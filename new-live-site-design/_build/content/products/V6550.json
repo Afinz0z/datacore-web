@@ -1,0 +1,54 @@
+{
+ "sku": "V6550",
+ "order": 78,
+ "n": "MAXHUB XBoard V7 Series",
+ "b": "MAXHUB",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "MAXHUB NME- Intelligent Touchscreen, support Windows Ink, Direct Annotation, Palm Rejection, Erase and Write Simultaneously, Multi-input Recognition and Handwriting Recognition Narrow bezel design, Anti-glare glass, 3 x 50MP built-in AI Triple Camera Module: 3x optical zoom, 99 degree ultra-wide angle CMOS sensor,support Personalized presets, Auto framing, Speaker tracking, Multiple-speaker tracking and Intelligent focus, 16 x array microphones support 15m/180 degree voice collect range,support intelligent audio fence, AI spatial sound, AI powered smart noise cancellation algorithm, Auto echo cancellation,Auto gain control, 1 x ultrasonic sensor: support human body detection, auto switch on/off screen, U shape wall-mount bracket, WiFi6, 4K Display",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Interactive"
+  },
+  {
+   "label": "Series",
+   "value": "V7"
+  }
+ ],
+ "acc": [
+  "LG-CMBB-65",
+  "LG-Emerald1",
+  "LG-Emerald3-N20",
+  "LGC-5586",
+  "LGCM-65-5",
+  "LGFS-5565D",
+  "LGFS-5586-N23",
+  "LGFS-6598",
+  "LGWM-3265F-IN",
+  "LGWM-3265SW",
+  "LGWM-3265T",
+  "LGWM-3790F",
+  "LGWM-3790T",
+  "LGWM-4365R",
+  "LGWM-5586SW",
+  "LGWM-5598SW",
+  "LPAUB",
+  "MCB1U",
+  "MTMP1U",
+  "PDRUB",
+  "PNRUB",
+  "PSBUB",
+  "RMF3",
+  "RMT3",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "VB-WMK-004",
+  "WMK-077",
+  "XTM1U"
+ ]
+}

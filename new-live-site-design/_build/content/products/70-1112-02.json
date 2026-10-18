@@ -1,0 +1,21 @@
+{
+ "sku": "70-1112-02",
+ "order": 1942,
+ "n": "XTP II CP 4i HD DMA 4K PLUS",
+ "b": "Extron",
+ "c": "AV Switcher",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "XTP II CP 4i HD DMA 4K PLUS Four Input Board, 4K/60 HDMI with Downmixing Audio",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Input Card"
+  }
+ ],
+ "for": [
+  "60-1981-01",
+  "60-2031-01",
+  "60-2031-11"
+ ]
+}

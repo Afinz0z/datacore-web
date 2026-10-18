@@ -1,0 +1,25 @@
+{
+ "sku": "NTP-8R0-0100-1",
+ "order": 4527,
+ "n": "NTP 8000 Series Master Clock",
+ "b": "Sapling",
+ "c": "Server",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "NTP 8000 Series Master Clock,GPS, Server Upgrade & Web Interface, Rack Mount",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Master Clock Server"
+  },
+  {
+   "label": "Series",
+   "value": "NTP 8000 Series"
+  }
+ ],
+ "acc": [
+  "E-PWR-CBL-UK-M-KIT-0",
+  "M-GPS-MTG-KIT-1",
+  "NET-MONT-SOFT"
+ ]
+}

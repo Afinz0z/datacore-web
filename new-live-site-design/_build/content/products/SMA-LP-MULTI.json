@@ -1,0 +1,16 @@
+{
+ "sku": "SMA-LP-MULTI",
+ "order": 3534,
+ "n": "Lenel MA Sigma Lite - Multi Biometric/Card Reader",
+ "b": "LenelS2",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "MA SIGMA Lite - Multi, Multi-factor Bio/Card, MIFARE/MIFARE Plus/DESFIRE/NFC, provides 1:500 User Biometric Identification, Fake Finger Detection, LED Indicator, Buzzer, IP65 Rated, FBI Certified IQS Optical Sensor, CE",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Biometric Fingerprint"
+  }
+ ]
+}

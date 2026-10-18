@@ -1,0 +1,13 @@
+{
+ "sku": "STACK-T1-50CM",
+ "order": 3150,
+ "n": "50CM, 50CM Type 1 Stacking Cable.",
+ "b": "Cisco",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9300-48P-E"
+ ]
+}

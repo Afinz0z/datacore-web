@@ -1,0 +1,20 @@
+{
+ "sku": "DHI-ASC3202B",
+ "order": 3560,
+ "n": "2 Door Network Access Controller (Dahua)",
+ "b": "Dahua",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DHI-ASC3202B is a network access controller supporting up to two doors with flexible one-way or two-way access control. It supports multiple authentication methods including card, fingerprint, password, Bluetooth, and remote access. Designed for commercial and enterprise deployments, it features TCP/IP connectivity, PoE support, alarm interfaces, and integration with Dahua access management systems.",
+ "specs": [],
+ "acc": [
+  "ASF053-ZJ",
+  "ASF500L",
+  "ASF905",
+  "DHI-ASB1C-B",
+  "DHI-ASF500A",
+  "DHI-ASI8213S-W",
+  "S042-1A120300HK"
+ ]
+}

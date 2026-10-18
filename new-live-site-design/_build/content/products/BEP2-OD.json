@@ -1,0 +1,11 @@
+{
+ "sku": "BEP2-OD",
+ "order": 3548,
+ "n": "Suprema BioEntry Fingerprint card reader",
+ "b": "Suprema",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Suprema BioEntry P2 fingerprint reader and access controller with optical fingerprint sensor, supporting fingerprint and dual RFID authentication (125kHz EM & 13.56MHz smart cards including MIFARE, DESFire EV1, FeliCa, NFC, ISO14443A), designed for indoor access control applications",
+ "specs": []
+}

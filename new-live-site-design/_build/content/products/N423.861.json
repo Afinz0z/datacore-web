@@ -1,0 +1,16 @@
+{
+ "sku": "N423.861",
+ "order": 3698,
+ "n": "Nexans single faceplate",
+ "b": "Nexans",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark 86 x 86 Wallplate 1 Snap-In White",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single port"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sku": "760109462",
+ "order": 4059,
+ "n": "Commscope Mod Panel Blank Adapter Pack, 4 Panels",
+ "b": "CommScope",
+ "c": "Fiber adaptor",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "360G2 Mod Panel Blank Adapter Pack, 4 Panels",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Pack"
+  }
+ ],
+ "for": [
+  "760012161",
+  "760231514"
+ ]
+}

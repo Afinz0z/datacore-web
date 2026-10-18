@@ -1,0 +1,20 @@
+{
+ "sku": "760254805",
+ "order": 3989,
+ "n": "24 Core Fiber Optic Cable",
+ "b": "CommScope",
+ "c": "SINGLE MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Indoor/Outdoor Low Smoke Zero Halogen, TeraSPEED® Tight Buffered , 24 fiber, Singlemode",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "24 Core FOC"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

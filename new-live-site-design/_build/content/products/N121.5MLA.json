@@ -1,0 +1,16 @@
+{
+ "sku": "N121.5MLA",
+ "order": 4075,
+ "n": "Fiber Pigtail MM(nexans)",
+ "b": "Nexans",
+ "c": "Fiber Pigtails",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Pigtail LC OM3 Maxistrip LSZH 50/125 1m Aqua",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Pigtail MM"
+  }
+ ]
+}

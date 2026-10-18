@@ -1,0 +1,19 @@
+{
+ "sku": "R1-FP-X-X-1PW",
+ "order": 3700,
+ "n": "Single Port Faceplate-White",
+ "b": "Ramcro",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Single Port 86 x 86 Faceplate-White",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single faceplate"
+  }
+ ],
+ "for": [
+  "R1-BPL19-1U"
+ ]
+}

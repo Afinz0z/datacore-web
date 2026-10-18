@@ -1,0 +1,22 @@
+{
+ "sku": "DS-2CD1643G0-IZ",
+ "order": 3285,
+ "n": "4MP Bullet Network Camera, Motorized 2.8~12mm Lens - 30M IR",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4MP Bullet Network Camera, Motorized 2.8~12mm Lens - 30M IR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ],
+ "acc": [
+  "DS-1260ZJ",
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-S"
+ ]
+}

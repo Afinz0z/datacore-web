@@ -1,0 +1,16 @@
+{
+ "sku": "DS-96128NI-M16",
+ "order": 3388,
+ "n": "128 CH NVR",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "128-ch 3U 8K NVR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "128 ch nvr"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "sku": "C9300-NW-E-48",
+ "order": 4982,
+ "n": "C9300 Network Essentials, 48-portlicense",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "for": [
+  "C9300-48P-E"
+ ]
+}

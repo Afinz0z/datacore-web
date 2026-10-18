@@ -1,0 +1,16 @@
+{
+ "sku": "J8177E",
+ "order": 3060,
+ "n": "Cat5e Transceiver",
+ "b": "Aruba",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking 1G SFP RJ45 100m Cat5e Transceiver",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat5e Transceiver"
+  }
+ ]
+}

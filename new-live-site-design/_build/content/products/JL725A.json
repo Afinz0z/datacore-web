@@ -1,0 +1,25 @@
+{
+ "sku": "JL725A",
+ "order": 2912,
+ "n": "24 port access switch-ARUBA",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba 6200F 24G Class4 PoE 4SFP+ 370W Switch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  },
+  {
+   "label": "Series",
+   "value": "6200F"
+  }
+ ],
+ "acc": [
+  "HR0W9E",
+  "J9151ER",
+  "powercord"
+ ]
+}

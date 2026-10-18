@@ -1,0 +1,11 @@
+{
+ "sku": "MVC-IVA-LPR",
+ "order": 4773,
+ "n": "License Platedetection and recognition system Bosch",
+ "b": "Bosch",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "License Platedetection and recognitionAdds license plate info tometadata stream ForStop&Go and City Traffic, upto 120 Km/h",
+ "specs": []
+}

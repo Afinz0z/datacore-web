@@ -1,0 +1,13 @@
+{
+ "sku": "PWR-C5-1KWAC/2",
+ "order": 4116,
+ "n": "1KW AC Config 5 Power Supply - Secondary Power Supply",
+ "b": "Cisco",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9200L-48P-4X-E"
+ ]
+}

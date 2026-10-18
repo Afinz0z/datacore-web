@@ -1,0 +1,17 @@
+{
+ "sku": "CSM4316-100NES",
+ "order": 3028,
+ "n": "M4350-16C MANAGED SWITCH - Netgear",
+ "b": "Netgear",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "M4350-16C MANAGED SWITCH",
+ "specs": [],
+ "acc": [
+  "APS1200W-200NES",
+  "DRV-CSM4316-12",
+  "DRV-CSM4316-36",
+  "DRV-CSM4316-60"
+ ]
+}

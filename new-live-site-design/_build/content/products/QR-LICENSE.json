@@ -1,0 +1,18 @@
+{
+ "sku": "QR-LICENSE",
+ "order": 4939,
+ "n": "BioStar 2 QR License",
+ "b": "Suprema",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Qr license"
+  }
+ ],
+ "for": [
+  "XS2-ODPB"
+ ]
+}

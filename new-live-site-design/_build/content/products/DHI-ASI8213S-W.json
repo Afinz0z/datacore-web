@@ -1,0 +1,14 @@
+{
+ "sku": "DHI-ASI8213S-W",
+ "order": 3516,
+ "n": "Face Recognition Access Controller (Dahua)",
+ "b": "Dahua",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DHI-ASI8213S-W is an AI-based face recognition access controller featuring an 8-inch touchscreen, visible light facial recognition, card, password, QR code, and remote authentication. Designed for enterprise access control, it supports large user databases, IP65 protection, and indoor/outdoor installation.",
+ "specs": [],
+ "for": [
+  "DHI-ASC3202B"
+ ]
+}

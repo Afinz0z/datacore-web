@@ -1,0 +1,19 @@
+{
+ "sku": "SLDAN-32-P",
+ "order": 4932,
+ "n": "Dante License -SLDAN-32-P",
+ "b": "QSC",
+ "c": "Software - license",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Q-SYS Software-based Dante 32x32 Channel License, Perpetual",
+ "specs": [],
+ "for": [
+  "CORE 110f",
+  "Core 24f",
+  "Core 8 Flex",
+  "Server Core X10",
+  "Server Core X20r",
+  "Server Core X50r"
+ ]
+}

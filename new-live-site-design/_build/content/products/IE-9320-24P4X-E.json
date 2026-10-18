@@ -1,0 +1,22 @@
+{
+ "sku": "IE-9320-24P4X-E",
+ "order": 2924,
+ "n": "24 Gigabit ruggedized industrial Ethernet switch",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "24 Port PoE+ Downlinks with 4 10G Uplinks (720W)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  }
+ ],
+ "acc": [
+  "CAB-STK-1M",
+  "CON-SNT-IE932PXE",
+  "IE9300_SW",
+  "PWR-RGD-AC-DC-400"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "sku": "OMXD30000",
+ "order": 3156,
+ "n": "Optical Transceiver Module",
+ "b": "Huawei",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Optical Transceiver,SFP+,10G,Multi-mode Module(850nm,0.3km,LC)",
+ "specs": [],
+ "for": [
+  "S5735-S24PN4XE-V2",
+  "S5735-S48PN4XE-V2"
+ ]
+}

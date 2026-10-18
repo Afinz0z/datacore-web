@@ -1,0 +1,16 @@
+{
+ "sku": "999-8250-001",
+ "order": 1960,
+ "n": "LegrandAV- Vaddio SWITCHERS",
+ "b": "Vaddio",
+ "c": "AV Switcher",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "AV Bridge 2x1Presentation Switcher",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Presentation Switcher"
+  }
+ ]
+}

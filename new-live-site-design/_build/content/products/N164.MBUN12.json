@@ -1,0 +1,16 @@
+{
+ "sku": "N164.MBUN12",
+ "order": 4000,
+ "n": "12 core fiber cable SM (nexans)",
+ "b": "Nexans",
+ "c": "SINGLE MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Micro-Bundle Universal 12x Singlemode 9/125 OS2 LSZH Black",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "12 core FOC (SM)"
+  }
+ ]
+}

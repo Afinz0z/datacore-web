@@ -1,0 +1,20 @@
+{
+ "sku": "C862553",
+ "order": 3623,
+ "n": "Nedap uPASS Go Reader",
+ "b": "Gallagher",
+ "c": "Gate Barrier",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "NEDAP UPASS GO UHF READER",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Long Range Vehicle Reader"
+  }
+ ],
+ "acc": [
+  "C862554",
+  "C862555"
+ ]
+}

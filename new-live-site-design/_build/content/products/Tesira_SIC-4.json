@@ -1,0 +1,14 @@
+{
+ "sku": "Tesira SIC-4",
+ "order": 1395,
+ "n": "Mic line input card -SIC-4",
+ "b": "Biamp",
+ "c": "Audio Card",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Tesira 4 channel mic/line input card",
+ "specs": [],
+ "for": [
+  "Tesira SERVER-IO AVB"
+ ]
+}

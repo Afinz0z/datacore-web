@@ -1,0 +1,14 @@
+{
+ "sku": "BE6K-CPU-M6",
+ "order": 4516,
+ "n": "Intel Xeon Silver 4310T Processor",
+ "b": "Cisco",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Intel 4310T 2.3GHz/105W 10C/15MB DDR4 2667MHz",
+ "specs": [],
+ "for": [
+  "BE6K-M6-K9"
+ ]
+}

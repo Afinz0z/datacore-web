@@ -1,0 +1,16 @@
+{
+ "sku": "Server Core X10",
+ "order": 1241,
+ "n": "Server Core X10",
+ "b": "Q-SYS",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Networked audio, video and control processor with 32-bit floating-point DSP, Dante/AES67 support, enterprise networking, scalable software licensing, and Q-SYS Designer programming.",
+ "specs": [],
+ "acc": [
+  "SLDAN-16-P",
+  "SLDAN-32-P",
+  "SLDAN-64-P"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "60-552-30",
+ "order": 1031,
+ "n": "ASA 204",
+ "b": "Extron",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "ASA 204 Quad Active Audio Summing Amplifier with RCA Inputs",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Summing Amplifier"
+  }
+ ]
+}

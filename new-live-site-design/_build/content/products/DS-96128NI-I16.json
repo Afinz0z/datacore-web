@@ -1,24 +1,11 @@
 {
  "sku": "DS-96128NI-I16",
- "n": "128-channel 4K NVR, 16 SATA bays",
+ "order": 3389,
+ "n": "128 Channel NVR Hikvision",
  "b": "Hikvision",
- "c": "Surveillance",
- "g": "recorder",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
  "avail": "lead",
- "lead": 20,
- "specs": [
-  {
-   "label": "Channels",
-   "value": "128"
-  },
-  {
-   "label": "Storage",
-   "value": "16 x SATA"
-  },
-  {
-   "label": "Rack",
-   "value": "3U"
-  }
- ],
- "order": 13
+ "d": "128-ch 3U 4K Super NVR, Up to 576 Mbps high incoming bandwidth ensures IP cameras can be connected, 2 HDMI (different source) and 1 VGA interfaces16 HDD can be used for continuous video recording",
+ "specs": []
 }

@@ -1,0 +1,17 @@
+{
+ "sku": "Solaro FR1-D",
+ "order": 1249,
+ "n": "Xilica-Solaro FR1-D",
+ "b": "Xilica",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Solaro FR1-D - DSP core with 64x64 Dante on a dual NIC, 16 user configured card slots, Lua scripting engine, optional software licensed HearClear AEC.",
+ "specs": [],
+ "acc": [
+  "HearClear AEC",
+  "XC-SGP",
+  "XC-SLO",
+  "XC-SML"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "60-2028-01",
+ "order": 1047,
+ "n": "NetPA U 2004 FX",
+ "b": "Extron",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "NetPA U 2004 FX Four Ch Configurable Output Dante Amp, 200 Watts",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dante Amplifier"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "DS-2CD2783G2-IZS",
+ "order": 3332,
+ "n": "8 MP Motorized Varifocal Dome Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8 MP AcuSense Motorized Varifocal Dome Network Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

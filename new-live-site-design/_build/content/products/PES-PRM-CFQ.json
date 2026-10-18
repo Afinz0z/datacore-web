@@ -1,0 +1,18 @@
+{
+ "sku": "PES-PRM-CFQ",
+ "order": 5097,
+ "n": "Program Management with a dedicate Project Manager",
+ "b": "LenelS2",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Professional service"
+  }
+ ],
+ "for": [
+  "SWS-ENTREG-LTREDU"
+ ]
+}

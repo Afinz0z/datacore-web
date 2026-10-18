@@ -1,0 +1,22 @@
+{
+ "sku": "DS-1272ZJ-110B",
+ "order": 3476,
+ "n": "Small Wall Mounting Bracket with Junction Box",
+ "b": "Hikvision",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION Wall Mounting Bracket for Dome Camera with Junction Box 2CD (1153G0, 1143G0, 2143G2, 2163G2, 2183G2)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall mounting Bracket"
+  }
+ ],
+ "for": [
+  "DS-2CD1143G0-I",
+  "DS-2CD1183G0-I",
+  "DS-2CD1183G0-IUF",
+  "DS-2CD2163G2-IS"
+ ]
+}

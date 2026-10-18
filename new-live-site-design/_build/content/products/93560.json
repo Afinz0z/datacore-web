@@ -1,0 +1,19 @@
+{
+ "sku": "93560",
+ "order": 943,
+ "n": "WIRING HARNESS-93560",
+ "b": "Sonance",
+ "c": "Speaker",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Sonance 8+2 OUTDOOR WIRING HARNESS",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Transmitter"
+  }
+ ],
+ "for": [
+  "93432"
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "sku": "CS-DEV-ECMON",
+ "order": 4892,
+ "n": "NEC ExpressCluster Monitoring Software.",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "NEC ExpressCluster Monitoring Software",
+ "specs": [],
+ "for": [
+  "SWS-ENTREG-LTREDU"
+ ]
+}

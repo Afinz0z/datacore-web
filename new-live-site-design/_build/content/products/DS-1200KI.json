@@ -1,0 +1,16 @@
+{
+ "sku": "DS-1200KI",
+ "order": 3505,
+ "n": "Network Keyboard and 4-axis Joystick",
+ "b": "Hikvision",
+ "c": "PTZ Joystick",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION Network Keyboard and 4-axis Joystick buttons",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Joystick Keyboard"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "sku": "APS-PSU-60",
+ "order": 4114,
+ "n": "ACS AMC Power Supply Unit",
+ "b": "Bosch",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Bosch-ACS AMC Power Supply Unit",
+ "specs": [],
+ "for": [
+  "APC-AMC2 4WCF"
+ ]
+}

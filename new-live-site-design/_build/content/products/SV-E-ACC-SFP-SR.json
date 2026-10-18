@@ -1,0 +1,14 @@
+{
+ "sku": "SV-E-ACC-SFP-SR",
+ "order": 3487,
+ "n": "Dell networking SFP+ SR transceiver - Streamvault Genetec",
+ "b": "Genetec",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Dell networking SFP+ SR transceiver for Streamvault Appliance SFP+ NIC **For use with Appliance NIC only, not to be used with switch SFP+ ports**",
+ "specs": [],
+ "for": [
+  "GSC-5.13"
+ ]
+}

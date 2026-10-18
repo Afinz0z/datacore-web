@@ -1,0 +1,15 @@
+{
+ "sku": "L-MLIC-S67H",
+ "order": 4873,
+ "n": "Basic SW",
+ "b": "Huawei",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S67XX-H Series Basic SW,Per Device",
+ "specs": [],
+ "for": [
+  "S6730-H24X6C-V2",
+  "S6730-H48X6C-V2"
+ ]
+}

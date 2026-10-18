@@ -1,0 +1,14 @@
+{
+ "sku": "7979102",
+ "order": 4201,
+ "n": "PDU basic",
+ "b": "Rittal",
+ "c": "PDU",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "PDU basic 16A/1P IEC-C20 8xC13",
+ "specs": [],
+ "for": [
+  "7507220"
+ ]
+}

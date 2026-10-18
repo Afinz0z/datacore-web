@@ -1,0 +1,21 @@
+{
+ "sku": "70-1114-02",
+ "order": 1939,
+ "n": "XTP II CP 4i F 8K SM",
+ "b": "Extron",
+ "c": "AV Switcher",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "XTP II CP 4i F 8K SM XTP II Four Input Board, Fiber 8K - Singlemode",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Input Card"
+  }
+ ],
+ "for": [
+  "60-1981-01",
+  "60-2031-01",
+  "60-2031-11"
+ ]
+}

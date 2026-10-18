@@ -1,0 +1,14 @@
+{
+ "sku": "SFP-10G-CU1M",
+ "order": 3160,
+ "n": "SFP+,10G,High Speed Cables,1m",
+ "b": "Huawei",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SFP+,10G,High Speed Direct-attach Cables,1m,SFP+20M,CC2P0.254B(S),SFP+20M,Used indoor",
+ "specs": [],
+ "for": [
+  "S5755-H48UM4Y2CZ"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "sku": "CW9163E-ROW",
+ "order": 3102,
+ "n": "Cisco Wireless 9163E is an outdoor-rated",
+ "b": "Cisco",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Catalyst 9163E AP(W6E, tri-band 2x2,Outdoor) w/Reg-ROW",
+ "specs": [],
+ "acc": [
+  "AIR-DNA-E",
+  "AIR-DNA-E-3Y",
+  "AIR-DNA-E-T",
+  "AIR-DNA-E-T-3Y",
+  "AIR-DNA-NWSTACK-E",
+  "CDNA-E-C9163",
+  "CON-SNT-CW91EROW",
+  "CW-ANT-O1-NS-00",
+  "DNA-E-3Y-C9163",
+  "NETWORK-PNP-LIC",
+  "SW9163E-CAPWAP-K9"
+ ]
+}

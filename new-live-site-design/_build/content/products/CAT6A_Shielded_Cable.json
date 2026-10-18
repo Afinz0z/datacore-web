@@ -1,0 +1,16 @@
+{
+ "sku": "CAT6A Shielded Cable",
+ "order": 3878,
+ "n": "CAT6A Shielded Cable",
+ "b": "CommScope",
+ "c": "CONTROL CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CAT6A Shielded Cable (305 Mtr)",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

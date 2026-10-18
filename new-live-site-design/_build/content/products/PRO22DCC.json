@@ -1,0 +1,19 @@
+{
+ "sku": "PRO22DCC",
+ "order": 4016,
+ "n": "Daisy-chain cable",
+ "b": "Honeywell",
+ "c": "Enclosure",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ PRO-2200 & PW-5000 Ancillaries - Daisy chain cable provides an RS-485 communication and power bus between the nine modules ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Controller Board"
+  }
+ ],
+ "for": [
+  "PW5K2ENC1E"
+ ]
+}

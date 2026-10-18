@@ -1,0 +1,19 @@
+{
+ "sku": "7159035",
+ "order": 5298,
+ "n": "Cable management with plastic rings Rittal",
+ "b": "Rittal",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cable management with plastic rings",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cable management panel"
+  }
+ ],
+ "for": [
+  "7507110"
+ ]
+}

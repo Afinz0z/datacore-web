@@ -1,0 +1,21 @@
+{
+ "sku": "EN-280SZL-DS",
+ "order": 3604,
+ "n": "ZL Bracket",
+ "b": "Suprema",
+ "c": "Magnetic Lock",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ZL Bracket for Inward Door with DS",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ZL Bracket"
+  }
+ ],
+ "for": [
+  "EN-280S -LED-DS",
+  "EN-280S-LED-DS",
+  "EN-280SD -LED-DS"
+ ]
+}

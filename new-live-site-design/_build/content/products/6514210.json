@@ -1,0 +1,15 @@
+{
+ "sku": "6514210",
+ "order": 4126,
+ "n": "CEN-SWPOE-PWS2000-ULTRA",
+ "b": "Crestron",
+ "c": "Power Supply",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CEN-SWPOE-PWS2000-ULTRA 2000 W Power Supply Unit for CEN-SWPOE-52 Network Switch",
+ "specs": [],
+ "for": [
+  "6514202",
+  "6514203"
+ ]
+}

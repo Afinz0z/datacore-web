@@ -1,0 +1,19 @@
+{
+ "sku": "PWR-240-48",
+ "order": 3138,
+ "n": "48V, 240W Din-Rail Power Supply Planet",
+ "b": "PLANET",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "48V, 240W Din-Rail Power Supply (NDR-240-48, adjustable 48-56V DC Output)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Din Rail"
+  }
+ ],
+ "for": [
+  "IGS-4215-8P2T2S"
+ ]
+}

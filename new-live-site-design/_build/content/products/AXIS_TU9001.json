@@ -1,0 +1,23 @@
+{
+ "sku": "AXIS TU9001",
+ "order": 3443,
+ "n": "Control Board for CCTV Camera",
+ "b": "Axis",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "USB control board with integrated joystick and keypad, used for PTZ camera control and video management system navigation , Installed in control room.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "System controller"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ],
+ "for": [
+  "AXIS Q6358-LE US"
+ ]
+}

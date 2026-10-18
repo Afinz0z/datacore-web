@@ -1,0 +1,19 @@
+{
+ "sku": "40KTKS-T0-000000",
+ "order": 3551,
+ "n": "Card Reader",
+ "b": "Tyco",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SIGNO 40K,BLK/SLVR,TERM,CRD PFL T0-STD,BLE:ON,WIEG,32-B MSB,EACH,4B MSG,NOPAR,LEN:13,LED:RED,FLSH:GRN,BZR,KBD:RED,KBZR,VIS:ON,SRF:ON,IPM:OFF,VEL:OFF,TAP",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "smart card"
+  }
+ ],
+ "for": [
+  "GSTAR004-MB"
+ ]
+}

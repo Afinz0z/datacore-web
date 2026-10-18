@@ -1,0 +1,23 @@
+{
+ "sku": "DS-2CD2387G2H-LIU",
+ "order": 3346,
+ "n": "8MP Smart Hybrid Light with ColorVu Fixed Turret Network Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 8 MP Smart Hybrid Light with ColorVu Fixed Turret Network Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  },
+  {
+   "label": "Series",
+   "value": "ColorVu"
+  }
+ ],
+ "acc": [
+  "DS-1276ZJ-SUS"
+ ]
+}

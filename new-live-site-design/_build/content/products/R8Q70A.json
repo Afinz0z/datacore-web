@@ -1,0 +1,29 @@
+{
+ "sku": "R8Q70A",
+ "order": 2914,
+ "n": "48 port POE access switch ARUBA",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba 6200M 48G Class4 PoE 4SFP+ Switch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "48 port network switch"
+  },
+  {
+   "label": "Series",
+   "value": "CX 6200M"
+  }
+ ],
+ "acc": [
+  "H91L8E",
+  "H91L9E",
+  "J9151E",
+  "J9281D",
+  "JL087A",
+  "JL087A ACC",
+  "powercord"
+ ]
+}

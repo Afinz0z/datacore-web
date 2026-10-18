@@ -1,0 +1,16 @@
+{
+ "sku": "HikCentral-P-VSS-1Ch",
+ "order": 4856,
+ "n": "HikCentral-P-VSS-1Ch",
+ "b": "Hikvision",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Camera Channel Licenes",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Expansion license"
+  }
+ ]
+}

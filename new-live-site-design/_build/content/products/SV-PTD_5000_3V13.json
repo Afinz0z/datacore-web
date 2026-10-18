@@ -1,0 +1,15 @@
+{
+ "sku": "SV-PTD/5000/3V13",
+ "order": 3362,
+ "n": "SmartVu Vandal Resistance PTZ Dome V/F 3 to 13mm",
+ "b": "NetVu",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

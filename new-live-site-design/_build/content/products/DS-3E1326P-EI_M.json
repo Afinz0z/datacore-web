@@ -1,0 +1,20 @@
+{
+ "sku": "DS-3E1326P-EI/M",
+ "order": 2958,
+ "n": "24 Port Fast Ethernet 10/100Mbps Smart POE Switch",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 24 Port Fast Ethernet 10/100Mbps Smart POE Switch - low power 230 W",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  },
+  {
+   "label": "Series",
+   "value": "L2 Series Switch"
+  }
+ ]
+}

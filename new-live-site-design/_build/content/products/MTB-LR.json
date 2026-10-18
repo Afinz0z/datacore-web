@@ -1,0 +1,19 @@
+{
+ "sku": "MTB-LR",
+ "order": 3083,
+ "n": "10G SFP+ Fiber Transceiver (Single-Mode) Planet",
+ "b": "PLANET",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "10G SFP+ Fiber Transceiver (Single-Mode)",
+ "specs": [],
+ "for": [
+  "GS-6311-24PL4X",
+  "GS-6311-48P6X",
+  "IGS-4215-16P4X",
+  "IGS-6325-24P4X",
+  "XGS-6311-12X",
+  "XGS-6350-24X2C"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2CD1063G2-LIUF",
+ "order": 3307,
+ "n": "6 MP Smart Hybrid Light Fixed Bullet Network Camera - built in MIC",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 6 MP Smart Hybrid Light Fixed Bullet Network Camera - built in MIC and Support memory card",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ],
+ "acc": [
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS"
+ ]
+}

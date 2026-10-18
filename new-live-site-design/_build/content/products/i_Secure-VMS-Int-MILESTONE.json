@@ -1,0 +1,19 @@
+{
+ "sku": "i Secure-VMS-Int-MILESTONE",
+ "order": 4847,
+ "n": "iSecure VMS Integration - Milestone",
+ "b": "HID",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "MILESTONE Video Management Platform Integration Connector. NOTE: Add-on Licence for MILESTONE Make Video Management Platform Integration Connector",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Software Integration License"
+  }
+ ],
+ "for": [
+  "X1100C"
+ ]
+}

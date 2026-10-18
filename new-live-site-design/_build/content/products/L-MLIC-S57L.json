@@ -1,0 +1,16 @@
+{
+ "sku": "L-MLIC-S57L",
+ "order": 5002,
+ "n": "Switch License (Huawei)",
+ "b": "Huawei",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "L-MLIC-S57L. S57XX-L Series SW License, Per Device",
+ "specs": [],
+ "for": [
+  "98012238",
+  "S5735-L48P4XE-A-V2",
+  "S5735-L8P4X-QA-V2"
+ ]
+}

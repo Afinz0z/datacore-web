@@ -1,0 +1,20 @@
+{
+ "sku": "SPA-Qf 60x2",
+ "order": 1096,
+ "n": "QSC 2 Channel Amplifier",
+ "b": "QSC",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "​ Two-Channel Network Amplifier for the Q-SYS Platform. ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Network Amplifier"
+  },
+  {
+   "label": "Series",
+   "value": "Q-SYS SPA-Q"
+  }
+ ]
+}

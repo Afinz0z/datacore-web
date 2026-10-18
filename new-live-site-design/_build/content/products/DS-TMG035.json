@@ -1,0 +1,15 @@
+{
+ "sku": "DS-TMG035",
+ "order": 3626,
+ "n": "Anti-fall Radar Entrance & Exit Radar",
+ "b": "Hikvision",
+ "c": "Gate Barrier",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Card Reader"
+  }
+ ]
+}

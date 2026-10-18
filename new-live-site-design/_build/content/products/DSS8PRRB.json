@@ -1,0 +1,15 @@
+{
+ "sku": "DSS8PRRB",
+ "order": 4831,
+ "n": "DSS Professional V8 Redundancy Backup License",
+ "b": "Dahua",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DSS8PRRB is a Redundancy Backup license for DSS Professional V8. It enables high-availability deployment by providing server redundancy and automatic failover, helping ensure continuous operation of enterprise video management and security systems with minimal service interruption.",
+ "specs": [],
+ "for": [
+  "DHI-IVSS7124DR",
+  "DSS8PRVB128"
+ ]
+}

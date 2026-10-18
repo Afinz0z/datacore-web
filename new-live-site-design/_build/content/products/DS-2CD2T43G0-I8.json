@@ -1,0 +1,21 @@
+{
+ "sku": "DS-2CD2T43G0-I8",
+ "order": 3287,
+ "n": "4MP Bullet Network EXIR Camera, Fixed 4.0mm - 6.0mm Lens",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4MP Bullet Network EXIR Camera, Fixed 4.0mm - 6.0mm Lens - 80M IR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ],
+ "acc": [
+  "DS-1260ZJ",
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS"
+ ]
+}

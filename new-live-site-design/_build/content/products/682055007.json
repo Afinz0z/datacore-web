@@ -1,0 +1,19 @@
+{
+ "sku": "682055007",
+ "order": 3663,
+ "n": "HW Visionline Elevator relay module",
+ "b": "Vingcard",
+ "c": "Elevator Controller",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HW Visionline Elevator relay (module-Supporting 8 FloorOutputs)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "2-4 elevator relay boards"
+  }
+ ],
+ "for": [
+  "840009761"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "AT-OME-EX-TX-WPC",
+ "order": 1692,
+ "n": "Transmitter - AT-OME-EX-TX-WPC",
+ "b": "Atlona",
+ "c": "Extenders",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Wallplate HDBaseT Transmitter with USB-C Input & USB Hub",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Transmitter"
+  }
+ ]
+}

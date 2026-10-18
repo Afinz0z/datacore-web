@@ -1,0 +1,16 @@
+{
+ "sku": "A713",
+ "order": 3200,
+ "n": "5MP Indoor fixed IP Dome camera ceiling mounted",
+ "b": "ACTi",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Outdoor fixed IP Dome camera ceiling mounted, 5MP, IR30m, POE, Fish Eye, 360 Degrees",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

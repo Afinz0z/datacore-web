@@ -1,0 +1,15 @@
+{
+ "sku": "PAC600S56-EB",
+ "order": 4246,
+ "n": "AC Power Module for S5735",
+ "b": "Huawei",
+ "c": "power cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "600W AC&240V DC Power Module (66mm Width Case,Back to Front,Power panel side exhaust)",
+ "specs": [],
+ "for": [
+  "S5735-S24PN4XE-V2",
+  "S5735-S48PN4XE-V2"
+ ]
+}

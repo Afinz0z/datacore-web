@@ -1,0 +1,16 @@
+{
+ "sku": "ZNR-126",
+ "order": 3370,
+ "n": "8 Channel Single Bay NVR",
+ "b": "ACTi",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8-Channel 1-Bay Mini Standalone NVR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "8 Channel NVR"
+  }
+ ]
+}

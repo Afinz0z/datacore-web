@@ -1,0 +1,15 @@
+{
+ "sku": "DS-7732NI-K4/16P",
+ "order": 3411,
+ "n": "32CH 16P Poe - 4 HDD AcuSense",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION (4K & H.265) 32CH Network Video Recorder- 16 Independent PoE Network Interfaces - 4 HDD Support AcuSense",
+ "specs": [],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

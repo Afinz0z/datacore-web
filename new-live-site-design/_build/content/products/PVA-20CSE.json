@@ -1,0 +1,17 @@
+{
+ "sku": "PVA-20CSE",
+ "order": 4406,
+ "n": "Call station extension-PVA-20CSE",
+ "b": "Bosch",
+ "c": "Paging mic",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch PVA-20CSE is a call station extension for the PAVIRO system. Call station extension keypad with 20 freely programmable buttons Up to 5 extension keypads can be connected to one call station",
+ "specs": [],
+ "for": [
+  "LBB1950/10",
+  "PRA-CSLD",
+  "PRA-CSLW",
+  "PVA-15CST"
+ ]
+}

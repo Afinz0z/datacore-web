@@ -1,0 +1,19 @@
+{
+ "sku": "API-AMC2-4WE",
+ "order": 3557,
+ "n": "AMC2 Wiegand Extension",
+ "b": "Bosch",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Bosch-ACS AMC2 Doorcontr.-extension WiegandIF",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Expansion Board"
+  }
+ ],
+ "for": [
+  "APC-AMC2 4WCF"
+ ]
+}

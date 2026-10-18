@@ -1,0 +1,16 @@
+{
+ "sku": "MCB-RS-C10",
+ "order": 2538,
+ "n": "cable-MCB-RS-C10",
+ "b": "ViewSonic",
+ "c": "AV CABLE",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "10M type-C cable for MTR controler connect to MTR PC",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "USB Cable"
+  }
+ ]
+}

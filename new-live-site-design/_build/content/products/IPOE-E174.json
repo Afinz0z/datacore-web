@@ -1,0 +1,14 @@
+{
+ "sku": "IPOE-E174",
+ "order": 3144,
+ "n": "IP30 Industrial 1-Port Extender",
+ "b": "PLANET",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IP30 Industrial 1-Port 60W 802.3bt PoE++ to 4-Port 802.3af/at Gigabit PoE Extender (-40 to 75 C)",
+ "specs": [],
+ "for": [
+  "IGS-5225-4P2S"
+ ]
+}

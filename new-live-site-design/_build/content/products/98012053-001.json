@@ -1,0 +1,16 @@
+{
+ "sku": "98012053-001",
+ "order": 2982,
+ "n": "Switches",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5735-S48P4XE-V2 (48*10/100/1000BASE-T ports(PoE+), 4*10GE SFP+ ports, 2*12GE stack ports, without power module, Specially protected models",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "48 port network switch"
+  }
+ ]
+}

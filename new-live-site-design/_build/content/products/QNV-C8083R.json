@@ -1,0 +1,16 @@
+{
+ "sku": "QNV-C8083R",
+ "order": 3257,
+ "n": "5MP AI IR Vandal Dome Camera",
+ "b": "Hanwha Vision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ Wisenet Q network outdoor vandal dome camera, 5MP @ 30fps, motorized vari-focal lens 3.2~10.2mm (H: 95°~29° / V: 69°~21°), triple codec H.265/H.264/MJPEG with Wisestream III (Based on AI engine), WiseNR Ⅱ (Based on AI engine), WDR 120dB, IR viewable length 30m (98ft), WiseMD based on AI engine, Classified object type: Person/Vehicle (vehicle type: car/bus/truck/motorcycle/bicycle); IVA events based on AI engine: Virtual line (Crossing/Direction), Virtual area (Loitering/Intrusion/Enter/Exit/(Dis)Appear), *Audio: Selectable(mic in/line in), defocus detection, hallway View, built-in SD card slot (1x256GB), video analytics, USB for easy installation, open platform, IP66, IK10, PoE, Operating temperature -30°C~+55°C(-22°F ~ +131°F) white color. * Alarm I/O and audio is supported through an optional cable (SPP-C7400) ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

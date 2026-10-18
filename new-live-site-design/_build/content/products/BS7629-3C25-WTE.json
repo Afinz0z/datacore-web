@@ -1,0 +1,24 @@
+{
+ "sku": "BS7629-3C25-WTE",
+ "order": 2548,
+ "n": "FP200 Gold, 2.5MM / 3C+E, Fire resistant Cable",
+ "b": "Prysmian",
+ "c": "CONTROL CABLE",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "2.5MM/3C+E FIRE PERFORMANCE 300/500V SOLID WHITE BS7629 BS6387 CWZ (500Mtr/Roll)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Low Voltage Fire resistant screened cable"
+  },
+  {
+   "label": "Series",
+   "value": "Fire-resistant"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sku": "DS-7616NXI-K2",
+ "order": 3394,
+ "n": "16CH AcuSense NVR",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 16CH Network Video Recorder - 160Mbps Bit Rate Input Max (up to 16-ch IP video), 2 SATA interfaces, 380 1U case, alarm I/O:4/1(optional) - AcuSense",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR K2 Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "ES7-12",
+ "order": 4272,
+ "n": "Backup Battery 12v,7AH",
+ "b": "Suprema",
+ "c": "Battery",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Rocket/EnerRocket Batteries12V, 7AH.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ACS Accessories"
+  }
+ ],
+ "for": [
+  "XP2-MDPB"
+ ]
+}

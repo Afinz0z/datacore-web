@@ -1,0 +1,19 @@
+{
+ "sku": "IDS-2CD7A46G0/P-IZHSY",
+ "order": 3284,
+ "n": "4MP ANPR Dark Fighter Bullet Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4MP ANPR Dark Fighter Bullet Camera, Car plate Number for streets",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ANPR Camera"
+  }
+ ],
+ "acc": [
+  "DS-1602ZJ"
+ ]
+}

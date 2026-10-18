@@ -1,0 +1,22 @@
+{
+ "sku": "70-1031-01",
+ "order": 2772,
+ "n": "TMK 120 AAP",
+ "b": "Extron",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "TMK 120 AAP Table Mount Kit for Two AAP™AV Connectivity Modules",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Connectivity Modules"
+  }
+ ],
+ "for": [
+  "60-1031-12",
+  "60-1346-02",
+  "60-1472-22",
+  "60-1783-02"
+ ]
+}

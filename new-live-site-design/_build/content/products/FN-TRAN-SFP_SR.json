@@ -1,0 +1,14 @@
+{
+ "sku": "FN-TRAN-SFP+SR",
+ "order": 3069,
+ "n": "SFP+ transceiver module",
+ "b": "Fortinet",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "10GE SFP+ transceiver module, short range 10 GE SFP+ transceiver module, short range 300m, LC connector, MMF, 850nm, 0°C to 70°C, for systems with SFP+ slots",
+ "specs": [],
+ "for": [
+  "FG-201G-BDL-950-36"
+ ]
+}

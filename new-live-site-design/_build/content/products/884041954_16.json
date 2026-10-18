@@ -1,0 +1,20 @@
+{
+ "sku": "884041954/16",
+ "order": 3891,
+ "n": "WHT C6A 4/23 F/FTP RL 500M",
+ "b": "CommScope",
+ "c": "UTP CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ CS44Z3 WHT C6A 4/23 F/FTP RL 500M ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "F/ftp"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

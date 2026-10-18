@@ -1,0 +1,21 @@
+{
+ "sku": "ICX-510-IA",
+ "order": 4536,
+ "n": "Intelligent Communications Gateway central server for Intercom",
+ "b": "Zenitel",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ICX-510 Gateway incl ICX-AlphaCom Core",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Intercom server"
+  }
+ ],
+ "acc": [
+  "IA-RS1",
+  "ILR-U64",
+  "IPS-AC1"
+ ]
+}

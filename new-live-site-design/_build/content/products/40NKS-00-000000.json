@@ -1,0 +1,15 @@
+{
+ "sku": "40NKS-00-000000",
+ "order": 3521,
+ "n": "40NKS Signo 40 Compatible HID Signo Reader",
+ "b": "HID",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "facial recognition"
+  }
+ ]
+}

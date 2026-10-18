@@ -1,0 +1,19 @@
+{
+ "sku": "AFT402-10000S",
+ "order": 3136,
+ "n": "FAN TRAY FOR M4500 SWITCHES - Netgear",
+ "b": "Netgear",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FAN TRAY FOR M4500 SWITCHES",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fan tray"
+  }
+ ],
+ "for": [
+  "XSM4556-100EUS"
+ ]
+}

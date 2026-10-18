@@ -1,0 +1,20 @@
+{
+ "sku": "70-1048-80",
+ "order": 2392,
+ "n": "Cable Cubby 500 Routing Template",
+ "b": "Extron",
+ "c": "Cable Cubby",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Installation Routing Template for Cable Cubby 500",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Template"
+  }
+ ],
+ "for": [
+  "70-1045-02",
+  "70-1045-08"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "212602",
+ "order": 2537,
+ "n": "Coaxial Cable",
+ "b": "Televes",
+ "c": "AV CABLE",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Coax.Cab.T100 Pvc Eca/A 16vatc Bl.250m",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

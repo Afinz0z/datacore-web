@@ -1,0 +1,19 @@
+{
+ "sku": "LC1-WM06E8",
+ "order": 698,
+ "n": "Ceiling loudspeaker",
+ "b": "Bosch",
+ "c": "Speaker",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Ceiling loudspeaker, 6W, metal, 4\"",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Ceiling Speaker"
+  }
+ ],
+ "acc": [
+  "LC1-MFDS"
+ ]
+}

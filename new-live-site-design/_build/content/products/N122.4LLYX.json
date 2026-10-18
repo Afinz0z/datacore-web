@@ -1,0 +1,14 @@
+{
+ "sku": "N122.4LLYX",
+ "order": 3819,
+ "n": "LC-LC Duplex Fiber Patch Cord (Aginode)",
+ "b": "Nexans",
+ "c": "Fiber Patch Cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Aginode LANmark-OF Slimflex Singlemode Fiber Patch Cord is designed for high-performance indoor optical networking applications, including enterprise LANs, data centers, and Fiber-to-the-Desk (FTTD) deployments. It features duplex LC/UPC connectors on both ends with bend-insensitive GIGAliteFLEX singlemode fiber for improved cable management in high-density installations. The LSZH jacket enhances safety in indoor environments, while the slim 2.0 mm duplex cable construction provides excellent flexibility and reduced bend radius. The patch cord supports high-speed optical Ethernet applications such as 1GBase-LX and 10GBase-LR and is manufactured to international fiber optic standards.",
+ "specs": [],
+ "for": [
+  "N439.4SNB"
+ ]
+}

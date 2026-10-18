@@ -1,0 +1,19 @@
+{
+ "sku": "J9283D",
+ "order": 3149,
+ "n": "Direct Attach Copper Cable",
+ "b": "Aruba",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking 10G SFP+ to SFP+ 3m Direct Attach Copper Cable",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "DAC cable for switch"
+  }
+ ],
+ "for": [
+  "JL479A"
+ ]
+}

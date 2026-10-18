@@ -1,0 +1,16 @@
+{
+ "sku": "NBE-5702-AL",
+ "order": 3221,
+ "n": "Bosch Bullet 2MP HDR",
+ "b": "Bosch",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Bullet 2MP HDR 3.2-10mmIP66 IK10 IR",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ]
+}

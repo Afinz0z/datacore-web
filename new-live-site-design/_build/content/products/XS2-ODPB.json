@@ -1,0 +1,14 @@
+{
+ "sku": "XS2-ODPB",
+ "order": 3543,
+ "n": "Fingerprint reader",
+ "b": "Suprema",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Fingerprint reader/controller, Dual RFID(125kHz EM & 13.56Mhz MIFARE, MIFARE Plus,",
+ "specs": [],
+ "acc": [
+  "QR-LICENSE"
+ ]
+}

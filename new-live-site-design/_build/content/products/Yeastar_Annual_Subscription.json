@@ -1,0 +1,24 @@
+{
+ "sku": "Yeastar Annual Subscription",
+ "order": 5017,
+ "n": "Yeastar Annual Subsription",
+ "b": "Yeastar",
+ "c": "Subscription",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Yeastar P570 Enterprise Plan License (Annual Subscription) Remote SIP Service Advanced Call Center Features Omnichannel Messaging",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Telephony Subscription"
+  },
+  {
+   "label": "Series",
+   "value": "Yeastar P570 Enterprise Plan"
+  },
+  {
+   "label": "Unit",
+   "value": "Lot"
+  }
+ ]
+}

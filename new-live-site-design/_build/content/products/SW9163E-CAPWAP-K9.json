@@ -1,0 +1,14 @@
+{
+ "sku": "SW9163E-CAPWAP-K9",
+ "order": 4812,
+ "n": "software image SKU OUTDOOR WAP",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Capwap software for Catalyst 9163E",
+ "specs": [],
+ "for": [
+  "CW9163E-ROW"
+ ]
+}

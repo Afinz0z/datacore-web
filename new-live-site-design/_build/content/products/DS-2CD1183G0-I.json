@@ -1,0 +1,23 @@
+{
+ "sku": "DS-2CD1183G0-I",
+ "order": 3280,
+ "n": "4K Fixed Dome Network Camera, 8MP",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4K Fixed Dome Network Camera, 8MP",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "DS-1271ZJ-110",
+  "DS-1272ZJ-110",
+  "DS-1272ZJ-110B",
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS"
+ ]
+}

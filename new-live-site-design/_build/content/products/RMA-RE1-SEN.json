@@ -1,0 +1,19 @@
+{
+ "sku": "RMA-RE1-SEN",
+ "order": 4730,
+ "n": "Room Entry Sensor",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Sensor- Room Entry",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Room Entry Sensor"
+  }
+ ],
+ "for": [
+  "RA3S-ES0-BAS"
+ ]
+}

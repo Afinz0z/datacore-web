@@ -1,0 +1,16 @@
+{
+ "sku": "DH-SD8A840-HNF-PA",
+ "order": 3233,
+ "n": "8 MP PTZ CAMERA",
+ "b": "Dahua",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8MP 40x Starlight IR PTZ AI Network Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  }
+ ]
+}

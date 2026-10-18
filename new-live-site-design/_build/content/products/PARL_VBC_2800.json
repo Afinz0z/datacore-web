@@ -1,0 +1,16 @@
+{
+ "sku": "PARLÉ VBC 2800",
+ "order": 423,
+ "n": "CONFERENCING VIDEO BAR",
+ "b": "Biamp",
+ "c": "Video Conferencing System",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Parlé VBC 2800 Conferencing Video Bar",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "bar"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "DS-2CD1753G0-IZ",
+ "order": 3301,
+ "n": "5MP Indoor/Outdoor Dome Network Camera Motorized Lens",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "5 MP Varifocal Dome Network Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

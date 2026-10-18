@@ -1,0 +1,19 @@
+{
+ "sku": "GMU-PDU-613",
+ "order": 4189,
+ "n": "PDU 1U- 6 Way 13 AMP",
+ "b": "Gamma",
+ "c": "PDU",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPDU- Saudi Standard- 1U- 6 Way 13 AMP, UK Type Plug, Overload Protection & ON/OFF",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Basic PDU"
+  }
+ ],
+ "for": [
+  "GMC-FR-42U-88-4F"
+ ]
+}

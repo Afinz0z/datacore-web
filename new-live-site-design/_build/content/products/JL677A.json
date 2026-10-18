@@ -1,0 +1,20 @@
+{
+ "sku": "JL677A",
+ "order": 2916,
+ "n": "Aruba 6100 24G Class4 PoE 4SFP+ 370W Switch",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba 6100 24G CL4 4SFP+ Switch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "HV1L3E",
+  "JL677A ACC"
+ ]
+}

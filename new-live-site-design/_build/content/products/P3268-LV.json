@@ -1,32 +1,21 @@
 {
  "sku": "P3268-LV",
- "n": "AXIS P3268-LV 4K fixed dome camera",
+ "order": 3219,
+ "n": "Indoor 8 MP dome-Axis",
  "b": "Axis",
- "c": "Surveillance",
- "g": "camera",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
  "avail": "lead",
- "lead": 18,
+ "d": "Indoor 8 MP dome with IR and deep learning",
  "specs": [
   {
-   "label": "Resolution",
-   "value": "8 MP / 4K"
-  },
-  {
    "label": "Type",
-   "value": "Dome"
-  },
-  {
-   "label": "IP rating",
-   "value": "IP52"
-  },
-  {
-   "label": "Lens",
-   "value": "Varifocal"
-  },
-  {
-   "label": "PoE",
-   "value": "802.3af"
+   "value": "Dome Camera"
   }
  ],
- "order": 10
+ "acc": [
+  "AXIS STEEL STRAPS TX30",
+  "AXIS T91B47",
+  "Axis TQ5001-E"
+ ]
 }

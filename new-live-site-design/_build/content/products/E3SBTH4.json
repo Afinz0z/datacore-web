@@ -1,0 +1,19 @@
+{
+ "sku": "E3SBTH4",
+ "order": 5234,
+ "n": "UPS 3S High Capacity Battery String",
+ "b": "APC",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Easy UPS 3S High Capacity Battery String",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Battery String UPS"
+  }
+ ],
+ "for": [
+  "E3SUPS10KHB"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "sku": "TP-CMK",
+ "order": 2832,
+ "n": "TP-CMK",
+ "b": "PeopleLink",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Camera Ceiling Mount Kit",
+ "specs": [],
+ "for": [
+  "PPL-PVC-PCS-FHD-TT-20X",
+  "PPU-PVC-EPS-12X-16DX"
+ ]
+}

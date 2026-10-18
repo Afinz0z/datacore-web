@@ -1,0 +1,14 @@
+{
+ "sku": "JL087A",
+ "order": 4110,
+ "n": "Aruba power supply",
+ "b": "Aruba",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba X372 54VDC 1050W AC Power Supply",
+ "specs": [],
+ "for": [
+  "R8Q70A"
+ ]
+}

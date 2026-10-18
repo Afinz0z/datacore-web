@@ -1,0 +1,20 @@
+{
+ "sku": "DS-1672ZJ",
+ "order": 3466,
+ "n": "Large Corner Mount Bracket for PTZ",
+ "b": "Hikvision",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "PTZ Camera Corner Mount Bracket (Corner Only)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Corner mount"
+  }
+ ],
+ "for": [
+  "DS-2DE4425IW-DE-T5",
+  "DS-2DE5225W-AE3-T5"
+ ]
+}

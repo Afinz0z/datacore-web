@@ -1,0 +1,39 @@
+{
+ "sku": "LG-VW04-IN",
+ "order": 2805,
+ "n": "Video Wall Bracket 49 to 65 -LG-VW04-IN",
+ "b": "Logic",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "LOGIC Video Wall Bracket Landscape Orientation: 49\" to 65\" Flat Panel Display, Max Loading Capacity - 40Kg Portrait Orientation: 49\" to 55\" Flat Panel Display, Max loading Capacity - 25Kg",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mount"
+  }
+ ],
+ "for": [
+  "50UL3J-B",
+  "55UH5N-E",
+  "55UL3J-B",
+  "65UL3J-B",
+  "CDE5530",
+  "CDE6514-2C",
+  "CDE6530",
+  "EP5542",
+  "EP5542T",
+  "HG65U800FAUXUE",
+  "IFP6534",
+  "IFP6550-5F",
+  "IFP6551",
+  "IFP6553",
+  "IFP6562",
+  "LH50QMCEPGCXUE",
+  "LH55QMCEBGCXUE",
+  "LH65QMREBGCXUE",
+  "LT-IR65AX",
+  "PN-LC862",
+  "PN-M552 PCAP"
+ ]
+}

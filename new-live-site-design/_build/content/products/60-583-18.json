@@ -1,0 +1,20 @@
+{
+ "sku": "60-583-18",
+ "order": 2731,
+ "n": "CPM101MK",
+ "b": "Extron",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CPM101MK MAAP Mounting Frame for One-Gang MK Electric Wall Boxes - Black",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Mounting Frame"
+  }
+ ],
+ "for": [
+  "60-1030-11",
+  "60-1785-02"
+ ]
+}

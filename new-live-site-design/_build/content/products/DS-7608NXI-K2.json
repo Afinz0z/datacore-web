@@ -1,0 +1,19 @@
+{
+ "sku": "DS-7608NXI-K2",
+ "order": 3424,
+ "n": "8-CH AcuSense NVR - without POE",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 8-ch1U K Series AcuSense 4K NVR - without POE- 1 HDD Support",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR K2 Series"
+  }
+ ],
+ "acc": [
+  "WD102PURP"
+ ]
+}

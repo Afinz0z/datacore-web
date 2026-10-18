@@ -1,0 +1,20 @@
+{
+ "sku": "J9281D",
+ "order": 3148,
+ "n": "Direct Attach Copper Cable",
+ "b": "Aruba",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba 10G SFP+ to SFP+ 1m DAC Cable",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "DAC cable for switch"
+  }
+ ],
+ "for": [
+  "R8Q68A",
+  "R8Q70A"
+ ]
+}

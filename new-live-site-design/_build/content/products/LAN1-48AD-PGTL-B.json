@@ -1,0 +1,16 @@
+{
+ "sku": "LAN1-48AD-PGTL-B",
+ "order": 3945,
+ "n": "Fiber Patch Panel 24 LC DUPLEX",
+ "b": "Corning",
+ "c": "Fiber Optic Patch panel",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANSCAPE®FIBER HSG 24 LC DUP MM PGTL B",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "fiber patch panel 1U"
+  }
+ ]
+}

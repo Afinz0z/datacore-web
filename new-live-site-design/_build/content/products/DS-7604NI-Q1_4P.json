@@ -1,0 +1,20 @@
+{
+ "sku": "DS-7604NI-Q1/4P",
+ "order": 3418,
+ "n": "4CH Network Video Recorder",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4CH Network Video Recorder 4 Independent PoE - 1 HDD Support",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR K series"
+  }
+ ],
+ "acc": [
+  "DC HC320",
+  "WD8002PURP"
+ ]
+}

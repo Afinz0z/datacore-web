@@ -1,0 +1,15 @@
+{
+ "sku": "IOT-OTHER",
+ "order": 4791,
+ "n": "Cisco IoT - Other",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Not related to an IoT Solution; For tracking only.",
+ "specs": [],
+ "for": [
+  "IE-3100-8P2C-E",
+  "IE3300"
+ ]
+}

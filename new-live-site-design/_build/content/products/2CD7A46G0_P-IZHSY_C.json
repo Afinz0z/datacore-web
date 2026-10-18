@@ -1,0 +1,20 @@
+{
+ "sku": "2CD7A46G0/P-IZHSY(C)",
+ "order": 3276,
+ "n": "4 MP ANPR IR Varifocal Bullet Network Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "4MP DeepinView ANPR Moto Varifocal Bullet Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ANPR Camera"
+  },
+  {
+   "label": "Series",
+   "value": "DeepinView"
+  }
+ ]
+}

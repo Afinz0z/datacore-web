@@ -1,0 +1,14 @@
+{
+ "sku": "20KNKS-00-000000",
+ "order": 3522,
+ "n": "Card reader",
+ "b": "HID",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SIGNO 20K,BLK/SLVR,PIG,CRD PFL STD,MA RDY,FMT:ASP10022,WIEG,32-B MSB,EACH,4-B MSG,NOPAR,LEN:13,FC:0,EM:32-B,LED:RED,FLSH:GRN,BZR,KBD:RED,BZR,VIS:ON,SRF:ON,IPM:OFF,VEL:OFF,TAP",
+ "specs": [],
+ "acc": [
+  "2002PGGMN"
+ ]
+}

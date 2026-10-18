@@ -1,0 +1,37 @@
+{
+ "sku": "CDE92UW",
+ "order": 150,
+ "n": "Presentation Display-CDE92UW",
+ "b": "ViewSonic",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "92\", 5K, 21:9, Android 13, Landscape & Portrait mode, Daisy Chain 3x3, USB Type C (vController / Viewboard Cast / myViewBoard Display / Revel Digital), Stardard Intel OPS slot (Recommend VPC3 series to support 5K)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Non Interactive"
+  }
+ ],
+ "acc": [
+  "KITXWXSM1U",
+  "LG-Emerald3-N20",
+  "LGC-5586",
+  "LGF-98",
+  "LGFS-6598",
+  "LGWM-3265F-IN",
+  "LGWM-5598SW",
+  "MTMP1U",
+  "PNRUB",
+  "PSBUB",
+  "RMF3",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "VB-WMK-004",
+  "WMK-077",
+  "XTM1U"
+ ]
+}

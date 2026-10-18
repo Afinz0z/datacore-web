@@ -1,0 +1,16 @@
+{
+ "sku": "NDA-U-WMT",
+ "order": 3454,
+ "n": "Pendant wall mount-Bosch",
+ "b": "Bosch",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Pendant wall mount, NDAU-WMT",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mount"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "S0J42A",
+ "order": 5241,
+ "n": "HPE Aruba Networking APSingle gang Wall-box Mount Kit",
+ "b": "Aruba",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking AP-600H-MNT1 Single-gang Wall-box Mount Kit",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "wall mount kit"
+  }
+ ],
+ "for": [
+  "R3V36A"
+ ]
+}

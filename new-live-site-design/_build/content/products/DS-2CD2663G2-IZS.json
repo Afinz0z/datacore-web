@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2CD2663G2-IZS",
+ "order": 3320,
+ "n": "6MP Motorized Bullet-Hikvision",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Hikvision 6MP Motorized Bullet Network Camera, 2.8~12mm",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ]
+}

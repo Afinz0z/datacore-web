@@ -1,0 +1,16 @@
+{
+ "sku": "NMS-500",
+ "order": 3184,
+ "n": "Enterprise-class Universal Network Management Controller - 500 nodes Planet",
+ "b": "PLANET",
+ "c": "WAP Controller",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Enterprise-class Universal Network Management Controller - 500 nodes (5 10/100/1000T LAN Ports, SNMP/ONVIF/SmartDiscovery, auto-topology, AP Grouping, batch provisioning, floor map, RADIUS server built-in, Event alarm , DDNS, cybersecurity features)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "WLAN Access Controller"
+  }
+ ]
+}

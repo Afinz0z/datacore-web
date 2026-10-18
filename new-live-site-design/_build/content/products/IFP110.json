@@ -1,0 +1,31 @@
+{
+ "sku": "IFP110",
+ "order": 154,
+ "n": "ViewBoard IFP110",
+ "b": "ViewSonic",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "110\" 4k UHD, 16:9 IFP Panel (40 touch, Slim IR, Dual Pen, Android 13, 8GB/128GB)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Interactive"
+  }
+ ],
+ "acc": [
+  "KITXWXSM1U",
+  "LG-CMBB-65",
+  "LGF-110",
+  "LGWM-3790T",
+  "MCB1U",
+  "MTMP1U",
+  "PDRUB",
+  "PNRUB",
+  "PSBUB",
+  "VB-STND-009",
+  "VB-WMK-003",
+  "VB-WMK-004",
+  "WMK-077"
+ ]
+}

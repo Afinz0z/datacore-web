@@ -1,0 +1,11 @@
+{
+ "sku": "EX-1280C",
+ "order": 1211,
+ "n": "Digital Signal Processor-EX-1280C",
+ "b": "Bose",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Digital Signal Processor-EX-1280 c, • All-in-one design supports simultaneous VoIP, PSTN and USB soft codecs in a single 1RU model • 12-channel advanced AEC routes to both analog and Dante™ inputs. Multiple references allow one EX-1280C processor to support multiple rooms, or AECsharing across multiple processors. Each AEC channel includes adaptable noise cancellation, non-linear processing and comfort noise to enhance the clarity and intelligibility of the meeting • 2-line VoIP supports all popular codecs. A VoIP web interface allows IT personnel to configure VoIP parameters without audio system design file access or integrator involvement",
+ "specs": []
+}

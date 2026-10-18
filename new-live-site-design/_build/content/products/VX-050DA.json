@@ -1,0 +1,14 @@
+{
+ "sku": "VX-050DA",
+ "order": 1101,
+ "n": "Digital Power Amplifier Module 500W",
+ "b": "TOA",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "VX-3004F",
+  "VX-3008F"
+ ]
+}

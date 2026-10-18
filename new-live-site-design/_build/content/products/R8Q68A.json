@@ -1,0 +1,25 @@
+{
+ "sku": "R8Q68A",
+ "order": 2911,
+ "n": "24 port access switch aruba",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking CX 6200M 24G Class4 PoE 4SFP+ Switch",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "CX 6200M"
+  }
+ ],
+ "acc": [
+  "H90J6E",
+  "H90J7E",
+  "J9151E",
+  "J9281D",
+  "JL086A",
+  "JL086A ACC",
+  "powercord"
+ ]
+}

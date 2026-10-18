@@ -1,0 +1,16 @@
+{
+ "sku": "CS2725-000",
+ "order": 4061,
+ "n": "Fiber Optic Duplex Adapter",
+ "b": "CommScope",
+ "c": "Fiber adaptor",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Fiber Optic Duplex Adapter, Multimode LC/UPC, Aqua, with flanges",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fiber adaptor MM"
+  }
+ ]
+}

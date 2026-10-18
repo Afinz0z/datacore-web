@@ -1,0 +1,19 @@
+{
+ "sku": "SWG-1360",
+ "order": 4884,
+ "n": "Add-On License for Remote Desktop Lenel",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "OnGuard support for Remote Desktop Protocol; Citrix Support [see compatability chart for versions] and Terminal Services for 32ES, ADV, and PRO Level solutions [DOES NOT INCLUDE CITRIX]",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "add on license"
+  }
+ ],
+ "for": [
+  "SWC-ADV"
+ ]
+}

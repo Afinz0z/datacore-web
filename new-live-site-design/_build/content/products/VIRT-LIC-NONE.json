@@ -1,0 +1,14 @@
+{
+ "sku": "VIRT-LIC-NONE",
+ "order": 4517,
+ "n": "No Virtualization Software License",
+ "b": "Cisco",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ESXi lic NOT included; sold separately or customer-provided",
+ "specs": [],
+ "for": [
+  "BE6K-M6-K9"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sku": "R3V36A",
+ "order": 3093,
+ "n": "HPE Aruba Networking AP-503H (RW) Dual Radio AP",
+ "b": "Aruba",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking AP-503H (RW) Dual Radio 802.11ax 2x2 1+2 Ethernet Unified Hospitality AP",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor campus access point"
+  }
+ ],
+ "acc": [
+  "HU4E1E",
+  "S0J42A"
+ ]
+}

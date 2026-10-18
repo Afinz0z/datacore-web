@@ -1,0 +1,15 @@
+{
+ "sku": "Core 24f",
+ "order": 1239,
+ "n": "Core 24f",
+ "b": "Q-SYS",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CORE 24f Q-SYS Core Processor with 24 localaudio I/O, 160×160 network I/O, 8×8 Software Dante, dual RS232, 8×8 GPIO, 24 AEC channels, 1RU, and built-in Scripting/UCI support",
+ "specs": [],
+ "acc": [
+  "SLDAN-16-P",
+  "SLDAN-32-P"
+ ]
+}

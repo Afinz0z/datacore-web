@@ -1,0 +1,15 @@
+{
+ "sku": "DSII-Multi-IN",
+ "order": 4757,
+ "n": "DSII Software Node",
+ "b": "AVCiT",
+ "c": "Software - license",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "DSII Software Node- Software encoder to capature and transmit multiple application windows from single PC to multiple video wall decoder node",
+ "specs": [],
+ "for": [
+  "DSII-2K-JOUTVW",
+  "DSIII-HDMIKVM- JIN"
+ ]
+}

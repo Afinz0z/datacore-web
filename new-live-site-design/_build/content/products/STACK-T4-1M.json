@@ -1,0 +1,14 @@
+{
+ "sku": "STACK-T4-1M",
+ "order": 3152,
+ "n": "stack cable",
+ "b": "Cisco",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1M Type 4 Stacking Cable",
+ "specs": [],
+ "for": [
+  "C9200L-24P-4X-E"
+ ]
+}

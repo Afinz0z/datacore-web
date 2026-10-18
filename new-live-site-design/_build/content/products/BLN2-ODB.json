@@ -1,0 +1,14 @@
+{
+ "sku": "BLN2-ODB",
+ "order": 3549,
+ "n": "Suprema BioLite Fingerprint Reader",
+ "b": "Suprema",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Suprema BioLite N2 fingerprint access control device with dual RFID (EM + MIFARE), IP67 outdoor rated biometric reader/controller.",
+ "specs": [],
+ "acc": [
+  "EN-500S(LED)-DS"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "DIP-644IIG 4HD",
+ "order": 3371,
+ "n": "Management Appliance(P-74CI-12HDNVR)-Bosch",
+ "b": "Bosch",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "All-in-one recording, viewing and management solution for network surveillance systems. With 4 x 4 TB storage capacity.NDAA and TAA compliant",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "1u"
+  }
+ ]
+}

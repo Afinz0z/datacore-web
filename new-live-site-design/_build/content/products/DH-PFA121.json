@@ -1,0 +1,19 @@
+{
+ "sku": "DH-PFA121",
+ "order": 3456,
+ "n": "Water-proof Junction Box",
+ "b": "Dahua",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Junction box"
+  }
+ ],
+ "for": [
+  "DH-IPC-HFW2849T-AS-IL",
+  "DH-IPC-HFW5842E-ZE"
+ ]
+}

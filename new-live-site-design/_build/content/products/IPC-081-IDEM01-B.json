@@ -1,0 +1,19 @@
+{
+ "sku": "IPC-081-IDEM01-B",
+ "order": 4899,
+ "n": "Optional add-on integration license",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IDEMIA Morpho integration 1 year license and support onany OnGuard system, for readers purchased via Lenel. [This is the integration license that must be ordered for the first 10 devices being monitored by the integration. Additional devices can be purchased using IPC-081-10]. This is automatically added to the required SUSP annually with the first renewal pro-rated",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Software Integration License"
+  }
+ ],
+ "for": [
+  "SWS-ENTREG-LT"
+ ]
+}

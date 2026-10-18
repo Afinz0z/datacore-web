@@ -1,0 +1,20 @@
+{
+ "sku": "DS-7716NI-I4/16P",
+ "order": 3400,
+ "n": "16CH NVR 1.5U AcuSense 4K Built in 16P POE - Support 4*HDD",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 16CH Network Video Recorder 1.5U AcuSense 4K Built in 16 port POE - Support 4*HDD",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR Pro Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "2.0C-H6A-PTZ-DP30-B",
+ "order": 3213,
+ "n": "H6A; 2MP 30X Pendant PTZ Dome",
+ "b": "Avigilon",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​H6A; 2MP 30X Pendant PTZ Dome",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  }
+ ],
+ "acc": [
+  "WLMT-1031"
+ ]
+}

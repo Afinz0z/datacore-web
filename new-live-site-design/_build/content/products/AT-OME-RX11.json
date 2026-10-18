@@ -1,0 +1,16 @@
+{
+ "sku": "AT-OME-RX11",
+ "order": 1691,
+ "n": "Receiver - AT-OME-RX11",
+ "b": "Atlona",
+ "c": "Extenders",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "HDBaseT Receiver with Audio De-Embedding",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Receiver"
+  }
+ ]
+}

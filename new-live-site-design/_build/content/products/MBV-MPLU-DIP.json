@@ -1,0 +1,16 @@
+{
+ "sku": "MBV-MPLU-DIP",
+ "order": 4770,
+ "n": "Bosch-CCTV SMA license for MBV-BPLU DIP, 1 year",
+ "b": "Bosch",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SMA license for MBV-BPLU DIP, 1 year",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

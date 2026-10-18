@@ -1,0 +1,22 @@
+{
+ "sku": "6500568",
+ "order": 1704,
+ "n": "CAEN-BLOCK",
+ "b": "Crestron",
+ "c": "Extenders",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CAEN-BLOCK Cresnet® Network Termination Block for CAEN and CAENIB Automation Enclosures",
+ "specs": [],
+ "for": [
+  "6500407",
+  "6500408",
+  "6500438",
+  "6500733",
+  "6500780",
+  "6506307",
+  "6506383",
+  "6506384",
+  "MP-16"
+ ]
+}

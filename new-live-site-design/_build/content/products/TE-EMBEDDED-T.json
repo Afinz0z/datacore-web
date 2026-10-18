@@ -1,0 +1,14 @@
+{
+ "sku": "TE-EMBEDDED-T",
+ "order": 4800,
+ "n": "Embedded Telemetry license -Cisco 93 series access switch",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Embedded telemetry software entitlement enabling real-time streaming telemetry and analytics for Catalyst 9300 access switches",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

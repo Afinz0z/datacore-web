@@ -1,0 +1,16 @@
+{
+ "sku": "HNMSWVMS",
+ "order": 3499,
+ "n": "MAXPRO VMS Base Software",
+ "b": "Honeywell",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Honeywell MAXPRO VMS Base Software",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "VMS Software"
+  }
+ ]
+}

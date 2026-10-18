@@ -1,0 +1,15 @@
+{
+ "sku": "CAB-GUIDE-1RU",
+ "order": 3122,
+ "n": "1RU CABLE MANAGEMENT GUIDES 9200 and 9300",
+ "b": "Cisco",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9200L-24P-4X-E",
+  "C9200L-48P-4X-E",
+  "C9300-24P-A"
+ ]
+}

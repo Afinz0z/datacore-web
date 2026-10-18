@@ -1,0 +1,16 @@
+{
+ "sku": "XP2-MDPB",
+ "order": 3550,
+ "n": "Suprema RFID Reader",
+ "b": "Suprema",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Suprema XPass 2 RFID Reader is a compact outdoor access control reader supporting dual-frequency RFID (125 kHz & 13.56 MHz) and mobile credentials via NFC/BLE. It offers high durability with IP65/IP67 weatherproof and IK08 vandal-resistant protection, making it ideal for harsh environments. The device supports TCP/IP, RS-485 (OSDP), and Wiegand communication, with PoE capability and large user/event capacity for secure access management.",
+ "specs": [],
+ "acc": [
+  "ADP-12V-2.5A",
+  "EN-PS03WS-5A",
+  "ES7-12"
+ ]
+}

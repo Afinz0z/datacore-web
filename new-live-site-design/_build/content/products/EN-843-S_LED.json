@@ -1,0 +1,15 @@
+{
+ "sku": "EN-843-S(LED)",
+ "order": 3616,
+ "n": "Infrared Sensor Exit Button",
+ "b": "Suprema",
+ "c": "PUSH BUTTON",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Request To Exit"
+  }
+ ]
+}

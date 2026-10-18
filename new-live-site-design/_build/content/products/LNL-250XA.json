@@ -1,0 +1,15 @@
+{
+ "sku": "LNL-250XA",
+ "order": 4156,
+ "n": "S2 XA - 13.8 VDC 2 A Switched Mode Power Supply -LENEL",
+ "b": "LenelS2",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LenelS2 XA - 13.8 VDC 2 A Switched Mode Power Supply(= LNL-XA-PSU12V-2A) with LNL-250XA-ENC enclosure(330 x 377 x 85 mm) to mount any PCB on a meshedbackplate, including cable saddle, key and screw locked,front and pryoff tamper - CE marked",
+ "specs": [],
+ "for": [
+  "LNL-M2220",
+  "LNL-M4420"
+ ]
+}

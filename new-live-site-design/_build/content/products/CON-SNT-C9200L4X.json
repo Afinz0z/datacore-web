@@ -1,0 +1,14 @@
+{
+ "sku": "CON-SNT-C9200L4X",
+ "order": 4987,
+ "n": "Cisco service support contract",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SNTC-8X5XNBD Catalyst 9200L 48-port PoE+, 4 x 10G, Ne",
+ "specs": [],
+ "for": [
+  "C9200L-48P-4X-E"
+ ]
+}

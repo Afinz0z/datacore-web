@@ -1,0 +1,15 @@
+{
+ "sku": "PRA-CSE",
+ "order": 4454,
+ "n": "Call station extension-PRA-CSE",
+ "b": "Bosch",
+ "c": "Call station extension",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch PRA-CSE Call station extension, Twelve buttons with tactile feedback and configurable functionality",
+ "specs": [],
+ "for": [
+  "PRA-CSLD",
+  "PRA-CSLW"
+ ]
+}

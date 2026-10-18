@@ -1,0 +1,19 @@
+{
+ "sku": "98012400_88134UGQ-6AU_36",
+ "order": 5066,
+ "n": "24 Port access switch-36M support/service",
+ "b": "Huawei",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5735-S24PN4XE-V2 (24*10/100/1000/2.5GBASE-T ports(PoE+), 4*10GE SFP+ ports, 2*12GE stack ports, without power module)_Co-Care Standard S5735-S24PN4XE_36Month(s)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "for": [
+  "S5735-S24PN4XE-V2"
+ ]
+}

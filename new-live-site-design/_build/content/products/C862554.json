@@ -1,0 +1,19 @@
+{
+ "sku": "C862554",
+ "order": 5274,
+ "n": "Extension bracket for mounting the uPASS",
+ "b": "Gallagher",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "UPASS GO MOUNT SET EXTENSION",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Mounting Accessory"
+  }
+ ],
+ "for": [
+  "C862553"
+ ]
+}

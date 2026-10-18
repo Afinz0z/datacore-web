@@ -1,0 +1,24 @@
+{
+ "sku": "WD8002PURP",
+ "order": 4553,
+ "n": "8TB SATA Internal HDD",
+ "b": "Western Digital",
+ "c": "HARD DISK",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "WESTERN DIGITAL 8TB PURPLE SATA INTERNAL HARD DRIVE",
+ "specs": [],
+ "for": [
+  "DS-7604NI-K1/4P",
+  "DS-7604NI-Q1/4P",
+  "DS-7604NXI-K1/4P",
+  "DS-7608NI-K1",
+  "DS-7608NI-K1/8P",
+  "DS-7608NI-K2",
+  "DS-7608NI-Q1",
+  "DS-7616NI-K1",
+  "DS-7616NI-K2/4G",
+  "DS-7616NI-Q2",
+  "DS-7616NI-Q2/16P"
+ ]
+}

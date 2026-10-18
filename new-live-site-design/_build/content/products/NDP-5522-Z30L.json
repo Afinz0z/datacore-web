@@ -1,0 +1,19 @@
+{
+ "sku": "NDP-5522-Z30L",
+ "order": 3228,
+ "n": "PTZ Camera 2MP-Bosch",
+ "b": "Bosch",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "NDP-5522-Z30 PTZ 2MP 30x IP66 pendant AUTODOME IP starlight 5000i",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  }
+ ],
+ "acc": [
+  "NDA-U-PMAL"
+ ]
+}

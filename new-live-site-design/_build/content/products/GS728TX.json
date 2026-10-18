@@ -1,0 +1,19 @@
+{
+ "sku": "GS728TX",
+ "order": 2988,
+ "n": "24-Port Gigabit Ethernet Smart Managed Switch with 4 10G SFP+",
+ "b": "Netgear",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "24P GE SMART SWTH W/10G SFP+",
+ "specs": [],
+ "acc": [
+  "DRV-GS728TX-12",
+  "DRV-GS728TX-36",
+  "DRV-GS728TX-60",
+  "DRV-GS728TXUP-12",
+  "DRV-GS728TXUP-36",
+  "DRV-GS728TXUP-60"
+ ]
+}

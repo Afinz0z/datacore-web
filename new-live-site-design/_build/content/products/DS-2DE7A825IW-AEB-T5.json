@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2DE7A825IW-AEB-T5",
+ "order": 3324,
+ "n": "8 MP 25× IR Network Speed Dome (PTZ)",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8 MP 25× IR Network Speed Dome",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  },
+  {
+   "label": "Series",
+   "value": "DarkFighter"
+  }
+ ]
+}

@@ -1,27 +1,17 @@
 {
  "sku": "R7J27A",
- "n": "Aruba AP-635 Wi-Fi 6E tri-radio access point",
+ "order": 3097,
+ "n": "HPE Aruba Networking AP-635 (RW) Tri-radio 2x2 802.11ax Wi-Fi 6E Internal Antennas Campus AP",
  "b": "Aruba",
- "c": "Networking",
- "g": "ap",
- "avail": "stock",
- "specs": [
-  {
-   "label": "Standard",
-   "value": "Wi-Fi 6E"
-  },
-  {
-   "label": "Radios",
-   "value": "Tri-band"
-  },
-  {
-   "label": "PoE",
-   "value": "802.3at"
-  },
-  {
-   "label": "Mount",
-   "value": "Indoor ceiling"
-  }
- ],
- "order": 4
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ HPE Aruba Networking AP-635 (RW) Tri-radio 2x2 802.11ax Wi-Fi 6E Internal Antennas Campus AP ​",
+ "specs": [],
+ "acc": [
+  "H29YDE",
+  "H2XW4E",
+  "JW471AAE",
+  "R3J18A"
+ ]
 }

@@ -1,0 +1,14 @@
+{
+ "sku": "MFCA",
+ "order": 3644,
+ "n": "MFCA card",
+ "b": "Suprema",
+ "c": "Pvc Card",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Mifare cards, 13.5Mhz, plain white, 1k",
+ "specs": [],
+ "for": [
+  "XPD2-GKDB"
+ ]
+}

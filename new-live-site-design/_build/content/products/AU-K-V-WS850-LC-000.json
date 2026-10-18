@@ -1,0 +1,19 @@
+{
+ "sku": "AU-K-V-WS850-LC-000",
+ "order": 3246,
+ "n": "LPR-Gentec",
+ "b": "Genetec",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "White AutoVu™ SharpV Camera Kit which includes: SharpV Dual motorized lenses (LPR and Context) with 850nm illuminator, mounting bracket and Sharp Camera Connection (24Vdc or PoE++ 802.3bt Type 3 required).",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ANPR Camera"
+  }
+ ],
+ "acc": [
+  "ADV-LPR-F-1Y"
+ ]
+}

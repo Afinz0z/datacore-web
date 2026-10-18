@@ -1,0 +1,15 @@
+{
+ "sku": "LNL-1100-S3",
+ "order": 1672,
+ "n": "16 configurable inputs and 2 relay outputs - LENEL",
+ "b": "LenelS2",
+ "c": "Control Module",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "16 configurable input control points and 2 output control relays. It supports normally open, normally closed, supervised and non-supervised",
+ "specs": [],
+ "for": [
+  "LNL-M2220",
+  "LNL-M4420"
+ ]
+}

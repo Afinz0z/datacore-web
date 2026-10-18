@@ -1,0 +1,20 @@
+{
+ "sku": "DH-PFM920I-6UN-CN",
+ "order": 3894,
+ "n": "305m U/UTP CAT6 Network Cable (Orange, CPR Eca) Dahua",
+ "b": "Dahua",
+ "c": "UTP CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "305m U/UTP CAT6 Network Cable (Orange, CPR Eca)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6"
+  },
+  {
+   "label": "Unit",
+   "value": "Box"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "CU4200TUK",
+ "order": 3580,
+ "n": "Salto Auxiliary Controller",
+ "b": "Salto",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SALTO XS4 Controller - auxiliary. Two reader option. To be used in combination with SALTO Readers range",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Extension controller"
+  }
+ ],
+ "for": [
+  "CU42E0TUK"
+ ]
+}

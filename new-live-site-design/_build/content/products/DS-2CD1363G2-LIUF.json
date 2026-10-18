@@ -1,0 +1,22 @@
+{
+ "sku": "DS-2CD1363G2-LIUF",
+ "order": 3322,
+ "n": "6MP Turret Network Camera Smart Hybrid Light",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 6MP Turret Network Camera Smart Hybrid Light",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "DS-1272ZJ-110",
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-S"
+ ]
+}

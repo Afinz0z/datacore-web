@@ -1,0 +1,19 @@
+{
+ "sku": "DS-7608NI-K1/8P",
+ "order": 3428,
+ "n": "8CH NVR 8 Independent PoE",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 8CH Network Video Recorder 8 Independent PoE Network Interfaces - 1 HDD Support",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR K series"
+  }
+ ],
+ "acc": [
+  "WD8002PURP"
+ ]
+}

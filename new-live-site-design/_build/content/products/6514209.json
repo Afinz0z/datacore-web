@@ -1,0 +1,14 @@
+{
+ "sku": "6514209",
+ "order": 4127,
+ "n": "CEN-SWSFP-PWS350",
+ "b": "Crestron",
+ "c": "Power Supply",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CEN-SWSFP-PWS350 350 W Power Supply Unit for CEN-SWSFP-28 or CEN-SWPOE-52 Network Switch",
+ "specs": [],
+ "for": [
+  "6514196"
+ ]
+}

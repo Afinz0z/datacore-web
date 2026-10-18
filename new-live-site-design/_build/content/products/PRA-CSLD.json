@@ -1,24 +1,15 @@
 {
  "sku": "PRA-CSLD",
- "n": "PRAESENSA LCD call station with keypad",
+ "order": 4408,
+ "n": "Desktop LCD call station-PRA-CSLD",
  "b": "Bosch",
- "c": "Public address",
- "g": "station",
+ "c": "Paging mic",
+ "dept": "AV",
  "avail": "lead",
- "lead": 30,
- "specs": [
-  {
-   "label": "Zones",
-   "value": "Expandable"
-  },
-  {
-   "label": "Standard",
-   "value": "EN 54-16"
-  },
-  {
-   "label": "Mount",
-   "value": "Desktop"
-  }
- ],
- "order": 28
+ "d": "Bosch PRA-CSLD Desktop LCD call station, Desktop housing with gooseneck microphone, 4.3\" full-color capacitive touch screen",
+ "specs": [],
+ "acc": [
+  "PRA-CSE",
+  "PVA-20CSE"
+ ]
 }

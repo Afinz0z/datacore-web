@@ -1,0 +1,14 @@
+{
+ "sku": "N890.090",
+ "order": 4100,
+ "n": "Fiber casette (nexans)",
+ "b": "Nexans",
+ "c": "Fiber Casette",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Splice Cassette Large 12 Heat Shrink Protection",
+ "specs": [],
+ "for": [
+  "N439.4SNB"
+ ]
+}

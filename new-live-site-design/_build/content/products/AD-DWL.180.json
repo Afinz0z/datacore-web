@@ -1,0 +1,20 @@
+{
+ "sku": "AD-DWL.180",
+ "order": 919,
+ "n": "Q-SYS 5.25 inch two-way landscape loudspeaker",
+ "b": "Q-SYS",
+ "c": "Speaker",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "5.25\" two-way direct weather landscape loudspeaker.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Landscape loudspeaker"
+  },
+  {
+   "label": "Series",
+   "value": "AcousticDesign Series"
+  }
+ ]
+}

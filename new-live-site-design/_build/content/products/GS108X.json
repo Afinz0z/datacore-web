@@ -1,0 +1,16 @@
+{
+ "sku": "GS108X",
+ "order": 3010,
+ "n": "8-port Gigabit Ethernet Unmanaged Switch - Netgear",
+ "b": "Netgear",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8PT GIG UM +1P 10G SFP+ UPLINK",
+ "specs": [],
+ "acc": [
+  "DRV-GS108X-12",
+  "DRV-GS108X-36",
+  "DRV-GS108X-60"
+ ]
+}

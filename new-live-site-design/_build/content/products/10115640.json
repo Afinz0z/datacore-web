@@ -1,0 +1,16 @@
+{
+ "sku": "10115640",
+ "order": 4710,
+ "n": "Queue Management License",
+ "b": "Qmatic",
+ "c": "Queue Management System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Orchestra 7, Counter",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Queue Management License"
+  }
+ ]
+}

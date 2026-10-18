@@ -1,0 +1,16 @@
+{
+ "sku": "C8200-RM-19-1R",
+ "order": 5255,
+ "n": "Cisco Catalyst 8200 Rack mount kit - 19 1R",
+ "b": "Cisco",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cisco Catalyst 8200 Rack mount kit - 19\" 1R",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rackmount kit"
+  }
+ ]
+}

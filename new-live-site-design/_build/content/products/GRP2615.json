@@ -1,0 +1,13 @@
+{
+ "sku": "GRP2615",
+ "order": 4636,
+ "n": "IP Telephone GRANDSTREAM GRP2615",
+ "b": "Grandstream",
+ "c": "IP TELEPHONY",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "UCM6302A"
+ ]
+}

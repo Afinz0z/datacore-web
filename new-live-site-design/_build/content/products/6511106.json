@@ -1,0 +1,20 @@
+{
+ "sku": "6511106",
+ "order": 1003,
+ "n": "AMP-X50MP",
+ "b": "Crestron",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "X-Series Media Presentation Amplifier, 50 W The Crestron® AMP-X50MP is a low-cost audio amplifier solution that is suitable for a variety of applications. It features a compact, surface-mountable design that installs virtually anywhere without requiring an equipment rack.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "X Series"
+  }
+ ],
+ "acc": [
+  "6510957",
+  "6511998"
+ ]
+}

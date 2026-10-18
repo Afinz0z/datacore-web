@@ -1,0 +1,50 @@
+{
+ "sku": "IFP6562",
+ "order": 160,
+ "n": "ViewBoard IFP6562",
+ "b": "ViewSonic",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "65\"4k UHD IFP Panel (20 touch, PCAP, Active Pen, Android 8.0)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Interactive"
+  }
+ ],
+ "acc": [
+  "LG-CMBB-65",
+  "LG-Emerald1",
+  "LG-Emerald3-N20",
+  "LG-VW04-IN",
+  "LGC-5586",
+  "LGCM-65-5",
+  "LGFS-5565D",
+  "LGFS-5586-N23",
+  "LGFS-6598",
+  "LGWM-3265F-IN",
+  "LGWM-3265SW",
+  "LGWM-3790F",
+  "LGWM-3790T",
+  "LGWM-4365R",
+  "LGWM-5586SW",
+  "LGWM-5598SW",
+  "LPAUB",
+  "MCB1U",
+  "MTMP1U",
+  "PDRUB",
+  "PNRUB",
+  "PSBUB",
+  "RMF3",
+  "RMT3",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "VB-WMK-004",
+  "WMK-077",
+  "XTM1U"
+ ]
+}

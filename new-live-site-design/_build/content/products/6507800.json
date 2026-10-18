@@ -1,0 +1,22 @@
+{
+ "sku": "6507800",
+ "order": 1705,
+ "n": "CAEN-BLOCK-CENCN-2-POE",
+ "b": "Crestron",
+ "c": "Extenders",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CAEN-BLOCK-CENCN-2-POE Ethernet to Cresnet® Bridge for CAEN Automation Enclosures",
+ "specs": [],
+ "for": [
+  "6500407",
+  "6500408",
+  "6500438",
+  "6500733",
+  "6500780",
+  "6506307",
+  "6506383",
+  "6506384",
+  "MP-16"
+ ]
+}

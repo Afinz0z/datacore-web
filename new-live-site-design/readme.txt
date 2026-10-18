@@ -64,8 +64,9 @@ each page is for:
                           (there are 38 service pages in total).
 
   • Products ............ A searchable catalogue of hardware. Visitors
-                          can filter by category, brand, or
-                          availability, add items to a "request" list,
+                          can filter by category, type or brand, see
+                          the accessories and licences that go with a
+                          product, add items to a "request" list,
                           and send it to Datacore for a price quote.
                           (No payment happens on the site — it simply
                           creates a quote request.)
@@ -173,6 +174,10 @@ You do not need this section to use the site, but it helps to know:
   • If you want a change made, the simplest path is to write down
     exactly what you want (which page, what should it say, which photo)
     and pass it to your web maintainer.
+
+  • The product list comes from the inventory system. To refresh it,
+    send the latest "Products-All-Categories" spreadsheet export to
+    your web maintainer.
 
 
 --------------------------------------------------------------------

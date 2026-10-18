@@ -1,0 +1,21 @@
+{
+ "sku": "70-1112-01",
+ "order": 1940,
+ "n": "XTP II CP 4i HD 4K PLUS",
+ "b": "Extron",
+ "c": "AV Switcher",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "XTP II CP 4i HD 4K PLUS Four Input Board, 4K/60 HDMI with Stereo Audio",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Input Card"
+  }
+ ],
+ "for": [
+  "60-1981-01",
+  "60-2031-01",
+  "60-2031-11"
+ ]
+}

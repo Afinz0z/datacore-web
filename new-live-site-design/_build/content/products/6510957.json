@@ -1,0 +1,19 @@
+{
+ "sku": "6510957",
+ "order": 4125,
+ "n": "AMP-PNMK",
+ "b": "Crestron",
+ "c": "Power Supply",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "AMP-PNMK Plenum Kit for Crestron X-Series Audio Amplifiers",
+ "specs": [],
+ "for": [
+  "6510866",
+  "6511106",
+  "6511136",
+  "6511742",
+  "6511743",
+  "6511744"
+ ]
+}

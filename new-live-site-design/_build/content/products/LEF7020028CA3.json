@@ -1,0 +1,19 @@
+{
+ "sku": "LEF7020028CA3",
+ "order": 5251,
+ "n": "Canon Camera Lens",
+ "b": "Canon",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Canon EF 70-200mm f/2.8L IS III USM",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "camera lens"
+  }
+ ],
+ "for": [
+  "16C-H5PRO-B"
+ ]
+}

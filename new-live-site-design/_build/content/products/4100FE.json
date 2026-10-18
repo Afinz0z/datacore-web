@@ -1,0 +1,20 @@
+{
+ "sku": "4100FE",
+ "order": 2542,
+ "n": "4100FE",
+ "b": "Belden",
+ "c": "CONTROL CABLE",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Speaker Cable, 2-14 AWG stranded bare copper conductors with polypropylene insulation",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Speaker Cable"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

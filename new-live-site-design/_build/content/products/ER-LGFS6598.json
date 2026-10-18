@@ -1,0 +1,19 @@
+{
+ "sku": "ER-LGFS6598",
+ "order": 2785,
+ "n": "Equipment Rack-ER-LGFS6598",
+ "b": "Logic",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Equipment Rack Accessory for LGFS-6598",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Trolley Stand"
+  }
+ ],
+ "for": [
+  "55UH5N-E"
+ ]
+}

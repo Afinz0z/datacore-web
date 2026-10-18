@@ -1,0 +1,14 @@
+{
+ "sku": "BE6K-RAIDCTRLR-M6",
+ "order": 4513,
+ "n": "Cisco 12G SAS RAID Controller",
+ "b": "Cisco",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cisco 12G SAS RAID Controller w/4GB FBWC (16 Drv) w/1U Brkt",
+ "specs": [],
+ "for": [
+  "BE6K-M6-K9"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "60-440-01",
+ "order": 2109,
+ "n": "MDA 3A",
+ "b": "Extron",
+ "c": "Distribution Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "MDA 3A Three Output Stereo Audio Distribution Amplifier",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Audio Distribution Amplifier"
+  }
+ ]
+}

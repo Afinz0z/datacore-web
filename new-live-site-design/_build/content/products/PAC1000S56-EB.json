@@ -1,0 +1,15 @@
+{
+ "sku": "PAC1000S56-EB",
+ "order": 4293,
+ "n": "AC&240V DC Power Module",
+ "b": "Huawei",
+ "c": "Power Module",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1000W AC&240V DC Power Module (66mm Width Case, Back to Front, Power panel side exhaust)",
+ "specs": [],
+ "for": [
+  "S5735-S48P4XE-V2",
+  "S5755-H48UM4Y2CZ"
+ ]
+}

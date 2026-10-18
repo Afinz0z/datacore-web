@@ -1,0 +1,27 @@
+{
+ "sku": "Kiosk",
+ "order": 2837,
+ "n": "Kiosk-Samsung Floor",
+ "b": "Samsung",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Samsung Kiosk (55\"\") Floor Stand",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Floor Mount"
+  }
+ ],
+ "for": [
+  "HG65U800FAUXUE",
+  "LH13QBRMBGCXUE",
+  "LH50QMCEPGCXUE",
+  "LH55QMCEBGCXUE",
+  "LH65QMCBGCXUE",
+  "LH65QMCEBGCXUE",
+  "LH65QMREBGCXUE",
+  "LH75QMCEBGCXUE",
+  "LHM0606/10"
+ ]
+}

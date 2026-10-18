@@ -1,0 +1,19 @@
+{
+ "sku": "S5735-L16P2UM2X-QA-V2",
+ "order": 2968,
+ "n": "16 port access switch",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5735-L16P2UM2X-QA-V2 (16*10/100/1000BASE-T ports(PoE+), 2*100M/1G/2.5G/5G/10G Ethernet ports(PoE++), 2*10GE SFP+ ports, 247 W PoE, built-in AC power, Fanless)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "98012238_88134UGQ-427_36"
+ ]
+}

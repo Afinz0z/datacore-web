@@ -1,0 +1,24 @@
+{
+ "sku": "BS7629-2C25-RED-P",
+ "order": 3879,
+ "n": "FP200 Gold, 2.5MM / 2C+E, Fire resistant Cable",
+ "b": "Prysmian",
+ "c": "CONTROL CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "2.5MM/2C+E FIRE PERFORMANCE 300/500V SOLID RED BS7629 BS6387 CWZ (500Mtr/Roll)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Low Voltage Fire resistant screened cable"
+  },
+  {
+   "label": "Series",
+   "value": "Fire-resistant"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

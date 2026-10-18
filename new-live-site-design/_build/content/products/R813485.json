@@ -1,0 +1,20 @@
+{
+ "sku": "R813485",
+ "order": 4095,
+ "n": "CAT 6A, Shielded Patch panel",
+ "b": "R&M",
+ "c": "Copper Cabling Solution",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "19\" 1U PC Patch Panel 24-Port/s, Cat. 6A, gray, empty",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "24 port patch panel"
+  },
+  {
+   "label": "Series",
+   "value": "Shielded"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "sku": "GSC-5.13",
+ "order": 3491,
+ "n": "Genetec Security Center Version 5.13 - Genetec",
+ "b": "Genetec",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Security Center Version 5.13.",
+ "specs": [],
+ "acc": [
+  "ADV-RDR-3-3Y",
+  "ADV-RDR-E-3Y",
+  "GSC-1D",
+  "GSC-1PSALTOSVN",
+  "GSC-1PSALTOSVN-1D",
+  "GSC-1SDK-INTELEXVISION ISEN",
+  "GSC-BASE-E",
+  "GSC-IIOT",
+  "SV-2040E-R4-12T-4-436",
+  "SV-2040E-R6S-D480-436",
+  "SV-4040EX-R28-560T-20-416",
+  "SV-E-ACC-SFP-SR",
+  "SVW-505E-T4-D2000-465"
+ ]
+}

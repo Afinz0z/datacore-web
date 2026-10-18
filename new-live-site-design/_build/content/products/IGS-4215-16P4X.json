@@ -1,0 +1,16 @@
+{
+ "sku": "IGS-4215-16P4X",
+ "order": 3033,
+ "n": "16-Port Industrial Managed Ethernet Switch - Planet",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IP30 Industrial L2+ 16-Port 10/100/1000T 802.3at PoE + 4-Port 10G SFP+ Managed Switch (-40~75 degrees C, 360W PoE budget, 802.3at/Legacy/Force modes, PoE PD alive check and schedule management, 250m Extend mode, dual redundant power input on 48~54VDC terminal block, DIDO, Type-C console port, 802.1Q VLAN, IGMP Snooping, TLSv1.2, SSHv2, SNMPv3 Cybersecurity,ACL, ERPS Ring, CloudViewerPro app, NMSViewerPro app andNMS MQTT, supports 100FX, 1000X, 2.5G SFP and 10G SFP+)",
+ "specs": [],
+ "acc": [
+  "MTB-LR",
+  "MTB-TLR",
+  "PWR-480-48"
+ ]
+}

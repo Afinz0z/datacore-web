@@ -1,0 +1,20 @@
+{
+ "sku": "DS-1LN6U-SC0",
+ "order": 3903,
+ "n": "CAT6 WHITE UTP Cable Orange Color for CCTV",
+ "b": "Hikvision",
+ "c": "UTP CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CAT6 WHITE UTP Cable (305m per box), Orang Color, 23 AWG",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

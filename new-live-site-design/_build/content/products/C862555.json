@@ -1,0 +1,19 @@
+{
+ "sku": "C862555",
+ "order": 5275,
+ "n": "uPASS Weather Protection Hood",
+ "b": "Gallagher",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "UPASS WHEATHER PROTECTION HOOD",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Protective Accessory"
+  }
+ ],
+ "for": [
+  "C862553"
+ ]
+}

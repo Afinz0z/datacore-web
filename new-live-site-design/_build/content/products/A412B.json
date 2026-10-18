@@ -1,0 +1,14 @@
+{
+ "sku": "A412B",
+ "order": 2845,
+ "n": "Desktop Base",
+ "b": "Shure",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "MX418",
+  "MX418/C"
+ ]
+}

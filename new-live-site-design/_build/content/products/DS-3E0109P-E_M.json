@@ -1,0 +1,20 @@
+{
+ "sku": "DS-3E0109P-E/M",
+ "order": 2966,
+ "n": "8-Port Unmanaged PoE Switch-65W",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8-Port 100 Mbps Unmanaged PoE Switch - 65 W",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  },
+  {
+   "label": "Series",
+   "value": "L2 Series Switch"
+  }
+ ]
+}

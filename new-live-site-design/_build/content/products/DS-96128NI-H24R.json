@@ -1,0 +1,15 @@
+{
+ "sku": "DS-96128NI-H24R",
+ "order": 3432,
+ "n": "NVR-128 CH-HIKVISION",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ Up to 128 IP cameras can be connected, Supports live view, storage, and playback of the connected camera at up to 12 megapixels resolution, H.265+ compression effectively reduces the storage space by up to 75%, 4 self-adaptive 10M/100M/1000M network interfaces. ​",
+ "specs": [],
+ "acc": [
+  "Hikcentral-P-VSS- 128Ch/Base/Promo",
+  "Hikcentral-P-VSS- 1Ch/ANPR"
+ ]
+}

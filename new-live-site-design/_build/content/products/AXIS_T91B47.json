@@ -1,0 +1,23 @@
+{
+ "sku": "AXIS T91B47",
+ "order": 3444,
+ "n": "Pole Mount Bracket",
+ "b": "Axis",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Outdoor pole mount bracket designed for installing compatible Axis cameras on poles Comes along with steel starps.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Pole mount"
+  }
+ ],
+ "for": [
+  "AXIS P1467-LE",
+  "AXIS P3277-LV",
+  "AXIS Q6358-LE US",
+  "P1468-LE",
+  "P3268-LV"
+ ]
+}

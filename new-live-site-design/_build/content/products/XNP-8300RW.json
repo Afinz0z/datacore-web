@@ -1,0 +1,19 @@
+{
+ "sku": "XNP-8300RW",
+ "order": 3259,
+ "n": "6MP 30x Outdoor non Dome PTZ",
+ "b": "Hanwha Vision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "WISENET, 6MP 30x Outdoor non Dome PTZ, IR, Wiper, IP66, IK10, NEMA",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  }
+ ],
+ "acc": [
+  "SBP-156WMW"
+ ]
+}

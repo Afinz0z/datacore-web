@@ -1,0 +1,16 @@
+{
+ "sku": "R1-FC-TB-91-06",
+ "order": 4003,
+ "n": "06 Fibres Cable Singlemode",
+ "b": "Ramcro",
+ "c": "SINGLE MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Tight Buffered Distribution Cable Singlemode LSZH 06 Fibres",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "IGS-624HPT",
+ "order": 3039,
+ "n": "Industrial 4 Port Switch",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IGS-624HPT Industrial 4-Port 10/100/1000T 802.3at PoE + 2-Port 100/1000X SFP Ethernet Switch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Switch"
+  }
+ ]
+}

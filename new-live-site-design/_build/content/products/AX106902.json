@@ -1,0 +1,16 @@
+{
+ "sku": "AX106902",
+ "order": 3961,
+ "n": "Patch Panel, 24-port, 1U",
+ "b": "Belden",
+ "c": "UTP PATCHPANEL",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "AX106902 Faceplates and Panels - Key Connect Shielded Patch Panel, 24-port, 1U",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "24 port patch panel"
+  }
+ ]
+}

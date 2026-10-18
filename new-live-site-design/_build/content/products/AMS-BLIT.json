@@ -1,0 +1,14 @@
+{
+ "sku": "AMS-BLIT",
+ "order": 4762,
+ "n": "ACS License Lite base",
+ "b": "Bosch",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Bosch-ACS License Lite base",
+ "specs": [],
+ "for": [
+  "APC-AMC2 4WCF"
+ ]
+}

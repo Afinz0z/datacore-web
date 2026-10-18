@@ -1,0 +1,19 @@
+{
+ "sku": "5-1933433-3",
+ "order": 4103,
+ "n": "Modular Plug Kit",
+ "b": "CommScope",
+ "c": "MODULAR PLUG KIT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Modular Plug Kit, Category 6A, shielded, 8-position, 7.87 mm max cable jack OD, 100/bag For 3291B F/UTP Cable",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Pack"
+  }
+ ],
+ "for": [
+  "2153365-2"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "HA60BB1",
+ "order": 3480,
+ "n": "Junction box",
+ "b": "Honeywell",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Junction box .Grey",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Junction box"
+  }
+ ],
+ "for": [
+  "HC70WB8R2"
+ ]
+}

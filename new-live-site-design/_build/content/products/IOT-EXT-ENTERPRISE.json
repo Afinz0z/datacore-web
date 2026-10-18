@@ -1,0 +1,14 @@
+{
+ "sku": "IOT-EXT-ENTERPRISE",
+ "order": 4792,
+ "n": "Cisco IoT Extended Enterprise",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IoT Extended Enterprise. For tracking only.",
+ "specs": [],
+ "for": [
+  "IE-3100-8P2C-E"
+ ]
+}

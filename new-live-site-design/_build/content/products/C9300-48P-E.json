@@ -1,0 +1,31 @@
+{
+ "sku": "C9300-48P-E",
+ "order": 2929,
+ "n": "Catalyst 9300 48-port PoE+-Switch (Cisco)",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Catalyst 9300 48-port 1G copper with modular uplinks, PoE+, Network Essentials",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "C9300-DNA-E-48",
+  "C9300-DNA-E-48-3Y",
+  "C9300-NM-8X",
+  "C9300-NW-E-48",
+  "CAB-SPWR-30CM",
+  "CAB-TA-UK",
+  "CON-SSSNT-C93004PE",
+  "NETWORK-PNP-LIC",
+  "PWR-C1-715WAC-P",
+  "PWR-C1-715WAC-P/2",
+  "S9300UK9",
+  "SFP-10G-LR=",
+  "STACK-T1-50CM"
+ ]
+}

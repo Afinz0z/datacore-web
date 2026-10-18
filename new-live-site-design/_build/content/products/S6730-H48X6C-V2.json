@@ -1,0 +1,22 @@
+{
+ "sku": "S6730-H48X6C-V2",
+ "order": 2972,
+ "n": "48 × 10GE SFP Core switch",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S6730-H48X6C-V2(48*10GE SFP+ ports, 6*40GE QSFP28 ports, optional license for upgrade to 6*100GE QSFP28, without power module)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Core switch"
+  }
+ ],
+ "acc": [
+  "02354HHT_88134UGQ-4ST_36",
+  "L-MLIC-S67H",
+  "PAC600S12-EB",
+  "QSFP-100G-CU2M"
+ ]
+}

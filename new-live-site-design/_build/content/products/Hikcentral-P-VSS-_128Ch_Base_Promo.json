@@ -1,0 +1,19 @@
+{
+ "sku": "Hikcentral-P-VSS- 128Ch/Base/Promo",
+ "order": 4858,
+ "n": "HiKCentral-VSS-Base-HW- 128Ch",
+ "b": "Hikvision",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HikCentral Professional is integrated security software designed to meet versatile securitychallenges in a single platform. As well as protecting people and property, it makes daily operationsmore efficient, and helps all kinds of users make smarter decisions. HikCentral Professional’s coreapplications include:",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Nvr"
+  }
+ ],
+ "for": [
+  "DS-96128NI-H24R"
+ ]
+}

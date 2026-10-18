@@ -1,0 +1,19 @@
+{
+ "sku": "SSI-Guard-WB",
+ "order": 4262,
+ "n": "SSI Battery Back Up Unit",
+ "b": "HID",
+ "c": "Battery",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SSI Battery Back Up Unit with SMPS power Supply In Metal Enclosure. I/P:230 VAC | O/P 12V / 5AMP (With Battery Charging Unit but WITHOUT Battery)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Battery Pack"
+  }
+ ],
+ "for": [
+  "X1100C"
+ ]
+}

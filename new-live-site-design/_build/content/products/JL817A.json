@@ -1,0 +1,26 @@
+{
+ "sku": "JL817A",
+ "order": 2915,
+ "n": "ARUBA 12 Port Industrial Switch",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Aruba 4100i 12G industrial DIN-rail PoE switch with 8x Class 4 and 4x Class 6 PoE ports, dual 10G SFP+ uplinks, designed for hardened environments.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  },
+  {
+   "label": "Series",
+   "value": "4100i"
+  }
+ ],
+ "acc": [
+  "H49Y0E",
+  "J9151E",
+  "JL783A",
+  "JL819A"
+ ]
+}

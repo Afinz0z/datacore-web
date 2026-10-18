@@ -1,0 +1,15 @@
+{
+ "sku": "LNL-400XA",
+ "order": 4157,
+ "n": "S2 XA - 13.8 VDC 5 A Switched Mode Power Supply - LENEL",
+ "b": "LenelS2",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LenelS2 XA - 13.8 VDC 5 A Switched Mode Power Supply with 4 fused outputs embedded (= LNL-XA-PSU12V-5A) with LNL-400XA-ENC enclosure (500 x 400 x 85 mm) to mount any PCB on a meshed backplate, including cable saddle, key and screw locked, front and pryoff tamper -CE marked",
+ "specs": [],
+ "for": [
+  "LNL-M2220",
+  "LNL-M4420"
+ ]
+}

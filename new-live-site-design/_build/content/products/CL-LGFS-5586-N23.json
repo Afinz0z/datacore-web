@@ -1,0 +1,20 @@
+{
+ "sku": "CL-LGFS-5586-N23",
+ "order": 2781,
+ "n": "Camera Ledge-CL-LGFS-5586-N23",
+ "b": "Logic",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Logic Camera Ledge Accessory for LGFS-5586-N23",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Trolley Stand"
+  }
+ ],
+ "for": [
+  "55UH5N-E",
+  "HG65U800FAUXUE"
+ ]
+}

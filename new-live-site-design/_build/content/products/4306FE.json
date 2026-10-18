@@ -1,0 +1,20 @@
+{
+ "sku": "4306FE",
+ "order": 3877,
+ "n": "8C 18AWG Control Cable",
+ "b": "Belden",
+ "c": "CONTROL CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8 Conductor 18 AWG BC, LSZH, Shielded, Eca",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "LSZH, Shielded"
+  },
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

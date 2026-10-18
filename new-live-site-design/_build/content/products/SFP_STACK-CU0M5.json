@@ -1,0 +1,15 @@
+{
+ "sku": "SFP+STACK-CU0M5",
+ "order": 3159,
+ "n": "SFP+ Stacking Cable (Huawei)",
+ "b": "Huawei",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SFP+ High speed dedicated stack cable-0.5m",
+ "specs": [],
+ "for": [
+  "98012238",
+  "S5735-L8P4X-QA-V2"
+ ]
+}

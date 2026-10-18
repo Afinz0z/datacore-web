@@ -1,0 +1,16 @@
+{
+ "sku": "SRTRK4",
+ "order": 4289,
+ "n": "APC UPS 19 INH Rail Kit for SRT 2.2/3kVA",
+ "b": "APC",
+ "c": "Rail kit for ups",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "APC Smart-UPS SRT 19\" Rail Kit for SRT 1/1.5/2.2/3kVA",
+ "specs": [],
+ "for": [
+  "SRT1000XLI",
+  "SRT2200XLI",
+  "SRT3000XLI"
+ ]
+}

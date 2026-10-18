@@ -1,0 +1,16 @@
+{
+ "sku": "21YC001SAD",
+ "order": 4601,
+ "n": "ThinkPad E16 Gen 4",
+ "b": "Lenovo",
+ "c": "Laptop",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ThinkPad E16 Gen 4, Intel® Core™ Ultra 7 355 (LPE-cores up to 3.50GHz, 12MB), 16\" WUXGA Non-Touch, No Operating System, 32.0GB, 1x1TB SSD M.2 2242 PCIe Gen4 TLC Opal, Intel® Graphics, BT 5.4,Wi-Fi 7 2x2 BE, Wired Ethernet, FPR, 1080PFHD Hybrid, 3 Cell Li-ion 48Wh, 65W, 2YR Depot/CCI,1CourierCarryin, Backlit, Black with Number Pad-Arabic",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "E16"
+  }
+ ]
+}

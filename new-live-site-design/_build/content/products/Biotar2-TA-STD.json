@@ -1,0 +1,14 @@
+{
+ "sku": "Biotar2-TA-STD",
+ "order": 5020,
+ "n": "Software License for Time Attendance (Suprema)",
+ "b": "Suprema",
+ "c": "Attendance Software",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Software License for Time Attendance upto 500 users",
+ "specs": [],
+ "for": [
+  "FSF2-ODB"
+ ]
+}

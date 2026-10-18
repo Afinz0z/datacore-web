@@ -1,0 +1,16 @@
+{
+ "sku": "MGB-LX",
+ "order": 3082,
+ "n": "1000BASE-SX/LX SFP Transceiver",
+ "b": "PLANET",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Mini GBIC LX Module - 20KM, DDM Supported",
+ "specs": [],
+ "for": [
+  "GS-4210-24P4C",
+  "GTP-805A",
+  "SGS-6310-16S8C4XR"
+ ]
+}

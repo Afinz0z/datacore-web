@@ -1,0 +1,16 @@
+{
+ "sku": "760249998",
+ "order": 3937,
+ "n": "1U Fiber patch panel",
+ "b": "CommScope",
+ "c": "Fiber Optic Patch panel",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "EPX 1U sliding panel, G2 style splice cassettes, modules or adapter packs, 48 duplex LC ports",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "fiber patch panel 1U"
+  }
+ ]
+}

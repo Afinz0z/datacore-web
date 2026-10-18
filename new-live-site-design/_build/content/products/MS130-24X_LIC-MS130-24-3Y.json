@@ -1,0 +1,16 @@
+{
+ "sku": "MS130-24X LIC-MS130-24-3Y",
+ "order": 2933,
+ "n": "cisco meraki 24 port switch with license",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CISCO Meraki MS130-24X 18GE + 6x(2.5GE) PoE Switch (no power cord) CISCO Meraki MS130-24 Enterprise License and Support, 3 Year",
+ "specs": [],
+ "acc": [
+  "MA-PWR-CORD-UK-FR",
+  "MA-SFP-10GB-LR",
+  "MA-SFP-10GB-SR"
+ ]
+}

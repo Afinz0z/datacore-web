@@ -1,0 +1,15 @@
+{
+ "sku": "DSS8PRAML",
+ "order": 4829,
+ "n": "DSS Professional V8 Alarm Device License",
+ "b": "Dahua",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DSS8PRAML is a DSS Professional V8 device license that enables the integration of one alarm controller into the DSS Professional platform. It allows centralized alarm monitoring, event management, and linkage with other Dahua security systems for enterprise security deployments.",
+ "specs": [],
+ "for": [
+  "DHI-IVSS7124DR",
+  "DSS8PRVB128"
+ ]
+}

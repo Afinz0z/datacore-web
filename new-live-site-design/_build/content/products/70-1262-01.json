@@ -1,0 +1,21 @@
+{
+ "sku": "70-1262-01",
+ "order": 1941,
+ "n": "XTP II CP 4i HD 8K",
+ "b": "Extron",
+ "c": "AV Switcher",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "XTP II CP 4i HD 8K Four Input Board, 8K HDMI with Stereo Audio",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Input Card"
+  }
+ ],
+ "for": [
+  "60-1981-01",
+  "60-2031-01",
+  "60-2031-11"
+ ]
+}

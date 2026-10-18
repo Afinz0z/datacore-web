@@ -1,0 +1,18 @@
+{
+ "sku": "S5735-L48P4XE-A-V2",
+ "order": 2976,
+ "n": "48-Port PoE Access Switch (Huawei)",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CloudEngine S5735-L48P4XE-A-V2 - 48 × Gigabit PoE+ access ports, 4 × 10G SFP+ uplink ports, 2 × 12GE stack ports, built-in AC power, Layer 3 managed access switch.​",
+ "specs": [],
+ "acc": [
+  "02311VGN",
+  "88134UGQ-2L7",
+  "98012120_88134UGQ-2L7_36",
+  "L-MLIC-S57L",
+  "SFP-10G-iLR"
+ ]
+}

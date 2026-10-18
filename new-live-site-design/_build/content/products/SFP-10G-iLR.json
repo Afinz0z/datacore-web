@@ -1,0 +1,14 @@
+{
+ "sku": "SFP-10G-iLR",
+ "order": 3071,
+ "n": "10G SFP+ Single-Mode Optical Transceiver (Huawei)",
+ "b": "Huawei",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Huawei SFP-10G-iLR is a hot-pluggable 10 Gbps SFP+ optical transceiver designed for high-speed Ethernet connectivity over single-mode fiber. It operates at a wavelength of 1310 nm , supports 10GBASE-iLR , provides transmission distances of up to 1.4 km , uses a duplex LC connector , and supports Digital Diagnostic Monitoring (DDM). It is compatible with a wide range of Huawei enterprise switches and routers.​",
+ "specs": [],
+ "for": [
+  "S5735-L48P4XE-A-V2"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "sku": "SBP-32S-256-0R",
+ "order": 4460,
+ "n": "Digital, IP, 3200 Model Clock",
+ "b": "Sapling",
+ "c": "Master Clock",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Sapling Digital, IP, 3200 Model, 2.5\", 6 Digits, PoE, Red Display, Surface Wall Mount, Elapsed Timer or Temperature Sensor Interface",
+ "specs": [],
+ "acc": [
+  "M-GPS-MTG-KIT-1",
+  "NET-MONT-SOFT"
+ ]
+}

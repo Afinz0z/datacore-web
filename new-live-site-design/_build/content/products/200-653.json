@@ -1,0 +1,16 @@
+{
+ "sku": "200-653",
+ "order": 4073,
+ "n": "Fiber Optic Pigtail OS3",
+ "b": "Excel",
+ "c": "Fiber Pigtails",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Excel Enbeam Fibre Pigtail OS2 9/125 SC/APC Clear White 1 m",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "single mode pigtail"
+  }
+ ]
+}

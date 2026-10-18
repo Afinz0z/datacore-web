@@ -1,0 +1,23 @@
+{
+ "sku": "JL819A",
+ "order": 4111,
+ "n": "DIN Power Supply (JL819A)",
+ "b": "Aruba",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "240W DIN-rail mounted AC power supply providing 54VDC output for Aruba 4100i/4000i industrial PoE switches. Designed for industrial installations",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  },
+  {
+   "label": "Series",
+   "value": "4100i"
+  }
+ ],
+ "for": [
+  "JL817A"
+ ]
+}

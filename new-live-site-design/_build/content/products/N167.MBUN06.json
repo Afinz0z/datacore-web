@@ -1,0 +1,19 @@
+{
+ "sku": "N167.MBUN06",
+ "order": 4039,
+ "n": "6 core fiber cable MM (Nexans)",
+ "b": "Nexans",
+ "c": "MULTI MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Micro-Bundle Universal 06X Multimode 50/125 OM4 LSZH Black",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ],
+ "acc": [
+  "N121.7MLA"
+ ]
+}

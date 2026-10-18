@@ -1,0 +1,27 @@
+{
+ "sku": "DS-2DE4425IW-DE-T5",
+ "order": 3282,
+ "n": "4MP 25X IR Optical Zoom PTZ Dome Network Camera - 100 M IR",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4MP 25X IR Optical Zoom PTZ Dome Network Camera - 100 M IR. Including wall Bracket",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ],
+ "acc": [
+  "DS-1005KI",
+  "DS-1602ZJ",
+  "DS-1619ZJ",
+  "DS-1663ZJ",
+  "DS-1672ZJ"
+ ]
+}

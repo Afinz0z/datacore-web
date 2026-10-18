@@ -1,0 +1,25 @@
+{
+ "sku": "70-1066-51",
+ "order": 2432,
+ "n": "Retractor XL USB-C - HDMI",
+ "b": "Extron",
+ "c": "Cable Cubby",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Retractor XL USB-C - HDMI Extended Length 4K Cable Retraction System for AVEdge, Cable Cubby®, Select TouchLink® Enclosures, and TMK 120 R Kit - USB-C® Male to HDMI Male",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cable Retraction System"
+  }
+ ],
+ "for": [
+  "70-1045-02",
+  "70-1045-08",
+  "70-1046-02",
+  "70-1046-08",
+  "70-1184-08",
+  "70-1185-02",
+  "70-1185-08"
+ ]
+}

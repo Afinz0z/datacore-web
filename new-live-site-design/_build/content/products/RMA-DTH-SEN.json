@@ -1,0 +1,21 @@
+{
+ "sku": "RMA-DTH-SEN",
+ "order": 4725,
+ "n": "Digital Temperature & Humidity Sensor",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Sensor - DigitalTemperature &Humidity w 25'Cable",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Digital Temperature & Humidity Sensor"
+  }
+ ],
+ "for": [
+  "RA12S-DAP-RAS",
+  "RA12S-DAP-WAS",
+  "RA32S-DAP-RAS"
+ ]
+}

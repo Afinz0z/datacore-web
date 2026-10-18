@@ -1,0 +1,15 @@
+{
+ "sku": "SRT192BP2",
+ "order": 4252,
+ "n": "Battery Pack APC for 8kVA and 10kVA",
+ "b": "APC",
+ "c": "Battery Pack-UPS",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "192V DC battery pack designed to extend the runtime of high-capacity APC Smart-UPS SRT models.",
+ "specs": [],
+ "for": [
+  "SRT10KXLI",
+  "SRT8KXLI"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "sku": "QSFP-100G-AOC10M",
+ "order": 3120,
+ "n": "100GBASE QSFP Active Optical Cable, 10m",
+ "b": "Cisco",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9500-48Y4C-A"
+ ]
+}

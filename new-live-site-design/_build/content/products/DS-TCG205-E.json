@@ -1,0 +1,19 @@
+{
+ "sku": "DS-TCG205-E",
+ "order": 3272,
+ "n": "2MP ANPR WITH IR LIGHT",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 2MP ANPR WITH IR LIGHT, 3.1~9MM MOTORIZED VF LENS for Car Entrance and Exit only",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ANPR Camera"
+  }
+ ],
+ "acc": [
+  "190501359"
+ ]
+}

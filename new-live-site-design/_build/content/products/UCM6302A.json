@@ -1,0 +1,15 @@
+{
+ "sku": "UCM6302A",
+ "order": 4631,
+ "n": "Grandstream IPPBX UCM 6302A",
+ "b": "Grandstream",
+ "c": "IP TELEPHONY",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "acc": [
+  "GRP2612W",
+  "GRP2615",
+  "UCMRC-PRO"
+ ]
+}

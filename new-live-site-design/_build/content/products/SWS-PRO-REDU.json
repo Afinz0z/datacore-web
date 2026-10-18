@@ -1,0 +1,19 @@
+{
+ "sku": "SWS-PRO-REDU",
+ "order": 4896,
+ "n": "OnGuard PRO Redundant Server Software License",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "OnGuard PRO Networked Dedicated Redundant Server Software License",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Reduntant license"
+  }
+ ],
+ "for": [
+  "SWS-PRO"
+ ]
+}

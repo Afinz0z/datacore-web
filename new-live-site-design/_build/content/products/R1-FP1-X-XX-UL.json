@@ -1,0 +1,16 @@
+{
+ "sku": "R1-FP1-X-XX-UL",
+ "order": 3959,
+ "n": "1U Sliding Patch Panel",
+ "b": "Ramcro",
+ "c": "Fiber Optic Patch panel",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1U Sliding Patch Panel 24 Position SC Simplex /LC Duplex /E2000 Simplex",
+ "specs": [],
+ "acc": [
+  "R1-FA-0-9-2",
+  "R1-FP-0-9-01",
+  "R1-FPC-00-92-01"
+ ]
+}

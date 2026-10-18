@@ -1,0 +1,14 @@
+{
+ "sku": "BE6K-RAM-M6-M5",
+ "order": 4603,
+ "n": "Cisco 16GB RDIMM Memory",
+ "b": "Cisco",
+ "c": "RAM",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "16GB RDIMM SRx4 3200 (8Gb)",
+ "specs": [],
+ "for": [
+  "BE6K-M6-K9"
+ ]
+}

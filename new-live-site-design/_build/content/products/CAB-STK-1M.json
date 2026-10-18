@@ -1,0 +1,14 @@
+{
+ "sku": "CAB-STK-1M",
+ "order": 3151,
+ "n": "stack cable",
+ "b": "Cisco",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1m Stacking Cable for Cisco Catalyst IE9300 Rugged Series",
+ "specs": [],
+ "for": [
+  "IE-9320-24P4X-E"
+ ]
+}

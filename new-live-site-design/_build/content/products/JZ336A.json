@@ -1,0 +1,23 @@
+{
+ "sku": "JZ336A",
+ "order": 3096,
+ "n": "HPE Aruba Networking AP-535 (RW) Dual Radio 4x4 802.11ax Internal Antennas Unified Campus AP",
+ "b": "Aruba",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ HPE Aruba Networking AP-535 (RW) Dual Radio 4x4 802.11ax Internal Antennas Unified Campus AP ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor campus access point"
+  }
+ ],
+ "acc": [
+  "HG6E9E",
+  "HM1B6E",
+  "JW053A",
+  "Q9G71A",
+  "R3J18A"
+ ]
+}

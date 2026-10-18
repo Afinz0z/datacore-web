@@ -1,0 +1,16 @@
+{
+ "sku": "DS-7716NI-I4",
+ "order": 3392,
+ "n": "16 Channel NVR Hikvision",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "16-ch 1.5U 4K NVR Up to 16 channel IP cameras can be connected",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "B Series NVR"
+  }
+ ]
+}

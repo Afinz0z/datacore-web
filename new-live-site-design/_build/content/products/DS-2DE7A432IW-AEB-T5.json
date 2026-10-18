@@ -1,0 +1,25 @@
+{
+ "sku": "DS-2DE7A432IW-AEB-T5",
+ "order": 3273,
+ "n": "4 MP 32X Powered by DarkFighter IR Network Speed Dome",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 7-inch 4 MP 32X Powered by DarkFighter IR Network Speed Dome, Including wall Bracket",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ],
+ "acc": [
+  "DS-1602ZJ",
+  "DS-1619ZJ",
+  "DS-1663ZJ"
+ ]
+}

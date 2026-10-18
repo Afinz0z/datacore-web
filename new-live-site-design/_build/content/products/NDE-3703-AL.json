@@ -1,0 +1,16 @@
+{
+ "sku": "NDE-3703-AL",
+ "order": 3225,
+ "n": "Dome 5MP - Bosch",
+ "b": "Bosch",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Fixed dome 5MP 3.3-10.2mm IP66 IK10",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

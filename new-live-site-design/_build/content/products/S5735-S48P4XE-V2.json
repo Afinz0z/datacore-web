@@ -1,0 +1,19 @@
+{
+ "sku": "S5735-S48P4XE-V2",
+ "order": 2975,
+ "n": "48-port Gigabit Ethernet Layer 3 managed switch",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "48*10/100/1000BASE-T ports, 4*10GE SFP+ ports, 2*12GE stack ports, PoE+, without power module",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "PAC1000S56-EB"
+ ]
+}

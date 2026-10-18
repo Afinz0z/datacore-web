@@ -1,0 +1,16 @@
+{
+ "sku": "760249251",
+ "order": 3676,
+ "n": "DUAL FACE PLATE",
+ "b": "CommScope",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FPS-BS-2P-W, 2 PORT SHUTTERED WHITE",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dual faceplate"
+  }
+ ]
+}

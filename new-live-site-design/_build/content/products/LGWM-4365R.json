@@ -1,0 +1,44 @@
+{
+ "sku": "LGWM-4365R",
+ "order": 2789,
+ "n": "Fixed Wall Mount 43 to 65-LGWM-4365-R",
+ "b": "Logic",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Logic Fixed Wall Mount Rotatable(90d) Bracket for 43\" to 65\" Flat panels, Max Loading Capaicty - 50kg",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mount"
+  }
+ ],
+ "for": [
+  "43UL3J-B",
+  "50UL3J-B",
+  "55UH5N-E",
+  "55UL3J-B",
+  "65UL3J-B",
+  "CDE4330",
+  "CDE5530",
+  "CDE6514-2C",
+  "CDE6530",
+  "EP5542",
+  "EP5542T",
+  "HG55U800FAUXUE",
+  "HG65U800FAUXUE",
+  "IFP6533-G",
+  "IFP6534",
+  "IFP6551",
+  "IFP6553",
+  "IFP6562",
+  "LH50QMCEPGCXUE",
+  "LH55QMCEBGCXUE",
+  "LH65QMREBGCXUE",
+  "LT-IR65AX",
+  "PN-LC862",
+  "PN-M432",
+  "PN-M552 PCAP",
+  "V6550"
+ ]
+}

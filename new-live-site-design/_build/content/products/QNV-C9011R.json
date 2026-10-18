@@ -1,0 +1,16 @@
+{
+ "sku": "QNV-C9011R",
+ "order": 3266,
+ "n": "Wisenet Q mini network outdoor vandal bullet camera",
+ "b": "Hanwha Vision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ Wisenet Q mini network outdoor vandal bullet camera, 4K @ 30fps, fix lens 3mm, triple codec H.265/H.264/MJPEG with Wisestream II, extremeWDR 120dB, IR 20m(65.6ft) WiseMD based on AI engine, Classified object type: Person/Vehicle ​ Attributes: Not support; IVA events based on AI engine: Classified object type : Person/Vehicle Virtual line*(Crossing/Direction), Virtual area*(Loitering(TBD)/Intrusion/Enter/Exit/(Dis)Appear) ​ Audio: Selectable(mic in/line in), defocus detection, hallway View, SD card, video analytics, USB for easy installation, open platform, IP66, IK10, PoE, white color ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

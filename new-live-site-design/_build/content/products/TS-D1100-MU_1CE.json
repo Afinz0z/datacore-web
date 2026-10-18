@@ -1,0 +1,16 @@
+{
+ "sku": "TS-D1100-MU 1CE",
+ "order": 644,
+ "n": "MASTER CONTROL UNIT",
+ "b": "TOA",
+ "c": "Audio Conference System",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "The TS-D1100-MU Master control unit for TOA's Digitalconference system is designed to be used by way ofsimple connections to its Conference Units (*1) usingCAT5e STP LAN cables. The Master control unit isalso equipped with a recording function, PC control(*2), and one-touch connection confirmation capability.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Master Control"
+  }
+ ]
+}

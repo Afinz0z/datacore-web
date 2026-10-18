@@ -1,0 +1,20 @@
+{
+ "sku": "GS-4210-16P4C",
+ "order": 3034,
+ "n": "16-Port Managed Switch Planet",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IPv6/IPv4, 16-Port Managed 802.3at POE+ Gigabit Ethernet Switch + 4-Port Gigabit Combo TP/SFP (220W PoE Budget, 250m Extend mode, supports ERPS Ring and cybersecurity features)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "IGTP-805AT",
+  "MGB-TSX2"
+ ]
+}

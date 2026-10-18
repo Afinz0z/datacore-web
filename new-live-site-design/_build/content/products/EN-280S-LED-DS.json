@@ -1,0 +1,19 @@
+{
+ "sku": "EN-280S-LED-DS",
+ "order": 3602,
+ "n": "Single Door Magnetic Lock",
+ "b": "Suprema",
+ "c": "Magnetic Lock",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Single Door Magnetic Lock with LED & Bond Sensor - 600 LBS",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "single magnetic lock"
+  }
+ ],
+ "acc": [
+  "EN-280SZL-DS"
+ ]
+}

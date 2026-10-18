@@ -1,0 +1,19 @@
+{
+ "sku": "N205.627",
+ "order": 4066,
+ "n": "Fiber Adaptor SM ( Nexans)",
+ "b": "Nexans",
+ "c": "Fiber adaptor",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Duplex LC Snap-In Adaptor Singlemode",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fiber adaptor SM"
+  }
+ ],
+ "for": [
+  "N439.4SNB"
+ ]
+}

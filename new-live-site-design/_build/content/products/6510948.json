@@ -1,0 +1,16 @@
+{
+ "sku": "6510948",
+ "order": 1619,
+ "n": "CEN-ODT-C-POE",
+ "b": "Crestron",
+ "c": "Sensors",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CEN-ODT-C-POE -Dual-Technology Occupancy Sensor, PoE, 2,000 Sq Ft",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Ceiling Mount"
+  }
+ ]
+}

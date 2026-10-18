@@ -1,0 +1,16 @@
+{
+ "sku": "N10G.UF4-OD",
+ "order": 3905,
+ "n": "U/FTP Nexans cable",
+ "b": "Nexans",
+ "c": "UTP CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-10G U/FTP AWG23 Cat 6A LSZH Orange 500m reel",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6a"
+  }
+ ]
+}

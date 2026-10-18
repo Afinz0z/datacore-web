@@ -1,0 +1,19 @@
+{
+ "sku": "LZ-GEM-1200",
+ "order": 5277,
+ "n": "Bracket for Inswing Doors",
+ "b": "GEM",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LZ-Bracket for Inswing Doors for GEM-1200 EM lock",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Lnz"
+  }
+ ],
+ "for": [
+  "GEM-1200M"
+ ]
+}

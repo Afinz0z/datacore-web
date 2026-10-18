@@ -1,0 +1,20 @@
+{
+ "sku": "PWR-480-48",
+ "order": 3140,
+ "n": "Din-Rail Power Supply Planet",
+ "b": "PLANET",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "48V, 480W Din-Rail Power Supply (NDR-480-48, adjustable 48-56V DC Output)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Din Rail"
+  }
+ ],
+ "for": [
+  "IGS-4215-16P2T2S",
+  "IGS-4215-16P4X"
+ ]
+}

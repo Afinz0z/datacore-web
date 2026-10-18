@@ -1,0 +1,15 @@
+{
+ "sku": "KG8900T-AX",
+ "order": 1687,
+ "n": "USB HDMI KVM DigiProcessor",
+ "b": "ATEN",
+ "c": "Extenders",
+ "dept": "AV",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "DigiProcessor"
+  }
+ ]
+}

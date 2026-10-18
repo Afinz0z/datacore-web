@@ -1,0 +1,22 @@
+{
+ "sku": "DS-2CD1653G0-IZ",
+ "order": 3302,
+ "n": "5MP Motorized Varifocal Bullet IP Camera, 2.8~12mm Lens",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 5MP Motorized Varifocal Bullet IP Camera, 2.8~12mm Lens",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ],
+ "acc": [
+  "DS-1260ZJ",
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-S"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sku": "J9151ER",
+ "order": 3059,
+ "n": "Aruba LC LR 10km SMF Transceiver",
+ "b": "Aruba",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking 10G SFP+ LC LR 10km SMF Transceiver",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "SFP for single mode"
+  }
+ ],
+ "for": [
+  "JL479A",
+  "JL725A"
+ ]
+}

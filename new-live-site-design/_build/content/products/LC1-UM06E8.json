@@ -1,0 +1,21 @@
+{
+ "sku": "LC1-UM06E8",
+ "order": 699,
+ "n": "ceiling loudspeaker-LC1-UM06E8",
+ "b": "Bosch",
+ "c": "Speaker",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch 6w ceiling loudspeaker-LC1-UM06E8",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Ceiling Speaker"
+  }
+ ],
+ "acc": [
+  "LC1-CM R",
+  "LC1-CSMB",
+  "LC1-MFDS"
+ ]
+}

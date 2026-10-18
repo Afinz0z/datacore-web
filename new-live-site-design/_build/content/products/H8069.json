@@ -1,0 +1,16 @@
+{
+ "sku": "H8069",
+ "order": 4447,
+ "n": "H8069",
+ "b": "Linesense",
+ "c": "FA Cable",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Linear Heat Detection (LHD) Cable",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

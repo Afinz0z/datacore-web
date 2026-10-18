@@ -1,0 +1,14 @@
+{
+ "sku": "AEC-AMC2-UL02",
+ "order": 4007,
+ "n": "ACS AMC enclosure with 2 DIN rails",
+ "b": "Bosch",
+ "c": "Enclosure",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Bosch-ACS AMC enclosure with 2 DINrails",
+ "specs": [],
+ "for": [
+  "APC-AMC2 4WCF"
+ ]
+}

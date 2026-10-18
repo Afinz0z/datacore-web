@@ -1,0 +1,16 @@
+{
+ "sku": "GOSNE12",
+ "order": 4026,
+ "n": "multi-mode OM4 fibers",
+ "b": "Belden",
+ "c": "MULTI MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "outdoor optical fiber central loose tube cable featuring 12 multi-mode OM4 fibers",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

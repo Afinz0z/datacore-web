@@ -1,0 +1,16 @@
+{
+ "sku": "Core 8 Flex",
+ "order": 1240,
+ "n": "Core 8 Flex",
+ "b": "Q-SYS",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Q-SYS network + analog I/O processor, 64 x 64 networked audio channels (Q-LAN / AES67) with up to 32 x 32 Dante audio channels (8 x 8 included),USB AV bridging, dual LAN ports, VoIP telephony, 8x8 GPIO, 8 AEC processors, Half-size 1RU.",
+ "specs": [],
+ "acc": [
+  "SLDAN-16-P",
+  "SLDAN-32-P",
+  "SLMST-8N-P"
+ ]
+}

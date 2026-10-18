@@ -1,0 +1,16 @@
+{
+ "sku": "60-1960-01",
+ "order": 1680,
+ "n": "SSI 100W",
+ "b": "Extron",
+ "c": "Indicators",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "SSI 100W System Status Indicators",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Status Indicators"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "VJD-7533",
+ "order": 1696,
+ "n": "UHD High-performance video decoder",
+ "b": "Bosch",
+ "c": "Extenders",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "H.265 UHD decoder High-performance video decoder.H.265/H.264 up to 4K UHDand MP; MPEG-4; audio; upto 60fps per stream; HDMIand DisplayPort monitoroutputs. NDAA compliant",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Decoder"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "CPCSSZ2-03F001",
+ "order": 3827,
+ "n": "CAT 6A UTP Patchcord",
+ "b": "CommScope",
+ "c": "UTP Patch cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "GigaSPEED X10D® 360GS10E Solid Low Smoke Zero HalogenCordage Modular Patch Cord",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "UTP Patch cord 30cm"
+  }
+ ]
+}

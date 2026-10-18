@@ -1,0 +1,21 @@
+{
+ "sku": "70-1301-01",
+ "order": 1946,
+ "n": "XTP II CP 4o SF 8K MM",
+ "b": "Extron",
+ "c": "AV Switcher",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "XTP II CP 4o SF 8K MM XTP II Four Output Board, Scaling, Fiber 8K - Multimode",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Output Card"
+  }
+ ],
+ "for": [
+  "60-1981-01",
+  "60-2031-01",
+  "60-2031-11"
+ ]
+}

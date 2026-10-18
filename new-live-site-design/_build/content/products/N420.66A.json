@@ -1,0 +1,16 @@
+{
+ "sku": "N420.66A",
+ "order": 3931,
+ "n": "Nexans Cat 6A module Screened",
+ "b": "Nexans",
+ "c": "RJ45 MODULE (JACK)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-6A Evo Snap-In Connector Cat 6A Screened",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6a"
+  }
+ ]
+}

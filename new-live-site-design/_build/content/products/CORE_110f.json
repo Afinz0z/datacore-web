@@ -1,0 +1,15 @@
+{
+ "sku": "CORE 110f",
+ "order": 1243,
+ "n": "CORE 110f",
+ "b": "QSC",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Unified Core with 24 local audio I/O channels, 128x128 total network I/O channels with 8x8 Software-based Dante license included, USB AV bridging, dual LAN ports, POTS and VoIP telephony, 16x16 GPIO, 16 next-generation AEC processors, 1RU.",
+ "specs": [],
+ "acc": [
+  "SLDAN-16-P",
+  "SLDAN-32-P"
+ ]
+}

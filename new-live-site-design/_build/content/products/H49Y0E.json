@@ -1,0 +1,23 @@
+{
+ "sku": "H49Y0E",
+ "order": 4970,
+ "n": "Aruba 3-Year Foundation Care Next Business Day Exchange Service",
+ "b": "Aruba",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "3-year Aruba Foundation Care Next Business Day (NBD) Exchange support service for Aruba 4100i 12G industrial switch. Provides advance hardware replacement, remote technical assistance, and software support to ensure continuous and reliable network operation in industrial environments.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  },
+  {
+   "label": "Series",
+   "value": "4100i"
+  }
+ ],
+ "for": [
+  "JL817A"
+ ]
+}

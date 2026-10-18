@@ -1,0 +1,16 @@
+{
+ "sku": "GS-4210-8P2S",
+ "order": 3038,
+ "n": "8-Port Managed 802.3at POE+ Gigabit Ethernet Switch",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IPv4/IPv6, 8-Port Managed 802.3at POE+ Gigabit Ethernet Switch + 2-Port 100/1000X SFP (120W PoE Budget, 250m Extend mode, supports CloudViewer app, MQTT and cybersecurity features, fanless design)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  }
+ ]
+}

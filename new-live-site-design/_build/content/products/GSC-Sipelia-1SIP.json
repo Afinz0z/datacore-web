@@ -1,0 +1,11 @@
+{
+ "sku": "GSC-Sipelia-1SIP",
+ "order": 4523,
+ "n": "Intercom-Server-Genetec",
+ "b": "Genetec",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1 Connection to an Intercom Station including failover and bidirectional audio and video recording",
+ "specs": []
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "DGS-F1500-52MP",
+ "order": 2954,
+ "n": "48 Port Gigabit PoE Managed Switch",
+ "b": "D-Link",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "48-Port 10/100/1000BaseT PoE + 4 1G/10G SFP+ ports Managed Switch, 600W PoE budget. (802.3af/802.3at, 802.3bt (ports 1-4 upto 90W)), EU/UK plug",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "48 port network switch"
+  }
+ ]
+}

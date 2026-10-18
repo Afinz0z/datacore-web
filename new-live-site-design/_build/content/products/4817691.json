@@ -1,0 +1,15 @@
+{
+ "sku": "4817691",
+ "order": 3555,
+ "n": "RFID Keycard Mifare UL EV1 White (Guest Cards)",
+ "b": "Vingcard",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Mifare Guest Card"
+  }
+ ]
+}

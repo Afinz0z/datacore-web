@@ -1,0 +1,21 @@
+{
+ "sku": "DS-2CD1083G0-IUF",
+ "order": 3279,
+ "n": "4K Fixed Bullet Network Camera, 8MP - built in MIC",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4K Fixed Bullet Network Camera, 8MP - built in MIC andSupport memory card",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ],
+ "acc": [
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS",
+  "DS-1280ZJ-XS"
+ ]
+}

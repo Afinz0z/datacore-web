@@ -1,0 +1,13 @@
+{
+ "sku": "GSC-1SDK-INTELEXVISION ISEN",
+ "order": 3494,
+ "n": "One SDK per System ID",
+ "b": "Genetec",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "GSC-5.13"
+ ]
+}

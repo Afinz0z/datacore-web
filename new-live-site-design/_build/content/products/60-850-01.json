@@ -1,0 +1,16 @@
+{
+ "sku": "60-850-01",
+ "order": 1053,
+ "n": "XPA 2001-70V",
+ "b": "Extron",
+ "c": "Amplifier",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "XPA 2001-70V One Channel Amp, 200 watts at 70 volts",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Amplifier"
+  }
+ ]
+}

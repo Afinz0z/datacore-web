@@ -1,0 +1,14 @@
+{
+ "sku": "IE9300_SW",
+ "order": 5011,
+ "n": "license for switch",
+ "b": "Cisco",
+ "c": "License",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Software for Catalyst IE9300 rugged series",
+ "specs": [],
+ "for": [
+  "IE-9320-24P4X-E"
+ ]
+}

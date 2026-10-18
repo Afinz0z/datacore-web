@@ -1,0 +1,16 @@
+{
+ "sku": "DS-TMG420-L(4m)",
+ "order": 3627,
+ "n": "Barrier gates",
+ "b": "Hikvision",
+ "c": "Gate Barrier",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Barrier gates with straight boom pole 4m",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Barrier Gate"
+  }
+ ]
+}

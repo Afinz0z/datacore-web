@@ -1,0 +1,26 @@
+{
+ "sku": "DS-2CD2163G2-IS",
+ "order": 3319,
+ "n": "6MP Indoor/Outdoor Dome Network Camera Lens support MIC",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 6MP Indoor/Outdoor Dome Network Camera, Fixed 2.8 mm Lens support MIC",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ],
+ "acc": [
+  "DS-1271ZJ-110",
+  "DS-1272ZJ-110",
+  "DS-1272ZJ-110B",
+  "DS-1275ZJ-S-SUS"
+ ]
+}

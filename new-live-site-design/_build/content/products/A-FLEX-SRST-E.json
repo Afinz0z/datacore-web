@@ -1,0 +1,14 @@
+{
+ "sku": "A-FLEX-SRST-E",
+ "order": 4814,
+ "n": "SRST Endpoints",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SRST (Survivable Remote Site Telephony) Endpoint license.",
+ "specs": [],
+ "for": [
+  "BE6K-M6-K9"
+ ]
+}

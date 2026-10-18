@@ -1,0 +1,22 @@
+{
+ "sku": "IE3300",
+ "order": 2938,
+ "n": "NETWORK SWITCH 24 PORT",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Catalyst IE3300 with 8 GE PoE+ and 2 GE SFP, Modular, NE",
+ "specs": [],
+ "acc": [
+  "CON-SNT-IE33008S",
+  "CON-SNT-IEM3308P",
+  "DIGITAL-DL-CODE",
+  "IE3300-DNA-E",
+  "IE3300-DNA-E-3Y",
+  "IE3X00_SW",
+  "IOT-OTHER",
+  "NO-IOT-SOLUTION",
+  "PWR-IE480W-PCAC-L"
+ ]
+}

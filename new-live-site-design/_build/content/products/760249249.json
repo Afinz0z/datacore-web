@@ -1,0 +1,16 @@
+{
+ "sku": "760249249",
+ "order": 3680,
+ "n": "Faceplate-Single port-Commscope",
+ "b": "CommScope",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Faceplate Kit, universal, one port, British Standard style, shuttered, white",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single port"
+  }
+ ]
+}

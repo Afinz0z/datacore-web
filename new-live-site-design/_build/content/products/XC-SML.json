@@ -1,0 +1,15 @@
+{
+ "sku": "XC-SML",
+ "order": 1404,
+ "n": "SOLARO XC-SML",
+ "b": "Xilica",
+ "c": "Audio Card",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Solaro XC-SML - Solaro Series I/O card with dual channel microphone or line level input, switchable 48V Phantom power, software-controlled functionality. Compatible Product(s): Solaro FR1, Solaro FR1-D, Solaro QR1, Solaro XIO 16",
+ "specs": [],
+ "for": [
+  "Solaro FR1-D",
+  "Solaro QR1"
+ ]
+}

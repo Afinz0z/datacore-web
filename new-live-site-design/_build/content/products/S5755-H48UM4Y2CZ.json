@@ -1,0 +1,18 @@
+{
+ "sku": "S5755-H48UM4Y2CZ",
+ "order": 2974,
+ "n": "48*10/100/1G/2.5/5GBASE-T ports Access Switch",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5755-H48UM4Y2CZ 5G bundle (48*10/100/1G/2.5/5GBASE-T ports, Optional RTU upgrade to 10G, 4*25GE SFP28, 2*100GE QSFP28 ports, expansion card slot, PoE++, without power module)",
+ "specs": [],
+ "acc": [
+  "98012643-002_88134UGQ-5BT_36",
+  "L-MLIC-S57H",
+  "OSX010000",
+  "PAC1000S56-EB",
+  "SFP-10G-CU1M"
+ ]
+}

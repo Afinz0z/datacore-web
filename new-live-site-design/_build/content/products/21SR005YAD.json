@@ -1,0 +1,16 @@
+{
+ "sku": "21SR005YAD",
+ "order": 4600,
+ "n": "Lenovo ThinkPad E16",
+ "b": "Lenovo",
+ "c": "Laptop",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Lenovo ThinkPad E16 Gen3 / Intel Ultra 7-255H / 16GB DDR5 / 1TB SSD M.2 2242 NVMe QLC / Intel AX201 2x2AX+BT / Finger Print Reader / HW-M 2.0 / 1080P Cam / 3 Ce l 45Whr,65W USB-C UK,KYB Arabic w/Num Pad / 2 Years Carry-In",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "E16"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "240641",
+ "order": 3690,
+ "n": "Angled Face Plate Single Port",
+ "b": "Datwyler",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "RJ-45 Angled Face Plate Single Port, Empty White",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Angled"
+  }
+ ],
+ "acc": [
+  "CONNECTOR"
+ ]
+}

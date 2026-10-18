@@ -1,0 +1,23 @@
+{
+ "sku": "S5735-L8P4X-QA-V2",
+ "order": 2977,
+ "n": "8 Port Switch (Huawei)",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5735-L8P4X-QA-V2 (8*10/100/1000BASE-T ports, 4*10GE SFP+ ports, PoE+, AC power, Fanless)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "02311VGK",
+  "88134UGQ-5PJ",
+  "98012074_88134UGQ-5PJ_36",
+  "L-MLIC-S57L",
+  "SFP+STACK-CU0M5"
+ ]
+}

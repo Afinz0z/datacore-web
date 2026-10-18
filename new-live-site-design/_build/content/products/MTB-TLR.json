@@ -1,0 +1,14 @@
+{
+ "sku": "MTB-TLR",
+ "order": 3084,
+ "n": "10G SFP+ Fiber Transceiver Single-mode DDM Planet",
+ "b": "PLANET",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "10G SFP+ Fiber Transceiver (Single-mode, DDM, -40~75 degrees C) -10KM",
+ "specs": [],
+ "for": [
+  "IGS-4215-16P4X"
+ ]
+}

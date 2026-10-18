@@ -1,0 +1,15 @@
+{
+ "sku": "PES-NEC-LAN-WAN",
+ "order": 5099,
+ "n": "Remote NEC Express Cluster",
+ "b": "LenelS2",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Pre-planning, remote NEC ExpressCluster LAN or WAN Deployment and Post Project Support per Cluster. Remote connection to site required for deployment. (Add PES-00X for OnSite Deployment.)",
+ "specs": [],
+ "for": [
+  "SWS-ENTREG-LTREDU",
+  "SWS-PRO"
+ ]
+}

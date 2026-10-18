@@ -1,0 +1,20 @@
+{
+ "sku": "DS-TCG406-E",
+ "order": 3275,
+ "n": "4 MP ANPR Camera-Hikvision",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "4 MP Access ANPR Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ANPR Camera"
+  },
+  {
+   "label": "Series",
+   "value": "DarkFighter"
+  }
+ ]
+}

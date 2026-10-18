@@ -1,0 +1,16 @@
+{
+ "sku": "N164.MBUN24",
+ "order": 4001,
+ "n": "24 core fiber cable SM (Nexans)",
+ "b": "Nexans",
+ "c": "SINGLE MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Micro-Bundle Universal 24x Singlemode 9/125 OS2 LSZH Black",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

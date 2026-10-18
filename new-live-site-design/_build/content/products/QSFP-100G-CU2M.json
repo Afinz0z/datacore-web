@@ -1,0 +1,14 @@
+{
+ "sku": "QSFP-100G-CU2M",
+ "order": 3155,
+ "n": "High speed dedicated stack cable-2.0m",
+ "b": "Huawei",
+ "c": "Stacking cable",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "100G QSFP28 high speed dedicated stack cable-2.0m",
+ "specs": [],
+ "for": [
+  "S6730-H48X6C-V2"
+ ]
+}

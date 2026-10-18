@@ -1,0 +1,22 @@
+{
+ "sku": "GMC-FR-42U-88-4F",
+ "order": 3760,
+ "n": "GAMMA FREESTAND 42U RACK (800X800)",
+ "b": "Gamma",
+ "c": "NETWORK CABINET",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Gamma Net Free Stand Cabinet 42U 800x800 with Removable GMC-FR-42U-88-4F Side Door , Front Glass , Metal Back door , 2 pair of 19\" Adjustable 800 800 2020 600 800 Pillars , 2 pair of caster Wheels , 4 Fan",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "42U (800X800) Cabinet"
+  }
+ ],
+ "acc": [
+  "GMC-800-FBDD-P",
+  "GMC-VCM",
+  "GMC-VPDU-20C13-32A",
+  "GMU-PDU-613"
+ ]
+}

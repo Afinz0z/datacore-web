@@ -1,0 +1,19 @@
+{
+ "sku": "PRO42R2",
+ "order": 3572,
+ "n": "DUAL READER BOARD",
+ "b": "Honeywell",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ PRO4200 DUAL READER BOARD - Mercury Powered ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dual reader board"
+  }
+ ],
+ "for": [
+  "PRO42IC"
+ ]
+}

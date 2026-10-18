@@ -1,0 +1,19 @@
+{
+ "sku": "AL-APP",
+ "order": 4885,
+ "n": "Alutelmobility Application for Tablets Android",
+ "b": "LenelS2",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "ALUTEL - Alutelmobility Application for Tablets Android, need 1 License per Device",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Application"
+  }
+ ],
+ "for": [
+  "SWS-ENTREG-LT"
+ ]
+}

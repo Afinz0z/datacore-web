@@ -1,0 +1,20 @@
+{
+ "sku": "DS-8664NI-I8",
+ "order": 3422,
+ "n": "64CH NVR - 8 SATA",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 64CH Network Video Recorder, 8 SATA - 8 HDD Support",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR Pro Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

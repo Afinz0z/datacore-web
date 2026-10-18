@@ -1,0 +1,19 @@
+{
+ "sku": "EC904B0UK",
+ "order": 3536,
+ "n": "NCoder - Proximity card encoder Mifare",
+ "b": "Salto",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "NCoder - Proximity card encoder Mifare/DESFire. USB and Ethernet connections. DHCP addressing. Desktop reader capabilities",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Card encoder"
+  }
+ ],
+ "for": [
+  "WRDM0E4B"
+ ]
+}

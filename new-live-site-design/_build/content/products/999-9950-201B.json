@@ -1,0 +1,19 @@
+{
+ "sku": "999-9950-201B",
+ "order": 574,
+ "n": "LegrandAV- Vaddio PTZ Camera",
+ "b": "Vaddio",
+ "c": "AV Camera",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "PTZ CAMERA - RoboSHOT 20 UHD HDBT OneLINK Bridge (black)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  }
+ ],
+ "acc": [
+  "KST-WM-UE150-W"
+ ]
+}

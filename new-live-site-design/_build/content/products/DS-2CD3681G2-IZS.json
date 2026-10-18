@@ -1,0 +1,16 @@
+{
+ "sku": "DS-2CD3681G2-IZS",
+ "order": 3349,
+ "n": "Bullet Camera-8MP-Hikvision",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8 MP Motorized Variofocal Lens Bullet (Audio/Alarm) (IR: Up to 40 m) - Outdoor",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  }
+ ]
+}

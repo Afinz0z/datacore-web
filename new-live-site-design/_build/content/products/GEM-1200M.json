@@ -1,0 +1,21 @@
+{
+ "sku": "GEM-1200M",
+ "order": 3593,
+ "n": "Single Electronmagnetic lock",
+ "b": "GEM",
+ "c": "Magnetic Lock",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "EN 1634-1 fire rated EM Lock",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "single magnetic lock"
+  }
+ ],
+ "acc": [
+  "CP-33G",
+  "LZ-GEM-1200",
+  "PBT-430BS"
+ ]
+}

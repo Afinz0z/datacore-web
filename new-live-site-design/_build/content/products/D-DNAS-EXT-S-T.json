@@ -1,0 +1,14 @@
+{
+ "sku": "D-DNAS-EXT-S-T",
+ "order": 4986,
+ "n": "Cisco DNA Services license extension SKU - CISCO 9300",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cisco DNA Software Standard (Essentials) subscription extension license (D-DNAS-EXT-S-T) to renew DNA Services on existing Catalyst switches.",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

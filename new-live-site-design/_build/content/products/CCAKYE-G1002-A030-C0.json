@@ -1,0 +1,16 @@
+{
+ "sku": "CCAKYE-G1002-A030-C0",
+ "order": 3836,
+ "n": "UTP Patch cord (3Mtr)-3M",
+ "b": "Corning",
+ "c": "UTP Patch cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "U/UTP FLEX/24L,CAT.6A GREY,2XRJ45,4P,3M",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6a"
+  }
+ ]
+}

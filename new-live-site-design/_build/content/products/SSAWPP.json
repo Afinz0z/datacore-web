@@ -1,0 +1,19 @@
+{
+ "sku": "SSAWPP",
+ "order": 3500,
+ "n": "SSA-WIN-PAK PE",
+ "b": "Honeywell",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ SSA-WIN-PAK PE ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Software Support"
+  }
+ ],
+ "for": [
+  "WPP49G"
+ ]
+}

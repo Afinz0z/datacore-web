@@ -1,0 +1,15 @@
+{
+ "sku": "HikCentral-P-VSS-Base/4Ch",
+ "order": 4859,
+ "n": "Hikvision HikCentral Base with 4 Channels",
+ "b": "Hikvision",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Base license"
+  }
+ ]
+}

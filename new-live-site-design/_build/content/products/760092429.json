@@ -1,0 +1,16 @@
+{
+ "sku": "760092429",
+ "order": 3918,
+ "n": "RJ45 Module (Systimax)",
+ "b": "CommScope",
+ "c": "RJ45 MODULE (JACK)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "MGS600 OUTLET-WHITE",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "module systimax"
+  }
+ ]
+}

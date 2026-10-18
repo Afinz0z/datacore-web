@@ -1,0 +1,14 @@
+{
+ "sku": "AMS-SMA-LITE",
+ "order": 5037,
+ "n": "Service support contract For AMS-BLIT",
+ "b": "Bosch",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Bosch-ACS AMS Software Maintenance License for AMS-BASE-LITE*, 1 yr",
+ "specs": [],
+ "for": [
+  "APC-AMC2 4WCF"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "DIP-74CI-12HD",
+ "order": 3372,
+ "n": "Management Appliance(P-74CI-12HDNVR)-Bosch",
+ "b": "Bosch",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Management appliance, 2U 8X4TB,All-in-one recording, viewing and management solutionfor network surveillance systems. With 8 x 4 TB storagecapacity.NDAA and TAA compliant",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "2u"
+  }
+ ]
+}

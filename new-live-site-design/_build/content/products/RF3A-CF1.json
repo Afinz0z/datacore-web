@@ -1,0 +1,19 @@
+{
+ "sku": "RF3A-CF1",
+ "order": 5295,
+ "n": "1 way Cooling Fan",
+ "b": "RitchField",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "RitchField 1 way Cooling Fan with power cable forwall mount cabinets",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "1 Way Cooling Fan"
+  }
+ ],
+ "for": [
+  "RF3-WMSS 1860-1 RL04"
+ ]
+}

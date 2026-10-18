@@ -1,0 +1,19 @@
+{
+ "sku": "LC1-CM R",
+ "order": 2595,
+ "n": "Mounting ring for LC1",
+ "b": "Bosch",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch Mounting ring for LC1",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Ceiling Mount"
+  }
+ ],
+ "for": [
+  "LC1-UM06E8"
+ ]
+}

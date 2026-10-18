@@ -1,0 +1,20 @@
+{
+ "sku": "HD6500",
+ "order": 4530,
+ "n": "Synology HD6500",
+ "b": "Synology",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Synology HD6500 60-Bay Rackmount NAS Enclosure, 4U",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Network Attached Storage (NAS)"
+  }
+ ],
+ "acc": [
+  "HAS5320-24T",
+  "RKS-03"
+ ]
+}

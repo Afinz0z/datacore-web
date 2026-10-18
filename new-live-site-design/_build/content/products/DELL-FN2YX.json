@@ -1,0 +1,16 @@
+{
+ "sku": "DELL-FN2YX",
+ "order": 4538,
+ "n": "Dell 4TB Server HDD",
+ "b": "Dell Technologies",
+ "c": "HARD DISK",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "4TB 7.2K SAS 3.5 12G12 Months Advance Warranty on Above Parts",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Intercom server"
+  }
+ ]
+}

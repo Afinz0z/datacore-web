@@ -1,0 +1,20 @@
+{
+ "sku": "760012153",
+ "order": 4028,
+ "n": "6 core FOC multimode",
+ "b": "CommScope",
+ "c": "MULTI MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "N-006-DS-5K-FSUAQ/D",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "6 core FOC"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

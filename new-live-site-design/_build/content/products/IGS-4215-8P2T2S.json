@@ -1,0 +1,16 @@
+{
+ "sku": "IGS-4215-8P2T2S",
+ "order": 3040,
+ "n": "Industrial L2/L4 8-Port Switch Planet",
+ "b": "PLANET",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IP30 Industrial L2/L4 8-Port 10/100/1000T 802.3at PoE + 2-Port 10/100/1000T + 2-Port 100/1000X SFP Managed Switch (-40~75 degrees C), dual redundant power input on 48~56VDC terminal block, SNMPv3, 802.1Q VLAN, IGMP Snooping, TLS, SSH, ACL, 250m Extend mode, supports ERPS Ring, CloudViewer app, MQTT and Cybersecurity feature)",
+ "specs": [],
+ "acc": [
+  "MGB-TSX",
+  "POE-E201",
+  "PWR-240-48"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sku": "HL-A2006LZ",
+ "order": 3595,
+ "n": "Bracket for Electro Magnetic Locks",
+ "b": "Honeywell",
+ "c": "Magnetic Lock",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ L &Z Bracket for 600 l bs E l ectro Magnetic L ocks ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bracket"
+  }
+ ],
+ "for": [
+  "HL-M0600LS",
+  "HL-M0600LS-D"
+ ]
+}

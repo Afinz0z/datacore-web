@@ -1,0 +1,14 @@
+{
+ "sku": "6514226",
+ "order": 4128,
+ "n": "CEN-SWSFP-PWS600",
+ "b": "Crestron",
+ "c": "Power Supply",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "CEN-SWSFP-PWS600 600 W Power Supply Unit for CEN-SWSFP-40-TAA Network Switch",
+ "specs": [],
+ "for": [
+  "6514197"
+ ]
+}

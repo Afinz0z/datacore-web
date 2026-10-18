@@ -1,0 +1,14 @@
+{
+ "sku": "NO-IOT-SOLUTION",
+ "order": 4804,
+ "n": "IOT solution",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Not related to an IoT Solution; For tracking only.",
+ "specs": [],
+ "for": [
+  "IE3300"
+ ]
+}

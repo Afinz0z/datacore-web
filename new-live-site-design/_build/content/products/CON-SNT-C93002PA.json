@@ -1,0 +1,14 @@
+{
+ "sku": "CON-SNT-C93002PA",
+ "order": 4988,
+ "n": "Cisco Smart Net Total Care - For 93 Series Access switch (CISCO)",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cisco Smart Net Total Care support service for Catalyst 9300 24-port PoE+ access switch, including 24×7 TAC support, software updates",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

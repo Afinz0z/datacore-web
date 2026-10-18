@@ -1,0 +1,16 @@
+{
+ "sku": "N164.MBUN04",
+ "order": 4002,
+ "n": "4 core Singlemode OS2 fiber cable (Nexans)",
+ "b": "Nexans",
+ "c": "SINGLE MODE FIBER OPTIC CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Micro-Bundle Universal 04x Singlemode 9/125 OS2 LSZH Black",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ]
+}

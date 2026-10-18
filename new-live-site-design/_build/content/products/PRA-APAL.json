@@ -1,0 +1,14 @@
+{
+ "sku": "PRA-APAL",
+ "order": 4763,
+ "n": "Advanced public address license-PRA-APAL",
+ "b": "Bosch",
+ "c": "Software - license",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch License for operator device, connected to the PRA-APAS advanced public address server.",
+ "specs": [],
+ "for": [
+  "PRA-APAS"
+ ]
+}

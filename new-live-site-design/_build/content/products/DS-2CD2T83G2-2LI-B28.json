@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2CD2T83G2-2LI-B28",
+ "order": 3340,
+ "n": "8MP Fixed Bullet Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8 MP Acusense Smart Hybrid Light Fixed Bullet Network Camera 50M",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Bullet Camera"
+  },
+  {
+   "label": "Series",
+   "value": "Fixed"
+  }
+ ]
+}

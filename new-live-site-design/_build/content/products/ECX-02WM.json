@@ -1,0 +1,16 @@
+{
+ "sku": "ECX-02WM",
+ "order": 3936,
+ "n": "Wall Mounted Patch panel",
+ "b": "Belden",
+ "c": "Fiber Optic Patch panel",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FX ECX Wall-Mount Patch Panel, 2-Module",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mounted"
+  }
+ ]
+}

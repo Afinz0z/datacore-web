@@ -1,0 +1,23 @@
+{
+ "sku": "UPS103R6RT2N035",
+ "order": 4221,
+ "n": "UPS",
+ "b": "DELTA",
+ "c": "UPS",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "RT 10kVA L-Single Phase UPS",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "UPS Unit"
+  },
+  {
+   "label": "Series",
+   "value": "RT"
+  }
+ ],
+ "acc": [
+  "SCMS100035"
+ ]
+}

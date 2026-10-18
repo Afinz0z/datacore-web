@@ -1,0 +1,14 @@
+{
+ "sku": "NET2-SS",
+ "order": 1586,
+ "n": "Net card",
+ "b": "Ateis",
+ "c": "Interface Module",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Netcard, Fiber Optic Single Mode(A)-(B), excl Copper Pillars",
+ "specs": [],
+ "for": [
+  "BTQ-VM450"
+ ]
+}

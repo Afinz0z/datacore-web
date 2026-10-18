@@ -1,0 +1,14 @@
+{
+ "sku": "PWR-C5-600WAC/2",
+ "order": 4123,
+ "n": "power supply for switch",
+ "b": "Cisco",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "600W AC Config 5 Power Supply - Secondary Power Supply",
+ "specs": [],
+ "for": [
+  "C9200L-24P-4X-E"
+ ]
+}

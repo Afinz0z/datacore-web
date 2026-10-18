@@ -1,0 +1,19 @@
+{
+ "sku": "AGM734-10000S",
+ "order": 3081,
+ "n": "1000BASE-T COPPER SFP GBIC - Netgear",
+ "b": "Netgear",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "1000BASE-T COPPER SFP GBIC",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Copper (RJ45)"
+  }
+ ],
+ "for": [
+  "XSM4556-100EUS"
+ ]
+}

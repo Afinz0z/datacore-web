@@ -1,0 +1,20 @@
+{
+ "sku": "DS-2CD3763G2-IZS",
+ "order": 3303,
+ "n": "6 MP AcuSense Dome",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "6 MP AcuSense Motorized Varifocal Dome Network Camera ((2.7-13.5MM),Clear imaging against strong backlight due to 120 dB true WDR technology, Focus on human and vehicle targets classification based on deep learning, Water and dust resistant (IP67) and vandal-resistant (IK10)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ]
+}

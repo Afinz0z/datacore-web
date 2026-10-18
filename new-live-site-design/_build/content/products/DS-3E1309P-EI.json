@@ -1,0 +1,20 @@
+{
+ "sku": "DS-3E1309P-EI",
+ "order": 2964,
+ "n": "8 Port Fast Ethernet Smart POE Switch - High power 110W.",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 8 Port Fast 10/100Mbps Ethernet Smart POE Switch - High power 110W",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  },
+  {
+   "label": "Series",
+   "value": "L2 Series Switch"
+  }
+ ]
+}

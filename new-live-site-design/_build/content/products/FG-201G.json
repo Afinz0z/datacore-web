@@ -1,0 +1,11 @@
+{
+ "sku": "FG-201G",
+ "order": 3171,
+ "n": "201G next-generation firewall (NGFW)Fortinet FortiGate",
+ "b": "Fortinet",
+ "c": "FIREWALL",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FORTINET FortiGate-201G 10 x GE RJ45 (including 1 x MGMT port, 1 x HA port, 8 x switch ports), 4 x GE SFP slots, 8 x 5GE RJ45, 8 x 10GE SFP+ slots, NP7Lite and CP10 hardware accelerated, 480GB onboard SSD storage",
+ "specs": []
+}

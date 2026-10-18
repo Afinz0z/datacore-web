@@ -1,0 +1,20 @@
+{
+ "sku": "DS-3E1105P-EI",
+ "order": 2961,
+ "n": "4 Port Fast Ethernet Smart POE Switch high power",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 4 Port 10/100Mbps Fast Ethernet Smart POE Switch high power - 60 W",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  },
+  {
+   "label": "Series",
+   "value": "L2 Series Switch"
+  }
+ ]
+}

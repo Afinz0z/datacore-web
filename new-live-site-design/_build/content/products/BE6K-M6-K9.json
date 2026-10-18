@@ -1,0 +1,36 @@
+{
+ "sku": "BE6K-M6-K9",
+ "order": 4514,
+ "n": "Cisco Business Edition 6000 (M6)Appliance",
+ "b": "Cisco",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Cisco Business Edition 6000 (M6) Appliance, Export Restr SW",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Collaboration Server Appliance"
+  }
+ ],
+ "acc": [
+  "A-FLEX-FILESTG-ENT",
+  "A-FLEX-MSG-NU-ENT",
+  "A-FLEX-NUPL-E",
+  "A-FLEX-NUPL-P",
+  "A-FLEX-P-ENH",
+  "A-FLEX-P-ER",
+  "A-FLEX-P-PRO",
+  "A-FLEX-P-UCXN",
+  "A-FLEX-PROPACK-ENT",
+  "A-FLEX-SRST-E",
+  "A-FLEX-STD-CUBE",
+  "A-FLEX-SW-15-K9",
+  "BE6K-CPU-M6",
+  "BE6K-RAIDCTRLR-M6",
+  "BE6K-RAM-M6-M5",
+  "SVS-FLEX-SUPT-BAS",
+  "VCF-VSP-STD-8-3",
+  "VIRT-LIC-NONE"
+ ]
+}

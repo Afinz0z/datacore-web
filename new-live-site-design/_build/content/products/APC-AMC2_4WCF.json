@@ -1,0 +1,23 @@
+{
+ "sku": "APC-AMC2 4WCF",
+ "order": 3559,
+ "n": "Bosch-ACS AMC2 Doorcontroller 4 Wiegand with CF Card",
+ "b": "Bosch",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Bosch-ACSAMC2 Doorcontroller 4Wiegand with CF Card",
+ "specs": [],
+ "acc": [
+  "AEC-AMC2-UL01",
+  "AEC-AMC2-UL02",
+  "AMS-BLIT",
+  "AMS-SMA-32DRS",
+  "AMS-SMA-LITE",
+  "AMS-X32DORLIT",
+  "API-AMC2-4WE",
+  "APS-PSU-60",
+  "ARD-AYBS6260",
+  "ARD-EDMCV002-USB"
+ ]
+}

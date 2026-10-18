@@ -1,0 +1,19 @@
+{
+ "sku": "88038XDG",
+ "order": 4875,
+ "n": "CloudCampus Foundation License (Wi-Fi 7 AP)",
+ "b": "Huawei",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "N1-CloudCampus,Foundation,11be AP,Per Device",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "License for WAP"
+  }
+ ],
+ "for": [
+  "50086767-001"
+ ]
+}

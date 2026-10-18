@@ -1,0 +1,15 @@
+{
+ "sku": "MA-PWR-CORD-UK-FR",
+ "order": 4243,
+ "n": "power cord for meraki switch",
+ "b": "Cisco",
+ "c": "power cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CISCO Meraki AC Power Cord (UK Plug)",
+ "specs": [],
+ "for": [
+  "C9300X-48TX-M LIC-C9300-48E-3Y",
+  "MS130-24X LIC-MS130-24-3Y"
+ ]
+}

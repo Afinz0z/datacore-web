@@ -1,0 +1,41 @@
+{
+ "sku": "IFP8662",
+ "order": 167,
+ "n": "ViewBoard IFP8662",
+ "b": "ViewSonic",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "86\"4k UHD IFP Panel (20 touch, PCAP, Active Pen, Android 8.0)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Interactive"
+  }
+ ],
+ "acc": [
+  "KITXWXSM1U",
+  "LG-Emerald3-N20",
+  "LGC-5586",
+  "LGC-7598",
+  "LGF-98",
+  "LGFS-5586-N23",
+  "LGFS-6598",
+  "LGWM-3790F",
+  "LGWM-5586SW",
+  "LGWM-5598SW",
+  "LPAUB",
+  "MTMP1U",
+  "PDRUB",
+  "PNRUB",
+  "PSBUB",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "VB-WMK-004",
+  "WMK-077",
+  "XTM1U"
+ ]
+}

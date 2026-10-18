@@ -1,0 +1,33 @@
+{
+ "sku": "760231514",
+ "order": 3939,
+ "n": "Commscope High density Patchpanel",
+ "b": "CommScope",
+ "c": "Fiber Optic Patch panel",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "360G2 Mod Panel Blank Adapter Pack, 4 Panels",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "High density"
+  }
+ ],
+ "acc": [
+  "657054-000",
+  "760109462",
+  "760148502",
+  "760242979",
+  "FBXLCUC11-MXF005",
+  "UFVLCLC42-NXF003",
+  "UFVLCLC42-NXF007",
+  "UFVLCLC42-NXF010",
+  "UFVLCLC42-NXF015",
+  "UFVLCLC42-NXF020",
+  "UFVLCLC42-NXF025",
+  "UFVLCLC42-NXF030",
+  "UFVLCLC42-NXF035",
+  "UFVLCLC42-NXF040",
+  "UFVLCLC42-NXF045"
+ ]
+}

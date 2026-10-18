@@ -1,0 +1,11 @@
+{
+ "sku": "GSC-1SDK-INTELEXVISIONISENTRY",
+ "order": 3490,
+ "n": "Genetec Security Center - Intelex Vision Sentry Integration",
+ "b": "Genetec",
+ "c": "Video Management System (VMS)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Enables integration/communication between the Intelex Vision Sentry solution and Genetec Security Center",
+ "specs": []
+}

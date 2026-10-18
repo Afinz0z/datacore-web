@@ -1,0 +1,19 @@
+{
+ "sku": "2A8071",
+ "order": 4840,
+ "n": "Photo ID & Encoding license",
+ "b": "Gallagher",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LICENSE PHOTO ID & ENCODING",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "add on license"
+  }
+ ],
+ "for": [
+  "C201311"
+ ]
+}

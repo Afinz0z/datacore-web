@@ -1,0 +1,16 @@
+{
+ "sku": "DS-2CD3781G2-LIZSU",
+ "order": 3339,
+ "n": "8MP Dome Camera-Hikvision",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8 MP Smart Hybrid Light Varifocal Dome Network Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ]
+}

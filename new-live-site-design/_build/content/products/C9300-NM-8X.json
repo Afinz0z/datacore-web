@@ -1,0 +1,14 @@
+{
+ "sku": "C9300-NM-8X",
+ "order": 3127,
+ "n": "Catalyst 9300 8 x 10GE Network Module",
+ "b": "Cisco",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9300-24P-A",
+  "C9300-48P-E"
+ ]
+}

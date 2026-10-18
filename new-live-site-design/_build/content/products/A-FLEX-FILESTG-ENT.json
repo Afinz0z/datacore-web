@@ -1,0 +1,14 @@
+{
+ "sku": "A-FLEX-FILESTG-ENT",
+ "order": 4803,
+ "n": "File Storage Entitlement",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "File Storage Entitlement (Cisco Collaboration Flex Plan).",
+ "specs": [],
+ "for": [
+  "BE6K-M6-K9"
+ ]
+}

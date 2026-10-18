@@ -1,0 +1,21 @@
+{
+ "sku": "RA12S-DAP-RAS",
+ "order": 4728,
+ "n": "Room Alert 12SR- Foundation",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Room Alert 12SR- Foundation with PoE, PRO(1U",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Room Alert & Monitoring System Headend Unit"
+  }
+ ],
+ "acc": [
+  "RMA-DTH-SEN",
+  "RMA-F024-SEN",
+  "RMA-SS2-SEN"
+ ]
+}

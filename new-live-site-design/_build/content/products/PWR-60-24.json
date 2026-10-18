@@ -1,0 +1,16 @@
+{
+ "sku": "PWR-60-24",
+ "order": 3139,
+ "n": "Din-Rail Power Supply (MDR-60-24) Planet",
+ "b": "PLANET",
+ "c": "SWITCH- Installation Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "24V, 60W Din-Rail Power Supply (MDR-60-24, adjustable 24-30V DC output)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Din Rail"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "IRP2",
+ "order": 2574,
+ "n": "IRP2",
+ "b": "Crestron",
+ "c": "Connectors",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "IR Emitter Probe w/Terminal Block Connector",
+ "specs": [],
+ "for": [
+  "6511816",
+  "6511817",
+  "6512254"
+ ]
+}

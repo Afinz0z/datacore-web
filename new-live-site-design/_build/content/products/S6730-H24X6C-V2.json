@@ -1,0 +1,16 @@
+{
+ "sku": "S6730-H24X6C-V2",
+ "order": 3167,
+ "n": "24*10GE SFP+ ports Switch",
+ "b": "Huawei",
+ "c": "Fiber Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "24*10GE SFP+ ports, 6*40GE QSFP28 ports, optional license for upgrade to 6*100GE QSFP28, without power module",
+ "specs": [],
+ "acc": [
+  "88134UGQ-4SU_36",
+  "L-MLIC-S67H",
+  "PAC600S12-EB"
+ ]
+}

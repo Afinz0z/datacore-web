@@ -1,0 +1,16 @@
+{
+ "sku": "79001FS",
+ "order": 4446,
+ "n": "Cable",
+ "b": "Belden",
+ "c": "FA Cable",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "2 Core × 1.5 mm² - Fire Rated Cable",
+ "specs": [
+  {
+   "label": "Unit",
+   "value": "Roll"
+  }
+ ]
+}

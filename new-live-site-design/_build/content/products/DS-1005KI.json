@@ -1,0 +1,15 @@
+{
+ "sku": "DS-1005KI",
+ "order": 3504,
+ "n": "Keyboard Controller Joystick",
+ "b": "Hikvision",
+ "c": "PTZ Joystick",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION USB KEYBOARD, 3D PTZ CONTROL AND 2 JOYSTICK CONTROLBUTTONS",
+ "specs": [],
+ "for": [
+  "DS-2DE4425IW-DE-T5",
+  "DS-2DE5432IW-AE-S5"
+ ]
+}

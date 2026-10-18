@@ -1,0 +1,20 @@
+{
+ "sku": "DS-7616NI-K2/16P",
+ "order": 3403,
+ "n": "16CH NVR-16P Poe",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "16CH Network Video Recorder 16 Independent PoE Network Interfaces -2 HDD Support",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR K2 Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

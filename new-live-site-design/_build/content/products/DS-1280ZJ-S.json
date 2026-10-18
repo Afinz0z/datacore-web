@@ -1,0 +1,26 @@
+{
+ "sku": "DS-1280ZJ-S",
+ "order": 3464,
+ "n": "Junction box bracket for Indoor and Outdoor Camera",
+ "b": "Hikvision",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Hikvision Aluminum alloy junction box bracket for Indoor and Outdoor Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Junction box"
+  }
+ ],
+ "for": [
+  "DS-2CD1363G2-LIUF",
+  "DS-2CD1643G0-IZ",
+  "DS-2CD1653G0-IZ",
+  "DS-2CD2047G2-L",
+  "DS-2CD2683G2-IZS",
+  "DS-2CD2T43G2-4I",
+  "DS-2CD2T47G2-L",
+  "DS-2CD2T87G2H-LI"
+ ]
+}

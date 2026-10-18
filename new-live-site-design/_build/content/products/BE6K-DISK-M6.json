@@ -1,0 +1,16 @@
+{
+ "sku": "BE6K-DISK-M6",
+ "order": 4537,
+ "n": "600GB 12G SAS 10K RPM SFF hard disk drive",
+ "b": "Cisco",
+ "c": "HARD DISK",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "600GB 12G SAS 10K RPM SFF HDD",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "hard disk drive"
+  }
+ ]
+}

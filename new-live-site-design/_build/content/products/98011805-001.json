@@ -1,0 +1,22 @@
+{
+ "sku": "98011805-001",
+ "order": 2980,
+ "n": "Huawei CloudEngine S5731-S48S4X switch 48 port",
+ "b": "Huawei",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5731-S48S4X(48*GE SFP ports, 4*10GE SFP+ ports, without power module)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "02312FFU-002",
+  "02318169",
+  "88037BNL",
+  "88134UJL-5CV"
+ ]
+}

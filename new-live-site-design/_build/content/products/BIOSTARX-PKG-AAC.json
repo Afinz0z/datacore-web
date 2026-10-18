@@ -1,0 +1,14 @@
+{
+ "sku": "BIOSTARX-PKG-AAC",
+ "order": 4937,
+ "n": "Add-on package for BIOSTARX-ADV",
+ "b": "Suprema",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "A package of advanced access control features: Global APB, Global",
+ "specs": [],
+ "for": [
+  "BIOSTARX-ADV"
+ ]
+}

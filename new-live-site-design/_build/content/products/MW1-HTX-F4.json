@@ -1,0 +1,16 @@
+{
+ "sku": "MW1-HTX-F4",
+ "order": 1113,
+ "n": "Microphone with transmitter",
+ "b": "Bosch",
+ "c": "Mic",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch MW1-HTX-F4 Microphone with transmitter, 606-630 MHz 193 selectable UHF channels Lock function",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Transmitter"
+  }
+ ]
+}

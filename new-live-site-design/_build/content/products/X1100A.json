@@ -1,0 +1,19 @@
+{
+ "sku": "X1100A",
+ "order": 3570,
+ "n": "HID-SSI Aero X1100 IP Controller with 2 door 2 reader-Main Controller",
+ "b": "HID",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HID-SSI Aero X1100 IP Controller with 2 door 2 reader connectivity as Weigand/2 door 4 reader connectivity on OSDP. The intercase should be within 1km",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ACS Main Controller"
+  }
+ ],
+ "acc": [
+  "SSI- Guard - WOB"
+ ]
+}

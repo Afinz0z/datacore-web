@@ -1,0 +1,16 @@
+{
+ "sku": "CAE4106003M",
+ "order": 3824,
+ "n": "Cat6a 10GX copper patch cord",
+ "b": "Belden",
+ "c": "UTP Patch cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "high-performance Cat6a 10GX copper patch cord designed for horizontal and building cabling​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "patchcord 3m"
+  }
+ ]
+}

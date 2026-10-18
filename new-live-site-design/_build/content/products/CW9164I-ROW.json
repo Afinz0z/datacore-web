@@ -1,0 +1,27 @@
+{
+ "sku": "CW9164I-ROW",
+ "order": 3100,
+ "n": "Cisco Catalyst 9164 Series Access Points (AP) indoor wap",
+ "b": "Cisco",
+ "c": "ACCESS POINT",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Catalyst 9164I AP (W6E, tri-band 4x4) w/Reg-ROW",
+ "specs": [],
+ "acc": [
+  "AIR-AP-BRACKET-1",
+  "AIR-AP-T-RAIL-R",
+  "AIR-DNA-E",
+  "AIR-DNA-E-3Y",
+  "AIR-DNA-E-T",
+  "AIR-DNA-E-T-3Y",
+  "AIR-DNA-NWSTACK-E",
+  "CDNA-E-C9164",
+  "CON-SNT-CW9164RW",
+  "CW9164I-OVER",
+  "CW9164I-SINGLE",
+  "DNA-E-3Y-C9164",
+  "NETWORK-PNP-LIC",
+  "SW9164-CAPWAP-K9"
+ ]
+}

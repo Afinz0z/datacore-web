@@ -1,0 +1,16 @@
+{
+ "sku": "033181",
+ "order": 4084,
+ "n": "RJ45 Connector",
+ "b": "Legrand",
+ "c": "Connectors",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Legrand Keystone RJ 45 socket category 6 UTP fast crimping connection",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rj45 connector"
+  }
+ ]
+}

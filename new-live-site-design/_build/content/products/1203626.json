@@ -1,0 +1,30 @@
+{
+ "sku": "1203626",
+ "order": 177,
+ "n": "MB75Pro-A02 MeetingBoard 75 inch Pro",
+ "b": "Yealink",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "75″ all-in-one interactive collaboration display designed for modern meeting and conference spaces. ​It features a 4K UHD touchscreen, triple 50 MP AI cameras, and a 16-mic array with AI audio for clear video conferencing and full-duplex voice pickup up to 12 m.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Interactive"
+  }
+ ],
+ "acc": [
+  "1303128",
+  "3311074",
+  "LG-Emerald3-N20",
+  "LGC-5586",
+  "LGC-7598",
+  "LGFS-5586-N23",
+  "LGFS-6598",
+  "LGWM-3790F",
+  "LGWM-3790T",
+  "LGWM-5586SW",
+  "LGWM-5598SW",
+  "ST33M"
+ ]
+}

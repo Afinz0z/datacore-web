@@ -1,0 +1,20 @@
+{
+ "sku": "C1018",
+ "order": 2540,
+ "n": "4 Core, 18AWG",
+ "b": "B3 International",
+ "c": "CONTROL CABLE",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Unscreened Multi- Conductor cable suitable for Audio, Control, Instrumentation and Building Management System (BMS). UL Listed E486876. (Type CL2X)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Unshielded, PVC"
+  },
+  {
+   "label": "Unit",
+   "value": "Reel"
+  }
+ ]
+}

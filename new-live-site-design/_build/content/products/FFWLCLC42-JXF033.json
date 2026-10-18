@@ -1,0 +1,16 @@
+{
+ "sku": "FFWLCLC42-JXF033",
+ "order": 3803,
+ "n": "Singlemode LC/UPC to LC/UPC, Fiber Patch Cord",
+ "b": "CommScope",
+ "c": "Fiber Patch Cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Singlemode LC/UPC to LC/UPC, Fiber Patch Cord, 1.6 mmDuplex, Low Smoke Zero Halogen (LSZH",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Patchcord 10 Meter"
+  }
+ ]
+}

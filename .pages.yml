@@ -214,16 +214,21 @@ content:
     fields:
       - { name: sku, label: SKU / model code, type: string, required: true }
       - { name: order, label: Order, type: number, default: 99 }
-      - { name: n, label: Name / description, type: string }
-      - { name: b, label: Brand, type: string }
-      - { name: c, label: Category, type: string }
-      - { name: g, label: Group (e.g. switch, camera), type: string }
+      - { name: n, label: Name, type: string }
+      - { name: b, label: Brand (leave empty if unknown), type: string }
+      - { name: c, label: Category (as in the inventory export), type: string }
+      - { name: dept, label: Department, type: select, options: { values: [AV, NETWORK] } }
+      - { name: g, label: Icon override (e.g. switch, camera; usually empty), type: string }
       - { name: avail, label: Availability, type: select, options: { values: [stock, lead] } }
-      - { name: lead, label: Lead time in days (only if availability = lead), type: number }
+      - { name: d, label: Description (used by the catalogue search), type: text }
       - name: specs
-        label: Specifications
+        label: Specifications shown on the card (only checked ones)
         type: object
         list: true
         fields:
           - { name: label, label: Spec, type: string }
           - { name: value, label: Value, type: string }
+      - { name: src, label: Manufacturer page the specs were checked against, type: string }
+      - { name: checked, label: Date the specs were checked (YYYY-MM-DD), type: string }
+      - { name: acc, label: Supporting products (part numbers), type: string, list: true }
+      - { name: for, label: Main products this one supports (part numbers), type: string, list: true }

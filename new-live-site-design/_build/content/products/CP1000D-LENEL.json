@@ -1,0 +1,14 @@
+{
+ "sku": "CP1000D-LENEL",
+ "order": 3635,
+ "n": "ENCODER, Card programmer",
+ "b": "LenelS2",
+ "c": "ID CARD PRINTER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HID CP1000D-LENEL, DESKTOP ICLASS SE ENCODER, Card programmer, Mifare DesFire EV1 supported through OnGuard, iClass ACA only supported through OnGuard 7.4 (OMNIKEY 5427UE)",
+ "specs": [],
+ "for": [
+  "SWS-PRO"
+ ]
+}

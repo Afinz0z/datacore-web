@@ -1,0 +1,14 @@
+{
+ "sku": "FG553-01",
+ "order": 2325,
+ "n": "HPX-N100-RJ45",
+ "b": "AMX",
+ "c": "Cable Cubby",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "HPX-N100-RJ45 | The HPX-N100-RJ45 Single Ethernet Module provides a single RJ-45 connection to the HydraPort HPX-600 900 1200 and 1600 Connection Ports",
+ "specs": [],
+ "for": [
+  "FG560-01-BL"
+ ]
+}

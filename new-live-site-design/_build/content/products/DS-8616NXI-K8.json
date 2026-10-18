@@ -1,0 +1,20 @@
+{
+ "sku": "DS-8616NXI-K8",
+ "order": 3406,
+ "n": "16CH NVR-8 SATA",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 16CH Network Video Recorder,8 SATA",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR Pro Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

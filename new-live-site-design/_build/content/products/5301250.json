@@ -1,0 +1,19 @@
+{
+ "sku": "5301250",
+ "order": 5320,
+ "n": "VX IT Side panel, horizontal Rittal",
+ "b": "Rittal",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "VX IT Side panel, horizontal divided P/N",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rack Side panel"
+  }
+ ],
+ "for": [
+  "5309116"
+ ]
+}

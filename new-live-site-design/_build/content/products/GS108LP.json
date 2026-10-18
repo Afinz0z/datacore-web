@@ -1,0 +1,16 @@
+{
+ "sku": "GS108LP",
+ "order": 3009,
+ "n": "8-port Gigabit Ethernet unmanaged switch",
+ "b": "Netgear",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "8PT POE/POE+ GIGABIT UNMANAGED SWCH",
+ "specs": [],
+ "acc": [
+  "DRV-GS108LP-12",
+  "DRV-GS108LP-36",
+  "DRV-GS108LP-60"
+ ]
+}

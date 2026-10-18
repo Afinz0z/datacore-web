@@ -1,0 +1,20 @@
+{
+ "sku": "OLED65G5",
+ "order": 41,
+ "n": "65-inch Screen",
+ "b": "LG",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "OLED 4K evo G5 Series 65\" Screen",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "screen"
+  },
+  {
+   "label": "Series",
+   "value": "G5"
+  }
+ ]
+}

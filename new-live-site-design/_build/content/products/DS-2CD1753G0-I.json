@@ -1,0 +1,22 @@
+{
+ "sku": "DS-2CD1753G0-I",
+ "order": 3300,
+ "n": "5MP Dome Network Camera, Varifocal 2.8~12mm Lens",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 5MP Dome Network Camera, Varifocal 2.8~12mm Lens",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "DS-1271ZJ-110",
+  "DS-1273ZJ-135",
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS"
+ ]
+}

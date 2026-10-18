@@ -1,0 +1,13 @@
+{
+ "sku": "TE-C9K-SW",
+ "order": 4996,
+ "n": "TE agent for IOSXE on C9K",
+ "b": "Cisco",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9300-24P-A"
+ ]
+}

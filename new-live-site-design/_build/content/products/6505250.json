@@ -1,0 +1,17 @@
+{
+ "sku": "6505250",
+ "order": 1633,
+ "n": "GLS-REMOTE-ODT/OIR",
+ "b": "Crestron",
+ "c": "Sensors",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "GLS-REMOTE-ODT/OIR IR Remote for GLS Occupancy Sensors",
+ "specs": [],
+ "for": [
+  "6510222",
+  "6510223",
+  "6510224",
+  "6510225"
+ ]
+}

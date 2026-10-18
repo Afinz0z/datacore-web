@@ -1,0 +1,14 @@
+{
+ "sku": "IC-S50",
+ "order": 3639,
+ "n": "Access Cards",
+ "b": "Dahua",
+ "c": "Pvc Card",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IC Card Mifare1-S50",
+ "specs": [],
+ "for": [
+  "DHI-ASC2204C-D"
+ ]
+}

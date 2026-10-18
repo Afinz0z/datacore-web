@@ -1,0 +1,16 @@
+{
+ "sku": "760253100",
+ "order": 3684,
+ "n": "Single faceplate(systimax)",
+ "b": "CommScope",
+ "c": "Faceplate",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FPUS-BS-1P-W,1 Port Unshuttered White",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single port"
+  }
+ ]
+}

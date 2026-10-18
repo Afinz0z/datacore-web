@@ -1,0 +1,14 @@
+{
+ "sku": "MA-SFP-10GB-LR",
+ "order": 3066,
+ "n": "SFP 10G Singlemode",
+ "b": "Cisco",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "CISCO Meraki 10G Base LR Single-Mode",
+ "specs": [],
+ "for": [
+  "MS130-24X LIC-MS130-24-3Y"
+ ]
+}

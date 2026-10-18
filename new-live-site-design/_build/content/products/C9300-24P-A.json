@@ -1,0 +1,40 @@
+{
+ "sku": "C9300-24P-A",
+ "order": 2927,
+ "n": "9300series-24port Access switch",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "24-port enterprise access switch with Gigabit Ethernet, PoE support, stackable architecture, high-speed uplinks, advanced security, and centralized management capability.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "C9300-DNA-A-24",
+  "C9300-DNA-A-24-3Y",
+  "C9300-NM-8X",
+  "C9300-NW-A-24",
+  "C9300-SPWR-NONE",
+  "C9300-SSD-NONE",
+  "C9300-STACK-NONE",
+  "C9K-ACC-RBFT",
+  "C9K-ACC-SCR-4",
+  "CAB-GUIDE-1RU",
+  "CAB-TA-UK",
+  "CON-SNT-C93002PA",
+  "D-DNAS-EXT-S-3Y",
+  "D-DNAS-EXT-S-T",
+  "NETWORK-PNP-LIC",
+  "PWR-C1-715WAC-P",
+  "PWR-C1-715WAC-P/2",
+  "S9300NPE-179",
+  "SFP-10G-LR=",
+  "TE-C9K-SW",
+  "TE-EMBEDDED-T",
+  "TE-EMBEDDED-T-3Y"
+ ]
+}

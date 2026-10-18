@@ -1,0 +1,18 @@
+{
+ "sku": "S9300UK9",
+ "order": 4780,
+ "n": "Cisco Catalyst 9300 XE 16.12UNIVERSAL.",
+ "b": "Cisco",
+ "c": "Software - license",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "for": [
+  "C9300-48P-E"
+ ]
+}

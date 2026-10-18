@@ -1,0 +1,19 @@
+{
+ "sku": "DS-2CD2387G2-LK",
+ "order": 3335,
+ "n": "8MP 24/7 ColorVU Turret Dome Network Camera",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION ColorVu 8MP 24/7 ColorVU Turret Dome Network Camera B28",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  }
+ ],
+ "acc": [
+  "DS-1276ZJ-SUS"
+ ]
+}

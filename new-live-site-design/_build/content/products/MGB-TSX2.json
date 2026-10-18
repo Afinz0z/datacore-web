@@ -1,0 +1,14 @@
+{
+ "sku": "MGB-TSX2",
+ "order": 3085,
+ "n": "Dual LC/UPC Module Planet",
+ "b": "PLANET",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Mini GBIC Multi-mode SX 2KM Module (-40 to 75 C), DDM Supported",
+ "specs": [],
+ "for": [
+  "GS-4210-16P4C"
+ ]
+}

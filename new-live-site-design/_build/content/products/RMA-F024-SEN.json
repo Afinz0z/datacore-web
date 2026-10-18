@@ -1,0 +1,21 @@
+{
+ "sku": "RMA-F024-SEN",
+ "order": 4726,
+ "n": "Flood Sensor",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Sensor - FloodSENSOR w 24'Flood Cable",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Flood Sensor"
+  }
+ ],
+ "for": [
+  "RA12S-DAP-RAS",
+  "RA12S-DAP-WAS",
+  "RA32S-DAP-RAS"
+ ]
+}

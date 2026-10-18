@@ -1,0 +1,18 @@
+{
+ "sku": "HR5H6E",
+ "order": 4971,
+ "n": "Aruba 3Y FC NBD Exch 6300M 24 PoE SVC [for JL662A]",
+ "b": "Aruba",
+ "c": "License for switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Foundation Care Exchange Service License"
+  }
+ ],
+ "for": [
+  "JL662A"
+ ]
+}

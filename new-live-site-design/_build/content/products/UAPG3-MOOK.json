@@ -1,0 +1,16 @@
+{
+ "sku": "UAPG3-MOOK",
+ "order": 1195,
+ "n": "ATEIS Universal Audio Processor",
+ "b": "Ateis",
+ "c": "DSP",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Universal Audio Processor-Generation 3, DSP, Digilink, Redundant Ethernet, USB2.0, 4 CH Mic/Line Audio Input Card, 2X 4 CH Line Audio Output Card, OCTOLINK Card.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PA Audio Processor"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "sku": "FG-121G",
+ "order": 3175,
+ "n": "Fortinet FortiGate 121G Firewall",
+ "b": "Fortinet",
+ "c": "FIREWALL",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "FORTINET FortiGate-121G 18 x GE RJ45 ports (including 1 x MGMT port, 1 X HA port, 16 x switch ports), 8 x GE SFP slots, 4 x 10GE SFP+ slots, SP5 hardware accelerated, 480GB onboard SSD storage, dual AC power supplies",
+ "specs": []
+}

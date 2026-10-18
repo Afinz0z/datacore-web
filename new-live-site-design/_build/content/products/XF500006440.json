@@ -1,0 +1,16 @@
+{
+ "sku": "XF500006440",
+ "order": 3921,
+ "n": "CAT6A Module 3M",
+ "b": "Corning",
+ "c": "RJ45 MODULE (JACK)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "RJ45 VOLOCK6AUNV Cat6A UTP Jack",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Single port"
+  }
+ ]
+}

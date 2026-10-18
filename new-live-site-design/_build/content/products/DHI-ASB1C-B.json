@@ -1,0 +1,14 @@
+{
+ "sku": "DHI-ASB1C-B",
+ "order": 5262,
+ "n": "Access Controller Box (Dahua)",
+ "b": "Dahua",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "The Dahua DHI-ASB1C-B is an access controller enclosure designed to house and power compatible Dahua access controllers. It features a built-in power supply, battery backup support, air circuit breaker, tamper alarm, and durable galvanized steel construction for secure indoor installations.",
+ "specs": [],
+ "for": [
+  "DHI-ASC3202B"
+ ]
+}

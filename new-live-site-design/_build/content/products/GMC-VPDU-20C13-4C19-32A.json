@@ -1,0 +1,14 @@
+{
+ "sku": "GMC-VPDU-20C13-4C19-32A",
+ "order": 4188,
+ "n": "Gamma PDU-32 AMP",
+ "b": "Gamma",
+ "c": "PDU",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "GAMMA Vertical PDU 20XC13+4XC19-32 APMS",
+ "specs": [],
+ "for": [
+  "GMC-FR-48U-810-4F"
+ ]
+}

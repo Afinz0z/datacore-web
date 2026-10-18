@@ -1,0 +1,14 @@
+{
+ "sku": "Tesira SOC-4",
+ "order": 1396,
+ "n": "Mic line output card-SOC-4",
+ "b": "Biamp",
+ "c": "Audio Card",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Tesira 4 channel mic/line output card",
+ "specs": [],
+ "for": [
+  "Tesira SERVER-IO AVB"
+ ]
+}

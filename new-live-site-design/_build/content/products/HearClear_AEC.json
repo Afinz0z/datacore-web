@@ -1,0 +1,15 @@
+{
+ "sku": "HearClear AEC",
+ "order": 4961,
+ "n": "Acoustic Echo Cancellation technology-HearClear AEC",
+ "b": "Xilica",
+ "c": "Software - license",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "HearClear™ AEC - Software-licensed Acoustic Echo Cancellation (AEC) for Xilica Solaro FR1, FR1-D. Eight channel at 250ms, 16 channel at 100ms delay. For AEC on Solaro QR1, select Solaro QR1-UC.",
+ "specs": [],
+ "for": [
+  "Solaro FR1-D",
+  "Solaro QR1"
+ ]
+}

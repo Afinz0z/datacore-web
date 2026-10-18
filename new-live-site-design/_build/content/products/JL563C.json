@@ -1,0 +1,15 @@
+{
+ "sku": "JL563C",
+ "order": 3063,
+ "n": "HPE Aruba Networking 10GBASE-T SFP+ RJ45 30m Cat6A Transceiver",
+ "b": "Aruba",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "CAT6A Transceiver"
+  }
+ ]
+}

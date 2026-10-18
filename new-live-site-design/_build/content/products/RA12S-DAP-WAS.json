@@ -1,0 +1,21 @@
+{
+ "sku": "RA12S-DAP-WAS",
+ "order": 4727,
+ "n": "Room Alert 12S Mid Size Monitor",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Room Alert 12S Mid Size Monitorwith PoE, PRO",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Room Alert & Monitoring System Headend Unit"
+  }
+ ],
+ "acc": [
+  "RMA-DTH-SEN",
+  "RMA-F024-SEN",
+  "RMA-SS2-SEN"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "sku": "DS-3E1510P-EI",
+ "order": 2965,
+ "n": "8-Port Gigabit PoE Smart Managed Switch",
+ "b": "Hikvision",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Smart Managed 8-Port Gigabit PoE Switch (PoE power budget-110W)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Managed Switch"
+  }
+ ]
+}

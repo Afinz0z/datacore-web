@@ -1,0 +1,16 @@
+{
+ "sku": "BE6K-TPM-M6",
+ "order": 4518,
+ "n": "Trusted Platform Module 2.0 hardware security",
+ "b": "Cisco",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "TPM 2.0, TCG, FIPS140-2, CC EAL4+ Certified, for M6 servers",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Hardware Security module"
+  }
+ ]
+}

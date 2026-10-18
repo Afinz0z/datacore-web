@@ -1,0 +1,13 @@
+{
+ "sku": "C9K-F1-SSD-BLANK",
+ "order": 4596,
+ "n": "Cisco pluggable SSD storage",
+ "b": "Cisco",
+ "c": "SSD Storage",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "C9500-48Y4C-A"
+ ]
+}

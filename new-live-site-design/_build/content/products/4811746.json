@@ -1,0 +1,20 @@
+{
+ "sku": "4811746",
+ "order": 3664,
+ "n": "Power supply",
+ "b": "Vingcard",
+ "c": "Elevator Controller",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Power supply 12-30VDC 1,5/3A for RC/MOC",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power supply module"
+  }
+ ],
+ "for": [
+  "840009761",
+  "P001006433-003-001"
+ ]
+}

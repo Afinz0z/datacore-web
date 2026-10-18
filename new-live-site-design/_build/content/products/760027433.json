@@ -1,0 +1,16 @@
+{
+ "sku": "760027433",
+ "order": 4060,
+ "n": "Fiber adapter pack",
+ "b": "CommScope",
+ "c": "Fiber adaptor",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Adapter Pack, Black, 1000-Type, with 12 TeraSPEED® Singlemode duplex LC Adapters, blue, shuttered",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fiber adaptor SM"
+  }
+ ]
+}

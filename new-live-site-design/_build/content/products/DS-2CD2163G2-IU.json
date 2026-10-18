@@ -1,0 +1,24 @@
+{
+ "sku": "DS-2CD2163G2-IU",
+ "order": 3312,
+ "n": "6MP AcuSense Indoor/Outdoor Dome Network Camera Built in MIC",
+ "b": "Hikvision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 6MP AcuSense Indoor/Outdoor Dome Network Camera Built in MIC 2.8mm/4.0mm",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dome Camera"
+  },
+  {
+   "label": "Series",
+   "value": "AcuSense"
+  }
+ ],
+ "acc": [
+  "DS-1275ZJ-S-SUS",
+  "DS-1276ZJ-SUS"
+ ]
+}

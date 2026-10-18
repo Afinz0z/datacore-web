@@ -1,0 +1,26 @@
+{
+ "sku": "70-1066-05",
+ "order": 2431,
+ "n": "Retractor XL USB 2.0",
+ "b": "Extron",
+ "c": "Cable Cubby",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Retractor XL USB 2.0 Extended Length Cable Retraction System for AVEdge, Cable Cubby®, Select TouchLink® Enclosures, and TMK 120 R Kit - USB A to USB A",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cable Retraction System"
+  }
+ ],
+ "for": [
+  "70-1045-02",
+  "70-1045-08",
+  "70-1046-02",
+  "70-1046-08",
+  "70-1184-02",
+  "70-1184-08",
+  "70-1185-02",
+  "70-1185-08"
+ ]
+}

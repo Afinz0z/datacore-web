@@ -1,0 +1,27 @@
+{
+ "sku": "X1100C",
+ "order": 3571,
+ "n": "Intelligent Access Control Controller",
+ "b": "HID",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HID-SSIAERO-X1100C IP Controller with 2 door 2 reader connectivity as weigand /2 door 4 Reader connectivity on OSDP.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "ACS Main Controller"
+  }
+ ],
+ "acc": [
+  "OSP(X100)",
+  "OSP(X1100C)",
+  "OSP-i Secure-LEAP",
+  "OSP-iSecure-LEAP-50",
+  "OSP-iSecure-VMS-Int-MILESTONE",
+  "SSI-Guard-WB",
+  "X100A",
+  "i Secure-VMS-Int-MILESTONE",
+  "iSecure-LEAP-50"
+ ]
+}

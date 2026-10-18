@@ -1,0 +1,19 @@
+{
+ "sku": "PRA-APAS",
+ "order": 4511,
+ "n": "Public address server-PRA-APAS",
+ "b": "Bosch",
+ "c": "Server",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Bosch PRA-APAS Advanced public address server, Interface for third party PCs and tablet devices to the PRAESENSA IP-network.",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PA Server"
+  }
+ ],
+ "acc": [
+  "PRA-APAL"
+ ]
+}

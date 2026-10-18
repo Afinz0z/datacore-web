@@ -1,0 +1,18 @@
+{
+ "sku": "0070005",
+ "order": 3662,
+ "n": "HW Rack for 2-4 elevator relay boards",
+ "b": "Vingcard",
+ "c": "Elevator Controller",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rack for 2-4 elevator relay boards"
+  }
+ ],
+ "for": [
+  "840009761"
+ ]
+}

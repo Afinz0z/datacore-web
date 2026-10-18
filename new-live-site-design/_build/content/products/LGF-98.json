@@ -1,0 +1,52 @@
+{
+ "sku": "LGF-98",
+ "order": 2791,
+ "n": "Fixed Wall Mount-LGF-98 (75-98 inch)",
+ "b": "Logic",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Fixed Wall Mount Bracket LGF-98 Support 75\" to 98\" Flat Panels. Max Loading Capacity - 110Kg",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mount"
+  }
+ ],
+ "for": [
+  "55UH5N-E",
+  "75UH7N",
+  "86UL3J-B",
+  "98TR3DK-B",
+  "98UM5K",
+  "CDE7514-2C",
+  "CDE7530",
+  "CDE8614-2C",
+  "CDE8630",
+  "CDE92UW",
+  "CDE9830",
+  "HG65U800FAUXUE",
+  "HG75U800FAUXUE",
+  "IFP6533-G",
+  "IFP7533-G",
+  "IFP7534",
+  "IFP7550-5F",
+  "IFP7551",
+  "IFP7553",
+  "IFP8633-G",
+  "IFP8634",
+  "IFP8650-5F",
+  "IFP8651",
+  "IFP8653",
+  "IFP8662",
+  "IFP92UW",
+  "IFP9850-4",
+  "IFP9851",
+  "LT-IR75AX",
+  "LT-IR86AX",
+  "PN-LA752",
+  "PN-LC862",
+  "PN-M752",
+  "V8650"
+ ]
+}

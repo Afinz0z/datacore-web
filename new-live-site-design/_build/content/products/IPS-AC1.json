@@ -1,0 +1,19 @@
+{
+ "sku": "IPS-AC1",
+ "order": 4172,
+ "n": "PSU, input DIN-Rail",
+ "b": "Zenitel",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "PSU, input 85-264 VAC, output 48VDC, DIN-Rail",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Din Rail"
+  }
+ ],
+ "for": [
+  "ICX-510-IA"
+ ]
+}

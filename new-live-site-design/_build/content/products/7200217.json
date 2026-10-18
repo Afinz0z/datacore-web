@@ -1,0 +1,18 @@
+{
+ "sku": "7200217",
+ "order": 5299,
+ "n": "Connection cable for PDU",
+ "b": "Rittal",
+ "c": "Accessories",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "connection cable"
+  }
+ ],
+ "for": [
+  "7507220"
+ ]
+}

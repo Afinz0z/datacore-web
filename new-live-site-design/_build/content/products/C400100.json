@@ -1,0 +1,19 @@
+{
+ "sku": "C400100",
+ "order": 3566,
+ "n": "CONTROLLER 7000 STANDARD",
+ "b": "Gallagher",
+ "c": "ACS CONTROLLER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "acc": [
+  "C200440",
+  "C300120",
+  "C300660",
+  "C300665",
+  "C864180",
+  "C864201",
+  "C864662"
+ ]
+}

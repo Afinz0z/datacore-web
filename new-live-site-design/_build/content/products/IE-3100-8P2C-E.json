@@ -1,0 +1,25 @@
+{
+ "sku": "IE-3100-8P2C-E",
+ "order": 2932,
+ "n": "Cisco Catalyst Rugged Industrial Switch",
+ "b": "Cisco",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "IE3100 w/8GE PoE+, 2GE Combo,Fixed sys,Network Essentials",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  }
+ ],
+ "acc": [
+  "CON-SNT-IE31008E",
+  "IE3100-DNA-E-L",
+  "IE3100-DNA-E-L-3Y",
+  "IE3100_SW",
+  "IOT-EXT-ENTERPRISE",
+  "IOT-OTHER",
+  "PWR-IE240W-PCAC-L"
+ ]
+}

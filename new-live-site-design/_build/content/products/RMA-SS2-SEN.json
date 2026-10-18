@@ -1,0 +1,21 @@
+{
+ "sku": "RMA-SS2-SEN",
+ "order": 4731,
+ "n": "Sensor - Smoke & Fire",
+ "b": "AVTECH",
+ "c": "Room Alert & Monitoring System",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Sensor - Smoke &Fire",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Smoke & Fire Sensor"
+  }
+ ],
+ "for": [
+  "RA12S-DAP-RAS",
+  "RA12S-DAP-WAS",
+  "RA32S-DAP-RAS"
+ ]
+}

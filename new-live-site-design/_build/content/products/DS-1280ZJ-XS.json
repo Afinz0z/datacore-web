@@ -1,0 +1,24 @@
+{
+ "sku": "DS-1280ZJ-XS",
+ "order": 3463,
+ "n": "Junction box bracket Bullet",
+ "b": "Hikvision",
+ "c": "CCTV Mounting Equipment",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Hikvision Aluminum alloy junction box bracket Bullet For DS-2CD (1043G0 ,1053G0)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Junction box"
+  }
+ ],
+ "for": [
+  "DS-2CD1043G0-I",
+  "DS-2CD1083G0-I",
+  "DS-2CD1083G0-IUF",
+  "DS-2CD2087G2H-LIU",
+  "DS-2CD2183G2-I",
+  "DS-2CD2183G2-IS"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "98012238_88134UGQ-427_36",
+ "order": 5065,
+ "n": "16 port access switch support/service",
+ "b": "Huawei",
+ "c": "Service Support Contract",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "S5735-L16P2UM2X-QA-V2 (16*10/100/1000BASE-T ports(PoE+), 2*100M/1G/2.5G/5G/10G Ethernet ports(PoE++), 2*10GE SFP+ ports, 247 W PoE, built-in AC power, Fanless)_Co-Care Standard S5735-L16P2UM2X_36Month(s)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "for": [
+  "S5735-L16P2UM2X-QA-V2"
+ ]
+}

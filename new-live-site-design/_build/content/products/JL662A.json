@@ -1,0 +1,21 @@
+{
+ "sku": "JL662A",
+ "order": 2913,
+ "n": "24 Port PoE Switch",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking CX 6300M 24-port 1GbE Class4 PoE and 4-port SFP56 Switch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "HR5H6E",
+  "R0M46A",
+  "R0M47A"
+ ]
+}

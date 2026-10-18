@@ -1,0 +1,14 @@
+{
+ "sku": "LNL-600XA",
+ "order": 4155,
+ "n": "High-efficiency switched-mode power supply unit (PSU) Lenel",
+ "b": "LenelS2",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LenelS2 XA - 13.8 VDC 8 A / 27.6 VDC 4 A Switched Mode Power Supply (= LNL-XA-PSU1224V-8A) with LNL-600XAENC enclosure (515 x 478 x 146 mm) to mount any PCB on a meshed backplate, including cable saddle, key and screw locked, front and pryoff tamper - CE marked",
+ "specs": [],
+ "for": [
+  "LNL-M2220"
+ ]
+}

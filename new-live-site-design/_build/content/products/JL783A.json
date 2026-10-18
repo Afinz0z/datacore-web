@@ -1,0 +1,23 @@
+{
+ "sku": "JL783A",
+ "order": 3053,
+ "n": "10G SFP+ LC Long Range (LR) single-mode",
+ "b": "Aruba",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "10G SFP+ LC Long Range (LR) single-mode fiber transceiver supporting up to 10km transmission distance. Industrial-temperature rated module designed for use in hardened switches such as Aruba 4100i series deployed in outdoor or harsh environments",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Industrial Network Switch"
+  },
+  {
+   "label": "Series",
+   "value": "4100i"
+  }
+ ],
+ "for": [
+  "JL817A"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "N122.5LLA3",
+ "order": 3818,
+ "n": "Fiber Patchcord -MM",
+ "b": "Nexans",
+ "c": "Fiber Patch Cord",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "LANmark-OF Slimflex Duplex Patch Cord DLC-DLC OM3 LSZH 3m Aqua",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fibre optic patch cord"
+  }
+ ],
+ "for": [
+  "N439.4SNB"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "sku": "UU004891568",
+ "order": 3893,
+ "n": "U/UTP Cable 3M (Corning)",
+ "b": "Corning",
+ "c": "UTP CABLE",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Everon® Copper Datacom U/UTP 550/24, Category 6A, LSZH/FRNC, Eca 4P, Green",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cat6a"
+  },
+  {
+   "label": "Unit",
+   "value": "Meter"
+  }
+ ],
+ "acc": [
+  "XF003849213"
+ ]
+}

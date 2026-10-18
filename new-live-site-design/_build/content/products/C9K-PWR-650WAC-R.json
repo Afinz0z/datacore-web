@@ -1,0 +1,14 @@
+{
+ "sku": "C9K-PWR-650WAC-R",
+ "order": 4118,
+ "n": "650W AC Config 4 Power Supply",
+ "b": "Cisco",
+ "c": "Power Supply",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "650W AC Config 4 Power Supply front to back cooling",
+ "specs": [],
+ "for": [
+  "C9500-48Y4C-A"
+ ]
+}

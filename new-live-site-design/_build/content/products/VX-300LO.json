@@ -1,0 +1,14 @@
+{
+ "sku": "VX-300LO",
+ "order": 1614,
+ "n": "Line Output Module",
+ "b": "TOA",
+ "c": "Interface Module",
+ "dept": "AV",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "VX-3004F",
+  "VX-3008F"
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "sku": "OSX010000",
+ "order": 3076,
+ "n": "Optical Transceiver,SFP+,10G,Single-mode Module",
+ "b": "Huawei",
+ "c": "SFP",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Optical Transceiver,SFP+,10G,Single-mode Module(1310nm,10km,LC)",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "SFP for single mode"
+  }
+ ],
+ "for": [
+  "S5755-H48UM4Y2CZ"
+ ]
+}

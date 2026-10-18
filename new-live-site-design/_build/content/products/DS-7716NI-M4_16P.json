@@ -1,0 +1,20 @@
+{
+ "sku": "DS-7716NI-M4/16P",
+ "order": 3405,
+ "n": "16CH NVR-4 SATA",
+ "b": "Hikvision",
+ "c": "Network Video Recorder (NVR)",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HIKVISION 16CH Network Video Recorder - 256Mbps Bit Rate Input Max (up to 16-ch IP video), 4 SATA interfaces, 1.5U case, alarm I/O:4/1(optional)",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "NVR M Series"
+  }
+ ],
+ "acc": [
+  "DC HC330",
+  "WD102PURP"
+ ]
+}

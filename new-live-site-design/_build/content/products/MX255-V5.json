@@ -1,0 +1,23 @@
+{
+ "sku": "MX255-V5",
+ "order": 134,
+ "n": "Smart Board MX(V5) 55",
+ "b": "SMART",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "SMART Board® MX055-V5 interactive display with iQ",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Interactive"
+  },
+  {
+   "label": "Series",
+   "value": "MX (V5)"
+  }
+ ],
+ "acc": [
+  "LGWM-3790F"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "sku": "999-99407-001",
+ "order": 575,
+ "n": "RoboSHOT 12E NDI (black)",
+ "b": "Vaddio",
+ "c": "AV Camera",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "RoboSHOT 12E NDI (black) Vaddio RoboSHOT 12E NDI/HDMI PTZ Camera",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "PTZ Camera"
+  },
+  {
+   "label": "Series",
+   "value": "RoboSHOT"
+  }
+ ]
+}

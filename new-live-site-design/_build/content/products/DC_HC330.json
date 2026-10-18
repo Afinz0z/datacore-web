@@ -1,0 +1,30 @@
+{
+ "sku": "DC HC330",
+ "order": 4548,
+ "n": "10TB Ulatrastar internal hard drive",
+ "b": "Western Digital",
+ "c": "HARD DISK",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "WESTERN DIGITAL 10TB PURPLE or ENTERPRISE ULTRASTAR INTERNAL HARD DRIVE",
+ "specs": [],
+ "for": [
+  "DS-7608NXI-I2/8P/S",
+  "DS-7616NI-K2",
+  "DS-7616NI-K2/16P",
+  "DS-7616NXI-I2/16P/S",
+  "DS-7616NXI-I2/S",
+  "DS-7616NXI-K2",
+  "DS-7616NXI-K2/16P",
+  "DS-7716NI-I4/16P",
+  "DS-7716NI-M4",
+  "DS-7716NI-M4/16P",
+  "DS-7716NXI-I4/S",
+  "DS-7732NI-K4/16P",
+  "DS-7732NI-M4",
+  "DS-7732NXI-K4",
+  "DS-8616NXI-K8",
+  "DS-8632NI-I8",
+  "DS-8664NI-I8"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "sku": "LH55QMCEBGCXUE",
+ "order": 128,
+ "n": "Samsung 55 inch Crystal UHD Signage QMC",
+ "b": "Samsung",
+ "c": "Displays",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "55\" Crystal UHD Signage QMC",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "signage display"
+  },
+  {
+   "label": "Series",
+   "value": "QMC series"
+  }
+ ],
+ "acc": [
+  "Kiosk",
+  "LG-CMBB-65",
+  "LG-Emerald1",
+  "LG-VW04-IN",
+  "LGC-5586",
+  "LGCM-65-5",
+  "LGFS-5565D",
+  "LGFS-5586-N23",
+  "LGWM-3265F-IN",
+  "LGWM-3265SW",
+  "LGWM-3265T",
+  "LGWM-3790F",
+  "LGWM-3790T",
+  "LGWM-4365R",
+  "LGWM-5586SW",
+  "LGWM-5598SW",
+  "LPAUB",
+  "PDRUB",
+  "RMT3",
+  "ST33M",
+  "VB-STND-008",
+  "VB-STND-009",
+  "VB-WMK-001-2C",
+  "VB-WMK-003",
+  "WMK-077"
+ ]
+}

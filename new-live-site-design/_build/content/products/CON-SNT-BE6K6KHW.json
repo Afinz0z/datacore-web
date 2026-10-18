@@ -1,0 +1,16 @@
+{
+ "sku": "CON-SNT-BE6K6KHW",
+ "order": 4515,
+ "n": "Cisco Smart Net Total Care",
+ "b": "Cisco",
+ "c": "Server",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "SNTC-8X5XNBD Cisco Business Edition 6000 (M6) Appliance - 36 months",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "service"
+  }
+ ]
+}

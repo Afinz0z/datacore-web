@@ -1,0 +1,28 @@
+{
+ "sku": "LGF-110",
+ "order": 2790,
+ "n": "Fixed Wall Mount 98 to 110 -LGF-110",
+ "b": "Logic",
+ "c": "Mount",
+ "dept": "AV",
+ "avail": "lead",
+ "d": "Logic Fixed Wall Mount Bracket LGF-110 Support 98\" to 110\" Flat Panels, Max Loading Capacity - 130Kg",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Mount"
+  }
+ ],
+ "for": [
+  "55UH5N-E",
+  "98TR3DK-B",
+  "98UM5K",
+  "HG65U800FAUXUE",
+  "IFP105G",
+  "IFP105UW",
+  "IFP110",
+  "IFP9850-4",
+  "PANA105D",
+  "PN-LC862"
+ ]
+}

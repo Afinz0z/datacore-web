@@ -1,0 +1,19 @@
+{
+ "sku": "760109272",
+ "order": 4097,
+ "n": "12 LC SM casette",
+ "b": "CommScope",
+ "c": "Fiber Casette",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​360G2 Cartridge 12-LC-SM-BL",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "12 LC SM cassette"
+  }
+ ],
+ "for": [
+  "760053280"
+ ]
+}

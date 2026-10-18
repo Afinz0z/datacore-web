@@ -1,0 +1,16 @@
+{
+ "sku": "9PX5Ki",
+ "order": 4226,
+ "n": "EATON 5kVA UPS",
+ "b": "Eaton",
+ "c": "UPS",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Eaton 9PX 5kVA (5000VA / 4500W) online double-conversion UPS with internal VRLA batteries, pure sine wave output, approx. 30-minute backup at 3200W load, rack/tower design for critical IT applications.",
+ "specs": [
+  {
+   "label": "Series",
+   "value": "9x"
+  }
+ ]
+}

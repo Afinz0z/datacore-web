@@ -1,0 +1,16 @@
+{
+ "sku": "SpeedFace-V5L",
+ "order": 3556,
+ "n": "Linux-Based Hybrid-Biometric Access Control",
+ "b": "ZKTeco",
+ "c": "CARD READER",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "Linux-Based Hybrid-Biometric Access Control Reader",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Hybrid Biometric Access Control"
+  }
+ ]
+}

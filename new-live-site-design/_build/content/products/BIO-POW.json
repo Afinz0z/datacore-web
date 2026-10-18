@@ -1,0 +1,14 @@
+{
+ "sku": "BIO-POW",
+ "order": 3655,
+ "n": "BIOLITE POWER ADAPTOR",
+ "b": "Suprema",
+ "c": "ACS POWER ADAPTOR",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "specs": [],
+ "for": [
+  "BEW2-OAPB",
+  "BEW2-ODP"
+ ]
+}

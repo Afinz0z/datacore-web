@@ -1,0 +1,20 @@
+{
+ "sku": "JL660A",
+ "order": 2918,
+ "n": "HPE Aruba Networking 4-port SFP56 Switch",
+ "b": "Aruba",
+ "c": "Network Switch",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "HPE Aruba Networking CX 6300M 24-port HPE Smart Rate 1/2.5/5GbE Class6 PoE and 4-port SFP56 Switch",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Access switch"
+  }
+ ],
+ "acc": [
+  "HL5Y3E",
+  "JL669B"
+ ]
+}

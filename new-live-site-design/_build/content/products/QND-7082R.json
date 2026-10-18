@@ -1,0 +1,19 @@
+{
+ "sku": "QND-7082R",
+ "order": 3262,
+ "n": "network indoor dome camera, 4MP",
+ "b": "Hanwha Vision",
+ "c": "IP CAMERA",
+ "dept": "NETWORK",
+ "avail": "lead",
+ "d": "​ Wisenet Q network indoor dome camera, 4MP @30fps, motorized vari-focal lens 3.1x (3.2 ~ 10.0mm) (109°~33.2°), triple codec H.265/H.264/MJPEG with Wisestream II, 120dB WDR, IR LEDs range 20m (65.62'), Motion detection, Tampering, Defocus detection, Hallway view, LDC support, Built-in mic (One way audio), built-in SD card slot (1x128GB), PoE/12VDC (White color) ​",
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Indoor Dome"
+  }
+ ],
+ "acc": [
+  "SBP-300WMW1"
+ ]
+}
