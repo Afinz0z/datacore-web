@@ -9,24 +9,8 @@
  "d": "PDU BASIC, 1PH 13A UK/6 UK",
  "specs": [
   {
-   "label": "Référence",
-   "value": "DK 7979801"
-  },
-  {
-   "label": "Modèle",
-   "value": "Modèles 19\""
-  },
-  {
    "label": "Avantages",
    "value": "Kit de montage sans outil pour baies VX IT"
-  },
-  {
-   "label": "Caractéristiques techniques",
-   "value": "Marquage en couleurs des phases et des circuits de protection (L1 = rose, L2 = noir, L3 = blanc)"
-  },
-  {
-   "label": "Matériau",
-   "value": "Profilé en aluminium, anodisé noir Emplacements : plastique"
   },
   {
    "label": "Composition de la livraison",
@@ -51,10 +35,6 @@
   {
    "label": "Alimentations",
    "value": "Nombre: 1 Phases par alimentation: 1~"
-  },
-  {
-   "label": "Longueur du câble de raccordement",
-   "value": "3 m"
   }
  ],
  "for": [

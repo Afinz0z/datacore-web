@@ -9,10 +9,6 @@
  "d": "8x4+2 4K60 4:4:4 All-In-One Presentation Switcher",
  "specs": [
   {
-   "label": "DXLink Compatibility Tool updated: Apr 2021",
-   "value": "Apr 2021"
-  },
-  {
    "label": "Video Inputs",
    "value": "(4) HDMI, (4) DXLink 4K60"
   },

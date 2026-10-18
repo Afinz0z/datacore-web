@@ -9,22 +9,6 @@
  "d": "SRX918SF is a powered, flyable single 18-inch subwoofer Class-D type Frequency Range :(-10 dB) :35 Hz-100 Hz (Preset: 80 Hz) (-3 dB) :45 Hz-80 Hz (Preset: 80 Hz) Maximum Peak Output: 134 dB SPL (Preset: 80 Hz)",
  "specs": [
   {
-   "label": "Venue Synthesis released: Jul 2026",
-   "value": "Jul 2026"
-  },
-  {
-   "label": "ArrayLink released: Jan 2025",
-   "value": "Jan 2025"
-  },
-  {
-   "label": "Performance Software released: Jan 2025",
-   "value": "Jan 2025"
-  },
-  {
-   "label": "SRX900 Module for AMX released: Jan 2025",
-   "value": "Jan 2025"
-  },
-  {
    "label": "Frequency Range (-10 dB)",
    "value": "35 Hz -100 Hz"
   },

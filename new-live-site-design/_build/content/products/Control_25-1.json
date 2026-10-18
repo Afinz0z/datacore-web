@@ -10,10 +10,6 @@
  "d": "Compact Indoor/Outdoor Background/Foreground Speaker",
  "specs": [
   {
-   "label": "Control 25-1 BIM Object updated: Aug 2019",
-   "value": "Aug 2019"
-  },
-  {
    "label": "Frequency Range (-10 dB)",
    "value": "60 Hz to 20 kHz"
   },

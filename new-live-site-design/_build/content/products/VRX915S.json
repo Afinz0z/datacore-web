@@ -9,18 +9,6 @@
  "d": "15 in. Bass Reflex Subwoofer",
  "specs": [
   {
-   "label": "VRX915S BIM Object updated: Jul 2023",
-   "value": "Jul 2023"
-  },
-  {
-   "label": "Venue Synthesis released: Jul 2026",
-   "value": "Jul 2026"
-  },
-  {
-   "label": "Performance Manager 3 released: Jul 2024",
-   "value": "Jul 2024"
-  },
-  {
    "label": "Frequency Range (-10 dB)",
    "value": "35 Hz - 250 Hz"
   },
@@ -43,10 +31,6 @@
   {
    "label": "Nominal Impedance",
    "value": "4 Ohms"
-  },
-  {
-   "label": "Active Tunings",
-   "value": "Tunings available at www.jblpro.com"
   },
   {
    "label": "Enclosure",

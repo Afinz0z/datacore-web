@@ -9,14 +9,6 @@
  "d": "PDU basic 16A/1P IEC-C20 8xC13",
  "specs": [
   {
-   "label": "Artículo No.",
-   "value": "DK 7979102"
-  },
-  {
-   "label": "Ejecución",
-   "value": "Ejecución 19\""
-  },
-  {
    "label": "Ventajas",
    "value": "En montaje vertical puede realizarse la instalación en el espacio Zero-U en el VX IT o el rack TS IT sin herramientas"
   },
@@ -25,28 +17,12 @@
    "value": "Bloqueo de conectores para conector IEC C14, C20 Incl. material de fijación Sin cable de conexión, debe ser proporcionado por el cliente"
   },
   {
-   "label": "Nº bases de enchufe y tipo",
-   "value": "8 x C13"
-  },
-  {
-   "label": "Tensión de servicio",
-   "value": "230 V (c.a.)"
-  },
-  {
-   "label": "Intensidad (máx.)",
-   "value": "16 A"
-  },
-  {
    "label": "Potencia",
    "value": "3.7 kW"
   },
   {
    "label": "Alimentaciones",
    "value": "Cantidad: 1 Fases por alimentación: 1~"
-  },
-  {
-   "label": "Tipo de conexión (eléctrica)",
-   "value": "IEC C20"
   },
   {
    "label": "Directivas",

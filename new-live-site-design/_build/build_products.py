@@ -144,6 +144,32 @@ MONTHS = {"en": ["January", "February", "March", "April", "May", "June", "July",
                  "October", "November", "December"],
           "ar": ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر",
                  "أكتوبر", "نوفمبر", "ديسمبر"]}
+# Shared spec names (spec_names.json): each maker's label maps to one name per measure, so a comparison
+# lines products up row by row. Product pages and the quick view keep the maker's own labels.
+_SPEC = json.load(open(os.path.join(DATA, 'spec_names.json'), encoding='utf-8'))['names']
+_SPEC_IDX = {}
+for _n in _SPEC:
+    for _m in _n['match']:
+        _SPEC_IDX.setdefault(_m, []).append(_n)
+SPEC_ORDER = list(dict.fromkeys(n['key'] for n in _SPEC))
+SPEC_LABEL = {n['key']: (n['en'], n['ar']) for n in _SPEC}
+
+
+def spec_base(label):
+    """'Frequency Range (-10 dB)' -> 'frequency range'; 'Power handling, peak' -> 'power handling'."""
+    s = re.sub(r'\([^)]*\)', ' ', label.lower())
+    s = re.split(r'\s(?:@|at)\s|,', s)[0]
+    return re.sub(r'[^a-z0-9]+', ' ', s).strip()
+
+
+def spec_key(label, value, grp):
+    for n in _SPEC_IDX.get(spec_base(label), []):
+        if (not n.get('groups') or grp in n['groups']) and (not n.get('value') or re.search(n['value'], value)):
+            k = n['key']
+            return 'peak_power' if k in ('power_handling', 'amp_power') and 'peak' in label.lower() else k
+    return ''
+
+
 def fmt_date(iso, ar):
     try:
         d = datetime.date.fromisoformat(iso)
@@ -172,7 +198,7 @@ LABELS = {
    "ok_h": "Request sent", "ok_p": "Your reference is {ref}. We’ll price {n} item(s) and reply within one working day.",
    "sort": "Sort", "sort_rec": "Recommended", "sort_name": "Name, A to Z", "sort_brand": "Brand, A to Z",
    "cmp": "Compare", "cmp_n": "Compare {n}", "cmp_h": "Compare products", "cmp_max": "You can compare up to 4 products.",
-   "cmp_clear": "Clear", "part": "Part number", "product": "Product", "qty": "Quantity",
+   "cmp_clear": "Clear", "cmp_more": "Show {n} more details", "cmp_less": "Show fewer details", "part": "Part number", "product": "Product", "qty": "Quantity",
    "dec": "Decrease quantity", "inc": "Increase quantity",
    "qv_specs": "Specifications", "qv_checked": "Checked against the maker's page on {d}.",
    "qv_maker": "Maker's product page", "qv_inv": "From our inventory record. Ask us for the full datasheet.",
@@ -205,7 +231,7 @@ LABELS = {
    "ok_h": "تم إرسال الطلب", "ok_p": "رقمك المرجعي {ref}. سنسعّر {n} عنصراً ونرد خلال يوم عمل واحد.",
    "sort": "الترتيب", "sort_rec": "المقترح", "sort_name": "الاسم أبجدياً", "sort_brand": "العلامة التجارية أبجدياً",
    "cmp": "مقارنة", "cmp_n": "قارن {n}", "cmp_h": "مقارنة المنتجات", "cmp_max": "يمكنك مقارنة 4 منتجات كحد أقصى.",
-   "cmp_clear": "مسح", "part": "رقم القطعة", "product": "المنتج", "qty": "الكمية",
+   "cmp_clear": "مسح", "cmp_more": "اعرض {n} تفاصيل أخرى", "cmp_less": "اعرض تفاصيل أقل", "part": "رقم القطعة", "product": "المنتج", "qty": "الكمية",
    "dec": "إنقاص الكمية", "inc": "زيادة الكمية",
    "qv_specs": "المواصفات", "qv_checked": "تمت مطابقتها مع صفحة الشركة المصنعة بتاريخ {d}.",
    "qv_maker": "صفحة المنتج لدى الشركة المصنعة", "qv_inv": "من سجل المخزون لدينا. اطلب منا ورقة المواصفات الكاملة.",
@@ -369,7 +395,7 @@ def write_data():
     loads once the page has drawn. Returns both URLs."""
     groups = [[k, v[0], v[1]] for k, v in GROUPS.items()]
     cats, cidx, brands, bidx = [], {}, [], {}
-    rows, text = [], {"d": [], "s": {}, "src": {}, "m": {}}
+    rows, text = [], {"d": [], "s": {}, "src": {}, "m": {}, "k": {}}
     idx = {p['sku']: i for i, p in enumerate(PRODUCTS)}
     for p in PRODUCTS:
         c = p['cat']
@@ -394,6 +420,9 @@ def write_data():
             text['src'][i] = [p['src'], p['checked']]
         if p['model'] and p['model'] not in p['n']:
             text['m'][i] = p['model']
+        keys = [spec_key(l, v, p['cat']['grp']) for l, v in p['specs']]
+        if any(keys):
+            text['k'][i] = keys
     return (_write_js('products-data.js', 'DCP_PRODUCTS', {"groups": groups, "cats": cats, "brands": brands, "p": rows}),
             _write_js('products-text.js', 'DCP_TEXT', text))
 
@@ -529,7 +558,8 @@ def build_products(ar, urls, g=None):
             + cta_band(ar) + footer(ar) + drawer)
 
     data = {"lang": lang, "labels": L, "glyphs": GLYPHS, "page": PAGE, "lowAfter": LOW_AFTER, "photoDir": PHOTO_DIR,
-            "logoAlt": LOGO_ALT, "sizes": SIZES, "textUrl": text_url, "preset": {"grp": [g]} if g else {}}
+            "logoAlt": LOGO_ALT, "sizes": SIZES, "textUrl": text_url,
+            "specNames": [[k, SPEC_LABEL[k][1 if ar else 0]] for k in SPEC_ORDER], "preset": {"grp": [g]} if g else {}}
     js = ('<script>window.DCP_DATA=' + json.dumps(data, ensure_ascii=False) + ';</script>'
           f'<script src="{data_url}"></script>'
           '<script src="dc-products.js?v=' + VER + '"></script>')
@@ -783,6 +813,9 @@ CAT_CSS = (
     '.dcp-cmpt tbody th{color:var(--dcp-ink2);font-weight:600;min-width:140px;position:sticky;inset-inline-start:0;background:var(--dcp-bg)}'
     '.dcp-cmpt thead th{border-bottom:0;padding-top:12px}'
     '.dcp-cmpt .dcp-add{width:100%}'
+    '.dcp-cmpt td>div+div{margin-top:8px}'
+    '.dcp-cmp-lab{display:block;font-size:.74rem;color:var(--dcp-ink3);margin-top:2px}'
+    '.dcp-cmpt .dcp-cmp-toggle td{border-bottom:0;padding-top:14px}'
     # compare tray
     '.dcp-tray{position:fixed;inset-inline:16px;inset-block-end:22px;margin-inline:auto;max-width:620px;z-index:1250;'
     'display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 14px;background:var(--dcp-bg);color:var(--dcp-ink);'

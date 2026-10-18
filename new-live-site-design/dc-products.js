@@ -75,7 +75,7 @@
     var c = RAW.cats[r[3]];
     var p = { sku: r[0], n: r[1], b: r[2] > -1 ? RAW.brands[r[2]] : '', ck: c[0], c: AR ? c[1] : c[0], cx: c[0] + ' ' + c[1], grp: c[2],
       g: r[4], photo: r[5], specs: r[6] || [], card: r[6] || [], note: r[7] || '', d: '', avail: r[8] ? 'stock' : 'lead', kids: r[9] || [], fits: r[10] || [],
-      page: r[11] ? r[11] + (AR ? '-ar' : '') + '.html' : '', sm: !!r[12], src: '', checked: '', model: '' };
+      page: r[11] ? r[11] + (AR ? '-ar' : '') + '.html' : '', sm: !!r[12], src: '', checked: '', model: '', keys: [] };
     index(p);
     BY[p.sku] = p;
     return p;
@@ -111,6 +111,7 @@
         if (T.s && T.s[i]) p.specs = T.s[i];
         if (T.src && T.src[i]) { p.src = T.src[i][0]; p.checked = T.src[i][1]; }
         if (T.m && T.m[i]) p.model = T.m[i];
+        if (T.k && T.k[i]) p.keys = T.k[i];   // shared spec names, row by row (spec_names.json)
         index(p);
       });
       TEXT = true;
@@ -695,20 +696,64 @@
         cmpv.addEventListener('click', function (e) {
           if (e.target.closest('[data-cclose]')) { closeCmp(); return; }
           var o = e.target.closest('[data-open]'); if (o) { closeCmp(); openQV(o.getAttribute('data-open')); return; }
+          var mo = e.target.closest('[data-cmp-more]');
+          if (mo) {   // details only one of the products lists
+            var open = mo.getAttribute('aria-expanded') !== 'true';
+            cmpv.querySelectorAll('.dcp-cmp-more').forEach(function (r) { r.hidden = !open; });
+            mo.setAttribute('aria-expanded', String(open));
+            mo.textContent = open ? L.cmp_less : L.cmp_more.replace('{n}', mo.getAttribute('data-cmp-more'));
+            return;
+          }
           actions(e);
         });
         cmpv.addEventListener('keydown', function (e) { if (e.key === 'Escape') { e.stopPropagation(); closeCmp(); } else trap(e, cmpv); });
       }
-      var ps = cmp.map(function (s) { return BY[s]; }), labels = [];
-      ps.forEach(function (p) { p.specs.forEach(function (s) { if (labels.indexOf(s[0]) < 0) labels.push(s[0]); }); });
-      var row = function (th, cells) { return '<tr><th scope="row">' + th + '</th>' + cells.map(function (c) { return '<td>' + c + '</td>'; }).join('') + '</tr>'; };
-      var val = function (p, l) { for (var i = 0; i < p.specs.length; i++) if (p.specs[i][0] === l) return '<span dir="ltr">' + esc(p.specs[i][1]) + '</span>'; return ''; };
+      var ps = cmp.map(function (s) { return BY[s]; });
+      var row = function (th, cells, more) {
+        return '<tr' + (more ? ' class="dcp-cmp-more" hidden' : '') + '><th scope="row">' + th + '</th>' +
+          cells.map(function (c) { return '<td>' + c + '</td>'; }).join('') + '</tr>';
+      };
+      // one value, with the maker's own label underneath when it words the spec differently
+      var val = function (s, name) {
+        return '<div><span dir="ltr">' + esc(s[1]) + '</span>' +
+          (s[0].toLowerCase() !== String(name).toLowerCase() ? '<small class="dcp-cmp-lab" dir="ltr">' + esc(s[0]) + '</small>' : '') + '</div>';
+      };
+      var used = ps.map(function () { return {}; }), body = '';
+      // 1. the shared names (spec_names.json), in their order, so the same measure sits on one row
+      (D.specNames || []).forEach(function (kn) {
+        var cells = ps.map(function (p, j) {
+          var out = [];
+          p.specs.forEach(function (s, i) { if (p.keys[i] === kn[0]) { used[j][i] = 1; out.push(s); } });
+          return out;
+        });
+        if (cells.some(function (c) { return c.length; }))
+          body += row(esc(kn[1]), cells.map(function (c) { return c.map(function (s) { return val(s, kn[1]); }).join(''); }));
+      });
+      // 2. other rows the makers label alike on two or more products; 3. the rest, behind a button
+      var rest = {}, order = [];
+      ps.forEach(function (p, j) {
+        p.specs.forEach(function (s, i) {
+          if (used[j][i]) return;
+          var k = s[0].toLowerCase();
+          if (!rest[k]) { rest[k] = { label: s[0], cells: ps.map(function () { return []; }) }; order.push(k); }
+          rest[k].cells[j].push(s);
+        });
+      });
+      var many = function (k) { return rest[k].cells.filter(function (c) { return c.length; }).length > 1; };
+      var shared = order.filter(many), own = order.filter(function (k) { return !many(k); });
+      var restRow = function (k, more) {
+        return row(esc(rest[k].label), rest[k].cells.map(function (c) { return c.map(function (s) { return val(s, rest[k].label); }).join(''); }), more);
+      };
+      body += shared.map(function (k) { return restRow(k); }).join('');
+      if (own.length) body += '<tr class="dcp-cmp-toggle"><td colspan="' + (ps.length + 1) + '"><button type="button" class="dcp-more" data-cmp-more="' +
+        own.length + '" aria-expanded="false">' + L.cmp_more.replace('{n}', own.length) + '</button></td></tr>' +
+        own.map(function (k) { return restRow(k, true); }).join('');
       cmpv.querySelector('.dcp-cmpv-body').innerHTML = '<table class="dcp-cmpt"><thead><tr><td></td>' +
         ps.map(function (p) { return '<th scope="col">' + miniHTML(p) + '</th>'; }).join('') + '</tr></thead><tbody>' +
         row(L.brand, ps.map(function (p) { return '<span dir="ltr">' + esc(p.b) + '</span>'; })) +
-        row(L.type, ps.map(function (p) { return esc(p.c); })) +
+        row(L.category, ps.map(function (p) { return esc(p.c); })) +
         row(L.part, ps.map(function (p) { return '<span class="dcp-card-sku" dir="ltr">' + esc(p.sku) + '</span>'; })) +
-        labels.map(function (l) { return row(esc(l), ps.map(function (p) { return val(p, l); })); }).join('') +
+        body +
         row('', ps.map(function (p) { return '<button class="dcp-add" type="button" data-sku="' + esc(p.sku) + '">' + L.add + '</button>'; })) +
         '</tbody></table>';
       syncButtons();

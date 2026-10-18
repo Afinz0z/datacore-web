@@ -29,28 +29,8 @@
    "value": "Overspændingsbeskyttelse type 3 med hot swap-afledere, med statusovervågning, kan integreres i PDU-kabinet Kabinet fås også i andre farver"
   },
   {
-   "label": "Antal stikdåser og type",
-   "value": "12 x C13 / 1 x C19"
-  },
-  {
-   "label": "Mærkedriftsspænding",
-   "value": "230 V (AC)"
-  },
-  {
-   "label": "Mærkestrøm (maks.)",
-   "value": "16 A"
-  },
-  {
    "label": "Nom. effekt",
    "value": "3,7 kW"
-  },
-  {
-   "label": "Strømforsyninger",
-   "value": "Antal: 1 Faser per forsyning: 1~"
-  },
-  {
-   "label": "Længde tilslutningskabel",
-   "value": "3 m"
   },
   {
    "label": "Tilslutningstype (elektrisk)",
