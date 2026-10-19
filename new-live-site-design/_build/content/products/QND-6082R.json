@@ -1,6 +1,6 @@
 {
  "sku": "QND-6082R",
- "order": 3127,
+ "order": 3120,
  "n": "2MP IR Dome Camera, Indoor 3.2 ~10mm",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,11 +9,57 @@
  "d": "2MP IR Dome Camera, Indoor 3.2 ~10mm Motorized VF, IR 20m",
  "specs": [
   {
-   "label": "Type",
-   "value": "Dome Camera"
+   "label": "Imaging Device Size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "Imaging Device Type",
+   "value": "CMOS"
+  },
+  {
+   "label": "Resolution",
+   "value": "1920x1080, 1280x960, 1280x720, 800x600, 800x448, 720x576, 720x480, 640x480, 640x360"
+  },
+  {
+   "label": "Max. Framerate H.265/H.264",
+   "value": "30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "Max. Framerate MJPEG",
+   "value": "15fps(@2MP Max. 4fps)"
+  },
+  {
+   "label": "Min. Illumination (Lux) Color(1/30sec, 30IRE)",
+   "value": "0.03"
+  },
+  {
+   "label": "Min. Illumination (Lux) BW(1/30sec, 30IRE)",
+   "value": "0.003"
+  },
+  {
+   "label": "Video Out",
+   "value": "CVBS: 1.0 Vp-p / 75Ω composite for installation"
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "3.2~10"
+  },
+  {
+   "label": "Zoom Ratio Optical",
+   "value": "3.1x"
+  },
+  {
+   "label": "Max Aperture Ratio (F number) Wide",
+   "value": "1.6"
+  },
+  {
+   "label": "Max Aperture Ratio (F number) Tele",
+   "value": "2.9"
   }
  ],
  "acc": [
   "SBP-122HMW"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/mea/products/product-details/QND-6082R",
+ "checked": "2026-10-19"
 }

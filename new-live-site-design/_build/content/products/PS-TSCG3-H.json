@@ -1,6 +1,6 @@
 {
  "sku": "PS-TSCG3-H",
- "order": 4281,
+ "order": 4272,
  "n": "Q-SYS Touchscreen Page Station (PS-TSCG3-H)",
  "b": "QSC",
  "c": "Paging mic",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "PS-TSCG3-H",
  "d": "Q-SYS Touchscreen Page Station; Wall-mount form factor with Handheld mic; includes TSC-70-G3 touchscreen",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Projective capacitive (PCAP) multi-touch, high-resolution 24-bit color display"
+  },
+  {
+   "label": "Resolution",
+   "value": "1280 x 800 px"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "850:1"
+  },
+  {
+   "label": "Brightness",
+   "value": "450 Nits"
+  },
+  {
+   "label": "Customizable LED status indicators",
+   "value": "Yes"
+  },
+  {
+   "label": "Sensors",
+   "value": "Ambient Light Sensor, Proximity Detection"
+  },
+  {
+   "label": "Polar pattern",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Frequency response (-10 db relative to 1 KHz)",
+   "value": "300 Hz to 11 KHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "-70 dB ± 3 dB (0 dB = 1 ubar @ 1 KHz)"
+  },
+  {
+   "label": "LAN",
+   "value": "1x RJ45, 1 Gbps"
+  },
+  {
+   "label": "PoE (Power over Ethernet)",
+   "value": "IEEE 802.3af Type 1 Class 3 (PoE)"
+  }
+ ],
+ "src": "https://www.qsys.com/products/q-sys/additional-peripherals/ps-tscg3-touchscreen-paging-station/",
+ "checked": "2026-10-19"
 }

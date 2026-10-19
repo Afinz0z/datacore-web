@@ -1,11 +1,58 @@
 {
  "sku": "DCI4X300DA",
- "order": 938,
+ "order": 936,
  "n": "Amplifier - DCI4X300DA",
  "b": "Crown",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "4 Channels ,300W/chDante-enabled amplifier with DSP, network",
- "specs": []
+ "specs": [
+  {
+   "label": "Output Channels",
+   "value": "4"
+  },
+  {
+   "label": "Frequency Response (8Ω, 20 Hz - 20 kHz)",
+   "value": "±0.25dB"
+  },
+  {
+   "label": "Damping Factor (20 Hz to 100 Hz)",
+   "value": ">1000"
+  },
+  {
+   "label": "Load Impedance (Stereo/Dual Mode)",
+   "value": "2Ω - 16Ω; 70Vrms and 100Vrms"
+  },
+  {
+   "label": "Load Impedance Bridge Mono",
+   "value": "4Ω - 16Ω; 140Vrms and 200Vrms"
+  },
+  {
+   "label": "Cooling",
+   "value": "Continuously variable speed forced air, front to back airflow"
+  },
+  {
+   "label": "Maximum Fan Noise (re dBA SPL @ 1M)",
+   "value": "45"
+  },
+  {
+   "label": "Required AC Mains (±10%)",
+   "value": "100V-240V ~ 50/60Hz"
+  },
+  {
+   "label": "Power Connector",
+   "value": "15A IEC"
+  },
+  {
+   "label": "Dimensions (W x H x D)",
+   "value": "483 mm x 89 mm x 362 mm 19 in x 3.5 in x 14.25 in"
+  },
+  {
+   "label": "Weight",
+   "value": "9.12 kg (20.1 lbs)"
+  }
+ ],
+ "src": "https://www.crownaudio.com/en/products/dci-4-300da",
+ "checked": "2026-10-19"
 }

@@ -1,13 +1,62 @@
 {
  "sku": "WD102PURP",
- "order": 4413,
+ "order": 4398,
  "n": "10 TB Hard Drive",
  "b": "Western Digital",
  "c": "HARD DISK",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "WESTERN DIGITAL 10TB PURPLE SATA INTERNAL HARD DRIVE",
- "specs": [],
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "10TB"
+  },
+  {
+   "label": "Technologies",
+   "value": "AllFrame AI, OptiNAND, WDDA"
+  },
+  {
+   "label": "Model Number",
+   "value": "WD102PURP"
+  },
+  {
+   "label": "Recording Technology",
+   "value": "CMR"
+  },
+  {
+   "label": "Interface",
+   "value": "SATA"
+  },
+  {
+   "label": "Connector",
+   "value": "SATA"
+  },
+  {
+   "label": "Form Factor",
+   "value": "3.5-Inch"
+  },
+  {
+   "label": "Disk Speed (RPM)",
+   "value": "7200 RPM"
+  },
+  {
+   "label": "Endurance (TBW)",
+   "value": "550TB/year"
+  },
+  {
+   "label": "Use Cases",
+   "value": "Smart Video Surveillance"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "147mm x 101.6mm x 26.1mm"
+  },
+  {
+   "label": "Weight",
+   "value": "750gms"
+  }
+ ],
  "for": [
   "DS-7608NI-K1",
   "DS-7608NI-K2",
@@ -31,5 +80,7 @@
   "DS-8616NXI-K8",
   "DS-8632NI-I8",
   "DS-8664NI-I8"
- ]
+ ],
+ "src": "https://www.westerndigital.com/products/internal-drives/wd-purple-pro-sata-hdd?sku=WD102PURP",
+ "checked": "2026-10-19"
 }

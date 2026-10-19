@@ -1,11 +1,62 @@
 {
  "sku": "IXP-6",
- "order": 840,
+ "order": 839,
  "n": "Speaker - IXP-6",
  "b": "Lynx Pro",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Ceiling mounted Speaker Type 2 (CS2) : Professional coaxial two-way, full range, 6.5-inch ceiling mount loudspeaker system.",
- "specs": []
+ "specs": [
+  {
+   "label": "Components",
+   "value": "6.5” 165 mm polypropylene cone with rubber suspension; 0.75″ milar Tweeter coaxially mounted with conical horn;"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "80 – 20.000 Hz"
+  },
+  {
+   "label": "Rated Power",
+   "value": "50W (8 Ω) 200W Peak"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "100V 50 / 25 / 12.5 W 70V 50 / 25 / 12.5 / 6.25 W Low Impedance 8Ω"
+  },
+  {
+   "label": "Max SPL",
+   "value": "8Ω 107 dB / 113 dB 100V / 70V 107 dB / 113 dB"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB 1W / 1m @ Zn average 400 Hz to 8KHz"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Nominal Coverage",
+   "value": "100º Conical Dispersion"
+  },
+  {
+   "label": "Recommended Signal processing",
+   "value": "80 Hz, at 24 dB per octave high pass filter"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "5500 Hz 12dB/octave HP/LP filter"
+  },
+  {
+   "label": "Input connection",
+   "value": "4 poles Euroblock connector with loop-through"
+  },
+  {
+   "label": "Grille",
+   "value": "Powder coated steel, white finish, paintable"
+  }
+ ],
+ "src": "https://www.lynxproaudio.com/product/ixp-6/",
+ "checked": "2026-10-19"
 }

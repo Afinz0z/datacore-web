@@ -1,6 +1,6 @@
 {
  "sku": "U6-PRO",
- "order": 3004,
+ "order": 3000,
  "n": "Access Point UniFi Wi-Fi 6 Professional",
  "b": "Ubiquiti",
  "c": "ACCESS POINT",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "WIFI",
  "d": "Access Point UniFi Wi-Fi 6 Professional",
- "specs": []
+ "specs": [
+  {
+   "label": "WiFi Standard",
+   "value": "WiFi 6"
+  },
+  {
+   "label": "Spatial Streams",
+   "value": "6"
+  },
+  {
+   "label": "Coverage Area",
+   "value": "140 m² (1,500 ft²)"
+  },
+  {
+   "label": "Max. Client Count",
+   "value": "250+"
+  },
+  {
+   "label": "Uplink",
+   "value": "GbE"
+  },
+  {
+   "label": "Mounting",
+   "value": "Ceiling, Wall (Pro Mount Included)"
+  },
+  {
+   "label": "Weatherproofing",
+   "value": "IP54"
+  },
+  {
+   "label": "Power Method",
+   "value": "PoE"
+  },
+  {
+   "label": "MIMO 5 GHz",
+   "value": "4 x 4 (DL/UL MU-MIMO)"
+  },
+  {
+   "label": "MIMO 2.4 GHz",
+   "value": "2 x 2 (UL MU-MIMO)"
+  },
+  {
+   "label": "Max. Data Rate 5 GHz",
+   "value": "4.8 Gbps (BW160)"
+  },
+  {
+   "label": "Max. Data Rate 2.4 GHz",
+   "value": "573.5 Mbps (BW40)"
+  }
+ ],
+ "src": "https://techspecs.ui.com/unifi/wifi/u6-pro",
+ "checked": "2026-10-19"
 }

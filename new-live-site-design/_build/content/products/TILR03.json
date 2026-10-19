@@ -1,6 +1,6 @@
 {
  "sku": "TILR03+",
- "order": 1267,
+ "order": 1265,
  "n": "ILR3+ Induction Loop Receiver (TILR03+)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "TILR03+",
  "d": "ILR3+ Induction Loop Receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "Standard: Flat 85Hz – 6kHz ± 0.5dB"
+  },
+  {
+   "label": "Output power",
+   "value": ">100mW into 16Ω load"
+  },
+  {
+   "label": "Distortion",
+   "value": "< 2% THD+N"
+  },
+  {
+   "label": "Battery life",
+   "value": ">100 hours with (2) AA Alkaline batteries (included)"
+  },
+  {
+   "label": "Magnetic Field Strength",
+   "value": "To PPM type II referenced to 400mA/m rms"
+  },
+  {
+   "label": "Indication",
+   "value": "'Good’ 0dB Green LED 400mA/m rms with sine"
+  },
+  {
+   "label": "Stereo headphones Impedance",
+   "value": "32Ω per side (included)"
+  },
+  {
+   "label": "Safety and EMC",
+   "value": "CE marked to all relevant safety and EMC standards"
+  },
+  {
+   "label": "Dimensions",
+   "value": "width 62mm, depth 26mm, height 112mm"
+  },
+  {
+   "label": "Temperature range",
+   "value": "IP20 : 20 to 90% relative humidity, -10 to 45ºC"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/ilr3-induction-loop-receiver/",
+ "checked": "2026-10-19"
 }

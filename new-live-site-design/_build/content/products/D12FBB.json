@@ -1,6 +1,6 @@
 {
  "sku": "D12FBB",
- "order": 5139,
+ "order": 5124,
  "n": "Finger Bracket Kit",
  "b": "Panduit",
  "c": "Accessories",
@@ -9,11 +9,45 @@
  "d": "42RU Finger Bracket Kit, Black",
  "specs": [
   {
-   "label": "Type",
-   "value": "bracket kit"
+   "label": "Product Type",
+   "value": "Finger Bracket Kit"
+  },
+  {
+   "label": "Overall Width (In.)",
+   "value": "5.6"
+  },
+  {
+   "label": "Overall Width (mm)",
+   "value": "142"
+  },
+  {
+   "label": "Overall Height (In.)",
+   "value": "68.29"
+  },
+  {
+   "label": "Overall Height (mm)",
+   "value": "1734.7"
+  },
+  {
+   "label": "Sub Brand",
+   "value": "Net-Verse™"
+  },
+  {
+   "label": "Number of Rack Units",
+   "value": "42"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Standards Met",
+   "value": "RoHS Compliant"
   }
  ],
  "for": [
   "DAE8212B"
- ]
+ ],
+ "src": "https://www.panduit.com/en/products/cabinets-thermal-management-racks-enclosures/cabinets/cabinet-accessories/p204873.html#pn=D12FBB",
+ "checked": "2026-10-19"
 }

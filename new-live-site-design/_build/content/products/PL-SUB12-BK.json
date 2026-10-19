@@ -1,6 +1,6 @@
 {
  "sku": "PL-SUB12-BK",
- "order": 1234,
+ "order": 1232,
  "n": "12-in Passive installation subwoofer,Color - Black (PL-SUB12-BK)",
  "b": "QSC",
  "c": "Subwoofer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "PL-SUB12-BK",
  "d": "12-in Passive installation subwoofer,Color - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducers",
+   "value": "LF: 12 in (300 mm), 3 in (75 mm) voice coil"
+  },
+  {
+   "label": "Enclosure configuration",
+   "value": "Passive subwoofer in bass reflex enclosure"
+  },
+  {
+   "label": "Coverage",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "System bandwidth (-10 dB with EQ)",
+   "value": "40-100 Hz Sub Crossover = 80 40-110 Hz Sub Crossover = 100 40-140 Hz Sub Crossover = 125"
+  },
+  {
+   "label": "System sensitivity",
+   "value": "93 dB @ 1 W/1 m"
+  },
+  {
+   "label": "Max SPL (continuous)",
+   "value": "137 dB @ 1 W/1 m"
+  },
+  {
+   "label": "Enclosure color",
+   "value": "Black (RAL 9011)"
+  },
+  {
+   "label": "Connectors",
+   "value": "2x Speakon NL4 (cable connector not provided) 1x Euroblock (parallel to Speakon): Solid wire 8-24 AWG, 4 poles"
+  },
+  {
+   "label": "Weatherization",
+   "value": "IP54 External plywood Stainless screws Treated grille vs. UV and corrosion Hydrophobic stainless steel mesh behind grille Polyurea Paint Input cup (IP65) sealing with gland"
+  },
+  {
+   "label": "Enclosure material",
+   "value": "Exterior plywood"
+  },
+  {
+   "label": "Dimensions",
+   "value": "12.7 x 20.6 x 24 in (325 x 525 x 610 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "53.1 lb (24.1 kg)"
+  }
+ ],
+ "src": "https://www.qsys.com/products/loudspeakers/installed/passive/performance/pl-series/q-sys-pl-sub/q-sys-pl-sub12/",
+ "checked": "2026-10-19"
 }

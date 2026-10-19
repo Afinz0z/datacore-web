@@ -1,12 +1,41 @@
 {
  "sku": "C400100",
- "order": 3442,
+ "order": 3435,
  "n": "CONTROLLER 7000 STANDARD",
  "b": "Gallagher",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power",
+   "value": "13.6 v DC ± 15%"
+  },
+  {
+   "label": "Ethernet network Connection",
+   "value": "10/100 Ethernet network connection"
+  },
+  {
+   "label": "RS485 Device Communications",
+   "value": "115.2Kbit/s, dependent on cable type"
+  },
+  {
+   "label": "Ports",
+   "value": "2 x RS485 Port and 1 USB 2.0 Port"
+  },
+  {
+   "label": "TCP/IP Protocol",
+   "value": "256bit AES Symmetric encryption for Controller to Server and Inter-Controller Communications"
+  },
+  {
+   "label": "Standards compliance",
+   "value": "CE, RCM, UL, UKCA, FCC, IC"
+  },
+  {
+   "label": "Dimensions",
+   "value": "100 x 180 x 42 mm"
+  }
+ ],
  "acc": [
   "C200440",
   "C300120",
@@ -15,5 +44,7 @@
   "C864180",
   "C864201",
   "C864662"
- ]
+ ],
+ "src": "https://products.security.gallagher.com/security/global/en/products/access-control-hardware/controllers/controller-7000/p/C400100",
+ "checked": "2026-10-19"
 }

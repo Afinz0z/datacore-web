@@ -1,6 +1,6 @@
 {
  "sku": "DAE8222B",
- "order": 3638,
+ "order": 3631,
  "n": "black,with Side Pane,with Casters (42 U*800mm*1200mm)",
  "b": "Panduit",
  "c": "NETWORK CABINET",
@@ -8,8 +8,56 @@
  "avail": "lead",
  "model": "42 U*800mm*1200mm",
  "d": "42 U*800mm*1200mm,black,with Side Pane,with Casters",
- "specs": [],
- "acc": [
-  "P30B06M"
- ]
+ "specs": [
+  {
+   "label": "Sub Brand",
+   "value": "Net-Verse™"
+  },
+  {
+   "label": "Product Type",
+   "value": "D-Type Cabinet"
+  },
+  {
+   "label": "Rear Door Type",
+   "value": "Door Split Hinged"
+  },
+  {
+   "label": "Front Door Type",
+   "value": "Door Single Hinged"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Overall Depth (In.)",
+   "value": "50.6"
+  },
+  {
+   "label": "Overall Depth (mm)",
+   "value": "1200"
+  },
+  {
+   "label": "Overall Width (In.)",
+   "value": "31.5"
+  },
+  {
+   "label": "Overall Width (mm)",
+   "value": "800"
+  },
+  {
+   "label": "Overall Height (In.)",
+   "value": "80.5"
+  },
+  {
+   "label": "Overall Height (mm)",
+   "value": "2045"
+  },
+  {
+   "label": "Number of Rack Units",
+   "value": "42"
+  }
+ ],
+ "src": "https://www.panduit.com/en/products/cabinets-thermal-management-racks-enclosures/cabinets/cabinets/p204495.html#pn=DAE8222B",
+ "checked": "2026-10-19"
 }

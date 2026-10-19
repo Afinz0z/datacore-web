@@ -1,11 +1,62 @@
 {
  "sku": "CP8",
- "order": 858,
+ "order": 857,
  "n": "Active Monitor Speaker",
  "b": "QSC",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Compact Powered Loudspeaker 8 inch",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "Two-way active loudspeaker"
+  },
+  {
+   "label": "LF Transducer",
+   "value": "203 mm (8 in) , cone"
+  },
+  {
+   "label": "HF Transducer",
+   "value": "35.6 mm (1.4 in) compression driver"
+  },
+  {
+   "label": "Frequency Response (-6 dB)",
+   "value": "56 - 20 kHz"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "53 - 20 kHz"
+  },
+  {
+   "label": "Nominal Coverage Angle",
+   "value": "90° Axisymetric"
+  },
+  {
+   "label": "Maximum Rated SPL",
+   "value": "124 dB"
+  },
+  {
+   "label": "Amplifier",
+   "value": "Class D Peak: 800 W (LF), 200 W (HF)"
+  },
+  {
+   "label": "Controls",
+   "value": "Power 2 x Gain Mic Boost Push Switch 6-way Contour Selection Switch"
+  },
+  {
+   "label": "Indicators",
+   "value": "Power LED 2 × Input Signal LED Input B MIC selected LED Limiter active LED"
+  },
+  {
+   "label": "Connectors",
+   "value": "2 × locking XLR/F ¼” combo (Line Input and Mic/Line input) 1 × 3.5 mm TRS (Stereo Input) 1 × XLR/M (Mix Output) 1 × IEC power connector"
+  },
+  {
+   "label": "AC Power Input",
+   "value": "Universal power supply 100 – 240 VAC, 50 – 60 Hz"
+  }
+ ],
+ "src": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/cp8/",
+ "checked": "2026-10-19"
 }

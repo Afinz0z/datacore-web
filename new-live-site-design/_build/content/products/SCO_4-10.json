@@ -1,11 +1,54 @@
 {
  "sku": "SCO 4-10",
- "order": 4257,
+ "order": 4248,
  "n": "LNB QUATTRO",
  "b": "AXING",
  "c": "Satellite Accessory",
  "dept": "AV",
  "avail": "lead",
  "d": "LNB QUATTRO AXING",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector type",
+   "value": "4 × F-female"
+  },
+  {
+   "label": "Input frequency range",
+   "value": "10.7 … 11.7 GHz (low-band) | 11.7 … 12.75 GHz (high-band)"
+  },
+  {
+   "label": "Gain",
+   "value": "55 dB"
+  },
+  {
+   "label": "Oscillator frequency",
+   "value": "9.75 GHz (low-band) | 10.6 GHz (high-band)"
+  },
+  {
+   "label": "Impedance",
+   "value": "75 Ω"
+  },
+  {
+   "label": "Output frequency range",
+   "value": "950……2150 MHz"
+  },
+  {
+   "label": "Noise figure",
+   "value": "0.5 dB"
+  },
+  {
+   "label": "Diameter of feed",
+   "value": "40 mm"
+  },
+  {
+   "label": "Current consumption",
+   "value": "75 mA @ 14 V | 55 mA @ 18 V"
+  },
+  {
+   "label": "Weight",
+   "value": "0.2775 kg"
+  }
+ ],
+ "src": "https://axing.com/en/produkt/sco00410-en/",
+ "checked": "2026-10-19"
 }

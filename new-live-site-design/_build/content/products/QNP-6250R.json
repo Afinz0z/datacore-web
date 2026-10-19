@@ -1,6 +1,6 @@
 {
  "sku": "QNP-6250R",
- "order": 3128,
+ "order": 3121,
  "n": "2MP-PTZ Camera- Hanwha",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
@@ -9,12 +9,58 @@
  "d": "2MP Network 25x IR PTZ Camera, 4.44~111mm (25x) lens, IP66, IK10, NEMA4X",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Imaging Device Size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "Imaging Device Type",
+   "value": "CMOS"
+  },
+  {
+   "label": "Resolution",
+   "value": "1920x1080, 1280x1024, 1280x960, 1280x720, 1024x768, 800x600, 800x448, 720x576, 720x480, 640x480, 640x360, 320x240"
+  },
+  {
+   "label": "Max. Framerate H.265/H.264",
+   "value": "60fps/50fps(60Hz/50Hz)"
+  },
+  {
+   "label": "Max. Framerate MJPEG",
+   "value": "30fps"
+  },
+  {
+   "label": "Min. Illumination (Lux) Color(1/30sec, 30IRE)",
+   "value": "0.05"
+  },
+  {
+   "label": "Min. Illumination (Lux) BW(1/30sec, 30IRE)",
+   "value": "0.005"
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "4.44~111"
+  },
+  {
+   "label": "Zoom Ratio Optical",
+   "value": "25x"
+  },
+  {
+   "label": "Zoom Ratio Digital",
+   "value": "32x"
+  },
+  {
+   "label": "Max Aperture Ratio (F number) Wide",
+   "value": "1.6"
+  },
+  {
+   "label": "Max Aperture Ratio (F number) Tele",
+   "value": "3.9"
   }
  ],
  "acc": [
   "SBP-156WMW",
   "SPC-7000"
- ]
+ ],
+ "src": "https://www.hanwhavision.com/mea/products/product-details/QNP-6250R",
+ "checked": "2026-10-19"
 }

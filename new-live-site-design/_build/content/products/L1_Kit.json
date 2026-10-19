@@ -1,6 +1,6 @@
 {
  "sku": "L1 Kit",
- "order": 582,
+ "order": 581,
  "n": "with USB Adapter (L1 Kit)",
  "b": "Huddly",
  "c": "Web Camera",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "L1 Kit",
  "d": "L1 Kit with USB Adapter",
- "specs": []
+ "specs": [
+  {
+   "label": "Image sensor",
+   "value": "6K image sensor; 20.30 Megapixels 1\" CMOS Sensor"
+  },
+  {
+   "label": "Video resolution",
+   "value": "1080p Full HD @ 30 fps; 720p HD @ 30fps"
+  },
+  {
+   "label": "Zoom",
+   "value": "Up to 5x digital zoom"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Horizontal field of view",
+   "value": "92°"
+  },
+  {
+   "label": "Vertical field of view",
+   "value": "65°"
+  },
+  {
+   "label": "Diagonal field of view",
+   "value": "103°"
+  },
+  {
+   "label": "Aperture",
+   "value": "f/2.9"
+  },
+  {
+   "label": "Connector",
+   "value": "RJ45, Cat 5e/6/7 cable"
+  },
+  {
+   "label": "USB",
+   "value": "USB Type-C port supporting USB 2/3 (via USB Adapter)"
+  },
+  {
+   "label": "Power",
+   "value": "Power over Ethernet"
+  },
+  {
+   "label": "Processor",
+   "value": "High-performance VPU with neural compute engine"
+  }
+ ],
+ "src": "https://www.huddly.com/conference-cameras/l1/",
+ "checked": "2026-10-19"
 }

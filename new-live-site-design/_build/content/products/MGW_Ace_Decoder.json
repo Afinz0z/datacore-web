@@ -1,6 +1,6 @@
 {
  "sku": "MGW Ace Decoder",
- "order": 1744,
+ "order": 1742,
  "n": "Professional-grade Low Latency 4K HEVC, H.264 & MPEG-2 Decoder (MGW Ace Decoder)",
  "b": "VITEC",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MGW Ace Decoder",
  "d": "Professional-grade Low Latency 4K HEVC, H.264 & MPEG-2 Decoder",
- "specs": []
+ "specs": [
+  {
+   "label": "HEVC decoding",
+   "value": "MPEG-H HEVC up to Main422 10@L5.1 High Tier; input resolutions from CIF up to 3840x2160"
+  },
+  {
+   "label": "H.264 decoding",
+   "value": "MPEG-4 AVC/H.264 up to Hi10@L4.2; input resolutions from CIF up to 1920x1080"
+  },
+  {
+   "label": "MPEG-2 decoding",
+   "value": "Up to HP@HL; input resolutions from CIF up to 1920x1080"
+  },
+  {
+   "label": "Colour sampling / bit depth",
+   "value": "Up to 4:2:2 / 10 bits"
+  },
+  {
+   "label": "Video bit rate",
+   "value": "Up to 100Mbps"
+  },
+  {
+   "label": "Frame rate",
+   "value": "1-60 fps"
+  },
+  {
+   "label": "Audio decoding",
+   "value": "AC-3, E-AC-3, MPEG-4 AAC-LC, AAC-ELD, MPEG-1 Layer 2; AC-3, E-AC-3 and Dolby-E passthrough"
+  },
+  {
+   "label": "Encryption",
+   "value": "Real-time AES decryption for video, audio and metadata; 128 and 256 bit keys"
+  },
+  {
+   "label": "Network interfaces",
+   "value": "2x Gigabit Ethernet ports for management and/or streaming; DVB-ASI input with loop through"
+  },
+  {
+   "label": "Network protocols",
+   "value": "UDP TS, RTP TS, RTP ES (RTSP), Zixi, RTP TS with ProMPEG FEC (SMPTE 2022), SRT, SPRINT, RTMP, HLS"
+  },
+  {
+   "label": "Video outputs",
+   "value": "1 x 12G-SDI (SMPTE 2082-1); 1 x 3G/HD-SDI/SD-SDI; 1 x HDMI 2.0; 1x Composite (CVBS)"
+  },
+  {
+   "label": "Output resolutions",
+   "value": "4096x2160p, 3840x2160p, 2048x1080p, 1920x1080p, 1920x1080i, 1280x720p, 720x480i, 720x576i"
+  }
+ ],
+ "src": "https://www.vitec.com/product/mgw-ace-decoder",
+ "checked": "2026-10-19"
 }

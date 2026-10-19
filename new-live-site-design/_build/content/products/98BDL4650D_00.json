@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "98 D-Line UHD",
  "d": "98BDL4650D/00 - 98” D-Line, UHD, 24/7 landscape & portrait, 500cd, Failover, Power by Android 10, Wave ready, Crestron Connected, WiFi6/BT, mediaplayer, HTML5 browser",
- "specs": []
+ "specs": [
+  {
+   "label": "Response time (typical)",
+   "value": "8 ms"
+  },
+  {
+   "label": "Panel technology",
+   "value": "ADS"
+  },
+  {
+   "label": "Panel resolution",
+   "value": "3840 x 2160"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "0.56 x 0.56 [mm]"
+  },
+  {
+   "label": "Viewing angle (horizontal)",
+   "value": "178 degree"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Picture enhancement",
+   "value": "3/2 - 2/2 motion pull down, Motion compens. deinterlacing, Dynamic contrast enhancement, Progressive scan"
+  },
+  {
+   "label": "Optimum resolution",
+   "value": "3840 x 2160 @ 60 Hz"
+  },
+  {
+   "label": "Brightness",
+   "value": "500 cd/m²"
+  },
+  {
+   "label": "Contrast ratio (typical)",
+   "value": "1200:1"
+  },
+  {
+   "label": "Viewing angle (vertical)",
+   "value": "178 degree"
+  },
+  {
+   "label": "Diagonal screen size (inch)",
+   "value": "97.5 inch"
+  }
+ ],
+ "src": "https://www.ppds.com/display-solutions/digital-signage/signage-4000-series-d-line/98bdl4650d00",
+ "checked": "2026-10-19"
 }

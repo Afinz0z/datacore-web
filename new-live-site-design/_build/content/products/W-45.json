@@ -1,6 +1,6 @@
 {
  "sku": "W-45",
- "order": 5136,
+ "order": 5121,
  "n": "Wall Plate Insert - RJ-45 (W-45)",
  "b": "Kramer",
  "c": "Accessories",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "W-45",
  "d": "Wall Plate Insert - RJ-45",
- "specs": []
+ "specs": [
+  {
+   "label": "Inputs 1 Cat 6 Ethernet",
+   "value": "On a female RJ–45 connector."
+  },
+  {
+   "label": "Outputs 1 Cat 6 Ethernet",
+   "value": "On a female RJ–45 connector."
+  },
+  {
+   "label": "Enclosure size",
+   "value": "Single insert"
+  },
+  {
+   "label": "Communication and Electrical",
+   "value": "Permanent Link/Channel of TIA/EIA–568–B.2 Cat.6, ISO/IEC 11801, Cenelec EN 50173, IEC 60603–7, PoEP in accordance with IEEE 802.3at."
+  },
+  {
+   "label": "Safety",
+   "value": "CE"
+  },
+  {
+   "label": "Enclosure material",
+   "value": "Aluminum"
+  },
+  {
+   "label": "Product dimension",
+   "value": "5.05cm x 2.00cm x 2.34cm (1.99\" x 0.79\" x 0.92\" ) W, D, H"
+  },
+  {
+   "label": "Shipping dimension",
+   "value": "12.60cm x 8.40cm x 4.10cm (4.96\" x 3.31\" x 1.61\" ) W, D, H"
+  },
+  {
+   "label": "Shipping weight",
+   "value": "0.1kg (0.2lbs) approx."
+  }
+ ],
+ "src": "https://www.kramerav.com/us/product/w-45",
+ "checked": "2026-10-19"
 }

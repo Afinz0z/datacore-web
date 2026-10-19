@@ -1,6 +1,6 @@
 {
  "sku": "AURI-D16",
- "order": 1262,
+ "order": 1260,
  "n": "Auri Docking Station 16 (AURI-D16)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AURI-D16",
  "d": "Auri Docking Station 16",
- "specs": []
+ "specs": [
+  {
+   "label": "Port Speed",
+   "value": "100 Mbit"
+  },
+  {
+   "label": "IP Address",
+   "value": "DHCP, static or link-local"
+  },
+  {
+   "label": "Protocols",
+   "value": "mDNS, UDP (unicast), RTP (multicast), RTCP (multicast)"
+  },
+  {
+   "label": "Security",
+   "value": "UDP communication AES256 - GCM"
+  },
+  {
+   "label": "Buttons",
+   "value": "Copy and Status Buttons"
+  },
+  {
+   "label": "Setup/Programming",
+   "value": "Via Auri™ Manager Software over network"
+  },
+  {
+   "label": "LED's",
+   "value": "Copy LED (red) and Status LED (amber), see handbook for states"
+  },
+  {
+   "label": "Power Cable",
+   "value": "1.8 m (72 in.) Input Power Cable, 1.1 m (43 in. ) Output Cable"
+  },
+  {
+   "label": "Unit Capacity",
+   "value": "16 Units"
+  },
+  {
+   "label": "Color",
+   "value": "Black with chrome buttons"
+  },
+  {
+   "label": "Mounting",
+   "value": "Place on flat surface or use wall mounting slots"
+  },
+  {
+   "label": "Standards",
+   "value": "CE, UKCA, RCM, REACH, WEEE"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/auri-d16-docking-station/",
+ "checked": "2026-10-19"
 }

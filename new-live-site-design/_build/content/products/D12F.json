@@ -1,14 +1,61 @@
 {
  "sku": "D12F",
- "order": 4065,
+ "order": 4058,
  "n": "42RU Cable Management Finger Kit",
  "b": "Panduit",
  "c": "PDU",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "D-Type Cabinet 42RU Cable Management Finger Kit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Finger Bracket Kit"
+  },
+  {
+   "label": "Overall Length (In.)",
+   "value": "5.6"
+  },
+  {
+   "label": "Overall Length (mm)",
+   "value": "142"
+  },
+  {
+   "label": "Overall Width (In.)",
+   "value": "1.25"
+  },
+  {
+   "label": "Overall Width (mm)",
+   "value": "32"
+  },
+  {
+   "label": "Overall Height (In.)",
+   "value": "68.3"
+  },
+  {
+   "label": "Overall Height (mm)",
+   "value": "1735"
+  },
+  {
+   "label": "Sub Brand",
+   "value": "Net-Verse™"
+  },
+  {
+   "label": "Number of Rack Units",
+   "value": "42"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Standards Met",
+   "value": "RoHS Compliant"
+  }
+ ],
  "for": [
   "DAE8212B"
- ]
+ ],
+ "src": "https://www.panduit.com/en/products/cabinets-thermal-management-racks-enclosures/cabinets/cabinet-accessories/p204874.html#pn=D12F",
+ "checked": "2026-10-19"
 }

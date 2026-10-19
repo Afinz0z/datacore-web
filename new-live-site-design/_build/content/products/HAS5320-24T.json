@@ -1,14 +1,37 @@
 {
  "sku": "HAS5320-24T",
- "order": 4411,
+ "order": 4396,
  "n": "24 TB 7200rpm, 256 MB SAS HDD",
  "b": "Synology",
  "c": "HARD DISK",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Synology | SAS HDD, 24TB 7200rpm, 256 MiB cache for NAS storage.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "24 TB"
+  },
+  {
+   "label": "Form Factor",
+   "value": "3.5\""
+  },
+  {
+   "label": "Interface",
+   "value": "SAS 12 Gb/s"
+  },
+  {
+   "label": "Rotational Speed",
+   "value": "7,200 rpm"
+  },
+  {
+   "label": "Power Consumption active Idle (Typ.)",
+   "value": "4.83 W"
+  }
+ ],
  "for": [
   "HD6500"
- ]
+ ],
+ "src": "https://www.synology.com/en-global/products/drives/hdd/enterprise-has",
+ "checked": "2026-10-19"
 }

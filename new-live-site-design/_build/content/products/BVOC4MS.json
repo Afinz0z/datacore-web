@@ -1,6 +1,6 @@
 {
  "sku": "BVOC4MS",
- "order": 1553,
+ "order": 1551,
  "n": "Master control panel for Disabled Toilet Alarm Disabled pull (BVOC4MS)",
  "b": "Baldwin",
  "c": "Control Processor",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "BVOC4MS",
  "d": "Master control panel for Disabled Toilet Alarm Disabled pull cord,Disabled push/reset button,Corridor Alarm Lamp",
- "specs": []
+ "specs": [
+  {
+   "label": "Panel size",
+   "value": "4-way Control Panel"
+  },
+  {
+   "label": "Finish",
+   "value": "Stainless steel"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall mount or flush mountable with bezel; rack mount kit option"
+  },
+  {
+   "label": "Standards",
+   "value": "BS5839-9:2021 and BS8300-2:2018 (for the emergency assistance/toilet alarm)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "410mm x 290mm x 200mm"
+  },
+  {
+   "label": "Weight",
+   "value": "9.16 kg"
+  }
+ ],
+ "src": "https://baldwinboxall.co.uk/systems-products/omnicare-evc-system/omnicare-control-panel/",
+ "checked": "2026-10-19"
 }

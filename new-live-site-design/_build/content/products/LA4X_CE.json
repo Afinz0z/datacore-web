@@ -1,11 +1,62 @@
 {
  "sku": "LA4X CE",
- "order": 1008,
+ "order": 1006,
  "n": "Amplified controller",
  "b": "L-Acoustics",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Amplified controller with PFC 4 x 1000 W /8 Ohms. Ethernet network. AES/EBU. CE version",
- "specs": []
+ "specs": [
+  {
+   "label": "Amplification class",
+   "value": "Class D"
+  },
+  {
+   "label": "Output power, all channels loaded",
+   "value": "4 x 1000 W at 4 ohms 4 x 1000 W at 8 ohms"
+  },
+  {
+   "label": "Digital Signal Processor (DSP)",
+   "value": "SHARC 32-bit, floating point, 96 kHz sampling rate"
+  },
+  {
+   "label": "I/O routing",
+   "value": "Flexible 4x4 routing matrix"
+  },
+  {
+   "label": "Per output channel",
+   "value": "Built-in EQ station with 8 IIR, 4 FIR linear phase EQ filters Array morphing, Air absorption compensation filters Internal IIR and FIR EQ algorithms L-DRIVE advanced system protection Output delay from 0 to 1000 ms"
+  },
+  {
+   "label": "Technologies loudspeaker management",
+   "value": "L-DRIVE advanced system protection"
+  },
+  {
+   "label": "Standard latency (analog/digital inputs)",
+   "value": "3.84 ms"
+  },
+  {
+   "label": "Low latency (analog/digital inputs)",
+   "value": "0.84 ms"
+  },
+  {
+   "label": "Milan-AVB",
+   "value": "4 channels from 1 stream (of up to 8 channels)"
+  },
+  {
+   "label": "AES/EBU",
+   "value": "4 channels AES/EBU (2 x AES3) with SRC"
+  },
+  {
+   "label": "Inputs analog",
+   "value": "4 channels"
+  },
+  {
+   "label": "Inputs connections",
+   "value": "2 etherCON 1 Gb/s I/O+ control 4 female 3-pin XLR (2 x switching analog/AES3) 4 male 3-pin XLR links"
+  }
+ ],
+ "src": "https://www.l-acoustics.com/products/la4x/",
+ "checked": "2026-10-19"
 }

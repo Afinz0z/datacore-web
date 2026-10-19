@@ -1,6 +1,6 @@
 {
  "sku": "MGW Diamond-H",
- "order": 1743,
+ "order": 1741,
  "n": "4K & Dual-Channel SD/HD HEVC Encoder (MGW Diamond-H)",
  "b": "VITEC",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MGW Diamond-H",
  "d": "4K & Dual-Channel SD/HD HEVC Encoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Video inputs",
+   "value": "2x HDMI 2.0 (Type A), SD up to 4Kp60; 1x 12G-SDI (HD-BNC)"
+  },
+  {
+   "label": "Video output",
+   "value": "1x HDMI 2.0 (Type A) loop-through, SD up to 4Kp60"
+  },
+  {
+   "label": "Input resolutions",
+   "value": "4096x2160p, 3840x2160p, 2048x1080p, 1920x1080p, 1920x1080i, 1280x720p, 720x480/576i"
+  },
+  {
+   "label": "Encoding",
+   "value": "Simultaneous HEVC and H.264 encoding of up to 2x independent channels (up to 1080p60 per channel); up to 1x 4Kp60 stream"
+  },
+  {
+   "label": "Output streams",
+   "value": "Up to 4x with independent resolution, frame rate and bit rate"
+  },
+  {
+   "label": "HEVC",
+   "value": "Main/Main 10 and Main 4:2:2, level up to 5.2; 36Kbps to 80Mbps; CIF up to 3840x2160p60"
+  },
+  {
+   "label": "H.264",
+   "value": "Baseline L3, Main L3/L4, High L4/L4.2; 64Kbps to 80Mbps; CIF up to 3840x2160p60"
+  },
+  {
+   "label": "Encoding latency",
+   "value": "Less than 30ms (p60)"
+  },
+  {
+   "label": "Audio input",
+   "value": "HDMI and SDI embedded audio; analog unbalanced audio (stereo and mono)"
+  },
+  {
+   "label": "Audio encoding",
+   "value": "Up to 32x channels; MPEG-4 AAC-LC and AAC-ELD; AC-3 and E-AC-3 passthrough"
+  },
+  {
+   "label": "HDR",
+   "value": "HDR10 (SMPTE ST 2084/ITU-R BT.2100); HLG from SDI (SMPTE ST 2108)"
+  },
+  {
+   "label": "Network protocols",
+   "value": "UDP TS, RTP TS, RTP ES (RTSP), Zixi, ProMPEG FEC (SMPTE 2022), SRT, RIST, SPRINT, RTMP/RTMPS, HTTPS, SSH, NTP, PTP"
+  }
+ ],
+ "src": "https://www.vitec.com/product/mgw-diamond-h",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "CSL 520TIC",
- "order": 809,
+ "order": 808,
  "n": "Ceiling loudspeaker-CSL 520TIC",
  "b": "FBT",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "FBT 2-way in-ceiling loudspeaker, 1x5\" LF + 1x0.5\" HF, CSL 520TIC. White",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "2 way"
+  },
+  {
+   "label": "Type",
+   "value": "In-ceiling"
+  },
+  {
+   "label": "Frequency response",
+   "value": "120 - 20.000"
+  },
+  {
+   "label": "Sensitivity (@1W/1m)",
+   "value": "88"
+  },
+  {
+   "label": "Power taps",
+   "value": "20 / 10 / 5 / 2.5 / Bypass"
+  },
+  {
+   "label": "Low frequency woofer",
+   "value": "5''"
+  },
+  {
+   "label": "High frequency",
+   "value": "0.5''"
+  },
+  {
+   "label": "Recommended Amplifier",
+   "value": "40W"
+  },
+  {
+   "label": "Rated Long Term Power (IEC)",
+   "value": "20W"
+  },
+  {
+   "label": "Rated Short Term Power IEC",
+   "value": "80W"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohm"
+  },
+  {
+   "label": "Maximum SPL cont/peak",
+   "value": "104 / 107dB"
+  }
+ ],
+ "src": "https://www.fbt.it/product/csl-520-tic/",
+ "checked": "2026-10-19"
 }

@@ -1,10 +1,61 @@
 {
  "sku": "Z-LR-4200-IR",
- "order": 1736,
+ "order": 1734,
  "n": "Intelligent DSP IR Receiver",
  "b": "Listen Technologies",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "System Distortion",
+   "value": "< 2% total harmonic distortion (THD) at 80% deviation"
+  },
+  {
+   "label": "Audio Output Jacks",
+   "value": "Two (2) 3.5 mm (0.14 in.) connectors, unbalanced, 0 dBu nominal output level, 16 mW maximum, impedance 32 ohm, accepts mono or stereo phone plug or LA-430 Intelligent Ear Phone/Neck Loop Lanyard"
+  },
+  {
+   "label": "System Frequency Response",
+   "value": "63 Hz - 15 kHz (±3 dB)"
+  },
+  {
+   "label": "System Signal to Noise Ratio",
+   "value": "> 60 dB"
+  },
+  {
+   "label": "User Controls",
+   "value": "Power on/off and volume up/down"
+  },
+  {
+   "label": "Programming",
+   "value": "Via software and USB port, Auto Seek, Jack Sense, Squelch, Auto Power, Auto Off, Stereo, Brightness, Channel Name"
+  },
+  {
+   "label": "Set-up Controls",
+   "value": "Press and hold up/down volume buttons for 5 seconds to enterchannel adjust, use up/down to select channel"
+  },
+  {
+   "label": "Display",
+   "value": "OLED - Channel designation, battery level, unit number, charging status, volume status"
+  },
+  {
+   "label": "LED",
+   "value": "Flashes when batteries are low or to indicate charging, solid when fully charged"
+  },
+  {
+   "label": "Carrier Frequencies",
+   "value": "2.3 MHz, 2.8 MHz, 3.3 MHz, 3.8 MHz"
+  },
+  {
+   "label": "Number of Channels",
+   "value": "Four (4) selectable channels"
+  },
+  {
+   "label": "Frequency Accuracy",
+   "value": "± .005% stability 32 to 122 ºF (0 to 50 ºC)"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/intelligent-dsp-ir-receiver/",
+ "checked": "2026-10-19"
 }

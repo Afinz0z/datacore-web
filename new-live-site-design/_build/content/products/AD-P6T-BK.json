@@ -1,11 +1,62 @@
 {
  "sku": "AD-P6T-BK",
- "order": 860,
+ "order": 859,
  "n": "Pendant speaker AD-P6T-BK",
  "b": "QSC",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "6.5\" Two-way pendant speaker,70/100V transformer",
- "specs": []
+ "specs": [
+  {
+   "label": "Effective frequency range",
+   "value": "55 Hz – 20 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage",
+   "value": "60 watts / 31 volts (rms)"
+  },
+  {
+   "label": "Rated coverage (-6 dB)",
+   "value": "135° conical DMT™"
+  },
+  {
+   "label": "Directivity factor",
+   "value": "6.5"
+  },
+  {
+   "label": "Directivity index [dB]",
+   "value": "8"
+  },
+  {
+   "label": "Maximum continuous SPL [dB]",
+   "value": "106"
+  },
+  {
+   "label": "Maximum peak SPL [dB]",
+   "value": "112"
+  },
+  {
+   "label": "Nominal impedance [ohms]",
+   "value": "16"
+  },
+  {
+   "label": "Recommended amplifier",
+   "value": "120 watts"
+  },
+  {
+   "label": "Transformer taps / impedance",
+   "value": "16Ω (in bypass setting) 7.5W (70V); 15W (100V) Tap: 667Ω 15W (70V); 30W (100V) Tap: 333Ω 30W (70V); 60W (100V) Tap: 167Ω 60W (70V); N/A (100V) Tap: 83Ω"
+  },
+  {
+   "label": "LF transducer",
+   "value": "165 mm [6.5-inch] weather treated paper cone woofer"
+  },
+  {
+   "label": "HF transducer",
+   "value": "19 mm [0.75-inch] aluminum dome tweeter"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/pendant-mount/acousticdesign-series/ad-p6t/",
+ "checked": "2026-10-19"
 }

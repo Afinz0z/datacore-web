@@ -1,11 +1,62 @@
 {
  "sku": "SHADOW 108CT",
- "order": 810,
+ "order": 809,
  "n": "IP 55 Coax speaker -SHADOW 108CT",
  "b": "FBT",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "FBT IP 55 Coax speaker - 8\" + 1\" - conical 90° horn - 450Wrms - 100V line transf",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "2 way"
+  },
+  {
+   "label": "Recommended amplifier",
+   "value": "450 W RMS"
+  },
+  {
+   "label": "Long Term power",
+   "value": "225 W"
+  },
+  {
+   "label": "Short term power",
+   "value": "900 W"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 ohm"
+  },
+  {
+   "label": "Frequency response",
+   "value": "80Hz - 20KHz -6dB"
+  },
+  {
+   "label": "Low Frequency woofer",
+   "value": "8 - 2 coil inch"
+  },
+  {
+   "label": "High frequency driver",
+   "value": "1 - 1.4 coil inch"
+  },
+  {
+   "label": "Sensitivity (@1W/1m)",
+   "value": "95 dB"
+  },
+  {
+   "label": "Maximum SPL cont/peak",
+   "value": "120/124 dB"
+  },
+  {
+   "label": "Dispersion",
+   "value": "90° conical HxV"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "1.8 KHz"
+  }
+ ],
+ "src": "https://www.fbt.it/product/shadow-108ct/",
+ "checked": "2026-10-19"
 }

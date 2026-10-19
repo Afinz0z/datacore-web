@@ -1,11 +1,38 @@
 {
  "sku": "BVOCDTAS2",
- "order": 1551,
+ "order": 1549,
  "n": "Baldwin",
  "b": "Baldwin",
  "c": "Control Processor",
  "dept": "AV",
  "avail": "lead",
  "d": "The disabled toilet alarm kit is a completely independent, stand-alone toilet alarm.",
- "specs": []
+ "specs": [
+  {
+   "label": "Kit type",
+   "value": "Complete ‘4-part’ Kit"
+  },
+  {
+   "label": "Finish",
+   "value": "Stainless steel"
+  },
+  {
+   "label": "Kit contents",
+   "value": "CTRLS, BVOCCSS2, BVOCODLS, CRPS, DTALAB & Euan’s Guide"
+  },
+  {
+   "label": "Battery backup",
+   "value": "Monitored battery backup"
+  },
+  {
+   "label": "Compliance",
+   "value": "BS8300-2:2018"
+  },
+  {
+   "label": "Power supply",
+   "value": "Integral power supply – requires mains power"
+  }
+ ],
+ "src": "https://baldwinboxall.co.uk/systems-products/disabled-toilet-alarms/stand-alone-toilet-alarm/",
+ "checked": "2026-10-19"
 }

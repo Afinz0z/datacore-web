@@ -1,13 +1,62 @@
 {
  "sku": "WD8002PURP",
- "order": 4418,
+ "order": 4403,
  "n": "8TB SATA Internal HDD",
  "b": "Western Digital",
  "c": "HARD DISK",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "WESTERN DIGITAL 8TB PURPLE SATA INTERNAL HARD DRIVE",
- "specs": [],
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "8TB"
+  },
+  {
+   "label": "Technologies",
+   "value": "AllFrame AI, OptiNAND, WDDA"
+  },
+  {
+   "label": "Model Number",
+   "value": "WD8002PURP"
+  },
+  {
+   "label": "Recording Technology",
+   "value": "CMR"
+  },
+  {
+   "label": "Interface",
+   "value": "SATA"
+  },
+  {
+   "label": "Connector",
+   "value": "SATA"
+  },
+  {
+   "label": "Form Factor",
+   "value": "3.5-Inch"
+  },
+  {
+   "label": "Disk Speed (RPM)",
+   "value": "7200 RPM"
+  },
+  {
+   "label": "Endurance (TBW)",
+   "value": "550TB/year"
+  },
+  {
+   "label": "Use Cases",
+   "value": "Smart Video Surveillance"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "147mm x 101.6mm x 26.1mm"
+  },
+  {
+   "label": "Weight",
+   "value": "715gms"
+  }
+ ],
  "for": [
   "DS-7604NI-K1/4P",
   "DS-7604NI-Q1/4P",
@@ -20,5 +69,7 @@
   "DS-7616NI-K2/4G",
   "DS-7616NI-Q2",
   "DS-7616NI-Q2/16P"
- ]
+ ],
+ "src": "https://www.westerndigital.com/products/internal-drives/wd-purple-pro-sata-hdd?sku=WD8002PURP",
+ "checked": "2026-10-19"
 }

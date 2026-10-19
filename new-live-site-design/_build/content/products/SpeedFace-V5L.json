@@ -1,6 +1,6 @@
 {
  "sku": "SpeedFace-V5L",
- "order": 3432,
+ "order": 3425,
  "n": "Linux-Based Hybrid-Biometric Access Control",
  "b": "ZKTeco",
  "c": "CARD READER",
@@ -9,8 +9,54 @@
  "d": "Linux-Based Hybrid-Biometric Access Control Reader",
  "specs": [
   {
-   "label": "Type",
-   "value": "Hybrid Biometric Access Control"
+   "label": "Display",
+   "value": "5\"@ ISP Color LCD Screen (720*1280)"
+  },
+  {
+   "label": "Camera",
+   "value": "Binocular Camera @ 2MP WDR"
+  },
+  {
+   "label": "Operation System",
+   "value": "Linux"
+  },
+  {
+   "label": "Authentication Method",
+   "value": "Face / Fingerprint / Palm (Optional) / Card / Password (Virtual Keypad)"
+  },
+  {
+   "label": "Fingerprint Template Capacity",
+   "value": "10,000 (1:N)"
+  },
+  {
+   "label": "Face Template Capacity",
+   "value": "10,000 (1:N)"
+  },
+  {
+   "label": "Card Capacity",
+   "value": "10,000 (1:N)"
+  },
+  {
+   "label": "Palm Template Capacity",
+   "value": "3,000 (1:N) (Optional, only for 1GB RAM Mainboard)"
+  },
+  {
+   "label": "User Capacity",
+   "value": "10,000 (1:N)"
+  },
+  {
+   "label": "Transaction Capacity",
+   "value": "200,000 (1:N)"
+  },
+  {
+   "label": "Biometric Authentication Speed",
+   "value": "less than 0.5 sec (Fingerprint); less than 0.35 sec (Facial authentication) ; less than 0.35 Sec (Palm)"
+  },
+  {
+   "label": "Touchless Biometric Recognition Distance",
+   "value": "30cm to 170cm (Facial authentication); 15cm to 40cm (Palm authentication)"
   }
- ]
+ ],
+ "src": "https://www.zkteco.com/en/SpeedFaceSeries/SpeedFace-V5L-Series",
+ "checked": "2026-10-19"
 }

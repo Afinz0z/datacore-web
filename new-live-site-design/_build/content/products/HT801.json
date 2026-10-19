@@ -1,6 +1,6 @@
 {
  "sku": "HT801",
- "order": 2458,
+ "order": 2456,
  "n": "Analog Telephone Adapter",
  "b": "Grandstream",
  "c": "Adapters",
@@ -9,8 +9,34 @@
  "d": "1- Port ATA",
  "specs": [
   {
-   "label": "Type",
-   "value": "Analog Telephone Adapter"
+   "label": "LINES",
+   "value": "1 line"
+  },
+  {
+   "label": "AUDIO CONFERENCING",
+   "value": "3-Way Voice Conferencing"
+  },
+  {
+   "label": "TELEPHONE INTERFACES",
+   "value": "One (1) FXS port"
+  },
+  {
+   "label": "NETWORK INTERFACES",
+   "value": "One (1) 10/100Mbps auto-sensing ethernet port (RJ45)"
+  },
+  {
+   "label": "LED INDICATORS",
+   "value": "POWER, INTERNET, PHONE"
+  },
+  {
+   "label": "TELEPHONY FEATURES",
+   "value": "Caller ID display or block, call waiting, flash, blind or attended transfer, forward, hold, do not disturb, 3-way conference"
+  },
+  {
+   "label": "FAX OVER IP",
+   "value": "T.38 compliant Group 3 Fax Relay up to 14.4kpbs and auto-switch to G.711 for Fax Pass-through"
   }
- ]
+ ],
+ "src": "https://www.grandstream.com/products/gateways-and-atas/analog-telephone-adaptors/product/ht801",
+ "checked": "2026-10-19"
 }

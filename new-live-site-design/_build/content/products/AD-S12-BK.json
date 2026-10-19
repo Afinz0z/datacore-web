@@ -1,11 +1,62 @@
 {
  "sku": "AD-S12-BK",
- "order": 863,
+ "order": 861,
  "n": "Two-way surface speaker AD-S12-BK",
  "b": "QSC",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "12\" Two-way surface speaker, 75° conical DMT™ coverage, includes X-Mount™ and weather input cup. Color - Black.",
- "specs": []
+ "specs": [
+  {
+   "label": "Effective frequency range",
+   "value": "52 Hz - 20 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage",
+   "value": "300 watts / 50 volts (rms)"
+  },
+  {
+   "label": "Broadband Sensitivity",
+   "value": "95 dB SPL"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "75° conical DMT™"
+  },
+  {
+   "label": "Directivity factor (Q)",
+   "value": "12"
+  },
+  {
+   "label": "Directivity Index",
+   "value": "11 dB"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "120 dB"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "126 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "HF transducer",
+   "value": "1-inch exit / 1.4-inch voice coil compression driver"
+  },
+  {
+   "label": "LF transducer",
+   "value": "12-inch weather resistant paper cone woofer, 2.5-inch / 64 mm voice coil"
+  },
+  {
+   "label": "Input connector type",
+   "value": "Euroblock connector with parallel output terminals"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/surface-mount/acousticdesign-series/ad-s12/",
+ "checked": "2026-10-19"
 }

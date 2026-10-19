@@ -1,13 +1,52 @@
 {
  "sku": "CHG 3502-03",
- "order": 1268,
+ "order": 1266,
  "n": "Body-pack charger, 2-bay",
  "b": "Williams AV",
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Enclosure",
+   "value": "Black, ABS plastic"
+  },
+  {
+   "label": "Charger Power",
+   "value": "Input: 6 VDC, 300mA, Center Positive. Output: 100mA per bay."
+  },
+  {
+   "label": "Charging Time",
+   "value": "16 hours nominal"
+  },
+  {
+   "label": "Unit Capacity",
+   "value": "2 Units"
+  },
+  {
+   "label": "Indicators",
+   "value": "2 Red LEDs – one for each bay. LEDs are lit when charging."
+  },
+  {
+   "label": "Dimensions",
+   "value": "4-7/8″L x 3-7/8″”W x 2″H (12.4 cm L x 9.8 cm W x 5.1 cm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "1.1 lbs (0.5 kg)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "Williams AV TFP 041 (US) Input: 100-240 VAC, 50-60Hz, 0.5-0.3 A Output: 6 VDC, 1.5 A."
+  },
+  {
+   "label": "Approvals",
+   "value": "CE, FCC, RoHS"
+  }
+ ],
  "for": [
   "WIR RX22-4N"
- ]
+ ],
+ "src": "https://williamsav.com/product/chg-3502/",
+ "checked": "2026-10-19"
 }

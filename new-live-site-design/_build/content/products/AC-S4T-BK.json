@@ -1,6 +1,6 @@
 {
  "sku": "AC-S4T-BK",
- "order": 855,
+ "order": 854,
  "n": "4.5\" Two-way surface speaker,70/100V transformer (AC-S4T-BK)",
  "b": "QSC",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AC-S4T-BK",
  "d": "4.5\" Two-way surface speaker,70/100V transformer",
- "specs": []
+ "specs": [
+  {
+   "label": "Effective frequency range",
+   "value": "70 Hz–20 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage",
+   "value": "16 watts / 11.3 volts rms"
+  },
+  {
+   "label": "Broad-band sensitivity",
+   "value": "85 dB SPL"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "130° conical (500 Hz–5 kHz)"
+  },
+  {
+   "label": "Directivity factor (Q)",
+   "value": "6"
+  },
+  {
+   "label": "Directivity Index",
+   "value": "8 dB"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "97 dB"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "103 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Recommended amplifier power",
+   "value": "32 watts into 8 ohms"
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70V: 16, 8, 4, 2, 1 watts 100V: 16, 8, 4, 2 watts 8 ohm bypass"
+  },
+  {
+   "label": "LF transducer",
+   "value": "114 mm (4.5-inch) Polypropylene woofer with 25 mm (1-inch) voice coil"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/surface-mount/acousticcoverage-series/ac-s4t/",
+ "checked": "2026-10-19"
 }

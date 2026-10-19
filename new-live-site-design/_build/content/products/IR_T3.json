@@ -1,14 +1,65 @@
 {
  "sku": "IR T3",
- "order": 1272,
+ "order": 1270,
  "n": "Infrared Transmitter",
  "b": "Williams AV",
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
  "d": "SoundPlus® T3 - Medium-Area Infrared Transmitter",
- "specs": [],
+ "specs": [
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "DC Power Input",
+   "value": "2.1 mm ID barrel connector, 48 VDC, 0.2A, center positive"
+  },
+  {
+   "label": "Power Indicator",
+   "value": "Green LED"
+  },
+  {
+   "label": "Sleep/Power Save Mode",
+   "value": "Shuts off IR when no audio present for 12 minutes"
+  },
+  {
+   "label": "Modulation",
+   "value": "FM Wideband, ±50 kHz deviation max, 50 μS pre-emphasis"
+  },
+  {
+   "label": "Baseband Frequencies",
+   "value": "2.3, 2.8, 3.3, 3.8 MHz"
+  },
+  {
+   "label": "Coverage Area",
+   "value": "Up to 32,000 sq. ft (2,972 sq. m) in single-channel mode with the RX22-4 receiver Up to 19,000 sq. ft (1,774 sq. m) with the RX20 stethoset receiver"
+  },
+  {
+   "label": "Microphone gain adjust",
+   "value": "Rotary 10 dB range"
+  },
+  {
+   "label": "Microphone channel switch",
+   "value": "Selects microphone input to Ch. A or Ch. B"
+  },
+  {
+   "label": "Microphone input",
+   "value": "3.5 mm, stereo jack with signal and bias connected to tip, electret microphone compatible (6 VDC bias supply with 2.7 k ohm series resistor)"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "Line inputs: Phoenix style connector jack for Ch A and Ch B accept line level, balanced or unbalanced audio"
+  },
+  {
+   "label": "Audio Indicators",
+   "value": "One yellow LED per channel. Lights up and stay on steady with minimum audio level."
+  }
+ ],
  "acc": [
   "TFP 057"
- ]
+ ],
+ "src": "https://williamsav.com/product/soundplus-t3-medium-area-infrared-transmitter/",
+ "checked": "2026-10-19"
 }

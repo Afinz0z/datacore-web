@@ -1,14 +1,65 @@
 {
  "sku": "BDKBD",
- "order": 594,
+ "order": 593,
  "n": "PTZ controller",
  "b": "BirdDog",
  "c": "Camera Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "BirdDog KBD (PTZ Controller with integrated screen)",
- "specs": [],
+ "specs": [
+  {
+   "label": "PTZ control",
+   "value": "VISCA-IP, NDI, ONVIF, PELCO-P, PELCO-D"
+  },
+  {
+   "label": "Fine PTZ control",
+   "value": "VISCA-IP, NDI"
+  },
+  {
+   "label": "Direct camera access keys",
+   "value": "6"
+  },
+  {
+   "label": "Direct preset access keys",
+   "value": "10"
+  },
+  {
+   "label": "Display diagonal",
+   "value": "5\""
+  },
+  {
+   "label": "Display resolution",
+   "value": "1280x720"
+  },
+  {
+   "label": "Multiview IP video",
+   "value": "Supported, NDI HX (Proxy), RTSP (max. 30 fps)"
+  },
+  {
+   "label": "NDI control",
+   "value": "NDI HX2, NDI HX3, High Bandwidth NDI"
+  },
+  {
+   "label": "NDI multiview",
+   "value": "NDI HX2, NDI HX3"
+  },
+  {
+   "label": "Setup / configuration",
+   "value": "WebUI (BirdUI) for setup and firmware updates"
+  },
+  {
+   "label": "Serial connections",
+   "value": "RS-232 D-Sub connector (9-pin); RS-422 Phoenix connector"
+  },
+  {
+   "label": "Joystick type",
+   "value": "4D (Integrated Trigger button)"
+  }
+ ],
  "for": [
   "BDX4EUB"
- ]
+ ],
+ "src": "https://birddog.tv/kbd-techspecs/",
+ "checked": "2026-10-19"
 }

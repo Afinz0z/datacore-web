@@ -1,6 +1,6 @@
 {
  "sku": "ONAIRPANEL2 IP",
- "order": 5100,
+ "order": 5085,
  "n": "OnAir Panel 2 IP Includes: Omega Bracket, Medium Diffusion Filter",
  "b": "Chauvet",
  "c": "Accessories",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "ONAIRPANEL2 IP",
  "d": "OnAir Panel 2 IP Includes: Omega Bracket, Medium Diffusion Filter, Omega Bracket, Jr. Pin, IP PowerKon Cord Control: 5-Pin DMX, Artnet, sACN, Wireless control via CRMX",
- "specs": []
+ "specs": [
+  {
+   "label": "Light Source",
+   "value": "448 LEDs (tri-color RGB) 1.4 W, (150 mA), 50,000 hours life expectancy.; 448 LEDs (WW) 0.50 W, (150 mA), 50,000 hours life expectancy."
+  },
+  {
+   "label": "CRI",
+   "value": "95"
+  },
+  {
+   "label": "Beam Angle",
+   "value": "100.2°"
+  },
+  {
+   "label": "Field Angle",
+   "value": "157°"
+  },
+  {
+   "label": "Lumens",
+   "value": "22,508"
+  },
+  {
+   "label": "Illuminance",
+   "value": "349 lux @ 5 m"
+  },
+  {
+   "label": "Selectable PWM",
+   "value": "600 Hz, 1200 Hz, 2000 Hz, 4000 Hz, 6000 Hz, 25,000 Hz"
+  },
+  {
+   "label": "Dimmer",
+   "value": "Electronic"
+  },
+  {
+   "label": "Shutter/Strobe",
+   "value": "Electronic"
+  },
+  {
+   "label": "Strobe Rate",
+   "value": "0 to 30 Hz"
+  },
+  {
+   "label": "Standalone Color Mixing",
+   "value": "Yes"
+  },
+  {
+   "label": "Dim Modes",
+   "value": "4"
+  }
+ ],
+ "src": "https://chauvetprofessional.com/product/onair-panel-2-ip/",
+ "checked": "2026-10-19"
 }

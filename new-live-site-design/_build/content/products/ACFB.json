@@ -1,6 +1,6 @@
 {
  "sku": "ACFB",
- "order": 1260,
+ "order": 1258,
  "n": "3.0 mm² Flat Copper Tape (ACFB)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -10,11 +10,33 @@
  "d": "3.0 mm² Flat Copper Tape",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Length",
+   "value": "50 m (164 ft.), 100m (328 ft.), 200m (656 ft.)"
+  },
+  {
+   "label": "Thickness",
+   "value": ".15 mm (.0059 in.)"
+  },
+  {
+   "label": "Width",
+   "value": "20 mm (.79 in.)"
+  },
+  {
+   "label": "Material",
+   "value": "Flat Copper covered in bonded polyester film"
+  },
+  {
+   "label": "Weight",
+   "value": "1.0 kg (2.2 lbs.)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "1.0 kg (2.2 lbs.)"
   }
  ],
  "for": [
   "C10-2"
- ]
+ ],
+ "src": "https://www.listentech.com/shop/product/flat-insulated-copper-cable/",
+ "checked": "2026-10-19"
 }

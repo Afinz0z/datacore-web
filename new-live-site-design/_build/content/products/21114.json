@@ -7,5 +7,52 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FX4HDR : FX4HDR - Video Wall - Appliance - 1x 4K - HDR, HDMI",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "1 x HDMI 2.0 (2160p60 or equivalent up to 616MP/s); 2 x HDMI 1.4 (2160p60 (4:2:0), 2160p30 or equivalent up to 297MP/s)"
+  },
+  {
+   "label": "Video output",
+   "value": "4 x HDMI 1.4 (1080p60, 1200p60 or equivalent up to 165MP/s); 1 x HDMI 2.0 loop-through port, locked to selected video input resolution"
+  },
+  {
+   "label": "Input surface",
+   "value": "8K x 8K maximum"
+  },
+  {
+   "label": "Genlock input",
+   "value": "Analog HD tri level sync on dedicated BNC connector, or any video input (selectable)"
+  },
+  {
+   "label": "Ethernet",
+   "value": "Dual 100Base-T Ethernet ports with inbuilt managed switch"
+  },
+  {
+   "label": "USB",
+   "value": "USB 2.0 Type B connector (full speed operation)"
+  },
+  {
+   "label": "Enclosure",
+   "value": "316mm(l) x 172mm(w) x 42mm(h)"
+  },
+  {
+   "label": "Power",
+   "value": "EC switched and fused mains connector 100-240V, 50/60Hz / 35W"
+  },
+  {
+   "label": "Operation environment",
+   "value": "0 to 35 °C (32 to 96 °F); < 5% – 90%, non condensing"
+  },
+  {
+   "label": "Storage environment",
+   "value": "-20 to 70 °C (-4 to 158 °F); < 5% – 90%, non condensing"
+  },
+  {
+   "label": "Weight",
+   "value": "1.86kg"
+  }
+ ],
+ "src": "https://www.datapath.co.uk/datapath-products/video-wall-controllers/datapath-fx4-hdr/",
+ "checked": "2026-10-19"
 }

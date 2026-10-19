@@ -1,6 +1,6 @@
 {
  "sku": "DSP106II",
- "order": 756,
+ "order": 755,
  "n": "10W Wall Mount Speaker (DSP106II)",
  "b": "DSPPA",
  "c": "Speaker",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "DSP106II",
  "d": "DSPPA 10W Wall Mount Speaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Speaker Unit",
+   "value": "6.5\"×1, 2\"×1"
+  },
+  {
+   "label": "Rated Power",
+   "value": "10W"
+  },
+  {
+   "label": "Line Voltage",
+   "value": "70V/100V"
+  },
+  {
+   "label": "Sensitivity (1m, 1W)",
+   "value": "92±2dB"
+  },
+  {
+   "label": "MAX. SPL. (1m)",
+   "value": "100±2dB"
+  },
+  {
+   "label": "Effective Frequency Range",
+   "value": "160Hz-18kHz"
+  },
+  {
+   "label": "Weight",
+   "value": "1.75kg"
+  }
+ ],
+ "src": "https://www.dsppatech.com/product/dsp106ii-15w-10w-abs-wall-mount-speaker.html",
+ "checked": "2026-10-19"
 }

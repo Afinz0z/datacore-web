@@ -1,6 +1,6 @@
 {
  "sku": "AXIS LICENSE PLATE VERIFIER 1P E-LI",
- "order": 4607,
+ "order": 4592,
  "n": "AXIS LICENSE PLATE VERIFIER",
  "b": "Axis",
  "c": "Software - license",
@@ -9,7 +9,6 @@
  "d": "AXIS License Plate Verifier is a software analytics application designed to run on compatible AXIS network cameras that support the AXIS Camera Application Platform (ACAP). It enables real-time License Plate Recognition (LPR) directly on the camera (edge-based) It is required only for the camera(s) used for license plate recognition.",
  "specs": [],
  "for": [
-  "AXIS P1467-LE",
   "AXIS P3277-LV",
   "AXIS Q6358-LE US"
  ]

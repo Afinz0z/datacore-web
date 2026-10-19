@@ -1,6 +1,6 @@
 {
  "sku": "760152579",
- "order": 3855,
+ "order": 3848,
  "n": "48 Port UTP Patch Panel",
  "b": "SYSTIMAX",
  "c": "UTP PATCHPANEL",
@@ -9,8 +9,54 @@
  "d": "SYSTIMAX 360™ GigaSPEED XL® Unshielded Panel Cat6, 2U, 48 port, Silver",
  "specs": [
   {
-   "label": "Type",
-   "value": "48 port patch panel"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "RJ45 patch panel"
+  },
+  {
+   "label": "Product Brand",
+   "value": "GigaSPEED XL®"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Unshielded"
+  },
+  {
+   "label": "Color",
+   "value": "Silver"
+  },
+  {
+   "label": "Conductor Type",
+   "value": "Solid | Stranded"
+  },
+  {
+   "label": "Intelligence Type",
+   "value": "iPatch® ready"
+  },
+  {
+   "label": "Panel Style",
+   "value": "Flat"
+  },
+  {
+   "label": "Rack Type",
+   "value": "EIA 19 in"
+  },
+  {
+   "label": "Rack Units",
+   "value": "2"
+  },
+  {
+   "label": "Termination Type",
+   "value": "IDC"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/frames-panels-cassettes-modules/copper-panels-modules-cassettes/copper-panels/item760152579/",
+ "checked": "2026-10-19"
 }

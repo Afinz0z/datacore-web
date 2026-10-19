@@ -1,6 +1,6 @@
 {
  "sku": "VC520 PRO 3",
- "order": 477,
+ "order": 476,
  "n": "Conference Camera with expansion speajerphone Sony super-low-light 8M (VC520 PRO 3)",
  "b": "Aver",
  "c": "AV Camera",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "VC520 PRO 3",
  "d": "Conference Camera with expansion speajerphone Sony super-low-light 8M pixel sensor (1080P) Zoom: 36X total zoom (12X optical zoom) Smart Composition + Preset tracking + smart framing Full duplex microphone array Speaker: 6W, Adjustable to 90dB",
- "specs": []
+ "specs": [
+  {
+   "label": "Image sensor",
+   "value": "Sony super-low-light 8M pixel sensor"
+  },
+  {
+   "label": "Resolution",
+   "value": "(16:9) 1920 x 1080, 1280 x 720 at 60, 30, 15fps"
+  },
+  {
+   "label": "Zoom",
+   "value": "36X total zoom (12X optical zoom)"
+  },
+  {
+   "label": "Field of view (D/H/V)",
+   "value": "80.5°/72.8°/44.1°"
+  },
+  {
+   "label": "Lens focal length",
+   "value": "3.9 mm (wide) ~ 46.8 mm (tele)"
+  },
+  {
+   "label": "Lens F#",
+   "value": "1.6 (wide) ~ 2.8 (tele)"
+  },
+  {
+   "label": "Minimum focus distance",
+   "value": "1 m"
+  },
+  {
+   "label": "Pan / tilt",
+   "value": "Pan: ±170°; Tilt: +90° (up) -30° (down)"
+  },
+  {
+   "label": "Camera presets",
+   "value": "10 (via remote control)"
+  },
+  {
+   "label": "Video format",
+   "value": "YUV, YUY2, MJPEG"
+  },
+  {
+   "label": "Network video compression",
+   "value": "H.264"
+  },
+  {
+   "label": "Network protocol",
+   "value": "RTSP, RTMP"
+  }
+ ],
+ "src": "https://www.averusa.com/products/conference-camera/vc520pro3.asp",
+ "checked": "2026-10-19"
 }

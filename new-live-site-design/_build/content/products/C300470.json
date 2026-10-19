@@ -1,14 +1,49 @@
 {
  "sku": "C300470",
- "order": 3396,
+ "order": 3389,
  "n": "T15 MIFARE Access Reader",
  "b": "Gallagher",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "T15 MIFARE READER BLACK",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum Read Distance",
+   "value": "75 mm"
+  },
+  {
+   "label": "Environmental Protection",
+   "value": "IP68"
+  },
+  {
+   "label": "Voltage",
+   "value": "9-16 Vdc"
+  },
+  {
+   "label": "Cable Specifications Cat5e",
+   "value": "up to 500m"
+  },
+  {
+   "label": "Cable Specifications HBUS",
+   "value": "up to 500m"
+  },
+  {
+   "label": "Standards compliance",
+   "value": "All equipment complies with FCC, CE, UL, and RCM approvals."
+  },
+  {
+   "label": "Dimensions",
+   "value": "139 x 44 x 23 mm"
+  },
+  {
+   "label": "Readers And Terminals dimensions",
+   "value": "5.5 x 1.7 x 0.9 \""
+  }
+ ],
  "acc": [
   "C297473"
- ]
+ ],
+ "src": "https://products.security.gallagher.com/security/global/en/products/access-control-hardware/readers-and-terminals/t15-mifare-reader/p/C300470",
+ "checked": "2026-10-19"
 }

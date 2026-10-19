@@ -1,10 +1,61 @@
 {
  "sku": "TAV-BTWPEU-WHITE",
- "order": 1945,
+ "order": 1943,
  "n": "Dante Bluetooth Wallplate with networked API control. EU Wall Box,White.",
  "b": "Turtle AV",
  "c": "Wall Plate / Extenders",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "Two-channel Bluetooth audio"
+  },
+  {
+   "label": "Output",
+   "value": "Dante digital audio"
+  },
+  {
+   "label": "Control method",
+   "value": "WebUI, API"
+  },
+  {
+   "label": "Network bandwidth",
+   "value": "100Mbps"
+  },
+  {
+   "label": "Audio latency",
+   "value": "Configurable Dante device latency (2, 3, 4, 5 or 10ms using Dante Controller)"
+  },
+  {
+   "label": "Bluetooth input format",
+   "value": "V5.1, SBC/AAC/APTX/APTX-LL/APTX-HD, 2CH, 44.1K–48KHz 16/24Bit"
+  },
+  {
+   "label": "Dante output format",
+   "value": "Digital audio 4CH, 44.1K–96KHz 16/24Bit"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20Hz to 20kHz"
+  },
+  {
+   "label": "Audio S/N ratio",
+   "value": "≥ 100dB"
+  },
+  {
+   "label": "Audio THD+N",
+   "value": "≤ 0.1%"
+  },
+  {
+   "label": "Transmission distance",
+   "value": "328ft / 100m (CAT6/6A/7)"
+  },
+  {
+   "label": "ESD protection",
+   "value": "IEC 61000-4-2: ±8kV (Air-gap discharge) & ±4kV (Contact discharge)"
+  }
+ ],
+ "src": "https://turtleav.com/portfolio/dante-bluetooth-wallplates-specs/",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "ATND1061DAN",
- "order": 1041,
+ "order": 1039,
  "n": "Beamforming Ceiling Array Mic",
  "b": "Audio-Technica",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "ATND1061DAN Beamforming Ceiling Array Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Beam Width",
+   "value": "90-degrees"
+  },
+  {
+   "label": "Polar Pattern",
+   "value": "Beam pattern"
+  },
+  {
+   "label": "Microphone frequency Response",
+   "value": "60 Hz to 18,000 Hz"
+  },
+  {
+   "label": "Maximum Input Sound Level",
+   "value": "102 dBSPL"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "-8 dBFS (1 kHz, 94 dBSPL)"
+  },
+  {
+   "label": "Microphone dynamic Range",
+   "value": "89 dB (A-weighted)"
+  },
+  {
+   "label": "Signal-to-Noise Ratio",
+   "value": "61.5 dB (A-weighted)"
+  },
+  {
+   "label": "Self-Noise",
+   "value": "25 dBSPL (A-weighted)"
+  },
+  {
+   "label": "Analog audio frequency Response",
+   "value": "20 Hz to 20 kHz (+1.0/-2.0 dB)"
+  },
+  {
+   "label": "Analog audio dynamic Range",
+   "value": "100 dB (A-weighted)"
+  },
+  {
+   "label": "Signal to Noise Ratio",
+   "value": "80 dB (A-weighted)"
+  },
+  {
+   "label": "Headroom",
+   "value": "20 dB"
+  }
+ ],
+ "src": "https://www.audio-technica.com/en-us/atnd1061",
+ "checked": "2026-10-19"
 }

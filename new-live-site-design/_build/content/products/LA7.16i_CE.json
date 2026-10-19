@@ -1,11 +1,62 @@
 {
  "sku": "LA7.16i CE",
- "order": 1009,
+ "order": 1007,
  "n": "Amplified controller",
  "b": "L-Acoustics",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Install-specific amplified controller 16 x 1300 W / 8 Ohms. CE version.",
- "specs": []
+ "specs": [
+  {
+   "label": "Amplification class",
+   "value": "High-efficiency class D"
+  },
+  {
+   "label": "Output power, all channels loaded",
+   "value": "16 x 1100 W at 4 ohms 16 x 1300 W at 8 ohms 16 x 700 W at 16 ohms"
+  },
+  {
+   "label": "Digital Signal Processor (DSP)",
+   "value": "Gen.5 Dual SHARC 32-bit, floating point, 96 kHz sampling rate"
+  },
+  {
+   "label": "I/O routing",
+   "value": "16 x 16 routing and summation matrix"
+  },
+  {
+   "label": "Technologies loudspeaker management",
+   "value": "L-DRIVE advanced system protection"
+  },
+  {
+   "label": "Technologies amplifier management",
+   "value": "L-SMART adaptative power management"
+  },
+  {
+   "label": "Standard latency (analog/digital inputs)",
+   "value": "3.84 ms"
+  },
+  {
+   "label": "Low latency (analog/digital inputs)",
+   "value": "1.18 ms"
+  },
+  {
+   "label": "Milan-AVB",
+   "value": "16 channels from up to 16 streams (of up to 8 channels each)"
+  },
+  {
+   "label": "AES67",
+   "value": "16 channels from up to 16 streams (of up to 8 channels each) (48 kHz only)"
+  },
+  {
+   "label": "AES/EBU",
+   "value": "2 channels AES/EBU (1 x AES3) with SRC"
+  },
+  {
+   "label": "Inputs analog",
+   "value": "1 channel analog"
+  }
+ ],
+ "src": "https://www.l-acoustics.com/products/la7-16i/",
+ "checked": "2026-10-19"
 }

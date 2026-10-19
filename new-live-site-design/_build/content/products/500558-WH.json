@@ -1,11 +1,62 @@
 {
  "sku": "500558-WH",
- "order": 1941,
+ "order": 1939,
  "n": "Dante 2-Channel XLR Wall-Plate, White - 500558-WH",
  "b": "Muxlab",
  "c": "Wall Plate / Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "Dante 2-Channel XLR Wall-Plate",
- "specs": []
+ "specs": [
+  {
+   "label": "XLR impedance input",
+   "value": "Balance 20k Ohm"
+  },
+  {
+   "label": "XLR impedance output",
+   "value": "Balance 100 Ohm"
+  },
+  {
+   "label": "Dante interface",
+   "value": "RJ45 interface, with PoE"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20Hz-20kHz"
+  },
+  {
+   "label": "Sampling rate",
+   "value": "48kHz 24bit"
+  },
+  {
+   "label": "Floor noise",
+   "value": "-90dB"
+  },
+  {
+   "label": "Channel isolation",
+   "value": "100dB @ 1kHz"
+  },
+  {
+   "label": "Form factor",
+   "value": "2 Gang US"
+  },
+  {
+   "label": "THD + N",
+   "value": "<0.005% @4dBu"
+  },
+  {
+   "label": "Power consumption",
+   "value": "2W"
+  },
+  {
+   "label": "Dimensions (LxWxH)",
+   "value": "123.5mm × 79mm × 35mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "156g"
+  }
+ ],
+ "src": "https://muxlab.com/product/500558-wh",
+ "checked": "2026-10-19"
 }

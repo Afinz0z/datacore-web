@@ -1,6 +1,6 @@
 {
  "sku": "PS-2405",
- "order": 5130,
+ "order": 5115,
  "n": "24V/5A Desktop power supply (PS-2405)",
  "b": "Kramer",
  "c": "Accessories",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "PS-2405",
  "d": "24V/5A Desktop power supply",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Input",
+   "value": "100–240V AC"
+  },
+  {
+   "label": "Maximum Power Output",
+   "value": "120W"
+  },
+  {
+   "label": "Output",
+   "value": "24V DC, 5A max."
+  },
+  {
+   "label": "Storing Temperature",
+   "value": "–20°C to +80°C (–4° to 140°F)"
+  },
+  {
+   "label": "Storage Humidity",
+   "value": "10% to 90%, RH (non–condensing)"
+  },
+  {
+   "label": "Product dimension",
+   "value": "15.00cm x 7.40cm x 2.50cm (5.91\" x 2.91\" x 0.98\" ) W, D, H"
+  },
+  {
+   "label": "Product weight",
+   "value": "0.4kg (0.9lbs) approx."
+  },
+  {
+   "label": "Shipping dimension",
+   "value": "17.80cm x 13.00cm x 6.50cm (7.01\" x 5.12\" x 2.56\" ) W, D, H"
+  },
+  {
+   "label": "Shipping weight",
+   "value": "0.6kg (1.3lbs) approx."
+  }
+ ],
+ "src": "https://www.kramerav.com/us/product/ps-2405",
+ "checked": "2026-10-19"
 }

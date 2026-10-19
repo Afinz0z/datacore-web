@@ -1,6 +1,6 @@
 {
  "sku": "Axis TQ5001-E",
- "order": 3322,
+ "order": 3315,
  "n": "Wall/Pole Mount Bracket",
  "b": "Axis",
  "c": "CCTV Mounting Equipment",
@@ -14,10 +14,7 @@
   }
  ],
  "for": [
-  "AXIS P1467-LE",
   "AXIS P3277-LV",
-  "AXIS Q6358-LE US",
-  "P1468-LE",
-  "P3268-LV"
+  "AXIS Q6358-LE US"
  ]
 }

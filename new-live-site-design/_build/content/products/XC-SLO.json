@@ -1,15 +1,66 @@
 {
  "sku": "XC-SLO",
- "order": 1326,
+ "order": 1324,
  "n": "SOLARO XC-SLO",
  "b": "Xilica",
  "c": "Audio Card",
  "dept": "AV",
  "avail": "lead",
  "d": "olaro XC-SLO is a two-channel analog audio output card for Solaro Series processors. It offers 32-bit A/D conversionand features six-position 3.5mm screw terminals. Solaro XC-SLO ships with mini-Phoenix (female) connectors.Xilica S",
- "specs": [],
+ "specs": [
+  {
+   "label": "Channel(s)",
+   "value": "Two"
+  },
+  {
+   "label": "Type",
+   "value": "Electronically-balanced"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "~50 Ohms"
+  },
+  {
+   "label": "Connector(s)",
+   "value": "Six-position 3.5mm screw terminals"
+  },
+  {
+   "label": "Maximum Level",
+   "value": "+20dBu"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "+/- 0.15dB (20-20kHz)"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "110dB typ (unweighted)"
+  },
+  {
+   "label": "CMRR",
+   "value": ">50dB at 1kHz"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "<-110dB at 1kHz"
+  },
+  {
+   "label": "Distortion",
+   "value": "0.002% (1kHz at +4dBu)"
+  },
+  {
+   "label": "D/A Conversion",
+   "value": "32-bit"
+  },
+  {
+   "label": "Card Slot(s) Occupied",
+   "value": "Single"
+  }
+ ],
  "for": [
   "Solaro FR1-D",
   "Solaro QR1"
- ]
+ ],
+ "src": "https://www.xilica.com/products/solaro-xc-slo/",
+ "checked": "2026-10-19"
 }

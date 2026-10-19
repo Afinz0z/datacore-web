@@ -1,11 +1,62 @@
 {
  "sku": "GZ-120",
- "order": 1035,
+ "order": 1033,
  "n": "PA/ Mixer Amplifier-GZ",
  "b": "Unipex",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Unipex GZ SeriesTwo zone capability High Power PA Amplifier / Mixer Amplifier Maximum output 200W",
- "specs": []
+ "specs": [
+  {
+   "label": "Output",
+   "value": "120W(Rated), 200W(Max.)"
+  },
+  {
+   "label": "Output road impedance",
+   "value": "Speaker: 4Ω Unbalanced; 42Ω Balanced(100V line)"
+  },
+  {
+   "label": "REC",
+   "value": "0dBV 600Ω, Unbalanced"
+  },
+  {
+   "label": "LINE",
+   "value": "0dBV 600Ω, Unbalanced"
+  },
+  {
+   "label": "Frequency responce",
+   "value": "50Hz～20kHz ±3dB"
+  },
+  {
+   "label": "Input",
+   "value": "MIC1～6: -62dBV 600Ω, Electronically balanced; AUX1, 2: -22dBV 10kΩ, Electronically balanced"
+  },
+  {
+   "label": "TAPE",
+   "value": "-22dBV 10kΩ, Unbalanced"
+  },
+  {
+   "label": "CD",
+   "value": "-16dBV 10kΩ, Unbalanced"
+  },
+  {
+   "label": "Power in",
+   "value": "0dBV 600Ω Unbalanced"
+  },
+  {
+   "label": "Mass",
+   "value": "Approx. 10.1kg"
+  },
+  {
+   "label": "Power supply",
+   "value": "AC 127/220V or 230/240V (50/60Hz); DC 28V (DC 24V battery)"
+  },
+  {
+   "label": "Current consumption",
+   "value": "220mA (AC); 9.2A (DC)"
+  }
+ ],
+ "src": "https://www.unipex.co.jp/product_detail/amp/00070/",
+ "checked": "2026-10-19"
 }

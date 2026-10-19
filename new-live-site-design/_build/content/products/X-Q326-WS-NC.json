@@ -1,15 +1,66 @@
 {
  "sku": "X-Q326-WS-NC",
- "order": 1303,
+ "order": 1301,
  "n": "Quantum 326 mixing Console",
  "b": "DiGiCo",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
  "d": "Quantum 326 Digital Mixing Console surface - NC optics",
- "specs": [],
+ "specs": [
+  {
+   "label": "Faders",
+   "value": "26 x 100mm touch-sensitive, motorised"
+  },
+  {
+   "label": "Screens",
+   "value": "2 x 17” LCD high – brightness, high – resolution touch screens"
+  },
+  {
+   "label": "Input Channels",
+   "value": "128"
+  },
+  {
+   "label": "Busses",
+   "value": "Up to 64 Aux / Group busses with full processing Mono / Stereo / LCR / LCRS / 5.1"
+  },
+  {
+   "label": "Matrix",
+   "value": "Up to 24 Input / 24 Outputs with full processing"
+  },
+  {
+   "label": "Control Groups",
+   "value": "Up to 24, selectable for VCA-style, Moving fader, Mute Group"
+  },
+  {
+   "label": "Internal FX",
+   "value": "Up to 24 stereo effects comprising floating point reverbs and delay/chorus/pitch/enhancer"
+  },
+  {
+   "label": "Spice Rack",
+   "value": "8 mono / 4 stereo Rack Slots"
+  },
+  {
+   "label": "Mustard Proc",
+   "value": "36 Processing Strips"
+  },
+  {
+   "label": "Nodal Proc",
+   "value": "64 Nodal Processors"
+  },
+  {
+   "label": "Local I/O",
+   "value": "8 x 32bit mic/line I/O, 8 x AES I/O"
+  },
+  {
+   "label": "MADI interface",
+   "value": "6 x interfaces @ 48kHz, 3 interfaces @ 96kHz, BNC connectivity"
+  }
+ ],
  "acc": [
   "FC-Q326",
   "MOD-DMI-DANTE 2"
- ]
+ ],
+ "src": "https://digico.biz/consoles/quantum326/",
+ "checked": "2026-10-19"
 }

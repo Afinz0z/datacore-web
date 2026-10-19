@@ -1,6 +1,6 @@
 {
  "sku": "SPA-Qf 60x2",
- "order": 1025,
+ "order": 1023,
  "n": "QSC 2 Channel Amplifier",
  "b": "QSC",
  "c": "Amplifier",
@@ -9,12 +9,34 @@
  "d": "Two-Channel Network Amplifier for the Q-SYS Platform.",
  "specs": [
   {
-   "label": "Type",
-   "value": "Network Amplifier"
+   "label": "Channel Count",
+   "value": "2 Channel"
   },
   {
-   "label": "Series",
-   "value": "Q-SYS SPA-Q"
+   "label": "Power",
+   "value": "60 W / channel"
+  },
+  {
+   "label": "Flex I/O",
+   "value": "2 software-configurable inputs/outputs"
+  },
+  {
+   "label": "GPIO",
+   "value": "4 bi-directional pins"
+  },
+  {
+   "label": "Product Dimensions (HWD)",
+   "value": "1.75 x 8.7 x 11.25 in (44 x 221 x 286 mm)"
+  },
+  {
+   "label": "Shipping Dimensions (HWD)",
+   "value": "3.54 x 13.5 x 15 in (89.9 x 342.9 x 381 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "6.2 lb (2.81 kg)"
   }
- ]
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/audio-network-amplifiers/spa-q-series/",
+ "checked": "2026-10-19"
 }

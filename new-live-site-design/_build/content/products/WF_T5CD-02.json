@@ -1,6 +1,6 @@
 {
  "sku": "WF T5CD-02",
- "order": 1278,
+ "order": 1276,
  "n": "WaveCAST single channel audio streaming over Wi-Fi (WF T5CD-02)",
  "b": "Williams AV",
  "c": "Assistive Listening",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "WF T5CD-02",
  "d": "WaveCAST single channel audio streaming over Wi-Fi. Pro audio DSP architecture, Dante audio input option, unicast or multicast audio delivery. Works with free WaveCast iOS or Android App or WAV Pro Wi-Fi receiver.",
- "specs": []
+ "specs": [
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Rack Mount",
+   "value": "Standard 19” Rack, one EIA rack space high, 1/2 space wide 1–2 units can be mounted in a single rack space with optional RPK 005 (single) or RPK 006 (double) Rack Mount Kits"
+  },
+  {
+   "label": "Power ON Indicator",
+   "value": "Push On/Push Off latching power button with backlight. Green backlight indicates power ON, backlight off indicates power OFF."
+  },
+  {
+   "label": "User Interface",
+   "value": "1. 3.12” High Resolution OLED display with selections via buttons. 2. Hosted Web page. 3. Telnet commands over ethernet (see our WaveCAST and FM+ Programmers Guide” for available commands and protocol)."
+  },
+  {
+   "label": "Dante",
+   "value": "(1x) RJ-45 jack. Only available on WF T5CD"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "(1x) Combination 3-pin XLR, 1/4” (TRS) jack for balanced or unbalanced line level, or balanced or unbalanced microphone with selectable phantom power. Optional RJ-45 Dante Input (“D” models only)."
+  },
+  {
+   "label": "Audio Processor Functions",
+   "value": "DSP based; Compression: 1:1, 1.5:1 or 2:1; High-pass and Low-pass Filter Frequency control, Music, Voice, and Hearing Assistance Audio Presets"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "31-16000 Hz, ±3 dB (re: 1 kHz) (“Music” Audio Preset)"
+  },
+  {
+   "label": "Signal-to-Noise Ratio",
+   "value": "64 dB (typical) Transmitted RF @ 1kHz"
+  },
+  {
+   "label": "Total Harmonic Distortion",
+   "value": "Less than 0.25% @ 1 kHz (RF output)"
+  },
+  {
+   "label": "Common Mode Rejection",
+   "value": "Greater than 57 dB @ 1 kHz, Mic or Line mode"
+  },
+  {
+   "label": "Audio Input Gain Adjust",
+   "value": "Adjustable from +24dB to -60 dB, in 1dB steps from front screen or web page"
+  }
+ ],
+ "src": "https://williamsav.com/product/wavecast-c-wi-fi-audio-system-with-dante/",
+ "checked": "2026-10-19"
 }

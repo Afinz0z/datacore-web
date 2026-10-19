@@ -1,11 +1,62 @@
 {
  "sku": "SHADOW 112CT",
- "order": 811,
+ "order": 810,
  "n": "IP55 Coax speaker -SHADOW 112CT",
  "b": "FBT",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "36194 - SHADOW 112CT - IP 55 2-way multipurpose Coax speaker - 12\" + 1\" - conical 90Â° horn - 600Wrms - 100V line transf",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "2 way"
+  },
+  {
+   "label": "Recommended amplifier",
+   "value": "600 W RMS"
+  },
+  {
+   "label": "Long Term power",
+   "value": "300 W"
+  },
+  {
+   "label": "Short term power",
+   "value": "1200 W"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 ohm"
+  },
+  {
+   "label": "Frequency response",
+   "value": "70Hz - 20Khz -6dB"
+  },
+  {
+   "label": "Low Frequency woofer",
+   "value": "12 - 2.5 coil inch"
+  },
+  {
+   "label": "High frequency driver",
+   "value": "1 - 1.7 coil inch"
+  },
+  {
+   "label": "Sensitivity (@1W/1m)",
+   "value": "98 dB"
+  },
+  {
+   "label": "Maximum SPL cont/peak",
+   "value": "124/128 dB"
+  },
+  {
+   "label": "Dispersion",
+   "value": "90° conical HxV"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "1.6 KHz"
+  }
+ ],
+ "src": "https://www.fbt.it/product/shadow-112ct/",
+ "checked": "2026-10-19"
 }

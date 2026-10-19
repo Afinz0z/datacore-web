@@ -9,15 +9,57 @@
  "d": "SMART Board® MX055-V5 interactive display with iQ",
  "specs": [
   {
-   "label": "Type",
-   "value": "Interactive"
+   "label": "Screen size (diagonal)",
+   "value": "55 in"
   },
   {
-   "label": "Series",
-   "value": "MX (V5)"
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Maximum display resolution",
+   "value": "4K UHD (3840 × 2160)"
+  },
+  {
+   "label": "Refresh rate",
+   "value": "60 Hz"
+  },
+  {
+   "label": "Minimum lifespan",
+   "value": "50,000 hours"
+  },
+  {
+   "label": "Brightness",
+   "value": "300 cd/m²"
+  },
+  {
+   "label": "Viewing angle",
+   "value": "178°"
+  },
+  {
+   "label": "Glass",
+   "value": "Full heat-tempered | Anti-glare | Anti-fingerprint"
+  },
+  {
+   "label": "Speakers",
+   "value": "2 integrated 15 W speakers"
+  },
+  {
+   "label": "Microphones",
+   "value": "Integrated linear six-microphone array with support for onboard acoustic echo cancellation"
+  },
+  {
+   "label": "Touch technology",
+   "value": "HyPr Touch with Advanced IR"
   }
  ],
  "acc": [
   "LGWM-3790F"
- ]
+ ],
+ "src": "https://www.smarttech.com/en-ae/products/mx-series/education",
+ "checked": "2026-10-19"
 }

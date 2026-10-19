@@ -1,11 +1,34 @@
 {
  "sku": "BT8590 XXL",
- "order": 2782,
+ "order": 2780,
  "n": "BT8590 XXL Flat Screen Trolley",
  "b": "B-Tech",
  "c": "Wall Brackets for Displays",
  "dept": "AV",
  "avail": "lead",
  "d": "Heavy-duty mobile floor stand compatible with displays up to 120 inches, load capacity up to 113 kg",
- "specs": []
+ "specs": [
+  {
+   "label": "Recommended screen size",
+   "value": "72\" (183cm) - 120\" (305cm)"
+  },
+  {
+   "label": "Max load",
+   "value": "130kg (286lbs)"
+  },
+  {
+   "label": "VESA & non-VESA fixings",
+   "value": "Up to 1600mm x 800mm"
+  },
+  {
+   "label": "Colour options",
+   "value": "Black, Black & Silver"
+  },
+  {
+   "label": "Trolley dimensions",
+   "value": "H:1905 (75\") W:1755 (69\") D:767mm (30\")"
+  }
+ ],
+ "src": "https://www.btechavmounts.com/product-range/products/bt8590",
+ "checked": "2026-10-19"
 }

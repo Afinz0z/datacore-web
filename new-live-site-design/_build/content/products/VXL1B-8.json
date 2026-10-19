@@ -1,14 +1,65 @@
 {
  "sku": "VXL1B-8",
- "order": 884,
+ "order": 882,
  "n": "VXL1B-8 - 1.5-inch Slim Line Array Speaker",
  "b": "Yamaha",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "1.5-inch Slim Line Array Speaker",
- "specs": [],
+ "specs": [
+  {
+   "label": "Speaker type",
+   "value": "Full-range, Bass reflex"
+  },
+  {
+   "label": "Frequency range (-10dB)",
+   "value": "70 Hz – 20 kHz 110 Hz - 20kHz (w/ port cover)"
+  },
+  {
+   "label": "Coverage area",
+   "value": "Horizontal: 170°, Vertical:40°（+20° – -20°）"
+  },
+  {
+   "label": "Components LF-HF",
+   "value": "1.5” (3.75 cm) Cone × 8"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "16Ω"
+  },
+  {
+   "label": "Sensitivity (1W; 1m on axis)",
+   "value": "89 dB SPL (1 m/1 W)"
+  },
+  {
+   "label": "Peak (Calculated)",
+   "value": "111 dB SPL (1 m)"
+  },
+  {
+   "label": "I/O connectors",
+   "value": "Euroblock (2 pin) × 2 (input: +/-) Max. wire size AWG 12 (3.3 mm²)"
+  },
+  {
+   "label": "Load protection",
+   "value": "Full-range power limiting to protecting network and transducers"
+  },
+  {
+   "label": "Finish",
+   "value": "VXL1B-8: Black painting (approximate value: Munsell N3.0), VXL1W-8: White painting (approximate value: Munsell N9.0)"
+  },
+  {
+   "label": "Packaging",
+   "value": "Packaged in 1 pc"
+  },
+  {
+   "label": "Dimensions (W x H x D)",
+   "value": "2.1 x 18.9 x 4.1 in. (54 x 480 x 104 mm) - Speaker Only, 2.1 x 18.9 x 4.4 in. (54 x 1212 x 111.5 mm) - with Included Bracket"
+  }
+ ],
  "acc": [
   "WMB-L1B"
- ]
+ ],
+ "src": "https://usa.yamaha.com/products/proaudio/speakers/vxl/specs.html",
+ "checked": "2026-10-19"
 }

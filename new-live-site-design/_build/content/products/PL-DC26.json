@@ -1,11 +1,46 @@
 {
  "sku": "PL-DC26",
- "order": 852,
+ "order": 851,
  "n": "2-way passive loudspeaker PL-DC26",
  "b": "QSC",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Dual 6-in 2-way passive/bi-amp directivity control configurable loudspeaker, Color - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Transducers",
+   "value": "LF: 2x 6 in (170 mm), 1.7 in (44 mm) voice coil, neodymium HF: Compression driver, 1.75 in (44 mm) voice coil"
+  },
+  {
+   "label": "Enclosure Configuration",
+   "value": "Two-way, passive point source loudspaker in bass reflex enclosure"
+  },
+  {
+   "label": "Coverage (horizontal x vertical)",
+   "value": "Symmetrical: 120° x 50°, 90° x 50° Asymmetrical: 105° x 50° (Reconfigurable half horn assemblies included)"
+  },
+  {
+   "label": "System Sensitivity",
+   "value": "102.2 dB @ 1 W/1 m"
+  },
+  {
+   "label": "Max SPL (continuous)",
+   "value": "121 dB"
+  },
+  {
+   "label": "Enclosure Color",
+   "value": "Black (RAL 9011)"
+  },
+  {
+   "label": "Weatherization",
+   "value": "IP54 External plywood Stainless screws Treated grille vs. UV and corrosion Hydrophobic stainless steel mesh behind grille Polyurea Paint Input cup (IP65) sealing with gland"
+  },
+  {
+   "label": "Enclosure Material",
+   "value": "Exterior plywood"
+  }
+ ],
+ "src": "https://www.qsys.com/products/loudspeakers/installed/passive/performance/pl-series/q-sys-pl-dc/q-sys-pl-dc26/",
+ "checked": "2026-10-19"
 }

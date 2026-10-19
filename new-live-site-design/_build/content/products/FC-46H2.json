@@ -1,11 +1,62 @@
 {
  "sku": "FC-46H2",
- "order": 1981,
+ "order": 1979,
  "n": "Audio De-Embedder",
  "b": "Kramer",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
  "d": "4K HDR HDMI Audio De-embedder",
- "specs": []
+ "specs": [
+  {
+   "label": "Inputs HDMI",
+   "value": "On a female HDMI connector"
+  },
+  {
+   "label": "Outputs HDMI",
+   "value": "On a female HDMI connector"
+  },
+  {
+   "label": "S/PDIF Digital Audio",
+   "value": "On an RCA connector"
+  },
+  {
+   "label": "Balanced Stereo Analog Audio",
+   "value": "On a 5–pin terminal block connector"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "Up to 18Gbps (6Gbps per graphic channel)"
+  },
+  {
+   "label": "Color Depth",
+   "value": "Up to 12–bit"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "Up to 4K@60 (4:4:4)"
+  },
+  {
+   "label": "Content Protection",
+   "value": "Supports HDCP 2.2."
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20Hz to 20kHz @ +/–0.1dB"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": ">90dB"
+  },
+  {
+   "label": "THD+N",
+   "value": "0.004%"
+  },
+  {
+   "label": "Control",
+   "value": "Setup DIP–switches for EDID mode, audio settings, analog audio amplification. Contact closure switch for:output mute"
+  }
+ ],
+ "src": "https://www.kramerav.com/us/product/fc-46h2",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "C10-2",
- "order": 1264,
+ "order": 1262,
  "n": "C-Series MultiLoop Driver 10A (C10-2)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -8,9 +8,60 @@
  "avail": "lead",
  "model": "C10-2",
  "d": "C-Series MultiLoop Driver 10A",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power",
+   "value": "120/230 VAC, 45-65 Hz, 120W"
+  },
+  {
+   "label": "Input 1 & 2",
+   "value": "3 way 3.5mm euroblock screw terminal input (supplied) with a balanced microphone and line level operation, selectable via rear panel switch, Switchable 250Hz low cut filter, Priority input option (network models only)"
+  },
+  {
+   "label": "Microphone / Line",
+   "value": "Microphone specification; 200 – 600Ω, sensitivity -67dBu, Selectable 24V phantom power on microphone only, Line sensitivity -42dBu, Max line level 17dBu, Max mic level -8dBu"
+  },
+  {
+   "label": "100V Line",
+   "value": "2 way 5mm euroblock screw terminal (supplied), 100V sensitivity +7dBu"
+  },
+  {
+   "label": "Network (optional C5/C7)",
+   "value": "RJ45 Ethernet, control and monitoring, Hosted web server, Telnet and SNMP"
+  },
+  {
+   "label": "Loop Output Drive Voltage",
+   "value": "33.9VRMS (48Vpk) at maximum output current per channel"
+  },
+  {
+   "label": "Loop Output/Drive Current",
+   "value": "Drive Current: 10ARMS (14Apk) up to 60 seconds continuous 1kHz sine wave, peak >14A per channel Cont. pink noise 4.7ARMS short term peaks >14A per ch."
+  },
+  {
+   "label": "Loop Connectors",
+   "value": "4 way 5mm euroblock screw terminal (supplied) for each output, for twisted pair or star-quad configured feed cables"
+  },
+  {
+   "label": "DC Output",
+   "value": "2 way 3.5mm euroblock screw terminal Re-settable, fuse protected 12V 0.1A. Controllable to reflect amplifier status (network models only)"
+  },
+  {
+   "label": "Line Output",
+   "value": "3 way 3.5mm euroblock screw terminal (supplied) post AGC balanced output"
+  },
+  {
+   "label": "Status Relay (C10/C14)",
+   "value": "2 way 3.5mm euroblock screw terminal (supplied). Normally closed isolated relay contacts, open in fault conditions. Rated load 0.5A at 125VAC, 2A at 30VDC."
+  },
+  {
+   "label": "USB",
+   "value": "Firmware updates or power for wireless router (200mA max). Powering external devices may reduce power headroom for the loop, DC output and USB power should not be used simultaneously."
+  }
+ ],
  "acc": [
   "ACFB",
   "ACWP50"
- ]
+ ],
+ "src": "https://www.listentech.com/shop/product/c-series-multiloop-driver-10-amps-networked-or-dante/",
+ "checked": "2026-10-19"
 }

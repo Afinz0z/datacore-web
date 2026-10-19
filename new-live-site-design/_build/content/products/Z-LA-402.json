@@ -1,10 +1,57 @@
 {
  "sku": "Z-LA-402",
- "order": 1362,
+ "order": 1360,
  "n": "Universal Stereo Headphones",
  "b": "Listen Technologies",
  "c": "Headphones",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Impedance",
+   "value": "32 ohm +/- 15% @ 1 kHz"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "110 dB +/- 4dB @ 1 kHz, 1 mW"
+  },
+  {
+   "label": "Rated Power Input",
+   "value": "50 mW"
+  },
+  {
+   "label": "Maximum Input Level",
+   "value": "100 mW"
+  },
+  {
+   "label": "Connector/s",
+   "value": "Male 3.5 mm (TRS)"
+  },
+  {
+   "label": "Color",
+   "value": "Dark Gray"
+  },
+  {
+   "label": "Cable Length",
+   "value": "13 in. (33 cm), extension cable is 28 in. (71 cm)"
+  },
+  {
+   "label": "Standards",
+   "value": "RoHS"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "1.0 lbs. (454 g)"
+  },
+  {
+   "label": "Weight",
+   "value": "2.40 oz. (68 g)"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/intelligent-stereo-headphones/",
+ "checked": "2026-10-19"
 }

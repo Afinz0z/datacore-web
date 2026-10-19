@@ -1,6 +1,6 @@
 {
  "sku": "TX-RZ50",
- "order": 1014,
+ "order": 1012,
  "n": "9.2-Channel AV Receiver (TX-RZ50)",
  "b": "Onkyo",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "TX-RZ50",
  "d": "9.2-Channel AV Receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Power output (All channels)",
+   "value": "250 W/Ch (6 ohms, 1 kHz, 10% THD, 1 channel driven) 120 W/Ch (8 ohms, 20 Hz–20 kHz, 0.08% THD, 2 channels driven, FTC)"
+  },
+  {
+   "label": "Dynamic power",
+   "value": "250 W (3 ohms, Front) 220 W (4 ohms, Front) 130 W (8 ohms, Front)"
+  },
+  {
+   "label": "THD+N (Total Harmonic Distortion + Noise)",
+   "value": "0.08% (20 Hz–20 kHz, half power)"
+  },
+  {
+   "label": "Input sensitivity and impedance",
+   "value": "200 mV rms/47 k-ohms (Line) 3.5 mV rms/47 k-ohms (Phono MM)"
+  },
+  {
+   "label": "Rated RCA output level and impedance",
+   "value": "1 V rms/470 ohms (Subwoofer pre-out) 200 mV rms/470 ohms (Zone 2/Zone B line-out)"
+  },
+  {
+   "label": "Frequency response",
+   "value": "5 Hz–100 kHz/+1 dB, -3 dB (Direct Mode)"
+  },
+  {
+   "label": "Tone control",
+   "value": "±10 dB, 20 Hz (Bass) ±10 dB, 20 kHz (Treble)"
+  },
+  {
+   "label": "Signal-to-noise ratio",
+   "value": "106 dB (Line, IHF-A) 80 dB (Phono, IHF-A)"
+  },
+  {
+   "label": "Speaker impedance",
+   "value": "4–16 ohms"
+  },
+  {
+   "label": "FM",
+   "value": "87.5 MHz–107.9 MHz"
+  },
+  {
+   "label": "AM",
+   "value": "530 kHz–1,710 kHz"
+  },
+  {
+   "label": "FM/AM preset memory",
+   "value": "40 stations"
+  }
+ ],
+ "src": "https://onkyo.com/intl/receivers-2/tx-rz50",
+ "checked": "2026-10-19"
 }

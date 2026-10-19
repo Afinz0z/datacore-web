@@ -1,6 +1,6 @@
 {
  "sku": "79001FS",
- "order": 4313,
+ "order": 4297,
  "n": "2 Core × 1.5 mm² - Fire Rated Cable",
  "b": "Belden",
  "c": "FA Cable",
@@ -10,8 +10,54 @@
  "d": "2 Core × 1.5 mm² - Fire Rated Cable",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Suitable Applications",
+   "value": "Circuit integrity, Intercom/PA Systems, Sound/Audio Systems, Control Systems, Fire Alarm Systems, Voice Evacuation Systems, Emergency & Safety Systems"
+  },
+  {
+   "label": "Conductor no. of elements",
+   "value": "2"
+  },
+  {
+   "label": "Conductor size",
+   "value": "1.5 mm²"
+  },
+  {
+   "label": "Conductor stranding",
+   "value": "Solid"
+  },
+  {
+   "label": "Insulation nom. thickness",
+   "value": "0.7 mm (0.028 in)"
+  },
+  {
+   "label": "Color Code",
+   "value": "Brown, Blue"
+  },
+  {
+   "label": "Outer Shield type",
+   "value": "Tape"
+  },
+  {
+   "label": "Outer Shield coverage",
+   "value": "100%"
+  },
+  {
+   "label": "Outer Jacket nom. diameter",
+   "value": "7.85 mm (0.309 in)"
+  },
+  {
+   "label": "Overall Cable Diameter (Nominal)",
+   "value": "7.85 mm (0.309 in)"
+  },
+  {
+   "label": "Max. Conductor DCR",
+   "value": "12.1 Ohm/km"
+  },
+  {
+   "label": "Nom. Capacitance Cond-to-Cond",
+   "value": "70 pF/m (21 pF/ft)"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cable/control-cable/79001fs",
+ "checked": "2026-10-19"
 }

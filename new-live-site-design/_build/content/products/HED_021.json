@@ -1,6 +1,6 @@
 {
  "sku": "HED 021",
- "order": 1270,
+ "order": 1268,
  "n": "Folding headphones (HED 021)",
  "b": "Williams AV",
  "c": "Assistive Listening",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "HED 021",
  "d": "Folding headphones. Mono 3.5 mm plug.",
- "specs": []
+ "specs": [
+  {
+   "label": "Style",
+   "value": "Mono, folding headphone"
+  },
+  {
+   "label": "Plug",
+   "value": "3.5mm mono"
+  },
+  {
+   "label": "Cord",
+   "value": "39″"
+  },
+  {
+   "label": "Driver Size",
+   "value": "30 mm"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "32Ω"
+  },
+  {
+   "label": "Freq. Response",
+   "value": "20 – 20kHz"
+  },
+  {
+   "label": "Max Power Input",
+   "value": "100 mW"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "110 dB @ 1kHz"
+  },
+  {
+   "label": "Replacement Pads",
+   "value": "HED 023 (one pair)"
+  },
+  {
+   "label": "Weight",
+   "value": "52g"
+  }
+ ],
+ "src": "https://williamsav.com/product/hed-021/",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "LU 01 00069",
- "order": 5138,
+ "order": 5123,
  "n": "LumiNode 1 - LU 01 00069",
  "b": "Luminex",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "LumiNode 1",
- "specs": []
+ "specs": [
+  {
+   "label": "DMX/RDM connectivity",
+   "value": "1x Neutrik 5 pin XLR (female) shielded & gold plated"
+  },
+  {
+   "label": "Ethernet connectivity",
+   "value": "1x shielded Neutrik Ethercon connector; 1x USB to Ethernet (dongle function)"
+  },
+  {
+   "label": "Contact closure",
+   "value": "No"
+  },
+  {
+   "label": "Power connectivity",
+   "value": "USB; Ethernet (PoE 802.3af class 0)"
+  },
+  {
+   "label": "DMX protocols",
+   "value": "DMX512 (1986 & 1990); DMX512-A ANSI E1.11; RDM ANSI E1.20-2010"
+  },
+  {
+   "label": "DMX port direction",
+   "value": "Input or output (configurable)"
+  },
+  {
+   "label": "DMX port isolation",
+   "value": "Optical and galvanic isolation per port"
+  },
+  {
+   "label": "DMX timing",
+   "value": "Framerate: 10-40fps; Break: 176-352µs"
+  },
+  {
+   "label": "Ethernet protocols",
+   "value": "Art-Net™ (1-4); sACN ANSI E1.31; RTTrPL (BlackTraX); KiNET v1, v2"
+  },
+  {
+   "label": "Ethernet port speed",
+   "value": "10/100/1000Mbps"
+  },
+  {
+   "label": "Port sensing",
+   "value": "Auto-negociation; MDI / MDIX"
+  },
+  {
+   "label": "Split management interface",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.luminex.be/products/luminode/luminode-1/",
+ "checked": "2026-10-19"
 }

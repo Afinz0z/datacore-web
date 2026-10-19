@@ -1,6 +1,6 @@
 {
  "sku": "AX106902",
- "order": 3834,
+ "order": 3827,
  "n": "Patch Panel, 24-port, 1U",
  "b": "Belden",
  "c": "UTP PATCHPANEL",
@@ -9,8 +9,54 @@
  "d": "AX106902 Faceplates and Panels - Key Connect Shielded Patch Panel, 24-port, 1U",
  "specs": [
   {
-   "label": "Type",
-   "value": "24 port patch panel"
+   "label": "Suitable Applications",
+   "value": "Compatible with a variety of modules that are suitable for use with Belden IBDN Systems 10GX, 4800, 2400 and 1200."
+  },
+  {
+   "label": "Overall Height",
+   "value": "43.688 mm"
+  },
+  {
+   "label": "Overall Width",
+   "value": "482.600 mm"
+  },
+  {
+   "label": "Overall Depth",
+   "value": "118.618 mm"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "24 Port"
+  },
+  {
+   "label": "Front Connection",
+   "value": "Flush"
+  },
+  {
+   "label": "Max Capacity",
+   "value": "24 connectors"
+  },
+  {
+   "label": "Termination Rear Connection",
+   "value": "Yes"
+  },
+  {
+   "label": "Environmental Space",
+   "value": "Indoor"
+  },
+  {
+   "label": "EU Directive 2011/65/EU (RoHS 2)",
+   "value": "Yes"
+  },
+  {
+   "label": "MII Order #39 (China RoHS)",
+   "value": "EUP 50"
+  },
+  {
+   "label": "Safety Listing",
+   "value": "ACA, Bi-national Standard Listed"
   }
- ]
+ ],
+ "src": "https://belden.com/products/panels-patching-systems/rj45-patch-panels/rack-mount-panel/kconn-shielded-pp-24-1u",
+ "checked": "2026-10-19"
 }

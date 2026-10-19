@@ -1,11 +1,62 @@
 {
  "sku": "RVAEFPSME-B24 RJ",
- "order": 3972,
+ "order": 3965,
  "n": "Plug, Metal",
  "b": "Belden",
  "c": "MODULAR PLUG KIT",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "REV Connect 10GX STP Field Mount Plug, Metal, Bulk Pack",
- "specs": []
+ "specs": [
+  {
+   "label": "Suitable Applications",
+   "value": "10GX Shielded System, TIA Screened Category 6A , ISO Class EA, 10GBASE-T"
+  },
+  {
+   "label": "Overall Height",
+   "value": "0.73 in"
+  },
+  {
+   "label": "Overall Width",
+   "value": "1.1 in"
+  },
+  {
+   "label": "Overall Depth",
+   "value": "1.81 in"
+  },
+  {
+   "label": "Wiring Scheme",
+   "value": "T568A/B"
+  },
+  {
+   "label": "Dielectric Strength",
+   "value": "1,000V RMS @ 60 Hz for 1 minute (Signals to Ground)"
+  },
+  {
+   "label": "Insulation Resistance",
+   "value": "500 M-Ohm Minimum"
+  },
+  {
+   "label": "Max Contact Resistance",
+   "value": "20 mOhm"
+  },
+  {
+   "label": "Termination Resistance",
+   "value": "2.5 mOhm"
+  },
+  {
+   "label": "Termination Front Connection",
+   "value": "Mated Connection"
+  },
+  {
+   "label": "Termination Front Connection Durability",
+   "value": "750 cycles"
+  },
+  {
+   "label": "Termination Rear Connection",
+   "value": "Mated Connection"
+  }
+ ],
+ "src": "https://belden.com/products/connectors/copper-rj45-connectors/copper-rj45-plugs/revconnect-10gx-shielded-plugs",
+ "checked": "2026-10-19"
 }

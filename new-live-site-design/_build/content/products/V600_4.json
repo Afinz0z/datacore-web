@@ -1,6 +1,6 @@
 {
  "sku": "V600:4",
- "order": 957,
+ "order": 955,
  "n": "Multi-channel power amplifier for commercial installations",
  "b": "Dynacord",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Amplifier",
  "d": "Multi-channel power amplifier for commercial installations",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "Filter-selectable, -3 dB (ref. 1 kHz, analog in to speaker out): HP 30/100/150 Hz to 20 kHz, LP 30 to 150 Hz (4/8 ohm); HP 50/100/150 Hz to 20 kHz, LP 50 to 150 Hz (70/100 V)"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.1% (1/8 rated output power, 1 kHz)"
+  },
+  {
+   "label": "Crosstalk between channels (dBA)",
+   "value": "< -70 dB (4 ohm) to < -95 dB (100 V), ref. 1 kHz, 12 dB below maximum"
+  },
+  {
+   "label": "Signal-to-Noise Ratio",
+   "value": "> 98 dB (A-weighted, ref. rated output power)"
+  },
+  {
+   "label": "Total Output Power",
+   "value": "600 W"
+  },
+  {
+   "label": "Direct Drive (70V/100V)",
+   "value": "Yes"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "+6 dBu (LEVEL 0 dB) / 0 dBu (LEVEL +6 dB); max input level +18 dBu"
+  },
+  {
+   "label": "Max. output Power/channel",
+   "value": "500 W (4 ohm / 70 V), 600 W (8 ohm / 100 V) per channel, power sharing at minimum impedance"
+  },
+  {
+   "label": "Max. output voltage/channel",
+   "value": "40.0 V RMS (4 ohm); 56.0 V RMS (8 ohm); 70.7 V RMS (70 V); 100 V RMS (100 V)"
+  },
+  {
+   "label": "Power Tank",
+   "value": "Yes"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "4 ohm; 8 ohm; 70 V; 100 V (selectable per channel)"
+  },
+  {
+   "label": "Channels",
+   "value": "4"
+  }
+ ],
+ "src": "https://www.dynacord.com/product/v600-4",
+ "checked": "2026-10-19"
 }

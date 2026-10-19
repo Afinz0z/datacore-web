@@ -1,6 +1,6 @@
 {
  "sku": "DSP6011",
- "order": 757,
+ "order": 756,
  "n": "6.5\" 6W Ceiling SpeakerDSPPA 6.5\" 6W Ceiling Speaker (DSP6011)",
  "b": "DSPPA",
  "c": "Speaker",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "DSP6011",
  "d": "DSPPA 6.5\" 6W Ceiling SpeakerDSPPA 6.5\" 6W Ceiling Speaker",
- "specs": []
+ "specs": [
+  {
+   "label": "RMS Power",
+   "value": "6W"
+  },
+  {
+   "label": "Rated Voltage 70V",
+   "value": "3W/6W"
+  },
+  {
+   "label": "Rated Voltage 100V",
+   "value": "6W"
+  },
+  {
+   "label": "Driver Unit",
+   "value": "6.5 inch"
+  },
+  {
+   "label": "Max.SPL",
+   "value": "97±2dB"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90±2dB"
+  },
+  {
+   "label": "Freq. Response",
+   "value": "110Hz - 15kHz"
+  },
+  {
+   "label": "Installation",
+   "value": "Ø165mm - Ø170mm"
+  },
+  {
+   "label": "Dimension",
+   "value": "190.5mm x70mm"
+  },
+  {
+   "label": "Net Weight",
+   "value": "0.6kg"
+  }
+ ],
+ "src": "https://www.dsppatech.com/product/dsp6011-ceiling-speaker.html",
+ "checked": "2026-10-19"
 }

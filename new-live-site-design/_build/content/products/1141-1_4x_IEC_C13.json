@@ -1,6 +1,6 @@
 {
  "sku": "1141-1: 4x IEC C13",
- "order": 4063,
+ "order": 4056,
  "n": "4-fold switched and metered PDU (1141-1: 4x IEC C13)",
  "b": "GUDE",
  "c": "PDU",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "1141-1: 4x IEC C13",
  "d": "4-fold switched and metered PDU",
- "specs": []
+ "specs": [
+  {
+   "label": "High-inrush relay",
+   "value": "max. 4 sec: 30 A /max. 20 ms: 80 A"
+  },
+  {
+   "label": "Measurement of key electrical parameters",
+   "value": "current (A), voltage (V), phase angle, power factor, frequency (Hz), active power (W), apparent power (VA) and reactive power (VAr)"
+  },
+  {
+   "label": "LxDxH",
+   "value": "187 x 95 x 43 mm (without mounting brackets)"
+  },
+  {
+   "label": "Weight",
+   "value": "approx 880 g"
+  },
+  {
+   "label": "Storage temperature",
+   "value": "-20 – 70 °C"
+  },
+  {
+   "label": "Relative humidity",
+   "value": "0 – 95 % (non condensing)"
+  }
+ ],
+ "src": "https://gude-systems.com/en/products/expert-power-control-1141/",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,42 @@
 {
  "sku": "P210255",
- "order": 2476,
+ "order": 2474,
  "n": "Projector ceilinglift 1090",
  "b": "Audipack",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Projector ceilinglift 1090, stroke 7000 mm, black",
- "specs": []
+ "specs": [
+  {
+   "label": "Supply current",
+   "value": "230 VAC 50-60 Hz"
+  },
+  {
+   "label": "Standard nett stroke",
+   "value": "7000 mm"
+  },
+  {
+   "label": "Construction height",
+   "value": "aprox. 540 mm"
+  },
+  {
+   "label": "Max. load",
+   "value": "200 Kg"
+  },
+  {
+   "label": "Control",
+   "value": "RS232 relay control as standard; IR or RF remote control optionally available"
+  },
+  {
+   "label": "Dimensions",
+   "value": "815 x 1000 mm WxD"
+  },
+  {
+   "label": "Certification",
+   "value": "Tüv, CE, EMC, UKCA"
+  }
+ ],
+ "src": "https://www.audipack.com/product/1090-projector-ceilinglift-7000-mm-stroke/",
+ "checked": "2026-10-19"
 }

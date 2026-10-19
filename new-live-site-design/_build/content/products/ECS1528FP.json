@@ -1,6 +1,6 @@
 {
  "sku": "ECS1528FP",
- "order": 2840,
+ "order": 2838,
  "n": "Cloud Switch L2Plus 24 Full PoE",
  "b": "EnGenius",
  "c": "Network Switch",
@@ -9,8 +9,54 @@
  "d": "EnGenius Cloud Managed Layer 2+ Switch with 24 Gigabit PoE+ ports, 4x 10G SFP+ uplink ports, and a 410W budget",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cloud Managed"
+   "label": "Port Standards",
+   "value": "802.3 10Base-T Ethernet; 802.3u 100Base-TX Ethernet; 802.3ab 1000Base-T Ethernet; 802.3x Full-Duplex Flow Control"
+  },
+  {
+   "label": "Network Ports",
+   "value": "24 10/100/1000 Mbps Ports + 4x SFP+ Ports"
+  },
+  {
+   "label": "Switching Capacity",
+   "value": "128Gbps"
+  },
+  {
+   "label": "PoE+ Capable Ports",
+   "value": "1-24"
+  },
+  {
+   "label": "Total PoE Budget",
+   "value": "410W"
+  },
+  {
+   "label": "Power Source",
+   "value": "100 ~ 240VAC, 50-60Hz"
+  },
+  {
+   "label": "LED Indicators",
+   "value": "Power LED; Fault LED; PoE Max LED; LAN Mode LED; PoE Mode LED"
+  },
+  {
+   "label": "Ports",
+   "value": "Link/Activity/Speed (per Ethernet port); Link/Activity/Speed (per SFP slot)"
+  },
+  {
+   "label": "Multiple IP Interface",
+   "value": "20 IPv6 address"
+  },
+  {
+   "label": "ARP Table",
+   "value": "Max. 192 ARP entries"
+  },
+  {
+   "label": "IPv4 Static Route",
+   "value": "Max. 63 entries"
+  },
+  {
+   "label": "IPv6 Static Route",
+   "value": "Max. 21 entries"
   }
- ]
+ ],
+ "src": "https://www.engeniustech.com/cloud-managed-24-port-poe-switch-gigabit-410w.html",
+ "checked": "2026-10-19"
 }

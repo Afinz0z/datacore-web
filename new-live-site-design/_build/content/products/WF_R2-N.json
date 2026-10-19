@@ -1,6 +1,6 @@
 {
  "sku": "WF R2-N",
- "order": 1277,
+ "order": 1275,
  "n": "WAV Pro Wi-Fi Receiver for use with any WaveCAST enabled transmitter (WF R2-N)",
  "b": "Williams AV",
  "c": "Assistive Listening",
@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "WF R2-N",
  "d": "WAV Pro Wi-Fi Receiver for use with any WaveCAST enabled transmitter. Includes 6.8\" HD touchscreen interface, Lithium Ion rechargeable battery, protective case, screen protector. No USB cable or charging block.",
- "specs": []
+ "specs": [
+  {
+   "label": "Display",
+   "value": "6.8” Full HD+ Infinity Dot 1080 x 2460 Resolution | 396ppi"
+  },
+  {
+   "label": "Receiver Jack",
+   "value": "3.5mm (1/8”) stereo headphone jack"
+  },
+  {
+   "label": "Battery Life",
+   "value": "Lithium Polymer (Li-Po) 5000 mAh, non-removable"
+  },
+  {
+   "label": "USB Connection",
+   "value": "USB Type C for power and charging"
+  },
+  {
+   "label": "Dimensions",
+   "value": "3.02″ W x 0.35″ D x 6.64″ H (76.7 mm x 9 mm x 168.7 mm)"
+  },
+  {
+   "label": "Weight",
+   "value": "7.41 oz (210g) without case"
+  },
+  {
+   "label": "Approvals",
+   "value": "CE, FCC, WEEE, CB Scheme, UK CA, RoHS3, IC. RCM- Pending"
+  }
+ ],
+ "src": "https://williamsav.com/product/wav-pro-wifi-receiver-no-power-supply/",
+ "checked": "2026-10-19"
 }

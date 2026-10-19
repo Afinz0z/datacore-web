@@ -1,11 +1,42 @@
 {
  "sku": "GRP2602g",
- "order": 4499,
+ "order": 4484,
  "n": "IP Telephone",
  "b": "Grandstream",
  "c": "IP TELEPHONY",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP-Phone 2*Lines 4*SIP, Noise shield, 5*Ways Conferencing, Full duplex and HD Audio, 2*10/100/1000 Ether PoE",
- "specs": []
+ "specs": [
+  {
+   "label": "Display",
+   "value": "2.4 inch (132x48) backlit graphical LCD Display"
+  },
+  {
+   "label": "Lines",
+   "value": "2 Lines"
+  },
+  {
+   "label": "SIP Accounts",
+   "value": "4 SIP Accounts"
+  },
+  {
+   "label": "Audio Conferencing",
+   "value": "5-way audio conference"
+  },
+  {
+   "label": "Network Interfaces",
+   "value": "Dual switched auto-negotiation 10/100/1000 Mbps Ethernet ports, integrated PoE"
+  },
+  {
+   "label": "Device Management",
+   "value": "Yes, GDMS"
+  },
+  {
+   "label": "Custom Faceplates",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.grandstream.com/products/ip-voice-telephony-carrier-grade-ip-phones/grp-series-essential-ip-phones/product/grp2602-p-w-g",
+ "checked": "2026-10-19"
 }

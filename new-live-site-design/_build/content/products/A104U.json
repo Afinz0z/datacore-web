@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "A104U",
  "d": "10000 LUMENS LASER A104U + STD LENS",
- "specs": []
+ "specs": [
+  {
+   "label": "Projection technology",
+   "value": "3LCD Technology"
+  },
+  {
+   "label": "Native resolution",
+   "value": "1920 x 1200 (WUXGA)"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "3000000:1"
+  },
+  {
+   "label": "Brightness",
+   "value": "10000 Lm / 10500 Lm Center; compliant with ISO21118-2020"
+  },
+  {
+   "label": "Light source",
+   "value": "Laser Light Source"
+  },
+  {
+   "label": "Light source life [hrs]",
+   "value": "25000"
+  },
+  {
+   "label": "Lens",
+   "value": "5 motorized lens options"
+  },
+  {
+   "label": "Lens adjustment",
+   "value": "Motorized"
+  },
+  {
+   "label": "Lens shift",
+   "value": "H:±20, V:+10,-50"
+  },
+  {
+   "label": "Keystone correction",
+   "value": "+/- 40° manual horizontal / +/- 40° manual vertical"
+  },
+  {
+   "label": "Projection factor",
+   "value": "depending on lens selection (std. option XP-41ZL at 1.3-3.02:1)"
+  }
+ ],
+ "src": "https://www.sharpdisplays.eu/p/eeme/en/products/details/t/projectors/installation-projectors/rp/a104u.xhtml",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "U120:1-EU",
- "order": 958,
+ "order": 956,
  "n": "Power Amplifier",
  "b": "Dynacord",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Power amplifier 120W, 1 channel",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "1-channel"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "500 mV"
+  },
+  {
+   "label": "Total Output Power",
+   "value": "120 W"
+  },
+  {
+   "label": "Direct Drive (70V/100V)",
+   "value": "100 V / 70 V"
+  },
+  {
+   "label": "LF Impedance",
+   "value": "10 kΩ"
+  },
+  {
+   "label": "Connectivity",
+   "value": "3-pin Eurostyle"
+  },
+  {
+   "label": "IEC Protection Class",
+   "value": "Class I (grounded)"
+  },
+  {
+   "label": "Color",
+   "value": "RAL 9017 Traffic black"
+  },
+  {
+   "label": "Cooling",
+   "value": "Four-stage-fans (Off / Slow / Medium / Fast)"
+  },
+  {
+   "label": "Mounting Type",
+   "value": "Tabletop, rack, under-table, or wall mounting."
+  },
+  {
+   "label": "Rack Units",
+   "value": "1 RU"
+  },
+  {
+   "label": "Ambient Temperature",
+   "value": "-5°C — 45°C (23°F — 113°F)"
+  }
+ ],
+ "src": "https://www.dynacord.com/product/u120-1",
+ "checked": "2026-10-19"
 }

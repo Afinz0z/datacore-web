@@ -1,6 +1,6 @@
 {
  "sku": "IX15:4",
- "order": 955,
+ "order": 953,
  "n": "4-channel networked multichannel DSP amplifier, 1.5 kW",
  "b": "Dynacord",
  "c": "Amplifier",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Amplifier",
  "d": "4-channel networked multichannel DSP amplifier, 1.5 kW",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "4-channel"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz (±1 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "<0.1 %"
+  },
+  {
+   "label": "Crosstalk between channels (dBA)",
+   "value": "< -80 dB"
+  },
+  {
+   "label": "Total Output Power",
+   "value": "1500 W"
+  },
+  {
+   "label": "Bridged Output Power 4 Ω",
+   "value": "750 W"
+  },
+  {
+   "label": "Direct Drive (70V/100V)",
+   "value": "70 V/100 V"
+  },
+  {
+   "label": "Input Sensitivity",
+   "value": "+18 dBu"
+  },
+  {
+   "label": "Mains input",
+   "value": "1 x IEC C14"
+  },
+  {
+   "label": "Max output current/channel",
+   "value": "33 Apk"
+  },
+  {
+   "label": "Max. output Power/channel",
+   "value": "1000 W (8Ω)"
+  },
+  {
+   "label": "Max. output voltage/channel",
+   "value": "145 Vpk"
+  }
+ ],
+ "src": "https://www.dynacord.com/product/ix15-4",
+ "checked": "2026-10-19"
 }

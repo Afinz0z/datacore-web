@@ -1,6 +1,6 @@
 {
  "sku": "AC CHG 406-02",
- "order": 4154,
+ "order": 4145,
  "n": "6 slot charger for use with WAV Pro receiver (WF R2) (AC CHG 406-02)",
  "b": "Williams AV",
  "c": "Charger",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "AC CHG 406-02",
  "d": "AC CHG 406-02 6 slot charger for use with WAV Pro receiver (WF R2). Includes charging base with 6 USB A to USB C cables.",
- "specs": []
+ "specs": [
+  {
+   "label": "Color",
+   "value": "Black and clear plastic"
+  },
+  {
+   "label": "Power Input",
+   "value": "AC100-240V 50/60Hz 0.5A max"
+  },
+  {
+   "label": "Power Output",
+   "value": "DC 5.0V/10A (50W)"
+  },
+  {
+   "label": "Ai Output",
+   "value": "DC 5V/2.4A"
+  },
+  {
+   "label": "Indicators",
+   "value": "Individual Charging Indicators: Blue LEDs light up dividing clear panels"
+  },
+  {
+   "label": "Cable Length",
+   "value": "1.5m (4.9ft)"
+  },
+  {
+   "label": "Notes",
+   "value": "Accepts USB type A plugs, with a USB-C or with a micro-B plug that can connect to the device to be charged."
+  },
+  {
+   "label": "Dimensions",
+   "value": "7.2”L x 5.1”W x 1.1”H (18.2 cm x 12.9 cm x 2.7 cm)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.3 lbs (0.58 kg)"
+  },
+  {
+   "label": "Approvals",
+   "value": "CE, FCC, ETL and RoHs"
+  }
+ ],
+ "src": "https://williamsav.com/product/chg-406/",
+ "checked": "2026-10-19"
 }

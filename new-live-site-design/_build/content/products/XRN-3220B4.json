@@ -1,6 +1,6 @@
 {
  "sku": "XRN-3220B4",
- "order": 3259,
+ "order": 3252,
  "n": "32CH NVR with 12th gen",
  "b": "Hanwha Vision",
  "c": "Network Video Recorder (NVR)",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "32 CH NVR",
  "d": "32CH NVR with 12th gen. Intel® Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Network camera Inputs",
+   "value": "Max. 32CH"
+  },
+  {
+   "label": "Network camera Resolution",
+   "value": "32MP ~ CIF"
+  },
+  {
+   "label": "Network camera Protocols",
+   "value": "SUNAPI, ONVIF"
+  },
+  {
+   "label": "Decoding Local Display",
+   "value": "[Dual Display] HDMI 1: 3840 x 2160 (30Hz) HDMI 2: 1920x1080 (60Hz)"
+  },
+  {
+   "label": "Decoding Multi Screen Display",
+   "value": "[Local Monitor] - Dynamic layout, Virtual channel view - Clone Mode : Up to 32 Division - Expand Mode : HDMI1 up to 32 Div. HDMI2 up to 16 Div. [Web] 1/ 2H/ 2V/ 3V/ 4/ 6/ 8/ 9"
+  },
+  {
+   "label": "Decoding Resolution",
+   "value": "32M(15fps, H.265 Only), 12M(30fps, H.265 Only), 8.3M(4ch@30fps), 1080p(16ch@30fps), 720P(32ch@30fps), D1(48ch@30fps)"
+  },
+  {
+   "label": "Record Compression",
+   "value": "H.265, H.264, MJPEG"
+  },
+  {
+   "label": "Record Recording Bandwidth",
+   "value": "Distributed mode : Up to 520 Mbps Normal mode : Up to 300 Mbps [RAID mode] Normal : Up to 520 Mbps Degrade/ Rebuild : Up to 520 Mbps"
+  },
+  {
+   "label": "Record Resolution",
+   "value": "32MP ~ CIF"
+  },
+  {
+   "label": "Record Mode",
+   "value": "Normal, Dual Stream, Schedule(Continuous/Event), Event (Pre/Post), Bookmark"
+  },
+  {
+   "label": "Record Event Trigger",
+   "value": "Alarm Input, Video Loss, Camera Event(Sensor, MD, Video Analytics, Defocus, Audio), Dynamic Event, User Event"
+  },
+  {
+   "label": "Record Event Action",
+   "value": "e-Mail, Event Push, PTZ Preset, Alarm Out, Buzzer, Monitor Out, FTP, SUNAPI Command, Shutdown"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/mea/products/product-details/XRN-3220B4",
+ "checked": "2026-10-19"
 }

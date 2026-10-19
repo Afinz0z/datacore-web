@@ -1,11 +1,62 @@
 {
  "sku": "Z-LT-84",
- "order": 1737,
+ "order": 1735,
  "n": "ListenIR 2-Channel Transmitter",
  "b": "Listen Technologies",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "ListenIR 2-Channel Transmitter/Radiator Combo",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz - 20 kHz (+/- 1 dB) Line Input, 63 Hz - 15 kHz (+/- 3 dB) System Specification (wireless end-to-end with LR-4200)"
+  },
+  {
+   "label": "Signal-to-Noise Ratio",
+   "value": "> 70 dB (SNR) Line Input, > 60 dB (SNR) System Specification (wireless end-to-end with LR-4200)"
+  },
+  {
+   "label": "Microphone Input",
+   "value": "Two (2) 3.5 mm (0.14 in.) Tip/Sleeve connector, -30 dBu nominal input, +14 dB headroom, impedance 4.4k Ohms, 5 VDC bias supply"
+  },
+  {
+   "label": "Total Harmonic Distortion",
+   "value": "< 0.1% (THD) Line Input, < 2% (THD) System Specification (wireless end-to-end with LR-4200)"
+  },
+  {
+   "label": "Unbalanced Line Input",
+   "value": "Stereo/Mono Input. Two (2) Dual (RCA) Phono connectors, unbalanced, -10 dBu nominal input, +14 dB headroom, impedance 10k Ohms"
+  },
+  {
+   "label": "Balanced Line Input",
+   "value": "Mono Input. Two (2) Phoenix Type connector, balanced, + 4 dBu nominal input, +14 dB headroom, impedance 100k Ohms"
+  },
+  {
+   "label": "Power Switch",
+   "value": "Three (3) position switch - Power OFF, Power ON-Indicator Lights OFF, Power ON-Indicator Lights ON"
+  },
+  {
+   "label": "Carrier Frequency Selection",
+   "value": "Two (2), four (4) position rotary switches (2.3 MHz, 2.8 MHz, 3.3 MHz, 3.8 MHz)"
+  },
+  {
+   "label": "Level Control Knob",
+   "value": "Two (2) audio taper rotary potentiometer, counter-clockwise decreases input mix level, clockwise increases input mix level"
+  },
+  {
+   "label": "Audio Level Indicators",
+   "value": "Two (2) Green LEDs, two (2) Red LEDs, Green LED indicates Audio presence and Red LED indicates peaks in the audio"
+  },
+  {
+   "label": "RJ-45 Amber LED",
+   "value": "Solid Amber indicates carrier is present and IR is being transmitted"
+  },
+  {
+   "label": "RJ-45 Green LED",
+   "value": "Solid Green indicates power is applied to unit, flashing indicates unit has entered power save mode"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/lt-84-01/",
+ "checked": "2026-10-19"
 }

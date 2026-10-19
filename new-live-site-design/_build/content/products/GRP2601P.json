@@ -1,11 +1,42 @@
 {
  "sku": "GRP2601P",
- "order": 4495,
+ "order": 4480,
  "n": "Basic IP Phone",
  "b": "Grandstream",
  "c": "IP TELEPHONY",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "GRANDSTREAM Basic Grand stream IP Phone",
- "specs": []
+ "specs": [
+  {
+   "label": "Display",
+   "value": "2.4 inch (132x48) LCD Display"
+  },
+  {
+   "label": "Lines",
+   "value": "2 Lines"
+  },
+  {
+   "label": "SIP Accounts",
+   "value": "2 SIP Accounts"
+  },
+  {
+   "label": "Audio Conferencing",
+   "value": "5-way audio conference"
+  },
+  {
+   "label": "Network Interfaces",
+   "value": "Dual switched auto-negotiation 10/100 Mbps Ethernet ports, integrated PoE"
+  },
+  {
+   "label": "Device Management",
+   "value": "Yes, GDMS"
+  },
+  {
+   "label": "Custom Faceplates",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.grandstream.com/products/ip-voice-telephony-carrier-grade-ip-phones/grp-series-essential-ip-phones/product/grp2601p/w",
+ "checked": "2026-10-19"
 }

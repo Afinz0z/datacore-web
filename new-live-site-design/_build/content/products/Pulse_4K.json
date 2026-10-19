@@ -1,6 +1,6 @@
 {
  "sku": "Pulse 4K",
- "order": 2046,
+ "order": 2044,
  "n": "4K60 multi-layer video mixer and seamless presentation switcher (Pulse 4K)",
  "b": "Analog Way",
  "c": "Video Mixer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Pulse 4K",
  "d": "4K60 multi-layer video mixer and seamless presentation switcher, with ten inputs, two PGM outputs and one dedicated Multiviewer",
- "specs": []
+ "specs": [
+  {
+   "label": "Seamless inputs",
+   "value": "10 (8x 4K60 and 2x 2K60)"
+  },
+  {
+   "label": "HDMI 2.0 inputs",
+   "value": "4x, up to 4K60 8-bit 4:4:4 or 4K60 12-bit 4:2:2"
+  },
+  {
+   "label": "DisplayPort 1.2 inputs",
+   "value": "2x, up to 4K60 10-bit 4:4:4 or 4K60 12-bit 4:2:2"
+  },
+  {
+   "label": "12G-SDI inputs",
+   "value": "2x 12G/6G/3G-SDI (level A & B), up to 4K60 10-bit 4:2:2"
+  },
+  {
+   "label": "HDMI 1.4 or 3G-SDI inputs",
+   "value": "2x (user selectable input plug), up to 2K60"
+  },
+  {
+   "label": "Outputs",
+   "value": "2x HDMI 2.0 connectors + 2x mirrored 12G/6G/3G-SDI connectors, up to 4K60"
+  },
+  {
+   "label": "Output modes",
+   "value": "Matrix (2 independent PGM) or Switcher (1 PGM + 1 AUX)"
+  },
+  {
+   "label": "Multiviewer output",
+   "value": "1x HDMI 1.4 + 1x mirrored 3G-SDI, up to 2560x1600@60"
+  },
+  {
+   "label": "Livestreaming",
+   "value": "RTMP, up to 1080p30, H.264 video and AAC audio"
+  },
+  {
+   "label": "Processing latency",
+   "value": "16msec @60Hz"
+  },
+  {
+   "label": "Color spaces",
+   "value": "BT.601; BT.709; BT.2020"
+  },
+  {
+   "label": "HDR",
+   "value": "HDR10 and HLG, built-in SDR/HDR converters"
+  }
+ ],
+ "src": "https://www.analogway.com/products/pulse-4k",
+ "checked": "2026-10-19"
 }

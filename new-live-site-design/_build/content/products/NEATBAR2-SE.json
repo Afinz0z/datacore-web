@@ -1,11 +1,62 @@
 {
  "sku": "NEATBAR2-SE",
- "order": 462,
+ "order": 461,
  "n": "All-in-one video bar",
  "b": "Neat",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "All-in-one video device for Zoom/Teams/BYOD. Supports small to medium rooms up to 10 people within 15ft/5m.*Requires NEATPAD-SE, **VESA Display Mount sold separately",
- "specs": []
+ "specs": [
+  {
+   "label": "Camera",
+   "value": "Wide camera: 50 MP, ƒ/2.8 aperture, 113° horizontal field of view"
+  },
+  {
+   "label": "Zoom",
+   "value": "4x digital zoom"
+  },
+  {
+   "label": "Lens",
+   "value": "Fixed lens, infinite focus"
+  },
+  {
+   "label": "People video resolution",
+   "value": "Up to 1080p / 30"
+  },
+  {
+   "label": "Content video resolution",
+   "value": "Up to 720p / 60, 1080p / 60 or 4k / 30"
+  },
+  {
+   "label": "Microphones",
+   "value": "5 microphones angled in an end-fire array; 4 tracking and sensor mics"
+  },
+  {
+   "label": "Audio processing",
+   "value": "Echo cancellation, noise suppression, automatic gain control, dereverberation"
+  },
+  {
+   "label": "Sensors",
+   "value": "Orientation sensor (accelerometer), ambient light sensor"
+  },
+  {
+   "label": "Platforms",
+   "value": "Native support for Zoom Rooms and Microsoft Teams Rooms on Android"
+  },
+  {
+   "label": "Ports",
+   "value": "Ethernet; USB-C for USB mode (BYOD), supporting dp.alt mode; 2 × HDMI-out; HDMI-in for screen sharing; AC power"
+  },
+  {
+   "label": "Wireless",
+   "value": "WiFi; Bluetooth for proximity join in Microsoft Teams"
+  },
+  {
+   "label": "Network standby",
+   "value": "<8W (after 20 minutes)"
+  }
+ ],
+ "src": "https://neat.no/bar-2/",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,34 @@
 {
  "sku": "HAT5320-24T",
- "order": 4412,
+ "order": 4397,
  "n": "3.5-inch SATA Hard Disk Drive,24 TB",
  "b": "Synology",
  "c": "HARD DISK",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24 TB Enterprise Series 3.5-inch SATA HDD",
- "specs": []
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "24 TB"
+  },
+  {
+   "label": "Form Factor",
+   "value": "3.5\""
+  },
+  {
+   "label": "Interface",
+   "value": "SATA 6 Gb/s"
+  },
+  {
+   "label": "Rotational Speed",
+   "value": "7,200 rpm"
+  },
+  {
+   "label": "Power Consumption active Idle (Typ.)",
+   "value": "4.35 W"
+  }
+ ],
+ "src": "https://www.synology.com/en-global/products/drives/hdd/enterprise-hat",
+ "checked": "2026-10-19"
 }

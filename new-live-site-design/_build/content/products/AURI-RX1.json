@@ -1,6 +1,6 @@
 {
  "sku": "AURI-RX1",
- "order": 1263,
+ "order": 1261,
  "n": "Auri Receiver (AURI-RX1)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AURI-RX1",
  "d": "Auri Receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "2x 3.5mm TRRS connections for wired headphones or inductive neck loops, supports TRS or TRRS headphones"
+  },
+  {
+   "label": "Nominal Output Level",
+   "value": "0 dBu, 16mW maximum"
+  },
+  {
+   "label": "Impedance",
+   "value": "32Ω"
+  },
+  {
+   "label": "Frequency Response +/- 3 dB (system)",
+   "value": "16 kHz sample rate: 50 Hz – 7.5 kHz, 24 kHz sample rate: 50 Hz – 11.0 kHz, 48 kHz sample rate: 50 Hz – 19.5 kHz"
+  },
+  {
+   "label": "THD+N (system)",
+   "value": "< 0.5% Total Harmonic Distortion (at nominal level)"
+  },
+  {
+   "label": "Signal to Noise Ratio (system)",
+   "value": "> 60 dB (at nominal level)"
+  },
+  {
+   "label": "Latency (system)",
+   "value": "Auri RX1 - 29 ms to 45 ms dependent on sample rate and mono/stereo"
+  },
+  {
+   "label": "Bluetooth version",
+   "value": "5.3"
+  },
+  {
+   "label": "Encryption",
+   "value": "AES128-CCM encryption, with 4-16 character password"
+  },
+  {
+   "label": "Color",
+   "value": "Black, Chrome Volume Buttons"
+  },
+  {
+   "label": "Belt Clip",
+   "value": "Removable"
+  },
+  {
+   "label": "Battery Door",
+   "value": "Removable for battery replacement"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/auri-receiver/",
+ "checked": "2026-10-19"
 }

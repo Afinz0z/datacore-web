@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PeopleLink's 86\" Automatic Data Processing Interactive Unit, 4K UHD Interactive Panel with Built-In Android OS, 8GB+128GB Configuration and recognizes up to 20 Unique Points of touch",
- "specs": []
+ "specs": [
+  {
+   "label": "Size",
+   "value": "86 inch"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K: 3840×2160"
+  },
+  {
+   "label": "Frequency",
+   "value": "60Hz"
+  },
+  {
+   "label": "Display Colors",
+   "value": "1.07B (10 bit)"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "178°(H/V)"
+  },
+  {
+   "label": "Brightness",
+   "value": "Up to 450 Nits"
+  },
+  {
+   "label": "Input Mode",
+   "value": "Finger, Pen"
+  },
+  {
+   "label": "Speakers",
+   "value": "2x20W Speakers"
+  },
+  {
+   "label": "Touch Points",
+   "value": "20 points touch"
+  },
+  {
+   "label": "Response time",
+   "value": "≤5ms"
+  },
+  {
+   "label": "OS",
+   "value": "Built-in Android 14.0"
+  },
+  {
+   "label": "OPS",
+   "value": "Optional"
+  }
+ ],
+ "src": "https://www.peoplelinkvc.com/products/interactive-devices/peoplelink-interactive-display-r-series/",
+ "checked": "2026-10-19"
 }

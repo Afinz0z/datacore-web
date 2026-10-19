@@ -1,11 +1,62 @@
 {
  "sku": "IXP-4",
- "order": 839,
+ "order": 838,
  "n": "Speaker - IXP-4",
  "b": "Lynx Pro",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Ceiling mounted Speaker Type 1 (CS1) : Professional coaxial two-way, full range, 4-inch ceiling mount loudspeaker system.",
- "specs": []
+ "specs": [
+  {
+   "label": "Components",
+   "value": "4” 100mm polypropylene cone"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "90 – 20.000 Hz"
+  },
+  {
+   "label": "Rated Power",
+   "value": "30W (8 Ω) 120W Peak"
+  },
+  {
+   "label": "Transformer Taps",
+   "value": "100V 30 / 15 / 7.5 / 3.75W 70V 30 / 15 / 7.5 / 3.75 / 1.9W Low Impedance 8Ω"
+  },
+  {
+   "label": "Max SPL",
+   "value": "8Ω 102dB 100V / 70V 102dB"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB 1W / 1m @ Zn average 400 Hz to 8KHz"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Nominal Coverage",
+   "value": "100º Conical Dispersion"
+  },
+  {
+   "label": "Recommended Signal processing",
+   "value": "100 Hz, at 24 dB per octave high pass filter"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "5500 Hz 12dB/octave HP/LP filter"
+  },
+  {
+   "label": "Input connection",
+   "value": "4 poles Euroblock connector with loop-through"
+  },
+  {
+   "label": "Grille",
+   "value": "Powder coated steel, white finish, paintable"
+  }
+ ],
+ "src": "https://www.lynxproaudio.com/product/ixp-4/",
+ "checked": "2026-10-19"
 }

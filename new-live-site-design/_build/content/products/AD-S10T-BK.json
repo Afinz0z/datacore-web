@@ -1,11 +1,62 @@
 {
  "sku": "AD-S10T-BK",
- "order": 862,
+ "order": 860,
  "n": "Two-way surface speaker AD-S10T-BK",
  "b": "QSC",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "10\" Two-way surface speaker, 70/100V transformer with 8Ω bypass, 90° conical DMT™ coverage, includes X-Mount™ and weather input cup. Color - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Effective frequency range",
+   "value": "50 Hz - 19 kHz"
+  },
+  {
+   "label": "Rated noise power / voltage",
+   "value": "250 watts / 45 volts (rms)"
+  },
+  {
+   "label": "Broadband sensitivity",
+   "value": "92 dB SPL"
+  },
+  {
+   "label": "Coverage angle (-6 dB)",
+   "value": "90° conical DMT™"
+  },
+  {
+   "label": "Directivity factor (Q)",
+   "value": "10"
+  },
+  {
+   "label": "Directivity Index",
+   "value": "10 dB"
+  },
+  {
+   "label": "Maximum continuous SPL",
+   "value": "116 dB"
+  },
+  {
+   "label": "Maximum peak SPL",
+   "value": "122 dB"
+  },
+  {
+   "label": "Rated impedance",
+   "value": "8 ohms"
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 100, 50, 25, 12.5 W and 8Ω bypass 100V: 100, 50, 25 W and 8Ω bypass"
+  },
+  {
+   "label": "HF transducer",
+   "value": "1-inch exit / 1.4-inch voice coil compression driver"
+  },
+  {
+   "label": "LF transducer",
+   "value": "10-inch weather resistant paper cone woofer 2.5-inch / 64 mm voice coil"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/loudspeakers/installed/passive/surface-mount/acousticdesign-series/ad-s10t/",
+ "checked": "2026-10-19"
 }

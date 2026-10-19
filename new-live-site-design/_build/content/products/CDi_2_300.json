@@ -1,11 +1,54 @@
 {
  "sku": "CDi 2|300",
- "order": 941,
+ "order": 939,
  "n": "Crown 2-channel 300W per output channel",
  "b": "Crown",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "Analog input, 2 channel, 300W per output channel",
- "specs": []
+ "specs": [
+  {
+   "label": "BLU link",
+   "value": "No"
+  },
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Sensitivity (for full rated power at 8 ohms)",
+   "value": "0.7V RMS"
+  },
+  {
+   "label": "Rated Power Output (per channel @ 4 ohms)",
+   "value": "300W"
+  },
+  {
+   "label": "THD (full rated power, 20 Hz - 20 kHz)",
+   "value": "0.35%"
+  },
+  {
+   "label": "Damping Factor (20 Hz to 100 Hz)",
+   "value": "> 1000"
+  },
+  {
+   "label": "Frequency Response (8Ω, 20 Hz - 20 kHz)",
+   "value": "+/-0.5dB"
+  },
+  {
+   "label": "Crosstalk (below rated power) 20 Hz to 1 kHz",
+   "value": "> 80dB"
+  },
+  {
+   "label": "Weight",
+   "value": "14.56 lbs (6.6 kg)"
+  },
+  {
+   "label": "Power Supply Connector",
+   "value": "Standard IEC type 320 inlet for detachable connector 100 – 240V~"
+  }
+ ],
+ "src": "https://www.crownaudio.com/en/products/cdi-2-300",
+ "checked": "2026-10-19"
 }

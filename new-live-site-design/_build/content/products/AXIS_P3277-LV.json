@@ -1,17 +1,68 @@
 {
  "sku": "AXIS P3277-LV",
- "order": 3102,
+ "order": 3097,
  "n": "Axis Indoor 5 MP Dome Camera",
  "b": "Axis",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Camera Type- Indoor Dome Camera Res- 5MP FPS - IUp to 25/30 fps Lens- Varifocal",
- "specs": [],
+ "specs": [
+  {
+   "label": "Image sensor",
+   "value": "CMOS"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "Lightfinder",
+   "value": "Lightfinder 2.0"
+  },
+  {
+   "label": "Wide dynamic range",
+   "value": "Forensic WDR"
+  },
+  {
+   "label": "Min illumination/ light sensitivity (Color)",
+   "value": "0.10 lux"
+  },
+  {
+   "label": "Min illumination/ light sensitivity (B/W)",
+   "value": "0 lux"
+  },
+  {
+   "label": "Max video resolution",
+   "value": "2592x1944"
+  },
+  {
+   "label": "Max frames per second",
+   "value": "25/30"
+  },
+  {
+   "label": "Day and Night functionality",
+   "value": "Yes"
+  },
+  {
+   "label": "Focal length",
+   "value": "3.0 - 8.5 mm"
+  },
+  {
+   "label": "Horizontal field of view",
+   "value": "104-34 °"
+  },
+  {
+   "label": "Vertical field of view",
+   "value": "76-26 °"
+  }
+ ],
  "acc": [
   "AXIS LICENSE PLATE VERIFIER 1P E-LI",
   "AXIS STEEL STRAPS TX30",
   "AXIS T91B47",
   "Axis TQ5001-E"
- ]
+ ],
+ "src": "https://www.axis.com/products/axis-p3277-lv",
+ "checked": "2026-10-19"
 }

@@ -1,15 +1,66 @@
 {
  "sku": "WIR RX22-4N",
- "order": 1271,
+ "order": 1269,
  "n": "Infrared Receiver",
  "b": "Williams AV",
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
  "d": "Four-Channel Infrared Receiver",
- "specs": [],
+ "specs": [
+  {
+   "label": "Receiver Style",
+   "value": "Body-Pack, dual-lens detector, lanyard"
+  },
+  {
+   "label": "Size",
+   "value": "4.1″ L x 2.85″ W x 1.2″ H (104.1 mm x 72.4 mm x 30.4 mm)"
+  },
+  {
+   "label": "Lanyard",
+   "value": "3 ft (0.91 m), allows receiver to be worn around the neck"
+  },
+  {
+   "label": "Battery Type",
+   "value": "2 x AA, alkaline (BAT 001-2) or NiMH (BAT 026-2)"
+  },
+  {
+   "label": "Battery Life",
+   "value": "Alkaline: 60 hours, NiMH: 30 hours/charge"
+  },
+  {
+   "label": "Battery Drain",
+   "value": "25 mA, nominal"
+  },
+  {
+   "label": "Charging Contacts",
+   "value": "For use only with CHG 3512"
+  },
+  {
+   "label": "Carrier Frequency",
+   "value": "Channel 1: 2.3 MHz, Channel 2: 2.8 MHz Channel 3: 3.3 MHz, Channel 4: 3.8 MHz"
+  },
+  {
+   "label": "De-Emphasis",
+   "value": "50 uS"
+  },
+  {
+   "label": "FM Deviation",
+   "value": "±50 kHz"
+  },
+  {
+   "label": "Signal-to-Noise Ratio",
+   "value": "60 dB min."
+  },
+  {
+   "label": "Squelch",
+   "value": "Receiver squelches (mutes) at 28 dB S/N ratio"
+  }
+ ],
  "acc": [
   "BAT 026-2",
   "CHG 3502-03"
- ]
+ ],
+ "src": "https://williamsav.com/product/wir-rx22-4n/",
+ "checked": "2026-10-19"
 }

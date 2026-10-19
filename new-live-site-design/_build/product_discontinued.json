@@ -842,6 +842,28 @@
   "checked": "2026-10-18",
   "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
  },
+ "AXIS P1467-LE": {
+  "brand": "Axis",
+  "name": "AXIS 5 MP Bullet Camera",
+  "page": "https://www.axis.com/products/axis-p1467-le/support",
+  "checked": "2026-10-19",
+  "evidence": "We have replaced this product with: AXIS P1487-LE; page links \"Product Discontinuation Statement fo P146x-LE\"",
+  "replacement": "AXIS P1487-LE"
+ },
+ "CAB-5 Series": {
+  "brand": "Notifier",
+  "name": "Backbox and Door for N16x Modular System (SBB-5 or equivalent CAB-5 (CAB-5 Series)",
+  "page": "https://buildings.honeywell.com/us/en/products/by-category/fire-life-safety/control-panels/accessories-and-parts/housings-and-hardware/inspire-n16x-cab-5-series-cabinets",
+  "checked": "2026-10-19",
+  "evidence": "status badge \"Discontinued\" and \"This product has been discontinued.\" on the us/en page"
+ },
+ "DEM-431XT-DD": {
+  "brand": "D-Link",
+  "name": "Transceiver",
+  "page": "https://www.dlink.com/middle-east/en/products/dem-431xt-dd",
+  "checked": "2026-10-19",
+  "evidence": "Product Status (Revision A): End of Sale"
+ },
  "DH-IPC-HDBW5842E-ZE": {
   "brand": "Dahua",
   "name": "8MP IR Vari-focal Vandal-proof Dome WizMind Network Camera Dahua",
@@ -898,6 +920,13 @@
   "checked": "2026-10-19",
   "evidence": "dahuasecurity.com search result for IVS-GS8000-GU2-HW carries the \"Discontinued\" tag"
  },
+ "DN-500BD": {
+  "brand": "Denon",
+  "name": "Blu-Ray, DVD and CD Player",
+  "page": "https://www.denonpro.com/products/dn-500bd",
+  "checked": "2026-10-19",
+  "evidence": "(Discontinued Product)"
+ },
  "DS-2CD2543G0-IS": {
   "brand": "Hikvision",
   "name": "4MP EXIR Mini Dome Network Camera Lens with Audio",
@@ -926,6 +955,20 @@
   "checked": "2026-10-19",
   "evidence": "DS-D5024F2-2V2 Discontinued"
  },
+ "E112": {
+  "brand": "QSC",
+  "name": "Two-way loudspeaker using a 12-inch die cast aluminum woofer with a (E112)",
+  "page": "https://www.qscaudio.com/solutions-products/discontinued-products/loudspeakers/",
+  "checked": "2026-10-19",
+  "evidence": "Listed on QSC Audio \"Discontinued Products > Loudspeakers\" page, E series: \"E112 ... Limited Service\" (End of Life Date / Service Status)"
+ },
+ "FSP-951T": {
+  "brand": "Notifier",
+  "name": "White iIntelligent optical smoke detector (FSP-951T)",
+  "page": "https://buildings.honeywell.com/us/en/products/by-category/fire-life-safety/sensors-and-detectors/intelligent-detectors/smoke-detectors/fsp-951-series-photoelectric-thermal-smoke-detector",
+  "checked": "2026-10-19",
+  "evidence": "status badge \"Discontinued\" and \"This product has been discontinued.\" on the us/en page"
+ },
  "N10G.CONSS": {
   "brand": "Nexans",
   "name": "Nexans Module",
@@ -939,6 +982,38 @@
   "page": "https://www.aginode.net/products/data-network-solutions/copper-lan-systems/connectors/lanmark-6a-snap-connector/lanmark-6a-evo-snap-connector-category-6a-500mhz-screened-discontinued",
   "checked": "2026-10-18",
   "evidence": "LANmark-6A Evo Snap-In Connector Category 6A 500MHz Screened - DISCONTINUED"
+ },
+ "P1468-LE": {
+  "brand": "Axis",
+  "name": "Bullet Camera-4K -Axis",
+  "page": "https://www.axis.com/products/axis-p1468-le/support",
+  "checked": "2026-10-19",
+  "evidence": "We have replaced this product with: AXIS P1488-LE; page links \"Product Discontinuation Statement fo P146x-LE\"",
+  "replacement": "AXIS P1488-LE"
+ },
+ "P20B40M": {
+  "brand": "Panduit",
+  "name": "BASIC PDU,32 AMP",
+  "page": "https://www.panduit.com/en/products/power-distribution-environmental-connectivity-hardware/rack-pdus/rack-pdus/p300208.html#pn=P20B40M",
+  "checked": "2026-10-19",
+  "evidence": "Discontinued - Limited Stock (part status \"USE UP\" on panduit.com)",
+  "replacement": "E20B40M"
+ },
+ "P30B06M": {
+  "brand": "Panduit",
+  "name": "Basic PDU-32A,230V",
+  "page": "https://www.panduit.com/en/products/power-distribution-environmental-connectivity-hardware/rack-pdus/rack-pdus/p300208.html#pn=P30B06M",
+  "checked": "2026-10-19",
+  "evidence": "Discontinued - Limited Stock (part status \"USE UP\" on panduit.com)",
+  "replacement": "E30B06M"
+ },
+ "P3268-LV": {
+  "brand": "Axis",
+  "name": "Indoor 8 MP dome-Axis",
+  "page": "https://www.axis.com/products/axis-p3268-lv/support",
+  "checked": "2026-10-19",
+  "evidence": "We have replaced this product with: AXIS P3278-LV, AXIS P3288-LV; page links \"Product Discontinuation Statement for AXIS P326x\"",
+  "replacement": "AXIS P3278-LV, AXIS P3288-LV"
  },
  "PGA48": {
   "brand": "Shure",
@@ -960,5 +1035,41 @@
   "page": "https://boseprofessional.com/resources/discontinued-products/amplifiers/powermatch",
   "checked": "2026-10-18",
   "evidence": "Discontinued Products > Amplifiers > PowerMatch: \"PowerMatch PM8250N configurable power amplifier\""
+ },
+ "PMB-AUX": {
+  "brand": "Notifier",
+  "name": "Auxiliary Power Supply, 6 Amps, Universal AC input (CAB-5 chassis (PMB-AUX)",
+  "page": "https://buildings.honeywell.com/us/en/products/by-category/fire-life-safety/power-supplies/power-supplies/inspire-n16x-power-supply",
+  "checked": "2026-10-19",
+  "evidence": "status badge \"Discontinued\" and \"This product has been discontinued.\" on the us/en page"
+ },
+ "RS4021xs+": {
+  "brand": "Synology",
+  "name": "NAS/SAN storage system 16-bay rackmount - Synology",
+  "page": "https://www.synology.com/en-global/products/status",
+  "checked": "2026-10-19",
+  "evidence": "Product Availability: \"Phase Out\" (Synology Product Support Status, RackStation RS4021xs+); synology.com/en-global/products/RS4021xs+ now redirects to the Download Center"
+ },
+ "SLM-318": {
+  "brand": "Notifier",
+  "name": "Signaling Line Module (adds 1 SLC loop up to 318 addressable points) (SLM-318)",
+  "page": "https://buildings.honeywell.com/us/en/products/by-category/fire-life-safety/control-panels/accessories-and-parts/loop-expander-cards/inspire-n16-loop-module",
+  "checked": "2026-10-19",
+  "evidence": "status badge \"Discontinued\" and \"This product has been discontinued.\" on the us/en page"
+ },
+ "TL-SG2428P": {
+  "brand": "TP-Link",
+  "name": "24 Port Switch",
+  "page": "https://www.omadanetworks.com/en/business-networking/omada-switch-access/tl-sg2428p/",
+  "checked": "2026-10-19",
+  "evidence": "End of Sale",
+  "replacement": "SG2428P"
+ },
+ "ZT-CP3/AD": {
+  "brand": "Zeta",
+  "name": "manual call point",
+  "page": "https://www.zetaalarmsystems.com/product/zeta-addressable-cp3-manual-call-pointcpd/",
+  "checked": "2026-10-19",
+  "evidence": "page breadcrumb: \"home / Obsolete Products ZT-CP3/AD Range\""
  }
 }

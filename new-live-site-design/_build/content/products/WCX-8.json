@@ -1,14 +1,65 @@
 {
  "sku": "WCX-8",
- "order": 841,
+ "order": 840,
  "n": "Speaker - WCX-8",
  "b": "Lynx Pro",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "Canopy mounted outdoor speaker (MS1) :8” coaxial speaker offering a coverage of 70º conical dispersion and 126 dB SPL",
- "specs": [],
+ "specs": [
+  {
+   "label": "Components",
+   "value": "1 x 8″ coaxial speaker with LF 2.5″ and HF 1.75″ voice coil"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "70 Hz – 17 KHz (-10dB)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "100 Hz – 18 KHz (± 3dB)"
+  },
+  {
+   "label": "Max SPL",
+   "value": "120 dB – 126 dB peak"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "95 dB (1w @ 1m)"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "70º conical dispersion"
+  },
+  {
+   "label": "Power",
+   "value": "300 W AES (600 W program, 1200 peak)"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Connectors",
+   "value": "In: Euroblock terminal Out: Cable gland"
+  },
+  {
+   "label": "Finish",
+   "value": "Polyurea coating (RAL 7038)"
+  },
+  {
+   "label": "Material",
+   "value": "15 mm premium birch plywood"
+  },
+  {
+   "label": "Dimensions",
+   "value": "265 x 265 x 265 mm (H x W x D)"
+  }
+ ],
  "acc": [
   "UBR-WCX8"
- ]
+ ],
+ "src": "https://www.lynxproaudio.com/product/wcx-8/",
+ "checked": "2026-10-19"
 }

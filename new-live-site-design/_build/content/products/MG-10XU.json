@@ -1,6 +1,6 @@
 {
  "sku": "MG-10XU",
- "order": 1311,
+ "order": 1309,
  "n": "10-Channel Mixing Console: Max (MG-10XU)",
  "b": "Yamaha",
  "c": "Audio Mixer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MG-10XU",
  "d": "10-Channel Mixing Console: Max. 4 Mic / 10 Line Inputs (4 mono + 3 stereo) / 1 Stereo Bus / 1 AUX",
- "specs": []
+ "specs": [
+  {
+   "label": "On-board processors",
+   "value": "SPX algorithm: 24 programs"
+  },
+  {
+   "label": "Phantom power",
+   "value": "+48 V"
+  },
+  {
+   "label": "I/O Digital I/O",
+   "value": "USB Audio Class 2.0 compliant, Sampling Frequency: Max 192 kHz, Bit Depth: 24-bit"
+  },
+  {
+   "label": "Input Channels Mono[MIC/LINE]",
+   "value": "4"
+  },
+  {
+   "label": "Input Channels Stereo[LINE]",
+   "value": "3"
+  },
+  {
+   "label": "Output Channels STEREO OUT",
+   "value": "2"
+  },
+  {
+   "label": "Output Channels MONITOR OUT",
+   "value": "1"
+  },
+  {
+   "label": "Output Channels PHONES",
+   "value": "1"
+  },
+  {
+   "label": "Output Channels AUX SEND",
+   "value": "1"
+  },
+  {
+   "label": "Bus",
+   "value": "Stereo: 1, AUX[FX]: 1"
+  },
+  {
+   "label": "Input Channel Function PAD",
+   "value": "26 dB (Mono)"
+  },
+  {
+   "label": "Input Channel Function HPF",
+   "value": "80 Hz, 12 dB/oct (Mono)"
+  }
+ ],
+ "src": "https://usa.yamaha.com/products/proaudio/mixers/mg_series_xu_model/specs.html",
+ "checked": "2026-10-19"
 }

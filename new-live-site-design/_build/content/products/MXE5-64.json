@@ -1,6 +1,6 @@
 {
  "sku": "MXE5-64",
- "order": 1144,
+ "order": 1142,
  "n": "Matrix Mix Engine (DSP)",
  "b": "Dynacord",
  "c": "DSP",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DSP",
  "d": "Matrix Mix Engine",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "12 mic/line inputs, 8 line outputs, 64x64 Dante"
+  },
+  {
+   "label": "Signal-to-Noise Ratio",
+   "value": "> 118 dB (analog in)"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.002%"
+  },
+  {
+   "label": "DSP",
+   "value": "Open architecture DSP"
+  },
+  {
+   "label": "DSP Sample Rate",
+   "value": "48/96 kHz"
+  },
+  {
+   "label": "Matrix Size / Channels",
+   "value": "configurable"
+  },
+  {
+   "label": "Sampling Rate, Network",
+   "value": "48/96 kHz"
+  },
+  {
+   "label": "Signal processing",
+   "value": "PEQ, FIR-Drive, dynamics (ducker, compressor, limiters, noise gate, AGC, ANC)mix matrix, delay, level, …"
+  },
+  {
+   "label": "Signal Processing Bit Depth",
+   "value": "32/40-bit floating point"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "Dante, AES70/OCA"
+  },
+  {
+   "label": "Analog Inputs",
+   "value": "12"
+  },
+  {
+   "label": "Analog Outputs",
+   "value": "8 line (electronically balanced)"
+  }
+ ],
+ "src": "https://www.dynacord.com/product/mxe5-64",
+ "checked": "2026-10-19"
 }

@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "BYH012V1",
  "d": "COB 1.2 PPModule Size: 150mm×168.75mm, W×HModule Resolution: 120×135 Pixels, W×HCabinet Size: 600 mm×337.5 mm, W×HCabinet Resolution: 480×270 Pixels, W×HTotal Screens Size: 7.8 m×2.025 m W×HTotal Screens Resolution: 6240×1620 Pixels, W×H Cabinet Qty.: 13×6 Pcs, W×HBrightness: 600 NitsMaintenance: Front",
- "specs": []
+ "specs": [
+  {
+   "label": "Pitch",
+   "value": "1.25"
+  },
+  {
+   "label": "Module size (mm)",
+   "value": "150*168.75"
+  },
+  {
+   "label": "Maintenance mode",
+   "value": "Front"
+  },
+  {
+   "label": "Cabinet flatness (mm)",
+   "value": "≤0.1"
+  },
+  {
+   "label": "White balance brightness (cd/m2)",
+   "value": "Typ 600, 0 - 800 Adjustable"
+  },
+  {
+   "label": "Refresh rate (Hz)",
+   "value": "3840"
+  },
+  {
+   "label": "Installation mode",
+   "value": "Stacking & Wall mounting"
+  },
+  {
+   "label": "Cabinet dimension (mm)",
+   "value": "600*337.5"
+  }
+ ],
+ "src": "https://www.boe.com/en/businessGroup/MLED_COB",
+ "checked": "2026-10-19"
 }

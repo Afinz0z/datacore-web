@@ -1,6 +1,6 @@
 {
  "sku": "CS100710",
- "order": 4371,
+ "order": 4357,
  "n": "QuickQ 10: 1 Universe Lighting Console with 9.7\" Touchscreen",
  "b": "Chamsys",
  "c": "Lighting Console",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Lighting Console",
  "d": "QuickQ 10: 1 Universe Lighting Console with 9.7\" Touchscreen, 20 Multi-Function Faders, 3 Multi-Cue Playback Faders and Built-In Wi-Fi for Remote Connection. (Includes: USB Desk Light and Dust Cover)",
- "specs": []
+ "specs": [
+  {
+   "label": "Direct DMX Outputs 5-Pin XLR",
+   "value": "1"
+  },
+  {
+   "label": "Master Playback Faders",
+   "value": "2 Chase, 1 Cue Stack"
+  },
+  {
+   "label": "Multi-Function Fixture Faders",
+   "value": "20"
+  },
+  {
+   "label": "Bump Buttons",
+   "value": "Yes"
+  },
+  {
+   "label": "Attribute Encoders",
+   "value": "0"
+  },
+  {
+   "label": "Dedicated Hue/Saturation Encoders",
+   "value": "Yes"
+  },
+  {
+   "label": "Inbuilt 9.7” Multi-touch Display",
+   "value": "Yes"
+  },
+  {
+   "label": "External Monitor",
+   "value": "1920 x 1080 HDMI"
+  },
+  {
+   "label": "Inbuilt Wi-Fi",
+   "value": "Yes"
+  },
+  {
+   "label": "Network Port",
+   "value": "1"
+  },
+  {
+   "label": "USB Ports",
+   "value": "2"
+  },
+  {
+   "label": "Audio Input",
+   "value": "1"
+  }
+ ],
+ "src": "https://chamsyslighting.com/product/quickq-10/",
+ "checked": "2026-10-19"
 }

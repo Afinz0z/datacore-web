@@ -1,11 +1,62 @@
 {
  "sku": "SFP3185-03",
- "order": 2954,
+ "order": 2950,
  "n": "10G Multimode SFP Module",
  "b": "EnGenius",
  "c": "SFP",
  "dept": "AV",
  "avail": "lead",
  "d": "10G Multi-Mode 300m - SR",
- "specs": []
+ "specs": [
+  {
+   "label": "Standard Compliance",
+   "value": "IEEE 802.3ae 10Gbase-SR"
+  },
+  {
+   "label": "Data Rate Gigabit",
+   "value": "10.3125G"
+  },
+  {
+   "label": "Media Type",
+   "value": "MMF"
+  },
+  {
+   "label": "Connector",
+   "value": "Duplex LC Connector"
+  },
+  {
+   "label": "Single / Bi-Directional",
+   "value": "Single Direction"
+  },
+  {
+   "label": "Average Optical Transmission Power",
+   "value": "-6.5 ~ -1 dBm"
+  },
+  {
+   "label": "Receiver Sensitivity",
+   "value": "-11.1 dBm"
+  },
+  {
+   "label": "Wavelength",
+   "value": "850nm VCSEL"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Multi-mode (50/125μm) or (62.5/125μm)"
+  },
+  {
+   "label": "Supply Voltage",
+   "value": "3.13V ~3.46V"
+  },
+  {
+   "label": "Max Voltage/Current",
+   "value": "3.46V/300mA"
+  },
+  {
+   "label": "Temperature",
+   "value": "0°C ~70°C"
+  }
+ ],
+ "src": "https://www.engeniustech.com/engenius-products/sfp-switch-10gig-transceiver-module/",
+ "checked": "2026-10-19"
 }

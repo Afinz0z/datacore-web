@@ -1,6 +1,6 @@
 {
  "sku": "AURI-TX2N",
- "order": 1259,
+ "order": 1257,
  "n": "2 Channel Transmitter (AURI-TX2N)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AURI-TX2N",
  "d": "2 Channel Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Selection",
+   "value": "2 x audio inputs individually selectable between mic, line or optional Dante modes"
+  },
+  {
+   "label": "Connection",
+   "value": "2x 3-way 3.5 mm pitch Euroblock"
+  },
+  {
+   "label": "Input impedance",
+   "value": "15kΩ"
+  },
+  {
+   "label": "THD+N",
+   "value": "0.03% at 0dBu (line mode) 0.02% at -25dBu (mic mode)"
+  },
+  {
+   "label": "Common Mode Rejection",
+   "value": "56dB"
+  },
+  {
+   "label": "Max level before clipping",
+   "value": "-25 dBu"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "-65 dBu"
+  },
+  {
+   "label": "Switchable phantom power",
+   "value": "+24 V"
+  },
+  {
+   "label": "Port Speed",
+   "value": "100 Mbit"
+  },
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Sample Rates",
+   "value": "48 kHz"
+  },
+  {
+   "label": "Nominal output level",
+   "value": "+1dBu"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/auri-tx2n-transmitter/",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "MK16 00i",
- "order": 4248,
+ "order": 4239,
  "n": "Hybrid headend 16 × DVB-S/T/C in DVB-C/T/IPTV",
  "b": "AXING",
  "c": "Distribution System",
  "dept": "AV",
  "avail": "lead",
  "d": "AXING 16 X DVB-S/S2/S2x/C/T to IP Streamer",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of tuners",
+   "value": "16 × DVB-S/S2/S2X/T/T2/C"
+  },
+  {
+   "label": "Inputs connector",
+   "value": "16 × F-female"
+  },
+  {
+   "label": "Inputs frequency range",
+   "value": "900 … 2150 MHz @ DVB-S/S2/S2X; 50 … 898 MHz @ DVB-C; 50 … 898 MHz @ DVB-T/T2"
+  },
+  {
+   "label": "Inputs channel bandwidth",
+   "value": "5/6/7/8 MHz @ DVB-T/T2"
+  },
+  {
+   "label": "Input level",
+   "value": "43 … 84 dBµV @ DVB-S/S2/S2X; 49 … 84 dBµV @ DVB-C; 39 … 84 dBµV @DVB-T/T2"
+  },
+  {
+   "label": "LNB voltage",
+   "value": "13/17 V; 22 kHz on/off; DiSEqC 1.0"
+  },
+  {
+   "label": "Max. LNB current",
+   "value": "250 mA per input; 1000 mA per device"
+  },
+  {
+   "label": "Input modulation type",
+   "value": "QPSK/8PSK/8APSK/16APSK/32APSK @ DVB-S/S2/S2X; QAM16, QAM32, QAM64, QAM128, QAM256 @ DVB-C; QPSK, QAM16, QAM64 @ DVB-T; QPSK, QAM16, QAM64, QAM256 @ DVB-T2"
+  },
+  {
+   "label": "Input modulation symbol rate",
+   "value": "1.5 … 45 MS/s (< 40 MS/s in 32APSK) @ DVB-S/S2/S2X; 1 … 7.2 Mbaud @ DVB-C"
+  },
+  {
+   "label": "Number of channels",
+   "value": "16 × DVB-C/DVB-T"
+  },
+  {
+   "label": "Output frequency range",
+   "value": "109 … 1006 MHz @ DVB-C; 109 … 862 MHz @ DVB-T"
+  },
+  {
+   "label": "Output channel bandwidth",
+   "value": "7/8 MHz @ DVB-T"
+  }
+ ],
+ "src": "https://axing.com/en/produkt/mk01600i-en/",
+ "checked": "2026-10-19"
 }

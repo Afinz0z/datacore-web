@@ -1,11 +1,62 @@
 {
  "sku": "DS1525+",
- "order": 4472,
+ "order": 4457,
  "n": "5-Bays DiskStation NAS",
  "b": "Synology",
  "c": "NAS (Network attached storage)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Synology | 5-Bays DiskStation NAS, CPU AMD Ryzen, V1500B, 8GB DDR4 RAM",
- "specs": []
+ "specs": [
+  {
+   "label": "CPU Model",
+   "value": "AMD Ryzen V1500B"
+  },
+  {
+   "label": "CPU Cores",
+   "value": "4"
+  },
+  {
+   "label": "CPU Threads",
+   "value": "8"
+  },
+  {
+   "label": "CPU Architecture",
+   "value": "64-bit"
+  },
+  {
+   "label": "CPU Frequency",
+   "value": "2.2 GHz"
+  },
+  {
+   "label": "System Memory",
+   "value": "8 GB DDR4 ECC SODIMM"
+  },
+  {
+   "label": "Memory Module Pre-installed",
+   "value": "8 GB (8 GB × 1)"
+  },
+  {
+   "label": "Total Memory Slots",
+   "value": "2"
+  },
+  {
+   "label": "Maximum Memory Capacity",
+   "value": "32 GB (16 GB × 2)"
+  },
+  {
+   "label": "Drive Bays",
+   "value": "5 × 3.5\" SATA HDD or 2.5\" SATA SSD; 2 × M.2 2280 NVMe SSD"
+  },
+  {
+   "label": "Maximum Drive Bays with Expansion Unit",
+   "value": "15 (DX525 × 2)"
+  },
+  {
+   "label": "RJ-45 2.5GbE LAN Port",
+   "value": "2"
+  }
+ ],
+ "src": "https://www.synology.com/en-global/products/DS1525+",
+ "checked": "2026-10-19"
 }

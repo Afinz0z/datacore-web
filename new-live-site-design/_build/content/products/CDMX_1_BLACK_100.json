@@ -1,6 +1,6 @@
 {
  "sku": "CDMX 1 BLACK 100",
- "order": 2435,
+ "order": 2433,
  "n": "Light DMX Digital Control Cable 100 mtr (CDMX 1 BLACK 100)",
  "b": "Cordial",
  "c": "CONTROL CABLE",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CDMX 1 BLACK 100",
  "d": "Light DMX Digital Control Cable 100 mtr",
- "specs": []
+ "specs": [
+  {
+   "label": "Jacket",
+   "value": "PVC"
+  },
+  {
+   "label": "Conductor area",
+   "value": "0.22 mm²"
+  },
+  {
+   "label": "Composition of cores",
+   "value": "1 twisted pair"
+  },
+  {
+   "label": "AWG",
+   "value": "AWG 24"
+  },
+  {
+   "label": "Shielding",
+   "value": "Spiral wound tinned copper wire / AL fleece foil"
+  },
+  {
+   "label": "Composition of conductor",
+   "value": "7 x 0.20 mm"
+  },
+  {
+   "label": "Conductor isolation",
+   "value": "Polyolefin"
+  },
+  {
+   "label": "Conductor resistance",
+   "value": "95 Ω / km"
+  },
+  {
+   "label": "Capacity cond.-cond.",
+   "value": "42 pF/m"
+  },
+  {
+   "label": "Diameter",
+   "value": "4.5 mm"
+  },
+  {
+   "label": "Test voltage",
+   "value": "500 V eff."
+  },
+  {
+   "label": "Colour / length",
+   "value": "Black, 100 m (item no. 10426)"
+  }
+ ],
+ "src": "https://www.cordial-cables.com/en/products/cdmx-1",
+ "checked": "2026-10-19"
 }

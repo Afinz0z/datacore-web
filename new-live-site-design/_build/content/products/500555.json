@@ -1,6 +1,6 @@
 {
  "sku": "500555",
- "order": 1738,
+ "order": 1736,
  "n": "Bluetooth & Analog Audio to Dante Interface - 500555",
  "b": "Muxlab",
  "c": "Extenders",
@@ -9,8 +9,54 @@
  "d": "Bluetooth & Analog Audio to Dante Interface",
  "specs": [
   {
-   "label": "Type",
-   "value": "Transmitter"
+   "label": "Input interface",
+   "value": "Bluetooth 5.0, stereo; RCA × 2; 3.5mm TRS × 1"
+  },
+  {
+   "label": "Output interface",
+   "value": "Bluetooth 5.0, stereo; 3.5mm TRS × 1"
+  },
+  {
+   "label": "Dante interface",
+   "value": "RJ45 interface, stereo input/output"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20Hz-20kHz"
+  },
+  {
+   "label": "S/N",
+   "value": ">100dB"
+  },
+  {
+   "label": "Floor noise",
+   "value": "-90dB"
+  },
+  {
+   "label": "THD",
+   "value": "<0.005%"
+  },
+  {
+   "label": "Form factor",
+   "value": "Dual Gang US"
+  },
+  {
+   "label": "PoE",
+   "value": "IEEE802.3af"
+  },
+  {
+   "label": "Power consumption",
+   "value": "2W"
+  },
+  {
+   "label": "Dimensions (LxWxH)",
+   "value": "123.5mm × 109.1mm × 30mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "310g"
   }
- ]
+ ],
+ "src": "https://muxlab.com/product/500555",
+ "checked": "2026-10-19"
 }

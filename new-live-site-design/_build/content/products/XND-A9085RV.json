@@ -1,11 +1,62 @@
 {
  "sku": "XND-A9085RV",
- "order": 3140,
+ "order": 3133,
  "n": "8MP Dome Camera X-Plus design",
  "b": "Hanwha Vision",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Powered by WN9, X-Plus design, Indoor Network AI IR Dome Camera, 8MP resolution",
- "specs": []
+ "specs": [
+  {
+   "label": "Imaging Device Size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "Imaging Device Type",
+   "value": "CMOS"
+  },
+  {
+   "label": "Resolution",
+   "value": "3840x2160, 3328x1872, 3072x1728, 2688x1512, 2592x1944, 2560x1440, 1920x1080, 1600x1200, 1280x960, 1280x720, 1024x768, 800x600, 640x480, 640x360, 320x240, 320x180"
+  },
+  {
+   "label": "Max. Framerate H.265/H.264",
+   "value": "30fps/25fps(60Hz/50Hz)"
+  },
+  {
+   "label": "Max. Framerate MJPEG",
+   "value": "30fps(@8MP Max. 5fps)"
+  },
+  {
+   "label": "Min. Illumination (Lux) Color(1/30sec, 30IRE)",
+   "value": "0.04"
+  },
+  {
+   "label": "Min. Illumination (Lux) BW(1/30sec, 30IRE)",
+   "value": "0.004"
+  },
+  {
+   "label": "Video Out",
+   "value": "USB: USB Type C. Preview and installation ONLY. Requires WiFi dongle."
+  },
+  {
+   "label": "Focal Length (mm)",
+   "value": "4.4~9.3"
+  },
+  {
+   "label": "Zoom Ratio Optical",
+   "value": "2.1x"
+  },
+  {
+   "label": "Max Aperture Ratio (F number) Wide",
+   "value": "1.3"
+  },
+  {
+   "label": "Max Aperture Ratio (F number) Tele",
+   "value": "2.15"
+  }
+ ],
+ "src": "https://www.hanwhavision.com/mea/products/product-details/XND-A9085RV",
+ "checked": "2026-10-19"
 }

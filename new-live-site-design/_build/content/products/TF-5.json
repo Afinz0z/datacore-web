@@ -1,6 +1,6 @@
 {
  "sku": "TF-5",
- "order": 1312,
+ "order": 1310,
  "n": "Digital Mixer (TF-5)",
  "b": "Yamaha",
  "c": "Audio Mixer",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "TF-5",
  "d": "Digital Mixer",
- "specs": [],
+ "specs": [
+  {
+   "label": "Fader Configuration",
+   "value": "32 + 1 (Master)"
+  },
+  {
+   "label": "Input Channels",
+   "value": "48 (40 mono + 2 stereo + 2 return)"
+  },
+  {
+   "label": "Mixing Capacity Aux Buses",
+   "value": "20 (8 mono + 6 stereo)"
+  },
+  {
+   "label": "Mixing Capacity Stereo Buses",
+   "value": "1"
+  },
+  {
+   "label": "Mixing Capacity Sub Buses",
+   "value": "1"
+  },
+  {
+   "label": "Input channel functions",
+   "value": "8 DCA Groups"
+  },
+  {
+   "label": "I/O Inputs",
+   "value": "32 mic/line (XLR/TRS combo) + 2 stereo line (RCA pin)"
+  },
+  {
+   "label": "I/O Outputs",
+   "value": "16 (XLR)"
+  },
+  {
+   "label": "Expansion slots",
+   "value": "1"
+  },
+  {
+   "label": "On-board processors DSP",
+   "value": "8 Effects + 10 GEQ"
+  },
+  {
+   "label": "USB",
+   "value": "34x34 USB Audio Interface, 2-track recording via USB Storage Device"
+  },
+  {
+   "label": "Sampling frequency rate Internal",
+   "value": "48 kHz"
+  }
+ ],
  "acc": [
   "NY64-D"
- ]
+ ],
+ "src": "https://usa.yamaha.com/products/proaudio/mixers/tf/specs.html",
+ "checked": "2026-10-19"
 }

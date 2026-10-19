@@ -1,11 +1,62 @@
 {
  "sku": "SM311LM",
- "order": 2974,
+ "order": 2970,
  "n": "1G SFP Module",
  "b": "TP-Link",
  "c": "SFP",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Omada 1000-Base-SX MMF Mini GBIC Module",
- "specs": []
+ "specs": [
+  {
+   "label": "Standards and Protocols",
+   "value": "IEEE 802.3z, CSMA/CD, TCP/IP"
+  },
+  {
+   "label": "Wave Length",
+   "value": "850nm"
+  },
+  {
+   "label": "Safety & Emission",
+   "value": "FCC, CE"
+  },
+  {
+   "label": "Cable",
+   "value": "Multi-mode Fiber"
+  },
+  {
+   "label": "Fiber Type",
+   "value": "50/125μm or 62.5/125μm Multi-mode"
+  },
+  {
+   "label": "Max. Cable Length",
+   "value": "275m or 550m"
+  },
+  {
+   "label": "Data Rate",
+   "value": "1.25Gbps"
+  },
+  {
+   "label": "Port Type",
+   "value": "LC Duplex"
+  },
+  {
+   "label": "Hardware Features",
+   "value": "DDM; SFP-MSA; Hot Swappable"
+  },
+  {
+   "label": "Environment",
+   "value": "Operating Temperature: 0℃~70℃ (32℉~158℉); Storage Temperature: -40℃~80℃ (-40℉~176℉); Operating Humidity: 10%~90% non-condensing; Storage Humidity: 5%~90% non-condensing"
+  },
+  {
+   "label": "Dimensions ( W x D x H )",
+   "value": "2.1×0.5×0.5 in（55.4×13.7×12.9 mm）"
+  },
+  {
+   "label": "Power Supply",
+   "value": "4V"
+  }
+ ],
+ "src": "https://www.omadanetworks.com/en/business-networking/omada-accessory-module-cable/sm311lm/",
+ "checked": "2026-10-19"
 }

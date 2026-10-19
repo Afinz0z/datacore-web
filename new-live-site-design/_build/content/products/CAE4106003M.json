@@ -1,6 +1,6 @@
 {
  "sku": "CAE4106003M",
- "order": 3699,
+ "order": 3692,
  "n": "Cat6a 10GX copper patch cord",
  "b": "Belden",
  "c": "UTP Patch cord",
@@ -9,8 +9,54 @@
  "d": "high-performance Cat6a 10GX copper patch cord designed for horizontal and building cabling",
  "specs": [
   {
-   "label": "Type",
-   "value": "patchcord 3m"
+   "label": "Conductor AWG",
+   "value": "26"
+  },
+  {
+   "label": "Conductor stranding",
+   "value": "Stranded"
+  },
+  {
+   "label": "Nominal Diameter",
+   "value": "6.1 mm"
+  },
+  {
+   "label": "No. of Pairs",
+   "value": "4"
+  },
+  {
+   "label": "Total Number of Pairs",
+   "value": "4"
+  },
+  {
+   "label": "Inner Shield element",
+   "value": "Individual Shielded Pair"
+  },
+  {
+   "label": "Inner Shield type",
+   "value": "Tape"
+  },
+  {
+   "label": "Outer Shield type",
+   "value": "Braid"
+  },
+  {
+   "label": "Outer Jacket nominal diameter",
+   "value": "6.1 mm"
+  },
+  {
+   "label": "Wiring Scheme",
+   "value": "T568A/B-T568A/B"
+  },
+  {
+   "label": "Dielectric Strength",
+   "value": "2.5 kV DC"
+  },
+  {
+   "label": "Insulation Resistance",
+   "value": "5000 MOhmkm"
   }
- ]
+ ],
+ "src": "https://belden.com/products/patch-cords-cordsets-assemblies/copper-pre-term-assemblies/copper-patch-cords/10gx-s-ftp-lszh-patch-cords",
+ "checked": "2026-10-19"
 }

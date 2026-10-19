@@ -1,11 +1,62 @@
 {
  "sku": "ECS5512F",
- "order": 3052,
+ "order": 3048,
  "n": "Cloud-managed Layer 2+ aggregate switch",
  "b": "EnGenius",
  "c": "Fiber Switch",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "EnGenius Cloud Managed Layer 2+ Aggregate Switch with 12-Port 10G SFP+ uplink ports",
- "specs": []
+ "specs": [
+  {
+   "label": "Port Standards",
+   "value": "802.3 10Base-T Ethernet; 802.3u 100Base-TX Ethernet; 802.3ab 1000Base-T Ethernet; 802.3bz 2.5G Base-T Ethernet; 802.3x Full-Duplex Flow Control"
+  },
+  {
+   "label": "Network Ports",
+   "value": "12 SFP+ Ports"
+  },
+  {
+   "label": "Switching Capacity",
+   "value": "240Gbps"
+  },
+  {
+   "label": "Power Source",
+   "value": "100 ~ 240VAC, 50-60Hz"
+  },
+  {
+   "label": "LED Indicators",
+   "value": "Power LED; Fault LED"
+  },
+  {
+   "label": "Ports",
+   "value": "Link/Activity/Speed (per SFP slot)"
+  },
+  {
+   "label": "Multiple IP Interface",
+   "value": "20 IPv6 address"
+  },
+  {
+   "label": "ARP Table",
+   "value": "Max. 192 ARP entries"
+  },
+  {
+   "label": "IPv4 Static Route",
+   "value": "Max. 63 entries"
+  },
+  {
+   "label": "IPv6 Static Route",
+   "value": "Max. 21 entries"
+  },
+  {
+   "label": "Network Management",
+   "value": "EnGenius Cloud; Local Web GUI"
+  },
+  {
+   "label": "MAC Address Table",
+   "value": "16K"
+  }
+ ],
+ "src": "https://www.engeniustech.com/ecs5512f-cloud-managed-12-port-10-gigabit-sfp-half-rack-aggregate-fiber-switch.html",
+ "checked": "2026-10-19"
 }

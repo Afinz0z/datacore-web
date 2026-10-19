@@ -1,10 +1,57 @@
 {
  "sku": "Z-LA-384",
- "order": 4146,
+ "order": 4137,
  "n": "Intelligent 4-Unit Charging Tray",
  "b": "Listen Technologies",
  "c": "Charger",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Cord",
+   "value": "182.9 cm (72 in.) Input Power Cord, 114.3 cm (45 in.) Output Cord"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Height with Receivers",
+   "value": "10.64 cm (4.19 in.)"
+  },
+  {
+   "label": "Unit Capacity",
+   "value": "4 Units"
+  },
+  {
+   "label": "Standards",
+   "value": "UL, CE, RoHS"
+  },
+  {
+   "label": "Power Supply Input",
+   "value": "100-240VAC, 50-60 Hz"
+  },
+  {
+   "label": "Power Supply Output",
+   "value": "5.0 VDC, 8 A, 40 W"
+  },
+  {
+   "label": "Power Supply Connector",
+   "value": "5.5 mm (.22 in.) OD x 2.3 mm. (09 in.) ID, barrel type"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "1.50 kg (3.2 lbs.)"
+  },
+  {
+   "label": "Dimensions (H x W x D)",
+   "value": "4.45 cm x 19.05 cm x 15.80 cm (1.75 in. x 7.5 in. x 6.22 in.)"
+  },
+  {
+   "label": "Unit Weight",
+   "value": "0.6 kg (1.4 lbs.)"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/intelligent-4-unit-charging-tray/",
+ "checked": "2026-10-19"
 }

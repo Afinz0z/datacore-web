@@ -1,11 +1,62 @@
 {
  "sku": "SHADOW 114S",
- "order": 1229,
+ "order": 1227,
  "n": "IP 55 Subwoofer -SHADOW 114S",
  "b": "FBT",
  "c": "Subwoofer",
  "dept": "AV",
  "avail": "lead",
  "d": "FBT IP 55 Subwoofer - 14\" - 90°H x 60°V disp. - 700Wrms",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "1 way"
+  },
+  {
+   "label": "Recommended amplifier",
+   "value": "700 W RMS"
+  },
+  {
+   "label": "Long Term power",
+   "value": "350 W"
+  },
+  {
+   "label": "Short term power",
+   "value": "1400 W"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 ohm"
+  },
+  {
+   "label": "Frequency response",
+   "value": "60Hz - 400Hz -6dB"
+  },
+  {
+   "label": "Low Frequency woofer",
+   "value": "14'' - 3'' coil"
+  },
+  {
+   "label": "Maximum SPL cont/peak",
+   "value": "125.5 / 129.5 dB"
+  },
+  {
+   "label": "Dispersion",
+   "value": "omnidirectional HxV"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "external"
+  },
+  {
+   "label": "Input connector",
+   "value": "4 wire cable"
+  },
+  {
+   "label": "Net Dimension (WxHxD)",
+   "value": "464 x 430 x 479 mm / 18.2 x 16.9 x 18.8 inch"
+  }
+ ],
+ "src": "https://www.fbt.it/product/shadow-114s-t/",
+ "checked": "2026-10-19"
 }

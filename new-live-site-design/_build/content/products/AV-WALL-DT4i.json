@@ -1,6 +1,6 @@
 {
  "sku": "AV-WALL-DT4i",
- "order": 1866,
+ "order": 1864,
  "n": "Wall mounted Dante Mic/Line audio input interface (AV-WALL-DT4i)",
  "b": "Auvitran",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AV-WALL-DT4i",
  "d": "Wall mounted Dante Mic/Line audio input interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Dante channels",
+   "value": "4"
+  },
+  {
+   "label": "Inputs",
+   "value": "2 XLR for line inputs 1-2, a stereo 3.5mm minijack for line inputs 3-4"
+  },
+  {
+   "label": "Local control",
+   "value": "Rotary push button"
+  },
+  {
+   "label": "Phantom power",
+   "value": "+48V controlled per channel"
+  },
+  {
+   "label": "Sampling, A/D",
+   "value": "44.1 / 48 / 88.2 / 96 kHz on 24 or 32 Bits"
+  },
+  {
+   "label": "Input sensitivity",
+   "value": "+24dBu to -40dBu (XLR, balanced); +12dBu to -28dBu (mini-jack, unbalanced)"
+  },
+  {
+   "label": "Input impedance",
+   "value": "3.5 k (XLR); 10 k (mini-jack)"
+  },
+  {
+   "label": "E.I.N.",
+   "value": "-111dBu @R=150, G=+64dB (XLR)"
+  },
+  {
+   "label": "Dynamic range",
+   "value": ">101dB A-weighted (XLR); >100dB A-weighted (mini-jack)"
+  },
+  {
+   "label": "THD+N @1kHz, G=0dB",
+   "value": "<-91dB (0.0028%) (XLR); <-89 dB (0.0035%) (mini-jack)"
+  },
+  {
+   "label": "Frequency response @G=0",
+   "value": "20Hz-20kHz (+0 /-1.2dB) (XLR); 20Hz-20kHz (+0 /-0.8 dB) (mini-jack)"
+  },
+  {
+   "label": "Power supply",
+   "value": "PoE 802.3af compliant through RJ45. Maximum consumption 5.5W."
+  }
+ ],
+ "src": "https://www.auvitran.com/productrange/av-wall/",
+ "checked": "2026-10-19"
 }

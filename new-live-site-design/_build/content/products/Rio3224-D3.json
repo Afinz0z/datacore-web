@@ -1,6 +1,6 @@
 {
  "sku": "Rio3224-D3",
- "order": 2780,
+ "order": 2778,
  "n": "Dante-compatible I/O racks (Rio3224-D3)",
  "b": "Yamaha",
  "c": "Rack (AV)",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Rio3224-D3",
  "d": "Dante-compatible I/O racks",
- "specs": []
+ "specs": [
+  {
+   "label": "Sampling frequency rate External",
+   "value": "44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz, +4.1667%, +0.1%, –0.1%, –4.0% (±200 ppm)"
+  },
+  {
+   "label": "Signal delay",
+   "value": "Less than 1.7 ms, Rio-D3 INPUT to Rio-D3 OUTPUT connect with DM7 using Dante, Fs=96 kHz. Dante Receive Latency set to 0.25 msec"
+  },
+  {
+   "label": "Total harmonic distortion",
+   "value": "Less than 0.05% +4 dBu@20 Hz - 20 kHz, GAIN : -6 dB into 600 Ω, Less than 0.15% +4 dBu@20 Hz - 20 kHz, GAIN: +66 dB into 600 Ω"
+  },
+  {
+   "label": "Frequency response",
+   "value": "+0.5, –1.5 dB 20 Hz - 20 kHz, refer to +4 dBu output @1 kHz, input to output, Fs= 48 kHz or 96 kHz"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "120 dB typ., DA Converter, 115 dB typ., Input to Output, GAIN: -6 dB"
+  },
+  {
+   "label": "Equivalent input noise",
+   "value": "-128 dBu typ., GAIN: +66 dB"
+  },
+  {
+   "label": "Residual output noise",
+   "value": "-93 dBu, main stereo channel off"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "INPUT: -100 dB, adjacent inputs, GAIN: -6 dB, @1 kHz, OUTPUT: -100 dB, input to output, @1 kHz"
+  },
+  {
+   "label": "Power requirements",
+   "value": "100 - 240 V, 50/60 Hz"
+  },
+  {
+   "label": "Others",
+   "value": "NC Value: Fan Speed LOW: NC=20 / HIGH: NC=30 (Measurement position: 1 m from the front of the unit), Operating temperature range: 0 - 40°C, Storage temperature range: -20 - 60°C"
+  },
+  {
+   "label": "Power consumption",
+   "value": "100 W"
+  },
+  {
+   "label": "Dimensions W",
+   "value": "480 mm (18.9\")"
+  }
+ ],
+ "src": "https://usa.yamaha.com/products/proaudio/interfaces/r_series_adda_3/specs.html",
+ "checked": "2026-10-19"
 }

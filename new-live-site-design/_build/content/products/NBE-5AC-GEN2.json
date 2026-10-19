@@ -1,11 +1,62 @@
 {
  "sku": "NBE-5AC-GEN2",
- "order": 3033,
+ "order": 3029,
  "n": "NanoBeam 5AC Gen 2 Network bridge",
  "b": "Ubiquiti",
  "c": "Antenna",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "NanoBeam 5AC Gen 2 Network bridge 450 Mbit/s White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Pole Mount (Included); Wall Mount (Optional)"
+  },
+  {
+   "label": "Wind Loading",
+   "value": "45.4 N at 200 km/h (10.2 lbf at 125 mph)"
+  },
+  {
+   "label": "Wind Survivability",
+   "value": "200 km/h (125 mph)"
+  },
+  {
+   "label": "Networking Interface",
+   "value": "(2) GbE RJ45 ports"
+  },
+  {
+   "label": "Power Method",
+   "value": "Passive PoE 2-pair (4, 5+; 7, 8 return)"
+  },
+  {
+   "label": "Salt Fog Test",
+   "value": "IEC 68-2-11 (ASTM B117); Equivalent: MIL-STD-810 G method 509.5"
+  },
+  {
+   "label": "UV test",
+   "value": "IEC 68-2-5 at 40° C (104° F); Equivalent: ETS 300 019-1-4"
+  },
+  {
+   "label": "Vibration test",
+   "value": "IEC 68-2-6"
+  },
+  {
+   "label": "Wind-Driven Rain Test",
+   "value": "ETS 300 019-1-4; Equivalent: MIL-STD-810 G method 506.5"
+  },
+  {
+   "label": "QoS",
+   "value": "WMM packet classification with user-level priority: High, Medium, Low"
+  },
+  {
+   "label": "Channel Bandwidth",
+   "value": "PtP Mode: 10/20/30/40/50/60/80 MHz; PtPM Mode:10/20/30/40 MHz"
+  },
+  {
+   "label": "Antenna Gain",
+   "value": "19 dBi"
+  }
+ ],
+ "src": "https://techspecs.ui.com/uisp/wireless/nanobeam-5ac",
+ "checked": "2026-10-19"
 }

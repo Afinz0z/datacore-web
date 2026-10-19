@@ -1,11 +1,62 @@
 {
  "sku": "VENTIS 112M",
- "order": 808,
+ "order": 807,
  "n": "2-way Passive monitor-VENTIS 112M",
  "b": "FBT",
  "c": "Speaker",
  "dept": "AV",
  "avail": "lead",
  "d": "FBT 2-way Passive monitor - 12\" + 1\" - 500Wrms",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "2 way"
+  },
+  {
+   "label": "Recommended amplifier",
+   "value": "400W RMS"
+  },
+  {
+   "label": "Long Term power",
+   "value": "200W"
+  },
+  {
+   "label": "Short Term Power",
+   "value": "800W"
+  },
+  {
+   "label": "Nominal impedance",
+   "value": "8 ohm"
+  },
+  {
+   "label": "Frequency response",
+   "value": "60Hz - 18KHz -6dB"
+  },
+  {
+   "label": "Low Frequency woofer",
+   "value": "12'' - 2.5'' coil"
+  },
+  {
+   "label": "High frequency driver",
+   "value": "1'' - 1.7'' coil"
+  },
+  {
+   "label": "Sensitivity (@1W/1m)",
+   "value": "98 dB"
+  },
+  {
+   "label": "Maximum SPL cont/peak",
+   "value": "125 / 129 dB"
+  },
+  {
+   "label": "Dispersion",
+   "value": "90° conical HxV"
+  },
+  {
+   "label": "Crossover Frequency",
+   "value": "1.6 KHz"
+  }
+ ],
+ "src": "https://www.fbt.it/product/ventis-112m/",
+ "checked": "2026-10-19"
 }

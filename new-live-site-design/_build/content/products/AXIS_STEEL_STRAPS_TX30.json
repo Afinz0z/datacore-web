@@ -1,6 +1,6 @@
 {
  "sku": "AXIS STEEL STRAPS TX30",
- "order": 3321,
+ "order": 3314,
  "n": "Steel Straps for wall/pole mount",
  "b": "Axis",
  "c": "CCTV Mounting Equipment",
@@ -14,10 +14,7 @@
   }
  ],
  "for": [
-  "AXIS P1467-LE",
   "AXIS P3277-LV",
-  "AXIS Q6358-LE US",
-  "P1468-LE",
-  "P3268-LV"
+  "AXIS Q6358-LE US"
  ]
 }

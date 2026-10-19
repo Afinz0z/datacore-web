@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DISPLAX-TILE",
  "d": "Detection Method: Projected Capacitive Technology Multitouch Displax Diagonal Inches: 55” Aspect Ratio Glass: 16:9 Coated Toughened Glass Glass Thickness: 3.3 mm Bezel Color: Black Matte Interface OS: HID",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "55\""
+  },
+  {
+   "label": "Display",
+   "value": "IPS / Edge LED, 1920 × 1080"
+  },
+  {
+   "label": "Brightness",
+   "value": "500 cd/m²"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1400:1"
+  },
+  {
+   "label": "Viewing angles",
+   "value": "178°/178°"
+  },
+  {
+   "label": "Bezel",
+   "value": "6 mm, equal on all sides"
+  },
+  {
+   "label": "Simultaneous touches",
+   "value": "Up to 100"
+  },
+  {
+   "label": "Response time",
+   "value": "5 ms"
+  },
+  {
+   "label": "Glass thickness",
+   "value": "3.3 mm"
+  },
+  {
+   "label": "Object recognition",
+   "value": "Active OR & Passive OR"
+  },
+  {
+   "label": "Input method",
+   "value": "Finger & Gloved finger"
+  },
+  {
+   "label": "Video ports",
+   "value": "1 HDMI, 1 DP input, 1 DP output, 1 VGA, 1 DVI"
+  }
+ ],
+ "src": "https://www.displax.com/tile",
+ "checked": "2026-10-19"
 }

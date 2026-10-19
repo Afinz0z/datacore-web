@@ -1,11 +1,30 @@
 {
  "sku": "NS40-960+",
- "order": 2931,
+ "order": 2929,
  "n": "network switch NS40-960+",
  "b": "QSC",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "40-port network switch for Q-SYS AV&C: 40× PoE+ ports, 8× 10Gbps SFP+ ports, 960W PoE, with QoS and IGMP supporting AES67 and Dante within the same VLAN.",
- "specs": []
+ "specs": [
+  {
+   "label": "Netgear Model",
+   "value": "M4250-40G8XF-PoE+"
+  },
+  {
+   "label": "1 Gbps Switch Ports (PoE+/PoE++)",
+   "value": "40 (40)"
+  },
+  {
+   "label": "SFP Ports",
+   "value": "8x 10 Gbps"
+  },
+  {
+   "label": "PoE Budget",
+   "value": "960 W"
+  }
+ ],
+ "src": "https://www.qsys.com/products-solutions/q-sys/networking/ns-series-network-switches/",
+ "checked": "2026-10-19"
 }

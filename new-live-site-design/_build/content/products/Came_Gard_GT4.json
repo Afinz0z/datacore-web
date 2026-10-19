@@ -1,11 +1,42 @@
 {
  "sku": "Came Gard GT4",
- "order": 3495,
+ "order": 3488,
  "n": "Automatic vehicle boom barrier",
  "b": "CAME",
  "c": "Gate Barrier",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Automatic Vehicle Boom Barrier - CAME GARD GT4, 4 m barrier arm, 24 V DC motor, suitable for intensive-duty vehicle access control.",
- "specs": []
+ "specs": [
+  {
+   "label": "Power (W)",
+   "value": "240"
+  },
+  {
+   "label": "Maneuvering time at 90° (s)",
+   "value": "2 ÷ 6"
+  },
+  {
+   "label": "Cycles/hour",
+   "value": "350"
+  },
+  {
+   "label": "Torque (Nm)",
+   "value": "300"
+  },
+  {
+   "label": "Max. net clearance width (m)",
+   "value": "5"
+  },
+  {
+   "label": "Power supply (V)",
+   "value": "230 AC"
+  },
+  {
+   "label": "Power supply to motor (V)",
+   "value": "24 DC"
+  }
+ ],
+ "src": "https://www.came.com/global/en/products/automatic-barriers-gard-gt4/",
+ "checked": "2026-10-19"
 }

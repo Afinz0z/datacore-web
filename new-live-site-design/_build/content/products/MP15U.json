@@ -1,6 +1,6 @@
 {
  "sku": "MP15U",
- "order": 2749,
+ "order": 2747,
  "n": "15U 19\" Floor Stand Audio Rack with ElectricFan (MP15U)",
  "b": "DSPPA",
  "c": "Rack (AV)",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "MP15U",
  "d": "DSPPA 15U 19\" Floor Stand Audio Rack with ElectricFan",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "luxury"
+  },
+  {
+   "label": "Internal Dimension",
+   "value": "15U"
+  },
+  {
+   "label": "Weight",
+   "value": "42.0kg"
+  },
+  {
+   "label": "External Dimension （H×W×D）",
+   "value": "1000×600×600mm"
+  }
+ ],
+ "src": "https://www.dsppatech.com/product/mp15u.html",
+ "checked": "2026-10-19"
 }

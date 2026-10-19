@@ -1,6 +1,6 @@
 {
  "sku": "TIO1608-D2",
- "order": 1344,
+ "order": 1342,
  "n": "96kHz Dante Stagebox (TIO1608-D2)",
  "b": "Yamaha",
  "c": "Audio Expander",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "TIO1608-D2",
  "d": "96kHz Dante Stagebox",
- "specs": []
+ "specs": [
+  {
+   "label": "Sampling frequency rate External",
+   "value": "44.1kHz, 48kHz, 88.2kHz, 96kHz"
+  },
+  {
+   "label": "Signal delay",
+   "value": "Less than 1.3ms INPUT to OUTPUT, connect with DM3, Dante Receive Latency set to 0.25ms (one way), Fs=96kHz; Less than 2.6ms INPUT to OUTPUT, connect with DM3, Dante Receive Latency set to 0.25ms (one way), Fs=48kHz"
+  },
+  {
+   "label": "Frequency response",
+   "value": "+0.5, -1.5 dB 20Hz-20kHz, refer to the nominal output level @1kHz, INPUT to OUTPUT"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "108 dB, INPUT to OUTPUT, Gain=-6 dB / 110 dB, DA Converter, Fs 96kHz; 108 dB, INPUT to OUTPUT, Gain=-6 dB / 112 dB, DA Converter, Fs 48kHz"
+  },
+  {
+   "label": "Equivalent input noise",
+   "value": "-128 dBu, Gain=+66 dB, Fs 96kHz, 48kHz *Measured with A-weighting filter"
+  },
+  {
+   "label": "Residual output noise",
+   "value": "-86 dBu, Fs 96kHz / -88 dBu, Fs 48kHz, ST main off *Measured with A-weighting filter"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "-100 dB, adjacent INPUT/OUTPUT channels, Input Gain = -6 dB *Measured with a -30 dB/octave filter @22kHz"
+  },
+  {
+   "label": "Heat dissipation",
+   "value": "100-240V, 50/60Hz, 43.5kcal/h"
+  },
+  {
+   "label": "Power requirements",
+   "value": "100-240V, 50/60Hz"
+  },
+  {
+   "label": "Others",
+   "value": "Temperature Range: Operating temperature range: 0 - 40℃, Storage temperature range: -20 - 60℃"
+  },
+  {
+   "label": "Power consumption",
+   "value": "50W"
+  },
+  {
+   "label": "Dimensions W",
+   "value": "480mm (18.9”)"
+  }
+ ],
+ "src": "https://usa.yamaha.com/products/proaudio/interfaces/tio1608-d2/index.html",
+ "checked": "2026-10-19"
 }

@@ -1,10 +1,61 @@
 {
  "sku": "MTW505-2000",
- "order": 464,
+ "order": 463,
  "n": "Meeting Owl 5 Pro",
  "b": "Owl Labs",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Field of view",
+   "value": "360°"
+  },
+  {
+   "label": "Output resolution",
+   "value": "4K UHD"
+  },
+  {
+   "label": "Sensor",
+   "value": "64 MP"
+  },
+  {
+   "label": "Camera pickup radius",
+   "value": "3 m (10 ft)"
+  },
+  {
+   "label": "Speaker configuration",
+   "value": "360° dual-speaker"
+  },
+  {
+   "label": "Speaker output level",
+   "value": "80 dB SPL RMS"
+  },
+  {
+   "label": "Microphone configuration",
+   "value": "360° omnidirectional 8-microphone array"
+  },
+  {
+   "label": "Microphone pickup radius",
+   "value": "5.5 m (18 ft)"
+  },
+  {
+   "label": "Microphone features",
+   "value": "Voice equalisation, echo cancellation, background noise reduction"
+  },
+  {
+   "label": "Processor",
+   "value": "Qualcomm® Snapdragon™ 8250"
+  },
+  {
+   "label": "USB connector",
+   "value": "USB-C"
+  },
+  {
+   "label": "Width",
+   "value": "15.6 cm (6.1 in)"
+  }
+ ],
+ "src": "https://owllabs.co.uk/products/meeting-owl-5-pro",
+ "checked": "2026-10-19"
 }

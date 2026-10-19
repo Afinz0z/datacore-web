@@ -1,6 +1,6 @@
 {
  "sku": "EVID-C6.2-G2",
- "order": 758,
+ "order": 757,
  "n": "Ceiling speaker 6.5\" 70/100V white(pair)",
  "b": "Electro-Voice",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Speaker",
  "d": "Ceiling speaker 6.5\" 70/100V white(pair)",
- "specs": []
+ "specs": [
+  {
+   "label": "Max SPL",
+   "value": "109"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "65 Hz – 20,000 Hz"
+  },
+  {
+   "label": "Sensitivity (1W/1m)",
+   "value": "90 dB SPL 1 W, 1 m"
+  },
+  {
+   "label": "LF transducer size (in)",
+   "value": "6 in"
+  },
+  {
+   "label": "HF transducer size (in)",
+   "value": "1 in"
+  },
+  {
+   "label": "Power handling (continuous) (W)",
+   "value": "80 W"
+  },
+  {
+   "label": "Transformer taps 70 V line (W)",
+   "value": "30 W; 15 W; 7.5 W; 3.75 W; 1.88 W"
+  },
+  {
+   "label": "Power handling (peak) (W)",
+   "value": "320 W"
+  },
+  {
+   "label": "Transformer taps 100 V line (W)",
+   "value": "30 W; 15 W; 7.5 W; 3.75 W"
+  },
+  {
+   "label": "Nominal Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Recommended HPF",
+   "value": "60 Hz"
+  },
+  {
+   "label": "Connectivity",
+   "value": "4-pin Euroblock 12AWG (maximum) 2"
+  }
+ ],
+ "src": "https://www.electrovoice.com/product/evid-c6-2-g2",
+ "checked": "2026-10-19"
 }

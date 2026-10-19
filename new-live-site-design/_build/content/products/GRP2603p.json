@@ -1,11 +1,46 @@
 {
  "sku": "GRP2603p",
- "order": 4500,
+ "order": 4485,
  "n": "IP Telephone",
  "b": "Grandstream",
  "c": "IP TELEPHONY",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP-Phone 3*Lines 6*SIP, Noise shield, 5*Ways Conferencing, Full duplex and HD Audio, 2*Giga Ether PoE",
- "specs": []
+ "specs": [
+  {
+   "label": "Display",
+   "value": "2.7 inch (132x64) backlit graphical LCD Display"
+  },
+  {
+   "label": "Lines",
+   "value": "3 Lines"
+  },
+  {
+   "label": "SIP Accounts",
+   "value": "6 SIP Accounts"
+  },
+  {
+   "label": "Audio Conferencing",
+   "value": "5-way audio conference"
+  },
+  {
+   "label": "Network Interfaces",
+   "value": "Dual switched autosensing 10/100/1000 Mbps Gigabit Ethernet ports with integrated PoE"
+  },
+  {
+   "label": "Wi Fi",
+   "value": "No"
+  },
+  {
+   "label": "Device Management",
+   "value": "Yes, GDMS"
+  },
+  {
+   "label": "Custom Faceplates",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.grandstream.com/products/ip-voice-telephony-carrier-grade-ip-phones/grp-series-essential-ip-phones/product/grp2603p",
+ "checked": "2026-10-19"
 }

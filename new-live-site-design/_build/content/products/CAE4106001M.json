@@ -1,11 +1,62 @@
 {
  "sku": "CAE4106001M",
- "order": 3810,
+ "order": 3803,
  "n": "outer jacket",
  "b": "Belden",
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "1-meter, blue Cat6a S/FTP shielded copper patch cord featuring a Low Smoke Zero Halogen (LSZH) outer jacket",
- "specs": []
+ "specs": [
+  {
+   "label": "Conductor AWG",
+   "value": "26"
+  },
+  {
+   "label": "Conductor stranding",
+   "value": "Stranded"
+  },
+  {
+   "label": "Nominal Diameter",
+   "value": "6.1 mm"
+  },
+  {
+   "label": "No. of Pairs",
+   "value": "4"
+  },
+  {
+   "label": "Total Number of Pairs",
+   "value": "4"
+  },
+  {
+   "label": "Inner Shield element",
+   "value": "Individual Shielded Pair"
+  },
+  {
+   "label": "Inner Shield type",
+   "value": "Tape"
+  },
+  {
+   "label": "Outer Shield type",
+   "value": "Braid"
+  },
+  {
+   "label": "Outer Jacket nominal diameter",
+   "value": "6.1 mm"
+  },
+  {
+   "label": "Wiring Scheme",
+   "value": "T568A/B-T568A/B"
+  },
+  {
+   "label": "Dielectric Strength",
+   "value": "2.5 kV DC"
+  },
+  {
+   "label": "Insulation Resistance",
+   "value": "5000 MOhmkm"
+  }
+ ],
+ "src": "https://belden.com/products/patch-cords-cordsets-assemblies/copper-pre-term-assemblies/copper-patch-cords/10gx-s-ftp-lszh-patch-cords",
+ "checked": "2026-10-19"
 }

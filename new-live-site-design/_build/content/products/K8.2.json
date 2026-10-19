@@ -1,6 +1,6 @@
 {
  "sku": "K8.2",
- "order": 854,
+ "order": 853,
  "n": "2000W portable, active loudspeaker system (K8.2)",
  "b": "QSC",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "K8.2",
  "d": "2000W portable, active loudspeaker system; 8-inch woofer; 1.4-inchcompression driver; 105 degreeconical waveguide; dual angle polesocket; presets and user adjustableDSP. For use as main PA or stage monitor",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "Multi-purpose, 2-way active loudspeaker"
+  },
+  {
+   "label": "LF Transducer",
+   "value": "203 mm (8-inch), cone"
+  },
+  {
+   "label": "HF Transducer",
+   "value": "35.6 mm (1.4-inch) titanium diaphragm compression driver"
+  },
+  {
+   "label": "Frequency Response (-6 dB)",
+   "value": "59 Hz - 20 kHz"
+  },
+  {
+   "label": "Frequency Range (-10 dB)",
+   "value": "55 Hz - 20 kHz"
+  },
+  {
+   "label": "Nominal Coverage Angle",
+   "value": "105° Axisymetric"
+  },
+  {
+   "label": "Controls",
+   "value": "Power 3 × Level Rotary encoder (push) 2 ×x selection buttons"
+  },
+  {
+   "label": "Indicators",
+   "value": "Monochrome LCD Display 45 mm × 25.4 mm (1.75-inch × 1-inch) 2 × Power LED (front and rear) 3 × Input Signal LED Input A Mic selected LED Input B Hi-Z selected LED Limiter active LED"
+  },
+  {
+   "label": "Connectors",
+   "value": "2 × locking XLR/F ¼⁻ᶦⁿᶜʰ combo (Mic/Line Input and Hi-Z/Line Input 1 × 3.5 mm TRS (Stereo Input) 2 × XLR/M (Loop-thru Output) 1 × XLR/M (Mix Output) 1 × locking IEC power connector"
+  },
+  {
+   "label": "AC Power Input",
+   "value": "Universal power supply 100 – 240 VAC, 50 – 60 Hz"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Impact Resistant ABS"
+  },
+  {
+   "label": "Attachment Points",
+   "value": "2 × M10 threaded inserts plus Pull-Back"
+  }
+ ],
+ "src": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/k2-series/k82/",
+ "checked": "2026-10-19"
 }

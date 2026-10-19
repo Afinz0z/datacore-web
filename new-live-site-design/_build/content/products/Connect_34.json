@@ -1,11 +1,62 @@
 {
  "sku": "Connect 34",
- "order": 1011,
+ "order": 1009,
  "n": "Connect Series Amplifier-Connect 34",
  "b": "LEA Professional",
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
  "d": "4-CHANNEL AMPLIFIERS - 4 Channel x 30 watt @ 4Ω, 8Ω, 70V and 100V per channel. Internal DSP w/ Crossovers, IoT Device with built in Wi-Fi Hotspot, Wi-Fi or FAST Ethernet connectivity. Highly Efficient Power Supply with Class D Output Stage.",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel count",
+   "value": "4"
+  },
+  {
+   "label": "INPUTS",
+   "value": "Analog: 4 Balanced Inputs with user selectable 26dB, 34dB, and mic level input sensitivity; 4 unbalanced RCA inputs with user-selectable 26dB and 34dB input sensitivity"
+  },
+  {
+   "label": "THD+N",
+   "value": "0.1% (20Hz to 20kHz)"
+  },
+  {
+   "label": "FREQUENCY RESPONSE",
+   "value": "20Hz to 20kHz, +/- 0.5 dB @ 4Ω, 8Ω, 70V, 100V, -2.5dB @ 20kHz at 2Ω"
+  },
+  {
+   "label": "SIGNAL TO NOISE LEVEL",
+   "value": "102dB (20Hz to 20kHz referenced to 8Ω)"
+  },
+  {
+   "label": "CROSSTALK",
+   "value": "70dB (20Hz to 20kHz)"
+  },
+  {
+   "label": "AMPLIFIER OUTPUT CLASSIFICATION",
+   "value": "Class D with Proprietary Smart Power Bridge Technology allowing bridged output functionality without sacrificing an amplifier channel"
+  },
+  {
+   "label": "DSP ARCHITECTURE",
+   "value": "Analog Devices Sigma 96kHz DSP Processor with 32-bit Core with Sample Rate Converters"
+  },
+  {
+   "label": "INPUT MATRIX & MATRIX MIXER",
+   "value": "Routable matrix; any input can be mixed to any output"
+  },
+  {
+   "label": "CROSSOVERS",
+   "value": "Up to 48 dB/Octave IIR Filters (Linkwitz Riley and Butterworth)"
+  },
+  {
+   "label": "PARAMETRIC EQ",
+   "value": "8 Band Parametric EQ per channel"
+  },
+  {
+   "label": "OUTPUT DELAY",
+   "value": "100ms per channel"
+  }
+ ],
+ "src": "https://leaprofessional.com/products/network-connect/34n/",
+ "checked": "2026-10-19"
 }

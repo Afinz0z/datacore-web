@@ -1,6 +1,6 @@
 {
  "sku": "DMA20",
- "order": 4279,
+ "order": 4270,
  "n": "PA System 6 Zones Remote Control Station (DMA20)",
  "b": "DSPPA",
  "c": "Paging mic",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "DMA20",
  "d": "DSPPA DMA20DSPPA PA System 6 Zones Remote Control Station",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensitivity",
+   "value": "30±3mV"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "200Hz-15KHz"
+  },
+  {
+   "label": "SNR",
+   "value": "≥70db"
+  },
+  {
+   "label": "RJ45",
+   "value": "RS485 communication protocol"
+  },
+  {
+   "label": "Input Power",
+   "value": "Host power supply"
+  },
+  {
+   "label": "Package Dimensions (H×W×D mm)",
+   "value": "425×285×115mm"
+  },
+  {
+   "label": "Machine Dimensions (H×W×D mm)",
+   "value": "172×160×53mm"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "1.6KG"
+  },
+  {
+   "label": "Net Weight",
+   "value": "0.89KG"
+  }
+ ],
+ "src": "https://www.dsppatech.com/product/dma20-remote-paging-station.html",
+ "checked": "2026-10-19"
 }

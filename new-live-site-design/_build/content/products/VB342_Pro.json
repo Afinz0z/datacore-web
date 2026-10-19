@@ -1,11 +1,62 @@
 {
  "sku": "VB342 Pro",
- "order": 413,
+ "order": 412,
  "n": "Aver 4K PTZ Video Bar",
  "b": "Aver",
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
  "d": "AVER All-in-One Video Bar 4K 3X optical zoom lens with 15X zoom PTZ Video Bar",
- "specs": []
+ "specs": [
+  {
+   "label": "Camera lens",
+   "value": "4K 3X optical zoom lens with 15X zoom"
+  },
+  {
+   "label": "Field of view (D/H/V)",
+   "value": "92°/84°/53°"
+  },
+  {
+   "label": "Image sensor",
+   "value": "Sony 4K True WDR sensor"
+  },
+  {
+   "label": "Frame rate",
+   "value": "(16:9) 4K 30fps; 1920 x 1080, 1600 x 900, 1280 x 720, 960 x 540, 848 x 480, 800 x 448, 640 x 360 at 60, 30, 15fps"
+  },
+  {
+   "label": "True WDR",
+   "value": "Up to 120db"
+  },
+  {
+   "label": "Minimum focus distance",
+   "value": "80 cm"
+  },
+  {
+   "label": "Pan",
+   "value": "Total horizontal viewing area 180°"
+  },
+  {
+   "label": "Tilt",
+   "value": "Total vertical viewing area 105°"
+  },
+  {
+   "label": "Camera presets",
+   "value": "10 (via remote control and IP web page)"
+  },
+  {
+   "label": "Microphone",
+   "value": "10-element beamforming microphone array"
+  },
+  {
+   "label": "Pickup range",
+   "value": "8 meters (27 ft)"
+  },
+  {
+   "label": "Speaker",
+   "value": "Stereo speaker with output power 12W (6W x 2 pcs)"
+  }
+ ],
+ "src": "https://www.averusa.com/products/video-bar/vb342pro.asp",
+ "checked": "2026-10-19"
 }

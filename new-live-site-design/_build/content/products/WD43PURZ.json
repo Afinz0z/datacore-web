@@ -1,15 +1,58 @@
 {
  "sku": "WD43PURZ",
- "order": 4416,
+ "order": 4401,
  "n": "4TB Hard Drive",
  "b": "Western Digital",
  "c": "HARD DISK",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "WESTERN DIGITAL 4TB PURPLE SATA INTERNAL HARD DRIVE",
- "specs": [],
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "4TB"
+  },
+  {
+   "label": "Form Factor",
+   "value": "3.5-Inch"
+  },
+  {
+   "label": "Connector",
+   "value": "SATA"
+  },
+  {
+   "label": "Interface",
+   "value": "SATA"
+  },
+  {
+   "label": "Disk Speed (RPM)",
+   "value": "5400 RPM"
+  },
+  {
+   "label": "Recording Technology",
+   "value": "CMR"
+  },
+  {
+   "label": "Endurance (TBW)",
+   "value": "180TB/year"
+  },
+  {
+   "label": "Model Number",
+   "value": "WD43PURZ"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "5.79\" x 4\" x 1.03\""
+  },
+  {
+   "label": "Weight",
+   "value": "570gms"
+  }
+ ],
  "for": [
   "DS-7604NI-K1/4P",
   "DS-7608NI-Q1"
- ]
+ ],
+ "src": "https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD43PURZ",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "Ionic-5CXv",
- "order": 838,
+ "order": 837,
  "n": "Speaker - Ionic-5CXv",
  "b": "Lynx Pro",
  "c": "Speaker",
@@ -9,15 +9,57 @@
  "d": "Wall Mounted Loudspeaker Type (WS1): 5″ coaxial speaker offering a coverage of 70º conical dispersion and 117dB SPL",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mounted"
+   "label": "Components",
+   "value": "1 x 5″ coaxial speaker with LF 1.5″ and HF 1″ voice coil"
   },
   {
-   "label": "Series",
-   "value": "Ionic"
+   "label": "Frequency Range",
+   "value": "60 Hz – 20 KHz (- 10dB)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "90 Hz – 18 KHz (± 3dB)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "93 dB (1W@1m)"
+  },
+  {
+   "label": "Max SPL",
+   "value": "114 dB – 120 dB"
+  },
+  {
+   "label": "Coverage",
+   "value": "70º conical dispersion"
+  },
+  {
+   "label": "Power",
+   "value": "150 W AES (300 W program, 600 W peak) @ 8 Ω"
+  },
+  {
+   "label": "Connectors",
+   "value": "In: Euroblock Terminal Out: Cable gland"
+  },
+  {
+   "label": "Finish",
+   "value": "Polyurea coating, high grade resistant paint"
+  },
+  {
+   "label": "Material",
+   "value": "10 mm premium birch plywood"
+  },
+  {
+   "label": "Dimensions",
+   "value": "152 x 152 x 221 mm (H x W x D)"
+  },
+  {
+   "label": "Weight",
+   "value": "3 Kg (6.6 lbs)"
   }
  ],
  "acc": [
   "UBR-5CX"
- ]
+ ],
+ "src": "https://www.lynxproaudio.com/product/ionic-5cxv/",
+ "checked": "2026-10-19"
 }

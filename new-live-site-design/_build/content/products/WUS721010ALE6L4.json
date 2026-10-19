@@ -1,6 +1,6 @@
 {
  "sku": "WUS721010ALE6L4",
- "order": 4422,
+ "order": 4407,
  "n": "Ultrastar DC HC330 0B42266 10TB 7200 RPM SATA 6Gb/s 256MB Cache (WD-10TB-Hard disk)",
  "b": "Western Digital",
  "c": "HARD DISK",
@@ -10,8 +10,42 @@
  "d": "Ultrastar DC HC330 0B42266 10TB 7200 RPM SATA 6Gb/s 256MB Cache 3.5-Inch Enterprise Hard Drive",
  "specs": [
   {
-   "label": "Series",
-   "value": "UltraStar"
+   "label": "Capacity",
+   "value": "10TB"
+  },
+  {
+   "label": "Form Factor",
+   "value": "3.5-Inch"
+  },
+  {
+   "label": "Interface",
+   "value": "SATA"
+  },
+  {
+   "label": "Disk Speed (RPM)",
+   "value": "7200 RPM"
+  },
+  {
+   "label": "Recording Technology",
+   "value": "CMR"
+  },
+  {
+   "label": "Security",
+   "value": "SE"
+  },
+  {
+   "label": "Model Number",
+   "value": "WUS721010ALE6L4"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "5.79\" x 4\" x 1.03\""
+  },
+  {
+   "label": "Weight",
+   "value": "750gms"
   }
- ]
+ ],
+ "src": "https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc330-hdd?sku=0B42266",
+ "checked": "2026-10-19"
 }

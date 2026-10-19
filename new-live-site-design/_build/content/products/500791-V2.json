@@ -1,14 +1,65 @@
 {
  "sku": "500791-V2",
- "order": 498,
+ "order": 497,
  "n": "PTZ Camera - USB/IPPTZ-500791-V2",
  "b": "Muxlab",
  "c": "AV Camera",
  "dept": "AV",
  "avail": "lead",
  "d": "4K PTZ Camera with Built-in AI and 30x/40x Clear Image Zoom + wall mount",
- "specs": [],
+ "specs": [
+  {
+   "label": "Video system (HDMI, 3G-SDI)",
+   "value": "1080P60, 1080P59.94, 1080P50, 1080I60, 1080I59.94, 1080I50, 1080P30, 1080P29.97, 1080P25, 720P60, 720P59.94, 720P50"
+  },
+  {
+   "label": "Sensor",
+   "value": "1/2.8 inches, CMOS, Effective Pixels: 2.07 Megapixels"
+  },
+  {
+   "label": "Scanning mode",
+   "value": "Progressive"
+  },
+  {
+   "label": "Lens",
+   "value": "12x, f3.5mm ~ 42.3mm, F1.8 ~ F2.8"
+  },
+  {
+   "label": "Minimal illumination",
+   "value": "0.5Lux @ (F1.8, AGC ON)"
+  },
+  {
+   "label": "Electronic shutter",
+   "value": "1/30s ~ 1/10000s"
+  },
+  {
+   "label": "White balance",
+   "value": "Auto, Indoor, Outdoor, One Push, Manual, VAR"
+  },
+  {
+   "label": "Digital noise reduction",
+   "value": "2D, 3D digital noise reduction"
+  },
+  {
+   "label": "SNR",
+   "value": "≥55dB"
+  },
+  {
+   "label": "Horizontal angle of view",
+   "value": "72.5° ~ 6.9°"
+  },
+  {
+   "label": "Vertical angle of view",
+   "value": "44.8° ~ 3.9°"
+  },
+  {
+   "label": "Horizontal rotation range",
+   "value": "±170°"
+  }
+ ],
  "acc": [
   "KST-WM-UE150-W"
- ]
+ ],
+ "src": "https://muxlab.com/product/500791-v2",
+ "checked": "2026-10-19"
 }

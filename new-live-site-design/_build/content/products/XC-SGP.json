@@ -1,15 +1,58 @@
 {
  "sku": "XC-SGP",
- "order": 1325,
+ "order": 1323,
  "n": "Solaro XC-SGP",
  "b": "Xilica",
  "c": "Audio Card",
  "dept": "AV",
  "avail": "lead",
  "d": "Solaro XC-SGP - *Solaro Series I/O card with four channel GPIO, software-controlled functionality.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Inputs",
+   "value": "Four"
+  },
+  {
+   "label": "Input mode type",
+   "value": "GPIO logic or voltage (software-selectable)"
+  },
+  {
+   "label": "Logic GPIO",
+   "value": "Short to ground to activate"
+  },
+  {
+   "label": "Voltage GPIO",
+   "value": "0–24 VDC sensing, 12 DC control"
+  },
+  {
+   "label": "Outputs",
+   "value": "Four"
+  },
+  {
+   "label": "Output mode type",
+   "value": "GPIO LED or Sink (software-selectable)"
+  },
+  {
+   "label": "LED Output",
+   "value": "3mA per output"
+  },
+  {
+   "label": "Source Sink",
+   "value": "300mA per output"
+  },
+  {
+   "label": "Card Slot(s) Occupied",
+   "value": "Single"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "0.275lbs / 0.125kg"
+  }
+ ],
  "for": [
   "Solaro FR1-D",
   "Solaro QR1"
- ]
+ ],
+ "src": "https://www.xilica.com/products/solaro-xc-sgp/",
+ "checked": "2026-10-19"
 }

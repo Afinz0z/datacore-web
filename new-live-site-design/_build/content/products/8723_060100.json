@@ -1,6 +1,6 @@
 {
  "sku": "8723 060100",
- "order": 2433,
+ "order": 2431,
  "n": "Shielded, 22 AWG Cable",
  "b": "Belden",
  "c": "CONTROL CABLE",
@@ -9,8 +9,54 @@
  "d": "Shielded, 22 AWG, Multiconductor, Chrome PVC -21228 meters",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Roll"
+   "label": "Suitable Applications",
+   "value": "low voltage analog signals (4-20ma, 0-10v, ...); low voltage digital control (24v, …); line level audio; computer communication; panel wiring"
+  },
+  {
+   "label": "Conductor element",
+   "value": "Pair(s)"
+  },
+  {
+   "label": "Conductor no. of elements",
+   "value": "2"
+  },
+  {
+   "label": "Conductor size",
+   "value": "22 AWG"
+  },
+  {
+   "label": "Conductor stranding",
+   "value": "7x30"
+  },
+  {
+   "label": "Insulation element",
+   "value": "Pair(s)"
+  },
+  {
+   "label": "Insulation nom. thickness",
+   "value": "0.009 in (0.23 mm)"
+  },
+  {
+   "label": "Nom. Insulation Diameter",
+   "value": "0.046 in (1.2 mm)"
+  },
+  {
+   "label": "Color Code",
+   "value": "Black & Red, Green & White"
+  },
+  {
+   "label": "Inner Shield element",
+   "value": "Pair(s)"
+  },
+  {
+   "label": "Inner Shield type",
+   "value": "Tape"
+  },
+  {
+   "label": "Inner Shield coverage",
+   "value": "100%"
   }
- ]
+ ],
+ "src": "https://belden.com/products/cable/electronic-wire-cable/multi-pair-cable/8723",
+ "checked": "2026-10-19"
 }

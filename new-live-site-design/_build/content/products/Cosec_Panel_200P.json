@@ -1,11 +1,62 @@
 {
  "sku": "Cosec Panel 200P",
- "order": 3455,
+ "order": 3448,
  "n": "Standalone Mode Access Control for Single Location",
  "b": "Matrix",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "COSEC PANEL200P is a network-based access control panel used to manage multiple door controllers in a centralized system, up to 255 devices over Ethernet and 32 devices over RS-485 , with a capacity of 25,000 users and 500,000 events, Wi-Fi, Bluetooth, Ethernet, and RS-485 connectivity, making it suitable for scalable and flexible access control solutions.",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum Door Controllers",
+   "value": "255"
+  },
+  {
+   "label": "Door controller on RS-485",
+   "value": "32"
+  },
+  {
+   "label": "Max User Capacity",
+   "value": "25,000"
+  },
+  {
+   "label": "Event Buffer",
+   "value": "5,00,000"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Inbuilt Wi-Fi Module (IEEE 802.11 b/g/n)"
+  },
+  {
+   "label": "Inbuilt Bluetooth",
+   "value": "YES"
+  },
+  {
+   "label": "Ethernet",
+   "value": "YES (10/100 Mbps)"
+  },
+  {
+   "label": "RS-485",
+   "value": "YES"
+  },
+  {
+   "label": "USB",
+   "value": "One USB Port (For data transfer and 2G-3G-4G /WiFi Dongle)"
+  },
+  {
+   "label": "SD Card",
+   "value": "YES"
+  },
+  {
+   "label": "Aux-In",
+   "value": "YES (4 states – short, open, activated & non-activated)"
+  },
+  {
+   "label": "Aux-Out",
+   "value": "Form C and SPDT Relay"
+  }
+ ],
+ "src": "https://www.matrixcomsec.com/product/cosec-panel200p-access-control-panel/",
+ "checked": "2026-10-19"
 }

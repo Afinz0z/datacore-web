@@ -1,6 +1,6 @@
 {
  "sku": "B224BI-WH",
- "order": 2707,
+ "order": 2705,
  "n": "White, isolator detector base (B224BI-WH)",
  "b": "Notifier",
  "c": "Mount",
@@ -11,7 +11,6 @@
  "specs": [],
  "for": [
   "FPTI-951-WH",
-  "FSP-951T",
   "FST-951R"
  ]
 }

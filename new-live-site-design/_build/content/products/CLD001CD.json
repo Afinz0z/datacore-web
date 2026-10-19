@@ -1,6 +1,6 @@
 {
  "sku": "CLD001CD",
- "order": 1266,
+ "order": 1264,
  "n": "Compact Loop Driver, Desktop Mic, Pre-formed Loop (CLD001CD)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CLD001CD",
  "d": "Compact Loop Driver, Desktop Mic, Pre-formed Loop, A6 Loop Present Sign, Installation Guide, Region Specific Power Supply",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "80 Hz to 6.5 kHz ± 3 dB"
+  },
+  {
+   "label": "Distortion",
+   "value": "THD+N < 0.2 %, 1 kHz Sine Wave at Full Current"
+  },
+  {
+   "label": "AGC",
+   "value": "Optimized for Speech, Dynamic Range > 36 dB"
+  },
+  {
+   "label": "Microphone Input",
+   "value": "Unbalaced 3.5mm Mono Connector for Electret Micorphone, 6 VDC Bias"
+  },
+  {
+   "label": "Line Input",
+   "value": "Switchable Line/Microphone, Unbalaced 3.5mm Mono Connector"
+  },
+  {
+   "label": "Gain Control",
+   "value": "Front recessed input level control"
+  },
+  {
+   "label": "Metal Loss Correction",
+   "value": "Correct system frequency response due to metal structures"
+  },
+  {
+   "label": "Cooling",
+   "value": "Natural Convection"
+  },
+  {
+   "label": "Drive Current Indication",
+   "value": "Front Panel LED Indicates Current Peaks"
+  },
+  {
+   "label": "Loop Connector/s",
+   "value": "Level Cable Clamp"
+  },
+  {
+   "label": "VOX Switching",
+   "value": "To control prioritization of micorphone 1 input"
+  },
+  {
+   "label": "Compliance",
+   "value": "UL Listed"
+  }
+ ],
+ "src": "https://www.listentech.com/shop/product/cld1-induction-loop-driver-desktop-mic-loop-coil/",
+ "checked": "2026-10-19"
 }

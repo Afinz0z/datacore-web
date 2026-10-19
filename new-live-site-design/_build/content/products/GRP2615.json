@@ -1,13 +1,52 @@
 {
  "sku": "GRP2615",
- "order": 4502,
+ "order": 4487,
  "n": "IP Telephone GRANDSTREAM GRP2615",
  "b": "Grandstream",
  "c": "IP TELEPHONY",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display",
+   "value": "4.3 inch Color LCD (480x272)"
+  },
+  {
+   "label": "Lines",
+   "value": "10 Lines"
+  },
+  {
+   "label": "SIP Accounts",
+   "value": "16 SIP Accounts"
+  },
+  {
+   "label": "Audio Conferencing",
+   "value": "3-way audio conference"
+  },
+  {
+   "label": "Network Interfaces",
+   "value": "Dual switched auto-sensing 10/100/1000 Mbps Gigabit Ethernet ports with integrated PoE"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Yes, Integrated dual-band (2.4GHz and 5GHz) Wi-Fi 6 (802.11a/b/g/n/ac/ax) - hardware version 5.0 and above"
+  },
+  {
+   "label": "Device Management",
+   "value": "Yes, GDMS"
+  },
+  {
+   "label": "Custom Faceplates",
+   "value": "Yes"
+  },
+  {
+   "label": "Extension Module",
+   "value": "Yes, GBX20, Connect up to 4 GBX20 modules for a total of 160 contacts/extensions"
+  }
+ ],
  "for": [
   "UCM6302A"
- ]
+ ],
+ "src": "https://www.grandstream.com/products/ip-voice-telephony/carrier-grade-ip-phones/grp-series-professional-ip-phones/product/grp2615",
+ "checked": "2026-10-19"
 }

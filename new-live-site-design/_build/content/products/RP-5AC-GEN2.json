@@ -1,11 +1,62 @@
 {
  "sku": "RP-5AC-GEN2",
- "order": 3071,
+ "order": 3067,
  "n": "5 GHz airMAX® ac Radio BaseStation (Ubiquity)",
  "b": "Ubiquiti",
  "c": "WAP Controller",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "5 GHz airMAX® ac Radio BaseStation with airPrism® Active RF FilteringTechnology",
- "specs": []
+ "specs": [
+  {
+   "label": "Wind Loading",
+   "value": "342.5 N at 200 km/h (77 lbf at 125 mph)"
+  },
+  {
+   "label": "Networking Interface",
+   "value": "(1) GbE RJ45 port"
+  },
+  {
+   "label": "Power Method",
+   "value": "Passive PoE 2-pair (4, 5+; 7, 8 return)"
+  },
+  {
+   "label": "RF Connections",
+   "value": "(2) RP-SMA (Waterproof) (1) GPS (Waterproof)"
+  },
+  {
+   "label": "QoS",
+   "value": "WMM packet classification with user-level priority: High, Medium, Low"
+  },
+  {
+   "label": "Channel Bandwidth",
+   "value": "PtP mode: 10/20/30/40/50/60/80 MHz; PtMP mode: 10/20/30/40 MHz"
+  },
+  {
+   "label": "Dimensions",
+   "value": "88 x 40 x 230 mm (3.5 x 1.6 x 9.1\")"
+  },
+  {
+   "label": "Weight",
+   "value": "400 g (14.1 oz)"
+  },
+  {
+   "label": "Enclosure Materials",
+   "value": "Die-cast aluminum"
+  },
+  {
+   "label": "Power Supply",
+   "value": "24V, 1A gigabit PoE adapter (Included)"
+  },
+  {
+   "label": "Max. Power Consumption",
+   "value": "9.5W"
+  },
+  {
+   "label": "Shock and Vibration Certification",
+   "value": "ETSI300-019-1.4"
+  }
+ ],
+ "src": "https://techspecs.ui.com/uisp/wireless/rocket-5ac-prism",
+ "checked": "2026-10-19"
 }

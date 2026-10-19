@@ -1,6 +1,6 @@
 {
  "sku": "PRO-180-RPC",
- "order": 833,
+ "order": 832,
  "n": "Ceiling Speaker Dolby Atmos (PRO-180-RPC)",
  "b": "Klipsch",
  "c": "Speaker",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "PRO-180-RPC",
  "d": "Ceiling Speaker Dolby Atmos",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency Response",
+   "value": "52Hz - 23kHz +/- 3dB"
+  },
+  {
+   "label": "High Frequency Driver",
+   "value": "1\" (2.54cm) Titanium Dome Tweeter mated to a composite coated round Tractrix® Horn"
+  },
+  {
+   "label": "Low Frequency Driver",
+   "value": "8\" (16.51cm) Cerametallic Woofer"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "96 dB @ 2.83V / 1m"
+  },
+  {
+   "label": "Coverage Angle",
+   "value": "100°"
+  },
+  {
+   "label": "Power Handling",
+   "value": "50W RMS / 200W Peak"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ohm Compatible"
+  },
+  {
+   "label": "Enclosure Type",
+   "value": "ABS/Infinite Baffle"
+  },
+  {
+   "label": "Finish",
+   "value": "Black Baffle/Frame, White Paintable Grille"
+  },
+  {
+   "label": "Mounting Depth",
+   "value": "4.45” (11.3cm)"
+  },
+  {
+   "label": "Product Dimensions",
+   "value": "10.75” W x 10.75” H x 4.5” D (27.3cm H x 27.3cm W x 11.5cm D)"
+  },
+  {
+   "label": "Cutout Dimensions",
+   "value": "9.8” (24.9cm)"
+  }
+ ],
+ "src": "https://www.klipsch.com/products/pro-180rpc-in-ceiling-speaker/",
+ "checked": "2026-10-19"
 }

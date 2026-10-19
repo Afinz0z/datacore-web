@@ -1,6 +1,6 @@
 {
  "sku": "WUH721816ALE6L4-SATA",
- "order": 4423,
+ "order": 4408,
  "n": "WD 16TB HDD SATA Ultastar",
  "b": "Western Digital",
  "c": "HARD DISK",
@@ -8,8 +8,55 @@
  "avail": "lead",
  "model": "16TB HDD SATA",
  "d": "WD 16TB HDD SATA Ultastar",
- "specs": [],
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "16TB"
+  },
+  {
+   "label": "Form Factor",
+   "value": "3.5-Inch"
+  },
+  {
+   "label": "Connector",
+   "value": "SATA"
+  },
+  {
+   "label": "Interface",
+   "value": "SATA"
+  },
+  {
+   "label": "Disk Speed (RPM)",
+   "value": "7200 RPM"
+  },
+  {
+   "label": "Recording Technology",
+   "value": "EAMR"
+  },
+  {
+   "label": "Security",
+   "value": "SE"
+  },
+  {
+   "label": "Model Number",
+   "value": "WUH721816ALE6L4"
+  },
+  {
+   "label": "Drive",
+   "value": "3.5\""
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "5.79\" x 4\" x 1.03\""
+  },
+  {
+   "label": "Weight",
+   "value": "690gms"
+  }
+ ],
  "for": [
   "DS-9664NI-M16"
- ]
+ ],
+ "src": "https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-hc550-hdd?sku=0F38462",
+ "checked": "2026-10-19"
 }

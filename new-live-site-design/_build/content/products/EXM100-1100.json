@@ -1,11 +1,42 @@
 {
  "sku": "EXM100-1100",
- "order": 1051,
+ "order": 1049,
  "n": "Expansion Mic",
  "b": "Owl Labs",
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
  "d": "Owl Labs Expansion Mic extend audio reach by 2.5 Mtrs.",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "Single cardioid microphone"
+  },
+  {
+   "label": "Pickup range",
+   "value": "2.5 m (8 ft) in direction of microphone"
+  },
+  {
+   "label": "Microphone features",
+   "value": "Voice equalisation, echo cancellation, background noise reduction"
+  },
+  {
+   "label": "Width",
+   "value": "8.7 cm (3.4 in)"
+  },
+  {
+   "label": "Depth",
+   "value": "8.7 cm (3.4 in)"
+  },
+  {
+   "label": "Height",
+   "value": "2.9 cm (1.1 in)"
+  },
+  {
+   "label": "Weight",
+   "value": "0.17 kg (0.38 lb)"
+  }
+ ],
+ "src": "https://owllabs.co.uk/products/expansion-mic",
+ "checked": "2026-10-19"
 }

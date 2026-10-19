@@ -1,6 +1,6 @@
 {
  "sku": "HD6500",
- "order": 4396,
+ "order": 4381,
  "n": "Synology HD6500",
  "b": "Synology",
  "c": "Server",
@@ -9,12 +9,58 @@
  "d": "Synology HD6500 60-Bay Rackmount NAS Enclosure, 4U",
  "specs": [
   {
-   "label": "Type",
-   "value": "Network Attached Storage (NAS)"
+   "label": "CPU Model",
+   "value": "Intel Xeon Silver 4210R"
+  },
+  {
+   "label": "CPU Cores",
+   "value": "10"
+  },
+  {
+   "label": "CPU Threads",
+   "value": "20"
+  },
+  {
+   "label": "CPU Architecture",
+   "value": "64-bit"
+  },
+  {
+   "label": "CPU Frequency",
+   "value": "2.4 (base) / 3.2 (turbo) GHz"
+  },
+  {
+   "label": "System Memory",
+   "value": "64 GB DDR4 ECC RDIMM"
+  },
+  {
+   "label": "Memory Module Pre-installed",
+   "value": "64 GB (32 GB × 2)"
+  },
+  {
+   "label": "Total Memory Slots",
+   "value": "16"
+  },
+  {
+   "label": "Maximum Memory Capacity",
+   "value": "512 GB (32 GB × 16)"
+  },
+  {
+   "label": "Drive Bays",
+   "value": "60 × 3.5\" SAS HDD or 2.5\" SATA SSD"
+  },
+  {
+   "label": "Maximum Drive Bays with Expansion Unit",
+   "value": "300 (RX6025sas × 4)"
+  },
+  {
+   "label": "System Drive",
+   "value": "2 × 2.5\" SATA SSD"
   }
  ],
  "acc": [
   "HAS5320-24T",
   "RKS-03"
- ]
+ ],
+ "src": "https://www.synology.com/en-global/products/HD6500",
+ "checked": "2026-10-19"
 }

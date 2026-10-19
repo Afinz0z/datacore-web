@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SMART MX265-V5 SMART Board MX265-V5 interactive display with iQ",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size (diagonal)",
+   "value": "65 in"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Maximum display resolution",
+   "value": "4K UHD (3840 × 2160)"
+  },
+  {
+   "label": "Refresh rate",
+   "value": "60 Hz"
+  },
+  {
+   "label": "Minimum lifespan",
+   "value": "50,000 hours"
+  },
+  {
+   "label": "Brightness",
+   "value": "400 cd/m²"
+  },
+  {
+   "label": "Viewing angle",
+   "value": "178°"
+  },
+  {
+   "label": "Glass",
+   "value": "Full heat-tempered | Anti-glare | Anti-fingerprint | Bonded"
+  },
+  {
+   "label": "Speakers",
+   "value": "2 integrated 20 W speakers"
+  },
+  {
+   "label": "Microphones",
+   "value": "Integrated linear six-microphone array with support for onboard acoustic echo cancellation"
+  },
+  {
+   "label": "Touch technology",
+   "value": "HyPr Touch with Advanced IR"
+  }
+ ],
+ "src": "https://www.smarttech.com/en-ae/products/mx-series/education",
+ "checked": "2026-10-19"
 }

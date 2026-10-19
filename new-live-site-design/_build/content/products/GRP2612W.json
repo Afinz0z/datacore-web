@@ -1,14 +1,49 @@
 {
  "sku": "GRP2612W",
- "order": 4501,
+ "order": 4486,
  "n": "IP Telephone GRANDSTREAM GRP2612W",
  "b": "Grandstream",
  "c": "IP TELEPHONY",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP Telephone GRANDSTREAM GRP2612W (end user)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display",
+   "value": "2.4 inch Color LCD (320x240)"
+  },
+  {
+   "label": "Lines",
+   "value": "4 Lines"
+  },
+  {
+   "label": "SIP Accounts",
+   "value": "4 SIP Accounts"
+  },
+  {
+   "label": "Audio Conferencing",
+   "value": "5-way audio conference"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "GRP2612W, Integrated dual-band (2.4GHz and 5GHz) Wi-Fi 6 (802.11a/b/g/n/ac/ax) - hardware version 5.0 and above"
+  },
+  {
+   "label": "Device Management",
+   "value": "Yes, GDMS"
+  },
+  {
+   "label": "Custom Faceplates",
+   "value": "Yes"
+  },
+  {
+   "label": "Extension Module",
+   "value": "No"
+  }
+ ],
  "for": [
   "UCM6302A"
- ]
+ ],
+ "src": "https://www.grandstream.com/products/ip-voice-telephony/carrier-grade-ip-phones/grp-series-professional-ip-phones/product/grp2612-p-w-g",
+ "checked": "2026-10-19"
 }

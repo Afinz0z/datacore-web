@@ -1,6 +1,6 @@
 {
  "sku": "ACWP50",
- "order": 1261,
+ "order": 1259,
  "n": "Adhesive Warning Tape 164 ft (ACWP50)",
  "b": "Listen Technologies",
  "c": "Assistive Listening",
@@ -8,8 +8,35 @@
  "avail": "lead",
  "model": "ACWP50",
  "d": "Adhesive Warning Tape 164 ft. (50 m)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Length",
+   "value": "164 ft. (50 m)"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Logos",
+   "value": "Warning and Hearing Impaired"
+  },
+  {
+   "label": "Material",
+   "value": "Special High Grade with Adhesive"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "1.7 lbs. (0.8 kg)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.7 lbs. (.8 kg)"
+  }
+ ],
  "for": [
   "C10-2"
- ]
+ ],
+ "src": "https://www.listentech.com/shop/product/adhesive-installation-warning-tape-50-m-164-ft/",
+ "checked": "2026-10-19"
 }

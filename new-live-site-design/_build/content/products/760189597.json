@@ -1,6 +1,6 @@
 {
  "sku": "760189597",
- "order": 3783,
+ "order": 3776,
  "n": "Cat 6A F/FTP Cable",
  "b": "SYSTIMAX",
  "c": "UTP CABLE",
@@ -9,8 +9,54 @@
  "d": "3296A Category 6A F/FTP Cable, low smoke zero halogen, white jacket, 4 pair count, 1640 ft (500 m) length, reel",
  "specs": [
   {
-   "label": "Unit",
-   "value": "Reel"
+   "label": "Portfolio",
+   "value": "SYSTIMAX®"
+  },
+  {
+   "label": "Product Type",
+   "value": "Twisted pair cable"
+  },
+  {
+   "label": "Product Number",
+   "value": "3296A"
+  },
+  {
+   "label": "ANSI/TIA Category",
+   "value": "6A"
+  },
+  {
+   "label": "Cable Component Type",
+   "value": "Horizontal"
+  },
+  {
+   "label": "Cable Type",
+   "value": "F/FTP (shielded)"
+  },
+  {
+   "label": "Conductor Type, singles",
+   "value": "Solid"
+  },
+  {
+   "label": "Jacket Color",
+   "value": "White"
+  },
+  {
+   "label": "Transmission Standards",
+   "value": "ANSI/TIA-568.2-D | ISO/IEC 11801 Class EA"
+  },
+  {
+   "label": "Cable Length",
+   "value": "500 m | 1640.42 ft"
+  },
+  {
+   "label": "Cable Length Tolerance",
+   "value": "±5%"
+  },
+  {
+   "label": "Diameter Over Insulated Conductor",
+   "value": "1.168 mm | 0.046 in"
   }
- ]
+ ],
+ "src": "https://www.commscope.com/product-type/cables/twisted-pair-cables/category-6a-cables/item760189597/",
+ "checked": "2026-10-19"
 }

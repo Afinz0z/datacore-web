@@ -1,6 +1,6 @@
 {
  "sku": "RIVAGE PM5",
- "order": 1314,
+ "order": 1312,
  "n": "Mixing System (RIVAGE PM5)",
  "b": "Yamaha",
  "c": "Audio Mixer",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "RIVAGE PM5",
  "d": "Mixing System",
- "specs": []
+ "specs": [
+  {
+   "label": "Input Mixing channels DSP-RX",
+   "value": "120"
+  },
+  {
+   "label": "Input Mixing channels DSP-RX-EX",
+   "value": "288"
+  },
+  {
+   "label": "Mix Buses DSP-RX",
+   "value": "48"
+  },
+  {
+   "label": "Mix Buses DSP-RX-EX",
+   "value": "72"
+  },
+  {
+   "label": "Matrices DSP-RX",
+   "value": "24 (Input to Matrix supported)"
+  },
+  {
+   "label": "Matrices DSP-RX-EX",
+   "value": "36 (Input to Matrix supported)"
+  },
+  {
+   "label": "Mixing Capacity Stereo buses",
+   "value": "2"
+  },
+  {
+   "label": "Mixing Capacity mono buses",
+   "value": "1"
+  },
+  {
+   "label": "Mixing Capacity cue bus",
+   "value": "2"
+  },
+  {
+   "label": "Analog in",
+   "value": "8"
+  },
+  {
+   "label": "Analog out",
+   "value": "8"
+  },
+  {
+   "label": "Digital AES IN",
+   "value": "4"
+  }
+ ],
+ "src": "https://usa.yamaha.com/products/proaudio/mixers/rivage_pm/specs.html",
+ "checked": "2026-10-19"
 }

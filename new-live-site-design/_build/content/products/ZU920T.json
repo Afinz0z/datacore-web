@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "ZU920T",
  "d": "10000 LUMENS LASER A104U + STD LENS",
- "specs": []
+ "specs": [
+  {
+   "label": "Display technology",
+   "value": "DLP®"
+  },
+  {
+   "label": "Resolution",
+   "value": "WUXGA (1920x1200)"
+  },
+  {
+   "label": "ISO 21118 brightness",
+   "value": "9,800"
+  },
+  {
+   "label": "ANSI brightness",
+   "value": "8,200"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "3,000,000:1"
+  },
+  {
+   "label": "Contrast ratio - full on/off",
+   "value": "1,100:1"
+  },
+  {
+   "label": "Native aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Keystone correction - horizontal",
+   "value": "30°"
+  },
+  {
+   "label": "Keystone correction - vertical",
+   "value": "30°"
+  },
+  {
+   "label": "Screen size",
+   "value": "1.27m ~ 7.62m (50\" ~ 300\") diagonal"
+  },
+  {
+   "label": "Light source type",
+   "value": "DuraCore Laser"
+  },
+  {
+   "label": "LASER life",
+   "value": "30,000 hours"
+  }
+ ],
+ "src": "https://www.optoma.co.uk/product-details/zu920t",
+ "checked": "2026-10-19"
 }

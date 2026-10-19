@@ -1,11 +1,62 @@
 {
  "sku": "MG06X",
- "order": 1313,
+ "order": 1311,
  "n": "MG06X Mixer",
  "b": "Yamaha",
  "c": "Audio Mixer",
  "dept": "AV",
  "avail": "lead",
  "d": "Yamaha MG06X Mixer (3rd Generation) 6-Channel, with SPX Effect",
- "specs": []
+ "specs": [
+  {
+   "label": "On-board processors",
+   "value": "SPX algorithm: 6 programs"
+  },
+  {
+   "label": "Phantom power",
+   "value": "+48 V"
+  },
+  {
+   "label": "Input Channels Mono[MIC/LINE]",
+   "value": "2"
+  },
+  {
+   "label": "Input Channels Stereo[LINE]",
+   "value": "2"
+  },
+  {
+   "label": "Output Channels STEREO OUT",
+   "value": "2"
+  },
+  {
+   "label": "Output Channels PHONES",
+   "value": "1"
+  },
+  {
+   "label": "Bus",
+   "value": "Stereo: 1"
+  },
+  {
+   "label": "Input Channel Function PAD",
+   "value": "26 dB (Mono)"
+  },
+  {
+   "label": "Input Channel Function HPF",
+   "value": "80 Hz, 12 dB/oct (Mono)"
+  },
+  {
+   "label": "Input Channel Function EQ HIGH",
+   "value": "(Mono) Gain: +15 dB/-15 dB, Frequency: 10 kHz shelving"
+  },
+  {
+   "label": "Input Channel Function EQ LOW",
+   "value": "(Mono) Gain: +15 dB/-15 dB, Frequency: 100 Hz shelving"
+  },
+  {
+   "label": "Input Channel Function PEAK LED",
+   "value": "LED turns on when post EQ signal reaches 3 dB below clipping"
+  }
+ ],
+ "src": "https://usa.yamaha.com/products/proaudio/mixers/mg_series_xu_model/specs.html",
+ "checked": "2026-10-19"
 }
