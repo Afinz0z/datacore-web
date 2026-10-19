@@ -1,14 +1,65 @@
 {
  "sku": "DHI-ASI8213S-W",
- "order": 3399,
+ "order": 3392,
  "n": "Face Recognition Access Controller",
  "b": "Dahua",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua DHI-ASI8213S-W is an AI-based face recognition access controller featuring an 8-inch touchscreen, visible light facial recognition, card, password, QR code, and remote authentication. Designed for enterprise access control, it supports large user databases, IP65 protection, and indoor/outdoor installation.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded Processor"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "UDP;TCP;IPv6;IPv4;RTSP;SIP;P2P;RTP"
+  },
+  {
+   "label": "OSDP Protocol",
+   "value": "Yes"
+  },
+  {
+   "label": "Product Type",
+   "value": "Standalone"
+  },
+  {
+   "label": "Display Screen",
+   "value": "8\" LCD"
+  },
+  {
+   "label": "Screen Type",
+   "value": "Capacitive Touchscreen"
+  },
+  {
+   "label": "Screen Resolution",
+   "value": "1280 (V) × 800 (H)"
+  },
+  {
+   "label": "Camera",
+   "value": "1/2.7\" 2MP CMOS HD camera with WDR"
+  },
+  {
+   "label": "WDR",
+   "value": "120 dB"
+  },
+  {
+   "label": "Light Compensation",
+   "value": "Auto IR"
+  },
+  {
+   "label": "Voice Prompt",
+   "value": "Yes"
+  },
+  {
+   "label": "Speaker",
+   "value": "Yes"
+  }
+ ],
  "for": [
   "DHI-ASC3202B"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/ai/standalone/ultra/asi8213s-w",
+ "checked": "2026-10-19"
 }

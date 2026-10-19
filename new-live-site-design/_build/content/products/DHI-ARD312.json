@@ -1,11 +1,62 @@
 {
  "sku": "DHI-ARD312",
- "order": 3541,
+ "order": 3534,
  "n": "Magnetic Door Contact Dahua",
  "b": "Dahua",
  "c": "Door Contact",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Magnetic Door Contact",
- "specs": []
+ "specs": [
+  {
+   "label": "Alarm Output",
+   "value": "1, NC, 100 VDC, Max. 500 mA"
+  },
+  {
+   "label": "Movement Distance",
+   "value": "≥35 mm (1.38\")"
+  },
+  {
+   "label": "Installation",
+   "value": "Surface mount"
+  },
+  {
+   "label": "Appearance Color",
+   "value": "Silver grey"
+  },
+  {
+   "label": "Anti-corrosion Level",
+   "value": "Basic Protection"
+  },
+  {
+   "label": "Product Dimensions",
+   "value": "18.0 mm × 10.0 mm × 50.0 mm (0.71\" × 0.39\" × 1.97\") (L × W × H)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "54 g (0.12 lb)"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "56.7 g (0.13 lb)"
+  },
+  {
+   "label": "Casing Material",
+   "value": "Metal plating"
+  },
+  {
+   "label": "Certifications",
+   "value": "CE"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "–10 °C to +55 °C (+14 °F to +131 °F)"
+  },
+  {
+   "label": "Storage Humidity",
+   "value": "10%–90% (RH)"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/alarms/wired-alarm/detectors/ard312",
+ "checked": "2026-10-19"
 }

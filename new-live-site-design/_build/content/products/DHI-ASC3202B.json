@@ -1,13 +1,62 @@
 {
  "sku": "DHI-ASC3202B",
- "order": 3443,
+ "order": 3436,
  "n": "2 Door Network Access Controller",
  "b": "Dahua",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua DHI-ASC3202B is a network access controller supporting up to two doors with flexible one-way or two-way access control. It supports multiple authentication methods including card, fingerprint, password, Bluetooth, and remote access. Designed for commercial and enterprise deployments, it features TCP/IP connectivity, PoE support, alarm interfaces, and integration with Dahua access management systems.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded processor"
+  },
+  {
+   "label": "Internet Protocol",
+   "value": "P2P; IPv4; DNS; DDNS; TCP; UDP"
+  },
+  {
+   "label": "Interoperability",
+   "value": "ONVIF; CGI"
+  },
+  {
+   "label": "Product Type",
+   "value": "Controller"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Unlock Mode",
+   "value": "Card; remote; password; fingerprint; Bluetooth; combination unlock"
+  },
+  {
+   "label": "Period List",
+   "value": "128 periods"
+  },
+  {
+   "label": "Holiday Period",
+   "value": "128 periods"
+  },
+  {
+   "label": "Network Update",
+   "value": "Yes"
+  },
+  {
+   "label": "Blocklist/Allowlist",
+   "value": "Yes"
+  },
+  {
+   "label": "Peripheral Card Reader",
+   "value": "Supports 2 × RS-485 card readers; 2 × Wiegand card readers"
+  },
+  {
+   "label": "Multi-user Authentication",
+   "value": "Yes (Use with platform)"
+  }
+ ],
  "acc": [
   "ASF053-ZJ",
   "ASF500L",
@@ -16,5 +65,7 @@
   "DHI-ASF500A",
   "DHI-ASI8213S-W",
   "S042-1A120300HK"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/access-control/controllers/asc3202b",
+ "checked": "2026-10-19"
 }

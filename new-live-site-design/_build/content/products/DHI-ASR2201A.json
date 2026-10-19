@@ -1,11 +1,62 @@
 {
  "sku": "DHI-ASR2201A",
- "order": 3394,
+ "order": 3387,
  "n": "Access Reader - Keypad",
  "b": "Dahua",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IC Card, Password Access Reader,IP66 protection,contactless Mifare IC card recognition",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Slim Card Reader"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Casing",
+   "value": "Tempered glass/PC"
+  },
+  {
+   "label": "Unlock Mode",
+   "value": "Card swiping/password Multiple unlocking modes"
+  },
+  {
+   "label": "Card Type",
+   "value": "IC card"
+  },
+  {
+   "label": "Modulation Type",
+   "value": "AM"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "13.56 MHz"
+  },
+  {
+   "label": "Max Transmission Power",
+   "value": "42 dBuA/m @10 m"
+  },
+  {
+   "label": "Response Time",
+   "value": "0.1 s"
+  },
+  {
+   "label": "Card Reading Distance",
+   "value": "0 cm–5 cm (0\"–1.97\")"
+  },
+  {
+   "label": "RS-485",
+   "value": "1 channel"
+  },
+  {
+   "label": "Wiegand",
+   "value": "1 output channel"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/access-control/readers/asr2201a",
+ "checked": "2026-10-19"
 }

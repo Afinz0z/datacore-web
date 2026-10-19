@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)",
- "specs": []
+ "specs": [
+  {
+   "label": "Diagonal Size",
+   "value": "55\"(16:9)"
+  },
+  {
+   "label": "Panel Type",
+   "value": "ADS"
+  },
+  {
+   "label": "Resolution",
+   "value": "1920×1080 (FHD)"
+  },
+  {
+   "label": "Bezel Width",
+   "value": "B2B: 1.7mm (Panel Bezel to Panel Bezel), 0.9mm (T/L), 0.8mm (B/R); A2A: 2.45mm (Active area to Active area), 1.5mm (T/L), 0.95mm (B/R)"
+  },
+  {
+   "label": "Backlight",
+   "value": "Direct LED"
+  },
+  {
+   "label": "Brightness",
+   "value": "500 cd/ m"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1200:1"
+  },
+  {
+   "label": "Pixel Density",
+   "value": "40dpi"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "H178°, V178°"
+  },
+  {
+   "label": "Response Time (G-to-G)",
+   "value": "8ms"
+  },
+  {
+   "label": "Color Depth",
+   "value": "8bit (16.7M)"
+  },
+  {
+   "label": "Surface Treatment",
+   "value": "Haze 25%, 2H"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/in/products/display-&-control/lcd-video-walls/ultra-series/ls550udm-uf",
+ "checked": "2026-10-19"
 }

@@ -1,10 +1,61 @@
 {
  "sku": "DHI-ASC4204C-D",
- "order": 3446,
+ "order": 3439,
  "n": "Dahua Double Door one-way Access Controller",
  "b": "Dahua",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded Processor"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "IPv4;UDP;P2P;IPv6;TCP"
+  },
+  {
+   "label": "OSDP Protocol",
+   "value": "Yes"
+  },
+  {
+   "label": "Interoperability",
+   "value": "ONVIF PROFILE C"
+  },
+  {
+   "label": "SDK",
+   "value": "Yes"
+  },
+  {
+   "label": "Product Type",
+   "value": "Iron Case Access Controller"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Verification Method",
+   "value": "Card;Password;Fingerprint;Remote;QR Code"
+  },
+  {
+   "label": "Period List",
+   "value": "128 groups"
+  },
+  {
+   "label": "Holiday Period",
+   "value": "128 groups"
+  },
+  {
+   "label": "Network Update",
+   "value": "Yes"
+  },
+  {
+   "label": "First User Unlock",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/access-control/controllers/asc4204c-d",
+ "checked": "2026-10-19"
 }

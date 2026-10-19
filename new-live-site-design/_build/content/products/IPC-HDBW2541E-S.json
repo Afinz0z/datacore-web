@@ -1,11 +1,62 @@
 {
  "sku": "IPC-HDBW2541E-S",
- "order": 3119,
+ "order": 3117,
  "n": "5MP IR Fixed Dome Network Camera",
  "b": "Dahua",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua IPC-HDBW2541E-S is a 5 MP fixed dome network camera featuring WizSense AI technology, Smart H.265+ compression, built-in IR illumination up to 30 m, and intelligent video analytics. With IP67 and IK10 protection, it is ideal for indoor and outdoor surveillance in commercial and enterprise environments.",
- "specs": []
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "1/2.7\" CMOS"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "2960 (H) × 1668 (V)"
+  },
+  {
+   "label": "Scanning System",
+   "value": "Progressive"
+  },
+  {
+   "label": "Electronic Shutter Speed",
+   "value": "Auto/Manual 1/3 s–1/100,000 s"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "0.007 Lux@F1.6 (Color, 30 IRE); 0.0007 Lux@F1.6 (B/W, 30 IRE); 0 lux (Illuminator on)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "﹥56 dB"
+  },
+  {
+   "label": "Illumination Distance",
+   "value": "Up to 30 m (98.43 ft) (IR)"
+  },
+  {
+   "label": "Illuminator On/Off Control",
+   "value": "Auto; Manual"
+  },
+  {
+   "label": "Illuminator Number",
+   "value": "3 (IR LED)"
+  },
+  {
+   "label": "Pan/Tilt/Rotation Range",
+   "value": "Pan: 0°–355° Tilt: 0°–65° Rotation: 0°–355°"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed-focal"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/ir/ipc-hdbw2541e-s=s2",
+ "checked": "2026-10-19"
 }

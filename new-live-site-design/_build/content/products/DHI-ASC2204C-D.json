@@ -1,17 +1,68 @@
 {
  "sku": "DHI-ASC2204C-D",
- "order": 3447,
+ "order": 3440,
  "n": "Dahua Four Door two-way Access Controller",
  "b": "Dahua",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dahua Four Door two-way Access Controller with batteries",
- "specs": [],
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded processor"
+  },
+  {
+   "label": "Internet Protocol",
+   "value": "IPv4; TCP; UDP"
+  },
+  {
+   "label": "OSDP Protocol",
+   "value": "Yes"
+  },
+  {
+   "label": "SDK",
+   "value": "Yes"
+  },
+  {
+   "label": "Product Appearance",
+   "value": "Type C Iron Container"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Unlock Mode",
+   "value": "Card swiping; Remote; Password; Fingerprint"
+  },
+  {
+   "label": "Period List",
+   "value": "128"
+  },
+  {
+   "label": "Holiday Period",
+   "value": "128"
+  },
+  {
+   "label": "Network Update",
+   "value": "Yes"
+  },
+  {
+   "label": "First-Card Unlock",
+   "value": "Yes"
+  },
+  {
+   "label": "Remote Verification",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "ASF705",
   "ASF908",
   "DHI-ASR2101A-ME",
   "IC-S50"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/access-control/controllers/asc2204c-d",
+ "checked": "2026-10-19"
 }

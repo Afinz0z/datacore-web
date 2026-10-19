@@ -842,6 +842,62 @@
   "checked": "2026-10-18",
   "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
  },
+ "DH-IPC-HDBW5842E-ZE": {
+  "brand": "Dahua",
+  "name": "8MP IR Vari-focal Vandal-proof Dome WizMind Network Camera Dahua",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw5842e-ze=s3",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IPC-HDBW5842E-ZE carries the \"Discontinued\" tag"
+ },
+ "DH-IPC-HFW2849T-AS-IL": {
+  "brand": "Dahua",
+  "name": "8MP Smart Dual Light Fixed-focal Bullet WizSense Network Camera Dahua",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw2849t-as-il",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IPC-HFW2849T-AS-IL carries the \"Discontinued\" tag"
+ },
+ "DH-IPC-HFW3849T1-ZAS-PV": {
+  "brand": "Dahua",
+  "name": "Dahua 8MP Vari-focal Bullet Network Camera",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw3849t1-zas-pv",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IPC-HFW3849T1-ZAS-PV carries the \"Discontinued\" tag"
+ },
+ "DH-IPC-HFW3849T1-ZASPV": {
+  "brand": "Dahua",
+  "name": "8MP Bullet WizSense Network Camera",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw3849t1-zas-pv",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IPC-HFW3849T1-ZAS-PV carries the \"Discontinued\" tag"
+ },
+ "DH-IPC-HFW5842E-ZE": {
+  "brand": "Dahua",
+  "name": "8MP IR Vari-focal Bullet WizMind Network Camera Dahua",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5842e-ze=s3",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IPC-HFW5842E-ZE carries the \"Discontinued\" tag"
+ },
+ "DH-IPCHDBW5442H- ZHE": {
+  "brand": "Dahua",
+  "name": "4MP IR Vari-focal Dome WizMind Network Camera",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hdbw5442h-zhe=s3",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IPC-HDBW5442H-ZHE carries the \"Discontinued\" tag"
+ },
+ "DH-IPCHFW5442H- ZHE": {
+  "brand": "Dahua",
+  "name": "4MP IR Vari-focal Bullet WizMind Network Camera",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/network-cameras/ipc-hfw5442h-zhe=s3",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IPC-HFW5442H-ZHE carries the \"Discontinued\" tag"
+ },
+ "DHI-IVS-GS8000- GU2-HW": {
+  "brand": "Dahua",
+  "name": "Intelligent Server",
+  "page": "https://www.dahuasecurity.com/products/discontinued-products/ivs/ivs-gs8000-gu2-hw",
+  "checked": "2026-10-19",
+  "evidence": "dahuasecurity.com search result for IVS-GS8000-GU2-HW carries the \"Discontinued\" tag"
+ },
  "DS-2CD2543G0-IS": {
   "brand": "Hikvision",
   "name": "4MP EXIR Mini Dome Network Camera Lens with Audio",

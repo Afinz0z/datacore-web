@@ -1,11 +1,46 @@
 {
  "sku": "DHI-ASF500B",
- "order": 3473,
+ "order": 3466,
  "n": "Dahua DML",
  "b": "Dahua",
  "c": "Magnetic Lock",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dahua Dual Door Magnetic Lock",
- "specs": []
+ "specs": [
+  {
+   "label": "Applicable Door Type",
+   "value": "Wooden door, glass door, metal door, fire door, etc"
+  },
+  {
+   "label": "Signal Output",
+   "value": "Door status feed back"
+  },
+  {
+   "label": "Security",
+   "value": "Open while power off"
+  },
+  {
+   "label": "Starting Current",
+   "value": "600 mA × 2; 300 mA × 2"
+  },
+  {
+   "label": "Suction Plate Dimensions",
+   "value": "180 mm × 60 mm × 13 mm (7.09\" × 2.36\" × 0.51\")"
+  },
+  {
+   "label": "Net Weight",
+   "value": "9 Kg (19.84 lb)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "12 VDC; 24 VDC"
+  },
+  {
+   "label": "Lock Dimensions",
+   "value": "530 mm × 71 mm × 40 mm (20.87\" × 2.80\" × 1.57\")"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/explosion-proof-&-anti-corrosion/Accessories/Magnetic-Locks/ASF500B",
+ "checked": "2026-10-19"
 }

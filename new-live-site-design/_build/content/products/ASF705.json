@@ -1,14 +1,57 @@
 {
  "sku": "ASF705",
- "order": 3553,
+ "order": 3546,
  "n": "Electric Strike",
  "b": "Dahua",
  "c": "Electric Strike",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Magnetic lock",
- "specs": [],
+ "specs": [
+  {
+   "label": "Working voltage",
+   "value": "DC12V"
+  },
+  {
+   "label": "Working current",
+   "value": "320mA"
+  },
+  {
+   "label": "State Output",
+   "value": "yes"
+  },
+  {
+   "label": "Applications",
+   "value": "Wooden door, metal door, PVC door, etc"
+  },
+  {
+   "label": "Anti-pull",
+   "value": "500kg"
+  },
+  {
+   "label": "Material",
+   "value": "Stainless steel precision casting"
+  },
+  {
+   "label": "Dimensions",
+   "value": "250*25*35mm"
+  },
+  {
+   "label": "Weight",
+   "value": "0.42kg"
+  },
+  {
+   "label": "Working temperature",
+   "value": "-30°C~+60°C"
+  },
+  {
+   "label": "Working humidity",
+   "value": "≤95%"
+  }
+ ],
  "for": [
   "DHI-ASC2204C-D"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/electric-strike-locks/asf705",
+ "checked": "2026-10-19"
 }

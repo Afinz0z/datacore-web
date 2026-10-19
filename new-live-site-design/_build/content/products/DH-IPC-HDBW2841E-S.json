@@ -1,11 +1,62 @@
 {
  "sku": "DH-IPC-HDBW2841E-S",
- "order": 3128,
+ "order": 3122,
  "n": "Dahua 8MP IR Fixed-focal Dome",
  "b": "Dahua",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8MP IR Fixed-focal Dome WizSense Network Camera8-MP 1/2.7\" CMOS image sensor, low luminance, and high definition image",
- "specs": []
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "1/2.7\" CMOS"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "3840 (H) × 2160 (V)"
+  },
+  {
+   "label": "Scanning System",
+   "value": "Progressive"
+  },
+  {
+   "label": "Electronic Shutter Speed",
+   "value": "Auto/Manual 1/3 s–1/100,000 s"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "0.009 lux@F 2.0 (Color, 30 IRE) 0.0009 lux@F2.0 (B/W, 30 IRE) 0 lux (Illuminator on)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "> 56 dB"
+  },
+  {
+   "label": "Illumination Distance",
+   "value": "30 m (98.43 ft) (IR)"
+  },
+  {
+   "label": "Illuminator On/Off Control",
+   "value": "Auto; Manual"
+  },
+  {
+   "label": "Illuminator Number",
+   "value": "3 (IR LED)"
+  },
+  {
+   "label": "Pan/Tilt/Rotation Range",
+   "value": "Pan: 0°–355° Tilt: 0°–65° Rotation: 0°–355°"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed-focal"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/ir/ipc-hdbw2841e-s",
+ "checked": "2026-10-19"
 }

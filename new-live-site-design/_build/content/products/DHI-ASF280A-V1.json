@@ -1,6 +1,6 @@
 {
  "sku": "DHI-ASF280A-V1",
- "order": 3474,
+ "order": 3467,
  "n": "Dahua SML",
  "b": "Dahua",
  "c": "Magnetic Lock",
@@ -9,8 +9,54 @@
  "d": "Dahua Single Door Magnetic Lock",
  "specs": [
   {
-   "label": "Type",
-   "value": "Sml"
+   "label": "Product Type",
+   "value": "Magnetic lock"
+  },
+  {
+   "label": "Surface Treatment",
+   "value": "Electroplating and drawing"
+  },
+  {
+   "label": "Signal Output",
+   "value": "COM/NO/NC"
+  },
+  {
+   "label": "Door Status Detection",
+   "value": "1, relay"
+  },
+  {
+   "label": "Security",
+   "value": "Open while power off"
+  },
+  {
+   "label": "Max Tension",
+   "value": "280 kg (617.29 lb), tensile force"
+  },
+  {
+   "label": "Unlock Angle",
+   "value": "90°"
+  },
+  {
+   "label": "Applicable Door Thickness",
+   "value": "5 cm–15 cm (1.97\"–5.91\")"
+  },
+  {
+   "label": "Power Adapter",
+   "value": "Optional"
+  },
+  {
+   "label": "Lifespan",
+   "value": "40000"
+  },
+  {
+   "label": "Installation",
+   "value": "Surface Mount"
+  },
+  {
+   "label": "Anti-corrosion Level",
+   "value": "Basic Protection"
   }
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/explosion-proof-&-anti-corrosion/Accessories/Magnetic-Locks/ASF280A-V1",
+ "checked": "2026-10-19"
 }

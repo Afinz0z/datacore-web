@@ -1,6 +1,6 @@
 {
  "sku": "ASF908",
- "order": 3492,
+ "order": 3485,
  "n": "Push Button, Infrared Exit Button",
  "b": "Dahua",
  "c": "PUSH BUTTON",
@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "Push Button",
  "d": "Infrared Exit Button",
- "specs": [],
+ "specs": [
+  {
+   "label": "Material",
+   "value": "Stainless steel"
+  },
+  {
+   "label": "Weight",
+   "value": "0.3kg"
+  },
+  {
+   "label": "Dimensions",
+   "value": "86*86*25mm"
+  },
+  {
+   "label": "Working temperature",
+   "value": "-30°C~+60°C"
+  },
+  {
+   "label": "Working humidity",
+   "value": "≤95%"
+  }
+ ],
  "for": [
   "DHI-ASC2204C-D"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/buttons/asf908",
+ "checked": "2026-10-19"
 }

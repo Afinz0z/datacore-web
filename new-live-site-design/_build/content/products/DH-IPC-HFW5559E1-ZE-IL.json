@@ -1,11 +1,62 @@
 {
  "sku": "DH-IPC-HFW5559E1-ZE-IL",
- "order": 3127,
+ "order": 3121,
  "n": "Dahua 5 mp camera",
  "b": "Dahua",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "5MP Smart Dual Light Vari-focal Bullet WizMind Network Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "1/2.7\" CMOS"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "2960 (H) × 1668 (V)"
+  },
+  {
+   "label": "Scanning System",
+   "value": "Progressive"
+  },
+  {
+   "label": "Electronic Shutter Speed",
+   "value": "Auto/Manual 1/3 s–1/100,000 s"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "0.0009 lux@F1.6 (Color, 30 IRE) 0.0005 lux@F1.6 (B/W, 30 IRE) 0 lux (Illuminator on)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": ">56 dB"
+  },
+  {
+   "label": "Illumination Distance",
+   "value": "Up to 60 m (196.85 ft) (IR) Up to 60 m (196.85 ft) (Warm light)"
+  },
+  {
+   "label": "Illuminator On/Off Control",
+   "value": "Auto;Manual;Zoomprio"
+  },
+  {
+   "label": "Illuminator Number",
+   "value": "4 (Multi-core (IR + warm) light)"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0°–360° Tilt: 0°–90° Rotation: 0°–360°"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Motorized vari-focal"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "φ14"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-cameras/wizmind-5-series/smart-dual-light/5mp/ipc-hfw5559e1-ze-il",
+ "checked": "2026-10-19"
 }

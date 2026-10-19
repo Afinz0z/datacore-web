@@ -1,14 +1,37 @@
 {
  "sku": "ASF905",
- "order": 3493,
+ "order": 3486,
  "n": "Stainless Steel Exit Button",
  "b": "Dahua",
  "c": "PUSH BUTTON",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua ASF905 is a stainless steel exit button designed for access control systems. It features normally open and normally closed contact outputs, a durable mechanical design rated for 500,000 operations, and is suitable for commercial and enterprise access control installations.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Material",
+   "value": "Stainless steel"
+  },
+  {
+   "label": "Weight",
+   "value": "0.2kg"
+  },
+  {
+   "label": "Dimensions",
+   "value": "91*28*25mm"
+  },
+  {
+   "label": "Working temperature",
+   "value": "-30°C~+60°C"
+  },
+  {
+   "label": "Working humidity",
+   "value": "≤95%"
+  }
+ ],
  "for": [
   "DHI-ASC3202B"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/buttons/asf905",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,34 @@
 {
  "sku": "IPMECD-0232-M60",
- "order": 3504,
+ "order": 3497,
  "n": "Straight arm 6m",
  "b": "Dahua",
  "c": "Gate Barrier",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Straight arm 6m,high-strength aluminum alloy,",
- "specs": []
+ "specs": [
+  {
+   "label": "Color",
+   "value": "Red/white alternating"
+  },
+  {
+   "label": "Casing Material",
+   "value": "Aluminum alloy"
+  },
+  {
+   "label": "Product Dimensions",
+   "value": "6000.0 mm × 100.0 mm × 45.0 mm (236.22'' × 3.94'' × 1.77'') (L × W × H)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "6 kg (13.23 lb)"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "8.1 kg (17.86 lb)"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/intelligent-traffic/smart-parking-products/accessories/barrier-arm/ipmecd-0232-m60",
+ "checked": "2026-10-19"
 }

@@ -1,14 +1,65 @@
 {
  "sku": "DHI-ASR2101A-ME",
- "order": 3397,
+ "order": 3390,
  "n": "Dahua Access Reader",
  "b": "Dahua",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dahua ID Card,IC Card,Password Access Reader",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Card reader"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Casing",
+   "value": "PC/acrylic panel"
+  },
+  {
+   "label": "Unlock Mode",
+   "value": "Card swiping/password Multiple unlocking modes"
+  },
+  {
+   "label": "Card Type",
+   "value": "IC/ID card"
+  },
+  {
+   "label": "Response Time",
+   "value": "0.1 s"
+  },
+  {
+   "label": "Card Reading Distance",
+   "value": "0 cm–5 cm (0\"–1.97\")"
+  },
+  {
+   "label": "RS-485",
+   "value": "1 channel"
+  },
+  {
+   "label": "Wiegand",
+   "value": "1 output channel"
+  },
+  {
+   "label": "Tamper Alarm",
+   "value": "Yes"
+  },
+  {
+   "label": "Protection",
+   "value": "IP66 (silicon sealant is needed, see the manual)"
+  },
+  {
+   "label": "Installation",
+   "value": "Surface mount"
+  }
+ ],
  "for": [
   "DHI-ASC2204C-D"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/access-control/readers/asr2101a-me",
+ "checked": "2026-10-19"
 }

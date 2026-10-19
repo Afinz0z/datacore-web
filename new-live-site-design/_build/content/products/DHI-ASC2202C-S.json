@@ -1,6 +1,6 @@
 {
  "sku": "DHI-ASC2202C-S",
- "order": 3444,
+ "order": 3437,
  "n": "Access Controller One Way",
  "b": "Dahua",
  "c": "ACS CONTROLLER",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Access controller",
  "d": "Access Controller One Way",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded processor"
+  },
+  {
+   "label": "Internet Protocol",
+   "value": "IPv4; TCP; UDP"
+  },
+  {
+   "label": "OSDP Protocol",
+   "value": "Yes"
+  },
+  {
+   "label": "SDK",
+   "value": "Yes"
+  },
+  {
+   "label": "Product Appearance",
+   "value": "Type C Iron Container"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Unlock Mode",
+   "value": "Card swiping; Remote; Password; Fingerprint"
+  },
+  {
+   "label": "Period List",
+   "value": "128"
+  },
+  {
+   "label": "Holiday Period",
+   "value": "128"
+  },
+  {
+   "label": "Network Update",
+   "value": "Yes"
+  },
+  {
+   "label": "First-Card Unlock",
+   "value": "Yes"
+  },
+  {
+   "label": "Remote Verification",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/access-control/controllers/asc2202c-s",
+ "checked": "2026-10-19"
 }

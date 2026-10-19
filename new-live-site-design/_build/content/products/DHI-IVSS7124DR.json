@@ -1,18 +1,69 @@
 {
  "sku": "DHI-IVSS7124DR",
- "order": 3257,
+ "order": 3250,
  "n": "256 Channel Intelligent Video Surveillance Server",
  "b": "Dahua",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua DHI-IVSS7124DR is a 4U enterprise-grade intelligent video surveillance server that combines video management, recording, storage, and AI analytics in a single platform. It supports up to 256 IP cameras, advanced face recognition, video metadata, perimeter protection, and license plate comparison, making it suitable for large-scale surveillance deployments.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "64-bit multi-core processor"
+  },
+  {
+   "label": "Face Detection",
+   "value": "1. AI by Camera: Supports 160-channel 2 MP or 80-channel 4 MP resolution with face detection IP camera; 2. Supports 6 properties: Gender, age, glasses, expression, face mask, and beard"
+  },
+  {
+   "label": "Face Recognition",
+   "value": "1. AI by Camera: 160-channel 2 MP or 80-channel 4 MP face recognition with face recognition IPC; 2. Supports entries frequency alarm"
+  },
+  {
+   "label": "License Plate Database Capacity",
+   "value": "1. 50 plate databases with 500,000 plate numbers in total; 2. Supports allowlist and blocklist"
+  },
+  {
+   "label": "Vehicle License Plate Comparison",
+   "value": "Supports 160-channel 2 MP or 80-channel 4 MP resolution with ITC"
+  },
+  {
+   "label": "Access Channel",
+   "value": "256-channel"
+  },
+  {
+   "label": "Network Bandwidth",
+   "value": "Incoming bandwidth: 1280 Mbps; Recording bandwidth: 1280 Mbps; Outgoing bandwidth: 1280 Mbps"
+  },
+  {
+   "label": "Resolution",
+   "value": "32 MP;24 MP;16 MP;12 MP;8 MP;6 MP;5 MP;4 MP;3 MP;1080p;720p"
+  },
+  {
+   "label": "Video Output",
+   "value": "1-channel VGA output; 4-channel HDMI output; VGA 1/HDMI 1 outputs the same video source"
+  },
+  {
+   "label": "Multi-screen Display",
+   "value": "1st Screen: Max. 64-channel; 2nd Screen: Max. 36-channel; 3rd Screen: Max. 1-channel; 4th Screen: Max. 1-channel"
+  },
+  {
+   "label": "Third-party Camera Access",
+   "value": "ONVIF;RTSP;Sony;Panasonic;Axis;Arecont;Pelco;Canon;Samsung"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Smart H.265+;H.265;Smart H.264+;H.264"
+  }
+ ],
  "acc": [
   "DSS8PRAML",
   "DSS8PRAPML",
   "DSS8PRD",
   "DSS8PRDB",
   "DSS8PRRB"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/uk/products/network-products/intelligent-computing/intelligent-video-surveillance-server/ivss71-series/ivss7124dr",
+ "checked": "2026-10-19"
 }

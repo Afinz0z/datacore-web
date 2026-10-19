@@ -1,6 +1,6 @@
 {
  "sku": "ASF921",
- "order": 3529,
+ "order": 3522,
  "n": "Emergency Break Glass Button",
  "b": "Dahua",
  "c": "BREAK GLASS",
@@ -8,5 +8,28 @@
  "avail": "lead",
  "model": "BREAK GLASS",
  "d": "Emergency Break Glass Button",
- "specs": []
+ "specs": [
+  {
+   "label": "Material",
+   "value": "Plastic"
+  },
+  {
+   "label": "Weight",
+   "value": "0.2kg"
+  },
+  {
+   "label": "Dimensions",
+   "value": "86*86*50mm"
+  },
+  {
+   "label": "Working temperature",
+   "value": "-20°C~+55°C"
+  },
+  {
+   "label": "Working humidity",
+   "value": "≤95%"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/buttons/asf921",
+ "checked": "2026-10-19"
 }

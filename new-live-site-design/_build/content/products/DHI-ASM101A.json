@@ -1,6 +1,6 @@
 {
  "sku": "DHI-ASM101A",
- "order": 3557,
+ "order": 3550,
  "n": "Enrollment Unit, Overseas DH ID Card,IC Card,Fingerprint Enrollment Reader",
  "b": "Dahua",
  "c": "Enrollment Reader",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Enrollment Unit",
  "d": "Overseas DH ID Card,IC Card,Fingerprint Enrollment Reader",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Capacitive fingerprint enrollment reader"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Casing",
+   "value": "PC/acrylic panel"
+  },
+  {
+   "label": "Communication Mode",
+   "value": "ID card; IC card (Mifare card)"
+  },
+  {
+   "label": "Prompt of Succeeded in Issuing Card",
+   "value": "Card issuer flashes green"
+  },
+  {
+   "label": "IC Card Encryption",
+   "value": "Yes"
+  },
+  {
+   "label": "Card Reading Frequency",
+   "value": "13.56MHz/125KHz"
+  },
+  {
+   "label": "Card Issuing Distance",
+   "value": "0 cm–5 cm (0\"–0.20\")"
+  },
+  {
+   "label": "Fingerprint Sensor Type",
+   "value": "Capacitive fingerprint sensor"
+  },
+  {
+   "label": "Fingerprint Recording Time",
+   "value": "1800 ms"
+  },
+  {
+   "label": "Installation",
+   "value": "Desk mount"
+  },
+  {
+   "label": "Power Supply",
+   "value": "5V 0.5A DC"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/modules/asm101a",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "DHI-EVS8248X",
- "order": 4393,
+ "order": 4386,
  "n": "Enterprise Video Storage",
  "b": "Dahua",
  "c": "Server",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Enterprise-level video storage system designed for centralized storage and management of surveillance video. Supports high-capacity HDD storage, RAID configuration, and network video recording for large-scale CCTV systems.",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Dual 64-bit high-performance multi-core processor"
+  },
+  {
+   "label": "Controller",
+   "value": "Single controller"
+  },
+  {
+   "label": "Cache",
+   "value": "16 GB by default (extendable to 256 GB)"
+  },
+  {
+   "label": "Thermal",
+   "value": "Works with camera for fire alarm, temperature alarm, temperature difference alarm, hot spot, cold spot, smoking and calling"
+  },
+  {
+   "label": "People Counting",
+   "value": "Works with camera for tripwire people counting, regional people counting and queue people counting"
+  },
+  {
+   "label": "Bullet-PTZ Smart Track",
+   "value": "Works with camera for manual tracking, auto tracking, click positioning and select positioning"
+  },
+  {
+   "label": "Fisheye Dewarp",
+   "value": "Supports dewarping for fisheye cameras"
+  },
+  {
+   "label": "Cluster",
+   "value": "N+M"
+  },
+  {
+   "label": "Access Channel",
+   "value": "1024"
+  },
+  {
+   "label": "Multi-screen Display",
+   "value": "Customized display, max 16-channel PCAPP live view"
+  },
+  {
+   "label": "Third-party Camera Access",
+   "value": "ONVIF; RTSP; Sony; Panasonic; Axis; Arecont; Pelco; Canon; Samsung"
+  },
+  {
+   "label": "Video Compression",
+   "value": "Smart H.265+; H.265; Smart H.264+; H.264; MJPEG"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/storage/IP-Storage/EVS-Series/EVS8248X",
+ "checked": "2026-10-19"
 }

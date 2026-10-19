@@ -1,14 +1,61 @@
 {
  "sku": "DHI-ASB1C-B",
- "order": 5118,
+ "order": 5110,
  "n": "Access Controller Box",
  "b": "Dahua",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua DHI-ASB1C-B is an access controller enclosure designed to house and power compatible Dahua access controllers. It features a built-in power supply, battery backup support, air circuit breaker, tamper alarm, and durable galvanized steel construction for secure indoor installations.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "32-bit Processor"
+  },
+  {
+   "label": "Product Type",
+   "value": "Access controller box"
+  },
+  {
+   "label": "Tamper Alarm",
+   "value": "Yes"
+  },
+  {
+   "label": "Installation",
+   "value": "Surface Mount"
+  },
+  {
+   "label": "Casing Material",
+   "value": "Galvanized steel plate"
+  },
+  {
+   "label": "Power Supply",
+   "value": "Mains electricity input: 100–240 VAC, ≤1.5 A Mains electricity output: 15 VDC, ≤4 A Storage battery: 12 VDC, 7 AH"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "≤0.45 W (standby), ≤30 W (working)"
+  },
+  {
+   "label": "Product Dimensions",
+   "value": "455.5 mm × 355.5 mm × 109 mm (17.93\" × 13.99\" × 4.29\")"
+  },
+  {
+   "label": "Packaging Dimensions",
+   "value": "579 mm × 489 mm × 203 mm (22.80\" × 19.25\" × 7.99\")"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "9.0 kg (19.84 lb)"
+  },
+  {
+   "label": "Certifications",
+   "value": "CE"
+  }
+ ],
  "for": [
   "DHI-ASC3202B"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/access-controller-box/asb1c-b",
+ "checked": "2026-10-19"
 }

@@ -1,14 +1,57 @@
 {
  "sku": "ASF053-ZJ",
- "order": 5125,
+ "order": 5117,
  "n": "Turnstile Mount Bracket for Face Recognition Terminal",
  "b": "Dahua",
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua ASF053-ZJ is an aluminum alloy turnstile mounting bracket designed for Dahua face recognition access terminals. It provides a secure and angled mounting solution for turnstile installations and is compatible with multiple Dahua ASI series face recognition terminals.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Turnstile bracket"
+  },
+  {
+   "label": "Inclined Angle",
+   "value": "± 15°"
+  },
+  {
+   "label": "Appearance Color",
+   "value": "Silver"
+  },
+  {
+   "label": "Installation",
+   "value": "Turnstile Mount"
+  },
+  {
+   "label": "Applicable Product Model",
+   "value": "Supports various series such as ASI62xxS, ASI72xxS, ASI7213K, ASI82xxS, and ASI8213SA"
+  },
+  {
+   "label": "Casing Material",
+   "value": "Aluminum alloy"
+  },
+  {
+   "label": "Product Dimensions",
+   "value": "241.4 mm × 100.0 mm × 100.0 mm (9.50\" × 3.94\" × 3.94\") (H × W × D)"
+  },
+  {
+   "label": "Packaging Dimensions",
+   "value": "300.0 mm × 120.0 mm × 66.0 mm (11.81\" × 4.72\" × 2.60\") (H × W × D)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "0.55 kg (1.21 lb)"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "0.75 kg (1.65 lb)"
+  }
+ ],
  "for": [
   "DHI-ASC3202B"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/bracket/asf053-zj",
+ "checked": "2026-10-19"
 }

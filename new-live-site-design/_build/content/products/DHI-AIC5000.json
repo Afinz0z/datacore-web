@@ -1,14 +1,11 @@
 {
  "sku": "DHI-AIC5000",
- "order": 4395,
+ "order": 4387,
  "n": "Video Analytics Accelerator Card",
  "b": "Dahua",
  "c": "Server",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "High-performance AI computing card designed to accelerate intelligent video analysis and AI workloads in compatible Dahua analysis servers. It is used for functions such as face recognition, vehicle analysis, pedestrian detection and video metadata analysis.",
- "specs": [],
- "for": [
-  "DHI-IVS-GS8000- GU2-HW"
- ]
+ "specs": []
 }

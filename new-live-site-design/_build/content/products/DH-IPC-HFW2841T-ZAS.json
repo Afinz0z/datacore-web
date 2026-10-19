@@ -1,11 +1,62 @@
 {
  "sku": "DH-IPC-HFW2841T-ZAS",
- "order": 3123,
+ "order": 3119,
  "n": "8MP IR Vari-focal Dome WizSense Network Camera Dahua",
  "b": "Dahua",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8MP IR Vari-focal Dome WizSense Network Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "1/2.7\" CMOS"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "3840 (H) × 2160 (V)"
+  },
+  {
+   "label": "Scanning System",
+   "value": "Progressive"
+  },
+  {
+   "label": "Electronic Shutter Speed",
+   "value": "Auto/Manual 1/3 s–1/100,000 s"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "0.008 lux@F1.5 (Color, 30 IRE) 0.0008 lux@F1.5 (B/W, 30 IRE) 0 lux (Illuminator on)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "> 56 dB"
+  },
+  {
+   "label": "Illumination Distance",
+   "value": "Up to 60 m (196.85 ft) (IR)"
+  },
+  {
+   "label": "Illuminator On/Off Control",
+   "value": "Auto; Manual"
+  },
+  {
+   "label": "Illuminator Number",
+   "value": "4 (IR LED)"
+  },
+  {
+   "label": "Pan/Tilt/Rotation Range",
+   "value": "Pan: 0°–360° Tilt: 0°–90° Rotation: 0°–360°"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Motorized vari-focal"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "φ14"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/ir/ipc-hfw2841t-zas",
+ "checked": "2026-10-19"
 }

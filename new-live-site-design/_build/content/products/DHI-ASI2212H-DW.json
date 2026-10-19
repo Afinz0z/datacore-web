@@ -1,11 +1,62 @@
 {
  "sku": "DHI-ASI2212H-DW",
- "order": 3445,
+ "order": 3438,
  "n": "Dahua Access stanalone",
  "b": "Dahua",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Access Standalone",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "High-performance embedded processor"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "IPv4; TCP; UDP; P2P"
+  },
+  {
+   "label": "Display Screen",
+   "value": "2.4\" LCD"
+  },
+  {
+   "label": "Screen Type",
+   "value": "LCD"
+  },
+  {
+   "label": "Resolution",
+   "value": "240 (H) × 320 (V)"
+  },
+  {
+   "label": "Voice Prompt",
+   "value": "Yes"
+  },
+  {
+   "label": "Buzzer",
+   "value": "Yes"
+  },
+  {
+   "label": "Casing",
+   "value": "PC + ABS"
+  },
+  {
+   "label": "Unlock Mode",
+   "value": "Card/Remote/Password/Fingerprint unlock and unlock through their combinations"
+  },
+  {
+   "label": "Card Type",
+   "value": "ID card"
+  },
+  {
+   "label": "Period List",
+   "value": "128"
+  },
+  {
+   "label": "Holiday Period",
+   "value": "128"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/explosion-proof-&-anti-corrosion/Access-Control/Standalone/Pro/ASI2212H-DW",
+ "checked": "2026-10-19"
 }

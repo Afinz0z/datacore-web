@@ -1,6 +1,6 @@
 {
  "sku": "DH-PFA121",
- "order": 3339,
+ "order": 3332,
  "n": "Water-proof Junction Box",
  "b": "Dahua",
  "c": "CCTV Mounting Equipment",
@@ -8,12 +8,54 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "Junction box"
+   "label": "Appearance Color",
+   "value": "White"
+  },
+  {
+   "label": "Load Bearing",
+   "value": "3.0 kg (6.61 lb)"
+  },
+  {
+   "label": "Installation",
+   "value": "Junction mount"
+  },
+  {
+   "label": "Screw Thread Type",
+   "value": "G3/4"
+  },
+  {
+   "label": "Applicable Model",
+   "value": "Please see \"Camera Accessories Selection\""
+  },
+  {
+   "label": "Protection",
+   "value": "IP66"
+  },
+  {
+   "label": "Anti-corrosion Level",
+   "value": "Basic Protection"
+  },
+  {
+   "label": "Casing Material",
+   "value": "Aluminum alloy"
+  },
+  {
+   "label": "Product Dimensions",
+   "value": "134.0 mm × 133.9 mm × 56.0 mm (5.28\" × 5.27\" × 2.20\") (L × W × H)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "0.52 kg (1.15 lb)"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "0.62 kg (1.37 lb)"
+  },
+  {
+   "label": "Packaging Dimensions",
+   "value": "146.0 mm × 65.0 mm × 147.0 mm (5.75\" × 2.56\" × 5.79\") (L × W × H)"
   }
  ],
- "for": [
-  "DH-IPC-HFW2849T-AS-IL",
-  "DH-IPC-HFW5842E-ZE"
- ]
+ "src": "https://www.dahuasecurity.com/products/accessories/camera-accessories/camera-mounts/junction-boxes/pfa121",
+ "checked": "2026-10-19"
 }

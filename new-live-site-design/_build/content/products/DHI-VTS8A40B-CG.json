@@ -1,11 +1,62 @@
 {
  "sku": "DHI-VTS8A40B-CG",
- "order": 4514,
+ "order": 4506,
  "n": "Master Station",
  "b": "Dahua",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dahua Password Touch 6-ch Video Intercom Management Device",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded Processor"
+  },
+  {
+   "label": "Button Type",
+   "value": "Mechanical"
+  },
+  {
+   "label": "Interoperability",
+   "value": "ONVIF; CGI; SDK; SIP"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "IPv4; RTSP; UDP; FTP; RTP; TCP"
+  },
+  {
+   "label": "Screen Type",
+   "value": "Capacitive Touchscreen"
+  },
+  {
+   "label": "Display Screen",
+   "value": "10\" TFT display"
+  },
+  {
+   "label": "Screen Resolution",
+   "value": "1024 × 600"
+  },
+  {
+   "label": "Camera",
+   "value": "5 MP CMOS camera"
+  },
+  {
+   "label": "Field of View",
+   "value": "H: 57°; V: 45°; D: 72°"
+  },
+  {
+   "label": "Video Compression",
+   "value": "H.264; H.265"
+  },
+  {
+   "label": "Video Resolution",
+   "value": "720p"
+  },
+  {
+   "label": "Video Frame Rate",
+   "value": "25 fps"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/video-intercoms/ip-series/master-station/pro-series/vts8a40b-cg",
+ "checked": "2026-10-19"
 }

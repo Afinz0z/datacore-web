@@ -1,14 +1,49 @@
 {
  "sku": "DHI-ASF500A",
- "order": 3472,
+ "order": 3465,
  "n": "500 kg Single Door Magnetic Lock",
  "b": "Dahua",
  "c": "Magnetic Lock",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua DHI-ASF500A is a single-door electromagnetic magnetic lock with a holding force of up to 500 kg. Designed for access control systems, it supports 12 VDC or 24 VDC operation, provides door status feedback, and is suitable for wooden, glass, metal, and fire doors.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Applicable Door Type",
+   "value": "Wooden door, glass door, metal door, fire door, etc"
+  },
+  {
+   "label": "Signal Output",
+   "value": "Door status feed back"
+  },
+  {
+   "label": "Security",
+   "value": "Open while power off"
+  },
+  {
+   "label": "Starting Current",
+   "value": "600 mA; 300 mA"
+  },
+  {
+   "label": "Suction Plate Dimensions",
+   "value": "180 mm × 60 mm × 13 mm (7.09\" × 2.36\" × 0.51\")"
+  },
+  {
+   "label": "Net Weight",
+   "value": "4.5 Kg (9.92 lb)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "12 VDC; 24VDC"
+  },
+  {
+   "label": "Lock Dimensions",
+   "value": "265 mm × 71 mm × 40 mm (10.43\" × 2.80\" × 1.57\")"
+  }
+ ],
  "for": [
   "DHI-ASC3202B"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/magnetic-locks/asf500a",
+ "checked": "2026-10-19"
 }

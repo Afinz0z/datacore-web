@@ -1,17 +1,68 @@
 {
  "sku": "DHI-NVR608RH-128-XI",
- "order": 3260,
+ "order": 3253,
  "n": "Dahua 128CH 2U Network Video Recorder",
  "b": "Dahua",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "128CH 2U 8HDDs WizMind Network Video Recorder",
- "specs": [],
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Industrial-grade processor"
+  },
+  {
+   "label": "AI by Recorder",
+   "value": "Face detection; face recognition; video metadata (human, motor vehicles, and non-motor vehicles); perimeter protection; SMD Plus; AcuPick; PPE Detection"
+  },
+  {
+   "label": "AI by Camera",
+   "value": "Face detection; face recognition; video metadata (human, motor vehicles, and non-motor vehicles); perimeter protection; SMD; stereo analysis; crowd distribution; people counting; ANPR; heat map; PPE detection; AcuPick"
+  },
+  {
+   "label": "Face Attributes",
+   "value": "Gender; age group; glasses; expressions; face mask; beard"
+  },
+  {
+   "label": "Face Database Capacity",
+   "value": "Up to 40 face databases with 300,000 images, with a total capacity of 48 G."
+  },
+  {
+   "label": "SMD Plus by Recorder",
+   "value": "32-channel: Secondary filtering for human and motor vehicle , reducing false alarms caused by leaves, rain and lighting condition change"
+  },
+  {
+   "label": "SMD by Camera",
+   "value": "All channels (128 targets/s)"
+  },
+  {
+   "label": "People Attributes",
+   "value": "9 human body attributes"
+  },
+  {
+   "label": "Motor Vehicle Attributes",
+   "value": "License plate, plate color, vehicle model, vehicle logo, plate color, ornament, calling,"
+  },
+  {
+   "label": "Non-motor Vehicle Attributes",
+   "value": "Vehicle model, vehicle color, number of persons, helmet."
+  },
+  {
+   "label": "ANPR by Camera (Number of Channels)",
+   "value": "All channels (64 targets/s)"
+  },
+  {
+   "label": "License Plate Database Capacity",
+   "value": "Blocklist and allowlist: 20,000"
+  }
+ ],
  "acc": [
   "DSS8PRD",
   "DSS8PRDB",
   "DSS8PRV",
   "DSS8PRVB"
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-recorders/wizmind-series/nvr6-xi/nvr608rh-128-xi",
+ "checked": "2026-10-19"
 }

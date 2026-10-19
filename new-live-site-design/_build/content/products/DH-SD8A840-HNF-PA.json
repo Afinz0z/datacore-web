@@ -1,6 +1,6 @@
 {
  "sku": "DH-SD8A840-HNF-PA",
- "order": 3120,
+ "order": 3118,
  "n": "8 MP PTZ CAMERA",
  "b": "Dahua",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "8MP 40x Starlight IR PTZ AI Network Camera",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Image Sensor",
+   "value": "1/1.8\" CMOS"
+  },
+  {
+   "label": "Pixel",
+   "value": "8 MP"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "3840 (H) x 2160 (V)"
+  },
+  {
+   "label": "ROM",
+   "value": "8 GB"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Electronic Shutter Speed",
+   "value": "1/1 s–1/30,000 s"
+  },
+  {
+   "label": "Scanning System",
+   "value": "Progressive"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 lux@F1.4; B/W: 0.0005 lux@F1.4; 0 lux@F1.4 (illuminator on)"
+  },
+  {
+   "label": "Illumination Distance",
+   "value": "500 m (1640.42 ft)"
+  },
+  {
+   "label": "Illuminator On/Off Control",
+   "value": "Zoom Prio; Manual; Smart IR"
+  },
+  {
+   "label": "Illuminator Number",
+   "value": "10 IR lights"
+  },
+  {
+   "label": "Wiper",
+   "value": "Smart wiper"
   }
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/PTZ-Cameras/WizMind-Series/SD8A8C/8MP/SD8A840-HNF-PA",
+ "checked": "2026-10-19"
 }

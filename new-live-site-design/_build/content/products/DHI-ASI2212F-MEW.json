@@ -1,11 +1,62 @@
 {
  "sku": "DHI-ASI2212F-MEW",
- "order": 3395,
+ "order": 3388,
  "n": "Access Standalone Reader",
  "b": "Dahua",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dahua Card Swiping,Password,Fingerprint Access Standalone",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded Processor"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "IPv4;P2P;IPv6;TCP"
+  },
+  {
+   "label": "OSDP Protocol",
+   "value": "Yes"
+  },
+  {
+   "label": "Interoperability",
+   "value": "ONVIF;CGI"
+  },
+  {
+   "label": "Product Type",
+   "value": "Standalone"
+  },
+  {
+   "label": "Display Screen",
+   "value": "2.8-inch display screen"
+  },
+  {
+   "label": "Screen Type",
+   "value": "Capacitive Touchscreen"
+  },
+  {
+   "label": "Screen Resolution",
+   "value": "240 (H) × 320 (V)"
+  },
+  {
+   "label": "Voice Prompt",
+   "value": "Yes"
+  },
+  {
+   "label": "Speaker",
+   "value": "Yes"
+  },
+  {
+   "label": "Verification Method",
+   "value": "Card;Password;Fingerprint;Remote;Bluetooth"
+  },
+  {
+   "label": "Frequency Range",
+   "value": "2400-2483.5MHz"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/access-control/standalone/pro/asi2212f-mew",
+ "checked": "2026-10-19"
 }

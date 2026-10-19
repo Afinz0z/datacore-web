@@ -1,11 +1,62 @@
 {
  "sku": "VTO2111D-P-S3",
- "order": 4515,
+ "order": 4507,
  "n": "VIDEO INTERCOM",
  "b": "Dahua",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IP Villa Door Station",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded Processor"
+  },
+  {
+   "label": "Button Type",
+   "value": "Mechanical"
+  },
+  {
+   "label": "Number of Buttons",
+   "value": "1"
+  },
+  {
+   "label": "Interoperability",
+   "value": "ONVIF; CGI"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "IPv4; RTSP; UDP; DNS; P2P; RTP; TCP; SIP"
+  },
+  {
+   "label": "Camera",
+   "value": "1/2.8\" 2 MP CMOS high definition, low illumination/DWDR/ color/IR"
+  },
+  {
+   "label": "Field of View",
+   "value": "H: 107°; V: 60°; D: 122°"
+  },
+  {
+   "label": "Noise Reduction",
+   "value": "3D NR"
+  },
+  {
+   "label": "Video Compression",
+   "value": "H.264; H.265"
+  },
+  {
+   "label": "Video Resolution",
+   "value": "Main stream: 720p, WVGA, D1, CIF Sub stream: 1080p, WVGA, D1, QVGA, CIF"
+  },
+  {
+   "label": "Video Frame Rate",
+   "value": "PAL: 25 fps; NTSC: 30 fps"
+  },
+  {
+   "label": "Video Bit Rate",
+   "value": "256 Kbps–8 Mbps"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/video-intercoms/ip-series/villa-door-station/lite-series/vto2111d-p-s3",
+ "checked": "2026-10-19"
 }

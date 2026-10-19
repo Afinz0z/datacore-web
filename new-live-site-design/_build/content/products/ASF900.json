@@ -1,11 +1,34 @@
 {
  "sku": "ASF900",
- "order": 3491,
+ "order": 3484,
  "n": "Dahua Push button",
  "b": "Dahua",
  "c": "PUSH BUTTON",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Door Button",
- "specs": []
+ "specs": [
+  {
+   "label": "Material",
+   "value": "Plastic"
+  },
+  {
+   "label": "Weight",
+   "value": "0.1kg"
+  },
+  {
+   "label": "Dimensions",
+   "value": "86 *86*25mm"
+  },
+  {
+   "label": "Working temperature",
+   "value": "-30°C~+60°C"
+  },
+  {
+   "label": "Working humidity",
+   "value": "≤95%"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/accessories/buttons/asf900",
+ "checked": "2026-10-19"
 }

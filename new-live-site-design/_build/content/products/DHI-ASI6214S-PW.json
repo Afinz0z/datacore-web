@@ -1,11 +1,62 @@
 {
  "sku": "DHI-ASI6214S-PW",
- "order": 3398,
+ "order": 3391,
  "n": "Dahua Face Recognition Reader",
  "b": "Dahua",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dahua Single Door Face Recognition Access Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Embedded Processor"
+  },
+  {
+   "label": "Button Type",
+   "value": "Touch button"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "UDP; TCP; IPv4; RTSP; SIP; P2P; RTP"
+  },
+  {
+   "label": "OSDP Protocol",
+   "value": "Yes"
+  },
+  {
+   "label": "Interoperability",
+   "value": "CGI; ONVIF"
+  },
+  {
+   "label": "Product Type",
+   "value": "Standalone"
+  },
+  {
+   "label": "Display Screen",
+   "value": "4.3\" LCD"
+  },
+  {
+   "label": "Screen Type",
+   "value": "Capacitive Touchscreen"
+  },
+  {
+   "label": "Screen Resolution",
+   "value": "272 (H) × 480 (V)"
+  },
+  {
+   "label": "Camera",
+   "value": "2-MP CMOS HD dual-lens camera"
+  },
+  {
+   "label": "WDR",
+   "value": "DWDR"
+  },
+  {
+   "label": "Light Compensation",
+   "value": "Auto IR"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/access-control-&-time-attendance/ai/standalone/lite/asi6214s-pw",
+ "checked": "2026-10-19"
 }

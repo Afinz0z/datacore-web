@@ -1,6 +1,6 @@
 {
  "sku": "DH-PFM920I-6UN-CN",
- "order": 3776,
+ "order": 3769,
  "n": "305m U/UTP CAT6 Network Cable (Orange, CPR Eca) Dahua",
  "b": "Dahua",
  "c": "UTP CABLE",
@@ -9,12 +9,54 @@
  "d": "305m U/UTP CAT6 Network Cable (Orange, CPR Eca)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6"
+   "label": "Conductor Structure",
+   "value": "0.53 mm ± 0.02 mm (0.0209\" ± 0.0008\")"
   },
   {
-   "label": "Unit",
-   "value": "Box"
+   "label": "American Wire Gauge",
+   "value": "24AWG"
+  },
+  {
+   "label": "Min. Average Thickness",
+   "value": "0.21 mm (0.0083\")"
+  },
+  {
+   "label": "Insulation Diameter",
+   "value": "0.95 mm ± 0.1 mm (0.0374\" ± 0.0039\")"
+  },
+  {
+   "label": "Insulation Color",
+   "value": "8 cores, Blue, white/blue; Orange, white/orange; Green, white/green; Brown, white/brown"
+  },
+  {
+   "label": "Separator specification",
+   "value": "Translucent 4.5 mm × 0.4 mm (0.18\" × 0.0157\")"
+  },
+  {
+   "label": "Sheath min. Average Thickness",
+   "value": "0.5 mm (0.02\")"
+  },
+  {
+   "label": "Sheath Diameter",
+   "value": "5.8 mm ± 0.30 mm (0.23\" ± 0.0118\")"
+  },
+  {
+   "label": "Sheath Color",
+   "value": "White"
+  },
+  {
+   "label": "Max. DC Resistance of a Single Conductor",
+   "value": "9.0 Ω@100 m (328.08 ft)"
+  },
+  {
+   "label": "Min. Insulation Resistance",
+   "value": "5000 MΩ·km"
+  },
+  {
+   "label": "Max. DC Resistance Unbalance",
+   "value": "2% (pair intra), 4% (pairs inter)"
   }
- ]
+ ],
+ "src": "https://www.dahuasecurity.com/products/accessories/cabling/cables/network-cable/pfm920i-6un-cn=v3",
+ "checked": "2026-10-19"
 }

@@ -1,5 +1,5 @@
 {
- "_about": "Parent to supporting-product links from the inventory export that are kept off the website because they are wrong: the screen size is outside the mount's stated range (the maker's own figure where its page gives one), or a person found no fit. Checked 2026-10-18. Fix these in Quattro too.",
+ "_about": "Parent to supporting-product links from the inventory export that are kept off the website because they are wrong: the screen size is outside the mount's stated range or its VESA pattern is larger than the bracket takes (the maker's own figure where its page gives one), or a person found no fit. Checked 2026-10-18. Fix these in Quattro too.",
  "remove": [
   {
    "parent": "EP5542",
@@ -880,6 +880,11 @@
    "parent": "IFP9850-4",
    "child": "WMK-077",
    "reason": "98-inch screen, mount for 43 to 75 inch"
+  },
+  {
+   "parent": "98TR3DK-B",
+   "child": "PSBUB",
+   "reason": "VESA 800 x 600 exceeds the bracket limit of 862 x 517 (LG's and Chief's specs)"
   }
  ]
 }

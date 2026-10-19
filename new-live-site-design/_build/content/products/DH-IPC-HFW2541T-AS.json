@@ -1,11 +1,62 @@
 {
  "sku": "DH-IPC-HFW2541T-AS",
- "order": 3118,
+ "order": 3116,
  "n": "5MP IR Fixed Bullet Network Camera",
  "b": "Dahua",
  "c": "IP CAMERA",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua DH-IPC-HFW2541T-AS is a 5 MP WizSense fixed bullet network camera featuring AI-based human and vehicle classification, Smart H.265+ compression, built-in microphone, and IR illumination up to 80 m. With IP67 protection and support for PoE, it is ideal for commercial, industrial, and perimeter surveillance applications.",
- "specs": []
+ "specs": [
+  {
+   "label": "Image Sensor",
+   "value": "1/2.7\" CMOS"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "2960 (H) × 1668 (V)"
+  },
+  {
+   "label": "Scanning System",
+   "value": "Progressive"
+  },
+  {
+   "label": "Electronic Shutter Speed",
+   "value": "Auto/Manual 1/3 s–1/100,000 s"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "0.007 Lux@F1.6 (Color, 30 IRE); 0.0007 Lux@F1.6 (B/W, 30 IRE); 0 lux (Illuminator on)"
+  },
+  {
+   "label": "S/N Ratio",
+   "value": "﹥ 56 dB"
+  },
+  {
+   "label": "Illumination Distance",
+   "value": "Up to 80 m (262.47 ft) (IR)"
+  },
+  {
+   "label": "Illuminator On/Off Control",
+   "value": "Auto; Manual"
+  },
+  {
+   "label": "Illuminator Number",
+   "value": "4 (IR LED)"
+  },
+  {
+   "label": "Pan/Tilt/Rotation Range",
+   "value": "Pan: 0°–360° Tilt: 0°–90° Rotation: 0°–360°"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed-focal"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-cameras/wizsense-2-series/ir/ipc-hfw2541t-as=s2",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "DHI-NVR5208-8P-EI2",
- "order": 3261,
+ "order": 3254,
  "n": "Dahua NVR",
  "b": "Dahua",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "8CH 1U 8PoE 2HDDs WizSense Network Video Recorder",
- "specs": []
+ "specs": [
+  {
+   "label": "Main Processor",
+   "value": "Industrial-grade processor"
+  },
+  {
+   "label": "AI by Recorder",
+   "value": "Face detection; face recognition; video metadata (human, motor vehicles, and non-motor vehicles); perimeter protection; SMD Plus; AcuPick; WizSeek; Text-Defined Alarm"
+  },
+  {
+   "label": "Performance",
+   "value": "1. Compatible with cameras that support AcuPick/IVS/Metadata, it can meet full-channel WizSeek （Max 4 targets per sec） 2. Modeling capability: up to 345,600 targets per day"
+  },
+  {
+   "label": "Face Attributes",
+   "value": "Gender; age group; glasses; expressions; face mask; beard"
+  },
+  {
+   "label": "Face Database Capacity",
+   "value": "Up to 20 face databases with 30,000 images, with a total capacity of 3.75 GB. Name, gender, birthday, address, credential type, credential No., countries & regions and state can be added to each face image."
+  },
+  {
+   "label": "SMD Plus by Recorder",
+   "value": "8 channels: Secondary filtering for human and motor vehicle, reducing false alarms caused by leaves, rain and lighting condition change"
+  },
+  {
+   "label": "SMD by Camera",
+   "value": "All channels (64 targets/s)"
+  },
+  {
+   "label": "People Attributes",
+   "value": "Top color, top type, bottom color, bottom type, hat, bag, age, gender and umbrella"
+  },
+  {
+   "label": "Motor Vehicle Attributes",
+   "value": "License plate, plate color, vehicle body, vehicle model, vehicle logo, calling, seatbelt, vehicle interior, vehicle registration location"
+  },
+  {
+   "label": "Non-motor Vehicle Attributes",
+   "value": "Vehicle model, vehicle color, number of persons, helmet"
+  },
+  {
+   "label": "ANPR by Camera (Number of Channels)",
+   "value": "All channels (8 targets/s)"
+  },
+  {
+   "label": "License Plate Database Capacity",
+   "value": "1. Create up to 20,000 plate numbers. 2. Blocklist and allowlist"
+  }
+ ],
+ "src": "https://www.dahuasecurity.com/products/network-products/network-recorders/wizsense-series/nvr-5-ei2-series/nvr5208-8p-ei2",
+ "checked": "2026-10-19"
 }
