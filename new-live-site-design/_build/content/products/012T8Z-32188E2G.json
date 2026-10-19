@@ -9,17 +9,54 @@
  "d": "OM3CC TB3J-V(ZN)H 12F",
  "specs": [
   {
-   "label": "Fiber core count",
-   "value": "12"
+   "label": "Installation Methods",
+   "value": "Horizontal, Riser"
   },
   {
-   "label": "Installation environment",
-   "value": "indoor"
+   "label": "Cable Type",
+   "value": "Tight-Buffered"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Environment",
+   "value": "Indoor"
+  },
+  {
+   "label": "Fiber Category",
+   "value": "50 µm MM (OM3)"
+  },
+  {
+   "label": "Cable geometry",
+   "value": "Round"
+  },
+  {
+   "label": "Reaction to Fire",
+   "value": "Dca, s1a, d1, a1"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Flame propagation test",
+   "value": "Flame retardant according to IEC 60332-1-2 (single cable) and IEC 60332-3-24 (bunch of cables)"
+  },
+  {
+   "label": "Reaction to Fire Requirements",
+   "value": "Reaction to fire according to EN 50575 and EN 13501-6"
+  },
+  {
+   "label": "Smoke density",
+   "value": "Low smoke according to IEC 61034"
+  },
+  {
+   "label": "Halogen content test",
+   "value": "Zero Halogen according to IEC 60754-1"
+  },
+  {
+   "label": "Level of corrosion",
+   "value": "Non-corrosive according to IEC 60754-2"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Cables/Indoor/Indoor-LSZH-Cables/MIC%C2%AE-Tight-Buffer-Indoor-Cable/p/012T8Z-32188E2G",
+ "checked": "2026-10-19"
 }

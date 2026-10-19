@@ -6,5 +6,56 @@
  "c": "Fiber Patch Cord",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Fiber Category",
+   "value": "Single-mode (OS2)"
+  },
+  {
+   "label": "Cable Assembly Type",
+   "value": "Patch Cords"
+  },
+  {
+   "label": "Environment",
+   "value": "Indoor"
+  },
+  {
+   "label": "Application",
+   "value": "Fiber to the Premises, In-Building Network (IBN), Local Area Network (LAN), Central Office"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Zipcord"
+  },
+  {
+   "label": "Fiber Standards",
+   "value": "ITU-T G.657.A1, ITU-T G.652.D"
+  },
+  {
+   "label": "Reaction to Fire",
+   "value": "Dca"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Intermateability",
+   "value": "IEC 61754"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "2"
+  },
+  {
+   "label": "Outer Jacket Color",
+   "value": "Yellow"
+  },
+  {
+   "label": "Polarity",
+   "value": "Crossed, TIA-568 Type-B"
+  }
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Cable-Assemblies/Indoor-Cable-Assemblies/Two-Fiber-Indoor-Cable-Assemblies/Basic-2-0-mm-Single-mode-Patch-Cord%2C-LSZH%E2%84%A2%2C-CPR-Dca/p/F040402G2Z20003M",
+ "checked": "2026-10-19"
 }

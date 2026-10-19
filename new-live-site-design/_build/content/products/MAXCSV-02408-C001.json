@@ -9,28 +9,49 @@
  "d": "Everon® Copper Datacom VOL Patch panel19-inch 1 U, flat, 24 ports, black",
  "specs": [
   {
-   "label": "Type",
-   "value": "24 port"
+   "label": "Environment",
+   "value": "Indoor"
   },
   {
-   "label": "Category TYPE",
-   "value": "CAT6A"
+   "label": "Halogen-free",
+   "value": "Yes"
   },
   {
-   "label": "Ports",
-   "value": "24 PORT"
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
   },
   {
-   "label": "Module termination",
-   "value": "UNLOADED"
+   "label": "Housing Color",
+   "value": "Black"
   },
   {
-   "label": "Mounting SIZE",
-   "value": "1U"
+   "label": "Number of Ports",
+   "value": "24"
+  },
+  {
+   "label": "Footprint",
+   "value": "VOL"
+  },
+  {
+   "label": "Height",
+   "value": "43.6 mm"
+  },
+  {
+   "label": "Width",
+   "value": "480 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "99.5 mm"
+  },
+  {
+   "label": "Housing Material",
+   "value": "Aluminum"
   }
  ],
- "spec_src": "inventory",
  "acc": [
   "XF003849213"
- ]
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Hardware/Everon%C2%AE-Copper-Datacom-Patch-Panels/Everon%C2%AE-Copper-Datacom-VOL-Patch-panel-19-inch/p/MAXCSV-02408-C001",
+ "checked": "2026-10-19"
 }

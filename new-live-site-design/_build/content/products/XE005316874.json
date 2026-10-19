@@ -9,13 +9,42 @@
  "d": "3M™ Volition™ UK (86 x 86mm) Faceplates and AdaptersEuro Style",
  "specs": [
   {
-   "label": "Type",
-   "value": "Single port"
+   "label": "Environment",
+   "value": "Indoor"
   },
   {
-   "label": "Colour",
+   "label": "Halogen-free",
+   "value": "Yes"
+  },
+  {
+   "label": "Color",
    "value": "White"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "1"
+  },
+  {
+   "label": "Footprint",
+   "value": "VOL"
+  },
+  {
+   "label": "Height",
+   "value": "86 mm"
+  },
+  {
+   "label": "Width",
+   "value": "86 mm"
+  },
+  {
+   "label": "Temperature Range, Installation",
+   "value": "0 °C to 50 °C"
+  },
+  {
+   "label": "Temperature Range, Operation",
+   "value": "-20 °C to 60 °C"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Hardware/Copper-Outlets/Everon%C2%AE-Copper-Datacom-VOL-Faceplate/p/XE005316874",
+ "checked": "2026-10-19"
 }

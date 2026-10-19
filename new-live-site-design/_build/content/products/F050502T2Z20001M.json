@@ -9,21 +9,54 @@
  "d": "2F 2x2.0 OM3 1M LCU DX-LCU DX",
  "specs": [
   {
-   "label": "Type",
-   "value": "patch cord 1m"
+   "label": "Fiber Category",
+   "value": "50 µm MM (OM3)"
   },
   {
-   "label": "Length",
-   "value": "1m"
+   "label": "Cable Assembly Type",
+   "value": "Patch Cords"
   },
   {
-   "label": "Fiber mode",
-   "value": "multimode"
+   "label": "Environment",
+   "value": "Indoor"
   },
   {
-   "label": "Cable jacket color",
-   "value": "aqua"
+   "label": "Application",
+   "value": "Fiber to the Premises, In-Building Network (IBN), Local Area Network (LAN), Central Office"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Patch Cords"
+  },
+  {
+   "label": "Fiber Standards",
+   "value": "IEC 60793-2-10 A1-OM3"
+  },
+  {
+   "label": "Reaction to Fire",
+   "value": "Dca"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Intermateability",
+   "value": "IEC 61754"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "2"
+  },
+  {
+   "label": "Outer Jacket Color",
+   "value": "Aqua"
+  },
+  {
+   "label": "Polarity",
+   "value": "Crossed, TIA-568 Type-B"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Cable-Assemblies/Indoor-Cable-Assemblies/Two-Fiber-Indoor-Cable-Assemblies/Basic-2-0-mm-2-Fiber-Patch-Cord/p/F050502T2Z20001M",
+ "checked": "2026-10-19"
 }

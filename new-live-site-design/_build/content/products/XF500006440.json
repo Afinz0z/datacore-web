@@ -9,8 +9,54 @@
  "d": "RJ45 VOLOCK6AUNV Cat6A UTP Jack",
  "specs": [
   {
-   "label": "Type",
-   "value": "Single port"
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Design and Test Criteria",
+   "value": "IEEE 802.3 10GBASE-T, IEEE 802.3at"
+  },
+  {
+   "label": "Jack Type",
+   "value": "RJ45 - 8/8"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Insulation diameter max.",
+   "value": "1.6 mm"
+  },
+  {
+   "label": "Conductor",
+   "value": "24 - 22 AWG"
+  },
+  {
+   "label": "Number of Stranded Wires",
+   "value": "7"
+  },
+  {
+   "label": "Contact surface",
+   "value": "Gold, 1.27 µm"
+  },
+  {
+   "label": "Reproducibility",
+   "value": "Several times reusable"
+  },
+  {
+   "label": "Solid Wire Diameter",
+   "value": "5 mm to 65 mm"
+  },
+  {
+   "label": "Lead Through Resistance",
+   "value": "< 200 mΩ"
+  },
+  {
+   "label": "Insulation Resistance",
+   "value": "> 500 MΩ"
   }
- ]
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Products/Copper-Hardware/Copper-Modules/Everon%C2%AE-V500-Unshielded/p/XF500006440",
+ "checked": "2026-10-19"
 }

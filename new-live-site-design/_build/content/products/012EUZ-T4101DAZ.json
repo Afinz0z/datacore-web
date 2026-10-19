@@ -9,17 +9,54 @@
  "d": "012EUZT4101 DAZ LSZH™Loose Tube, Gel-Free, Interlocking Armored Cable, 12 F, Singlemode(OS2)",
  "specs": [
   {
-   "label": "No of fibers",
+   "label": "Installation Methods",
+   "value": "Aerial, Direct Buried, Duct, Horizontal"
+  },
+  {
+   "label": "Cable Type",
+   "value": "Loose Tube"
+  },
+  {
+   "label": "Environment",
+   "value": "Indoor/Outdoor"
+  },
+  {
+   "label": "Fiber Category",
+   "value": "Single-mode (OS2)"
+  },
+  {
+   "label": "Cable geometry",
+   "value": "Round"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Common Installations",
+   "value": "Outdoor aerial and duct; indoor general purpose horizontal according to NEC Article 770"
+  },
+  {
+   "label": "Design and Test Criteria",
+   "value": "ANSI/ICEA S-104-696, UL 13, UL 444, UL 1277, UL 1685, CSA C22.2, No. 230 and No. 232, CSA OFC (FT-4-S1)"
+  },
+  {
+   "label": "Central Element",
+   "value": "Dielectric"
+  },
+  {
+   "label": "Fiber Count",
    "value": "12"
   },
   {
-   "label": "Colour",
-   "value": "black"
+   "label": "Number of Ripcords",
+   "value": "2"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Outer Jacket Color",
+   "value": "Black"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/US/en/Fiber-Optic-Cables/Indoor-Outdoor/Indoor-Outdoor-LSZH-Cables/LSZH%E2%84%A2-Loose-Tube%2C-Gel-Free%2C-Interlocking-Armored-Cable/p/012EUZ-T4101DAZ",
+ "checked": "2026-10-19"
 }

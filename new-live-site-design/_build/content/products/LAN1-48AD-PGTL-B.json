@@ -9,8 +9,54 @@
  "d": "LANSCAPE®FIBER HSG 24 LC DUP MM PGTL B",
  "specs": [
   {
-   "label": "Type",
-   "value": "fiber patch panel 1U"
+   "label": "Fiber Category",
+   "value": "50 µm MM (OM3/OM4)"
+  },
+  {
+   "label": "Access Type",
+   "value": "Front, top, rear"
+  },
+  {
+   "label": "Mounting Type",
+   "value": "Rack-mount"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Lockable",
+   "value": "No"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "48"
+  },
+  {
+   "label": "Splice Tray Type",
+   "value": "Universal cassette with organizers for heat-shrink and crimp splice protectors"
+  },
+  {
+   "label": "Cable entry type",
+   "value": "Prepunched circular"
+  },
+  {
+   "label": "Number of pigtails",
+   "value": "48"
+  },
+  {
+   "label": "Number of Splice Trays",
+   "value": "4"
+  },
+  {
+   "label": "Pigtail Length",
+   "value": "2 m"
+  },
+  {
+   "label": "Adapter Color Front",
+   "value": "Aqua"
   }
- ]
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Hardware/Housings/Everon%C2%AE-LAN1-Fiber-Housing/p/LAN1-48AD-PGTL-B",
+ "checked": "2026-10-19"
 }

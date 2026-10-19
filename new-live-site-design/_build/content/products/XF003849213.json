@@ -9,30 +9,43 @@
  "d": "Single-Gang Faceplate UK, two jacks VOL-FPUK-2K",
  "specs": [
   {
-   "label": "Ports",
-   "value": "Duplex"
+   "label": "Environment",
+   "value": "Indoor"
   },
   {
-   "label": "Colour",
+   "label": "Halogen-free",
+   "value": "Yes"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Color",
    "value": "White"
   },
   {
-   "label": "No slot",
+   "label": "Number of Ports",
    "value": "2"
   },
   {
-   "label": "Finish",
-   "value": "Smooth"
+   "label": "Height",
+   "value": "86 mm"
   },
   {
-   "label": "Set",
-   "value": "1"
+   "label": "Width",
+   "value": "86 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "86 mm"
   }
  ],
- "spec_src": "inventory",
  "for": [
   "CCAKYE-G1002-A010-C0",
   "MAXCSV-02408-C001",
   "UU004891568"
- ]
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Hardware/Copper-Outlets/Everon%C2%AE-Copper-Datacom-VOL-Faceplate/p/XF003849213",
+ "checked": "2026-10-19"
 }

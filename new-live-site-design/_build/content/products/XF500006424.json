@@ -10,13 +10,54 @@
  "d": "VOLOCK6UHV CAT6 UTP Jack",
  "specs": [
   {
-   "label": "Category",
-   "value": "CAT6"
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
   },
   {
-   "label": "Colour",
-   "value": "WHITE"
+   "label": "Design and Test Criteria",
+   "value": "IEEE 802.3 1GBASE-T, IEEE 802.3at"
+  },
+  {
+   "label": "Jack Type",
+   "value": "RJ45 - 8/8"
+  },
+  {
+   "label": "Color",
+   "value": "White"
+  },
+  {
+   "label": "Insulation diameter max.",
+   "value": "1.6 mm"
+  },
+  {
+   "label": "Conductor",
+   "value": "24 - 22 AWG"
+  },
+  {
+   "label": "Number of Stranded Wires",
+   "value": "7"
+  },
+  {
+   "label": "Contact surface",
+   "value": "Gold, 1.27 µm"
+  },
+  {
+   "label": "Reproducibility",
+   "value": "Several times reusable"
+  },
+  {
+   "label": "Solid Wire Diameter",
+   "value": "5 mm to 65 mm"
+  },
+  {
+   "label": "Lead Through Resistance",
+   "value": "< 200 mΩ"
+  },
+  {
+   "label": "Insulation Resistance",
+   "value": "> 500 MΩ"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Hardware/Copper-Modules/Copper-Modules-Unshielded/Everon%C2%AE-Copper-Datacom-V250-Unshielded/p/XF500006424",
+ "checked": "2026-10-19"
 }

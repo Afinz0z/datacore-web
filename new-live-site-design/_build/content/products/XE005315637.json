@@ -7,5 +7,48 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Everon® Copper Datacom Cable ManagementPanel 19'', 1U Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Environment",
+   "value": "Indoor"
+  },
+  {
+   "label": "Mounting Type",
+   "value": "Rack-mount"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Height Unit",
+   "value": "1 U"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Height",
+   "value": "87.5 mm"
+  },
+  {
+   "label": "Width",
+   "value": "44.45 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "482.6 mm"
+  },
+  {
+   "label": "Housing Material",
+   "value": "Powder-coated metal and Polycarbonate Tray"
+  },
+  {
+   "label": "Mechanical housing Material",
+   "value": "Steel and polycarbonate tray"
+  }
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Hardware/Everon%C2%AE-Copper-Datacom-Patch-Panels/Everon%C2%AE-Copper-Datacom-Cable-Management-Panel-19%27%27%2C-1U/p/XE005315637",
+ "checked": "2026-10-19"
 }

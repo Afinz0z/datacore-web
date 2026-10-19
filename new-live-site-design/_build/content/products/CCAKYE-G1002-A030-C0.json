@@ -9,13 +9,54 @@
  "d": "U/UTP FLEX/24L,CAT.6A GREY,2XRJ45,4P,3M",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6a"
+   "label": "Area/Range of Application",
+   "value": "1000Base-T; 2,5GBase-T; 5GBase-T; 10GBase–T/FDDI; ATM"
   },
   {
-   "label": "Patch cord lenth",
-   "value": "3 Mtr"
+   "label": "Cable Type",
+   "value": "U/UTP"
+  },
+  {
+   "label": "Halogen-free",
+   "value": "Yes"
+  },
+  {
+   "label": "Legacy Part Number",
+   "value": "VOL-6AUL"
+  },
+  {
+   "label": "Flame Retardance",
+   "value": "Flame retardant according to IEC 60332-1-2 (single cable)"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Design and Test Criteria",
+   "value": "Compliant with PoE / PoE++ IEEE 802.3af, IEEE 802.3at and IEEE 802.3bt"
+  },
+  {
+   "label": "Halogen content test",
+   "value": "Low smoke according to IEC 61034"
+  },
+  {
+   "label": "Level of corrosion",
+   "value": "Non-corrosive according to IEC 60754-2"
+  },
+  {
+   "label": "Transport and Indoor Storage",
+   "value": "Dry environment, no direct sunlight, room temperature ≤ 40 °C"
+  },
+  {
+   "label": "Conductor Insulation",
+   "value": "Halogen-free foam-skin material"
+  },
+  {
+   "label": "Twisting",
+   "value": "2 cores to a pair"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Cable-Assemblies/Patch-Cords/Category-6A/Everon%C2%AE-Copper-Datacom-Class-EA-Patch-Cord%2C-2xRJ45%2C-Cat-6A%2C-U-UTP-LSZH%E2%84%A2-AWG-24/p/CCAKYE-G1002-A030-C0",
+ "checked": "2026-10-19"
 }

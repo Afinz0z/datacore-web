@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LANSCAPE®FIBER HSG 06 LC DUP MM PGTL B",
- "specs": []
+ "specs": [
+  {
+   "label": "Fiber Category",
+   "value": "50 µm MM (OM3/OM4)"
+  },
+  {
+   "label": "Access Type",
+   "value": "Front, top, rear"
+  },
+  {
+   "label": "Mounting Type",
+   "value": "Rack-mount"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Lockable",
+   "value": "No"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "12"
+  },
+  {
+   "label": "Splice Tray Type",
+   "value": "Universal cassette with organizers for heat-shrink and crimp splice protectors"
+  },
+  {
+   "label": "Cable entry type",
+   "value": "Prepunched circular for cable glands (2 x M20 and 2 x M25 on the rear)"
+  },
+  {
+   "label": "Number of pigtails",
+   "value": "12"
+  },
+  {
+   "label": "Number of Splice Trays",
+   "value": "1"
+  },
+  {
+   "label": "Pigtail Length",
+   "value": "2 m"
+  },
+  {
+   "label": "Adapter Color Front",
+   "value": "Aqua"
+  }
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Hardware/Housings/Everon%C2%AE-LAN1-Fiber-Housing/p/LAN1-12AD-PGTL-B",
+ "checked": "2026-10-19"
 }

@@ -9,25 +9,38 @@
  "d": "86X86 KEYSTONE RJ45 FACEPLATE FOR ONE JACK, WHITE, U",
  "specs": [
   {
-   "label": "Ports",
-   "value": "Simplex"
+   "label": "Environment",
+   "value": "Indoor"
   },
   {
-   "label": "Colour",
+   "label": "Halogen-free",
+   "value": "Yes"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Color",
    "value": "White"
   },
   {
-   "label": "No slot",
+   "label": "Number of Ports",
    "value": "1"
   },
   {
-   "label": "Finish",
-   "value": "Smooth"
+   "label": "Height",
+   "value": "86 mm"
   },
   {
-   "label": "Set",
-   "value": "1"
+   "label": "Width",
+   "value": "86 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "86 mm"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Hardware/Copper-Outlets/Everon%C2%AE-Copper-Datacom-VOL-Faceplate/p/XF003849205",
+ "checked": "2026-10-19"
 }

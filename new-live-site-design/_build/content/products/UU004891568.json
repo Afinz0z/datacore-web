@@ -9,15 +9,57 @@
  "d": "Everon® Copper Datacom U/UTP 550/24, Category 6A, LSZH/FRNC, Eca 4P, Green",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6a"
+   "label": "Cable Type",
+   "value": "U/UTP"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Halogen-free",
+   "value": "Yes"
+  },
+  {
+   "label": "Construction",
+   "value": "Simplex, 4P"
+  },
+  {
+   "label": "Reaction to Fire",
+   "value": "Eca"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Design and Test Criteria",
+   "value": "1000 Base-T IEEE 802.3 an; PoE / PoE++ IEEE 802.3af, IEEE 802.3at"
+  },
+  {
+   "label": "Flame propagation test",
+   "value": "IEC 60332-1"
+  },
+  {
+   "label": "Smoke density",
+   "value": "IEC 61034-2"
+  },
+  {
+   "label": "Halogen content test",
+   "value": "Zero Halogen to IEC 60754-1"
+  },
+  {
+   "label": "Level of corrosion",
+   "value": "Non-corrosive according to IEC 60754-2"
+  },
+  {
+   "label": "Conductor",
+   "value": "Copper Wire, AWG 24/1"
+  },
+  {
+   "label": "Conductor Insulation",
+   "value": "Halogen-free foam-skin material"
   }
  ],
  "acc": [
   "XF003849213"
- ]
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Cables/Indoor-Cables/Indoor-Solid-Cables/Everon%C2%AE-Copper-Datacom-U-UTP-550-24%2C-Category-6A%2C-LSZH-FRNC%2C-Eca/p/UU004891568",
+ "checked": "2026-10-19"
 }

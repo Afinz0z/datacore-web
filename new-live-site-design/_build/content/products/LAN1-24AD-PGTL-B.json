@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LAN1- 24ADPGTL-B fiper patch panel 12 LC Duplex MM full Loaded with Adapters and Pigtails",
- "specs": []
+ "specs": [
+  {
+   "label": "Fiber Category",
+   "value": "50 µm MM (OM3/OM4)"
+  },
+  {
+   "label": "Access Type",
+   "value": "Front, top, rear"
+  },
+  {
+   "label": "Mounting Type",
+   "value": "Rack-mount"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Lockable",
+   "value": "No"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "24"
+  },
+  {
+   "label": "Splice Tray Type",
+   "value": "Universal cassette with organizers for heat-shrink and crimp splice protectors"
+  },
+  {
+   "label": "Cable entry type",
+   "value": "Prepunched circular"
+  },
+  {
+   "label": "Number of pigtails",
+   "value": "24"
+  },
+  {
+   "label": "Number of Splice Trays",
+   "value": "2"
+  },
+  {
+   "label": "Pigtail Length",
+   "value": "2 m"
+  },
+  {
+   "label": "Adapter Color Front",
+   "value": "Aqua"
+  }
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Hardware/Housings/Everon%C2%AE-LAN1-Fiber-Housing/p/LAN1-24AD-PGTL-B",
+ "checked": "2026-10-19"
 }

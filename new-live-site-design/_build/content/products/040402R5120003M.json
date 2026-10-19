@@ -9,21 +9,54 @@
  "d": "040402R5120 0 03M Fiber Optic Jumper, 2 F, LC Duplex to LC Duplex, Zipcord Cable, Riser, 2.0 mm legs, Single- mode (OS2),3m",
  "specs": [
   {
-   "label": "Type",
-   "value": "Single mode patch cord"
+   "label": "Fiber Category",
+   "value": "Single-mode (OS2)"
   },
   {
-   "label": "Length",
-   "value": "3m"
+   "label": "Cable Assembly Type",
+   "value": "Two Fiber"
   },
   {
-   "label": "Fiber mode",
-   "value": "singlemode"
+   "label": "Cable Type",
+   "value": "Tight-Buffered"
   },
   {
-   "label": "Cable jacket color",
-   "value": "yellow"
+   "label": "Installation Methods",
+   "value": "General Building Applications, Riser"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "2"
+  },
+  {
+   "label": "Outer Jacket Color",
+   "value": "Yellow"
+  },
+  {
+   "label": "Fiber Type",
+   "value": "Single-Mode Ultra-Bendable Fiber"
+  },
+  {
+   "label": "Nominal Outer Diameter",
+   "value": "4 mm (0.16 in )"
+  },
+  {
+   "label": "Fiber Code",
+   "value": "E"
+  },
+  {
+   "label": "Performance Option Code",
+   "value": "31"
+  },
+  {
+   "label": "Optical fiber Category",
+   "value": "OS2"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/US/en/Fiber-Optic-Cable-Assemblies/Indoor-Cable-Assemblies/Two-Fiber-Indoor-Cable-Assemblies/Fiber-Optic-Jumper%2C-2-F%2C-LC-Duplex-to-LC-Duplex%2C-Zipcord-Cable%2C-Riser%2C-2-0-mm-legs/p/040402R5120003M",
+ "checked": "2026-10-19"
 }

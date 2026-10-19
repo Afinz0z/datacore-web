@@ -9,29 +9,54 @@
  "d": "VOL6UP4305 Cat6 Cable PVC GREY (305 M/ roll)",
  "specs": [
   {
-   "label": "Type",
-   "value": "U/utp"
-  },
-  {
-   "label": "Reel/box length",
-   "value": "305 M"
-  },
-  {
-   "label": "Colour",
-   "value": "Grey"
-  },
-  {
-   "label": "Cable type",
+   "label": "Cable Type",
    "value": "U/UTP"
   },
   {
-   "label": "No of pairs",
-   "value": "4"
+   "label": "Halogen-free",
+   "value": "No"
   },
   {
-   "label": "Unit",
-   "value": "Meter"
+   "label": "Construction",
+   "value": "Simplex, 4P"
+  },
+  {
+   "label": "Reaction to Fire",
+   "value": "Eca"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Design and Test Criteria",
+   "value": "Compliant with PoE / PoE++ IEEE 802.3af, IEEE 802.3at, IEEE 802.3 an 1000 Base-T"
+  },
+  {
+   "label": "Flame propagation test",
+   "value": "Flame retardant according to IEC 60332-1-2 (single cable)"
+  },
+  {
+   "label": "Environmental halogen-free",
+   "value": "No"
+  },
+  {
+   "label": "Conductor",
+   "value": "Copper Wire, AWG 24/1"
+  },
+  {
+   "label": "Conductor Insulation",
+   "value": "Solid PE"
+  },
+  {
+   "label": "Twisting",
+   "value": "2 cores to a pair"
+  },
+  {
+   "label": "Outer Jacket Color",
+   "value": "Light gray"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Cables/Indoor-Cables/Indoor-Solid-Cables/Everon%C2%AE-Copper-Datacom-U-UTP-450-24%2C-Category-6%2C-PVC%2C-Eca/p/XE005319605",
+ "checked": "2026-10-19"
 }

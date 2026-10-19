@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fiber patch panel 24 LC UPC Duplex SM full Loaded with Adapters, Cassettes and Pigtails (B: Black or G: Gray), 1U",
- "specs": []
+ "specs": [
+  {
+   "label": "Fiber Category",
+   "value": "SMF-28® Ultra"
+  },
+  {
+   "label": "Access Type",
+   "value": "Front, top, rear"
+  },
+  {
+   "label": "Mounting Type",
+   "value": "Rack-mount"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Lockable",
+   "value": "No"
+  },
+  {
+   "label": "Fiber Count",
+   "value": "48"
+  },
+  {
+   "label": "Splice Tray Type",
+   "value": "Universal cassette with organizers for heat-shrink and crimp splice protectors"
+  },
+  {
+   "label": "Cable entry type",
+   "value": "Prepunched circular"
+  },
+  {
+   "label": "Number of pigtails",
+   "value": "48"
+  },
+  {
+   "label": "Number of Splice Trays",
+   "value": "4"
+  },
+  {
+   "label": "Pigtail Length",
+   "value": "2 m"
+  },
+  {
+   "label": "Adapter Color Front",
+   "value": "Blue"
+  }
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Fiber-Optic-Hardware/Housings/Everon%C2%AE-LAN1-Fiber-Housing/p/LAN1-48AE-PGTL-B",
+ "checked": "2026-10-19"
 }

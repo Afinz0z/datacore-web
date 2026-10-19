@@ -9,8 +9,50 @@
  "d": "VOLPPCBF48K - RJ-45 Patch PANEL 48P 2U BLACK EMPTY",
  "specs": [
   {
-   "label": "Type",
-   "value": "Cat6a"
+   "label": "Environment",
+   "value": "Indoor"
+  },
+  {
+   "label": "Halogen-free",
+   "value": "Yes"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Height Unit",
+   "value": "2 U"
+  },
+  {
+   "label": "Housing Color",
+   "value": "Black"
+  },
+  {
+   "label": "Number of Ports",
+   "value": "48"
+  },
+  {
+   "label": "Height",
+   "value": "21.5 mm"
+  },
+  {
+   "label": "Width",
+   "value": "480 mm"
+  },
+  {
+   "label": "Depth",
+   "value": "45 mm"
+  },
+  {
+   "label": "Housing Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Mechanical housing Material",
+   "value": "Steel"
   }
- ]
+ ],
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Hardware/Everon%C2%AE-Copper-Datacom-Patch-Panels/Everon%C2%AE-Copper-Datacom-VOL-Patch-panel-19-inch/p/UU001622909",
+ "checked": "2026-10-19"
 }

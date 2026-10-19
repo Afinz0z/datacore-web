@@ -9,9 +9,54 @@
  "d": "U/UTP flex/26P, Cat.6, gr,2xRJ45,4P,3m",
  "specs": [
   {
-   "label": "Patch cord lenth",
-   "value": "3 Mtr"
+   "label": "Area/Range of Application",
+   "value": "10Base-T; 100Base-TX; 1000Base-T/ATMLAN1.2Gbit/s"
+  },
+  {
+   "label": "Cable Type",
+   "value": "U/UTP"
+  },
+  {
+   "label": "Halogen-free",
+   "value": "No"
+  },
+  {
+   "label": "Legacy Part Number",
+   "value": "VOL-6UDP"
+  },
+  {
+   "label": "Flame Retardance",
+   "value": "Flame retardant according to IEC 60332-1-2 (single cable)"
+  },
+  {
+   "label": "RoHS",
+   "value": "Free of hazardous substances according to RoHS 2011/65/EU"
+  },
+  {
+   "label": "Design and Test Criteria",
+   "value": "Compliant with PoE / PoE++ IEEE 802.3af, IEEE 802.3at and IEEE 802.3bt"
+  },
+  {
+   "label": "Halogen content test",
+   "value": "Low smoke according to IEC 61034"
+  },
+  {
+   "label": "Level of corrosion",
+   "value": "Non-corrosive according to IEC 60754-2"
+  },
+  {
+   "label": "Transport and Indoor Storage",
+   "value": "Dry environment, no direct sunlight, room temperature ≤ 40 °C"
+  },
+  {
+   "label": "Twisting",
+   "value": "2 cores to a pair"
+  },
+  {
+   "label": "Outer Jacket Color",
+   "value": "Gray"
   }
  ],
- "spec_src": "inventory"
+ "src": "https://ecatalog.corning.com/optical-communications/EMEA/en/Copper-Cable-Assemblies/Patch-Cords/Category-6/Everon%C2%AE-Copper-Datacom-Class-E-Patch-Cord%2C-2xRJ45%2C-Cat-6%2C-U-UTP-PVC-AWG-26/p/CCAVNE-D1002-A030-C0",
+ "checked": "2026-10-19"
 }
