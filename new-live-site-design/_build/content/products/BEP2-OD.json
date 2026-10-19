@@ -1,11 +1,62 @@
 {
  "sku": "BEP2-OD",
- "order": 3435,
+ "order": 3431,
  "n": "Suprema BioEntry Fingerprint card reader",
  "b": "Suprema",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Suprema BioEntry P2 fingerprint reader and access controller with optical fingerprint sensor, supporting fingerprint and dual RFID authentication (125kHz EM & 13.56MHz smart cards including MIFARE, DESFire EV1, FeliCa, NFC, ISO14443A), designed for indoor access control applications",
- "specs": []
+ "specs": [
+  {
+   "label": "Biometrics",
+   "value": "Fingerprint"
+  },
+  {
+   "label": "RF Option",
+   "value": "125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire, DESFire EV1/EV2/EV3, FeliCa​"
+  },
+  {
+   "label": "RF read range",
+   "value": "MIFARE/DESFire : 50 mm, EM/FeliCa : 30 mm​"
+  },
+  {
+   "label": "Template",
+   "value": "SUPREMA / ISO 19794-2 / ANSI 378"
+  },
+  {
+   "label": "Extractor / Matcher",
+   "value": "MINEX certified and compliant"
+  },
+  {
+   "label": "Live Fingerprint Detection",
+   "value": "Supported (SW-based)"
+  },
+  {
+   "label": "Max. User",
+   "value": "10,000"
+  },
+  {
+   "label": "Max. Credential (1:N)",
+   "value": "Fingerprint: 10,000"
+  },
+  {
+   "label": "Max. Credential (1:1)",
+   "value": "Fingerprint: 10,000 Card: 10,000"
+  },
+  {
+   "label": "Max. Text Log",
+   "value": "1,000,000"
+  },
+  {
+   "label": "Max. Image Log",
+   "value": "Not supported"
+  },
+  {
+   "label": "CPU",
+   "value": "1.0 GHz"
+  }
+ ],
+ "src": "https://www.supremainc.com/en/hardware/bio_bioentry-p2.asp",
+ "checked": "2026-10-19"
 }

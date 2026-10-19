@@ -7,11 +7,62 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Pixel Pitch:3.9mm Brightness: 5000 nits Size: Width 10 meters * Height 5 meters Resolution: Width 2560 x Height 1280 Cabinet: 10 rows x 20 columns",
- "specs": [],
+ "specs": [
+  {
+   "label": "Pixel Configuration",
+   "value": "SMD Triad LED"
+  },
+  {
+   "label": "Pixel Pitch Category",
+   "value": "P3.9"
+  },
+  {
+   "label": "Pixel Pitch",
+   "value": "3.91mm"
+  },
+  {
+   "label": "Modules Component",
+   "value": "1 × 2"
+  },
+  {
+   "label": "Resolution",
+   "value": "128×128"
+  },
+  {
+   "label": "Area",
+   "value": "0.25 m"
+  },
+  {
+   "label": "Pixel Density",
+   "value": "65536 dots/m"
+  },
+  {
+   "label": "Lamp Board Housing",
+   "value": "With housing"
+  },
+  {
+   "label": "Maintenance Method",
+   "value": "Front and Rear maintenance"
+  },
+  {
+   "label": "Cabinet Flatness",
+   "value": "0.8 mm"
+  },
+  {
+   "label": "Protection Level",
+   "value": "IP66"
+  },
+  {
+   "label": "White Balance Brightness",
+   "value": "4500 nit (Factory preset brightness) 5000 nit (Peak)"
+  }
+ ],
  "acc": [
   "DS-D4239CD-1AAB/M",
   "DS-D42CD-1AAB/H",
   "DS-D42CD-1AAB/R",
   "MCP200WS-4.2A-B"
- ]
+ ],
+ "src": "https://www.hikvision.com/sa/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab/",
+ "checked": "2026-10-19"
 }

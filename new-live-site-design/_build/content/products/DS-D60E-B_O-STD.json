@@ -1,6 +1,6 @@
 {
  "sku": "DS-D60E-B(O-STD)",
- "order": 412,
+ "order": 411,
  "n": "Digital signage box, Android8.1, HDMI output, 2GB memory",
  "b": "Hikvision",
  "c": "Digital signage",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Digital signage box",
  "d": "HIKVISION Digital signage box, Android8.1, HDMI output, 2GB memory, 16GB built-in storage, working with normal monitor or LCD/LED video wall, support schedule or self-define play video, audio, picture and document.",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "1920 × 1080@30 Hz，1920 × 1080@50 Hz，1920 × 1080@60 Hz，1280 × 720@30 Hz，1280 × 720@50 Hz，1280 × 720@60 Hz，3840 × 2160@30 Hz，3840 × 2160@50 Hz，3840 × 2160@60 Hz"
+  },
+  {
+   "label": "Operation System",
+   "value": "Android 8.1.0"
+  },
+  {
+   "label": "CPU",
+   "value": "Cortex-A17, 4-core, main frequency 1.6 GHZ"
+  },
+  {
+   "label": "Memory",
+   "value": "2 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "16 GB (EMMC)"
+  },
+  {
+   "label": "Video & Audio Input",
+   "value": "AUDIO IN × 1"
+  },
+  {
+   "label": "Video & Audio Output",
+   "value": "AUDIO OUT × 1，HDMI OUT × 1"
+  },
+  {
+   "label": "Network Interface",
+   "value": "LAN × 1，Wi-Fi"
+  },
+  {
+   "label": "Data Transmission Interface",
+   "value": "USB 2.0 × 2 , Bluetooth 4.0"
+  },
+  {
+   "label": "Packing List",
+   "value": "Power Adaptor × 1, Remote Control× 1"
+  },
+  {
+   "label": "Power Supply",
+   "value": "12 VAC, 2 A"
+  },
+  {
+   "label": "Standby Consumption",
+   "value": "≤ 1 W"
+  }
+ ],
+ "src": "https://pro-av.hikvision.com/en/products/interactive-flat-panel-display/digital-signage/digital-signage-servers-boxes/ds-d60e-b/",
+ "checked": "2026-10-19"
 }

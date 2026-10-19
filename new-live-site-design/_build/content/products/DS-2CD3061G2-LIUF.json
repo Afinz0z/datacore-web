@@ -1,6 +1,6 @@
 {
  "sku": "DS-2CD3061G2-LIUF",
- "order": 3215,
+ "order": 3211,
  "n": "8 MP Fixed Bullet",
  "b": "Hikvision",
  "c": "IP CAMERA",
@@ -9,8 +9,54 @@
  "d": "6 MP Smart Hybrid Light Motion 2.0 Fixed Bullet Network Camera",
  "specs": [
   {
-   "label": "Type",
-   "value": "Outdoor Bullet"
+   "label": "Image Sensor",
+   "value": "1/2.4\" Progressive Scan CMOS"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "3200 × 1800"
+  },
+  {
+   "label": "Min. Illumination",
+   "value": "Color: 0.005 Lux @ (F1.6, AGC ON),B/W: 0 Lux with IR"
+  },
+  {
+   "label": "Shutter Time",
+   "value": "1/3 s to 1/100,000 s"
+  },
+  {
+   "label": "Day & Night",
+   "value": "IR cut filter"
+  },
+  {
+   "label": "Angle Adjustment",
+   "value": "Pan: 0° to 360°,tilt: 0° to 90°,rotate: 0° to 360°"
+  },
+  {
+   "label": "Lens Type",
+   "value": "Fixed focal lens, 2.8 and 4 mm optional"
+  },
+  {
+   "label": "Focal Length & FOV",
+   "value": "2.8 mm, horizontal FOV 105°, vertical FOV 55°, diagonal FOV 127° 4 mm, horizontal FOV 78°, vertical FOV 38°, diagonal FOV 96°"
+  },
+  {
+   "label": "Lens Mount",
+   "value": "M12"
+  },
+  {
+   "label": "Iris Type",
+   "value": "Fixed"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "DORI",
+   "value": "2.8 mm, D: 76 m, O: 30 m, R: 15 m, I: 7 m 4 mm, D: 115 m, O: 45 m, R: 23 m, I: 11 m"
   }
- ]
+ ],
+ "src": "https://www.hikvision.com/mena-en/products/IP-Products/Network-Cameras/Ultra-Series-SmartIP-/ds-2cd3061g2-liuf/",
+ "checked": "2026-10-19"
 }

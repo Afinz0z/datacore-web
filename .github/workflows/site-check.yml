@@ -1,0 +1,48 @@
+name: Daily site check
+
+# Every morning (05:30 Riyadh time) request every page of the published site and its shared files.
+# If anything does not answer, open an issue listing it (GitHub emails the repository owner), or add
+# the new list to the open one. When everything answers again, the open issue is closed.
+on:
+  schedule:
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Request every page on the live site
+        id: live
+        continue-on-error: true
+        run: |
+          python new-live-site-design/_build/check_live.py \
+            "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" --report report.md
+      - name: Open or update an issue when something is broken
+        if: steps.live.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create site-check --color B60205 --description "Found by the daily site check" --force
+          n=$(gh issue list --label site-check --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --body-file report.md
+          else
+            gh issue create --title "Site check: pages not answering" --label site-check --body-file report.md
+          fi
+      - name: Close the issue once everything answers again
+        if: steps.live.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --label site-check --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "The daily check passed: every page answers again."
+          done

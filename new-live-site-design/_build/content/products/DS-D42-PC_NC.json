@@ -1,11 +1,30 @@
 {
  "sku": "DS-D42-PC/NC",
- "order": 2396,
+ "order": 2395,
  "n": "Cascade cables",
  "b": "Hikvision",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
  "d": "HIKVISION Cascade cable: Right side network cable*2, left side network cable*2, Right side power cable*1, left side power cable*1, Supported models: DS-D42XXCD/CF-1AAB",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Cascade Cable Package"
+  },
+  {
+   "label": "Working Temperature",
+   "value": "-40 ℃ to 105 ℃ (-40 ℉ to 221 ℉)"
+  },
+  {
+   "label": "Package Dimension (W × H × D)",
+   "value": "262 mm x 82 mm x 252 mm"
+  },
+  {
+   "label": "Material",
+   "value": "Rubber with aviation head plug"
+  }
+ ],
+ "src": "https://pro-av.hikvision.com/en/products/led-displays/outdoor-led/ds-d42-pc-nc/",
+ "checked": "2026-10-19"
 }

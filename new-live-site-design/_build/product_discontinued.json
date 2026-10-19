@@ -842,6 +842,34 @@
   "checked": "2026-10-18",
   "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
  },
+ "DS-2CD2543G0-IS": {
+  "brand": "Hikvision",
+  "name": "4MP EXIR Mini Dome Network Camera Lens with Audio",
+  "page": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/DS-2CD2543G0-I-W--S-/",
+  "checked": "2026-10-19",
+  "evidence": "DS-2CD2543G0-IS Discontinued"
+ },
+ "DS-2CD2563G0-IS": {
+  "brand": "Hikvision",
+  "name": "6MP EXIR Mini Dome Network Camera Support MIC",
+  "page": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2563g0-i-w--s-/",
+  "checked": "2026-10-19",
+  "evidence": "DS-2CD2563G0-IS Discontinued"
+ },
+ "DS-2CD2T43G0-I8": {
+  "brand": "Hikvision",
+  "name": "4MP Bullet Network EXIR Camera, Fixed 4.0mm - 6.0mm Lens",
+  "page": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/DS-2CD2T43G0-I5-I8/",
+  "checked": "2026-10-19",
+  "evidence": "DS-2CD2T43G0-I8 Discontinued"
+ },
+ "DS-D5024F2-2V2": {
+  "brand": "Hikvision",
+  "name": "24 inch Screen",
+  "page": "https://www.hikvision.com/mena-en/products/display-and-control/monitors/Value-Series/ds-d5024f2-2v2/",
+  "checked": "2026-10-19",
+  "evidence": "DS-D5024F2-2V2 Discontinued"
+ },
  "N10G.CONSS": {
   "brand": "Nexans",
   "name": "Nexans Module",

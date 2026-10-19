@@ -223,6 +223,29 @@ html[dir=rtl] #dcx-hdr .dcx-sub2{inset-inline-start:auto;inset-inline-end:100%;t
   color:#1A1B1F;text-decoration:none;font-size:.94rem;font-weight:500}
 #dcx-chat .acts a:hover{background:#eaf6f4;color:#005A54}
 #dcx-chat .acts a svg{flex:none;color:#00776F}
+#dcx-chat .acts .rep{display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:8px;width:100%;
+  border:0;border-top:1px solid #E2E8E6;margin-top:4px;padding-top:13px;background:none;font:inherit;
+  font-size:.94rem;font-weight:500;color:#1A1B1F;text-align:start;cursor:pointer}
+#dcx-chat .acts .rep:hover{background:#eaf6f4;color:#005A54}
+#dcx-chat .acts .rep svg{flex:none;color:#00776F}
+#dcx-chat .repf header{display:flex;gap:8px;align-items:flex-start;padding:14px 16px;background:#00776F;color:#fff}
+#dcx-chat .repf header strong{display:block;font-size:1rem;font-weight:600}
+#dcx-chat .repf header p{margin:4px 0 0;font-size:.82rem;opacity:.9;line-height:1.35}
+#dcx-chat .repf .back{flex:none;background:none;border:0;color:#fff;cursor:pointer;padding:2px;margin-top:1px}
+#dcx-chat .repf form{display:flex;flex-direction:column;gap:7px;padding:14px 16px 16px}
+#dcx-chat .repf label{font-size:.82rem;font-weight:600;color:#3C4043}
+#dcx-chat .repf textarea,#dcx-chat .repf input[type=email]{font:inherit;font-size:.9rem;color:#1A1B1F;background:#fff;
+  border:1px solid #CBD3D1;border-radius:6px;padding:9px 10px;width:100%;box-sizing:border-box;resize:vertical}
+#dcx-chat .repf textarea{min-height:88px}
+#dcx-chat .repf .note{margin:2px 0 4px;font-size:.76rem;color:#5F6B69}
+#dcx-chat .repf button[type=submit]{background:#00776F;color:#fff;border:0;border-radius:8px;padding:11px;
+  font:inherit;font-size:.92rem;font-weight:600;cursor:pointer}
+#dcx-chat .repf button[type=submit]:hover{background:#005A54}
+#dcx-chat .repf button[disabled]{opacity:.6;cursor:default}
+#dcx-chat .repf .ok{margin:0;padding:18px 16px;font-size:.92rem;color:#1A1B1F;line-height:1.45}
+#dcx-chat .dcx-hp{position:absolute;inset-inline-start:-9999px;width:1px;height:1px;opacity:0}
+#dcx-chat .repf textarea:focus-visible,#dcx-chat .repf input:focus-visible,#dcx-chat .repf button:focus-visible,
+#dcx-chat .acts .rep:focus-visible{outline:2px solid #00776F;outline-offset:2px}
 #dcx-sticky{display:none}
 @media(max-width:900px){
   #dcx-sticky{position:fixed;inset-block-end:0;inset-inline:0;z-index:9985;display:flex;gap:10px;
@@ -241,6 +264,14 @@ html.dc-dark #dcx-chat .chatp{background:#1C1E23;border-color:#2A2E33}
 html.dc-dark #dcx-chat .acts a{color:#E8EAEB}
 html.dc-dark #dcx-chat .acts a:hover{background:#22303029;color:#5FD9CC}
 html.dc-dark #dcx-chat .acts a svg{color:#3BC0B3}
+html.dc-dark #dcx-chat .acts .rep{color:#E8EAEB;border-color:#2A2E33}
+html.dc-dark #dcx-chat .acts .rep:hover{background:#22303029;color:#5FD9CC}
+html.dc-dark #dcx-chat .acts .rep svg{color:#3BC0B3}
+html.dc-dark #dcx-chat .repf label{color:#C9CDD1}
+html.dc-dark #dcx-chat .repf textarea,html.dc-dark #dcx-chat .repf input[type=email]{background:#15171A;border-color:#2A2E33;color:#E8EAEB}
+html.dc-dark #dcx-chat .repf .note{color:#9AA3A1}
+html.dc-dark #dcx-chat .repf .ok{color:#E8EAEB}
+html.dc-dark #dcx-chat .repf header,html.dc-dark #dcx-chat .repf button[type=submit]{background:#0c8074}
 html.dc-dark #dcx-chat .chatb{background:#fff;border-color:#fff}
 html.dc-dark #dcx-sticky{background:rgba(19,20,23,.96);border-color:#2A2E33}
 /* scroll-progress bar + back-to-top */

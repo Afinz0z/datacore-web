@@ -1,14 +1,53 @@
 {
  "sku": "MCP200WS-4.2A-B",
- "order": 4030,
+ "order": 4026,
  "n": "Spare Power Supply Unit",
  "b": "Hikvision",
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
  "d": "HIKVISION Spare power supply for DS-D42XXCD-1AAB, DS-D42XXCF-1AAB",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Spare Power Supply Unit"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "≤ 190 W"
+  },
+  {
+   "label": "Power Supply",
+   "value": "90VAC to 264VAC"
+  },
+  {
+   "label": "Working Temperature",
+   "value": "-20 ℃ to 60 ℃ (-4 ℉ to 140 ℉)"
+  },
+  {
+   "label": "Working Humidity",
+   "value": "10%~80%RH"
+  },
+  {
+   "label": "Storage Humidity",
+   "value": "10%~90%RH"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-20 ℃ to 60 ℃ (-4 ℉ to 140 ℉)"
+  },
+  {
+   "label": "Package Dimension (W × H × D)",
+   "value": "232 mm x 67 mm x 122 mm"
+  },
+  {
+   "label": "Dimensions (W × H × D)",
+   "value": "165 mm × 56 mm × 26 mm"
+  }
+ ],
  "for": [
   "DS-D4239CD-1AAB"
- ]
+ ],
+ "src": "https://pro-av.hikvision.com/en/products/led-displays/led-modules/mcp200ws-4-2a-b/",
+ "checked": "2026-10-19"
 }

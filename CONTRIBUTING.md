@@ -154,6 +154,18 @@ for the architecture, the build and the deploy.
   page has drawn. Both are
   stamped with a hash of their contents, so a new import is never served from a stale cache.
 
+## Checks and visitor reports
+
+- Every build runs `_build/check_site.py` before it deploys: each local link, image, script, stylesheet and
+  sitemap address must exist and each page needs a title. A broken build stops there and is not published.
+- The daily "Site check" workflow (`.github/workflows/site-check.yml`) requests every page of the published
+  site with `_build/check_live.py`. If anything does not answer it opens a GitHub issue labelled `site-check`
+  (GitHub emails the owner) and closes it once everything answers again. Run it by hand from the Actions tab.
+- Visitors report mistakes from the chat bubble ("Report a mistake on this page") or from the link on the 404
+  page. Reports go through `dcpDeliver()` with the page address, the page the visitor came from and the
+  screen size; the privacy page says so. The 404 page also records `page_not_found` for analytics, which only
+  reaches Google Tag Manager after the visitor accepts cookies.
+
 ## Operational notes
 
 - **Cache-busting.** Shared assets (`dc-overlay.*`, `dc-pages.css`,

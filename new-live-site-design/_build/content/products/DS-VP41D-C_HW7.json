@@ -1,11 +1,62 @@
 {
  "sku": "DS-VP41D-C/HW7",
- "order": 4402,
+ "order": 4398,
  "n": "Camera General Purpose Server",
  "b": "Hikvision",
  "c": "Server",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "H IKVISION General Purpose Server",
- "specs": []
+ "specs": [
+  {
+   "label": "Memory",
+   "value": "Standard Config：2 × 8GB UDIMM，3200MT/s Scalability：4 × 32GB UDIMM"
+  },
+  {
+   "label": "Hard Disks",
+   "value": "Standard Config：1 × 256GB M.2 SSD Scalability：1 × 4TB 3.5inch SATA HDD"
+  },
+  {
+   "label": "Graphic Card",
+   "value": "Standard Config：UHD Graphics 770（intergrated in CPU） Scalability：1 × Semi-high Independent graphics card（Please contact technical support for more info.）"
+  },
+  {
+   "label": "PCIe Slots",
+   "value": "1*PCIe 4.0 x16 Slot 1*PCIe 4.0 x4 Slot"
+  },
+  {
+   "label": "Type-C",
+   "value": "1"
+  },
+  {
+   "label": "USB 3.0",
+   "value": "1（Front）+3（Rear）"
+  },
+  {
+   "label": "USB 2.0",
+   "value": "2（Front）+2（Rear）"
+  },
+  {
+   "label": "Universal Audio Port",
+   "value": "1"
+  },
+  {
+   "label": "Ethernet Port",
+   "value": "1 x LAN 10/100/1000"
+  },
+  {
+   "label": "VGA",
+   "value": "/（HDMI port can be used as VGA port）"
+  },
+  {
+   "label": "HDMI",
+   "value": "1"
+  },
+  {
+   "label": "DP",
+   "value": "3（DP port can be used as HDMI port）"
+  }
+ ],
+ "src": "https://www.hikvision.com/mena-en/products/software/server-products/general-purpose-server/ds-vp41d-c-hw7/",
+ "checked": "2026-10-19"
 }

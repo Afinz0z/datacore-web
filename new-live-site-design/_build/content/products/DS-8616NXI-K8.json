@@ -1,6 +1,6 @@
 {
  "sku": "DS-8616NXI-K8",
- "order": 3286,
+ "order": 3282,
  "n": "16CH Network Video Recorder,8 SATA (16CH NVR-8 SATA)",
  "b": "Hikvision",
  "c": "Network Video Recorder (NVR)",
@@ -10,12 +10,58 @@
  "d": "HIKVISION 16CH Network Video Recorder,8 SATA",
  "specs": [
   {
-   "label": "Series",
-   "value": "NVR Pro Series"
+   "label": "Human/Vehicle Analysis",
+   "value": "2-ch, 4 MP (HD network camera, up to 8 MP, H.264/H.265) video analysis for human and vehicle recognition to reduce false alarm"
+  },
+  {
+   "label": "Facial Detection and Analytics",
+   "value": "Face picture comparison, human face capture, face picture search"
+  },
+  {
+   "label": "Facial Detection and Analytics Performance",
+   "value": "1-ch human face capture (HD network camera, up to 8 MP, H.264/H.265)"
+  },
+  {
+   "label": "Face Picture Comparison",
+   "value": "4-ch"
+  },
+  {
+   "label": "By Device",
+   "value": "All channels, 4 MP video analysis for human and vehicle recognition to reduce false alarm"
+  },
+  {
+   "label": "By Camera",
+   "value": "All channels"
+  },
+  {
+   "label": "IP Video Input",
+   "value": "16-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "HDMI 1 Output",
+   "value": "4K (3840×2160)/60 Hz, 4K (3840×2160)/30 Hz, 1920×1080/60 Hz, 1600×1200/60 Hz, 1280×1024/60 Hz, 1280×720/60 Hz, 1024×768/60 Hz"
+  },
+  {
+   "label": "HDMI 2 Output",
+   "value": "1920×1080p/60 Hz, 1280×1024/60 Hz, 1280×720/60 Hz, 1024×768/60 Hz"
+  },
+  {
+   "label": "VGA 1 Output",
+   "value": "1920 × 1080p/60 Hz, 1280 × 1024/60 Hz, 1280 × 720/60 Hz, 1024 × 768/60 Hz"
   }
  ],
  "acc": [
   "DC HC330",
   "WD102PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/sa/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-8616nxi-k8/",
+ "checked": "2026-10-19"
 }

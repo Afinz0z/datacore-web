@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The DS-D2055EL-0A LCD display uses an industry-level extreme-narrow bezel design, which enables a bezel width of 1.7 mmbetween neighboring displays. The adopted direct-lit LED backlighting technology helps achieve ultra-high and uniformbrightness of 500 cd/m². The display has abundant interfaces for video inputs, such as DVI, VGA, HDMI, and DP.",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Size",
+   "value": "55 inch, 139.7 cm"
+  },
+  {
+   "label": "Backlight",
+   "value": "Direct-lit LED backlight"
+  },
+  {
+   "label": "Pixel Pitch",
+   "value": "0.63 mm"
+  },
+  {
+   "label": "Physical Seam",
+   "value": "1.7 mm"
+  },
+  {
+   "label": "Physical Seam Tolerance",
+   "value": "±1.5 mm"
+  },
+  {
+   "label": "Physical Resolution",
+   "value": "1920 × 1080"
+  },
+  {
+   "label": "Brightness",
+   "value": "500 cd/m"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "178°(H)/178°(V)"
+  },
+  {
+   "label": "Color Depth",
+   "value": "8 bit, 16.7 M"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1200:1"
+  },
+  {
+   "label": "Response Time",
+   "value": "8 ms"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "72% NTSC"
+  }
+ ],
+ "src": "https://pro-av.hikvision.com/en/products/lcd-video-walls/lcd-video-walls/pro-series/ds-d2055el-0a/",
+ "checked": "2026-10-19"
 }

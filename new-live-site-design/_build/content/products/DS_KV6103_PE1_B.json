@@ -1,11 +1,62 @@
 {
  "sku": "DS KV6103 PE1(B)",
- "order": 4523,
+ "order": 4519,
  "n": "Inercom",
  "b": "Hikvision",
  "c": "Intercom",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Video Intercom Villa Door Station",
- "specs": []
+ "specs": [
+  {
+   "label": "ROM",
+   "value": "32 M"
+  },
+  {
+   "label": "RAM",
+   "value": "256 M"
+  },
+  {
+   "label": "CPU",
+   "value": "Embedded processor"
+  },
+  {
+   "label": "Lens",
+   "value": "1"
+  },
+  {
+   "label": "Resolution",
+   "value": "Main stream: 1920 × 1080p, 720p Sub stream: 704 × 576"
+  },
+  {
+   "label": "FOV",
+   "value": "Horizontal: 129° Vertical: 75°"
+  },
+  {
+   "label": "WDR",
+   "value": "True WDR"
+  },
+  {
+   "label": "Supplement light",
+   "value": "IR supplement"
+  },
+  {
+   "label": "Video compression standard",
+   "value": "H.264"
+  },
+  {
+   "label": "Audio compression standard",
+   "value": "G.711 U"
+  },
+  {
+   "label": "Audio input",
+   "value": "Built-in omnidirectional microphone"
+  },
+  {
+   "label": "Audio output",
+   "value": "Built-in loudspeaker"
+  }
+ ],
+ "src": "https://www.hikvision.com/sa/products/Video-Intercom-Products/IP-Series/Pro-Series/ds-kv6103-pe1-b-/",
+ "checked": "2026-10-19"
 }

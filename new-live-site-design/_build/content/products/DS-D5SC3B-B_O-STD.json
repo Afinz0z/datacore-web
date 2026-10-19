@@ -1,6 +1,6 @@
 {
  "sku": "DS-D5SC3B-B(O-STD)",
- "order": 5188,
+ "order": 5184,
  "n": "Type-C Wireless Dongle,Black (DS-D5SC3B-B(O-STD))",
  "b": "Hikvision",
  "c": "Dongle",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "DS-D5SC3B-B(O-STD)",
  "d": "Type-C Wireless Dongle,Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product Model",
+   "value": "DS-D5SC3B-B"
+  },
+  {
+   "label": "Resolution",
+   "value": "1080P/4K"
+  },
+  {
+   "label": "Built-in Storage",
+   "value": "4 GB"
+  },
+  {
+   "label": "net card",
+   "value": "Built in Gigabit NIC, supporting 2.4G/5G."
+  },
+  {
+   "label": "Power Interface",
+   "value": "Type-C, support CC communication and automatically switch charging direction, achieving 60W fast charging for laptops by adapter and 5V/500mA charging for mobile phones from laptops."
+  },
+  {
+   "label": "Rated Power",
+   "value": "5 V/900 mA"
+  },
+  {
+   "label": "Packing List",
+   "value": "Host × 1, Manual × 1, USB Type-A/Type-C adapter × 1"
+  },
+  {
+   "label": "Frame Rate",
+   "value": "30 fps"
+  },
+  {
+   "label": "Transmission Delay",
+   "value": "≤ 350 ms"
+  },
+  {
+   "label": "Wireless Transmission Protocol",
+   "value": "IEEE 802.11 a/g/n/ac"
+  },
+  {
+   "label": "Encryption",
+   "value": "AES"
+  },
+  {
+   "label": "NFC",
+   "value": "ISO/IEC 14443-A protocol, 13.56 MHz, 106 Kbps"
+  }
+ ],
  "for": [
   "DS-D5C86RB/B2L(O-STD)(EDLA)"
- ]
+ ],
+ "src": "https://pro-av.hikvision.com/en/products/interactive-flat-panel-display/interactive-flat-panels/accessories/ds-d5sc3b-b/",
+ "checked": "2026-10-19"
 }

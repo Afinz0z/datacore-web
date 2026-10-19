@@ -1,11 +1,62 @@
 {
  "sku": "DS-DT60V-03HDI12NO/U",
- "order": 314,
+ "order": 313,
  "n": "2-in-1 LED Controller",
  "b": "Hikvision",
  "c": "Video Wall Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "2-in-1 LED Controller, Support built-in videowall controller. 1 × HDMI 2.0 + 1 × HDMI 1.4 + 1 × DVI Input, Support 3 Windows division. Max. support 144~8192(W)*64~8192(H) resolution,12 × RJ45 Output Ports Total Load Capcity:7.8M Pixels.",
- "specs": []
+ "specs": [
+  {
+   "label": "Brightness Control",
+   "value": "1 to 100 tunable (level-by-level white balance)"
+  },
+  {
+   "label": "Input Frame Rate",
+   "value": "25 Hz to 120 Hz"
+  },
+  {
+   "label": "Grey Level",
+   "value": "256"
+  },
+  {
+   "label": "Display Color",
+   "value": "16 MP"
+  },
+  {
+   "label": "Processing Depth",
+   "value": "8 bit"
+  },
+  {
+   "label": "Image Scaling",
+   "value": "Supported"
+  },
+  {
+   "label": "Product Model",
+   "value": "DS-DT60V-03HDI12NO/U"
+  },
+  {
+   "label": "Chassis Height",
+   "value": "1 U"
+  },
+  {
+   "label": "Chassis Width",
+   "value": "440 mm (17.32 inch)"
+  },
+  {
+   "label": "Light Sensor Port",
+   "value": "Supported"
+  },
+  {
+   "label": "Power Interface",
+   "value": "100 to 240 VAC, 50/60 Hz"
+  },
+  {
+   "label": "USB Interface",
+   "value": "1 channel of USB 2.0"
+  }
+ ],
+ "src": "https://www.hikvision.com/mena-en/products/display-and-control/control-and-decode/led-controllers/ds-dt60v-03hdi12no-u/",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "CS-20",
- "order": 3469,
+ "order": 3465,
  "n": "Intelligent Main Controller",
  "b": "Suprema",
  "c": "ACS CONTROLLER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Access controller, 1.2GHz Single Core, 500,000 users, 2 door controller, RS485 3ch, Wiegand 2ch, 6 Supervised Input, 6 TTL Output, 4 Relay",
- "specs": []
+ "specs": [
+  {
+   "label": "Max. User",
+   "value": "500,000"
+  },
+  {
+   "label": "Max. Credential (1:1)",
+   "value": "Card: 500,000; PIN: 500,000"
+  },
+  {
+   "label": "Max. Text Log",
+   "value": "5,000,000"
+  },
+  {
+   "label": "CPU",
+   "value": "1.2 GHz Single Core"
+  },
+  {
+   "label": "Crypto Chip",
+   "value": "Supported"
+  },
+  {
+   "label": "LED",
+   "value": "POWER - RED single-color; STATUS - Multi-color"
+  },
+  {
+   "label": "Ethernet",
+   "value": "Supported (10/100 Mbps, Auto MDI/MDI-X)"
+  },
+  {
+   "label": "Network Protocol",
+   "value": "TCP, UDP"
+  },
+  {
+   "label": "RS-485",
+   "value": "3 ch"
+  },
+  {
+   "label": "RS-485 Communication Protocol",
+   "value": "OSDP V2 compliant"
+  },
+  {
+   "label": "Wiegand",
+   "value": "2 ch"
+  },
+  {
+   "label": "Input",
+   "value": "6 ch"
+  }
+ ],
+ "src": "https://www.supremainc.com/en/hardware/2door-controller-corestation20.asp",
+ "checked": "2026-10-19"
 }

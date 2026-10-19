@@ -1,6 +1,6 @@
 {
  "sku": "SIO2",
- "order": 3471,
+ "order": 3467,
  "n": "Secure I/O Expansion Module",
  "b": "Suprema",
  "c": "ACS CONTROLLER",
@@ -9,8 +9,54 @@
  "d": "Secure I/O Expansion Module (2 inputs / 1 output) compatible with BioStar 2 compatiable readers and CoreStation(for Fire Alarm Interface)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Expansion module"
+   "label": "CPU",
+   "value": "Cortex M3 72MHz"
+  },
+  {
+   "label": "LED",
+   "value": "Multi-Color"
+  },
+  {
+   "label": "RS-485",
+   "value": "1 ch"
+  },
+  {
+   "label": "RS-485 Communication Protocol",
+   "value": "OSDP V2 Compliant"
+  },
+  {
+   "label": "Input",
+   "value": "2 ch"
+  },
+  {
+   "label": "Relay",
+   "value": "1 relay"
+  },
+  {
+   "label": "Power",
+   "value": "Voltage: 12 Vdc; Current: Max. 0.5 A"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-40°C ~ 70°C (-40°F ~ 158°F)"
+  },
+  {
+   "label": "Storage Humidity",
+   "value": "0% ~ 90%, non-condensing"
+  },
+  {
+   "label": "Weight",
+   "value": "37 g"
+  },
+  {
+   "label": "Dimension (WxHxD, mm)",
+   "value": "36 x 65 x 18 (mm)"
+  },
+  {
+   "label": "Certifications",
+   "value": "CE, UKCA, KC, FCC, RoHS, REACH, WEEE, ETL Listed to UL 294"
   }
- ]
+ ],
+ "src": "https://www.supremainc.com/en/hardware/pd_secure-io-2.asp",
+ "checked": "2026-10-19"
 }

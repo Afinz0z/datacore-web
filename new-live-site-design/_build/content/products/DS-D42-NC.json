@@ -1,11 +1,30 @@
 {
  "sku": "DS-D42-NC",
- "order": 2398,
+ "order": 2397,
  "n": "Network cable",
  "b": "Hikvision",
  "c": "AV CABLE",
  "dept": "AV",
  "avail": "lead",
  "d": "HIKVISION 20M main network cable, Aviation plug, Supported models: DS-D42XXCD/CF-1AAB",
- "specs": []
+ "specs": [
+  {
+   "label": "Product Type",
+   "value": "Main Network Cable"
+  },
+  {
+   "label": "Working Temperature",
+   "value": "-40 ℃ to 105 ℃ (-40 ℉ to 221 ℉)"
+  },
+  {
+   "label": "Package Dimension (W × H × D)",
+   "value": "369 mm x 135 mm x 297 mm"
+  },
+  {
+   "label": "Material",
+   "value": "Rubber with aviation head plug"
+  }
+ ],
+ "src": "https://pro-av.hikvision.com/en/products/led-displays/outdoor-led/ds-d42-nc/",
+ "checked": "2026-10-19"
 }

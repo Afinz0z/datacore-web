@@ -7,11 +7,62 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HIKVISION Pixel Pitch: 2.5 mm, Brightness: 600 nits - SMD Size: Width 7.68 meters × Height 1.44 meters = 11.06m²Resolution: Width 3072 × Height 576 Cabinet: 3 rows × 12 columns",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product Model",
+   "value": "DS-D4012CS-1F"
+  },
+  {
+   "label": "Product Type",
+   "value": "LED Display Structure"
+  },
+  {
+   "label": "Pixel Configuration",
+   "value": "SMD Triad LED"
+  },
+  {
+   "label": "Modules Component",
+   "value": "2 × 3"
+  },
+  {
+   "label": "Area",
+   "value": "0.3072 ㎡"
+  },
+  {
+   "label": "Maintenance Method",
+   "value": "Complete front maintenance"
+  },
+  {
+   "label": "Module Resolution",
+   "value": "256 × 128"
+  },
+  {
+   "label": "White Balance Brightness",
+   "value": "600 cd/㎡"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "160°(H)/160°(V)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "5000:1"
+  },
+  {
+   "label": "Color Uniformity",
+   "value": "≤ ± 0.003Cx，Cy"
+  },
+  {
+   "label": "Brightness Uniformity",
+   "value": "≥ 97％"
+  }
+ ],
  "acc": [
   "DS-D4025CS-2F/A",
   "DS-D40S-2F/H",
   "DS-D40W-2F/PC",
   "DS-DL116448W"
- ]
+ ],
+ "src": "https://pro-av.hikvision.com/en/products/led-displays/indoor-led/ds-d40s-2f/",
+ "checked": "2026-10-19"
 }

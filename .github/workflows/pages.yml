@@ -34,6 +34,11 @@ jobs:
           python build_products.py
           python build_services.py
           python build_extra.py
+      # Stop here if any page links to a file that is not there (pages, images, scripts, stylesheets,
+      # sitemap addresses), so a broken build is never published.
+      - name: Check every page and link
+        working-directory: new-live-site-design/_build
+        run: python check_site.py
       - name: Disable Jekyll processing
         run: touch new-live-site-design/.nojekyll
       # Publish the website only: the generators and the plain-text guide

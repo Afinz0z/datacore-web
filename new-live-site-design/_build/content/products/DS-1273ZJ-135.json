@@ -1,6 +1,6 @@
 {
  "sku": "DS-1273ZJ-135",
- "order": 3362,
+ "order": 3358,
  "n": "Small Wall Mount Bracket",
  "b": "Hikvision",
  "c": "CCTV Mounting Equipment",
@@ -9,13 +9,27 @@
  "d": "Wall Mount for Dome Camera for Dome Motorized Varifocal DS-2CD (1743G0, 1753G0)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Wall Mount"
+   "label": "Appearance",
+   "value": "Hikvision White"
+  },
+  {
+   "label": "Range of Application",
+   "value": "Suitable for dome camera wall mounting"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum Alloy"
+  },
+  {
+   "label": "Dimension",
+   "value": "Φ136×183.5×230mm"
   }
  ],
  "for": [
   "DS-2CD1123G0E-I",
   "DS-2CD1753G0-I",
   "DS-2CD2347G3E-L"
- ]
+ ],
+ "src": "https://www.hikvision.com/mena-en/products/IP-Products/cctv-accessories/brackets/ds-1273zj-135/",
+ "checked": "2026-10-19"
 }

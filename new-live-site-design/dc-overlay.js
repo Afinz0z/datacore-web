@@ -17,7 +17,12 @@
     cta: 'اطلب استشارة', theme: 'التبديل بين الوضع الفاتح والداكن', menu: 'القائمة',
     chat_label: 'تحدث معنا', chat_h: 'كيف نساعدك؟', chat_p: 'اختر وسيلة التواصل وسنكمل من هناك.',
     chat_wa: 'محادثة واتساب', chat_call: 'الاتصال بمكتب الرياض', chat_mail: 'مراسلة المبيعات',
-    chat_form: 'إرسال استفسار مشروع', call: 'اتصل'
+    chat_form: 'إرسال استفسار مشروع', call: 'اتصل',
+    rep: 'الإبلاغ عن خطأ في هذه الصفحة', rep_h: 'الإبلاغ عن خطأ',
+    rep_p: 'أخبرنا بما يبدو خطأ هنا: رابط لا يعمل، أو معلومة غير صحيحة، أو خطأ إملائي.',
+    rep_q: 'ما الخطأ؟', rep_mail: 'بريدك الإلكتروني (اختياري، إن أردت رداً)', rep_send: 'أرسل البلاغ', rep_back: 'رجوع',
+    rep_note: 'يُرسل عنوان هذه الصفحة مع ملاحظتك.', rep_need: 'اكتب ما الخطأ قبل الإرسال.',
+    rep_ok: 'شكراً لك. وصلنا بلاغك وسنراجعه.', rep_mailed: 'فُتح بريدك الإلكتروني وفيه البلاغ. أرسله من هناك.'
   } : {
     about: 'About', services: 'Services', products: 'Products', projects: 'Projects',
     insights: 'Insights', contact: 'Contact', lang: 'العربية',
@@ -25,7 +30,12 @@
     cta: 'Request a consultation', theme: 'Switch between light and dark mode', menu: 'Open menu',
     chat_label: 'Chat with us', chat_h: 'How can we help?', chat_p: 'Pick a channel and we will take it from there.',
     chat_wa: 'Chat on WhatsApp', chat_call: 'Call the Riyadh office', chat_mail: 'Email sales',
-    chat_form: 'Send a project enquiry', call: 'Call'
+    chat_form: 'Send a project enquiry', call: 'Call',
+    rep: 'Report a mistake on this page', rep_h: 'Report a mistake',
+    rep_p: 'Tell us what looks wrong here: a broken link, a wrong detail, a typo.',
+    rep_q: 'What is wrong?', rep_mail: 'Your email (optional, if you would like a reply)', rep_send: 'Send report', rep_back: 'Back',
+    rep_note: "This page's address is sent with your note.", rep_need: 'Write what is wrong before sending.',
+    rep_ok: 'Thank you. We have your report and will look at it.', rep_mailed: 'Your email app opened with the report. Send it from there.'
   };
 
   // 9 disciplines, each with its own services (second-level fly-out)
@@ -267,7 +277,7 @@
     chat.setAttribute('dir', isAR ? 'rtl' : 'ltr');
     chat.innerHTML =
       '<div class="chatp" id="dcxChatP" role="dialog" aria-label="' + T.chat_label + '" hidden>' +
-        '<header><strong>' + T.chat_h + '</strong><p>' + T.chat_p + '</p></header>' +
+        '<div id="dcxMain"><header><strong>' + T.chat_h + '</strong><p>' + T.chat_p + '</p></header>' +
         '<div class="acts">' +
           '<a href="' + WA + '" target="_blank" rel="noopener">' +
             cico('<path d="M21 12a8 8 0 01-11.6 7.2L4 21l1.8-5.4A8 8 0 1121 12z"/>') + T.chat_wa + '</a>' +
@@ -277,7 +287,26 @@
             cico('<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>') + T.chat_mail + '</a>' +
           '<a href="' + localName('contact') + '">' +
             cico('<path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9z"/><path d="M14 3v6h6M9 14h6M9 17h4"/>') + T.chat_form + '</a>' +
+          '<button type="button" class="rep" id="dcxRep">' +
+            cico('<path d="M5 21V4M5 4h11l-2 4 2 4H5"/>') + T.rep + '</button>' +
         '</div></div>' +
+        // a short form for mistakes on the page: the note, an optional email, and the page it was sent from
+        '<div class="repf" id="dcxRepF" hidden>' +
+          '<header><button type="button" class="back" id="dcxRepBack" aria-label="' + T.rep_back + '">' +
+            cico(isAR ? '<path d="M9 6l6 6-6 6"/>' : '<path d="M15 6l-6 6 6 6"/>') + '</button>' +
+            '<div><strong>' + T.rep_h + '</strong><p>' + T.rep_p + '</p></div></header>' +
+          '<form id="dcxRepForm" novalidate>' +
+            '<label for="dcxRepQ">' + T.rep_q + '</label>' +
+            '<textarea id="dcxRepQ" rows="4" maxlength="2000" required></textarea>' +
+            '<label for="dcxRepM">' + T.rep_mail + '</label>' +
+            '<input id="dcxRepM" type="email" autocomplete="email" dir="ltr">' +
+            '<input id="dcxRepBot" type="checkbox" tabindex="-1" autocomplete="off" aria-hidden="true" class="dcx-hp">' +
+            '<p class="note" id="dcxRepNote">' + T.rep_note + '</p>' +
+            '<button type="submit" id="dcxRepGo">' + T.rep_send + '</button>' +
+          '</form>' +
+          '<p class="ok" id="dcxRepOk" role="status" hidden></p>' +
+        '</div>' +
+      '</div>' +
       '<button class="chatb" id="dcxChatB" aria-expanded="false" aria-controls="dcxChatP" aria-label="' + T.chat_label + '">' +
         '<img class="dcx-logo" src="assets1/images/dc-logo-chat.webp" alt="" aria-hidden="true" width="34" height="34">' +
         '<svg class="x" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 5l14 14M19 5L5 19"/></svg>' +
@@ -310,6 +339,53 @@
     });
     // The chat panel stays collapsed until the user taps the bubble — no auto-open,
     // so it never covers the hero on load.
+
+    // "Report a mistake on this page": swaps the panel to a short form. Anything with
+    // data-dcx-report (the 404 page's link, for one) opens it too.
+    var main = chat.querySelector('#dcxMain'), repf = chat.querySelector('#dcxRepF'),
+      repForm = chat.querySelector('#dcxRepForm'), repQ = chat.querySelector('#dcxRepQ'),
+      repOk = chat.querySelector('#dcxRepOk'), repNote = chat.querySelector('#dcxRepNote');
+    function showReport(on) {
+      main.hidden = on; repf.hidden = !on;
+      if (on) { repForm.hidden = false; repOk.hidden = true; repNote.textContent = T.rep_note; repQ.focus(); }
+    }
+    function openReport() {
+      btn.setAttribute('aria-expanded', 'true'); panel.hidden = false; showReport(true);
+    }
+    chat.querySelector('#dcxRep').addEventListener('click', function () { showReport(true); });
+    repQ.addEventListener('input', function () { repNote.textContent = T.rep_note; });
+    chat.querySelector('#dcxRepBack').addEventListener('click', function () { showReport(false); });
+    btn.addEventListener('click', function () { if (btn.getAttribute('aria-expanded') === 'false') showReport(false); });
+    document.addEventListener('click', function (e) {
+      var t = e.target.closest && e.target.closest('[data-dcx-report]');
+      if (t) { e.preventDefault(); e.stopPropagation(); openReport(); }
+    }, true);
+    // the delivery helper is on most pages; the home, about and services pages load it on first use
+    function withForms(cb) {
+      if (window.dcpDeliver) { cb(); return; }
+      var s = document.createElement('script'); s.src = 'dc-forms.js'; s.onload = s.onerror = cb;
+      document.head.appendChild(s);
+    }
+    repForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var note = repQ.value.trim();
+      if (!note) { repNote.textContent = T.rep_need; repQ.focus(); return; }
+      var done = function (how) {
+        repForm.hidden = true; repOk.hidden = false; repOk.textContent = how === 'mail' ? T.rep_mailed : T.rep_ok;
+        repQ.value = '';
+      };
+      if (chat.querySelector('#dcxRepBot').checked) { done('sent'); return; }   // filled in by a bot, not a person
+      var go = chat.querySelector('#dcxRepGo'); go.disabled = true;
+      var fields = { report: note, email: chat.querySelector('#dcxRepM').value.trim(), page: location.href,
+        came_from: document.referrer, page_title: document.title, language: isAR ? 'ar' : 'en',
+        screen: innerWidth + 'x' + innerHeight };
+      var subj = (isAR ? 'بلاغ عن خطأ في الموقع' : 'Website mistake report') + ': ' + (location.pathname.split('/').pop() || 'index.html');
+      withForms(function () {
+        (window.dcpDeliver ? window.dcpDeliver(fields, subj) : Promise.resolve('mail')).then(function (how) {
+          go.disabled = false; done(how);
+        });
+      });
+    });
 
     // sticky mobile CTA — not on the contact page (it is the destination)
     if (stem !== 'contact') {

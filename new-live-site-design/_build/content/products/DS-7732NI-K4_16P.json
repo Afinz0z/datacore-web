@@ -1,15 +1,66 @@
 {
  "sku": "DS-7732NI-K4/16P",
- "order": 3298,
+ "order": 3294,
  "n": "32CH 16P Poe - 4 HDD AcuSense",
  "b": "Hikvision",
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HIKVISION (4K & H.265) 32CH Network Video Recorder- 16 Independent PoE Network Interfaces - 4 HDD Support AcuSense",
- "specs": [],
+ "specs": [
+  {
+   "label": "IP Video Input",
+   "value": "32-ch"
+  },
+  {
+   "label": "Incoming Bandwidth",
+   "value": "256 Mbps"
+  },
+  {
+   "label": "Outgoing Bandwidth",
+   "value": "160 Mbps"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "1-ch, 4K (3840 × 2160)/30Hz, 2K (2560 × 1440)/60Hz, 1920 × 1080/60Hz, 1600 × 1200/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz"
+  },
+  {
+   "label": "VGA Output",
+   "value": "1-ch, 1920 × 1080/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz"
+  },
+  {
+   "label": "Audio Output",
+   "value": "1-ch, RCA (Linear, 1 KΩ)"
+  },
+  {
+   "label": "Video Output Mode",
+   "value": "HDMI/VGA independent output"
+  },
+  {
+   "label": "Two-Way Audio",
+   "value": "1-ch, RCA (2.0 Vp-p, 1 KΩ, using the audio input)"
+  },
+  {
+   "label": "Decoding Format",
+   "value": "H.265/ H.265+/H.264/H.264+"
+  },
+  {
+   "label": "Recording Resolution",
+   "value": "12 MP/8 MP/6 MP/5 MP/4 MP/3 MP/1080p/UXGA/ 720p/VGA/4CIF/DCIF/2CIF/CIF/QCIF"
+  },
+  {
+   "label": "Synchronous Playback",
+   "value": "16-ch"
+  },
+  {
+   "label": "Decoding Capability",
+   "value": "Smooth Playback (HC) ON : 1-ch@12 MP (30 fps)/2-ch@8 MP (30 fps)/4-ch@4 MP (30 fps)/9-ch@1080p (30 fps) Smooth Playback (HC) OFF : 1-ch@12 MP (30 fps)/2-ch@8 MP (30 fps)/5-ch@4 MP (30 fps)/10-ch@1080p (30 fps)"
+  }
+ ],
  "acc": [
   "DC HC330",
   "WD102PURP"
- ]
+ ],
+ "src": "https://www.hikvision.com/sa/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7732ni-k4-16p/",
+ "checked": "2026-10-19"
 }

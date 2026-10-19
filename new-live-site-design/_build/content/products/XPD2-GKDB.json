@@ -1,15 +1,66 @@
 {
  "sku": "XPD2-GKDB",
- "order": 3434,
+ "order": 3430,
  "n": "RF Card reader",
  "b": "Suprema",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Gang Box Keypad type RF Card reader, Dual RFID(125kHz EM & 13.56Mhz MIFARE, DESFire/EV1, FeliCa, NFC, ISO14443A), IP67, IK08, BLE",
- "specs": [],
+ "specs": [
+  {
+   "label": "RF Option",
+   "value": "125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire, DESFire EV1/EV2/EV3, FeliCa"
+  },
+  {
+   "label": "RF read range",
+   "value": "MIFARE/DESFire/EM: 50 mm, FeliCa: 30 mm"
+  },
+  {
+   "label": "Mobile Card",
+   "value": "NFC, BLE"
+  },
+  {
+   "label": "CPU",
+   "value": "80 MHz"
+  },
+  {
+   "label": "Crypto Chip",
+   "value": "Supported"
+  },
+  {
+   "label": "Display",
+   "value": "Not supported"
+  },
+  {
+   "label": "LED",
+   "value": "Multi-color"
+  },
+  {
+   "label": "Sound",
+   "value": "Multi-tone Buzzer"
+  },
+  {
+   "label": "Ethernet",
+   "value": "Not supported"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Not supported"
+  },
+  {
+   "label": "RS-485",
+   "value": "1ch Slave"
+  },
+  {
+   "label": "RS-485 Communication Protocol",
+   "value": "OSDP V2 Compliant"
+  }
+ ],
  "acc": [
   "EN-PS03WS-5A",
   "MFCA"
- ]
+ ],
+ "src": "https://www.supremainc.com/en/hardware/compact-outdoor-rfid-reader-xpass-d2.asp",
+ "checked": "2026-10-19"
 }

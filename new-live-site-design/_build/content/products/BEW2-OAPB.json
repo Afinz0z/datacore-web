@@ -1,14 +1,65 @@
 {
  "sku": "BEW2-OAPB",
- "order": 3433,
+ "order": 3429,
  "n": "Outdoor IP FingerPrint Device-Suprema",
  "b": "Suprema",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SUPREMA BEW2-OAPB - FINGERPRINT, MULTICLASS- 125KHZ EM, HID PROX & 13.56MHZ MIFARE,MIFARE PLUS, DESFIRE EV1/EV21), FELICA, ICLASSSE/SR/SEOS40, NFC, BLE, IP67,IK09(CARD+FINGER)",
- "specs": [],
+ "specs": [
+  {
+   "label": "RF Option",
+   "value": "125kHz EM, HID Prox & 13.56MHz MIFARE, MIFARE Plus, DESFire, DESFire EV1/EV2/EV3, FeliCa, iCLASS SE/SR/Seos"
+  },
+  {
+   "label": "RF read range",
+   "value": "MIFARE/DESFire/EM/iCLASS : 50 mm, FeliCa/HID Prox : 30 mm"
+  },
+  {
+   "label": "Mobile Card",
+   "value": "NFC, BLE"
+  },
+  {
+   "label": "Template",
+   "value": "SUPREMA / ISO 19794-2 / ANSI 378"
+  },
+  {
+   "label": "Extractor / Matcher",
+   "value": "MINEX certified and compliant"
+  },
+  {
+   "label": "Live Fingerprint Detection",
+   "value": "Supported (HW + SW based)"
+  },
+  {
+   "label": "Max. User",
+   "value": "500,000"
+  },
+  {
+   "label": "Max. Credential (1:N)",
+   "value": "Fingerprint: 100,000"
+  },
+  {
+   "label": "Max. Credential (1:1)",
+   "value": "Fingerprint: 500,000 Card: 500,000"
+  },
+  {
+   "label": "Max. Text Log",
+   "value": "1,000,000"
+  },
+  {
+   "label": "Max. Image Log",
+   "value": "Not supported"
+  },
+  {
+   "label": "CPU",
+   "value": "1.2 GHz Quad Core"
+  }
+ ],
  "acc": [
   "BIO-POW"
- ]
+ ],
+ "src": "https://www.supremainc.com/en/hardware/compact-outdoor-fingerprint-device-bioentry-w2.asp",
+ "checked": "2026-10-19"
 }

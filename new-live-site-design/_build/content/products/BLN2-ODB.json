@@ -1,14 +1,65 @@
 {
  "sku": "BLN2-ODB",
- "order": 3436,
+ "order": 3432,
  "n": "Suprema BioLite Fingerprint Reader",
  "b": "Suprema",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Suprema BioLite N2 fingerprint access control device with dual RFID (EM + MIFARE), IP67 outdoor rated biometric reader/controller.",
- "specs": [],
+ "specs": [
+  {
+   "label": "RF Option",
+   "value": "125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire, DESFire EV1/EV2/EV3, FeliCa, NFC & 2.4GHz BLE"
+  },
+  {
+   "label": "RF read range",
+   "value": "MIFARE/DESFire: 50 mm, EM/FeliCa: 30 mm"
+  },
+  {
+   "label": "Mobile Card",
+   "value": "NFC, BLE"
+  },
+  {
+   "label": "Template",
+   "value": "SUPREMA / ISO 19794-2 / ANSI 378"
+  },
+  {
+   "label": "Extractor / Matcher",
+   "value": "MINEX certified and compliant"
+  },
+  {
+   "label": "Live Fingerprint Detection",
+   "value": "Supported (SW-based)"
+  },
+  {
+   "label": "Max. User",
+   "value": "10,000"
+  },
+  {
+   "label": "Max. Credential (1:N)",
+   "value": "Fingerprint: 10,000"
+  },
+  {
+   "label": "Max. Credential (1:1)",
+   "value": "Fingerprint: 10,000 / Card: 10,000 / PIN: 10,000"
+  },
+  {
+   "label": "Max. Text Log",
+   "value": "1,000,000"
+  },
+  {
+   "label": "Max. Image Log",
+   "value": "Not supported"
+  },
+  {
+   "label": "CPU",
+   "value": "1.2 GHz"
+  }
+ ],
  "acc": [
   "EN-500S(LED)-DS"
- ]
+ ],
+ "src": "https://www.supremainc.com/en/hardware/outdoor-fingerprint-terminal-biolite-n2.asp",
+ "checked": "2026-10-19"
 }

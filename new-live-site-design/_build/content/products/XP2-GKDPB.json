@@ -1,11 +1,62 @@
 {
  "sku": "XP2-GKDPB",
- "order": 3431,
+ "order": 3427,
  "n": "Keypad type RF Card reader",
  "b": "Suprema",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "GangBox Keypad type RF Card reader, Dual RFID(125kHz EM & 13.56Mhz MIFARE, MIFARE Plus, DESFire/EV1, FeliCa), IP67, IK08, NFC, BLE",
- "specs": []
+ "specs": [
+  {
+   "label": "RF Option",
+   "value": "125 kHz EM & 13.56 MHz MIFARE, MIFARE Plus, DESFire, DESFire EV1/EV2/ EV3, FeliCa"
+  },
+  {
+   "label": "RF read range",
+   "value": "MIFARE/DESFire/EM: 50 mm, FeliCa: 30 mm"
+  },
+  {
+   "label": "Mobile Card",
+   "value": "NFC, BLE"
+  },
+  {
+   "label": "Users (1:1)",
+   "value": "200,000"
+  },
+  {
+   "label": "Users (1:N)",
+   "value": "200,000"
+  },
+  {
+   "label": "Text Log",
+   "value": "1,000,000"
+  },
+  {
+   "label": "PIN",
+   "value": "Supported (Keypad 3x4)"
+  },
+  {
+   "label": "CPU",
+   "value": "1 GHz"
+  },
+  {
+   "label": "Crypto Chip",
+   "value": "Supported"
+  },
+  {
+   "label": "Display",
+   "value": "Not supported"
+  },
+  {
+   "label": "LED",
+   "value": "Multi-color"
+  },
+  {
+   "label": "Sound",
+   "value": "Multi-tone Buzzer"
+  }
+ ],
+ "src": "https://www.supremainc.com/en/hardware/outdoor-compact-rfid-device-xpass-2.asp",
+ "checked": "2026-10-19"
 }

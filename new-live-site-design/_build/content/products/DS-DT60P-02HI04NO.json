@@ -1,11 +1,62 @@
 {
  "sku": "DS-DT60P-02HI04NO",
- "order": 315,
+ "order": 314,
  "n": "4 Ports 3-in-1 LED Controller",
  "b": "Hikvision",
  "c": "Video Wall Controller",
  "dept": "AV",
  "avail": "lead",
  "d": "HIKVISION 3-in-1 LED Controller, Support built-in digital signage function and built-in videowall controller. 2 × HDMI 1.4 Input,1 × Signage Input(1080p), Support 3 Windows division. Max. support 144~5120(W)*64~5120(H) resolution,4 × RJ45 Output Ports. Total Load Capcity:2.6M Pixels",
- "specs": []
+ "specs": [
+  {
+   "label": "Brightness Control",
+   "value": "1 to 100 tunable (level-by-level white balance)"
+  },
+  {
+   "label": "Input Frame Rate",
+   "value": "25 Hz to 60 Hz"
+  },
+  {
+   "label": "Grey Level",
+   "value": "256"
+  },
+  {
+   "label": "Display Color",
+   "value": "16 MP"
+  },
+  {
+   "label": "Processing Depth",
+   "value": "8 bit"
+  },
+  {
+   "label": "Image Scaling",
+   "value": "Supported"
+  },
+  {
+   "label": "Product Model",
+   "value": "DS-DT60P-02HI04NO"
+  },
+  {
+   "label": "Chassis Height",
+   "value": "1 U"
+  },
+  {
+   "label": "Chassis Width",
+   "value": "Half-width"
+  },
+  {
+   "label": "Light Sensor Port",
+   "value": "Not supported"
+  },
+  {
+   "label": "Power Interface",
+   "value": "100 to 240 VAC, 50/60 Hz"
+  },
+  {
+   "label": "USB Interface",
+   "value": "1 channel of USB 2.0 + 1 channel of USB 3.0"
+  }
+ ],
+ "src": "https://www.hikvision.com/mena-en/products/display-and-control/control-and-decode/led-controllers/ds-dt60p-02hi04no/",
+ "checked": "2026-10-19"
 }

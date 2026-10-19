@@ -1,15 +1,66 @@
 {
  "sku": "FSF2-ODB",
- "order": 3428,
+ "order": 3424,
  "n": "CARD READER-SUPREMA-face+Finger",
  "b": "Suprema",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fusion Face+Fingerprint Recognition(Multimodal), Dual RFID(125kHz EM & 13.56Mhz MIFARE, MIFARE Plus, DESFire EV1/EV2, FeliCa, NFC, BLE)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Biometrics",
+   "value": "Face, Fingerprint"
+  },
+  {
+   "label": "RF Option",
+   "value": "125 kHz EM & 13.56 MHz MIFARE, MIFARE Plus, DESFire, DESFire EV1/EV2/ EV3, FeliCa"
+  },
+  {
+   "label": "RF read range",
+   "value": "EM/MIFARE/DESFire: 50 mm, FeliCa: 30 mm"
+  },
+  {
+   "label": "Mobile Card",
+   "value": "NFC, BLE"
+  },
+  {
+   "label": "Authentication Distance",
+   "value": "0.3 ~ 1.3 m"
+  },
+  {
+   "label": "Authentication Height",
+   "value": "1.4 ~ 1.9 m"
+  },
+  {
+   "label": "Matching speed",
+   "value": "Within 0.5 seconds"
+  },
+  {
+   "label": "Live Face Detection",
+   "value": "Supported"
+  },
+  {
+   "label": "Resolution",
+   "value": "500 dpi"
+  },
+  {
+   "label": "Template",
+   "value": "SUPREMA / ISO19794-2, ANSI-378"
+  },
+  {
+   "label": "Extractor / Matcher",
+   "value": "MINEX certified and compliant"
+  },
+  {
+   "label": "Live Fingerprint Detection",
+   "value": "Supported (SW-based)"
+  }
+ ],
  "acc": [
   "220V-24V-3Ah",
   "Biotar2-TA-STD"
- ]
+ ],
+ "src": "https://www.supremainc.com/en/hardware/fusion-multimodal-terminal-facestation-f2.asp",
+ "checked": "2026-10-19"
 }

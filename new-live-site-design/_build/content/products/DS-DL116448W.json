@@ -1,14 +1,41 @@
 {
  "sku": "DS-DL116448W",
- "order": 2662,
+ "order": 2661,
  "n": "LED panel Bracket",
  "b": "Hikvision",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Hikvision LED Bracket 1 x 1 cabnet frame",
- "specs": [],
+ "specs": [
+  {
+   "label": "Surface treatment",
+   "value": "Electrostatic spraying"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Gross Weight",
+   "value": "4.5 ± 0.5 Kg (9.9 ± 1.1 lb)"
+  },
+  {
+   "label": "Net Weight",
+   "value": "2.9 ± 0.5 Kg (6.49 ± 1.1 lb)"
+  },
+  {
+   "label": "Material",
+   "value": "AL6063"
+  },
+  {
+   "label": "Dimension",
+   "value": "640 mm × 480 mm × 40 mm (25.2\" × 18.9\" × 1.57\")"
+  }
+ ],
  "for": [
   "DS-D40S-2F"
- ]
+ ],
+ "src": "https://pro-av.hikvision.com/mea-en/products/led-displays/indoor-led/indoor-accessories/ds-dl116448w/",
+ "checked": "2026-10-19"
 }

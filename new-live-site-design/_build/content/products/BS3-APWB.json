@@ -1,11 +1,62 @@
 {
  "sku": "BS3-APWB",
- "order": 3427,
+ "order": 3423,
  "n": "CARD READER-SUPREMA",
  "b": "Suprema",
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Multiple Credential, Face Recognition (Multiple Credential, Face Recognition (IR+Visual),QR/Barcode, MultiCLASS SE and DualRFID(125kHz EM, HID Prox &13.56Mhz MIFARE,MIFARE Plus, DESFire/EV1/EV2/EV3,FeliCa, iCLASS SE/SR/Seos, HID Prox, NFC, BLE), IP65,IK06, RTSP, Intercom (SIP), Wifi,PoE+",
- "specs": []
+ "specs": [
+  {
+   "label": "Biometrics",
+   "value": "Face"
+  },
+  {
+   "label": "RF Option",
+   "value": "125kHz EM, HID Prox & 13.56MHz MIFARE, MIFARE Plus, DESFire, DESFire EV1/EV2/EV3, FeliCa, iCLASS SE/SR/Seos"
+  },
+  {
+   "label": "RF read range",
+   "value": "EM/HID Prox/MIFARE/DESFire/HID iCLASS: 30 mm, FeliCa: 15 mm"
+  },
+  {
+   "label": "Mobile Card",
+   "value": "NFC, BLE"
+  },
+  {
+   "label": "QR/Barcode",
+   "value": "Supported"
+  },
+  {
+   "label": "Scrambled Keypad (PIN)",
+   "value": "Supported"
+  },
+  {
+   "label": "Authentication Distance",
+   "value": "0.3 ~ 1.0 m"
+  },
+  {
+   "label": "Authentication Height",
+   "value": "1.4 ~ 1.9 m"
+  },
+  {
+   "label": "Matching speed",
+   "value": "Within 0.2 seconds"
+  },
+  {
+   "label": "Live Face Detection",
+   "value": "Supported"
+  },
+  {
+   "label": "Max. User",
+   "value": "100,000"
+  },
+  {
+   "label": "Max. Credential (1:N)",
+   "value": "Face: 50,000"
+  }
+ ],
+ "src": "https://www.supremainc.com/en/hardware/new-door-access-experience-biostation3.asp",
+ "checked": "2026-10-19"
 }

@@ -42,7 +42,9 @@ LEGAL = {
   "en": ("Privacy Policy", "What we collect through this site and how we use it.", [
     ("What we collect", ["When you send an enquiry or a quotation request, we receive the details you type: "
       "typically your name, company, email, phone and your message. We do not ask for payment or ID details "
-      "on this site."]),
+      "on this site.", "When you report a mistake on a page, we receive your note, the address of that page and of "
+      "the page you came from, the size of your screen and, if you give it, your email. We use it only to correct "
+      "the site and, if you ask, to reply."]),
     ("How we use it", ["We use those details only to answer your enquiry and to prepare a quotation or a site "
       "survey. We do not sell your data."]),
     ("Analytics & third parties", ["Google Tag Manager, which runs our analytics, loads only after you accept cookies, "
@@ -54,7 +56,9 @@ LEGAL = {
   ]),
   "ar": ("سياسة الخصوصية", "ما نجمعه عبر هذا الموقع وكيف نستخدمه.", [
     ("ما نجمعه", ["عند إرسالك استفساراً أو طلب عرض سعر، نستلم البيانات التي تكتبها: عادةً الاسم والشركة والبريد "
-      "الإلكتروني ورقم الجوال ورسالتك. ولا نطلب بيانات دفع أو هوية على هذا الموقع."]),
+      "الإلكتروني ورقم الجوال ورسالتك. ولا نطلب بيانات دفع أو هوية على هذا الموقع.",
+      "عند إبلاغك عن خطأ في صفحة، نستلم ملاحظتك وعنوان تلك الصفحة والصفحة التي جئت منها وحجم شاشتك، وبريدك "
+      "الإلكتروني إن كتبته. ونستخدمها فقط لتصحيح الموقع، وللرد عليك إن طلبت."]),
     ("كيف نستخدمها", ["نستخدم هذه البيانات فقط للرد على استفسارك ولإعداد عرض سعر أو زيارة ومسح للموقع. ولا نبيع "
       "بياناتك."]),
     ("التحليلات والأطراف الثالثة", ["لا يُحمَّل Google Tag Manager، الذي يشغّل أدوات التحليل لدينا، إلا بعد موافقتك على ملفات "
@@ -106,6 +110,8 @@ def build_404(ar):
         h, p, b1, b2 = ("Page not found", "That link may have moved, or the address is not quite right.",
                         "Back to home", "Browse services")
     more_h = "صفحات مفيدة" if ar else "Or try a popular page"
+    rep = ("وصلت إلى هنا من رابط معطّل؟ أخبرنا أين وجدته." if ar
+           else "Followed a broken link here? Tell us where it was.")
     _links = ([("services", "الخدمات"), ("products", "المنتجات"), ("projects", "المشاريع"),
                ("insights", "الأفكار"), ("faq", "الأسئلة الشائعة"), ("contact", "تواصل معنا")] if ar else
               [("services", "Services"), ("products", "Products"), ("projects", "Projects"),
@@ -120,11 +126,15 @@ def build_404(ar):
             f'<div style="margin-top:34px"><p style="font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;'
             f'color:var(--dcp-ink3);margin:0 0 12px">{esc(more_h)}</p>'
             f'<div style="display:flex;gap:10px 22px;flex-wrap:wrap;font-weight:600" class="dcp-404links">{link_html}</div>'
+            f'<p style="margin-top:30px"><a href="#" data-dcx-report="1" style="font-weight:600">{esc(rep)}</a></p>'
             f'</div></div></section>'
             + footer(ar))
     tt = h + (" | داتاكور" if ar else " | Datacore Solutions")
     # a 404 page is never a search result, even when opened directly at /404.html
-    return shell(ar, "", tt, p, body, extra_head='<meta name="robots" content="noindex">')
+    # a missing page is recorded in analytics (GTM reads the queue only once the visitor accepts cookies)
+    nf = ('<script>window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:"page_not_found",'
+          'page_path:location.pathname,page_referrer:document.referrer});</script>')
+    return shell(ar, "", tt, p, body, extra_head='<meta name="robots" content="noindex">', extra_js=nf)
 
 CAREERS = {
  "en": ("Careers", "Build low-current systems that run real buildings.",
