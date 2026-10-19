@@ -47,5 +47,17 @@
   }
  ],
  "src": "https://www.qsys.com/products-solutions/q-sys/control-io-controllers/axon-c1-wall-controller/",
- "checked": "2026-10-18"
+ "checked": "2026-10-18",
+ "videos": [
+  {
+   "id": "lS5-PBfWL0s",
+   "title": "QSC: Integrating Axon C1 (Part 1)",
+   "channel": "QSC"
+  },
+  {
+   "id": "bKNLhXcsgDU",
+   "title": "QSC: Integrating Axon C1 (Part 2)",
+   "channel": "QSC"
+  }
+ ]
 }

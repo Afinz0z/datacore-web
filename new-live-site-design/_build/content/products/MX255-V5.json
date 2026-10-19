@@ -61,5 +61,17 @@
   "LGWM-3790F"
  ],
  "src": "https://www.smarttech.com/en-ae/products/mx-series/education",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "R9V3QJFlT8c",
+   "title": "Meet the SMART Board MX - Made for multitaskers",
+   "channel": "SMART Technologies"
+  },
+  {
+   "id": "901DwenztgM",
+   "title": "Discover SMART Ink – exclusive to SMART Board interactive displays",
+   "channel": "SMART Technologies"
+  }
+ ]
 }

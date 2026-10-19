@@ -59,5 +59,22 @@
   }
  ],
  "src": "https://eu.connect.panasonic.com/gb/en/broadcast-proav/aw-rp150gj",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "Emk-vXonYls",
+   "title": "Meet the new AW-RP150 remote controller",
+   "channel": "Panasonic Connect Europe"
+  },
+  {
+   "id": "7qeJkv3HmqI",
+   "title": "Meet the 4K 50p integrated PTZ camera AW-UE150 and AW-RP150 remote controller",
+   "channel": "Panasonic Connect Europe"
+  },
+  {
+   "id": "5ffn47pzlXA",
+   "title": "Use PTZ Camera Controllers alongside Auto-Tracking Software | How to – Videos",
+   "channel": "Panasonic Connect Europe"
+  }
+ ]
 }

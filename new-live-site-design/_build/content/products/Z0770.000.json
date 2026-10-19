@@ -58,5 +58,22 @@
   }
  ],
  "src": "https://www.dbaudio.com/global/en/products/series/sl-series/xsl8/",
- "checked": "2026-10-18"
+ "checked": "2026-10-18",
+ "videos": [
+  {
+   "id": "eKZQ-9bQNyk",
+   "title": "SL-Series tutorial. XSL 1. Overview and rigging accessories",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "pItzV1W0fYk",
+   "title": "SL-Series tutorial. XSL 2. Compression mode rigging",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "H0M57AjnwtE",
+   "title": "SL-Series tutorial. XSL 3. Compression mode de-rigging",
+   "channel": "d&b audiotechnik"
+  }
+ ]
 }

@@ -92,8 +92,12 @@ def skip_reason(raw_brand, cat, sku, name):
     return None
 
 
+# bullets pasted from Word's Symbol and Wingdings fonts arrive as private-use characters that show as boxes
+SYMBOL_FONT = re.compile('[%s-%s]' % (chr(0xF000), chr(0xF0FF)))
+
+
 def clean(s):
-    return ' '.join(DASHES.sub('-', INVISIBLE.sub('', str(s or ''))).split())
+    return ' '.join(DASHES.sub('-', SYMBOL_FONT.sub(' ' + chr(0x2022) + ' ', INVISIBLE.sub('', str(s or '')))).split())
 
 
 def read_sheet(path, name):
@@ -199,6 +203,7 @@ def readable_name(name, desc, brand):
     import difflib
     if not desc:
         return name
+    desc = SYMBOL_FONT.sub(chr(0x2022), desc)
     phrase = re.split(r'\s*(?:\u2022|;|\||\.\s)\s*', desc.strip(' \u2022'))[0]
     # a title run into a sentence: "Amplifier, 75 W The AMP-X75 provides..." (but not Samsung's "The Wall")
     phrase = re.split(r'\s+(?=(?:The|This|These|It|Its)\s+(?:\S+\s+){0,2}(?:is|are|provides|offers|delivers|'
@@ -369,10 +374,12 @@ def main(xlsx, skipped_csv=None):
             if old.get('checked'):
                 e['specs'] = old.get('specs', [])
                 e.pop('spec_src', None)
-                for k in ('src', 'checked'):
+                for k in ('src', 'checked', 'src_kind', 'src_name'):
                     if old.get(k):
                         e[k] = old[k]
                 kept_checks += 1
+            if old.get('videos'):             # official videos from the maker's page survive too
+                e['videos'] = old['videos']
         with open(path, 'w', encoding='utf-8', newline='\n') as f:
             json.dump(e, f, ensure_ascii=False, indent=1)
             f.write('\n')

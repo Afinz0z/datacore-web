@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "firewall",
  "d": "FortiGate-200G Hardware plus 3 Year FortiCare Premium and FortiGuard Unified Threat Protection (UTP)",
- "specs": []
+ "specs": [
+  {
+   "label": "Interfaces",
+   "value": "8x 10 GE SFP+, 8x 5GE RJ45, 10x GE RJ45, 4x GE SFP"
+  },
+  {
+   "label": "Firewall Throughput (1518/512/64 byte UDP)",
+   "value": "39 / 39 / 26.5 Gbps"
+  },
+  {
+   "label": "NGFW Throughput (Enterprise Mix)",
+   "value": "7 Gbps"
+  },
+  {
+   "label": "Threat Protection Throughput (Ent. Mix)",
+   "value": "6 Gbps"
+  },
+  {
+   "label": "IPS Throughput (Enterprise Mix)",
+   "value": "9 Gbps"
+  },
+  {
+   "label": "IPsec VPN Throughput (512 byte)",
+   "value": "36 Gbps"
+  },
+  {
+   "label": "SSL Inspection Throughput (IPS, avg. HTTPS)",
+   "value": "7 Gbps"
+  },
+  {
+   "label": "Concurrent Sessions",
+   "value": "11 Million"
+  },
+  {
+   "label": "Max FortiAPs (Total, Tunnel)",
+   "value": "256 / 128"
+  },
+  {
+   "label": "Power Supplies",
+   "value": "Dual AC PS"
+  },
+  {
+   "label": "Form Factor",
+   "value": "1 RU"
+  },
+  {
+   "label": "Firewall Latency",
+   "value": "4.36 μs"
+  }
+ ],
+ "src": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/Fortinet_Product_Matrix.pdf",
+ "checked": "2026-10-19"
 }

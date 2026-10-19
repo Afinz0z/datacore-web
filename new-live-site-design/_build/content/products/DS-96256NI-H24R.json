@@ -6,7 +6,7 @@
  "c": "Network Video Recorder (NVR)",
  "dept": "NETWORK",
  "avail": "lead",
- "d": "Up to 256-ch IP camera inputs Up to 48-ch@1080p decoding capacity , Up to 1.25Gbps incoming bandwidth and 1.25Gbps outgoingbandwidth ,Supports special cameras, including people counting camera,ANPR (automatic number plate recognition) camera, andfisheye camera ,Advanced streaming technology enables smooth live view inpoor network conditions ,Supports RAID 0, 1, 5, 6, 10 and N+M hot spare for even morereliable data storage, effectively avoids data loss risks",
+ "d": "Up to 256-ch IP camera inputs • Up to 48-ch@1080p decoding capacity , Up to 1.25Gbps incoming bandwidth and 1.25Gbps outgoingbandwidth ,Supports special cameras, including people counting camera,ANPR (automatic number plate recognition) camera, andfisheye camera ,Advanced streaming technology enables smooth live view inpoor network conditions ,Supports RAID 0, 1, 5, 6, 10 and N+M hot spare for even morereliable data storage, effectively avoids data loss risks",
  "specs": [
   {
    "label": "Number of channel",

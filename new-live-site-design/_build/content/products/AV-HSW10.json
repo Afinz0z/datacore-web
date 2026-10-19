@@ -58,5 +58,12 @@
   }
  ],
  "src": "https://eu.connect.panasonic.com/gb/en/broadcast-proav/av-hsw10",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "uqTH25te3bs",
+   "title": "Enhance your production with AV-HSW10 compact IP switcher",
+   "channel": "Panasonic ProVideo Systems"
+  }
+ ]
 }

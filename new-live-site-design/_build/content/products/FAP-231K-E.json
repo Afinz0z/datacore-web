@@ -9,32 +9,57 @@
  "d": "FortiAP-231K Indoor Wireless AP - (Wi-Fi-7 IEEE Tri-band 2.4/5/6GHz 2+2+2 2 streams 3 radios), internal antennas, 100/1000/2500/5000 Base-T RJ45, BT/BLE, 1x RS-232 RJ45 Serial Port. Ceiling/wall mount kit included. For power order: 802.3at PoE injector GPI-130(1Gbps)/GPI-145(10Gbps) or AC adapter SP-FAP200-PA. Region Code E",
  "specs": [
   {
-   "label": "Type",
-   "value": "Indoor"
+   "label": "Suggested Use Case",
+   "value": "WiFi-7 indoor"
   },
   {
-   "label": "Wi-Fi standard",
-   "value": "Wi-Fi 7 (IEEE 802.11be)"
+   "label": "Number of Radios",
+   "value": "3 + 1 BLE"
   },
   {
-   "label": "Operating bands",
-   "value": "2.4 GHz, 5 GHz, 6 GHz"
+   "label": "Number of Antennas",
+   "value": "4 Internal + 1 BLE Internal"
   },
   {
-   "label": "Radio architecture",
-   "value": ": tri-band"
+   "label": "Radio 1 Capabilities",
+   "value": "2.4 GHz, 2x2 20/40MHz"
   },
   {
-   "label": "MIMO",
-   "value": "2x2 MU-MIMO"
+   "label": "Radio 2 Capabilities",
+   "value": "5.0 GHz, 2x2 20/40/80/160MHz"
   },
   {
-   "label": "Series",
-   "value": "FortiAP 231K"
+   "label": "Radio 3 Capabilities",
+   "value": "6.0 GHz, 2x2 20/40/80/160/320MHz"
+  },
+  {
+   "label": "Maximum Data Rate",
+   "value": "Radio 1: up to 688 Mbps; Radio 2: up to 2.882 Gbps; Radio 3: up to 5.765 Gbps"
+  },
+  {
+   "label": "Interfaces",
+   "value": "1x 5/2.5/GE RJ45, 1x RS-232 RJ45 Serial Port"
+  },
+  {
+   "label": "Power over Ethernet (PoE)",
+   "value": "x1 802.3at PoE default"
+  },
+  {
+   "label": "Simultaneous SSIDs",
+   "value": "Up to 8 per client serving radio (7 if background scanning is enabled)"
+  },
+  {
+   "label": "Maximum Tx Power",
+   "value": "2.4GHz band: 26 dBm/400 mW (2 chains combined); 5.0GHz band: 23 dBm/200 mW (2 chains combined); 6.0GHz band: 22 dBm/158 mW (2 chains combined@320MHz BW)"
+  },
+  {
+   "label": "Per Radio Client Capacity",
+   "value": "Up to 256 per radio (Radio1, 2 & 3)"
   }
  ],
- "spec_src": "inventory",
  "acc": [
   "FC-10-P231K-247-02-12"
- ]
+ ],
+ "src": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/Fortinet_Wireless_Product_Matrix.pdf",
+ "checked": "2026-10-19"
 }

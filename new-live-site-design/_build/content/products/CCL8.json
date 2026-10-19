@@ -59,5 +59,22 @@
   }
  ],
  "src": "https://www.dbaudio.com/global/en/products/all/series/cl-series/ccl8/",
- "checked": "2026-10-18"
+ "checked": "2026-10-18",
+ "videos": [
+  {
+   "id": "LnrBb0AEKRw",
+   "title": "CL-Series rigging tutorial. CCL 1. Overview & rigging accessories | d&b audiotechnik",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "KaYZ2oGvN4o",
+   "title": "CL-Series rigging tutorial. CCL 2. Top-rigging | d&b audiotechnik",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "o6S0p8sdEDw",
+   "title": "CL-Series rigging tutorial. CCL 3. Top de-rigging | d&b audiotechnik",
+   "channel": "d&b audiotechnik"
+  }
+ ]
 }

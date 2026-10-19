@@ -59,5 +59,22 @@
   }
  ],
  "src": "https://www.dbaudio.com/global/en/products/amplifiers/d80/",
- "checked": "2026-10-18"
+ "checked": "2026-10-18",
+ "videos": [
+  {
+   "id": "z_TpF_URPBw",
+   "title": "D80, D20 amplifiers tutorial 1 Overview and navigation",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "0NmKmKRcdAg",
+   "title": "D80 amplifier. The story behind",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "eXnA77ewobI",
+   "title": "D80, D20 amplifiers tutorial 2 Device setup: Input modes",
+   "channel": "d&b audiotechnik"
+  }
+ ]
 }

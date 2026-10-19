@@ -58,5 +58,17 @@
   }
  ],
  "src": "https://eu.connect.panasonic.com/gb/en/broadcast-proav/accessories/aw-rp60gj",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "5ffn47pzlXA",
+   "title": "Use PTZ Camera Controllers alongside Auto-Tracking Software | How to – Videos",
+   "channel": "Panasonic Connect Europe"
+  },
+  {
+   "id": "xgYoHlt6CGE",
+   "title": "How to Use PTZ Cameras with AW-RP60 | Panasonic PTZ Step by Step Tutorials \"Use with Controllers\" #1",
+   "channel": "Panasonic ProVideo Systems"
+  }
+ ]
 }

@@ -58,5 +58,12 @@
   }
  ],
  "src": "https://www.barco.com/en/product/clickshare-cx-30",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "5RDRYjVg2rc",
+   "title": "ClickShare Conference CX-30",
+   "channel": "ClickShare by Barco"
+  }
+ ]
 }

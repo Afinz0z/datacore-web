@@ -58,5 +58,22 @@
   }
  ],
  "src": "https://www.audio-technica.com/en-us/atnd1061",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "Yg7hvLZw8zM",
+   "title": "ATND1061 Beamforming Ceiling Array Microphone | Product Demo | Conferencing Audio",
+   "channel": "A-T System Solutions"
+  },
+  {
+   "id": "OAxsOw_k7SA",
+   "title": "ATND1061 Beamforming Ceiling Array Microphone | Software Overview | Conferencing Audio",
+   "channel": "A-T System Solutions"
+  },
+  {
+   "id": "Zbg_1M5Pmic",
+   "title": "ATND1061 Beamforming Ceiling Array Microphone | Overview | Conferencing Audio",
+   "channel": "A-T System Solutions"
+  }
+ ]
 }

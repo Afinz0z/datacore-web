@@ -49,5 +49,17 @@
   }
  ],
  "src": "https://www.dbaudio.com/global/en/products/all/series/sl-series/sl-sub/",
- "checked": "2026-10-18"
+ "checked": "2026-10-18",
+ "videos": [
+  {
+   "id": "PwhkQqQYZjY",
+   "title": "SL-Series tutorial. SL-Sub. 7. Sub-rigging",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "gKs8KIf17B8",
+   "title": "SL-Series tutorial. SL-Sub. 8. Sub de-rigging",
+   "channel": "d&b audiotechnik"
+  }
+ ]
 }

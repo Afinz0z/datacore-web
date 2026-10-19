@@ -58,5 +58,22 @@
   }
  ],
  "src": "https://www.dbaudio.com/global/en/products/amplifiers/d40/",
- "checked": "2026-10-18"
+ "checked": "2026-10-18",
+ "videos": [
+  {
+   "id": "K75jO1MOvC8",
+   "title": "D90, D40, D25 amplifiers tutorial. Overview and navigation | d&b audiotechnik",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "sjvC8Jui6SQ",
+   "title": "D90, D40 amplifiers tutorial – Device Setup | d&b audiotechnik",
+   "channel": "d&b audiotechnik"
+  },
+  {
+   "id": "K8qAkXBIGxo",
+   "title": "D90, D40, D25 amplifiers tutorial. Output modes | d&b audiotechnik",
+   "channel": "d&b audiotechnik"
+  }
+ ]
 }

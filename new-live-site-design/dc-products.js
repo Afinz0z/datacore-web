@@ -109,7 +109,7 @@
       P.forEach(function (p, i) {
         p.d = (T.d && T.d[i]) || '';
         if (T.s && T.s[i]) p.specs = T.s[i];
-        if (T.src && T.src[i]) { p.src = T.src[i][0]; p.checked = T.src[i][1]; }
+        if (T.src && T.src[i]) { p.src = T.src[i][0]; p.checked = T.src[i][1]; p.srcKind = T.src[i][2] || 'maker'; p.srcName = T.src[i][3] || ''; }
         if (T.m && T.m[i]) p.model = T.m[i];
         if (T.k && T.k[i]) p.keys = T.k[i];   // shared spec names, row by row (spec_names.json)
         index(p);
@@ -599,7 +599,9 @@
   }
   function qvHTML(p) {
     var specs = p.specs.map(function (s) { return '<div><dt>' + esc(s[0]) + '</dt><dd dir="ltr">' + esc(s[1]) + '</dd></div>'; }).join('');
-    var note = p.src
+    var note = p.src && p.srcKind === 'distributor'
+      ? '<p class="dcp-qv-src">' + esc(L.qv_dist.replace('{n}', p.srcName).replace('{d}', fmtDate(p.checked))) + ' <a href="' + esc(p.src) + '" target="_blank" rel="noopener nofollow">' + L.qv_list + '</a></p>'
+      : p.src
       ? '<p class="dcp-qv-src">' + esc(L.qv_checked.replace('{d}', fmtDate(p.checked))) + ' <a href="' + esc(p.src) + '" target="_blank" rel="noopener nofollow">' + L.qv_maker + '</a></p>'
       : (TEXT && specs ? '<p class="dcp-qv-src">' + L.qv_inv + '</p>' : '');
     function rel(title, list) {

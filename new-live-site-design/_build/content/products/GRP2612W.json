@@ -45,5 +45,12 @@
   "UCM6302A"
  ],
  "src": "https://www.grandstream.com/products/ip-voice-telephony/carrier-grade-ip-phones/grp-series-professional-ip-phones/product/grp2612-p-w-g",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "LCaK9RcgJ7Q",
+   "title": "GRP2600 Series: How to Order Customizable LCD Faceplates",
+   "channel": "GrandstreamNetworks"
+  }
+ ]
 }

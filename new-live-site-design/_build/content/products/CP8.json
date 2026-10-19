@@ -58,5 +58,22 @@
   }
  ],
  "src": "https://www.qscaudio.com/solutions-products/loudspeakers/portable/powered/portable-pa/cp-series/cp8/",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "GfLcg6Ycfwo",
+   "title": "QSC CP Series: General Overview",
+   "channel": "QSC"
+  },
+  {
+   "id": "Az5KC3k7Fqk",
+   "title": "QSC CP Series: Dance Contour",
+   "channel": "QSC"
+  },
+  {
+   "id": "CDK2obuu-WU",
+   "title": "QSC CP Series: Floor Monitor Use",
+   "channel": "QSC"
+  }
+ ]
 }

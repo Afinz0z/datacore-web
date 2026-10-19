@@ -42,5 +42,12 @@
   }
  ],
  "src": "https://www.grandstream.com/products/ip-voice-telephony-carrier-grade-ip-phones/grp-series-essential-ip-phones/product/grp2603p",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "woQrHZZzYwU",
+   "title": "GRP Series of Essential IP Phones Introduction",
+   "channel": "GrandstreamNetworks"
+  }
+ ]
 }

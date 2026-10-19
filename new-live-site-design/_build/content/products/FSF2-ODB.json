@@ -62,5 +62,22 @@
   "Biotar2-TA-STD"
  ],
  "src": "https://www.supremainc.com/en/hardware/fusion-multimodal-terminal-facestation-f2.asp",
- "checked": "2026-10-19"
+ "checked": "2026-10-19",
+ "videos": [
+  {
+   "id": "RdMs_v8U1l8",
+   "title": "[FaceStation F2] Product Demo l Suprema",
+   "channel": "Suprema"
+  },
+  {
+   "id": "7EgRpo6sd8U",
+   "title": "[FaceStation F2] Fusion Multimodal Terminal l Suprema",
+   "channel": "Suprema"
+  },
+  {
+   "id": "sMpq8kjQyKM",
+   "title": "[FaceStation F2] Unbox and Discover l Suprema",
+   "channel": "Suprema"
+  }
+ ]
 }

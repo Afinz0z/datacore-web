@@ -44,6 +44,8 @@ def _load_products():
                     "cat": cat, "g": e.get("g") or cat["g"], "avail": e.get("avail") or "lead",
                     "d": e.get("d") or "", "acc": e.get("acc") or [], "for": e.get("for") or [],
                     "src": e.get("src") or "", "checked": e.get("checked") or "", "model": e.get("model") or "",
+                    "src_kind": e.get("src_kind") or "maker", "src_name": e.get("src_name") or "",
+                    "videos": e.get("videos") or [],
                     "specs": [_tidy(s["label"], s["value"]) for s in (e.get("specs") or [])
                               if s.get("label") and s.get("value")]})
     return out
@@ -65,7 +67,8 @@ def _own_photo(p):
 _LDIR = os.path.join(ROOT, "assets1", "images", "brands")
 _LOGOS = {os.path.splitext(f)[0] for f in (os.listdir(_LDIR) if os.path.isdir(_LDIR) else [])}
 LOGO_ALT = {"Tripleplay": "Uniguest"}          # the logo shown when it is the maker's, not the brand's
-_SERVICE = re.compile(r'licen[cs]e|subscription|warranty|smart ?net|support contract|care pack|software|saas', re.I)
+_SERVICE = re.compile(r'licen[cs]e|subscription|warranty|smart ?net|support contract|care pack', re.I)
+# no plain "software": hardware names carry it ("for Zoom Rooms Software"); software has its own filter group
 def is_service(p):
     return p["cat"]["grp"] in ("software", "support") or bool(_SERVICE.search(p["n"] + " " + p["cat"]["en"]))
 def _photo(p):
@@ -201,7 +204,10 @@ LABELS = {
    "cmp_clear": "Clear", "cmp_more": "Show {n} more details", "cmp_less": "Show fewer details", "part": "Part number", "product": "Product", "qty": "Quantity",
    "dec": "Decrease quantity", "inc": "Increase quantity",
    "qv_specs": "Specifications", "qv_checked": "Checked against the maker's page on {d}.",
-   "qv_maker": "Maker's product page", "qv_inv": "From Datacore's inventory record, not yet checked against the maker. Ask us for the full datasheet.",
+   "qv_maker": "Maker's product page",
+   "qv_dist": "From {n}'s listing of this exact model (a distributor), checked on {d}; not from the maker's own page.",
+   "qv_list": "Distributor listing", "videos": "Videos", "play": "Play video",
+   "vid_note": "Official videos from the maker. They load from YouTube (youtube-nocookie.com) only when you press play.", "qv_inv": "From Datacore's inventory record, not yet checked against the maker. Ask us for the full datasheet.",
    "qv_page": "Open product page", "qv_link": "Copy link", "copied": "Link copied",
    "qv_acc": "Supporting products", "qv_for": "Works with", "qv_all": "Show all in the catalogue",
    "recent": "Recently viewed", "recent_clear": "Clear", "ac_all": "See all {n} results",
@@ -234,7 +240,10 @@ LABELS = {
    "cmp_clear": "مسح", "cmp_more": "اعرض {n} تفاصيل أخرى", "cmp_less": "اعرض تفاصيل أقل", "part": "رقم القطعة", "product": "المنتج", "qty": "الكمية",
    "dec": "إنقاص الكمية", "inc": "زيادة الكمية",
    "qv_specs": "المواصفات", "qv_checked": "تمت مطابقتها مع صفحة الشركة المصنعة بتاريخ {d}.",
-   "qv_maker": "صفحة المنتج لدى الشركة المصنعة", "qv_inv": "من سجل المخزون لدى داتاكور، ولم تُطابَق بعد مع الشركة المصنعة. اطلب منا ورقة المواصفات الكاملة.",
+   "qv_maker": "صفحة المنتج لدى الشركة المصنعة",
+   "qv_dist": "من قائمة {n} لهذا الطراز نفسه (موزّع)، تمت مراجعتها بتاريخ {d}؛ وليست من صفحة الشركة المصنعة.",
+   "qv_list": "صفحة الموزّع", "videos": "مقاطع الفيديو", "play": "تشغيل الفيديو",
+   "vid_note": "مقاطع رسمية من الشركة المصنعة. تُحمَّل من YouTube (youtube-nocookie.com) فقط عند الضغط على التشغيل.", "qv_inv": "من سجل المخزون لدى داتاكور، ولم تُطابَق بعد مع الشركة المصنعة. اطلب منا ورقة المواصفات الكاملة.",
    "qv_page": "افتح صفحة المنتج", "qv_link": "انسخ الرابط", "copied": "تم نسخ الرابط",
    "qv_acc": "المنتجات الداعمة", "qv_for": "يعمل مع", "qv_all": "اعرضها كلها في الكتالوج",
    "recent": "شاهدتها مؤخراً", "recent_clear": "مسح", "ac_all": "اعرض كل النتائج ({n})",
@@ -417,7 +426,7 @@ def write_data():
         if p['specs'] != card:
             text['s'][i] = p['specs']
         if p['src']:
-            text['src'][i] = [p['src'], p['checked']]
+            text['src'][i] = [p['src'], p['checked']] + ([p['src_kind'], p['src_name']] if p['src_kind'] != 'maker' else [])
         if p['model'] and p['model'] not in p['n']:
             text['m'][i] = p['model']
         keys = [spec_key(l, v, p['cat']['grp']) for l, v in p['specs']]
@@ -623,7 +632,10 @@ def build_product_page(p, ar):
     brand = f'<span class="dcp-card-brand" dir="ltr">{_jesc(p["b"])}</span>' if p['b'] else '<span class="dcp-card-brand"></span>'
     desc = f'<p class="dcp-pp-desc" dir="auto">{esc(p["d"])}</p>' if p['d'] else ''
     specs = ''.join(f'<div><dt>{_jesc(k)}</dt><dd dir="ltr">{_jesc(v)}</dd></div>' for k, v in p['specs'])
-    if p['src']:
+    if p['src'] and p['src_kind'] == 'distributor':
+        note = (f'<p class="dcp-pp-src">{esc(L["qv_dist"].replace("{n}", p["src_name"]).replace("{d}", fmt_date(p["checked"], ar)))} '
+                f'<a href="{esc(p["src"])}" target="_blank" rel="noopener nofollow">{esc(L["qv_list"])}</a></p>')
+    elif p['src']:
         note = (f'<p class="dcp-pp-src">{esc(L["qv_checked"].replace("{d}", fmt_date(p["checked"], ar)))} '
                 f'<a href="{esc(p["src"])}" target="_blank" rel="noopener nofollow">{esc(L["qv_maker"])}</a></p>')
     else:
@@ -635,6 +647,19 @@ def build_product_page(p, ar):
                     + ''.join(_mini(_BY[x], ar) for x in skus[:24]) + '</ul>')
             if len(skus) > 24:
                 rel += f'<p><a class="dcp-more" href="{loc("products", ar)}?rel={urllib.parse.quote(sku)}">{esc(L["qv_all"])}</a></p>'
+    # official videos: a still from our own photo with a play button; YouTube loads only on press
+    vids = ''
+    if p['videos']:
+        poster = (f'<img src="{PHOTO_DIR}{_jesc(_small(photo) or photo)}" alt="" width="300" height="300" decoding="async">'
+                  if photo else                     # no photo: the same category icon the page shows above
+                  '<svg class="dcp-vid-ic" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" '
+                  'stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+                  + (GLYPHS.get(p['g']) or GLYPHS.get('rack') or '') + '</svg>')
+        vids = (f'<h2>{esc(L["videos"])}</h2><div class="dcp-pp-vids">'
+                + ''.join(f'<figure class="dcp-vid"><button type="button"{"" if photo else " class=" + chr(34) + "dcp-vid-noimg" + chr(34)} data-yt="{_jesc(v["id"])}" '
+                          f'aria-label="{esc(L["play"])}: {esc(v["title"])}">{poster}<span class="dcp-vid-play" aria-hidden="true"></span>'
+                          f'</button><figcaption dir="auto">{esc(v["title"])}</figcaption></figure>' for v in p['videos'][:3])
+                + f'</div><p class="dcp-pp-src">{esc(L["vid_note"])}</p>')
     crumbs = [(L['products'], loc('products', ar)), (gname, group_url(grp, ar)), (name, '')]
     body = (_hero(ar, crumbs, name, lede, ghost=False)
             + f'<section class="dcp-sec dcp-pp"><div class="dcp-wrap">'
@@ -643,7 +668,7 @@ def build_product_page(p, ar):
             f'<div class="dcp-pp-buy" data-pp="{_jesc(sku)}">{qty_html(p, L)}'
             f'<p class="dcp-pp-req" id="dcp-pp-req" hidden>{esc(L["in_req"])} <a href="{loc("products", ar)}?req=1">{esc(L["open_req"])}</a></p></div>'
             + (f'<h2>{esc(L["qv_specs"])}</h2><dl class="dcp-pp-specs">{specs}</dl>{note}' if specs else '')
-            + '</div></div>' + rel
+            + '</div></div>' + vids + rel
             + f'<p class="dcp-pp-back"><a href="{group_url(grp, ar)}">{esc(L["back"])}</a></p></div></section>'
             + cta_band(ar) + footer(ar))
     url = SITE + '/' + loc(stem, ar)
@@ -683,7 +708,11 @@ def build_product_page(p, ar):
               'if(e.target.closest(".dcp-add")){if(b[sku]>0)delete b[sku];else b[sku]=Math.max(1,parseInt(inp.value,10)||1);save();sync();}});'
               'inp.addEventListener("change",function(){inp.value=Math.max(1,parseInt(inp.value,10)||1);if(b[sku]>0){b[sku]=+inp.value;save();}});'
               'try{var S="dcp-seen",v=JSON.parse(localStorage.getItem(S))||[];v=[sku].concat(v.filter(function(x){return x!==sku;})).slice(0,12);'
-              'localStorage.setItem(S,JSON.stringify(v));}catch(e){}sync();})();</script>')
+              'localStorage.setItem(S,JSON.stringify(v));}catch(e){}sync();'
+              'document.addEventListener("click",function(e){var b=e.target.closest("[data-yt]");if(!b)return;'
+              'var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(b.getAttribute("data-yt"))+"?autoplay=1&rel=0";'
+              'f.title=b.getAttribute("aria-label");f.allow="autoplay; encrypted-media; picture-in-picture";f.allowFullscreen=true;'
+              'f.className="dcp-vid-frame";b.replaceWith(f);});})();</script>')
     head = ('<script type="application/ld+json">' + json.dumps(prod, ensure_ascii=False) + '</script>'
             '<style>' + PP_CSS + '</style>')
     return shell(ar, 'products', title, meta_desc(d), body, extra_head=head, extra_js=script, canon=stem)
@@ -722,6 +751,21 @@ PP_CSS = MINI_CSS + (
     '.dcp-pp-src{font-size:.85rem;color:var(--dcp-ink3);margin-top:12px}'
     '.dcp-pp-rel{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}'
     '.dcp-pp-back{margin-top:40px}'
+    '.dcp-pp-vids{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}'
+    '.dcp-vid{margin:0}'
+    '.dcp-vid button{position:relative;display:block;width:100%;aspect-ratio:16/9;border:1px solid var(--dcp-line);border-radius:6px;'
+    'background:#fff;cursor:pointer;padding:0;overflow:hidden}'
+    '.dcp-vid button img{width:100%;height:100%;object-fit:contain;opacity:.55}'
+    '.dcp-vid button.dcp-vid-noimg{background:var(--dcp-soft)}'
+    'html.dc-dark .dcp-vid button:not(.dcp-vid-noimg){background:#f2f4f5}'
+    '.dcp-vid-ic{position:absolute;top:14px;inset-inline-start:14px;color:var(--dcp-ink2)}'
+    '.dcp-vid-play{position:absolute;inset:0;margin:auto;width:64px;height:64px;border-radius:50%;background:#00776f}'
+    '.dcp-vid-play:after{content:"";position:absolute;top:50%;left:54%;transform:translate(-50%,-50%);border-style:solid;'
+    'border-width:12px 0 12px 20px;border-color:transparent transparent transparent #fff}'
+    '.dcp-vid button:hover .dcp-vid-play,.dcp-vid button:focus-visible .dcp-vid-play{background:#005a54}'
+    '.dcp-vid button:focus-visible{outline:2px solid var(--dcp-teal-d);outline-offset:2px}'
+    '.dcp-vid figcaption{font-size:.86rem;color:var(--dcp-ink2);margin-top:8px;line-height:1.4}'
+    '.dcp-vid-frame{width:100%;aspect-ratio:16/9;border:0;border-radius:6px;display:block}'
     '@media(max-width:820px){.dcp-pp-grid{grid-template-columns:1fr}.dcp-pp-media{position:static;max-width:420px}}')
 
 CAT_CSS = (

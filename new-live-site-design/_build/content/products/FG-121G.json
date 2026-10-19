@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FORTINET FortiGate-121G 18 x GE RJ45 ports (including 1 x MGMT port, 1 X HA port, 16 x switch ports), 8 x GE SFP slots, 4 x 10GE SFP+ slots, SP5 hardware accelerated, 480GB onboard SSD storage, dual AC power supplies",
- "specs": []
+ "specs": [
+  {
+   "label": "Interfaces",
+   "value": "4x 10 GE SFP+, 18x GE RJ45, 8x GE SFP"
+  },
+  {
+   "label": "Local Storage",
+   "value": "480 GB"
+  },
+  {
+   "label": "Firewall Throughput (1518/512/64 byte UDP)",
+   "value": "39 / 39 / 28 Gbps"
+  },
+  {
+   "label": "NGFW Throughput (Enterprise Mix)",
+   "value": "3.1 Gbps"
+  },
+  {
+   "label": "Threat Protection Throughput (Ent. Mix)",
+   "value": "2.8 Gbps"
+  },
+  {
+   "label": "IPS Throughput (Enterprise Mix)",
+   "value": "5.3 Gbps"
+  },
+  {
+   "label": "IPsec VPN Throughput (512 byte)",
+   "value": "35 Gbps"
+  },
+  {
+   "label": "SSL Inspection Throughput (IPS, avg. HTTPS)",
+   "value": "3 Gbps"
+  },
+  {
+   "label": "Concurrent Sessions",
+   "value": "3 Million"
+  },
+  {
+   "label": "Max FortiAPs (Total, Tunnel)",
+   "value": "128 / 64"
+  },
+  {
+   "label": "Power Supplies",
+   "value": "Dual AC PS"
+  },
+  {
+   "label": "Form Factor",
+   "value": "1 RU"
+  }
+ ],
+ "src": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/Fortinet_Product_Matrix.pdf",
+ "checked": "2026-10-19"
 }

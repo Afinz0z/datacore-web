@@ -96,6 +96,16 @@ for the architecture, the build and the deploy.
   the maker. Where no maker page gives them (the site blocks reading, opts out of crawlers, or has no page per
   model), the export's Specifications column is shown instead (`spec_src: inventory`), labelled as Datacore's
   inventory record and not yet checked against the maker. Checked specs replace it as soon as they exist.
+- Where the maker's site can't be read, specs may come from a distributor's listing that shows the exact part number
+  as the manufacturer part number. The product file then carries `src_kind: distributor` and `src_name` (for example
+  CDW), and the site says the specs come from that distributor's listing, not the maker's page. A listing that
+  contradicts the inventory record is held back for a person to read. A distributor never decides that a model is
+  discontinued, and the maker's own page replaces a listing as soon as it can be read.
+- Product pages may show up to three of the maker's official videos (`videos` in the product file: YouTube id, title,
+  channel). A video counts only when it is embedded in the maker's product page saved in `src`, its channel is the
+  maker's own, the same video is not on five or more of the brand's products (a brand reel), and YouTube's oEmbed
+  still answers for it. Each shows as a still from our photo with a play button; nothing loads from YouTube until a
+  visitor presses play, and then it plays from youtube-nocookie.com. The privacy pages say so.
 - Checking specs: use only the maker's own page for that exact model code (a variant suffix is allowed
   when the address starts with the code), in English. Keep at most 12 rows, key specs first and
   dimensions, weight and environment last. Leave out rows that can't be read cleanly (nested tables,

@@ -58,5 +58,12 @@
   }
  ],
  "src": "https://www.crestron.com/Products/Catalog/Unified-Communications/Flex-Conferencing/Room-Kits/UC-B70-A-T-I",
- "checked": "2026-10-18"
+ "checked": "2026-10-18",
+ "videos": [
+  {
+   "id": "uVse4fC6x7Q",
+   "title": "CTI | Getting Started with Videobar 70: Videobar 70 Overview",
+   "channel": "Crestron Technical Institute"
+  }
+ ]
 }
