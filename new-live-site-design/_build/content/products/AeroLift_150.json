@@ -1,6 +1,6 @@
 {
  "sku": "AeroLift 150",
- "order": 2789,
+ "order": 2787,
  "n": "Ceiling Recessed Projector Lift (AeroLift 150)",
  "b": "Draper",
  "c": "Projector Lift",
@@ -8,9 +8,28 @@
  "avail": "lead",
  "model": "AeroLift 150",
  "d": "Ceiling Recessed Projector Lift",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lowering Distance",
+   "value": "38-1/2\""
+  },
+  {
+   "label": "Shipping Weight (lbs.)",
+   "value": "84"
+  },
+  {
+   "label": "Dimensions (WxD)",
+   "value": "31 1/4\" x 15 3/8\""
+  },
+  {
+   "label": "Unit Weight",
+   "value": "32 lbs."
+  }
+ ],
  "for": [
   "EB-L690SU",
   "PT-RQ18K"
- ]
+ ],
+ "src": "https://www.draperinc.com/liftsmounts/productdetail/92/aerolift-150",
+ "checked": "2026-10-19"
 }

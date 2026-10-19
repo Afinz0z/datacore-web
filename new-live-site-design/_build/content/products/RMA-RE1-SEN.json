@@ -1,6 +1,6 @@
 {
  "sku": "RMA-RE1-SEN",
- "order": 4563,
+ "order": 4561,
  "n": "Room Entry Sensor",
  "b": "AVTECH",
  "c": "Room Alert & Monitoring System",
@@ -9,11 +9,33 @@
  "d": "Sensor- Room Entry",
  "specs": [
   {
-   "label": "Type",
-   "value": "Room Entry Sensor"
+   "label": "Environment Condition Monitored",
+   "value": "Room Entry"
+  },
+  {
+   "label": "Real-Time Recognition",
+   "value": "Door/Cabinet Open/Closed"
+  },
+  {
+   "label": "Sensor Cable Type",
+   "value": "2 Wire Sensor Cable"
+  },
+  {
+   "label": "Sensor Cable Length",
+   "value": "25' (7.62 m)"
+  },
+  {
+   "label": "Maximum Sensor Cable Length",
+   "value": "Approximately 900' (274.32 m)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "Monitoring Unit"
   }
  ],
  "for": [
   "RA3S-ES0-BAS"
- ]
+ ],
+ "src": "https://avtech.com/Products/Sensors/Room_Entry.htm",
+ "checked": "2026-10-19"
 }

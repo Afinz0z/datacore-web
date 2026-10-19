@@ -1,11 +1,62 @@
 {
  "sku": "999-42300-000",
- "order": 1468,
+ "order": 1467,
  "n": "Vaddio Device Controller",
  "b": "Vaddio",
  "c": "Touch Panel Controllers",
  "dept": "AV",
  "avail": "lead",
  "d": "The Vaddio Device Controller is a 10 inch colour touch panel designed to easily access and control Vaddio devices through their web based user interface.",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "1.13 in (2.9 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "7 in (17.8 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "10.25 in (26 cm)"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Control Method",
+   "value": "Touch Screen"
+  },
+  {
+   "label": "Control Type",
+   "value": "Touch Screen"
+  },
+  {
+   "label": "Input Ports",
+   "value": "Network"
+  },
+  {
+   "label": "Max Resolution",
+   "value": "1280x800"
+  },
+  {
+   "label": "Power Type",
+   "value": "PoE"
+  },
+  {
+   "label": "Shipping Dimensions",
+   "value": "22\" x 13\" x 7\" (558.8 x 330.2 x 177.8 mm)"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "3.5 lbs (1.6 kg)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "PoE"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/control/touch_screen/vaddio-device-controller/999-42300-000",
+ "checked": "2026-10-19"
 }

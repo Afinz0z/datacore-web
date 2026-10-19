@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "NP41ZL LENS",
  "d": "NP41ZL Middle Zoom Lens (1.30-3.02:1) for PA and PV Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Zoom/Focus",
+   "value": "motorised"
+  },
+  {
+   "label": "Zoom ratio",
+   "value": "2.3"
+  },
+  {
+   "label": "Throw ratio",
+   "value": "1.30 to 3.02"
+  },
+  {
+   "label": "Recommended screen size [inch]",
+   "value": "50 to 500"
+  },
+  {
+   "label": "Weight [kg]",
+   "value": "1.75"
+  }
+ ],
  "for": [
   "XP-V731U-B"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/accessories/details/t/options/lenses/rp/np41zl.xhtml",
+ "checked": "2026-10-19"
 }

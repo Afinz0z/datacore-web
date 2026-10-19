@@ -1,6 +1,6 @@
 {
  "sku": "999-8250-001",
- "order": 1860,
+ "order": 1859,
  "n": "LegrandAV- Vaddio SWITCHERS",
  "b": "Vaddio",
  "c": "AV Switcher",
@@ -9,8 +9,54 @@
  "d": "AV Bridge 2x1Presentation Switcher",
  "specs": [
   {
-   "label": "Type",
-   "value": "Presentation Switcher"
+   "label": "Depth",
+   "value": "6 in (15.2 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "1.72 in (4.4 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.38 in (21.3 cm)"
+  },
+  {
+   "label": "3rd Party Control",
+   "value": "RS232, Telnet, Trigger"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Control Method",
+   "value": "RS232, Telnet, Trigger, USB, Web UI"
+  },
+  {
+   "label": "Input Ports",
+   "value": "Audio, HDMI, Line Level Audio, Mic Level Audio, Network, RS232, USB 3.0"
+  },
+  {
+   "label": "Output Ports",
+   "value": "HDMI, IP Streaming, Network, USB 3.0 Type B"
+  },
+  {
+   "label": "Power Cord",
+   "value": "EU Cord, UK Cord"
+  },
+  {
+   "label": "Power Type",
+   "value": "PoE+"
+  },
+  {
+   "label": "Special Features",
+   "value": "Audio IO, IP Streaming, PIP"
+  },
+  {
+   "label": "Overall Dimensions",
+   "value": "18\" x 11\" x 5\" (457.2 x 279.4 x 127 mm)"
   }
- ]
+ ],
+ "src": "https://www.legrandav.com/products/av_to_usb_bridges/production_switcher/av-bridge-2x1/999-8250-001",
+ "checked": "2026-10-19"
 }

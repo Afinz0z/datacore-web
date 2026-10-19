@@ -7,10 +7,61 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Barco SP4K-25C 24,000 lumens smart cinema projector,SP4K-25C is part of the Series 4 portfolio",
- "specs": [],
+ "specs": [
+  {
+   "label": "Native brightness",
+   "value": "24,000 lumens (typical)"
+  },
+  {
+   "label": "Native contrast ratio",
+   "value": "2700:1 (typical) up to 3500:1 with HC lens"
+  },
+  {
+   "label": "Digital MicroMirror Device™",
+   "value": "3x 0.98” DC4K"
+  },
+  {
+   "label": "Resolution",
+   "value": "native 4K: 4096 x 2160"
+  },
+  {
+   "label": "Color gamut",
+   "value": "DCI P3 compliant (98.5% of Rec.2020; when measured in xy-color coordinates)"
+  },
+  {
+   "label": "Light source",
+   "value": "Laser"
+  },
+  {
+   "label": "Long-term brightness stability",
+   "value": "+50,000 hrs @ average usage conditions"
+  },
+  {
+   "label": "Housing",
+   "value": "integrated cooling design and patented sealed optical assembly"
+  },
+  {
+   "label": "Power requirements",
+   "value": "single phase or triple phase 200-240V 16A"
+  },
+  {
+   "label": "Heat load",
+   "value": "7750 BTU/hr @ max power @ 40°C"
+  },
+  {
+   "label": "Exhaust airflow",
+   "value": "400CFM"
+  },
+  {
+   "label": "Media server",
+   "value": "Fully Integrated Barco mFusion ICMP-XS with SSD Storage Up To 16TB eff. Other media server brands supported."
+  }
+ ],
  "acc": [
   "CMS0305",
   "CMS115",
   "SI-H L 300"
- ]
+ ],
+ "src": "https://www.barco.com/en/product/sp4k-25c",
+ "checked": "2026-10-19"
 }

@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "36912E",
  "d": "Da-Lite Tensioned Advantage Series -247\"D, 121\" x 216\" with HD Progressive 1.1 Contrast - 36912E",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Diagonal",
+   "value": "247 in (627.4 cm)"
+  },
+  {
+   "label": "Screen Height",
+   "value": "121 in (307.3 cm)"
+  },
+  {
+   "label": "Size",
+   "value": "121\" x 216\" or 247\" diagonal"
+  },
+  {
+   "label": "Application",
+   "value": "Ceiling Recessed"
+  },
+  {
+   "label": "Built-In Control",
+   "value": "Standard Low Voltage Control"
+  },
+  {
+   "label": "Closure Door",
+   "value": "Automatic Closure Door"
+  },
+  {
+   "label": "Drop Type",
+   "value": "Standard Black Drop"
+  },
+  {
+   "label": "Federal Ops Country of Origin",
+   "value": "US"
+  },
+  {
+   "label": "Motor",
+   "value": "220V (50Hz) for Export"
+  },
+  {
+   "label": "Product Selection",
+   "value": "Complete Screen"
+  },
+  {
+   "label": "Projection Type",
+   "value": "Front Projection"
+  },
+  {
+   "label": "Screen Format",
+   "value": "HDTV (16:9)"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/screens/ceiling-recessed-electric-screens/tensioned-advantage-series/36912e",
+ "checked": "2026-10-19"
 }

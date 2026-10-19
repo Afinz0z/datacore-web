@@ -7,9 +7,60 @@
  "dept": "AV",
  "avail": "lead",
  "d": "3-Chip DLP™ Projector",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projector type",
+   "value": "3-Chip DLP TM projector"
+  },
+  {
+   "label": "Display method",
+   "value": "DLP TM chip x 3, DLP TM projection system"
+  },
+  {
+   "label": "Panel size",
+   "value": "20.3 mm (0.8 in) diagonal (16:10 aspect ratio)"
+  },
+  {
+   "label": "Number of pixels",
+   "value": "2,304,000 (1920 x 1200 pixels) x 3"
+  },
+  {
+   "label": "Light source",
+   "value": "Laser diode"
+  },
+  {
+   "label": "Light output",
+   "value": "16,000 lm"
+  },
+  {
+   "label": "Light output (ANSI)",
+   "value": "16,000 lm (ANSI)"
+  },
+  {
+   "label": "Light output (Center)",
+   "value": "16,800 lm （Center）"
+  },
+  {
+   "label": "NORMAL",
+   "value": "20,000 hours [NORMAL]"
+  },
+  {
+   "label": "ECO",
+   "value": "24,000 hours [ECO]"
+  },
+  {
+   "label": "QUIET",
+   "value": "20,000 hours [QUIET]"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K (3840 x 2400 pixels) (Quad Pixel Drive: ON)"
+  }
+ ],
  "acc": [
   "AeroLift 150",
   "ET-D3LEW300"
- ]
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/projectors/pt-rq18k",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,30 @@
 {
  "sku": "CP-1",
- "order": 2718,
+ "order": 2716,
  "n": "Cover Plate",
  "b": "RDL",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Single Cover Plate - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Dimensions",
+   "value": "Height: 4.55 in. 11.6 cm; Width: 2.80 in. 7.1 cm"
+  },
+  {
+   "label": "Package Type",
+   "value": "Bag"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "0.16 lbs."
+  },
+  {
+   "label": "Package Dimensions",
+   "value": "2 x 3 in."
+  }
+ ],
+ "src": "https://rdlnet.com/product/cp-1/",
+ "checked": "2026-10-19"
 }

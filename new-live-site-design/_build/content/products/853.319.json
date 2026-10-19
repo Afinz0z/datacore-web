@@ -1,11 +1,30 @@
 {
  "sku": "853.319",
- "order": 4351,
+ "order": 4349,
  "n": "SAF75 Safety Cable",
  "b": "beamZ",
  "c": "Lighting Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "SAF75 Safety Cable 75cmx3mm 30kg BLK",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Black"
+  },
+  {
+   "label": "Material",
+   "value": "Steel"
+  },
+  {
+   "label": "Max. weight load per piece",
+   "value": "30kg"
+  },
+  {
+   "label": "Weight (kg)",
+   "value": "0.0320"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/saf75-safety-cable-75cm-x-3mm-30kg-black/",
+ "checked": "2026-10-19"
 }

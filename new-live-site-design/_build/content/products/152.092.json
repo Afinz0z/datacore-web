@@ -1,6 +1,6 @@
 {
  "sku": "152.092",
- "order": 4338,
+ "order": 4336,
  "n": "LED 400W BSW CMY (IGNITE400)",
  "b": "beamZ",
  "c": "Light",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "IGNITE400",
  "d": "IGNITE400 LED 400W BSW CMY",
- "specs": []
+ "specs": [
+  {
+   "label": "Light source",
+   "value": "Single colour LED"
+  },
+  {
+   "label": "Colours",
+   "value": "White"
+  },
+  {
+   "label": "LED power (single LED)",
+   "value": "400W"
+  },
+  {
+   "label": "Colour wheel",
+   "value": "8 colours + open"
+  },
+  {
+   "label": "CMY wheel",
+   "value": "Yes"
+  },
+  {
+   "label": "Beam angle: Min",
+   "value": "2°"
+  },
+  {
+   "label": "Beam angle: Max",
+   "value": "38°"
+  },
+  {
+   "label": "Zoom",
+   "value": "Yes"
+  },
+  {
+   "label": "Motorized focus",
+   "value": "Yes"
+  },
+  {
+   "label": "Illuminance",
+   "value": "209.026 lx @ 1m"
+  },
+  {
+   "label": "Head movement: Pan",
+   "value": "540°"
+  },
+  {
+   "label": "Head movement: Tilt",
+   "value": "270°"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/ignite400-led-bsw-moving-head-with-cmy/",
+ "checked": "2026-10-19"
 }

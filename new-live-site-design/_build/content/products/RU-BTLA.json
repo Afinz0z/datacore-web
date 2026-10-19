@@ -1,6 +1,6 @@
 {
  "sku": "RU-BTLA",
- "order": 1363,
+ "order": 1362,
  "n": "Bluetooth® Line-Level Audio & Format-A Interface. (RU-BTLA)",
  "b": "RDL",
  "c": "AUDIO SOURCE",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "RU-BTLA",
  "d": "Bluetooth® Line-Level Audio & Format-A Interface.",
- "specs": []
+ "specs": [
+  {
+   "label": "Outputs",
+   "value": "Balanced: XLR (2); Unbalanced: RCA"
+  },
+  {
+   "label": "Output level (attenuator fully CW)",
+   "value": "XLR (2): +4 dBu balanced, nominal; RCA (2): -10 dBV unbalanced, nominal"
+  },
+  {
+   "label": "Output attenuation",
+   "value": "Off to nominal (+4 dBu or -10 dBV) for -20 dBFS source"
+  },
+  {
+   "label": "Output attenuator",
+   "value": "Front panel flush slotted single-turn trimmer"
+  },
+  {
+   "label": "Mode",
+   "value": "Stereo or Mono (balanced and unbalanced outputs)"
+  },
+  {
+   "label": "Mode selector (line outputs)",
+   "value": "Recessed slide switch (front panel)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 18 kHz (± 1 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.05%"
+  },
+  {
+   "label": "Crosstalk (channel to channel)",
+   "value": "< -82 dB (stereo balanced and unbalance outputs)"
+  },
+  {
+   "label": "Noise below -20 dBFS",
+   "value": "< -70 dB (20 Hz to 20 kHz); < -85 dB (20 Hz to 20 kHz, muted)"
+  },
+  {
+   "label": "Output",
+   "value": "RJ45"
+  },
+  {
+   "label": "Format-A Input",
+   "value": "RJ45 (Pass-thru)"
+  }
+ ],
+ "src": "https://rdlnet.com/product/ru-btla/",
+ "checked": "2026-10-19"
 }

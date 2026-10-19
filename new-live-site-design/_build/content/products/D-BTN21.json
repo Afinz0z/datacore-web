@@ -1,10 +1,57 @@
 {
  "sku": "D-BTN21",
- "order": 1486,
+ "order": 1485,
  "n": "Bluetooth® Audio Dante Network Interface",
  "b": "RDL",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Connector",
+   "value": "RJ45 with Link and Speed indicators"
+  },
+  {
+   "label": "Digital Audio Ethernet Protocol",
+   "value": "Dante or AES67"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "Indicators (Front Panel)",
+   "value": "Bluetooth®, Network Sync"
+  },
+  {
+   "label": "Power Connection",
+   "value": "PoE (RJ45)"
+  },
+  {
+   "label": "Power Requirement",
+   "value": "PoE"
+  },
+  {
+   "label": "PoE",
+   "value": "Class 0, IEEE 802.3af"
+  },
+  {
+   "label": "Dimensions",
+   "value": "1.71” (4.34 cm) W; 4.11” (10.44 cm) H; 2.09” (5.31 cm) D"
+  },
+  {
+   "label": "Package Type",
+   "value": "Cardboard Box"
+  },
+  {
+   "label": "Package Dimensions",
+   "value": "2.75 x 6.7 x 6.25 in."
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "0.625 lb."
+  }
+ ],
+ "src": "https://rdlnet.com/product/d-btn21/",
+ "checked": "2026-10-19"
 }

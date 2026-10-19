@@ -9,12 +9,52 @@
  "d": "MAXHUB NME- Intelligent Touchscreen, support Windows Ink, Direct Annotation, Palm Rejection, Erase and Write Simultaneously, Multi-input Recognition and Handwriting Recognition Narrow bezel design, Anti-glare glass, 3 x 50MP built-in AI Triple Camera Module: 3x optical zoom, 99 degree ultra-wide angle CMOS sensor,support Personalized presets, Auto framing, Speaker tracking, Multiple-speaker tracking and Intelligent focus, 16 x array microphones support 15m/180 degree voice collect range,support intelligent audio fence, AI spatial sound, AI powered smart noise cancellation algorithm, Auto echo cancellation,Auto gain control, 1 x ultrasonic sensor: support human body detection, auto switch on/off screen, U shape wall-mount bracket, WiFi6, 4K Display",
  "specs": [
   {
-   "label": "Type",
-   "value": "Interactive"
+   "label": "Screen Size (Inch)",
+   "value": "65"
   },
   {
-   "label": "Series",
-   "value": "V7"
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Panel",
+   "value": "VA"
+  },
+  {
+   "label": "Backlight",
+   "value": "DLED"
+  },
+  {
+   "label": "Brightness (Typ.)",
+   "value": "350 nits"
+  },
+  {
+   "label": "Glass",
+   "value": "Zero parallax , 3mm thickness , 9H tempered"
+  },
+  {
+   "label": "Surface Technology",
+   "value": "25% haze , Non-glare technology"
+  },
+  {
+   "label": "Resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60 Hz"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "5000:1 (typ.)"
+  },
+  {
+   "label": "Viewing Angle (H × V)",
+   "value": "178° / 178°"
+  },
+  {
+   "label": "Color Gamut",
+   "value": "90% NTSC"
   }
  ],
  "acc": [
@@ -49,5 +89,7 @@
   "VB-WMK-004",
   "WMK-077",
   "XTM1U"
- ]
+ ],
+ "src": "https://www.maxhub.com/in/xboard_v7_series/",
+ "checked": "2026-10-19"
 }

@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "23.8\" Full HD IPS professional monitor with 100 Hz refresh rate, DisplayPort and HDMI connectivity, USB hub, and fully adjustable ergonomic stand for business productivity.",
- "specs": []
+ "specs": [
+  {
+   "label": "Native resolution",
+   "value": "FHD (1920 x 1080)"
+  },
+  {
+   "label": "Panel technology",
+   "value": "IPS; LCD"
+  },
+  {
+   "label": "Response time (typical)",
+   "value": "5ms GtG (with overdrive)"
+  },
+  {
+   "label": "Flicker-free",
+   "value": "Yes"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Screen treatment",
+   "value": "Anti-glare"
+  },
+  {
+   "label": "Brightness",
+   "value": "350 nits"
+  },
+  {
+   "label": "Display features",
+   "value": "Height Adjust/Tilt/Swivel/Pivot"
+  },
+  {
+   "label": "Onscreen controls",
+   "value": "Brightness+; Color; Image; Input; Power; Menu; Management; Information; Exit"
+  },
+  {
+   "label": "VESA mounting",
+   "value": "100 x 100 mm"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "0.28 x 0.28 mm"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1500:1"
+  }
+ ],
+ "src": "https://www.hp.com/ch-en/shop/products/monitors/hp-series-5-pro-23-8-inch-fhd-monitor-524pf-9d9l6ut-uuz",
+ "checked": "2026-10-19"
 }

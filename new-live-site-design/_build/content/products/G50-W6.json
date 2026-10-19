@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "G50-W6",
  "d": "Single chip DLP laser phosphor projector",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projector type",
+   "value": "Single chip DLP laser phosphor projector"
+  },
+  {
+   "label": "Technology",
+   "value": "Single chip DLP laser phosphor projector"
+  },
+  {
+   "label": "Resolution",
+   "value": "1,920 x 1,200 (WUXGA)"
+  },
+  {
+   "label": "Brightness",
+   "value": "5,400 ANSI lumens; 6,000 center lumens; 6,400 ISO lumens"
+  },
+  {
+   "label": "Brightness uniformity",
+   "value": "90%"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1,200:1 sequential;; 6,000:1 dynamic;; Extreme black: 750,000:1"
+  },
+  {
+   "label": "Light source",
+   "value": "Laser phosphor"
+  },
+  {
+   "label": "Light source lifetime",
+   "value": "Up to 20,000hrs"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Orientation",
+   "value": "360° rotation, no restrictions"
+  },
+  {
+   "label": "Sealed DLP™ core",
+   "value": "Yes"
+  },
+  {
+   "label": "Color correction",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "R9801784"
- ]
+ ],
+ "src": "https://www.barco.com/en/product/g50-w6",
+ "checked": "2026-10-19"
 }

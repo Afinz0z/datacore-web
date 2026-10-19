@@ -1,6 +1,6 @@
 {
  "sku": "UCX-3x3-TPX-RX20",
- "order": 1732,
+ "order": 1731,
  "n": "SDVoE-based Point-to-point HDMI 2.0 Smart Matrix Switcher Receiver (UCX-3x3-TPX-RX20)",
  "b": "Lightware",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "UCX-3x3-TPX-RX20",
  "d": "SDVoE-based Point-to-point HDMI 2.0 Smart Matrix Switcher Receiver with LARA Control",
- "specs": []
+ "specs": [
+  {
+   "label": "Electrical safety",
+   "value": "EN 62368-1:2014"
+  },
+  {
+   "label": "EMC (emission)",
+   "value": "EN 55032:2015"
+  },
+  {
+   "label": "EMC (immunity)",
+   "value": "EN 55035:2017"
+  },
+  {
+   "label": "RoHS",
+   "value": "EN 63000:2018"
+  },
+  {
+   "label": "Cooling",
+   "value": "passive"
+  },
+  {
+   "label": "AC power plug",
+   "value": "Interchangable (EU, UK, JP/US, AUS/NZ)"
+  },
+  {
+   "label": "DC power plug",
+   "value": "Locking DC connector (2.1/5.5 mm pin)"
+  },
+  {
+   "label": "Audio formats",
+   "value": "2-channel PCM"
+  },
+  {
+   "label": "Sampling frequency",
+   "value": "48 kHz"
+  },
+  {
+   "label": "Signal transmission",
+   "value": "Balanced signals"
+  },
+  {
+   "label": "Power consumption",
+   "value": "9W"
+  },
+  {
+   "label": "Enclosure material",
+   "value": "1 mm steel"
+  }
+ ],
+ "src": "https://www.lightware.com/en/products/Extenders/ucx-3x3-tpx-rx20",
+ "checked": "2026-10-19"
 }

@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CD-400U",
  "d": "CD/SD/USB Player with Bluetooth® receiver and FM/AM tuner",
- "specs": []
+ "specs": [
+  {
+   "label": "CD",
+   "value": "CD, CD-R, CD-RW (only CD-DA format)"
+  },
+  {
+   "label": "File System",
+   "value": "FAT16 / FAT32"
+  },
+  {
+   "label": "CD-DA",
+   "value": "44.1kHz, 16-bit"
+  },
+  {
+   "label": "MP3",
+   "value": "44.1k / 48k Hz, 32k to 320k bps and VBR (MPEG1/2 Audio Layer-3)"
+  },
+  {
+   "label": "WMA",
+   "value": "44.1k / 48k Hz, 32k to 320k bps and VBR (WMA ver.9 standard, DRM not supported)"
+  },
+  {
+   "label": "WAV (USB/SD only)",
+   "value": "44.1k / 48k Hz, 16-bit"
+  },
+  {
+   "label": "AAC (USB/SD only)",
+   "value": "44.1k /48k Hz, 8k to 320k bps and VBR (MPEG4 AAC-LC (Audio stream))"
+  },
+  {
+   "label": "Number of channels",
+   "value": "2 (stereo), 1 (mono)"
+  },
+  {
+   "label": "Connector",
+   "value": "1/8\" (3.5mm) Stereo mini jack × 1"
+  },
+  {
+   "label": "Nominal input level",
+   "value": "–20dBV (0.1Vrms)"
+  },
+  {
+   "label": "Maximum input level",
+   "value": "–4dBV (0.63Vrms)"
+  },
+  {
+   "label": "Input impedance",
+   "value": "10kΩ or more"
+  }
+ ],
+ "src": "https://tascam.com/us/product/cd-400u/spec",
+ "checked": "2026-10-19"
 }

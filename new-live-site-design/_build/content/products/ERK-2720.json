@@ -1,11 +1,62 @@
 {
  "sku": "ERK-2720",
- "order": 2767,
+ "order": 2765,
  "n": "Equipment rack",
  "b": "Middle Atlantic",
  "c": "Rack (AV)",
  "dept": "AV",
  "avail": "lead",
  "d": "27 RU Standalone Rack",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "20 in (50.8 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "51.38 in (130.5 cm)"
+  },
+  {
+   "label": "Panel Width",
+   "value": "19 in (48.3 cm)"
+  },
+  {
+   "label": "Rack Units",
+   "value": "27 RU"
+  },
+  {
+   "label": "UL Load Capacity",
+   "value": "2500 lbs (1,134 kg)"
+  },
+  {
+   "label": "Usable Depth",
+   "value": "18.47 in (46.9 cm)"
+  },
+  {
+   "label": "Usable Height",
+   "value": "47.38 in (120.4 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "22 in (55.9 cm)"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Federal Ops Country of Origin",
+   "value": "USA"
+  },
+  {
+   "label": "Finish",
+   "value": "Black Wrinkle Powder Coat"
+  },
+  {
+   "label": "Product Configuration",
+   "value": "Frame Only"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/racks/floor_standing/erk_av_rack/erk-2720",
+ "checked": "2026-10-19"
 }

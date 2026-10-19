@@ -1,6 +1,6 @@
 {
  "sku": "91535001",
- "order": 1729,
+ "order": 1728,
  "n": "SDVoE compatible HDMI 2.0 over fiber optical link transmitter (HDMI-OPTX-TX100A)",
  "b": "Lightware",
  "c": "Extenders",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "HDMI-OPTX-TX100A",
  "d": "SDVoE compatible HDMI 2.0 over fiber optical link transmitter",
- "specs": [],
+ "specs": [
+  {
+   "label": "Compliance",
+   "value": "UL, CE"
+  },
+  {
+   "label": "Electrical safety",
+   "value": "IEC/EN/UL/CSA 62368-1:2014, Class II"
+  },
+  {
+   "label": "EMC (emission)",
+   "value": "IEC/EN 55032:2015"
+  },
+  {
+   "label": "EMC (immunity)",
+   "value": "IEC/EN 55035:2017"
+  },
+  {
+   "label": "RoHS",
+   "value": "EN 63000:2018"
+  },
+  {
+   "label": "Cooling",
+   "value": "passive"
+  },
+  {
+   "label": "Supplied power",
+   "value": "12V DC, 2A"
+  },
+  {
+   "label": "AC power plug",
+   "value": "Interchangable (EU, UK, JP/US, AUS/NZ)"
+  },
+  {
+   "label": "DC power plug",
+   "value": "Locking DC connector (2.1/5.5 mm pin)"
+  },
+  {
+   "label": "Rack mountable",
+   "value": "No"
+  },
+  {
+   "label": "Connector type",
+   "value": "19-pole HDMI Type A receptacle"
+  },
+  {
+   "label": "A/V standard",
+   "value": "DVI 1.0, HDMI 1.4, HDMI 2.0"
+  }
+ ],
  "acc": [
   "11800175"
- ]
+ ],
+ "src": "https://www.lightware.com/en/products/Extenders/hdmi-optx-tx100a",
+ "checked": "2026-10-19"
 }

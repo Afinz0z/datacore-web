@@ -1,6 +1,6 @@
 {
  "sku": "MOD-CEL-L4G1",
- "order": 3080,
+ "order": 3078,
  "n": "MODEM CELL with USB Connect (LTECat 4, UMTS, GSM, Requires SIM Card)",
  "b": "AVTECH",
  "c": "Modem",
@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "MODEM",
  "d": "MODEM CELL with USB Connect (LTECat 4, UMTS, GSM, Requires SIM Card)",
- "specs": []
+ "specs": [
+  {
+   "label": "Air Interface",
+   "value": "LTE Cat 4 / GSM / GPRS / EDGE"
+  },
+  {
+   "label": "Frequency Bands (4G)",
+   "value": "B1(2100),B2(1900), B3(1800),B4(AWS1700), B5(850), B7(2600), B8(900), B12/B13(700), B18(850), B19(850), B20(800), B25(1900), B26(850), B28(700) TDD: B38(2600), B39(1900), B40(2300), B41(2500)"
+  },
+  {
+   "label": "Frequency Bands (3G)",
+   "value": "B1(2100),B2(1900), B4(AWS1700), B5(850), B6(800), B8(900), B19(850)"
+  },
+  {
+   "label": "Frequency Bands (2G)",
+   "value": "B2(1900), B3(1800), B5(850), B8(900)"
+  },
+  {
+   "label": "Regulatory",
+   "value": "CE/RED"
+  },
+  {
+   "label": "Safety",
+   "value": "UL/cUL/IEC 62368-1"
+  },
+  {
+   "label": "Network",
+   "value": "EU Carriers"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "2.45\" x 1.79\" x 0.78\" (6.22 cm x 4.55 cm x 1.98 cm)"
+  }
+ ],
+ "src": "https://avtech.com/Products/Accessories/Cell_Modem.htm",
+ "checked": "2026-10-19"
 }

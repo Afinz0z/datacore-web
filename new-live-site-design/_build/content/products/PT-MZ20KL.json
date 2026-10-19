@@ -7,10 +7,61 @@
  "dept": "AV",
  "avail": "lead",
  "d": "WUXGA (1920 x 1200 pixcels,16:10) LCD with 20000 lumens.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projector type",
+   "value": "LCD projectors"
+  },
+  {
+   "label": "Display method",
+   "value": "Transparent LCD panel (x 3, R/G/B)"
+  },
+  {
+   "label": "Panel size",
+   "value": "25.4 mm (1.0 in) diagonal (16:10 aspect ratio)"
+  },
+  {
+   "label": "Drive method",
+   "value": "Active matrix method"
+  },
+  {
+   "label": "Number of pixels",
+   "value": "2,304,000 (1920 x 1200 pixels)"
+  },
+  {
+   "label": "Light source",
+   "value": "Laser diode"
+  },
+  {
+   "label": "Light output",
+   "value": "20,000 lm"
+  },
+  {
+   "label": "Light output (ANSI)",
+   "value": "20,000 lm"
+  },
+  {
+   "label": "NORMAL",
+   "value": "20,000 hours [NORMAL]"
+  },
+  {
+   "label": "QUIET",
+   "value": "20,000 hours [QUIET]"
+  },
+  {
+   "label": "Resolution",
+   "value": "WUXGA (1920 x 1200 pixels)"
+  },
+  {
+   "label": "Contrast Ratio (typ.)",
+   "value": "3,000,000:1 (Full On/Full Off) (When [PICTURE MODE] is set to [DYNAMIC]and [DYNAMIC CONTRAST] set to.)"
+  }
+ ],
  "acc": [
   "CMS0305",
   "CMS115",
   "SI-H L 300"
- ]
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/projectors/pt-mz20-series/pt-mz20kl",
+ "checked": "2026-10-19"
 }

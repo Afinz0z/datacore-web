@@ -7,8 +7,55 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Barco Projector lens 4K UHD = 1.4 - 2.1 : 1 (I600 4K),",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "ILD (1.4 - 2.1:1)"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "1.4 - 2.1:1"
+  },
+  {
+   "label": "Platforms",
+   "value": "I65, I600"
+  },
+  {
+   "label": "Working F/#",
+   "value": "2~2.25"
+  },
+  {
+   "label": "Zoom ratio",
+   "value": "1.5"
+  },
+  {
+   "label": "Focal length",
+   "value": "24.95~37.43 mm"
+  },
+  {
+   "label": "Focus Range",
+   "value": "Wide 75\"~400\"; Tele 50\"~260\""
+  },
+  {
+   "label": "Throw distance",
+   "value": "2.21~12.20 m"
+  },
+  {
+   "label": "Motorized Zoom",
+   "value": "Yes"
+  },
+  {
+   "label": "Motorized Focus",
+   "value": "Yes"
+  },
+  {
+   "label": "Weight",
+   "value": "2.0 kg"
+  }
+ ],
  "for": [
   "R9400812UK"
- ]
+ ],
+ "src": "https://www.barco.com/en/product/ild-lens-14-21-1",
+ "checked": "2026-10-19"
 }

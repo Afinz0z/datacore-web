@@ -1,6 +1,6 @@
 {
  "sku": "HyperDeck Studio HD Mini",
- "order": 2032,
+ "order": 2030,
  "n": "Black Magic Design HyperDeck Studio HD Mini",
  "b": "Blackmagic Design",
  "c": "Recorder",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HyperDeck Studio HD Mini",
  "d": "Black Magic Design HyperDeck Studio HD Mini",
- "specs": []
+ "specs": [
+  {
+   "label": "SDI Video Inputs",
+   "value": "1"
+  },
+  {
+   "label": "SDI Video Outputs",
+   "value": "1"
+  },
+  {
+   "label": "HDMI Video Outputs",
+   "value": "1"
+  },
+  {
+   "label": "Screen",
+   "value": "2.2 inch LCD"
+  },
+  {
+   "label": "Timecode Connections",
+   "value": "1 x BNC In, 1 x BNC Out."
+  },
+  {
+   "label": "Reference Connections",
+   "value": "1 x BNC In, 1 x BNC Out. , Tri-Sync or Black Burst."
+  },
+  {
+   "label": "SDI Audio Inputs",
+   "value": "16 channels embedded audio."
+  },
+  {
+   "label": "SDI Audio Outputs",
+   "value": "16 channels embedded audio."
+  },
+  {
+   "label": "HDMI Audio Outputs",
+   "value": "8 channels embedded audio."
+  },
+  {
+   "label": "Remote Control",
+   "value": "1 x RS-422 In."
+  },
+  {
+   "label": "Recorder Configuration",
+   "value": "Via user interface or Blackmagic HyperDeck Ethernet Protocol."
+  },
+  {
+   "label": "Ethernet",
+   "value": "1Gb/s"
+  }
+ ],
+ "src": "https://www.blackmagicdesign.com/products/hyperdeckstudio/techspecs/W-HYD-11",
+ "checked": "2026-10-19"
 }

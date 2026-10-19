@@ -1,11 +1,62 @@
 {
  "sku": "KG0032",
- "order": 2804,
+ "order": 2802,
  "n": "KVM Gateway",
  "b": "ATEN",
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
  "d": "32-Port KVM over IP OmniBus Gateway",
- "specs": []
+ "specs": [
+  {
+   "label": "Console Connections Remote",
+   "value": "32"
+  },
+  {
+   "label": "Computer Connections Direct",
+   "value": "32"
+  },
+  {
+   "label": "Port Selection",
+   "value": "GUI"
+  },
+  {
+   "label": "Connectors USB Port",
+   "value": "2 x USB Type-A Female (Reserved for future expansion)"
+  },
+  {
+   "label": "Connectors KVM Ports",
+   "value": "32 x RJ-45 Female"
+  },
+  {
+   "label": "SFP+ Uplink Ports",
+   "value": "2 x SFP+ Slots"
+  },
+  {
+   "label": "Connectors Serial",
+   "value": "2 x RJ-45 Female (Reserved for future expansion)"
+  },
+  {
+   "label": "Connectors Power",
+   "value": "2 x IEC 60320/C14"
+  },
+  {
+   "label": "Connectors Input",
+   "value": "2 x 2-pin DI (Reserved for future expansion)"
+  },
+  {
+   "label": "Connectors Relay",
+   "value": "2 x 3-pin Relay (Reserved for future expansion)"
+  },
+  {
+   "label": "Switches Reset",
+   "value": "1 x Semi-recessed Pushbutton"
+  },
+  {
+   "label": "Switches Power",
+   "value": "2 x Rocker Switches"
+  }
+ ],
+ "src": "https://www.aten.com/global/en/products/kvm/kvm-over-ip-switches/kg0032/",
+ "checked": "2026-10-19"
 }

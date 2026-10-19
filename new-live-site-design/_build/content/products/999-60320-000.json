@@ -1,11 +1,62 @@
 {
  "sku": "999-60320-000",
- "order": 1364,
+ "order": 1363,
  "n": "VADDIO EasyIP Mixer",
  "b": "Vaddio",
  "c": "IP Mixer",
  "dept": "AV",
  "avail": "lead",
  "d": "Compact A/V switcher supporting four EasyIP Camera video feeds plus an HDMI source. 4x4 Dante Audio matrix (10x10 cross-point audio matrix). Concurrent 1080p/60 USB 3.0 and HDMI output. Flexible control options with serial, telnet, trigger, Vaddio Device Controller, and web control",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "6 in (15.2 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "1.72 in (4.4 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "8.38 in (21.3 cm)"
+  },
+  {
+   "label": "3rd Party Control",
+   "value": "RS232, Telnet, Trigger"
+  },
+  {
+   "label": "Bridged Signal",
+   "value": "Audio and Video"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Control Method",
+   "value": "RS232, Telnet, Trigger, USB, Web UI"
+  },
+  {
+   "label": "Input Ports",
+   "value": "Audio, HDMI, Mic Level Audio, Network, RS232"
+  },
+  {
+   "label": "Max Resolution",
+   "value": "1080p 60"
+  },
+  {
+   "label": "Output Ports",
+   "value": "Audio, HDMI, Network, USB 3.0 Type B"
+  },
+  {
+   "label": "Power Type",
+   "value": "PoE+"
+  },
+  {
+   "label": "Signal Type",
+   "value": "Audio, Dante Audio, EasyIP, HDMI, RS 232, USB 3.0"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/av_to_usb_bridges/av_over_ip/easyip-mixer/999-60320-000",
+ "checked": "2026-10-19"
 }

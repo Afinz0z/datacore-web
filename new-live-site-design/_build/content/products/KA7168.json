@@ -1,11 +1,46 @@
 {
  "sku": "KA7168",
- "order": 1594,
+ "order": 1593,
  "n": "Virtual Media KVM Adapter",
  "b": "ATEN",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "USB HDMI Virtual Media KVM Adapter with Smart Card Support",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectors Link",
+   "value": "1 x RJ-45 Female"
+  },
+  {
+   "label": "Connectors Computer",
+   "value": "2 x USB Type A Male; 1 x HDMI Male"
+  },
+  {
+   "label": "LEDs Link",
+   "value": "1 (Green)"
+  },
+  {
+   "label": "LEDs Power",
+   "value": "1 (Orange)"
+  },
+  {
+   "label": "Physical Properties Housing",
+   "value": "Plastic"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-20–60°C"
+  },
+  {
+   "label": "Physical Properties Weight",
+   "value": "0.11 kg ( 0.24 lb )"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "9.10 x 5.60 x 2.12 cm ; (3.58 x 2.2 x 0.83 in.)"
+  }
+ ],
+ "src": "https://www.aten.com/global/en/products/kvm/kvm-modules-&-accessories/ka7168/",
+ "checked": "2026-10-19"
 }

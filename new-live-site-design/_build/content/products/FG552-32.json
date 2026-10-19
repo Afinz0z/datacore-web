@@ -1,14 +1,33 @@
 {
  "sku": "FG552-32",
- "order": 2213,
+ "order": 2211,
  "n": "HPX-AV102-HDMI-R",
  "b": "AMX",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "HPX-AV102-HDMI-R | The HPX-AV102-HDMI-R 4K60 HDMI Module with Retractable MyTurn ready Cable delivers digital video in resolutions up to 4K @60hz with 5 feet available pullout from HydraPort HPX-600 900 and 1200 Connection Ports or Touch Connection P",
- "specs": [],
+ "specs": [
+  {
+   "label": "Front Panel Components",
+   "value": "Pull-Out Connector: HDMI Male"
+  },
+  {
+   "label": "Long-Term Reliability",
+   "value": "Tested to 10,000 pull and release cycles"
+  },
+  {
+   "label": "Dimensions",
+   "value": "1 1/2 HydraPort Units (See the HPX-600 , HPX-900 or HPX-1200 specifications section for an explanation of HydraPort units)"
+  },
+  {
+   "label": "Weight",
+   "value": "Approximately 1lb (0.46 Kg)"
+  }
+ ],
  "for": [
   "FG560-01-BL"
- ]
+ ],
+ "src": "https://www.amx.com/en/products/hpx-av102-hdmi-r",
+ "checked": "2026-10-19"
 }

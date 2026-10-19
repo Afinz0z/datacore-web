@@ -8,7 +8,56 @@
  "avail": "lead",
  "model": "PN-LC862",
  "d": "86\" LC-Series Interactive Display, UHD, 450 cd/m2, 16/7 proof, Infrared, 20 touch points, OPS Slot, Android SoC, USB-C, HDMI-out",
- "specs": [],
+ "specs": [
+  {
+   "label": "Panel Technology",
+   "value": "IPS with Direct LED backlights"
+  },
+  {
+   "label": "Active Screen Area (W x H) [mm]",
+   "value": "1,895 x 1,066"
+  },
+  {
+   "label": "Screen Size [inch/cm]",
+   "value": "86 / 217.4"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Pixel Pitch [mm]",
+   "value": "0.494"
+  },
+  {
+   "label": "Brightness (without glass) [cd/m²]",
+   "value": "450"
+  },
+  {
+   "label": "Contrast Ratio (typ.)",
+   "value": "1200:1"
+  },
+  {
+   "label": "Viewing Angle [°]",
+   "value": "178 / 178 (at contrast ratio > 10:1)"
+  },
+  {
+   "label": "Colour Depth [bn]",
+   "value": "1.07 (8bit + FRC)"
+  },
+  {
+   "label": "Response Time (typ.) [ms]",
+   "value": "8 (grey-to-grey)"
+  },
+  {
+   "label": "Touch Technology",
+   "value": "Infrared"
+  },
+  {
+   "label": "Number of Touches",
+   "value": "Real multi-touch up to 20 touches"
+  }
+ ],
  "acc": [
   "CMS0305",
   "CMS115",
@@ -36,5 +85,7 @@
   "VB-WMK-004",
   "XSM1U",
   "XTM1U"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/large-format-displays/entry-collaboration-displays/rp/pn-lc862.xhtml",
+ "checked": "2026-10-19"
 }

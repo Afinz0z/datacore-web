@@ -1,11 +1,62 @@
 {
  "sku": "AV-NL4",
- "order": 1982,
+ "order": 1981,
  "n": "RDL Dante to Audio Interface",
  "b": "RDL",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
  "d": "Dante to Four Channel Line/Mic Audio Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "﻿Network Connector",
+   "value": "RJ45 Neutrik® etherCON®-style"
+  },
+  {
+   "label": "Digital Audio Ethernet Protocol",
+   "value": "Dante"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "Reference Level",
+   "value": "0 dBFS = +24 dBu"
+  },
+  {
+   "label": "Outputs",
+   "value": "XLR (male)"
+  },
+  {
+   "label": "Output Level (maximum)",
+   "value": "+24 dBu LINE level"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "< 100 Ω balanced"
+  },
+  {
+   "label": "Selector per output",
+   "value": "Mic/Line"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz (± 0.5 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.1% (20 Hz to 20 kHz,+4 dBu/-20 dBFS); 0.015% at 1 kHz (typ)"
+  },
+  {
+   "label": "Noise",
+   "value": "< -75 dB (below +4 dBu); < -95 (below +24 dBu)"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "Below Noise Floor (1 kHz, output to output); < -60 d5 dB (20 kHz)"
+  }
+ ],
+ "src": "https://rdlnet.com/product/av-nl4/",
+ "checked": "2026-10-19"
 }

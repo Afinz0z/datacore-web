@@ -1,6 +1,6 @@
 {
  "sku": "AeroLift 35",
- "order": 2596,
+ "order": 2594,
  "n": "Ceiling-recessed projector lift with a compact design (AeroLift 35)",
  "b": "Draper",
  "c": "Mount",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "AeroLift 35",
  "d": "Ceiling-recessed projector lift with a compact design, built-in adjustability, and 35 lb max lifting capacity.",
- "specs": []
+ "specs": [
+  {
+   "label": "Lowering Distance",
+   "value": "24 1/2\""
+  },
+  {
+   "label": "Shipping Weight (lbs.)",
+   "value": "40"
+  },
+  {
+   "label": "Dimensions (WxD)",
+   "value": "23 1/2\" x 14 1/16\""
+  },
+  {
+   "label": "Unit Weight",
+   "value": "20 lbs."
+  }
+ ],
+ "src": "https://www.draperinc.com/liftsmounts/productdetail/93/aerolift-35",
+ "checked": "2026-10-19"
 }

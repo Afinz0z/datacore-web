@@ -1,6 +1,6 @@
 {
  "sku": "SWATEMTVSTC/K4K8/0",
- "order": 1751,
+ "order": 1750,
  "n": "ATEM Television Studio 4K8 (SWATEMTVSTC/K4K8/0)",
  "b": "Blackmagic Design",
  "c": "AV Switcher",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "SWATEMTVSTC/K4K8/0",
  "d": "ATEM Television Studio 4K8",
- "specs": [],
+ "specs": [
+  {
+   "label": "SDI Video Inputs",
+   "value": "8"
+  },
+  {
+   "label": "SDI Video Outputs",
+   "value": "12"
+  },
+  {
+   "label": "SDI Rates",
+   "value": "1.5G, 3G, 6G, 12G"
+  },
+  {
+   "label": "HDMI Video Outputs",
+   "value": "1"
+  },
+  {
+   "label": "Total Audio Inputs",
+   "value": "2 x XLR balanced analog audio,; 1 x BNC 32 Ch MADI digital audio,; 2 x RCA stereo analog audio,; 1 x 5 pin XLR Talkback."
+  },
+  {
+   "label": "Total Audio Outputs",
+   "value": "4 x 1/4 inch Jack analog audio,; 1 x BNC 64 Ch MADI digital audio, up to 50 active,; 1 x 5 pin XLR Talkback."
+  },
+  {
+   "label": "SDI Audio Inputs",
+   "value": "4 Ch embedded audio on all SDI inputs."
+  },
+  {
+   "label": "SDI Audio Outputs",
+   "value": "16 assignable channels."
+  },
+  {
+   "label": "Timecode Connections",
+   "value": "1 x BNC In, 1 x BNC Out."
+  },
+  {
+   "label": "Reference Input",
+   "value": "1 x BNC In, 1 x BNC Out.; Tri-Sync or Black Burst."
+  },
+  {
+   "label": "Video Input Re-Sync",
+   "value": "On all 8 inputs."
+  },
+  {
+   "label": "Frame Rate and Format Converters",
+   "value": "On all 8 inputs."
+  }
+ ],
  "acc": [
   "CONVCMIC/SH12G/WPSU"
- ]
+ ],
+ "src": "https://www.blackmagicdesign.com/products/atemtelevisionstudio/techspecs/W-APS-23",
+ "checked": "2026-10-19"
 }

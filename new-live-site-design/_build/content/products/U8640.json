@@ -7,9 +7,60 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MAXHUB U8640 Interactive Screen(U4 Series), 86\" 4K Touch Screen,50 Touch Points, 10bit,16GB +265GB, Android 15 EDLA including wall mount",
- "specs": [],
+ "specs": [
+  {
+   "label": "Diagonal Size (inch)",
+   "value": "86"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Resolution",
+   "value": "3840(H)×2160(V)"
+  },
+  {
+   "label": "Panel Brightness",
+   "value": "500 nits (max.)"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "1,200:1 (typ.) , 50,000:1 (dynamic)"
+  },
+  {
+   "label": "Color Depth",
+   "value": "1.07B (10bit)"
+  },
+  {
+   "label": "Color Gamut (typ.)",
+   "value": "98% sRGB"
+  },
+  {
+   "label": "Color Accuracy",
+   "value": "ΔE≤1"
+  },
+  {
+   "label": "Surface Technology",
+   "value": "Non-glare , 25% hazeEtched-AG Technology"
+  },
+  {
+   "label": "Eyes Care",
+   "value": "TÜV Flicker Free , TÜV Low Blue Light"
+  },
+  {
+   "label": "Refresh Rate",
+   "value": "60Hz"
+  },
+  {
+   "label": "Response Time",
+   "value": "8ms"
+  }
+ ],
  "acc": [
   "LGWM-3790F",
   "ST33M"
- ]
+ ],
+ "src": "https://www.maxhub.com/in/u4_series/",
+ "checked": "2026-10-19"
 }

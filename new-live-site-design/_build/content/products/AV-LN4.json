@@ -1,11 +1,62 @@
 {
  "sku": "AV-LN4",
- "order": 1490,
+ "order": 1489,
  "n": "Line Level Audio to Network Interface",
  "b": "RDL",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
  "d": "Four Channel Line Level Audio to Dante Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "﻿Network Connector",
+   "value": "RJ45 Neutrik® etherCON®-style"
+  },
+  {
+   "label": "Digital Audio Ethernet Protocol",
+   "value": "Dante"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "Reference Level",
+   "value": "0 dBFS = +24 dBu"
+  },
+  {
+   "label": "Inputs",
+   "value": "XLR (female)"
+  },
+  {
+   "label": "Input Level (-20 dBFS)",
+   "value": "+4 dBu"
+  },
+  {
+   "label": "Input Level (maximum)",
+   "value": "+24 dBu"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "> 50 kΩ"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz (± 0.1 dB)"
+  },
+  {
+   "label": "Noise below +4 dBu",
+   "value": "< -85 dB"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.025% (20 Hz to 20 kHz, +4 dBu/-20 dBFS); 0.005% at 1 kHz (typ)"
+  },
+  {
+   "label": "CMRR",
+   "value": "> 70 dB (50 Hz to 120 Hz)"
+  }
+ ],
+ "src": "https://rdlnet.com/product/av-ln4/",
+ "checked": "2026-10-19"
 }

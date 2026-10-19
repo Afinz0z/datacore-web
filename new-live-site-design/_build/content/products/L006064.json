@@ -1,11 +1,30 @@
 {
  "sku": "L006064",
- "order": 4342,
+ "order": 4340,
  "n": "PAR ZOOM ULTRA",
  "b": "FOS",
  "c": "Light",
  "dept": "AV",
  "avail": "lead",
  "d": "FOS PAR ZOOM ULTRA - Professional Zoom Par, 19 leds x 15watt 4in1 RGBW color mixing, linear motorized zoom 10-60, 10 Dmx Channels, 4 button led display, aluminum die cast housing, 0-100% linear dimmer, 6.5 kg",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Input",
+   "value": "AC100/240 Volt, 50/60 Hz"
+  },
+  {
+   "label": "Power consumption",
+   "value": "300 Watt max"
+  },
+  {
+   "label": "Dimensions",
+   "value": "226 x 285 x 380 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "6.5 Kg"
+  }
+ ],
+ "src": "https://www.fos-lighting.eu/fos-par-zoom-ultra-p-1307.html",
+ "checked": "2026-10-19"
 }

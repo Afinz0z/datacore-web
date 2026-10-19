@@ -1,6 +1,6 @@
 {
  "sku": "155.116",
- "order": 4337,
+ "order": 4335,
  "n": "Fresnel Zoom 250W RGBALC (BTM250FC)",
  "b": "beamZ",
  "c": "Light",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "BTM250FC",
  "d": "BTM250FC Fresnel Zoom 250W RGBALC",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Black"
+  },
+  {
+   "label": "Light source",
+   "value": "6-in-1 LED"
+  },
+  {
+   "label": "Colours",
+   "value": "Red, Green, Blue, Amber, Lime , Cyan"
+  },
+  {
+   "label": "LED power (single LED)",
+   "value": "250W"
+  },
+  {
+   "label": "Beam angle: Min",
+   "value": "15°"
+  },
+  {
+   "label": "Beam angle: Max",
+   "value": "55°"
+  },
+  {
+   "label": "Illuminance",
+   "value": "127.967 lx @ 1m"
+  },
+  {
+   "label": "Flash rate per second",
+   "value": "1 - 25Hz"
+  },
+  {
+   "label": "DMX channels",
+   "value": "8, 10, 11, 18"
+  },
+  {
+   "label": "DMX connection",
+   "value": "3-pin XLR, 5-pin XLR"
+  },
+  {
+   "label": "Modes",
+   "value": "DMX"
+  },
+  {
+   "label": "Cooling",
+   "value": "Intelligent cooling system"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/btm250fc-fresnel-zoom-250w-rgbalc/",
+ "checked": "2026-10-19"
 }

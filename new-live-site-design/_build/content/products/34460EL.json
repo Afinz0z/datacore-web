@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cosmopolitan Electrol 60 x 96\" Motorized Screen (220V) 113\" screen with LVC",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Diagonal",
+   "value": "113 in (287 cm)"
+  },
+  {
+   "label": "Screen Height",
+   "value": "60 in (152.4 cm)"
+  },
+  {
+   "label": "Screen Width",
+   "value": "96 in (243.8 cm)"
+  },
+  {
+   "label": "Size",
+   "value": "60\" x 96\" or 113\" diagonal"
+  },
+  {
+   "label": "Application",
+   "value": "Ceiling, Wall"
+  },
+  {
+   "label": "Built-In Control",
+   "value": "Low Voltage Control"
+  },
+  {
+   "label": "Federal Ops Country of Origin",
+   "value": "US"
+  },
+  {
+   "label": "Motor",
+   "value": "220V (50Hz) for Export"
+  },
+  {
+   "label": "Projection Type",
+   "value": "Front Projection"
+  },
+  {
+   "label": "Screen Format",
+   "value": "Wide (16:10)"
+  },
+  {
+   "label": "Screen Surface Features",
+   "value": "Standard Resolution"
+  },
+  {
+   "label": "Screen Type",
+   "value": "Electric"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/screens/wall-and-ceiling-mounted-electric-screens/cosmopolitan-series/34460el",
+ "checked": "2026-10-19"
 }

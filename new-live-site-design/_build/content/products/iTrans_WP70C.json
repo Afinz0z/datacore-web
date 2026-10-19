@@ -1,11 +1,62 @@
 {
  "sku": "iTrans WP70C",
- "order": 1721,
+ "order": 1720,
  "n": "4K60 HDBaseT Wallplate Extender Kit",
  "b": "Infobit",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "4K60 HDBaseT Extender Wallplate Kit with USB C and HDMI, 70m",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI Compliance",
+   "value": "HDMI 2.0b"
+  },
+  {
+   "label": "HDCP Compliance",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "DP Compliance",
+   "value": "Display Port 1.2a"
+  },
+  {
+   "label": "Video Bandwidth",
+   "value": "USB-C: 5.4 Gbps; HDMI: 18 Gbps"
+  },
+  {
+   "label": "Video Resolution",
+   "value": "480i~1080p50/60Hz, 4Kx2K@24/30Hz, 4k2k@60Hz"
+  },
+  {
+   "label": "Color Space",
+   "value": "RGB, YCbCr 4:4:4 / 4:2:2, YUV 4:2:0"
+  },
+  {
+   "label": "Color Depth",
+   "value": "8/10/12-bit (1080P@60Hz); 8-bit (4K@60Hz)"
+  },
+  {
+   "label": "HDR",
+   "value": "Support"
+  },
+  {
+   "label": "HDMI Audio Formats",
+   "value": "LPCM, Dolby Digital/Plus/EX, Dolby True HD, DTS, DTS-EX, DTS-96/24, DTS High Res, DTS-HD Master Audio, DSD"
+  },
+  {
+   "label": "Transmission Distance",
+   "value": "Max distance (1080P): 230ft / 70m over CAT6/6a/7 ; Max distance (4K): 131ft / 40m over CAT6/6a/7"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Human body model — ±8kV (Air-gap discharge) & ±4kV (Contact discharge)"
+  },
+  {
+   "label": "Transmitter",
+   "value": "Inputs: ; 1 x HDMI Type A [19-pin female] ; 1 x USB-C; Outputs: ; 1 x HDBaseT Out [RJ45, 8-pin female] ; 1x USB-C (only for charging); Controls: ; 1x RS-232 [3-pin phoenix connector]; 1x FW [Micro USB, Update port]"
+  }
+ ],
+ "src": "https://www.infobitav.com/itrans-wp70c/",
+ "checked": "2026-10-19"
 }

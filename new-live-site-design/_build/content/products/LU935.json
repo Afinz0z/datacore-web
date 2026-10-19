@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LU935",
  "d": "6000 Lumens 4K UHD DLP Laser Projector",
- "specs": []
+ "specs": [
+  {
+   "label": "Brightness (ANSI lumens)",
+   "value": "6000"
+  },
+  {
+   "label": "Resolution",
+   "value": "WUXGA (1920x1200)"
+  },
+  {
+   "label": "Native Aspect Ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Contrast Ratio (FOFO)",
+   "value": "3,000,000:1"
+  },
+  {
+   "label": "Display Color",
+   "value": "30-bit (1.07 billion colors)"
+  },
+  {
+   "label": "Light Source",
+   "value": "Laser"
+  },
+  {
+   "label": "Light Source Life",
+   "value": "20000 hrs"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "1.36-2.18"
+  },
+  {
+   "label": "Zoom Ratio",
+   "value": "1.6x"
+  },
+  {
+   "label": "Lens",
+   "value": "F/# = 1.81 ~ 2.1,f = 14.3 ~ 22.9 mm"
+  },
+  {
+   "label": "Projection Offset (Full-Height)",
+   "value": "0%"
+  },
+  {
+   "label": "Keystone Adjustment",
+   "value": "2D, Vertical ± 30 degrees; Horizontal ± 30 degrees"
+  }
+ ],
+ "src": "https://www.benq.com/en-me/business/projector/lu935.html",
+ "checked": "2026-10-19"
 }

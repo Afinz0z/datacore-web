@@ -1,6 +1,6 @@
 {
  "sku": "SA730P",
- "order": 2710,
+ "order": 2708,
  "n": "SmartMount® Articulating Wall Mount for 10\" to 29\" Displays",
  "b": "Peerless",
  "c": "Mount",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Mount",
  "d": "SmartMount® Articulating Wall Mount for 10\" to 29\" Displays",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "11.34 kg"
+  },
+  {
+   "label": "Minimum Adjustable Depth",
+   "value": "7.04 cm (2.77\")"
+  },
+  {
+   "label": "Maximum Adjustable Depth",
+   "value": "43.15 cm (16.99\")"
+  },
+  {
+   "label": "Features",
+   "value": "Articulating"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Semi-gloss Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Fused Epoxy"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "100 x 100"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Wall Mountable"
+  },
+  {
+   "label": "Height",
+   "value": "20.47 cm (8.06\")"
+  },
+  {
+   "label": "Width",
+   "value": "25.43 cm (10.01\")"
+  },
+  {
+   "label": "Manufacturer Product Class",
+   "value": "Articulating"
+  }
+ ],
+ "src": "https://eu.peerless-av.com/products/SA730P",
+ "checked": "2026-10-19"
 }

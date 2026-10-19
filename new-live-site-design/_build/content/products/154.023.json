@@ -1,11 +1,34 @@
 {
  "sku": "154.023",
- "order": 2035,
+ "order": 2033,
  "n": "Booster 8-way",
  "b": "beamZ",
  "c": "Splitter",
  "dept": "AV",
  "avail": "lead",
  "d": "DMX Splitter / Booster 8-way",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Black"
+  },
+  {
+   "label": "DMX connection",
+   "value": "3-pin XLR"
+  },
+  {
+   "label": "Power supply",
+   "value": "220-240VAC 50Hz"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "185 x 482 x 55mm"
+  },
+  {
+   "label": "Weight (kg)",
+   "value": "2.3000"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/dmx8-splitter-booster-8-way/",
+ "checked": "2026-10-19"
 }

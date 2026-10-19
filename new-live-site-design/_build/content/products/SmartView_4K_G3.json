@@ -6,5 +6,56 @@
  "c": "Monitor",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "SDI Outputs",
+   "value": "1 loop out.; Reclocked video output that automatically switches to input selection."
+  },
+  {
+   "label": "Optical Video Input",
+   "value": "SFP Optical Fiber connector cage.; Supports 2110 IP video and optical SDI."
+  },
+  {
+   "label": "Updates and Configuration",
+   "value": "USB"
+  },
+  {
+   "label": "Ethernet",
+   "value": "1 x 10Gb/s RJ‑45 connector supporting 10/100/1000/10G BASE-T for SMPTE-2110 IP video in, configuration and firmware updates."
+  },
+  {
+   "label": "Tally",
+   "value": "9-pin D connector"
+  },
+  {
+   "label": "SDI Compliance",
+   "value": "SMPTE 259M, SMPTE 292M, SMPTE 296M, SMPTE 372M, SMPTE 424M Level A and B, SMPTE 425M, SMPTE 2082."
+  },
+  {
+   "label": "SDI Color Space",
+   "value": "REC 601, REC 709"
+  },
+  {
+   "label": "SDI Auto Switching",
+   "value": "Automatically selects between SD, HD, 3G, 6G and 12G-SDI."
+  },
+  {
+   "label": "Video Sampling",
+   "value": "4:2:2 and 4:4:4"
+  },
+  {
+   "label": "SMPTE 2110-20 (Uncompressed Video)",
+   "value": "IGMP v2"
+  },
+  {
+   "label": "SMPTE 2110-21 (Traffic Shaping)",
+   "value": "Sender: Narrow; Receiver: Narrow, Wide Synchronous, Asynchronous"
+  },
+  {
+   "label": "SMPTE 2110-30 (PCM)",
+   "value": "Audio Conformance level: Level C"
+  }
+ ],
+ "src": "https://www.blackmagicdesign.com/products/smartview4k/techspecs/W-HDL-10",
+ "checked": "2026-10-19"
 }

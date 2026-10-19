@@ -1,11 +1,62 @@
 {
  "sku": "iTrans USB3 TR100",
- "order": 1722,
+ "order": 1721,
  "n": "HDBaseT 3.0 extender kit",
  "b": "Infobit",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "USB Extenders - USB 3.0 5Gbps USB 3.0 over HDBaseT 3.0 Extender (Tx + Rx), 100 meters.",
- "specs": []
+ "specs": [
+  {
+   "label": "USB Protocol",
+   "value": "USB 3.0"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "Up to 5Gbps"
+  },
+  {
+   "label": "Network Bandwidth",
+   "value": "10G"
+  },
+  {
+   "label": "Transmission Distance",
+   "value": "100m/328ft over CAT6a (F/FTP) cable"
+  },
+  {
+   "label": "Transmitter",
+   "value": "Input: 1 × USB HOST [USB-B, 9pin Female] ; Output: 1 × HDBT OUT [RJ45, Female]; Control: ; 1 × RS-232 [3pin-3.5mm Phoenix Connector] ; 1 × FSYNC [1pin-3.5mm Phoenix Connector]; 1 × SERVICE [USB-C, Update Port]"
+  },
+  {
+   "label": "Receiver",
+   "value": "Input: 1 × HDBT IN [RJ45, Female]; Output: 4 × USB Devices [USB-A, 9pin Female] ; Control: ; 1 × RS-232 [3pin-3.5mm Phoenix Connector]; 1 × FSYNC [1pin-3.5mm Phoenix Connector]; 1 × SERVICE [USB-C, Update Port]"
+  },
+  {
+   "label": "Housing",
+   "value": "Metal Enclosure"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "Transmitter / Receiver: 85mm [W] × 100mm [D] × 25.5mm [H]"
+  },
+  {
+   "label": "Weight",
+   "value": "Transmitter: 253g, Receiver: 260g"
+  },
+  {
+   "label": "Power Supply",
+   "value": "Input: AC 100~240V 50/60Hz Output: DC 24V/2A"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "PoC Power Supply: 40W (Max)"
+  }
+ ],
+ "src": "https://www.infobitav.com/itrans-usb3-tr100/",
+ "checked": "2026-10-19"
 }

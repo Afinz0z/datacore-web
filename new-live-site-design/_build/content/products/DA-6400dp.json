@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "DA-6400dp",
  "d": "64-Channel Digital Multitrack Recorder",
- "specs": [],
+ "specs": [
+  {
+   "label": "Recording media",
+   "value": "SSD"
+  },
+  {
+   "label": "File system",
+   "value": "FAT32"
+  },
+  {
+   "label": "File formats",
+   "value": "BWF (.wav)"
+  },
+  {
+   "label": "Number of channels",
+   "value": "64 (1×Fs), 32 (2×Fs)"
+  },
+  {
+   "label": "Sampling frequencies",
+   "value": "44.1k / 48k / 88.2k / 96k Hz"
+  },
+  {
+   "label": "Quantization bit rate",
+   "value": "16 / 24-bit"
+  },
+  {
+   "label": "Clock reference",
+   "value": "INTERNAL, WORD IN, VIDEO IN"
+  },
+  {
+   "label": "Timecode frame",
+   "value": "23.976 / 24 / 25 / 29.97DF / 29.97NDF / 30DF / 30NDF"
+  },
+  {
+   "label": "Connector",
+   "value": "BNC"
+  },
+  {
+   "label": "Signal voltage amplitude",
+   "value": "0.5V to 5Vp-p"
+  },
+  {
+   "label": "Input impedance",
+   "value": "10kΩ"
+  },
+  {
+   "label": "Format",
+   "value": "SMPTE 12M-1999 compliant"
+  }
+ ],
  "acc": [
   "IF-DA64"
- ]
+ ],
+ "src": "https://tascam.com/us/product/da-6400/spec",
+ "checked": "2026-10-19"
 }

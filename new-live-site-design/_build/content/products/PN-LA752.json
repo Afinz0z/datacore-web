@@ -8,7 +8,56 @@
  "avail": "lead",
  "model": "PN-LA752",
  "d": "75\" LA-Series Interactive Display, UHD, 500 cd/m2, InGlass M5 premium touch, 20 touch points, SDM Slot, USB-C, DP-out, SDM Slot-in PC Collaboration optional",
- "specs": [],
+ "specs": [
+  {
+   "label": "Panel Technology",
+   "value": "IPS with Direct LED backlights"
+  },
+  {
+   "label": "Screen Size [inch/cm]",
+   "value": "75 / 189.3"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Brightness (without glass) [cd/m²]",
+   "value": "500"
+  },
+  {
+   "label": "Contrast Ratio (typ.)",
+   "value": "1200:1"
+  },
+  {
+   "label": "Viewing Angle [°]",
+   "value": "178 horizontal / 178 vertical (typ. at contrast ratio 10:1)"
+  },
+  {
+   "label": "Colour Depth [bn]",
+   "value": "1.073 (10bit)"
+  },
+  {
+   "label": "Colour Gamut",
+   "value": "68% of DCI"
+  },
+  {
+   "label": "Response Time (typ.) [ms]",
+   "value": "8 (grey-to-grey)"
+  },
+  {
+   "label": "Panel Refresh Rate [Hz]",
+   "value": "60"
+  },
+  {
+   "label": "Touch Technology",
+   "value": "InGlass™ M5"
+  },
+  {
+   "label": "Number of Touches",
+   "value": "Real multi-touch up to 20 touches"
+  }
+ ],
  "acc": [
   "LG-Emerald3-N20",
   "LGC-5586",
@@ -33,5 +82,7 @@
   "VB-WMK-004",
   "WMK-077",
   "XTM1U"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/large-format-displays/high-end-collaboration-displays/rp/pnla752.xhtml",
+ "checked": "2026-10-19"
 }

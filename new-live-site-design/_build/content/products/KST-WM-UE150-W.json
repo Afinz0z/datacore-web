@@ -1,6 +1,6 @@
 {
  "sku": "KST-WM-UE150-W",
- "order": 2706,
+ "order": 2704,
  "n": "Camera Wall mount-KST-WM-UE150-W",
  "b": "Panasonic",
  "c": "Mount",
@@ -11,7 +11,6 @@
  "for": [
   "500791-V2",
   "999-30230-000",
-  "999-9950-201B",
-  "AW-UE150WEJ8"
+  "999-9950-201B"
  ]
 }

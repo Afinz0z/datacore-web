@@ -1,15 +1,66 @@
 {
  "sku": "DS-VW775-QR",
- "order": 2714,
+ "order": 2712,
  "n": "Wall Mount For 46 inch To 60 inch Displays",
  "b": "Peerless",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Smartmount® Full Service Wall Mount For 46\" To 60\" Displays, Push To Release Version",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "56.70 kg"
+  },
+  {
+   "label": "Minimum Adjustable Depth",
+   "value": "7.87 cm (3.10\")"
+  },
+  {
+   "label": "Maximum Adjustable Depth",
+   "value": "36.83 cm (14.50\")"
+  },
+  {
+   "label": "Features",
+   "value": "3-axis"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Powder Coated"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "200 x 200"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Wall Mountable"
+  },
+  {
+   "label": "Height",
+   "value": "54.51 cm (21.46\")"
+  },
+  {
+   "label": "Width",
+   "value": "53.98 cm (21.25\")"
+  },
+  {
+   "label": "Indoor/Outdoor",
+   "value": "Indoor"
+  }
+ ],
  "for": [
   "55VSM5J-H",
   "PN-M552 PCAP"
- ]
+ ],
+ "src": "https://eu.peerless-av.com/products/DS-VW775-QR",
+ "checked": "2026-10-19"
 }

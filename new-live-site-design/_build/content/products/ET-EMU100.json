@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Panasonic Ultra short through Zoom Lens",
- "specs": []
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Ultra-Short-Throw Zoom Lens"
+  },
+  {
+   "label": "F-number",
+   "value": "1.9"
+  },
+  {
+   "label": "Focal length (f)",
+   "value": "7.23 mm - 7.73 mm [9/32 - 5/16\"]"
+  },
+  {
+   "label": "Screen size",
+   "value": "100–400 inches"
+  },
+  {
+   "label": "Throw ratio WUXGA",
+   "value": "0.330 - 0.353:1"
+  },
+  {
+   "label": "Lens-shift Vertical",
+   "value": "PT-MZ16K/PT-MZ13K/PT-MZ10K：+50 % – -20 %"
+  },
+  {
+   "label": "Lens-shift Horizontal",
+   "value": "PT-MZ16K/PT-MZ13K/PT-MZ10K： ±20 %"
+  },
+  {
+   "label": "Zoom",
+   "value": "x1.07"
+  },
+  {
+   "label": "(W)",
+   "value": "200 mm (7 7/8˝)"
+  },
+  {
+   "label": "(H)",
+   "value": "200 mm (7 7/8˝)"
+  },
+  {
+   "label": "(D)",
+   "value": "509 mm (20 1/32˝)"
+  },
+  {
+   "label": "Applicable projectors",
+   "value": "PT-MZ16KL/PT-MZ13KL/PT-MZ10KL"
+  }
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/projectors/et-emu100",
+ "checked": "2026-10-19"
 }

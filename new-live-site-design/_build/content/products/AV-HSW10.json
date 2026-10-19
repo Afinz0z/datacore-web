@@ -1,6 +1,6 @@
 {
  "sku": "AV-HSW10",
- "order": 1857,
+ "order": 1856,
  "n": "Live Switcher-AV-HSW10",
  "b": "Panasonic",
  "c": "AV Switcher",
@@ -9,8 +9,54 @@
  "d": "Panasonic Compact live switcher",
  "specs": [
   {
-   "label": "Type",
-   "value": "Live Switcher"
+   "label": "ME Number",
+   "value": "1 ME"
+  },
+  {
+   "label": "HDMI OUT",
+   "value": "1 line, HDMI 1.4b compatible, • Connector: HDMI x 1, • Equipped with scaler function., Mode: Fit-V, Fit-H Full, Full-90%, Full-80%, • PGM, PVW, CLN, MV, AUX1/2, and Key Out can be assigned."
+  },
+  {
+   "label": "Signal Processing",
+   "value": "[R:G:B] 4:4:4 8bit / 4:2:2 10bit (when HDMI), [Y:Cb:Cr] 4:2:2 8bit (when NDI® High Bandwidth/UVC), [Y:Cb:Cr] 4:2:0 8bit (when NDI® HX/SRT/RTMP), [Y:Cb:Cr] 4:2:2 10bit"
+  },
+  {
+   "label": "AUDIO IN",
+   "value": "L/1 and R/2, • Connector: Pin jacks, • Equipped with embedded functionality to each output., • Equipped with delay/level adjustment function."
+  },
+  {
+   "label": "AUDIO OUT",
+   "value": "Connector for headphone monitor, • Connector: Φ3.5 mm TRS, • Equipped with output volume adjustment function."
+  },
+  {
+   "label": "LAN Terminal",
+   "value": "Compatible with 1000Base-T and AUTO-MDIX (For IP control), • Connecting cable: LAN cable (Category 5e), max. 100 m (328 ft), STP (Shielded Twisted Pair) cable recommended, • Connector: RJ-45"
+  },
+  {
+   "label": "TALLY GPI Terminal",
+   "value": "INPUT: 5 inputs, general-purpose, photocoupler sensing, OUTPUT: 8 outputs, selected from R/G tally, general-purpose, ALARM: 1 output, open collector output (negative logic), • Connectors: D-Sub 15pin"
+  },
+  {
+   "label": "USB Terminal",
+   "value": "• Connector: USB2.0, Type-A, with USB bus power functionality, Use a USB memory to save and load configuration files and still data, and perform firmware updates."
+  },
+  {
+   "label": "Audio",
+   "value": "IN: RCA x 2, OUT: 3.5 mm TRS"
+  },
+  {
+   "label": "Frame Synchronizer",
+   "value": "All inputs"
+  },
+  {
+   "label": "CC/UC/DC (Input)",
+   "value": "i/P converter, DC/UC (1080-720P), CC"
+  },
+  {
+   "label": "Keyer",
+   "value": "2 (PinP, Linear key, Luminance key, Chroma key)"
   }
- ]
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/broadcast-proav/av-hsw10",
+ "checked": "2026-10-19"
 }

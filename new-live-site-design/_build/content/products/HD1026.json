@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "BrightSign HD Series 6",
- "specs": []
+ "specs": [
+  {
+   "label": "Neural processing unit (NPU)",
+   "value": "Yes"
+  },
+  {
+   "label": "4K video decoding",
+   "value": "Single 10-bit at 60p"
+  },
+  {
+   "label": "Full HD at 60p video decoding",
+   "value": "Yes (Dual)"
+  },
+  {
+   "label": "4K video rotation",
+   "value": "Yes"
+  },
+  {
+   "label": "HD images & graphics",
+   "value": "Yes"
+  },
+  {
+   "label": "HTML5 performance",
+   "value": "Interactive 2D motion , graphics"
+  },
+  {
+   "label": "HTML resolution",
+   "value": "HD"
+  },
+  {
+   "label": "4K video codecs: H.265/HEVC, H.264/AVC, VP9",
+   "value": "Yes, H.265, H.264 at 60p"
+  },
+  {
+   "label": "Images: BMP, JPEG, PNG",
+   "value": "Yes"
+  },
+  {
+   "label": "I/O package",
+   "value": "Expanded"
+  },
+  {
+   "label": "Dimensions (W x D x H)",
+   "value": "205 x 185.9 x 19.2mm"
+  },
+  {
+   "label": "Shipping weight / Player weight",
+   "value": "1.3 kg / 0.59 kg"
+  }
+ ],
+ "src": "https://www.brightsign.biz/brightsign-players/series-6/hd6/",
+ "checked": "2026-10-19"
 }

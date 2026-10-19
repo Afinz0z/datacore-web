@@ -1,11 +1,62 @@
 {
  "sku": "iswitch 102",
- "order": 2037,
+ "order": 2035,
  "n": "1x2 HDMI splitter",
  "b": "Infobit",
  "c": "Splitter",
  "dept": "AV",
  "avail": "lead",
  "d": "Splitters - 4K60 1x2 HDMI splitter, smart EDID",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Bandwidth",
+   "value": "600MHz/18Gbps"
+  },
+  {
+   "label": "Input Port",
+   "value": "1×HDMI Type A (19-pin female)"
+  },
+  {
+   "label": "Output Ports",
+   "value": "2×HDMI Type A (19-pin female)"
+  },
+  {
+   "label": "Video Resolution",
+   "value": "4K2K 24/25/30/60Hz"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Human body model—±8kV (Air-gap discharge) &±4kV (Contact discharge)"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Chassis Material",
+   "value": "Metal"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "2W"
+  },
+  {
+   "label": "Weight",
+   "value": "165g"
+  },
+  {
+   "label": "Power Supply",
+   "value": "Input: AC100 – 240V 50/60Hz; Output: DC 5V/1A"
+  },
+  {
+   "label": "Dimensions",
+   "value": "56 mm(W)×100 mm(D)×16mm(H)"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-20°C ~ 60°C / -4°F ~ 140°F"
+  }
+ ],
+ "src": "https://www.infobitav.com/iswitch-102/",
+ "checked": "2026-10-19"
 }

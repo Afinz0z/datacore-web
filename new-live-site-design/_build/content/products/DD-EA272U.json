@@ -1,6 +1,6 @@
 {
  "sku": "DD-EA272U",
- "order": 4428,
+ "order": 4426,
  "n": "27\" 4K UHD (3480x2160) Business-Class Widescreen Desktop Monitor (DD-EA272U)",
  "b": "NEC",
  "c": "Workstation",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DD-EA272U",
  "d": "27\" 4K UHD (3480x2160) Business-Class Widescreen Desktop Monitor",
- "specs": []
+ "specs": [
+  {
+   "label": "Panel Technology",
+   "value": "IPS TFT with W-LED backlight"
+  },
+  {
+   "label": "Screen Size [inch/cm]",
+   "value": "27 / 68"
+  },
+  {
+   "label": "Screen Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Colour Gamuts",
+   "value": "110 % sRGB; 81.6% AdobeRGB, 78% NTSC"
+  },
+  {
+   "label": "Pixel Pitch [mm]",
+   "value": "0.155"
+  },
+  {
+   "label": "Brightness (typ.) [cd/m²]",
+   "value": "350"
+  },
+  {
+   "label": "Contrast Ratio (typ.)",
+   "value": "1000:1 (12000:1 dynamic contrast ratio)"
+  },
+  {
+   "label": "Viewing Angle [°]",
+   "value": "178 horizontal / 178 vertical (typ. at contrast ratio 10:1)"
+  },
+  {
+   "label": "Response Time (typ.) [ms]",
+   "value": "5"
+  },
+  {
+   "label": "Colours [Mio.]",
+   "value": "1064.64332261"
+  },
+  {
+   "label": "Horizontal Frequency [kHz]",
+   "value": "31.5 - 135"
+  },
+  {
+   "label": "Vertical Frequency [Hz]",
+   "value": "30 - 75"
+  }
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/desktop-displays/enterprise-advanced-displays/rp/ea272u.xhtml",
+ "checked": "2026-10-19"
 }

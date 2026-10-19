@@ -1,6 +1,6 @@
 {
  "sku": "AW-RP150",
- "order": 594,
+ "order": 593,
  "n": "Remote Camera Controller (AW-RP150)",
  "b": "Panasonic",
  "c": "Camera Controller",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "AW-RP150",
  "d": "Remote Camera Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Requirements",
+   "value": "12 V DC (10.8 V to 13.2 V)"
+  },
+  {
+   "label": "PoE",
+   "value": "PoE+, DC 42 V to 57 V (Camera Input,)"
+  },
+  {
+   "label": "DC IN",
+   "value": "DC 12 V IN, XLR 4‑pin"
+  },
+  {
+   "label": "3G-SDI IN",
+   "value": "SMPTE424M/SMPTE292 / 75 Ω (BNC x 1), Supported formats:, 1080/59.94p, 1080/50p, 1080/59.94i, 1080/50i, 1080/23.98p, 1080/25p, 1080/23.98PsF, 1080/25PsF"
+  },
+  {
+   "label": "3G-SDI ACTIVE THROGH OUT",
+   "value": "SMPTE424M/SMPTE292 / 75 Ω (BNC x 1), Supported formats:, 1080/59.94p, 1080/50p, 1080/59.94i, 1080/50i, 1080/23.98p, 1080/25p, 1080/23.98PsF, 1080/25PsF"
+  },
+  {
+   "label": "LAN（SERIAL CONT)",
+   "value": "RS‑422 (control signals for remote cameras), Connecting cable:, Straight cable (category 5e or better shielded cable), max. 1000 m (3280 ft)"
+  },
+  {
+   "label": "TALLY OUT",
+   "value": "Open collector output (negative logic), Maximum voltage resistance DC 24 V, Maximum current 50 mA"
+  },
+  {
+   "label": "LCD Display",
+   "value": "7-inch Touch Panel GUI Monitor (WVGA(800×480))"
+  },
+  {
+   "label": "SD Memory Card Slot",
+   "value": "SDHC / SDXC Memory Card Slot x 1"
+  },
+  {
+   "label": "No. of Connectable Cameras",
+   "value": "200 (IP), 5 (RS422)"
+  },
+  {
+   "label": "No. of Camera Selection Buttons",
+   "value": "10"
+  },
+  {
+   "label": "No. of Camera Groups",
+   "value": "20 (10 units per 1 group)"
+  }
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/broadcast-proav/aw-rp150gj",
+ "checked": "2026-10-19"
 }

@@ -7,10 +7,61 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Barco G100-W16 17,200 lumen, WUXGA, single-chip laser phosphor projector.90% Brightness uniformity, Up to 20,000hrs Light source lifetime.16:10 ratio",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projector type",
+   "value": "Single chip DLP laser phosphor projector"
+  },
+  {
+   "label": "Resolution",
+   "value": "1,920 x 1,200 (WUXGA) - 0.96\" DLP chip"
+  },
+  {
+   "label": "Brightness",
+   "value": "17,200 ISO lumen / 16,200 center lumen / 14,500 ANSI lumen"
+  },
+  {
+   "label": "Brightness uniformity",
+   "value": "90%"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1,100:1 sequential; 5,500:1 dynamic; Extreme black: 100,000:1"
+  },
+  {
+   "label": "Light source",
+   "value": "Laser phosphor"
+  },
+  {
+   "label": "Light source lifetime",
+   "value": "Up to 20,000hrs"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Orientation",
+   "value": "360° rotation, no restrictions"
+  },
+  {
+   "label": "Sealed DLP™ core",
+   "value": "Yes"
+  },
+  {
+   "label": "Color correction",
+   "value": "Yes"
+  },
+  {
+   "label": "CLO (constant light output)",
+   "value": "Yes"
+  }
+ ],
  "acc": [
   "CMS0305",
   "CMS115",
   "SI-H L 300"
- ]
+ ],
+ "src": "https://www.barco.com/en/product/g100-w16",
+ "checked": "2026-10-19"
 }

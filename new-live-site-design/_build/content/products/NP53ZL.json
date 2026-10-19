@@ -7,5 +7,28 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NEC Short zoom lens",
- "specs": []
+ "specs": [
+  {
+   "label": "Zoom/Focus",
+   "value": "motorised"
+  },
+  {
+   "label": "Zoom ratio",
+   "value": "1.45"
+  },
+  {
+   "label": "Throw ratio",
+   "value": "0.86 to 1.25"
+  },
+  {
+   "label": "Recommended screen size [inch]",
+   "value": "60 to 500"
+  },
+  {
+   "label": "Weight [kg]",
+   "value": "5.1"
+  }
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/accessories/details/t/options/lenses/rp/np53zl.xhtml",
+ "checked": "2026-10-19"
 }

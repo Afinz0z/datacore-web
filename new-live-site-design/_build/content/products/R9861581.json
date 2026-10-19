@@ -1,14 +1,33 @@
 {
  "sku": "R9861581",
- "order": 1944,
+ "order": 1943,
  "n": "USB-C input convertor",
  "b": "Barco",
  "c": "Converter",
  "dept": "AV",
  "avail": "lead",
  "d": "USB-C input convertor kit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connections",
+   "value": "Input: HDMI 2.0, USB 3.2 Gen1 (5Gbps) Output: USB-C DisplayPort™​ 1.2"
+  },
+  {
+   "label": "Temperature range",
+   "value": "Operation: -10°C ~ 60°C Storage: -10°C ~ 60°C"
+  },
+  {
+   "label": "Dimensions (HxWxD)",
+   "value": "60 * 30 * 180 mm"
+  },
+  {
+   "label": "Weight",
+   "value": "100g"
+  }
+ ],
  "for": [
   "CX-50"
- ]
+ ],
+ "src": "https://www.barco.com/en/product/clickshare-usb-c-input-convertor",
+ "checked": "2026-10-19"
 }

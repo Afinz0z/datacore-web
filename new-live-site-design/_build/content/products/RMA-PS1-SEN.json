@@ -1,6 +1,6 @@
 {
  "sku": "RMA-PS1-SEN",
- "order": 1500,
+ "order": 1499,
  "n": "Sensor - Power Sensor (PowerAvailable, 110/240V)",
  "b": "AVTECH",
  "c": "Sensors",
@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "SENSOR",
  "d": "Sensor - Power Sensor (PowerAvailable, 110/240V)",
- "specs": []
+ "specs": [
+  {
+   "label": "Environment Condition Monitored",
+   "value": "Power"
+  },
+  {
+   "label": "Real-Time Recognition",
+   "value": "Main Power On/Off"
+  },
+  {
+   "label": "Sensor Cable Type",
+   "value": "2 Wire Sensor Cable"
+  },
+  {
+   "label": "Sensor Cable Length",
+   "value": "25' (7.62 m)"
+  },
+  {
+   "label": "Maximum Sensor Cable Length",
+   "value": "Approximately 900' (274.32 m)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "5VDC 1A Adapter"
+  }
+ ],
+ "src": "https://avtech.com/Products/Sensors/Power.htm",
+ "checked": "2026-10-19"
 }

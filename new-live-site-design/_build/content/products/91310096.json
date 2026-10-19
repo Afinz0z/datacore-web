@@ -1,6 +1,6 @@
 {
  "sku": "91310096",
- "order": 1856,
+ "order": 1855,
  "n": "DCX 3x1 switcher with USB-C, HDMI 2.0 ports (DCX-3x1-TPN-TX10)",
  "b": "Lightware",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "DCX-3x1-TPN-TX10",
  "d": "DCX 3x1 switcher with USB-C, HDMI 2.0 ports. Full 4K HDMI 2.0 TPN transmitter (4K UHD @ 60Hz RGB 4:4:4, up to 18 Gbps). USB-C connectivity for video, audio and charging up to 100W. 10GbE Port for SDVoE network connection with 4K video.",
- "specs": []
+ "specs": [
+  {
+   "label": "Electrical safety",
+   "value": "IEC 61000-3-3:2013+AMD1:2017"
+  },
+  {
+   "label": "EMC (emission)",
+   "value": "IEC/EN 55032:2015"
+  },
+  {
+   "label": "EMC (immunity)",
+   "value": "IEC/EN 55035:2017"
+  },
+  {
+   "label": "RoHS",
+   "value": "EN 63000:2018"
+  },
+  {
+   "label": "Cooling",
+   "value": "Cooling fan"
+  },
+  {
+   "label": "AC power plug",
+   "value": "Interchangeable (EU, UK, JP/US, AUS/NZ)"
+  },
+  {
+   "label": "Battery cell type",
+   "value": "BR1632A"
+  },
+  {
+   "label": "A/V standard",
+   "value": "DP 1.2a"
+  },
+  {
+   "label": "HDCP compliance",
+   "value": "HDCP 1.4, HDCP 2.2"
+  },
+  {
+   "label": "Color space",
+   "value": "RGB, YCbCr"
+  },
+  {
+   "label": "Video delay",
+   "value": "0 frame"
+  },
+  {
+   "label": "Max. video resolution",
+   "value": "4096x2160@60Hz RGB 4:4:4 (up to 600MHz pixel clock);1920x1080@120 Hz, 36 bit"
+  }
+ ],
+ "src": "https://www.lightware.com/en/products/AV-over-IP/dcx-3x1-tpn-tx10",
+ "checked": "2026-10-19"
 }

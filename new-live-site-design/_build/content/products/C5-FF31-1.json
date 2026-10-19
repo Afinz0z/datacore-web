@@ -1,6 +1,6 @@
 {
  "sku": "C5-FF31-1",
- "order": 2768,
+ "order": 2766,
  "n": "Middle Atlantic 31\" Deep C5 1 Bay Credenza (C5-FF31-1)",
  "b": "Middle Atlantic",
  "c": "Rack (AV)",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "C5-FF31-1",
  "d": "C5-FF31-1 Middle Atlantic 31\" Deep C5 1 Bay Credenza",
- "specs": []
+ "specs": [
+  {
+   "label": "CFM",
+   "value": "50"
+  },
+  {
+   "label": "Depth",
+   "value": "31 in (78.7 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "31.28 in (79.5 cm)"
+  },
+  {
+   "label": "Rack Units",
+   "value": "14 RU"
+  },
+  {
+   "label": "Usable Depth",
+   "value": "23.94 in (60.8 cm)"
+  },
+  {
+   "label": "Usable Height",
+   "value": "24.74 in (62.8 cm)"
+  },
+  {
+   "label": "Volts AC",
+   "value": "120 - 240 VAC"
+  },
+  {
+   "label": "Width",
+   "value": "21.05 in (53.5 cm)"
+  },
+  {
+   "label": "Available Internationally",
+   "value": "Yes"
+  },
+  {
+   "label": "Federal Ops Country of Origin",
+   "value": "Mexico"
+  },
+  {
+   "label": "Monitor Mounting",
+   "value": "Yes"
+  },
+  {
+   "label": "Number of Bays",
+   "value": "1"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/technical_furniture/credenzas/c5_credenza_frame/c5-ff31-1",
+ "checked": "2026-10-19"
 }

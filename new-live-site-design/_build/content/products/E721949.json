@@ -1,6 +1,6 @@
 {
  "sku": "E721949",
- "order": 2599,
+ "order": 2597,
  "n": "Wall Mount for IDS 32\"-50\" (E721949)",
  "b": "Elo",
  "c": "Mount",
@@ -8,5 +8,24 @@
  "avail": "lead",
  "model": "E721949",
  "d": "Wall Mount for IDS 32\"-50\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure Color",
+   "value": "Black"
+  },
+  {
+   "label": "MTBF",
+   "value": "50,000 hours demonstrated"
+  },
+  {
+   "label": "Weight (Unpackaged)",
+   "value": "4.98 lbs / 2.26 kg"
+  },
+  {
+   "label": "Weight (Packaged)",
+   "value": "7.23 lbs / 3.28 kg"
+  }
+ ],
+ "src": "https://www.elotouch.com/accessories-wall-mount-e721949.html",
+ "checked": "2026-10-19"
 }

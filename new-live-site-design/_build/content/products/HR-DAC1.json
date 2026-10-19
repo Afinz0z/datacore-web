@@ -1,6 +1,6 @@
 {
  "sku": "HR-DAC1",
- "order": 1981,
+ "order": 1980,
  "n": "Digital to Analog Converter - 24 bit 192 kHz (HR-DAC1)",
  "b": "RDL",
  "c": "Converter",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HR-DAC1",
  "d": "Digital to Analog Converter - 24 bit 192 kHz",
- "specs": []
+ "specs": [
+  {
+   "label": "Standards",
+   "value": "AES3-2003, IEC60958"
+  },
+  {
+   "label": "Indicators (10)",
+   "value": "POWER LED, blue; LOCK LED, green; RATE: 44.1 kHz, 48 kHz, 96 kHz, 192 kHz; dual-LED VU meters, left and right"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "> 110 dB (resolution 24-bit unweighted)"
+  },
+  {
+   "label": "Residual Noise",
+   "value": "< -100 dB (10 to 20 kHz, -120 dBFS input) < -100 dB (10 to 20 kHz, -120 dBFS input) < -110 dB (locked to digital input, digital audio off)"
+  },
+  {
+   "label": "Phase L to R, R to L",
+   "value": "±0.15° (5 Hz to 20 kHz)"
+  },
+  {
+   "label": "Output Level",
+   "value": "Adjustable OFF to +24 dBu (0 dBFS); Left and Right"
+  },
+  {
+   "label": "Crosstalk",
+   "value": "< -100 dB (5 Hz to 3 kHz); < -90 dB (3 kHz to 20 kHz)"
+  },
+  {
+   "label": "Harmonic attenuation",
+   "value": "2nd: -105 dB; 3rd: -108 dB; 4th, 6th: -115 dB; 5th, 7th: -110 dB; above 7th: <-115 dB, typical"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.002% (20 Hz to 20 KHz, below +22 dBu)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "5 Hz to 24 kHz (± 0.2 dB into high impedance load)"
+  },
+  {
+   "label": "Resolution",
+   "value": "16 to 24 bits"
+  },
+  {
+   "label": "Sample Rate",
+   "value": "32 kHz to 192 kHz"
+  }
+ ],
+ "src": "https://rdlnet.com/product/hr-dac1/",
+ "checked": "2026-10-19"
 }

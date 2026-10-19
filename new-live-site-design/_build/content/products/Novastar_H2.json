@@ -7,5 +7,48 @@
  "dept": "AV",
  "avail": "lead",
  "d": "(H_4 x HDMI input card *1 +H_16 x RJ45 + 2*fiber sending card*2 )",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack Unit",
+   "value": "2U"
+  },
+  {
+   "label": "Max. Input Cards",
+   "value": "4"
+  },
+  {
+   "label": "Max. Output Cards",
+   "value": "2"
+  },
+  {
+   "label": "Irregular Mosaic",
+   "value": "Yes"
+  },
+  {
+   "label": "Max. Layers",
+   "value": "32 Layers"
+  },
+  {
+   "label": "Permission Management",
+   "value": "Yes"
+  },
+  {
+   "label": "10bit and HDR",
+   "value": "Yes"
+  },
+  {
+   "label": "Central Control",
+   "value": "TCP/IP and RS232"
+  },
+  {
+   "label": "OSD",
+   "value": "Yes"
+  },
+  {
+   "label": "BKG",
+   "value": "Yes"
+  }
+ ],
+ "src": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+ "checked": "2026-10-19"
 }

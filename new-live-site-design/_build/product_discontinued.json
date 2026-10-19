@@ -842,6 +842,20 @@
   "checked": "2026-10-18",
   "evidence": "Discontinued (status flag shown next to the model name on the lg.com/ae product page)"
  },
+ "AT-RON-448": {
+  "brand": "Atlona",
+  "name": "Distribution Amplifier - AT-RON-448",
+  "page": "https://www.hallresearch.com/product/at-ron-448",
+  "checked": "2026-10-19",
+  "evidence": "Discontinued"
+ },
+ "AW-UE150WEJ8": {
+  "brand": "Panasonic",
+  "name": "PTZ Camera-AW-UE150WEJ8",
+  "page": "https://eu.connect.panasonic.com/gb/en/broadcast-proav/remote-ptz-camera-systems/aw-ue150",
+  "checked": "2026-10-19",
+  "evidence": "AW-UE150 Discontinued"
+ },
  "AXIS P1467-LE": {
   "brand": "Axis",
   "name": "AXIS 5 MP Bullet Camera",

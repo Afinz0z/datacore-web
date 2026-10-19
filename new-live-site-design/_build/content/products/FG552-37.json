@@ -1,14 +1,33 @@
 {
  "sku": "FG552-37",
- "order": 2214,
+ "order": 2212,
  "n": "HPX-AV102-USB-R",
  "b": "AMX",
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
  "d": "HPX-AV102-USB-R | The HPX-AV102-USB-R USB 3.0 Module with Retractable MyTurn ready Cable provides a compact solution with 4 feet available pullout from HydraPort HPX-600 900 and 1200 Connection Ports or Touch Connection Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Front Panel Components",
+   "value": "Pull-Out Connector: USB Type A Male"
+  },
+  {
+   "label": "Long-Term Reliability",
+   "value": "Tested to 10,000 pull and release cycles"
+  },
+  {
+   "label": "Dimensions",
+   "value": "1 1/2 HydraPort Units (See the HPX-600 , HPX-900 or HPX-1200 specifications section for an explanation of HydraPort units)"
+  },
+  {
+   "label": "Weight",
+   "value": "Approximately 1lb (0.46 Kg)"
+  }
+ ],
  "for": [
   "FG560-01-BL"
- ]
+ ],
+ "src": "https://www.amx.com/en/products/hpx-av102-usb-r",
+ "checked": "2026-10-19"
 }

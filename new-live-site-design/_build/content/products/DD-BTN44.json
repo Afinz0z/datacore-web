@@ -1,11 +1,62 @@
 {
  "sku": "DD-BTN44",
- "order": 1493,
+ "order": 1492,
  "n": "Wall-Mounted Audio Dante Interface",
  "b": "RDL",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
  "d": "Wall-Mounted Bi-Directional Line-Level and Bluetooth® Audio Dante Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Connector",
+   "value": "RJ45 with Link and Speed indicators"
+  },
+  {
+   "label": "Digital Audio Ethernet Protocol",
+   "value": "Dante"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20 Hz to 20 kHz (± 0.5 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.1%"
+  },
+  {
+   "label": "Noise below -20 dBFS",
+   "value": "< -70 dB"
+  },
+  {
+   "label": "Voice signal feeding device",
+   "value": "One Dante channel (mono, -20 dBFS nominal)"
+  },
+  {
+   "label": "Output",
+   "value": "Stereo mini-jack"
+  },
+  {
+   "label": "Network to Mini Jack Output Section THD+N",
+   "value": "< 0.05%"
+  },
+  {
+   "label": "Crosstalk (channel to channel)",
+   "value": "< 80 dB (1 kHz); < 65 dB (20 kHz)"
+  },
+  {
+   "label": "Outputs",
+   "value": "Balanced and unbalanced on detachable terminal block"
+  },
+  {
+   "label": "Network to Line Output Section THD + n",
+   "value": "< 0.05%"
+  }
+ ],
+ "src": "https://rdlnet.com/product/dd-btn44/",
+ "checked": "2026-10-19"
 }

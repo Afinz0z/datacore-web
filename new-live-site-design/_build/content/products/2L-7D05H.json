@@ -1,6 +1,6 @@
 {
  "sku": "2L-7D05H",
- "order": 2426,
+ "order": 2424,
  "n": "High Speed HDMI Cable with Ethernet",
  "b": "ATEN",
  "c": "CONTROL CABLE",
@@ -8,8 +8,46 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "HDMI Cable"
+   "label": "Max. Video Resolution",
+   "value": "4096x2160@30Hz"
+  },
+  {
+   "label": "Physical Properties Cable Length",
+   "value": "5M"
+  },
+  {
+   "label": "Physical Properties Cable Color",
+   "value": "Black"
+  },
+  {
+   "label": "Conductor Gauge",
+   "value": "30AWG"
+  },
+  {
+   "label": "Connector Plating",
+   "value": "Gold"
+  },
+  {
+   "label": "Physical Properties Connector Type",
+   "value": "HDMI (19pin) Male to Male"
+  },
+  {
+   "label": "Cable Shield Type",
+   "value": "Aluminum Foil"
+  },
+  {
+   "label": "Cable Jacket Type",
+   "value": "PVC"
+  },
+  {
+   "label": "Cable Outer Dimension",
+   "value": "6.0 ± 0.2mm"
+  },
+  {
+   "label": "Conductor Material",
+   "value": "Tinned Copper"
   }
- ]
+ ],
+ "src": "https://www.aten.com/global/en/products/cables/hdmi-cables/2l-7d05h/",
+ "checked": "2026-10-19"
 }

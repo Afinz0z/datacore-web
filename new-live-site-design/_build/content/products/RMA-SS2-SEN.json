@@ -1,6 +1,6 @@
 {
  "sku": "RMA-SS2-SEN",
- "order": 4564,
+ "order": 4562,
  "n": "Sensor - Smoke & Fire",
  "b": "AVTECH",
  "c": "Room Alert & Monitoring System",
@@ -9,13 +9,35 @@
  "d": "Sensor - Smoke &Fire",
  "specs": [
   {
-   "label": "Type",
-   "value": "Smoke & Fire Sensor"
+   "label": "Environment Condition Monitored",
+   "value": "Smoke"
+  },
+  {
+   "label": "Real-Time Recognition",
+   "value": "Smoke"
+  },
+  {
+   "label": "Sensor Cable Type",
+   "value": "2 Wire Sensor Cable"
+  },
+  {
+   "label": "Sensor Cable Length",
+   "value": "25' (7.62 m)"
+  },
+  {
+   "label": "Maximum Sensor Cable Length",
+   "value": "Approximately 900' (274.32 m)"
+  },
+  {
+   "label": "Power Supply",
+   "value": "12V Adapter (Included)"
   }
  ],
  "for": [
   "RA12S-DAP-RAS",
   "RA12S-DAP-WAS",
   "RA32S-DAP-RAS"
- ]
+ ],
+ "src": "https://avtech.com/Products/Sensors/Smoke.htm",
+ "checked": "2026-10-19"
 }

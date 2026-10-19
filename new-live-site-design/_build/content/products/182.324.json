@@ -1,11 +1,38 @@
 {
  "sku": "182.324",
- "order": 4350,
+ "order": 4348,
  "n": "P30-L400 Truss 4,0m",
  "b": "beamZ",
  "c": "Lighting Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "P30-L400 Truss 4,0m straight",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Aluminium"
+  },
+  {
+   "label": "Alloy",
+   "value": "EN-AW 6082 T6"
+  },
+  {
+   "label": "Main Tubes (Chords)",
+   "value": "51 x 2mm"
+  },
+  {
+   "label": "Braces",
+   "value": "16 x 2mm"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "4000 x 290 x 290mm"
+  },
+  {
+   "label": "Weight (kg)",
+   "value": "18.9000"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/p30-l400-truss-40m/",
+ "checked": "2026-10-19"
 }

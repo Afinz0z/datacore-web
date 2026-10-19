@@ -1,11 +1,62 @@
 {
  "sku": "AW-RP60GJ",
- "order": 568,
+ "order": 567,
  "n": "Remote controller-AW-RP60GJ",
  "b": "Panasonic",
  "c": "PTZ Joystick",
  "dept": "AV",
  "avail": "lead",
  "d": "Panasonic AW-RP60GJ Remote camera controller.Display 3.5-type liquid crystal (QHD 960 x 540) No. of Connectable Cameras:200 (IP), 5 (RS422) Remote Camera Selection:5 (6 to 200 controlled from the LCD) No. of Camera Groups:40 (5 units/group)",
- "specs": []
+ "specs": [
+  {
+   "label": "Power Requirements",
+   "value": "12 V DC (10.8 V to 13.2 V)"
+  },
+  {
+   "label": "PoE",
+   "value": "PoE, 42 V to 57 V DC"
+  },
+  {
+   "label": "LCD Display",
+   "value": "3.5 inch LCD (QHD: 960 x 540)"
+  },
+  {
+   "label": "DC IN",
+   "value": "DC 12 V IN, XLR 4‑pin"
+  },
+  {
+   "label": "No. of Connectable Cameras",
+   "value": "200 (IP), 5 (RS422)"
+  },
+  {
+   "label": "No. of Camera Selection Buttons",
+   "value": "5 (6 to 200 controlled from the LCD)"
+  },
+  {
+   "label": "No. of Camera Groups",
+   "value": "40 (5 units/group)"
+  },
+  {
+   "label": "Preset Memory",
+   "value": "100"
+  },
+  {
+   "label": "Current Consumption",
+   "value": "0.9 A (XLR connector input), 0.3 A (PoE power supply)"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-20 °C to 50 °C (-4 °F to 122 °F)"
+  },
+  {
+   "label": "Weight",
+   "value": "1.5 kg (3.31 lbs)"
+  },
+  {
+   "label": "Dimensions",
+   "value": "W 210 mm x H 92 mm x D 177 mm , (8-9/32 inches x 3-5/8 inches x 6-31/32 inches), (excluding protrusions)"
+  }
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/broadcast-proav/accessories/aw-rp60gj",
+ "checked": "2026-10-19"
 }

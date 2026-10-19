@@ -1,6 +1,6 @@
 {
  "sku": "Pearl Nano",
- "order": 2025,
+ "order": 2023,
  "n": "Streamer and recorder (Pearl Nano)",
  "b": "Epiphan",
  "c": "Streaming Processor",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Pearl Nano",
  "d": "Epiphan Streamer and recorder",
- "specs": []
+ "specs": [
+  {
+   "label": "Local video inputs",
+   "value": "(1) 12G SDI; (1) 4K HDMI™"
+  },
+  {
+   "label": "Video over Ethernet",
+   "value": "(1) RTSP; (1) SRT (push)"
+  },
+  {
+   "label": "Connectors",
+   "value": "(1) BNC (female); (1) HDMI type A (female); (1) RJ-45"
+  },
+  {
+   "label": "Aspect ratios",
+   "value": "3:2, 4:3, 16:9, 16:10, and custom aspect ratios"
+  },
+  {
+   "label": "Standard resolutions",
+   "value": "PAL, PAL wide, NTSC, NTSC wide"
+  },
+  {
+   "label": "Input resolution range",
+   "value": "640×480 to 4K"
+  },
+  {
+   "label": "Frame rate",
+   "value": "Up to 60 fps"
+  },
+  {
+   "label": "Video input color spaces",
+   "value": "HDMI: RGB 4:4:4, YC R C B 4:2:2, YC R C B 4:4:4; SDI: RGB 4:4:4, YC R C B 4:2:2"
+  },
+  {
+   "label": "Deinterlacing",
+   "value": "Yes"
+  },
+  {
+   "label": "Maximum cable length for SDI",
+   "value": "300 ft"
+  },
+  {
+   "label": "Maximum cable length for USB 3.0",
+   "value": "6 ft"
+  },
+  {
+   "label": "Analog audio inputs",
+   "value": "(2) XLR pro line level (+4.0 dBu) up to 12.3 V RMS +24 dBu (balanced/unbalanced, mono or two L/R stereo pairs); (1) RCA consumer line level -10 dBV (L/R stereo pair)"
+  }
+ ],
+ "src": "https://www.epiphan.com/products/pearl-nano/tech-specs/",
+ "checked": "2026-10-19"
 }

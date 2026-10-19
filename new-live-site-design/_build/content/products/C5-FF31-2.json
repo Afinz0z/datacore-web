@@ -1,11 +1,62 @@
 {
  "sku": "C5-FF31-2",
- "order": 2766,
+ "order": 2764,
  "n": "Credenza Frame",
  "b": "Middle Atlantic",
  "c": "Rack (AV)",
  "dept": "AV",
  "avail": "lead",
  "d": "C5-FF31-2 - 2 Bay C5 Credenza Frame, 31 Inches Deep",
- "specs": []
+ "specs": [
+  {
+   "label": "CFM",
+   "value": "100"
+  },
+  {
+   "label": "Depth",
+   "value": "31 in (78.7 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "31.28 in (79.5 cm)"
+  },
+  {
+   "label": "Rack Units",
+   "value": "28 RU"
+  },
+  {
+   "label": "Usable Depth",
+   "value": "23.94 in (60.8 cm)"
+  },
+  {
+   "label": "Usable Height",
+   "value": "24.74 in (62.8 cm)"
+  },
+  {
+   "label": "Volts AC",
+   "value": "120 - 240 VAC"
+  },
+  {
+   "label": "Width",
+   "value": "43.39 in (110.2 cm)"
+  },
+  {
+   "label": "Available Internationally",
+   "value": "Yes"
+  },
+  {
+   "label": "Federal Ops Country of Origin",
+   "value": "Mexico"
+  },
+  {
+   "label": "Monitor Mounting",
+   "value": "Yes"
+  },
+  {
+   "label": "Number of Bays",
+   "value": "2"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/technical_furniture/credenzas/c5_credenza_frame/c5-ff31-2",
+ "checked": "2026-10-19"
 }

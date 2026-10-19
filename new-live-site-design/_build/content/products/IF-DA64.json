@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "IF-DA64",
  "d": "64-in/64-out Dante interface card",
- "specs": [],
+ "specs": [
+  {
+   "label": "44.1k/48kHz",
+   "value": "64 channels max."
+  },
+  {
+   "label": "88.2k/96kHz",
+   "value": "32 channels max."
+  },
+  {
+   "label": "Connector",
+   "value": "RJ-45"
+  },
+  {
+   "label": "Transmission protocol",
+   "value": "Dante"
+  },
+  {
+   "label": "Gigabit Ethernet standard",
+   "value": "1000BASE-T (IEEE 802.3ab)"
+  },
+  {
+   "label": "Cables",
+   "value": "category 5e or faster."
+  },
+  {
+   "label": "Firmware",
+   "value": "Ver001B"
+  },
+  {
+   "label": "Dante firmware",
+   "value": "V1.2.0"
+  },
+  {
+   "label": "Owner's Manual",
+   "value": "2018-02-15"
+  },
+  {
+   "label": "Owner's Manual Addendum",
+   "value": "2016-01-26"
+  },
+  {
+   "label": "CAD outline (PDF)",
+   "value": "2023-05-18"
+  },
+  {
+   "label": "CAD outline (DXF/PDF)",
+   "value": "2023-05-18"
+  }
+ ],
  "for": [
   "DA-6400dp"
- ]
+ ],
+ "src": "https://tascam.com/us/product/if-da64/spec",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,62 @@
 {
  "sku": "CX-30",
- "order": 544,
+ "order": 543,
  "n": "ClickShare CX-30",
  "b": "Barco",
  "c": "Wireless content sharing",
  "dept": "AV",
  "avail": "lead",
  "d": "Barco ClickShare CX-30 incluing 2 ClickShare Buttons",
- "specs": []
+ "specs": [
+  {
+   "label": "Video outputs",
+   "value": "4K UHD (3840*2160) @ 30Hz. HDMI™ 1.4b or USB-C DisplayPort 1.2 (only Gen2)"
+  },
+  {
+   "label": "Audio output",
+   "value": "USB, HDMI"
+  },
+  {
+   "label": "USB",
+   "value": "1 X USB-A, 1 X USB-C"
+  },
+  {
+   "label": "Native protocols",
+   "value": "Airplay, Google Cast, Miracast"
+  },
+  {
+   "label": "Maximum sources simultaneously on screen",
+   "value": "2"
+  },
+  {
+   "label": "Noise Level",
+   "value": "Max. 25dBA @ 0-30°C Max. 30dBA @ 30-40°C"
+  },
+  {
+   "label": "Authentication protocol",
+   "value": "WPA2-PSK in stand alone mode WPA2-PSK or IEEE 802.1X using the ClickShare Button in network integration mode"
+  },
+  {
+   "label": "Wireless transmission protocol",
+   "value": "IEEE 802.11 a/g/n/ac and IEEE 802.15.1"
+  },
+  {
+   "label": "Reach",
+   "value": "Max. 30m (100 ft) between ClickShare Button and ClickShare Base Unit Frequency band 2.4 GHZ and 5 GHz (DFS)"
+  },
+  {
+   "label": "Frequency band",
+   "value": "2.4 GHZ and 5 GHz (DFS channels supported in select number of countries)"
+  },
+  {
+   "label": "Connections",
+   "value": "1x Ethernet LAN 1Gbit 1x USB-C 2.0 (front); 1x USB-A 2.0 (front) -only Gen2: 1x USB-C 3.0 (front); 1x USB-A 3.0 (front)"
+  },
+  {
+   "label": "Anti-theft system",
+   "value": "Kensington lock"
+  }
+ ],
+ "src": "https://www.barco.com/en/product/clickshare-cx-30",
+ "checked": "2026-10-19"
 }

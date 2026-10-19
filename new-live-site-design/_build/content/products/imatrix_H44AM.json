@@ -1,11 +1,62 @@
 {
  "sku": "imatrix H44AM",
- "order": 1853,
+ "order": 1852,
  "n": "Matrix Switcher-imatrix H44AM",
  "b": "Infobit",
  "c": "AV Switcher",
  "dept": "AV",
  "avail": "lead",
  "d": "Matrix Switchers - 4K60 HDMI Matrix Switcher, 4 IN 4 OUT, with Audio Matrix/ Downscaling/ AOC Supported",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Input",
+   "value": "(4) HDMI"
+  },
+  {
+   "label": "Input Connector",
+   "value": "(4) Type-A female HDMI"
+  },
+  {
+   "label": "HDMI Input Resolution",
+   "value": "Up to 4K@60Hz 4:4:4, HDR"
+  },
+  {
+   "label": "Video Output",
+   "value": "(4) HDMI"
+  },
+  {
+   "label": "Output Connector",
+   "value": "(4) Type-A female HDMI"
+  },
+  {
+   "label": "HDMI Output Resolution",
+   "value": "Up to 4K@60Hz 4:4:4, HDR10 and Dolby Vision"
+  },
+  {
+   "label": "HDMI Output",
+   "value": "Supports up to 5V500mA for AoC cable"
+  },
+  {
+   "label": "HDMI Version",
+   "value": "Up to 2.0"
+  },
+  {
+   "label": "HDCP Version",
+   "value": "Up to 2.3"
+  },
+  {
+   "label": "HDMI Audio Signal",
+   "value": "LPCM 7.1 audio, Dolby Atmos®, Dolby® TrueHD, Dolby Digital® Plus, DTS:X™, and DTS-HD® Master Audio™ pass-through."
+  },
+  {
+   "label": "Output",
+   "value": "(4) Digital SPDIF audio"
+  },
+  {
+   "label": "Digital SPDIF Audio Format",
+   "value": "Supports PCM, Dolby Digital, DTS, DTS-HD"
+  }
+ ],
+ "src": "https://www.infobitav.com/imatrix-ham/",
+ "checked": "2026-10-19"
 }

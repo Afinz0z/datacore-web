@@ -1,6 +1,6 @@
 {
  "sku": "VE1843",
- "order": 1592,
+ "order": 1591,
  "n": "True 4K HDMI USB HDBaseT 3.0 Transceiver (VE1843)",
  "b": "ATEN",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "VE1843",
  "d": "True 4K HDMI USB HDBaseT 3.0 Transceiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Input Interfaces",
+   "value": "1 x HDMI Type A Female (Black)"
+  },
+  {
+   "label": "Video Input Impedance",
+   "value": "100 Ω"
+  },
+  {
+   "label": "Video Input Max. Distance",
+   "value": "5 m"
+  },
+  {
+   "label": "Video Output Interfaces",
+   "value": "1 x HDMI Type A Female (Black)"
+  },
+  {
+   "label": "Video Output Impedance",
+   "value": "100 Ω"
+  },
+  {
+   "label": "Video Output Max. Distance",
+   "value": "5 m"
+  },
+  {
+   "label": "Video Max. Data Rate",
+   "value": "18Gbps (6Gbps per lane)"
+  },
+  {
+   "label": "Max. Pixel Clock",
+   "value": "600 MHz"
+  },
+  {
+   "label": "Video Compliance",
+   "value": "HDMI (3D, Deep Color, 4K/60Hz); 4K HDR; HDCP2.2/2.3 Compatible ; Consumer Electronics Control (CEC)"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "4096 x 2160 @ 60Hz (4:4:4) ; 3840 x 2160 @ 60Hz (4:4:4)"
+  },
+  {
+   "label": "Max. Resolutions / Distance",
+   "value": "Up to 4K x 2K @ 60Hz (4:4:4) @100m (HDBaseT3 Certified Cat 6a U/FTP cable / ATEN’s tailor-made HDBaseT cable)"
+  },
+  {
+   "label": "Audio Input",
+   "value": "1 x HDMI Type A Female (Black); 1 x Stereo Audio ( mini stereo Jack female , Green)"
+  }
+ ],
+ "src": "https://www.aten.com/global/en/products/professional-audiovideo/video-extenders/ve1843/",
+ "checked": "2026-10-19"
 }

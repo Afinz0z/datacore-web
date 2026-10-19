@@ -1,6 +1,6 @@
 {
  "sku": "2110 IP Converter 8x12G SFP",
- "order": 1945,
+ "order": 1944,
  "n": "Bidirectional 12G-SDI to SMPTE-2110 IP Video Converter (2110 IP Converter 8x12G SFP)",
  "b": "Blackmagic Design",
  "c": "Converter",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "2110 IP Converter 8x12G SFP",
  "d": "Bidirectional 12G-SDI to SMPTE-2110 IP Video Converter",
- "specs": []
+ "specs": [
+  {
+   "label": "Total SDI Inputs",
+   "value": "9"
+  },
+  {
+   "label": "SDI Video Inputs",
+   "value": "8"
+  },
+  {
+   "label": "SDI Main Program Inputs",
+   "value": "1"
+  },
+  {
+   "label": "Total SDI Outputs",
+   "value": "9"
+  },
+  {
+   "label": "SDI Video Outputs",
+   "value": "8"
+  },
+  {
+   "label": "SDI Main Program Outputs",
+   "value": "1 Loop Out."
+  },
+  {
+   "label": "SMPTE ST-2110 IP Video Inputs/Outputs",
+   "value": "8 x 10G Ethernet"
+  },
+  {
+   "label": "Analog Audio Outputs",
+   "value": "1 x 6.35 mm headphone socket."
+  },
+  {
+   "label": "SDI Audio Inputs",
+   "value": "16 Ch embedded audio on SDI input."
+  },
+  {
+   "label": "SDI Audio Outputs",
+   "value": "16 Ch embedded audio on SDI loop output."
+  },
+  {
+   "label": "SMPTE ST 2110 IP Audio Inputs",
+   "value": "16 Ch embedded audio on ST-2110 IP video via 10G Ethernet."
+  },
+  {
+   "label": "SMPTE ST 2110 IP Audio Outputs",
+   "value": "16 Ch embedded audio on ST-2110 IP video via 10G Ethernet."
+  }
+ ],
+ "src": "https://www.blackmagicdesign.com/products/blackmagic2110ipconverter/techspecs/W-CONIP-07",
+ "checked": "2026-10-19"
 }

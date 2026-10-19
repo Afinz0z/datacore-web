@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "88524ELS",
  "d": "Tensioned Contour Electrol, 106-inch diagonal (52\" x 92\")",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Diagonal",
+   "value": "106 in (269.2 cm)"
+  },
+  {
+   "label": "Screen Height",
+   "value": "52 in (132.1 cm)"
+  },
+  {
+   "label": "Size",
+   "value": "52\" x 92\" or 106\" diagonal"
+  },
+  {
+   "label": "Application",
+   "value": "Ceiling, Wall"
+  },
+  {
+   "label": "Built-In Control",
+   "value": "Standard Low Voltage Control"
+  },
+  {
+   "label": "Federal Ops Country of Origin",
+   "value": "US"
+  },
+  {
+   "label": "Motor",
+   "value": "220V (50Hz) for Export"
+  },
+  {
+   "label": "Projection Type",
+   "value": "Front Projection"
+  },
+  {
+   "label": "Screen Format",
+   "value": "HDTV (16:9)"
+  },
+  {
+   "label": "Screen Surface Features",
+   "value": "Standard Resolution"
+  },
+  {
+   "label": "Screen Type",
+   "value": "Electric"
+  },
+  {
+   "label": "Surface",
+   "value": "Da-Mat"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/screens/wall-and-ceiling-mounted-electric-screens/tensioned-contour-electrol/88524els",
+ "checked": "2026-10-19"
 }

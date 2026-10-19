@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "IL-RSS-IREZ2.6mk2 Lite",
  "d": "6mk2 Lite(15 Cabinet/s) Display Size (mm): 2500 x 1500 (WxH) QTY (3) Resolution (pixels): 960 x 576 (WxH) Total SQM: 3.75 (m²) - 11.25 (m²) 1 Years Extended Warranty",
- "specs": []
+ "specs": [
+  {
+   "label": "In / out",
+   "value": "Indoor"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "2,6mm"
+  },
+  {
+   "label": "Physical density",
+   "value": "147,456 pixels/m2"
+  },
+  {
+   "label": "Led arrangement",
+   "value": "3 IN 1 SMD"
+  },
+  {
+   "label": "Cabinet resolution (H/V)",
+   "value": "192x192pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "1000nits"
+  },
+  {
+   "label": "Viewing angle H/V)",
+   "value": "160°/160°"
+  },
+  {
+   "label": "Scan rate",
+   "value": "1/24"
+  },
+  {
+   "label": "Refresh rate",
+   "value": "7,680Hz"
+  },
+  {
+   "label": "Signal input source",
+   "value": "DVI, HDMI, DP, SDI"
+  },
+  {
+   "label": "Module dimensions",
+   "value": "250x250,0mm (9,84x9,84inch)"
+  },
+  {
+   "label": "Cabinet dimensions",
+   "value": "500x500mm (19,69x19,69inch)"
+  }
+ ],
+ "src": "https://www.infiled.com/products-infiled/il-rss-irez2-6mk2-lite/",
+ "checked": "2026-10-19"
 }

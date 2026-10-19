@@ -1,6 +1,6 @@
 {
  "sku": "999-9950-201B",
- "order": 505,
+ "order": 504,
  "n": "LegrandAV- Vaddio PTZ Camera",
  "b": "Vaddio",
  "c": "AV Camera",
@@ -9,11 +9,57 @@
  "d": "PTZ CAMERA - RoboSHOT 20 UHD HDBT OneLINK Bridge (black)",
  "specs": [
   {
-   "label": "Type",
-   "value": "PTZ Camera"
+   "label": "Depth",
+   "value": "Camera: 7.71\" (19.6 cm) OneLINK: 6\" (15.2 cm)"
+  },
+  {
+   "label": "Distance",
+   "value": "328 in (833.1 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "Camera: 7.87\" (20 cm) OneLK: 1.72\" (4.37 cm)"
+  },
+  {
+   "label": "Width",
+   "value": "Camera: 8\" (20.3 cm) OneLINK: 8.38\" (21.3 cm)"
+  },
+  {
+   "label": "3rd Party Control",
+   "value": "RS232, Telnet"
+  },
+  {
+   "label": "Bridged Signal",
+   "value": "Audio and Video"
+  },
+  {
+   "label": "Camera Type",
+   "value": "PTZ"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  },
+  {
+   "label": "Control Method",
+   "value": "IR Remote, RS232, Telnet, Web UI"
+  },
+  {
+   "label": "Estimated Room Size",
+   "value": "Large Room, Medium Room"
+  },
+  {
+   "label": "Extension System",
+   "value": "with OneLINK Bridge"
+  },
+  {
+   "label": "Extension Type",
+   "value": "Camera"
   }
  ],
  "acc": [
   "KST-WM-UE150-W"
- ]
+ ],
+ "src": "https://www.legrandav.com/products/cameras/4k_ptz_camera/roboshot-20-uhd/999-9950-201b",
+ "checked": "2026-10-19"
 }

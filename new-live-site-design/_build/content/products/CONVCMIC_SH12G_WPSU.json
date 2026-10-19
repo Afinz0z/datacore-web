@@ -1,6 +1,6 @@
 {
  "sku": "CONVCMIC/SH12G/WPSU",
- "order": 1947,
+ "order": 1946,
  "n": "Micro Converter SDI to HDMI 12G PSU (CONVCMIC/SH12G/WPSU)",
  "b": "Blackmagic Design",
  "c": "Converter",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "CONVCMIC/SH12G/WPSU",
  "d": "Micro Converter SDI to HDMI 12G PSU",
- "specs": [],
+ "specs": [
+  {
+   "label": "SDI Video Inputs",
+   "value": "1"
+  },
+  {
+   "label": "SDI Video Outputs",
+   "value": "1 x loop out."
+  },
+  {
+   "label": "HDMI 2.0 Video Outputs",
+   "value": "1 x type A."
+  },
+  {
+   "label": "Updates, Configurations and Power",
+   "value": "USB Type‑C."
+  },
+  {
+   "label": "SD Video Standards",
+   "value": "525i59.94 NTSC, 625i50 PAL"
+  },
+  {
+   "label": "HD Video Standards",
+   "value": "720p50, 720p59.94, 720p60 , 1080p23.98, 1080p24, 1080p25, 1080p29.97, 1080p30, 1080p47.95, 1080p48, 1080p50, 1080p59.94, 1080p60 , 1080PsF25, 1080PsF29.97, 1080PsF30 , 1080i50, 1080i59.94, 1080i60"
+  },
+  {
+   "label": "2K Video Standards",
+   "value": "2Kp23.98 DCI, 2Kp24 DCI, 2Kp25 DCI, 2Kp29.97 DCI, 2Kp30 DCI, 2Kp47.95 DCI, 2Kp48 DCI, 2Kp50 DCI, 2Kp59.94 DCI, 2Kp60 DCI , 2KPsF25 DCI, 2KPsF29.97 DCI, 2KPsF30 DCI"
+  },
+  {
+   "label": "Ultra HD Video Standards",
+   "value": "2160p23.98, 2160p24, 2160p25, 2160p29.97, 2160p30, 2160p47.95, 2160p48, 2160p50, 2160p59.94, 2160p60"
+  },
+  {
+   "label": "4K Video Standards",
+   "value": "4Kp23.98 DCI, 4Kp24 DCI, 4Kp25 DCI, 4Kp29.97 DCI, 4Kp30 DCI, 4Kp47.95 DCI, 4Kp48 DCI, 4Kp50 DCI, 4Kp59.94 DCI and 4Kp60 DCI."
+  },
+  {
+   "label": "SDI Compliance",
+   "value": "SMPTE 259M, SMPTE 292M, SMPTE 296M, SMPTE 424M, SMPTE 425M, SMPTE 2081-1, SMPTE 2081-10, SMPTE 2082-1, SMPTE 2082-10, SMPTE 2084 and SMPTE 2108-1"
+  },
+  {
+   "label": "SDI Video Rates",
+   "value": "SDI video connections are switchable between standard definition, 720p, 1080i, 1080p, 2K DCI, Ultra HD and 4K DCI."
+  },
+  {
+   "label": "SDI Color Precision",
+   "value": "4:2:2. A 33 point LUT can be loaded via the software utility for calibrating or improving monitor color."
+  }
+ ],
  "for": [
   "SWATEMTVSTC/K4K8/0"
- ]
+ ],
+ "src": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-21",
+ "checked": "2026-10-19"
 }

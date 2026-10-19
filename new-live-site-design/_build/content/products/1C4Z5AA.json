@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP Z24n G3 WUXGA Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Product color",
+   "value": "Silver"
+  },
+  {
+   "label": "Display type",
+   "value": "IPS"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Resolution (maximum)",
+   "value": "WUXGA (1920 x 1200 @ 60 Hz)"
+  },
+  {
+   "label": "Integrated privacy filter",
+   "value": "No"
+  },
+  {
+   "label": "Flicker-free",
+   "value": "Yes"
+  },
+  {
+   "label": "Low blue light",
+   "value": "Yes, HP Eye Ease (TÜV Low Blue Light Hardware Solution certified)"
+  },
+  {
+   "label": "Resolution (native)",
+   "value": "WUXGA (1920 x 1200)"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "0.270 mm"
+  },
+  {
+   "label": "Brightness",
+   "value": "350 nits"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1000:1"
+  },
+  {
+   "label": "Response time",
+   "value": "5ms GtG (with overdrive)"
+  }
+ ],
+ "src": "https://www.hp.com/th-en/shop/hp-z24n-g3-wuxga-display-1c4z5aa.html",
+ "checked": "2026-10-19"
 }

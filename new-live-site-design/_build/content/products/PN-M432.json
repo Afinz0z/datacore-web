@@ -7,7 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MultiSync M432 - MODEL PN-M432, 43\" M-Series Large Format Display, UHD, 550cd/m2, D-LED backlight, 24/7 proof, SDM Slot, CM-Slot",
- "specs": [],
+ "specs": [
+  {
+   "label": "Panel Technology",
+   "value": "IPS with Direct LED backlights"
+  },
+  {
+   "label": "Active Screen Area (W x H) [mm]",
+   "value": "941.2 x 529.4"
+  },
+  {
+   "label": "Screen Size [inch/cm]",
+   "value": "43 / 108"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Pixel Pitch [mm]",
+   "value": "0.245"
+  },
+  {
+   "label": "Brightness [cd/m²]",
+   "value": "550"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "≥ 8000:1"
+  },
+  {
+   "label": "Viewing Angle [°]",
+   "value": "178 horizontal / 178 vertical (typ. at contrast ratio 10:1)"
+  },
+  {
+   "label": "Colour Depth [bn]",
+   "value": "1.073 (10bit)"
+  },
+  {
+   "label": "Colour Gamut",
+   "value": "72% of NTSC"
+  },
+  {
+   "label": "Response Time (typ.) [ms]",
+   "value": "8"
+  },
+  {
+   "label": "Panel Refresh Rate [Hz]",
+   "value": "60"
+  }
+ ],
  "acc": [
   "LG-CMBB-65",
   "LG-Emerald1",
@@ -26,5 +75,7 @@
   "RMT3",
   "SF650P",
   "WMK-077"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/large-format-displays/midrange-displays/rp/m432.xhtml",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "SA752PU",
- "order": 2709,
+ "order": 2707,
  "n": "Smart Mount® Articulating Wall Mount for 43\" to.",
  "b": "Peerless",
  "c": "Mount",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Wall Mount",
  "d": "Smart Mount® Articulating Wall Mount for 43\" to.",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "40.82 kg"
+  },
+  {
+   "label": "Minimum Adjustable Depth",
+   "value": "7.62 cm (3\")"
+  },
+  {
+   "label": "Maximum Adjustable Depth",
+   "value": "76.45 cm (30.10\")"
+  },
+  {
+   "label": "Features",
+   "value": "+/- 5° Level Adjustment"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Semi-gloss Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Fused Epoxy"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "600 x 400"
+  },
+  {
+   "label": "Minimum Mounting Pattern",
+   "value": "200 x 100"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Wall Mountable"
+  },
+  {
+   "label": "Height",
+   "value": "56.82 cm (22.37\")"
+  },
+  {
+   "label": "Application/Usage",
+   "value": "Breeze Block"
+  }
+ ],
+ "src": "https://eu.peerless-av.com/products/SA752PU",
+ "checked": "2026-10-19"
 }

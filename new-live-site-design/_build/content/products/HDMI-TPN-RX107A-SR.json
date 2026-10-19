@@ -1,6 +1,6 @@
 {
  "sku": "HDMI-TPN-RX107A-SR",
- "order": 1730,
+ "order": 1729,
  "n": "SDVoE compatible HDMI 2.0 scaling receiver (HDMI-TPN-RX107A-SR)",
  "b": "Lightware",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HDMI-TPN-RX107A-SR",
  "d": "SDVoE compatible HDMI 2.0 scaling receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Compliance",
+   "value": "UL, CE"
+  },
+  {
+   "label": "Electrical safety",
+   "value": "IEC/EN/UL/CSA 62368-1:2014, Class II"
+  },
+  {
+   "label": "EMC (emission)",
+   "value": "IEC/EN 55032:2015"
+  },
+  {
+   "label": "EMC (immunity)",
+   "value": "IEC/EN 55035:2017"
+  },
+  {
+   "label": "RoHS",
+   "value": "EN 63000:2018"
+  },
+  {
+   "label": "Cooling",
+   "value": "passive"
+  },
+  {
+   "label": "Heat dissipation",
+   "value": "75.1 BTU/h"
+  },
+  {
+   "label": "Power over Ethernet (PoE+)",
+   "value": "via TPX input (IEEE802.3at) (can receive power)"
+  },
+  {
+   "label": "Supplied power",
+   "value": "12V DC, 2A"
+  },
+  {
+   "label": "AC power plug",
+   "value": "Interchangable (EU, UK, JP/US, AUS/NZ)"
+  },
+  {
+   "label": "DC power plug",
+   "value": "Locking DC connector (2.1/5.5 mm pin)"
+  },
+  {
+   "label": "Rack mountable",
+   "value": "No"
+  }
+ ],
+ "src": "https://www.lightware.com/en/products/AV-over-IP/hdmi-tpn-rx107a-sr",
+ "checked": "2026-10-19"
 }

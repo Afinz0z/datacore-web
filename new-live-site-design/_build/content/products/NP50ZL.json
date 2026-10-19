@@ -8,8 +8,31 @@
  "avail": "lead",
  "model": "NP50ZL LENS",
  "d": "NP50ZL Short Zoom Lens (0.6-0.76:1) for PA and PV Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Zoom/Focus",
+   "value": "motorised"
+  },
+  {
+   "label": "Zoom ratio",
+   "value": "1.25"
+  },
+  {
+   "label": "Throw ratio",
+   "value": "0.6 to 0.75"
+  },
+  {
+   "label": "Recommended screen size [inch]",
+   "value": "50 to 500"
+  },
+  {
+   "label": "Weight [kg]",
+   "value": "2.5"
+  }
+ ],
  "for": [
   "XP-V731U-B"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/accessories/details/t/options/lenses/rp/np50zl.xhtml",
+ "checked": "2026-10-19"
 }

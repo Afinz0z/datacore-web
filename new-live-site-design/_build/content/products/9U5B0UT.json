@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "21.5\" Full HD IPS business monitor with 100 Hz refresh rate and HDMI, DisplayPort, and VGA connectivity for everyday office productivity.",
- "specs": []
+ "specs": [
+  {
+   "label": "Product color",
+   "value": "Black"
+  },
+  {
+   "label": "Display type",
+   "value": "IPS"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:09"
+  },
+  {
+   "label": "Resolution (maximum)",
+   "value": "FHD (1920 x 1080 @ 100 Hz)"
+  },
+  {
+   "label": "Flicker-free",
+   "value": "Yes (TÜV certified)"
+  },
+  {
+   "label": "Low blue light",
+   "value": "HP Eye Ease (TÜV Low Blue Light Hardware Solution certified)"
+  },
+  {
+   "label": "Resolution (native)",
+   "value": "FHD (1920 x 1080)"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "0.25 x 0.25 mm"
+  },
+  {
+   "label": "Brightness",
+   "value": "250 nits"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1000:01:00"
+  },
+  {
+   "label": "Response time",
+   "value": "5ms GtG (with overdrive)"
+  },
+  {
+   "label": "Display scan frequency (horizontal)",
+   "value": "30-80 kHz (VGA); 30-115 kHz (HDMI, DisplayPort™)"
+  }
+ ],
+ "src": "https://www.hp.com/hk-en/shop/hp-series-3-pro-21-5-inch-fhd-monitor-322pf-9u5b0ut.html",
+ "checked": "2026-10-19"
 }

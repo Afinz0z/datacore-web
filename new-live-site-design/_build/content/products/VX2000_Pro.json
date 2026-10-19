@@ -7,5 +7,40 @@
  "dept": "AV",
  "avail": "lead",
  "d": "2 IN 1 SENDING BOX",
- "specs": []
+ "specs": [
+  {
+   "label": "Loading Capacity",
+   "value": "13 million pixels"
+  },
+  {
+   "label": "Max Width (pixels)",
+   "value": "16384"
+  },
+  {
+   "label": "Max Height (pixels)",
+   "value": "8192"
+  },
+  {
+   "label": "Layers",
+   "value": "12 *2K×1K"
+  },
+  {
+   "label": "Input Connectors",
+   "value": "1× 12G-SDI(IN&LOOP), 1× DP 1.2, 2× HDM 2.0, 4× HDMI 1.3, 2× OPT, 1× USB3.0"
+  },
+  {
+   "label": "Output Connectors",
+   "value": "20× Ethernet Ports, 1× HDMI1.3, 4× OPT, 1× 12G-SDI LOOP, 4× OPT"
+  },
+  {
+   "label": "Presets",
+   "value": "256"
+  },
+  {
+   "label": "Control Connectors",
+   "value": "2× Ethernet Port, 1× USB"
+  }
+ ],
+ "src": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+ "checked": "2026-10-19"
 }

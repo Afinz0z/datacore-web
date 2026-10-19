@@ -1,6 +1,6 @@
 {
  "sku": "RA12S-DAP-WAS",
- "order": 4560,
+ "order": 4558,
  "n": "Room Alert 12S Mid Size Monitor",
  "b": "AVTECH",
  "c": "Room Alert & Monitoring System",
@@ -9,13 +9,51 @@
  "d": "Room Alert 12S Mid Size Monitorwith PoE, PRO",
  "specs": [
   {
-   "label": "Type",
-   "value": "Room Alert & Monitoring System Headend Unit"
+   "label": "Condition monitored",
+   "value": "Indoor ambient temperature"
+  },
+  {
+   "label": "Power & connectivity ports",
+   "value": "1 5V barrel-connector power jack; 1 RJ-45 Ethernet port (PoE-enabled)"
+  },
+  {
+   "label": "Height",
+   "value": "1.75\" (4.45 cm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.75\" (9.53 cm)"
+  },
+  {
+   "label": "Internal temperature sensor type",
+   "value": "Digital"
+  },
+  {
+   "label": "Internal temperature sensor range",
+   "value": "-40 to 185°F (-40 to 85°C)"
+  },
+  {
+   "label": "Internal temperature sensor accuracy",
+   "value": "+/- 2°C"
+  },
+  {
+   "label": "Internal temperature sensor resolution",
+   "value": "0.03125°C"
+  },
+  {
+   "label": "Internal temperature sensor readings",
+   "value": "Numeric values in Fahrenheit or Celsius"
+  },
+  {
+   "label": "Power supply",
+   "value": "AVTECH 5V power adapter (100/240 VAC, 50/60 Hz, RoHS); or PoE (IEEE802.3af compliant)"
   }
  ],
  "acc": [
   "RMA-DTH-SEN",
   "RMA-F024-SEN",
   "RMA-SS2-SEN"
- ]
+ ],
+ "src": "https://avtech.com/Products/Room_Alert_PRO/Room_Alert_12S.htm",
+ "checked": "2026-10-19"
 }

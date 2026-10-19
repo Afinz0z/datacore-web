@@ -1,6 +1,6 @@
 {
  "sku": "RMA-DTH-SEN",
- "order": 4558,
+ "order": 4556,
  "n": "Digital Temperature & Humidity Sensor",
  "b": "AVTECH",
  "c": "Room Alert & Monitoring System",
@@ -9,13 +9,55 @@
  "d": "Sensor - DigitalTemperature &Humidity w 25'Cable",
  "specs": [
   {
-   "label": "Type",
-   "value": "Digital Temperature & Humidity Sensor"
+   "label": "Environment Condition Monitored",
+   "value": "Temperature & Humidity"
+  },
+  {
+   "label": "Real-Time Recognition",
+   "value": "Yes, Temperature & Humidity"
+  },
+  {
+   "label": "Digital Sensor Cable Type",
+   "value": "RJ-11 Cable"
+  },
+  {
+   "label": "Digital Sensor Cable Length",
+   "value": "25' (7.62 m), 50' (15.24 m) or 100' (30.48 m)"
+  },
+  {
+   "label": "Maximum Digital Sensor Cable Length",
+   "value": "Approximately 100' (30.48 m)"
+  },
+  {
+   "label": "Digital Temperature Sensor Range",
+   "value": "-40 to 185°F (-40 to 85°C)"
+  },
+  {
+   "label": "Digital Temperature Sensor Accuracy",
+   "value": "+/- 2°C"
+  },
+  {
+   "label": "Digital Temperature Sensor Resolution",
+   "value": "0.03125°C"
+  },
+  {
+   "label": "Digital Humidity Sensor Range",
+   "value": "5% to 95% RH Non-Condensing"
+  },
+  {
+   "label": "Digital Humidity Sensor Accuracy",
+   "value": "+/- 4.5% at 5 to 59% RH"
+  },
+  {
+   "label": "Power Supply",
+   "value": "Monitoring Unit"
   }
  ],
  "for": [
   "RA12S-DAP-RAS",
   "RA12S-DAP-WAS",
   "RA32S-DAP-RAS"
- ]
+ ],
+ "src": "https://avtech.com/Products/Sensors/Digital_Temperature_Humidity/Digital_Temperature_Humidity_('25).htm",
+ "checked": "2026-10-19"
 }

@@ -1,11 +1,30 @@
 {
  "sku": "CP-2",
- "order": 2210,
+ "order": 2208,
  "n": "Double Cover Plate",
  "b": "RDL",
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
  "d": "Double Cover Plate - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Dimensions",
+   "value": "Height: 4.55 in. 11.6 cm; Width: 4.55 in. 11.6 cm"
+  },
+  {
+   "label": "Package Type",
+   "value": "Bag"
+  },
+  {
+   "label": "Shipping Weight",
+   "value": "0.2 lbs."
+  },
+  {
+   "label": "Package Dimensions",
+   "value": "2 x 3 in."
+  }
+ ],
+ "src": "https://rdlnet.com/product/cp-2/",
+ "checked": "2026-10-19"
 }

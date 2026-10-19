@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SMD 1516 Black frame LED Inteled:, Cabinet Size(mm), 1000 X1000",
- "specs": []
+ "specs": [
+  {
+   "label": "In / out",
+   "value": "Outdoor"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "2,97mm"
+  },
+  {
+   "label": "Physical density",
+   "value": "112.896pixels/㎡"
+  },
+  {
+   "label": "Led arrangement",
+   "value": "3-in-1 SMD"
+  },
+  {
+   "label": "Cabinet resolution (H/V)",
+   "value": "336x336pixels"
+  },
+  {
+   "label": "Brightness",
+   "value": "5000nits"
+  },
+  {
+   "label": "Viewing angle H/V)",
+   "value": "160°/130°"
+  },
+  {
+   "label": "Scan rate",
+   "value": "1/14"
+  },
+  {
+   "label": "Refresh rate",
+   "value": "3.840Hz"
+  },
+  {
+   "label": "Transparency",
+   "value": "0%"
+  },
+  {
+   "label": "Signal input source",
+   "value": "DVI. HDMI. DP. SDI"
+  },
+  {
+   "label": "Module dimensions",
+   "value": "500x250mm (19,69x9,84inch)"
+  }
+ ],
+ "src": "https://www.infiled.com/products-infiled/il-fiss-ormv2-9-pro/",
+ "checked": "2026-10-19"
 }

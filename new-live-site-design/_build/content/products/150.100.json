@@ -1,6 +1,6 @@
 {
  "sku": "150.100",
- "order": 4339,
+ "order": 4337,
  "n": "Mov Head Zoom 12x40W 2p FC MHL1240 LED Wash Moving Head with Zoom",
  "b": "beamZ",
  "c": "Light",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MHL1240",
  "d": "MHL1240 Mov Head Zoom 12x40W 2p FC MHL1240 LED Wash Moving Head with Zoom 2pcs in Flightcase MHL1240 LED Wash Moving Head with Zoom 2pcs in Flightcase MHL1240 LED Wash Moving Head with Zoom 2pcs in Flightcase MHL1240 LED Wash Moving Head with Zoom 2pcs in Flightcase",
- "specs": []
+ "specs": [
+  {
+   "label": "Light source",
+   "value": "4-in-1 LED"
+  },
+  {
+   "label": "Colours",
+   "value": "Red, Green, Blue, White"
+  },
+  {
+   "label": "LED power (single LED)",
+   "value": "40W"
+  },
+  {
+   "label": "Beam angle: Min",
+   "value": "4.5"
+  },
+  {
+   "label": "Beam angle: Max",
+   "value": "31"
+  },
+  {
+   "label": "Field angle: min",
+   "value": "7"
+  },
+  {
+   "label": "Field angle: max",
+   "value": "48"
+  },
+  {
+   "label": "Zoom",
+   "value": "Yes"
+  },
+  {
+   "label": "Illuminance",
+   "value": "99.000 lx @ 3m"
+  },
+  {
+   "label": "Head movement: Pan",
+   "value": "540"
+  },
+  {
+   "label": "Head movement: Tilt",
+   "value": "220"
+  },
+  {
+   "label": "Flash rate per second",
+   "value": "0 - 18Hz"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/mhl1240-led-wash-moving-head-with-zoom-2pcs-in-flightcase/",
+ "checked": "2026-10-19"
 }

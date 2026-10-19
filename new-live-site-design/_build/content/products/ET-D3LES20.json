@@ -8,5 +8,36 @@
  "avail": "lead",
  "model": "ET-D3LES20",
  "d": "3-Chip DLP™ Projector Zoom Lens",
- "specs": []
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Zoom lens"
+  },
+  {
+   "label": "F-number",
+   "value": "2.5"
+  },
+  {
+   "label": "Focal length (f)",
+   "value": "35.0-50.9 mm"
+  },
+  {
+   "label": "Throw ratio WUXGA",
+   "value": "1.67-2.41:1(RQ35K2/RQ35K/RZ34K2/RZ34K/RQ25K/RZ24K/RQ18K/RZ17K/RZ16K) 2.00-2.90:1(RQ25K/RZ24K/RQ18K/RZ17K/RZ14K)"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "4K+ (1.79-2.59:1), 4K / WUXGA (1.67-2.41:1), 4K / WUXGA (2.00-2.90:1)(PT-RQ25K Series)"
+  },
+  {
+   "label": "Dimensions(WxHxD)",
+   "value": "154 × 154 × 265 mm (6-1/16 × 6-1/16 × 10-7/16\")"
+  },
+  {
+   "label": "Weight [kg]",
+   "value": "Approx 5.2 kg (11.5 lbs)"
+  }
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/projectors/et-d3les20",
+ "checked": "2026-10-19"
 }

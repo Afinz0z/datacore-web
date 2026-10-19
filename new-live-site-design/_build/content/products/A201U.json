@@ -7,10 +7,61 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Professional Advanced LCD Laser Installation Projector, 20000Lm,16:10 Ratio Native Resolution 1920 x 1200 (WUXGA) Screen Size (diagonal) [cm] / [inch] -Maximum: 1,270 / 500\"; Minimum: 152 / 60\"",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection Technology",
+   "value": "3LCD Technology"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "1920 x 1200 (WUXGA)"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "3000000:1"
+  },
+  {
+   "label": "Brightness",
+   "value": "20.000 Lm / 21000 Lm Center; compliant with ISO21118-2020"
+  },
+  {
+   "label": "Lamp",
+   "value": "Laser Light Source"
+  },
+  {
+   "label": "Light Source Life [hrs]",
+   "value": "25000"
+  },
+  {
+   "label": "Lens",
+   "value": "6 motorized lens options"
+  },
+  {
+   "label": "Lense Adjustment",
+   "value": "Motorized"
+  },
+  {
+   "label": "Lens shift",
+   "value": "Up to H:±25, V:+65,-65"
+  },
+  {
+   "label": "Keystone Correction",
+   "value": "+/- 40° manual horizontal / +/- 30° manual vertical"
+  },
+  {
+   "label": "Projection Factor",
+   "value": "depending on lens selection (std. option NP54ZL at 1.25-2.01:1)"
+  }
+ ],
  "acc": [
   "CMS0305",
   "CMS115",
   "SI-H L 300"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/projectors/installation-projectors/rp/a201u.xhtml",
+ "checked": "2026-10-19"
 }

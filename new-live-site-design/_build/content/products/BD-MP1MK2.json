@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "BD-MP1MK2",
  "d": "Professional-Grade Blu-ray Player With SD & USB Playback Media Player",
- "specs": []
+ "specs": [
+  {
+   "label": "Blu-ray",
+   "value": "BD25, BD50, BD-ROM, BD-R(SL,DL), BD-RE(SL,DL)"
+  },
+  {
+   "label": "DVD",
+   "value": "DVD-ROM, DVD-R (SL, DL), DVD-RW, DVD+R (SL, DL), DVD+RW"
+  },
+  {
+   "label": "CD",
+   "value": "CD-DA, CD-R, CD-RW"
+  },
+  {
+   "label": "Video",
+   "value": "ASF, MPG, AVI, 3GP, DAT, MKV, MOV, M2TS, OGM, TP, TS, MP4, WMV"
+  },
+  {
+   "label": "Audio",
+   "value": "WAV, MP3, WMA, AAC, FLAC, APE"
+  },
+  {
+   "label": "Picture",
+   "value": "JPEG, GIF, PNG"
+  },
+  {
+   "label": "Sampling frequency",
+   "value": "44.1k/ 48k/ 64k/ 88.2k/ 96k/176.4k/ 192k Hz"
+  },
+  {
+   "label": "Bit length",
+   "value": "16/24 bit"
+  },
+  {
+   "label": "MP3",
+   "value": "112k to 320k bps"
+  },
+  {
+   "label": "WMA",
+   "value": "48k to 192k bps"
+  },
+  {
+   "label": "Connector",
+   "value": "HDMI 19pin Type A"
+  },
+  {
+   "label": "Resolution",
+   "value": "480i/576i, 480p/576p, 720p, 1080i, 1080p"
+  }
+ ],
+ "src": "https://tascam.com/us/product/bd-mp1mkii/spec",
+ "checked": "2026-10-19"
 }

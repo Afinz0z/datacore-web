@@ -1,11 +1,62 @@
 {
  "sku": "iTrans B70S",
- "order": 1724,
+ "order": 1723,
  "n": "HDBaseT Extender-iTrans B70S",
  "b": "Infobit",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "HDBaseT Extenders - HDBaseT extenders (Tx and Rx), HDMI 18Gbps, 70m for 1080p, 40m for 4K/60Hz",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI Compliance",
+   "value": "HDMI 2.0b"
+  },
+  {
+   "label": "HDCP Compliance",
+   "value": "HDCP 2.2 and 1.4"
+  },
+  {
+   "label": "Video Bandwidth",
+   "value": "18Gbps"
+  },
+  {
+   "label": "Video Resolution",
+   "value": "Up to 4K@60Hz 4:4:4"
+  },
+  {
+   "label": "Color Space",
+   "value": "RGB, YCbCr 4:4:4, YCbCr 4:2:2"
+  },
+  {
+   "label": "Color Depth",
+   "value": "10/12bit"
+  },
+  {
+   "label": "Audio Formats",
+   "value": "HDMI: LPCM 2/5.1/7.1CH, Dolby Digital+, Dolby True HD, DTS 5.1, DTS-X, DTS-HD Master Audio, Dolby Atomos; Optical: LPCM 2CH, LPCM5.1, Dolby Digital 2/5.1CH, DTS 2/5.1CH"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "Human body model — ±8kV (Air-gap discharge) & ±4kV (Contact discharge)"
+  },
+  {
+   "label": "Transmission Distance",
+   "value": "70m: Up to 1080P; 40m: Up to 4K60 4:4:4"
+  },
+  {
+   "label": "Receiver",
+   "value": "Transmitter: ; 1 x HDBaseT OUT [RJ45, 8-pin female]; 1x IR OUTPUT (3.5mm stereo Mini-jack) Receiver:; 1 x IR OUT [3.5mm Stereo Mini-jack]; 1 x HDMI OUT [Type A, 19-pin female]"
+  },
+  {
+   "label": "Housing",
+   "value": "Metal Enclosure"
+  },
+  {
+   "label": "Color",
+   "value": "Black"
+  }
+ ],
+ "src": "https://www.infobitav.com/itrans-b70s/",
+ "checked": "2026-10-19"
 }

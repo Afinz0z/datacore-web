@@ -1,11 +1,62 @@
 {
  "sku": "iTrans DX-22-EUK",
- "order": 2447,
+ "order": 2445,
  "n": "Dante Audio Adapters wall plate",
  "b": "Infobit",
  "c": "Audio Wallplate",
  "dept": "AV",
  "avail": "lead",
  "d": "Dante Audio Adapters - Dante 2CH Wallplate EU/UK Version With PoE, XLR Port",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Bandwidth",
+   "value": "100M"
+  },
+  {
+   "label": "Control Method",
+   "value": "Dante® Controller"
+  },
+  {
+   "label": "Audio Latency",
+   "value": "Configurable Dante® device latency ; (Supports 1, 2, or 5ms configurable using Dante® Controller)"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "300 Ohm"
+  },
+  {
+   "label": "Output Level (Maximum)",
+   "value": "18dBu (Maximum)"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "20Hz to 20kHz (-/+0.5dB)"
+  },
+  {
+   "label": "Dynamic Range",
+   "value": "> 90dB@0dBu, 1kHzA-weighted"
+  },
+  {
+   "label": "Audio S/N Ratio",
+   "value": "> 90dB@0dBu, 1kHzA-weighted"
+  },
+  {
+   "label": "Audio THD+N",
+   "value": "< 0.015% at +4dBu, 1KHz"
+  },
+  {
+   "label": "Transmission Distance",
+   "value": "328ft/100m (CAT6/6A/7)"
+  },
+  {
+   "label": "ESD Protection",
+   "value": "IEC 61000-4-2:±4kV (Contact discharge), ±8kV (Air-gap discharge)"
+  },
+  {
+   "label": "Rear Panel",
+   "value": "1x DANTE [RJ45 connector, PoE] [Digital audio in/out, PCM 2CH 44.1K-96KHz 16/24Bit]; 1x DC/12V [2pin-3.5mm phoenix connector] [12VDC/ 500mA]"
+  }
+ ],
+ "src": "https://www.infobitav.com/itrans-dx-22-euk/",
+ "checked": "2026-10-19"
 }

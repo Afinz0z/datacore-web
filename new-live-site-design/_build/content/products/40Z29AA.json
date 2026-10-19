@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "27\" QHD IPS conferencing monitor with integrated 5 MP webcam, speakers, microphones, USB-C docking (65 W power delivery), and multiple connectivity options for professional office and video-conference environments.",
- "specs": []
+ "specs": [
+  {
+   "label": "Product color",
+   "value": "Black head, silver stand"
+  },
+  {
+   "label": "Display type",
+   "value": "IPS; LCD"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Resolution (maximum)",
+   "value": "QHD (2560 x 1440 @ 75 Hz)"
+  },
+  {
+   "label": "Integrated privacy filter",
+   "value": "No"
+  },
+  {
+   "label": "Flicker-free",
+   "value": "Yes"
+  },
+  {
+   "label": "Low blue light",
+   "value": "HP Eye Ease (TÜV Low Blue Light Hardware Solution certified)"
+  },
+  {
+   "label": "Resolution (native)",
+   "value": "QHD (2560 x 1440)"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "0.2331 mm x 0.2331 mm"
+  },
+  {
+   "label": "Brightness",
+   "value": "300 nits"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1000:1"
+  },
+  {
+   "label": "Response time",
+   "value": "5ms GtG (with overdrive)"
+  }
+ ],
+ "src": "https://www.hp.com/th-en/shop/hp-e27m-g4-qhd-usb-c-conferencing-monitor-40z29aa.html",
+ "checked": "2026-10-19"
 }

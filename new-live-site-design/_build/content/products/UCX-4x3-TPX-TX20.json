@@ -1,6 +1,6 @@
 {
  "sku": "UCX-4x3-TPX-TX20",
- "order": 1733,
+ "order": 1732,
  "n": "USB Type-C and HDMI Matrix Switcher Transmitter with LARA Control (UCX-4x3-TPX-TX20)",
  "b": "Lightware",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "UCX-4x3-TPX-TX20",
  "d": "USB Type-C and HDMI Matrix Switcher Transmitter with LARA Control",
- "specs": []
+ "specs": [
+  {
+   "label": "Electrical safety",
+   "value": "IEC 61000-3-3:2013+AMD1:2017"
+  },
+  {
+   "label": "EMC (emission)",
+   "value": "IEC/EN 55032:2015"
+  },
+  {
+   "label": "EMC (immunity)",
+   "value": "IEC/EN 55035:2017"
+  },
+  {
+   "label": "RoHS",
+   "value": "EN 63000:2018"
+  },
+  {
+   "label": "Cooling",
+   "value": "Cooling fan"
+  },
+  {
+   "label": "AC power plug",
+   "value": "Interchangeable (EU, UK, JP/US, AUS/NZ)"
+  },
+  {
+   "label": "Battery cell type",
+   "value": "BR1632A"
+  },
+  {
+   "label": "A/V standard",
+   "value": "DP 1.2a"
+  },
+  {
+   "label": "HDCP compliance",
+   "value": "HDCP 1.4, HDCP 2.2"
+  },
+  {
+   "label": "Color space",
+   "value": "RGB, YCbCr"
+  },
+  {
+   "label": "Video delay",
+   "value": "O frame"
+  },
+  {
+   "label": "Max. video resolution",
+   "value": "4096x2160@60Hz RGB 4:4:4 (up to 600MHz pixel clock);1920x1080@120 Hz, 36 bit"
+  }
+ ],
+ "src": "https://www.lightware.com/en/products/Extenders/ucx-4x3-tpx-tx20",
+ "checked": "2026-10-19"
 }

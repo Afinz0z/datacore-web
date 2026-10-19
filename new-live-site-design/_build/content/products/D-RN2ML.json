@@ -1,11 +1,62 @@
 {
  "sku": "D-RN2ML",
- "order": 1488,
+ "order": 1487,
  "n": "Dante Interface 2 x 2",
  "b": "RDL",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
  "d": "Wall-Mounted Bi-Directional Mic/Line Dante Interface 2x2",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Connector",
+   "value": "RJ45 with Link and Speed indicators"
+  },
+  {
+   "label": "Digital Audio Ethernet Protocol",
+   "value": "Dante or AES67"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "Reference Level",
+   "value": "0 dBFS = +22 dBu"
+  },
+  {
+   "label": "Input",
+   "value": "XLR (female)"
+  },
+  {
+   "label": "Gain",
+   "value": "Mic: 35 dB (LOW), 42 dB (MED), 59 dB (HIGH); Line: Unity (NORM), 12 dB (HIGH)"
+  },
+  {
+   "label": "Input Level (for +4 dBu/-18 dBFS)",
+   "value": "Mic: -31 dBu (LOW), -38 dBu (MED), -55 dBu (HIGH); Line: +4 dBu (LOW), -8 dBu (HIGH)"
+  },
+  {
+   "label": "Input Level (maximum)",
+   "value": "Mic: -14 dBu (LOW), -21 dBu (MED), -38 dBu (HIGH); Line: +23 dBu (LOW), +10 dBu (HIGH)"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "> 1.2 kΩ"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "P48, software-selectable"
+  },
+  {
+   "label": "Standard for Phantom",
+   "value": "IEC 61938: 2013"
+  },
+  {
+   "label": "Selectors per input",
+   "value": "Phantom, Gain, software-selectable"
+  }
+ ],
+ "src": "https://rdlnet.com/product/d-rn2ml/",
+ "checked": "2026-10-19"
 }

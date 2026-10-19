@@ -1,6 +1,6 @@
 {
  "sku": "CONVCMIC/SH03G",
- "order": 1946,
+ "order": 1945,
  "n": "Micro Converter BiDirectional SDI/HDMI 3G wPSU (CONVCMIC/SH03G)",
  "b": "Blackmagic Design",
  "c": "Converter",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "CONVCMIC/SH03G",
  "d": "Micro Converter BiDirectional SDI/HDMI 3G wPSU",
- "specs": []
+ "specs": [
+  {
+   "label": "SDI Video Inputs",
+   "value": "1 x SD, HD or 3G-SDI."
+  },
+  {
+   "label": "SDI Video Outputs",
+   "value": "Automatically matches the HDMI video input."
+  },
+  {
+   "label": "HDMI Video Inputs",
+   "value": "HDMI Type A in."
+  },
+  {
+   "label": "HDMI Outputs",
+   "value": "HDMI Type A out."
+  },
+  {
+   "label": "Updates, Configurations and Power",
+   "value": "USB Type‑C."
+  },
+  {
+   "label": "Reclocking",
+   "value": "Yes"
+  },
+  {
+   "label": "SDI Video Standards",
+   "value": "525i59.94 NTSC, 625i50 PAL"
+  },
+  {
+   "label": "SDI Compliance",
+   "value": "SMPTE 259M, SMPTE 292M, SMPTE 296M, SMPTE 424M, SMPTE 425M"
+  },
+  {
+   "label": "SDI Video Rates",
+   "value": "SDI video connections are automatically switchable between standard definition and high definition, and user selectable for level A or B via setup utility."
+  },
+  {
+   "label": "SDI Color Precision",
+   "value": "4:2:2"
+  },
+  {
+   "label": "SDI Color Space",
+   "value": "YUV"
+  },
+  {
+   "label": "SDI Auto Switching",
+   "value": "Automatically detects SD, HD and 3G-SDI"
+  }
+ ],
+ "src": "https://www.blackmagicdesign.com/products/microconverters/techspecs/W-CONU-10",
+ "checked": "2026-10-19"
 }

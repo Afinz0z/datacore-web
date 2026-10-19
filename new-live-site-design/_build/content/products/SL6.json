@@ -1,10 +1,33 @@
 {
  "sku": "SL6",
- "order": 2790,
+ "order": 2788,
  "n": "Scissor Lift for Projector, 220V",
  "b": "Draper",
  "c": "Projector Lift",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Max. Lowering Distance",
+   "value": "6’"
+  },
+  {
+   "label": "Retracted Height",
+   "value": "10\""
+  },
+  {
+   "label": "Lift Capacity (lbs.)",
+   "value": "125"
+  },
+  {
+   "label": "Net Weight (lbs.)",
+   "value": "96"
+  },
+  {
+   "label": "Shipping Weight (lbs.)",
+   "value": "123"
+  }
+ ],
+ "src": "https://www.draperinc.com/liftsmounts/productdetail/258/scissor-lift-sl",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "DS-VW795-QR",
- "order": 2707,
+ "order": 2705,
  "n": "Full Service Video Wall Mount with Quick Release For 65\" to 98\" (DS-VW795-QR)",
  "b": "Peerless",
  "c": "Mount",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "DS-VW795-QR",
  "d": "Peerless-AV® Full Service Video Wall Mount with Quick Release For 65\" to 98\" Displays",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "102.06 kg"
+  },
+  {
+   "label": "Minimum Adjustable Depth",
+   "value": "9.14 cm (3.60\")"
+  },
+  {
+   "label": "Maximum Adjustable Depth",
+   "value": "11.18 cm (4.40\")"
+  },
+  {
+   "label": "Features",
+   "value": "Adjustable"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Powder Coated"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "600 x 600"
+  },
+  {
+   "label": "Minimum Mounting Pattern",
+   "value": "100 x 100"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Wall Mountable"
+  },
+  {
+   "label": "Height",
+   "value": "70.05 cm (27.58\")"
+  },
+  {
+   "label": "Indoor/Outdoor",
+   "value": "Indoor"
+  }
+ ],
  "for": [
   "86UH7Q-E"
- ]
+ ],
+ "src": "https://eu.peerless-av.com/products/DS-VW795-QR",
+ "checked": "2026-10-19"
 }

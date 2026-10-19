@@ -8,5 +8,32 @@
  "avail": "lead",
  "model": "ET-D3LEW600",
  "d": "Zoom Lens for 3-Chip DLP Projectors",
- "specs": []
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Zoom lens"
+  },
+  {
+   "label": "F-number",
+   "value": "2.5"
+  },
+  {
+   "label": "Focal length (f)",
+   "value": "19.8-27.5 mm"
+  },
+  {
+   "label": "Throw ratio WUXGA",
+   "value": "0.924-1.28:1(RQ35K2/RQ35K/RZ34K2/RZ34K/RQ25K/RZ24K/RQ18K/RZ17K/RZ16K) 1.12-1.55:1(RQ25K/RZ24K/RQ18K/RZ17K/RZ14K)"
+  },
+  {
+   "label": "Dimensions(WxHxD)",
+   "value": "180 × 168 × 376 mm (7-3/32 × 6-20/32 × 14-13/16\")"
+  },
+  {
+   "label": "Weight [kg]",
+   "value": "Approx 7.6 kg (16.12 lbs)"
+  }
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/products/projectors/et-d3lew600",
+ "checked": "2026-10-19"
 }

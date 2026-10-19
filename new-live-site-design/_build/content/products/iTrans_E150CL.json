@@ -1,11 +1,62 @@
 {
  "sku": "iTrans E150CL",
- "order": 1723,
+ "order": 1722,
  "n": "HDBaseT Extender 150m",
  "b": "Infobit",
  "c": "Extenders",
  "dept": "AV",
  "avail": "lead",
  "d": "iTrans E150CL - HDBaseT Extenders - HDMI over HDBaseT extenders (Tx and Rx), 150m for 1080p. Loopout, Tx and Rx sold in pair.",
- "specs": []
+ "specs": [
+  {
+   "label": "Distance",
+   "value": "1080P/60Hz 150m"
+  },
+  {
+   "label": "Must be used in pair",
+   "value": "Yes"
+  },
+  {
+   "label": "Loopout",
+   "value": "Yes"
+  },
+  {
+   "label": "De-embeded audio",
+   "value": "No"
+  },
+  {
+   "label": "HDR",
+   "value": "No"
+  },
+  {
+   "label": "HDMI",
+   "value": "HDMI 1.4, 10.2Gpbs"
+  },
+  {
+   "label": "HDCP",
+   "value": "HDCP 1.4"
+  },
+  {
+   "label": "POC (Power Over Cable)",
+   "value": "Yes"
+  },
+  {
+   "label": "Bi-directional IR and RS232",
+   "value": "Yes"
+  },
+  {
+   "label": "Transmitter I/O",
+   "value": "Input: 1x HDMI Type A, 19-pin female; Output: 1x HDBaseT Out, RJ45;; 1x HDMI Type A, 19-pin female (loopout);; Control: 1x IR In (3.5mm Stereo Mini-jack);; 1x IR Out (3.5mm Stereo Mini-jack);; 1x RS232 (Phoenix jack)"
+  },
+  {
+   "label": "Receiver I/O",
+   "value": "Input: 1x HDBaseT Input, RJ45; Output: 1x HDMI Type A [19-pin female]; Control: 1x IR INPUT (3.5mm Stereo Mini-jack):; 1x IR Out (3.5mm Stereo Mini-jack);; 1x RS232 (Phoenix jack)"
+  },
+  {
+   "label": "Net Dimensions",
+   "value": "WHD: 140mm x 18mm x 65mm"
+  }
+ ],
+ "src": "https://www.infobitav.com/itrans-e150cl/",
+ "checked": "2026-10-19"
 }

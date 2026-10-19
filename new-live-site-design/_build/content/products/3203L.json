@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "3203L",
  "d": "Elo 3204L 32-inch Interactive Touchscreen Display - PCAP 40-Touch, FHD 1920x1080, USB-C, VESA 400x400",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure Color",
+   "value": "Black"
+  },
+  {
+   "label": "Touch Technology & Capacity",
+   "value": "PCAP (TouchPro® Projected Capacitive) - 40 Touch with Palm Rejection and Touch Thru capability"
+  },
+  {
+   "label": "Touch Thru",
+   "value": "Supports up to 6mm glass/3mm plastic with up to 2 touches. Supports gloves up to 1.4mm"
+  },
+  {
+   "label": "Touch Interfaces",
+   "value": "USB-C"
+  },
+  {
+   "label": "Diagonal Size",
+   "value": "31.5'' diagonal, Active matrix TFT LCD (LED)"
+  },
+  {
+   "label": "Active Area",
+   "value": "27.5\" x 15.47\" / 698.4mm x 392.9mm"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Resolution",
+   "value": "1920 x 1080 @ 60hz"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "Horizontal: ±89° or 178° total / Vertical: ±89° or 178° total"
+  },
+  {
+   "label": "Number of Colors",
+   "value": "8-bit (16.7 million)"
+  },
+  {
+   "label": "Brightness (typical)",
+   "value": "LCD Panel: 500 nits ; PCAP: 430 nits"
+  },
+  {
+   "label": "Response Time-total (typical)",
+   "value": "8 msec"
+  }
+ ],
+ "src": "https://www.elotouch.com/touchscreen-signage-3203l.html",
+ "checked": "2026-10-19"
 }

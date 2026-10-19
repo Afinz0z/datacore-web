@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LH860ST",
  "d": "5000lms DLP Laser Simulation Projector",
- "specs": []
+ "specs": [
+  {
+   "label": "Brightness (ANSI lumens)",
+   "value": "5000"
+  },
+  {
+   "label": "Resolution",
+   "value": "1080P (1920x1080)"
+  },
+  {
+   "label": "Native Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Contrast Ratio (FOFO)",
+   "value": "3,000,000:1"
+  },
+  {
+   "label": "Display Color",
+   "value": "30-bit (1.07 billion colors)"
+  },
+  {
+   "label": "Light Source",
+   "value": "Laser"
+  },
+  {
+   "label": "Light Source Life",
+   "value": "a. Normal 20000 hrs, b. ECO 30000 hrs"
+  },
+  {
+   "label": "Screen Fill",
+   "value": "16:9/16:10/4:3/1:1/21:9/5:4"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "T/R 0.5"
+  },
+  {
+   "label": "Zoom Ratio",
+   "value": "Fixed"
+  },
+  {
+   "label": "Lens",
+   "value": "F 2.0, f=5.28 mm"
+  },
+  {
+   "label": "Projection Offset (Full-Height)",
+   "value": "105%"
+  }
+ ],
+ "src": "https://www.benq.com/en-me/business/projector/lh860st.html",
+ "checked": "2026-10-19"
 }

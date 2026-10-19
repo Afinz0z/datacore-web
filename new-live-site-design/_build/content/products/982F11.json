@@ -1,15 +1,66 @@
 {
  "sku": "982F11",
- "order": 4308,
+ "order": 4306,
  "n": "PROFIL930 HM NTP POE CHIFF BL",
  "b": "Bodet",
  "c": "Master Clock",
  "dept": "AV",
  "avail": "lead",
  "d": "PROFIL930 HM NTP POE CHIFF BL Indoor analog clock, 30cm dial, Hour-Minute hands, Single-sided, White casing, Arabic figures, NTP supervised PoE",
- "specs": [],
+ "specs": [
+  {
+   "label": "Diameter",
+   "value": "32 cm"
+  },
+  {
+   "label": "Display mode",
+   "value": "12 hour"
+  },
+  {
+   "label": "Optimal viewing distance",
+   "value": "30 m"
+  },
+  {
+   "label": "Use",
+   "value": "Indoor"
+  },
+  {
+   "label": "Time distribution",
+   "value": "DHF, NTP/Eth, NTP/Wi-Fi, AFNOR, pulse, independent, ALS Radio, DCF Radio"
+  },
+  {
+   "label": "Waterproof",
+   "value": "No"
+  },
+  {
+   "label": "Recess-mountable",
+   "value": "No"
+  },
+  {
+   "label": "Time change",
+   "value": "Yes (except independent synchronisation)"
+  },
+  {
+   "label": "Wall mounting",
+   "value": "Yes"
+  },
+  {
+   "label": "Ceiling mounting",
+   "value": "As an option"
+  },
+  {
+   "label": "Mast mounting",
+   "value": "As an option"
+  },
+  {
+   "label": "Reading angle",
+   "value": "160°"
+  }
+ ],
  "acc": [
   "927224",
   "981001"
- ]
+ ],
+ "src": "https://www.bodet-time.com/products/clocks/analogue-clocks/profil-930-indoor.html",
+ "checked": "2026-10-19"
 }

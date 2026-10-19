@@ -1,11 +1,34 @@
 {
  "sku": "L006160",
- "order": 4345,
+ "order": 4343,
  "n": "Tornado Pro",
  "b": "FOS",
  "c": "Light",
  "dept": "AV",
  "avail": "lead",
  "d": "FOS Tornado Pro - Innovative multi-use IP65 for outdoor and indoor applications strobe, total 24 pixels full controllable, 8 blinding pixels by 96 leds cool white 5 watt and 16 color paint pixels by 672 leds 0.3 watt RGB SMD, Beam angle: 120°, DMX channels: 12/59ch, weatherproof IP65 XLR and PowerCON Seetronic connectors, OLED display, 9.5 kg",
- "specs": []
+ "specs": [
+  {
+   "label": "Signal Connectors",
+   "value": "SeeTronic 3 pin input and output XLR IP65"
+  },
+  {
+   "label": "Power Connectors",
+   "value": "See Tronic PowerCon input and output IP65"
+  },
+  {
+   "label": "Power Supply",
+   "value": "100/240 Volt AC, 50/60 Hz"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "400 Watt max"
+  },
+  {
+   "label": "Dimensions",
+   "value": "546 x 257 x 132 mm"
+  }
+ ],
+ "src": "https://www.fos-lighting.eu/fos-tornado-pro-p-1370.html",
+ "checked": "2026-10-19"
 }

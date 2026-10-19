@@ -1,6 +1,6 @@
 {
  "sku": "91540066",
- "order": 1726,
+ "order": 1725,
  "n": "HDMI1.4 + Ethernet + RS-232 + bidirectional IR HDBaseT receiver (HDMI-TPS-RX96)",
  "b": "Lightware",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HDMI-TPS-RX96",
  "d": "HDMI-TPS-RX96 - HDMI1.4 + Ethernet + RS-232 + bidirectional IR HDBaseT receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Data rate",
+   "value": "3.4 Gbps per color"
+  },
+  {
+   "label": "Resolution",
+   "value": "All HDMI 1.4a resolutions supported"
+  },
+  {
+   "label": "Equalization",
+   "value": "Adaptive, automatic"
+  },
+  {
+   "label": "HDCP pass through",
+   "value": "Yes"
+  },
+  {
+   "label": "Ethernet pass-through",
+   "value": "Yes"
+  },
+  {
+   "label": "RS-232 pass through",
+   "value": "Yes"
+  },
+  {
+   "label": "IR pass through",
+   "value": "Yes"
+  },
+  {
+   "label": "Power",
+   "value": "Universal power adaptor, DC 12 V 2.5 A"
+  },
+  {
+   "label": "Overall signal delay",
+   "value": "10µs (including 100m CATx cable)"
+  },
+  {
+   "label": "Enclosure",
+   "value": "1 mm metal"
+  },
+  {
+   "label": "Compliance",
+   "value": "CE"
+  },
+  {
+   "label": "TX input, RX output",
+   "value": "HDMI connector"
+  }
+ ],
+ "src": "https://www.lightware.com/en/products/Extenders/hdmi-tps-rx96",
+ "checked": "2026-10-19"
 }

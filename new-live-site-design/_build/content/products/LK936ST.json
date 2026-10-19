@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "LK936ST",
  "d": "4K Short-Throw BlueCore Laser Projector",
- "specs": []
+ "specs": [
+  {
+   "label": "Brightness (ANSI lumens)",
+   "value": "5100"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K UHD (3840×2160)"
+  },
+  {
+   "label": "Native Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Contrast Ratio (FOFO)",
+   "value": "3,000,000:1"
+  },
+  {
+   "label": "Display Color",
+   "value": "30-bit (1.07 billion colors)"
+  },
+  {
+   "label": "Light Source",
+   "value": "Laser"
+  },
+  {
+   "label": "Light Source Life",
+   "value": "a. Normal 20000 hrs"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "0.81 ~0.89"
+  },
+  {
+   "label": "Zoom Ratio",
+   "value": "1.1x"
+  },
+  {
+   "label": "Lens",
+   "value": "F/# =1.83 ~ 1.86 f= 8.6 ~ 9.4"
+  },
+  {
+   "label": "Projection Offset (Full-Height)",
+   "value": "0%"
+  },
+  {
+   "label": "Keystone Adjustment",
+   "value": "3D, Vertical ± 40 degrees; Horizontal ± 40 degrees; Rotation ± 40 degrees"
+  }
+ ],
+ "src": "https://www.benq.com/en-me/projector/golf/lk936st.html",
+ "checked": "2026-10-19"
 }

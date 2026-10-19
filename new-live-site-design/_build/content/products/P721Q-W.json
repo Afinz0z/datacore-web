@@ -7,8 +7,59 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NEC Semi-Professional Projector, 4KUHD, 7200lm, DLP, Laser, 1.6x Motorized Zoom, lens-Shift",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection Technology",
+   "value": "1-chip DLP™ Technology"
+  },
+  {
+   "label": "Panel Resolution",
+   "value": "1920 x 1080 (FHD)"
+  },
+  {
+   "label": "Resolution",
+   "value": "3840 x 2160 (4K UHD)"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "3000000:1"
+  },
+  {
+   "label": "Brightness",
+   "value": "7200 Lumen (approx. 60% in Eco Mode); compliant with ISO21118-2020"
+  },
+  {
+   "label": "Lamp",
+   "value": "Laser Light Source"
+  },
+  {
+   "label": "Light Source Life [hrs]",
+   "value": "20000"
+  },
+  {
+   "label": "Lens",
+   "value": "F= 2–2.4, f= 18.72–29.59 mm"
+  },
+  {
+   "label": "Lense Adjustment",
+   "value": "Motorized"
+  },
+  {
+   "label": "Lens shift",
+   "value": "H:±25, V:+55,-55"
+  },
+  {
+   "label": "Keystone Correction",
+   "value": "+/- 40° manual horizontal / +/- 40° manual vertical"
+  }
+ ],
  "acc": [
   "SI-H L 300"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/projectors/professional-projectors/rp/p721q.xhtml",
+ "checked": "2026-10-19"
 }

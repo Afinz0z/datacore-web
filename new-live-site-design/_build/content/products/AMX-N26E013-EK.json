@@ -1,6 +1,6 @@
 {
  "sku": "AMX-N26E013-EK",
- "order": 1861,
+ "order": 1860,
  "n": "NMX-ENC-N2615D-WP 4K60 MWC/Dante AV-A Encoder Wallplate UK/EU (NMX-ENC-N2615D-WP-EK)",
  "b": "AMX",
  "c": "Wall Plate / Extenders",
@@ -8,5 +8,44 @@
  "avail": "lead",
  "model": "NMX-ENC-N2615D-WP-EK",
  "d": "NMX-ENC-N2615D-WP 4K60 MWC/Dante AV-A Encoder Wallplate UK/EU",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Inputs",
+   "value": "HDMI, USB-C"
+  },
+  {
+   "label": "Video Outputs",
+   "value": "Network video over Ethernet via RJ45 port"
+  },
+  {
+   "label": "Audio Inputs",
+   "value": "Embedded audio on HDMI, USB-C or Analog Stereo (Unbalanced)"
+  },
+  {
+   "label": "Audio Outputs",
+   "value": "Network PCM or Dante audio over Ethernet via RJ45"
+  },
+  {
+   "label": "Ports",
+   "value": "USB Type C Socket, HDMI Type A Socket, 3.5mm stereo audio port, Gigabit Ethernet port with PoE support (rear)"
+  },
+  {
+   "label": "Environmental",
+   "value": "Temperature - 32° to 104°F (0° to 40°C); Humidity - 10% to 90% RH (non-condensing); Heat Dissipation - Up to ~44 BTU/hr"
+  },
+  {
+   "label": "JITC Status",
+   "value": "Approved - 03/2025"
+  },
+  {
+   "label": "Dimensions (H x W x D)",
+   "value": "AMX-N26E013: 4.2” x 5.2” x 2.3” (106.68mm x 132.08mm x 58.42mm); AMX-N26E013-EK: 2.8“ x 8.3“ x 2“ (71.12mm x 210.82mm x 50.8mm)"
+  },
+  {
+   "label": "Product Weight",
+   "value": "AMX-N26E013: 0.92 lbs (0.42 kg); AMX-N26E013-EK: 0.77 lbs (0.35 kg)"
+  }
+ ],
+ "src": "https://www.amx.com/en/products/nmx-enc-n2615d-wp",
+ "checked": "2026-10-19"
 }

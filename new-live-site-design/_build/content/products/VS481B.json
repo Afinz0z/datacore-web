@@ -1,6 +1,6 @@
 {
  "sku": "VS481B",
- "order": 1746,
+ "order": 1745,
  "n": "4-Port 4K HDMI Switch (VS481B)",
  "b": "ATEN",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "VS481B",
  "d": "4-Port 4K HDMI Switch",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Input Interfaces",
+   "value": "4 x HDMI Type A Female (Black)"
+  },
+  {
+   "label": "Video Input Impedance",
+   "value": "100 Ω"
+  },
+  {
+   "label": "Video Input Max. Distance",
+   "value": "3m @3840x2160@30 (4:4:4)"
+  },
+  {
+   "label": "Video Output Interfaces",
+   "value": "1 x HDMI Type A Female (Black)"
+  },
+  {
+   "label": "Video Output Impedance",
+   "value": "100 Ω"
+  },
+  {
+   "label": "Video Output Max. Distance",
+   "value": "15m @3840x2160@30 (4:4:4)"
+  },
+  {
+   "label": "Video Max. Data Rate",
+   "value": "10.2 Gbps (3.4 Gbps per lane)"
+  },
+  {
+   "label": "Max. Pixel Clock",
+   "value": "340 MHz"
+  },
+  {
+   "label": "Video Compliance",
+   "value": "HDMI (3D, Deep Color, 4K) ; HDCP Compatible ; Consumer Electronics Control (CEC)"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "Up to 4096 x 2160 / 3840 x 2160 @ 60Hz (4:2:0)"
+  },
+  {
+   "label": "Control RS-232",
+   "value": "Connector: 1 x DB-9 Female (Black); Baud Rate and Protocol: ; Baud Rate: 19200, Data Bits: 8, Stop Bits:1, Parity: No, Flow Control: No"
+  },
+  {
+   "label": "Control IR",
+   "value": "1 x Mini Stereo Jack Female (Black)"
+  }
+ ],
+ "src": "https://www.aten.com/global/en/products/professional-audiovideo/video-switches/vs481b/",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "151.413",
- "order": 4347,
+ "order": 4345,
  "n": "Half Coupler Sl100kg Black (BC50B-100)",
  "b": "beamZ",
  "c": "Lighting Accessories",
@@ -8,5 +8,48 @@
  "avail": "lead",
  "model": "BC50B-100",
  "d": "BC50B-100 Half Coupler Sl100kg Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Black"
+  },
+  {
+   "label": "D1 (1mm)",
+   "value": "68mm"
+  },
+  {
+   "label": "D2 (1mm)",
+   "value": "48 - 51mm"
+  },
+  {
+   "label": "D3 (1mm)",
+   "value": "10mm"
+  },
+  {
+   "label": "D4 (1mm)",
+   "value": "38mm"
+  },
+  {
+   "label": "W (1mm)",
+   "value": "30mm"
+  },
+  {
+   "label": "Threaded Bolt",
+   "value": "M10"
+  },
+  {
+   "label": "Material",
+   "value": "Aluminum"
+  },
+  {
+   "label": "Max. weight load per piece",
+   "value": "100kg"
+  },
+  {
+   "label": "Weight (kg)",
+   "value": "0.1500"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/bc50b-100-half-coupler-slimline-100kg-black/",
+ "checked": "2026-10-19"
 }

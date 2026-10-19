@@ -1,11 +1,62 @@
 {
  "sku": "VP2021",
- "order": 539,
+ "order": 538,
  "n": "4K Wireless Presentation",
  "b": "ATEN",
  "c": "Wireless content sharing",
  "dept": "AV",
  "avail": "lead",
  "d": "4K Wireless Presentation Switch with Quad View",
- "specs": []
+ "specs": [
+  {
+   "label": "Video Output Interfaces",
+   "value": "1 x HDMI Type A female (Black); 1 x VGA (HDB-15) Female"
+  },
+  {
+   "label": "Video Output Max. Distance",
+   "value": "HDMI: Up to 5m; VGA: Up to 15m"
+  },
+  {
+   "label": "Max. Resolution",
+   "value": "HDMI: Up to 4K@30Hz; VGA: Up to 1080p"
+  },
+  {
+   "label": "Audio Output",
+   "value": "Stereo Audio: 1 x mini stereo Jack female (Black)"
+  },
+  {
+   "label": "Network Transfer Speed",
+   "value": "10/100/1000 Mbps RJ 45 LAN ( Support PoE)"
+  },
+  {
+   "label": "Authentication Protocol",
+   "value": "AP mode: WPA2-PSK; Station mode: WEP, WPA, WPA2, 802.1x EAP"
+  },
+  {
+   "label": "Wireless Transmission Protocol",
+   "value": "IEEE 802.11ac"
+  },
+  {
+   "label": "Wireless Frequency Band",
+   "value": "Switchable dual band 2.4GHz and 5GHz (DFS channels not supported)"
+  },
+  {
+   "label": "Wireless Reach",
+   "value": "20m Transmission in 5GHz; 30m Transmission in 2.4GHz"
+  },
+  {
+   "label": "Connectors Console Ports",
+   "value": "USB 3.0: 1 x USB Type A Female (Blue); USB 2.0: 1 x USB Type A Female; USB-C: 1 x USB Type C Female"
+  },
+  {
+   "label": "Connectors Power",
+   "value": "1 x DC Jack (Black)"
+  },
+  {
+   "label": "Switches Power",
+   "value": "1 x Pushbutton (LED: Blue)"
+  }
+ ],
+ "src": "https://www.aten.com/global/en/products/professional-audiovideo/presentation-switches/vp2021/",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "VARIA-100",
- "order": 1368,
+ "order": 1367,
  "n": "10.1” Professional-Grade, Persona-Defined Touch Panel",
  "b": "AMX",
  "c": "Touch Panel Controllers",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "Touch Panel",
  "d": "10.1” Professional-Grade, Persona-Defined Touch Panel",
- "specs": []
+ "specs": [
+  {
+   "label": "SKU Numbers",
+   "value": "AMX-UTP1011"
+  },
+  {
+   "label": "Display Size",
+   "value": "10.1” Diagonal"
+  },
+  {
+   "label": "Resolution",
+   "value": "1920x1200"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10 landscape"
+  },
+  {
+   "label": "Speakers",
+   "value": "2 x 2W"
+  },
+  {
+   "label": "Microphone",
+   "value": "Dual"
+  },
+  {
+   "label": "Camera",
+   "value": "5MP front-facing, with Fixed Focusing Lens"
+  },
+  {
+   "label": "NFC",
+   "value": "Yes, Supports Read & Write"
+  },
+  {
+   "label": "Ambient Light Sensor",
+   "value": "Yes, Supports Adaptive Brightness"
+  },
+  {
+   "label": "Proximity Sensor",
+   "value": "Yes, Supports Wake on Approach"
+  },
+  {
+   "label": "Power",
+   "value": "RJ-45, POE 802.3af, 15.4W"
+  },
+  {
+   "label": "Product Dimensions (H x W x D)",
+   "value": "6 7⁄8” x 9 9⁄16” x 13⁄16” ; (173.9 mm x 242.88 mm x 20.5 mm)"
+  }
+ ],
+ "src": "https://www.amx.com/en/products/varia-100",
+ "checked": "2026-10-19"
 }

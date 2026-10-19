@@ -8,8 +8,51 @@
  "avail": "lead",
  "model": "G lens (1.22 - 1.53 : 1)",
  "d": "G lens (1.22 - 1.53 : 1) Standard Throw",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "G LENS (1.22 - 1.53 : 1)"
+  },
+  {
+   "label": "Working F/#",
+   "value": "2.00 (wide) - 2.30 (tele)"
+  },
+  {
+   "label": "Zoom ratio",
+   "value": "1.25x"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "1.22 - 1.53 : 1"
+  },
+  {
+   "label": "Focal length",
+   "value": "18.2 - 22.6 mm"
+  },
+  {
+   "label": "Focus Range",
+   "value": "50” – 300” (Full optical performance)"
+  },
+  {
+   "label": "Throw distance",
+   "value": "1.30 - 9.93 m"
+  },
+  {
+   "label": "Motorized Zoom",
+   "value": "Yes"
+  },
+  {
+   "label": "Motorized Focus",
+   "value": "Yes"
+  },
+  {
+   "label": "Weight",
+   "value": "0.92 kg"
+  }
+ ],
  "for": [
   "G50-W6"
- ]
+ ],
+ "src": "https://www.barco.com/en/product/copy-of-g-lens-122-153",
+ "checked": "2026-10-19"
 }

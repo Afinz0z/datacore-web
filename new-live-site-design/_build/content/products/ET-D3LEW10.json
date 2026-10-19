@@ -8,5 +8,40 @@
  "avail": "lead",
  "model": "ET-D3LEW10",
  "d": "3-Chip DLP™ Projector Zoom Lens",
- "specs": []
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Zoom lens"
+  },
+  {
+   "label": "F-number",
+   "value": "2.5"
+  },
+  {
+   "label": "Focal length (f)",
+   "value": "26.6– 36.4 mm"
+  },
+  {
+   "label": "Throw ratio WUXGA",
+   "value": "1.26-1.72:1(RQ35K2/RQ35K/RZ34K2/RZ34K/RQ25K/RZ24K/RQ18K/RZ17K/RZ16K) 1.52-2.07:1(RQ25K/RZ24K/RQ18K/RZ17K/RZ14K)"
+  },
+  {
+   "label": "Throw ratio SXGA+",
+   "value": "1.37–1.86:1"
+  },
+  {
+   "label": "Throw Ratio",
+   "value": "4K+ (1.35-1.84:1), 4K / WUXGA (1.26-1.72:1), 4K / WUXGA (1.52-2.07:1)(PT-RQ25K Series)"
+  },
+  {
+   "label": "Dimensions(WxHxD)",
+   "value": "154 × 154 × 354 mm (6-1/16 × 6-1/16 × 13-15/16\")"
+  },
+  {
+   "label": "Weight [kg]",
+   "value": "Approx 6.2 kg (13.7 lbs)"
+  }
+ ],
+ "src": "https://eu.connect.panasonic.com/gb/en/projectors/et-d3lew10",
+ "checked": "2026-10-19"
 }

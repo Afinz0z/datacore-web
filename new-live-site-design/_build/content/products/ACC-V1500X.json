@@ -1,11 +1,62 @@
 {
  "sku": "ACC-V1500X",
- "order": 5125,
+ "order": 5123,
  "n": "Adaptor Accessory",
  "b": "Peerless",
  "c": "Accessories",
  "dept": "AV",
  "avail": "lead",
  "d": "Adaptor Accessory for 1500 and 1200mm Wide.",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "102.06 kg"
+  },
+  {
+   "label": "Features",
+   "value": "Extendable"
+  },
+  {
+   "label": "Orientation",
+   "value": "Landscape/Portrait"
+  },
+  {
+   "label": "Mount Function",
+   "value": "Extendable"
+  },
+  {
+   "label": "Mount Surface",
+   "value": "Wall"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Powder Coated"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "1000 x 200"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Wall Mountable"
+  },
+  {
+   "label": "Height",
+   "value": "3.81 cm (1.50\")"
+  },
+  {
+   "label": "Application/Usage",
+   "value": "Cart"
+  }
+ ],
+ "src": "https://eu.peerless-av.com/products/ACC-V1500X",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "RA32S-DAP-RAS",
- "order": 4562,
+ "order": 4560,
  "n": "Room Alert 32S Foundation",
  "b": "AVTECH",
  "c": "Room Alert & Monitoring System",
@@ -9,13 +9,59 @@
  "d": "Room Alert 32S Foundation - with2 Sensors, PoE,PRO (1U)",
  "specs": [
   {
-   "label": "Type",
-   "value": "Room Alert & Monitoring System Headend Unit"
+   "label": "Condition monitored",
+   "value": "Indoor ambient temperature"
+  },
+  {
+   "label": "Internal power sensor condition monitored",
+   "value": "Power status of the Room Alert 32S"
+  },
+  {
+   "label": "Internal power sensor type",
+   "value": "Switch"
+  },
+  {
+   "label": "Internal power sensor range",
+   "value": "Open/Closed"
+  },
+  {
+   "label": "Internal power sensor readings",
+   "value": "“Battery power”/”Main power”"
+  },
+  {
+   "label": "Power & connectivity ports",
+   "value": "1 5V barrel-connector power jack; 1 RJ-45 Ethernet port (PoE-enabled)"
+  },
+  {
+   "label": "Height",
+   "value": "1.75\" (4.45 cm)"
+  },
+  {
+   "label": "Depth",
+   "value": "3.75\" (9.53 cm)"
+  },
+  {
+   "label": "Internal temperature sensor type",
+   "value": "Digital"
+  },
+  {
+   "label": "Internal temperature sensor range",
+   "value": "-40 to 185°F (-40 to 85°C)"
+  },
+  {
+   "label": "Internal temperature sensor accuracy",
+   "value": "+/- 2°C"
+  },
+  {
+   "label": "Internal temperature sensor resolution",
+   "value": "0.03125°C"
   }
  ],
  "acc": [
   "RMA-DTH-SEN",
   "RMA-F024-SEN",
   "RMA-SS2-SEN"
- ]
+ ],
+ "src": "https://avtech.com/Products/Room_Alert_PRO/Room_Alert_32S/Foundation.htm",
+ "checked": "2026-10-19"
 }

@@ -7,11 +7,62 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MODEL XP-V731U-B, Installation Projector, WUXGA, 7300Lm, LCD, Laser Light Source, black cabinet",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection Technology",
+   "value": "3LCD Technology"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "1920 x 1200 (WUXGA)"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "3000000:1"
+  },
+  {
+   "label": "Brightness",
+   "value": "7300 Lm Normal / 7600 Lm Center / 6600 Lm Silent Mode; compliant with ISO21118-2020"
+  },
+  {
+   "label": "Lamp",
+   "value": "Laser Light Source"
+  },
+  {
+   "label": "Light Source Life [hrs]",
+   "value": "20000"
+  },
+  {
+   "label": "Lens",
+   "value": "5 motorized lens options"
+  },
+  {
+   "label": "Lense Adjustment",
+   "value": "Motorized"
+  },
+  {
+   "label": "Lens shift",
+   "value": "H:±20, V:+50,-10"
+  },
+  {
+   "label": "Keystone Correction",
+   "value": "+/- 30° manual horizontal / +/- 30° manual vertical"
+  },
+  {
+   "label": "Projection Factor",
+   "value": "depending on lens selection (std. option XP-41ZL at 1.3-3.02:1)"
+  }
+ ],
  "acc": [
   "NP40ZL",
   "NP41ZL",
   "NP44ML-PA4",
   "NP50ZL"
- ]
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/projectors/installation-projectors/rp/v731u.xhtml",
+ "checked": "2026-10-19"
 }

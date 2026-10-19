@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "EC20",
  "d": "EC20 4K PTZ Camera designed for lecture capture",
- "specs": []
+ "specs": [
+  {
+   "label": "Video sensor",
+   "value": "1/1.8 inches, CMOS, effective pixels: 8.42 Megapixels"
+  },
+  {
+   "label": "Lens",
+   "value": "20x, f = 6.25mm ~ 125mm, F1.58 ~ F3.95"
+  },
+  {
+   "label": "Minimum illumination (Lux)",
+   "value": "0.5 Lux @ (F1.8, AGC ON)"
+  },
+  {
+   "label": "Field of view",
+   "value": "Horizontal: 60° ~ 3.5°; Vertical: 35.7° ~ 2.0°"
+  },
+  {
+   "label": "Shutter",
+   "value": "1/30s ~ 1/10000s"
+  },
+  {
+   "label": "White balance",
+   "value": "Auto, Indoor, Outdoor, One push, Manual, VAR"
+  },
+  {
+   "label": "Signal to noise ratio (SNR)",
+   "value": "≥55 dB"
+  },
+  {
+   "label": "HDMI",
+   "value": "3840×2160p @ 60, 59.94, 50, 30, 29.97, 25;; 1920×1080p @ 60, 59.94, 50, 30, 29.97, 25;; 1920×1080i @ 60, 59.94, 50;; 1280×720p @ 60, 59.94, 50"
+  },
+  {
+   "label": "SDI",
+   "value": "1920×1080p @ 60, 59.94, 50, 30, 29.97, 25;; 1920×1080i @ 60, 59.94, 50;; 1280×720p @ 60, 50"
+  },
+  {
+   "label": "USB",
+   "value": "YUY2: Max 1920×1080p @ 30 (USB3.0);; YUY2: Max 1920×1080p @ 5 (USB2.0);; H.264: Max 3840×2160p @ 30;; H.265 HEVC: Max 3840×2160p @ 30;; MJPEG: Max 3840×2160p @ 30"
+  },
+  {
+   "label": "Protocols",
+   "value": "NDI®|HX3, Dante Network Audio (2CH input), SRT, TCP/IP, HTTP, RTSP,; RTMP(s), Onvif, DHCP, Multicast"
+  },
+  {
+   "label": "Video encoding",
+   "value": "H.265 / H.264 / MJPEG"
+  }
+ ],
+ "src": "https://www.epiphan.com/products/ec20/tech-specs/",
+ "checked": "2026-10-19"
 }

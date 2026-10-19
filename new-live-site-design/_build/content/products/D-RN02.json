@@ -1,11 +1,62 @@
 {
  "sku": "D-RN02",
- "order": 1491,
+ "order": 1490,
  "n": "Network Interface",
  "b": "RDL",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
  "d": "Wall-Mounted Mic/Line Dante Interface 0x2",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Connector",
+   "value": "RJ45 with Link and Speed indicators"
+  },
+  {
+   "label": "Digital Audio Ethernet Protocol",
+   "value": "Dante"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "Reference Level",
+   "value": "0 dBFS = +22 dBu"
+  },
+  {
+   "label": "Outputs",
+   "value": "Balanced, XLR and detachable wiring block"
+  },
+  {
+   "label": "Output Level (maximum)",
+   "value": "+22 dBu balanced"
+  },
+  {
+   "label": "Output Attenuator",
+   "value": "Software-controlled, 0 to -63 dB and OFF (analog output per received network channel)"
+  },
+  {
+   "label": "Output Impedance",
+   "value": "150 Ω balanced"
+  },
+  {
+   "label": "Frequency Response",
+   "value": "Mic: 20 Hz to 20 kHz (± 0.5 dB); Line: 20 Hz to 20 kHz (± 0.5 dB)"
+  },
+  {
+   "label": "THD+N",
+   "value": "< 0.1%"
+  },
+  {
+   "label": "THD",
+   "value": "< 0.01% (1 kHz)"
+  },
+  {
+   "label": "Noise",
+   "value": "< -80 dB (below +4 dBu); < -100 dB (below +22 dBu)"
+  }
+ ],
+ "src": "https://rdlnet.com/product/d-rn02/",
+ "checked": "2026-10-19"
 }

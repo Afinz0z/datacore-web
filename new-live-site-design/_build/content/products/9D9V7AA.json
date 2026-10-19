@@ -7,5 +7,56 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "23.8\" Full HD professional IPS monitor with 100 Hz refresh rate, USB-C connectivity with 100 W power delivery, USB hub, and fully adjustable ergonomic stand for modern workstation setups.",
- "specs": []
+ "specs": [
+  {
+   "label": "Native resolution",
+   "value": "FHD (1920 x 1080)"
+  },
+  {
+   "label": "Panel technology",
+   "value": "IPS; LCD"
+  },
+  {
+   "label": "Response time (typical)",
+   "value": "5ms GtG (with overdrive)"
+  },
+  {
+   "label": "Flicker-free",
+   "value": "Yes"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Screen treatment",
+   "value": "Anti-glare"
+  },
+  {
+   "label": "Brightness",
+   "value": "350 nits"
+  },
+  {
+   "label": "Display features",
+   "value": "Docking monitor"
+  },
+  {
+   "label": "Onscreen controls",
+   "value": "Brightness+; Color; Image; Input; Power; Menu; Management; Information; Exit"
+  },
+  {
+   "label": "VESA mounting",
+   "value": "100 x 100 mm"
+  },
+  {
+   "label": "Pixel pitch",
+   "value": "0.28 x 0.28 mm"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "1500:1"
+  }
+ ],
+ "src": "https://www.hp.com/ch-en/shop/products/monitors/hp-series-5-pro-23-8-inch-fhd-usb-c-monitor-524pu-9d9v7aa-uuz",
+ "checked": "2026-10-19"
 }

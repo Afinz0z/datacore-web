@@ -1,6 +1,6 @@
 {
  "sku": "151.374",
- "order": 4336,
+ "order": 4334,
  "n": "BTS300Z Profile Spot Zoom 300W White (BTS300Z LED)",
  "b": "beamZ",
  "c": "Light",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "BTS300Z LED",
  "d": "BTS300Z Profile Spot Zoom 300W White",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Black"
+  },
+  {
+   "label": "Light source",
+   "value": "Single colour LED"
+  },
+  {
+   "label": "Colours",
+   "value": "Warm White"
+  },
+  {
+   "label": "LED power (single LED)",
+   "value": "300W"
+  },
+  {
+   "label": "Beam angle: Min",
+   "value": "18"
+  },
+  {
+   "label": "Beam angle: Max",
+   "value": "36"
+  },
+  {
+   "label": "Illuminance",
+   "value": "93538 lx (zoom in)"
+  },
+  {
+   "label": "Flash rate per second",
+   "value": "1 - 15Hz"
+  },
+  {
+   "label": "DMX channels",
+   "value": "1, 2, 3"
+  },
+  {
+   "label": "DMX connection",
+   "value": "3-pin XLR, 5-pin XLR"
+  },
+  {
+   "label": "Modes",
+   "value": "DMX"
+  },
+  {
+   "label": "Power plug",
+   "value": "P-Con"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/bts300z-led-profile-spot-zoom-300w-warm-white/",
+ "checked": "2026-10-19"
 }

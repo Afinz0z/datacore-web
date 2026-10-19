@@ -1,15 +1,66 @@
 {
  "sku": "SF680P",
- "order": 2713,
+ "order": 2711,
  "n": "Universal Flat Wall Mount FOR 60 inch TO 98 inch DISPLAYS",
  "b": "Peerless",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "SmartMount® Universal Flat Mount for 60\" - 95\" Flat Panel Screens",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "158.76 kg"
+  },
+  {
+   "label": "Features",
+   "value": "Cable Management"
+  },
+  {
+   "label": "Mount Profile",
+   "value": "Low Profile"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Semi-gloss Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Fused Epoxy"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "1000 x 400"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Wall Mountable"
+  },
+  {
+   "label": "Indoor/Outdoor",
+   "value": "Indoor"
+  },
+  {
+   "label": "Manufacturer Product Class",
+   "value": "Flat"
+  },
+  {
+   "label": "Assembly Required",
+   "value": "Yes"
+  },
+  {
+   "label": "TAA Compliant",
+   "value": "Yes"
+  }
+ ],
  "for": [
   "PN-LA752",
   "PN-M752"
- ]
+ ],
+ "src": "https://eu.peerless-av.com/products/SF680P",
+ "checked": "2026-10-19"
 }

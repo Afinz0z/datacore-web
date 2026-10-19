@@ -1,6 +1,6 @@
 {
  "sku": "91310086",
- "order": 1855,
+ "order": 1854,
  "n": "8x8 multiport matrix switcher (MMX8x8-HT440)",
  "b": "Lightware",
  "c": "AV Switcher",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MMX8x8-HT440",
  "d": "MMX8x8-HT440 - 8x8 multiport matrix switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI input ports",
+   "value": "4x"
+  },
+  {
+   "label": "TPS2 (HDBaseT) input ports",
+   "value": "4x"
+  },
+  {
+   "label": "HDMI output ports",
+   "value": "4x"
+  },
+  {
+   "label": "TPS (HDBaseT) output ports",
+   "value": "4x"
+  },
+  {
+   "label": "Balanced bi-directional analog audio ports",
+   "value": "8x"
+  },
+  {
+   "label": "Ethernet port for device control",
+   "value": "1x"
+  },
+  {
+   "label": "Ethernet ports for external device control",
+   "value": "2x"
+  },
+  {
+   "label": "Ethernet via TPS",
+   "value": "Yes"
+  },
+  {
+   "label": "Bi-directional RS-232 ports",
+   "value": "2x"
+  },
+  {
+   "label": "Serial/IR ports for display control",
+   "value": "2x"
+  },
+  {
+   "label": "IR ports for display control",
+   "value": "4x"
+  },
+  {
+   "label": "Relay output ports",
+   "value": "4x"
+  }
+ ],
+ "src": "https://www.lightware.com/en/products/Extenders/mmx8x8-ht440",
+ "checked": "2026-10-19"
 }

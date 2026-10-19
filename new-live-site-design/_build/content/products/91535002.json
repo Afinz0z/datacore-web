@@ -1,6 +1,6 @@
 {
  "sku": "91535002",
- "order": 1728,
+ "order": 1727,
  "n": "SDVoE compatible HDMI 2.0 over fiber optical link receiver (HDMI-OPTX-RX100A)",
  "b": "Lightware",
  "c": "Extenders",
@@ -8,8 +8,59 @@
  "avail": "lead",
  "model": "HDMI-OPTX-RX100A",
  "d": "SDVoE compatible HDMI 2.0 over fiber optical link receiver",
- "specs": [],
+ "specs": [
+  {
+   "label": "Compliance",
+   "value": "UL, CE"
+  },
+  {
+   "label": "Electrical safety",
+   "value": "IEC/EN/UL/CSA 62368-1:2014, Class II"
+  },
+  {
+   "label": "EMC (emission)",
+   "value": "IEC/EN 55032:2015"
+  },
+  {
+   "label": "EMC (immunity)",
+   "value": "IEC/EN 55035:2017"
+  },
+  {
+   "label": "RoHS",
+   "value": "EN 63000:2018"
+  },
+  {
+   "label": "Cooling",
+   "value": "passive"
+  },
+  {
+   "label": "Supplied power",
+   "value": "12V DC, 2A"
+  },
+  {
+   "label": "AC power plug",
+   "value": "Interchangable (EU, UK, JP/US, AUS/NZ)"
+  },
+  {
+   "label": "DC power plug",
+   "value": "Locking DC connector (2.1/5.5 mm pin)"
+  },
+  {
+   "label": "Rack mountable",
+   "value": "No"
+  },
+  {
+   "label": "Connector type",
+   "value": "SFP+ cage"
+  },
+  {
+   "label": "Power over Ethernet (PoE) compliance",
+   "value": "SDVoE"
+  }
+ ],
  "acc": [
   "11800175"
- ]
+ ],
+ "src": "https://www.lightware.com/en/products/Extenders/hdmi-optx-rx100a",
+ "checked": "2026-10-19"
 }

@@ -1,6 +1,6 @@
 {
  "sku": "KG8900T-AX",
- "order": 1593,
+ "order": 1592,
  "n": "USB HDMI KVM DigiProcessor",
  "b": "ATEN",
  "c": "Extenders",
@@ -8,8 +8,54 @@
  "avail": "lead",
  "specs": [
   {
-   "label": "Type",
-   "value": "DigiProcessor"
+   "label": "Connectors Link",
+   "value": "1 x RJ-45 Female (KVM); 1 x RJ-45 Female (SP) (Reserved for future expansion)"
+  },
+  {
+   "label": "Connectors Computer",
+   "value": "2 x USB Type A Male; 1 x HDMI Male"
+  },
+  {
+   "label": "Switches Reset",
+   "value": "1 x Semi-recessed Pushbutton"
+  },
+  {
+   "label": "LEDs Link",
+   "value": "1 (Green)- On: Active / Blinking: Transmit/Receive)"
+  },
+  {
+   "label": "10/100/1000 Mbps",
+   "value": "1 (Off / Orange / Green)"
+  },
+  {
+   "label": "LEDs Power",
+   "value": "1 (Green)"
+  },
+  {
+   "label": "Physical Properties Housing",
+   "value": "Aluminum Die-casting Housing"
+  },
+  {
+   "label": "Power Consumption",
+   "value": "DC5V:3.745W:18BTU/h"
+  },
+  {
+   "label": "Storage Temperature",
+   "value": "-20–60°C"
+  },
+  {
+   "label": "Environmental Humidity",
+   "value": "0–95% RH, Non-condensing"
+  },
+  {
+   "label": "Physical Properties Weight",
+   "value": "0.27 kg ( 0.59 lb )"
+  },
+  {
+   "label": "Dimensions (L x W x H)",
+   "value": "12.20 x 5.80 x 2.58 cm ; (4.8 x 2.28 x 1.02 in.)"
   }
- ]
+ ],
+ "src": "https://www.aten.com/global/en/products/kvm/kvm-over-ip-switches/kg8900t/",
+ "checked": "2026-10-19"
 }

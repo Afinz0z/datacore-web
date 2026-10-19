@@ -1,6 +1,6 @@
 {
  "sku": "VTP-1",
- "order": 2765,
+ "order": 2763,
  "n": "1 RU Rack Vent Panel, Slotted with 20% Open Area (VTP-1)",
  "b": "Middle Atlantic",
  "c": "Rack (AV)",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "VTP-1",
  "d": "VTP-1 1 RU Rack Vent Panel, Slotted with 20% Open Area",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "0.51 in (1.3 cm)"
+  },
+  {
+   "label": "Height",
+   "value": "1.75 in (4.4 cm)"
+  },
+  {
+   "label": "Panel Width",
+   "value": "19 in (48.3 cm)"
+  },
+  {
+   "label": "Rack Units",
+   "value": "1 RU"
+  },
+  {
+   "label": "Vent Open Area Percentage",
+   "value": "20 %"
+  },
+  {
+   "label": "Width",
+   "value": "19 in (48.3 cm)"
+  },
+  {
+   "label": "Finish",
+   "value": "Brushed and Anodized"
+  },
+  {
+   "label": "Hinged",
+   "value": "No"
+  },
+  {
+   "label": "Light Blocking",
+   "value": "No"
+  },
+  {
+   "label": "Mounting Points",
+   "value": "2"
+  },
+  {
+   "label": "Style",
+   "value": "Flanged"
+  },
+  {
+   "label": "Package Count",
+   "value": "1"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/accessories/rackmount_panels/vented_rack_panel/vtp-1",
+ "checked": "2026-10-19"
 }

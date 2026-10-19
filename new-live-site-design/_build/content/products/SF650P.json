@@ -1,12 +1,61 @@
 {
  "sku": "SF650P",
- "order": 2712,
+ "order": 2710,
  "n": "Universal Flat Wall Mount FOR 39 inch TO 75 inch DISPLAYS",
  "b": "Peerless",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "79.38 kg"
+  },
+  {
+   "label": "Features",
+   "value": "Adjustable"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Fused Epoxy"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "200 x 100"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Wall Mountable"
+  },
+  {
+   "label": "Height",
+   "value": "42.90 cm (16.89\")"
+  },
+  {
+   "label": "Indoor/Outdoor",
+   "value": "Indoor"
+  },
+  {
+   "label": "Manufacturer Product Class",
+   "value": "Flat"
+  },
+  {
+   "label": "Assembly Required",
+   "value": "Yes"
+  },
+  {
+   "label": "TAA Compliant",
+   "value": "Yes"
+  }
+ ],
  "for": [
   "55UM5N-H",
   "75UH5N-M",
@@ -14,5 +63,7 @@
   "PN-M432",
   "PN-M552 PCAP",
   "PN-M752"
- ]
+ ],
+ "src": "https://eu.peerless-av.com/products/SF650P",
+ "checked": "2026-10-19"
 }

@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "PN-M862",
  "d": "86\" Ultra High Definition Professional Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Panel Technology",
+   "value": "IPS with Direct LED backlights"
+  },
+  {
+   "label": "Screen Size [inch/cm]",
+   "value": "86 / 217.2"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Brightness [cd/m²]",
+   "value": "550"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "≥ 8000:1"
+  },
+  {
+   "label": "Viewing Angle [°]",
+   "value": "178 horizontal / 178 vertical (typ. at contrast ratio 10:1)"
+  },
+  {
+   "label": "Colour Depth [bn]",
+   "value": "1.073 (10bit)"
+  },
+  {
+   "label": "Colour Gamut",
+   "value": "72% of NTSC"
+  },
+  {
+   "label": "Response Time (typ.) [ms]",
+   "value": "8 (grey-to-grey)"
+  },
+  {
+   "label": "Panel Refresh Rate [Hz]",
+   "value": "60"
+  },
+  {
+   "label": "Haze Level [%]",
+   "value": "Pro (25)"
+  },
+  {
+   "label": "Native Resolution",
+   "value": "3840 x 2160"
+  }
+ ],
+ "src": "https://www.sharpdisplays.eu/p/uk/en/products/details/t/large-format-displays/midrange-displays/rp/m862.xhtml",
+ "checked": "2026-10-19"
 }

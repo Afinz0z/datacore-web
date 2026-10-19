@@ -1,11 +1,62 @@
 {
  "sku": "DD-BN22",
- "order": 1489,
+ "order": 1488,
  "n": "Dante Interface 2 x 2",
  "b": "RDL",
  "c": "Interface Module",
  "dept": "AV",
  "avail": "lead",
  "d": "Wall-Mounted Bi-Directional Mic/Line Dante Interface 2 x 2",
- "specs": []
+ "specs": [
+  {
+   "label": "Network Connector",
+   "value": "RJ45 with Link and Speed indicators"
+  },
+  {
+   "label": "Digital Audio Ethernet Protocol",
+   "value": "Dante"
+  },
+  {
+   "label": "Transmission Rate",
+   "value": "100 Mbps"
+  },
+  {
+   "label": "Reference Level",
+   "value": "0 dBFS = +24 dBu"
+  },
+  {
+   "label": "Inputs",
+   "value": "XLR (female)"
+  },
+  {
+   "label": "Gain",
+   "value": "Mic: 40 dB (LO), 48 dB (MED), 62 dB (HI); Line: Unity (LO), 8 dB (MED), 19 dB (HI)"
+  },
+  {
+   "label": "Input Level (for +4 dBu/-20 dBFS)",
+   "value": "Mic: -36 dBu (LO), -44 dBu (MED), -58 dBu (HI); Line: +4 dBu (LO), -8 dBu (MED), -15 dBu (HI)"
+  },
+  {
+   "label": "Input Level (maximum)",
+   "value": "Mic: -16 dBu (LO), -24 dBu (MED), -38 dBu (HI); Line: +24 dBu (LO), +12 dBu (MED), +5 dBu (HI)"
+  },
+  {
+   "label": "Input Impedance",
+   "value": "> 2.5 kΩ (MIC); > 5 kΩ (LINE)"
+  },
+  {
+   "label": "Phantom Power",
+   "value": "P48, 48 Vdc, switch-selectable"
+  },
+  {
+   "label": "Standard for Phantom",
+   "value": "IEC 61938: 2013"
+  },
+  {
+   "label": "Selectors per input",
+   "value": "Phantom, Mic/Line, Gain"
+  }
+ ],
+ "src": "https://rdlnet.com/product/dd-bn22/",
+ "checked": "2026-10-19"
 }

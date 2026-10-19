@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "1004L",
  "d": "Elo 1004L PCAP Touch Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure Color",
+   "value": "White or Black"
+  },
+  {
+   "label": "Touch Technology & Capacity",
+   "value": "Non-Touch; PCAP (Projected Capacitive) - 10 Touch"
+  },
+  {
+   "label": "Diagonal Size",
+   "value": "10.1'' diagonal, Active matrix TFT LCD (LED)"
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Active Area",
+   "value": "8.54\" x 5.34\" / 216.96 mm x 135.6 mm"
+  },
+  {
+   "label": "Resolution",
+   "value": "1280 x 800"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "Horizontal: ±85° or 170° total / Vertical: ±85° or 170° total"
+  },
+  {
+   "label": "Number of Colors",
+   "value": "16.7 million"
+  },
+  {
+   "label": "Brightness (typical)",
+   "value": "LCD panel: 400 nits ; PCAP: 360 nits"
+  },
+  {
+   "label": "Response Time-total (typical)",
+   "value": "30 msec"
+  },
+  {
+   "label": "Contrast Ratio",
+   "value": "800:1"
+  },
+  {
+   "label": "Touch Interface",
+   "value": "USB"
+  }
+ ],
+ "src": "https://www.elotouch.com/1004l-10-inch-touchscreen-monitors.html",
+ "checked": "2026-10-19"
 }

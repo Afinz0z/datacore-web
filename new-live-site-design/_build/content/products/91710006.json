@@ -1,6 +1,6 @@
 {
  "sku": "91710006",
- "order": 1731,
+ "order": 1730,
  "n": "SDVoE compatible scaling receiver for recieving HDMI 2.0, RS-232 (HDMI-TPN-RX107 A-SR)",
  "b": "Lightware",
  "c": "Extenders",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "HDMI-TPN-RX107 A-SR",
  "d": "SDVoE compatible scaling receiver for recieving HDMI 2.0, RS-232, audio de-embedder, over 10G copper network cable. Seamless switching, 4K up/down scaling, HDCP, 3D and 4K / UHD (60Hz RGB 4:4:4 , 60Hz YCbCr 4:4:4) compliant with HDR support.",
- "specs": []
+ "specs": [
+  {
+   "label": "Compliance",
+   "value": "UL, CE"
+  },
+  {
+   "label": "Electrical safety",
+   "value": "IEC/EN/UL/CSA 62368-1:2014, Class II"
+  },
+  {
+   "label": "EMC (emission)",
+   "value": "IEC/EN 55032:2015"
+  },
+  {
+   "label": "EMC (immunity)",
+   "value": "IEC/EN 55035:2017"
+  },
+  {
+   "label": "RoHS",
+   "value": "EN 63000:2018"
+  },
+  {
+   "label": "Cooling",
+   "value": "passive"
+  },
+  {
+   "label": "Heat dissipation",
+   "value": "75.1 BTU/h"
+  },
+  {
+   "label": "Power over Ethernet (PoE+)",
+   "value": "via TPX input (IEEE802.3at) (can receive power)"
+  },
+  {
+   "label": "Supplied power",
+   "value": "12V DC, 2A"
+  },
+  {
+   "label": "AC power plug",
+   "value": "Interchangable (EU, UK, JP/US, AUS/NZ)"
+  },
+  {
+   "label": "DC power plug",
+   "value": "Locking DC connector (2.1/5.5 mm pin)"
+  },
+  {
+   "label": "Rack mountable",
+   "value": "No"
+  }
+ ],
+ "src": "https://www.lightware.com/en/products/AV-over-IP/hdmi-tpn-rx107a-sr",
+ "checked": "2026-10-19"
 }

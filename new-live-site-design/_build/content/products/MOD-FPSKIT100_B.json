@@ -1,15 +1,66 @@
 {
  "sku": "MOD-FPSKIT100 B",
- "order": 2708,
+ "order": 2706,
  "n": "Modular Series Ceiling Kit",
  "b": "Peerless",
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
  "d": "Flat Panel Single Screen Kit, 1M with MOD-CPC, Black Pole",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum Load Capacity",
+   "value": "59.87 kg"
+  },
+  {
+   "label": "Features",
+   "value": "Cable Management"
+  },
+  {
+   "label": "Drop Length",
+   "value": "99.06 cm (39\")"
+  },
+  {
+   "label": "Colour Family",
+   "value": "Black"
+  },
+  {
+   "label": "Product Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finishing",
+   "value": "Powder Coated"
+  },
+  {
+   "label": "Mounting Pattern",
+   "value": "600 x 400"
+  },
+  {
+   "label": "Minimum Mounting Pattern",
+   "value": "200 x 100"
+  },
+  {
+   "label": "Form Factor",
+   "value": "Ceiling Mountable"
+  },
+  {
+   "label": "Height",
+   "value": "109.73 cm (43.20\")"
+  },
+  {
+   "label": "Application/Usage",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Indoor/Outdoor",
+   "value": "Indoor"
+  }
+ ],
  "for": [
   "55UM5N-H",
   "75UH5N-M"
- ]
+ ],
+ "src": "https://eu.peerless-av.com/products/MOD-FPSKIT100-B",
+ "checked": "2026-10-19"
 }

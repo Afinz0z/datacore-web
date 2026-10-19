@@ -1,6 +1,6 @@
 {
  "sku": "150.106",
- "order": 4340,
+ "order": 4338,
  "n": "MovHead Wash19x40W (MHL1940)",
  "b": "beamZ",
  "c": "Light",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "MHL1940",
  "d": "MHL1940 MovHead Wash19x40W",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Black"
+  },
+  {
+   "label": "Light source",
+   "value": "4-in-1 LED"
+  },
+  {
+   "label": "Colours",
+   "value": "Red, Green, Blue, White"
+  },
+  {
+   "label": "LED power (single LED)",
+   "value": "40W"
+  },
+  {
+   "label": "Beam angle: Min",
+   "value": "6°"
+  },
+  {
+   "label": "Beam angle: Max",
+   "value": "60°"
+  },
+  {
+   "label": "Zoom",
+   "value": "Yes"
+  },
+  {
+   "label": "Illuminance",
+   "value": "94.960 lx @ 1m"
+  },
+  {
+   "label": "Head movement: Pan",
+   "value": "540°"
+  },
+  {
+   "label": "Head movement: Tilt",
+   "value": "270°"
+  },
+  {
+   "label": "Flash rate per second",
+   "value": "1 - 25Hz"
+  },
+  {
+   "label": "Modes",
+   "value": "Automatic programs, DMX, Master/Slave"
+  }
+ ],
+ "src": "https://www.beamzlighting.com/product/mhl1940-led-bee-eye-moving-head-with-zoom/",
+ "checked": "2026-10-19"
 }

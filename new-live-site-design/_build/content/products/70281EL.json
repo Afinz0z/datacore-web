@@ -7,5 +7,56 @@
  "dept": "AV",
  "avail": "lead",
  "d": "COSMO 208D 110X176NPA MWC 220 -- Large Cosmopolitan Electrol - Wide (16:10) - Matte White - 110 x 176 - 220V Motor; Low Voltage Control",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen Diagonal",
+   "value": "208 in (528.3 cm)"
+  },
+  {
+   "label": "Screen Height",
+   "value": "110 in (279.4 cm)"
+  },
+  {
+   "label": "Screen Width",
+   "value": "176 in (447 cm)"
+  },
+  {
+   "label": "Size",
+   "value": "110\" x 176\" or 208\" diagonal"
+  },
+  {
+   "label": "Application",
+   "value": "Ceiling, Wall"
+  },
+  {
+   "label": "Built-In Control",
+   "value": "Low Voltage Control"
+  },
+  {
+   "label": "Federal Ops Country of Origin",
+   "value": "US"
+  },
+  {
+   "label": "Motor",
+   "value": "220V (50Hz) for Export"
+  },
+  {
+   "label": "Projection Type",
+   "value": "Front Projection"
+  },
+  {
+   "label": "Screen Format",
+   "value": "Wide (16:10)"
+  },
+  {
+   "label": "Screen Surface Features",
+   "value": "Standard Resolution"
+  },
+  {
+   "label": "Screen Type",
+   "value": "Electric"
+  }
+ ],
+ "src": "https://www.legrandav.com/products/screens/wall-and-ceiling-mounted-electric-screens/cosmopolitan-series/70281el",
+ "checked": "2026-10-19"
 }

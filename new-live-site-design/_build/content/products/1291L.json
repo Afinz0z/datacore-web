@@ -1,6 +1,6 @@
 {
  "sku": "1291L",
- "order": 1408,
+ "order": 1407,
  "n": "The 1291L 12\" Open Frame Touchscreen Display with TouchPro from Elo",
  "b": "Elo",
  "c": "Touch Panel Controllers",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "1291L",
  "d": "The 1291L 12\" Open Frame Touchscreen Display with TouchPro from Elo Touch is an industrial-grade monitor with a high-brightness, wide viewing angle LCD with an LED backlight.",
- "specs": []
+ "specs": [
+  {
+   "label": "Enclosure Color",
+   "value": "Black"
+  },
+  {
+   "label": "Touch Technology & Capacity",
+   "value": "SAW (IntelliTouch® Surface Acoustic Wave) - Single Touch; PCAP (TouchPro® Projected Capacitive) - 10 Touch"
+  },
+  {
+   "label": "Touch Interface",
+   "value": "TouchPro PCAP - USB 2.0 ; IntelliTouch - Dual serial/USB 2.0"
+  },
+  {
+   "label": "Diagonal Size",
+   "value": "12.1'' diagonal, Active matrix TFT LCD (LED)"
+  },
+  {
+   "label": "On Screen Display",
+   "value": "Accessible through switches on the unit’s tethered OSD Control box."
+  },
+  {
+   "label": "Aspect Ratio",
+   "value": "4:3"
+  },
+  {
+   "label": "Active Area",
+   "value": "9.69\" x 7.26\"/ 246mm x 184.50mm"
+  },
+  {
+   "label": "Resolution",
+   "value": "800 x 600 at 60 Hz"
+  },
+  {
+   "label": "Viewing Angle",
+   "value": "Horizontal: ±88° or 176° total / Vertical: ±88° or 176° total"
+  },
+  {
+   "label": "Number of Colors",
+   "value": "16.7 million"
+  },
+  {
+   "label": "Brightness (typical)",
+   "value": "LCD panel: 450 nits ; IntelliTouch: 405 nits ; TouchPro PCAP: 405 nits"
+  },
+  {
+   "label": "Response Time-total (typical)",
+   "value": "25 msec"
+  }
+ ],
+ "src": "https://www.elotouch.com/open-frame-touchscreens-1291l.html",
+ "checked": "2026-10-19"
 }

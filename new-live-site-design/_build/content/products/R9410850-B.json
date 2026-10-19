@@ -7,9 +7,60 @@
  "dept": "AV",
  "avail": "lead",
  "d": "R9410850-B | QDX 4K35 COMM | Body+GSM+WIFI+Insights Management Suite Monitor | COO Belgium",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projector type",
+   "value": "WUXGA 3-chip DLP digital projector"
+  },
+  {
+   "label": "Technology",
+   "value": "0.96\" DMD™ x3"
+  },
+  {
+   "label": "Resolution",
+   "value": "3840 x 2400 (4K UHD)"
+  },
+  {
+   "label": "Brightness",
+   "value": "35000 ISO lumens ; 33000 center lumens ; 31000 ANSI lumens"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "Full field 2.200:1"
+  },
+  {
+   "label": "Contrast ratio Barco DynaBlack®",
+   "value": "20.000:1"
+  },
+  {
+   "label": "Optical lens shift",
+   "value": "Vertical: up to 160%, down to 150% (motorized), depending on lens ; Horizontal: up to +/- 50% (motorized), depending on lens ; with lens memory on TLD+ lenses"
+  },
+  {
+   "label": "Light source",
+   "value": "Blue+Red laser phosphor with inorganic phosphor wheel"
+  },
+  {
+   "label": "Brightness uniformity",
+   "value": "95%"
+  },
+  {
+   "label": "Color correction",
+   "value": "Yes"
+  },
+  {
+   "label": "Optical dowser",
+   "value": "Laser switching /optional external"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  }
+ ],
  "acc": [
   "R9862010",
   "SI-H L 300"
- ]
+ ],
+ "src": "https://www.barco.com/en/product/qdx-4k35",
+ "checked": "2026-10-19"
 }

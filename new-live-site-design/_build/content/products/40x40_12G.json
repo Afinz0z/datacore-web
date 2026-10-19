@@ -1,6 +1,6 @@
 {
  "sku": "40x40 12G",
- "order": 3074,
+ "order": 3072,
  "n": "Zero Latency Video Router (40x40 12G)",
  "b": "Blackmagic Design",
  "c": "Router",
@@ -8,5 +8,56 @@
  "avail": "lead",
  "model": "40x40 12G",
  "d": "Zero Latency Video Router",
- "specs": []
+ "specs": [
+  {
+   "label": "SDI Video Outputs",
+   "value": "40"
+  },
+  {
+   "label": "SDI Reclocking",
+   "value": "On all SDI outputs."
+  },
+  {
+   "label": "Reference Inputs",
+   "value": "Tri-Sync or Black Burst."
+  },
+  {
+   "label": "Reference Outputs",
+   "value": "Reference terminating loop output."
+  },
+  {
+   "label": "Ethernet",
+   "value": "Supports 10/100/1000 BASE‑T."
+  },
+  {
+   "label": "Computer Interface",
+   "value": "USB‑C"
+  },
+  {
+   "label": "SD Video Standards",
+   "value": "525i59.94 NTSC, 625i50 PAL"
+  },
+  {
+   "label": "2K Video Standards",
+   "value": "2Kp23.98 DCI, 2Kp24 DCI, 2Kp25 DCI, 2Kp29.97 DCI, 2Kp30 DCI, 2Kp47.95 DCI, 2Kp48 DCI, 2Kp50 DCI, 2Kp59.94 DCI, 2Kp60 DCI , 2KPsF23.98 DCI, 2KPsF24 DCI, 2KPsF25 DCI, 2KPsF29.97 DCI, 2KPsF30 DCI"
+  },
+  {
+   "label": "Ultra HD Video Standards",
+   "value": "2160p23.98, 2160p24, 2160p25, 2160p29.97, 2160p30, 2160p47.95, 2160p48, 2160p50, 2160p59.94, 2160p60"
+  },
+  {
+   "label": "4K Video Standards",
+   "value": "4Kp23.98 DCI, 4Kp24 DCI, 4Kp25 DCI, 4Kp29.97 DCI, 4Kp30 DCI, 4Kp47.95 DCI, 4Kp48 DCI, 4Kp50 DCI, 4Kp59.94 DCI, 4Kp60 DCI"
+  },
+  {
+   "label": "SDI Compliance",
+   "value": "SMPTE 259M, SMPTE 292M, SMPTE 296M, SMPTE 372M, SMPTE 424M, SMPTE 425M level A and B , SMPTE 2081-1, SMPTE 2081-10, SMPTE 2082-10, ITU‑R BT.656 and ITU‑R BT.601"
+  },
+  {
+   "label": "SDI Audio Sampling",
+   "value": "Television standard sample rate of 48kHz and 24-bit."
+  }
+ ],
+ "src": "https://www.blackmagicdesign.com/products/blackmagicvideohub/techspecs/W-VHS-08",
+ "checked": "2026-10-19"
 }
