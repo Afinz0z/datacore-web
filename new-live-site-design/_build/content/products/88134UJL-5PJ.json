@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AirEngine6776-57T(11be indoor,2+2+4 tri bands,smart antenna,USB,BLE)_Hi-Care Standard AirEngine6776_36Month(s)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "3 YR"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "50086828"
  ]

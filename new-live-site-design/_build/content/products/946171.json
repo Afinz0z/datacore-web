@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "STYLE II 5 NTP POE R DISPLAYS HOURS & MINUTES, RED LEDS, POE, 5CM DIGITS",
- "specs": []
+ "specs": [
+  {
+   "label": "Display type",
+   "value": "LED"
+  },
+  {
+   "label": "Digit color",
+   "value": "Red"
+  }
+ ],
+ "spec_src": "inventory"
 }

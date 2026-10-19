@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "RCP 101 MK",
  "d": "RCP 101 MK Remote Control Panel - MK Mount",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

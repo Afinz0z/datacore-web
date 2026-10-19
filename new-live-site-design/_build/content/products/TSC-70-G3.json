@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "7” PoE Touch Screen Controller for In-Wall Mounting. Color - Black only",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "7\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1280 x 800"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Ethernet"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Surface mount"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Wireless support",
+   "value": "No"
+  },
+  {
+   "label": "Brightness",
+   "value": "400 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  }
+ ],
+ "spec_src": "inventory"
 }

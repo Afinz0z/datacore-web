@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "XPA U 758",
  "d": "XPA U 758 - Eight Channel Amp, 75 watts at 8 ohms",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "8"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "75 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

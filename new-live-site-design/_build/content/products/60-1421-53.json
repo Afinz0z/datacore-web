@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP T HWP 4K 331 D",
  "d": "DTP T HWP 4K 331 D Long Distance DTP Transmitter for HDMI - Decorator-Style Wallplate, White - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45, 3-pin 3.5 mm, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45, 5-pin 3.5 mm"
+  }
+ ],
+ "spec_src": "inventory"
 }

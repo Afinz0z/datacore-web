@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "ACP 106 D",
  "d": "ACP 106 D Audio Control Panel with 6 Buttons - Decorator-Style",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "RS 232"
+  },
+  {
+   "label": "Status screen",
+   "value": "LED"
+  }
+ ],
+ "spec_src": "inventory"
 }

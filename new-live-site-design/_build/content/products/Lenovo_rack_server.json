@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "Lenovo rack server",
  "d": "Lenovo rack server for IPTV 16 GB RAM 2TB HDD",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "16 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "2 TB"
+  }
+ ],
+ "spec_src": "inventory"
 }

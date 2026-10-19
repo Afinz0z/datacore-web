@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "MLC 62 RS CC",
  "d": "MLC 62 RS CC MediaLink Controller for Cable Cubby Cable Access Enclosures",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  }
+ ],
+ "spec_src": "inventory"
 }

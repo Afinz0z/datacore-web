@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - Logitech Rally Plus (1xCamera, 2xSpeaker, 2xMic, Table & Display Hub). No Mounting Kit. #",
- "specs": []
+ "specs": [
+  {
+   "label": "Expansion mics",
+   "value": "Up to 7"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Microsoft Teams, Zoom, Google Meet, Google Hangouts"
+  },
+  {
+   "label": "Type",
+   "value": "All in one Bar"
+  },
+  {
+   "label": "Video outputs",
+   "value": "HDMI Type A (x2)"
+  },
+  {
+   "label": "Pan-Tilt-Zoom (PTZ) mechanism",
+   "value": "Pan Range: ±90°, Tilt Range: +50° / -90°, Optical Zoom: 15x HD zoom, Field of View (FOV): 90°"
+  }
+ ],
+ "spec_src": "inventory"
 }

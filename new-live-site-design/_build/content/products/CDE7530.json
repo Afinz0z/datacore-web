@@ -9,10 +9,15 @@
  "d": "75\", 4K, 450 nits, Android 11, Landscape & Portrait mode, Daisy Chain 3x3, USB Type C (vController / Viewboard Cast / myViewBoard Display / Revel Digital), Stardard Intel OPS slot",
  "specs": [
   {
+   "label": "Display size",
+   "value": "75\""
+  },
+  {
    "label": "Type",
-   "value": "Non Interactive"
+   "value": "Non-interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-Emerald3-N20",
   "LGC-5586",

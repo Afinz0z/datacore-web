@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DS Works-Video Wall Management Software and Permission for Controlling PC/AiO (Windows OS )",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Software"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "DSII-2K-JOUTVW",
   "DSIII-HDMIKVM- JIN"

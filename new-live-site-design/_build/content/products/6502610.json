@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB6-BTNIVR-S_BLANK Small Backlit Engravable Button Cap for Cameo Keypads, Ivory Smooth, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Ivory"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  }
+ ],
+ "spec_src": "inventory"
 }

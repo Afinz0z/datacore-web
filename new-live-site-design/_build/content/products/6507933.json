@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB2-BTNRED-S_BLANK Large Backlit Engravable Button Cap for Cameo Keypads, Red Smooth, Engraving Not Included",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Red"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6503810",
   "6513118",

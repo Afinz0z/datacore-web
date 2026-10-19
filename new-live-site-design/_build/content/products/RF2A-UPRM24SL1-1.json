@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "RitchField 19\" Rack Mount unloaded Fiber Optic Patch Panel, Sliding Type, 24 port, 1U with 2x 24 core splice tray, installation kit, 1x cable gland (Adapter Compatibility: SC Simplex, LC Duplex, E2000, MTRJ)",
- "specs": []
+ "specs": [
+  {
+   "label": "U size",
+   "value": "1U (44.4)"
+  },
+  {
+   "label": "Adaptor type",
+   "value": "SC, LC"
+  }
+ ],
+ "spec_src": "inventory"
 }

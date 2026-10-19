@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SP2-EAC3",
  "d": "SP2 Signage Player 4K Dual Video EAC3",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Digital Signage Player"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Two HDMI Female to Female on 10\" Pigtails Single Space AAP - White: Two HDMI Female to Female on 10\" Pigtails",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity / connector",
+   "value": "HDMI"
+  },
+  {
+   "label": "Module slots",
+   "value": "2"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "HDMI to HDMI"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1425-02",
   "60-1592-02",

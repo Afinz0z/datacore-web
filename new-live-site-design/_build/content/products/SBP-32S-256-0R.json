@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sapling Digital, IP, 3200 Model, 2.5\", 6 Digits, PoE, Red Display, Surface Wall Mount, Elapsed Timer or Temperature Sensor Interface",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display type",
+   "value": "LED"
+  },
+  {
+   "label": "Size",
+   "value": "2.5″"
+  },
+  {
+   "label": "Number of digits",
+   "value": "6-digit"
+  },
+  {
+   "label": "Digit color",
+   "value": "Red"
+  },
+  {
+   "label": "Mounting",
+   "value": "Surface"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "M-GPS-MTG-KIT-1",
   "NET-MONT-SOFT"

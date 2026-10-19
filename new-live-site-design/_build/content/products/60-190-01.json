@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "RSU 129",
  "d": "RSU 129 1U 9.5\" Deep Universal Rack Shelf Kit",
- "specs": []
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "9.1 in"
+  },
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Rack Shelf"
+  }
+ ],
+ "spec_src": "inventory"
 }

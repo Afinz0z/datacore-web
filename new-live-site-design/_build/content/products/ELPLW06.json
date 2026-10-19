@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "V12H004W06 - Lens - ELPLW06 - EB-L1500/1505 WideLens.up to 1000\" screen size support; 1.8 to 2.3 F-number; 27.3 mm to 37 mmfocal lengthZoom ratio - 1 - 1.4Weight - 6.5 lbs (2950 g)Up to 8,500-lumen projectors - WUXGA/WXGA 1.62 to 2.22 throw ratio; lens shift-vertical: -67percent to +67 percent, horizontal: -30 percent to +30 percent9,000- to 20,000-lumen projectors - WUXGA 1.19 to 1.62 throw ratio; lens shift-vertical: -60percent to +60 percent, horizontal: -18 percent to +18 percentEB-PQ Series 4K Projectors - 1.15 to 1.57 throw ratio; vertical: -58 percent to +58 percent,horizontal: -16 percent to +16 percent",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Wide Throw"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "EB-L260F",
   "EB-L530U",

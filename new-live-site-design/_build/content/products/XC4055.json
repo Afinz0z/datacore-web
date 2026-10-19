@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "XC4055",
  "d": "IPTV Media Player",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

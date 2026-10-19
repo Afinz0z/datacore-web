@@ -7,7 +7,69 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "N1-CloudCampus SD-WAN(include SD-WAN),Foundation,AR6100,Per Device",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "N1-CloudCampus SD-WAN Foundation"
+  },
+  {
+   "label": "Category",
+   "value": "SD-WAN, Cloud Networking"
+  },
+  {
+   "label": "Base license",
+   "value": "Foundation"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported through CloudCampus management, subject to configuration"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software / Cloud Subscription"
+  },
+  {
+   "label": "Application",
+   "value": "SD-WAN , Enterprise WAN management"
+  },
+  {
+   "label": "License type",
+   "value": "Subscription , Feature Entitlement"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network, WAN"
+  },
+  {
+   "label": "Function",
+   "value": "Provides SD-WAN functionality and centralized management capabilities for supported AR6100 Series devices"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 AR6100 device per license"
+  },
+  {
+   "label": "System",
+   "value": "Huawei N1-CloudCampus"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Huawei AR6100 Series"
+  },
+  {
+   "label": "Associated product",
+   "value": "AR6100 Series Router"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per Device"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02353UYT-002"
  ]

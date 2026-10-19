@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "A Mini/6 Mini Stereo Audio Cable: 3.5 mm Stereo Mini Male to Male - 6' (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "3.5 mm"
+  },
+  {
+   "label": "Cable type",
+   "value": "Audio"
+  }
+ ],
+ "spec_src": "inventory"
 }

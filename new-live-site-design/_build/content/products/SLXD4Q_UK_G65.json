@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SLXD4Q+UK= G65",
  "d": "Wireless Receiver, Quad",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "606 - 694 MHz"
+  },
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Type",
+   "value": "Rx"
+  }
+ ],
+ "spec_src": "inventory"
 }

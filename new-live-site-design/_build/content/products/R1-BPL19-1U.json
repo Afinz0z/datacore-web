@@ -6,7 +6,21 @@
  "c": "UTP PATCHPANEL",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "24 PORT"
+  },
+  {
+   "label": "Module termination",
+   "value": "UNLOADED"
+  },
+  {
+   "label": "Mounting SIZE",
+   "value": "1U"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "R1-C6AMKJ-US-180-BK",
   "R1-CPC-R1-JC6A-01M-LSZH-GY",

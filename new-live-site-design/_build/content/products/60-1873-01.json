@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MediaPort 300 4K HDMI and Audio to USB Scaling Bridge",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "USB-C, HDMI, RJ45, 6-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "USB-C, HDMI, RJ45, 6-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "USB-C"
+  }
+ ],
+ "spec_src": "inventory"
 }

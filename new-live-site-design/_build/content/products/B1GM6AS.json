@@ -7,5 +7,39 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "27-inch Full HD IPS business monitor with 100 Hz refresh rate, HDMI, DisplayPort, and VGA connectivity, integrated speakers, and ergonomic adjustment for professional office setups.",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "27"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel type",
+   "value": "IPS"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Audio",
+   "value": "Dual 2W built-in speakers"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  },
+  {
+   "label": "Display ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

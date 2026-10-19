@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Musicstyling DLP7 Music server",
- "specs": []
+ "specs": [
+  {
+   "label": "Processor type",
+   "value": "Intel N973.6Ghz 4 Cores"
+  },
+  {
+   "label": "RAM",
+   "value": "8GB"
+  },
+  {
+   "label": "Storage",
+   "value": "512GB"
+  },
+  {
+   "label": "Number of USB ports",
+   "value": "2"
+  },
+  {
+   "label": "Server type",
+   "value": "Music server"
+  }
+ ],
+ "spec_src": "inventory"
 }

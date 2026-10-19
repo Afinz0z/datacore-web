@@ -7,7 +7,41 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cisco Room Vision PTZ Camera, Arctic White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Camera type",
+   "value": "PTZ"
+  },
+  {
+   "label": "Max resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Camera connectivity",
+   "value": "HDMI, PoE"
+  },
+  {
+   "label": "Optical zoom",
+   "value": "12x"
+  },
+  {
+   "label": "Colour",
+   "value": "Arctic White"
+  },
+  {
+   "label": "Focus distance",
+   "value": "1.0 m to infinity (wide)"
+  },
+  {
+   "label": "Digital zoom",
+   "value": "5x"
+  },
+  {
+   "label": "Field of view",
+   "value": "80.5° horizontal"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CON-SNT-CSCAM1ZL",
   "CS-CAM-RVPTZ-CBKL"

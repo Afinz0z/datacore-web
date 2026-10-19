@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Aruba 3Y FC NBD Exch HW AP-615 SVC [for R7J49A]",
- "specs": [],
+ "specs": [
+  {
+   "label": "Coverage",
+   "value": "Hardware only"
+  },
+  {
+   "label": "Replacement",
+   "value": "Hardware replacement service"
+  },
+  {
+   "label": "Service type",
+   "value": "Next Business Day (NBD) Hardware Exchange"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "R7J49A"
  ]

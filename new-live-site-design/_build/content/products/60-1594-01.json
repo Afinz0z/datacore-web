@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SMP 111",
  "d": "SMP 111 Single Channel H.264 Streaming Media Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Audio input",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  }
+ ],
+ "spec_src": "inventory"
 }

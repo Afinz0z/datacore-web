@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "UC-MM30-NC-Z-I",
  "d": "UC-MM30-NC-Z-I Crestron Flex Tabletop Small Room Conference System for Zoom Rooms® Software, International",
- "specs": []
+ "specs": [
+  {
+   "label": "Recommended room size",
+   "value": "Huddle / Small"
+  },
+  {
+   "label": "Resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Display support",
+   "value": "3"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Zoom"
+  },
+  {
+   "label": "Type",
+   "value": "Kit"
+  },
+  {
+   "label": "Included components in kit",
+   "value": "Tabletop conference device, UC bracket, PoE injector, Cables"
+  },
+  {
+   "label": "UC engine spec",
+   "value": "Mini PC, Intel Core® processor with Windows® 11 IoT Edition OS and 100/1000 Mbps Ethernet connectivity"
+  }
+ ],
+ "spec_src": "inventory"
 }

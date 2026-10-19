@@ -13,10 +13,67 @@
    "value": "Industrial Network Switch"
   },
   {
+   "label": "Ports",
+   "value": "12"
+  },
+  {
+   "label": "PoE power",
+   "value": "30W, 60W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, IGMP, SNMP, IPV4 /IPV6, TCP/UDP, OSPF"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "56Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, Port Security, LLDP / LLDP-MED / CDP, Port mirroring (SPAN)"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Inter-VLAN routing, IPv4 / IPv6 Dual Stack, Inter-VLAN Routing, Policy-Based Routing (PBR)"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Dynamic ARP inspection, IP Source Guard, Access Control Lists (ACLs), SSH"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Fanless / Ruggedized Build"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3"
+  },
+  {
+   "label": "QoS (Quality of service)",
+   "value": "Traffic classification & marking (CoS / DSCP), Priority queuing for voice & video, Queue Management, DSCP Support"
+  },
+  {
+   "label": "Security",
+   "value": "IEEE 802.1X Port-based Authentication, MAC Authentication Bypass (MAB), MACsec (128/256-bit encryption), ACLs (IPv4 / IPv6 / MAC), Dynamic ARP Inspection (DAI), IP Source Guard"
+  },
+  {
+   "label": "Uplink port",
+   "value": "2"
+  },
+  {
    "label": "Series",
    "value": "4100i"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "H49Y0E",
   "J9151E",

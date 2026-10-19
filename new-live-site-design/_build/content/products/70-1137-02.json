@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "RM 5",
  "d": "RM 5 Rack Mount Kit for TLP Pro 525M and TLP Pro 725M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1561-02",
   "60-1561-03",

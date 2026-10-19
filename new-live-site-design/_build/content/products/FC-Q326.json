@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Quantum 326 3 piece surface touring flight case",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mixer type",
+   "value": "Audio Mixer"
+  },
+  {
+   "label": "Type",
+   "value": "Flight case"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "X-Q326-WS-NC"
  ]

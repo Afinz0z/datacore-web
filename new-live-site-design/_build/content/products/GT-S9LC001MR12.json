@@ -12,6 +12,59 @@
   {
    "label": "Type",
    "value": "single mode pigtail"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "singlemode"
+  },
+  {
+   "label": "Length",
+   "value": "1m"
+  },
+  {
+   "label": "Colour",
+   "value": "Blue"
+  },
+  {
+   "label": "Connector type",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Core/Cladding",
+   "value": "9/125 µm"
+  },
+  {
+   "label": "Cable diameter",
+   "value": "2.0 mm"
+  },
+  {
+   "label": "Buffer type",
+   "value": "900 µm"
+  },
+  {
+   "label": "Insertion loss, max.",
+   "value": "≤ 0.30 dB"
+  },
+  {
+   "label": "Return loss, min.",
+   "value": "≥ 50 dB (LC/UPC)"
+  },
+  {
+   "label": "Fiber count",
+   "value": "12 fibers"
+  },
+  {
+   "label": "Fiber type",
+   "value": "Single-mode OS2 (9/125 µm)"
+  },
+  {
+   "label": "Connector B",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Termination",
+   "value": "LC/UPC connector termination"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

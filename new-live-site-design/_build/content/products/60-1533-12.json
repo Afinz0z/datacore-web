@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP T MK 4K 231",
  "d": "DTP T MK 4K 231 -DTP HDMI Transmitter for Flex55 and MK Junction Boxes - 230 feet (70 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.2"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -9,8 +9,13 @@
  "d": "C1264 - 6C 22AWG Shielded PVC 305m -B3 (Made in Italy)",
  "specs": [
   {
+   "label": "Cores(Conductors)",
+   "value": "6 Core"
+  },
+  {
    "label": "Unit",
    "value": "Reel"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

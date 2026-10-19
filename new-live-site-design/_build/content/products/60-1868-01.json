@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "RCP 401 D",
  "d": "RCP 401 D SMP 401 Remote Control Panel - Decorator-Style",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Buttons type",
+   "value": "Pushbutton"
+  },
+  {
+   "label": "Type",
+   "value": "Remote Control Panels"
+  },
+  {
+   "label": "Connector",
+   "value": "USB"
+  }
+ ],
+ "spec_src": "inventory"
 }

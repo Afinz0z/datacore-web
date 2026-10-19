@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Logitech, TAPMSTBASELNV3, Tap Solution for Microsoft Teams Rooms with Lenovo ThinkSmart Core",
- "specs": []
+ "specs": [
+  {
+   "label": "Core system",
+   "value": "Pre-configured for Microsoft Teams Rooms (Native MTR Solution), Lenovo ThinkSmart Core with enterprise-grade performance and built-in security"
+  }
+ ],
+ "spec_src": "inventory"
 }

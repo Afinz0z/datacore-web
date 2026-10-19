@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SCRLED",
  "d": "Ceiling mounted strobe light",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Ceiling mounted strobe light"
+  }
+ ],
+ "spec_src": "inventory"
 }

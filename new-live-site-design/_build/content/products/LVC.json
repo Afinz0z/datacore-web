@@ -6,5 +6,11 @@
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "LVC"
+  }
+ ],
+ "spec_src": "inventory"
 }

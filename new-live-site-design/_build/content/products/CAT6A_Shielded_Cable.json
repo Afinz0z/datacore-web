@@ -9,8 +9,13 @@
  "d": "CAT6A Shielded Cable (305 Mtr)",
  "specs": [
   {
+   "label": "Cable length",
+   "value": "305m"
+  },
+  {
    "label": "Unit",
    "value": "Roll"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

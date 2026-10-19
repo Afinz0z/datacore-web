@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "patch cord 1m"
+  },
+  {
+   "label": "Length",
+   "value": "1m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "aqua"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

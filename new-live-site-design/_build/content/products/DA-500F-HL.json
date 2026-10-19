@@ -6,5 +6,15 @@
  "c": "Amplifier",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  }
+ ],
+ "spec_src": "inventory"
 }

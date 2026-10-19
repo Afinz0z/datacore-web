@@ -11,6 +11,43 @@
   {
    "label": "Type",
    "value": "Dante Amplifier"
+  },
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "20 W"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, USB C, 2-pin 3.5 mm terminal block"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  },
+  {
+   "label": "Inbuild DSP",
+   "value": "Yes"
+  },
+  {
+   "label": "Inbuild mixer",
+   "value": "4x4"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

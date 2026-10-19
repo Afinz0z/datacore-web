@@ -7,7 +7,73 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CloudEngine S5735-L16P2UM2X-QA-V2 - 16 × Gigabit PoE+ access ports, 2 × 10G Multigig PoE++ ports, 2 × 10G SFP+ uplinks, 247 W PoE budget, fanless Layer 3 managed access switch.",
- "specs": [],
+ "specs": [
+  {
+   "label": "PoE power",
+   "value": "247 W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Protocols",
+   "value": "STP/RSTP, SNMP, IPV4 /IPV6"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "176Gbps, 672 Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE 802.3bt"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, Link Aggregation (LACP - IEEE 802.3ad), LLDP / LLDP-MED / CDP, Port mirroring (SPAN)"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Policy-based routing (PBR), IPv4 / IPv6 Dual Stack"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Non-blocking architecture, Enterprise-grade MTBF, Fanless / Ruggedized Build"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping, PIM Sparse Mode (PIM-SM), Source-Specific Multicast (SSM)"
+  },
+  {
+   "label": "QoS (Quality of service)",
+   "value": "Hardware-based QoS at wire speed, Traffic classification & marking (CoS / DSCP), Priority queuing for voice & video, Policing, shaping, CIR, Up to 8 egress queues per port, Queue Management, DSCP Support"
+  },
+  {
+   "label": "Stacking technology",
+   "value": "iStack"
+  },
+  {
+   "label": "Maximum stack members",
+   "value": "Up to 9"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "2"
+  },
+  {
+   "label": "Multigig (rj-45) PORTS",
+   "value": "2"
+  },
+  {
+   "label": "Uplink port",
+   "value": "2"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "88134UGQ-427",
   "L-MLIC-S57L",

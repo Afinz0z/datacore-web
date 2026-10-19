@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "27U Floor standing cabinet 800 x 800mm with accessories (Fan,1x6way PDU & 2pcs vertical cable manager1pc shleve)",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "27U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Floor standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

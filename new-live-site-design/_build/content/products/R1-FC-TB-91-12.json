@@ -9,8 +9,13 @@
  "d": "Tight Buffered Distribution Cable Singlemode LSZH 12 Fibres",
  "specs": [
   {
+   "label": "No of fibers",
+   "value": "12"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "LC4-MFD",
  "d": "Metal fire dome LC4, Standard",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  }
+ ],
+ "spec_src": "inventory"
 }

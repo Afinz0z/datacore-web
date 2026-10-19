@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Poly IP Ceiling Microphone Array (875S1AA) Digital microphone and Acoustic Fence technology, Adjustable drop height,360-degree coverage and capture the speaker featuring",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Ceiling Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  }
+ ],
+ "spec_src": "inventory"
 }

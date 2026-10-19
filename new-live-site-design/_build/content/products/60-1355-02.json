@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "FOX II T HD 4K MM",
  "d": "FOX II T HD 4K MM Two Outlet USB Charger - MAAP Version",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply Module"
+  },
+  {
+   "label": "Output",
+   "value": "5 V DC"
+  }
+ ],
+ "spec_src": "inventory"
 }

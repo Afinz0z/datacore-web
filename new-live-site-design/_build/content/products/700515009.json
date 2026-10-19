@@ -11,8 +11,37 @@
   {
    "label": "Type",
    "value": "IP telephone server"
+  },
+  {
+   "label": "Processor type",
+   "value": "Intel xeon E-2200 Series"
+  },
+  {
+   "label": "Processor speed",
+   "value": "3.8 GZ"
+  },
+  {
+   "label": "RAM",
+   "value": "64 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "56 TB"
+  },
+  {
+   "label": "Number of USB ports",
+   "value": "2"
+  },
+  {
+   "label": "Server type",
+   "value": "Unified communication server"
+  },
+  {
+   "label": "Number of users",
+   "value": "750"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "383085",
   "383110",

@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "PDU-6 WAY-13 AMP",
  "d": "HPDU-Saudi Standard - 1U-6 Way- 13 AMP-UK-Type Plug-Overload Protection & ON/OFF",
- "specs": [],
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "HORIZONTAL"
+  },
+  {
+   "label": "Plug",
+   "value": "UK plug (BS1363)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "GMC-WMS-9U-66-1F"
  ]

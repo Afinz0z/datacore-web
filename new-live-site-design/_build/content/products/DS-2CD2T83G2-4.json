@@ -11,8 +11,161 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Fixed lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "80m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "20fps"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "256 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.264+ , H.265 , H.265+"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Smart event",
+   "value": "INTRUCTION DETECTION"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing, intrusion"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTCP, NTP, UPnP, SMTP, IGMP, 802.1X, QoS, IPv4, IPv6, UDP, Bonjour, SSL/TLS, PPPoE, SNMP, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile T)"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, IP address filter"
+  },
+  {
+   "label": "Network storage",
+   "value": "NAS (NFS, SMB/CIFS), NVR, HIK-connect cloud/p2p storage"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Day, Night"
+  },
+  {
+   "label": "Image settings",
+   "value": "Saturation, Brightness, Contrast, Sharpness"
+  },
+  {
+   "label": "SNR",
+   "value": ">50 db"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "Defog"
+  },
+  {
+   "label": "Iris type",
+   "value": "Fixed Iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "Trigger type",
+   "value": "Video Detection"
+  },
+  {
+   "label": "Picture type",
+   "value": "Standered +default mode"
+  },
+  {
+   "label": "Image format",
+   "value": "JPEG"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Lens type",
+   "value": "2.8 mm to 12 mm, 4 mm or 6 mm"
+  },
+  {
+   "label": "Focal length & FOV",
+   "value": "4 mm (89°/46°/107.5°)"
+  },
+  {
+   "label": "Focus",
+   "value": "Auto"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 80 m"
+  },
+  {
+   "label": "IR wavelength",
+   "value": "850 nm"
+  },
+  {
+   "label": "Shutter time",
+   "value": "1/3 s to 1/100, 000 s"
+  },
+  {
+   "label": "Audio compression",
+   "value": "G.726"
+  },
+  {
+   "label": "Audio bit rate",
+   "value": "64 Kbps (G.711ulaw/G.711alaw)"
+  },
+  {
+   "label": "Audio sampling rate",
+   "value": "8 kHz"
+  },
+  {
+   "label": "Environment noise filtering",
+   "value": "NO"
+  },
+  {
+   "label": "Max. resolution",
+   "value": "8MP - 3840*2160 (4K/Ultra HD)"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "DS-1260ZJ",
   "DS-1275ZJ-S-SUS",

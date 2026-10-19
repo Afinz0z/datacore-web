@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "DTP HDMI 4K 330 Tx",
  "d": "DTP HDMI 4K 330 Tx Long Distance HDMI Twisted Pair Transmitter - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45, 3-pin 3.5 mm"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm stereo jack"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

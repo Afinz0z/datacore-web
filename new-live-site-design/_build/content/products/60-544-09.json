@@ -11,7 +11,12 @@
  "specs": [
   {
    "label": "Type",
-   "value": "Power Control"
+   "value": "Power Control and Current Sensor"
+  },
+  {
+   "label": "Connector",
+   "value": "RJ45, IEC Connectors"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

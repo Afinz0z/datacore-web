@@ -6,5 +6,11 @@
  "c": "Software - license",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Software"
+  }
+ ],
+ "spec_src": "inventory"
 }

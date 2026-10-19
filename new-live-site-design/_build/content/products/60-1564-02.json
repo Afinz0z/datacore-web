@@ -8,5 +8,47 @@
  "avail": "lead",
  "model": "TLP Pro 725C",
  "d": "TLP Pro 725C 7″ Cable Cubby TouchLink Pro Touchpanel",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "7\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1024 x 600"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Ethernet, RJ-45"
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Cable Cubby"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Wireless support",
+   "value": "No"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Build in cable cubby modular enclosure",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

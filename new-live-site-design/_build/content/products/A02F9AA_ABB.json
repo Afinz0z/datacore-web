@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Poly Studio G62 PoE+ Adapter and Cable Kit (A02F9AA)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "99T09AA"
  ]

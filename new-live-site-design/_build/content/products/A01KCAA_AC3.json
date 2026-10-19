@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "A01KCAA#AC3",
  "d": "Poly Studio G62 Video Conferencing System With Mounting Plate Kit WW",
- "specs": [],
+ "specs": [
+  {
+   "label": "Included components in kit",
+   "value": "CODEC, Mounting Plate"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "U86WDPV"
  ]

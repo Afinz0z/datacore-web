@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24*10GE SFP+ ports, 6*40GE QSFP28 ports, optional license for upgrade to 6*100GE QSFP28, without power module",
- "specs": [],
+ "specs": [
+  {
+   "label": "SFP ports",
+   "value": "24"
+  },
+  {
+   "label": "Switching capacity",
+   "value": "1.68 Tbps"
+  },
+  {
+   "label": "Fan",
+   "value": "4 pluggable fan modules"
+  },
+  {
+   "label": "Protocols",
+   "value": "BGP, OSPF, IEEE 802.1Q, Static Routing"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "88134UGQ-4SU_36",
   "L-MLIC-S67H",

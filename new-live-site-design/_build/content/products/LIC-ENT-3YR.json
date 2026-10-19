@@ -6,7 +6,85 @@
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "Meraki MR Enterprise License"
+  },
+  {
+   "label": "Category",
+   "value": "Wireless Networking / Wi-Fi"
+  },
+  {
+   "label": "Channels support",
+   "value": "Depends on supported Meraki MR access point"
+  },
+  {
+   "label": "WIFI",
+   "value": "YES"
+  },
+  {
+   "label": "Base license",
+   "value": "Enterprise License"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Yes, through Meraki Dashboard organization/network management"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software / Cloud Subscription"
+  },
+  {
+   "label": "Application",
+   "value": "Wireless LAN / Wi-Fi network management"
+  },
+  {
+   "label": "License type",
+   "value": "Enterprise Subscription License"
+  },
+  {
+   "label": "Transmission media",
+   "value": "Wireless LAN (Wi-Fi) / Ethernet uplink"
+  },
+  {
+   "label": "Function",
+   "value": "Provides cloud-based management, monitoring, configuration and enterprise features for Meraki MR wireless access points"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 supported MR access point per applicable license"
+  },
+  {
+   "label": "System",
+   "value": "Cisco Meraki Dashboard"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Cisco Meraki MR Series Wireless Access Point"
+  },
+  {
+   "label": "Associated product",
+   "value": "Meraki MR Series Access Point"
+  },
+  {
+   "label": "Supporting product",
+   "value": "Cisco Meraki Dashboard"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per Meraki MR access point, 3-year term"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "MR57-HW LIC-ENT-3YR"
  ]

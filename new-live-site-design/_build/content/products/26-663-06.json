@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HDMI Ultra/6 4K Premium High Speed HDMI Ultra-Flexible Cable - 6' (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Cable type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

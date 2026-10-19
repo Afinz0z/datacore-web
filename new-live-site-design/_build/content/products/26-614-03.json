@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "HDMI DVI-D/12",
  "d": "HDMI DVI-D/12 HDMI to DVI Standard Speed Cable - 12' (3.6 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "3.6m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "HDMI to DVI"
+  }
+ ],
+ "spec_src": "inventory"
 }

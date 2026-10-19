@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "USB PowerPlate 200 AAP Two Outlet USB Charger - AAP Version",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply Module"
+  },
+  {
+   "label": "Output",
+   "value": "5 V DC"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "60-300-02",
   "60-300-03",

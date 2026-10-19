@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "24\" Full HD Small Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "24\""
+  },
+  {
+   "label": "Type",
+   "value": "Non-interactive"
+  }
+ ],
+ "spec_src": "inventory"
 }

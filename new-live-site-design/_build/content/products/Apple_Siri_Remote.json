@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Apple Siri Remote",
  "d": "Remote Control",
- "specs": []
+ "specs": [
+  {
+   "label": "Remote type",
+   "value": "IR"
+  }
+ ],
+ "spec_src": "inventory"
 }

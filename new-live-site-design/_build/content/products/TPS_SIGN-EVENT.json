@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "TPS_SIGN-EVENT",
  "d": "Event engine",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Event engine"
+  }
+ ],
+ "spec_src": "inventory"
 }

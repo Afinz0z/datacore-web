@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Double Door Magnetic Lock with LED & Bond Sensor -600 LBS with ZL brackets",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lock type",
+   "value": "Dual Magnetic Lock"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "EN-280SZL-DS"
  ]

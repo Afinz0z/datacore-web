@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SLXD24UK/SM58",
  "d": "Digital Wireless Handheld System with SM58® Cardioid Dynamic Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio performance",
+   "value": "24-bit digital audio >118 dB dynamic range SM58 cardioid dynamic capsule"
+  },
+  {
+   "label": "RF performance",
+   "value": "138 MHz wide tuning range Up to 11 systems (6 MHz) / 14 systems (8 MHz) ShowLink® Ease remote control & auto interference avoidance"
+  },
+  {
+   "label": "Security & power",
+   "value": "AES-256 encryption Up to 8 hours battery life (AA or SB903 rechargeable)"
+  }
+ ],
+ "spec_src": "inventory"
 }

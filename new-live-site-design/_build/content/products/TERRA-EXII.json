@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "STANDARD EX TYPE: (Audio line in*2)(control in*3) (relay out*1) (haedphone out*1)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Decoder"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "2 balanced mono or 1 stereo line output → max 2 zones per unit"
+  },
+  {
+   "label": "Network/Protocols",
+   "value": "SIP, RTP, multicast over Ethernet → enterprise IP paging ready"
+  },
+  {
+   "label": "Power",
+   "value": "PoE / PoE+ or 21-27.5V DC → no local power adapter required"
+  }
+ ],
+ "spec_src": "inventory"
 }

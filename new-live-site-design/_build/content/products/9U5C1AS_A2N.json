@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "23.8-inch Full HD business monitor with VA panel, 100 Hz refresh rate, HDMI and VGA connectivity, designed for everyday office productivity.",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "23.8"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel type",
+   "value": "VA Panel"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

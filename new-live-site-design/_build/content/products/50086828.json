@@ -11,8 +11,45 @@
   {
    "label": "Type",
    "value": "Indoor campus access point"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 7 (IEEE 802.11be)"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": tri-band"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO, 4×4 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 2.8 dBi, 5 GHz: 7.0 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Target Wake Time (TWT), MU-MIMO (UL/DL), BSS Coloring"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3"
+  },
+  {
+   "label": "Certifications",
+   "value": "CE, FCC"
+  },
+  {
+   "label": "Power",
+   "value": "Direct DC power"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "1 × RJ-45 Ethernet port (E0), 1 × 2.5GE RJ-45 (PoE-IN), 1 × 2.5 Gigabit Multigig Ethernet (RJ-45)"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "88063NWL",
   "88134UGJ-61K",

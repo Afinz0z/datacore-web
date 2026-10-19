@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "KLCOB0.9 V2 600*337.5,Dimensions (w x h) (mm) - 150*168.75, Pixel Pitch (mm) -0.93, Panel Quantity(pcs) - 8*4, Panel Area Dimension(sqm) - 4.800*1.350 with Nova VX2000 PRO Video processor.",
- "specs": []
+ "specs": [
+  {
+   "label": "Pixel pitch",
+   "value": "0.93 mm"
+  },
+  {
+   "label": "Video processor",
+   "value": "VX2000 PRO"
+  }
+ ],
+ "spec_src": "inventory"
 }

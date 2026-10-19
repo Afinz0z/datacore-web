@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Nano4k, 4K DCI",
  "d": "Video Processor (SACO Nano4k, 4K DCI)",
- "specs": []
+ "specs": [
+  {
+   "label": "Input resolution",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

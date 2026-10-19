@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "DTP T HD2 4K 330",
  "d": "DTP T HD2 4K 330 - Long Distance HDMI Twisted Pair Transmitter with Input Loop-Through - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

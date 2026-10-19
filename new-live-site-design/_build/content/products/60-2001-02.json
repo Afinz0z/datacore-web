@@ -8,5 +8,59 @@
  "avail": "lead",
  "model": "TLP Pro 1535T",
  "d": "TLP Pro 1535T 15.6\" Tabletop TouchLink Pro Touchpanel -Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "15.5\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1920 x 1080"
+  },
+  {
+   "label": "Connectivity",
+   "value": "USB C, RJ-45"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "RAM",
+   "value": "4 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "450 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "32GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "800:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory"
 }

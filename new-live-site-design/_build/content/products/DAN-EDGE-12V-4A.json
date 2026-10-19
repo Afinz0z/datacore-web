@@ -11,9 +11,30 @@
  "specs": [
   {
    "label": "Type",
-   "value": "12v 4a dc psu"
+   "value": "Power Supply"
+  },
+  {
+   "label": "Output",
+   "value": "12 V DC"
+  },
+  {
+   "label": "Maximum battery capacity",
+   "value": "7Ah"
+  },
+  {
+   "label": "Weight",
+   "value": "< 3.7Kg"
+  },
+  {
+   "label": "Power",
+   "value": "< 72VA"
+  },
+  {
+   "label": "Connector",
+   "value": "PCB terminal block (2.5mm²)"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "GSTAR004-MB"
  ]

@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CLAMP 100 Lifting weight 200 kg - 42-52mm , type Screw Clamp, production model JC-ZN09B30 , TUV Certified,",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Clamp"
+  }
+ ],
+ "spec_src": "inventory"
 }

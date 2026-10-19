@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NAV E 201 D - 1G Pro AV over IP Encoder for HDMI, Decorator-Style Wallplate, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Audio input connectors",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

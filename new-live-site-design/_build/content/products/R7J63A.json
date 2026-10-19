@@ -6,5 +6,11 @@
  "c": "Power Supply",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply"
+  }
+ ],
+ "spec_src": "inventory"
 }

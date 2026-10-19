@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "FT2A-CBLR-BRKT-202",
  "d": "FT2A-CBLR-BRKT-202 Mid-Row Cable Retractor Adapter Bracket for FT2-202 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Adapter"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6511665",
   "6511666",

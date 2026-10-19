@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "DVDO-AudioEmb-1",
  "d": "HDMI 18Gbps Audio Embedder can embed audio signals from digital optical or analog stereo Line audio to HDMI output.",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Audio Embedder"
+  },
+  {
+   "label": "Inputs",
+   "value": "1x HDMI, 1x Line, 1x Optical"
+  },
+  {
+   "label": "Outputs",
+   "value": "1x HDMI"
+  },
+  {
+   "label": "Dimensions [wxdxh]",
+   "value": "73.5mm x 60.7mm x 17mm"
+  }
+ ],
+ "spec_src": "inventory"
 }

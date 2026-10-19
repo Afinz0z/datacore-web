@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "MLA VC10 Plus",
  "d": "MLA VC10 Plus Volume Control Module",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "RS 232"
+  }
+ ],
+ "spec_src": "inventory"
 }

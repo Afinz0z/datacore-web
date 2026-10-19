@@ -7,5 +7,139 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "iDS-2CD7186G2-IZ(H)S(Y) 8 MP DeepinView Moto Varifocal Dome Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motorized telephoto lens"
+  },
+  {
+   "label": "WDR",
+   "value": "140 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "40"
+  },
+  {
+   "label": "Frame rate",
+   "value": "25 fps, 30 fps"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP67"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264+"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Smart event",
+   "value": "INTRUCTION DETECTION, Line Crossing, Intrusion Detection, Scene Change Detection"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing, intrusion, region entrance, region exiting"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTCP, NTP, SMTP, IPv4, IPv6, UDP, Bonjour, SFTP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF (Profile S, Profile G), ISAPI"
+  },
+  {
+   "label": "Security",
+   "value": "HTTPS encryption, IP address filter"
+  },
+  {
+   "label": "Network storage",
+   "value": "NAS (NFS, SMB/CIFS)"
+  },
+  {
+   "label": "Web browser",
+   "value": "IE 8 to 11, Chrome 57+, Firefox 52+, Safari 12+"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Day, Night, Auto, Schedule, Alarm Trigger"
+  },
+  {
+   "label": "Image settings",
+   "value": "Rotate mode"
+  },
+  {
+   "label": "SNR",
+   "value": "≥ 52 dB"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "3D DNR"
+  },
+  {
+   "label": "Trigger type",
+   "value": "Video Detection, Motion Detection, Video Tampering"
+  },
+  {
+   "label": "Picture type",
+   "value": "JPEG"
+  },
+  {
+   "label": "Scene mode",
+   "value": "Indoor / Outdoor"
+  },
+  {
+   "label": "Capture type",
+   "value": "JPEG IMAGE"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "License plate recognition",
+   "value": "Not supported"
+  },
+  {
+   "label": "Smart recognition",
+   "value": "Line Crossing, Intrusion Detection"
+  },
+  {
+   "label": "Capture picture overlay",
+   "value": "Capture Time"
+  },
+  {
+   "label": "Focus",
+   "value": "Vari-focal lens"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 40 m"
+  },
+  {
+   "label": "Audio compression",
+   "value": "G.711ulaw"
+  },
+  {
+   "label": "Max. resolution",
+   "value": "8MP - 3840*2160 (4K/Ultra HD)"
+  }
+ ],
+ "spec_src": "inventory"
 }

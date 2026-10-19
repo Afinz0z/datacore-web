@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "MGP 641 xi 5K",
  "d": "MGP 641 xi 5K Four-Window HDMI scaling signal processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, BNC"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI, 5-pin 3.5mm terminal blocks, RJ45"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, BNC"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI, RJ-45"
+  }
+ ],
+ "spec_src": "inventory"
 }

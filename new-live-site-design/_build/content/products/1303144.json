@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Yealink microphone • 1x VCM35 array microphone with 5m CAT5e cable • 1x RJ45 adapter for cable extension • including 2-year hardware warranty\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Video Conferencing Microphone"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  }
+ ],
+ "spec_src": "inventory"
 }

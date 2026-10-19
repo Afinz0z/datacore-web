@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "USB Extender Plus D T - Twisted Pair Extender for USB Peripherals - Decorator-Style Wallplate",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-B"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

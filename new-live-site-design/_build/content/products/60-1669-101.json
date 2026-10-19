@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "TLSI 201",
  "d": "TLSI 201 Interactive Wayfinding Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector type",
+   "value": "RJ45, HDMI, USB A"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Type",
+   "value": "Wayfinding Interface"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "16GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

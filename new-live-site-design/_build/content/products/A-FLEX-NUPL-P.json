@@ -7,7 +7,57 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Named-User On-Premises Calling Professional license (Cisco Collaboration Flex Plan).",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Named-User On-Premises Calling Professional"
+  },
+  {
+   "label": "Category",
+   "value": "Unified Communications / IP Telephony"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software Subscription"
+  },
+  {
+   "label": "Application",
+   "value": "IP telephony, voice and unified communications"
+  },
+  {
+   "label": "License type",
+   "value": "Named User Subscription"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides professional on-premises calling and collaboration capabilities for an assigned user"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 named user per entitlement"
+  },
+  {
+   "label": "System",
+   "value": "Cisco Collaboration Flex Plan"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Cisco IP Phones / compatible UC infrastructure"
+  },
+  {
+   "label": "Associated product",
+   "value": "Cisco CUBE"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

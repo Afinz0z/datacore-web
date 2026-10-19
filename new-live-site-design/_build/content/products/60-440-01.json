@@ -10,8 +10,25 @@
  "d": "MDA 3A Three Output Stereo Audio Distribution Amplifier",
  "specs": [
   {
+   "label": "Distribution",
+   "value": "1x3"
+  },
+  {
+   "label": "Audio input",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Audio output",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
    "label": "Type",
    "value": "Audio Distribution Amplifier"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "400 MHz"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

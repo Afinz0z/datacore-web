@@ -7,7 +7,73 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "S5735-S24PN4XE-V2 (24*10/100/1000/2.5GBASE-T ports(PoE+), 4*10GE SFP+ ports, 2*12GE stack ports, without power module)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "PoE power",
+   "value": "90 W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, STP/RSTP, IGMP, IPV4 /IPV6, OSPF"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "200 Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, Port Security, MAC address filtering, Link Aggregation (LACP - IEEE 802.3ad), Port mirroring (SPAN), IGMP Snooping"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Inter-VLAN routing, Policy-based routing (PBR), IPv4 / IPv6 Dual Stack, BGP"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, Access Control Lists (ACLs), Secure Boot & Trust Anchor Module (TAM), MACsec (128/256-bit encryption), SSH"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Redundant, hot-swappable power supplies, Non-blocking architecture, Enterprise-grade MTBF"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping, PIM Sparse Mode (PIM-SM), Source-Specific Multicast (SSM)"
+  },
+  {
+   "label": "QoS (Quality of service)",
+   "value": "Hardware-based QoS at wire speed, Traffic classification & marking (CoS / DSCP), Priority queuing for voice & video, Policing, shaping, CIR, Up to 8 egress queues per port, Queue Management, DSCP Support"
+  },
+  {
+   "label": "Security",
+   "value": "IEEE 802.1X Port-based Authentication, MAC Authentication Bypass (MAB), ACLs (IPv4 / IPv6 / MAC), DHCP Snooping, Secure Boot & Trust Anchor, Web Authentication (WebAuth)"
+  },
+  {
+   "label": "Stacking technology",
+   "value": "iStack"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "4"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "88134UGQ-6AU_36",
   "98012400_88134UGQ-6AU_36",

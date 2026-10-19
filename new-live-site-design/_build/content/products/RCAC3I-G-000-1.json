@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "RCAC3I-G-000-1",
  "d": "3 pole AC power inlet connector",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "AC Power Inlet Plug"
+  },
+  {
+   "label": "Colour",
+   "value": "Blue"
+  }
+ ],
+ "spec_src": "inventory"
 }

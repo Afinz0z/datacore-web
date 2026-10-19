@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Network Loop Ethernet Switch Suitable For Dante (Stp/Rstp Protocol)",
- "specs": []
+ "specs": [
+  {
+   "label": "Certified",
+   "value": "EN 54-16"
+  }
+ ],
+ "spec_src": "inventory"
 }

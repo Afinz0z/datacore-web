@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SHURE PA805 DIRECTIONAL ANTENNA,PA805 is a directional antenna for increased range and reduced interference as compared to omnidirectional 1/2-wave antennas.",
- "specs": []
+ "specs": [
+  {
+   "label": "Application",
+   "value": "Wireless Mic"
+  },
+  {
+   "label": "Antenna type",
+   "value": "Directional"
+  },
+  {
+   "label": "Connector type",
+   "value": "BNC"
+  }
+ ],
+ "spec_src": "inventory"
 }

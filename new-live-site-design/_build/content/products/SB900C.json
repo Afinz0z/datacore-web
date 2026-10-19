@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SB900C",
  "d": "RECHARGEABLE BATTERY",
- "specs": []
+ "specs": [
+  {
+   "label": "Rechargeable / Non-Rechargeable",
+   "value": "Rechargeable"
+  }
+ ],
+ "spec_src": "inventory"
 }

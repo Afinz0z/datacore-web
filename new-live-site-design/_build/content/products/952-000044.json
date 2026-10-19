@@ -6,7 +6,17 @@
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "All in one Bar"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "960-001308"
  ]

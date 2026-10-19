@@ -9,10 +9,15 @@
  "d": "110\" 4k UHD, 16:9 IFP Panel (40 touch, Slim IR, Dual Pen, Android 13, 8GB/128GB)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "110\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LGF-110",

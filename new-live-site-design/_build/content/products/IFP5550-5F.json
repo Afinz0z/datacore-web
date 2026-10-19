@@ -9,10 +9,15 @@
  "d": "55\"4k UHD IFP Panel (20 touch, Slim IR, Dual Pen, Speaker 12W x 2 + 16W, Android 11, 8GB/64GB)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "55\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-Emerald1",
   "LGC-5586",

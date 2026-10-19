@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "64 Access Readers upgrade for all PRO systems, no maximum on number of readers.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "1 years"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SWS-PRO"
  ]

@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "HDMI Pro/50",
  "d": "HDMI Pro/50 4K High Speed HDMI Pro Cable - 50' (15.2 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "15.2 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "HDMI M to HDMI M"
+  },
+  {
+   "label": "Cable type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

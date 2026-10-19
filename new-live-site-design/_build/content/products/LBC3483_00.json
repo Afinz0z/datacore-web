@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch LBC3483/00 Horn Loudspeaker 35W Water-and dust protected to IP 65",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Versatile Mounting"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Line Array"
+  },
+  {
+   "label": "Power",
+   "value": "35 W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "380 Hz to 5 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

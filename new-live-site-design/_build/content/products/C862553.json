@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Long Range Vehicle Reader"
+  },
+  {
+   "label": "Operating frequency",
+   "value": "865 - 928 MHz"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "C862554",
   "C862555"

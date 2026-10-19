@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "M-800RM Remote Microphone has volume control andzone selector as well as an indicator LED on thegooseneck microphone.",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Gooseneck Mic"
+  }
+ ],
+ "spec_src": "inventory"
 }

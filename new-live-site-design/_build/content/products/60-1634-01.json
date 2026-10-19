@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "SMP 352 - 80 GB SSD",
  "d": "SMP 352 - 80 GB SSD Dual Recording H.264 Streaming Media Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "HDMI, BNC"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Audio input",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Recording",
+   "value": "Dual channel"
+  },
+  {
+   "label": "Storage",
+   "value": "80 GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,45 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cisco Enhanced Smart License.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Enhanced Smart License"
+  },
+  {
+   "label": "Category",
+   "value": "Unified Communications / Collaboration"
+  },
+  {
+   "label": "Base license",
+   "value": "Cisco Collaboration Flex Plan"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software License"
+  },
+  {
+   "label": "Application",
+   "value": "Unified Communications / IP Telephony"
+  },
+  {
+   "label": "License type",
+   "value": "Smart License / Named User"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides Enhanced user licensing for Cisco Unified Communications"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

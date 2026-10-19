@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HID Origo Mobile Iden es 1 Year User License",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "App, License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "W-UNL"
  ]

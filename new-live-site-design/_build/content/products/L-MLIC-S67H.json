@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "S67XX-H Series Basic SW,Per Device",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "10 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "IPTV"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "S6730-H24X6C-V2",
   "S6730-H48X6C-V2"

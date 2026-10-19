@@ -9,8 +9,17 @@
  "d": "012TEU-13188A2G Central Tube Indoor/Outdoo r Dielectric Armor Cable (1x12) G50 MMF ClearCurve® OM3 CT 3,0",
  "specs": [
   {
+   "label": "Fiber core count",
+   "value": "12"
+  },
+  {
+   "label": "Installation environment",
+   "value": "indoor and outdoor"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

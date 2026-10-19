@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "Kvm switch"
+  },
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE)"
+  },
+  {
+   "label": "Security features",
+   "value": "DHCP snooping, Dynamic ARP inspection"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HR4C2E",
   "J4858D",

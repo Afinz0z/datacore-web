@@ -11,6 +11,31 @@
   {
    "label": "Type",
    "value": "Handheld"
+  },
+  {
+   "label": "Type of mic",
+   "value": "Handheld Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wireless"
+  },
+  {
+   "label": "Tx/Rx",
+   "value": "Tx"
+  },
+  {
+   "label": "Pick-up pattern",
+   "value": "Super-cardioid"
+  },
+  {
+   "label": "Transducer type",
+   "value": "Dynamic"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

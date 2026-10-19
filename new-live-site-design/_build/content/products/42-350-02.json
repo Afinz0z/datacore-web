@@ -7,5 +7,39 @@
  "dept": "AV",
  "avail": "lead",
  "d": "ShareLink Pro 2000 Miracast & ShareNext Kit - ShareLink Pro 2000 w/ Miracast & ShareNext - EU",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "Balanced analog, HDMI"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI, Balanced analog"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI, 4K60 4:4:4"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Sharing category",
+   "value": "Wired, Wireless"
+  },
+  {
+   "label": "System compatibility",
+   "value": "Android, Windows, macOS"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "AirPlay®, Miracast®, WebShare™"
+  }
+ ],
+ "spec_src": "inventory"
 }

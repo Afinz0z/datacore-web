@@ -13,8 +13,57 @@
    "value": "U/utp"
   },
   {
+   "label": "Reel/box length",
+   "value": "500 M"
+  },
+  {
+   "label": "Colour",
+   "value": "Orange"
+  },
+  {
+   "label": "Cable type",
+   "value": "U/UTP"
+  },
+  {
+   "label": "No of pairs",
+   "value": "4"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "ANSI/TIA-568.2-D, ISO/IEC 11801"
+  },
+  {
+   "label": "PoE support",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE 802.3bt (PoE++)*"
+  },
+  {
+   "label": "Outer jacket material",
+   "value": "PVC (indoor), LSZH / LS0H (low smoke, zero halogen)"
+  },
+  {
+   "label": "Installation type",
+   "value": "Indoor"
+  },
+  {
+   "label": "Category",
+   "value": "Cat 6A"
+  },
+  {
+   "label": "Conductor size (AWG)",
+   "value": "23 AWG"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "500 MHz"
+  },
+  {
+   "label": "Max data rate",
+   "value": "10 Gbps"
+  },
+  {
    "label": "Unit",
    "value": "Roll"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

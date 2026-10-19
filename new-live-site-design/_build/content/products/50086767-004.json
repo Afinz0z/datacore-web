@@ -7,7 +7,37 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AirEngine5773-21(11be indoor,2+2 dual bands,smart antenna,USB,BLE)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 7 (IEEE 802.11be)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 4.0 dBi"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3"
+  },
+  {
+   "label": "Power",
+   "value": "12 V ± 10%"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "1 × 2.5GE RJ-45 (PoE-IN)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "88134UJL-5PH"
  ]

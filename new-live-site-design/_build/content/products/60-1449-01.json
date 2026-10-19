@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "MPA 601-70V",
  "d": "MPA 601-70V - One Channel Amp, 60 watts at 70 volts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "1"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "60 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "5-pin 3.5mm terminal blocks, 3.5 mm mini audio jack"
+  }
+ ],
+ "spec_src": "inventory"
 }

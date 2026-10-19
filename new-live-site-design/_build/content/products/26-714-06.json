@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "DPM-HDF/6 4K PLUS",
  "d": "DPM-HDF/6 4K PLUS DisplayPort Male to HDMI Female Active Adapter Cable - 6ft (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "DisplayPort to HDMI"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

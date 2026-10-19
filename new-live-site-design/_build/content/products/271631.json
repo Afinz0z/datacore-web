@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "support contract",
  "d": "IPO REM TECH SUPT 8X5 - HP DL120G7 1YPP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "1 Year"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "700513916"
  ]

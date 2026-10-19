@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Retractor Network-Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - Network CAT 6",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity / connector",
+   "value": "Network, CAT 6"
+  },
+  {
+   "label": "Type",
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "RJ45 to RJ45"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

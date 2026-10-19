@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "Dual faceplate"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "No slot",
+   "value": "2"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "R1-BPL19-1U"
  ]

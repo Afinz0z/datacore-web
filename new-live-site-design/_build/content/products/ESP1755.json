@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "ESP1755",
  "d": "Pearl Nano 4K Addon",
- "specs": [],
+ "specs": [
+  {
+   "label": "Recorder type",
+   "value": "Audio, Video"
+  },
+  {
+   "label": "Inputs",
+   "value": "SDI, HDMI"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "ESP1610"
  ]

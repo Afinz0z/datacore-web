@@ -7,5 +7,39 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Adjustable rack rail bracket for mounting compatible Dahua EVS and IVSS servers in standard 19-inch cabinets. Supports 3U or higher chassis with 16-48 bays and cabinets 800-1200 mm deep.",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of accessories",
+   "value": "Server Rack Rail Kit"
+  },
+  {
+   "label": "Type",
+   "value": "Server Rack Rail Bracket"
+  },
+  {
+   "label": "Rack height",
+   "value": "3U or higher"
+  },
+  {
+   "label": "Rack size",
+   "value": "19inch"
+  },
+  {
+   "label": "Function",
+   "value": "Supports secure rack mounting and installation of compatible Dahua servers in 19-inch cabinets."
+  },
+  {
+   "label": "Bracket type",
+   "value": "Adjustable Server Rack Rail Bracket"
+  },
+  {
+   "label": "Mounting type",
+   "value": "19-inch rack mounting"
+  },
+  {
+   "label": "Casing material",
+   "value": "Galvanized Steel Sheet"
+  }
+ ],
+ "spec_src": "inventory"
 }

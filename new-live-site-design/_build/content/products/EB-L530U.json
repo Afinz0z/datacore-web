@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "EB-L530U fixed lens laser projector offers 5,200 lumens",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection resolution",
+   "value": "WUXGA (1920 x 1200)"
+  },
+  {
+   "label": "Light source type",
+   "value": "Laser"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CMS0305",
   "CMS115",

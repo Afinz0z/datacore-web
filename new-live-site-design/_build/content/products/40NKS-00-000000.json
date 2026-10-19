@@ -10,6 +10,23 @@
   {
    "label": "Type",
    "value": "facial recognition"
+  },
+  {
+   "label": "Credential",
+   "value": "Face Recognition, PIN/Password Credentials, Mobile Credentials, QR and Barcode, RFID Card"
+  },
+  {
+   "label": "Interface",
+   "value": "Ethernet, Network Protocol, RS-485, Wiegand, Relay Output, OSDP"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP65"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "13.56 MHz MIFARE / DESFire EV1/EV2/EV3 / iCLASS / FeliCa / Seos"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

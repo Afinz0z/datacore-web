@@ -9,10 +9,51 @@
  "d": "75″ all-in-one interactive collaboration display designed for modern meeting and conference spaces. It features a 4K UHD touchscreen, triple 50 MP AI cameras, and a 16-mic array with AI audio for clear video conferencing and full-duplex voice pickup up to 12 m.",
  "specs": [
   {
+   "label": "Display size",
+   "value": "75\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
+  },
+  {
+   "label": "Display resolution",
+   "value": "4K UHD (3840 x 2160)"
+  },
+  {
+   "label": "Display brightness",
+   "value": "400 nit"
+  },
+  {
+   "label": "Viewing angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Display connectivity",
+   "value": "RJ45 In, WiFi, Bluetooth, HDMI, USB"
+  },
+  {
+   "label": "OS version",
+   "value": "Android 13.0"
+  },
+  {
+   "label": "Flash memory size",
+   "value": "64GB"
+  },
+  {
+   "label": "Refresh rate",
+   "value": "60 Hz"
+  },
+  {
+   "label": "OPS slot",
+   "value": "Yes"
+  },
+  {
+   "label": "Memory (RAM)",
+   "value": "8GB"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "1303128",
   "3311074",

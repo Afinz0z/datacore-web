@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "INSIGHT PRO 10 PACK 5 YEAR (10 AP)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "5 years"
+  },
+  {
+   "label": "WIFI",
+   "value": "10 Device"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "WAX610",
   "WAX610Y",

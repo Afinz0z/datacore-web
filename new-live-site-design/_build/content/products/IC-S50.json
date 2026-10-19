@@ -7,7 +7,61 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IC Card Mifare1-S50",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "MIFARE 1 S50 IC Card"
+  },
+  {
+   "label": "Card technology",
+   "value": "Contactless Smart Card"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "13.56 MHz"
+  },
+  {
+   "label": "Standard",
+   "value": "ISO/IEC 14443A"
+  },
+  {
+   "label": "Memory capacity",
+   "value": "1KB"
+  },
+  {
+   "label": "Data organization",
+   "value": "16 sectors × 4 blocks"
+  },
+  {
+   "label": "UID",
+   "value": "4-byte UID"
+  },
+  {
+   "label": "Read/Write",
+   "value": "Yes"
+  },
+  {
+   "label": "Operating distance",
+   "value": "Up to approximately 10 cm*"
+  },
+  {
+   "label": "Operating temperature",
+   "value": "'-20°C to +50°C*"
+  },
+  {
+   "label": "Application",
+   "value": "Access Control / Time Attendance"
+  },
+  {
+   "label": "Material",
+   "value": "PVC"
+  },
+  {
+   "label": "Form factor",
+   "value": "CR80 Card"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "DHI-ASC2204C-D"
  ]

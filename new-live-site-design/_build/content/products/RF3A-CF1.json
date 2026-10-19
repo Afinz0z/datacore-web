@@ -9,10 +9,23 @@
  "d": "RitchField 1 way Cooling Fan with power cable forwall mount cabinets",
  "specs": [
   {
+   "label": "Type of accessories",
+   "value": "Mount"
+  },
+  {
    "label": "Type",
-   "value": "1 Way Cooling Fan"
+   "value": "1 way cooling fan"
+  },
+  {
+   "label": "Rack height",
+   "value": "18U"
+  },
+  {
+   "label": "Rack size",
+   "value": "19inch"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "RF3-WMSS 1860-1 RL04"
  ]

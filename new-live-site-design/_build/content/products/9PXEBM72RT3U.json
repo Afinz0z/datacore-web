@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "9PX extended battery moduel (EBM), 72V, Rack/tower, 3U",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "72 V"
+  }
+ ],
+ "spec_src": "inventory"
 }

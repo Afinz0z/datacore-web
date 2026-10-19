@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "PS 125",
  "d": "PS 125 12 VDC, 60 W Rack Mountable Power Supply",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Module"
+  },
+  {
+   "label": "Output",
+   "value": "12 V DC"
+  },
+  {
+   "label": "Power",
+   "value": "60 W"
+  },
+  {
+   "label": "Output current",
+   "value": "5 A"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PRA-CSLW Wall mount LCD call station Wall mount housing with fixed hand-held microphone and helix cable 4.3\" full-color capacitive touch screen Status and fault indicators for voice alarm purposes",
- "specs": [],
+ "specs": [
+  {
+   "label": "Interface",
+   "value": "4.3\" Touch Screen, PTT-key"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Flush-Mount, Wall, Surface"
+  },
+  {
+   "label": "Mic frequency response",
+   "value": "500 Hz to 8 kHz"
+  },
+  {
+   "label": "Display",
+   "value": "480 x 272 pixel"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "PRA-CSE",
   "PVA-20CSE"

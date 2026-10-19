@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Genetec Security Center (GSC) Base Enterprise Package. Includes Synergis Enterprise Package with Access Manage support, Remote Security Desk, Badge Designer.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Integration & interfacing",
+   "value": "Access Control System, SDK / API support for third-party integration"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "GSC-5.13"
  ]

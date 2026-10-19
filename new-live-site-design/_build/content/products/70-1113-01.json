@@ -10,10 +10,39 @@
  "d": "XTP II CP 4o HD 4K PLUS Four Output Board, HDMI 4K/60 with Stereo Audio",
  "specs": [
   {
+   "label": "No. ports",
+   "value": "4"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI, 3.5 mm captive screw"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, 5 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  },
+  {
    "label": "Type",
    "value": "Output Card"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "60-1981-01",
   "60-2031-01",

@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch LBC3482/00 Horn Loudspeaker 25W Provision for inside mounting of the optional line/ loudspeaker supervision board Water-and dust protected to IP 65",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Versatile Mounting"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Line Array"
+  },
+  {
+   "label": "Power",
+   "value": "25 W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "550 Hz to 5 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

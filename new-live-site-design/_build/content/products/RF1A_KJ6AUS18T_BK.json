@@ -7,5 +7,79 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "RitchField Cat 6A Un-Shielded Connection Module,Dual IDC, 180 deg, Black, Tool-less",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "CAT6A"
+  },
+  {
+   "label": "Colour",
+   "value": "BLACK"
+  },
+  {
+   "label": "Conductor",
+   "value": "Solid / Stranded"
+  },
+  {
+   "label": "Termination tool",
+   "value": "110/LSA punch-down tool"
+  },
+  {
+   "label": "Package quantity",
+   "value": "1 pc"
+  },
+  {
+   "label": "Wiring",
+   "value": "T568A / T568B"
+  },
+  {
+   "label": "Connector type",
+   "value": "RJ45"
+  },
+  {
+   "label": "PoE support",
+   "value": "IEEE 802.3af / 802.3at / 802.3bt"
+  },
+  {
+   "label": "Type",
+   "value": "RJ45 Keystone Jack"
+  },
+  {
+   "label": "Flammability rating",
+   "value": "LIL 94 V-O"
+  },
+  {
+   "label": "Safety rating",
+   "value": "IJI- 1863"
+  },
+  {
+   "label": "Rj 45 port",
+   "value": "Ilg mm x 98 mm"
+  },
+  {
+   "label": "Temperature - storage",
+   "value": "'-40•c to +80•c"
+  },
+  {
+   "label": "Temperature - operation",
+   "value": "'-10•C to +70•C"
+  },
+  {
+   "label": "IDC type",
+   "value": "DUOI (110 Or Krone) Type"
+  },
+  {
+   "label": "IDC wire guage",
+   "value": "22-26 AWG, Solid Or Stranded"
+  },
+  {
+   "label": "Spring wire",
+   "value": "Phosphor Bronze Alloy"
+  },
+  {
+   "label": "IDC",
+   "value": "Phosphor Bronze Alloy"
+  }
+ ],
+ "spec_src": "inventory"
 }

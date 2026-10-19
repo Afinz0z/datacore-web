@@ -7,5 +7,35 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sonance Invisible Loudspeaker-IS6T Frequency response of 50Hz - 30KHz @ -3dB • 170 degrees dispersion up to 10kHz • Full-fidelity transformer for uncompromised tonality",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted, Ceiling Mounted"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Point Source"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Passive"
+  },
+  {
+   "label": "Power",
+   "value": "7.5W, 15W, 30W"
+  },
+  {
+   "label": "SPL",
+   "value": "84 dB"
+  },
+  {
+   "label": "Capacity",
+   "value": "100 W"
+  },
+  {
+   "label": "Frequency range (+/- 3dB)",
+   "value": "50Hz-30kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

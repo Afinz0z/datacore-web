@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "MVC 121 xi",
  "d": "MVC 121 xi Three Source Audio Mixer with DSP",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel",
+   "value": "2"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Inputs",
+   "value": "6 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Outputs",
+   "value": "6 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-C, 3 pin, 3.5 mm captive connector, 6 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Inbuild DSP",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,43 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Temperature/humidity sensor-outlines the specifications for the enviromux-sthsb combined temperature, humidity, and dew-point sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensor type",
+   "value": "Temperature and Humidity Sensor"
+  },
+  {
+   "label": "Coverage",
+   "value": "100 ft"
+  },
+  {
+   "label": "Coverage area",
+   "value": "1000 FT"
+  },
+  {
+   "label": "Technology",
+   "value": "humidity and due point"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45"
+  },
+  {
+   "label": "Dimensions",
+   "value": "50.8 × 25.4 × 25.4 mm."
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall"
+  },
+  {
+   "label": "Type",
+   "value": "temperature,humidity"
+  }
+ ],
+ "spec_src": "inventory"
 }

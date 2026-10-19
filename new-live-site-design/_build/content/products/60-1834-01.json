@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "SW4 USB Pro",
  "d": "SW4 USB Pro - Four Input USB 10G Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x1"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-B, USB-C, HDMI, RJ-45"
+  }
+ ],
+ "spec_src": "inventory"
 }

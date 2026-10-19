@@ -7,7 +7,37 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Elevator Ctrl 4G RFID BLE wo/GW SatChrome",
- "specs": [],
+ "specs": [
+  {
+   "label": "Credentials",
+   "value": "Supports Mobile Access, RFID"
+  },
+  {
+   "label": "Default relay",
+   "value": "8 relay outputs"
+  },
+  {
+   "label": "Vostio and visionline system compatibility",
+   "value": "Fully compatible with Vostio and Visionline system"
+  },
+  {
+   "label": "Certification",
+   "value": "UL-294 certified"
+  },
+  {
+   "label": "RFID specification",
+   "value": "13,56MHz technology - Compatible with the following standards: ISO 14443 A (MIFARE) ISO 14443 B ISO 15693"
+  },
+  {
+   "label": "Power requirements",
+   "value": "Maximum current consumption for the elevator reader 150 mA continuously"
+  },
+  {
+   "label": "Maximum load of relay outputs",
+   "value": "0,6A@125VAC or 2A@30VDC Resistive"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "0070005",
   "4811746",

@@ -6,7 +6,17 @@
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Mic"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Desk/Table"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "MX418",
   "MX418/C"

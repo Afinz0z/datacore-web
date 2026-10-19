@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "ADPT-USB-USB-RA-5",
  "d": "ADPT-USB-USB-RA-5 \"USB-C® Angled Male to USB-A Female Adapter for TSW-80 Series, 5 Pack",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "USB-A"
+  },
+  {
+   "label": "Output",
+   "value": "USB-A Female"
+  }
+ ],
+ "spec_src": "inventory"
 }

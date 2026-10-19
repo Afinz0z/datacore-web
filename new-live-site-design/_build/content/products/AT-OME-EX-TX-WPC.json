@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "Transmitter"
+  },
+  {
+   "label": "None",
+   "value": "Tx"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

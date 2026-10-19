@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "IN1808",
  "d": "IN1808 Eight Input 4K/60 Seamless Presentation Switchers",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

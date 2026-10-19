@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PRA-LSCRF License call recording and forwarding License to record calls for automatic playback to previously occupied zones Storage of up to 30 minutes of calls",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Call recording and forwarding"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  },
+  {
+   "label": "Maximum duration of recording",
+   "value": "30 min"
+  }
+ ],
+ "spec_src": "inventory"
 }

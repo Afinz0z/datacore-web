@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FOS Scorpio BSW Pro - High-performance version, professional Beam/Spot/Wash moving head, 300 Watt Led source 7500K, zoom 2.5°-36°, antireflection 136mm front lens, 10 colors, 15 static gobos, 7 rotating indexable gobos, frost filter, motorized focus, 3 facet prism, powercon in/out.",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Beam/Spot/Wash moving head"
+  },
+  {
+   "label": "Light source",
+   "value": "300 W"
+  },
+  {
+   "label": "Color mixing",
+   "value": "White"
+  },
+  {
+   "label": "Beam angle",
+   "value": "2.5 to 36 degrees"
+  },
+  {
+   "label": "Color temperature",
+   "value": "7500K"
+  },
+  {
+   "label": "Control",
+   "value": "DMX, Master / Slave, Sound, Auto"
+  },
+  {
+   "label": "LEDs lifespan",
+   "value": "50,000 hours"
+  },
+  {
+   "label": "DMX control channels",
+   "value": "17, 15, or 19"
+  },
+  {
+   "label": "Noise level rating",
+   "value": "46 dB"
+  },
+  {
+   "label": "Zoom",
+   "value": "2 to 20 Meter"
+  }
+ ],
+ "spec_src": "inventory"
 }

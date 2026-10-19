@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "INOGENI MIX 2X USB 2.0 OR HDMI CAMERAS TO UBS 3.0 AND HDIM + PTZ CONTROL",
- "specs": []
+ "specs": [
+  {
+   "label": "I/P sources",
+   "value": "USB , HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,6 +11,71 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motororized Varifocal lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "30 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "25 fps, 30 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK10"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "128 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTCP, NTP, UPnP, SMTP, IGMP, 802.1X, QoS, IPv4, IPv6, UDP, Bonjour, SSL/TLS, PPPoE, SNMP, SRTP, SFTP, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T, SUNAPI(HTTP API), Wisenet open platform"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC, WDR, SSDR"
+  },
+  {
+   "label": "Iris type",
+   "value": "Auto-iris"
+  },
+  {
+   "label": "IR wavelength",
+   "value": "850 nm"
+  },
+  {
+   "label": "Shutter time",
+   "value": "1/5~1/12,000sec"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

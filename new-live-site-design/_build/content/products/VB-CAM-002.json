@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "*1080p FHD *HFOV: 90° *1.8m Single cable - 5V USB power supply *Microphone built-in - Up to 6 meters, plus digital noise reduction *WDR (Wide Dynamic Range) support *Optimized illumination - High image SNR > 55db",
- "specs": []
+ "specs": [
+  {
+   "label": "Max resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Physical connectivity",
+   "value": "USB A"
+  }
+ ],
+ "spec_src": "inventory"
 }

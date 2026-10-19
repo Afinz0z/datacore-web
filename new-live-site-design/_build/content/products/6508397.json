@@ -10,10 +10,31 @@
  "d": "FT2A-CBL-PT-4K-HD Pass-Through Cable for FT2 Series, HDMI to HDMI, 18 Gbps, 8 ft (2.4 m)",
  "specs": [
   {
+   "label": "Mounting type",
+   "value": "Flush Mount / Flip-Top"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
    "label": "Type",
-   "value": "HDMI Cable"
+   "value": "Cable"
+  },
+  {
+   "label": "Lid type",
+   "value": "Pass-Through Lid (PTL)"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "HDMI to HDMI"
+  },
+  {
+   "label": "Cable length",
+   "value": "2.4 m (8 ft)"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "6511653",
   "6511654",

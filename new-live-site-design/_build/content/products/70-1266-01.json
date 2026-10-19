@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "SMK C TB-2",
  "d": "SMK C TB-2 -Tile Bridge Kit for a pair of SF 26CT, SF 26CT LP, CS 3T, CS 26T Plus",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1310-03",
   "60-1505-03",

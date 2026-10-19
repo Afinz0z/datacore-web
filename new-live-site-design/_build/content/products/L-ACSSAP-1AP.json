@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Access Controller AP Resource License(1 AP)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "AC6508"
  ]

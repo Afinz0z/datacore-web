@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Maxpro PE Recording Server,128ch,8x8TB",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of channel",
+   "value": "128"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265, MJPEG"
+  },
+  {
+   "label": "RAID support",
+   "value": "RAID 0, RAID 1, RAID 5, RAID 6, RAID 10"
+  },
+  {
+   "label": "Incoming bandwidth",
+   "value": "800Mbps"
+  },
+  {
+   "label": "SATA interface",
+   "value": "12 SATA"
+  }
+ ],
+ "spec_src": "inventory"
 }

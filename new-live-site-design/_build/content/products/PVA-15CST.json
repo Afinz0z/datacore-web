@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Call station with soft touch button for PAVIRO system 15 freely programmable buttons",
- "specs": [],
+ "specs": [
+  {
+   "label": "Interface",
+   "value": "Programmable buttons"
+  },
+  {
+   "label": "Mic frequency response",
+   "value": "250 Hz - 10 kHz"
+  },
+  {
+   "label": "Display",
+   "value": "Back-lit LC display (122 ✕ 32 pixel)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "PVA-20CSE"
  ]

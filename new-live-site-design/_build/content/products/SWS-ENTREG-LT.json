@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "Server Software License"
+  },
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  },
+  {
+   "label": "Number of card readers",
+   "value": "64"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "AL-AM181-ALL",
   "AL-APP",

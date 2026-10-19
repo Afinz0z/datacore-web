@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Green Call Points for Access Control Systems. Double pole changeover contact in resettable operation mode",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Green"
+  }
+ ],
+ "spec_src": "inventory"
 }

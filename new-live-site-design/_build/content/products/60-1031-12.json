@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "USB HUB4 AAP",
  "d": "USB HUB4 AAP Four-Port USB Hub - AAP Version - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-B"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-A"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "60-300-02",
   "60-300-03",

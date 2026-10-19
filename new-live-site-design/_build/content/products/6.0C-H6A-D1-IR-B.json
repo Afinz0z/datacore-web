@@ -11,6 +11,31 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "6 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "Upto130dB(dualexposure,30fps)"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Image format",
+   "value": "JPEG"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "2688 × 1520, 1920x1080, 2560 × 1440, 3200 × 1800, 3328 x 1872"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "RWM 2",
  "d": "RWM 2 Recessed Wall Mount Kit for TLP Pro 1025M, TLP Pro 725M, TLS 1025M, and TLS 725M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1563-02",
   "60-1563-03",

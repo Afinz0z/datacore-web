@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB3E-BTNW-S_BLANK Medium Engravable Button Cap for Cameo Express Keypads, White Smooth, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  }
+ ],
+ "spec_src": "inventory"
 }

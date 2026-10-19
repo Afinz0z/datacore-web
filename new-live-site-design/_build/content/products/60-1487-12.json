@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP T DSW 4K 233",
  "d": "DTP T DSW 4K 233 - Three Input Multi-Format Switcher with Integrated DTP Transmitter and Audio Embedding - 230 feet (70 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx, Extender"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 1.4"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, DP, VGA"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm mini stereo jack"
+  }
+ ],
+ "spec_src": "inventory"
 }

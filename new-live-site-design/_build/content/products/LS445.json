@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "BrightSign LS445 is a 4K capable digital signage media player engineered for robust, commercial-grade content playback with extensive codec support, flexible I/O options, and network connectivity. It runs BrightSignOS , a purpose-built, secure operating system optimized for continual signage operation.",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "Stereo Mini Jack, HDMI out"
+  },
+  {
+   "label": "Dimension (mm)",
+   "value": "126.6 x 141.84 x 19.41 mm"
+  },
+  {
+   "label": "Supports audio sources",
+   "value": "USB devices"
+  },
+  {
+   "label": "Type",
+   "value": "Digital Signage Player"
+  }
+ ],
+ "spec_src": "inventory"
 }

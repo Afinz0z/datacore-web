@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "24 port patch panel"
+  },
+  {
+   "label": "Ports",
+   "value": "24 PORT"
+  },
+  {
+   "label": "Module termination",
+   "value": "UNLOADED"
+  },
+  {
+   "label": "Mounting SIZE",
+   "value": "1U"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

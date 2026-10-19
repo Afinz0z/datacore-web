@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Single Faceplate",
  "d": "Excel Cat5e (UTP) Unscreened Single RJ45 Module White c/w Bevelled Plate & Blanks",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "Simplex"
+  }
+ ],
+ "spec_src": "inventory"
 }

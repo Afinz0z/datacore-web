@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Digital Mixer Amplifier with MP3 480 W",
- "specs": []
+ "specs": [
+  {
+   "label": "Output power",
+   "value": "480 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

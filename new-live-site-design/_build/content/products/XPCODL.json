@@ -7,7 +7,77 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "XProtect Corporate Device License (DL)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Number of camera's",
+   "value": "1 device/camera per license"
+  },
+  {
+   "label": "Software license type",
+   "value": "XProtect Corporate Device License (DL)"
+  },
+  {
+   "label": "Maximum duration of recording",
+   "value": "Depends on storage/recording configuration"
+  },
+  {
+   "label": "Category",
+   "value": "VMS"
+  },
+  {
+   "label": "Channels support",
+   "value": "1 device"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported by XProtect Corporate architecture"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Application",
+   "value": "Enterprise video management and surveillance"
+  },
+  {
+   "label": "License type",
+   "value": "Device License"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Adds a licensed device to the XProtect Corporate VMS"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 device per license"
+  },
+  {
+   "label": "System",
+   "value": "Milestone XProtect Corporate"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "IP cameras / video devices"
+  },
+  {
+   "label": "Associated product",
+   "value": "XProtect Corporate VMS"
+  },
+  {
+   "label": "Supporting product",
+   "value": "XProtect Corporate base/platform"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per Device"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "XPCOBT"
  ]

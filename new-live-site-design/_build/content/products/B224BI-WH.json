@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "B224BI-WH",
  "d": "White, isolator detector base",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Detector base"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "FPTI-951-WH",
   "FST-951R"

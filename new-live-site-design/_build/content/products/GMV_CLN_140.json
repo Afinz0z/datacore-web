@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "GMV CLN 140",
  "d": "Digital signage client license for signage screens",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Digital Signage"
+  }
+ ],
+ "spec_src": "inventory"
 }

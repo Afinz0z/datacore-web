@@ -11,6 +11,31 @@
   {
    "label": "Type",
    "value": "patch cord 1m"
+  },
+  {
+   "label": "Length",
+   "value": "1m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "singlemode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "blue"
+  },
+  {
+   "label": "Fiber count",
+   "value": "2 Fibers (Duplex)"
+  },
+  {
+   "label": "Fiber grade",
+   "value": "OS2 9/125 µm"
+  },
+  {
+   "label": "Connector",
+   "value": "LC to LC"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

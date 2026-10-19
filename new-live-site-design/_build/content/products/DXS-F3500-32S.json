@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "24 10G SFP+ Ports , 4 100G/40G QSFP28 Ports, Two AC modular power supplies and four fan modules",
- "specs": []
+ "specs": [
+  {
+   "label": "SFP ports",
+   "value": "24"
+  },
+  {
+   "label": "Switching capacity",
+   "value": "640 Gbps"
+  },
+  {
+   "label": "Fan",
+   "value": "5x hot-swappable front-to-back airflow fan trays"
+  },
+  {
+   "label": "Protocols",
+   "value": "BGP, OSPF, VRF, VRRP, IEEE 802.1Q"
+  }
+ ],
+ "spec_src": "inventory"
 }

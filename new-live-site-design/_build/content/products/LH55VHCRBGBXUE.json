@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "LH55VHCRBGBXUE",
  "d": "Samsung Video-Wall, 55\", FHD, VHC series,24/7, 0.88mm (Bezel-To-Bezel)",
- "specs": []
+ "specs": [
+  {
+   "label": "Pixel pitch",
+   "value": "0.88 mm"
+  },
+  {
+   "label": "Brightness",
+   "value": "700 nits"
+  }
+ ],
+ "spec_src": "inventory"
 }

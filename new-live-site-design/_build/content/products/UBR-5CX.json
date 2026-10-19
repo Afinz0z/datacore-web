@@ -13,10 +13,15 @@
    "value": "Wall Mounted"
   },
   {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
    "label": "Series",
    "value": "Ionic"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "HG75U800FAUXUE",
   "Ionic-5CXv"

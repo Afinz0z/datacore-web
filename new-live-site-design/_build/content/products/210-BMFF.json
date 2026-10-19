@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dell 24 Monitor - P2425H, 60.5cm (23.8\")datasheet",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size (in inches)",
+   "value": "23.8"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

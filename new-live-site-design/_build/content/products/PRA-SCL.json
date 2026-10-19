@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "System controller"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

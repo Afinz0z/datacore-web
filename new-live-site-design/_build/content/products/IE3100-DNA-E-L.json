@@ -7,7 +7,53 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IE 3100 DNA Essentials (Upto 12 ports)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Permanent"
+  },
+  {
+   "label": "Software license type",
+   "value": "Cisco Catalyst Center Essentials"
+  },
+  {
+   "label": "Category",
+   "value": "Network Management / Industrial Networking"
+  },
+  {
+   "label": "Base license",
+   "value": "Network Essentials (required base level for IE3100)"
+  },
+  {
+   "label": "Type",
+   "value": "Software License"
+  },
+  {
+   "label": "Application",
+   "value": "Network Management / Network Automation"
+  },
+  {
+   "label": "License type",
+   "value": "Permanent / Perpetual Add-on License"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Network discovery, Topology, Inventory, Software image management, Health visibility, Plug-and-Play and industrial network support"
+  },
+  {
+   "label": "Associated product",
+   "value": "Cisco Catalyst IE3100 Series switch, up to 12 ports"
+  },
+  {
+   "label": "Supporting product",
+   "value": "IE3100 Series switch"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "IE-3100-8P2C-E"
  ]

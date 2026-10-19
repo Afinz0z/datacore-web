@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "16 Chs NVR 4K Support, H.265/H.264, 16 ChsPoE, Stream Encryption, 0 TB, 2SATA",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of channel",
+   "value": "16"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "SATA interface",
+   "value": "2 SATA"
+  }
+ ],
+ "spec_src": "inventory"
 }

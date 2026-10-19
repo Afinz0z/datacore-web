@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Junction box"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP66"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "HC70WB8R2"
  ]

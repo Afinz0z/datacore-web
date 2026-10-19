@@ -9,8 +9,13 @@
  "d": "360GS10E-L-DG-12FT",
  "specs": [
   {
+   "label": "Patch cord lenth",
+   "value": "3 Mtr"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

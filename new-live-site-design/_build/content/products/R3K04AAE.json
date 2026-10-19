@@ -6,7 +6,21 @@
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "Foundation License (Subscription-Based)"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "JL479A"
  ]

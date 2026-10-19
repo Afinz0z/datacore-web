@@ -8,5 +8,47 @@
  "avail": "lead",
  "model": "NAV 10E 501",
  "d": "NAV 10E 501 - 10G HDMI, Ethernet, USB Encoder - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "SFP"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, 3.5 mm captive connector"
+  },
+  {
+   "label": "Network/Protocols",
+   "value": "1GbE (802.3ab), 10/100/1000 Base-T, half/full duplex with autodetect"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

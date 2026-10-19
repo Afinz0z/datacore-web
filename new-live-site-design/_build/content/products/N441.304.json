@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "Fiber Optic Patch Panel",
  "d": "LANmark-OF Patch Panel Snap-In Sliding Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Pigtails",
+   "value": "24 LC"
+  },
+  {
+   "label": "U size",
+   "value": "1U (44.4)"
+  }
+ ],
+ "spec_src": "inventory"
 }

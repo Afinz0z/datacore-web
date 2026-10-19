@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "FPTI-951-WH",
  "d": "Multi-criteria photoelectric, thermal and infrared smoke detector",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Thermal and infrared smoke detector"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "B224BI-WH"
  ]

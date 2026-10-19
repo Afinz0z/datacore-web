@@ -13,8 +13,113 @@
    "value": "Dome Camera"
   },
   {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motorized lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "50 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK10, IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "256 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265 , MJPEG"
+  },
+  {
+   "label": "Smart event",
+   "value": "loitering detection"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "intrusion"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, DNS, DDNS, NTP, UPnP, 802.1X, QoS, IPv4, IPv6, UDP, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, HTTPS encryption"
+  },
+  {
+   "label": "Network storage",
+   "value": "microSD / microSDHC / microSDXC card support"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Night"
+  },
+  {
+   "label": "Image settings",
+   "value": "Gain, White Balance"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC, HLC, 3D DNR"
+  },
+  {
+   "label": "Iris type",
+   "value": "DC-Iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "Lens type",
+   "value": "2.7 - 13.5 mm"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 50m"
+  },
+  {
+   "label": "Shutter time",
+   "value": "1/8 ~ 1/32,000"
+  },
+  {
+   "label": "Audio compression",
+   "value": "G.711ulaw, G.711alaw"
+  },
+  {
+   "label": "Audio bit rate",
+   "value": "64 Kbps (G.711ulaw/G.711alaw), 64 Kbps (G.711)"
+  },
+  {
+   "label": "Max. resolution",
+   "value": "5MP - 2592*1944"
+  },
+  {
    "label": "Series",
    "value": "35 series"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

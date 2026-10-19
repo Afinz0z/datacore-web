@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DTP CrossPoint 82 4K IPCP Q SA 8x2 Seamless 4K Scaling Presentation Matrix Switcher - 2 x 50 Watt Stereo Amp, AV LAN",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "8x2"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video input types",
+   "value": "HDMI, DTP"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Amplifier power per channel",
+   "value": "50 W"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, RJ45, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Memory",
+   "value": "8 GB"
+  },
+  {
+   "label": "Data rate",
+   "value": "10.2 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

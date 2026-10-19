@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "V2000",
  "d": "V2000 Power Amplifier Mainframe 2000w With 9x500watts Duty And 1x500w Backup Amplifier Unit With Inbuilt Battery Charger And Monitoring Unit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Output power per channel",
+   "value": "2000 W"
+  },
+  {
+   "label": "Amplifier type",
+   "value": "Power Amplifier"
+  },
+  {
+   "label": "Certified",
+   "value": "EN 54-16 / EN 54-4, EN 50121-4, EN 61000 series / EN50130-4, EN / UL / IEC 62368-1"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "1200530110",
   "1200542001",

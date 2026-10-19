@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "02314APU-001"
  ]

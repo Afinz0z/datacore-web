@@ -8,5 +8,55 @@
  "avail": "lead",
  "model": "TLP Pro 1525TG",
  "d": "TLP Pro 1525TG - 15\" Tabletop TouchLink® Pro Touchpanel - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "15\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1366x768"
+  },
+  {
+   "label": "Ports",
+   "value": "HDMI, USB, RJ45"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "340 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "500:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Samsung 43\" Smart Signage Display QMC Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "43\""
+  },
+  {
+   "label": "Display resolution",
+   "value": "4K UHD (3840 x 2160)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "LGWM-3790F",
   "SH 42T"

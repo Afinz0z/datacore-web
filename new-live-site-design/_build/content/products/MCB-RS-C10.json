@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "USB Cable"
+  },
+  {
+   "label": "Cable length",
+   "value": "10m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB C to USB C"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

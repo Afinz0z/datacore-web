@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SW4 USB Plus",
  "d": "SW4 USB Plus Four Input USB Switcher with Emulation",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x4"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "USB"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-B"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "MVC S50-C5U-000",
  "d": "MVC S50-C5U-000- Native Microsoft Teams Rooms system for Medium-to-large rooms • 1x MeetingBar A50 Intellient AIO device, power adapter and cables; • Yealink MCoreKit-C5U (with MCore4 mini-PC， MTouch Plus and RoomSensor), power adapter, cables and wall braket; • The mini-PC computer preloads Windows 11 IoT Enterprise OS and license, Microsoft Teams Rooms App, as well as Yealink Camera Control Plug-in; • Including 2-year hardware warranty.",
- "specs": []
+ "specs": [
+  {
+   "label": "Recommended room size",
+   "value": "Medium to Large"
+  },
+  {
+   "label": "Expansion mics",
+   "value": "Yes"
+  },
+  {
+   "label": "System compatibility",
+   "value": "Windows"
+  },
+  {
+   "label": "Display support",
+   "value": "2"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Microsoft Teams"
+  },
+  {
+   "label": "RAM",
+   "value": "16 GB"
+  },
+  {
+   "label": "Memory",
+   "value": "256GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

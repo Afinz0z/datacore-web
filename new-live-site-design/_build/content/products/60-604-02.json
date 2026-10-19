@@ -10,8 +10,25 @@
  "d": "RSB 129 1U 9.5\" Deep Basic Rack Shelf",
  "specs": [
   {
+   "label": "Depth",
+   "value": "9.5 in"
+  },
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Metallic Gray"
+  },
+  {
+   "label": "Rack width",
+   "value": "19\""
+  },
+  {
    "label": "Type",
    "value": "Rack Shelf"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

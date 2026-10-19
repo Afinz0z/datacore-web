@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "DPM-VGAF",
  "d": "DPM-VGAF DisplayPort Male to VGA Female Active Adapter - 6\" Pigtail",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "DisplayPort"
+  },
+  {
+   "label": "Output",
+   "value": "VGA"
+  }
+ ],
+ "spec_src": "inventory"
 }

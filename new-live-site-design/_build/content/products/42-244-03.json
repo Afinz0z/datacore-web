@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "CS 1226T Plus",
  "d": "CS 1226T Plus SpeedMount Two-Way Ceiling Speaker Assy with 6.5\" Woofer,",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "42 Hz to 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "86 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Woofer",
+   "value": "6.5\""
+  }
+ ],
+ "spec_src": "inventory"
 }

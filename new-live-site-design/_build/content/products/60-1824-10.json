@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "DMP 64 Plus C V AT",
  "d": "DMP 64 Plus C V AT - 6x4 Digital Matrix Processor w/ AEC, VoIP, & Dante",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "6"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "4"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz to 20 kHz (-0.5 dB)"
+  },
+  {
+   "label": "VoIP support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

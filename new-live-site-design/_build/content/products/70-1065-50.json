@@ -9,10 +9,23 @@
  "d": "Retractor USB-C Power Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - USB-C Male to USB-C Female",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "USB C"
+  },
+  {
+   "label": "Power modules",
+   "value": "USB Charging"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "USB C to USB C"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "NBP VC1 D",
  "d": "NBP VC1 D Network Button Panel with Volume Control - Decorator-Style Wallplate",
- "specs": []
+ "specs": [
+  {
+   "label": "Status screen",
+   "value": "LED"
+  },
+  {
+   "label": "Colour",
+   "value": "Black, White"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  }
+ ],
+ "spec_src": "inventory"
 }

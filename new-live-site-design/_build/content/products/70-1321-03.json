@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SMB 111T TLP Pro 300M/TLS 300M Surface Mount Box, White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Surface"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1667-02",
   "60-1667-03",

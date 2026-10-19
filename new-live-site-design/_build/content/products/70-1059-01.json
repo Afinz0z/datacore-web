@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SMD 202 Remote - Handheld IR Remote Control for SMD 202",
- "specs": [],
+ "specs": [
+  {
+   "label": "Remote category",
+   "value": "Extender"
+  },
+  {
+   "label": "Remote type",
+   "value": "IR"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1306-01"
  ]

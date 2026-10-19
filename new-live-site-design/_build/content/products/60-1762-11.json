@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "XPA U 358C-100V",
  "d": "XPA U 358C-100V - Eight Channel Combo Amp - Four Channels at 8 or 4 ohms - Four Channels at 100V",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "8"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "35 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  },
+  {
+   "label": "Distribution",
+   "value": "100 V"
+  }
+ ],
+ "spec_src": "inventory"
 }

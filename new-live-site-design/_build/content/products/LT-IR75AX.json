@@ -9,10 +9,19 @@
  "d": "75 INCH 4K INTERACTIVE DISPLAY (With Out OPS)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "75\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
+  },
+  {
+   "label": "Display resolution",
+   "value": "4K UHD (3840 x 2160)"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-Emerald3-N20",
   "LGC-5586",

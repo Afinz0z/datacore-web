@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "42u"
+  },
+  {
+   "label": "Rack dimension",
+   "value": "600x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

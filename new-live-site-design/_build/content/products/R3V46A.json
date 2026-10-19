@@ -7,7 +7,49 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking AP-505H (RW) Dual Radio 802.11ax 2x2 1+4 Ethernet PSE USB Hospitality AP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "5 GHz"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": Dual-radio, tri-band"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 4.8 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Bi-directional MU-MIMO, Target Wake Time (TWT), BSS Coloring, Load balancing"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3"
+  },
+  {
+   "label": "Certifications",
+   "value": "Wi-Fi Alliance (Wi-Fi 6E certified)"
+  },
+  {
+   "label": "Power",
+   "value": "DC powered: 12.5 W / 18.2 W"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "1 × 2.5GE RJ-45 (PoE-IN)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "HL3E5E"
  ]

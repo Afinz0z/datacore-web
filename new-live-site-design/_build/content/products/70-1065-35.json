@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "With Blank & Cable Pass-through Plates",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Cable Retractor"
+  }
+ ],
+ "spec_src": "inventory"
 }

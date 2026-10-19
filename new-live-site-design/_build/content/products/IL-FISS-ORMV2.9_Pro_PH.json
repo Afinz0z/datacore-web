@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SMD 1516 Black frame LED Inteled:, Cabinet Size(mm), 500 X1000",
- "specs": []
+ "specs": [
+  {
+   "label": "Pixel pitch",
+   "value": "2.97mm"
+  },
+  {
+   "label": "Brightness",
+   "value": "5000 nits"
+  }
+ ],
+ "spec_src": "inventory"
 }

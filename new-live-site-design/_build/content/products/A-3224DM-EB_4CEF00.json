@@ -6,5 +6,15 @@
  "c": "Mixer Amplifier",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Output power",
+   "value": "240 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

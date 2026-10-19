@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "Ceiling Speaker"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Passive"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

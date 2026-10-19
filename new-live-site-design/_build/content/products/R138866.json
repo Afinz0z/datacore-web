@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "Fan"
+  },
+  {
+   "label": "No.Fan",
+   "value": "2"
+  },
+  {
+   "label": "Dimensions",
+   "value": "390 mm x 74 mm x 190 mm"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

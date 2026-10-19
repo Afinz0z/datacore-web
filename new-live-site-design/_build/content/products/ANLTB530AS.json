@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "ANLTB530AS",
  "d": "Anchor Projector Lift, 40KG Load,300cm Running Distance",
- "specs": []
+ "specs": [
+  {
+   "label": "Load capacity (kg)",
+   "value": "40"
+  },
+  {
+   "label": "Running distance",
+   "value": "300 cm"
+  }
+ ],
+ "spec_src": "inventory"
 }

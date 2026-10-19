@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "SGK SF26C",
  "d": "SGK SF26C Square Grille Kit, SF 26CT Series Speakers, Pair",
- "specs": [],
+ "specs": [
+  {
+   "label": "Grilles category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Grille shape",
+   "value": "Square"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1310-03",
   "60-1881-03"

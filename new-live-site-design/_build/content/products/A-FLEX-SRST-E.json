@@ -7,7 +7,45 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SRST (Survivable Remote Site Telephony) Endpoint license.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "SRST Endpoint License"
+  },
+  {
+   "label": "Category",
+   "value": "Unified Communications / Voice"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software License, Software Subscription"
+  },
+  {
+   "label": "Function",
+   "value": "Provides continued IP telephony service at a remote site when connectivity to the central call-control system is unavailable"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 endpoint per license"
+  },
+  {
+   "label": "System",
+   "value": "Cisco Unified Communications / SRST"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Cisco ISR/IOS-based router or supported gateway"
+  },
+  {
+   "label": "Associated product",
+   "value": "Cisco SRST"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

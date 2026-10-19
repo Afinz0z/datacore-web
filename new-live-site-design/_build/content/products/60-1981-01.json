@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "XTP II CrossPoint 3200 Frame Modular Digital Matrix Switchers from 4x4 to 32x32 with SpeedSwitch® Technology",
- "specs": [],
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x4, 32x32"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Data rate",
+   "value": "50 Gbps"
+  },
+  {
+   "label": "No. input slots",
+   "value": "8"
+  },
+  {
+   "label": "No. output slots",
+   "value": "8"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1112-01",
   "70-1112-02",

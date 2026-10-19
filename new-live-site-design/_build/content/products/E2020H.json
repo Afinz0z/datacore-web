@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "19.5\" HD+ business monitor with TN panel, 1600×900 resolution, and DisplayPort + VGA connectivity for basic office computing environments.",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size (in inches)",
+   "value": "19.5"
+  },
+  {
+   "label": "Resolution",
+   "value": "HD +"
+  },
+  {
+   "label": "Panel type",
+   "value": "TN"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  },
+  {
+   "label": "Display ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

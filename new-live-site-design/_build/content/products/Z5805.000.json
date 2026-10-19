@@ -6,7 +6,13 @@
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "Z1010.000"
  ]

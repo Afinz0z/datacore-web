@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "NEC EC V5.X, Software for two (2) Win Servers with 1.CPU (2 x 1 = 2). Both LAN and WAN supported. One year Support included, Hardware Servers NOT included.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "1 years"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SWS-ENTREG-LTREDU",
   "SWS-PRO"

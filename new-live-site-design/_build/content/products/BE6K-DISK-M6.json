@@ -11,6 +11,27 @@
   {
    "label": "Type",
    "value": "hard disk drive"
+  },
+  {
+   "label": "RPM",
+   "value": "10000"
+  },
+  {
+   "label": "Capacity",
+   "value": "600GB"
+  },
+  {
+   "label": "Interface",
+   "value": "12G SAS"
+  },
+  {
+   "label": "Form factor",
+   "value": "SFF (Small Form Factor)"
+  },
+  {
+   "label": "Application",
+   "value": "Cisco BE6K M6 server storage"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

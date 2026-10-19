@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Gamma Net Free Stand Cabinet 42U 800×1000 with RemovableSide Door, Front Glass, Metal Back door, 2 pair of 19\" AdjustablePillars, 2 pair of caster Wheels, 4 Fan",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x1000"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

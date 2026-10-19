@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "NBP 108 EU",
  "d": "NBP 108 EU Network Button Panel with 8 Buttons - Flex55 and EU Wall Frame",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Colour",
+   "value": "Black, White"
+  },
+  {
+   "label": "No of buttons (up to)",
+   "value": "8"
+  },
+  {
+   "label": "Buttons type",
+   "value": "Pushbutton"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  },
+  {
+   "label": "Type",
+   "value": "Network Button Panel"
+  },
+  {
+   "label": "Connector",
+   "value": "RJ-45"
+  }
+ ],
+ "spec_src": "inventory"
 }

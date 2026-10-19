@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PRA-IM16C8 Control interface module, 16x8",
- "specs": []
+ "specs": [
+  {
+   "label": "Outputs",
+   "value": "8 Control outputs"
+  },
+  {
+   "label": "Inputs",
+   "value": "16 Control inputs"
+  }
+ ],
+ "spec_src": "inventory"
 }

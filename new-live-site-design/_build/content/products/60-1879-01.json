@@ -8,5 +8,55 @@
  "avail": "lead",
  "model": "DXP 42 HD 8K",
  "d": "DXP 42 HD 8K 4x2 8K HDMI Matrix with Audio De-Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x2"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video input types",
+   "value": "HDR10, HDR10+, Dolby Vision"
+  },
+  {
+   "label": "Video output types",
+   "value": "HDR10, HDR10+, Dolby Vision"
+  },
+  {
+   "label": "Resolutions aspect ratio",
+   "value": "21:9"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Data rate",
+   "value": "40.1 Gbps"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "spec_src": "inventory"
 }

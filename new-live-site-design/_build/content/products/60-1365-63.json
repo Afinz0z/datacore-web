@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "DTP T HWP 232 D",
  "d": "DTP T HWP 232 D Two Input DTP Transmitter for HDMI with Audio Embedding - Decorator-Style Wallplate, White - 230 feet (70 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "2K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 1.2"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio input connectors",
+   "value": "3.5 mm stereo jack"
+  }
+ ],
+ "spec_src": "inventory"
 }

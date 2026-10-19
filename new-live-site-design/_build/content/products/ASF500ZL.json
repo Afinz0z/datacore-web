@@ -6,5 +6,55 @@
  "c": "Accessories",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of accessories",
+   "value": "Magnetic Lock Bracket"
+  },
+  {
+   "label": "Type",
+   "value": "Magnetic Lock Bracket"
+  },
+  {
+   "label": "Access control system",
+   "value": "Access Control System"
+  },
+  {
+   "label": "Function",
+   "value": "Mounting/installation support for electromagnetic magnetic lock"
+  },
+  {
+   "label": "Bracket type",
+   "value": "ZL Bracket"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Surface-mounted / door-frame mounted"
+  },
+  {
+   "label": "Casing material",
+   "value": "Aluminum alloy"
+  },
+  {
+   "label": "Gross weight",
+   "value": "1.30 kg (2.87 lb)"
+  },
+  {
+   "label": "Working temperature",
+   "value": "'-10°C~+50°C"
+  },
+  {
+   "label": "Colour",
+   "value": "silver"
+  },
+  {
+   "label": "Applictaion",
+   "value": "Single-door access control"
+  },
+  {
+   "label": "Compatible lock",
+   "value": "ASF500A / 500 kg Magnetic Lock"
+  }
+ ],
+ "spec_src": "inventory"
 }

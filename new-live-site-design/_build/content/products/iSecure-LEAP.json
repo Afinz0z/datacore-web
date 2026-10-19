@@ -7,5 +7,87 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SSI iSecure Web Based Access Control + Time Attendance Enterprise S/W upto Unlimited employees Note: Web Interface for Access Control is available to generate access reports with 'ADMIN' Login & 5 User Login This Base Licence includes, 10 Controller Licen",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Base License - Access Control + Time Attendance"
+  },
+  {
+   "label": "Base license",
+   "value": "Includes 10 controller licenses"
+  },
+  {
+   "label": "Access control",
+   "value": "Yes"
+  },
+  {
+   "label": "Time attendance",
+   "value": "Yes"
+  },
+  {
+   "label": "Employee management",
+   "value": "Yes"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software"
+  },
+  {
+   "label": "Application",
+   "value": "Access Control & Time Attendance"
+  },
+  {
+   "label": "License type",
+   "value": "Base license"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network, server and controllers, TCP"
+  },
+  {
+   "label": "Function",
+   "value": "Centralized management of access control, employee attendance, users, controllers and access reports"
+  },
+  {
+   "label": "System",
+   "value": "Access Control and Time attendance"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "10 Access Controllers"
+  },
+  {
+   "label": "Associated product",
+   "value": "iSecure Web-Based Access Control & Time Attendance software"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Base license + 10 controllers"
+  },
+  {
+   "label": "Controller licenses included",
+   "value": "10 controllers"
+  },
+  {
+   "label": "User logins",
+   "value": "5 User logins"
+  },
+  {
+   "label": "Admin login",
+   "value": "1 Admin login"
+  },
+  {
+   "label": "Web interface",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

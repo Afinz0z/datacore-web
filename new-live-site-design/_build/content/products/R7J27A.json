@@ -6,7 +6,29 @@
  "c": "ACCESS POINT",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz, 6 GHz"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 4.6 dBi, 5 GHz: 7.0 dBi, 6 GHz: 6.3 dBi"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , Enhanced Open (OWE)"
+  },
+  {
+   "label": "Certifications",
+   "value": "Zigbee Alliance Certification"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "H29YDE",
   "H2XW4E",

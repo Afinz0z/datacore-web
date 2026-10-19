@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "The Solstice Pod provides industry-leading wireless collaboration",
- "specs": [],
+ "specs": [
+  {
+   "label": "Bluetooth",
+   "value": "Yes"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Yes"
+  },
+  {
+   "label": "Advanced features",
+   "value": "Desktop Sharing, Collaboration"
+  },
+  {
+   "label": "Share option",
+   "value": "AirPlay, Miracast, wired HDMI"
+  },
+  {
+   "label": "Ports",
+   "value": "LAN+POE, 12V DC, HDMI in, HDMI out, USB 3.0, USB-C"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "6512130"
  ]

@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MLC 64 RS VC D",
  "d": "MLC 64 RS VC D MediaLink® Controller With Volume Control Knob - Decorator-Style Wallplate",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectors",
+   "value": "3.5 mm connector"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

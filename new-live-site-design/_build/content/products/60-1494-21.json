@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "DXP 84 HD 4K PLUS",
  "d": "DXP 84 HD 4K PLUS - 8x4 4K/60 HDMI with 2 Audio Outputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "8x4"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, RCA, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "XPA 4002-70V",
  "d": "XPA 4002-70V Two Channel Amp, 400 watts at 70 volts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "400 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "2-pin 3.5 mm terminal block"
+  }
+ ],
+ "spec_src": "inventory"
 }

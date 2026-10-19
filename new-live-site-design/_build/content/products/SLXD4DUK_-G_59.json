@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DUAL RECEIVER 470-514MHz",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "470 to 514 MHz"
+  },
+  {
+   "label": "Channels",
+   "value": "Dual-channel"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Type",
+   "value": "Rx"
+  }
+ ],
+ "spec_src": "inventory"
 }

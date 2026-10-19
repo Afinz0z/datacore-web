@@ -7,7 +7,49 @@
  "dept": "AV",
  "avail": "lead",
  "d": "TLS 725M - 7\" Wall Mount TouchLink Scheduling Panel - White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Panel size",
+   "value": "7\""
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1024x600"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "17:10"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  },
+  {
+   "label": "Brightness",
+   "value": "420 nits"
+  },
+  {
+   "label": "Contrast",
+   "value": "700:1"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Wall mount"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1140-22",
   "70-1140-23",

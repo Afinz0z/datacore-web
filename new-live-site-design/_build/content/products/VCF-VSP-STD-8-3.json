@@ -7,7 +7,53 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "VMware vSphere Standard 8 - 3 Year term subscription (server virtualization).",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "VMware vSphere Standard 8"
+  },
+  {
+   "label": "Category",
+   "value": "Server Virtualization"
+  },
+  {
+   "label": "Base license",
+   "value": "vSphere Standard 8"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported through vCenter management"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software License"
+  },
+  {
+   "label": "Application",
+   "value": "Server Virtualization / Datacenter Management"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Virtual machine hosting, HA, vMotion, centralized server management"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per Core (Minimum 16 cores per CPU)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

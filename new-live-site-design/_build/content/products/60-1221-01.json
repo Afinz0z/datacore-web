@@ -6,5 +6,23 @@
  "c": "Distribution Amplifier",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "1 x DP"
+  },
+  {
+   "label": "Video output",
+   "value": "2 x DP"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x2"
+  },
+  {
+   "label": "Supporting video resolution",
+   "value": "2560x1600 @ 60 Hz"
+  }
+ ],
+ "spec_src": "inventory"
 }

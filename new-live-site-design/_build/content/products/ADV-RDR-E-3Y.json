@@ -7,7 +7,29 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Genetec™ Advantage for 1 Synergis™ Enterprise Reader - 3 years",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "3 YR"
+  },
+  {
+   "label": "Type",
+   "value": "Services, Support"
+  },
+  {
+   "label": "Category",
+   "value": "Access Control / Physical Security"
+  },
+  {
+   "label": "Credential capacity",
+   "value": "250,000"
+  },
+  {
+   "label": "Types",
+   "value": "Service/support package"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "GSC-5.13"
  ]

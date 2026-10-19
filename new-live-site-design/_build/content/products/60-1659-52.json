@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP2 T 203",
  "d": "DTP2 T 203 Three Input 4K/60 Switcher with Integrated DTP2 Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "No. ports",
+   "value": "3"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI, DP"
+  },
+  {
+   "label": "Video input types",
+   "value": "HDMI, DP"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "3.5 mm stereo jack"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Type",
+   "value": "Tx"
+  }
+ ],
+ "spec_src": "inventory"
 }

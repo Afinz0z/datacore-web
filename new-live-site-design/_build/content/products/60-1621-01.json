@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "HD 4K 101 Plus",
  "d": "HD 4K 101 Plus HD 4K 101 Plus 4K/60 HDMI Cable Equalizer",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cable Equalizer"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Support distance",
+   "value": "53 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "spec_src": "inventory"
 }

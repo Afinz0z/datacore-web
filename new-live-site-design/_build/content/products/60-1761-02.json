@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "XPA U 1002-70V",
  "d": "XPA U 1002-70V - Two Channel Amp, 100 watts at 70 volts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "100 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Distribution",
+   "value": "70 V"
+  }
+ ],
+ "spec_src": "inventory"
 }

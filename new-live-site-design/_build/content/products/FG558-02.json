@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HPX-B100 | 1M high blank panel for filling unused slots in the HydraPort HPX-600 900 1200 and 1600 Connection Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Blank panel / Blank plate"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "FG560-01-BL"
  ]

@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "End-of-line device",
  "d": "PRA-EOL PRAESENSA End-Of-Line Device",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency",
+   "value": "25.50 kHz"
+  },
+  {
+   "label": "Fault detection",
+   "value": "Line shorted, Line interrupted"
+  },
+  {
+   "label": "Connector",
+   "value": "2-pole spring terminal"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP30"
+  }
+ ],
+ "spec_src": "inventory"
 }

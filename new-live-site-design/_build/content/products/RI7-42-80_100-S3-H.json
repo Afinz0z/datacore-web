@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IT Rack RI7 Server, 42U, Width 800mm, Depth 1000mm, perforated doors, Rear door divided",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x1000"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

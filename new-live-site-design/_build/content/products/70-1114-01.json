@@ -10,10 +10,39 @@
  "d": "XTP II CP 4i F 8K MM XTP II Four Input Board, Fiber 8K - Multimode",
  "specs": [
   {
+   "label": "No. ports",
+   "value": "4"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI, RJ45, LC"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Data rate",
+   "value": "40.1 Gbps"
+  },
+  {
    "label": "Type",
    "value": "Input Card"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI, LC"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "60-1981-01",
   "60-2031-01",

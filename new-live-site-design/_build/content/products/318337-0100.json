@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "WMB2-MA12/MA12EX pitch lock upper bracket Black/White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Tilting, Pitch"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "040188",
   "040189",

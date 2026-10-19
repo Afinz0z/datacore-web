@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "Wall Mounted"
+  },
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "75UH7N",
   "98TR3DK-B",

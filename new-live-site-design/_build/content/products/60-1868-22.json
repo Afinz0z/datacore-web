@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "RCP 401 MK",
  "d": "RCP 401 MK SMP 401 Remote Control Panel - MK Mount",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "No of buttons (up to)",
+   "value": "6"
+  },
+  {
+   "label": "Buttons type",
+   "value": "Pushbutton"
+  },
+  {
+   "label": "Type",
+   "value": "Remote Control Panels"
+  },
+  {
+   "label": "Connector",
+   "value": "USB-A"
+  }
+ ],
+ "spec_src": "inventory"
 }

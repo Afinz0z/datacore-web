@@ -7,7 +7,33 @@
  "dept": "AV",
  "avail": "lead",
  "d": "LegrandAV- Middle Atlantic-18U/610MMD,CONFIGURED RK 18RU, 24\" Deep,Fully welded steel construction",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "24 in"
+  },
+  {
+   "label": "Height",
+   "value": "38.62 in"
+  },
+  {
+   "label": "Panel width",
+   "value": "19 in"
+  },
+  {
+   "label": "Rack units",
+   "value": "18 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Metallic Gray"
+  },
+  {
+   "label": "Certifications",
+   "value": "TAA, UL Listed"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "HP",
   "U1"

@@ -6,7 +6,17 @@
  "c": "Faceplate",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Off-White"
+  },
+  {
+   "label": "No slot",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CC6AP1-GR3",
   "MPPBK24-UFRLABK"

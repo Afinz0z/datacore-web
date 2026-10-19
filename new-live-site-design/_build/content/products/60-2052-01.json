@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "NBP VC1 EU",
  "d": "NBP VC1 EU Network Button Panel with Volume Control - Flex55 and EU Wall Frame",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "PoE"
+  },
+  {
+   "label": "Status screen",
+   "value": "LED"
+  },
+  {
+   "label": "Colour",
+   "value": "Black, White"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  }
+ ],
+ "spec_src": "inventory"
 }

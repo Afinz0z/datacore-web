@@ -11,6 +11,43 @@
   {
    "label": "Type",
    "value": "Transmitter"
+  },
+  {
+   "label": "Type of mic",
+   "value": "Handheld Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wireless"
+  },
+  {
+   "label": "Frequency range",
+   "value": "606 to 630 MHz"
+  },
+  {
+   "label": "Channels",
+   "value": "193 channels (in steps of 125 kHz)"
+  },
+  {
+   "label": "Stability",
+   "value": "'+_10 kHz"
+  },
+  {
+   "label": "Frequency deviation",
+   "value": "'+_48 kHz"
+  },
+  {
+   "label": "RF output",
+   "value": "10 mW"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz - 15 kHz"
+  },
+  {
+   "label": "Dynamic range",
+   "value": ">110 dB"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

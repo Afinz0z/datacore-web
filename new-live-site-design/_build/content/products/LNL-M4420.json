@@ -7,7 +7,33 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Advanced Intelligent Dual Reader Controller",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "Wiegand Connectivity: Supports 2-door / 2-reader connectivit, OSDP Connectivity: Supports 2-door / 4-reader connectivity"
+  },
+  {
+   "label": "Licenses",
+   "value": "Base license includes 10 Controller Licenses"
+  },
+  {
+   "label": "Logins",
+   "value": "Base license includes 10 Controller Licenses"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand, OSDP (v2 / Secure Channel - if supported)"
+  },
+  {
+   "label": "Communication",
+   "value": "Ethernet (TCP/IP - 10/100 Mbps), RS-485 / CAN bus"
+  },
+  {
+   "label": "Memory",
+   "value": "Cardholder Capacity: 50,000 - 250,000 cards, Event Buffer: 10,000 - 100,000 transactions"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "BATTERY 12 V 18 AH",
   "BATTERY 12 V 7 AH",

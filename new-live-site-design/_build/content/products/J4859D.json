@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking 1G SFP LC LX 10km SMF Transceiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "1G (Gigabit Ethernet)"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Single Mode Fiber (SMF)"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "1310 nm (LR)"
+  },
+  {
+   "label": "Key features",
+   "value": "Hot pluggable , High port density, Optical interoperability"
+  },
+  {
+   "label": "Application category",
+   "value": "Data center connectivity, Enterprise network uplinks, Switch to switch links, Router connectivity"
+  }
+ ],
+ "spec_src": "inventory"
 }

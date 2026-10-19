@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "HDMI Pro/200",
  "d": "HDMI Pro/200 HDMI Pro Cable - 200' (60.9 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "60.3 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "HDMI M to HDMI M"
+  },
+  {
+   "label": "Cable type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

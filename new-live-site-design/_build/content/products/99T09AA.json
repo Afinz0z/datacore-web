@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Poly Studio G62 Video Conferencing System/ Codec Hub 4K UHD @ 30 fps",
- "specs": [],
+ "specs": [
+  {
+   "label": "Recommended room size",
+   "value": "Large"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Microsoft Teams, Zoom, Tencent"
+  },
+  {
+   "label": "Type",
+   "value": "Hub"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "A02F9AA",
   "A02F9AA#ABB",

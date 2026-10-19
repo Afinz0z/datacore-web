@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "PI 130",
  "d": "PI 130 High Power Injector for XTP and Pro Series Control Systems",
- "specs": []
+ "specs": [
+  {
+   "label": "Output",
+   "value": "56 VDC, 0.5 A, 30 watts"
+  }
+ ],
+ "spec_src": "inventory"
 }

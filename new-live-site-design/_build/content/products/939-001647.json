@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - Logitech Rally Mic Pod Hub for the Logitech Rally Ultra-HD ConferenceCam - GRAPHITE - USB - N/A - WW-9004 - MIC SPLITTER",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Mic"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Desk/Table"
+  }
+ ],
+ "spec_src": "inventory"
 }

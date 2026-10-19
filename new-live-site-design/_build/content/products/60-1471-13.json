@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "USB Extender Plus R - Twisted Pair Extender for USB Peripherals",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Outputs",
+   "value": "USB-A"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,33 @@
   {
    "label": "Type",
    "value": "Outdoor accesspoint"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": Dual-radio"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz:4.3 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Target Wake Time (TWT), BSS Coloring"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HU4S7E"
  ]

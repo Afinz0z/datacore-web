@@ -8,5 +8,51 @@
  "avail": "lead",
  "model": "DTP3 T 203",
  "d": "DTP3 T 203 - Three Input 4K/60 Switcher with Integrated DTP3 Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "No. ports",
+   "value": "3"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video input",
+   "value": "USB-C, HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "RJ45"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Dante support",
+   "value": "No"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "No"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "spec_src": "inventory"
 }

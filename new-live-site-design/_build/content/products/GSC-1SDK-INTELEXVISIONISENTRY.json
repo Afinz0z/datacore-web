@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Enables integration/communication between the Intelex Vision Sentry solution and Genetec Security Center",
- "specs": []
+ "specs": [
+  {
+   "label": "Integration & interfacing",
+   "value": "Intelex Vision Sentry integration via Genetec Security Center SDK"
+  },
+  {
+   "label": "Recording",
+   "value": "Genetec Security Center recording integration; recording managed by the VMS platform."
+  },
+  {
+   "label": "Analytics support",
+   "value": "Integration of Intelex Vision Sentry analytics with Genetec Security Center."
+  }
+ ],
+ "spec_src": "inventory"
 }

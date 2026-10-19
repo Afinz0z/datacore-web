@@ -6,5 +6,23 @@
  "c": "CARD READER",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Finger Print Scanner, RFID Card, Fingerprint + Card"
+  },
+  {
+   "label": "Interface",
+   "value": "Ethernet, RS-485"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP65, IK08"
+  },
+  {
+   "label": "Processor",
+   "value": "1 GHz CPU"
+  }
+ ],
+ "spec_src": "inventory"
 }

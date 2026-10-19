@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "FT2A-CBL-PT-4K-USBC-HD",
  "d": "FT2A-CBL-PT-4K-USBC-HD Pass-Through Cable for FT2 Series, USB-C® to HDMI®, 18 Gbps, 8 ft (2.4 m)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Cable"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "USB C to HDMI"
+  },
+  {
+   "label": "Cable length",
+   "value": "2.4 m (8 ft)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6511653",
   "6511654",

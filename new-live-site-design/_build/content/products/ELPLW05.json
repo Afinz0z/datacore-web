@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Lens - ELPLW05 - Wide zoom 1 - EB-PU Series,up to 1000\" screen size support; 2.0 to 2.2 F-number; 17.6 mm to 24.3 mm focal lengthZoom ratio - 1 - 1.4Weight - 3.2 lbs (1450 g)Up to 8,500-lumen projectors - WUXGA/WXGA 1.04 to 1.46 throw ratio; lens shift-vertical: -67 percent to +67 percent, horizontal: -30 percent to +30 percent9,000- to 13,000-lumen projectors - WUXGA .77 to 1.07 throw ratio; lens shift-vertical: -24 percent to +24 percent, horizontal: -10 percent to +10 percentEB-PQ Series 4K Projectors - .74 to 1.04 throw ratio; vertical: -18 percent to +18 percent, horizontal: -16 percent to +16 percent",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Wide Throw"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "EB-L260F",
   "EB-L530U",

@@ -8,7 +8,33 @@
  "avail": "lead",
  "model": "SB 33 A 75-80",
  "d": "SB 33 A 75-80 Adjustable Width Sound Bar for 75\" to 80\" Displays",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Soundbar"
+  },
+  {
+   "label": "Frequency range",
+   "value": "100 Hz to 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "95 dB"
+  },
+  {
+   "label": "Drivers",
+   "value": "3\""
+  },
+  {
+   "label": "Coverage angle",
+   "value": "130°"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1260-01"
  ]

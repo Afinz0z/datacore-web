@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "DTP DVI 4K 330 Tx",
  "d": "DTP DVI 4K 330 Tx Long Distance DVI Twisted Pair Transmitter - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "DVI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm stereo jack"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

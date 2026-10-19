@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch LC5-WC06E4 Ceiling Loudspeaker 6 W Suitable for use in humidity-, chlorine- and salty environments Selectable 70 V ,100 V and 8 Ohm input",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "6W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "85 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

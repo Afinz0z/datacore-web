@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "HS-NCM-SF",
  "d": "High-Speed Network Communications Module, Single-Mode Fiber",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "NCM"
+  }
+ ],
+ "spec_src": "inventory"
 }

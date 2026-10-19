@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "VGA M-M MD/100",
  "d": "VGA M-M MD/100 VGA Cable: 15-pin HD Male to Male Molded - 100' (30.4 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "30.4 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Cable type",
+   "value": "VGA"
+  }
+ ],
+ "spec_src": "inventory"
 }

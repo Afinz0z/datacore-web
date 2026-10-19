@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IoT Extended Enterprise. For tracking only.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "IoT / Extended Enterprise"
+  },
+  {
+   "label": "Type",
+   "value": "Tracking / classification SKU"
+  },
+  {
+   "label": "Function",
+   "value": "For tracking only"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "IE-3100-8P2C-E"
  ]

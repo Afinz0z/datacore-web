@@ -6,5 +6,15 @@
  "c": "PC",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Operating system",
+   "value": "Windows 11 Pro"
+  },
+  {
+   "label": "Graphics",
+   "value": "Intel UHD Graphics 700 series"
+  }
+ ],
+ "spec_src": "inventory"
 }

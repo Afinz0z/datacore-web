@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FINOSEL, Copper 10G-CAT6A, UTP RJ45 Modular Keystone Jack, Dual Block, White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "CAT6A"
+  },
+  {
+   "label": "Colour",
+   "value": "BLACK"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CC6AP1-GR3",
   "MPPBK24-UFRLABK"

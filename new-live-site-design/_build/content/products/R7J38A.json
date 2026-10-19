@@ -7,7 +7,33 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking AP-655 (RW) Tri-radio 4x4 802.11ax Wi-Fi 6E Internal Antennas Campus AP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz, 6 GHz"
+  },
+  {
+   "label": "MIMO",
+   "value": "4×4 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 4.8 dBi, 5 GHz : 5.3 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Target Wake Time (TWT), MU-MIMO (UL/DL)"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , Enhanced Open (OWE)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "H59G2E"
  ]

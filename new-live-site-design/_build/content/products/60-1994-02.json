@@ -8,5 +8,59 @@
  "avail": "lead",
  "model": "TLP Pro 535T",
  "d": "TLP Pro 535T 5.5\" Tabletop TouchLink Pro Touchpanel - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "5.5\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1280 x 720"
+  },
+  {
+   "label": "Connectivity",
+   "value": "USB, RJ-45"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "RAM",
+   "value": "4 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "350 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "32GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "900:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory"
 }

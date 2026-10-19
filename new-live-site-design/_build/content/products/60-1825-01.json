@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "SMP 401",
  "d": "SMP 401 - 4K/60 Multi-Recording and Streaming",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectors",
+   "value": "HDMI, SDI"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Input",
+   "value": "HDMI, BNC"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Audio input",
+   "value": "HDMI, BNC, 3.5 mm, 3 pole, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Recording",
+   "value": "Yes"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, RJ45, 3.5 mm, 5 pole"
+  }
+ ],
+ "spec_src": "inventory"
 }

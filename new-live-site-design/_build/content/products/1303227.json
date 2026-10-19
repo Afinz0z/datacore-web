@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "RCH80",
  "d": "1303227 8-Port L2+Web Managed PoE+ Switch Package Contents: 1 × RCH80 Switch 1 × Mounting Bracket Set for rack 1 × 3.0 m Power Cable Includes 2-Year Hardware Warranty\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "8"
+  },
+  {
+   "label": "PoE power",
+   "value": "130 W"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "20Gbp"
+  }
+ ],
+ "spec_src": "inventory"
 }

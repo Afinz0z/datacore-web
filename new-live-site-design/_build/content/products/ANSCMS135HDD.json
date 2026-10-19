@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "ANSCMS135HDD",
  "d": "135\" Anchor ANSCMS135HDD Motorised Screen",
- "specs": []
+ "specs": [
+  {
+   "label": "Size (D)",
+   "value": "135\""
+  }
+ ],
+ "spec_src": "inventory"
 }

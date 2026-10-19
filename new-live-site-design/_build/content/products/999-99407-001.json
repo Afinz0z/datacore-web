@@ -13,8 +13,33 @@
    "value": "PTZ Camera"
   },
   {
+   "label": "Camera type",
+   "value": "PTZ"
+  },
+  {
+   "label": "Max resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Camera connectivity",
+   "value": "HDMI, PoE, RS232"
+  },
+  {
+   "label": "Optical zoom",
+   "value": "12x"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Protocols",
+   "value": "NDI straming, HDMI"
+  },
+  {
    "label": "Series",
    "value": "RoboSHOT"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

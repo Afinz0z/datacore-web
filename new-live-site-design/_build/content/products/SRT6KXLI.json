@@ -8,7 +8,53 @@
  "avail": "lead",
  "model": "APC-6KVA UPS",
  "d": "APC Smart-UPS SRT 6000VA 230V",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "6000"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack-Tower Convertible"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery"
+  },
+  {
+   "label": "Recharge time",
+   "value": "1.5 h"
+  },
+  {
+   "label": "Protection features",
+   "value": "Overload Protection, Short Circuit Protection, Over-Voltage / Under-Voltage Protection, Battery Deep Discharge Protection, Surge Protection (e.g., ≥ 400 Joules), Built-in Static & Manual Bypass, extended module"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "IEC 62040-1 / IEC 62040-2 / IEC 62040-3"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Rack unit",
+   "value": "10U"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SRT192BP",
   "SRTRK2"

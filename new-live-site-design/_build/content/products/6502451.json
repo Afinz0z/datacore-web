@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "C2NI/INETI-FPB-T-S/STEEL Architectural Faceplate for Cameo® International Keypad, Black Textured w/Stainless Steel Inlay",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black, Stainless Steel"
+  },
+  {
+   "label": "No slot",
+   "value": "2"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6512149",
   "6513118",

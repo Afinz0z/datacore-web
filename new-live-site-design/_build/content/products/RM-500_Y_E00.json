@@ -6,7 +6,29 @@
  "c": "Paging mic",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Interface",
+   "value": "3\" screen"
+  },
+  {
+   "label": "Expandability",
+   "value": "Keypad Extensions"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Tabletop"
+  },
+  {
+   "label": "Buttons",
+   "value": "8 programmable buttons"
+  },
+  {
+   "label": "Control",
+   "value": "Zone/group paging & control"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "VX-RJB"
  ]

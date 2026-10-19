@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "100PC 10-32 RACK SCREWS W",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Package count",
+   "value": "100"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "IRCS-1824"
  ]

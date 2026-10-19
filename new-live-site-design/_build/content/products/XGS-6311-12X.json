@@ -7,7 +7,41 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Layer 3 12-Port 10GBASE-X SFP+ Managed Ethernet Switch (Hardware-based Layer 3 RIPv1/v2, OSPFv2 dynamic routing,supports ERPS Ring, supports 1000X SFP and 10G SFP+, 13”desktop size and rack-mountable)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "12"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "240 Gbps"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Redundant, hot-swappable power supplies, Redundant fan modules, Non-blocking architecture"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "12"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "MTB-LR"
  ]

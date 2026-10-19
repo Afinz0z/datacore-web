@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "MPA 152 Plus",
  "d": "MPA 152 Plus Stereo Amp - 15 Watts Per Channel",
- "specs": []
+ "specs": [
+  {
+   "label": "Output power per channel",
+   "value": "15 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "RCA, 3.5 mm mini audio jack, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

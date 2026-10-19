@@ -6,7 +6,13 @@
  "c": "Lighting Accessories",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Dustcover"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "154.012"
  ]

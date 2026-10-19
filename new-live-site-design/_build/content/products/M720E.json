@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "M720E",
  "d": "Microprocessor monitor module support two inputs.",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Monitor module"
+  }
+ ],
+ "spec_src": "inventory"
 }

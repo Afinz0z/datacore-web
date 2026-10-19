@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Yealink MB-WallMount-860 is a dedicated wall-mount bracket designed specifically for Yealink MeetingBoard Pro large-format displays (75″ and 86″)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "1203626",
   "HG75U800FAUXUE"

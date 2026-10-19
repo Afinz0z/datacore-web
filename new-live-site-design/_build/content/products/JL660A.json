@@ -11,8 +11,61 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "PoE power",
+   "value": "60W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, SNMP"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "640 Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3at (PoE+), IEEE 802.3bt"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Inter-VLAN routing, OSPF / OSPFv3, Inter-VLAN Routing"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Access Control Lists (ACLs)"
+  },
+  {
+   "label": "1G SFP PORTS",
+   "value": "4"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "4"
+  },
+  {
+   "label": "Multigig (rj-45) PORTS",
+   "value": "24"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HL5Y3E",
   "JL669B"

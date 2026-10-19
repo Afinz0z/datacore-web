@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Flex55 USB PowerPlate 102 Two USB Outlets, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Module"
+  },
+  {
+   "label": "Connector",
+   "value": "USB-A"
+  }
+ ],
+ "spec_src": "inventory"
 }

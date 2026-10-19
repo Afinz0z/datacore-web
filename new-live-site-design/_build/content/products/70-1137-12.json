@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "RM 6",
  "d": "RM 6 Rack Mount Kit for TLP Pro 1025M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1566-02",
   "60-1566-03",

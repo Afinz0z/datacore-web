@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "4K/UHD capability @ 60 Hz with 4:4:4 chroma sampling, plus support for HDR formats, HDCP 2.2 compliant, EDID Management, 1×4 HDMI distribution amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x4"
+  }
+ ],
+ "spec_src": "inventory"
 }

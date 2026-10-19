@@ -13,10 +13,115 @@
    "value": "Outdoor Bullet"
   },
   {
+   "label": "Resolution",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "P-iris (IR corrected)"
+  },
+  {
+   "label": "WDR",
+   "value": "130 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "60 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK10, IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "512 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, MJPEG"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Smart event",
+   "value": "Unattended baggage detection, object removal detection, loitering detection"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing, intrusion"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, DHCP, DNS, DDNS, RTP, RTCP, NTP, UPnP, SMTP, IGMP, 802.1X, QoS, IPv4, IPv6, UDP, SSL/TLS, SNMP, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF (Profile S, Profile G), ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, HTTPS encryption, IP address filter, basic and digest authentication for HTTP/HTTPS"
+  },
+  {
+   "label": "Network storage",
+   "value": "memory card encryption and health detection are supported, microSD / microSDHC / microSDXC card support"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Day, Night, Schedule"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "HLC, WDR"
+  },
+  {
+   "label": "Iris type",
+   "value": "P-Iris"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Focus",
+   "value": "Auto, Vari-focal lens, motor-driven lens"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 60m"
+  },
+  {
+   "label": "Shutter time",
+   "value": "1/32,000 to 1/25,000"
+  },
+  {
+   "label": "Audio compression",
+   "value": "G.711ulaw, G.711alaw, G.726"
+  },
+  {
+   "label": "Max. resolution",
+   "value": "8MP - 3840*2160 (4K/Ultra HD)"
+  },
+  {
    "label": "Series",
    "value": "70 seies"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HA60BB1",
   "HA60PLMZ",

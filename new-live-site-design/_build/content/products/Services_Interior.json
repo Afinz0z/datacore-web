@@ -10,8 +10,13 @@
  "d": "Engineering & Shop Drawings, Project Management, Installation Supervision, Commissioning & Pixel Mapping",
  "specs": [
   {
+   "label": "Type",
+   "value": "Services"
+  },
+  {
    "label": "Unit",
    "value": "Lot"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

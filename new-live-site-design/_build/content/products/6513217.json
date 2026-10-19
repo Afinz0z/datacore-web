@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "IV-CAMA-REMOTE Crestron 1 Beyond IR Camera Remote",
- "specs": [],
+ "specs": [
+  {
+   "label": "Remote category",
+   "value": "Camera"
+  },
+  {
+   "label": "Remote type",
+   "value": "IR"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6513204",
   "6514446"

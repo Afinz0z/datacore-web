@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "1-Year Poly+ Partner Support Service for the Poly Studio E60 Smart Camera",
- "specs": [],
+ "specs": [
+  {
+   "label": "Duration (Year)",
+   "value": "1"
+  },
+  {
+   "label": "Service type",
+   "value": "Extended service agreement"
+  },
+  {
+   "label": "Supporting product",
+   "value": "Camera"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "9W1A6AA"
  ]

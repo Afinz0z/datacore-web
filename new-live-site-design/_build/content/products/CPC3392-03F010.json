@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "patchcord 3m"
+  },
+  {
+   "label": "Patch cord lenth",
+   "value": "3 Mtr"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

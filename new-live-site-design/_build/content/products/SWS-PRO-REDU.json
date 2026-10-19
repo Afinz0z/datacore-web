@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "Reduntant license"
+  },
+  {
+   "label": "Time period",
+   "value": "1 years"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "License"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "SWS-PRO"
  ]

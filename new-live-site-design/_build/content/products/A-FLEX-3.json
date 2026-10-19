@@ -7,5 +7,71 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Subscription-based licensing framework for Cisco collaboration solutions, including Unified Communications Manager, Webex Calling, and related collaboration services.",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Cisco Collaboration Flex Plan"
+  },
+  {
+   "label": "Category",
+   "value": "Collaboration / Unified Communications"
+  },
+  {
+   "label": "Base license",
+   "value": "Plan-level subscription; specific entitlement depends on selected Flex Plan offer"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported depending on Cisco service/administration configuration"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software / Cloud Subscription"
+  },
+  {
+   "label": "Application",
+   "value": "Enterprise collaboration, unified communications and calling"
+  },
+  {
+   "label": "License type",
+   "value": "Subscription / Entitlement"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides subscription-based access to eligible Cisco collaboration services and capabilities"
+  },
+  {
+   "label": "Capacity",
+   "value": "As per covered Flex Plan subscription/services"
+  },
+  {
+   "label": "System",
+   "value": "Cisco Collaboration Flex Plan"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Depends on the selected Flex Plan offer and licensed users/services"
+  },
+  {
+   "label": "Associated product",
+   "value": "Cisco Unified Communications Manager, Webex Calling and related Cisco collaboration services"
+  },
+  {
+   "label": "Supporting product",
+   "value": "Cisco Collaboration Flex Plan"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Subscription entitlement; based on applicable Cisco licensing metric"
+  }
+ ],
+ "spec_src": "inventory"
 }

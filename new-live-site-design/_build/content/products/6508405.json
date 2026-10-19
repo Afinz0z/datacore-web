@@ -10,10 +10,31 @@
  "d": "FT2A-CBL-PT-CAT6 Pass-Through Cable for FT2 Series, RJ-45 to RJ-45, CAT6, 8 ft (2.4 m)",
  "specs": [
   {
+   "label": "Mounting type",
+   "value": "Flush Mount / Flip-Top"
+  },
+  {
+   "label": "Connectivity / connector",
+   "value": "CAT 6"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
    "label": "Type",
-   "value": "Cat6a"
+   "value": "Module/Chassis"
+  },
+  {
+   "label": "Lid type",
+   "value": "Pass-Through Lid (PTL)"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "RJ45 to RJ45"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "6511653",
   "6511654",

@@ -6,5 +6,15 @@
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "5 years, Lifetime"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory"
 }

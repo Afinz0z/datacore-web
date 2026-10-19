@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cabinet, 27U FS 4xfans, wheels, Doors, 600x600, Black. FS Universal Server Rack is compatible with a variety of servers and rack mountable networking equipments with a Wide range of accessories such as fan, Wheel, Castor etc. are preconfigured with all standing cabinet.",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "600x600"
+  },
+  {
+   "label": "Rack size",
+   "value": "27U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

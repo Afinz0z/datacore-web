@@ -7,7 +7,45 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PTZ Auto Framing Camera with AI Analytics, 30x (w/ CIZ) zoom, and NDI®| HX capability",
- "specs": [],
+ "specs": [
+  {
+   "label": "Camera type",
+   "value": "PTZ"
+  },
+  {
+   "label": "Max resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Camera connectivity",
+   "value": "IP Camera, HDMI, PoE, SDI"
+  },
+  {
+   "label": "Optical zoom",
+   "value": "20x"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Focus distance",
+   "value": "80 mm to infinity"
+  },
+  {
+   "label": "Digital zoom",
+   "value": "12x"
+  },
+  {
+   "label": "Feature",
+   "value": "Auto framing"
+  },
+  {
+   "label": "Protocols",
+   "value": "NDI straming"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "BRC-WMZ330",
   "RM-IP500"

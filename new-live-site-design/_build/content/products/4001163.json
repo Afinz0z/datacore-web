@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "6 way PDU with main switch UK style socket & plug13 AMP P/N. 4001163- DATWYLER",
- "specs": [],
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "HORIZONTAL"
+  },
+  {
+   "label": "Plug",
+   "value": "UK plug (BS1363)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "4000610"
  ]

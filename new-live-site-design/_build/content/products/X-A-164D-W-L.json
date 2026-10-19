@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "A164 Dante wallmount expander I/O unit with LCD",
- "specs": []
+ "specs": [
+  {
+   "label": "Mixer type",
+   "value": "Audio Mixer"
+  },
+  {
+   "label": "Type",
+   "value": "Expander"
+  }
+ ],
+ "spec_src": "inventory"
 }

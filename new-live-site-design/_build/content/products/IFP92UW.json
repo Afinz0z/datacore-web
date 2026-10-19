@@ -9,10 +9,15 @@
  "d": "92\"5k 21:9 IFP Panel 8GB/128GB, Slim IR, Dual Pen, Android 13",
  "specs": [
   {
+   "label": "Display size",
+   "value": "92\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

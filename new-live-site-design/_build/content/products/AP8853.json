@@ -8,7 +8,29 @@
  "avail": "lead",
  "model": "Rack PDU 2G",
  "d": "Rack PDU 2G, Metered, ZeroU, 32A, 230V, (36) C13 & (6) C19",
- "specs": [],
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "VERTICAL"
+  },
+  {
+   "label": "C19 - sockets",
+   "value": "6"
+  },
+  {
+   "label": "C13 sockets",
+   "value": "36"
+  },
+  {
+   "label": "Plug",
+   "value": "IEC 60309 20A 2P+E"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "AR3300"
  ]

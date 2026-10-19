@@ -7,7 +7,85 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bullet 8MP HDR 4.4-10mm IP66/67 IK10 Fixed bullet camera 8MP with starlight X, HDR, IVA Pro Buildings, IVA Pro Perimeter, IP67, IK10, H.265, IR, 4.4-10 mm lens",
- "specs": [],
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motorized lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK10, IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "2 TB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265+"
+  },
+  {
+   "label": "Smart event",
+   "value": "loitering detection"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing"
+  },
+  {
+   "label": "Protocols",
+   "value": "HTTP, HTTPS, DHCP, IPv4, IPv6"
+  },
+  {
+   "label": "Security",
+   "value": "TLS 1.2/1.3"
+  },
+  {
+   "label": "SNR",
+   "value": ">55db"
+  },
+  {
+   "label": "Iris type",
+   "value": "P-Iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Lens type",
+   "value": "4.4 - 10mm"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 60m"
+  },
+  {
+   "label": "IR wavelength",
+   "value": "850 nm"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "NDA-3083 LWMT"
  ]

@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "TLI Pro 101",
  "d": "TLI Pro 101 TouchLink® Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Control ports",
+   "value": "Touchpanel Interface"
+  }
+ ],
+ "spec_src": "inventory"
 }

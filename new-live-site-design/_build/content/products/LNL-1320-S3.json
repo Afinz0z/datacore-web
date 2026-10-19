@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dual Reader Interface Module",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "Wiegand Connectivity: Supports 2-door / 2-reader connectivit"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "LNL-M2220"
  ]

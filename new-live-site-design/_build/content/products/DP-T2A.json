@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "DP-T2A",
  "d": "Dress Panel for CAB-5 Series, mounts 10\" display and modules",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "FA 10\" display mount"
+  }
+ ],
+ "spec_src": "inventory"
 }

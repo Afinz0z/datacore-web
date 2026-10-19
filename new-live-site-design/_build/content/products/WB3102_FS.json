@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Wall mounting box Flush mount - solid wall",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Volume controller"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "VC3022/W"
  ]

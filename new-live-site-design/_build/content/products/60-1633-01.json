@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "HD CTL 100",
  "d": "HD CTL 100 Automation Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Workspace Controller"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, 2 pin,3.5 mm connector, 3 pin,3.5 mm connector"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.0"
+  }
+ ],
+ "spec_src": "inventory"
 }

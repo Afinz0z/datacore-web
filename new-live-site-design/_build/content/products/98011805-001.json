@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "48"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "02312FFU-002",
   "02318169",

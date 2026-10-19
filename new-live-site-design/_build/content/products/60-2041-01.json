@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "DMP 44 xi",
  "d": "DMP 44 xi 4x4 Digital Matrix Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "4"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "4"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Connectors",
+   "value": "6-pin 3.5mm terminal blocks"
+  }
+ ],
+ "spec_src": "inventory"
 }

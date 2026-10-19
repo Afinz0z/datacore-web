@@ -9,10 +9,15 @@
  "d": "55\", 4K Kiosk, 450 nits, Android 8.0, Floor Standing, No vSignage, Touch",
  "specs": [
   {
+   "label": "Display size",
+   "value": "55\""
+  },
+  {
    "label": "Type",
-   "value": "Kiosk"
+   "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-CMBB-65",
   "LG-Emerald1",

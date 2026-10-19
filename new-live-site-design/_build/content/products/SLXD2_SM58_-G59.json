@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Wireless Handheld Transmitter with SM58® Microphone HANDHELD W/ SM58 MIC 470-514MHz",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Handheld Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wireless"
+  },
+  {
+   "label": "Frequency range",
+   "value": "470 - 514 MHz"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SB903",
   "SBC203-UK"

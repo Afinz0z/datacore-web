@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DSP Noise Sensing Mic, Ethernet, Gen 2",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Ceiling Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

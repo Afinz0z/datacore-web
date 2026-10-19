@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "BMB01",
  "d": "Din Mount I/O Expansion Device",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "I/O Expansion"
+  }
+ ],
+ "spec_src": "inventory"
 }

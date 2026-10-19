@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "XTP Matrix Blank Plate -Blank Plate for XTP Matrix",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Blank Plate"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1717-12",
   "60-1981-01",

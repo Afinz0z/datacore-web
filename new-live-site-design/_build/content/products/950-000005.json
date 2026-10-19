@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - MeetUp Mic Extension Cable - GRAPHITE - N/A - N/A - WW-9004 - MEETUP 10M MIC CABLE",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "10m"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,117 @@
   {
    "label": "Type",
    "value": "PTZ Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "2 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Zoom lens (Optical Zoom)"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "180m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "60 fps"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP66"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "2 TB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264+ , H.265"
+  },
+  {
+   "label": "Smart event",
+   "value": "loitering detection, Enter/Exit detection"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, IPv4, IPv6, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, User Access Log, 802.1X Authentication (EAP-TLS, EAP-LEAP)"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Auto"
+  },
+  {
+   "label": "Image settings",
+   "value": "Saturation, Gain, White Balance"
+  },
+  {
+   "label": "SNR",
+   "value": ">55db"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC"
+  },
+  {
+   "label": "Iris type",
+   "value": "Auto-iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "Capture type",
+   "value": "JPEG IMAGE"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "1920x1080"
+  },
+  {
+   "label": "Lens type",
+   "value": "4.5 mm - 188.8 mm"
+  },
+  {
+   "label": "Focus",
+   "value": "Vari-focal lens"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 150 m"
+  },
+  {
+   "label": "Audio bit rate",
+   "value": "64 Kbps (G.711ulaw/G.711alaw)"
+  },
+  {
+   "label": "Audio sampling rate",
+   "value": "16 kHz"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "NDA-U-PMAL"
  ]

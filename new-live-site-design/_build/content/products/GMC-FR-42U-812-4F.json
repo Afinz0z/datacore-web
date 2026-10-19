@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "RACK 42 U",
  "d": "FREESTAND 42 U 800X1200,4FAN,REMOVSIDEBACK,BLK RAL 9005",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x1200"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Floor standing"
+  }
+ ],
+ "spec_src": "inventory"
 }

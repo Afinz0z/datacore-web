@@ -12,6 +12,47 @@
   {
    "label": "Type",
    "value": "Ceiling Speaker"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Frequency range",
+   "value": "70 Hz - 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "102 dB, 108 dB"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "150°"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Impedance",
+   "value": "16 Ω"
+  },
+  {
+   "label": "Woofer",
+   "value": "4.5\""
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 30, 15, 7.5, 3.75, 100 V: 30, 15, 7.5"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

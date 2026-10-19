@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "27\" Full HD VA monitor with 75 Hz refresh rate, HDMI and VGA connectivity, anti-glare display, and slim bezel design for everyday office and home computing.",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "27"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel type",
+   "value": "VA Panel"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

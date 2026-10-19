@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "RSF 123",
  "d": "RSF 123 1U 3.5\" Deep Rack Shelf Kit",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Rack Shelf"
+  }
+ ],
+ "spec_src": "inventory"
 }

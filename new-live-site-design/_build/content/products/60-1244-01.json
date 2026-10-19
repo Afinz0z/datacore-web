@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "XPA 4002",
  "d": "XPA 4002 Two Channel Amp - 400 Watts/Ch",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "200 W, 400 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "4-pin 5 mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SUPPORT DF PROFIL 930i/940i DOUBLE-SIDED BRACKET",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "982F11"
  ]

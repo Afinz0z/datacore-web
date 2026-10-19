@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-ACS AMC Power Supply Unit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply Unit"
+  },
+  {
+   "label": "Output",
+   "value": "12 V DC"
+  },
+  {
+   "label": "Maximum battery capacity",
+   "value": "24Ah"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "APC-AMC2 4WCF"
  ]

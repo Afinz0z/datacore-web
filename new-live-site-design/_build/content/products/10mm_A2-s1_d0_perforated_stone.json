@@ -9,8 +9,13 @@
  "d": "Machined stone fascia, low resolution band(Fascia Covers) · 10mm A2-s1/d0 perforated engineeredstone for the Delta RGBW ribbon, with anchoring insertsand fixing brackets",
  "specs": [
   {
+   "label": "Type",
+   "value": "Stone fascia"
+  },
+  {
    "label": "Unit",
    "value": "m²"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

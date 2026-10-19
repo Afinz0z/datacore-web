@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "NBP 100",
  "d": "NBP 100 Network Button Panel with 6 Buttons - US 2-Gang",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Colour",
+   "value": "Black, White"
+  },
+  {
+   "label": "Buttons type",
+   "value": "Pushbutton"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  },
+  {
+   "label": "Type",
+   "value": "Network Button Panel"
+  },
+  {
+   "label": "Connector",
+   "value": "RJ-45"
+  }
+ ],
+ "spec_src": "inventory"
 }

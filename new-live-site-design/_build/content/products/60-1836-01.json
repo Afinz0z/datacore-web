@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "XMP 240 C AT",
  "d": "XMP 240 C AT Dante Audio DSP Matrix Processor w/ 24 AEC",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "24"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 3-pin 3.5 mm terminal block"
+  },
+  {
+   "label": "Features",
+   "value": "AEC"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "JBL-GSF6-TN",
  "d": "6.5” Ground-Stake Loudspeaker",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Landscape"
+  },
+  {
+   "label": "Frequency range (+/- 3dB)",
+   "value": "65 Hz - 20 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

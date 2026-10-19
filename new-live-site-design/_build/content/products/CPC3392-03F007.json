@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "UTP CAT6 3 meter patchcord"
+  },
+  {
+   "label": "Jacket",
+   "value": "LSZH (Low Smoke Zero Halogen)"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

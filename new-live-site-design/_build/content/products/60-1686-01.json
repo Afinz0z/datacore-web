@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "DPH 101 4K PLUS",
  "d": "DPH 101 4K PLUS DisplayPort Female to HDMI Female Active Adapter",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "DP"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Active (Powered)"
+  }
+ ],
+ "spec_src": "inventory"
 }

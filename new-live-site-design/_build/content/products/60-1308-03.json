@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "SM 26",
  "d": "SM 26 SpeedMount Two-Way Surface Mount Speakers with 6.5\" Woofer - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Surface Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "65 Hz - 19 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Woofer",
+   "value": "6.5\""
+  }
+ ],
+ "spec_src": "inventory"
 }

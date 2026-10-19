@@ -10,8 +10,13 @@
  "d": "LED Module · High-Resolution Screen (12.5mm + LightThru), all module geometries",
  "specs": [
   {
+   "label": "Pixel pitch",
+   "value": "12.5 mm"
+  },
+  {
    "label": "Unit",
    "value": "m²"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

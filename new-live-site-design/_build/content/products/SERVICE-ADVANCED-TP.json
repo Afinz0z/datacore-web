@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "SERVICE-ADVANCED-TP",
  "d": "Annual Advanced Uniguest Service Pack - 1st year Mandatory",
- "specs": []
+ "specs": [
+  {
+   "label": "Period",
+   "value": "1 Year"
+  },
+  {
+   "label": "Type",
+   "value": "Services"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "NBP 110 D",
  "d": "NBP 110 D Network Button Panel with 10 Buttons - Decorator-Style Wallplate",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Plate"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  }
+ ],
+ "spec_src": "inventory"
 }

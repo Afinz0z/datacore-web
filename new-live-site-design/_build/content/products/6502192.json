@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CBI3-BTNB-T_BLANK Set of (3) Medium Backlit Engravable Button Caps for Cameo® International Keypad, Black Textured, Engraving Not Included",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finish",
+   "value": "Textured"
+  },
+  {
+   "label": "Set",
+   "value": "3"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6513118",
   "6513119",

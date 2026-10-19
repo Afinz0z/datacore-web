@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MW1-RX-F4 Microphone receiver, 606-630 MHz 193 selectable UHF channels",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency selection",
+   "value": "PLL synthesized control"
+  },
+  {
+   "label": "Frequency range",
+   "value": "606 to 630 MHz"
+  },
+  {
+   "label": "Channels",
+   "value": "193 channels (in steps of 125 kHz)"
+  },
+  {
+   "label": "Outputs",
+   "value": "XLR"
+  },
+  {
+   "label": "Type",
+   "value": "Rx"
+  }
+ ],
+ "spec_src": "inventory"
 }

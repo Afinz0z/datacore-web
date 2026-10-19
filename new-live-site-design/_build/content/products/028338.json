@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB-MA12 COUPLING BRACKET WHITE",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

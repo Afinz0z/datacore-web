@@ -11,6 +11,71 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "8 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "130 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "IR distance",
+   "value": "60 m"
+  },
+  {
+   "label": "IP rating",
+   "value": "IK10, IP 68"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing, intrusion, Enter/Exit"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, FTP, DNS, DDNS, RTP, NTP, UPnP, IPv4, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Image settings",
+   "value": "Rotate mode, Contrast, Sharpness, Gain, White Balance"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Smart recognition",
+   "value": "Vehicle detection"
+  },
+  {
+   "label": "Lens type",
+   "value": "2.8 mm to 12 mm"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

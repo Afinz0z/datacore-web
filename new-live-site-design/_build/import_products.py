@@ -239,6 +239,16 @@ def described_name(name, desc, brand):
     return f'{name}, {phrase}'[:90].rsplit(' ', 1)[0] if len(name) + len(phrase) > 88 else f'{name}, {phrase}'
 
 
+NOT_A_SPEC = re.compile(r'^(product name|name|model|model name|brand|manufacturer|part number|sku|price|cost)$', re.I)
+
+
+def sheet_rows(d):
+    """The export's own Specifications, for products whose maker's pages could not supply checked ones.
+    The website labels them as inventory data, not checked against the maker."""
+    return [s for s in parse_specs(d.get('Specifications'))
+            if not NOT_A_SPEC.search(s['label']) and len(s['label']) <= 45 and len(s['value']) <= 220]
+
+
 def classification(d, info):
     """What the export's classification columns say: product type, series and sale unit. Cards show
     these until the product's specifications have been checked against the manufacturer; the free-text
@@ -309,7 +319,15 @@ def main(xlsx, skipped_csv=None):
             entry['n'] = entry['n'][:tail.start()]
         if desc:
             entry['d'] = desc
-        entry['specs'] = classification(d, info)
+        cls = classification(d, info)
+        rows = sheet_rows(d)
+        if rows:                                  # type first, then the export's specs, then series and unit
+            seen = {r['label'].lower() for r in rows}
+            entry['specs'] = ([c for c in cls if c['label'] == 'Type' and 'type' not in seen] + rows
+                              + [c for c in cls if c['label'] != 'Type' and c['label'].lower() not in seen])
+            entry['spec_src'] = 'inventory'
+        else:
+            entry['specs'] = cls
         items.append((info, entry, d))
 
     # Bundles: the export lists the supporting products on each main product and the main products on
@@ -350,6 +368,7 @@ def main(xlsx, skipped_csv=None):
             old = json.load(open(path, encoding='utf-8'))
             if old.get('checked'):
                 e['specs'] = old.get('specs', [])
+                e.pop('spec_src', None)
                 for k in ('src', 'checked'):
                     if old.get(k):
                         e[k] = old[k]

@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Class D Digital Amplifier 500w x 2CH, 100V/50V/8 OHM incl connector pac",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "500 W"
+  },
+  {
+   "label": "Rack unit (U)",
+   "value": "2 U"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Zones",
+   "value": "2"
+  }
+ ],
+ "spec_src": "inventory"
 }

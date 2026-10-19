@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Attach Rally Bar, Rally Bar Mini, Rally Bar Huddle, or Rally Camera to any display with VESA mounting points.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Video Conferencing System"
+  },
+  {
+   "label": "Mounting type",
+   "value": "TV Mount"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "960-001308",
   "960-001340"

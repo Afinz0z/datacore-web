@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "1y Ptr Poly+ TC10",
  "d": "1-Year Partner HP Poly+ Support Service for the Poly TC10 Touch Controller",
- "specs": [],
+ "specs": [
+  {
+   "label": "Duration (Year)",
+   "value": "1"
+  },
+  {
+   "label": "Service type",
+   "value": "Extended service agreement"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "875K5AA"
  ]

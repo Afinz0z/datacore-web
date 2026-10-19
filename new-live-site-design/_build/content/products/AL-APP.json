@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Application"
+  },
+  {
+   "label": "Category",
+   "value": "App"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "SWS-ENTREG-LT"
  ]

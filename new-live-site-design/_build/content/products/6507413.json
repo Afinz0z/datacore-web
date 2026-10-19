@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CBI5-BTNLB-T_ENGRAVED Set of (4) Small and (1) Medium Button Caps, Backlit, Left Side, with Engraving, Black, Textured",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finish",
+   "value": "Textured"
+  },
+  {
+   "label": "Set",
+   "value": "4"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6513118",
   "6513119",

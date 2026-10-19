@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "DVS 605",
  "d": "DVS 605 Five Input HDCP-Compliant Scaler with Seamless Switching",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "1080p, 1080i"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

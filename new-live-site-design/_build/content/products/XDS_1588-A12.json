@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "15.6\" ladea Digital signge screen with POE and CMS w/o Power Adapter",
- "specs": []
+ "specs": [
+  {
+   "label": "Panel size",
+   "value": "15\""
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Memory",
+   "value": "8GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

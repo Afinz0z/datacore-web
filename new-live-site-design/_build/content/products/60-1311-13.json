@@ -8,7 +8,37 @@
  "avail": "lead",
  "model": "SF 3C LP",
  "d": "SF 3C LP Full Range 3\" Ceiling Speakers, 8 Ohm, Low Profile,",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "16 W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "65 Hz - 20 kHz"
+  },
+  {
+   "label": "Drivers",
+   "value": "3\""
+  },
+  {
+   "label": "Sensitivity",
+   "value": "83 dB"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "165°"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1127-03",
   "70-1265-01"

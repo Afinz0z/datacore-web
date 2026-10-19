@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "CMB S2",
  "d": "CEILING MOUNT BRACKET S2 BLK",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

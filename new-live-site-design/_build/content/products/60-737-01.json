@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "MIX 301",
  "d": "MIX 301 Three Channel Line Level Mixer",
- "specs": []
+ "specs": [
+  {
+   "label": "Channel",
+   "value": "3"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Inputs",
+   "value": "3 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Outputs",
+   "value": "3 pin, 3.5 mm captive connector"
+  }
+ ],
+ "spec_src": "inventory"
 }

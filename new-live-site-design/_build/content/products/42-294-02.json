@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "ShareLink Pro 1100 Miracast & ShareNext Kit EU ShareLink Pro 1100 w/ Miracast & ShareNext - EU",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "Embedded digital audio from HDMI"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "42-295-02"
  ]

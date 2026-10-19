@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Honeywell License Plate recognition L2,upto spedd 30mph",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Number of camera's",
+   "value": "1"
+  },
+  {
+   "label": "Software license type",
+   "value": "Automatic read and verifIcation of vehicle number plates, License Plate Recognition analytics"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "HC70WB8R2"
  ]

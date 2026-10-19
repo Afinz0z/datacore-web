@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "SDI2USB3",
  "d": "DI2USB3 Converter - SDI to USB (+ Loop)",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "SDI"
+  },
+  {
+   "label": "Output",
+   "value": "USB"
+  }
+ ],
+ "spec_src": "inventory"
 }

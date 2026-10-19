@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "XSM4348CS 48x10G and 4xSFP+ (shared) Managed Switch",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  }
+ ],
+ "spec_src": "inventory"
 }

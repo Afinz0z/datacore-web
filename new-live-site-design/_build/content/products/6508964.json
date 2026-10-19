@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FP1-120-INTENSE Single gang faceplate Niko Intense - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "No slot",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

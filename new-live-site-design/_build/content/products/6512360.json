@@ -8,7 +8,41 @@
  "avail": "lead",
  "model": "UC-SB2-CAM-A-Z-I",
  "d": "UC-SB2-CAM-A-Z-I Crestron Flex All-In-One Videobar 70 for Zoom Rooms® Software, International",
- "specs": [],
+ "specs": [
+  {
+   "label": "Recommended room size",
+   "value": "Medium to Large"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Display support",
+   "value": "2"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Zoom"
+  },
+  {
+   "label": "Digital zoom",
+   "value": "7.5x"
+  },
+  {
+   "label": "Audio pickup range",
+   "value": "9m"
+  },
+  {
+   "label": "Type",
+   "value": "All in one Bar"
+  },
+  {
+   "label": "Blueetooth",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "6513416",
   "6513417"

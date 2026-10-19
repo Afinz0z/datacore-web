@@ -6,7 +6,29 @@
  "c": "Battery",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rechargeable / Non-Rechargeable",
+   "value": "Rechargeable"
+  },
+  {
+   "label": "Capacity",
+   "value": "18Ah (18000 mAh)"
+  },
+  {
+   "label": "Housing",
+   "value": "ABS plastic enclosure"
+  },
+  {
+   "label": "Charge voltage",
+   "value": "14.4 - 14.7 V"
+  },
+  {
+   "label": "Output voltage",
+   "value": "12 V"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "LNL-M2220",
   "LNL-M4420"

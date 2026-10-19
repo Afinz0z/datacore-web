@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "PTZ Camera"
+  },
+  {
+   "label": "Camera type",
+   "value": "PTZ"
+  },
+  {
+   "label": "Max resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Optical zoom",
+   "value": "12x"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "1203626"
  ]

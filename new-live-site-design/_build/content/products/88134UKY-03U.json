@@ -7,7 +7,73 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Access Controller AP Resource License(1 AP)_Co-Care Application Software Support Service Access Controller AP Resource License(1 AP)_36Month(s)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Access Controller AP Resource License"
+  },
+  {
+   "label": "Category",
+   "value": "WLAN , Wireless LAN Controller"
+  },
+  {
+   "label": "Channels support",
+   "value": "1 AP resource"
+  },
+  {
+   "label": "WIFI",
+   "value": "Yes - AP resource"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Application",
+   "value": "Adds one licensed AP resource to the WLAN Access Controller"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Adds one licensed AP resource to the WLAN Access Controller"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 AP"
+  },
+  {
+   "label": "System",
+   "value": "Huawei WLAN Access Controller"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Huawei AC6508 / compatible Access Controller and AirEngine AP"
+  },
+  {
+   "label": "Associated product",
+   "value": "Huawei AirEngine / CloudCampus WLAN"
+  },
+  {
+   "label": "Supporting product",
+   "value": "Huawei Access Controller"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per AP - 1 AP"
+  },
+  {
+   "label": "Support period",
+   "value": "36 Months"
+  },
+  {
+   "label": "Support service",
+   "value": "Co-Care Application Software Support"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02354FRJ-001"
  ]

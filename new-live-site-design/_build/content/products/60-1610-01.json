@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "SF 10C SUB",
  "d": "SF 10C SUB 10\" SoundField In-Ceiling Subwoofer",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "400 W"
+  },
+  {
+   "label": "Woofer",
+   "value": "10\""
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1127-03"
  ]

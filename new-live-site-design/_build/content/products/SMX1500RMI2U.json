@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "SMX1500RMI2U",
  "d": "APC Smart-UPS X 1500VA Rack/Tower LCD 230V",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "1500"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tower, Rack"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery, Sealed Lead Acid"
+  }
+ ],
+ "spec_src": "inventory"
 }

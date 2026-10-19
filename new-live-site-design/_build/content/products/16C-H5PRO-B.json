@@ -10,8 +10,33 @@
   {
    "label": "Type",
    "value": "Box Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "16 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Lens type",
+   "value": "27.2mm"
+  },
+  {
+   "label": "Max. resolution",
+   "value": "6240 × 3512, 6240 × 4160"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "ES-HD-CWS-LG",
   "LEF7020028CA3"

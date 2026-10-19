@@ -8,5 +8,63 @@
  "avail": "lead",
  "model": "TLP Pro 835C",
  "d": "TLP Pro 835C 8\" Cable Cubby TouchLink Pro Touchpanel - w/o AC Module",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "8\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1280 x 800"
+  },
+  {
+   "label": "Connectivity",
+   "value": "USB C, RJ-45"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Cable Cubby"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "RAM",
+   "value": "4 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "420 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "32GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "1200:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Light sensor"
+  },
+  {
+   "label": "Build in cable cubby modular enclosure",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

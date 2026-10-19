@@ -11,6 +11,51 @@
   {
    "label": "Type",
    "value": "Decoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K, 1080p, 720p"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "4K60 4:4:4"
+  },
+  {
+   "label": "Audio digital formats",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-A, USB-C, RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "5Gbps"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  },
+  {
+   "label": "IR frequency",
+   "value": "36 to 38 kHz IR"
+  },
+  {
+   "label": "Switching",
+   "value": "4x1"
+  },
+  {
+   "label": "Dante support",
+   "value": "No"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

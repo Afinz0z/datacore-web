@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "UCS SW 313",
  "d": "UCS SW 313 3x1 4K/60 Collaboration and Presentation Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Video switcher",
+   "value": "3x1"
+  },
+  {
+   "label": "Maximum resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB, USB-C, HDMI"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI, USB"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

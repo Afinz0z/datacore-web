@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Antenna Distribution System allows for the expansion of wireless microphone systems",
- "specs": []
+ "specs": [
+  {
+   "label": "Application",
+   "value": "Wireless Mic"
+  },
+  {
+   "label": "Frequency range",
+   "value": "470-960 MHz"
+  },
+  {
+   "label": "Connector type",
+   "value": "BNC"
+  }
+ ],
+ "spec_src": "inventory"
 }

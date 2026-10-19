@@ -11,8 +11,41 @@
   {
    "label": "Type",
    "value": "Indoor campus access point"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz, 6 GHz"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": Dual-radio, tri-band"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Target Wake Time (TWT), MU-MIMO"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , CNSA option, Enhanced Open (OWE)"
+  },
+  {
+   "label": "Certifications",
+   "value": "Wi-Fi Alliance (Wi-Fi 6E certified), UL2043 plenum rated, Bluetooth SIG, Ethernet Alliance (PoE, PD device, class 4), W-Fi agile multiband"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "1 × RJ-45 Ethernet port (E0), USB 2.0 Type-A host port, Serial console (micro-B USB), Zigbee (802.15.4), Kensington security slot"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "R1C72A"
  ]

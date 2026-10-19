@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "PS-REM-ACT",
  "d": "Remote Configuration & Activation per Day excluding travel expenses",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Services"
+  }
+ ],
+ "spec_src": "inventory"
 }

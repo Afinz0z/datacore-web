@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PVA-4R24 24 Zone Router is a zone extension for the PAVIRO system. Expansion of PAVIRO system by 24 zones Total 4000 W speaker load, max 500W per zone",
- "specs": []
+ "specs": [
+  {
+   "label": "Zones supported",
+   "value": "24 zone"
+  },
+  {
+   "label": "Total speaker load capacity",
+   "value": "4000 W"
+  },
+  {
+   "label": "Per zone load capacity",
+   "value": "500 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "F.O./Cat6A",
  "d": "Interconnection Cables (F.O./Cat6A)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable type",
+   "value": "Cat 6"
+  }
+ ],
+ "spec_src": "inventory"
 }

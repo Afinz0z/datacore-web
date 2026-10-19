@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "4K UHD, DFOV: 117.8°, EPTZ (5x digital zoom), up to 10 presets Full frequency 11W speaker, 6 array mic with beamforming technology, up to 8 meters, digital noise reduction Support auto framing and voice tracking, Teams certified USB camera, also compatible with various UC platform (Cisco, Webe, ZOOMs, Google meet)",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "System compatibility",
+   "value": "Android, Windows, Google Chromebook, macOS"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Microsoft Teams, Zoom, Google Meet, Google Hangouts, Cisco WebEx, RingCentral"
+  },
+  {
+   "label": "Digital zoom",
+   "value": "5x"
+  }
+ ],
+ "spec_src": "inventory"
 }

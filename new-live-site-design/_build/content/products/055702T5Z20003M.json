@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "Fibre optic patch cord"
+  },
+  {
+   "label": "Length",
+   "value": "3m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "aqua"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -9,7 +9,32 @@
  "specs": [
   {
    "label": "Type",
-   "value": "Power Supply Unit"
+   "value": "Power Supply"
+  },
+  {
+   "label": "Output",
+   "value": "1050W"
+  },
+  {
+   "label": "Lowest discharge voltage",
+   "value": "12VDC"
+  },
+  {
+   "label": "Power",
+   "value": "1050 W at 200-240 V AC"
+  },
+  {
+   "label": "Input voltage",
+   "value": "100-120 V AC / 200-240 V AC"
+  },
+  {
+   "label": "Input frequency",
+   "value": "50-60HZ"
+  },
+  {
+   "label": "Efficiency",
+   "value": "80 PLUS Platinum"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "19\" 1U 6-way Basic PDU 6xUK Sockets, UK plug with 16A switch",
- "specs": []
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "HORIZONTAL"
+  },
+  {
+   "label": "Plug",
+   "value": "UK plug (BS1363)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

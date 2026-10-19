@@ -7,7 +7,37 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Epson Powerful 6,500 lumens, WUXGA 3LCD projector Compact design with scalable images up to 500”",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection resolution",
+   "value": "WUXGA (1920 x 1200)"
+  },
+  {
+   "label": "Light source type",
+   "value": "Laser"
+  },
+  {
+   "label": "Brightness",
+   "value": "6500 lumens"
+  },
+  {
+   "label": "Contrast ratio",
+   "value": "5,000,000 : 1"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, RJ45, HDBaseT"
+  },
+  {
+   "label": "Weight",
+   "value": "8.2 kg"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SI-H L 300"
  ]

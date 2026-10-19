@@ -6,7 +6,61 @@
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Access Controller AP Resource License"
+  },
+  {
+   "label": "Category",
+   "value": "WLAN , Access Controller"
+  },
+  {
+   "label": "WIFI",
+   "value": "Yes - AP resource"
+  },
+  {
+   "label": "Access control",
+   "value": "Network access control"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "As supported by the controller/platform"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported by the management platform"
+  },
+  {
+   "label": "Type",
+   "value": "Software License, Resource Entitlement"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network, Wireless LAN (Wi-Fi) / Ethernet uplink"
+  },
+  {
+   "label": "Capacity",
+   "value": "16 APs"
+  },
+  {
+   "label": "System",
+   "value": "Huawei WLAN Access Controller"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Compatible Huawei WLAN Access Controller and AP"
+  },
+  {
+   "label": "Associated product",
+   "value": "Huawei Wireless Access Point"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per 16 APs"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02354FRJ-001"
  ]

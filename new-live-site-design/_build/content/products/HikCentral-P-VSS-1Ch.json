@@ -12,6 +12,15 @@
   {
    "label": "Type",
    "value": "Expansion license"
+  },
+  {
+   "label": "Number of camera's",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "License"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

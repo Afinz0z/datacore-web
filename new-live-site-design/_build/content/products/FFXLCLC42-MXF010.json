@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fiber Patch Cord, LC/UPC/UPC to LC/UPC/UPC, Multimode OM4, 1.6mm Duplex, Low Smoke Zero Halogen (LSZH)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Length",
+   "value": "10 Mtr"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "aqua"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "760012161"
  ]

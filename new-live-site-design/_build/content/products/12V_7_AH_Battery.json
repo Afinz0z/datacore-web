@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "12V 7 AH Battery",
- "specs": [],
+ "specs": [
+  {
+   "label": "Capacity",
+   "value": "7Ah (7000 mAh)"
+  },
+  {
+   "label": "Output voltage",
+   "value": "12 V"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "ENCR-10"
  ]

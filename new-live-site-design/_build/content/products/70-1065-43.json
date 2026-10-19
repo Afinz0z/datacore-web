@@ -9,10 +9,19 @@
  "d": "Retractor DisplayPort-HDMI 4K Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - DisplayPort Male to HDMI Male",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "HDMI, DisplayPort"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "DisplayPort to HDMI"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

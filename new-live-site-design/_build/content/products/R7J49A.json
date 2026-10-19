@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking AP-615-RW Dual Radio Tri Band 2x2 Wi-Fi 6E IntAntennas Campus AP (R7J49A)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 7 (IEEE 802.11be)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "H62E6E",
   "JW472AAE",

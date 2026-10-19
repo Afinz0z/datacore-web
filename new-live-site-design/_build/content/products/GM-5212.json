@@ -6,7 +6,13 @@
  "c": "Mic",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Gooseneck Mic"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "ILS SYNERGY QK"
  ]

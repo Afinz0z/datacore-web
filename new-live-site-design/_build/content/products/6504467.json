@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB6SE-BTNB-S_ENGRAVED Split Small Engravable Button Cap Pair for Cameo Express Keypads, Black Smooth, Includes Custom Engraving",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  },
+  {
+   "label": "Set",
+   "value": "Pair"
+  }
+ ],
+ "spec_src": "inventory"
 }

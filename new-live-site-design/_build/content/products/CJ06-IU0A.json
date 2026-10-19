@@ -7,5 +7,51 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FINOSEL, Copper 1G-CAT6, UTP RJ45 Modular Keystone Jack, Dual Block, Ivory",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "CAT6"
+  },
+  {
+   "label": "Colour",
+   "value": "Ivory"
+  },
+  {
+   "label": "Conductor",
+   "value": "copper"
+  },
+  {
+   "label": "Cable type",
+   "value": "UTP (Unshielded Twisted Pair)"
+  },
+  {
+   "label": "Wiring",
+   "value": "T568A / T568B"
+  },
+  {
+   "label": "Connector type",
+   "value": "RJ45 / 8P8C"
+  },
+  {
+   "label": "Module type",
+   "value": "Keystone"
+  },
+  {
+   "label": "Block type",
+   "value": "Dual Block"
+  },
+  {
+   "label": "Application",
+   "value": "Data / Ethernet networking"
+  },
+  {
+   "label": "Mounting",
+   "value": "Keystone-compatible faceplate / patch panel"
+  },
+  {
+   "label": "Typical impedance",
+   "value": "100 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

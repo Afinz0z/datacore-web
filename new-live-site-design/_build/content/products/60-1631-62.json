@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "DTP2 T 211",
  "d": "DTP2 T 211 HDMI 4K/60 DTP2 Transmitter with Audio Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "RJ45"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

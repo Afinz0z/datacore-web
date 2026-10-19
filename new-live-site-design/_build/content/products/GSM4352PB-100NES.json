@@ -7,5 +7,59 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "M4300-52G-POE+ MANAGED SW APS1000W",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "PoE power",
+   "value": "720W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "880 Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE (802.3az)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, EtherChannel, MAC address filtering"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, Inter-VLAN routing, OSPF / OSPFv3"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, SSH"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Redundant, hot-swappable power supplies, Redundant fan modules, Non-blocking architecture, Enterprise-grade MTBF"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping"
+  },
+  {
+   "label": "QoS (Quality of service)",
+   "value": "Hardware-based QoS at wire speed"
+  }
+ ],
+ "spec_src": "inventory"
 }

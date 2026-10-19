@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AirEngine5776-57T (11be indoor,2+2+2 tri bands,smart antenna,USB,BLE)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 7 (IEEE 802.11be)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 4.0 dBi"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "88134UJL-5QE"
  ]

@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - TV MOUNT XL - N/A - N/A - N/A - WW-9004 - TV MOUNT XL",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
+  }
+ ],
+ "spec_src": "inventory"
 }

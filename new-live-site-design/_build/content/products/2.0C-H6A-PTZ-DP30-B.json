@@ -10,8 +10,33 @@
   {
    "label": "Type",
    "value": "PTZ Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "2 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "Up to 122 dB (dual exposure, 30 fps)"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "Aperture",
+   "value": "F/1.6 - F/4.8"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "1920x1080"
+  },
+  {
+   "label": "Lens type",
+   "value": "6.5 mm to 162.5 mm,"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "WLMT-1031"
  ]

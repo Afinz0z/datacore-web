@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "DVI DA4",
  "d": "DVI DA4 Four Output DVI",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "DVI"
+  },
+  {
+   "label": "Video output",
+   "value": "DVI"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x4"
+  },
+  {
+   "label": "Supporting video resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "4.95 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

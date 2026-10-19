@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch LB2-UC30-L1 Cabinet loudspeakers, 30W,IP 65 Selectable 8 ohm, 70 V and 100 V inputs Compact yet robust ABS enclosure",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "U-bracket mounting"
+  },
+  {
+   "label": "Power",
+   "value": "30W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "100 Hz to 19 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

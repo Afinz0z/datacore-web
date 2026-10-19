@@ -9,8 +9,17 @@
  "d": "LANmark-OF Micro-Bundle Universal 12X Multimode 50/125 OM4 LSZH Black",
  "specs": [
   {
+   "label": "Fiber core count",
+   "value": "12"
+  },
+  {
+   "label": "Installation environment",
+   "value": "indoor"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

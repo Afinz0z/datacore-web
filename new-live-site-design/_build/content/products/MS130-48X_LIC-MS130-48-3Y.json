@@ -7,5 +7,39 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CISCO Meraki MS130-48X 40GE + 8x(2.5GE) PoE Switch (no power cord) CISCO Meraki MS130-48 Enterprise License and Support, 3 Year",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6, TCP/UDP, OSPF"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, EtherChannel, Port Security, MAC address filtering, PVST+"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Inter-VLAN routing, Policy-based routing (PBR), IPv4 / IPv6 Dual Stack, OSPF / OSPFv3, EIGRP, BGP, Inter-VLAN Routing, Policy-Based Routing (PBR)"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping"
+  },
+  {
+   "label": "Security",
+   "value": "IEEE 802.1X Port-based Authentication, DHCP Snooping, IP Source Guard"
+  },
+  {
+   "label": "Uplink port",
+   "value": "4 × 40G / 100G QSFP28 ports"
+  }
+ ],
+ "spec_src": "inventory"
 }

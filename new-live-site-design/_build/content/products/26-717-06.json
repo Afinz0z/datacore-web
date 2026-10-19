@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "USBC-HDM/6",
  "d": "USBC-HDM/6 4K/60 USB-C male to HDMI male adapter cable, 6' (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB C to HDMI"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

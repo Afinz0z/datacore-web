@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "UTR 104 FRP",
  "d": "UTR 104 FRP Front & Rear Panels for UTR 104 Rack Shelf System",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "4 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Front & Rear Panels"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "70-1323-04"
  ]

@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "Battery pack",
  "d": "APC Smart-UPS RT 192V 9Ah Battery Pack 2 Rows",
- "specs": [],
+ "specs": [
+  {
+   "label": "Battery system type",
+   "value": "External UPS battery pack"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "72V"
+  },
+  {
+   "label": "Battery type",
+   "value": "Sealed Maintenance-Free VRLA Lead-Acid Battery"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SRTG20KXLI"
  ]

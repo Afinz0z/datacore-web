@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "600lbs Double Mag Lock with Sensor and LED. Suface Mount",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lock type",
+   "value": "Dual Magnetic Lock"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "HL-A2006LZ"
  ]

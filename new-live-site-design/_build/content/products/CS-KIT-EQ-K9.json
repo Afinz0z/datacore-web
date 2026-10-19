@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "CS-KIT-EQ-K9",
  "d": "Cisco Room Kit EQ Cisco Codec EQ + Cisco Quad Camera + Cisco Room Navigator for Table.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Type",
+   "value": "Kit"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CON-SNT-VSXLBMDC"
  ]

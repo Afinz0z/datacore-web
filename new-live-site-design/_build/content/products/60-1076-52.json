@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "DTP T DP 4K 330",
  "d": "DTP T DP 4K 330 Long Distance DisplayPort Twisted Pair Transmitter - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Inputs",
+   "value": "DP"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.8 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

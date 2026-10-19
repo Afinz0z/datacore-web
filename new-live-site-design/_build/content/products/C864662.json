@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IDEMIA SOFT VERIF LICENSE",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "C400100"
  ]

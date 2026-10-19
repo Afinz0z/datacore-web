@@ -7,7 +7,61 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cisco Unity Connection Smart License (voicemail / messaging).",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Cisco Unity Connection Smart License"
+  },
+  {
+   "label": "Category",
+   "value": "Unified Communications / Voicemail / Messaging"
+  },
+  {
+   "label": "Base license",
+   "value": "No - Unity Connection entitlement"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported through Cisco UC administration, subject to deployment"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software Subscription"
+  },
+  {
+   "label": "Application",
+   "value": "Voicemail and unified messaging"
+  },
+  {
+   "label": "License type",
+   "value": "Smart License / Subscription"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides voicemail, unified messaging and messaging services"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Cisco Unified Communications infrastructure"
+  },
+  {
+   "label": "Associated product",
+   "value": "Cisco Unity Connection"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Subscription entitlement; based on applicable Cisco licensing metric"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

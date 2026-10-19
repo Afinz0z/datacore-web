@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NF 4C LP-3 Package-One Powered NF 4C LP and Two Passive NF 4C S LP",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Frequency range",
+   "value": "106 Hz to 20 kHz"
+  },
+  {
+   "label": "Drivers",
+   "value": "4\""
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

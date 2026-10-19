@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "XTP II CrossPoint 1600 Frame Modular Digital Matrix Switchers from 4x4 to 16x16 with SpeedSwitch® Technology.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x4, 16x16"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Data rate",
+   "value": "50 Gbps"
+  },
+  {
+   "label": "No. input slots",
+   "value": "4"
+  },
+  {
+   "label": "No. output slots",
+   "value": "4"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1112-01",
   "70-1112-02",

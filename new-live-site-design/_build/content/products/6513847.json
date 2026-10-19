@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "UC-BRKT-200-PRO-Z-ASSY",
  "d": "UC-BRKT-200-PRO-Z-ASSY Crestron Flex Room Upgrade Pro Solution with Zoom Rooms® Software",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Display support",
+   "value": "3"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Zoom"
+  },
+  {
+   "label": "Type",
+   "value": "UC Engine"
+  },
+  {
+   "label": "UC engine spec",
+   "value": "Mini PC, Intel Core® i7 processor, 12th Generation with Windows® 11 IoT Edition OS and 100/1000 Mbps Ethernet connectivity"
+  }
+ ],
+ "spec_src": "inventory"
 }

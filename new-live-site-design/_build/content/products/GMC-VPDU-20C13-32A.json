@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Gamma GMC-VPDU-20C13-32A is a vertical rack-mounted power distribution unit designed to provide reliable power distribution for enterprise network and server cabinets. It features twenty IEC C13 outlets with a 32 A input rating, making it suitable for high-density IT and data center environments.",
- "specs": [],
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "VERTICAL"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "GMC-FR-42U-88-4F"
  ]

@@ -12,6 +12,35 @@
   {
    "label": "Type",
    "value": "Lavalier Microphone"
+  },
+  {
+   "label": "Type of mic",
+   "value": "Lavalier (Lapel) Mic"
+  },
+  {
+   "label": "Frequency response",
+   "value": "70 Hz - 20 kHz"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "114 dB"
+  },
+  {
+   "label": "Tx/Rx",
+   "value": "Tx"
+  },
+  {
+   "label": "Pick-up pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Transducer type",
+   "value": "Electret Condenser"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -6,7 +6,13 @@
  "c": "Rail kit for ups",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Supported rack type",
+   "value": "19\" Rack"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "9PX11KIPM"
  ]

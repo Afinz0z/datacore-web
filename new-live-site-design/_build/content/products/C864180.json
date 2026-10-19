@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "MORPHO SIGMA LITE (BIO + LED)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "RFID Card"
+  },
+  {
+   "label": "Interface",
+   "value": "Ethernet"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "C400100"
  ]

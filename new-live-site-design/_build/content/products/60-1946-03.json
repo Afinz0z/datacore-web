@@ -8,5 +8,59 @@
  "avail": "lead",
  "model": "SF 28PT",
  "d": "SoundField 8\" Two-Way Pendant Speaker, Pair - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Pendant"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Point Source"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Passive"
+  },
+  {
+   "label": "Power",
+   "value": "8 W, 16 W, 32 W, 64 W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "58 Hz to 22 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "103 dB"
+  },
+  {
+   "label": "Capacity",
+   "value": "180 W"
+  },
+  {
+   "label": "Drivers",
+   "value": "1.1\""
+  },
+  {
+   "label": "Sensitivity",
+   "value": "86 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "80° (1 kHz to 4 kHz)"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Woofer",
+   "value": "8\""
+  }
+ ],
+ "spec_src": "inventory"
 }

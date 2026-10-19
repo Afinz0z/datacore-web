@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "AAP 102 FB",
  "d": "AAP 102 FB Two-Gang AAP Mounting Frame for Floor Boxes - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Gang Mounting Frame"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Floor (Stand)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1031-12",
   "60-1346-02",

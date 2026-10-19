@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "10.1” LCD panel Award Winning Enterprise Room Booking Panel Designed specifically for scheduling meetings",
- "specs": []
+ "specs": [
+  {
+   "label": "Panel size",
+   "value": "10\""
+  }
+ ],
+ "spec_src": "inventory"
 }

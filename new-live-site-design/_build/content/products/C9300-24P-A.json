@@ -11,8 +11,61 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "Fans",
+   "value": "3"
+  },
+  {
+   "label": "PoE power",
+   "value": "30W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6, TCP/UDP"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "480 Gbps, 640 Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+), Cisco UPOE (60W), Cisco UPOE+ (90W)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, PVST+, Link Aggregation (LACP - IEEE 802.3ad), LLDP / LLDP-MED / CDP, Port mirroring (SPAN)"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, Inter-VLAN routing, IPv4 / IPv6 Dual Stack, OSPF / OSPFv3, EIGRP, BGP, Inter-VLAN Routing, Policy-Based Routing (PBR)"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Dynamic ARP inspection, IP Source Guard, Access Control Lists (ACLs), Secure Boot & Trust Anchor Module (TAM)"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping, PIM Sparse Mode (PIM-SM), Source-Specific Multicast (SSM)"
+  },
+  {
+   "label": "Stacking technology",
+   "value": "StackWise 320G, StackWise 480G, StackWise 1TB"
+  },
+  {
+   "label": "Maximum stack members",
+   "value": "Up to 8"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "C9300-DNA-A-24",
   "C9300-DNA-A-24-3Y",

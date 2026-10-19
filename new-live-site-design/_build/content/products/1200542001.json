@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "RAK-FAN-01",
  "d": "FAN TRAY FOR V2000",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Fan Tray"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "1200202001"
  ]

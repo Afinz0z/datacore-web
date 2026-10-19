@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Electric Strike with long faceplate W/Signal",
- "specs": []
+ "specs": [
+  {
+   "label": "Voltage",
+   "value": "12DC"
+  }
+ ],
+ "spec_src": "inventory"
 }

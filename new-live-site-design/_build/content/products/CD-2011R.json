@@ -6,5 +6,11 @@
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "CD Player"
+  }
+ ],
+ "spec_src": "inventory"
 }

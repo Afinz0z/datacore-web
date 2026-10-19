@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "Ceiling Mount"
+  },
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "LC1-UM06E8"
  ]

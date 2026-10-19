@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Delta RGBW Video Fixture (incl. lead cable, jumper cables, mounting, LightThru Facade system and back cover plate)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Video Lighting Fixture"
+  }
+ ],
+ "spec_src": "inventory"
 }

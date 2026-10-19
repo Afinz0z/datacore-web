@@ -7,5 +7,51 @@
  "dept": "AV",
  "avail": "lead",
  "d": "TLP Pro 1025T 10\" Tabletop TouchLink® Pro Touchpanel - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "10\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1280 x 800"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Ethernet, RJ-45"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Wireless support",
+   "value": "No"
+  },
+  {
+   "label": "Brightness",
+   "value": "420 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dell Technologies Precision 5860 Tower with Intel Xeon W3-2423, 32GB DDR5, 512GB NVMe SSD + 2TB HDD, NVIDIA RTX A1000 8GB GPU, Windows 11 Pro, 3-Year Pro Support.",
- "specs": []
+ "specs": [
+  {
+   "label": "Memory capacity",
+   "value": "32GB"
+  },
+  {
+   "label": "Form factor",
+   "value": "Tower"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel Xeon"
+  },
+  {
+   "label": "VRAM",
+   "value": "8GB"
+  },
+  {
+   "label": "Primary storage",
+   "value": "512GB"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows 11 Pro (64-bit)"
+  }
+ ],
+ "spec_src": "inventory"
 }

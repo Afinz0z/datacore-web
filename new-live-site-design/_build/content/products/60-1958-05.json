@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "NAV E 511",
  "d": "NAV E 511 1G Fiber HDMI, Ethernet, USB Encoder - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, 5 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Outputs",
+   "value": "SFP"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

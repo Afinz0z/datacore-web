@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "OP10 Proximity mullion reader. Typical read range 2-3\". Optical tamper, host LED and internal buzzer, c/w 3 bezels - Black, Charcoal Grey & Ivory. Honeywell logo",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Face Recognition, Finger Print Scanner, PIN/Password Credentials, Mobile Credentials, QR and Barcode, RFID Card, Fingerprint + Card"
+  },
+  {
+   "label": "Interface",
+   "value": "Ethernet, Wifi, Wiegand, TTL Input, OSDP"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP54, IP67, IK10, IK09"
+  }
+ ],
+ "spec_src": "inventory"
 }

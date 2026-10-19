@@ -7,5 +7,59 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fiber Optic Pigtail, OM4, LC/UPC-pigtail, 900 µm, LSZH, 2 m, aqua",
- "specs": []
+ "specs": [
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Length",
+   "value": "2m"
+  },
+  {
+   "label": "Colour",
+   "value": "aqua"
+  },
+  {
+   "label": "Connector type",
+   "value": "LC/UPC"
+  },
+  {
+   "label": "Core/Cladding",
+   "value": "50/125 µm"
+  },
+  {
+   "label": "Cable diameter",
+   "value": "0.9mm"
+  },
+  {
+   "label": "Buffer type",
+   "value": "Semi-tight buffer"
+  },
+  {
+   "label": "Insertion loss, max.",
+   "value": "0.15 dB"
+  },
+  {
+   "label": "Return loss, min.",
+   "value": "35 dB"
+  },
+  {
+   "label": "Fiber count",
+   "value": "1 fiber"
+  },
+  {
+   "label": "Fiber type",
+   "value": "OM4"
+  },
+  {
+   "label": "Connector B",
+   "value": "Unterminated"
+  },
+  {
+   "label": "Termination",
+   "value": "One end LC/UPC, other end bare/unterminated"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "DPA-4250E",
  "d": "Class-D 4 Channel 250W Power Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "250 W"
+  },
+  {
+   "label": "Dante support",
+   "value": "No"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

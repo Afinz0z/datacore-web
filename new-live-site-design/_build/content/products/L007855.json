@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "1048 channels (2048 ArtNET channels) Lighting Console, high-resolution 10 inches capacitive LCD touch screen, Art-Net, 12 playback",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Console"
+  },
+  {
+   "label": "Channels",
+   "value": "1048 DMX control channels"
+  },
+  {
+   "label": "Display",
+   "value": "10.1\" Touch display"
+  }
+ ],
+ "spec_src": "inventory"
 }

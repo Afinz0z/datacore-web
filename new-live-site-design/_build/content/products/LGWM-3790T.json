@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "Wall Mount"
+  },
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static), Tilting"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "1203626",
   "75UH7N",

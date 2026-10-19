@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "DTP3 T 101 D",
  "d": "DTP3 T 101 D 4K/60 DTP3 Transmitter for HDMI - Decorator-Style Wallplate, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Audio input connectors",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

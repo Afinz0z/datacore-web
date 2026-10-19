@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SALTO wall reader MIFARE DESFire + Bluetooth LE + HSE. For European standard. Squared or conical shape",
- "specs": [],
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Mobile Credentials, RFID Card, BLE Mobile Access"
+  },
+  {
+   "label": "Interface",
+   "value": "RS-485"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK08"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "13.56 MHz MIFARE / DESFire EV1/EV2/EV3 / iCLASS / FeliCa / Seos"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CCVD20700-50",
   "CCVUC0000",

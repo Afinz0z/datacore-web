@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "CBL-CAT5E-7",
  "d": "CBL-CAT5E-7 CAT5e Cable, RJ45-to-RJ45, Black, 7 ft (2.1 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "2.1m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "RJ45 to RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

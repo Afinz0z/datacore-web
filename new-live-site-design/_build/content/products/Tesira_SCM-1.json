@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Tesira SCM-1",
  "d": "Tesira 32x32 CobraNet module for use in Tesira SERVER or Tesira SERVER-IO chassis",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of card",
+   "value": "CobraNet"
+  }
+ ],
+ "spec_src": "inventory"
 }

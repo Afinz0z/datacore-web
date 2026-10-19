@@ -6,7 +6,25 @@
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  },
+  {
+   "label": "Number of card readers",
+   "value": "128"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "801FPGGAN",
   "CP1000D-LENEL",

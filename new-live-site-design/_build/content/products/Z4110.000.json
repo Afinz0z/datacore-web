@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "En-Scene is the Soundscape software module for object-based signal management.",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory"
 }

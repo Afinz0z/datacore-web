@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "U95JBPV",
  "d": "1y PPoly+ BK PLUS IP PC TC10",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "1 Year"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "A3LU8AA#ABB"
  ]

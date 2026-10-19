@@ -11,8 +11,73 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "PoE power",
+   "value": "30W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6, OSPF"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "336 Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE (802.3az)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, Inter-VLAN routing, Policy-based routing (PBR), IPv4 / IPv6 Dual Stack, OSPF / OSPFv3"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Dynamic ARP inspection, IP Source Guard, Access Control Lists (ACLs), SSH"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Non-blocking architecture, Enterprise-grade MTBF"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping, PIM Sparse Mode (PIM-SM), Source-Specific Multicast (SSM)"
+  },
+  {
+   "label": "QoS (Quality of service)",
+   "value": "Hardware-based QoS at wire speed, Traffic classification & marking (CoS / DSCP), Priority queuing for voice & video, Policing, shaping, CIR, Queue Management, DSCP Support"
+  },
+  {
+   "label": "Security",
+   "value": "IEEE 802.1X Port-based Authentication, MAC Authentication Bypass (MAB), IP Source Guard, Web Authentication (WebAuth)"
+  },
+  {
+   "label": "Stacking technology",
+   "value": "iStack"
+  },
+  {
+   "label": "Maximum stack members",
+   "value": "Up to 4, Up to 8"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "4"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "PAC1000S56-EB"
  ]

@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB3E-BTNA-S_BLANK Medium Engravable Button Cap for Cameo Express Keypads, Almond Smooth, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Almond"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -9,10 +9,15 @@
  "d": "75\"4k UHD, 40 touch, Slim IR, 16GB/128GB, Slim IR, NFC, 8-array mic, TF Card, Android 14 (EDLA)), AirSync",
  "specs": [
   {
+   "label": "Display size",
+   "value": "75\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-Emerald3-N20",
   "LGC-5586",

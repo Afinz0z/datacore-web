@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NAV 10E 401 D - 10G Pro AV over IP Encoder for HDMI and Ethernet, Decorator-Style Wallplate, White - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Outputs",
+   "value": "SFP"
+  },
+  {
+   "label": "Audio input connectors",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

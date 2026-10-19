@@ -13,8 +13,49 @@
    "value": "U/utp"
   },
   {
+   "label": "Reel/box length",
+   "value": "305 M"
+  },
+  {
+   "label": "Colour",
+   "value": "Grey"
+  },
+  {
+   "label": "Cable type",
+   "value": "U/UTP"
+  },
+  {
+   "label": "No of pairs",
+   "value": "4"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "ISO/IEC 11801"
+  },
+  {
+   "label": "Outer jacket material",
+   "value": "LSZH / LS0H (low smoke, zero halogen)"
+  },
+  {
+   "label": "Installation type",
+   "value": "Indoor"
+  },
+  {
+   "label": "Conductor size (AWG)",
+   "value": "23 AWG"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "500 MHz"
+  },
+  {
+   "label": "Max data rate",
+   "value": "10 Gbps"
+  },
+  {
    "label": "Unit",
    "value": "Roll"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

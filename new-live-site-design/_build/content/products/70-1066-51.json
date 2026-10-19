@@ -9,10 +9,23 @@
  "d": "Retractor XL USB-C - HDMI Extended Length 4K Cable Retraction System for AVEdge, Cable Cubby®, Select TouchLink® Enclosures, and TMK 120 R Kit - USB-C® Male to HDMI Male",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "HDMI, USB C"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "USB C to HDMI"
+  },
+  {
+   "label": "Cable length",
+   "value": "1.5 m (5 ft)"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

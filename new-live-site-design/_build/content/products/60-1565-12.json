@@ -8,5 +8,51 @@
  "avail": "lead",
  "model": "TLP Pro 1025T",
  "d": "TLP Pro 1025T - 10\" Tabletop TouchLink® Pro Touchpanel - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "10\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1280 x 800"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Ethernet"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "420 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "800:1"
+  }
+ ],
+ "spec_src": "inventory"
 }

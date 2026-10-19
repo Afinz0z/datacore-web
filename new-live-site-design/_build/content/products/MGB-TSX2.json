@@ -7,7 +7,29 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Mini GBIC Multi-mode SX 2KM Module (-40 to 75 C), DDM Supported",
- "specs": [],
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "1G (Gigabit Ethernet)"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Multimode Fiber (MMF)"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "1310 nm (LR)"
+  },
+  {
+   "label": "Key features",
+   "value": "Hot pluggable , High port density"
+  },
+  {
+   "label": "Application category",
+   "value": "Industrial (Electrically harsh/Extreme climates)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "GS-4210-16P4C"
  ]

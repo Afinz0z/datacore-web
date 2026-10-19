@@ -6,5 +6,27 @@
  "c": "Monitor",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1 × HDMI 1.4"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "43"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

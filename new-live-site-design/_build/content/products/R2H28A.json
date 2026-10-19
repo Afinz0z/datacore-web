@@ -7,7 +7,33 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking AP-505 (RW) Dual Radio 2x2 802.11ax Internal Antennas Unified Campus AP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "4.9 - 5.7 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , Enhanced Open (OWE)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "HP9V9E",
   "Q9G71A"

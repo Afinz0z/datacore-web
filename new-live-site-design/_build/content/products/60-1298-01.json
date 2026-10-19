@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "XTP PI 400",
  "d": "XTP PI 400 Four Port XTP Power Injector",
- "specs": []
+ "specs": [
+  {
+   "label": "Output",
+   "value": "48 VDC, 0.35 A, 16.8 watts"
+  }
+ ],
+ "spec_src": "inventory"
 }

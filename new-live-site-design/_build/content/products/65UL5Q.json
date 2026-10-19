@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "Display",
  "d": "65\" UHD Display 24/7 Premium",
- "specs": []
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "65\""
+  },
+  {
+   "label": "Display resolution",
+   "value": "4K UHD (3840 x 2400)"
+  }
+ ],
+ "spec_src": "inventory"
 }

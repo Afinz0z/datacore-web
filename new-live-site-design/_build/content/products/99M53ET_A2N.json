@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP Elite SFF 800 G9 i714700 16GB/512 PC Intel Core i7-14700 / 512GB SSD / 16GB DDR5 / W11 Pro 64 / 1-1-1 Wty - HP 3y NBD Onsite",
- "specs": []
+ "specs": [
+  {
+   "label": "Storage",
+   "value": "256GB"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel i7"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows 11 Pro"
+  },
+  {
+   "label": "Network",
+   "value": "Intel I219-LM 100/1000 Mbps Ethernet"
+  },
+  {
+   "label": "Graphics",
+   "value": "Intel UHD Graphics 700 series"
+  }
+ ],
+ "spec_src": "inventory"
 }

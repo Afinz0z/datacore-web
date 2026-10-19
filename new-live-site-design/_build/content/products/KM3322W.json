@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "KM3322W",
  "d": "Dell Keyboard and Mouse - KM3322W - Arabic (QWERTY)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of accessories",
+   "value": "Keyboard, Mouse"
+  }
+ ],
+ "spec_src": "inventory"
 }

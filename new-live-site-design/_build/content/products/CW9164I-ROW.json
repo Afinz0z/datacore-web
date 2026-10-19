@@ -7,7 +7,41 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Catalyst 9164I AP (W6E, tri-band 4x4) w/Reg-ROW",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz, 6 GHz"
+  },
+  {
+   "label": "MIMO",
+   "value": "4×4 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 2.8 dBi, 5 GHz: 4.5 dBi, 6 GHz: 4.5 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, MU-MIMO (UL/DL), Beamforming, BSS Coloring"
+  },
+  {
+   "label": "Security standards",
+   "value": "WIDS / WIPS"
+  },
+  {
+   "label": "Power",
+   "value": "Direct DC power"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "USB 2.0 Type-A host port, 1 × 2.5 Gigabit Multigig Ethernet (RJ-45)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "AIR-AP-BRACKET-1",
   "AIR-AP-T-RAIL-R",

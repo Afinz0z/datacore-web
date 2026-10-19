@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "BUC 202",
  "d": "BUC 202 Two Channel Audio BUC - Balanced and Unbalanced Converter",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "5-pin 3.5 mm, Unbalanced Audio"
+  },
+  {
+   "label": "Output",
+   "value": "5-pin 3.5 mm, Balanced Audio"
+  }
+ ],
+ "spec_src": "inventory"
 }

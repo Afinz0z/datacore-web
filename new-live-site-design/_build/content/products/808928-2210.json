@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CONTROLCENTER CC-2D EU WHITE",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "PoE"
+  },
+  {
+   "label": "Status screen",
+   "value": "LED"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

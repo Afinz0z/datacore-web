@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Addressable FixedHeat Detector",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Heat Detector"
+  }
+ ],
+ "spec_src": "inventory"
 }

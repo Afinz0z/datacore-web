@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The HPE Aruba Networking CX 8320 Switch Series is a campus core and aggregation switch series solution offering a flexible and innovative approach to dealing with the demands of the mobile, cloud and IoT era",
- "specs": [],
+ "specs": [
+  {
+   "label": "SFP ports",
+   "value": "48"
+  },
+  {
+   "label": "Switching capacity",
+   "value": "2.5 Tbps"
+  },
+  {
+   "label": "Fan",
+   "value": "5x hot-swappable front-to-back airflow fan trays"
+  },
+  {
+   "label": "Protocols",
+   "value": "BGP, OSPF, VRF, VRRP, ECMP, IPv6"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "H8XJ8E",
   "J9151ER",

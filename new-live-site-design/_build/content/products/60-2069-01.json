@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "NAV E 222",
  "d": "NAV E 222 1G USB-C, HDMI Encoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-C, HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "USB, HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

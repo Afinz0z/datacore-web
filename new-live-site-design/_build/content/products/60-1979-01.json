@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "IPCP Pro S1 xi",
  "d": "IPCP Pro S1 xi IPCP Pro xi Control Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "1 GB"
+  },
+  {
+   "label": "Flash memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 5-pin 3.5mm terminal blocks"
+  }
+ ],
+ "spec_src": "inventory"
 }

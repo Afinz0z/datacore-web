@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "ACP VC1 D",
  "d": "ACP VC1 D Audio Control Panel with Volume and Mute - Decorator-Style",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectors",
+   "value": "3.5 mm connector"
+  },
+  {
+   "label": "Colour",
+   "value": "Black, White"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "DSS-PC-I02",
  "d": "Loop-Powered En54-23 Open Category Detector Base Sounder Strobe",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Sounder"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "WPW"
  ]

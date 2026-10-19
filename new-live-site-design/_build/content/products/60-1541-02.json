@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "MLC Plus 200 AAP",
  "d": "MediaLink Plus Controller with AAP Opening",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Control Panel"
+  },
+  {
+   "label": "Connectors",
+   "value": "IR, Relay"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1076-02"
  ]

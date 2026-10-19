@@ -8,7 +8,57 @@
  "avail": "lead",
  "model": "8KVA UPS-APC",
  "d": "APC Smart-UPS SRT 8000VA 230V",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "8000"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase, Three Phase"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tower, Rack-Tower Convertible"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ), Three Phase (3Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery, External VRLA (Valve Regulated Lead Acid) Sealed Batteries"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "192 V"
+  },
+  {
+   "label": "Recharge time",
+   "value": "1.5 h"
+  },
+  {
+   "label": "Protection features",
+   "value": "Overload Protection, Short Circuit Protection, Over-Voltage / Under-Voltage Protection, Battery Deep Discharge Protection, Surge Protection (e.g., ≥ 400 Joules), Built-in Static & Manual Bypass, extended module"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "IEC 62040-1 / IEC 62040-2 / IEC 62040-3, CE / UL / BIS (as per country)"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Rack unit",
+   "value": "10U"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SRT192BP2",
   "SRTRK2"

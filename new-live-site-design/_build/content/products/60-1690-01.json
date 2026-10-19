@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "AXI 016",
  "d": "AXI 016 16 Output Audio Expansion Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Outputs",
+   "value": "3.5 mm captive connectors, 6-pole"
+  },
+  {
+   "label": "Channel count",
+   "value": "16"
+  },
+  {
+   "label": "Type",
+   "value": "Audio Expansion Interface"
+  }
+ ],
+ "spec_src": "inventory"
 }

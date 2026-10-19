@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "LMD-A240",
  "d": "24-inch lightweight Full HD high grade LCD monitor for studio and field use",
- "specs": []
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "24\""
+  },
+  {
+   "label": "Display resolution",
+   "value": "1920 x 1200"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  }
+ ],
+ "spec_src": "inventory"
 }

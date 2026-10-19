@@ -6,7 +6,13 @@
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Cable"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "NTP-8R0-0100-1",
   "NTP-8R0-0104-1",

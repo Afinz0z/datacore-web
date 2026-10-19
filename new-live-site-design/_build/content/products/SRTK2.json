@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "APC Smart-UPS SRT 19\" Rail Kit for Smart-UPS SRT 5/6/8/10kVA",
- "specs": []
+ "specs": [
+  {
+   "label": "Component type",
+   "value": "Mounting Kit"
+  },
+  {
+   "label": "Height",
+   "value": "1.7 in"
+  },
+  {
+   "label": "Width",
+   "value": "20.7 in"
+  },
+  {
+   "label": "Depth",
+   "value": "3.5 in"
+  },
+  {
+   "label": "Weight",
+   "value": "2.73kg"
+  },
+  {
+   "label": "Mounting mode",
+   "value": "Rack Mounted"
+  }
+ ],
+ "spec_src": "inventory"
 }

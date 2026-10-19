@@ -8,7 +8,45 @@
  "avail": "lead",
  "model": "CS 26T Plus",
  "d": "CS 26T Plus - SpeedMount Two-Way Ceiling Speakers with 6.5\" Woofer",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "42 Hz to 20 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "86 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "112°"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Woofer",
+   "value": "6.5\""
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 32 W, 16 W, 8 W, 4 W, 2 W, 100 V: null, 32 W, 16 W, 8 W, 4 W"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1266-01"
  ]

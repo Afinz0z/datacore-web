@@ -13,8 +13,25 @@
    "value": "U/utp"
   },
   {
+   "label": "Reel/box length",
+   "value": "305 M"
+  },
+  {
+   "label": "Colour",
+   "value": "Grey"
+  },
+  {
+   "label": "Cable type",
+   "value": "U/UTP"
+  },
+  {
+   "label": "No of pairs",
+   "value": "4"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FINOSEL, Cabinet, 42U FS 4xfans, organizer,wheels, FD Glass and Rear Double Doors 800x800",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "UCS 504",
  "d": "UCS 504 4x2 4K Collaboration Switcher & Scaling Receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x2"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -10,8 +10,25 @@
  "d": "DA 6A Six Output Stereo Audio Distribution Amplifier",
  "specs": [
   {
+   "label": "Distribution",
+   "value": "1x6"
+  },
+  {
+   "label": "Audio input",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Audio output",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
    "label": "Type",
    "value": "Audio Distribution Amplifier"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

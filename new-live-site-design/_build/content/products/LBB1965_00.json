@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch LBB1965/00 Message manager Highly flexible stand-alone digital message player Up to 12 messages and 12 trigger inputs Downloads messages from a PC in WAV format",
- "specs": []
+ "specs": [
+  {
+   "label": "Dimension (mm)",
+   "value": "56 x 430 x 270"
+  },
+  {
+   "label": "Type",
+   "value": "Message manager"
+  }
+ ],
+ "spec_src": "inventory"
 }

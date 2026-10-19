@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "UCS TR 910 Kit",
  "d": "UCS TR 910 Kit Twisted Pair USB 5Gbps Extender Kit",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx and Rx"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-A"
+  }
+ ],
+ "spec_src": "inventory"
 }

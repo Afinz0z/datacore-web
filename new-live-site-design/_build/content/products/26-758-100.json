@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "USBA-C ProMax P/100 USB type-A to USB type-C 10 Gbps Optical Cable, 100' (30.4 m) - Plenum",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "30.4 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB A to USB C"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "10 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

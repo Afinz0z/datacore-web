@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NetPA 1001-70V AT - One Channel Dante Amp, 100 watts at 70 volts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "1"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "100 W"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 3-pin 3.5 mm terminal block"
+  }
+ ],
+ "spec_src": "inventory"
 }

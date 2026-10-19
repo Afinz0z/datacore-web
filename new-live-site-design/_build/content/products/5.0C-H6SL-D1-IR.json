@@ -11,6 +11,23 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "130 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

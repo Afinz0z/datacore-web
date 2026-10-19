@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "IPL EXP PDU4H",
  "d": "IPL EXP PDU4H Control System Power Expansion Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Expansion Interface"
+  },
+  {
+   "label": "Output",
+   "value": "240 V AC"
+  },
+  {
+   "label": "Output current",
+   "value": "10 A"
+  },
+  {
+   "label": "Connector",
+   "value": "EC power receptacles"
+  }
+ ],
+ "spec_src": "inventory"
 }

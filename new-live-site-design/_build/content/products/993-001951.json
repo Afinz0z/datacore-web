@@ -6,5 +6,27 @@
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Video outputs",
+   "value": "HDMI Type A (x2)"
+  },
+  {
+   "label": "Camera connectivity",
+   "value": "USB Type-C"
+  },
+  {
+   "label": "Computer connection",
+   "value": "USB Type-B"
+  },
+  {
+   "label": "Hub connectivity",
+   "value": "RJ45"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "Mini XLR (x2)"
+  }
+ ],
+ "spec_src": "inventory"
 }

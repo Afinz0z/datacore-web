@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "12 core FOC (SM)"
+  },
+  {
+   "label": "No of fibers",
+   "value": "12"
+  },
+  {
+   "label": "Colour",
+   "value": "black"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

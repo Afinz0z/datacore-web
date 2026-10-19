@@ -12,6 +12,35 @@
   {
    "label": "Type",
    "value": "Power Amplifier"
+  },
+  {
+   "label": "Channels",
+   "value": "8"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "200 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "2-pin 3.5 mm terminal block, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  },
+  {
+   "label": "Distribution",
+   "value": "70 V, 100 V"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

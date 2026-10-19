@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "RCAC3O-G-000-1",
  "d": "3 pole AC power onlet connector(Grey housing)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "AC Power Outlet Plug"
+  },
+  {
+   "label": "Colour",
+   "value": "Grey"
+  }
+ ],
+ "spec_src": "inventory"
 }

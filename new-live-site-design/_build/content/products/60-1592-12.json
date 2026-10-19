@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cable Cubby 100 USB Power Cable Cubby 100 USB Power, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power modules",
+   "value": "USB Charging"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1219-02",
   "70-1219-03",

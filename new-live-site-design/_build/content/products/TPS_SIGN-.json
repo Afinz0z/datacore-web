@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "TPS_SIGN-",
  "d": "TripleSign client licence per Smart SOC client",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "IPTV"
+  }
+ ],
+ "spec_src": "inventory"
 }

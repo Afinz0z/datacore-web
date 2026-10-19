@@ -7,7 +7,29 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Aruba 10G SFP+ LC SR 300m MMF XCVR",
- "specs": [],
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "10GBASE-SR"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Multimode Fiber (MMF)"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "850 nm (SR)"
+  },
+  {
+   "label": "Key features",
+   "value": "Hot pluggable , Optical interoperability"
+  },
+  {
+   "label": "Application category",
+   "value": "Data center connectivity"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "JL728A"
  ]

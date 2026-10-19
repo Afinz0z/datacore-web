@@ -8,5 +8,47 @@
  "avail": "lead",
  "model": "CA 43T PT",
  "d": "CA 43T PT Pan and Tilt Mount, Single, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Soundbar"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "125 Hz to 17 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "101 dB"
+  },
+  {
+   "label": "Drivers",
+   "value": "4\""
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "180°"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Mount movement",
+   "value": "Pan & Tilt"
+  }
+ ],
+ "spec_src": "inventory"
 }

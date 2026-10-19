@@ -10,8 +10,25 @@
  "d": "RSB 123 1U 3.5\" Deep Basic Rack Shelf",
  "specs": [
   {
+   "label": "Depth",
+   "value": "3 in"
+  },
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Rack width",
+   "value": "19\""
+  },
+  {
    "label": "Type",
    "value": "Rack Shelf"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

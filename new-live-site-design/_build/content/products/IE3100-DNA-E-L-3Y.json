@@ -7,7 +7,41 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "IE 3100 DNA Essentials (12 ports), 3 Year Term license",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "Cisco Catalyst Center Essentials"
+  },
+  {
+   "label": "Category",
+   "value": "Network Management / Industrial Networking"
+  },
+  {
+   "label": "Base license",
+   "value": "Network Essentials (required base level for IE3100)"
+  },
+  {
+   "label": "Application",
+   "value": "Network Management / Network Automation"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Enables additional iSecure LEAP controller capacity"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Cisco Catalyst IE3100 Series switch, up to 12 ports"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "IE-3100-8P2C-E"
  ]

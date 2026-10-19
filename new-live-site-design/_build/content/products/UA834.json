@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "UA834",
  "d": "In-Line Antenna Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector type",
+   "value": "BNC"
+  }
+ ],
+ "spec_src": "inventory"
 }

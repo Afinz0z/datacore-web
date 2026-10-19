@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FP2-120-INTENSE Dual gang faceplate Intense - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "No slot",
+   "value": "2"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "10G SFP+ Fiber Transceiver (Single-mode, DDM, -40~75 degrees C) -10KM",
- "specs": [],
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "10GBASE-SR"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Single Mode Fiber (SMF)"
+  },
+  {
+   "label": "Application category",
+   "value": "Data center connectivity"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "IGS-4215-16P4X"
  ]

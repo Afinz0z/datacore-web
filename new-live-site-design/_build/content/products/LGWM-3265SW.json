@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "Wall Mount"
+  },
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Swivel"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "32SM5J",
   "CDE4330",

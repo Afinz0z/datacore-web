@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Matrix Switcher4x4 HDMI to HDMI",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x4"
+  }
+ ],
+ "spec_src": "inventory"
 }

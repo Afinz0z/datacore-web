@@ -9,10 +9,15 @@
  "d": "105\"5k (5120 x 2160), 21:9 IFP Panel (40 touch, Slim IR, Dual Pen, Android 13, 8GB/128GB)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "105\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LGC-98110",

@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Seagate Exos 7E10 ST8000NM017B 8 TB Hard Drive - Internal - SATA (SATA/600)",
- "specs": [],
+ "specs": [
+  {
+   "label": "RPM",
+   "value": "7200 RPM"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "DS-7732NXI-K4"
  ]

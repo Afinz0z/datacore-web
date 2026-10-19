@@ -7,5 +7,35 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AC Voltage Detector with Relay, IEC C14 socket",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensor type",
+   "value": "CONTACT SWITCH"
+  },
+  {
+   "label": "Coverage area",
+   "value": "1000 FT"
+  },
+  {
+   "label": "Connectors",
+   "value": "IEC C14 power inlet + 2-pin terminal block for sensor/alarm connection."
+  },
+  {
+   "label": "Dimensions",
+   "value": "2 × 2.5 × 1.312 in (W × D × H) ≈ 50.8 × 63.5 × 33.3 mm."
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall"
+  },
+  {
+   "label": "Type",
+   "value": "AC voltage detector"
+  }
+ ],
+ "spec_src": "inventory"
 }

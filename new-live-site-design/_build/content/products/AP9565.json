@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Rack PDU, Basic, 1U, 16A, 208/230V, (12)C13",
- "specs": []
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "VERTICAL"
+  },
+  {
+   "label": "C13 sockets",
+   "value": "12"
+  }
+ ],
+ "spec_src": "inventory"
 }

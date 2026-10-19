@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Rack mounting rail kit designed for installing APC Smart-UPS",
- "specs": [],
+ "specs": [
+  {
+   "label": "Supported rack type",
+   "value": "19\" Rack"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SRT5KXLI",
   "SRT6KXLI",

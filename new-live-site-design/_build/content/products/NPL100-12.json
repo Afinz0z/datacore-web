@@ -6,5 +6,15 @@
  "c": "Battery",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Rechargeable / Non-Rechargeable",
+   "value": "Rechargeable"
+  },
+  {
+   "label": "Capacity",
+   "value": "1240 mAh"
+  }
+ ],
+ "spec_src": "inventory"
 }

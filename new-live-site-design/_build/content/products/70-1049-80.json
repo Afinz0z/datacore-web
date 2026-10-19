@@ -9,10 +9,19 @@
  "d": "Installation Routing Template for Cable Cubby 500 CCB and Cable Cubby 700",
  "specs": [
   {
+   "label": "Colour",
+   "value": "Aluminum"
+  },
+  {
    "label": "Type",
    "value": "Template"
+  },
+  {
+   "label": "Product size/capacity",
+   "value": "700"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1046-02",
   "70-1046-08"

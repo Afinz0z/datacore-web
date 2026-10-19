@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "UslimIII 1.5-406 set",
  "d": "Indoor LED display Uslim III, 3-In-1 SMD,1.5mm Pixel Pitch,IP30 Protection,800 cd/m² Brightness,5760 Hz Refresh Rate",
- "specs": []
+ "specs": [
+  {
+   "label": "Pixel pitch",
+   "value": "1.5 mm"
+  }
+ ],
+ "spec_src": "inventory"
 }

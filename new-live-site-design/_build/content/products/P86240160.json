@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HP Poly+ Partner - extended service agreement - 1 year for Poly Trio C60, C60 NR, C60-M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Duration (Year)",
+   "value": "1"
+  },
+  {
+   "label": "Service type",
+   "value": "Extended service agreement"
+  },
+  {
+   "label": "Supporting product",
+   "value": "Conference Phone"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "849B6AA"
  ]

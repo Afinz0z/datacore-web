@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "NAV 10E 201 D",
  "d": "NAV 10E 201 D - 10G Pro AV over IP Encoder for HDMI, Decorator-Style Wallplate, Black - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "SFP"
+  },
+  {
+   "label": "Audio input connectors",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

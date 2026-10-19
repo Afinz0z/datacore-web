@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HIKVISION Power cable package, including 10m main power cable and two short cables for horizontal connection",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Cable"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "DS-D40S-2F"
  ]

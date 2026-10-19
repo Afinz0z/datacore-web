@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "All-in-one amplifier, 6-zone, 240W All-in-One solution for background music and paging Six-zone paging system Built-in AM/FM tuner with presets MP3 player for USB device and SD card Optional Call Station and Wall Panel with local audio source and remote control",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "3"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "240 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "PS 128",
  "d": "PS 128 12 VDC, 96 W Rack Mountable Power Supply",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply Unit"
+  },
+  {
+   "label": "Output",
+   "value": "12 V DC"
+  },
+  {
+   "label": "Power",
+   "value": "96 W"
+  },
+  {
+   "label": "Output current",
+   "value": "8 A"
+  }
+ ],
+ "spec_src": "inventory"
 }

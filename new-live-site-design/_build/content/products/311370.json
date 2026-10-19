@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Battery Cabinet Keor DK 10KVA with Battery 9AH * 20",
- "specs": [],
+ "specs": [
+  {
+   "label": "Battery system type",
+   "value": "External UPS battery pack"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "240V"
+  },
+  {
+   "label": "Battery type",
+   "value": "Lead-Acid Battery"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "311351"
  ]

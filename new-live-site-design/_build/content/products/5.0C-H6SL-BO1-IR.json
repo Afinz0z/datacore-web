@@ -11,6 +11,31 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Iris type",
+   "value": "P-Iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6 (3.4-10.5 mm), F1.7(10.9-29 mm)"
+  },
+  {
+   "label": "Image format",
+   "value": "JPEG"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

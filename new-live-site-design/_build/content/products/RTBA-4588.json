@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "R&M RTBA-4588, Server Rack PRO 19\" 45U W=800 mm D= 800 mm ,Black Single Curved Perf Front - Double Perf Metal Rear door",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Rack width",
+   "value": "19\""
+  }
+ ],
+ "spec_src": "inventory"
 }

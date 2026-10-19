@@ -7,7 +7,53 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "UPS commissioning and start-up service by authorized engineer for one Easy UPS 3S (10-15 kVA) unit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "One-time service"
+  },
+  {
+   "label": "Type",
+   "value": "Services"
+  },
+  {
+   "label": "Category",
+   "value": "UPS / Professional Service"
+  },
+  {
+   "label": "Quantity covered",
+   "value": "1 UPS unit"
+  },
+  {
+   "label": "Application",
+   "value": "Commissioning of Easy UPS 3S"
+  },
+  {
+   "label": "Supported UPS",
+   "value": "Easy UPS 3S"
+  },
+  {
+   "label": "UPS capacity",
+   "value": "10-15 kVA"
+  },
+  {
+   "label": "Function",
+   "value": "UPS start-up, commissioning, configuration/checks and operational verification"
+  },
+  {
+   "label": "Hardware included",
+   "value": "No - service for the existing UPS"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per UPS unit"
+  },
+  {
+   "label": "Time period",
+   "value": "Service, Commissioning service; not a software subscription"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "E3SUPS10KHB"
  ]

@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Finosel18U floor-standing server cabinet compact vertical footprint with an extra-wide and deep chassis dimensions of 800mm (width) x 1000mm (depth).",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x1000"
+  },
+  {
+   "label": "Rack size",
+   "value": "18U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Floor standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Horizontal"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,47 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "iSTAR Edge G2, 4 reader controller in in single enclosure with 12V 4A power supply for controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "Wiegand Connectivity: Supports 2-door / 2-reader connectivit, OSDP Connectivity: Supports 2-door / 4-reader connectivity"
+  },
+  {
+   "label": "Licenses",
+   "value": "Base license includes 10 Controller Licenses"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand, OSDP (v2 / Secure Channel - if supported)"
+  },
+  {
+   "label": "Communication",
+   "value": "Ethernet (TCP/IP - 10/100 Mbps), RS-485 / CAN bus, AES / TLS (model dependent)"
+  },
+  {
+   "label": "Memory",
+   "value": "Event Buffer: 10,000 - 100,000 transactions"
+  },
+  {
+   "label": "Power",
+   "value": "12 VDC / 24 VDC"
+  },
+  {
+   "label": "Operating temperature",
+   "value": ": 0°C to 70°C"
+  },
+  {
+   "label": "Humidity",
+   "value": "0-95% non-condensing"
+  },
+  {
+   "label": "Mounting",
+   "value": ": Wall mounted (metal enclosure / DIN rail)"
+  },
+  {
+   "label": "Certifications",
+   "value": "Safety: UL-294, IEC 62368-1"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "STANDARD IEX TYPE: (Audio line in*2)(Audio line out *2)(RS232 +control in*3) (relay out*1) (headphone out*1)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder and Decoder"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "2 balanced outputs (or 1 stereo) + 2 mic/line inputs"
+  },
+  {
+   "label": "Network/Protocols",
+   "value": "SIP, RTP, multicast over Ethernet"
+  }
+ ],
+ "spec_src": "inventory"
 }

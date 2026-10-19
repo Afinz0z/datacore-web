@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "HRB 109",
  "d": "HRB 109 1U Basic Half Rack Shelf",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "License for WAP"
+  },
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "Foundation License (Subscription-Based)"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "JL479A"
  ]

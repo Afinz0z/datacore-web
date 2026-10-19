@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FBT MPA 5240 analog amplifier. 1x240W.",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "1"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "240 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "230 Hz - 13 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

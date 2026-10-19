@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Signo20, Mullion, 13.56MHz &125kHz, OSDP/Wiegand, Terminal, Mobile Ready, BLE",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "PIN/Password Credentials, RFID Card, BLE Mobile Access"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand, OSDP"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP65, IK10"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "125 kHz EM"
+  }
+ ],
+ "spec_src": "inventory"
 }

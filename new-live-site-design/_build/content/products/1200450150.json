@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "VIPA-WS",
  "d": "Touch screen workstation - supporting 384 zones - inc. HW",
- "specs": []
+ "specs": [
+  {
+   "label": "Workstation type",
+   "value": "PAVA"
+  }
+ ],
+ "spec_src": "inventory"
 }

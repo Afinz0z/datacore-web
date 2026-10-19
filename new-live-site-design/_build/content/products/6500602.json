@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CNXRMAK Rack Mount Kit for up to 3 C2N-HBLOCK and CNPWS-75, 2U",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Controller"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "DA2 HD 8K AI",
  "d": "DA2 HD 8K AI 8K HDMI Audio Embedder, Distribution Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x2"
+  },
+  {
+   "label": "Supporting video resolution",
+   "value": "8K/60"
+  },
+  {
+   "label": "Audio input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "40.1 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

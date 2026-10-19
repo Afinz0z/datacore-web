@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Dual docking recharging station charges SB900C batteries in or out of their transmitters. Features include the ability to run up to 4 SBC200 stations off 1 power supply.",
- "specs": []
+ "specs": [
+  {
+   "label": "Charger",
+   "value": "Battery, Mic"
+  }
+ ],
+ "spec_src": "inventory"
 }

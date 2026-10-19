@@ -9,10 +9,19 @@
  "d": "Cable Cubby 500,Cable Access Enclosure, Brushed Al, No AC",
  "specs": [
   {
+   "label": "Colour",
+   "value": "Aluminum"
+  },
+  {
    "label": "Type",
-   "value": "Enclosure"
+   "value": "Module/Chassis"
+  },
+  {
+   "label": "Product size/capacity",
+   "value": "500"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "70-1048-80",
   "70-1065-01",

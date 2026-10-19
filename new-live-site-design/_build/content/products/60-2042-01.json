@@ -11,7 +11,36 @@
  "specs": [
   {
    "label": "Type",
-   "value": "USB Docking Solution"
+   "value": "USB-C Docking Solution"
+  },
+  {
+   "label": "Device ports",
+   "value": "USB-A"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-C"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-C, HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

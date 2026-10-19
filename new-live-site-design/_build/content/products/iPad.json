@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "11″ iPad Air",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "11\""
+  },
+  {
+   "label": "Audio",
+   "value": "Microphone, Speaker"
+  }
+ ],
+ "spec_src": "inventory"
 }

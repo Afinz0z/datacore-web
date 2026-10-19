@@ -10,8 +10,37 @@
  "d": "SW4 VGA Ars Four Input VGA and Stereo Audio Switcher",
  "specs": [
   {
+   "label": "Input/Output",
+   "value": "4x1"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "3.5 mm mini stereo jack"
+  },
+  {
+   "label": "Audio output",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
    "label": "Type",
    "value": "Audio Switcher"
+  },
+  {
+   "label": "Video input",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Video output",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "350 MHz"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

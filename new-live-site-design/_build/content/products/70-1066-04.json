@@ -9,10 +9,23 @@
  "d": "Retractor XL HDMI Extended Length Cable Retraction System for Cable Cubby® Enclosures - HDMI Male to Male",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "HDMI"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "HDMI to HDMI"
+  },
+  {
+   "label": "Cable length",
+   "value": "1.5 m (5 ft)"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

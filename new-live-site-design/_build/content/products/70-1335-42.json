@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "RM 9",
  "d": "RM 9- 6U, TLP Pro 1535M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-2000-02"
  ]

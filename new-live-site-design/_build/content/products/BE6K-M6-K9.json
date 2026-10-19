@@ -11,8 +11,41 @@
   {
    "label": "Type",
    "value": "Collaboration Server Appliance"
+  },
+  {
+   "label": "Processor type",
+   "value": "Intel Xeon Gold 4310T"
+  },
+  {
+   "label": "Processor speed",
+   "value": "2.3 GHz"
+  },
+  {
+   "label": "RAM",
+   "value": "64 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "6 × 600 GB 12G SAS 10K RPM SFF HDD"
+  },
+  {
+   "label": "Operating system",
+   "value": "VMware ESXi"
+  },
+  {
+   "label": "Number of USB ports",
+   "value": "4 × USB 3.0"
+  },
+  {
+   "label": "Server type",
+   "value": "Unified communication server"
+  },
+  {
+   "label": "Number of users",
+   "value": "1000"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "A-FLEX-FILESTG-ENT",
   "A-FLEX-MSG-NU-ENT",

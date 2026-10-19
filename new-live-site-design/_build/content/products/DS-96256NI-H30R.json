@@ -7,5 +7,47 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "1280Mbps Bit Rate Input Max, 30 SATA Interfaces(up to 20TB), 4U case,19",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of channel",
+   "value": "256"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265, H.265+"
+  },
+  {
+   "label": "RAID support",
+   "value": "RAID 0, RAID 1, RAID 5, RAID 6, RAID 10"
+  },
+  {
+   "label": "Incoming bandwidth",
+   "value": "1280 Mbps"
+  },
+  {
+   "label": "SATA interface",
+   "value": "30 SATA"
+  },
+  {
+   "label": "Recording resolution",
+   "value": "32 MP/24 MP/12 MP/8 MP/7 MP/6 MP/5 MP/4 MP/3 MP/1080p/UXGA/720p/VGA/4CIF/DCIF/2CIF/CIF/QCIF"
+  },
+  {
+   "label": "Decoding capability",
+   "value": "2-ch@32 MP (30 fps)/2-ch@24 MP (30fps)/4-ch@16 MP (30fps)/8-ch@8 MP (30fps)/16-ch@4 MP (30fps)/32-ch@2 MP (30fps)"
+  },
+  {
+   "label": "Network protocol",
+   "value": "TCP/IP, DHCP, IPv4, IPv6, DNS, DDNS, NTP, RTSP, SADP, SMTP, SNMP, NFS, iSCSI, ISUP, UPnP™, HTTP, HTTPS, ONVIF(Version 2.2), OTAP"
+  },
+  {
+   "label": "Network interface",
+   "value": "2, RJ-45 10/100/1000 Mbps self-adaptive Ethernet interface"
+  },
+  {
+   "label": "Each SATA capacity",
+   "value": "Up to 20 TB per HDD"
+  }
+ ],
+ "spec_src": "inventory"
 }

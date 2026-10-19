@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FP1-122-INTENSE Single gang faceplate Intense - Antracite",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Antracite"
+  },
+  {
+   "label": "No slot",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

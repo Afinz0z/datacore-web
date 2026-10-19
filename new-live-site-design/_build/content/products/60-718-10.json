@@ -12,6 +12,23 @@
   {
    "label": "Type",
    "value": "Preamplifier"
+  },
+  {
+   "label": "Channels",
+   "value": "1"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Connectors",
+   "value": "3-pin 3.5 mm terminal block"
+  },
+  {
+   "label": "Amplifier type",
+   "value": "Preamplifier"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

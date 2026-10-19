@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking 8360-32Y4C v2 32p 25G SFP/SFP+/SFP28 4 Sec 4p 100G QSFP+/QSFP28 Front-to-Back 3 Fans 2 AC Bundle",
- "specs": [],
+ "specs": [
+  {
+   "label": "SFP ports",
+   "value": "32"
+  },
+  {
+   "label": "Switching capacity",
+   "value": "4.8 Tbps"
+  },
+  {
+   "label": "Fan",
+   "value": "3"
+  },
+  {
+   "label": "Protocols",
+   "value": "BGP, OSPF, VRF, VRRP, IPv6, DHCP Snooping, MSTP"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "H65S4E",
   "J9151E",

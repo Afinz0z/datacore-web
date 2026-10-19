@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "NBP VC2 EU",
  "d": "NBP VC2 EU Network Button Panel with Dual Volume Control - Flex55 and EU Wall Frame",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "PoE"
+  },
+  {
+   "label": "Status screen",
+   "value": "LCD"
+  },
+  {
+   "label": "Colour",
+   "value": "Black, White"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  },
+  {
+   "label": "Buttons type",
+   "value": "Pushbutton"
+  }
+ ],
+ "spec_src": "inventory"
 }

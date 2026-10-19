@@ -7,7 +7,29 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Single-Gang Faceplate UK, two jacks VOL-FPUK-2K",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "Duplex"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "No slot",
+   "value": "2"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  },
+  {
+   "label": "Set",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CCAKYE-G1002-A010-C0",
   "MAXCSV-02408-C001",

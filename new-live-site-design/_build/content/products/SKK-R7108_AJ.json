@@ -6,5 +6,11 @@
  "c": "HARD DISK",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "RPM",
+   "value": "7200 RPM"
+  }
+ ],
+ "spec_src": "inventory"
 }

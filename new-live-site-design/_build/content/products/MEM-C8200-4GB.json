@@ -6,5 +6,19 @@
  "c": "RAM",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Memory capacity",
+   "value": "4 GB"
+  },
+  {
+   "label": "Memory speed",
+   "value": "2666 MHz"
+  },
+  {
+   "label": "Memory bandwidth",
+   "value": "21.3 GB/s"
+  }
+ ],
+ "spec_src": "inventory"
 }

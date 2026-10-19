@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Lens - ELPLU04 - Short throw off axis 2 - EB-PU Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Short Throw"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "EB-L260F",
   "EB-L530U",

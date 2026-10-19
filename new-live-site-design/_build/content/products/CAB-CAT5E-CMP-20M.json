@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Ethernet CAT5E Plenum Rated - 20 meter - Gray",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "20m"
+  },
+  {
+   "label": "Cable type",
+   "value": "Cat 5e"
+  }
+ ],
+ "spec_src": "inventory"
 }

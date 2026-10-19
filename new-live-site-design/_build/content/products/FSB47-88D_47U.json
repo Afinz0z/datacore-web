@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cabinet, 47U FS 4xfans, Vertical organizer, wheels, FD Glass and Rear Double Doors 800x800 Finosel®, FS Universal Server Rack is compatible with a variety of servers and rackmountable networking equipments with a Wide range of accessories such as fan, Wheel, Castor etc",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "47U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

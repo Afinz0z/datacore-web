@@ -6,5 +6,15 @@
  "c": "PoE Injector",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "DC output voltage",
+   "value": "56.0V"
+  },
+  {
+   "label": "Output power",
+   "value": "60W @40°C; 30W @50°C"
+  }
+ ],
+ "spec_src": "inventory"
 }

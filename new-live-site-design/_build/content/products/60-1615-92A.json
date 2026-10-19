@@ -7,5 +7,43 @@
  "dept": "AV",
  "avail": "lead",
  "d": "IN1808 IPCP Q SA with LinkLicense Control Processor and Stereo Amp, LL UI Upgrade",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Flash memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "Yes"
+  },
+  {
+   "label": "Output power",
+   "value": "50 W"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, RJ-45, 3.5 mm, 5 pole, 3.5 mm, 3 pole"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI, RJ-45, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI, RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

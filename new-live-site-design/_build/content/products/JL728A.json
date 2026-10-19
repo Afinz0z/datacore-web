@@ -10,8 +10,33 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "PoE power",
+   "value": "720W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6, TCP/UDP, OSPF"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "176Gbps"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HL2M0E",
   "HR0W9E",

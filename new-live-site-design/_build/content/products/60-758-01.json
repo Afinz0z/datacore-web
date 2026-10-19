@@ -10,8 +10,33 @@
  "d": "VSW 2VGA A Two Input VGA and Stereo Audio Switcher",
  "specs": [
   {
+   "label": "Input/Output",
+   "value": "2x1"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "3.5 mm stereo jack"
+  },
+  {
+   "label": "Audio output",
+   "value": "3.5 mm stereo jack"
+  },
+  {
    "label": "Type",
    "value": "Audio Switcher"
+  },
+  {
+   "label": "Video input",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Video output",
+   "value": "15-pin HD"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

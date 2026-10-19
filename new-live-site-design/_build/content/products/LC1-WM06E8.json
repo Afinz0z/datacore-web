@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "Ceiling Speaker"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "6W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "85 Hz to 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "88 dB"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LC1-MFDS"
  ]

@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "DMI-DANTE64@96",
  "d": "DiGiCo DMI Dante 64@96 SRC I/O card",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type of card",
+   "value": "Dante"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "X-Q326-WS-NC"
  ]

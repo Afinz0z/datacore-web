@@ -8,7 +8,37 @@
  "avail": "lead",
  "model": "SMD 202",
  "d": "SMD 202 H.264 Player and Decoder",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Decoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "2K, 1080p"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 1.4"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, 3.5 mm captive connector, 1 stereo, balanced/unbalanced"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1059-01"
  ]

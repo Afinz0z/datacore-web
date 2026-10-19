@@ -7,5 +7,31 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SM 3- SpeedMount Compact Full-Range Surface Mount Speakers, - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Surface Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "15W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "100 Hz to 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "83 dB"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

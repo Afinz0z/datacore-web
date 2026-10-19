@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "SLXD1",
  "d": "Body Pack Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "Impedance",
+   "value": "1 M Ω"
+  },
+  {
+   "label": "Connector type",
+   "value": "4-Pin male mini connector (TA4M)"
+  },
+  {
+   "label": "Type",
+   "value": "Bodypack Transmitter"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

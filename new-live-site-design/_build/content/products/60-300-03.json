@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "AAP 102 Two-Gang AAP Mounting Frame - White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Gang Mounting Frame"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall, Desk/Table, Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1031-12",
   "60-1346-02",

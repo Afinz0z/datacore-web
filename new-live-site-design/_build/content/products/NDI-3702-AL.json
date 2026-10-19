@@ -11,8 +11,33 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "2 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Fixed lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "30 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "NDA-3083 LWMT"
  ]

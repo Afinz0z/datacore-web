@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "16 configurable input control points and 2 output control relays. It supports normally open, normally closed, supervised and non-supervised",
- "specs": [],
+ "specs": [
+  {
+   "label": "Controller type",
+   "value": "RS-232, Relay, Digital Input"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 8P8C, 2-pin 3.5 mm terminal block"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "LNL-M2220",
   "LNL-M4420"

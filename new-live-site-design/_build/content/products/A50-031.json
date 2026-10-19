@@ -10,8 +10,57 @@
  "d": "1206707 - Leading Platform Collaboration Bar for medium to large rooms • 1x A50 all-in-one Collaboration bar, power adapter, wallmount bracket and cables; • 1x CTP25 touch console, PD power adapter，Desktop stand and cables; • Including 2-year hardware warranty.",
  "specs": [
   {
+   "label": "Recommended room size",
+   "value": "Medium to Large"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Expansion mics",
+   "value": "Yes, Up to 3"
+  },
+  {
+   "label": "System compatibility",
+   "value": "Android, Windows"
+  },
+  {
+   "label": "Digital zoom",
+   "value": "8x"
+  },
+  {
+   "label": "Frequency range",
+   "value": "80 Hz to 20 kHz"
+  },
+  {
+   "label": "Diagonal field of view",
+   "value": "110°"
+  },
+  {
+   "label": "Horizontal field of view",
+   "value": "98°"
+  },
+  {
+   "label": "Feature",
+   "value": "Auto framing, Speaker tracking, IntelliFocus, People counting, PIP, Smart Gallery"
+  },
+  {
    "label": "Type",
    "value": "All in one Bar"
+  },
+  {
+   "label": "Included components in kit",
+   "value": "Tabletop touch screen, All-inone Videobar , Power supply, Cables, Wall mount"
+  },
+  {
+   "label": "Number of cameras",
+   "value": "3"
+  },
+  {
+   "label": "Built-in speaker",
+   "value": "5W"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "CA 83T PT",
  "d": "CA 83T PT Pan and Tilt Mount, Single, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Soundbar"
+  },
+  {
+   "label": "Power",
+   "value": "120W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "113 Hz to 17 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Mount movement",
+   "value": "Pan & Tilt"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -10,10 +10,15 @@
  "d": "86\", 4K, 500 nits, 4GB/32GB,Quad-Core, Landscape & Portrait, Android 14, Wi-Fi slot in, RS232 IR Pass-Thru, 3 x HDMI-in, USB Cloning. USB multimedia playback.",
  "specs": [
   {
+   "label": "Display size",
+   "value": "86\""
+  },
+  {
    "label": "Type",
-   "value": "Non Interactive"
+   "value": "Non-interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

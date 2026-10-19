@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SALTO XS4 Controller - ethernet. Two reader option. To be used in combination with SALTO Readers range (WRDBxxx series). Connection up to 4 CU4200 control units by bus 485.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "2-door / 1 reader per door"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "SALTO RS-485 XS4 Online Readers"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CU4200TUK",
   "SPAONLINE"

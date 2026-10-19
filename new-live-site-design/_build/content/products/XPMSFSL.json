@@ -6,7 +6,65 @@
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "XProtect Management Server Failover Server License"
+  },
+  {
+   "label": "Category",
+   "value": "VMS, Security management, High Availability"
+  },
+  {
+   "label": "Base license",
+   "value": "No - failover license"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported by XProtect architecture"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Application",
+   "value": "Management Server failover"
+  },
+  {
+   "label": "License type",
+   "value": "Failover Server License"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides a licensed failover management server for continuity of XProtect management services"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 failover management server"
+  },
+  {
+   "label": "System",
+   "value": "Milestone XProtect Corporate"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Management Server , Failover Server hardware"
+  },
+  {
+   "label": "Associated product",
+   "value": "XProtect Management Server"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per failover server"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "XPCOBT"
  ]

@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SPRS-S-06W-65-EN54",
  "d": "Wall Speaker, 6 Watts, Ral 9010, Metal, With Thermal Fuse And Ceramic Block, Certified EN 54-24",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Surface Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "3 W, 6W, 15W, 60W"
+  },
+  {
+   "label": "Protection",
+   "value": "EN 54-24"
+  }
+ ],
+ "spec_src": "inventory"
 }

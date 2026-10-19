@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CISCO C9300X 48-port mGig data only, 715wac PS, w/MERAKI CISCO Meraki Enterprise License for C9300-M 48-port, 3 year",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Inter-VLAN routing"
+  }
+ ],
+ "spec_src": "inventory"
 }

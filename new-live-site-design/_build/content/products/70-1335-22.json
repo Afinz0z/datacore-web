@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "RM 7",
  "d": "RM 7 3U, TLP Pro 535M (Landscape) and TLP Pro 835M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1993-02",
   "60-1993-03",

@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch Audio I/O interface Module, 2x2 Dante/Analogue",
- "specs": []
+ "specs": [
+  {
+   "label": "Signal type",
+   "value": "Analog, Network, Dante"
+  },
+  {
+   "label": "Outputs",
+   "value": "Balanced line level audio, Relay outputs"
+  },
+  {
+   "label": "Inputs",
+   "value": "Balanced analog audio, Supervised control"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

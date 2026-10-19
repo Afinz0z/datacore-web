@@ -11,8 +11,41 @@
   {
    "label": "Type",
    "value": "Mini PC"
+  },
+  {
+   "label": "System memory (RAM)",
+   "value": "16GB"
+  },
+  {
+   "label": "Storage",
+   "value": "256GB"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel i7"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows® 11 Enterprise IoT"
+  },
+  {
+   "label": "Graphics",
+   "value": "Intel® UHD Graphics 770"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Intel® Wi-Fi 6E AX211"
+  },
+  {
+   "label": "Bluetooth®",
+   "value": "Version 5.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-C, HDMI, RJ45, DisplayPort"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "P88230160"
  ]

@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "75\" Display Slim depth 29.7mm 700nits , with bracket",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "75\""
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "LG-Emerald3-N20",
   "LGC-5586",

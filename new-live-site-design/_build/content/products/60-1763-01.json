@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "SME 211",
  "d": "SME 211 - Streaming Media Encoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "1080p"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 1.4"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, RJ45, 3.5 mm captive connector"
+  }
+ ],
+ "spec_src": "inventory"
 }

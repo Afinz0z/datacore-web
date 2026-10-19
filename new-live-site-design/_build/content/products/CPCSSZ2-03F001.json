@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "UTP Patch cord 30cm"
+  },
+  {
+   "label": "Patch cord lenth",
+   "value": "30 CM"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "UNIG_DVB-S2-CI-DUAL",
  "d": "IPTV DVB-S/S2 encrypted dual interface excl CAM",
- "specs": []
+ "specs": [
+  {
+   "label": "Accessory type",
+   "value": "Receiver"
+  }
+ ],
+ "spec_src": "inventory"
 }

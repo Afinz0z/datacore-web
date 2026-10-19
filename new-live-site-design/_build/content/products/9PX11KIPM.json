@@ -7,7 +7,61 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Eaton 9PX 11kVA 10kW Power Module UPS Designed life 5/7 Years - Spare parts and service available in JEDD/RYD/KHO",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "11KVA"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack-Tower Convertible"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": External VRLA (Valve Regulated Lead Acid) Sealed Batteries"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "240 V"
+  },
+  {
+   "label": "Recharge time",
+   "value": "3 h"
+  },
+  {
+   "label": "Protection features",
+   "value": "Overload Protection, Short Circuit Protection, Over-Voltage / Under-Voltage Protection, Battery Deep Discharge Protection, Surge Protection (e.g., ≥ 400 Joules)"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "IEC 62040-1 / IEC 62040-2 / IEC 62040-3, CE / UL / BIS (as per country), ISO 9001 / ISO 14001 (Manufacturer)"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Rack unit",
+   "value": "3U"
+  },
+  {
+   "label": "Backup",
+   "value": "30min"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "9RK"
  ]

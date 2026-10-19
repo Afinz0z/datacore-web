@@ -10,6 +10,11 @@
   {
    "label": "Type",
    "value": "Mifare Guest Card"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "13.56 MHz"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

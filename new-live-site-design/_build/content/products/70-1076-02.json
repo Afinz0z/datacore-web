@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HDMI, VGA, Audio, and USB 2 Type-A - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Plate"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K, 2K"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1541-02"
  ]

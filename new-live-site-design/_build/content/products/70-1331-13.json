@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SMK 4 For TLP Pro 535M - White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Surface"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1993-02",
   "60-1993-03"

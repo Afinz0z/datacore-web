@@ -6,5 +6,11 @@
  "c": "IPTV Device",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Alarm monitor"
+  }
+ ],
+ "spec_src": "inventory"
 }

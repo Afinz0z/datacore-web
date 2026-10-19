@@ -7,7 +7,69 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "DHI-DSSPro8-Door-Base-License 16",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "DSS Professional V8 Door Base License"
+  },
+  {
+   "label": "Category",
+   "value": "Access Control, Security management"
+  },
+  {
+   "label": "Channels support",
+   "value": "16 Doors"
+  },
+  {
+   "label": "Base license",
+   "value": "Door -Base license"
+  },
+  {
+   "label": "Access control",
+   "value": "Yes"
+  },
+  {
+   "label": "Time attendance",
+   "value": "Platform-dependent / separate module"
+  },
+  {
+   "label": "Employee management",
+   "value": "Supported by DSS platform/configuration"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported by DSS platform, depending on configuration"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software License"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "System",
+   "value": "Dahua DSS Professional V8"
+  },
+  {
+   "label": "Associated product",
+   "value": "Dahua DSS Professional V8"
+  },
+  {
+   "label": "Supporting product",
+   "value": "DSS Professional V8 platform"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "16 Doors"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "DHI-IVSS7124DR",
   "DHI-NVR608RH-128-XI"

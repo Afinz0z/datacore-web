@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "LA1-UM40E-1",
  "d": "Metal Column Loudspeaker 40W, EN54-24",
- "specs": []
+ "specs": [
+  {
+   "label": "Power",
+   "value": "60W"
+  },
+  {
+   "label": "Frequency range (+/- 3dB)",
+   "value": "250 Hz to 16 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

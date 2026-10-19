@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "USBC-DPM/6",
  "d": "USBC-DPM/6 USB-C male to DP male adapter cable, 6' (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "USB-C"
+  },
+  {
+   "label": "Output",
+   "value": "DisplayPort"
+  }
+ ],
+ "spec_src": "inventory"
 }

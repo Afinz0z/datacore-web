@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Wall Mount Bracket for BRC/SRG X and SRG PTZ Cameras (Silver)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SRG-A40"
  ]

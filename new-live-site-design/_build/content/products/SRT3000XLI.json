@@ -7,7 +7,29 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "APC Smart-UPS SRT 3000 VA",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "3000"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tower"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "IEC 62040-1 / IEC 62040-2 / IEC 62040-3"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SRT96BP",
   "SRTRK4"

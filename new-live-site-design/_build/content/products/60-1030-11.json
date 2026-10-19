@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "USB HUB4 MAAP",
  "d": "USB HUB4 MAAP Four-Port USB Hub - MAAP Version - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-B"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-A"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "60-583-11",
   "60-583-12",

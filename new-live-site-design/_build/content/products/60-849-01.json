@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "XPA 1002",
  "d": "XPA 1002 Two Channel Amp - 60 Watts at 8 ohms",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "60 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "4-pin 3.5 mm terminal block, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "KB216",
  "d": "Dell keyboard",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of accessories",
+   "value": "Keyboard"
+  }
+ ],
+ "spec_src": "inventory"
 }

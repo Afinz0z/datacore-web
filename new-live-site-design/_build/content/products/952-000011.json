@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - Logitech Swytch - BLACK - USB - PLUGC - WW-9004 - EMEA_AP",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.5m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB A to USB C, USB A to USB A"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB"
+  }
+ ],
+ "spec_src": "inventory"
 }

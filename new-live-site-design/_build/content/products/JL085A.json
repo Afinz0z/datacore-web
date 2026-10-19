@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking X371 12VDC 250W 100-240VAC Power Supply",
- "specs": [],
+ "specs": [
+  {
+   "label": "Output",
+   "value": "12 V DC"
+  },
+  {
+   "label": "Weight",
+   "value": "0.69 kg"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "JL658A"
  ]

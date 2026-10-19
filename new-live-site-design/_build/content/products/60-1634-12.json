@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "SMP 352 3G-SDI - 400 GB SSD",
  "d": "SMP 352 3G-SDI - 400 GB SSD Dual Recording H.264 Streaming Media Processor w/3G-SDI - 400 GB SSD",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "HDMI, BNC"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Audio input",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Recording",
+   "value": "Dual channel"
+  },
+  {
+   "label": "Storage",
+   "value": "400 GB"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, RJ45, 3.5 mm, 5 pole"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -9,10 +9,15 @@
  "d": "98\"4k UHD IFP Panel(20 touch, Slim IR, Dual Pen, Android 9.0, 4GB/32GB)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "98\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

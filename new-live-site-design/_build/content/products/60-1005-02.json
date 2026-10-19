@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "MLC 62 RS D",
  "d": "MLC 62 RS D MediaLink® Controller With RS-232 - Decorator-Style Wallplate",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  }
+ ],
+ "spec_src": "inventory"
 }

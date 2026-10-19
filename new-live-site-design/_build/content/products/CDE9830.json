@@ -9,10 +9,15 @@
  "d": "98\", 4K, 550 nits, Android 11, Landscape & Portrait mode, Daisy Chain 3x3, USB Type C (vController / Viewboard Cast / myViewBoard Display / Revel Digital), Stardard Intel OPS slot",
  "specs": [
   {
+   "label": "Display size",
+   "value": "98\""
+  },
+  {
    "label": "Type",
-   "value": "Non Interactive"
+   "value": "Non-interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

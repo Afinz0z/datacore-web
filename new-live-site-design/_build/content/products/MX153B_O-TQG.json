@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "MX153B/O-TQG",
  "d": "Earset Headworn Microphone,Black,Omni,TQG",
- "specs": []
+ "specs": [
+  {
+   "label": "Microphone type",
+   "value": "Condenser"
+  },
+  {
+   "label": "Compatibility",
+   "value": "All Shure w/TA4F (Tiny QG)"
+  },
+  {
+   "label": "Connector",
+   "value": "TA4F (For Shure)"
+  },
+  {
+   "label": "Polar pattern",
+   "value": "Omni"
+  }
+ ],
+ "spec_src": "inventory"
 }

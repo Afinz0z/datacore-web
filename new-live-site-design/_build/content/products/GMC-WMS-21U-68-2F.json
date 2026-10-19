@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FREESTAND 21U 600X800-2FAN, REMOVSIDEBACK, FRNTGLAS BLK",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "600x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "21U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sony 4K Ultra HD Blu-ray™ Player | UBP-X700 with High Resolution Audio",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "USB, WiFi, HDMI out, Ethernet, Coaxial"
+  },
+  {
+   "label": "Dimension (mm)",
+   "value": "320 x 45 x 217 mm"
+  }
+ ],
+ "spec_src": "inventory"
 }

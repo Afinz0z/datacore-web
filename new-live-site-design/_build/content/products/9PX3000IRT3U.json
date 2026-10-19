@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "9PX UPS, 3000 VA, 3000 W, Input: C20, Outputs: (8) C13, (2) C19, Rack/tower, 3U",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "3000"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "IEC 62040-1 / IEC 62040-2 / IEC 62040-3"
+  }
+ ],
+ "spec_src": "inventory"
 }

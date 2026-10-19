@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "AC+USB 212 UK",
  "d": "AC+USB Module, UK",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Type",
+   "value": "Charging Module"
+  }
+ ],
+ "spec_src": "inventory"
 }

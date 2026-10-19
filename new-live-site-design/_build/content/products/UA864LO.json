@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "UA864LO",
  "d": "WALL/CEILING ANTENNA, 470-698MHZ",
- "specs": []
+ "specs": [
+  {
+   "label": "Application",
+   "value": "Wireless Mic"
+  },
+  {
+   "label": "Antenna type",
+   "value": "Active Directional"
+  },
+  {
+   "label": "Frequency range",
+   "value": "470-698 MHz"
+  },
+  {
+   "label": "Connector type",
+   "value": "BNC"
+  },
+  {
+   "label": "Active",
+   "value": "Yes"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Wall, Ceiling"
+  }
+ ],
+ "spec_src": "inventory"
 }

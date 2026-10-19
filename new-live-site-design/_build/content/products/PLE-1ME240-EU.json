@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch Plena Mixer Amplifier 4 microphone / line inputs, plus music source input",
- "specs": []
+ "specs": [
+  {
+   "label": "Input channels",
+   "value": "4"
+  },
+  {
+   "label": "Output power",
+   "value": "240 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

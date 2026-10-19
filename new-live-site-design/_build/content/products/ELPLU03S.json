@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "V12H004UA3 - Lens - ELPLU03S - EB-L1000/G7000 Short 1Lens..",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Short Throw"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "EB-L260F",
   "EB-L530U",

@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "12x Optical Zoom 80° Horizontal Field of View, PTZ Network Camera, PoE, with HDMI and SDI output. Includes PTZ-WMB1 wall mount bracket",
- "specs": []
+ "specs": [
+  {
+   "label": "Camera type",
+   "value": "PTZ"
+  },
+  {
+   "label": "Max resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Camera connectivity",
+   "value": "IP Camera, HDMI, PoE, SDI"
+  },
+  {
+   "label": "Optical zoom",
+   "value": "12x"
+  },
+  {
+   "label": "Field of view",
+   "value": "80° horizontal"
+  }
+ ],
+ "spec_src": "inventory"
 }

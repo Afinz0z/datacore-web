@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "28*25GE SFP28 ports, 4*100GE QSFP28 ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "SFP ports",
+   "value": "28"
+  },
+  {
+   "label": "Switching capacity",
+   "value": "2.2 Tbps"
+  },
+  {
+   "label": "Fan",
+   "value": "3"
+  },
+  {
+   "label": "Protocols",
+   "value": "BGP, OSPF, VRF, VRRP, IEEE 802.1Q, Static Routing"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "02131692",
   "2131692",

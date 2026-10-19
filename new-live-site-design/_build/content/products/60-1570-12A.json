@@ -7,5 +7,43 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DTP3 CrossPoint 622 IPCP A LL - 4K/60 Presentation Matrix Switcher with Reversible DTP3 I/O, Control Processor and Amplifier, LL UI Upgrade",
- "specs": []
+ "specs": [
+  {
+   "label": "Video switcher",
+   "value": "6x4"
+  },
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "Yes"
+  },
+  {
+   "label": "Output power",
+   "value": "100 W, 200 W"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, 3.5 mm, 6-pole Connector, RJ-45"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI, 3.5mm, 6-pole Connector, RJ-45, USB"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

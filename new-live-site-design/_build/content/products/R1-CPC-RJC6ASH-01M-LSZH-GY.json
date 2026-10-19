@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CAT6A S/FTP Patch Cord LSZH - GREY - 1 mtr",
- "specs": [],
+ "specs": [
+  {
+   "label": "Patch cord lenth",
+   "value": "1 Mtr"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "R1-BPL19-1U"
  ]

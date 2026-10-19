@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-ACS License Lite base",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "APC-AMC2 4WCF"
  ]

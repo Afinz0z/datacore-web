@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Corner mount"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP66"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "DS-2DE4425IW-DE-T5",
   "DS-2DE5225W-AE3-T5"

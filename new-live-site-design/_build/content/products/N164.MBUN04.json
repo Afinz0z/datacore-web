@@ -9,8 +9,13 @@
  "d": "LANmark-OF Micro-Bundle Universal 04x Singlemode 9/125 OS2 LSZH Black",
  "specs": [
   {
+   "label": "No of fibers",
+   "value": "4"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

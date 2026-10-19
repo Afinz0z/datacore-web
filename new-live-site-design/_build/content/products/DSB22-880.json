@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FINOSEL, Cabinet, 22U Wall Mount Double Section Cabinet, 800x800mm, Black,With 6Way Uk type PDU & Fan",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "22U"
+  }
+ ],
+ "spec_src": "inventory"
 }

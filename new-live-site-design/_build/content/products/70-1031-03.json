@@ -12,8 +12,21 @@
   {
    "label": "Type",
    "value": "Connectivity Modules"
+  },
+  {
+   "label": "Mount category",
+   "value": "AV connectivity"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "60-1031-12",
   "60-1346-02",

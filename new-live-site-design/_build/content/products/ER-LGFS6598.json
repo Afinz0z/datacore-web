@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "Trolley Stand"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Trolleys"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,63 @@
  "avail": "lead",
  "model": "Fiber patch cord",
  "d": "OM4 LC to LC, Fiber Patch Cord, 1.6 mm Duplex, Low Smoke Zero Halogen (LSZH), Aqua, 007 ft",
- "specs": []
+ "specs": [
+  {
+   "label": "Length",
+   "value": "2.13 m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "aqua"
+  },
+  {
+   "label": "Fiber count",
+   "value": "2 Fibers (Duplex)"
+  },
+  {
+   "label": "Fiber grade",
+   "value": "OM4, 50/125 µm"
+  },
+  {
+   "label": "Connector",
+   "value": "LC to LC"
+  },
+  {
+   "label": "Configuration",
+   "value": "Duplex, 2-fiber"
+  },
+  {
+   "label": "Cable diameter",
+   "value": "1.6 mm"
+  },
+  {
+   "label": "Cable retention strength",
+   "value": "11.24 lb @ 0 ° | 4.40 lb @ 90 °"
+  },
+  {
+   "label": "Cable assembly length range",
+   "value": "1 - 999"
+  },
+  {
+   "label": "Transmission standards",
+   "value": "TIA/EIA-568-C.3"
+  },
+  {
+   "label": "Standard",
+   "value": "TIA/EIA-568-C.3"
+  },
+  {
+   "label": "Boot color",
+   "value": "Aqua"
+  },
+  {
+   "label": "Polarity",
+   "value": "Pairs, flipped"
+  }
+ ],
+ "spec_src": "inventory"
 }

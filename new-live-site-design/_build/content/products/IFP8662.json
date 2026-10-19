@@ -9,10 +9,15 @@
  "d": "86\"4k UHD IFP Panel (20 touch, PCAP, Active Pen, Android 8.0)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "86\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

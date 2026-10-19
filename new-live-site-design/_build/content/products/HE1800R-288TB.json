@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Husky IVO 1800 Rack mount 2U, WS19, 288TB (24x12TB)",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of channel",
+   "value": "250 Camera Channels"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265, H.265+, H.264+, MJPEG, MPEG4"
+  },
+  {
+   "label": "RAID support",
+   "value": "RAID 0, RAID 1, RAID 5, RAID 6, RAID 10, RAID 50, RAID 60"
+  },
+  {
+   "label": "Incoming bandwidth",
+   "value": "1800 Mbps"
+  },
+  {
+   "label": "Outgoing bandwidth",
+   "value": "1.25Gbps"
+  },
+  {
+   "label": "SATA interface",
+   "value": "24 SATA"
+  }
+ ],
+ "spec_src": "inventory"
 }

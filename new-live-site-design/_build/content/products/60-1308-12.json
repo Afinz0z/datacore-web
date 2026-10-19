@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "SM 26T",
  "d": "SM 26T SpeedMount Two-Way Surface Mount Speakers with 6.5\" Woofer and 70/100 V Transformer - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Surface Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "65 Hz - 19 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Woofer",
+   "value": "6.5\""
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 32 W, 16 W, 8 W, 4 W, 2 W, 100 V: null, 32 W, 16 W, 8 W, 4 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

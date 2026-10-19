@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "Barndoor"
+  },
+  {
+   "label": "Product colour",
+   "value": "Black"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

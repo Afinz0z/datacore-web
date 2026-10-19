@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "FOX T USW 203 MM",
  "d": "FOX T USW 203 MM Three Input Transmitter for HDMI, VGA, Audio, and RS-232 with Local HDMI Output - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "1080p"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Connectors",
+   "value": "LC connector"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm mini stereo jack"
+  }
+ ],
+ "spec_src": "inventory"
 }

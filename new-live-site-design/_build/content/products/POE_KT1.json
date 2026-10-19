@@ -6,5 +6,11 @@
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "POE KIT"
+  }
+ ],
+ "spec_src": "inventory"
 }

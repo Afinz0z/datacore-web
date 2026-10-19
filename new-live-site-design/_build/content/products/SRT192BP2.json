@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "192V DC battery pack designed to extend the runtime of high-capacity APC Smart-UPS SRT models.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Battery system type",
+   "value": "External UPS battery pack"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "192V"
+  },
+  {
+   "label": "Battery type",
+   "value": "Lead-Acid Battery"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SRT10KXLI",
   "SRT8KXLI"

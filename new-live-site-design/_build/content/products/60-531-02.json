@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "AAP 106",
  "d": "AAP 106 Six-Gang AAP Mounting Frame - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Gang Mounting Frame"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall, Desk/Table, Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1031-12",
   "60-1346-02",

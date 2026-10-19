@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PRA-ES8P2S Ethernet switch, 8 x Gigabit ports with PoE, 2 x Gigabit combo ports with SFP sockets, Network redundancy via STP/MSTP/RSTP",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "8"
+  },
+  {
+   "label": "PoE power",
+   "value": "20 W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP"
+  }
+ ],
+ "spec_src": "inventory"
 }

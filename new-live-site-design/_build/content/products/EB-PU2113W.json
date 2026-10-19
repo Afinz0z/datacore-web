@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "V11HA65940DA - EB-PU2113W 15klm+13000WUXGA13,000-Lumen 3LCD Large Venue LaserProjector with 4K Enhancement",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection resolution",
+   "value": "WUXGA (1920 x 1200), 4K UHD (3840 x 2160)"
+  },
+  {
+   "label": "Light source type",
+   "value": "Laser"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CMS0305",
   "CMS115",

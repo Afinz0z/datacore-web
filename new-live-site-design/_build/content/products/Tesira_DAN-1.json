@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Tesira 64x64 Dante™ module for use in SERVER or SERVER-IO chassis",
- "specs": [],
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "64x64"
+  },
+  {
+   "label": "Type of card",
+   "value": "Dante"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "Tesira SERVER-IO AVB"
  ]

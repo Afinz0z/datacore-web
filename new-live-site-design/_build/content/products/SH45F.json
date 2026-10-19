@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SH45F",
  "d": "FIXED WALL BRACKET 26-65\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  }
+ ],
+ "spec_src": "inventory"
 }

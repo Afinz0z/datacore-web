@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MX418",
  "d": "Standard Gooseneck Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Gooseneck Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  }
+ ],
+ "spec_src": "inventory"
 }

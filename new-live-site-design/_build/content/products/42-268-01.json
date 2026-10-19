@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "HC 404",
  "d": "HC 404 Meeting Space Collaboration System",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx and Rx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "2K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45, VGA"
+  }
+ ],
+ "spec_src": "inventory"
 }

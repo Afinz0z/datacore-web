@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FOXBOX Rx HDMI MM Fiber Optic Receiver for HDMI, Audio, and RS-232 - 850 nm Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "2K"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RS-232, LC connector"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "1 stereo/mono, balanced/unbalanced"
+  }
+ ],
+ "spec_src": "inventory"
 }

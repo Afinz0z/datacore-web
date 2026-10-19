@@ -9,8 +9,13 @@
  "d": "Railkit for SynologyRackstation",
  "specs": [
   {
+   "label": "Type of accessories",
+   "value": "Rack Mount Rail Kit"
+  },
+  {
    "label": "Type",
-   "value": "Sliding Rack Rail Kit"
+   "value": "Sliding Rail Kit"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

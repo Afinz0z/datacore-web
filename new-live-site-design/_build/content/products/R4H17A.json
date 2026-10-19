@@ -7,7 +7,33 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking AP-575 (RW) 802.11ax 2x2/4x4 Dual Radio Integrated Omni Antennas Outdoor AP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO, 4×4 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "5 GHz: 4.6 dBi, 2.4 GHz: 4.0 dBi"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , Enhanced Open (OWE)"
+  },
+  {
+   "label": "Certifications",
+   "value": "Wi-Fi Alliance (Wi-Fi 6E certified), UL / cUL"
+  },
+  {
+   "label": "Power",
+   "value": "IEEE 802.3at / 802.3bt PoE"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "HM1B6E",
   "JW053A"

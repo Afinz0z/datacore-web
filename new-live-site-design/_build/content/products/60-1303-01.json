@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "DSC 3G-HD A",
  "d": "DSC 3G-HD A 3G-SDI to HDMI Scaler with Audio Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "2K, 1080p"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "BNC"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "BNC"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sapling Analog, IP, 12\" Round, PoE, Surface Wall Mount, Black Case",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display type",
+   "value": "Analog clock face"
+  },
+  {
+   "label": "Size",
+   "value": "12″ diameter"
+  },
+  {
+   "label": "Digit color",
+   "value": "Black"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SAB-1BD-12R-0M"
  ]

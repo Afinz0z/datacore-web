@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP2 T 212",
  "d": "DTP2 T 212 Two Input 4K/60 HDMI Switcher with Integrated DTP2 Transmitter and HDMI Output",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm mini stereo jack"
+  }
+ ],
+ "spec_src": "inventory"
 }

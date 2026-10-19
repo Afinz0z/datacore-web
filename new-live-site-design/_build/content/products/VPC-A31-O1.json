@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "•Android 13 •EDLA certified, with Google GMS •8GB RAM, 256GB SSD •802.11 a/b/g/n/ax (Gig+), BT 5.2",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "8GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

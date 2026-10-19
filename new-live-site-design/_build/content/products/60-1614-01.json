@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "DVC RGB-HD A",
  "d": "DVC RGB-HD A - RGB to HDMI Convertor with Audio Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "HD"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

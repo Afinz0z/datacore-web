@@ -9,10 +9,27 @@
  "d": "Two HDMI Female to Female on 10\" Pigtails -Single Space AAP - Black: Two HDMI Female to Female on 10\" Pigtails",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "HDMI"
+  },
+  {
+   "label": "Module slots",
+   "value": "2"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
    "label": "Type",
-   "value": "Pass Through Assembly"
+   "value": "Connector Plate Modules"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "HDMI to HDMI"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "60-1592-02",
   "60-1592-10",

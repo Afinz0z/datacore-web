@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "Cat5e Kit",
  "d": "Video Collaboration Group - Cat5e Kit - GRAPHITE - USB - PLUGA - WW-9004",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "40m"
+  },
+  {
+   "label": "Cable type",
+   "value": "Cat 5e"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "ET-EMW400",
  "d": "3LCD Projector Zoom Lens - Throw Ratio: 0.690~0.950:1 (Aspect 16:10)",
- "specs": []
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Zoom Lens"
+  },
+  {
+   "label": "Focal range [mm]",
+   "value": "15.30 - 21.10"
+  }
+ ],
+ "spec_src": "inventory"
 }

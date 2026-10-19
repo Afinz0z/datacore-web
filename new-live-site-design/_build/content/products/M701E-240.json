@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "M701E-240",
  "d": "Output Control Module Protocol 240VAC Relay Contact Rating",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Output Control Module"
+  }
+ ],
+ "spec_src": "inventory"
 }

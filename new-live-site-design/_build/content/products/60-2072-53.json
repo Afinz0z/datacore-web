@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DTP3 R 201 D, White HDMI 4K/60 Wallplate Rx, White - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45, 3-pin 3.5 mm"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output connectors",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

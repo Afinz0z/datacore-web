@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "42U (800X800) Cabinet"
+  },
+  {
+   "label": "Rack dimension",
+   "value": "800x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "GMC-800-FBDD-P",
   "GMC-VCM",

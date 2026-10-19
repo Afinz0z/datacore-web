@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Cisco Catalyst™ 9500 Series, including the Catalyst 9500X models, continues to shape the future with continued innovation that helps you reimagine connections, reinforce security and redefine the experience for your hybrid workforce big and small.",
- "specs": [],
+ "specs": [
+  {
+   "label": "SFP ports",
+   "value": "48"
+  },
+  {
+   "label": "Switching capacity",
+   "value": "3.2 Tbps"
+  },
+  {
+   "label": "Fan",
+   "value": "2"
+  },
+  {
+   "label": "Protocols",
+   "value": "BGP, OSPF, VRF, VRRP, MSTP"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "C9500-DNA-48Y4C-A",
   "C9500-DNA-A-3Y",

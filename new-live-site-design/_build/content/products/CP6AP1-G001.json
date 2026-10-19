@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FINOSEL Copper Cat6A UTP Patch Cord PVC Jacket 1 Meter Gray",
- "specs": [],
+ "specs": [
+  {
+   "label": "Patch cord lenth",
+   "value": "1 Mtr"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CC6AP1-GR3",
   "MPPBK24-UFRLABK"

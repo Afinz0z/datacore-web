@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Break Glass",
  "d": "MCP3A-GREEN-NO/NC-SURFACE-G L 1140-F218",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Green"
+  }
+ ],
+ "spec_src": "inventory"
 }

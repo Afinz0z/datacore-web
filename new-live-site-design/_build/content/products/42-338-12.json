@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "CA 163 PT",
  "d": "CA 163 PT Pan and Tilt Mount, Single, 70/100V, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Soundbar"
+  },
+  {
+   "label": "Power",
+   "value": "240W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "105 Hz to 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "91, 94 dB (PoE)"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "83 dB"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "180°"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Mount movement",
+   "value": "Pan & Tilt"
+  }
+ ],
+ "spec_src": "inventory"
 }

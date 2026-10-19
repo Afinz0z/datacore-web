@@ -6,5 +6,11 @@
  "c": "Faceplate",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Gray"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,41 @@
  "dept": "AV",
  "avail": "lead",
  "d": "ShareLink Pro 2500 Miracast & ShareNext Kit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "Balanced analog, HDMI"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Sharing category",
+   "value": "Wired, Wireless"
+  },
+  {
+   "label": "System compatibility",
+   "value": "Android, Windows, macOS, CollabOS"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "AirPlay®, Miracast®, WebShare™"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "42-352-02"
  ]

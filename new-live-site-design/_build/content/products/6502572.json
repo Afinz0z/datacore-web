@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB2-BTNGRY-S_ENGRAVED Large Backlit Engravable Button Cap for Cameo Keypads, Gray Smooth, Includes Custom Engraving",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Gray"
+  }
+ ],
+ "spec_src": "inventory"
 }

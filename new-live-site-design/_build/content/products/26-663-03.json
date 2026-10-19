@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HDMI Ultra/3 4K Premium High Speed HDMI Ultra-Flexible Cable - 3' (90 cm)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "0.9m"
+  },
+  {
+   "label": "Cable type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

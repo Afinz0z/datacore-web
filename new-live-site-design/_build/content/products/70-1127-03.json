@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "SGK SF3C",
  "d": "SGK SF3C Square Grille Kit for SF 3C/3CT LP and SF 10C SUB Speakers, Pair",
- "specs": [],
+ "specs": [
+  {
+   "label": "Grilles category",
+   "value": "Speaker, Subwoofer"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Grille shape",
+   "value": "Square"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1311-03",
   "60-1311-13",

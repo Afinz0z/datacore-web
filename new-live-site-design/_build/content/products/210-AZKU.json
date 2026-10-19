@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dell 22 Monitor - SE2222H - 54.5 cm (21.6\")",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size (in inches)",
+   "value": "21.45"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

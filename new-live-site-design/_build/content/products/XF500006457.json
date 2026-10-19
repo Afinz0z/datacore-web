@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "VOCK6AUN8;V500U, RJ45 Vol,Cat6A,Bag/8",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "CAT6A"
+  },
+  {
+   "label": "Colour",
+   "value": "OFF-WHITE"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CCAKYE-G1002-A010-C0"
  ]

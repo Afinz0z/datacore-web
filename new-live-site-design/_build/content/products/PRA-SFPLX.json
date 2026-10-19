@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PRA-SFPLX Fiber transceiver, single mode Hot pluggable Duplex LC connector Full duplex speed support",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx and Rx"
+  },
+  {
+   "label": "Receiver sensitivity",
+   "value": "'-20 dBm maximum"
+  },
+  {
+   "label": "Transmitter power",
+   "value": "'-9,5 dBm minimum"
+  }
+ ],
+ "spec_src": "inventory"
 }

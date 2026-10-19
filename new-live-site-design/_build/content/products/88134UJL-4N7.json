@@ -6,7 +6,17 @@
  "c": "Service Support Contract",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "1 Year"
+  },
+  {
+   "label": "Type",
+   "value": "Support"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02353LGV-003"
  ]

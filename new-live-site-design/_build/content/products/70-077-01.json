@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MBU 125",
  "d": "MBU 125 1/4 & 1/2 Rack Width, Under-Desk Mount Kit for Two-Piece Enclosure",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

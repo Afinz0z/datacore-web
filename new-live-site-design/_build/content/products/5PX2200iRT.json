@@ -7,5 +7,43 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "5PX2200iRT is a 2200VA (1980W) line-interactive UPS designed to provide reliable power backup and voltage regulation for IT, networking, and server equipment. It offers high efficiency and is suitable for rack or tower installation. Battery included (VRLA maintenance-free) Internal battery module (not external) Rack rail kit include",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "2200VA"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tower, Rack"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery, Sealed Lead Acid"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Rack unit",
+   "value": "2U"
+  },
+  {
+   "label": "Backup",
+   "value": "30min"
+  }
+ ],
+ "spec_src": "inventory"
 }

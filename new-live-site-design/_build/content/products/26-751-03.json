@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "USBA-B/3",
  "d": "USBA-B/3 USB-A to USB-B 5 Gbps Cables - 3' (90 cm)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "0.9m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB A to USB B"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "5 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

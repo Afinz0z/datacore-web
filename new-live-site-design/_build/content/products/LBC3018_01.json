@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "LBC3018/01 Cabinet loudspeaker, metal, rectangular Provision for internal mounting of the optional line/loudspeaker supervision boards",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Surface Mounted, Recessed mounting"
+  },
+  {
+   "label": "Power",
+   "value": "6W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "200 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

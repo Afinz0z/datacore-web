@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "WL183M",
  "d": "Low-profile Omnidirectional Lavalier Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Lavalier (Lapel) Mic"
+  }
+ ],
+ "spec_src": "inventory"
 }

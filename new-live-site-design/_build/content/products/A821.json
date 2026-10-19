@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "6MP Deep Learning AI 5x Outdoor Zoom Dome with IR LED 85m, WDR 150dB",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "6 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "150 db"
+  }
+ ],
+ "spec_src": "inventory"
 }

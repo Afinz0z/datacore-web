@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "IN1608 xi IPCP Q MA 70",
  "d": "IN1608 xi IPCP Q MA 70 100 Watt 70 V Mono Amp, AV LAN, LL UI Upgrade",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Flash memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Video switcher",
+   "value": "8x3"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "Yes"
+  },
+  {
+   "label": "Output power",
+   "value": "100 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

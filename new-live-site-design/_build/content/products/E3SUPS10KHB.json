@@ -8,7 +8,49 @@
  "avail": "lead",
  "model": "UPS 3S 10 kVA",
  "d": "High-efficiency 3-phase 10 kVA UPS S for internal batteries",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "10000"
+  },
+  {
+   "label": "Input",
+   "value": "Three Phase"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tower"
+  },
+  {
+   "label": "Phase",
+   "value": "Three Phase (3Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Sealed Maintenance-Free VRLA / Lithium-ion"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "240 V"
+  },
+  {
+   "label": "Protection features",
+   "value": "Overload Protection, Short Circuit Protection, Over-Voltage / Under-Voltage Protection"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "IEC 62040-1 / IEC 62040-2 / IEC 62040-3"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Battery slots empty",
+   "value": "3"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "AP9547",
   "E3SBT4",

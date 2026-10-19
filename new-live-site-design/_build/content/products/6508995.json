@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FP2-122-INTENSE Dual gang faceplate Niko Intense - Anthracite",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Antracite"
+  },
+  {
+   "label": "No slot",
+   "value": "2"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -10,6 +10,19 @@
   {
    "label": "Type",
    "value": "CAT6A Transceiver"
+  },
+  {
+   "label": "Performance / speed",
+   "value": "10GBASE-T"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Copper (Twinax)"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "30Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

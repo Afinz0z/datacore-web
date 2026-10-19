@@ -9,8 +9,21 @@
  "d": "Cisco Catalyst 8200 Rack mount kit - 19\" 1R",
  "specs": [
   {
+   "label": "Type of accessories",
+   "value": "Rack Mount Rail Kit"
+  },
+  {
    "label": "Type",
-   "value": "Rackmount kit"
+   "value": "Rack Mount Kit"
+  },
+  {
+   "label": "Rack height",
+   "value": "1U"
+  },
+  {
+   "label": "Rack size",
+   "value": "19inch"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

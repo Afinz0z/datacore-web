@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB6S-BTNBRN-S_ENGRAVED Split Small Backlit Engravable Button Cap Pair for Cameo Keypads, Brown Smooth, Includes Custom Engraving",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Brown"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  },
+  {
+   "label": "Set",
+   "value": "Pair"
+  }
+ ],
+ "spec_src": "inventory"
 }

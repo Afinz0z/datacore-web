@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "1000BASE SX SFP GBIC",
- "specs": [],
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "1000Base-SX"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Multimode Fiber (MMF)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "XSM4556-100EUS"
  ]

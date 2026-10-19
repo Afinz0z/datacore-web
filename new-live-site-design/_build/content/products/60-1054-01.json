@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "DMP 64",
  "d": "DMP 64 6x4 ProDSP Digital Matrix Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "6"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "4"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

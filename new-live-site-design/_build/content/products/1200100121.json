@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "VIPEDIA-12-NET DSP, IP NETWORKING AND AUDIO MATRIX (DANTE ENABLED) WITH PRIMARY POWER SUPPLY AND BREAKOUT ADAPTOR",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Audio router with network card"
+  },
+  {
+   "label": "Certified",
+   "value": "EN 54-16"
+  },
+  {
+   "label": "Analogue audio I/O",
+   "value": "12"
+  },
+  {
+   "label": "IP audio inputs",
+   "value": "6"
+  },
+  {
+   "label": "IP audio outputs",
+   "value": "6"
+  }
+ ],
+ "spec_src": "inventory"
 }

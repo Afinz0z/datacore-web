@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Microflex® Standard Gooseneck Microphone",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Gooseneck Mic"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz - 17 kHz"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "96.2 dB"
+  },
+  {
+   "label": "Mic length",
+   "value": "18 inch (45.7 cm)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "A412B"
  ]

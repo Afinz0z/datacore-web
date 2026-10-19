@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "10G SFP+ Fiber Transceiver (Single-Mode)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "10GBASE-SR"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Single Mode Fiber (SMF)"
+  },
+  {
+   "label": "Application category",
+   "value": "Industrial (Electrically harsh/Extreme climates)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "GS-6311-24PL4X",
   "GS-6311-48P6X",

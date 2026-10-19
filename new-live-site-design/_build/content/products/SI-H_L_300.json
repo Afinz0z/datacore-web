@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Screen Int Heavy-duty silent motorised lift supporting fast and stable up and down movement of projectors up to 95 kg. of weight featuring adjustments up to 300 cm.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Projector"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "A201U",
   "EB-L260F",

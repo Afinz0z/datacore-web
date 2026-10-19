@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "DTP R HWP 4K 231 D",
  "d": "DTP R HWP 4K 231 D - DTP Receiver for HDMI - Decorator-Style Wallplate, Black - 230 feet (70 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output connectors",
+   "value": "3.5 mm captive connector"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

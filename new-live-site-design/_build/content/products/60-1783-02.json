@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "USB PowerPlate 311 AAP USB-C USB-A PowerPlate AAP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product tape",
+   "value": "USB charger"
+  },
+  {
+   "label": "Ports",
+   "value": "USB-A, USB-C"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "60-300-02",
   "60-300-03",

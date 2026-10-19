@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SMK VRE 48",
  "d": "SMK VRE 48 V-Rail Extension Kit for a Pair of Speakers (Pack of Four)",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  }
+ ],
+ "spec_src": "inventory"
 }

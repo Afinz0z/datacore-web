@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CEILING MOUNT BRACKET S2 WHT",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

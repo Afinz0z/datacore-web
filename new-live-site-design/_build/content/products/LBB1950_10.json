@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch Plena tabletop microphone, Phantom powered by amplifier, Green LED, indicating microphone active. Momentary or toggle PTT-key for calls with priority contact",
- "specs": [],
+ "specs": [
+  {
+   "label": "Interface",
+   "value": "PTT-key"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Tabletop"
+  },
+  {
+   "label": "Mic frequency response",
+   "value": "100 Hz to 16 kHz"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "PVA-20CSE"
  ]

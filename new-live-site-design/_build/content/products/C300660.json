@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "Acs Sub controller"
+  },
+  {
+   "label": "Connectivity",
+   "value": "2-door / 1 reader per door"
+  },
+  {
+   "label": "Communication",
+   "value": "RS-485 / CAN bus"
+  },
+  {
+   "label": "Compliance",
+   "value": "CE / FCC / RoHS"
+  },
+  {
+   "label": "Certifications",
+   "value": "Environmental: RoHS, REACH"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "C400100"
  ]

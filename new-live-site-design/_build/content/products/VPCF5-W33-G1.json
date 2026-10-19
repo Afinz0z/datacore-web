@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "•Intel 11th i5 processor *Intel® Iris® Xe Graphics *Intel® Dual Band Wireless-AC •UEFI Shell •8GB RAM, 256GB SSD •Embedded with Windows 11 Pro License",
- "specs": []
+ "specs": [
+  {
+   "label": "Processor",
+   "value": "i5"
+  },
+  {
+   "label": "RAM",
+   "value": "8GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

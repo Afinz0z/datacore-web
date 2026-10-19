@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MP-WP152-B",
  "d": "MP-WP152-B Media Presentation Wall Plate - HDMI®, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectors",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

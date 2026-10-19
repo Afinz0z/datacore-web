@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "ORV STB 103",
  "d": "STB / Digital Signage Player 4K READY",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "IPTV"
+  },
+  {
+   "label": "CPU",
+   "value": "Quad Core ARM Cortex A55 - 2GHz"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "16GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

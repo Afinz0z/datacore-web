@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PVA-15ECS Emergency call station Built-in alarm buttons and key switch for emergency use 15 freely programmable buttons Customization via built-in display and keys",
- "specs": []
+ "specs": [
+  {
+   "label": "Interface",
+   "value": "Customizable buttons"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Desktop, Flush-Mount, Rack"
+  },
+  {
+   "label": "Mic frequency response",
+   "value": "250 Hz - 10 kHz"
+  },
+  {
+   "label": "Display",
+   "value": "Back-lit LC display (122 ✕ 32 pixel)"
+  },
+  {
+   "label": "Buttons",
+   "value": "5 pre-programmed, 15 programmable zone/function keys, 2 alarm buttons"
+  }
+ ],
+ "spec_src": "inventory"
 }

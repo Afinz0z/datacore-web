@@ -9,8 +9,17 @@
  "d": "2C 18AWG Overall Shielded LSZH 305m -B3 (Made in Italy)",
  "specs": [
   {
+   "label": "Cores(Conductors)",
+   "value": "2 Core"
+  },
+  {
+   "label": "Cable length",
+   "value": "305m"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

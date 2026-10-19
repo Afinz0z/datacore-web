@@ -11,8 +11,57 @@
   {
    "label": "Type",
    "value": "Industrial Network Switch"
+  },
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "PoE power",
+   "value": "720W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6, TCP/UDP, OSPF"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "128Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+), IEEE (802.3az)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, EtherChannel, Port Security, MAC address filtering, PVST+, Link Aggregation (LACP - IEEE 802.3ad), Port mirroring (SPAN), MRP (Media Redundancy Protocol), IGMP Snooping"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Inter-VLAN Routing"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Dynamic ARP inspection, IP Source Guard, Access Control Lists (ACLs), Secure Boot & Trust Anchor Module (TAM), MACsec (128/256-bit encryption), SSH"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Redundant, hot-swappable power supplies, Non-blocking architecture, Enterprise-grade MTBF, Fanless / Ruggedized Build"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping, PIM Sparse Mode (PIM-SM), Source-Specific Multicast (SSM)"
+  },
+  {
+   "label": "1G SFP PORTS",
+   "value": "4"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "CAB-STK-1M",
   "CON-SNT-IE932PXE",

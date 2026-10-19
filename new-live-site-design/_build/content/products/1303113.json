@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "1303113 - BYOD Extender for Teams Rooms and Zoom Rooms 1x BYOD Extender 1x 7.5m CAT5e cable Including 2-year hardware warranty",
- "specs": []
+ "specs": [
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB, RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

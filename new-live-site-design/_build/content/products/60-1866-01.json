@@ -7,5 +7,35 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NetPA U 8001 SUB Mono Dante Subwoofer Amp, 800 watts at 8 ohms",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "1"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "800 W"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Connectors",
+   "value": "5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Amplifier type",
+   "value": "Subwoofer Amplifier"
+  }
+ ],
+ "spec_src": "inventory"
 }

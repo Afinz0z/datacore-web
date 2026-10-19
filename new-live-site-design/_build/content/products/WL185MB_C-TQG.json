@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Microphone - Bodypack",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Lavalier (Lapel) Mic"
+  },
+  {
+   "label": "Tx/Rx",
+   "value": "Tx"
+  },
+  {
+   "label": "Pick-up pattern",
+   "value": "Cardioid"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

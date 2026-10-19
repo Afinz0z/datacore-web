@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "PS604AD",
  "d": "Power Share Amplifier 4 x 150w",
- "specs": []
+ "specs": [
+  {
+   "label": "Power output",
+   "value": "Total power: 600 W shared Channels: 4 outputs Each channel can deliver up to 600 W Supports 4-8 Ω and 70/100V directly (no bridging)"
+  },
+  {
+   "label": "Networking & inputs",
+   "value": "Dante: 4 × 4 channels Analog inputs: 4 balanced ControlSpace network control"
+  },
+  {
+   "label": "DSP & performance",
+   "value": "24-bit / 48 kHz processing <1 ms latency Integrated EQ, crossovers, limiters, delay"
+  },
+  {
+   "label": "Form factor & power",
+   "value": "1RU rackmount Universal AC (100-240 V) Smart variable-speed cooling"
+  }
+ ],
+ "spec_src": "inventory"
 }

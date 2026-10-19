@@ -9,10 +9,19 @@
  "d": "Cable Cubby 700,Cable Access Enclosure, Black, No AC",
  "specs": [
   {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
    "label": "Type",
-   "value": "Enclosure"
+   "value": "Module/Chassis"
+  },
+  {
+   "label": "Product size/capacity",
+   "value": "700"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "70-1049-80",
   "70-1065-01",

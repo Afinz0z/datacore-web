@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "SPA-Qf 60x4",
  "d": "Four-Channel Network Amplifier for the Q-SYS Platform",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "60 W, 120 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Metal fire dome LC1, Standard Loop-through facility",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "LC1-UM06E8",
   "LC1-WM06E8"

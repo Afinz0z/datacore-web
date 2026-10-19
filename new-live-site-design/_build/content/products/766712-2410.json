@@ -6,7 +6,17 @@
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Movement type",
+   "value": "coverage type"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "730999-5540"
  ]

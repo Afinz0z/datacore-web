@@ -7,7 +7,49 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SRT10KXLI is a 10kVA online double-conversion UPS designed for high-capacity critical power protection in data centers, server rooms, and industrial applications.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "10000"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "230"
+  },
+  {
+   "label": "Recharge time",
+   "value": "1.5 h"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Rack unit",
+   "value": "6U"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SRT192BP2"
  ]

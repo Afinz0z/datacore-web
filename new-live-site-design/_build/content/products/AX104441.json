@@ -11,6 +11,63 @@
   {
    "label": "Type",
    "value": "Single faceplate"
+  },
+  {
+   "label": "Ports",
+   "value": "1"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "No slot",
+   "value": "1"
+  },
+  {
+   "label": "Finish",
+   "value": "Glossy"
+  },
+  {
+   "label": "Set",
+   "value": "1"
+  },
+  {
+   "label": "Mounting",
+   "value": "Flush"
+  },
+  {
+   "label": "Outlet orientation",
+   "value": "Horizontal"
+  },
+  {
+   "label": "Shuttered",
+   "value": "No - unshuttered"
+  },
+  {
+   "label": "Port marking",
+   "value": "Label"
+  },
+  {
+   "label": "Dust cover",
+   "value": "not included"
+  },
+  {
+   "label": "Dimensions",
+   "value": "86 × 86 × 14.42 mm"
+  },
+  {
+   "label": "Net weight",
+   "value": "35 g (0.035 kg)"
+  },
+  {
+   "label": "Flammability",
+   "value": "UL 94 V-0"
+  },
+  {
+   "label": "Safety",
+   "value": "UL 94V-0 flame-retardant material"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

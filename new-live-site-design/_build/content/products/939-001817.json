@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - Tap Wall Mount - NA - N/A - N/A - WW-9004 - WALL MOUNT",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
+  }
+ ],
+ "spec_src": "inventory"
 }

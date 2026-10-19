@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DTP T UWP 4K 332 D Long Distance Two Input DTP Transmitter for HDMI and VGA with Audio Embedding - Decorator-Style Wallplate, White - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 1.4"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, HD"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Audio input connectors",
+   "value": "3.5 mm mini stereo jack"
+  },
+  {
+   "label": "Audio output connectors",
+   "value": "RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

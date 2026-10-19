@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-ACS AMC enclosure with 1 DINrail",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Wall Mount"
+  },
+  {
+   "label": "Dimensions",
+   "value": "323 mm × 411 mm × 88 mm"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "APC-AMC2 4WCF"
  ]

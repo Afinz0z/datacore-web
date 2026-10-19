@@ -7,5 +7,43 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "MGB-TLX Mini GBIC LX Module - 20KM",
- "specs": []
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "1 Gbps"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Single Mode Fiber (SMF)"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "1310 nm, Duplex LC, LX optical transceiver"
+  },
+  {
+   "label": "Key features",
+   "value": "20 km transmission distance, SFP/Mini-GBIC form factor, Gigabit Ethernet, hot-swappable, LC duplex interface"
+  },
+  {
+   "label": "Wavelength",
+   "value": "1310nm"
+  },
+  {
+   "label": "Maximum distance",
+   "value": "20 km"
+  },
+  {
+   "label": "Connector",
+   "value": "Duplex LC"
+  },
+  {
+   "label": "Typical application",
+   "value": "Gigabit Ethernet fibre uplink"
+  },
+  {
+   "label": "Duplex",
+   "value": "Full Duplex"
+  }
+ ],
+ "spec_src": "inventory"
 }

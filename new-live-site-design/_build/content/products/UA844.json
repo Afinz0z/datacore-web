@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "UA844+",
  "d": "Antenna Distribution System",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of tuners",
+   "value": "4"
+  },
+  {
+   "label": "Type",
+   "value": "Antenna Distribution System"
+  }
+ ],
+ "spec_src": "inventory"
 }

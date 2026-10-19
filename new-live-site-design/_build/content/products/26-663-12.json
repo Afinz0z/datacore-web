@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HDMI Ultra/12 4K Premium High Speed HDMI Ultra-Flexible Cable - 12' (3.6 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "3.6m"
+  },
+  {
+   "label": "Cable type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

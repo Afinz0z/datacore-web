@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "NBP 1200C",
  "d": "NBP 1200C Cable Cubby Enclosure with Network Button Panel - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "No of buttons (up to)",
+   "value": "10"
+  },
+  {
+   "label": "Buttons type",
+   "value": "Pushbutton"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  },
+  {
+   "label": "Type",
+   "value": "Network Button Panel"
+  }
+ ],
+ "spec_src": "inventory"
 }

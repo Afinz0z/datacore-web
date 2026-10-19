@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Poly Studio G62 Plate Mount (A02FDAA)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Codec"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "99T09AA"
  ]

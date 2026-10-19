@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "1300004 - • 1x BYOD cable hub with 1.5m USB-Ccable • USB-A to USB-C adapter • 1x power adapter with 1m USB-C cable • Support to charging the connected laptop • Including 2-year hardware warranty",
- "specs": []
+ "specs": [
+  {
+   "label": "Support distance",
+   "value": "1.5 m"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, USB, RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

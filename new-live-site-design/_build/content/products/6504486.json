@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB6S-BTNDSK-T_ENGRAVED Split Small Backlit Engravable Button Cap Pair for Cameo Keypads, Dusk Textured, Includes Custom Engraving",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Dusk"
+  },
+  {
+   "label": "Finish",
+   "value": "Textured"
+  },
+  {
+   "label": "Set",
+   "value": "Pair"
+  }
+ ],
+ "spec_src": "inventory"
 }

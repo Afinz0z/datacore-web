@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "12G HD-SDI 101",
  "d": "12G HD-SDI 101 Cable Equalizer for 12G-SDI",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cable Equalizer"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Inputs",
+   "value": "BNC"
+  },
+  {
+   "label": "Output",
+   "value": "BNC"
+  }
+ ],
+ "spec_src": "inventory"
 }

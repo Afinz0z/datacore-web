@@ -7,7 +7,81 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AC6508 mainframe (10*GE ports, 2*10GE SFP+ ports, with the AC/DC adapter)_Co-Care Basic AC6508_36Month(s)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Enterprise Wireless LAN / Wi-Fi"
+  },
+  {
+   "label": "Maximum access points",
+   "value": "Depends on controller licensing/capacity"
+  },
+  {
+   "label": "Categories",
+   "value": "WLAN , Wireless LAN Controller"
+  },
+  {
+   "label": "Application",
+   "value": "Centralized management and control of enterprise Wi-Fi Access Points"
+  },
+  {
+   "label": "Function",
+   "value": "Centralized configuration, management and control of wireless APs"
+  },
+  {
+   "label": "Antenna",
+   "value": "Dynamic-zoom smart antenna"
+  },
+  {
+   "label": "Radio configuration",
+   "value": "4+4+4 Triple Band"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "Yes - manages Wi-Fi APs"
+  },
+  {
+   "label": "Maximum access point",
+   "value": "Depends on controller licensing/capacity"
+  },
+  {
+   "label": "Transmission media",
+   "value": "Ethernet / Fiber via SFP+"
+  },
+  {
+   "label": "Support service",
+   "value": "Co-Care Basic - 36 Months"
+  },
+  {
+   "label": "Support period",
+   "value": "36 months"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Huawei AirEngine Access Points"
+  },
+  {
+   "label": "Associated product",
+   "value": "Huawei CloudCampus , WLAN solution"
+  },
+  {
+   "label": "Device type",
+   "value": "Wireless LAN Access Controller"
+  },
+  {
+   "label": "GE ports",
+   "value": "10 × GE"
+  },
+  {
+   "label": "10GE SFP+ ports",
+   "value": "2 × 10GE SFP+"
+  },
+  {
+   "label": "Power",
+   "value": "AC/DC adapter included"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02354FRJ-001"
  ]

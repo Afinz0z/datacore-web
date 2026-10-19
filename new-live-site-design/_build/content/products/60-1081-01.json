@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "IN1606",
  "d": "IN1606 HDCP-Compliant Scaling Presentation Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "6x2"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI, 15-pin HD"
+  },
+  {
+   "label": "Video input types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "3.5 mm, 5 pole, 3.5 mm, 3 pole"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, 3.5 mm captive"
+  }
+ ],
+ "spec_src": "inventory"
 }

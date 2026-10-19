@@ -7,5 +7,43 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DTP2 CrossPoint 82 IPCP Q SA Control Processor and Stereo Amp 8x2 4K/60 Scaling Presentation Matrix Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "8x2"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Amplifier power per channel",
+   "value": "25 W"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, RJ45, DP, 3.5 mm, 3 pole, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, RJ45, 3.5 mm, 5 pole, 5 mm, 4 pole"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI, DP, RJ45"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "SPKA-FMKT-IC6/IC8",
  "d": "SPKA-FMKT-IC6/IC8 Flush Mount Kit for 6 in. or 8 in. Reference and Ultimate In-Ceiling Speakers, 1 Pair",
- "specs": [],
+ "specs": [
+  {
+   "label": "Grilles category",
+   "value": "Speaker"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6511844",
   "6511845",

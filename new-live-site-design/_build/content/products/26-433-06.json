@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "232/12 RS-232 Cable: 9-pin D Male to Female - 12' (3.6 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "3.6m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "9-pin D"
+  },
+  {
+   "label": "Cable type",
+   "value": "RS-232"
+  }
+ ],
+ "spec_src": "inventory"
 }

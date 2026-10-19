@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "CBL-AUD-TBLOCK5-12",
  "d": "CBL-AUD-TBLOCK5-12 Stereo Balanced Audio Cable, 5-pos. 3.5mm t-blocks, 12 ft (3.6 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "3.6m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "5-pin 3.5 mm"
+  },
+  {
+   "label": "Cable type",
+   "value": "Audio"
+  }
+ ],
+ "spec_src": "inventory"
 }

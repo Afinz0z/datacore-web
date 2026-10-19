@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Single Space AAP - Black: One 15-pin HD Female to Female on 6\" Pigtail, One 3.5 mm Mini Jack on Captive Screw Connector",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity / connector",
+   "value": "HD, 3.5 mm Mini Jack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "15-pin HD to 1 male 15-pin HD, 3.5 mm Mini Jack"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1425-02",
   "60-1592-02",

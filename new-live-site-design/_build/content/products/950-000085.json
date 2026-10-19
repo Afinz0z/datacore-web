@@ -7,5 +7,35 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video conferencing system designed to run platforms like Zoom Rooms and Microsoft Teams Rooms.",
- "specs": []
+ "specs": [
+  {
+   "label": "Recommended room size",
+   "value": "Huddle / Small, Small to Medium, Medium, Medium to Large, Large"
+  },
+  {
+   "label": "Expansion mics",
+   "value": "Up to 2"
+  },
+  {
+   "label": "System compatibility",
+   "value": "CollabOS"
+  },
+  {
+   "label": "Display support",
+   "value": "2"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Microsoft Teams, Zoom, RingCentral"
+  },
+  {
+   "label": "USB interfaces",
+   "value": "USB Type-A"
+  },
+  {
+   "label": "Video outputs",
+   "value": "HDMI Type A (x2)"
+  }
+ ],
+ "spec_src": "inventory"
 }

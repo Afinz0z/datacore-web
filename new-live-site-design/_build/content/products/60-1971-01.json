@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "ShareLink Pro 2000 - 4K Wireless Presentation System",
- "specs": []
+ "specs": [
+  {
+   "label": "Tx/Rx",
+   "value": "Tx and Rx"
+  },
+  {
+   "label": "Advanced features",
+   "value": "Desktop Sharing"
+  },
+  {
+   "label": "Share option",
+   "value": "AirPlay, Miracast, wired HDMI"
+  },
+  {
+   "label": "Ports",
+   "value": "HDMI in, HDMI out"
+  },
+  {
+   "label": "Maximum resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

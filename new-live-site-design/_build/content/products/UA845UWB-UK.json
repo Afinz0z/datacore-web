@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "UA845UWB-UK",
  "d": "ULTRA WIDEBAND ANT/PWR DIST SYSTEM",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Antenna Distribution System"
+  },
+  {
+   "label": "Connectors",
+   "value": "BNC"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

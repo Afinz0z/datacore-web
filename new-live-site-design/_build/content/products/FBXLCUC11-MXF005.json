@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LazrSPEED® 550 LC/UPC to Unconnectorized, Fiber Pigtail, 0.9 mm SBJ",
- "specs": [],
+ "specs": [
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Length",
+   "value": "5m"
+  },
+  {
+   "label": "Colour",
+   "value": "aqua"
+  },
+  {
+   "label": "Connector type",
+   "value": "LC/UPC"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "760231514"
  ]

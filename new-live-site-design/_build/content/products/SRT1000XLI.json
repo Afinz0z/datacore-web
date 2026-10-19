@@ -7,7 +7,29 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "APC Smart-UPS SRT 1000VA 230V",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "1000"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "48 V"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SRT48BP",
   "SRTRK4"

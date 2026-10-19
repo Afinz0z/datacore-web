@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "715W AC 80+ platinum Config 1 Secondary Power Supply",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply Unit"
+  },
+  {
+   "label": "Output",
+   "value": "715 W"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "C9300-24P-A",
   "C9300-48P-E"

@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PRA-AD608 Amplifier, 600W 8-channel, IP-networked on OMNEO for audio and control",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "8"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "600 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Dimensions",
+   "value": "44 mm x 483 mm x 400 mm"
+  },
+  {
+   "label": "Rack unit (U)",
+   "value": "1 U"
+  }
+ ],
+ "spec_src": "inventory"
 }

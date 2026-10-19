@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "LC2-PC60G6-10 Premium-sound Subwoofer Ceiling Loudspeaker 60W 10-inch high-excursion loudspeaker for extended LF",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
+  }
+ ],
+ "spec_src": "inventory"
 }

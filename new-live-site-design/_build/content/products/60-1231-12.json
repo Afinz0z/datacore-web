@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "XTP T VGA",
  "d": "XTP T VGA Universal XTP Transmitter for VGA",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "1080p"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm captive connector"
+  }
+ ],
+ "spec_src": "inventory"
 }

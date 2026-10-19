@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Audio network bridge",
  "d": "The d&b system interface between Dante/AES67 and AES3",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency response",
+   "value": "50Hz-60Hz"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sapling Metal Double Mount Housing for 12\" Round Analog Clock, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Wall, Ceiling"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SAP-1BS-12R-0"
  ]

@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "UTR 104",
  "d": "UTR 104 4U Rack Mount Frame, Black Rack Shelf System",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "4 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Weight capacity",
+   "value": "100 lb"
+  },
+  {
+   "label": "Type",
+   "value": "Under Table Rack"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1323-24",
   "70-1323-34",

@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "Copper (RJ45)"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Copper (Twinax)"
+  },
+  {
+   "label": "Application category",
+   "value": "Data center connectivity, Enterprise network uplinks, Switch to switch links, Router connectivity"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "XSM4556-100EUS"
  ]

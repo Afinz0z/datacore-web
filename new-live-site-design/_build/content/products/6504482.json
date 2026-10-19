@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB6S-BTNDA-S_BLANK Split Small Backlit Engravable Button Cap Pair for Cameo Keypads, Dark Almond Smooth, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Almond"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  },
+  {
+   "label": "Set",
+   "value": "Pair"
+  }
+ ],
+ "spec_src": "inventory"
 }

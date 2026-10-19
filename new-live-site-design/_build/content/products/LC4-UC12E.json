@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "LC4-UC12E",
  "d": "Ceiling loudspeaker, 12W, wide angle",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Speaker type",
+   "value": "ceiling subwoofer"
+  },
+  {
+   "label": "Power",
+   "value": "1.5 W, 3 W, 6W, 12 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

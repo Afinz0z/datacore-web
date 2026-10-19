@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "mobile card reader"
+  },
+  {
+   "label": "Credential",
+   "value": "Mobile Credentials, QR and Barcode, RFID Card"
+  },
+  {
+   "label": "Interface",
+   "value": "Wifi"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP65"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "125 kHz EM"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "SWS-ENTREG-LT"
  ]

@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "DMP 128 Plus",
  "d": "DMP 128 Plus - 12x8 ProDSP Digital Matrix Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "12"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 3-pin 3.5 mm terminal block, 6-pin 3.5mm terminal blocks"
+  }
+ ],
+ "spec_src": "inventory"
 }

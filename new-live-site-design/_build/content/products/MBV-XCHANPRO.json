@@ -7,7 +7,85 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-CCTV BVMS Professional 11.0 orLatest, LicenseCamera/decoder expansion",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "As per license/subscription terms"
+  },
+  {
+   "label": "Software license type",
+   "value": "BVMS Professional Base License"
+  },
+  {
+   "label": "Maximum duration of recording",
+   "value": "Depends on storage/recording configuration"
+  },
+  {
+   "label": "Category",
+   "value": "VMS, CCTV"
+  },
+  {
+   "label": "Channels support",
+   "value": "Camera/decoder expansion channels"
+  },
+  {
+   "label": "Base license",
+   "value": "BVMS Professional Base License"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported through BVMS system architecture"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software License"
+  },
+  {
+   "label": "Application",
+   "value": "Video surveillance management, VMS channel expansion"
+  },
+  {
+   "label": "License type",
+   "value": "Expansion License, Channel license"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Expands the number of supported camera/decoder channels in BVMS Professional"
+  },
+  {
+   "label": "Capacity",
+   "value": "Per licensed camera, decoder channel"
+  },
+  {
+   "label": "System",
+   "value": "Bosch Video Management System"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Bosch IP cameras, recording servers, storage and compatible devices"
+  },
+  {
+   "label": "Associated product",
+   "value": "Bosch BVMS Professional"
+  },
+  {
+   "label": "Supporting product",
+   "value": "MBV-BPRO - BVMS Professional Base License"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per camera, Decoder channel"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "MBV-MCHANPRO"
  ]

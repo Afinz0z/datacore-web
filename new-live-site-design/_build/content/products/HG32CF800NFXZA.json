@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Samsung HG32CF800NFXZA hospitality TV 81.3 cm (32\") Full HDBlack 20 W",
- "specs": []
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "32"
+  },
+  {
+   "label": "Display resolution",
+   "value": "Full HD (1080p) (1920 x 1080)"
+  },
+  {
+   "label": "Display connectivity",
+   "value": "3 x HDMI In"
+  }
+ ],
+ "spec_src": "inventory"
 }

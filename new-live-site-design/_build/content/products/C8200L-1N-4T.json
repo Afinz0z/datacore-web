@@ -6,5 +6,27 @@
  "c": "Router",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "4 GB"
+  },
+  {
+   "label": "WAN ports",
+   "value": "4 × 1G Ethernet"
+  },
+  {
+   "label": "Network interfaces",
+   "value": "4 × RJ-45 Gigabit Ethernet"
+  },
+  {
+   "label": "NIM slots",
+   "value": "1"
+  },
+  {
+   "label": "Security",
+   "value": "Integrated security features, IPsec VPN, firewall capabilities"
+  }
+ ],
+ "spec_src": "inventory"
 }

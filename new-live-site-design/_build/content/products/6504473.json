@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB6S-BTNIVR-S_BLANK Split Small Backlit Engravable Button Cap Pair for Cameo Keypads, Ivory Smooth, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Ivory"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  },
+  {
+   "label": "Set",
+   "value": "Pair"
+  }
+ ],
+ "spec_src": "inventory"
 }

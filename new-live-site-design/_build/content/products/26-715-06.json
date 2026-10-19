@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "USBC/6",
  "d": "USBC/6 USB-C® 5 Gbps Cable, 6' (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB C to USB C"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Power delivery",
+   "value": "60 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

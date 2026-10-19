@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "SW4 12G HD-SDI",
  "d": "SW4 12G HD-SDI Four Input 12G-SDI Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "4x2"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "BNC"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input",
+   "value": "BNC"
+  },
+  {
+   "label": "Video output",
+   "value": "BNC"
+  }
+ ],
+ "spec_src": "inventory"
 }

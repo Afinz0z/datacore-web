@@ -12,8 +12,29 @@
   {
    "label": "Type",
    "value": "service"
+  },
+  {
+   "label": "Base product",
+   "value": "iSecure-VMS-Int-MILESTONE"
+  },
+  {
+   "label": "Categories",
+   "value": "Software / Integration / Support"
+  },
+  {
+   "label": "VMS",
+   "value": "Milestone"
+  },
+  {
+   "label": "Compatible platform",
+   "value": "iSecure LEAP"
+  },
+  {
+   "label": "Duration",
+   "value": "Not determinable from the code alone"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "X1100C"
  ]

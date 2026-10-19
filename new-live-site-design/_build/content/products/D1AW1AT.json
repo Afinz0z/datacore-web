@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP Pro TWR 290 G9 PCI/ i7 14700 /8GB DDR5 / 512 GB SSD/DOS/125 BLKkbd / 125mouse/ 2YW Next Business Day Onsite/ Internal Speakers",
- "specs": []
+ "specs": [
+  {
+   "label": "System memory (RAM)",
+   "value": "4GB"
+  },
+  {
+   "label": "Storage",
+   "value": "512GB"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel i7"
+  },
+  {
+   "label": "Operating system",
+   "value": "FreeDos"
+  }
+ ],
+ "spec_src": "inventory"
 }

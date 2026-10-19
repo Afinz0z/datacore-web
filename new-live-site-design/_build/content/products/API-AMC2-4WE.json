@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "Expansion Board"
+  },
+  {
+   "label": "Connectivity",
+   "value": "4 additional doors"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "APC-AMC2 4WCF"
  ]

@@ -8,5 +8,51 @@
  "avail": "lead",
  "model": "SW2 HD 8K",
  "d": "SW2 HD 8K Two Input 8K HDMI Switcher with Audio De-embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "2x1"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-C, HDMI, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Resolutions aspect ratio",
+   "value": "21:9"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Data rate",
+   "value": "48 Gbps"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "spec_src": "inventory"
 }

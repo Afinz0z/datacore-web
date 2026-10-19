@@ -7,5 +7,35 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "23.8\" Full HD professional IPS monitor with 100 Hz refresh rate, multiple connectivity options including HDMI, DisplayPort and VGA, designed for business and productivity environments.",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "23.8"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel type",
+   "value": "IPS"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  },
+  {
+   "label": "Display ports",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

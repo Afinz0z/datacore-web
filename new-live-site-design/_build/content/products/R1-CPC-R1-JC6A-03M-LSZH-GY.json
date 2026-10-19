@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CAT6A 10G UTP 4P RJ45 Patch Cord 3mtr - LSZH",
- "specs": [],
+ "specs": [
+  {
+   "label": "Patch cord lenth",
+   "value": "3 Mtr"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "R1-BPL19-1U"
  ]

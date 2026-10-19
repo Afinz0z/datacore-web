@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "RAK-DUCT-01",
  "d": "RAK-DUCT-01 COOLING DUCT FOR V2000",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Cooling Duct"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "1200202001"
  ]

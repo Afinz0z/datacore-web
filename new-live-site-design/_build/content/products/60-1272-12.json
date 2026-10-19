@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "DTP DVI 4K 230 Tx",
  "d": "DTP DVI 4K 230 Tx DVI Twisted Pair Transmitter - 230 feet (70 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "DVI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm stereo jack"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

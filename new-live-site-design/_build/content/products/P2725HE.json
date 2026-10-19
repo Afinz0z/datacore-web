@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "P2725HE",
  "d": "Dell monitor",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size (in inches)",
+   "value": "27"
+  }
+ ],
+ "spec_src": "inventory"
 }

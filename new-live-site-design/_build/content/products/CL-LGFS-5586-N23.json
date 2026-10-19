@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "Trolley Stand"
+  },
+  {
+   "label": "Mount category",
+   "value": "Camera"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Trolleys"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "HG65U800FAUXUE"
  ]

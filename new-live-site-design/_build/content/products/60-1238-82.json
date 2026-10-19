@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "IN1608 xi SA",
  "d": "2 x 50 Watt Stereo Power Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Output power per channel",
+   "value": "25 W, 50 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "One USB A Female to USB B Female on Pigtail - Single Space MAAP - White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity / connector",
+   "value": "USB"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "USB-A to USB-B"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1425-02",
   "60-1592-02",

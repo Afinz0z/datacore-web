@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "TSW-1070-RMK-2",
  "d": "TSW-1070-RMK-2 Rack Mount Kit for TSW-1070 Series",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers, Scheduling/Booking panel"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6510814",
   "6510818",

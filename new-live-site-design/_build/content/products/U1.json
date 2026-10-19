@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "1 RU Utility Rackshelf, 10.75 Inches Deep. 1SP RACKSHELF 11DP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Depth",
+   "value": "10.78 in"
+  },
+  {
+   "label": "Height",
+   "value": "1.75 in"
+  },
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  },
+  {
+   "label": "Certifications",
+   "value": "UL Listed"
+  },
+  {
+   "label": "Weight capacity",
+   "value": "35 lbs"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "IRCS-1824"
  ]

@@ -8,7 +8,61 @@
  "avail": "lead",
  "model": "TLP Pro 300M",
  "d": "TLP Pro 300M 3.5” Portrait Wall Mount TouchLink Pro Touchpanel - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "3.5\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "320x480"
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Wall mount"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "2:3"
+  },
+  {
+   "label": "RAM",
+   "value": "1 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "490 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "500:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1321-02",
   "70-1321-03"

@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Double Space AAP - Black: Two RJ-45 Female to Female Barrels - CAT 5e",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectivity / connector",
+   "value": "RJ45"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  }
+ ],
+ "spec_src": "inventory"
 }

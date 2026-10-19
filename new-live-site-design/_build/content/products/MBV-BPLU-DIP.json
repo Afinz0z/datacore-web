@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SMA license for MBV-BPLU-DIP, 1 year",
- "specs": []
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "1 years"
+  },
+  {
+   "label": "Number of camera's",
+   "value": "256"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "INVERTO 110 cm CM Dish Antenna",
- "specs": []
+ "specs": [
+  {
+   "label": "Size",
+   "value": "110 cm"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Reduntant license"
+  },
+  {
+   "label": "Category",
+   "value": "License"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "CS-DEV-ECMON",
   "NEC-EC-R5-2CPU",

@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SPKA-GRILLE-IC810-B Round Grilles for Saros® 8” In-Ceiling Speakers, Black, 10 Pack",
- "specs": []
+ "specs": [
+  {
+   "label": "Grilles category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Grille shape",
+   "value": "Round"
+  }
+ ],
+ "spec_src": "inventory"
 }

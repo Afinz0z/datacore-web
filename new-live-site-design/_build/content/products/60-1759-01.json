@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "XPA U 358",
  "d": "XPA U 358 Eight Channel Amp, 35 watts at 8 or 4 ohms",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "8"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "35 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "2-pin 3.5 mm terminal block"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

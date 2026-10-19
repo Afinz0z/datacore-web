@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "EVID-S8.2T",
  "d": "Long throw 8\" (203 mm) woofer housed 90 W power handling provides for 110 dB maximum SPL (116 dB peak)",
- "specs": []
+ "specs": [
+  {
+   "label": "Power",
+   "value": "90 W"
+  },
+  {
+   "label": "Frequency range (+/- 3dB)",
+   "value": "70 - 20kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  }
+ ],
+ "spec_src": "inventory"
 }

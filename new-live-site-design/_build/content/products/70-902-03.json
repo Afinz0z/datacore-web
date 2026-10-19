@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "UPB 125",
  "d": "UPB 125 Universal Projector Mounting Bracket - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Projector"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

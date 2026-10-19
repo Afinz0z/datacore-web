@@ -7,7 +7,49 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Pro Pack for Cisco Control Hub Entitlement (advanced analytics and management).",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Collaboration Flex Plan Pro Pack Entitlement"
+  },
+  {
+   "label": "Category",
+   "value": "Unified Communications / Collaboration"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported depending on Cisco service/administration configuration"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Software / Cloud Subscription"
+  },
+  {
+   "label": "Application",
+   "value": "Unified Communications / IP Telephony, Enterprise messaging and collaboration"
+  },
+  {
+   "label": "License type",
+   "value": "Subscription / Entitlement"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides Pro Pack capabilities and enhanced administration/analytics features for Cisco collaboration services"
+  },
+  {
+   "label": "Associated product",
+   "value": "Cisco Collaboration / Webex services"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

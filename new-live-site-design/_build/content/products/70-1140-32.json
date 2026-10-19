@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "SMK 3",
  "d": "SMK 3 Surface Mount Kit for TLP Pro 1025M and TLS 1025M - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Surface"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1566-02",
   "60-1566-03",

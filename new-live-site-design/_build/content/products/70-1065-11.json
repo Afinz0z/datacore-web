@@ -9,10 +9,19 @@
  "d": "Retractor VGA-A Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - VGA Male to Male and 3.5mm Stereo Male to Male",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "VGA"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "VGA to VGA, 3.5 mm Stereo Audio"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

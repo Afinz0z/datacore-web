@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "HDMI DVI-D/6",
  "d": "HDMI DVI-D/6 HDMI to DVI Standard Speed Cable - 6' (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "HDMI to DVI"
+  }
+ ],
+ "spec_src": "inventory"
 }

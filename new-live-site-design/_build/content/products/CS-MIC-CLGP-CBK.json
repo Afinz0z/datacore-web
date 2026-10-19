@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "CS-MIC-CLGP-CBK=",
  "d": "Ceiling Bracket Mounting Kit for Ceiling Mic Pro",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CS-MIC-CLGPRO-C"
  ]

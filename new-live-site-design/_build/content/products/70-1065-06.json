@@ -9,10 +9,19 @@
  "d": "Retractor USB 3.2 Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - USB 3.2 Gen 1 Type-A Male to USB-B Male",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "USB"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "USB A to USB C"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

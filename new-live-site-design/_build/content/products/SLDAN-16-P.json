@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Q-SYS Software-based Dante 16x16 Channel License",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Dante"
+  },
+  {
+   "label": "Channels support",
+   "value": "8x8"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CORE 110f",
   "Core 110f v2",

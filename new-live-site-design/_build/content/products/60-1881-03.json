@@ -12,8 +12,53 @@
   {
    "label": "Type",
    "value": "Ceiling Speaker"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "65W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "85 Hz to 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "104 dB"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "88 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "95°"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Woofer",
+   "value": "6.5\""
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 64 W, 32 W, 16 W, 8 W, 100 V: null, 64 W, 32 W, 16 W"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "70-1126-03",
   "70-1266-01"

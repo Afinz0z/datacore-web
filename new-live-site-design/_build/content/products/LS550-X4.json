@@ -7,5 +7,63 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Wooden case for 55\" display unit (4 in 1)",
- "specs": []
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "55\""
+  },
+  {
+   "label": "Type",
+   "value": "proffessional LCD video wall display"
+  },
+  {
+   "label": "Display resolution",
+   "value": "3840 × 2160 pixels (4K UHD)"
+  },
+  {
+   "label": "Display brightness",
+   "value": "500 cd/m2"
+  },
+  {
+   "label": "Viewing angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Display contrast ratio",
+   "value": "4,000:1"
+  },
+  {
+   "label": "Operation time support",
+   "value": "24/7"
+  },
+  {
+   "label": "Display connectivity",
+   "value": "HDMI"
+  },
+  {
+   "label": "OS version",
+   "value": "Android 11"
+  },
+  {
+   "label": "Refresh rate",
+   "value": "60 Hz"
+  },
+  {
+   "label": "Camera",
+   "value": "No"
+  },
+  {
+   "label": "Android",
+   "value": "Yes"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Screen size",
+   "value": "55 inch"
+  }
+ ],
+ "spec_src": "inventory"
 }

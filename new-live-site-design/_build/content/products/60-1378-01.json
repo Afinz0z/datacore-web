@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "PC 101",
  "d": "PC 101 AC Power Controller",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Controller"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Intel Core i3-1220P/8GB DDR4/128GB SSD (WIN IOT license included) + 10.1\" capacitive touch console,,12th Gen Intel Core™ Processor and TPM 2.0 ,300nits ELED backlight ,with HDMI ingest",
- "specs": []
+ "specs": [
+  {
+   "label": "System memory (RAM)",
+   "value": "8GB"
+  },
+  {
+   "label": "Storage",
+   "value": "128GB"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel i3"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "External 192V battery pack designed to extend the backup runtime of APC Smart-UPS SRT 5kVA and 6kVA UPS systems.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Battery system type",
+   "value": "Standalone Battery Slack"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "192V"
+  },
+  {
+   "label": "Battery type",
+   "value": "Lead-Acid Battery"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SRT5KXLI",
   "SRT6KXLI"

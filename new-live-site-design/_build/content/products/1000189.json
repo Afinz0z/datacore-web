@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MPS20-G",
  "d": "Desk Paging And Emergency Mic With 20 Buttons - Gooseneck",
- "specs": []
+ "specs": [
+  {
+   "label": "Interface",
+   "value": "50 buttons"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Tabletop, Wall"
+  }
+ ],
+ "spec_src": "inventory"
 }

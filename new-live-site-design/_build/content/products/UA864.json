@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "UA864",
  "d": "Wall-Mounted Wideband Antenna",
- "specs": []
+ "specs": [
+  {
+   "label": "Antenna type",
+   "value": "Active Directional"
+  },
+  {
+   "label": "Frequency range",
+   "value": "470-698 MHz"
+  },
+  {
+   "label": "Connector type",
+   "value": "BNC"
+  },
+  {
+   "label": "Active",
+   "value": "Yes"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Wall, Ceiling"
+  }
+ ],
+ "spec_src": "inventory"
 }

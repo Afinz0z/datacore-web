@@ -12,6 +12,27 @@
   {
    "label": "Type",
    "value": "Status Indicators"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45, 2-pin 3.5 mm"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

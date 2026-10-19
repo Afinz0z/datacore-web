@@ -9,8 +9,17 @@
  "d": "012EUZT4101 DAZ LSZH™Loose Tube, Gel-Free, Interlocking Armored Cable, 12 F, Singlemode(OS2)",
  "specs": [
   {
+   "label": "No of fibers",
+   "value": "12"
+  },
+  {
+   "label": "Colour",
+   "value": "black"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

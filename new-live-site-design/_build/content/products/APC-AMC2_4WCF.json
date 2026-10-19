@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-ACSAMC2 Doorcontroller 4Wiegand with CF Card",
- "specs": [],
+ "specs": [
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand"
+  },
+  {
+   "label": "Communication",
+   "value": "Ethernet (TCP/IP - 10/100 Mbps), RS-485 / CAN bus, AES / TLS (model dependent)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "AEC-AMC2-UL01",
   "AEC-AMC2-UL02",

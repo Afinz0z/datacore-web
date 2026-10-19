@@ -7,5 +7,31 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SB900B is a rechargeable lithium-ion battery for use with the SBC800 charger and products",
- "specs": []
+ "specs": [
+  {
+   "label": "Rechargeable / Non-Rechargeable",
+   "value": "Rechargeable"
+  },
+  {
+   "label": "Capacity",
+   "value": "1240 mAh"
+  },
+  {
+   "label": "Housing",
+   "value": "Lupoy"
+  },
+  {
+   "label": "Charge voltage",
+   "value": "4.2 V"
+  },
+  {
+   "label": "Charge current",
+   "value": "750 mA"
+  },
+  {
+   "label": "Output voltage",
+   "value": "3.7 V"
+  }
+ ],
+ "spec_src": "inventory"
 }

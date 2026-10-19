@@ -9,10 +9,47 @@
  "d": "Per Controller Licence (beyond 50 Controllers)",
  "specs": [
   {
+   "label": "Software license type",
+   "value": "Controller License"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "Access Control"
+  },
+  {
+   "label": "Base license",
+   "value": "iSecure base/access-control platform required"
+  },
+  {
    "label": "Type",
-   "value": "Software Integration License"
+   "value": "Software"
+  },
+  {
+   "label": "Application",
+   "value": "Access Control & Time Attendance"
+  },
+  {
+   "label": "License type",
+   "value": "Controller License"
+  },
+  {
+   "label": "Function",
+   "value": "Enables additional iSecure LEAP controller capacity"
+  },
+  {
+   "label": "Capacity",
+   "value": "controllers beyond 50 controllers"
+  },
+  {
+   "label": "System",
+   "value": "iSecure LEAP"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "X1100C"
  ]

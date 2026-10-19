@@ -7,5 +7,55 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Right folding arm Variable frequency motor Barrier host 2m -2m (2s)",
- "specs": []
+ "specs": [
+  {
+   "label": "Operating frequency",
+   "value": "433.92 MHz"
+  },
+  {
+   "label": "Maximum passage width",
+   "value": "4m"
+  },
+  {
+   "label": "Power supply",
+   "value": "86-264 VAC"
+  },
+  {
+   "label": "Power consumption",
+   "value": "<400 W"
+  },
+  {
+   "label": "Operating temperature",
+   "value": "-40°C to +70°C"
+  },
+  {
+   "label": "Protection rating",
+   "value": "IP54"
+  },
+  {
+   "label": "Connectivity",
+   "value": "RS-485 ×1, I/O ×5, status outputs ×3; remote control up to 50 m"
+  },
+  {
+   "label": "Motor",
+   "value": "Brushless DC motor / inverter servo motor, 5 million-cycle lifespan"
+  },
+  {
+   "label": "Arm",
+   "value": "Folding arm 2 m + 2 m"
+  },
+  {
+   "label": "Opening/Closing time",
+   "value": "2 sec"
+  },
+  {
+   "label": "Remote control",
+   "value": "Up to 50 m"
+  },
+  {
+   "label": "Power output",
+   "value": "12 V ±5%, max. 1.5 A"
+  }
+ ],
+ "spec_src": "inventory"
 }

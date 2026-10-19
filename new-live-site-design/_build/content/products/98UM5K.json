@@ -9,10 +9,15 @@
  "d": "98\" Ultra HD Premium Large Display or equivalent",
  "specs": [
   {
+   "label": "Display size",
+   "value": "98\""
+  },
+  {
    "label": "Type",
-   "value": "signage display"
+   "value": "Non-interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "WISENET, 128CH SSM Recording Server, 520Mbps, Up to 16 SATA, RAID 0/1/5/6, Failover Support",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of channel",
+   "value": "128"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265, MJPEG"
+  },
+  {
+   "label": "RAID support",
+   "value": "RAID 0, RAID 1, RAID 5, RAID 6"
+  },
+  {
+   "label": "Incoming bandwidth",
+   "value": "520 Mbps"
+  },
+  {
+   "label": "SATA interface",
+   "value": "16 SATA"
+  }
+ ],
+ "spec_src": "inventory"
 }

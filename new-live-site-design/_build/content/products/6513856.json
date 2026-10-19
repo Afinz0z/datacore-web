@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "AM3-121-I KIT",
  "d": "AM3-121-I KIT AirMedia® Series 3 Kit with AM-3100-WF-I Receiver and AM-TX3-200 Endpoint, International",
- "specs": [],
+ "specs": [
+  {
+   "label": "Tx/Rx",
+   "value": "Tx and Rx"
+  },
+  {
+   "label": "Bluetooth",
+   "value": "Yes"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Yes"
+  },
+  {
+   "label": "Maximum resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "6512130"
  ]

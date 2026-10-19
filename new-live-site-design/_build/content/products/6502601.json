@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB6-BTNBRN-S_ENGRAVED Small Backlit Engravable Button Cap for Cameo Keypads, Brown Smooth, Includes Custom Engraving",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Brown"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  }
+ ],
+ "spec_src": "inventory"
 }

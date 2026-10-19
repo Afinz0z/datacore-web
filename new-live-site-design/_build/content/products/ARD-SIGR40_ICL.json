@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Card reader, R40, iCLASS,Wiegand",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "RFID Card"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand, OSDP"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP65"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "13.56 MHz MIFARE / DESFire EV1/EV2/EV3 / iCLASS / FeliCa / Seos"
+  }
+ ],
+ "spec_src": "inventory"
 }

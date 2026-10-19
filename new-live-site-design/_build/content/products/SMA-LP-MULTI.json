@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "Biometric Fingerprint"
+  },
+  {
+   "label": "Credential",
+   "value": "Fingerprint + Card, Biometric"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand, OSDP"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP65, IK08"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

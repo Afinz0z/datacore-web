@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP ProOne 240 G10 AiO B / Ultra 5 125U / 23.8 inch AG FHD UWVA IPS 250 / 8GB DDR5 / 512GB M.2 SSD / DOS / 2 year Next Business Day Onsite Support HW / 125 white Cellulose Fiber Packagingkbd / 125mouseCelluloseFiberPa/wifi /BT",
- "specs": []
+ "specs": [
+  {
+   "label": "System memory (RAM)",
+   "value": "8GB"
+  },
+  {
+   "label": "Storage",
+   "value": "512GB"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel i7"
+  },
+  {
+   "label": "Operating system",
+   "value": "FreeDos"
+  }
+ ],
+ "spec_src": "inventory"
 }

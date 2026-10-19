@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB2E-BTNB-S_BLANK Large Engravable Button Cap for Cameo Express Keypads, Black Smooth, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

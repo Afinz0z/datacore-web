@@ -7,7 +7,45 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "S5755-H48UM4Y2CZ 5G bundle (48*10/100/1G/2.5/5GBASE-T ports, Optional RTU upgrade to 10G, 4*25GE SFP28, 2*100GE QSFP28 ports, expansion card slot, PoE++, without power module)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "PoE power",
+   "value": "90 W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "STP, RSTP, MSTP, MAC address filtering, Port mirroring (SPAN), IGMP Snooping"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, Policy-based routing (PBR), IPv4 / IPv6 Dual Stack, BGP"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, SSH"
+  },
+  {
+   "label": "25G SFP28 PORTS",
+   "value": "4"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "98012643-002_88134UGQ-5BT_36",
   "L-MLIC-S57H",

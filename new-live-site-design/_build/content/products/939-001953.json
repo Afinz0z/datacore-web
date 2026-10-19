@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - Logitech Tap - NA - USB - N/A - WW - TOUCH SCREEN",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "10\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1280 x 800"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Wall mount, Desk/Table"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

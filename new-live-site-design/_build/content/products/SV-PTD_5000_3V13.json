@@ -10,6 +10,15 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motororized Varifocal lens"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

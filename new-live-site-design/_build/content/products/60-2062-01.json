@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "UPI 100",
  "d": "UPI 100 100 W Power Inserter for Extron USB-C Products",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply"
+  },
+  {
+   "label": "Output",
+   "value": "25 V DC"
+  },
+  {
+   "label": "Power",
+   "value": "110 W"
+  },
+  {
+   "label": "Output current",
+   "value": "4.4 A"
+  }
+ ],
+ "spec_src": "inventory"
 }

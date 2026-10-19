@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "HDMI Pro/35",
  "d": "HDMI Pro/35 4K Premium High Speed HDMI Pro Cable - 35' (10.6 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "10.6 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "HDMI M to HDMI M"
+  },
+  {
+   "label": "Cable type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

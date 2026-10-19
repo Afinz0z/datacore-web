@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Horizontal PDU",
  "d": "UK Type 6 Way PDU",
- "specs": []
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "HORIZONTAL"
+  }
+ ],
+ "spec_src": "inventory"
 }

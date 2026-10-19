@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cisco Ceiling-Wall Mount for Room Vision PTZ Camera - Arctic White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Camera"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall, Ceiling"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CS-CAM-RVPTZ-L"
  ]

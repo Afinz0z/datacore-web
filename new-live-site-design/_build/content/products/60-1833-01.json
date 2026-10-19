@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SW2 USB Pro",
  "d": "SW2 USB Pro Two Input USB 10G Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "No. ports",
+   "value": "2"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "USB"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-C, HDMI, RJ-45"
+  }
+ ],
+ "spec_src": "inventory"
 }

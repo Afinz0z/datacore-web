@@ -8,5 +8,55 @@
  "avail": "lead",
  "model": "TLP Pro 1225MG NC",
  "d": "TLP Pro 1225MG NC 12\" Wall Mount TouchLink® Pro Touchpanel - Black- No Camera",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "12\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1280 x 800"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Wall mount"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:10"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "340 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "1000:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  },
+  {
+   "label": "Inbuild camera",
+   "value": "No"
+  }
+ ],
+ "spec_src": "inventory"
 }

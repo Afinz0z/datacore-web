@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Wall Mount"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP66"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "DS-2CD2763G1-IZS"
  ]

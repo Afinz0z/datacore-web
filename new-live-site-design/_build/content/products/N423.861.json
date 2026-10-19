@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "Single port"
+  },
+  {
+   "label": "Ports",
+   "value": "Simplex"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

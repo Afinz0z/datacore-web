@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dell 24 Monitor - S2425H is a 23.8-inch Full HD desktop monitor designed for everyday office productivity and multimedia use. It features an IPS panel that delivers wide viewing angles and consistent color performance, making it suitable for workstations, business environments, and home office setups. The monitor supports 1920 × 1080 resolution with a smooth 100 Hz refresh rate, providing clear visuals and comfortable viewing for extended use.",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "2"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "23.8"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel type",
+   "value": "IPS"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  }
+ ],
+ "spec_src": "inventory"
 }

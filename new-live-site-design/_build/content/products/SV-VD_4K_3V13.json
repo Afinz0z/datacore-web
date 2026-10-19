@@ -7,5 +7,75 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SmartVu 4K Vandal Dome Camera - Autofocus",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "8 MP, 4 K"
+  },
+  {
+   "label": "Lens",
+   "value": "Motororized Varifocal lens"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "30 m"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP66"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "128 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, MJPEG"
+  },
+  {
+   "label": "Smart event",
+   "value": "Activity Detection, Video Motion Detection (VMD)"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, HTTP, HTTPS, RTP"
+  },
+  {
+   "label": "Security",
+   "value": "Closed IP hardened management layer, PSTI & NDAA compliant"
+  },
+  {
+   "label": "Network storage",
+   "value": "NVR, event recording to NAS"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Auto"
+  },
+  {
+   "label": "Lens type",
+   "value": "2.7 to 13mm., Motorised varifocal, auto-iris lens"
+  },
+  {
+   "label": "Focal length & FOV",
+   "value": "2.7-13 mm; FOV not specified"
+  },
+  {
+   "label": "Focus",
+   "value": "Motorised autofocus"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "Integral Infrared (IR) illuminator"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "30 m IR distance"
+  }
+ ],
+ "spec_src": "inventory"
 }

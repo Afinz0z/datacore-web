@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "APC Service Bypass Panel - 230V, 32A, BBM, IEC320 C20/HW Input, IEC-320 Output - (2) C19 (8) C13",
- "specs": []
+ "specs": [
+  {
+   "label": "C19 - sockets",
+   "value": "2"
+  },
+  {
+   "label": "C13 sockets",
+   "value": "8"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "DAC cable for switch"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "0.65m"
+  },
+  {
+   "label": "Transmission speed",
+   "value": "50G"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "JL662A"
  ]

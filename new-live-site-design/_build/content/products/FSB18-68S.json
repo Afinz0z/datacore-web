@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Finosel 18U Deep-Profile Rack (600x800x904mm): A robust, floor-standing 19-inch enclosure designed for deep-mount server equipment. Includes integrated cooling, a power distribution unit (PDU), and 1 fixed shelf",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "600x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "18U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Floor standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Horizontal"
+  }
+ ],
+ "spec_src": "inventory"
 }

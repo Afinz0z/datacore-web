@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Excel Cat6A UTP Unscreened Low Profile Keystone Jack Toolless Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "CAT6A"
+  },
+  {
+   "label": "Colour",
+   "value": "BLACK"
+  }
+ ],
+ "spec_src": "inventory"
 }

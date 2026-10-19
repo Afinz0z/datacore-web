@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "Net card",
  "d": "Netcard, Fiber Optic Single Mode(A)-(B), excl Copper Pillars",
- "specs": [],
+ "specs": [
+  {
+   "label": "Signal type",
+   "value": "Network, Dante"
+  },
+  {
+   "label": "Connector type",
+   "value": "RJ45"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Type",
+   "value": "Network interface card"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BTQ-VM450"
  ]

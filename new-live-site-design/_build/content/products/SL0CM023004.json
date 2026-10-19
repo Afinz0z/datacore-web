@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "3MMGT1 Corning SL0CM023004 Cable Management Plas c 1U",
- "specs": []
+ "specs": [
+  {
+   "label": "Size",
+   "value": "1U"
+  }
+ ],
+ "spec_src": "inventory"
 }

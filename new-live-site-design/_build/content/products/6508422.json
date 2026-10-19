@@ -6,7 +6,25 @@
  "c": "Cable Cubby",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity / connector",
+   "value": "RJ45"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  },
+  {
+   "label": "Operation",
+   "value": "Electrical"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6511653",
   "6511654",

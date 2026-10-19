@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "LED Module Power Cable",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable type",
+   "value": "Power"
+  }
+ ],
+ "spec_src": "inventory"
 }

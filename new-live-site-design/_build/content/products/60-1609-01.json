@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DA6 HD 4K PLUS",
  "d": "DA6 HD 4K PLUS Six Output 4K/60 HDMI Distribution Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x6"
+  },
+  {
+   "label": "Supporting video resolution",
+   "value": "4K60"
+  },
+  {
+   "label": "Video input signal format",
+   "value": "HDMI, HDR10, HDR10+, Dolby Vision"
+  },
+  {
+   "label": "Audio input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

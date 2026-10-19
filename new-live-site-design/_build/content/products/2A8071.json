@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "add on license"
+  },
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Category",
+   "value": "License"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "C201311"
  ]

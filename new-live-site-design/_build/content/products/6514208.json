@@ -8,7 +8,49 @@
  "avail": "lead",
  "model": "CCC-110-Z",
  "d": "CCC-110-Z \"Crestron Collab Compute with the Intel® Core™ Ultra 5 for Zoom Rooms™ Software",
- "specs": [],
+ "specs": [
+  {
+   "label": "System memory (RAM)",
+   "value": "32GB"
+  },
+  {
+   "label": "Storage",
+   "value": "256GB"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel® Core™ Ultra 5 125H"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows® 11 Enterprise IoT Edition OS"
+  },
+  {
+   "label": "Network",
+   "value": "Intel I219-LM 100/1000 Mbps Ethernet, Intel I210 100/1000Mbps Ethernet"
+  },
+  {
+   "label": "Graphics",
+   "value": "Intel® ARC"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Intel BE200 (Wi-Fi 7 2x2 MIMO)"
+  },
+  {
+   "label": "Bluetooth®",
+   "value": "Version 5.4"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-C, HDMI, RJ45, SMA"
+  },
+  {
+   "label": "Platform",
+   "value": "Zoom"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "6514473"
  ]

@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "XTP FT HD 4K MM",
  "d": "XTP FT HD 4K MM XTP Fiber Optic Transmitter for HDMI - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 1.4"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "8.5 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

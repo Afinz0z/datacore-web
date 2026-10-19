@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Logic Fixed Wall Mount Bracket LGWM-3265F-IN Fixed Wall Mount allows to mount flat-panel displays Universal in design to fit 32” to 65” displays The mount can hold up to 45 kg Simple \"Hook-On\" Installation Colours available - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "32SM5J",
   "CDE4330",

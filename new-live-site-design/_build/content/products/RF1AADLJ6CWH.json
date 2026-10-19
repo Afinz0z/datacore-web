@@ -7,5 +7,51 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "RitchField 25x50mm LJ6C floor box angled adapter for keystone jack White",
- "specs": []
+ "specs": [
+  {
+   "label": "Adapter type",
+   "value": "Keystone Jack Angled Adapter"
+  },
+  {
+   "label": "Connectivity",
+   "value": "RJ-45"
+  },
+  {
+   "label": "Type",
+   "value": "Floor Box Angled Adapter"
+  },
+  {
+   "label": "Size",
+   "value": "25 × 50 mm"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Compatibility",
+   "value": "Keystone Jack"
+  },
+  {
+   "label": "Cable type",
+   "value": "Cat6 / Cat6A"
+  },
+  {
+   "label": "Wiring",
+   "value": "T568A / T568B"
+  },
+  {
+   "label": "Housing",
+   "value": "ABS UL 94V-0"
+  },
+  {
+   "label": "Dimensions",
+   "value": "86 x 86 x 10mm"
+  },
+  {
+   "label": "Material",
+   "value": "Plastic -ABS"
+  }
+ ],
+ "spec_src": "inventory"
 }

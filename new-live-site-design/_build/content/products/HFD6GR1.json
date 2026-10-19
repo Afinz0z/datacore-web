@@ -7,5 +7,111 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "6MP,Network True day/Night Superior HD IR drugged fisheye Camara ,1/1/8\"CMOS,1.7 mmfIXED Fisheye Lens.3IR LEDs,POE,H.265",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "6 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Fisheye Lens"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "8m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IK10, IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "128 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm, audio exception"
+  },
+  {
+   "label": "Smart event",
+   "value": "Audio Detection"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, DHCP, DNS, DDNS, RTP, RTCP, NTP, UPnP, SMTP, IGMP, 802.1X, QoS, IPv4, IPv6, UDP, Bonjour, ARP"
+  },
+  {
+   "label": "API",
+   "value": "SDK, ONVIF"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, complicated password, HTTPS encryption, IP address filter, TLS 1.1/1.2"
+  },
+  {
+   "label": "Network storage",
+   "value": "microSD / microSDHC / microSDXC card support"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Day, Night, Auto, Alarm Trigger, Video Trigger"
+  },
+  {
+   "label": "Image settings",
+   "value": "Rotate mode, Saturation, Brightness, Contrast, Sharpness, Gain, White Balance, Adjustable by client Software, Web browser"
+  },
+  {
+   "label": "SNR",
+   "value": "≥ 52 dB"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC, HLC, 3D DNR, WDR"
+  },
+  {
+   "label": "Iris type",
+   "value": "Fixed Iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F2.0"
+  },
+  {
+   "label": "Trigger type",
+   "value": "Video Detection, I/O Coil"
+  },
+  {
+   "label": "Picture type",
+   "value": "Scene Picture"
+  },
+  {
+   "label": "Image format",
+   "value": "JPEG"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "3072 × 2048, 2048 × 2048"
+  },
+  {
+   "label": "Capture picture overlay",
+   "value": "Capture Time"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
+  }
+ ],
+ "spec_src": "inventory"
 }

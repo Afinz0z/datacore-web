@@ -7,7 +7,37 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PRA-CSE Call station extension, Twelve buttons with tactile feedback and configurable functionality",
- "specs": [],
+ "specs": [
+  {
+   "label": "Interface",
+   "value": "Configurable buttons"
+  },
+  {
+   "label": "Zone selection status",
+   "value": "Multi-color zone status indicators"
+  },
+  {
+   "label": "No of buttons",
+   "value": "12"
+  },
+  {
+   "label": "Labeling",
+   "value": "Removable front cover"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Tabletop"
+  },
+  {
+   "label": "Dimension (H x W x D mm)",
+   "value": "62 x 130 x 189"
+  },
+  {
+   "label": "Weight",
+   "value": "400 g"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "PRA-CSLD",
   "PRA-CSLW"

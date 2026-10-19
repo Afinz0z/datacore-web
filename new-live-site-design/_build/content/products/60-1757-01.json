@@ -7,5 +7,31 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NetPA U 2002 SB Two Channel Bridgeable Output Dante Amp, 200/400 Watts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "200 W, 400 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "6-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

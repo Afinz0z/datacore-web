@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CONTROLCENTER CC-2D EU BLACK",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "PoE"
+  },
+  {
+   "label": "Status screen",
+   "value": "LED"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

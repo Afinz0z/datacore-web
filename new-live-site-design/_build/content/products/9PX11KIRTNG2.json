@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "11 KVA UPS",
  "d": "Eaton 9PX11KIRTNG2 Eaton 9PX Gen2 UPS Netpack, 11000 VA, 11000 W, Input: Hardwired, Outputs: (8) C13, (8) C39, Hardwired, Rack/tower, 4U, Gigabit Network card included, Rack-mounting kit included",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "11KVA"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  }
+ ],
+ "spec_src": "inventory"
 }

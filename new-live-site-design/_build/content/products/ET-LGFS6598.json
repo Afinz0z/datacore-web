@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Trolley Stand"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Trolleys"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "HG65U800FAUXUE",
   "HG75U800FAUXUE"

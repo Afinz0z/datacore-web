@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SPKA-GRILLE-IC610-W Round Grilles for Saros® 6.5” In-Ceiling Speakers, White, 10 Pack",
- "specs": []
+ "specs": [
+  {
+   "label": "Grilles category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Grille shape",
+   "value": "Round"
+  }
+ ],
+ "spec_src": "inventory"
 }

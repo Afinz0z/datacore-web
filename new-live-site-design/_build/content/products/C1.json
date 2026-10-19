@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Single-Gang networked audio controller (Attero Tech)",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "PoE"
+  },
+  {
+   "label": "Status screen",
+   "value": "LED"
+  },
+  {
+   "label": "Protocols / standards",
+   "value": "TCP/IP; AES70"
+  },
+  {
+   "label": "Display size",
+   "value": "1 in"
+  }
+ ],
+ "spec_src": "inventory"
 }

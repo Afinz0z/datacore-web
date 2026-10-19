@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Finosel 18U Data Cabinet (600x600x904mm): A premium floor-standing enclosure featuring a 4-fan cooling unit, 1 fixed shelf, and a power distribution unit",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "600x600"
+  },
+  {
+   "label": "Rack size",
+   "value": "18U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Floor standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Horizontal"
+  }
+ ],
+ "spec_src": "inventory"
 }

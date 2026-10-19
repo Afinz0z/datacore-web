@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-ACS License 32 Door expansion",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "APC-AMC2 4WCF"
  ]

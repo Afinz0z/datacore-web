@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Ramcro 1U Metal Cable Management with cover",
- "specs": [],
+ "specs": [
+  {
+   "label": "Size",
+   "value": "1U"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "R1-BPL19-1U"
  ]

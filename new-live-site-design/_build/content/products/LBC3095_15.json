@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "Ceiling Mount"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Passive"
+  },
+  {
+   "label": "Power",
+   "value": "10W"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

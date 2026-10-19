@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Corning LC OM4 12 Port Duplex Fiber Patch Panel includes 12 Pigtails & 1 x Splice Tray",
- "specs": []
+ "specs": [
+  {
+   "label": "Pigtails",
+   "value": "24 LC"
+  }
+ ],
+ "spec_src": "inventory"
 }

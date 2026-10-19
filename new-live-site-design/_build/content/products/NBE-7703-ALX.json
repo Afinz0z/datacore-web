@@ -7,7 +7,85 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bullet 4MP HDR X 4.7-10mm IP66/67 IK10",
- "specs": [],
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "P-iris (IR corrected)"
+  },
+  {
+   "label": "WDR",
+   "value": "141 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1.35/F - 1.97/F"
+  },
+  {
+   "label": "IR distance",
+   "value": "80m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "60 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK10, IP67"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, HTTP, HTTPS, IGMP, IPv4, IPv6, UDP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection"
+  },
+  {
+   "label": "Network storage",
+   "value": "microSD / microSDHC / microSDXC card support"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Day, Night"
+  },
+  {
+   "label": "Image settings",
+   "value": "Rotate mode"
+  },
+  {
+   "label": "SNR",
+   "value": ">50 db"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC"
+  },
+  {
+   "label": "Iris type",
+   "value": "P-Iris"
+  },
+  {
+   "label": "IR wavelength",
+   "value": "850 nm"
+  },
+  {
+   "label": "Audio compression",
+   "value": "AAC-LC"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "NDA-U-WMP"
  ]

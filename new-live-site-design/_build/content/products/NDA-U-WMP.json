@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-CCTV Wall mount plate",
- "specs": [],
+ "specs": [
+  {
+   "label": "Max decoding resolution",
+   "value": "IK10, IP66"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "NBE-7703-ALX"
  ]

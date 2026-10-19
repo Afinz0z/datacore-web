@@ -11,6 +11,43 @@
   {
    "label": "Type",
    "value": "Surveillance Camera System"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "Pixel size",
+   "value": "3μm x 3μm"
+  },
+  {
+   "label": "Shutter mode",
+   "value": "Electronic Rolling Shutter"
+  },
+  {
+   "label": "Field of view (H x V)",
+   "value": "40° x 30°"
+  },
+  {
+   "label": "Video output",
+   "value": "USB 2.0"
+  },
+  {
+   "label": "Power supply",
+   "value": "5VDC via USB 2.0 bus"
+  },
+  {
+   "label": "Power consumption",
+   "value": "<200mA"
+  },
+  {
+   "label": "Weight",
+   "value": "1.587g (3.5lb)"
+  },
+  {
+   "label": "Dimensions W x H x D",
+   "value": "131.4mm x 609.6mm x 122mm (5.175” x 24” x 4.8”)"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Inogeni Camera & Audio to HDMI Converter",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "USB"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

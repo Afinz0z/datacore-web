@@ -9,10 +9,15 @@
  "d": "LZ-Bracket for Inswing Doors for GEM-1200 EM lock",
  "specs": [
   {
+   "label": "Type of accessories",
+   "value": "Mount"
+  },
+  {
    "label": "Type",
-   "value": "Lnz"
+   "value": "EM lock mounting bracket"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "GEM-1200M"
  ]

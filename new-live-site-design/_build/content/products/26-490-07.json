@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "VGA-A M-M MD/35",
  "d": "VGA-A M-M MD/35 VGA with Audio Cable: 15-pin HD Male to Male Molded - 35' (10.6 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "10.6 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Cable type",
+   "value": "VGA with Audio"
+  }
+ ],
+ "spec_src": "inventory"
 }

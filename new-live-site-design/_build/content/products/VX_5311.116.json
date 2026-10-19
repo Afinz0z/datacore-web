@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "VX IT standard, RAL 7035 WHD 800x2000x1200, Vented",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x1200"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CP 7495.000",
   "DK 5302053",

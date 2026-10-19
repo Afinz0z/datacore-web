@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "High-performance HP Z2 G9 Tower Workstation powered by Intel Core i7-14700K processor, equipped with 16GB DDR5 RAM and 1TB NVMe SSD for fast performance and storage. Comes with Intel UHD Graphics 770, Windows 11 Pro, Gigabit LAN connectivity, and 700W power supply, designed for professional workloads, engineering applications, and high-end computing tasks.",
- "specs": []
+ "specs": [
+  {
+   "label": "Memory capacity",
+   "value": "16GB"
+  },
+  {
+   "label": "Form factor",
+   "value": "Tower"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel Core i7"
+  },
+  {
+   "label": "Primary storage",
+   "value": "1 TB"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows 11 Pro (64-bit)"
+  }
+ ],
+ "spec_src": "inventory"
 }

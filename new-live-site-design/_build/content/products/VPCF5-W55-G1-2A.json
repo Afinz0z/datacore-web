@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "•Intel 12th i5 processor *Intel® Iris® Xe Graphics *Intel® Dual Band Wireless-AC •Embedded with Winows 11 License •16GB RAM, 512GB SSD",
- "specs": []
+ "specs": [
+  {
+   "label": "Processor",
+   "value": "i5"
+  },
+  {
+   "label": "RAM",
+   "value": "16 GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

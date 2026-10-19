@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "Wall Mounted"
+  },
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "75UH7N",
   "CDE4330",

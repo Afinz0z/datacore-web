@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "HDMI Cable"
+  },
+  {
+   "label": "Cable length",
+   "value": "3m"
+  },
+  {
+   "label": "Cable type",
+   "value": "HDMI"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

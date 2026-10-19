@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MBD 129",
  "d": "MBD 129 1U, 1/2 & 1/4 Rack Width Through-Desk Mount Kit for Two-Piece Enclosure",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

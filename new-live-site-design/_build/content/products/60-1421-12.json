@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP T HWP 4K 231 D",
  "d": "DTP T HWP 4K 231 D - DTP Transmitter for HDMI - Decorator-Style Wallplate, Black - 230 feet (70 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45, 3-pin 3.5 mm"
+  }
+ ],
+ "spec_src": "inventory"
 }

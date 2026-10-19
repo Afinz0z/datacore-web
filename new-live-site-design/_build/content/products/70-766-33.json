@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "WPD 150 A",
  "d": "WPD 150 A HDMI, Stereo Audio, and VGA Pass-Through Wallplate - Decorator-Style; White",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Plate"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

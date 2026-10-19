@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HC 402- Meeting Collaboration System, Decorator Tx, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "2K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

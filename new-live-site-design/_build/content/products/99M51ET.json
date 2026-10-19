@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP Elite Tower 800 G9 i714700 8GB/512 PC Intel Core i7-14700 / 512GB SSD / 8GB DDR5 / FreeDOS / 1-1-1 Wty - 2y",
- "specs": []
+ "specs": [
+  {
+   "label": "System memory (RAM)",
+   "value": "8GB"
+  },
+  {
+   "label": "Storage",
+   "value": "512GB"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel i7"
+  },
+  {
+   "label": "Operating system",
+   "value": "FreeDos"
+  },
+  {
+   "label": "Network",
+   "value": "Intel I219-LM 100/1000 Mbps Ethernet"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-C, HDMI, RJ45, DisplayPort"
+  }
+ ],
+ "spec_src": "inventory"
 }

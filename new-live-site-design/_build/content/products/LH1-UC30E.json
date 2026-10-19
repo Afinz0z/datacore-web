@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "LH1-UC30E",
  "d": "Music Horn Loudspeaker, 30W",
- "specs": []
+ "specs": [
+  {
+   "label": "Speaker type",
+   "value": "Horn Loudspeaker"
+  },
+  {
+   "label": "Frequency range (+/- 3dB)",
+   "value": "210 Hz - 20,000 Hz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "85 dB, 100 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Protection",
+   "value": "EN 54-24"
+  }
+ ],
+ "spec_src": "inventory"
 }

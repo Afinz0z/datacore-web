@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "DTP3 R 201",
  "d": "DTP3 R 201 4K/60 HDMI DTP3 Receiver with Audio De-Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, 3.5 mm captive connector"
+  }
+ ],
+ "spec_src": "inventory"
 }

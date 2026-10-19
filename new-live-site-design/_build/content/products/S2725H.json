@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "27\" Full HD IPS monitor with 100 Hz refresh rate, dual HDMI connectivity, integrated speakers, and ultra-thin bezel design for office productivity and multimedia use.",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "2"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "27"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Audio",
+   "value": "Dual 5W built-in speakers"
+  }
+ ],
+ "spec_src": "inventory"
 }

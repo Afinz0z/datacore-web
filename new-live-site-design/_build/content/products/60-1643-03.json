@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "ACP 100",
  "d": "ACP 100 Audio Control Panel with Volume and 6 Control Buttons - US 2-Gang",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "RS 232"
+  },
+  {
+   "label": "Status screen",
+   "value": "LED"
+  }
+ ],
+ "spec_src": "inventory"
 }

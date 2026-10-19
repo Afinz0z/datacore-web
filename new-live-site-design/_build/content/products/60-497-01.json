@@ -12,6 +12,23 @@
   {
    "label": "Type",
    "value": "Audio Switcher"
+  },
+  {
+   "label": "Input/Output",
+   "value": "4x1"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "3 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Audio output",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

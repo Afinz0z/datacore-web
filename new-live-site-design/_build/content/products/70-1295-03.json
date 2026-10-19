@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cable Cubby F55, Aluminum, No AC",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Flush Mount / Flip-Top"
+  },
+  {
+   "label": "Power modules",
+   "value": "No"
+  },
+  {
+   "label": "Colour",
+   "value": "Aluminum"
+  },
+  {
+   "label": "Type",
+   "value": "Module/Chassis"
+  }
+ ],
+ "spec_src": "inventory"
 }

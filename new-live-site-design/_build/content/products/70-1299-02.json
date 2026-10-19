@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cable Cubby F55 UT Cable Cubby F55, Black, No AC",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Under-Table"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Module/Chassis"
+  }
+ ],
+ "spec_src": "inventory"
 }

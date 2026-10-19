@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "R&M R138865, Wall mounted Cabinet 19\" 16U W=600 mm D=600 mm -black",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "16 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Dimensions",
+   "value": "600 mm W x 600 mm D"
+  }
+ ],
+ "spec_src": "inventory"
 }

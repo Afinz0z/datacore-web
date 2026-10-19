@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "HDMI DVI-D/3",
  "d": "HDMI DVI-D/3 HDMI to DVI Standard Speed Cable - 3' (90 cm)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "0.9m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "HDMI to DVI"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "RC3F-BAG-D",
  "d": "3 pole female XLR cable connector(Black plated housing, Silver plated contacts)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "XLR Connector"
+  },
+  {
+   "label": "Gender",
+   "value": "Female"
+  },
+  {
+   "label": "Pins",
+   "value": "3- pin"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

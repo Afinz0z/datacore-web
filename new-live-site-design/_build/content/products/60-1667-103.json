@@ -7,7 +7,57 @@
  "dept": "AV",
  "avail": "lead",
  "d": "TLS 300M White, Desk Scheduling",
- "specs": [],
+ "specs": [
+  {
+   "label": "Panel size",
+   "value": "3.5\""
+  },
+  {
+   "label": "RAM",
+   "value": "1GB"
+  },
+  {
+   "label": "Memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Screen resolution",
+   "value": "320 x 480"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "2:3"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  },
+  {
+   "label": "Brightness",
+   "value": "490 nits"
+  },
+  {
+   "label": "Contrast",
+   "value": "500:1"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1321-02",
   "70-1321-03"

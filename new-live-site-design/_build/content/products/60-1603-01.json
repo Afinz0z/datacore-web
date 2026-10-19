@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "SW2 HD 4K PLUS",
  "d": "SW2 HD 4K PLUS Two Input 4K/60 HDMI Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "2x1"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, 3.5 mm captive"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

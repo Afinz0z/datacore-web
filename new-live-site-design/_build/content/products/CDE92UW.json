@@ -9,10 +9,15 @@
  "d": "92\", 5K, 21:9, Android 13, Landscape & Portrait mode, Daisy Chain 3x3, USB Type C (vController / Viewboard Cast / myViewBoard Display / Revel Digital), Stardard Intel OPS slot (Recommend VPC3 series to support 5K)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "92\""
+  },
+  {
    "label": "Type",
-   "value": "Non Interactive"
+   "value": "Non-interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

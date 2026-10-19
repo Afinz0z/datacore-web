@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SBC220-UK",
  "d": "2 BAY NETWORKED DOCKING STATION",
- "specs": []
+ "specs": [
+  {
+   "label": "Charger",
+   "value": "Mic"
+  }
+ ],
+ "spec_src": "inventory"
 }

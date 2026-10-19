@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LANmark-OF ENSPACE Patch Cord DLC-DLC OM4 LSZH 3m Aqua",
- "specs": []
+ "specs": [
+  {
+   "label": "Length",
+   "value": "3m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "aqua"
+  }
+ ],
+ "spec_src": "inventory"
 }

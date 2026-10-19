@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "OCS 100C",
  "d": "OCS 100C Occupancy Sensor - Ceiling Mount",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensor type",
+   "value": "Occupancy"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Mounting",
+   "value": "Ceiling"
+  }
+ ],
+ "spec_src": "inventory"
 }

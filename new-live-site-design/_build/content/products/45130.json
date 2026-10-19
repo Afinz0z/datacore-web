@@ -7,5 +7,35 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sonance Professional Series In-Ceiling Speaker Ps-C43RT White Class-leading sensitivity & sonic performance",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "60W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "57Hz - 25kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "105 dB"
+  },
+  {
+   "label": "Frequency range (+/- 3dB)",
+   "value": "75Hz - 20kHz"
+  },
+  {
+   "label": "Drivers",
+   "value": "4\""
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  }
+ ],
+ "spec_src": "inventory"
 }

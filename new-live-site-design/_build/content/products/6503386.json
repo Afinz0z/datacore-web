@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "MP-WP152-W",
  "d": "MP-WP152-W Media Presentation Wall Plate - HDMI®, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

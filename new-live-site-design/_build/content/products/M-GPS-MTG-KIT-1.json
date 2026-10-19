@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sapling GPS Mounting Kit",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Roof"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "NTP-8R0-0100-1",
   "NTP-8R0-0104-1",

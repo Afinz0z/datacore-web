@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "LBC3210/00",
  "d": "Line array loudspeaker, 60W, outdoor",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Line Array"
+  },
+  {
+   "label": "Power",
+   "value": "15W, 30W, 60W"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Huawei 2315204 is a Gigabit Ethernet eSFP optical transceiver designed for short-distance multimode fiber communication. Operating at 850 nm with duplex LC connectors, it supports transmission distances up to 550 m on multimode fiber. The hot-swappable module is ideal for enterprise campus networks, aggregation switches, and data center applications.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Transmission media type",
+   "value": "Multimode Fiber (MMF)"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "850 nm (SR)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02353UYT-002"
  ]

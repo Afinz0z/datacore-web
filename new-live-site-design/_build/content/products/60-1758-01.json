@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "XPA U 2002 SB",
  "d": "XPA U 2002 SB Two Channel Bridgeable Output Amp, 200/400 Watts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "200 W, 400 W"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "4-pin 5 mm terminal blocks, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω, 16 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

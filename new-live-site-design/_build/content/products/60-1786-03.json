@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Flex55 USB 311 PowerPlate One USB-C & One USB-A, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Product tape",
+   "value": "USB charger"
+  },
+  {
+   "label": "Ports",
+   "value": "USB-A, USB-C"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

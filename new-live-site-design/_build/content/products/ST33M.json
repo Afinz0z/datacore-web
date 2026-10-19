@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MAXHUB Mobile Stand ST33M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Trolleys"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "1203626",
   "75UH7N",

@@ -11,8 +11,29 @@
   {
    "label": "Type",
    "value": "Battery Pack"
+  },
+  {
+   "label": "Function",
+   "value": "Provides backup DC power for security/access-control equipment"
+  },
+  {
+   "label": "Power supply",
+   "value": "SMPS"
+  },
+  {
+   "label": "Enclosure",
+   "value": "Metal enclosure"
+  },
+  {
+   "label": "Battery backup",
+   "value": "Yes"
+  },
+  {
+   "label": "Application",
+   "value": "Security / access-control systems"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "X1100C"
  ]

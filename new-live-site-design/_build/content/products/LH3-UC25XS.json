@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Horn loudspeaker, Ex-proof, short flare",
- "specs": []
+ "specs": [
+  {
+   "label": "Power",
+   "value": "1.5 W, 5W, 15W, 25 W, 6.5W, 2.5W"
+  },
+  {
+   "label": "SPL",
+   "value": "115 dB"
+  }
+ ],
+ "spec_src": "inventory"
 }

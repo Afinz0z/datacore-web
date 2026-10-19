@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "5PX G2 UPS, 2U, 1440 VA, 1440 W, 5-15P input, Outputs: (8) 5-15R, 120V",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "1440"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid battery"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "120 V"
+  }
+ ],
+ "spec_src": "inventory"
 }

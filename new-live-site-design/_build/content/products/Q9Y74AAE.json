@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking Central Switch Class-3 Foundation 3-year Subscription E-STU",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "Foundation License (Subscription-Based)"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "JL658A"
  ]

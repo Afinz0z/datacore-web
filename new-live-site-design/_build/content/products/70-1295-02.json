@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cable Cubby F55 Cable Cubby F55, Black, No AC",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Flush Mount / Flip-Top"
+  },
+  {
+   "label": "Power modules",
+   "value": "No"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Module/Chassis"
+  }
+ ],
+ "spec_src": "inventory"
 }

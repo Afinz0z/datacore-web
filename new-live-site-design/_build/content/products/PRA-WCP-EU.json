@@ -7,5 +7,35 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch Remote Source Selector / Volume Controller, Wall control panel, EU-style Local control of music source and volume in different zones",
- "specs": []
+ "specs": [
+  {
+   "label": "Connection",
+   "value": "PoE"
+  },
+  {
+   "label": "Status screen",
+   "value": "LCD"
+  },
+  {
+   "label": "Protocols / standards",
+   "value": "TCP/IP; AES70"
+  },
+  {
+   "label": "Display size",
+   "value": "1.77 in"
+  },
+  {
+   "label": "Display resolution",
+   "value": "128 x 160 px"
+  },
+  {
+   "label": "Power consumption (W)",
+   "value": "1.30 W"
+  },
+  {
+   "label": "Dimensions (H x W x D) (mm)",
+   "value": "81 x 70 x 47.3 mm"
+  }
+ ],
+ "spec_src": "inventory"
 }

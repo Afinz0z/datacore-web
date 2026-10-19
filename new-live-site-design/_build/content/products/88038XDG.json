@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "License for WAP"
+  },
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "CloudCampus Foundation License"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  },
+  {
+   "label": "WIFI",
+   "value": "1 Device"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "50086767-001"
  ]

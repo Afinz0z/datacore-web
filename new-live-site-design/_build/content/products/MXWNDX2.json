@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Networked Dock - 2 Bay",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Docking Stations"
+  }
+ ],
+ "spec_src": "inventory"
 }

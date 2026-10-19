@@ -7,5 +7,35 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "S5735-S48P4XE-V2 (48*10/100/1000BASE-T ports(PoE+), 4*10GE SFP+ ports, 2*12GE stack ports, without power module, Specially protected models)_Co-Care Basic S5735-S48P4X_36Month(s)",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Network Switch / Ethernet / PoE"
+  },
+  {
+   "label": "Device type",
+   "value": "Managed Ethernet PoE+ Switch"
+  },
+  {
+   "label": "10GE SFP+ ports",
+   "value": "4 ports"
+  },
+  {
+   "label": "Stack ports",
+   "value": "2 × 12GE"
+  },
+  {
+   "label": "10/100/1000base-t ports",
+   "value": "48 ports, PoE+"
+  },
+  {
+   "label": "Power module",
+   "value": "Not included"
+  },
+  {
+   "label": "Special protection",
+   "value": "Specially protected model"
+  }
+ ],
+ "spec_src": "inventory"
 }

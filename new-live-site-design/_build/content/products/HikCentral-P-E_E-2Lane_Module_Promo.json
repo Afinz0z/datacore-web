@@ -8,5 +8,63 @@
  "avail": "lead",
  "model": "HCP",
  "d": "HikCentral-P-E&E-2Lane/Module/Promo",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Entrance & Exit 2-Lane Module"
+  },
+  {
+   "label": "Category",
+   "value": "Entrance & Exit / Parking Management"
+  },
+  {
+   "label": "Access control",
+   "value": "Related to vehicle entrance/exit management"
+  },
+  {
+   "label": "Type",
+   "value": "Software License, Module"
+  },
+  {
+   "label": "Application",
+   "value": "Vehicle entrance and exit management"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Enables management of 2 entrance/exit lanes in HikCentral Professional"
+  },
+  {
+   "label": "Capacity",
+   "value": "2 Lanes"
+  },
+  {
+   "label": "System",
+   "value": "HikCentral Professional"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Compatible Hikvision entrance/exit devices, barriers, ANPR/LPR cameras, etc."
+  },
+  {
+   "label": "Associated product",
+   "value": "HikCentral Professional"
+  },
+  {
+   "label": "Supporting product",
+   "value": "HikCentral Professional base/platform license"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per 2 lanes / module"
+  },
+  {
+   "label": "Warranty",
+   "value": "As per license/service terms"
+  }
+ ],
+ "spec_src": "inventory"
 }

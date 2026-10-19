@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "DMP 128 Plus C V AT",
  "d": "DMP 128 Plus C V AT -12x8 ProDSP Digital Matrix Processor with AEC, VoIP and Dante",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "12"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "VoIP support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

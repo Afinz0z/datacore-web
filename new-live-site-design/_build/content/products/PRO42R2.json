@@ -11,8 +11,45 @@
   {
    "label": "Type",
    "value": "Dual reader board"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Wiegand Connectivity: Supports 2-door / 2-reader connectivit, OSDP Connectivity: Supports 2-door / 4-reader connectivity"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand, OSDP (v2 / Secure Channel - if supported)"
+  },
+  {
+   "label": "Communication",
+   "value": "RS-485 / CAN bus, AES / TLS (model dependent)"
+  },
+  {
+   "label": "Power",
+   "value": "Approx. 300-800 mA (without peripherals)"
+  },
+  {
+   "label": "Operating temperature",
+   "value": ": 0°C to +50°C"
+  },
+  {
+   "label": "Humidity",
+   "value": "0-95% non-condensing"
+  },
+  {
+   "label": "Mounting",
+   "value": ": Wall mounted (metal enclosure / DIN rail), Enclosure"
+  },
+  {
+   "label": "Compliance",
+   "value": "CE / FCC / RoHS"
+  },
+  {
+   "label": "Certifications",
+   "value": "Safety: UL-294, IEC 62368-1, EMC: FCC, CE, IC, KCC, BSMI, Environmental: RoHS, REACH"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "PRO42IC"
  ]

@@ -7,7 +7,73 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "CloudEngine S5735-L48P4XE-A-V2 - 48 × Gigabit PoE+ access ports, 4 × 10G SFP+ uplink ports, 2 × 12GE stack ports, built-in AC power, Layer 3 managed access switch.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "52"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "PoE power",
+   "value": "846 W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "VLAN, Voice VLAN, STP, RSTP, MSTP, LLDP / LLDP-MED / CDP, Port mirroring (SPAN)"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Policy-based routing (PBR), IPv4 / IPv6 Dual Stack, OSPF / OSPFv3, Policy-Based Routing (PBR)"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Access Control Lists (ACLs)"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Redundant fan modules, Non-blocking architecture, Enterprise-grade MTBF"
+  },
+  {
+   "label": "Multicast",
+   "value": "IGMP v1, IGMP v2, IGMP v3, IGMP Snooping, PIM Sparse Mode (PIM-SM)"
+  },
+  {
+   "label": "QoS (Quality of service)",
+   "value": "Hardware-based QoS at wire speed, Traffic classification & marking (CoS / DSCP), Priority queuing for voice & video, Policing, shaping, CIR, Up to 8 egress queues per port, Queue Management, DSCP Support"
+  },
+  {
+   "label": "Security",
+   "value": "IEEE 802.1X Port-based Authentication, MAC Authentication Bypass (MAB), ACLs (IPv4 / IPv6 / MAC), DHCP Snooping, Dynamic ARP Inspection (DAI), IP Source Guard, Web Authentication (WebAuth)"
+  },
+  {
+   "label": "Stacking technology",
+   "value": "iStack"
+  },
+  {
+   "label": "Maximum stack members",
+   "value": "Up to 9"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "4"
+  },
+  {
+   "label": "Uplink port",
+   "value": "4 × 10G SFP+"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "02311VGN",
   "88134UGQ-2L7",

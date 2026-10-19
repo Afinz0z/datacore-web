@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "SLXD1+",
  "d": "Bodypack Transmitter",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "470 to 606 MHz"
+  },
+  {
+   "label": "Type",
+   "value": "Bodypack Transmitter"
+  }
+ ],
+ "spec_src": "inventory"
 }

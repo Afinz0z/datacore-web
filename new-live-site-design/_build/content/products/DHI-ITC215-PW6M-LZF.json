@@ -7,5 +7,63 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "2MP short range access ANPR camera(850nm built-in white light illuminator",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "2 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "DC auto iris"
+  },
+  {
+   "label": "WDR",
+   "value": "96 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "10m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "25 fps, 30 fps"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "128 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265 , MJPEG"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Support alarm triggering by specified target types (human and vehicle)"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Capture picture overlay",
+   "value": "Plate Number, Vehicle Color Vehicle Type"
+  },
+  {
+   "label": "Lens type",
+   "value": "3.1mm to 6mm"
+  },
+  {
+   "label": "IR wavelength",
+   "value": "850 nm"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,49 @@
   {
    "label": "Type",
    "value": "ACS Main Controller"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Wiegand Connectivity: Supports 2-door / 2-reader connectivit, OSDP Connectivity: Supports 2-door / 4-reader connectivity"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand, OSDP (v2 / Secure Channel - if supported)"
+  },
+  {
+   "label": "Communication",
+   "value": "Ethernet (TCP/IP - 10/100 Mbps), RS-485 / CAN bus, AES / TLS (model dependent)"
+  },
+  {
+   "label": "Memory",
+   "value": "Cardholder Capacity: 50,000 - 250,000 cards"
+  },
+  {
+   "label": "Power",
+   "value": "12 VDC / 24 VDC"
+  },
+  {
+   "label": "Operating temperature",
+   "value": ": 0°C to +50°C"
+  },
+  {
+   "label": "Humidity",
+   "value": "'-55°C to +85°C"
+  },
+  {
+   "label": "Mounting",
+   "value": ": Wall mounted (metal enclosure / DIN rail)"
+  },
+  {
+   "label": "Compliance",
+   "value": "CE / FCC / RoHS"
+  },
+  {
+   "label": "Certifications",
+   "value": "Safety: UL-294, IEC 62368-1, EMC: FCC, CE, IC, KCC, BSMI, Environmental: RoHS, REACH, Security: NIST certified encryption"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "SSI- Guard - WOB"
  ]

@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "Angled"
+  },
+  {
+   "label": "Ports",
+   "value": "Duplex"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "No slot",
+   "value": "2"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

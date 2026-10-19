@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Poly+ Partner - Extended Service - 3 Year - Service Studio E70",
- "specs": [],
+ "specs": [
+  {
+   "label": "Duration (Year)",
+   "value": "3"
+  },
+  {
+   "label": "Service type",
+   "value": "Extended service agreement"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "842F8AA"
  ]

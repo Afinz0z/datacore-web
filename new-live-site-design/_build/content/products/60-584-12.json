@@ -12,8 +12,21 @@
   {
    "label": "Type",
    "value": "Mounting Frame"
+  },
+  {
+   "label": "Mount category",
+   "value": "Gang Mounting Frame"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "60-1030-11",
   "60-1785-02"

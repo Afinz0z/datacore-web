@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "EMS20",
  "d": "Ems20 Emergency Microphone Station 20 Button",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Emergency Microphone Station"
+  }
+ ],
+ "spec_src": "inventory"
 }

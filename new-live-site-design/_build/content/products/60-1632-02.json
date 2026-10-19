@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "EBP 1200C",
  "d": "EBP 1200C Cable Cubby eBUS Button Panel - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Control interface"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1219-02",
   "70-1219-03",

@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "USB-C HD 101",
  "d": "USB-C HD 101 - USB-C to HDMI Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "USB-C"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Speed",
+   "value": "18 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

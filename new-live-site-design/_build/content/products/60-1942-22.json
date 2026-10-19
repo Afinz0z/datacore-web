@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "AXI 22 AT D Plus & WPD 102 XLRM",
  "d": "AXI 22 AT D Plus & WPD 102 XLRM AXI 22 AT D Plus & WPD 102 XLRM Kit - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Connectors",
+   "value": "XLR"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Input signal types",
+   "value": "Balanced/Unbalanced"
+  },
+  {
+   "label": "Output signal types",
+   "value": "Balanced/Unbalanced"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz to 20 kHz"
+  },
+  {
+   "label": "Inputs",
+   "value": "XLR"
+  },
+  {
+   "label": "Output",
+   "value": "RJ45, 6-pin 3.5 mm terminal block"
+  }
+ ],
+ "spec_src": "inventory"
 }

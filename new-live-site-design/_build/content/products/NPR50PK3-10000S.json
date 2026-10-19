@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "INSIGHT PRO 50 PACK 3 YEAR (50 AP)",
- "specs": []
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "WIFI",
+   "value": "50 Device"
+  }
+ ],
+ "spec_src": "inventory"
 }

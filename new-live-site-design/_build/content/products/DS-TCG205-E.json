@@ -11,8 +11,177 @@
   {
    "label": "Type",
    "value": "ANPR Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "2 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motororized Varifocal lens"
+  },
+  {
+   "label": "WDR",
+   "value": "140 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/3\""
+  },
+  {
+   "label": "Frame rate",
+   "value": "25 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IK10, IP67"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265 , MJPEG"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, HTTP, FTP, DHCP, DNS, RTP, NTP"
+  },
+  {
+   "label": "API",
+   "value": "ISAPI, SDK"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, complicated password, HTTPS encryption, IP address filter, Security Audit Log, TLS 1.1/1.2, WSSE and digest authentication for Open Network Video Interface, TLS 1.2/1.3"
+  },
+  {
+   "label": "Network storage",
+   "value": "NAS (NFS, SMB/CIFS), Auto Network Replenishment (ANR), Together with high-end Hikvision memory card"
+  },
+  {
+   "label": "Web browser",
+   "value": "Plug-in required live view: IE11, Plug-in free live view: Chrome 80+, Firefox 80+, Edge 89+, Safari 13+, Local service: Chrome 80+, Firefox 80+, Edge 89+, Safari 13+"
+  },
+  {
+   "label": "Image parameters switch",
+   "value": "YES"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Schedule"
+  },
+  {
+   "label": "Image settings",
+   "value": "Rotate mode, Saturation, Brightness, Contrast, Sharpness, Gain, White Balance, Adjustable by client Software, Web browser"
+  },
+  {
+   "label": "SNR",
+   "value": "≥ 52 dB"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "3D DNR"
+  },
+  {
+   "label": "Iris type",
+   "value": "Auto-iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.3"
+  },
+  {
+   "label": "Trigger type",
+   "value": "Video Detection, I/O Coil, Radar Mixed Traffic"
+  },
+  {
+   "label": "Picture type",
+   "value": "Scene Picture, Scene Picture + Close-up Picture"
+  },
+  {
+   "label": "Scene mode",
+   "value": "Entrance & Exit Toll Gate, Underground Parking Entrance & Exit"
+  },
+  {
+   "label": "Capture type",
+   "value": "Strobe Light Mode"
+  },
+  {
+   "label": "Image format",
+   "value": "JPEG"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "1920x1080"
+  },
+  {
+   "label": "License plate recognition",
+   "value": "Forward, Backward, Bidirection"
+  },
+  {
+   "label": "Smart recognition",
+   "value": "ANPR, Motor Vehicle Feature, Vehicle Color Recognition"
+  },
+  {
+   "label": "Capture picture overlay",
+   "value": "Location, Capture Time, Plate Number, Capture No, Vehicle Color Vehicle Type"
+  },
+  {
+   "label": "Lens type",
+   "value": "3.1mm to 6mm"
+  },
+  {
+   "label": "Focal length & FOV",
+   "value": "3.2 - 8.5 mm"
+  },
+  {
+   "label": "Focus",
+   "value": "Auto, Vari-focal lens, motor-driven lens"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 30 m"
+  },
+  {
+   "label": "Smart supplement light",
+   "value": "YES"
+  },
+  {
+   "label": "IR wavelength",
+   "value": "850 nm"
+  },
+  {
+   "label": "Shutter time",
+   "value": "1/3 s to 1/100, 000 s"
+  },
+  {
+   "label": "Audio compression",
+   "value": "G.711ulaw, G.722.1, MP2L2"
+  },
+  {
+   "label": "Audio bit rate",
+   "value": "64 Kbps (G.711ulaw/G.711alaw), 16 Kbps (G.722.1), 16 Kbps to 64 Kbps (AAC-LC), 32 to 192 Kbps (MP2L2)"
+  },
+  {
+   "label": "Audio sampling rate",
+   "value": "8 kHz, 16 kHz, 32 kHz, 44.1 kHz, 48 kHz"
+  },
+  {
+   "label": "Environment noise filtering",
+   "value": "YES"
+  },
+  {
+   "label": "Max. resolution",
+   "value": "2MP-1920*1080-Full HD (1080p)"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "190501359"
  ]

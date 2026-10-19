@@ -8,7 +8,49 @@
  "avail": "lead",
  "model": "TLP Pro 725M",
  "d": "TLP Pro 725M 7\" Wall Mount TouchLink® Pro Touchpanel - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "7\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1024 x 600"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Ethernet"
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "17:10"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "420 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1137-02",
   "70-1140-22",

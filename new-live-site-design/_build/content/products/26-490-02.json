@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "VGA-A M-M MD/6",
  "d": "VGA-A M-M MD/6 VGA with Audio Cable: 15-pin HD Male to Male Molded - 6' (1.8 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Cable type",
+   "value": "VGA with Audio"
+  }
+ ],
+ "spec_src": "inventory"
 }

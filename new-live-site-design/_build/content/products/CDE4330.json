@@ -9,10 +9,15 @@
  "d": "43\", 4K, 450 nits, Android 11, Landscape & Portrait mode, Daisy Chain 3x3, USB Type C (vController / Viewboard Cast / myViewBoard Display / Revel Digital); no OPS slot",
  "specs": [
   {
+   "label": "Display size",
+   "value": "43\""
+  },
+  {
    "label": "Type",
-   "value": "Non Interactive"
+   "value": "Non-interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-CMBB-65",
   "LG-Emerald1",

@@ -9,8 +9,17 @@
  "d": "C1017-08-0305 -4C 18AWG SHIELDED CABLE B3 305MTR",
  "specs": [
   {
+   "label": "Cores(Conductors)",
+   "value": "4 Core"
+  },
+  {
+   "label": "Cable length",
+   "value": "305m"
+  },
+  {
    "label": "Unit",
    "value": "Reel"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

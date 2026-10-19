@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "AXI 44 AT",
  "d": "AXI 44 AT 4 In, 4 Out Dante Audio Interface w/ DDM & AES67",
- "specs": []
+ "specs": [
+  {
+   "label": "Signal type",
+   "value": "Dante"
+  },
+  {
+   "label": "Connector type",
+   "value": "6-pin 3.5 mm"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Channel count",
+   "value": "4"
+  },
+  {
+   "label": "Type",
+   "value": "Dante Interface"
+  }
+ ],
+ "spec_src": "inventory"
 }

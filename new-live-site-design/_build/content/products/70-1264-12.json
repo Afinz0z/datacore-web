@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MMK 1 TLS 525M Mullion Mount Kit - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Scheduling/Booking panel"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1561-102",
   "60-1561-103"

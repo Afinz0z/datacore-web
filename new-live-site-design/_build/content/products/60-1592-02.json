@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cable Cubby 100 UK AC Cable Cubby 100 UK AC, Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Power modules",
+   "value": "AC Outlets"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Power Supply"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1219-02",
   "70-1219-03",

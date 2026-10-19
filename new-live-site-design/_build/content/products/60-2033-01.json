@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "CPI 51",
  "d": "CPI 51 Cable Power Injector for Extron Active Cables",
- "specs": []
+ "specs": [
+  {
+   "label": "Output",
+   "value": "5 VDC, 1.00 A"
+  }
+ ],
+ "spec_src": "inventory"
 }

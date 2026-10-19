@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Fixed Wall Mount with Tilt Bracket -LGWM-3265T Support 32\" to 65\" Flat Panels. Max Loading Capacity - 40Kg",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static), Tilting"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "32SM5J",
   "CDE4330",

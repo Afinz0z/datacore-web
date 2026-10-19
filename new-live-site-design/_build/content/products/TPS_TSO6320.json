@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "TPS_TSO6320",
  "d": "Video storage 2TB",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Storage"
+  },
+  {
+   "label": "Storage",
+   "value": "2 TB"
+  }
+ ],
+ "spec_src": "inventory"
 }

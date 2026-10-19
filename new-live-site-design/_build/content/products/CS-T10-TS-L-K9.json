@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cisco Room Navigator Table Stand, First Light (White)-SPARE",
- "specs": [],
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "10\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1920 x 1200"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CON-SNT-CST10LQS"
  ]

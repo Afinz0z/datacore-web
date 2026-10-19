@@ -10,8 +10,25 @@
  "d": "IPDU A SERIES, 16C13, 4C19, 32A 1PHASE - EN - P/N. 4110621 - Datwyler",
  "specs": [
   {
-   "label": "Type",
-   "value": "Rackmount kit"
+   "label": "TYPE",
+   "value": "VERTICAL"
+  },
+  {
+   "label": "C19 - sockets",
+   "value": "4"
+  },
+  {
+   "label": "C13 sockets",
+   "value": "16"
+  },
+  {
+   "label": "Plug",
+   "value": "IEC 60309 2P+E 6h 32A"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

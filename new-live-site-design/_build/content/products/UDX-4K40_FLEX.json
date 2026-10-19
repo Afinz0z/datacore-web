@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Barco UDX-4K40 FLEX 37,500 lumens, 4K UHD 3-chip DLP laser phosphor large venue projector. format",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection resolution",
+   "value": "4K UHD (3840 x 2400)"
+  },
+  {
+   "label": "Light source type",
+   "value": "Laser"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CMS0305",
   "CMS115",

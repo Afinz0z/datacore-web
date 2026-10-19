@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "NY64-D",
  "d": "Yamaha Dante Card NY64-D",
- "specs": [],
+ "specs": [
+  {
+   "label": "I/O",
+   "value": "Output"
+  },
+  {
+   "label": "Type of card",
+   "value": "Dante"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "TF-5"
  ]

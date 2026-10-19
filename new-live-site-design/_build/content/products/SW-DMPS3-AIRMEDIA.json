@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "SW-DMPS3-AIRMEDIA",
  "d": "AirMedia® License for DMPS3-4K-250-C & DMPS3-4K-350-C",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Presentation system"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6511848",
   "6511850"

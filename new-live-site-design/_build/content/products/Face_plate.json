@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "Dual port"
+  },
+  {
+   "label": "Ports",
+   "value": "Duplex"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

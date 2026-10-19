@@ -11,6 +11,35 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "3 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "130 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "40"
+  },
+  {
+   "label": "Frame rate",
+   "value": "50 fps, 60 fps"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "SNR",
+   "value": ">50 db"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

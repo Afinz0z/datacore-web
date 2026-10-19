@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Signo40K, Wall mount w/Keypad, 13.56mHz Profile , OSDP/Wiegand, Terminal, Mobile Ready, BLE",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Mobile Credentials, BLE Mobile Access"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP65"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "125 kHz HID Prox, 13.56 MHz MIFARE / DESFire EV1/EV2/EV3 / iCLASS / FeliCa / Seos"
+  }
+ ],
+ "spec_src": "inventory"
 }

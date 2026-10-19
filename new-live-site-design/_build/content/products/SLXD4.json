@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SLXD4+ Digital Wireless Receiver",
- "specs": []
+ "specs": [
+  {
+   "label": "Frequency range",
+   "value": "470 to 937.5 MHz"
+  },
+  {
+   "label": "Channels",
+   "value": "Single"
+  },
+  {
+   "label": "Outputs",
+   "value": "XLR"
+  },
+  {
+   "label": "Dante support",
+   "value": "No"
+  },
+  {
+   "label": "Connector type",
+   "value": "BNC"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "XTP CP 4o SA",
  "d": "XTP CP 4o SA Four Output, Stereo Audio",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio output",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
+   "label": "Type",
+   "value": "Output Card"
+  }
+ ],
+ "spec_src": "inventory"
 }

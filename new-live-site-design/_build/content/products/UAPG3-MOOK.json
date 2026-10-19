@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "PA Audio Processor"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "4"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "I/O card slots",
+   "value": "4"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

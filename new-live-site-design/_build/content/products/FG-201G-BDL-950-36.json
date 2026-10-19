@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FortiGate-201G Hardware plus 3 Year FortiCare Premium and FortiGuard Unified Threat Protection (UTP)",
- "specs": [],
+ "specs": [
+  {
+   "label": "IP",
+   "value": "IPV4 , IPV6"
+  },
+  {
+   "label": "Traffic encryption",
+   "value": "SSL, TLS"
+  },
+  {
+   "label": "Rack mountable",
+   "value": "19\" chassis design"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "FN-TRAN-SFP+SR"
  ]

@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DSC 401",
  "d": "DSC 401 4K/60 HDMI to HDMI Scaler",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "spec_src": "inventory"
 }

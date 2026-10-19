@@ -7,5 +7,43 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Piezo Siren with LED Strobe Beacon, 110 dB",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of accessories",
+   "value": "Audible Alarm / Electric Horn Accessories."
+  },
+  {
+   "label": "Type",
+   "value": "electronic horn"
+  },
+  {
+   "label": "Rack size",
+   "value": "5.12 inch"
+  },
+  {
+   "label": "Function",
+   "value": "Provides an audible warning/alarm signal for security, emergency, or industrial applications."
+  },
+  {
+   "label": "Bracket type",
+   "value": "wall mount bracket"
+  },
+  {
+   "label": "Mounting type",
+   "value": "wall mounting"
+  },
+  {
+   "label": "Casing material",
+   "value": "ABS plastic"
+  },
+  {
+   "label": "Gross weight",
+   "value": "0.65 kg"
+  },
+  {
+   "label": "Working temperature",
+   "value": "-30°C to +50°C"
+  }
+ ],
+ "spec_src": "inventory"
 }

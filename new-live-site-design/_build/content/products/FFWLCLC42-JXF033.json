@@ -11,6 +11,27 @@
   {
    "label": "Type",
    "value": "Patchcord 10 Meter"
+  },
+  {
+   "label": "Length",
+   "value": "10 Mtr"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "singlemode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "blue"
+  },
+  {
+   "label": "Fiber count",
+   "value": "2 Fibers (Duplex)"
+  },
+  {
+   "label": "Fiber grade",
+   "value": "OS2 9/125 µm"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

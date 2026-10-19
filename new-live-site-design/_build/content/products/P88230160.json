@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "1yr Partner Poly+ HP Mini Conferencing PC with Microsoft Teams Rooms",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "1 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "Mini PC Microsoft Teams Rooms"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "A1ZB6AW"
  ]

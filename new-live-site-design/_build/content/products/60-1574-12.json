@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "MGP 641 xi SDI",
  "d": "MGP 641 xi SDI 4K/60 HDMI Multi-Window Processor with HDMI and 12G-SDI inputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI, RJ45, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

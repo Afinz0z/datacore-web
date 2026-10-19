@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LANmark-OF Pigtail LC OM4 Maxistrip LSZH 50/125 1m Aqua",
- "specs": [],
+ "specs": [
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Length",
+   "value": "1m"
+  },
+  {
+   "label": "Colour",
+   "value": "aqua"
+  },
+  {
+   "label": "Connector type",
+   "value": "LC"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "N167.MBUN06"
  ]

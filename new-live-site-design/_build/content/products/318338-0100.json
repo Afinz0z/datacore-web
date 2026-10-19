@@ -6,7 +6,21 @@
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Bi-Pivot"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "040189",
   "317302-0100"

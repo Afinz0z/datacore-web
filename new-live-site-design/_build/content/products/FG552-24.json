@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HPX-AV101-HDMI | HPX-AV101-HDMI Single HDMI Module with Integrated Cable provides an HDMI pass-through connection to HydraPort HPX-600 900 1200 and 1600 Connection Ports",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Cable"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "HDMI to HDMI"
+  },
+  {
+   "label": "Cable length",
+   "value": "2m"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "FG560-01-BL"
  ]

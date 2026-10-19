@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "R9862010 | TLD+ LENS 1.5-2.0 | 1.39-1.87:1 (WUXGA) ; 1.48-2.0:1 (WQXGA/4KUHD) ; 1.5-2.0:1 (SXGA+) | COO China",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Wide Throw"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "R9410850-B"
  ]

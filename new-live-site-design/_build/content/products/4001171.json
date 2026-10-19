@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "48 Ports Cat 6A Patch Panel 19\" 2U, Empty, Black Color",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category TYPE",
+   "value": "CAT6A"
+  },
+  {
+   "label": "Ports",
+   "value": "48 PORT"
+  },
+  {
+   "label": "Module termination",
+   "value": "UNLOADED"
+  },
+  {
+   "label": "Mounting SIZE",
+   "value": "2U"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "4000700"
  ]

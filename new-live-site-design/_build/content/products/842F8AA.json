@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Poly Studio E70 Smart Camera (842F8AA) Dual camera with 20-megapixel 4K sensors",
- "specs": [],
+ "specs": [
+  {
+   "label": "Max resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Digital zoom",
+   "value": "7.3x"
+  },
+  {
+   "label": "Feature",
+   "value": "Auto framing, Speaker tracking"
+  },
+  {
+   "label": "Maximum distance",
+   "value": "6 m"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "P87090362"
  ]

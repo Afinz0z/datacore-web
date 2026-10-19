@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "UC-C100-Z",
  "d": "UC-C100-Z Crestron Flex Video Conference System Integrator Kit for Zoom Rooms® Software",
- "specs": []
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Display support",
+   "value": "3"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Zoom"
+  },
+  {
+   "label": "Type",
+   "value": "Kit"
+  },
+  {
+   "label": "Included components in kit",
+   "value": "Tabletop touch screen, UC bracket"
+  },
+  {
+   "label": "UC engine spec",
+   "value": "Mini PC, Intel Core® processor with Windows® 11 IoT Edition OS and 100/1000 Mbps Ethernet connectivity"
+  }
+ ],
+ "spec_src": "inventory"
 }

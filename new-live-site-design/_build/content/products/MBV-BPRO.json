@@ -7,7 +7,89 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-CCTV BVMS Professional 11.0 orLatest, Base license Germany",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "As per license/subscription terms"
+  },
+  {
+   "label": "Number of camera's",
+   "value": "camera capacity depends on the BVMS edition/system configuration"
+  },
+  {
+   "label": "Software license type",
+   "value": "BVMS Professional Base License"
+  },
+  {
+   "label": "Maximum duration of recording",
+   "value": "Depends on storage/recording configuration"
+  },
+  {
+   "label": "Category",
+   "value": "VMS, CCTV"
+  },
+  {
+   "label": "Channels support",
+   "value": "Depends on licensed BVMS capacity"
+  },
+  {
+   "label": "Base license",
+   "value": "Base License"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported through BVMS system architecture"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "VMS / Software Integration"
+  },
+  {
+   "label": "Application",
+   "value": "Video surveillance management"
+  },
+  {
+   "label": "License type",
+   "value": "Software license"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides the core Bosch BVMS Professional platform for centralized video surveillance management"
+  },
+  {
+   "label": "Capacity",
+   "value": "As defined by BVMS Professional licensing and system architecture"
+  },
+  {
+   "label": "System",
+   "value": "Bosch Video Management System"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Bosch IP cameras, recording servers, storage and compatible devices"
+  },
+  {
+   "label": "Associated product",
+   "value": "Bosch BVMS Professional"
+  },
+  {
+   "label": "Supporting product",
+   "value": "Bosch CCTV/IP surveillance devices"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Base/platform license; additional capacity/features may require separate licenses"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "MBV-MPRO"
  ]

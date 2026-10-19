@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB3-BTNDSK-T_BLANK Medium Backlit Engravable Button Cap for Cameo Keypads, Dusk Textured, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Dusk"
+  },
+  {
+   "label": "Finish",
+   "value": "Textured"
+  }
+ ],
+ "spec_src": "inventory"
 }

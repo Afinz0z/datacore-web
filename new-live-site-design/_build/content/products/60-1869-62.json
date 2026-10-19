@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP3 T 202",
  "d": "DTP3 T 202 4K/60 HDMI DTP3 Transmitter with Input Loop-Through and Audio Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

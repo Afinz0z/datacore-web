@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "SM 28T",
  "d": "SM 28T SpeedMount Two-Way Surface Mount Speakers with 8\" Woofer and 70/100 V Transformer - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted, Surface Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "90 W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "59 Hz to 22 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "108 dB"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Woofer",
+   "value": "8\""
+  },
+  {
+   "label": "Transformer taps",
+   "value": "70 V: 64 W, 32 W, 16 W, 8 W, 100 V: null, 64 W, 32 W, 16 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

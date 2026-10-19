@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "SW2 USB",
  "d": "SW2 USB Two Input USB Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "2x4"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "USB"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, USB-B"
+  }
+ ],
+ "spec_src": "inventory"
 }

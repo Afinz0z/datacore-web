@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SACO FRX4",
  "d": "Advanced fiber optic video receiver and data processing device",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  }
+ ],
+ "spec_src": "inventory"
 }

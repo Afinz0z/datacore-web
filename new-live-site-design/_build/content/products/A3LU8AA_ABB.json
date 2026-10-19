@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "A3LU8AA#ABB",
  "d": "Poly Studio Base Kit G9 Plus for Microsoft Teams HP Mini IP PC w/TC10",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software compatibility",
+   "value": "Microsoft Teams"
+  },
+  {
+   "label": "Included components in kit",
+   "value": "Tabletop touch screen, PC"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "U95JBPV"
  ]

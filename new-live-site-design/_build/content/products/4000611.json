@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "42U Floor standing cabinet 800 x 800mm with accessories (4Fans,1x6way PDU & 2pcs vertical cable manager2pcs Shelves)",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,21 @@
   {
    "label": "Type",
    "value": "Wall Mounted"
+  },
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "22SM3G",
   "32SM5J",

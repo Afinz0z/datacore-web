@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "•Intel i5 processor *Intel® iris Xe Graphics support up to 3 screens output at the same time *Intel® Dual Band AX200 WiFi 6 •Embedded with Windows 11 Pro License •16GB RAM, 256GB SSD storage",
- "specs": []
+ "specs": [
+  {
+   "label": "Processor",
+   "value": "i5"
+  },
+  {
+   "label": "RAM",
+   "value": "16 GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

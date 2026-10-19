@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "PRO-4200 & PW-7000 Ancillaries - Rack mount enclosure designed to hold up to eight modules (any combination of reader, input or output) - Requires PRO420PSU & PRO22BAT1",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Wall Mount"
+  },
+  {
+   "label": "Dimensions",
+   "value": "353.0 mm H × 431.8 mm W × 228.6 mm D"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "PRO22BAT1",
   "PRO22DCC"

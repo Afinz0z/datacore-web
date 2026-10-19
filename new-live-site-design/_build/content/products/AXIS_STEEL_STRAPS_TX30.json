@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Pole mount"
+  },
+  {
+   "label": "Max decoding resolution",
+   "value": "IK10, IP66"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "AXIS P3277-LV",
   "AXIS Q6358-LE US"

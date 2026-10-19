@@ -7,7 +7,41 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "RitchField 19\" Blank Patch Panel Un-Shielded with supporting bar, 1U, 24 port",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "24 PORT"
+  },
+  {
+   "label": "Module termination",
+   "value": "UNLOADED"
+  },
+  {
+   "label": "Mounting SIZE",
+   "value": "1U"
+  },
+  {
+   "label": "No. of ports",
+   "value": "24 ports"
+  },
+  {
+   "label": "Panel style",
+   "value": "Flat"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Wiring",
+   "value": "T568A / T568B"
+  },
+  {
+   "label": "Safety",
+   "value": "UL / cUL"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "RF5HCBR19-1U"
  ]

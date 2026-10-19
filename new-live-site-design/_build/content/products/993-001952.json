@@ -6,5 +6,23 @@
  "c": "Video Conferencing System",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Cat6a",
+   "value": "16.4 ft (5m)"
+  },
+  {
+   "label": "Blueetooth",
+   "value": "Yes"
+  },
+  {
+   "label": "Video interfaces",
+   "value": "HDMI Type A (Input)-Wired content sharing, HDMI Type A (Output)-Display connection, USB Type-C (Ultra HD / 4K capable)-Video + data support"
+  },
+  {
+   "label": "USB interfaces",
+   "value": "USB Type-B, USB Type-A"
+  }
+ ],
+ "spec_src": "inventory"
 }

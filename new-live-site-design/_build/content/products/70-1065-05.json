@@ -9,10 +9,19 @@
  "d": "Retractor USB 2.0 Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - USB A to USB A",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "USB A"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "USB A to USB A"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

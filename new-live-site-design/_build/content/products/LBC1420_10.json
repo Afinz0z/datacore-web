@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch LBC1420/10 Volume Controls 100 W version Available in power-save or failsafe versions Built-in 24 VDC override relay",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power",
+   "value": "100 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz to 20 kHz (-1 dB)"
+  }
+ ],
+ "spec_src": "inventory"
 }

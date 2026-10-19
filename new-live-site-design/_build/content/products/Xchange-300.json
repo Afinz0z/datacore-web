@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "Xchange-300",
  "d": "CD/USB/SD Player & AM/FM RDS RECEIVER",
- "specs": []
+ "specs": [
+  {
+   "label": "Dual output architecture",
+   "value": "Separate outputs for CD/USB/SD and Radio simultaneously"
+  },
+  {
+   "label": "Balanced & unbalanced outputs",
+   "value": "XLR + RCA, 0-1V RMS"
+  },
+  {
+   "label": "Multi-Source playback",
+   "value": "CD, USB, SD, AM/FM RDS"
+  },
+  {
+   "label": "Rs-485 control interface",
+   "value": "External system integration"
+  }
+ ],
+ "spec_src": "inventory"
 }

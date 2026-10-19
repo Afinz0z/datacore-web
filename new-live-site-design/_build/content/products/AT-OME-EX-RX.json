@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "Receiver"
+  },
+  {
+   "label": "None",
+   "value": "Rx"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,59 @@
  "avail": "lead",
  "model": "TLP Pro 525T",
  "d": "TLP Pro 525T - 5\" Tabletop TouchLink® Pro Touchpanel - Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "5\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "800 x 480"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Ethernet"
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "5:3"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "850 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "700:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory"
 }

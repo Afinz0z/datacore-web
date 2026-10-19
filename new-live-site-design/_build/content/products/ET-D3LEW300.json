@@ -6,7 +6,17 @@
  "c": "Projector Lens",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lens type",
+   "value": "Zoom Lens"
+  },
+  {
+   "label": "Weight",
+   "value": "8kg"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "PT-RQ18K"
  ]

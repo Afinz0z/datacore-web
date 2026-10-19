@@ -13,10 +13,27 @@
    "value": "Indoor"
   },
   {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 7 (IEEE 802.11be)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz, 6 GHz"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": tri-band"
+  },
+  {
+   "label": "MIMO",
+   "value": "2x2 MU-MIMO"
+  },
+  {
    "label": "Series",
    "value": "FortiAP 231K"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "FC-10-P231K-247-02-12"
  ]

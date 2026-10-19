@@ -9,10 +9,19 @@
  "d": "Retractor SM HDMI HDMI Show Me",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "HDMI"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "HDMI to HDMI"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

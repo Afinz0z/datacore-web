@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "SAK PTZ SB 33",
  "d": "SAK PTZ SB 33 PTZ Camera Shelf for SB 33 A Sound Bar",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Camera"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Surface"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1737-11",
   "60-1737-12",

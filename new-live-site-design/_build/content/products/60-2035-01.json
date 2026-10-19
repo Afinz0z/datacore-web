@@ -7,5 +7,39 @@
  "dept": "AV",
  "avail": "lead",
  "d": "NetPA U 4004 FX - Four Ch Configurable Output Dante Amp, 400 Watts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "400 W"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "2-pin 3.5 mm terminal block"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω"
+  },
+  {
+   "label": "Distribution",
+   "value": "70 V, 100 V"
+  }
+ ],
+ "spec_src": "inventory"
 }

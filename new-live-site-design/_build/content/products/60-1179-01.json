@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "DMP 128 C P",
  "d": "DMP 128 C P 12x8 ProDSP Digital Matrix Processor with AEC and POTS",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "12"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB, RJ-45, RS232"
+  },
+  {
+   "label": "Features",
+   "value": "Automixer, AEC, POTS"
+  }
+ ],
+ "spec_src": "inventory"
 }

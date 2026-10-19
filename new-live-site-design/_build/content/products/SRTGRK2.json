@@ -12,8 +12,13 @@
   {
    "label": "Type",
    "value": "battery rail kit"
+  },
+  {
+   "label": "Supported rack type",
+   "value": "19\" Rack"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "SRTG20KXLI"
  ]

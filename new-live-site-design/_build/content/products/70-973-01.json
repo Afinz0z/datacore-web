@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "RFF 054",
  "d": "RFF 054 Basic Rack False Faceplate Kits: Quarter-Rack Width, 1\"",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack width",
+   "value": "1\""
+  },
+  {
+   "label": "Type",
+   "value": "False Faceplate"
+  }
+ ],
+ "spec_src": "inventory"
 }

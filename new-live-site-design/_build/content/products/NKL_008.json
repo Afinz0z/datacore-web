@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Neckloop. 18\" cord + adapter. 3.5mm stereo plug. For use only with WAV Pro receiver (WF R2).",
- "specs": []
+ "specs": [
+  {
+   "label": "Length",
+   "value": "18.5”"
+  }
+ ],
+ "spec_src": "inventory"
 }

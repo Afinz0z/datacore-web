@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch Cabinet loudspeaker, 15W. White Selectable 8 ohm, 70 V and 100 V inputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Passive"
+  },
+  {
+   "label": "Power",
+   "value": "15W"
+  }
+ ],
+ "spec_src": "inventory"
 }

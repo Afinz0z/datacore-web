@@ -10,9 +10,30 @@
  "specs": [
   {
    "label": "Type",
-   "value": "Acs Sub controller"
+   "value": "Door/Reader Interface Module"
+  },
+  {
+   "label": "Access points",
+   "value": "Up to 2 doors"
+  },
+  {
+   "label": "Readers",
+   "value": "4 OSDP or 2 Wiegand"
+  },
+  {
+   "label": "Dimensions",
+   "value": "164 × 140 × 26 mm"
+  },
+  {
+   "label": "Function",
+   "value": "Door lock control, reader interface, door/REX/tamper monitoring"
+  },
+  {
+   "label": "Maximum OSDP cable",
+   "value": "609.6 m / 2,000 ft"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "X1100C"
  ]

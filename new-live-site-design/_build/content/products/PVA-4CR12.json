@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PVA-4CR12 Controller Public address and emergency sound system control unit One controller supports 12 zones, expandable up-to 492 zones with 24-zone routers",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "8"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "4"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz to 20 kHz (-0.5 dB)"
+  }
+ ],
+ "spec_src": "inventory"
 }

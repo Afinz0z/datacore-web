@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "RCH40 E2",
  "d": "RCH40 E2- Use for the connection of multi cameras/mics/speakers • 1x 4-port PoE Switch • 1x power adapter • Including 2-year hardware warranty Only RCH40 E2 support CM20 and CS10 - Use for the connection of multi cameras/mics/speakers • 1x 4-port PoE Switch • 1x power adapter • Including 2-year hardware warranty Only RCH40 E2 support CM20 and CS10",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "4"
+  },
+  {
+   "label": "PoE power",
+   "value": "90 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

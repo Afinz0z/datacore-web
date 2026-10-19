@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "WC Pro 160",
  "d": "WC Pro 160 Workspace Automation Controller with EDID Minder",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Workspace Controller"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "RAM",
+   "value": "1 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

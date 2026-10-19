@@ -10,8 +10,21 @@
  "d": "Bosch Plena Power Amplifier 240 W power amplifier in a 2U high housing 70 V / 100 V and 8 ohm outputs Dual inputs with priority switching",
  "specs": [
   {
+   "label": "Channels",
+   "value": "1"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "240 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz to 20 kHz (+1 / -3 dB at -10 dB ref. rated output)"
+  },
+  {
    "label": "Series",
    "value": "Plena series"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

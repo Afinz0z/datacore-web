@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Screen Size: 3.84m(W)x2.4m(H) LED Panel Qty: 6 x 5 = 30 pcs Resolution: 1,536 x 960 px",
- "specs": [],
+ "specs": [
+  {
+   "label": "Pixel pitch",
+   "value": "2.5 mm"
+  },
+  {
+   "label": "Brightness",
+   "value": "600-700 nits"
+  },
+  {
+   "label": "Resolution",
+   "value": "1,536 x 960 px"
+  },
+  {
+   "label": "Cabinet",
+   "value": "640 × 480 × 58mm"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "TB60"
  ]

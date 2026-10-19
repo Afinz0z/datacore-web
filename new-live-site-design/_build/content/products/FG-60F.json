@@ -7,5 +7,47 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Fortinet Fortigate 60F Firewall with 1 Year Licenses",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Network Security"
+  },
+  {
+   "label": "Function",
+   "value": "Network firewall, routing, security inspection and SD-WAN"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per FortiGate appliance / device"
+  },
+  {
+   "label": "Software",
+   "value": "FortiOS"
+  },
+  {
+   "label": "License included",
+   "value": "1-year FortiCare/FortiGuard services, depending on bundle"
+  },
+  {
+   "label": "License type",
+   "value": "Security subscription / service entitlement"
+  },
+  {
+   "label": "License period",
+   "value": "1 Year"
+  },
+  {
+   "label": "Firewall",
+   "value": "Yes"
+  },
+  {
+   "label": "NGFW",
+   "value": "yes"
+  },
+  {
+   "label": "Secure sd-wan",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

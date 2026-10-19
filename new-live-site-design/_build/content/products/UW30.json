@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Underwater Loudspeaker, 8 Ω, 30W",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Underwater"
+  },
+  {
+   "label": "Power",
+   "value": "30W"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Signo20, Mullion, 13.56mHz Profile , OSDP/Wiegand, Terminal, Mobile Ready, BLE",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Mobile Credentials, RFID Card, BLE Mobile Access"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP65"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "125 kHz EM"
+  },
+  {
+   "label": "Processor",
+   "value": "Cortex A8 Processor-800MHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

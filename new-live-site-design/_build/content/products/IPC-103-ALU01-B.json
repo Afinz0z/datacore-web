@@ -7,7 +7,61 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "ALUTEL MOBILITY- 1 Year Base License Must be ordered for the 1st 3 Mobile Devices",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "1 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "ALUTEL Mobility Base License"
+  },
+  {
+   "label": "Category",
+   "value": "Access Control, Mobile Security"
+  },
+  {
+   "label": "WIFI",
+   "value": "Supported as a network connection where applicable"
+  },
+  {
+   "label": "Application",
+   "value": "Mobile device-based security, Access control"
+  },
+  {
+   "label": "License type",
+   "value": "Base license"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Capacity",
+   "value": "3 mobile devices"
+  },
+  {
+   "label": "System",
+   "value": "ALUTEL Mobility"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Supported mobile devices"
+  },
+  {
+   "label": "Associated product",
+   "value": "ALUTEL Mobility platform"
+  },
+  {
+   "label": "Supporting product",
+   "value": "ALUTEL Mobility base platform"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per first 3 mobile devices, 1-year term"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SWS-ENTREG-LT"
  ]

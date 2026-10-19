@@ -9,10 +9,15 @@
  "d": "32” UHD Signage Display or equivalent",
  "specs": [
   {
+   "label": "Display size",
+   "value": "32"
+  },
+  {
    "label": "Type",
-   "value": "signage display"
+   "value": "Non-interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LGWM-3265F-IN",
   "LGWM-3265SW",

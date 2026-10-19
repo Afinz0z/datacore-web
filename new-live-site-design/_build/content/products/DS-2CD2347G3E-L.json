@@ -7,7 +7,141 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Hikvision 4MP ColorVu Network Dome Camera,4.0MM - 2.8MM",
- "specs": [],
+ "specs": [
+  {
+   "label": "Resolution",
+   "value": "4 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Fixed lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "30 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "25 fps, 30 fps"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "128 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.264+ , H.265 , MJPEG"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing, intrusion"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTCP, NTP, UPnP, SMTP, IGMP, 802.1X, QoS, IPv6, UDP, Bonjour"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF (Profile S, Profile G), ISAPI"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, IP address filter, Heartbeat, One-key reset"
+  },
+  {
+   "label": "Network storage",
+   "value": "NAS (NFS, SMB/CIFS), Auto Network Replenishment (ANR)"
+  },
+  {
+   "label": "Web browser",
+   "value": "IE8+, Chrome 31.0-44, Firefox 30.0-51, Safari 8.0+"
+  },
+  {
+   "label": "Image settings",
+   "value": "Rotate mode, Saturation, Brightness, Contrast, Sharpness, Gain, White Balance, Adjustable by client Software, Web browser"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC, HLC, 3D DNR, Defog"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.2"
+  },
+  {
+   "label": "Trigger type",
+   "value": "Video Detection"
+  },
+  {
+   "label": "Image format",
+   "value": "JPEG"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "2560 × 1440"
+  },
+  {
+   "label": "Lens type",
+   "value": "4 mm or 6 mm"
+  },
+  {
+   "label": "Focal length & FOV",
+   "value": "4 mm (89°/46°/107.5°)"
+  },
+  {
+   "label": "Focus",
+   "value": "Fixed"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "Warm White LED"
+  },
+  {
+   "label": "Supplement light range",
+   "value": "Up to 30 m"
+  },
+  {
+   "label": "Shutter time",
+   "value": "1/3 s to 1/100, 000 s"
+  },
+  {
+   "label": "Audio compression",
+   "value": "G.711ulaw, G.711alaw, G.722.1, G.726, MP2L2, PCM, AAC-LC, AAC"
+  },
+  {
+   "label": "Audio bit rate",
+   "value": "64 Kbps (G.711ulaw/G.711alaw), 16 Kbps (G.722.1), 16 Kbps (G.726), 16 Kbps to 64 Kbps (AAC-LC), 16 to 64 Kbps (AAC), 64 Kbps (G.711)"
+  },
+  {
+   "label": "Audio sampling rate",
+   "value": "8 kHz, 16 kHz, 32 kHz, 48 kHz"
+  },
+  {
+   "label": "Environment noise filtering",
+   "value": "NO"
+  },
+  {
+   "label": "Max. resolution",
+   "value": "4MP - 2560*1440-(2K)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "DS-1271ZJ-110",
   "DS-1273ZJ-135",

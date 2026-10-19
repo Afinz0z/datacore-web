@@ -7,7 +7,41 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MultiSync M552 PCAP - MODEL PN-M552 PCAP, 55\" M-Series Interactive Display, UHD, 550cd/m2, 24/7 proof, PCAP touch, SDM Slot, CM Slot",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "55\""
+  },
+  {
+   "label": "Display resolution",
+   "value": "4K UHD (3840 x 2160)"
+  },
+  {
+   "label": "Display brightness",
+   "value": "550"
+  },
+  {
+   "label": "Viewing angle (H/V)",
+   "value": "178/178"
+  },
+  {
+   "label": "Display contrast ratio",
+   "value": "8000:1"
+  },
+  {
+   "label": "Operation time support",
+   "value": "24/7"
+  },
+  {
+   "label": "Refresh rate",
+   "value": "60 Hz"
+  },
+  {
+   "label": "OPS slot",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CSSLP15X10",
   "DS-VW775-QR",

@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PRA-AD604 , 600W 4-channel Amplifier Transformerless, galvanically isolated, 70/100 V outputs for a maximum total load of 600 W.",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "600 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Dimensions",
+   "value": "44 mm x 483 mm x 400 mm"
+  },
+  {
+   "label": "Rack unit (U)",
+   "value": "1 U"
+  }
+ ],
+ "spec_src": "inventory"
 }

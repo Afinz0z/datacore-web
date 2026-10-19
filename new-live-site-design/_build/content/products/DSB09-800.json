@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "FINOSEL, Cabinet, 9U WM DS Cabinet, 600x800, Black ,With Fan & PDU",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "600x800"
+  },
+  {
+   "label": "Rack size",
+   "value": "9U"
+  }
+ ],
+ "spec_src": "inventory"
 }

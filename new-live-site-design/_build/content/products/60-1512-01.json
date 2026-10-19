@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "DMP 128 Plus C",
  "d": "DMP 128 Plus C - 12x8 ProDSP Digital Matrix Processor with AEC",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "12"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 3-pin 3.5 mm terminal block, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Features",
+   "value": "AEC"
+  }
+ ],
+ "spec_src": "inventory"
 }

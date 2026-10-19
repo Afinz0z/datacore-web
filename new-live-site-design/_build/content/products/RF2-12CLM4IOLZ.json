@@ -9,8 +9,25 @@
  "d": "RitchField 12 Core Central Loose tube Indoor / Outdoor FO Cable, 50/125um OM4 Multi-Mode, LSZH Sheath",
  "specs": [
   {
+   "label": "Fiber core count",
+   "value": "12"
+  },
+  {
+   "label": "Installation environment",
+   "value": "indoor and outdoor"
+  },
+  {
+   "label": "Fiber type",
+   "value": "OM4"
+  },
+  {
+   "label": "Jacket type",
+   "value": "LSZH"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

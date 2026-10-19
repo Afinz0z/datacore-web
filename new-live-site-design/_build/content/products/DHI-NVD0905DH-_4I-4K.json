@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Channel Ultra HD Network Video Decoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Max decoding resolution",
+   "value": "Up to 32 MP"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.265+, H.265, H.264, MPEG4"
+  },
+  {
+   "label": "Video output",
+   "value": "9 × HDMI"
+  },
+  {
+   "label": "Dimensions",
+   "value": "440 × 408 × 70 mm, 1.5U"
+  },
+  {
+   "label": "Weight",
+   "value": "4.83 kg"
+  },
+  {
+   "label": "Operating temperature",
+   "value": "'-10°C to +55°C"
+  }
+ ],
+ "spec_src": "inventory"
 }

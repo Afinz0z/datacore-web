@@ -11,6 +11,31 @@
   {
    "label": "Type",
    "value": "fiber patch panel 1U"
+  },
+  {
+   "label": "Pigtails",
+   "value": "24 LC"
+  },
+  {
+   "label": "U size",
+   "value": "1U (44.4)"
+  },
+  {
+   "label": "Depth",
+   "value": "205"
+  },
+  {
+   "label": "Net weight",
+   "value": "3. kgs"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Adaptor type",
+   "value": "SC, LC, ST Duplex/Simplex"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

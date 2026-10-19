@@ -11,6 +11,83 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motorized lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "IR distance",
+   "value": "45 m"
+  },
+  {
+   "label": "IP rating",
+   "value": "IK10, IP54"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "2 TB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Basic event",
+   "value": "video tampering alarm"
+  },
+  {
+   "label": "Smart event",
+   "value": "loitering detection"
+  },
+  {
+   "label": "Protocols",
+   "value": "HTTP, HTTPS, DHCP, IGMP, IPv4, IPv6, UDP, SNMP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Network storage",
+   "value": "NAS (NFS, SMB/CIFS)"
+  },
+  {
+   "label": "Image settings",
+   "value": "Brightness, Contrast, Sharpness"
+  },
+  {
+   "label": "SNR",
+   "value": ">55db"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "2592x1944"
+  },
+  {
+   "label": "Lens type",
+   "value": "3.2 to 10.5 mm"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

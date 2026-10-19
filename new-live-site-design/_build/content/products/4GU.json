@@ -6,5 +6,43 @@
  "c": "Room Alert & Monitoring System",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Internal temperature sensor",
+   "value": "The 4GU is a 4G USB modem and does not have a built-in internal temperature sensor."
+  },
+  {
+   "label": "Internal power sensor",
+   "value": "The 4GU does not have a built-in internal power sensor."
+  },
+  {
+   "label": "Power & connectivity ports",
+   "value": "4G Cellular connectivity"
+  },
+  {
+   "label": "Power supply",
+   "value": "5 V DC via USB connection."
+  },
+  {
+   "label": "Dimensions",
+   "value": "4GU USB modem"
+  },
+  {
+   "label": "Weight",
+   "value": "0.1 kg"
+  },
+  {
+   "label": "Operating tolerances",
+   "value": "0°C to 60°C (32°F to 140°F)"
+  },
+  {
+   "label": "Flood sensor cable length",
+   "value": "Up to 100 ft (30.5 m)"
+  },
+  {
+   "label": "Room entry sensor cable length",
+   "value": "Up to 100 ft (30.5 m)"
+  }
+ ],
+ "spec_src": "inventory"
 }

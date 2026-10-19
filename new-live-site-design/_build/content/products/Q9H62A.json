@@ -7,7 +7,33 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HPE Aruba Networking AP-515 (RW) Dual Radio 4x4/2x2 802.11axInternal Antennas Unified Campus AP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO, 4×4 MIMO"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Target Wake Time (TWT), ClientMatch and RF optimization, MU-MIMO (UL/DL)"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , Enhanced Open (OWE)"
+  },
+  {
+   "label": "Certifications",
+   "value": "Wi-Fi Alliance (Wi-Fi 6E certified), UL2043 plenum rated, Bluetooth SIG"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "H2YU3E",
   "H33ZTE",

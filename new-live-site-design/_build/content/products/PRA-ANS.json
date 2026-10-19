@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "PRA-ANS",
  "d": "Ambient noise sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Surface"
+  }
+ ],
+ "spec_src": "inventory"
 }

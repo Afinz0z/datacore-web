@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cisco Room Kit Pro PTZ 4K integrator package with Codec Pro, the Cisco PTZ 4K Camera and Cisco Room Navigator.",
- "specs": []
+ "specs": [
+  {
+   "label": "Recommended room size",
+   "value": "Small to Medium"
+  },
+  {
+   "label": "Resolution",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

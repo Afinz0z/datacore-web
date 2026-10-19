@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "R1701",
  "d": "Speaker Cable 14AWG - 305 Meter",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "305m"
+  },
+  {
+   "label": "Cable type",
+   "value": "Speaker"
+  }
+ ],
+ "spec_src": "inventory"
 }

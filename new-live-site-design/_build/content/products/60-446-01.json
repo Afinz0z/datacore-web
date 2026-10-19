@@ -10,8 +10,25 @@
  "d": "MDA 5V Five Output Composite Video Distribution Amplifier",
  "specs": [
   {
+   "label": "Video input",
+   "value": "BNC"
+  },
+  {
+   "label": "Video output",
+   "value": "BNC"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x5"
+  },
+  {
    "label": "Type",
    "value": "Video Distribution Amplifier"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "400 MHz"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

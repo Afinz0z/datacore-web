@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "XPA U 1004 SB",
  "d": "XPA U 1004 SB Four Channel Bridgeable Output Amp, 100/200 Watts",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "100 W, 200 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Class",
+   "value": "D"
+  },
+  {
+   "label": "Connectors",
+   "value": "4-pin 5 mm terminal blocks"
+  },
+  {
+   "label": "Impedance",
+   "value": "4 Ω, 8 Ω, 16 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

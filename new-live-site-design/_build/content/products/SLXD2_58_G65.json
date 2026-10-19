@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "SLXD2+/58= G65",
  "d": "Wireless Handheld Transmitter with SM58® Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Handheld Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wireless"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "118 dB"
+  },
+  {
+   "label": "Tx/Rx",
+   "value": "Tx"
+  },
+  {
+   "label": "Power supply",
+   "value": "AA batteries"
+  }
+ ],
+ "spec_src": "inventory"
 }

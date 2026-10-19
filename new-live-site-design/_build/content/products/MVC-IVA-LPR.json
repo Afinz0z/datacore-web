@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "License Platedetection and recognitionAdds license plate info tometadata stream ForStop&Go and City Traffic, upto 120 Km/h",
- "specs": []
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  },
+  {
+   "label": "Number of camera's",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory"
 }

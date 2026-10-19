@@ -7,7 +7,33 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-CCTV 55 inch 4K LED monitor",
- "specs": [],
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1x HDMI 2.0"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "55"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel type",
+   "value": "VA Panel"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Display ports",
+   "value": "1x DisplayPort 1.2"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "ST650"
  ]

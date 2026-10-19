@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "VX 4+",
  "d": "Content Processor (disguise vx 4+), incl. 5-year premium warranty",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Content Processor"
+  }
+ ],
+ "spec_src": "inventory"
 }

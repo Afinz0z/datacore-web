@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "Horn speaker"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Versatile Mounting"
+  },
+  {
+   "label": "Power",
+   "value": "15W"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

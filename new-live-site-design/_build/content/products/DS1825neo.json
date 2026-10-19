@@ -7,5 +7,39 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Synology 8-Bays DiskStation NAS, CPU AMD Ryzen V1500B, 4 GBDDR4 non-ECC SODIMM",
- "specs": []
+ "specs": [
+  {
+   "label": "M.2",
+   "value": "2 × M.2 2280 NVMe SSD slots"
+  },
+  {
+   "label": "CPU",
+   "value": "AMD Ryzen V1500B, 4-core / 8-thread, 2.2 GHz"
+  },
+  {
+   "label": "RAM",
+   "value": "4 GB DDR4 non-ECC, expandable up to 32 GB"
+  },
+  {
+   "label": "Drive support",
+   "value": "8 × 3.5\" SATA HDD / 2.5\" SATA SSD"
+  },
+  {
+   "label": "Warranty",
+   "value": "3 years"
+  },
+  {
+   "label": "Power supply",
+   "value": "250 W"
+  },
+  {
+   "label": "Network",
+   "value": "2 × 2.5GbE RJ-45"
+  },
+  {
+   "label": "Expansion",
+   "value": "Up to 18 drives using 2 × DX525"
+  }
+ ],
+ "spec_src": "inventory"
 }

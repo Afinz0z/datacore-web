@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "APC Smart-UPS 5000VA 230V Rackmount/Tower",
- "specs": []
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "5000"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "UPS type",
+   "value": "Line-Interactive"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tower, Rack-Tower Convertible"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Lead-acid internal included"
+  }
+ ],
+ "spec_src": "inventory"
 }

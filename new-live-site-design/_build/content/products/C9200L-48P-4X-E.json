@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6, TCP/UDP, OSPF"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "176Gbps"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "C9200-STACK",
   "C9200L-DNA-E-48",

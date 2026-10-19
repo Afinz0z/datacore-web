@@ -11,8 +11,65 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "3"
+  },
+  {
+   "label": "PoE power",
+   "value": "30W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "QoS, STP/RSTP, SNMP, IPV4 /IPV6"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "176Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "PVST+, LLDP / LLDP-MED / CDP"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, OSPF / OSPFv3, EIGRP, BGP"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Dynamic ARP inspection"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "8"
+  },
+  {
+   "label": "25G SFP28 PORTS",
+   "value": "2"
+  },
+  {
+   "label": "40G QSFP+ PORTS",
+   "value": "2"
+  },
+  {
+   "label": "Multigig (rj-45) PORTS",
+   "value": "4"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "C9300-DNA-E-48",
   "C9300-DNA-E-48-3Y",

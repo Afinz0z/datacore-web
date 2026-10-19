@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "BLX24UK/PG58",
  "d": "Wireless Vocal System with PG58",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Handheld Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wireless"
+  }
+ ],
+ "spec_src": "inventory"
 }

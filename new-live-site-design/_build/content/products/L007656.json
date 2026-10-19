@@ -7,5 +7,39 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FOS Profile 25/50 PRO - Innovative theater profile, source cob led 300w, 3200K warm white, CRI 97, R9?90, TLCI 98(3200K), HD optical system, clean shutter cuts beam, 25-50 degrees manual zoom,16 bit dimming via DMX, Flicker free with selectable PWM, Powercon in & out, color LCD, black ABS housing, 3-pin +5-pin XLR in & out, Control mode RDM, DMX, Rotary, Silent operation for studio and theatre use, Engine and lens compatible with industry-standard, 8.7 kg.",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Theater profile"
+  },
+  {
+   "label": "Light source",
+   "value": "300 W"
+  },
+  {
+   "label": "Color mixing",
+   "value": "Warm white"
+  },
+  {
+   "label": "Beam angle",
+   "value": "25 to 50 degrees"
+  },
+  {
+   "label": "Color temperature",
+   "value": "3200K"
+  },
+  {
+   "label": "Control",
+   "value": "DMX"
+  },
+  {
+   "label": "Input",
+   "value": "5pin XLR"
+  },
+  {
+   "label": "Output",
+   "value": "3pin XLR, 5pin XLR"
+  }
+ ],
+ "spec_src": "inventory"
 }

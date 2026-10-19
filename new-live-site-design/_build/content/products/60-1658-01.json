@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "SSP 200",
  "d": "SSP 200 Surround Sound Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "Input signal types",
+   "value": "HDMI, RCA, Fiber optic connectors"
+  },
+  {
+   "label": "Type",
+   "value": "Surround Sound Processor"
+  }
+ ],
+ "spec_src": "inventory"
 }

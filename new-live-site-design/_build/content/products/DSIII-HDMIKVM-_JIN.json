@@ -7,7 +7,33 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DSIII KVM Node- 2K KVM HDMI Encoder for capturing video, keyboard & mouse signal from 2 input source with HDMI",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "2K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB, RJ45, RS-232, RS-485, IR, Relay"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "1 in +1 out (phoenix port)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "DSII-Multi-IN",
   "DTB-EJ"

@@ -9,10 +9,15 @@
  "d": "75\"4k UHD IFP Panel, 8GB/128GB, Android 13, Slim IR, Dual Pen NFC log-in, 8 array mic, front HDMI/Type-C, 16W x 2 + 20W subwoofer",
  "specs": [
   {
+   "label": "Display size",
+   "value": "75\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-Emerald3-N20",
   "LGC-5586",

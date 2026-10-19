@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "MS116",
  "d": "Dell mouse",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of accessories",
+   "value": "Mouse"
+  }
+ ],
+ "spec_src": "inventory"
 }

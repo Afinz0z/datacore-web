@@ -6,5 +6,19 @@
  "c": "Mount",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Tilting"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PLN-24CH12 24 V Battery Chargers 12 A battery charge 6x 40 A, 3x 5 A outputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Charger",
+   "value": "Battery"
+  },
+  {
+   "label": "Power input",
+   "value": "195 to 264 VAC, 50 to 60Hz"
+  },
+  {
+   "label": "Power output",
+   "value": "24 or 48 VDC"
+  }
+ ],
+ "spec_src": "inventory"
 }

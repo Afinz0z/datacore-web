@@ -6,5 +6,11 @@
  "c": "Network Switch",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "8"
+  }
+ ],
+ "spec_src": "inventory"
 }

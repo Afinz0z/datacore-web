@@ -11,8 +11,73 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motorized lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK10"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "2 TB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing, Human/Vehicle Classification"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, HTTP, HTTPS, DHCP, NTP, IGMP, IPv4, IPv6, UDP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection"
+  },
+  {
+   "label": "SNR",
+   "value": ">55db"
+  },
+  {
+   "label": "Iris type",
+   "value": "DC-Iris"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "2592x1944"
+  },
+  {
+   "label": "Smart recognition",
+   "value": "Vehicle detection"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "NDA-3083 LWMT"
  ]

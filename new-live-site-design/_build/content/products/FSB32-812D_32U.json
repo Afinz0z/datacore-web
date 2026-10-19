@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cabinet, 32U FS 4xfans, wheels, FD Glass and Rear Honey Comb Double Doors, 800x1200, Black Finosel®, FS Universal Server Rack is compatible with a variety of servers and rackmountable networking equipments with a Wide range of accessories such as fan, Wheel, Castor etc",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x1000"
+  },
+  {
+   "label": "Rack size",
+   "value": "32U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Free Standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

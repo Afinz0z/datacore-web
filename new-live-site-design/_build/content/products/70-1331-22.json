@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "SMK 5",
  "d": "SMK 5 For TLP Pro 835M - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Surface"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1996-02"
  ]

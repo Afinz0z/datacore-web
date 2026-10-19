@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB3-BTNB-S_BLANK Medium Backlit Engravable Button Cap for Cameo Keypads, Black Smooth, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  }
+ ],
+ "spec_src": "inventory"
 }

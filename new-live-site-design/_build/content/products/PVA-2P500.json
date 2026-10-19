@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch PVA-2P500 Power amplifier 2 ✕ 500 Watt class D amplifier Low power consumption in standby mode (3 Watt) Excellent sound quality > 104 dB s/n ratio",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2"
+  },
+  {
+   "label": "Output power per channel",
+   "value": "500 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

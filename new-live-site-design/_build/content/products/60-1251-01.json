@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "HRP 100",
  "d": "HRP 100 1U Half Rack Blank Panel",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  }
+ ],
+ "spec_src": "inventory"
 }

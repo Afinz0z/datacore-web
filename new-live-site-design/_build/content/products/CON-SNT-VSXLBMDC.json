@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "CON-SNT-VSXLBMDC",
  "d": "SNTC-8X5XNBD SNTC-8X5XNBD Room Kit Smart Net Total Care - Service",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Services"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CS-KIT-EQ-K9"
  ]

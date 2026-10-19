@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MAAP 108AKM",
  "d": "MAAP 108AKM MAAP™ AV Connectivity Mounting Frame for OBO Bettermann - formerly Ackermann - Floor Boxes",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Floor Boxes"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

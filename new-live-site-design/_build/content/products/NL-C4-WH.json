@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "NL-C4-WH",
  "d": "4\" Full-range, low-profile ceiling-mount network",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Speaker type",
+   "value": "Network"
+  },
+  {
+   "label": "Power",
+   "value": "12 W, 24 W"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "120°"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

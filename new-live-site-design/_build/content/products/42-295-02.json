@@ -6,7 +6,13 @@
  "c": "Power Supply",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply Unit"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "42-294-02"
  ]

@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PNRUB, Large Flat Panel Swing Arm Wall Display Mount - 25 Inch Extension Screen size 42\" to 86\" Weight capacity 200 lbs (90.7 Kg) PNRUB, Large Flat Panel Swing Arm Wall Display Mount - 25 Inch Extension",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "75UH7N",
   "CDE4330",

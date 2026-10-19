@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "AWP06/W -SpringFit™ waterproof ceiling speaker 6W ,8Ω and 100V - White version",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Frequency range (+/- 3dB)",
+   "value": "100Hz - 15kHz"
+  },
+  {
+   "label": "Drivers",
+   "value": "4\""
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  }
+ ],
+ "spec_src": "inventory"
 }

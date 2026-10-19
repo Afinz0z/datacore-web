@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "FT-TP-IPTV-SW",
  "d": "IPTV software per hardware interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "IPTV"
+  }
+ ],
+ "spec_src": "inventory"
 }

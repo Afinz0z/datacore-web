@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "EBDB",
  "d": "EBDB eBUS® Distribution Hub",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Distribution hub"
+  },
+  {
+   "label": "Connectors",
+   "value": "3.5 mm captive"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

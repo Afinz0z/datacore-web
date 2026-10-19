@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "ULL,JUMPER,LSZH,OM5,LC,LC,1.6,DPX FT015",
- "specs": [],
+ "specs": [
+  {
+   "label": "Length",
+   "value": "15m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "green"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "760231514"
  ]

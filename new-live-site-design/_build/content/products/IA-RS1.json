@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Rack shelf for ICX-500 - 19 inch",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type of accessories",
+   "value": "Mount"
+  },
+  {
+   "label": "Rack height",
+   "value": "1U"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "ICX-510-IA"
  ]

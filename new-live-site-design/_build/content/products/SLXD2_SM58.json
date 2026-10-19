@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Wireless Handheld Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Handheld Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wireless"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "118 dB"
+  },
+  {
+   "label": "Tx/Rx",
+   "value": "Tx"
+  },
+  {
+   "label": "Pick-up pattern",
+   "value": "Cardioid"
+  }
+ ],
+ "spec_src": "inventory"
 }

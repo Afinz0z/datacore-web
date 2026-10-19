@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "U86WDPV",
  "d": "1Y POLY+ POLY G62 VCS WMNT",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "1 Year"
+  },
+  {
+   "label": "Type",
+   "value": "Services, Support"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "A01KCAA#AC3"
  ]

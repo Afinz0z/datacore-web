@@ -12,8 +12,25 @@
   {
    "label": "Type",
    "value": "smart card"
+  },
+  {
+   "label": "Credential",
+   "value": "Card /Keypad Access"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand, OSDP"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP65"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "13.56 MHz MIFARE / DESFire EV1/EV2/EV3 / iCLASS / FeliCa / Seos"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "GSTAR004-MB"
  ]

@@ -7,5 +7,35 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cabinet loudspeaker, 20W, black High-fidelity music and speech reproduction",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Passive"
+  },
+  {
+   "label": "Power",
+   "value": "20W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "90 Hz to 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "88 dB, 101 dB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Protection",
+   "value": "EN 54-24"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "M700KACI-FG",
  "d": "Fire alarm points",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Manual Call Point"
+  }
+ ],
+ "spec_src": "inventory"
 }

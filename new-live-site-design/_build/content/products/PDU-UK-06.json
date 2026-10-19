@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "PDU, 6 Way",
  "d": "FONOSEL, PDU, 6 Way Power Distribution Unit, UK",
- "specs": [],
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "HORIZONTAL"
+  },
+  {
+   "label": "C19 - sockets",
+   "value": "6"
+  },
+  {
+   "label": "Plug",
+   "value": "UK plug (BS1363)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "FSB42-81D"
  ]

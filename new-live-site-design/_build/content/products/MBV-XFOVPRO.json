@@ -7,7 +7,73 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-CCTV BVMS Professional 11.0 orLatest, License VRMFailover channel expansion",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "As per license/subscription terms"
+  },
+  {
+   "label": "Software license type",
+   "value": "BVMS Professional VRM Failover Channel Expansion License"
+  },
+  {
+   "label": "Maximum duration of recording",
+   "value": "Depends on available VRM/storage capacity"
+  },
+  {
+   "label": "Category",
+   "value": "VMS, CCTV, Video Recording Redundancy"
+  },
+  {
+   "label": "Channels support",
+   "value": "VRM Failover Channels"
+  },
+  {
+   "label": "Base license",
+   "value": "BVMS Professional Base License"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported through BVMS system architecture"
+  },
+  {
+   "label": "Application",
+   "value": "VMS channel expansion"
+  },
+  {
+   "label": "License type",
+   "value": "Module / Expansion License, Channel license"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Expands the number of channels supported for VRM failover functionality"
+  },
+  {
+   "label": "Capacity",
+   "value": "Per licensed VRM failover channel"
+  },
+  {
+   "label": "System",
+   "value": "Bosch Video Management System"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Bosch IP cameras, recording servers, storage and compatible devices"
+  },
+  {
+   "label": "Associated product",
+   "value": "Bosch Video Recording Manager (VRM)"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per VRM failover channel"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "MBV-MFOVPRO"
  ]

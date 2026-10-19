@@ -10,13 +10,22 @@
  "specs": [
   {
    "label": "Type",
-   "value": "Industrial Network Switch"
+   "value": "Power Supply"
+  },
+  {
+   "label": "Output",
+   "value": "54V"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP30"
   },
   {
    "label": "Series",
    "value": "4100i"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "JL817A"
  ]

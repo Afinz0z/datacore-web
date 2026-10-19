@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "IPL EXP RIO8",
  "d": "IPL EXP RIO8 Control System I/O Expansion Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Signal type",
+   "value": "Digital"
+  },
+  {
+   "label": "Connector type",
+   "value": "RJ45, 3-pin 3.5 mm"
+  },
+  {
+   "label": "Type",
+   "value": "Control Expansion Interface"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  }
+ ],
+ "spec_src": "inventory"
 }

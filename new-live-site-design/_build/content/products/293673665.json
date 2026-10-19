@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Sigma Lite Prox biometric",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "PIN/Password Credentials, Mobile Credentials, QR and Barcode, RFID Card, Fingerprint + Card, Biometric"
+  },
+  {
+   "label": "Interface",
+   "value": "Ethernet, RS-485, Wiegand"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP65, IK08"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "125 kHz HID Prox"
+  }
+ ],
+ "spec_src": "inventory"
 }

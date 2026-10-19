@@ -8,7 +8,41 @@
  "avail": "lead",
  "model": "XTP T USW 103 4K",
  "d": "XTP T USW 103 4K Three Input Multi-Format Switcher with HDMI Output and Integrated XTP Transmitter - 26W Remote Power Capable",
- "specs": [],
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "3x1"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, DP, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Data rate",
+   "value": "10.2 Gbps"
+  },
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI, HD, DP"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-939-01"
  ]

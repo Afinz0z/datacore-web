@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "IN1604 HD",
  "d": "IN1604 HD - Four Input HDCP-Compliant Scaler",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, 3.5 mm stereo jack, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "3.5 mm stereo jack, 5-pin 3.5mm terminal blocks, RJ45"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, 15-pin HD"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI, RJ-45"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,53 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AlphaPro Professional, USB dongle",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Hardware / USB Dongle"
+  },
+  {
+   "label": "Category",
+   "value": "Software License Security, Hardware Key"
+  },
+  {
+   "label": "Software license",
+   "value": "No - physical license dongle"
+  },
+  {
+   "label": "Application",
+   "value": "License activation, Authorization for AlphaPro Professional"
+  },
+  {
+   "label": "License type",
+   "value": "Hardware-based license key"
+  },
+  {
+   "label": "Function",
+   "value": "Provides physical license, Authentication for AlphaPro Professional software"
+  },
+  {
+   "label": "Transmission media",
+   "value": "USB"
+  },
+  {
+   "label": "Capacity",
+   "value": "Depends on the license stored/associated with the dongle"
+  },
+  {
+   "label": "Associated software",
+   "value": "AlphaPro Professional"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Computer/PC with compatible USB port"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "License entitlement associated with the USB dongle"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "ILS-IC"
  ]

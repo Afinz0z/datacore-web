@@ -11,6 +11,35 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "6 MP"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection"
+  },
+  {
+   "label": "SNR",
+   "value": ">50 db"
+  },
+  {
+   "label": "Iris type",
+   "value": "P-Iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.3"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

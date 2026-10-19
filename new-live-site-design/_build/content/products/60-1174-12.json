@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FOXBOX Tx HDMI SM Fiber Optic Transmitter for HDMI, Audio, and RS-232 - 1310 nm Singlemode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "2K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RS-232, LC connector"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "1 unbalanced stereo or 2 unbalanced mono"
+  }
+ ],
+ "spec_src": "inventory"
 }

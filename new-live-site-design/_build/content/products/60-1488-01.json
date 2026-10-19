@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MediaPort 200 - HDMI and Audio to USB Scaling Bridge",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, 3-pin 3.5mm terminal blocks, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "USB-B, HDMI, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "USB-B"
+  }
+ ],
+ "spec_src": "inventory"
 }

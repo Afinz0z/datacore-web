@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "Single port"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

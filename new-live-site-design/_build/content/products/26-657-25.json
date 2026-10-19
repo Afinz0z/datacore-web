@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DisplayPort M-M/25 DP Male to DP Male Cables",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "3.6m"
+  },
+  {
+   "label": "Cable type",
+   "value": "DisplayPort"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

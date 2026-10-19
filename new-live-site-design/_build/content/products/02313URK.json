@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Huawei OSX010000 is a hot-pluggable 10 Gbps SFP+ optical transceiver designed for long-range 10 Gigabit Ethernet connectivity over single-mode fiber. It complies with the 10GBASE-LR standard, operates at a wavelength of 1310 nm, supports transmission distances up to 10 km, and features a duplex LC optical interface with Digital Diagnostic Monitoring (DDM).",
- "specs": []
+ "specs": [
+  {
+   "label": "Transmission speed",
+   "value": "10 Gbps"
+  },
+  {
+   "label": "Fiber type",
+   "value": "Single-Mode Fiber (SMF)"
+  },
+  {
+   "label": "Operating temperature",
+   "value": "0°C to 70°C"
+  }
+ ],
+ "spec_src": "inventory"
 }

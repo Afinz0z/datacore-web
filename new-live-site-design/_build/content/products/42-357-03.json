@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "CA 83T LP",
  "d": "CA 83T LP Low Profile Mount, Single, White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Soundbar"
+  },
+  {
+   "label": "Power",
+   "value": "120W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "113 Hz to 17 kHz"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "90 dB"
+  },
+  {
+   "label": "Coverage angle",
+   "value": "180°"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Mount movement",
+   "value": "Fixed"
+  }
+ ],
+ "spec_src": "inventory"
 }

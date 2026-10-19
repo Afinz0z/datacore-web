@@ -6,7 +6,17 @@
  "c": "Adapters",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Adapter type",
+   "value": "Expansion Adapter"
+  },
+  {
+   "label": "Connectivity",
+   "value": "RJ-45"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "RM-500 Y E00"
  ]

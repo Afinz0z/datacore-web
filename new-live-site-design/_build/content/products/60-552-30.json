@@ -12,6 +12,23 @@
   {
    "label": "Type",
    "value": "Summing Amplifier"
+  },
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Connectors",
+   "value": "RCA, 5-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Amplifier type",
+   "value": "Summing Amplifier"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

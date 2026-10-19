@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "USBA-B/9",
  "d": "USBA-B/9 USB-A to USB-B 5 Gbps Cables - 9' (2.7 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "2.7m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB A to USB B"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "5 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

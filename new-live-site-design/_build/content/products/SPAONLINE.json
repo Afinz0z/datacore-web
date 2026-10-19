@@ -6,7 +6,13 @@
  "c": "Software - license",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "Lifetime"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CU42E0TUK"
  ]

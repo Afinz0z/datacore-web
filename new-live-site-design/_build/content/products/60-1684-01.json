@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "ISS 608",
  "d": "ISS 608 Eight Input HDMI & DisplayPort 4K/60 Seamless Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "8x2"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI, DP"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, DP"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI, DP"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

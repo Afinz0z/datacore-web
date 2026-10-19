@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Signo40, Wall mount, 13.56mHz Profile , OSDP/Wiegand, Terminal, Mobile Ready, BLE",
- "specs": []
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "RFID Card"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP65"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "125 kHz EM"
+  }
+ ],
+ "spec_src": "inventory"
 }

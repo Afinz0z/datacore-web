@@ -11,8 +11,29 @@
   {
    "label": "Type",
    "value": "ACS Software"
+  },
+  {
+   "label": "Integration & interfacing",
+   "value": "Access Control System, Intrusion System, Alarm system, SDK / API support for third-party integration"
+  },
+  {
+   "label": "Performance & reliability",
+   "value": "Redundant server support, Auto-reconnect on network failure"
+  },
+  {
+   "label": "Compliance & standards",
+   "value": "ONVIF compliant, ISO 27001 aligned security practices, GDPR-ready features"
+  },
+  {
+   "label": "Storage",
+   "value": "Local server storage"
+  },
+  {
+   "label": "Event management & alerts",
+   "value": "Alarm input/output integration"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "SSAWPP"
  ]

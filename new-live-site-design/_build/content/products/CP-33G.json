@@ -8,7 +8,13 @@
  "avail": "lead",
  "model": "Break glass",
  "d": "CP-33G is a resettable emergency door release unit used in access control systems to immediately unlock an electromagnetic door lock during an emergency.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Green"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "GEM-1200M"
  ]

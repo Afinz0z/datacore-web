@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "CB-MA12EX",
  "d": "CB-MA12EX COUPLING BRKT BLK",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

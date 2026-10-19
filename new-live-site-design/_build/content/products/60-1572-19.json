@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "NAV 10SD 101",
  "d": "NAV 10SD 101 - 10G HDMI Scaling Decoder - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Decoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "SFP"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, 3.5 mm captive connector"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

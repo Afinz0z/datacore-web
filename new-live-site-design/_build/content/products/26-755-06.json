@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "USBC Plus/6",
  "d": "USBC Plus/6 USB-C® 20 Gbps Cable with 8K Video and 240 W Power Delivery, 6.5' (2 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "2m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB C to USB C"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB C"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Gbps"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Power delivery",
+   "value": "240 W"
+  }
+ ],
+ "spec_src": "inventory"
 }

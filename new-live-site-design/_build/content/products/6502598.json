@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB3-BTNLAT-T_BLANK Medium Backlit Engravable Button Cap for Cameo Keypads, Latte Textured, Engraving Not Included",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Latte"
+  },
+  {
+   "label": "Finish",
+   "value": "Textured"
+  }
+ ],
+ "spec_src": "inventory"
 }

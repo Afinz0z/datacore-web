@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "WS-T5860(Xeon W3-2423)",
  "d": "WS-T5860(Xeon W3-2423)512,32,(NVIDIA RTX A2000,12G)W Processor A Intel Xeon W3-2423 (15 MB cache, 6 cores, 12 threads, 2.1 GHz to 4.2 GHz, 120 W,32GB, 1x32GB, DDR5,4800MHz, RDIMM ECC, NVIDIA RTX A2000,12 GB GDDR6,4 mDP toDP adapters , Optical Drive 8x DVD+/-RW 9.5mm Slimline,512GB, M.2, PCIe NVMe, SSD, Class 40",
- "specs": []
+ "specs": [
+  {
+   "label": "Memory capacity",
+   "value": "64GB"
+  },
+  {
+   "label": "Form factor",
+   "value": "Tower"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel Xeon"
+  },
+  {
+   "label": "VRAM",
+   "value": "8GB"
+  },
+  {
+   "label": "Primary storage",
+   "value": "1 TB"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows 11 Pro (64-bit)"
+  }
+ ],
+ "spec_src": "inventory"
 }

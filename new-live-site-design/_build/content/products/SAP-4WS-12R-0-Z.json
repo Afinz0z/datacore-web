@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "Analog Clock"
+  },
+  {
+   "label": "Display type",
+   "value": "Analog clock face"
+  },
+  {
+   "label": "Size",
+   "value": "12″ diameter"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

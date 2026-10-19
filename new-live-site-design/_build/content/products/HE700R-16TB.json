@@ -7,5 +7,31 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Husky IVO 700 Rack mount, Win10, 16TB(4x4TB)",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of channel",
+   "value": "100 IP camera channels"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265, MJPEG"
+  },
+  {
+   "label": "RAID support",
+   "value": "RAID 0, RAID 1, RAID 5"
+  },
+  {
+   "label": "Incoming bandwidth",
+   "value": "800Mbps"
+  },
+  {
+   "label": "Outgoing bandwidth",
+   "value": "1 Gbps"
+  },
+  {
+   "label": "SATA interface",
+   "value": "4 SATA"
+  }
+ ],
+ "spec_src": "inventory"
 }

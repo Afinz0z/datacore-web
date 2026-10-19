@@ -6,7 +6,13 @@
  "c": "Assistive Listening",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "IR T3"
  ]

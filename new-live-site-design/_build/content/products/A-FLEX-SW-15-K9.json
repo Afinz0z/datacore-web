@@ -7,7 +7,45 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "On-Premises Software Bundle v15 (Cisco Unified Communications).",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "On-Premises Software Bundle v15"
+  },
+  {
+   "label": "Category",
+   "value": "Unified Communications / Collaboration"
+  },
+  {
+   "label": "Base license",
+   "value": "Cisco Collaboration Flex / On-Premises Calling"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported by associated UC platform"
+  },
+  {
+   "label": "Type",
+   "value": "Software"
+  },
+  {
+   "label": "Application",
+   "value": "On-Premises Calling / Unified Communications"
+  },
+  {
+   "label": "License type",
+   "value": "Software Bundle / Entitlement"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides the on-premises Collaboration/Calling software bundle, including the applicable v15 software components"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

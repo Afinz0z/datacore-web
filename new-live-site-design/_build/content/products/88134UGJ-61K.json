@@ -7,7 +7,73 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AirEngine6776-57T(11be indoor,2+2+4 tri bands,smart antenna,USB,BLE)_Co-Care Basic AirEngine6776_36Month(s)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Enterprise Wireless LAN / Wi-Fi"
+  },
+  {
+   "label": "Maximum access points",
+   "value": "1 AP per hardware unit"
+  },
+  {
+   "label": "Categories",
+   "value": "Enterprise Wireless LAN , Wi-Fi"
+  },
+  {
+   "label": "Application",
+   "value": "Indoor enterprise wireless networking"
+  },
+  {
+   "label": "Hardware",
+   "value": "Huawei AirEngine 6776-57T Indoor Wi-Fi Access Point"
+  },
+  {
+   "label": "USB",
+   "value": "YES"
+  },
+  {
+   "label": "BLE",
+   "value": "YES"
+  },
+  {
+   "label": "Antenna",
+   "value": "Smart antenna"
+  },
+  {
+   "label": "Radio configuration",
+   "value": "2+2+4 tri-band"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "802.11be (Wi-Fi 7)"
+  },
+  {
+   "label": "Maximum access point",
+   "value": "1 AP per hardware unit"
+  },
+  {
+   "label": "Transmission media",
+   "value": "Wireless + Ethernet uplink"
+  },
+  {
+   "label": "Support service",
+   "value": "Co-Care Basic - 36 Months"
+  },
+  {
+   "label": "Support period",
+   "value": "36 months"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Huawei AirEngine 6776-57T"
+  },
+  {
+   "label": "Associated product",
+   "value": "Huawei CloudCampus , WLAN solution"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "50086828"
  ]

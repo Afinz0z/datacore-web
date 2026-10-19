@@ -14,10 +14,15 @@
    "value": "Master Clock Server"
   },
   {
+   "label": "Server type",
+   "value": "Master Clock Server"
+  },
+  {
    "label": "Series",
    "value": "NTP 8000"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "E-PWR-CBL-UK-M-KIT-0",
   "M-GPS-MTG-KIT-1"

@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Q-SYS Software-based Dante 32x32 Channel License, Perpetual",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "License"
+  },
+  {
+   "label": "Channels support",
+   "value": "32x32"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "CORE 110f",
   "Core 24f",

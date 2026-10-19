@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "TLI Pro 201",
  "d": "TLI Pro 201 4K TouchLink® Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector type",
+   "value": "RJ45, HDMI, USB A"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Type",
+   "value": "Touchscreen display Control"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "16GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

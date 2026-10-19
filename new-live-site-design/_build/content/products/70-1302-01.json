@@ -10,10 +10,39 @@
  "d": "XTP II CP 4o HD AT 8K Four Output Board, 8K HDMI with Dante Out",
  "specs": [
   {
+   "label": "No. ports",
+   "value": "4"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Data rate",
+   "value": "40.1 Gbps"
+  },
+  {
    "label": "Type",
    "value": "Output Card"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "60-1981-01",
   "60-2031-01",

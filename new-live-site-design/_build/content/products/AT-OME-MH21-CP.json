@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Omega 4K/UHD meeting hub with USB-C and HDMI inputs and HDMI outputs, USB-C Charging",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "2x1"
+  }
+ ],
+ "spec_src": "inventory"
 }

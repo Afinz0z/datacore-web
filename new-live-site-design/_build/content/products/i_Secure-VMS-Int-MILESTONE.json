@@ -9,10 +9,63 @@
  "d": "MILESTONE Video Management Platform Integration Connector. NOTE: Add-on Licence for MILESTONE Make Video Management Platform Integration Connector",
  "specs": [
   {
+   "label": "Software license type",
+   "value": "VMS Integration / Connector License"
+  },
+  {
+   "label": "Number of licenses needed per duty controller",
+   "value": "1"
+  },
+  {
+   "label": "Category",
+   "value": "VMS"
+  },
+  {
+   "label": "Channels support",
+   "value": "Milestone VMS camera channels"
+  },
+  {
+   "label": "Base license",
+   "value": "iSecure base/access-control platform required"
+  },
+  {
+   "label": "Access control",
+   "value": "Supported through iSecure"
+  },
+  {
+   "label": "Time attendance",
+   "value": "Supported by iSecure"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
    "label": "Type",
-   "value": "Software Integration License"
+   "value": "VMS / Software Integration"
+  },
+  {
+   "label": "Application",
+   "value": "Video surveillance management"
+  },
+  {
+   "label": "License type",
+   "value": "Software / Integration license"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "CCTV camera monitoring, recording and management integration"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "X1100C"
  ]

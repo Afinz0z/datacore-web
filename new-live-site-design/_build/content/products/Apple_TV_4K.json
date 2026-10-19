@@ -6,5 +6,11 @@
  "c": "Displays",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Storage",
+   "value": "64GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

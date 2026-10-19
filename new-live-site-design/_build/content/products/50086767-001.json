@@ -7,7 +7,49 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "WiFi 7 Indoor AP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": Dual-radio"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 2.8 dBi, 5 GHz: 4.5 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Bi-directional MU-MIMO, ClientMatch and RF optimization, MU-MIMO (UL/DL), Fast Roaming (k/r/v), MLO, Load balancing"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3"
+  },
+  {
+   "label": "Certifications",
+   "value": "Wi-Fi Alliance (Wi-Fi 6E certified), UL2043 plenum rated, UL / cUL, IEC / EN 62368-1"
+  },
+  {
+   "label": "Power",
+   "value": "IEEE 802.3af PoE (Class 3), Direct DC power, DC powered: 12.5 W / 18.2 W, PoE powered: 14.7 W / 20.9 W"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "1 × RJ-45 Ethernet port (E0), USB 2.0 Type-A host port, DC power input (12 VDC nominal), Bluetooth Low Energy (BLE 5.0), 1 × 2.5GE RJ-45 (PoE-IN)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "88038XDG"
  ]

@@ -6,7 +6,17 @@
  "c": "RJ45 MODULE (JACK)",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "CAT6A"
+  },
+  {
+   "label": "Colour",
+   "value": "BLACK"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "R1-BPL19-1U"
  ]

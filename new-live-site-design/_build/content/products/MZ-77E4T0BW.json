@@ -7,5 +7,15 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Samsung 870 EVO 4TB 2.5 Inch SATA III Internal SSD, Up to 560 MB/s Seq Read & 530 MB/s Seq Write Speed, V-NAND Technology, 1GB LPDDR4 Cache, MKX Controller, 1.5 M Hrs. MTBF, Black",
- "specs": []
+ "specs": [
+  {
+   "label": "Size (D)",
+   "value": "0.27 inches"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "10:7"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -6,7 +6,17 @@
  "c": "Power Wallplate",
  "dept": "AV",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Product tape",
+   "value": "USB charger"
+  },
+  {
+   "label": "Ports",
+   "value": "USB-A, USB-C"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "60-583-11",
   "60-583-12",

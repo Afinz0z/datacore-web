@@ -7,5 +7,55 @@
  "dept": "AV",
  "avail": "lead",
  "d": "TLP Pro 1230WTG 12” Ultra-wide Tabletop TouchLink Pro Touchpanel - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "12\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1920x720"
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Ports",
+   "value": "HDMI, USB, RJ45"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Brightness",
+   "value": "720 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "1100:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,25 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "BioEntry W2 fingerprint access control device featuring class-leading fingerprint recognition with powerful 1.2GHz quad-core CPU",
- "specs": [],
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "Finger Print Scanner"
+  },
+  {
+   "label": "Interface",
+   "value": "Wiegand"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP67, IK09"
+  },
+  {
+   "label": "RFID frequency",
+   "value": "125 kHz EM, 13.56 MHz MIFARE / DESFire EV1/EV2/EV3 / iCLASS / FeliCa / Seos"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "BIO-POW"
  ]

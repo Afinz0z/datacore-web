@@ -7,5 +7,59 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "GigaSPEED X10D® G10SP on S/FTP Low Smoke Zero Halogen Cordage, S/FTP Modular Patch Cord, white, 003 ft",
- "specs": []
+ "specs": [
+  {
+   "label": "Patch cord lenth",
+   "value": "0.91 Mtr"
+  },
+  {
+   "label": "Cable type",
+   "value": "S/FTP - shielded"
+  },
+  {
+   "label": "Wiring",
+   "value": "568B"
+  },
+  {
+   "label": "Maximum data rate",
+   "value": "Up to 10 Gb/s"
+  },
+  {
+   "label": "Category",
+   "value": "Cat 6A"
+  },
+  {
+   "label": "Jacket",
+   "value": "LSZH (Low Smoke Zero Halogen)"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Connector",
+   "value": "RJ45 modular plugs"
+  },
+  {
+   "label": "Contact resistance",
+   "value": "20 mOhm"
+  },
+  {
+   "label": "Safety voltage rating",
+   "value": "300V"
+  },
+  {
+   "label": "Operating temperature",
+   "value": "'-10 °C to +60 °C"
+  },
+  {
+   "label": "Storage temperature",
+   "value": "'-40 °C to +70 °C"
+  },
+  {
+   "label": "Flammability rating",
+   "value": "UL 94 V-0"
+  }
+ ],
+ "spec_src": "inventory"
 }

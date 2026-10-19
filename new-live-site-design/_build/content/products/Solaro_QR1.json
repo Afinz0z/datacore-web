@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Xilica Solaro QR1 - *Micro-format DSP core with onboard 4x4 Dante™ audio networking, eight (8) I/O card slots, PoE power, Lua scripting engine. Includes surface-mount bracket.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "AEC support",
+   "value": "Requires license"
+  },
+  {
+   "label": "I/O card slots",
+   "value": "8"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz to 20 kHz (-0.5 dB)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "HearClear AEC",
   "XC-SGP",

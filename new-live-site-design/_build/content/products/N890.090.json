@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LANmark-OF Splice Cassette Large 12 Heat Shrink Protection",
- "specs": [],
+ "specs": [
+  {
+   "label": "Splice positions",
+   "value": "12"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "N439.4SNB"
  ]

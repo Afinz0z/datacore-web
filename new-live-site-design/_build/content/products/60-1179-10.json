@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "DMP 128 C P AT",
  "d": "DMP 128 C P AT 12x8 ProDSP™ Digital Matrix Processor with AEC, POTS and Dante™",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "12"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Features",
+   "value": "Automixer, AEC, POTS, Dante"
+  }
+ ],
+ "spec_src": "inventory"
 }

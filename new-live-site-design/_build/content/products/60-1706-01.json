@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "FPC 6000",
  "d": "FPC 6000 Front Panel Controller for FOX and FOX3 Matrix Switchers",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "15\""
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Wall mount"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Brightness",
+   "value": "270 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory"
 }

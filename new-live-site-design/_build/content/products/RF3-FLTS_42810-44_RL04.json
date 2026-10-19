@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "42u"
+  },
+  {
+   "label": "Rack dimension",
+   "value": "800x1000"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cabinet mounting type",
+   "value": "Floor standing"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "24 way Smart PDU"
  ]

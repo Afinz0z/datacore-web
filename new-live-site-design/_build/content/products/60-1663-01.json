@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "IN1806",
  "d": "IN1806 Six Input 4K/60 Seamless Presentation Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Video switcher",
+   "value": "6x1"
+  },
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, 3.5 mm, 3 pole, 3.5 mm, 5 pole, RJ-45, DP"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI, RJ-45, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI, DP"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI, RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

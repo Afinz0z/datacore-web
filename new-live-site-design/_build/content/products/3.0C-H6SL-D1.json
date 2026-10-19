@@ -11,6 +11,31 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "3 MP"
+  },
+  {
+   "label": "WDR",
+   "value": "130 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "40"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "2048x1536, 2048x1152, 1792x1344, 1760x1320, 1600x1200, 1280x960"
+  },
+  {
+   "label": "Lens type",
+   "value": "3.4-10.5mm"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

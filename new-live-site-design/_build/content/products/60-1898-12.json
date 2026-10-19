@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Quantum Ultra Connect 128 -12 Input, 8 Output 4K Videowall Processor",
- "specs": []
+ "specs": [
+  {
+   "label": "No.of inputs",
+   "value": "12"
+  },
+  {
+   "label": "No.of outputs",
+   "value": "8"
+  },
+  {
+   "label": "Input interfaces",
+   "value": "HDMI 1.4"
+  },
+  {
+   "label": "Input resolution",
+   "value": "4K"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

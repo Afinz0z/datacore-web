@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "4 Bay Networked Charging Stations",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Docking Stations"
+  }
+ ],
+ "spec_src": "inventory"
 }

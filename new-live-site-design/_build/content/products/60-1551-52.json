@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "DTP T USW 333",
  "d": "DTP T USW 333 - Three Input Switcher with Integrated Long Distance DTP Transmitter and Audio Embedding - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Video resolutions",
+   "value": "2K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, 3.5 mm mini stereo jack"
+  },
+  {
+   "label": "Audio output",
+   "value": "RJ45"
+  },
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI, 15-pin HD"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  }
+ ],
+ "spec_src": "inventory"
 }

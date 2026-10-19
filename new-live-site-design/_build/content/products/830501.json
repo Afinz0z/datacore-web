@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "ARANTIA TV/ARANTIAC. PMS INTERFACE-APMS, PMS Integration License for Arantia IPTV/Middleware Systems",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "IPTV"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory"
 }

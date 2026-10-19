@@ -9,10 +9,15 @@
  "d": "86\"4k UHD IFP Panel, 40 pts touch (Windows), Slim IR, Dual Pen, Android 14 (EDLA), 8GB RAM/128GB ROM",
  "specs": [
   {
+   "label": "Display size",
+   "value": "86\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "KITXWXSM1U",
   "LG-Emerald3-N20",

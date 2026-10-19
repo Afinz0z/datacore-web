@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Gamma 6 WAY UK Socket PDU Vertical mount for 19\" Cabinets",
- "specs": []
+ "specs": [
+  {
+   "label": "TYPE",
+   "value": "VERTICAL"
+  },
+  {
+   "label": "C13 sockets",
+   "value": "20"
+  },
+  {
+   "label": "Plug",
+   "value": "UK plug (BS1363)"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

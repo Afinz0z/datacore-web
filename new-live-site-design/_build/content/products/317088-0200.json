@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB-MA 12EX COUPLING BRKT WHT CB-MA 12EX COUPLING BRKT WHT",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

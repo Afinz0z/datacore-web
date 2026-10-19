@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Analog amplifier-mixer MXA1120. 1x120W.",
- "specs": []
+ "specs": [
+  {
+   "label": "Input channels",
+   "value": "1"
+  },
+  {
+   "label": "Output power",
+   "value": "120 W"
+  },
+  {
+   "label": "Frequency response",
+   "value": "40 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

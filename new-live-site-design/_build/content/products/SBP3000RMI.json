@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "APC SERVICE BYPASS PANEL 230V 16A BBM IEC C20 input, (6) IEC C13 (1) C19 output",
- "specs": []
+ "specs": [
+  {
+   "label": "C19 - sockets",
+   "value": "1"
+  },
+  {
+   "label": "C13 sockets",
+   "value": "6"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

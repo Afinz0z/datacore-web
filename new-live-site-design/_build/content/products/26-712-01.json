@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "DPM-HDF 4K PLUS",
  "d": "DPM-HDF 4K PLUS DisplayPort Male to HDMI Female Active Adapter",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "DisplayPort"
+  },
+  {
+   "label": "Output",
+   "value": "HDMI"
+  }
+ ],
+ "spec_src": "inventory"
 }

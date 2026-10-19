@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FOS Splitter 8 - 8 channel isolated Dmx splitter, Fully compliant to DMX-512 100% electrical isolation between in/output , Signal & power LED indicator ,Terminator resistor switch, 3pin input / through.",
- "specs": []
+ "specs": [
+  {
+   "label": "Splitter type",
+   "value": "Lighting"
+  },
+  {
+   "label": "Input/output",
+   "value": "1/8"
+  },
+  {
+   "label": "Input port",
+   "value": "3pin XLR"
+  },
+  {
+   "label": "Output ports",
+   "value": "3pin XLR"
+  }
+ ],
+ "spec_src": "inventory"
 }

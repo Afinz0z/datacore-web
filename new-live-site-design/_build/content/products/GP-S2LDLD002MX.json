@@ -11,6 +11,63 @@
   {
    "label": "Type",
    "value": "Fibre optic patch cord"
+  },
+  {
+   "label": "Length",
+   "value": "2m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "singlemode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "yellow"
+  },
+  {
+   "label": "Fiber count",
+   "value": "2 Fibers (Duplex)"
+  },
+  {
+   "label": "Fiber grade",
+   "value": "OS2 9/125 µm"
+  },
+  {
+   "label": "Connector",
+   "value": "LC to LC"
+  },
+  {
+   "label": "Configuration",
+   "value": "Duplex, 2-fiber"
+  },
+  {
+   "label": "Cable diameter",
+   "value": "2.0 mm × 4.0 mm"
+  },
+  {
+   "label": "Cable retention strength",
+   "value": "50 N minimum (≈ 11.2 lbf)"
+  },
+  {
+   "label": "Cable assembly length range",
+   "value": "2 m"
+  },
+  {
+   "label": "Transmission standards",
+   "value": "ITU-T G.652.D"
+  },
+  {
+   "label": "Standard",
+   "value": "OS2 / ITU-T G.652.D"
+  },
+  {
+   "label": "Boot color",
+   "value": "Blue"
+  },
+  {
+   "label": "Polarity",
+   "value": "A-B (Duplex)"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

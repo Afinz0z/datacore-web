@@ -11,6 +11,63 @@
   {
    "label": "Type",
    "value": "S/FTP Patch Cord, 010 ft"
+  },
+  {
+   "label": "Patch cord lenth",
+   "value": "10 ft (3.05 m)"
+  },
+  {
+   "label": "Cable type",
+   "value": "S/FTP - shielded"
+  },
+  {
+   "label": "Wiring",
+   "value": "568B"
+  },
+  {
+   "label": "Maximum data rate",
+   "value": "Up to 10 Gb/s"
+  },
+  {
+   "label": "Category",
+   "value": "Cat 6A"
+  },
+  {
+   "label": "Jacket",
+   "value": "LSZH (Low Smoke Zero Halogen)"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Connector",
+   "value": "RJ45 modular plugs"
+  },
+  {
+   "label": "Contact resistance",
+   "value": "20 mOhm"
+  },
+  {
+   "label": "Safety voltage rating",
+   "value": "300V"
+  },
+  {
+   "label": "Operating temperature",
+   "value": "'-10 °C to +60 °C"
+  },
+  {
+   "label": "Storage temperature",
+   "value": "'-40 °C to +70 °C"
+  },
+  {
+   "label": "Flammability rating",
+   "value": "UL 94 V-0"
+  },
+  {
+   "label": "Typical data rate",
+   "value": "Up to 10 Gb/s"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

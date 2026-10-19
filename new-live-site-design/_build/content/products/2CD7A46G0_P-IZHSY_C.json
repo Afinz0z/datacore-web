@@ -13,8 +13,37 @@
    "value": "ANPR Camera"
   },
   {
+   "label": "Resolution",
+   "value": "4 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motororized Varifocal lens"
+  },
+  {
+   "label": "WDR",
+   "value": "140 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/1.8\""
+  },
+  {
+   "label": "IR distance",
+   "value": "100 m"
+  },
+  {
+   "label": "IP rating",
+   "value": "IK10, IP67"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.265+"
+  },
+  {
    "label": "Series",
    "value": "DeepinView"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

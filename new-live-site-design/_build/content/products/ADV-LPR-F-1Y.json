@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Genetec™ Advantage for 1 AutoVu™ fixed camera connection - 1 Year",
- "specs": [],
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "1 years"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "AU-K-V-WS850-LC-000"
  ]

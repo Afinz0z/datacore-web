@@ -11,8 +11,17 @@
   {
    "label": "Type",
    "value": "Trolley Stand"
+  },
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Trolleys"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "1203626",
   "75UH7N",

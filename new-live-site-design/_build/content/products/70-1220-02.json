@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Single Space AAP - Black: One HDMI Female to Female on 10\" Pigtail, One RJ-45 Female to Female Barrel - CAT 5e",
- "specs": [],
+ "specs": [
+  {
+   "label": "Connectivity / connector",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Module slots",
+   "value": "2"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "HDMI to HDMI, RJ45 to RJ45"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1425-02",
   "60-1592-02",

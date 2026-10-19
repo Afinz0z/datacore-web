@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "V12HA06A06 - EPSON / V12HA06A06 - Wall Mount - ELPMB62 - EB-7xx / EB- 8xx",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Projector"
+  },
+  {
+   "label": "Mounting type",
+   "value": "in-wall"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "EB-805F"
  ]

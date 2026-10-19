@@ -11,6 +11,23 @@
   {
    "label": "Type",
    "value": "1 port floor box"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "No slot",
+   "value": "2"
+  },
+  {
+   "label": "Finish",
+   "value": "Smooth"
+  },
+  {
+   "label": "Set",
+   "value": "1"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

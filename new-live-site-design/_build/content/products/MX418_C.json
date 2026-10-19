@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Gooseneck, 18\" with cardioid",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Gooseneck Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "A412B"
  ]

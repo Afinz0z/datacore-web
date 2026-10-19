@@ -9,8 +9,41 @@
  "d": "Cat 6A Data CableS/FTP4 Pairs, AWG23, LS0H Sheath, Outdoor , Blue Color (500 Meter/Roll)",
  "specs": [
   {
+   "label": "Reel/box length",
+   "value": "500 M"
+  },
+  {
+   "label": "Colour",
+   "value": "Blue"
+  },
+  {
+   "label": "Cable type",
+   "value": "S/FTP"
+  },
+  {
+   "label": "No of pairs",
+   "value": "4"
+  },
+  {
+   "label": "Outer jacket material",
+   "value": "LSZH / LS0H (low smoke, zero halogen)"
+  },
+  {
+   "label": "Installation type",
+   "value": "Outdoor"
+  },
+  {
+   "label": "Category",
+   "value": "Cat 6A"
+  },
+  {
+   "label": "Conductor size (AWG)",
+   "value": "23 AWG"
+  },
+  {
    "label": "Unit",
    "value": "Reel"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

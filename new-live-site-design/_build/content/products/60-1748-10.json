@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "TLCA 1",
  "d": "TLCA 1 TouchLink Control Port Expansion Adapter",
- "specs": []
+ "specs": [
+  {
+   "label": "Adapter type",
+   "value": "Expansion Adapter"
+  },
+  {
+   "label": "Connectivity",
+   "value": "3.5 mm Connector,2 pole"
+  }
+ ],
+ "spec_src": "inventory"
 }

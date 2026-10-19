@@ -12,8 +12,57 @@
   {
    "label": "Type",
    "value": "UPS Unit"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Tower, Rack"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ), Three Phase (3Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": Sealed Maintenance-Free VRLA / Lithium-ion"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "72 V"
+  },
+  {
+   "label": "Recharge time",
+   "value": ">4 HR to 90%"
+  },
+  {
+   "label": "Protection features",
+   "value": "Overload Protection, Short Circuit Protection, Over-Voltage / Under-Voltage Protection, Battery Deep Discharge Protection, Surge Protection (e.g., ≥ 400 Joules)"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "IEC 62040-1 / IEC 62040-2 / IEC 62040-3"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Rack unit",
+   "value": "2U"
+  },
+  {
+   "label": "Backup",
+   "value": "15 MIN"
+  },
+  {
+   "label": "Battery slots empty",
+   "value": "6"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "SRTG192XLBP2",
   "SRTGRK1",

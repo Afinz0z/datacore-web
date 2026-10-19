@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "NAV 10E 101",
  "d": "NAV 10E 101 - 10G HDMI Encoder - Multimode",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "SFP"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, 3.5 mm captive connector"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

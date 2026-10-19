@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "USB A Male to USB Mini B Male Configuration Cable (1.8m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.8 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB A to USB B"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB"
+  }
+ ],
+ "spec_src": "inventory"
 }

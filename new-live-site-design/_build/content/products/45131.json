@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "Ceiling Speaker"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

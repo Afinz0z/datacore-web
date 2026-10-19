@@ -9,8 +9,17 @@
  "d": "OM3CC TB3J-V(ZN)H 12F",
  "specs": [
   {
+   "label": "Fiber core count",
+   "value": "12"
+  },
+  {
+   "label": "Installation environment",
+   "value": "indoor"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

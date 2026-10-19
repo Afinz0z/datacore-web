@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "19\" RACK FRAME 5RU",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Headend"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "5629",
   "563852",

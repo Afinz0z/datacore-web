@@ -11,8 +11,37 @@
   {
    "label": "Type",
    "value": "ACS Main Controller"
+  },
+  {
+   "label": "On-board doors/access points",
+   "value": "2 Doors"
+  },
+  {
+   "label": "On-board readers",
+   "value": "4 OSDP readers or 2 Wiegand readers"
+  },
+  {
+   "label": "Maximum readers",
+   "value": "64"
+  },
+  {
+   "label": "Credential capacity",
+   "value": "250,000"
+  },
+  {
+   "label": "Reader communication",
+   "value": "OSDP / Wiegand"
+  },
+  {
+   "label": "Network",
+   "value": "10/100 Ethernet"
+  },
+  {
+   "label": "OSDP cable distance",
+   "value": "Up to 609.6 m (2,000 ft)"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "OSP(X100)",
   "OSP(X1100C)",

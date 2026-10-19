@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "110UM5K",
  "d": "110“ LG LCD Display, UHD Resolution",
- "specs": []
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "110\""
+  },
+  {
+   "label": "Type",
+   "value": "Interactive"
+  },
+  {
+   "label": "Display brightness",
+   "value": "550"
+  }
+ ],
+ "spec_src": "inventory"
 }

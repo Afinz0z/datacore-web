@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PDB + PSU (1:1 set, incl. power cable, data cables and mounting)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply, Power Cable"
+  }
+ ],
+ "spec_src": "inventory"
 }

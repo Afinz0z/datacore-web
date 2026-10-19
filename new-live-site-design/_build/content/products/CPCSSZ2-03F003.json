@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "patch cord 1m"
+  },
+  {
+   "label": "Patch cord lenth",
+   "value": "1 Mtr"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

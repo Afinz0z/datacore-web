@@ -8,5 +8,47 @@
  "avail": "lead",
  "model": "DTP3 T 202 EU/MK",
  "d": "DTP3 T 202 EU/MK Two Input DTP3 Transmitter for Flex55 and EU/MK Junction Boxes",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Tx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Video input signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Inputs",
+   "value": "USB-C, HDMI, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Outputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

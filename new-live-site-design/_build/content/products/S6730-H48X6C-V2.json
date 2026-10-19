@@ -11,8 +11,41 @@
   {
    "label": "Type",
    "value": "Core switch"
+  },
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "1"
+  },
+  {
+   "label": "SFP ports",
+   "value": "48"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "STP, RSTP, MSTP, Link Aggregation (LACP - IEEE 802.3ad), LLDP / LLDP-MED / CDP, Port mirroring (SPAN), IGMP Snooping"
+  },
+  {
+   "label": "Layer 3 features",
+   "value": "Static routing, RIP, OSPF, EIGRP, Policy-based routing (PBR), IPv4 / IPv6 Dual Stack, OSPF / OSPFv3, BGP, Policy-Based Routing (PBR)"
+  },
+  {
+   "label": "Security features",
+   "value": "802.1X authentication, MAC authentication bypass, DHCP snooping, Dynamic ARP inspection, IP Source Guard"
+  },
+  {
+   "label": "Maximum stack members",
+   "value": "up to 2"
+  },
+  {
+   "label": "40G QSFP+ PORTS",
+   "value": "6"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "02354HHT_88134UGQ-4ST_36",
   "L-MLIC-S67H",

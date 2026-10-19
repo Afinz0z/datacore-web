@@ -11,6 +11,19 @@
   {
    "label": "Type",
    "value": "Single mode patch cord"
+  },
+  {
+   "label": "Length",
+   "value": "3m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "singlemode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "yellow"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

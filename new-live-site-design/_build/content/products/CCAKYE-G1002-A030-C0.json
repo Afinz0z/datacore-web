@@ -11,6 +11,11 @@
   {
    "label": "Type",
    "value": "Cat6a"
+  },
+  {
+   "label": "Patch cord lenth",
+   "value": "3 Mtr"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

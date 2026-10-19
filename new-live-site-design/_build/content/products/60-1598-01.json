@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "RCP 101 D",
  "d": "RCP 101 D Remote Control Panel - Decorator-Style",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted"
+  }
+ ],
+ "spec_src": "inventory"
 }

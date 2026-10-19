@@ -9,10 +9,27 @@
  "d": "Retractor XL USB-C Power Extended Length Cable Retraction System for AVEdge, Cable Cubby®, Select TouchLink® Enclosures, and TMK 120 R Kit - USB-C Male to USB-C Female",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "USB C"
+  },
+  {
+   "label": "Power modules",
+   "value": "USB Charging"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "USB C to USB C"
+  },
+  {
+   "label": "Cable length",
+   "value": "1.5 m (5 ft)"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

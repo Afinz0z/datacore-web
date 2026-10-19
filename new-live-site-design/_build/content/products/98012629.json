@@ -6,7 +6,21 @@
  "c": "Network Switch",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "48"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "SFP ports",
+   "value": "8"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "02310MUH",
   "02313URC",

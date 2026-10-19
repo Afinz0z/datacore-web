@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP2 R 212",
  "d": "DTP2 R 212 HDMI 4K/60 DTP2 Receiver and Switcher with Audio De-Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm captive connector"
+  }
+ ],
+ "spec_src": "inventory"
 }

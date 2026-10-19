@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "ELPLM10",
  "d": "Optional Powered Lenses with Lens Memory",
- "specs": []
+ "specs": [
+  {
+   "label": "Zoom/Focus",
+   "value": "Motorized"
+  }
+ ],
+ "spec_src": "inventory"
 }

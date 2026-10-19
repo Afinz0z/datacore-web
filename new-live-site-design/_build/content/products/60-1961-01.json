@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "SSI 100C",
  "d": "SSI 100C System Status Indicators",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Status Indicators"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45, 2-pin 3.5 mm"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
+  }
+ ],
+ "spec_src": "inventory"
 }

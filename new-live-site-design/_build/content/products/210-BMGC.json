@@ -7,5 +7,35 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dell 27 Monitor - P2725H, 68.6cm (27.0\")",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "27"
+  },
+  {
+   "label": "Panel type",
+   "value": "IPS"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "VGA ports",
+   "value": "1"
+  },
+  {
+   "label": "Usb-a downstream",
+   "value": "3"
+  },
+  {
+   "label": "USB - C port",
+   "value": "1"
+  }
+ ],
+ "spec_src": "inventory"
 }

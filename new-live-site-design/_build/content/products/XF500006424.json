@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "CAT6 UTP Jack",
  "d": "VOLOCK6UHV CAT6 UTP Jack",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "CAT6"
+  },
+  {
+   "label": "Colour",
+   "value": "WHITE"
+  }
+ ],
+ "spec_src": "inventory"
 }

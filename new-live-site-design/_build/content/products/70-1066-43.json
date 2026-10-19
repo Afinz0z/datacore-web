@@ -9,10 +9,23 @@
  "d": "Retractor XL DisplayPort-HDMI Extended Length 4K Cable Retraction System for AVEdge, Cable Cubby®, Select TouchLink® Enclosures, and TMK 120 R Kit - DisplayPort Male to Male HDMI",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "HDMI, DisplayPort"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "DisplayPort to HDMI"
+  },
+  {
+   "label": "Cable length",
+   "value": "1.5 m (5 ft)"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

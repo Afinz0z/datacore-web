@@ -8,7 +8,29 @@
  "avail": "lead",
  "model": "FT2A-CP-4K-HD",
  "d": "FT2A-CP-4K-HD Connector Plate Module for FT2 ELEC Series, HDMI®, 18 Gbps",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Flush Mount / Flip-Top"
+  },
+  {
+   "label": "Connectivity / connector",
+   "value": "HDMI"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  },
+  {
+   "label": "Operation",
+   "value": "Electrical"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6511653",
   "6511654",

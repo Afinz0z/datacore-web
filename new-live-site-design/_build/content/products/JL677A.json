@@ -11,8 +11,41 @@
   {
    "label": "Type",
    "value": "Access switch"
+  },
+  {
+   "label": "Ports",
+   "value": "24"
+  },
+  {
+   "label": "Fans",
+   "value": "2"
+  },
+  {
+   "label": "PoE power",
+   "value": "370 W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "4"
+  },
+  {
+   "label": "Protocols",
+   "value": "VLANs, QoS, STP/RSTP, IGMP, SNMP, IPV4 /IPV6, TCP/UDP"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "128Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3at (PoE+)"
+  },
+  {
+   "label": "10G SFP+ PORTS",
+   "value": "4"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HV1L3E",
   "JL677A ACC"

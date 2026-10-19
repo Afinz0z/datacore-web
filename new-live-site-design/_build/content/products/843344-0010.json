@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "AMM Suspension Bracket AMM suspension bracket AMM suspension bracket AMM suspension bracket",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Wall"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "843160-0110",
   "843161-0110"

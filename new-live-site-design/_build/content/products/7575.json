@@ -7,7 +7,33 @@
  "dept": "AV",
  "avail": "lead",
  "d": "OFFSET DISH 1300 STEEL G42dBi WHI.20U",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Elevation angle",
+   "value": "30° - 80°"
+  },
+  {
+   "label": "Frequency range",
+   "value": "10.70 - 12.75 MHz"
+  },
+  {
+   "label": "Dish width",
+   "value": "1300 mm"
+  },
+  {
+   "label": "Dish height",
+   "value": "1410 mm"
+  },
+  {
+   "label": "Dish material",
+   "value": "Steel"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "237561",
   "747402",

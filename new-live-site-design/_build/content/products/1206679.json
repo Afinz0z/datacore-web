@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Smartvision 80 • 1x SmartVision 80 quad-eye 20X optical PTZ 4K intelligent camera • 1x VCR20 remote control • 1x 2.5m USB3 cable • 1x 7.5m CAT5e cable • 1x Wall mount bracket • 1x power adapter • Including 2-year hardware warranty",
- "specs": []
+ "specs": [
+  {
+   "label": "Camera type",
+   "value": "PTZ"
+  },
+  {
+   "label": "Optical zoom",
+   "value": "12x"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Feature",
+   "value": "Auto framing, Speaker tracking, IntelliFrame, IntelliFocus, Presenter tracking, Participant identification, Video fence, PIP"
+  },
+  {
+   "label": "Maximum distance",
+   "value": "15 m"
+  }
+ ],
+ "spec_src": "inventory"
 }

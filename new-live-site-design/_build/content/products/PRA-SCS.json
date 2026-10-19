@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PRAESENSA PRA-SCS System controller and audio routing, small",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "8"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "8"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

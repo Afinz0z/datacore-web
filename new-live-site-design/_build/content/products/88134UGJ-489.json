@@ -7,7 +7,73 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AirEngine8771-X1T(11be indoor,4+4+4 Triple bands,Scan radio ,Dynamic-zoom smart antenna,USB,BLE)_Co-Care Basic AirEngine8770_36Month(s)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Categories",
+   "value": "Enterprise Wireless LAN , Wi-Fi"
+  },
+  {
+   "label": "Application",
+   "value": "Indoor high-performance enterprise Wi-Fi"
+  },
+  {
+   "label": "Hardware",
+   "value": "Huawei AirEngine 8771-X1T"
+  },
+  {
+   "label": "USB",
+   "value": "YES"
+  },
+  {
+   "label": "BLE",
+   "value": "YES"
+  },
+  {
+   "label": "Antenna",
+   "value": "Dynamic-zoom smart antenna"
+  },
+  {
+   "label": "Radio configuration",
+   "value": "4+4+4 Triple Band"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "802.11be (Wi-Fi 7)"
+  },
+  {
+   "label": "Maximum access point",
+   "value": "1 AP per hardware unit"
+  },
+  {
+   "label": "Transmission media",
+   "value": "Wireless + Ethernet uplink"
+  },
+  {
+   "label": "Support service",
+   "value": "Co-Care Basic - 36 Months"
+  },
+  {
+   "label": "Support period",
+   "value": "36 months"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Huawei AirEngine 6776-57T"
+  },
+  {
+   "label": "Associated product",
+   "value": "Huawei CloudCampus , WLAN solution"
+  },
+  {
+   "label": "Scan radio",
+   "value": "Yes"
+  },
+  {
+   "label": "Installation type",
+   "value": "Indoor"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02354FRJ-001"
  ]

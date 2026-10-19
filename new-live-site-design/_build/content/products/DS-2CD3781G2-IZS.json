@@ -11,6 +11,59 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motororized Varifocal lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "IR distance",
+   "value": "40"
+  },
+  {
+   "label": "IP rating",
+   "value": "IK10, IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "512 GB"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265 , H.265+"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm"
+  },
+  {
+   "label": "Perimeter protection",
+   "value": "Line crossing, intrusion"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, FTP, DHCP, DNS, DDNS, RTP, RTCP, NTP, UPnP, SMTP, 802.1X, QoS, IPv4, IPv6, UDP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF (Profile S, Profile G), ISAPI, SDK"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, complicated password, HTTPS encryption, Security Audit Log"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,39 @@
  "avail": "lead",
  "model": "EDID 121",
  "d": "EDID 121 8K HDMI EDID Emulator with EDID Minder® Plus",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "EDID Emulator"
+  },
+  {
+   "label": "Resolutions",
+   "value": "8K"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Inputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "40.1 Gbps"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "21:9"
+  },
+  {
+   "label": "HDR",
+   "value": "HDR10, HDR10+, Dolby Vision"
+  }
+ ],
+ "spec_src": "inventory"
 }

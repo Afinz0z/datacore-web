@@ -7,7 +7,57 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "The Dahua DSS8PRVML is a Video Monitoring Module license for DSS Professional V8. It enables advanced video monitoring functions within the DSS platform, providing centralized live view, playback, event handling, and video management for enterprise surveillance deployments. It requires a DSS Professional V8 base license.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "DSS Professional V8 Video Monitoring Module License"
+  },
+  {
+   "label": "Category",
+   "value": "Video Surveillance / Video Monitoring"
+  },
+  {
+   "label": "Application",
+   "value": "Video surveillance management"
+  },
+  {
+   "label": "License type",
+   "value": "Module / Expansion License"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Enables centralized live view, playback, event handling and video management"
+  },
+  {
+   "label": "Capacity",
+   "value": "As per licensed DSS video monitoring capacity"
+  },
+  {
+   "label": "System",
+   "value": "Dahua DSS Professional V8"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Dahua IP Cameras, NVRs and other compatible surveillance devices"
+  },
+  {
+   "label": "Associated product",
+   "value": "DSS Professional V8"
+  },
+  {
+   "label": "Supporting product",
+   "value": "DSS Professional V8 Base License"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "As defined by the DSS Professional V8 license configuration"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "DSS8PRVB128"
  ]

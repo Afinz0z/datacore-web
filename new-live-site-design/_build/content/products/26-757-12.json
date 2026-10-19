@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DP Ultra Plus/12 DisplayPort Ultra Plus Flexible 4K Cables 12' (3.6 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "3.6m"
+  },
+  {
+   "label": "Cable type",
+   "value": "DisplayPort"
+  },
+  {
+   "label": "Supports resolutions",
+   "value": "4K"
+  }
+ ],
+ "spec_src": "inventory"
 }

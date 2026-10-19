@@ -9,10 +9,15 @@
  "d": "65\"4k UHD IFP Panel (20 touch, PCAP, Active Pen, Android 8.0)",
  "specs": [
   {
+   "label": "Display size",
+   "value": "65\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-CMBB-65",
   "LG-Emerald1",

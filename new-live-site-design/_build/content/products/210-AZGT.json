@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Dell 24 Monitor - SE2422H- 60.5cm (23.8’’)",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "23.8"
+  },
+  {
+   "label": "Resolution",
+   "value": "Full HD"
+  },
+  {
+   "label": "Panel type",
+   "value": "VA Panel"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  }
+ ],
+ "spec_src": "inventory"
 }

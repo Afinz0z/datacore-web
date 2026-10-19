@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Bosch Surface mounting box for LC1",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "LC1-UM06E8"
  ]

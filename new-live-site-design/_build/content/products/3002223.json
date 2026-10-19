@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "DM-NVX-SW-C310",
  "d": "DM-NVX-SW-C310 DM NVX® 4K60 Network AV Encoder/Decoder CPU-Based Software, Single Stream",
- "specs": []
+ "specs": [
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory"
 }

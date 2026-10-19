@@ -8,5 +8,51 @@
  "avail": "lead",
  "model": "TLP Pro 725T",
  "d": "TLP Pro 725T 7\" Tabletop TouchLink® Pro Touchpanel -",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "7\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "1024 x 600"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Ethernet, RJ-45"
+  },
+  {
+   "label": "Audio",
+   "value": "Speaker"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Desk/Table"
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Wireless support",
+   "value": "No"
+  },
+  {
+   "label": "Brightness",
+   "value": "420 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  }
+ ],
+ "spec_src": "inventory"
 }

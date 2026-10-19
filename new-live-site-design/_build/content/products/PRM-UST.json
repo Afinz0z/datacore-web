@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PRM-UST Music source, USB, SD, Tuner PLENA solutions.",
- "specs": []
+ "specs": [
+  {
+   "label": "Supports audio sources",
+   "value": "USB devices, SD cards, FM tuner, RDS"
+  }
+ ],
+ "spec_src": "inventory"
 }

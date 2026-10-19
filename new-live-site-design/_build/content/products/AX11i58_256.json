@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "OPS-AX11i58/256",
  "d": "OPS - i5, 11th Gen, 8GB, RAM 256 SSD ,80 pin config- OS is not included",
- "specs": []
+ "specs": [
+  {
+   "label": "Processor",
+   "value": "i5"
+  },
+  {
+   "label": "RAM",
+   "value": "8GB"
+  },
+  {
+   "label": "Storage",
+   "value": "256GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

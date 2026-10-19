@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "WPD 102 XLRM",
  "d": "WPD 102 XLRM Pass-Through Wallplate with Two XLR Connectors - Decorator-Style; White",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectors",
+   "value": "XLR"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

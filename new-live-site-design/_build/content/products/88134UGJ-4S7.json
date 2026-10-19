@@ -7,7 +7,61 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "AR6140E-9G-2AC AC host, 5*GE RJ45, 4*GE SFP, 1*USB 2.0, 4*SIC_Co-Care Basic AR6140-9G-2AC_36Month(s)",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "WAN / Routing / Network Infrastructure"
+  },
+  {
+   "label": "Application",
+   "value": "Enterprise WAN , Branch Networking"
+  },
+  {
+   "label": "Transmission media",
+   "value": "Copper Ethernet, Fiber Ethernet"
+  },
+  {
+   "label": "Function",
+   "value": "Routing, WAN connectivity and network service aggregation"
+  },
+  {
+   "label": "System",
+   "value": "Huawei AR Series"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Network switches, SFP modules, WAN/Internet connections"
+  },
+  {
+   "label": "Supporting product",
+   "value": "Huawei Co-Care Basic Support"
+  },
+  {
+   "label": "GE RJ45 ports",
+   "value": "5 × GE RJ45"
+  },
+  {
+   "label": "GE SFP ports",
+   "value": "4 × GE SFP"
+  },
+  {
+   "label": "USB",
+   "value": "1 × USB 2.0"
+  },
+  {
+   "label": "Expansion slots",
+   "value": "4 × SIC slots"
+  },
+  {
+   "label": "Support period",
+   "value": "36 Months"
+  },
+  {
+   "label": "Support License/Service",
+   "value": "Yes - Co-Care Basic, 36 months"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "02353UYT-002"
  ]

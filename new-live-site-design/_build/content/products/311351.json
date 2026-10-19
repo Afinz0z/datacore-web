@@ -8,7 +8,49 @@
  "avail": "lead",
  "model": "UPS Keor DK 6000VA",
  "d": "UPS Keor DK 6000VA No Batt with Terminal Strips",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rated power in VA",
+   "value": "6000"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
+  },
+  {
+   "label": "UPS type",
+   "value": "Online (Double Conversion)"
+  },
+  {
+   "label": "Mounting",
+   "value": "Rack-Tower Convertible"
+  },
+  {
+   "label": "Phase",
+   "value": "Single Phase (1Φ)"
+  },
+  {
+   "label": "Battery type",
+   "value": ": External VRLA (Valve Regulated Lead Acid) Sealed Batteries"
+  },
+  {
+   "label": "Protection features",
+   "value": "Overload Protection, Short Circuit Protection, Over-Voltage / Under-Voltage Protection, Battery Deep Discharge Protection, Built-in Static & Manual Bypass"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "CE / UL / BIS (as per country), ISO 9001 / ISO 14001 (Manufacturer)"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP20"
+  },
+  {
+   "label": "Rack unit",
+   "value": "2U"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "310952",
   "311058",

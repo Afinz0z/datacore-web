@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "EB-PU1008B WUXGA 3LCD Laser Projector with 4K Enhancement, 8,500 lumens",
- "specs": [],
+ "specs": [
+  {
+   "label": "Projection resolution",
+   "value": "WUXGA (1920 x 1200), 4K UHD (3840 x 2160)"
+  },
+  {
+   "label": "Light source type",
+   "value": "Laser"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CMS0305",
   "CMS115",

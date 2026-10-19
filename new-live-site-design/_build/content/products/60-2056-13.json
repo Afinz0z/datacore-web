@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "NF 4C LP-1",
  "d": "NF 4C LP-1 One Powered 4” Ceiling Speaker w/ Dante and DSP",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Frequency range",
+   "value": "106 Hz to 20 kHz"
+  },
+  {
+   "label": "Drivers",
+   "value": "4\""
+  },
+  {
+   "label": "Coverage angle",
+   "value": "135°"
+  }
+ ],
+ "spec_src": "inventory"
 }

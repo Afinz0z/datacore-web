@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CB2-BTNA-S_ENGRAVED Large Backlit Engravable Button Cap for Cameo Keypads, Almond Smooth, Includes Custom Engraving",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Almond"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6503810",
   "6513118",

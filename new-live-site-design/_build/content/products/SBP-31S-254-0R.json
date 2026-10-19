@@ -7,7 +7,29 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Sapling Digital, IP, 3100 Model, 2.5\", 4 Digits, PoE, Red Display, Surface Wall Mount",
- "specs": [],
+ "specs": [
+  {
+   "label": "Display type",
+   "value": "LED"
+  },
+  {
+   "label": "Size",
+   "value": "2.5″"
+  },
+  {
+   "label": "Number of digits",
+   "value": "4-digit"
+  },
+  {
+   "label": "Digit color",
+   "value": "Red"
+  },
+  {
+   "label": "Mounting",
+   "value": "Surface"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "E-PWR-CBL-UK-M-KIT-0",
   "M-GPS-MTG-KIT-1",

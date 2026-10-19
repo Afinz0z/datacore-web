@@ -10,10 +10,35 @@
  "d": "HIKVISION 32CH Network Video Recorder,8 SATA - 8 HDD Support.",
  "specs": [
   {
+   "label": "Number of channel",
+   "value": "32"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265, H.265+, H.264+"
+  },
+  {
+   "label": "RAID support",
+   "value": "RAID 0, RAID 1, RAID 5, RAID 6, RAID 10"
+  },
+  {
+   "label": "Incoming bandwidth",
+   "value": "320 Mbps"
+  },
+  {
+   "label": "Outgoing bandwidth",
+   "value": "256 Mbps"
+  },
+  {
+   "label": "SATA interface",
+   "value": "8 SATA"
+  },
+  {
    "label": "Series",
    "value": "NVR Pro Series"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "DC HC330",
   "WD102PURP"

@@ -7,7 +7,29 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Finosel CAT6A U/UTP 4 Pair Cable 23AWG PVC Gray 305 Meter Reel",
- "specs": [],
+ "specs": [
+  {
+   "label": "Reel/box length",
+   "value": "305 M"
+  },
+  {
+   "label": "Colour",
+   "value": "Grey"
+  },
+  {
+   "label": "Cable type",
+   "value": "U/UTP"
+  },
+  {
+   "label": "No of pairs",
+   "value": "4"
+  },
+  {
+   "label": "Standards & compliance",
+   "value": "ANSI/TIA-568.2-D, ISO/IEC 11801, IEEE 802.3 (Ethernet), RoHS compliant, ANSI/TIA-568-C.2"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CJ6A-IU0A",
   "CJ6A-MU0A",

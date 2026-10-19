@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "LC2-PC30G6-4 Premium-sound Ceiling Loudspeaker 30W 4-inch coaxial two-way Full bandwidth overload protection",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "30W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "65 Hz - 20 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "101 dB"
+  },
+  {
+   "label": "Drivers",
+   "value": "4\""
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,43 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "RitchFieldU/UTP CAT6A Stranded Pure Copper Patch Cord LSZH 3m, Gray, with factory crimped Red Identification Boot",
- "specs": []
+ "specs": [
+  {
+   "label": "Patch cord lenth",
+   "value": "3 Mtr"
+  },
+  {
+   "label": "Cable type",
+   "value": "U/UTP"
+  },
+  {
+   "label": "Wiring",
+   "value": "T568B"
+  },
+  {
+   "label": "Maximum data rate",
+   "value": "Up to 10 Gb/s"
+  },
+  {
+   "label": "Category",
+   "value": "Cat 6A"
+  },
+  {
+   "label": "Jacket",
+   "value": "LSZH (Low Smoke Zero Halogen)"
+  },
+  {
+   "label": "Colour",
+   "value": "Gray"
+  },
+  {
+   "label": "Connector",
+   "value": "RJ45 (8P8C), male-to-male"
+  },
+  {
+   "label": "Number of pairs",
+   "value": "4 pairs"
+  }
+ ],
+ "spec_src": "inventory"
 }

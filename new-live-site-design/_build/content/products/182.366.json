@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "P30 Truss Conn.Set 4 couplers, 8 cl",
- "specs": []
+ "specs": [
+  {
+   "label": "Product colour",
+   "value": "Aluminium"
+  }
+ ],
+ "spec_src": "inventory"
 }

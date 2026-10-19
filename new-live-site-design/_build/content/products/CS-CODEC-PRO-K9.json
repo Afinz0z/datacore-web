@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "CS-CODEC-PRO-K9",
  "d": "CS Codec Pro - stand alone",
- "specs": []
+ "specs": [
+  {
+   "label": "Included components in kit",
+   "value": "CODEC"
+  }
+ ],
+ "spec_src": "inventory"
 }

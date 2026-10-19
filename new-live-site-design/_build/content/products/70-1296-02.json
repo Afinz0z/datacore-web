@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Cable Cubby F55 Edge Cable Cubby F55 Edge, Black, No AC",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Edge Mount"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Module/Chassis"
+  }
+ ],
+ "spec_src": "inventory"
 }

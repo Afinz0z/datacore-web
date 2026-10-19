@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "MorphoSmart 500 ppi Optical Fingerprint sensor FAP #30 (Metal Housing, USB), MSO-330 with Fake Finger detection (Replacement for SM-MSO-301)",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Desktop"
+  }
+ ],
+ "spec_src": "inventory"
 }

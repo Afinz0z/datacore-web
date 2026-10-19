@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "single magnetic lock"
+  },
+  {
+   "label": "Lock type",
+   "value": "Single Magnetic Lock"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "CP-33G",
   "LZ-GEM-1200",

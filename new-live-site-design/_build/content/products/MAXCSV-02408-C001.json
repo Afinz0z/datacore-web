@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "24 port"
+  },
+  {
+   "label": "Category TYPE",
+   "value": "CAT6A"
+  },
+  {
+   "label": "Ports",
+   "value": "24 PORT"
+  },
+  {
+   "label": "Module termination",
+   "value": "UNLOADED"
+  },
+  {
+   "label": "Mounting SIZE",
+   "value": "1U"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "XF003849213"
  ]

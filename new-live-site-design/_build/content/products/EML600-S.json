@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Magnetic Lock",
  "d": "600 lbs Electro Magnetic Lock with ZL bracket",
- "specs": []
+ "specs": [
+  {
+   "label": "Lock type",
+   "value": "Single Magnetic Lock"
+  }
+ ],
+ "spec_src": "inventory"
 }

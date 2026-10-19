@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "USB Extender Plus AAP R - Twisted Pair Extender for USB Peripherals - AAP Version",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Outputs",
+   "value": "USB-A"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "60-300-02",
   "60-300-03",

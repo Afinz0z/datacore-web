@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HPX-600BL | HydraPort 6 Module Connection Port - Black Model - Modular connectivity system accommodates the diverse needs of conference and meeting room visitors. Elegant flush-mount design conveniently opens in both directions.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Module slots",
+   "value": "6"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Module/Chassis"
+  },
+  {
+   "label": "Product size/capacity",
+   "value": "600"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "AMX-UHMR01C",
   "FG552-24",

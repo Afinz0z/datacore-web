@@ -11,6 +11,15 @@
   {
    "label": "Type",
    "value": "Cat5e Transceiver"
+  },
+  {
+   "label": "Performance / speed",
+   "value": "1G (Gigabit Ethernet)"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Copper (Twinax)"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

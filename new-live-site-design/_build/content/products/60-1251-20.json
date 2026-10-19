@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "HRU 109",
  "d": "HRU 109 1U Universal Half Rack Shelf Kit",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "1 U"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,23 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP Z24m G3 Conferencing QHD Display",
- "specs": []
+ "specs": [
+  {
+   "label": "Display size",
+   "value": "23.8”"
+  },
+  {
+   "label": "Display resolution",
+   "value": "QHD (2560 x 1440)"
+  },
+  {
+   "label": "Display contrast ratio",
+   "value": "1000:1"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  }
+ ],
+ "spec_src": "inventory"
 }

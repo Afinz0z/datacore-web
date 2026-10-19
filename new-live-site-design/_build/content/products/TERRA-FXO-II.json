@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FULL DUPLEX TELEPHONE/IP TERMINAL FOR INTERCOM",
- "specs": [],
+ "specs": [
+  {
+   "label": "Signal type",
+   "value": "Network, telecom"
+  },
+  {
+   "label": "Connector type",
+   "value": "RJ45"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "Terra Manager-Intercom",
   "Terra Manager-Intercom-NODE"

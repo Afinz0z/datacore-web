@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "QIO-ML4i",
  "d": "Network Audio Expander, 4 Mic/Line Inputs",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Network Audio Expander"
+  },
+  {
+   "label": "Connectivity",
+   "value": "4 mic/line inputs"
+  }
+ ],
+ "spec_src": "inventory"
 }

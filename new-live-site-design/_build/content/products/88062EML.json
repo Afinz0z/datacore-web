@@ -7,5 +7,67 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "N1-CloudCampus SD-WAN(include SD-WAN),Foundation,AR6100 Series,SnS,Per Device,3 Year(Annual fee validity period : 3 years from\" PO signed plus 90 days \")",
- "specs": []
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  },
+  {
+   "label": "Software license type",
+   "value": "N1-CloudCampus SD-WAN Foundation"
+  },
+  {
+   "label": "Category",
+   "value": "SD-WAN, Cloud Networking"
+  },
+  {
+   "label": "Base license",
+   "value": "Foundation"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported through CloudCampus management, subject to configuration"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Application",
+   "value": "SD-WAN , Enterprise WAN management"
+  },
+  {
+   "label": "License type",
+   "value": "Subscription , SnS"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides SD-WAN functionality and centralized management capabilities for supported AR6100 Series devices"
+  },
+  {
+   "label": "Capacity",
+   "value": "Per Device"
+  },
+  {
+   "label": "System",
+   "value": "Huawei N1-CloudCampus"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Huawei AR6100 Series"
+  },
+  {
+   "label": "Associated product",
+   "value": "AR6100 Series Router"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per Device"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -12,6 +12,11 @@
   {
    "label": "Type",
    "value": "Table top mic"
+  },
+  {
+   "label": "Type of mic",
+   "value": "Boundary / Tabletop Mic"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

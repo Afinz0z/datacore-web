@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "UNIG_HDMI-QUAD",
  "d": "HDMI to MPEG4 HD quad encoder",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Encoder, HDMI Interface"
+  },
+  {
+   "label": "Inputs",
+   "value": "4"
+  }
+ ],
+ "spec_src": "inventory"
 }

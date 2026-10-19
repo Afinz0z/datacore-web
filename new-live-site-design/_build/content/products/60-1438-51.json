@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP HD DA8 4K 330",
  "d": "DTP HD DA8 4K 330 - Long Distance HDMI to Eight Output DTP Twisted Pair Distribution Amplifier - 330 feet (100 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output",
+   "value": "RJ45"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x8"
+  },
+  {
+   "label": "Supporting video resolution",
+   "value": "4K30"
+  },
+  {
+   "label": "Audio input",
+   "value": "3.5 mm stereo jack"
+  },
+  {
+   "label": "Audio output",
+   "value": "RJ45, 3.5 mm stereo jack"
+  },
+  {
+   "label": "Support distance",
+   "value": "100 m"
+  }
+ ],
+ "spec_src": "inventory"
 }

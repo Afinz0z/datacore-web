@@ -9,10 +9,27 @@
  "d": "Cable Cubby 1402 Br Aluminum, AC Module Not Included",
  "specs": [
   {
+   "label": "Mounting type",
+   "value": "Flush Mount / Flip-Top"
+  },
+  {
+   "label": "Power modules",
+   "value": "No"
+  },
+  {
+   "label": "Colour",
+   "value": "Aluminum"
+  },
+  {
    "label": "Type",
-   "value": "Cable Cubby Enclosures"
+   "value": "Module/Chassis"
+  },
+  {
+   "label": "Product size/capacity",
+   "value": "1402"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "70-1065-01",
   "70-1065-02",

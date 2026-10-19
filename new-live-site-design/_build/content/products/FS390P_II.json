@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "FreeSpace® 360P Series II loudspeaker Full-range environmental loudspeaker with one downward firing 4.5\" (114 mm) advance composite environmental full-range driver for inground or above-ground mounting",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Surface Mounted"
+  }
+ ],
+ "spec_src": "inventory"
 }

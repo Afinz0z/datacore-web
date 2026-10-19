@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "A Mini/2",
  "d": "A Mini/2 Mini Stereo Audio Cable: 3.5 mm Stereo Mini Male to Male - 2' (60 cm)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "0.6m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "3.5 mm"
+  },
+  {
+   "label": "Cable type",
+   "value": "Audio"
+  }
+ ],
+ "spec_src": "inventory"
 }

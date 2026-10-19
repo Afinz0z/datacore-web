@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SRLED",
  "d": "Wall mounted strobe light",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall mount Strobe light"
+  }
+ ],
+ "spec_src": "inventory"
 }

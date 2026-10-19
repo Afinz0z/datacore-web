@@ -8,7 +8,37 @@
  "avail": "lead",
  "model": "Card reader",
  "d": "SIGNO 20K,BLK/SLVR,PIG,CRD PFL STD,MA RDY,FMT:ASP10022,WIEG,32-B MSB,EACH,4-B MSG,NOPAR,LEN:13,FC:0,EM:32-B,LED:RED,FLSH:GRN,BZR,KBD:RED,BZR,VIS:ON,SRF:ON,IPM:OFF,VEL:OFF,TAP",
- "specs": [],
+ "specs": [
+  {
+   "label": "Form factor",
+   "value": "Mullion"
+  },
+  {
+   "label": "Keypad",
+   "value": "Yes, 2 × 6"
+  },
+  {
+   "label": "Technology",
+   "value": "Multi-frequency"
+  },
+  {
+   "label": "Frequency",
+   "value": "125 kHz / 13.56 MHz / 2.4 GHz"
+  },
+  {
+   "label": "Card technologies",
+   "value": "HID Prox, Indala, AWID, EM, iCLASS, MIFARE, Seos"
+  },
+  {
+   "label": "Mobile access",
+   "value": "Bluetooth + NFC"
+  },
+  {
+   "label": "OSDP",
+   "value": "OSDP V1, V2 & Secure Channel"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "2002PGGMN"
  ]

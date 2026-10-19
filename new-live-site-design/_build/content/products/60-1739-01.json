@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "HDP 101 4K",
  "d": "HDP 101 4K HDMI Female to DisplayPort Female Converter",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "HDMI"
+  },
+  {
+   "label": "Output",
+   "value": "DisplayPort"
+  },
+  {
+   "label": "Speed",
+   "value": "10.2 Gbps"
+  }
+ ],
+ "spec_src": "inventory"
 }

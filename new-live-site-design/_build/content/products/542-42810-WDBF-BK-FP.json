@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Excel Environ ER800 42U Rack 800x1000mm W/Vented (F) D/Vented (R) B/Panels F/Mgmt Black Flat Pa...",
- "specs": []
+ "specs": [
+  {
+   "label": "Rack dimension",
+   "value": "800x1000"
+  },
+  {
+   "label": "Rack size",
+   "value": "42U"
+  },
+  {
+   "label": "Cable management type",
+   "value": "Vertical"
+  }
+ ],
+ "spec_src": "inventory"
 }

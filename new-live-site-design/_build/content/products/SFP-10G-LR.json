@@ -6,7 +6,29 @@
  "c": "SFP",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Performance / speed",
+   "value": "10GBASE-LR"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Single Mode Fiber (SMF)"
+  },
+  {
+   "label": "Optical characteristics",
+   "value": "1310 nm (LR)"
+  },
+  {
+   "label": "Key features",
+   "value": "Hot pluggable , High port density, Cisco ID compatibility check , Optical interoperability"
+  },
+  {
+   "label": "Application category",
+   "value": "Data center connectivity, Enterprise network uplinks, Switch to switch links, Router connectivity"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "C9300-24P-A",
   "C9300-48P-E",

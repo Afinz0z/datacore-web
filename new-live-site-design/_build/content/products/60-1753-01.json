@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "AXI 02 AT",
  "d": "AXI 02 AT Two Output Dante Audio Interface",
- "specs": []
+ "specs": [
+  {
+   "label": "Signal type",
+   "value": "Dante"
+  },
+  {
+   "label": "Outputs",
+   "value": "3.5 mm captive connectors, 6-pole"
+  },
+  {
+   "label": "Inputs",
+   "value": "RJ45"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Channel count",
+   "value": "2"
+  },
+  {
+   "label": "Type",
+   "value": "Dante Interface"
+  }
+ ],
+ "spec_src": "inventory"
 }

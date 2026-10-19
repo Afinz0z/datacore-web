@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "SLXD4D",
  "d": "Digital Mic Reciever,DIGITAL WIRELESS SYSTEMS",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  }
+ ],
+ "spec_src": "inventory"
 }

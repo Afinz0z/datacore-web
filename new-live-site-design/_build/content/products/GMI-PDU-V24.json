@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Meter PDU (20 X C13) (4 X C19)-32AMP- Industrial Plug - 32 AMP MCB,Vertical",
- "specs": []
+ "specs": [
+  {
+   "label": "Vertical",
+   "value": "VERTICAL"
+  }
+ ],
+ "spec_src": "inventory"
 }

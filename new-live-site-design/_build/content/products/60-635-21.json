@@ -10,8 +10,33 @@
  "d": "MVX 44 VGA A 4x4 VGA and Stereo Audio Matrix Switcher",
  "specs": [
   {
+   "label": "Input/Output",
+   "value": "4x4"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "3.5 mm stereo jack"
+  },
+  {
+   "label": "Audio output",
+   "value": "5 pin, 3.5 mm captive connector"
+  },
+  {
    "label": "Type",
    "value": "Audio Switcher"
+  },
+  {
+   "label": "Video input",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Video output",
+   "value": "15-pin HD"
+  },
+  {
+   "label": "Bandwidth",
+   "value": "20 Hz to 20 kHz"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

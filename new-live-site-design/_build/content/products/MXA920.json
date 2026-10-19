@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "MXA920",
  "d": "Ceiling Array Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Ceiling Array Microphone"
+  },
+  {
+   "label": "Frequency response",
+   "value": "125Hz - 20KHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

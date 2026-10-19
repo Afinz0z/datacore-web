@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "UCS SR 501",
  "d": "UCS SR 501 Workspace Automation Controller with Occupancy Sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensor type",
+   "value": "Occupancy"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 3-pin 3.5mm"
+  },
+  {
+   "label": "Type",
+   "value": "Automation Controller"
+  },
+  {
+   "label": "RAM",
+   "value": "1 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  }
+ ],
+ "spec_src": "inventory"
 }

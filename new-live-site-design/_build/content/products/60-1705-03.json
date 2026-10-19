@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "ECM S10",
  "d": "ECM S10 eBUS Partition Sensor",
- "specs": []
+ "specs": [
+  {
+   "label": "Sensor type",
+   "value": "Partition"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Mounting",
+   "value": "Wall"
+  }
+ ],
+ "spec_src": "inventory"
 }

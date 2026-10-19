@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Multiswitch with power supply Multi-switch for distributing digital satellite and terrestrial signals",
- "specs": []
+ "specs": [
+  {
+   "label": "Accessory type",
+   "value": "Multiswitch"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "WPP30 - 1x WPP30 Wireless Content Sharing Pod Including 2-year hardware warranty",
- "specs": []
+ "specs": [
+  {
+   "label": "Tx/Rx",
+   "value": "Tx and Rx"
+  },
+  {
+   "label": "Bluetooth",
+   "value": "Yes"
+  },
+  {
+   "label": "Wi-Fi",
+   "value": "Yes"
+  },
+  {
+   "label": "Advanced features",
+   "value": "Desktop Sharing, Collaboration"
+  }
+ ],
+ "spec_src": "inventory"
 }

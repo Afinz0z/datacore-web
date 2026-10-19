@@ -12,8 +12,29 @@
   {
    "label": "Type",
    "value": "service"
+  },
+  {
+   "label": "Base products",
+   "value": "iSecure-LEAP-50"
+  },
+  {
+   "label": "Related license",
+   "value": "iSecure-LEAP-50"
+  },
+  {
+   "label": "Controller capacity",
+   "value": "Beyond 50 controllers"
+  },
+  {
+   "label": "Purpose",
+   "value": "Online technical/support coverage for the iSecure LEAP-50 environment"
+  },
+  {
+   "label": "Durations",
+   "value": "Not specified by the code"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "X1100C"
  ]

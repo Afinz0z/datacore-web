@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "DSII 2K Node",
  "d": "DSII 2K Node-2K HDMI Decoder for 4x2 LCD video wall",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Decoder"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI, DVI, VGA"
+  },
+  {
+   "label": "Connectors",
+   "value": "HDMI, RJ45, RS-232, RS-485, IR, DVI, VGA"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "1 in +1 out (phoenix port)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "DSII-Multi-IN",
   "DTB-EJ"

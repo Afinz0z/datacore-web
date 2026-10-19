@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "MDA 4V EQ",
  "d": "MDA 4V EQ Four Output Composite Video Distribution Amplifier with Gain and EQ",
- "specs": []
+ "specs": [
+  {
+   "label": "Video input",
+   "value": "BNC"
+  },
+  {
+   "label": "Video output",
+   "value": "BNC"
+  },
+  {
+   "label": "Distribution",
+   "value": "1x4"
+  },
+  {
+   "label": "Type",
+   "value": "Video Distribution Amplifier"
+  }
+ ],
+ "spec_src": "inventory"
 }

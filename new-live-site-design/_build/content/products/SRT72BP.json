@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "SRT72BP is an external 72V battery pack designed to extend the runtime of compatible APC Smart-UPS SRT models.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Battery system type",
+   "value": "External UPS battery pack"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "72V"
+  },
+  {
+   "label": "Battery type",
+   "value": "Lead-Acid Battery"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "SRT2200XLI"
  ]

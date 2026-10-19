@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "AAP 201",
  "d": "AAP 201 Half Rack Width, 1U AAP Mounting Frame - Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Gang Mounting Frame"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1031-12",
   "60-1346-02",

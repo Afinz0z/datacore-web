@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "2u"
+  },
+  {
+   "label": "Size",
+   "value": "2U"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "4001171"
  ]

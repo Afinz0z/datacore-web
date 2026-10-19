@@ -9,10 +9,23 @@
  "d": "ULL,JUMPER,LSZH,OM5,LC,LC,1.6,DPX FT007",
  "specs": [
   {
+   "label": "Length",
+   "value": "7m"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "multimode"
+  },
+  {
+   "label": "Cable jacket color",
+   "value": "green"
+  },
+  {
    "label": "Unit",
    "value": "Meter"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "760231514"
  ]

@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cisco Desk Phone 9871 is a premium enterprise IP desk phone designed for modern business communication. It features a large color touchscreen, high-quality audio, video-calling capabilities, and Gigabit Ethernet connectivity. The phone supports Cisco enterprise calling environments and can be deployed with PoE for network-based power and connectivity. It is suitable for executive offices, meeting areas, reception desks, and other professional workspaces.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Technical specifications",
+   "value": "PoE (IEEE 802.3af)"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CON-SNT-DP9871K9"
  ]

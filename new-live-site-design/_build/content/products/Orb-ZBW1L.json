@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Zigbee 3.0 Smart Wall Switch, No Neutral Required, 1-Gang Light Switch, Works with Alexa & Google Assistant, 6A Load, Compatible with Home Assistant & Zigbee2MQTT",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Smart Wall Switch"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CBL-USB-A-BMICRO-6 USB Cable, USB Type A Male to Micro-B Male, 6 ft (1.83 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "1.83m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "USB A Male to Micro-B Male"
+  },
+  {
+   "label": "Cable type",
+   "value": "USB"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Flood Sensor"
+  },
+  {
+   "label": "Flood sensor cable length",
+   "value": "24'"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "RA12S-DAP-RAS",
   "RA12S-DAP-WAS",

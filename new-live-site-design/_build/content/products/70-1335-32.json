@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "RM 8",
  "d": "RM 8 4U, TLP Pro 535M (Portrait) and TLP Pro 1035M",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Touch Panel Controllers"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Rack"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "60-1993-02",
   "60-1993-03",

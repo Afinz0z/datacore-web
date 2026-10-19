@@ -9,10 +9,19 @@
  "d": "Retractor PC Audio -Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - 3.5 mm Stereo Audio Male to Male",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "3.5 mm Stereo Audio"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "3.5 mm Stereo Audio"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

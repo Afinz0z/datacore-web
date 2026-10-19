@@ -8,7 +8,25 @@
  "avail": "lead",
  "model": "VCS500EN",
  "d": "5\" Ceiling speaker, 6 watts, RAL 9016, metal, certified EN 54-24, BS 5839 compliant, IP21C",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "6W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "104 HZ-17200 Hz"
+  },
+  {
+   "label": "SPL",
+   "value": "98.3 dB"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "VFD500"
  ]

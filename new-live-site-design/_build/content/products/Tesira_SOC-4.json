@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Tesira 4 channel mic/line output card",
- "specs": [],
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "4"
+  },
+  {
+   "label": "I/O",
+   "value": "Output"
+  },
+  {
+   "label": "Type of card",
+   "value": "Mic line"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "Tesira SERVER-IO AVB"
  ]

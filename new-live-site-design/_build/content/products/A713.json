@@ -11,6 +11,75 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Fisheye Lens"
+  },
+  {
+   "label": "WDR",
+   "value": "135 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "IR distance",
+   "value": "20 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps, 60 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IP66, IK10"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265 , H.265+"
+  },
+  {
+   "label": "Basic event",
+   "value": "Motion detection, video tampering alarm, audio exception"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, FTP, DDNS, 802.1X, QoS, IPv4, IPv6, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, HTTPS encryption, IP address filter"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Day, Night"
+  },
+  {
+   "label": "Iris type",
+   "value": "Fixed Iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F2.4"
+  },
+  {
+   "label": "Focus",
+   "value": "Fixed"
+  },
+  {
+   "label": "Supplement light type",
+   "value": "IR"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

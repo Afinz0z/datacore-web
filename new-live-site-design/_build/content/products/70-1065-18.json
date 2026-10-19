@@ -9,10 +9,19 @@
  "d": "Retractor Mini DisplayPort-DisplayPort Cable Retraction System for AVEdge, Cable Cubby®, select TouchLink® Enclosures, and TMK 120 R Kit - Mini DisplayPort Male to Male DisplayPort",
  "specs": [
   {
+   "label": "Connectivity / connector",
+   "value": "DisplayPort"
+  },
+  {
    "label": "Type",
-   "value": "Cable Retraction System"
+   "value": "Cable Retractor"
+  },
+  {
+   "label": "Cable adapter type",
+   "value": "Mini DisplayPort to DisplayPort"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "70-1045-02",
   "70-1045-08",

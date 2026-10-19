@@ -13,10 +13,19 @@
    "value": "Industrial Network Switch"
   },
   {
+   "label": "Performance / speed",
+   "value": "10GBASE-LR"
+  },
+  {
+   "label": "Transmission media type",
+   "value": "Single Mode Fiber (SMF)"
+  },
+  {
    "label": "Series",
    "value": "4100i"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "JL817A"
  ]

@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP Z4 G5 Tower Workstation powered by Intel Xeon W3-2435 processor, 16GB DDR5 ECC RAM, 1TB Z Turbo PCIe Gen4 NVMe SSD, Windows 11 Pro for Workstations, 1125W power supply, with HP USB keyboard and mouse, backed by 3-year NBD onsite support.",
- "specs": []
+ "specs": [
+  {
+   "label": "Memory capacity",
+   "value": "16GB"
+  },
+  {
+   "label": "Form factor",
+   "value": "Tower"
+  },
+  {
+   "label": "Processor",
+   "value": "Intel Xeon"
+  },
+  {
+   "label": "Primary storage",
+   "value": "1 TB"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows 11 Pro (64-bit)"
+  }
+ ],
+ "spec_src": "inventory"
 }

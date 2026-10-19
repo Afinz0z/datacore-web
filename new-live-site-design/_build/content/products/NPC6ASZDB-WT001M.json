@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "NPC, Cat 6A, Shielded, LSZH, White, 1M",
- "specs": []
+ "specs": [
+  {
+   "label": "Patch cord lenth",
+   "value": "1 Mtr"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Compact wall mount, 110, 123, 137, 148mm L-shape wall mount for FLEXIDOME 3100i L-shaped wall mount support for 4S and gang box for FLEXIDOME indoor 3100i, FLEXIDOME indoor 3100i IR",
- "specs": [],
+ "specs": [
+  {
+   "label": "Max decoding resolution",
+   "value": "IK10"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "NBE-3703-AL",
   "NBE-7704-AL",

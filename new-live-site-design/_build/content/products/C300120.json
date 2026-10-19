@@ -6,7 +6,13 @@
  "c": "Enclosure",
  "dept": "NETWORK",
  "avail": "lead",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting",
+   "value": "Wall Mount"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "C400100"
  ]

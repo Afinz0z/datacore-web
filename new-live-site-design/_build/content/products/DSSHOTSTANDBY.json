@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "Software License",
  "d": "Rose Replicator Plus hot standby license, supporting 1 main DSS server + 1 hot standby server, with 3 years warranty and upgrade.",
- "specs": []
+ "specs": [
+  {
+   "label": "Time period",
+   "value": "3 years"
+  }
+ ],
+ "spec_src": "inventory"
 }

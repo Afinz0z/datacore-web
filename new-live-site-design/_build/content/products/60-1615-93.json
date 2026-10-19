@@ -8,5 +8,43 @@
  "avail": "lead",
  "model": "IN1808 IPCP Q MA 70",
  "d": "IN1808 IPCP Q MA 70 Eight Input 4K/60 Seamless Presentation Switchers Control Processor and 70 V Mono Amp",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Flash memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Maximum resolutions",
+   "value": "4K DCI (4096x2160)"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "Yes"
+  },
+  {
+   "label": "Output power",
+   "value": "100 W"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, RJ-45, 3.5 mm, 5 pole, 3.5 mm, 3 pole"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI, RJ-45, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Video input signal types",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI, RJ45"
+  }
+ ],
+ "spec_src": "inventory"
 }

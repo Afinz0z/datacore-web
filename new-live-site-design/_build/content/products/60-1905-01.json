@@ -10,8 +10,21 @@
  "d": "IPL EXP S2 Control System I/O Expansion Interface",
  "specs": [
   {
+   "label": "Connector type",
+   "value": "RJ45, 3-pin 3.5 mm"
+  },
+  {
    "label": "Type",
-   "value": "Expansion Interface"
+   "value": "Control Expansion Interface"
+  },
+  {
+   "label": "RAM",
+   "value": "512 MB"
+  },
+  {
+   "label": "Storage",
+   "value": "512 MB"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "HP Zbook Firefly 14 with specs U7/16GB/512GB/Win11Pro",
- "specs": []
+ "specs": [
+  {
+   "label": "Memory capacity",
+   "value": "16GB"
+  },
+  {
+   "label": "Primary storage",
+   "value": "512GB"
+  },
+  {
+   "label": "Operating system",
+   "value": "Windows 11 Pro (64-bit)"
+  }
+ ],
+ "spec_src": "inventory"
 }

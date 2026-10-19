@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "RGB-HDMI 300 A",
  "d": "RGB-HDMI 300 A RGB and Stereo Audio to HDMI Scaler",
- "specs": []
+ "specs": [
+  {
+   "label": "Maximum resolutions",
+   "value": "2K, 1080p"
+  },
+  {
+   "label": "Video output signal types",
+   "value": "HDMI, DVI"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "Unbalanced Stereo"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "HDMI"
+  },
+  {
+   "label": "Inputs",
+   "value": "15-pin HD"
+  }
+ ],
+ "spec_src": "inventory"
 }

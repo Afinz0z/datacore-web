@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-ACS LECTUS enroll 5000 MD",
- "specs": [],
+ "specs": [
+  {
+   "label": "Credential",
+   "value": "RFID Card"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP40"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "APC-AMC2 4WCF"
  ]

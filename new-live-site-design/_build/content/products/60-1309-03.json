@@ -7,5 +7,43 @@
  "dept": "AV",
  "avail": "lead",
  "d": "SM 28 SpeedMount Two-Way Surface Mount Speakers with 8\" Woofer - White",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Wall Mounted, Surface Mounted"
+  },
+  {
+   "label": "Power",
+   "value": "90 W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "59 Hz to 22 kHz"
+  },
+  {
+   "label": "SPL",
+   "value": "108 dB"
+  },
+  {
+   "label": "Sensitivity",
+   "value": "87 dB"
+  },
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Impedance",
+   "value": "8 Ω"
+  },
+  {
+   "label": "Woofer",
+   "value": "8\""
+  }
+ ],
+ "spec_src": "inventory"
 }

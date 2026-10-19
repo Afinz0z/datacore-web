@@ -7,7 +7,21 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CBI2-BTNA-T_BLANK Set of (2) Large Backlit Engravable Button Caps for Cameo® International Keypad, Almond Textured, Engraving Not Included",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Almond"
+  },
+  {
+   "label": "Finish",
+   "value": "Textured"
+  },
+  {
+   "label": "Set",
+   "value": "2"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6513118",
   "6513119",

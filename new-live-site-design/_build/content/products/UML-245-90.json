@@ -7,5 +7,27 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Bosch-CCTV 23.8 inch FHD LED monitor",
- "specs": []
+ "specs": [
+  {
+   "label": "HDMI port",
+   "value": "1x HDMI 2.0"
+  },
+  {
+   "label": "Screen size (in inches)",
+   "value": "23.8"
+  },
+  {
+   "label": "Panel type",
+   "value": "VA Panel"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "16:9"
+  },
+  {
+   "label": "Display ports",
+   "value": "1x DisplayPort 1.2"
+  }
+ ],
+ "spec_src": "inventory"
 }

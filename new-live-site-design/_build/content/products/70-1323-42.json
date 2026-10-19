@@ -8,7 +8,21 @@
  "avail": "lead",
  "model": "UTR 148 BP",
  "d": "UTR 148 BP Bottom Panel for UTR 104 Rack Shelf System",
- "specs": [],
+ "specs": [
+  {
+   "label": "Rack units",
+   "value": "4 U"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Bottom Panel"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "70-1323-04"
  ]

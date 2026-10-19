@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "DAC 102",
  "d": "DAC 102 Two Channel Digital to Analog Audio Converter",
- "specs": []
+ "specs": [
+  {
+   "label": "Input",
+   "value": "Digital"
+  },
+  {
+   "label": "Output",
+   "value": "Analog"
+  },
+  {
+   "label": "Channel",
+   "value": "2"
+  }
+ ],
+ "spec_src": "inventory"
 }

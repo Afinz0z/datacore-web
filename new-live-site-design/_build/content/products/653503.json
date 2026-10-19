@@ -7,5 +7,11 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Cat 6A Patch Cord Sheilded, FRNC/LS0H Sheath,Grey Color, 0.5 Meter",
- "specs": []
+ "specs": [
+  {
+   "label": "Patch cord lenth",
+   "value": "0.5 Mtr"
+  }
+ ],
+ "spec_src": "inventory"
 }

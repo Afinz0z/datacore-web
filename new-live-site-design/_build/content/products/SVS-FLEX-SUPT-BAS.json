@@ -7,7 +7,49 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Basic Support for Cisco Collaboration Flex Plan.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Cisco Collaboration Flex Plan"
+  },
+  {
+   "label": "Category",
+   "value": "Technical Support / Collaboration"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Type",
+   "value": "Support Service / Subscription"
+  },
+  {
+   "label": "Application",
+   "value": "Cisco Collaboration Flex Plan support"
+  },
+  {
+   "label": "License type",
+   "value": "Support Contract / Service Entitlement"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Provides basic technical support and assistance for Cisco Collaboration Flex Plan services"
+  },
+  {
+   "label": "Capacity",
+   "value": "As per covered Flex Plan subscription/services"
+  },
+  {
+   "label": "System",
+   "value": "Cisco Collaboration Flex Plan"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BE6K-M6-K9"
  ]

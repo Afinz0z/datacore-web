@@ -12,8 +12,17 @@
   {
    "label": "Type",
    "value": "Rack"
+  },
+  {
+   "label": "Rated power in VA",
+   "value": "5000"
+  },
+  {
+   "label": "Input",
+   "value": "Single Phase"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "SRT192BP",
   "SRTRK2"

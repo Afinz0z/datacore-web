@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "BATTERY CABINET KEOR DK 3KVA",
- "specs": [],
+ "specs": [
+  {
+   "label": "Battery system type",
+   "value": "External UPS battery pack"
+  },
+  {
+   "label": "Battery voltage",
+   "value": "72V"
+  },
+  {
+   "label": "Battery type",
+   "value": "Lead-Acid Battery"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "311336"
  ]

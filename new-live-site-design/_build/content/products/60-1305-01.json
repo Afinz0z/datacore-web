@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "SMD 101",
  "d": "SMD 101 3G-SDI to HDMI Scaler with Audio Embedding",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Decoder"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "1080p"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 1.4"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "HDMI, 3.5 mm captive connector, 1 stereo, balanced/unbalanced"
+  }
+ ],
+ "spec_src": "inventory"
 }

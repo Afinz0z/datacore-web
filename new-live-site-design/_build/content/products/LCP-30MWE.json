@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "LCP-30MWE",
  "d": "6.5” coaxial 2-way loudspeaker, EN54-24, UL 1480A",
- "specs": []
+ "specs": [
+  {
+   "label": "Configuration",
+   "value": "2 Ways"
+  },
+  {
+   "label": "Protection",
+   "value": "EN 54-24"
+  }
+ ],
+ "spec_src": "inventory"
 }

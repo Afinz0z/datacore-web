@@ -12,8 +12,33 @@
   {
    "label": "Type",
    "value": "service"
+  },
+  {
+   "label": "Categoryy",
+   "value": "Software / Technical Support / Maintenance"
+  },
+  {
+   "label": "Types",
+   "value": "Service/support package"
+  },
+  {
+   "label": "Main purpose",
+   "value": "Provides online support related to controller firmware and communication issues"
+  },
+  {
+   "label": "Communication support",
+   "value": "Yes"
+  },
+  {
+   "label": "Physical dimensions",
+   "value": "Not applicable"
+  },
+  {
+   "label": "Cable/port/core specifications",
+   "value": "Not applicable"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "X1100C"
  ]

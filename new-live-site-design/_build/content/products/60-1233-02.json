@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "PI 115",
  "d": "PI 115 Single Port Power Injector",
- "specs": []
+ "specs": [
+  {
+   "label": "Output",
+   "value": "48 VDC, 0.35 A, 16.8 watts"
+  }
+ ],
+ "spec_src": "inventory"
 }

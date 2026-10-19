@@ -7,5 +7,15 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Rack mount AM/FM Tuner w/ LCD screen,30 preset selection, 24VDC Backup Pwr input,bal. 0dB Audio Out, with USB port",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "USB, XLR"
+  },
+  {
+   "label": "Supports audio sources",
+   "value": "USB devices, FM tuner, DVD"
+  }
+ ],
+ "spec_src": "inventory"
 }

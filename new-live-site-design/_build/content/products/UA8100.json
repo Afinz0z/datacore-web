@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "UA8100 : 100-foot coaxial cable offers BNC to BNC connection.",
- "specs": []
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "30.48 m"
+  },
+  {
+   "label": "Adapter type",
+   "value": "BNC to BNC"
+  },
+  {
+   "label": "Cable type",
+   "value": "coaxial"
+  }
+ ],
+ "spec_src": "inventory"
 }

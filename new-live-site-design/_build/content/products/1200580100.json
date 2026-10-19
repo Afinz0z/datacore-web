@@ -8,5 +8,11 @@
  "avail": "lead",
  "model": "WMC01-B",
  "d": "Wmc01 Wall Mount Controller (Black)",
- "specs": []
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

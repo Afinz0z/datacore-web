@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Microphone - Bodypack",
- "specs": []
+ "specs": [
+  {
+   "label": "Connector type",
+   "value": "3.5mm jack"
+  },
+  {
+   "label": "Type",
+   "value": "Bodypack Transmitter"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "CABLE RJ12 DF NTP 50CM Cable RJ12 for NTP double sided clocks",
- "specs": [],
+ "specs": [
+  {
+   "label": "Cable length",
+   "value": "0.5m"
+  },
+  {
+   "label": "Cable type",
+   "value": "RJ12"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "982F11"
  ]

@@ -10,8 +10,29 @@
   {
    "label": "Type",
    "value": "Acs Sub controller"
+  },
+  {
+   "label": "Connectivity",
+   "value": "Wiegand Connectivity: Supports 2-door / 2-reader connectivit"
+  },
+  {
+   "label": "Reader TYPES",
+   "value": "Wiegand"
+  },
+  {
+   "label": "Mounting",
+   "value": ": Enclosure"
+  },
+  {
+   "label": "Compliance",
+   "value": "CE / FCC / RoHS"
+  },
+  {
+   "label": "Certifications",
+   "value": "Environmental: RoHS, REACH"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "C400100"
  ]

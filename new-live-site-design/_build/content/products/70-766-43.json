@@ -8,5 +8,27 @@
  "avail": "lead",
  "model": "WPD 160",
  "d": "WPD 160 HDMI, USB, and Network Pass-Through Wallplate - Decorator-Style; White",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Wall Plate"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Connectors",
+   "value": "USB-A, HDMI, RJ45"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

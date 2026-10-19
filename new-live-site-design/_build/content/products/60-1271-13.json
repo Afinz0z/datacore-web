@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DTP HDMI 4K 230 Rx",
  "d": "DTP HDMI 4K 230 Rx HDMI Twisted Pair Receiver - 230 feet (70 m)",
- "specs": []
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Rx"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Support distance",
+   "value": "70 m"
+  },
+  {
+   "label": "Video output signal type",
+   "value": "HDMI"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  },
+  {
+   "label": "Transmission rate",
+   "value": "10.2 Gbps"
+  },
+  {
+   "label": "Audio I/O",
+   "value": "3.5 mm captive connector"
+  }
+ ],
+ "spec_src": "inventory"
 }

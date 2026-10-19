@@ -9,10 +9,15 @@
  "d": "75\"4k UHD IFP Panel, 40 pts touch (Windows), Slim IR, Dual Pen, Android 11.0, 8GB RAM/128GB ROM, light sensor, 16W x 2 Speaker, with Android vCast",
  "specs": [
   {
+   "label": "Display size",
+   "value": "75\""
+  },
+  {
    "label": "Type",
    "value": "Interactive"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LG-Emerald3-N20",
   "LGC-5586",

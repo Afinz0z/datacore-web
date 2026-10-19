@@ -11,6 +11,39 @@
   {
    "label": "Type",
    "value": "Dome Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "5 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "Motorized lens"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "IR distance",
+   "value": "30 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps"
+  },
+  {
+   "label": "Ingress protection",
+   "value": "IP66"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.265"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

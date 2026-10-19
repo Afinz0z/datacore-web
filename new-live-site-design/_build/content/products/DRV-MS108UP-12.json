@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "OVERDRIVESUPPORT,1YEAR",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "1 Year"
+  },
+  {
+   "label": "Type",
+   "value": "Services"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "MS108UP"
  ]

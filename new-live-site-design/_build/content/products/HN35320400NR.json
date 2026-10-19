@@ -7,5 +7,19 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "32Chs NVR 4K(8MP)Support, H.265/H.264,Stream Encryption, 4 SATA, 0TB, NON POE,RAID",
- "specs": []
+ "specs": [
+  {
+   "label": "Number of channel",
+   "value": "32"
+  },
+  {
+   "label": "Video compression",
+   "value": "H.264, H.265"
+  },
+  {
+   "label": "SATA interface",
+   "value": "4 SATA"
+  }
+ ],
+ "spec_src": "inventory"
 }

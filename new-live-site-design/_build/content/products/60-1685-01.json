@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "ISS 612",
  "d": "ISS 612 12-Input 4K/60 HDMI, DisplayPort, and 12G-SDI Seamless Switcher",
- "specs": []
+ "specs": [
+  {
+   "label": "Connecting ports",
+   "value": "HDMI, DP, BNC"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, DP, BNC"
+  },
+  {
+   "label": "Audio output",
+   "value": "HDMI, BNC, 3.5 mm, 5 pole"
+  },
+  {
+   "label": "Video input",
+   "value": "HDMI, BNC, DP"
+  },
+  {
+   "label": "Video output",
+   "value": "HDMI, BNC"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,25 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Metal fire dome for VCS500EN / VCS500ENC",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Movement type",
+   "value": "Fixed (Static)"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "VCS500EN"
  ]

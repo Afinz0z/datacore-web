@@ -7,5 +7,27 @@
  "dept": "AV",
  "avail": "lead",
  "d": "457 mm (18 inch) gooseneck, desktop base with 3 m cable, logic functions, programmable switch and LED indicator, snap-fit foam windscreen",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Gooseneck Mic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  },
+  {
+   "label": "Frequency response",
+   "value": "50 Hz - 17 kHz"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "96.2 dB"
+  },
+  {
+   "label": "Pick-up pattern",
+   "value": "Cardioid"
+  }
+ ],
+ "spec_src": "inventory"
 }

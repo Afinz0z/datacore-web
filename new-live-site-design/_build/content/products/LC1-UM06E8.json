@@ -11,8 +11,25 @@
   {
    "label": "Type",
    "value": "Ceiling Speaker"
+  },
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Active vs passive",
+   "value": "Passive"
+  },
+  {
+   "label": "Power",
+   "value": "6W"
+  },
+  {
+   "label": "Frequency range",
+   "value": "80 Hz - 20 kHz"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "LC1-CM R",
   "LC1-CSMB",

@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "XTP CP 4i 4K",
  "d": "XTP CP 4i 4K Four Input Board, XTP 4K with IR/RS-232 Insertion - 26W Remote Power Capable",
- "specs": []
+ "specs": [
+  {
+   "label": "Data rate",
+   "value": "10.2 Gbps"
+  },
+  {
+   "label": "Type",
+   "value": "Input Card"
+  },
+  {
+   "label": "Copy protection",
+   "value": "HDCP 2.3"
+  }
+ ],
+ "spec_src": "inventory"
 }

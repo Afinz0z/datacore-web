@@ -11,8 +11,33 @@
   {
    "label": "Type",
    "value": "PA Server"
+  },
+  {
+   "label": "Processor type",
+   "value": "Intel Atom™ E3940 Quad Core SoC"
+  },
+  {
+   "label": "Processor speed",
+   "value": "1.6 GHz"
+  },
+  {
+   "label": "RAM",
+   "value": "4 GB"
+  },
+  {
+   "label": "Storage",
+   "value": "256GB"
+  },
+  {
+   "label": "Operating system",
+   "value": "Linux"
+  },
+  {
+   "label": "Number of USB ports",
+   "value": "4"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "PRA-APAL"
  ]

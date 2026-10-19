@@ -7,7 +7,85 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "A package of advanced access control features: Global APB, Global",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "BioStar X Advanced Access Control (AAC) Package"
+  },
+  {
+   "label": "Category",
+   "value": "Access Control"
+  },
+  {
+   "label": "Access control",
+   "value": "Yes"
+  },
+  {
+   "label": "Time attendance",
+   "value": "Not the primary function"
+  },
+  {
+   "label": "Employee management",
+   "value": "Platform dependent"
+  },
+  {
+   "label": "Multi-company / location",
+   "value": "Supported according to BioStar X configuration"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported"
+  },
+  {
+   "label": "Application",
+   "value": "Advanced access-control management"
+  },
+  {
+   "label": "License type",
+   "value": "Feature/Module Package"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Enables advanced access-control features such as Global Anti-Passback (APB)"
+  },
+  {
+   "label": "System",
+   "value": "Suprema BioStar X"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Suprema access-control devices/readers/controllers"
+  },
+  {
+   "label": "Associated product",
+   "value": "BioStar X"
+  },
+  {
+   "label": "Supporting product",
+   "value": "BioStar X base/platform license"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Feature/package entitlement"
+  },
+  {
+   "label": "Maximum access point",
+   "value": "Depends on the underlying BioStar X license/system"
+  },
+  {
+   "label": "Maximum reader",
+   "value": "Depends on the underlying BioStar X license/system"
+  },
+  {
+   "label": "Global APB",
+   "value": "Supported"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "BIOSTARX-ADV"
  ]

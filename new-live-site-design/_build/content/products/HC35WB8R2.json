@@ -11,6 +11,79 @@
   {
    "label": "Type",
    "value": "Bullet Camera"
+  },
+  {
+   "label": "Resolution",
+   "value": "8 MP"
+  },
+  {
+   "label": "Lens",
+   "value": "DC auto iris"
+  },
+  {
+   "label": "WDR",
+   "value": "120 db"
+  },
+  {
+   "label": "Image sensor size",
+   "value": "1/2.7\""
+  },
+  {
+   "label": "IR distance",
+   "value": "60 m"
+  },
+  {
+   "label": "Frame rate",
+   "value": "30 fps"
+  },
+  {
+   "label": "IP rating",
+   "value": "IK10, IP67"
+  },
+  {
+   "label": "MicroSD / SD card",
+   "value": "256 GB"
+  },
+  {
+   "label": "Protocols",
+   "value": "TCP/IP, ICMP, HTTP, HTTPS, DHCP, DNS, DDNS, RTP, RTCP, NTP, UPnP, SMTP, IGMP, 802.1X, IPv4, IPv6, UDP, ARP"
+  },
+  {
+   "label": "API",
+   "value": "ONVIF(Profile S, Profile G, Profile T"
+  },
+  {
+   "label": "Security",
+   "value": "Password protection, HTTPS encryption, IP address filter, basic and digest authentication for HTTP/HTTPS"
+  },
+  {
+   "label": "Day/Night switch",
+   "value": "Day, Night"
+  },
+  {
+   "label": "Image settings",
+   "value": "Gain"
+  },
+  {
+   "label": "Image enhancement",
+   "value": "BLC, HLC, WDR"
+  },
+  {
+   "label": "Iris type",
+   "value": "Auto-iris"
+  },
+  {
+   "label": "Aperture",
+   "value": "F1.6"
+  },
+  {
+   "label": "Capture resolution",
+   "value": "3840 × 2160"
+  },
+  {
+   "label": "Shutter time",
+   "value": "1/8 ~ 1/32,000"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

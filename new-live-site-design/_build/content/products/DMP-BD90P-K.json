@@ -6,5 +6,15 @@
  "c": "Media Player",
  "dept": "AV",
  "avail": "lead",
- "specs": []
+ "specs": [
+  {
+   "label": "Connectivity",
+   "value": "USB"
+  },
+  {
+   "label": "Type",
+   "value": "CD Player"
+  }
+ ],
+ "spec_src": "inventory"
 }

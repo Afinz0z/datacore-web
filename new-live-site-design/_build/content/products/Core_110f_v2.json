@@ -8,7 +8,33 @@
  "avail": "lead",
  "model": "Core 110f v2",
  "d": "Core Processor with 24 local audio Network + Analog I/O Processor",
- "specs": [],
+ "specs": [
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "VoIP support",
+   "value": "Yes"
+  },
+  {
+   "label": "Network audio channels",
+   "value": "128 x 128"
+  },
+  {
+   "label": "USB audio channels",
+   "value": "16 x 16"
+  },
+  {
+   "label": "Features",
+   "value": "AEC, Dante, VoIP"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SLDAN-16-P"
  ]

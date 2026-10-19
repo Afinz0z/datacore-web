@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "TLCA 2",
  "d": "TLCA 2 TouchLink Control Port Expansion Adapter - USB-C",
- "specs": []
+ "specs": [
+  {
+   "label": "Adapter type",
+   "value": "Expansion Adapter"
+  },
+  {
+   "label": "Connectivity",
+   "value": "3.5 mm Connector,2 pole"
+  }
+ ],
+ "spec_src": "inventory"
 }

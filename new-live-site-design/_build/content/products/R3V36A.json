@@ -11,8 +11,49 @@
   {
    "label": "Type",
    "value": "Indoor campus access point"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6E (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": Dual-radio"
+  },
+  {
+   "label": "MIMO",
+   "value": "2×2 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 4.8 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Target Wake Time (TWT), ClientMatch and RF optimization, MU-MIMO (UL/DL), Beamforming, BSS Coloring, Fast Roaming (k/r/v), Load balancing"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , CNSA option"
+  },
+  {
+   "label": "Certifications",
+   "value": "Bluetooth SIG, UL / cUL, IEC / EN 62368-1, Ethernet Alliance (PoE, PD device, class 4), W-Fi agile multiband"
+  },
+  {
+   "label": "Power",
+   "value": "Direct DC power, Intelligent Power Monitoring (IPM), IEEE 802.3at / 802.3bt PoE, 12 V ± 10%"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "Bluetooth Low Energy (BLE 5.0), Zigbee (802.15.4), Kensington security slot"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HU4E1E",
   "S0J42A"

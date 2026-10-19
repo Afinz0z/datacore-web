@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "OnGuard 32ES Server Software License",
- "specs": [],
+ "specs": [
+  {
+   "label": "Number of camera's",
+   "value": "256"
+  },
+  {
+   "label": "Maximum duration of recording",
+   "value": "30 min"
+  },
+  {
+   "label": "Number of card readers",
+   "value": "32"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "SWC-32ES"
  ]

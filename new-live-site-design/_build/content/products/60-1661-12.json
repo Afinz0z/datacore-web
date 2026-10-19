@@ -7,5 +7,47 @@
  "dept": "AV",
  "avail": "lead",
  "d": "DTP3 CrossPoint 642 IPCP A 4K/60 Presentation Matrix Switcher with Reversible DTP3 I/O, Control Processor and Amplifier",
- "specs": []
+ "specs": [
+  {
+   "label": "Input/Output",
+   "value": "6x6"
+  },
+  {
+   "label": "Connecting ports",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video input types",
+   "value": "HDMI"
+  },
+  {
+   "label": "Video output types",
+   "value": "HDMI, RJ45"
+  },
+  {
+   "label": "Video resolutions",
+   "value": "4K"
+  },
+  {
+   "label": "Amplifier power per channel",
+   "value": "200 W"
+  },
+  {
+   "label": "Audio inputs",
+   "value": "HDMI, RJ45, 3.5 mm, 6 pole"
+  },
+  {
+   "label": "Data rate",
+   "value": "18 Gbps"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

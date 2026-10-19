@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "UC-M50-NC-Z",
  "d": "UC-M50-NC-Z Crestron Flex Tabletop Medium Room Conference System for Zoom Rooms® Software",
- "specs": []
+ "specs": [
+  {
+   "label": "Recommended room size",
+   "value": "Medium"
+  },
+  {
+   "label": "Resolution",
+   "value": "1080p"
+  },
+  {
+   "label": "Display support",
+   "value": "2"
+  },
+  {
+   "label": "Software compatibility",
+   "value": "Zoom"
+  },
+  {
+   "label": "Type",
+   "value": "Kit"
+  },
+  {
+   "label": "Included components in kit",
+   "value": "Tabletop conference device, UC bracket, Power supply, Cables"
+  },
+  {
+   "label": "UC engine spec",
+   "value": "Mini PC, Intel Core® processor with Windows® 11 IoT Edition OS and 100/1000 Mbps Ethernet connectivity"
+  }
+ ],
+ "spec_src": "inventory"
 }

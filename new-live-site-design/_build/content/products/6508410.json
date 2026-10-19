@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "FT2A-PLT-KEY-10",
  "d": "FT2A-PLT-KEY-10 Keystone Plate Modules for FT2 Series, Qty. 10",
- "specs": [],
+ "specs": [
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Type",
+   "value": "Connector Plate Modules"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "6511653",
   "6511654",

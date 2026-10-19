@@ -8,5 +8,59 @@
  "avail": "lead",
  "model": "MLC Plus 400",
  "d": "MLC Plus 400 Black, 4\" Touch Surface, 2-Gang",
- "specs": []
+ "specs": [
+  {
+   "label": "Screen size",
+   "value": "4\""
+  },
+  {
+   "label": "Screen resolution",
+   "value": "540 x 540"
+  },
+  {
+   "label": "Connectivity",
+   "value": "RJ-45, 3 pole, 3.5 mm"
+  },
+  {
+   "label": "Ports",
+   "value": "POE"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Wall mount"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "1:1"
+  },
+  {
+   "label": "RAM",
+   "value": "1 GB"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  },
+  {
+   "label": "Brightness",
+   "value": "400 nits"
+  },
+  {
+   "label": "Backlight",
+   "value": "LED"
+  },
+  {
+   "label": "Storage",
+   "value": "8GB"
+  },
+  {
+   "label": "Contrast",
+   "value": "1200:1"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  }
+ ],
+ "spec_src": "inventory"
 }

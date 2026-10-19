@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "HT-A5000 -360 SPATIAL SOUND MAPPING DOLBY ATMOS®/DTS:X® 5.1.2CH SOUNDBAR",
- "specs": []
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Soundbar"
+  }
+ ],
+ "spec_src": "inventory"
 }

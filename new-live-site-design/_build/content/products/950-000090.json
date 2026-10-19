@@ -7,5 +7,11 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - RoomMate - OFF WHITE - OTHER - PLUGG - WW-9004 - UK/HK",
- "specs": []
+ "specs": [
+  {
+   "label": "Ports",
+   "value": "HDMI in, HDMI out, USB 3.0"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "CB-MA12",
  "d": "CB-MA12 COUPLING BRACKET BLACK",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Speaker"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory"
 }

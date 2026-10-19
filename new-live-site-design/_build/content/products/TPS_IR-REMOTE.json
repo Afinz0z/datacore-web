@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "TPS_IR-REMOTE",
  "d": "Customised IR remote control",
- "specs": []
+ "specs": [
+  {
+   "label": "Remote category",
+   "value": "IPTV"
+  },
+  {
+   "label": "Remote type",
+   "value": "IR"
+  }
+ ],
+ "spec_src": "inventory"
 }

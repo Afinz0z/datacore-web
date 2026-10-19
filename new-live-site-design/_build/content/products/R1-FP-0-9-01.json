@@ -7,7 +7,17 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Pigtail LC/UPC Singlemode G652D 900um 1 Mtr",
- "specs": [],
+ "specs": [
+  {
+   "label": "Fiber mode",
+   "value": "singlemode"
+  },
+  {
+   "label": "Connector type",
+   "value": "LC"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "R1-FP1-X-XX-UL"
  ]

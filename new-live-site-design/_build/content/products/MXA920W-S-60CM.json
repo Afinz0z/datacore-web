@@ -12,6 +12,35 @@
   {
    "label": "Type",
    "value": "Ceiling Mount"
+  },
+  {
+   "label": "Type of mic",
+   "value": "Ceiling Array Microphone"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  },
+  {
+   "label": "Frequency response",
+   "value": "125Hz - 20KHz"
+  },
+  {
+   "label": "Dynamic range",
+   "value": "77.5"
+  },
+  {
+   "label": "Latency",
+   "value": "26.6"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ45"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

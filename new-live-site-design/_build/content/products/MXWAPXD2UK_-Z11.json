@@ -7,5 +7,23 @@
  "dept": "AV",
  "avail": "lead",
  "d": "MXWAPXD2UK 2 channel access point for Microflex Wireless neXt 2 systems",
- "specs": []
+ "specs": [
+  {
+   "label": "Channels",
+   "value": "2 Channel"
+  },
+  {
+   "label": "Type",
+   "value": "2-Channel Access Point Dock"
+  },
+  {
+   "label": "Frequency",
+   "value": "1880 - 1900 MHz"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "PARAFOUDRE 2P 12V Surge protector for GPS antenna",
- "specs": [],
+ "specs": [
+  {
+   "label": "Application",
+   "value": "GPS Antenna"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "907900"
  ]

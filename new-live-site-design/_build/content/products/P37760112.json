@@ -8,7 +8,17 @@
  "avail": "lead",
  "model": "P37760112",
  "d": "1 Y Poly+ Extended Service Agreement TC10",
- "specs": [],
+ "specs": [
+  {
+   "label": "Period",
+   "value": "1 Year"
+  },
+  {
+   "label": "Type",
+   "value": "Services, Support"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "875K5AA"
  ]

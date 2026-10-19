@@ -7,7 +7,21 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "LenelS2 XA - 13.8 VDC 8 A / 27.6 VDC 4 A Switched Mode Power Supply (= LNL-XA-PSU1224V-8A) with LNL-600XAENC enclosure (515 x 478 x 146 mm) to mount any PCB on a meshed backplate, including cable saddle, key and screw locked, front and pryoff tamper - CE marked",
- "specs": [],
+ "specs": [
+  {
+   "label": "Type",
+   "value": "Power Supply Unit"
+  },
+  {
+   "label": "Output",
+   "value": "12 V DC"
+  },
+  {
+   "label": "Maximum battery capacity",
+   "value": "24Ah"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "LNL-M2220"
  ]

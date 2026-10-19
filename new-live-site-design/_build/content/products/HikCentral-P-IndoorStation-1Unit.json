@@ -7,5 +7,75 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Video Intercom Indoor Station Expansion package; Prerequisite:Access Control Base package; Warranty:none; Supported:; -Video Intercom: 1 indoor station manageable; Additional：none.",
- "specs": []
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "Video Intercom Indoor Station Expansion License"
+  },
+  {
+   "label": "Category",
+   "value": "Video Intercom / Access Control"
+  },
+  {
+   "label": "Channels support",
+   "value": "1 Indoor Station"
+  },
+  {
+   "label": "Base license",
+   "value": "Access Control Base Package required"
+  },
+  {
+   "label": "Access control",
+   "value": "Yes"
+  },
+  {
+   "label": "Multi-user & role-based access",
+   "value": "Supported by HikCentral system"
+  },
+  {
+   "label": "Type",
+   "value": "Software License / Expansion Package"
+  },
+  {
+   "label": "Application",
+   "value": "Video Intercom"
+  },
+  {
+   "label": "License type",
+   "value": "Expansion License"
+  },
+  {
+   "label": "Transmission media",
+   "value": "IP / Ethernet network"
+  },
+  {
+   "label": "Function",
+   "value": "Adds management capability for one video intercom indoor station"
+  },
+  {
+   "label": "Capacity",
+   "value": "1 Indoor Station"
+  },
+  {
+   "label": "System",
+   "value": "HikCentral Professional"
+  },
+  {
+   "label": "Associated hardware",
+   "value": "Hikvision Video Intercom Indoor Station"
+  },
+  {
+   "label": "Associated product",
+   "value": "HikCentral Professional Access Control Base Package"
+  },
+  {
+   "label": "Supporting product",
+   "value": "HikCentral Professional"
+  },
+  {
+   "label": "Licensing metric",
+   "value": "Per Indoor Station - 1 Unit"
+  }
+ ],
+ "spec_src": "inventory"
 }

@@ -8,5 +8,15 @@
  "avail": "lead",
  "model": "Control® SB221 D",
  "d": "Professional Series - Dual 1 O\" Compact Subwoofer",
- "specs": []
+ "specs": [
+  {
+   "label": "Power",
+   "value": "500 W"
+  },
+  {
+   "label": "Frequency",
+   "value": "38 - 155 Hz"
+  }
+ ],
+ "spec_src": "inventory"
 }

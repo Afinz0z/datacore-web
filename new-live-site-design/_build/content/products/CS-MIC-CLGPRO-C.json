@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Ceiling Microphone Pro, Carbon Black",
- "specs": [],
+ "specs": [
+  {
+   "label": "Mounting style",
+   "value": "Ceiling Mounted"
+  },
+  {
+   "label": "Colour",
+   "value": "Black"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "CS-MIC-CLGP-CBK="
  ]

@@ -11,8 +11,13 @@
   {
    "label": "Type",
    "value": "Fiber adaptor SM"
+  },
+  {
+   "label": "Fiber mode",
+   "value": "singlemode"
   }
  ],
+ "spec_src": "inventory",
  "for": [
   "N439.4SNB"
  ]

@@ -7,7 +7,13 @@
  "dept": "NETWORK",
  "avail": "lead",
  "d": "Single Door Magnetic Lock with LED & Bond Sensor - 600Lbs",
- "specs": [],
+ "specs": [
+  {
+   "label": "Lock type",
+   "value": "Single Magnetic Lock"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "EN-280SZL-DS"
  ]

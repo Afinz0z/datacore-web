@@ -8,5 +8,31 @@
  "avail": "lead",
  "model": "MX153T/O-TQG",
  "d": "Earset Headworn Microphone",
- "specs": []
+ "specs": [
+  {
+   "label": "Type of mic",
+   "value": "Headmic"
+  },
+  {
+   "label": "Wired / wireless",
+   "value": "Wired"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Pick-up pattern",
+   "value": "Omnidirectional"
+  },
+  {
+   "label": "Transducer type",
+   "value": "Electret Condenser"
+  },
+  {
+   "label": "Colour",
+   "value": "Tan"
+  }
+ ],
+ "spec_src": "inventory"
 }

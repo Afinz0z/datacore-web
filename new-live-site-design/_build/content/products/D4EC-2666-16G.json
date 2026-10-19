@@ -9,8 +9,21 @@
  "d": "16 GB RAM DDR4ECC UDIMM",
  "specs": [
   {
+   "label": "Memory capacity",
+   "value": "12GB"
+  },
+  {
+   "label": "Memory speed",
+   "value": "2666 MHz"
+  },
+  {
    "label": "Type",
-   "value": "16gb ram"
+   "value": "DDR4 ECC UDIMM"
+  },
+  {
+   "label": "Memory bandwidth",
+   "value": "PC4-21300"
   }
- ]
+ ],
+ "spec_src": "inventory"
 }

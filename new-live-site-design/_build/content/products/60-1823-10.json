@@ -8,5 +8,35 @@
  "avail": "lead",
  "model": "DMP 64 Plus C AT",
  "d": "DMP 64 Plus C AT 6x4 Digital Matrix Processor w/ AEC and Dante",
- "specs": []
+ "specs": [
+  {
+   "label": "Audio inputs",
+   "value": "6"
+  },
+  {
+   "label": "Audio outputs",
+   "value": "4"
+  },
+  {
+   "label": "Dante support",
+   "value": "Yes"
+  },
+  {
+   "label": "AEC support",
+   "value": "Yes"
+  },
+  {
+   "label": "Frequency response",
+   "value": "20 Hz - 20 kHz"
+  },
+  {
+   "label": "Connectors",
+   "value": "RJ-45, 6-pin 3.5mm terminal blocks"
+  },
+  {
+   "label": "Features",
+   "value": "AEC, Dante"
+  }
+ ],
+ "spec_src": "inventory"
 }

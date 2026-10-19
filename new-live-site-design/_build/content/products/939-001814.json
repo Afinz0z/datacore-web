@@ -7,5 +7,19 @@
  "dept": "AV",
  "avail": "lead",
  "d": "Video Collaboration Group - Tap Riser Mount - NA - N/A - N/A - WW - RISER MOUNT",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Display"
+  },
+  {
+   "label": "Movement type",
+   "value": "Riser"
+  },
+  {
+   "label": "Display mounting capacity",
+   "value": "Single"
+  }
+ ],
+ "spec_src": "inventory"
 }

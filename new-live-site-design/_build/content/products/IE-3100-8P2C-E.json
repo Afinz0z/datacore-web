@@ -11,8 +11,49 @@
   {
    "label": "Type",
    "value": "Industrial Network Switch"
+  },
+  {
+   "label": "Ports",
+   "value": "8"
+  },
+  {
+   "label": "PoE power",
+   "value": "30W"
+  },
+  {
+   "label": "SFP ports",
+   "value": "2"
+  },
+  {
+   "label": "Protocols",
+   "value": "STP/RSTP"
+  },
+  {
+   "label": "Switching fabric",
+   "value": "40 Gbps"
+  },
+  {
+   "label": "POE standards",
+   "value": "IEEE 802.3af (PoE), IEEE 802.3at (PoE+)"
+  },
+  {
+   "label": "Layer 2 features",
+   "value": "MRP (Media Redundancy Protocol), IGMP Snooping"
+  },
+  {
+   "label": "Security",
+   "value": "MAC Authentication Bypass (MAB), Web Authentication (WebAuth)"
+  },
+  {
+   "label": "1G SFP PORTS",
+   "value": "4"
+  },
+  {
+   "label": "Uplink port",
+   "value": "2"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "CON-SNT-IE31008E",
   "IE3100-DNA-E-L",

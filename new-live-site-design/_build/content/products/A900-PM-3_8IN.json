@@ -8,5 +8,19 @@
  "avail": "lead",
  "model": "A900-PM-3/8IN",
  "d": "Pole Mount Kit for MXA910 and MXA920/MXA925. 3/8 inch Threaded Rodadapter",
- "specs": []
+ "specs": [
+  {
+   "label": "Mount category",
+   "value": "Mic"
+  },
+  {
+   "label": "Mounting type",
+   "value": "Ceiling"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  }
+ ],
+ "spec_src": "inventory"
 }

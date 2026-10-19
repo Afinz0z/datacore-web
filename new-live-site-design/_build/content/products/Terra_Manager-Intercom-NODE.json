@@ -7,7 +7,13 @@
  "dept": "AV",
  "avail": "lead",
  "d": "IP-media Licence //Terracom Node // Intercom + Paging + BGMX // for each IP-address in the system.",
- "specs": [],
+ "specs": [
+  {
+   "label": "Category",
+   "value": "Software"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "TERRA-FXO-II"
  ]

@@ -10,8 +10,49 @@
   {
    "label": "Type",
    "value": "Indoor campus access point"
+  },
+  {
+   "label": "Wi-Fi standard",
+   "value": "Wi-Fi 6 (IEEE 802.11ax)"
+  },
+  {
+   "label": "Operating bands",
+   "value": "2.4 GHz, 5 GHz"
+  },
+  {
+   "label": "Radio architecture",
+   "value": ": Dual-radio"
+  },
+  {
+   "label": "MIMO",
+   "value": "4×4 MIMO"
+  },
+  {
+   "label": "Antenna gain",
+   "value": "2.4 GHz: 4.8 dBi"
+  },
+  {
+   "label": "Optimizations",
+   "value": "OFDMA, Bi-directional MU-MIMO, Target Wake Time (TWT), ClientMatch and RF optimization, MU-MIMO (UL/DL), Beamforming"
+  },
+  {
+   "label": "Security standards",
+   "value": "WPA, WPA2, WPA3 , Enhanced Open (OWE), WIDS / WIPS, IEEE 802.1X"
+  },
+  {
+   "label": "Certifications",
+   "value": "UL2043 plenum rated, Bluetooth SIG, UL / cUL, IEC / EN 62368-1, Zigbee Alliance Certification, Ethernet Alliance (PoE, PD device, class 4), W-Fi agile multiband"
+  },
+  {
+   "label": "Power",
+   "value": "Direct DC power, DC powered: 12.5 W / 18.2 W, PoE powered: 14.7 W / 20.9 W, Intelligent Power Monitoring (IPM), IEEE 802.3at / 802.3bt PoE, 12 V ± 10%"
+  },
+  {
+   "label": "Interfaces & ports",
+   "value": "1 × RJ-45 Ethernet port (E0), USB 2.0 Type-A host port, DC power input (12 VDC nominal), Serial console (micro-B USB)"
   }
  ],
+ "spec_src": "inventory",
  "acc": [
   "HG6E9E",
   "HM1B6E",

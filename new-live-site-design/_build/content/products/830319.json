@@ -7,7 +7,17 @@
  "dept": "AV",
  "avail": "lead",
  "d": "ARANTIA TV STB LICENSE SW* MDW BUS. Arantia TV License for Set-Top Box, compatible with Middleware Business",
- "specs": [],
+ "specs": [
+  {
+   "label": "Software license type",
+   "value": "IPTV"
+  },
+  {
+   "label": "Category",
+   "value": "License"
+  }
+ ],
+ "spec_src": "inventory",
  "for": [
   "830130"
  ]

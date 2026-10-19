@@ -8,5 +8,23 @@
  "avail": "lead",
  "model": "IN1608 xi IPCP Q SA",
  "d": "IN1608 xi IPCP Q SA 2 x 50 Watt Stereo Amp, AV LAN",
- "specs": []
+ "specs": [
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Flash memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Inbuild amplifier",
+   "value": "Yes"
+  },
+  {
+   "label": "Output power",
+   "value": "2 x 50 Watt"
+  }
+ ],
+ "spec_src": "inventory"
 }

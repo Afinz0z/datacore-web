@@ -8,7 +8,49 @@
  "avail": "lead",
  "model": "TLS 525M",
  "d": "TLS 525M - 5\" Wall Mount TouchLink Scheduling Panel - White",
- "specs": [],
+ "specs": [
+  {
+   "label": "Panel size",
+   "value": "5\""
+  },
+  {
+   "label": "RAM",
+   "value": "2 GB"
+  },
+  {
+   "label": "Memory",
+   "value": "8GB"
+  },
+  {
+   "label": "Screen resolution",
+   "value": "800x480"
+  },
+  {
+   "label": "Aspect ratio",
+   "value": "5:3"
+  },
+  {
+   "label": "Sensors",
+   "value": "Motion sensor, Light sensor"
+  },
+  {
+   "label": "Brightness",
+   "value": "850 nits"
+  },
+  {
+   "label": "Contrast",
+   "value": "700:1"
+  },
+  {
+   "label": "Colour",
+   "value": "White"
+  },
+  {
+   "label": "Mounting options",
+   "value": "Wall mount"
+  }
+ ],
+ "spec_src": "inventory",
  "acc": [
   "70-1140-12",
   "70-1140-13",
