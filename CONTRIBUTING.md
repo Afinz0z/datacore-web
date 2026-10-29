@@ -17,7 +17,7 @@ for the architecture, the build and the deploy.
 3. Review the generated HTML diff. It should contain only what you meant to
    change; the build is otherwise deterministic.
 4. Check every page you touched in English and Arabic, with the browser console
-   open: `python -m http.server -d new-live-site-design 8000`.
+   open: `python -m http.server --bind 127.0.0.1 -d new-live-site-design 8000`.
 5. Commit the content change together with the regenerated pages, then push to
    `master`. GitHub Actions rebuilds and deploys; there is no manual step.
 
@@ -84,13 +84,17 @@ for the architecture, the build and the deploy.
   ```
 
   Keep the skipped list outside the repository. It names every row left out and why.
+  The importer keeps the old product files when the export gives no products, or fewer than half as many
+  as before; add `--allow-shrink` when the catalogue really has shrunk.
 - Rows left out: inactive items, anything marked TBA (to be assigned), placeholder rows such as
   `Custom-1`, `Rack` or `Structure`, custom items with no brand or model, and discontinued models.
 - Discontinued models stay off the site even when they belong to a bundle; their supporting products stay
   listed. `_build/product_discontinued.json` names each one with the maker's page that says so and the
   date it was checked. Add a model only on the maker's own word, never because it is hard to find.
 - Only public fields are imported. Prices, fees, distributors, lead times, Zoho IDs and the names of
-  the staff who created records never reach the site.
+  the staff who created records never reach the site. Spec rows whose label names a price, cost,
+  distributor, supplier, lead time, margin or discount, or whose value gives an amount of money, are
+  dropped, and so is a description that gives an amount of money.
 - Specs come from the maker's own page wherever one exists for the exact model: saved in the product file with
   `src` (the page) and `checked` (the date), kept across re-imports, and labelled on the site as checked against
   the maker. Where no maker page gives them (the site blocks reading, opts out of crawlers, or has no page per
@@ -152,9 +156,9 @@ for the architecture, the build and the deploy.
 - Category pages: `products-<group>.html` for each filter group except Other, the catalogue opened on that
   group. Their introduction is written from the catalogue (count, makers, commonest types), so it stays true
   after every import. Write no claims into it by hand.
-- Small photos: after adding photos or logos, run `python make_thumbs.py` in `_build/` (it needs Pillow, so CI
-  doesn't run it). It writes 300 px copies to `sm/` folders, and grids offer them to standard screens. A
-  product without a small copy still shows its full photo.
+- Small photos: after adding photos or logos, run `python make_thumbs.py` in `_build/` (it needs Pillow 12.3.0
+  or newer, so CI doesn't run it). It writes 300 px copies to `sm/` folders, and grids offer them to standard
+  screens. It opens WebP files only; any file it can't read is listed at the end and skipped. A product without a small copy still shows its full photo.
 - The catalogue keeps its view in the address: `q`, `grp`, `cat`, `brand`, `rel`, `sort` and `p` (an open
   quick view), so any view can be shared and Back works. `rfq` (a request list someone shared) and `req=1`
   (open the request) are read once and removed. Links from elsewhere on the site can use these, as the
@@ -169,10 +173,16 @@ for the architecture, the build and the deploy.
 ## Checks and visitor reports
 
 - Every build runs `_build/check_site.py` before it deploys: each local link, image, script, stylesheet and
-  sitemap address must exist and each page needs a title. A broken build stops there and is not published.
+  sitemap address must exist inside the published folder, other links may only be http, https, mailto or tel,
+  every JSON-LD block must parse with no `<` in it, inline scripts may not contain `<!--` or `<script`, and
+  each page needs a title. A broken build stops there and is not published.
+- The build also stops when `_build/` holds a Python file or folder that is not on the list in
+  `.github/workflows/pages.yml` (Python would import it before the real module), or when the published
+  folder holds a symlink or a `.pyc` file. A new script in `_build/` goes on that list in the same commit.
 - The daily "Site check" workflow (`.github/workflows/site-check.yml`) requests every page of the published
   site with `_build/check_live.py`. If anything does not answer it opens a GitHub issue labelled `site-check`
-  (GitHub emails the owner) and closes it once everything answers again. Run it by hand from the Actions tab.
+  (GitHub emails the owner) and closes the issues it opened once everything answers again. Run it by hand
+  from the Actions tab.
 - Visitors report mistakes from the chat bubble ("Report a mistake on this page") or from the link on the 404
   page. Reports go through `dcpDeliver()` with the page address, the page the visitor came from and the
   screen size; the privacy page says so. The 404 page also records `page_not_found` for analytics, which only
@@ -191,7 +201,8 @@ for the architecture, the build and the deploy.
   Fonts link contacts Google before the visitor has answered the cookie banner.
   Bootstrap Icons is trimmed to the four icons in use (`chevron-down`,
   `circle-fill`, `list`, `x`); to use another one, replace the folder with the
-  full 1.10.5 release or re-subset the font.
+  full 1.10.5 release or re-subset the font. `assets1/vendor/MANIFEST.txt`
+  records each file's version and SHA-256; update it when a file changes.
 - **Consent.** Google Tag Manager loads only after the visitor accepts cookies
   (`dc-consent.js`). Don't add tags or scripts that bypass it.
 - **Dark mode** is a CSS `filter: invert()` applied per top-level block — not to

@@ -2,10 +2,18 @@
 # GitHub Action rebuilds & deploys the site (~2 min). Covers Insights, Projects,
 # Products. Arabic field labels are bilingual (العربية + English). See CMS-PLAN.md.
 
+# Settings is hidden so editors do not change this file from the CMS (only GitHub access really stops it).
+# merge keeps fields the CMS does not show (for example a product's videos) when an entry is saved.
+settings:
+  hide: true
+  content:
+    merge: true
+
+# No SVG: an SVG opened on the site's own address can run script.
 media:
   input: new-live-site-design/assets1/images
   output: assets1/images
-  extensions: [webp, jpg, jpeg, png, svg]
+  extensions: [webp, jpg, jpeg, png]
 
 content:
   # ─────────────────────────── INSIGHTS ───────────────────────────
@@ -13,12 +21,13 @@ content:
     label: Insights
     type: collection
     path: new-live-site-design/_build/content/insights
-    filename: '{fields.slug}.json'
+    filename: { template: '{fields.slug}.json', field: false }
     view:
       fields: [slug, order, iso]
       sort: [order, slug]
     fields:
-      - { name: slug, label: Slug (URL id — lowercase-with-hyphens; page = insight-<slug>.html), type: string, required: true }
+      - { name: slug, label: Slug (URL id: lowercase-with-hyphens; page = insight-<slug>.html), type: string, required: true,
+          pattern: { regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$', message: 'Lowercase letters, digits and single hyphens only' } }
       - { name: order, label: Order (lower shows first on the hub), type: number, default: 99 }
       - { name: img, label: Card / hero image (WebP), type: image }
       - { name: iso, label: Date for search engines (ISO, e.g. 2026-09-16), type: date }
@@ -43,7 +52,8 @@ content:
             type: object
             list: true
             fields:
-              - { name: slug, label: Service page slug, type: string }
+              - { name: slug, label: Service page slug, type: string,
+                  pattern: { regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$', message: 'Lowercase letters, digits and single hyphens only' } }
               - { name: label, label: Link text, type: string }
           - name: faq
             label: FAQ (drives the FAQ schema)
@@ -53,7 +63,7 @@ content:
               - { name: q, label: Question, type: string }
               - { name: a, label: Answer, type: text }
       - name: ar
-        label: العربية / Arabic (first draft — needs native review)
+        label: العربية / Arabic (first draft, needs native review)
         type: object
         fields:
           - { name: title, label: العنوان / Title, type: string }
@@ -73,7 +83,8 @@ content:
             type: object
             list: true
             fields:
-              - { name: slug, label: مُعرّف صفحة الخدمة / Service slug, type: string }
+              - { name: slug, label: مُعرّف صفحة الخدمة / Service slug, type: string,
+                  pattern: { regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$', message: 'أحرف إنجليزية صغيرة وأرقام وشرطات مفردة فقط / Lowercase letters, digits and single hyphens only' } }
               - { name: label, label: نص الرابط / Link text, type: string }
           - name: faq
             label: الأسئلة الشائعة / FAQ
@@ -88,12 +99,13 @@ content:
     label: Projects (case studies)
     type: collection
     path: new-live-site-design/_build/content/projects
-    filename: '{fields.slug}.json'
+    filename: { template: '{fields.slug}.json', field: false }
     view:
       fields: [slug, order]
       sort: [order, slug]
     fields:
-      - { name: slug, label: Slug (URL id — page = project-<slug>.html), type: string, required: true }
+      - { name: slug, label: Slug (URL id: lowercase-with-hyphens; page = project-<slug>.html), type: string, required: true,
+          pattern: { regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$', message: 'Lowercase letters, digits and single hyphens only' } }
       - { name: order, label: Order, type: number, default: 99 }
       - { name: img, label: Hero image (WebP), type: image }
       - name: en
@@ -108,6 +120,8 @@ content:
           - { name: date_iso, label: Completed date (ISO, optional), type: string }
           - { name: scope, label: Scope (one line), type: string }
           - { name: lede, label: Intro paragraph, type: text }
+          - { name: desc, label: Search description (100 to 160 characters; optional), type: text }
+          - { name: partner, label: Partner (optional), type: string }
           - name: sections
             label: Narrative sections
             type: object
@@ -124,7 +138,7 @@ content:
               - { name: img, label: Photo (WebP), type: image }
               - { name: cap, label: Caption, type: string }
       - name: ar
-        label: العربية / Arabic (first draft — needs native review)
+        label: العربية / Arabic (first draft, needs native review)
         type: object
         fields:
           - { name: name, label: اسم المشروع / Project name, type: string }
@@ -135,6 +149,7 @@ content:
           - { name: date_iso, label: تاريخ الإنجاز (ISO) / Completed date, type: string }
           - { name: scope, label: النطاق / Scope, type: string }
           - { name: lede, label: المقدمة / Intro, type: text }
+          - { name: partner, label: الشريك / Partner (optional), type: string }
           - name: sections
             label: أقسام السرد / Narrative sections
             type: object
@@ -156,12 +171,13 @@ content:
     label: Showcase projects (no case study)
     type: collection
     path: new-live-site-design/_build/content/showcase
-    filename: '{fields.slug}.json'
+    filename: { template: '{fields.slug}.json', field: false }
     view:
       fields: [slug, order]
       sort: [order, slug]
     fields:
-      - { name: slug, label: Slug (URL id — lowercase-with-hyphens), type: string, required: true }
+      - { name: slug, label: Slug (URL id: lowercase-with-hyphens), type: string, required: true,
+          pattern: { regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$', message: 'Lowercase letters, digits and single hyphens only' } }
       - { name: order, label: Order (lower shows first; leave gaps so you can insert between), type: number, default: 99 }
       - { name: img, label: Card image (WebP), type: image }
       - name: disc
@@ -191,7 +207,7 @@ content:
           - { name: client, label: Client, type: string }
           - { name: scope, label: Scope (one line), type: string }
       - name: ar
-        label: العربية / Arabic (first draft — needs native review)
+        label: العربية / Arabic (first draft, needs native review)
         type: object
         fields:
           - { name: sector, label: القطاع / Sector, type: string }
@@ -207,12 +223,14 @@ content:
     label: Products
     type: collection
     path: new-live-site-design/_build/content/products
-    filename: '{fields.sku}.json'
+    filename: { template: '{fields.sku}.json', field: false }
     view:
       fields: [sku, n, b, c]
       sort: [order, sku]
     fields:
-      - { name: sku, label: SKU / model code, type: string, required: true }
+      # SKUs keep their own punctuation (some have / \ or :), so only what could leave the folder is blocked.
+      - { name: sku, label: SKU / model code, type: string, required: true,
+          pattern: { regex: '^(?![\/\\])(?!.*\.\.)[^\r\n\u2028\u2029]+$', message: 'No line breaks, no .. and no / or \ at the start' } }
       - { name: order, label: Order, type: number, default: 99 }
       - { name: n, label: Name, type: string }
       - { name: model, label: Model code (when the name was built from the description), type: string }
@@ -229,7 +247,19 @@ content:
         fields:
           - { name: label, label: Spec, type: string }
           - { name: value, label: Value, type: string }
-      - { name: src, label: Manufacturer page the specs were checked against, type: string }
-      - { name: checked, label: Date the specs were checked (YYYY-MM-DD), type: string }
+      - { name: src, label: Manufacturer page the specs were checked against, type: string, readonly: true }
+      - { name: checked, label: Date the specs were checked (YYYY-MM-DD), type: string, readonly: true }
       - { name: acc, label: Supporting products (part numbers), type: string, list: true }
       - { name: for, label: Main products this one supports (part numbers), type: string, list: true }
+      # Written by the importer and the spec checks, never by hand.
+      - { name: spec_src, type: string, hidden: true }
+      - { name: src_kind, type: string, hidden: true }
+      - { name: src_name, type: string, hidden: true }
+      - name: videos
+        type: object
+        list: true
+        hidden: true
+        fields:
+          - { name: id, type: string }
+          - { name: title, type: string }
+          - { name: channel, type: string }

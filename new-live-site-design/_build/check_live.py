@@ -7,8 +7,10 @@ data, must answer 200. The daily "Site check" workflow runs this and opens a Git
 The sitemap lists the final domain; each address is checked on the base given here, so the check follows
 wherever the site is published. Standard library only."""
 import concurrent.futures as cf, datetime, re, sys, time, urllib.error, urllib.parse, urllib.request
+import xml.etree.ElementTree as ET
 
 UA = 'DatacoreSiteCheck/1.0 (+daily check of the Datacore website)'
+SITEMAP = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
 
 
 def get(url, method='GET'):
@@ -20,6 +22,12 @@ def get(url, method='GET'):
         return e.code, b''
     except Exception as e:                               # timeouts, DNS, resets
         return str(e.__class__.__name__), b''
+
+
+def page_name(loc):
+    """The file name a sitemap address points at, quoted for use in an address."""
+    name = urllib.parse.unquote(urllib.parse.urlsplit(loc).path.rsplit('/', 1)[-1]) or 'index.html'
+    return urllib.parse.quote(name, safe='')
 
 
 def check(url):
@@ -34,12 +42,14 @@ def check(url):
 def main(base, report):
     base = base.rstrip('/')
     code, body = get(base + '/sitemap.xml')
+    pages, problems = [], []
     if code != 200:
-        pages, problems = [], [('sitemap.xml', code)]
+        problems = [('sitemap.xml', code)]
     else:
-        pages = [urllib.parse.urlsplit(u).path.rsplit('/', 1)[-1] or 'index.html'
-                 for u in re.findall(r'<loc>([^<]+)</loc>', body.decode('utf-8', 'replace'))]
-        problems = []
+        try:
+            pages = [page_name((el.text or '').strip()) for el in ET.fromstring(body).iter(SITEMAP + 'loc')]
+        except ET.ParseError:
+            problems = [('sitemap.xml', 'not valid XML')]
     shared = ['dc-overlay.css', 'dc-overlay.js', 'dc-pages.css', 'dc-products.js', 'dc-forms.js', 'dc-consent.js',
               '404.html', 'robots.txt']
     home = get(base + '/products.html')[1].decode('utf-8', 'replace')
@@ -51,8 +61,8 @@ def main(base, report):
                 problems.append((url[len(base) + 1:], code))
     stamp = datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
     lines = [f'Site check of {base} on {stamp}: {len(urls):,} addresses, {len(problems)} not answering.', '']
-    lines += [f'- `{p}`: {c}' for p, c in sorted(problems, key=lambda x: str(x[0]))]
     if problems:
+        lines += ['```'] + [f'{p}  {c}' for p, c in sorted(problems, key=lambda x: str(x[0]))] + ['```']
         lines += ['', 'Fix the page or its link, push, and the next daily check closes this issue.']
     text = '\n'.join(lines)
     print(text)

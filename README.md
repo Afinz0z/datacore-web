@@ -31,7 +31,7 @@ directly, or change the templates in `_build/`.
 
 ## Building locally
 
-No dependencies beyond Python 3.9+ (standard library only):
+No dependencies beyond Python 3.11 (standard library only):
 
 ```bash
 cd new-live-site-design/_build
@@ -41,7 +41,7 @@ python build_pages.py && python build_products.py && python build_services.py &&
 Serve the result:
 
 ```bash
-python -m http.server -d new-live-site-design 8000
+python -m http.server --bind 127.0.0.1 -d new-live-site-design 8000
 ```
 
 ## Deploying
@@ -63,7 +63,7 @@ in `CONTRIBUTING.md`. Read it before changing anything.
 new-live-site-design/          the site — static pages and assets
   _build/                      Python generators + content data
     content/                   per-entry JSON: insights, projects, showcase, products
-    build_pages.py             products / projects / insights / contact (+ shell, footer)
+    build_pages.py             projects / insights / contact (+ shell, footer)
     build_products.py          products catalogue
     build_services.py          38 service-detail pages
     build_extra.py             terms / privacy / 404, sitemap, robots, llms.txt

@@ -1,0 +1,28 @@
+Third-party files in assets1/vendor/ as the site serves them.
+
+Version: from the file's own header. Files marked * have no header; their version is the release the
+core pages loaded from a CDN before the files were copied here (commit c4cb9f3, and e63b2a5 for
+jarallax.min.css). The sourceMappingURL comment was removed from the Bootstrap JS and CSS and the
+jarallax JS, since their .map files are not shipped.
+
+SHA-256: of the file in this folder. When a file changes, update its line
+(sha256sum <file>, or Get-FileHash <file> in PowerShell).
+
+file                                         version                            sha256
+aos/aos.css                                  AOS 2.3.1 *                        1aa8845fd06e475aefe733d4e55b36a92fcd487975049c8172341827ac9cc03e
+aos/aos.js                                   AOS 2.3.1 *                        f268612ba59ead1b24353bb77d66783bcc435aff1c22be5f93c40bac3869968e
+bootstrap-icons/bootstrap-icons.css          Bootstrap Icons 1.10.5 (subset)    750f8af6af08eeb518c525d7515d516c4f3c3e942b4c36523383d02ff4394221
+bootstrap-icons/fonts/bootstrap-icons.woff2  Bootstrap Icons 1.10.5 (subset) *  1a04a3812f3120f7579367356ea49c6f3802240d6da5a6b90b5963966f3fa4e6
+bootstrap/bootstrap.bundle.min.js            Bootstrap 5.3.0                    ee75315629808505fdd0a6f8751debfd2c0588836f0077816f9ea17b9d478c0d
+bootstrap/bootstrap.min.css                  Bootstrap 5.3.0                    c6e9088a8d5ab202745f06f5579795b6e8d3d7505a39049e6a620a6ac995da9b
+jarallax/jarallax.min.css                    jarallax 2.2.1 *                   347a6fc054887396a2a540bd941970cb114af75f1feb9cee20162f7b3aa8431c
+jarallax/jarallax.min.js                     jarallax 2.2.1                     a28e49928825daa5765e214df5ee104b047dbe76517779350c3049fb4f03d886
+jquery/jquery-3.6.0.min.js                   jQuery 3.6.0                       ff1523fb7389539c84c65aba19260648793bb4f5e29329d2ee8804bc37a3fe6e
+slick/ajax-loader.gif                        Slick 1.8.1 *                      e7b44c86b050fca766a96ddac2d0932af0126da6f2305280342d909168dcce6b
+slick/fonts/slick.eot                        Slick 1.8.1 *                      06d80cf01250132fd1068701108453feee68854b750d22c344ffc0de395e1dcb
+slick/fonts/slick.svg                        Slick 1.8.1 *                      12459f221a0b787bf1eaebf2e4c48fca2bd9f8493f71256c3043e7a0c7e932f6
+slick/fonts/slick.ttf                        Slick 1.8.1 *                      37bc99cfdbbc046193a26396787374d00e7b10d3a758a36045c07bd8886360d2
+slick/fonts/slick.woff                       Slick 1.8.1 *                      26726bac4060abb1226e6ceebc1336e84930fe7a7af1b3895a109d067f5b5dcc
+slick/slick-theme.css                        Slick 1.8.1 *                      7adaf08052c6a6a0f8a0d0055b4f191fd07389fe41c972b69573472b2ecb406a
+slick/slick.css                              Slick 1.8.1 *                      de1e399b07289f3b0a8d35142e363e128124a1185770e214e25e58030dad48e5
+slick/slick.min.js                           Slick 1.8.1 *                      0c7178cc6ca34fb18e30f070a5e7a1c287b2d7ccfcba2cfdf06e0f46eda55740
