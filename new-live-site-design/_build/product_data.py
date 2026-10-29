@@ -4,14 +4,15 @@ category map (display names, Arabic, filter group, card icon)."""
 import json, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-_RESERVED = {'CON', 'PRN', 'AUX', 'NUL'} | {f'{p}{i}' for p in ('COM', 'LPT') for i in range(1, 10)}
+_RESERVED = {'CON', 'PRN', 'AUX', 'NUL'} | {f'{p}{i}' for p in ('COM', 'LPT') for i in range(10)}
 
 
 def safe_name(sku):
     """File-name stem for a product: the SKU with anything outside A-Z a-z 0-9 . _ - turned into '_'.
     Used for content/products/<stem>.json and assets1/images/products/<stem>.webp."""
     s = re.sub(r'[^A-Za-z0-9._-]+', '_', str(sku).strip()).strip('._') or 'item'
-    return '_' + s if s.upper() in _RESERVED else s
+    # Windows reserves these device names even with an extension (NUL.x.json)
+    return '_' + s if s.split('.')[0].upper() in _RESERVED else s
 
 
 def _key(s):

@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
 """Replace the product catalogue with the inventory export (the "Products-All-Categories" xlsx).
 
-    python import_products.py path/to/Products-All-Categories-<date>.xlsx [--skipped skipped.csv]
+    python import_products.py path/to/Products-All-Categories-<date>.xlsx [--skipped skipped.csv] [--allow-shrink]
 
 Writes one file per active product to content/products/<sku>.json and deletes the files of
-products that are no longer in the export. Only public fields are copied: part number, name,
-brand, category, department, description and specifications. Prices, fees, distributors, lead
-times, Zoho IDs and the names of the staff who created records are never read into the site.
+products that are no longer in the export. When the export gives fewer than half as many products
+as there were files, nothing is deleted unless --allow-shrink is given, and when it gives none,
+nothing is deleted at all. Only public fields are copied: part number, name, brand, category,
+department, description and specifications. Prices, fees, distributors, lead times, Zoho IDs and
+the names of the staff who created records are never read into the site. The free-text
+Specifications column is published for products without checked specs, so its rows labelled with a
+price, cost, distributor, supplier, lead time, margin or discount, or giving an amount of money, are
+dropped, and so is a description that gives an amount of money.
 Standard library only, like the other build scripts."""
 import html, json, os, re, sys, zipfile
 import xml.etree.ElementTree as ET
@@ -19,6 +24,9 @@ from product_data import safe_name, load_categories
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'content', 'products')
 M = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
 R = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
+MAX_PART = 64 * 2**20        # unpacked bytes of one workbook part; the Oct 2026 export's sheet is 7.6 MB
+MAX_COL = 16384              # column XFD, the last one Excel has
+MAX_CELLS = 20_000_000
 
 # Display names for brands whose export spelling is all capitals or carries a legal suffix.
 BRAND = {
@@ -100,42 +108,70 @@ def clean(s):
     return ' '.join(DASHES.sub('-', SYMBOL_FONT.sub(' ' + chr(0x2022) + ' ', INVISIBLE.sub('', str(s or '')))).split())
 
 
+def _text(el):
+    """The visible text of a shared or inline string: its <t> or its rich-text runs, without the
+    phonetic runs (<rPh>) Excel keeps hidden."""
+    out = []
+    for x in el:
+        if x.tag == M + 't':
+            out.append(x.text or '')
+        elif x.tag == M + 'r':
+            out.extend(t.text or '' for t in x.findall(M + 't'))
+    return ''.join(out)
+
+
 def read_sheet(path, name):
     """Rows of one worksheet as lists of strings (zipfile + ElementTree, no openpyxl)."""
-    z = zipfile.ZipFile(path)
-    wb = ET.fromstring(z.read('xl/workbook.xml'))
-    rid = next(s.get(R + 'id') for s in wb.iter(M + 'sheet') if s.get('name') == name)
-    rels = ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))
-    target = next(r.get('Target') for r in rels if r.get('Id') == rid).lstrip('/')
-    target = target if target.startswith('xl/') else 'xl/' + target
-    shared = []
-    if 'xl/sharedStrings.xml' in z.namelist():
-        for si in ET.fromstring(z.read('xl/sharedStrings.xml')).iter(M + 'si'):
-            shared.append(''.join(t.text or '' for t in si.iter(M + 't')))
-    rows = []
-    for row in ET.fromstring(z.read(target)).iter(M + 'row'):
+    with zipfile.ZipFile(path) as z:
+        def part(n):
+            if z.getinfo(n).file_size > MAX_PART:
+                raise ValueError(f'{n} in {path} unpacks to more than {MAX_PART >> 20} MB')
+            return ET.fromstring(z.read(n))
+        wb = part('xl/workbook.xml')
+        rid = next(s.get(R + 'id') for s in wb.iter(M + 'sheet') if s.get('name') == name)
+        rels = part('xl/_rels/workbook.xml.rels')
+        target = next(r.get('Target') for r in rels if r.get('Id') == rid).lstrip('/')
+        target = target if target.startswith('xl/') else 'xl/' + target
+        shared = []
+        if 'xl/sharedStrings.xml' in z.namelist():
+            shared = [_text(si) for si in part('xl/sharedStrings.xml').iter(M + 'si')]
+        sheet = part(target)
+    rows, cells = [], 0
+    for row in sheet.iter(M + 'row'):
         vals = {}
         for c in row.iter(M + 'c'):
-            letters = re.match(r'[A-Z]+', c.get('r')).group(0)
+            ref = c.get('r') or ''
+            m = re.fullmatch(r'([A-Z]{1,3})\d*', ref)
+            if not m:                         # no cell reference to place it by
+                continue
             col = 0
-            for ch in letters:
+            for ch in m.group(1):
                 col = col * 26 + ord(ch) - 64
+            if col > MAX_COL:
+                continue
             v, t = c.find(M + 'v'), c.get('t')
             if t == 's':
-                val = shared[int(v.text)] if v is not None else ''
+                i = (v.text or '').strip() if v is not None else ''
+                if i and not (i.isdecimal() and int(i) < len(shared)):
+                    raise ValueError(f'cell {ref} of {name} points at shared string {i!r}, which does not exist')
+                val = shared[int(i)] if i else ''
             elif t == 'inlineStr':
-                val = ''.join(x.text or '' for x in c.iter(M + 't'))
+                val = _text(c.find(M + 'is')) if c.find(M + 'is') is not None else ''
             else:
                 val = v.text if v is not None else ''
             vals[col - 1] = val
         if vals:
+            cells += max(vals) + 1
+            if cells > MAX_CELLS:
+                raise ValueError(f'{name} in {path} has more than {MAX_CELLS} cells')
             rows.append([vals.get(i, '') for i in range(max(vals) + 1)])
     return rows
 
 
 def plain(htm):
     t = re.sub(r'(?i)<br\s*/?>|</p>', ' ', str(htm or ''))
-    return clean(html.unescape(re.sub(r'<[^>]+>', ' ', t)))
+    t = html.unescape(re.sub(r'<[^>]+>', ' ', t))
+    return clean(re.sub(r'</?[A-Za-z!?][^<>]*>', ' ', t))     # &lt;script&gt; is a tag again once unescaped
 
 
 # one name per spec, whichever spelling the export used
@@ -245,19 +281,27 @@ def described_name(name, desc, brand):
 
 
 NOT_A_SPEC = re.compile(r'^(product name|name|model|model name|brand|manufacturer|part number|sku|price|cost)$', re.I)
+# commercial terms that must not reach the site, anywhere in a label
+PRIVATE = re.compile(r'pric(?:e|ing)|cost|distributor|supplier|lead[\s_-]*time|(?:profit|gross|net)\s+margin|^margin$|discount', re.I)
+# an amount of money: SAR, USD, $, or the Arabic riyal (ر.س, ريال, ﷼) next to a number
+_CUR = r'(?:(?<![A-Za-z])(?:SAR|USD)(?![A-Za-z])|\$|\u0631\.\s?\u0633|\u0631\u064a\u0627\u0644|\ufdfc)'
+MONEY = re.compile(r'%s[\s:.]*\d|\d\s*%s' % (_CUR, _CUR), re.I)
 
 
 def sheet_rows(d):
     """The export's own Specifications, for products whose maker's pages could not supply checked ones.
-    The website labels them as inventory data, not checked against the maker."""
+    The website publishes them, labelled as inventory data not checked against the maker, so rows
+    that name a price, cost, distributor, supplier, lead time, margin or discount, or give an amount
+    of money, are dropped."""
     return [s for s in parse_specs(d.get('Specifications'))
-            if not NOT_A_SPEC.search(s['label']) and len(s['label']) <= 45 and len(s['value']) <= 220]
+            if not NOT_A_SPEC.search(s['label']) and not PRIVATE.search(s['label'])
+            and not MONEY.search(s['value']) and len(s['label']) <= 45 and len(s['value']) <= 220]
 
 
 def classification(d, info):
     """What the export's classification columns say: product type, series and sale unit. Cards show
-    these until the product's specifications have been checked against the manufacturer; the free-text
-    Specifications column of the export is not published (it is too often wrong)."""
+    these until the product's specifications have been checked against the manufacturer, together
+    with the export's free-text Specifications where it has usable rows (sheet_rows())."""
     out = []
     ptype = clean(d.get('Product Type'))
     if ptype and ptype.lower() not in info['en'].lower():
@@ -279,7 +323,13 @@ def _list(s):
     return [x for x in (clean(v) for v in str(s or '').split(',')) if x]
 
 
-def main(xlsx, skipped_csv=None):
+def csv_cell(s):
+    """Text Excel won't run as a formula: a cell starting with = + - @ tab or CR gets a leading apostrophe."""
+    s = str(s)
+    return "'" + s if s[:1] in ('=', '+', '-', '@', '\t', '\r') else s
+
+
+def main(xlsx, skipped_csv=None, allow_shrink=False):
     rows = read_sheet(xlsx, 'Products')
     hi = next(i for i, r in enumerate(rows) if 'Part Number' in r)
     head = rows[hi]
@@ -288,7 +338,7 @@ def main(xlsx, skipped_csv=None):
     groups, resolve = load_categories()
     gorder = {k: i for i, k in enumerate(groups)}
     unknown, blanked, changed = Counter(), Counter(), Counter()
-    skipped, items = [], []
+    skipped, items, priced = [], [], 0
     for d in data:
         sku, name = clean(d['Part Number']), clean(d['Product Name'])
         raw_brand, cat, dept = clean(d['Manufacturer']), clean(d['Category']), clean(d['Department']).upper()
@@ -307,6 +357,9 @@ def main(xlsx, skipped_csv=None):
         if not info['known']:
             unknown[cat] += 1
         desc = plain(d.get('Description'))
+        if MONEY.search(desc):
+            priced += 1
+            desc = ''
         if re.match(r'(?i)^(tba|n/?a)\b', desc) or desc.lower() == name.lower():
             desc = ''
         entry = {'sku': sku, 'order': 0, 'n': name or sku, 'b': brand, 'c': cat, 'dept': dept, 'avail': 'lead'}
@@ -360,17 +413,20 @@ def main(xlsx, skipped_csv=None):
     items.sort(key=lambda x: (gorder.get(x[0]['grp'], 99), -catsize[x[0]['en']], x[0]['en'].lower(),
                               x[1]['b'].lower(), x[1]['n'].lower(), x[1]['sku']))
     os.makedirs(OUT, exist_ok=True)
-    written, kept_checks = set(), 0
+    before = sum(1 for f in os.listdir(OUT) if f.lower().endswith('.json'))
+    written, kept_checks = set(), 0       # lower-case stems: Windows treats AB-1.json and ab-1.json as one file
     for i, (_, e, _) in enumerate(items, 1):
         e['order'] = i
         stem = base = safe_name(e['sku'])
         n = 2
-        while stem in written:            # two SKUs that only differ in punctuation
+        while stem.lower() in written:    # two SKUs that only differ in punctuation or case
             stem = f'{base}-{n}'; n += 1
-        written.add(stem)
+        written.add(stem.lower())
         path = os.path.join(OUT, stem + '.json')
-        if os.path.exists(path):          # specs checked against the manufacturer survive a re-import
-            old = json.load(open(path, encoding='utf-8'))
+        old = json.load(open(path, encoding='utf-8')) if os.path.exists(path) else {}
+        # specs checked against the manufacturer survive a re-import, but only for the same SKU:
+        # after a SKU change another product can end up with this file name
+        if _key(old.get('sku')) == _key(e['sku']):
             if old.get('checked'):
                 e['specs'] = old.get('specs', [])
                 e.pop('spec_src', None)
@@ -384,11 +440,21 @@ def main(xlsx, skipped_csv=None):
             json.dump(e, f, ensure_ascii=False, indent=1)
             f.write('\n')
     removed = 0
-    for f in os.listdir(OUT):
-        if f.endswith('.json') and f[:-5] not in written:
+    stale = [f for f in os.listdir(OUT) if f.lower().endswith('.json') and f[:-5].lower() not in written]
+    if stale and not written:
+        print(f'No product came through, so the {len(stale)} old product files were not deleted. '
+              'Check the export (a renamed Status column, for one, marks every row inactive).')
+    elif stale and len(written) * 2 < before and not allow_shrink:
+        print(f'Only {len(written)} products came through against {before} files before, so the '
+              f'{len(stale)} old product files were not deleted. Check the export, and if the catalogue '
+              'really shrank, run again with --allow-shrink.')
+    else:
+        for f in stale:
             os.remove(os.path.join(OUT, f)); removed += 1
 
     print(f'{len(items)} products written, {removed} old files removed, {kept_checks} kept their checked specs')
+    if priced:
+        print(f'descriptions left out because they give an amount of money: {priced}')
     print(f'bundles: {len(kids)} products with supporting products, {len(parents)} supporting products linked')
     print(f'skipped {len(skipped)}:', dict(Counter(w for _, w in skipped)))
     if skipped_csv:
@@ -403,8 +469,8 @@ def main(xlsx, skipped_csv=None):
                 note = (f'Has {len(bundled)} supporting products, which are on the site' if bundled else '')
                 if why == 'Discontinued by the maker':
                     note = '; '.join(x for x in (DISCONTINUED[clean(d['Part Number'])]['page'], note) if x)
-                w.writerow([clean(d['Part Number']), clean(d['Product Name']), clean(d['Manufacturer']),
-                            clean(d['Category']), clean(d['Department']), why, note])
+                w.writerow([csv_cell(x) for x in (clean(d['Part Number']), clean(d['Product Name']),
+                            clean(d['Manufacturer']), clean(d['Category']), clean(d['Department']), why, note)])
         print('skipped rows listed in', skipped_csv)
     print('brand corrected from the export:', dict(changed) or 'none')
     print('no brand shown (export does not name the maker):', dict(blanked))
@@ -418,8 +484,11 @@ def main(xlsx, skipped_csv=None):
 if __name__ == '__main__':
     args = sys.argv[1:]
     out = None
+    shrink = '--allow-shrink' in args
+    if shrink:
+        args.remove('--allow-shrink')
     if '--skipped' in args:
         i = args.index('--skipped'); out = args[i + 1]; del args[i:i + 2]
     if len(args) != 1:
         sys.exit(__doc__)
-    main(args[0], out)
+    main(args[0], out, shrink)
