@@ -2,17 +2,19 @@
  *
  * Load this EARLY in <head> on every page. It:
  *   1. sets Consent Mode defaults to DENIED (analytics/ads) for everyone,
- *   2. re-applies a previously stored choice (localStorage 'dc-consent'),
+ *   2. re-applies a previously stored choice (localStorage 'datacore-web.consent'),
  *   3. loads GTM only once the visitor has accepted: straight away on Accept,
  *      or after the page has finished loading for a returning visitor who
  *      accepted before (so it never competes with the page itself),
- *   4. shows a consent banner once — Accept grants, Decline keeps denied.
+ *   4. shows a consent banner until the visitor chooses. Accept grants analytics
+ *      only (the ad signals stay denied), Decline keeps everything denied. Any
+ *      [data-cookie-settings] link brings the banner back to change the choice.
  * Nothing loads from Google, and no tracking cookies are set, until the
  * visitor clicks Accept.
  */
 (function () {
   var GTM_ID = 'GTM-TPKMT6DS';
-  var KEY = 'dc-consent';
+  var KEY = 'datacore-web.consent', OLD = 'dc-consent';
 
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
@@ -25,15 +27,23 @@
     security_storage: 'granted', wait_for_update: 500
   });
 
-  // 2. re-apply a stored choice
-  var choice = null;
-  try { choice = localStorage.getItem(KEY); } catch (e) {}
-  function grant() {
-    gtag('consent', 'update', {
-      ad_storage: 'granted', ad_user_data: 'granted',
-      ad_personalization: 'granted', analytics_storage: 'granted'
-    });
+  // 2. re-apply a stored choice, kept as {"v":2,"choice":"granted"|"denied","date":"YYYY-MM-DD"}
+  function store(v) {
+    try {
+      localStorage.setItem(KEY, JSON.stringify({ v: 2, choice: v, date: new Date().toISOString().slice(0, 10) }));
+      localStorage.removeItem(OLD);
+    } catch (e) {}
   }
+  var choice = null, raw = null;
+  try { raw = localStorage.getItem(KEY); if (raw === null) raw = localStorage.getItem(OLD); } catch (e) {}
+  if (raw === 'granted' || raw === 'denied') { choice = raw; store(raw); }   // an earlier plain value
+  else {
+    try {
+      var o = JSON.parse(raw);
+      if (o && o.v === 2 && (o.choice === 'granted' || o.choice === 'denied')) choice = o.choice;
+    } catch (e) {}
+  }
+  function grant() { gtag('consent', 'update', { analytics_storage: 'granted' }); }
   if (choice === 'granted') grant();
 
   // 3. load GTM only with consent
@@ -60,39 +70,48 @@
     else window.addEventListener('load', function () { whenShown(loadGTM); });
   }
 
-  // 4. banner — only if no prior choice
-  if (choice === 'granted' || choice === 'denied') return;
-
+  // 4. banner: shown until the visitor chooses, and again from any Cookie settings link
   function save(v) {
-    try { localStorage.setItem(KEY, v); } catch (e) {}
-    if (v === 'granted') { grant(); loadGTM(); }
+    var was = choice;
+    choice = v;
+    store(v);
     var b = document.getElementById('dc-cookie');
     if (b) b.parentNode.removeChild(b);
+    if (v === 'granted') { grant(); loadGTM(); }
+    else if (was === 'granted') {
+      // the tag manager may already be running; a reload is the only way to be rid of it
+      gtag('consent', 'update', { analytics_storage: 'denied' });
+      location.reload();
+    }
   }
 
-  function build() {
-    if (document.getElementById('dc-cookie')) return;
-    var st = document.createElement('style');
-    st.textContent =
-      '#dc-cookie{position:fixed;inset-block-end:18px;inset-inline-start:18px;z-index:2147483000;' +
-      'max-width:392px;background:#171a20;color:#eef0f0;border:1px solid rgba(255,255,255,.10);' +
-      'border-radius:14px;box-shadow:0 12px 34px rgba(0,0,0,.28);padding:18px 20px 16px;' +
-      "font-family:'Texta',system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.5;font-size:14.5px}" +
-      '#dc-cookie h4{margin:0 0 5px;font-size:15.5px;font-weight:700;color:#fff}' +
-      '#dc-cookie p{margin:0 0 13px;color:#c3c7cc}' +
-      '#dc-cookie a{color:#33c3b5;text-decoration:underline}' +
-      '#dc-cookie .dc-ck-row{display:flex;gap:10px;flex-wrap:wrap}' +
-      '#dc-cookie button{flex:1 1 auto;min-width:120px;font:inherit;font-weight:600;font-size:14px;' +
-      'border-radius:8px;padding:10px 16px;cursor:pointer;border:1px solid transparent;transition:filter .2s,background .2s}' +
-      '#dc-cookie .dc-ck-yes{background:#00a99a;color:#00201d}' +
-      '#dc-cookie .dc-ck-yes:hover{filter:brightness(1.08)}' +
-      '#dc-cookie .dc-ck-no{background:transparent;color:#eef0f0;border-color:rgba(255,255,255,.22)}' +
-      '#dc-cookie .dc-ck-no:hover{background:rgba(255,255,255,.08)}' +
-      '#dc-cookie button:focus-visible{outline:2px solid #33c3b5;outline-offset:2px}' +
-      '@media(max-width:600px){#dc-cookie{inset-inline:12px;inset-block-end:84px;max-width:none}}' +
-      '@media(prefers-reduced-motion:no-preference){#dc-cookie{animation:dcCkIn .35s ease both}' +
-      '@keyframes dcCkIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}}';
-    document.head.appendChild(st);
+  function build(focus) {
+    var open = document.getElementById('dc-cookie');
+    if (open) { if (focus) open.querySelector('.dc-ck-yes').focus(); return; }
+    if (!document.getElementById('dc-cookie-css')) {
+      var st = document.createElement('style');
+      st.id = 'dc-cookie-css';
+      st.textContent =
+        '#dc-cookie{position:fixed;inset-block-end:18px;inset-inline-start:18px;z-index:2147483000;' +
+        'max-width:392px;background:#171a20;color:#eef0f0;border:1px solid rgba(255,255,255,.10);' +
+        'border-radius:14px;box-shadow:0 12px 34px rgba(0,0,0,.28);padding:18px 20px 16px;' +
+        "font-family:'Texta',system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.5;font-size:14.5px}" +
+        '#dc-cookie h4{margin:0 0 5px;font-size:15.5px;font-weight:700;color:#fff}' +
+        '#dc-cookie p{margin:0 0 13px;color:#c3c7cc}' +
+        '#dc-cookie a{color:#33c3b5;text-decoration:underline}' +
+        '#dc-cookie .dc-ck-row{display:flex;gap:10px;flex-wrap:wrap}' +
+        '#dc-cookie button{flex:1 1 auto;min-width:120px;font:inherit;font-weight:600;font-size:14px;' +
+        'border-radius:8px;padding:10px 16px;cursor:pointer;border:1px solid transparent;transition:filter .2s,background .2s}' +
+        '#dc-cookie .dc-ck-yes{background:#00a99a;color:#00201d}' +
+        '#dc-cookie .dc-ck-yes:hover{filter:brightness(1.08)}' +
+        '#dc-cookie .dc-ck-no{background:transparent;color:#eef0f0;border-color:rgba(255,255,255,.22)}' +
+        '#dc-cookie .dc-ck-no:hover{background:rgba(255,255,255,.08)}' +
+        '#dc-cookie button:focus-visible{outline:2px solid #33c3b5;outline-offset:2px}' +
+        '@media(max-width:600px){#dc-cookie{inset-inline:12px;inset-block-end:84px;max-width:none}}' +
+        '@media(prefers-reduced-motion:no-preference){#dc-cookie{animation:dcCkIn .35s ease both}' +
+        '@keyframes dcCkIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}}';
+      document.head.appendChild(st);
+    }
 
     var el = document.createElement('div');
     el.id = 'dc-cookie';
@@ -114,8 +133,17 @@
     document.body.appendChild(el);
     el.querySelector('.dc-ck-yes').addEventListener('click', function () { save('granted'); });
     el.querySelector('.dc-ck-no').addEventListener('click', function () { save('denied'); });
+    if (focus) el.querySelector('.dc-ck-yes').focus();
   }
 
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest && e.target.closest('[data-cookie-settings]');
+    if (!t) return;
+    e.preventDefault();
+    build(true);
+  });
+
+  if (choice === 'granted' || choice === 'denied') return;
   if (document.readyState !== 'loading') build();
-  else document.addEventListener('DOMContentLoaded', build);
+  else document.addEventListener('DOMContentLoaded', function () { build(); });
 })();

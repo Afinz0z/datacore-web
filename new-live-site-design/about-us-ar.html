@@ -5,12 +5,13 @@
 <html lang="ar" dir="rtl">
 
 <head>
-<script>try{if(localStorage.getItem("dc-theme")==="dark")document.documentElement.classList.add("dc-dark");}catch(e){}</script>
-<link rel="stylesheet" href="dc-overlay.css?v=76">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'">
+<script>try{if((localStorage.getItem("datacore-web.theme")||localStorage.getItem("dc-theme"))==="dark")document.documentElement.classList.add("dc-dark");}catch(e){}</script>
+<link rel="stylesheet" href="dc-overlay.css?v=77">
 
 
 
-  <script src="dc-consent.js?v=76"></script>
+  <script src="dc-consent.js?v=77"></script>
 
 
 
@@ -70,7 +71,7 @@
 
   
   <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="assets1/css/legacy-capture.css?v=76">
+  <link rel="stylesheet" href="assets1/css/legacy-capture.css?v=77">
   <link rel="stylesheet" href="assets1/vendor/jarallax/jarallax.min.css">
 
 
@@ -1244,7 +1245,7 @@ body {
 
 
 
-<script src="dc-overlay.js?v=76"></script>
+<script src="dc-overlay.js?v=77"></script>
 </body>
 
 </html>
@@ -1565,6 +1566,7 @@ body {
             <div class="d-flex justify-content-center justify-content-lg-start footer-links">
               <a href="terms-ar.html">شروط الخدمة</a>
               <a href="privacy-ar.html">سياسة الخصوصية</a>
+              <a href="#" data-cookie-settings>إعدادات ملفات تعريف الارتباط</a>
             </div>
           </div>
 

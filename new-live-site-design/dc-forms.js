@@ -17,7 +17,7 @@ window.DCP_FORM_KEY = window.DCP_FORM_KEY || '1519203c-5bbc-47fe-8d33-681ab3e296
 
 window.dcpDeliver = function (fields, subject) {
   var lines = [];
-  for (var k in fields) { if (fields.hasOwnProperty(k) && fields[k]) lines.push(k + ': ' + fields[k]); }
+  for (var k in fields) { if (fields.hasOwnProperty(k) && fields[k] && k !== 'botcheck') lines.push(k + ': ' + fields[k]); }
   var bodyText = lines.join('\n');
 
   function mailto() {
@@ -28,14 +28,22 @@ window.dcpDeliver = function (fields, subject) {
 
   if (!window.DCP_FORM_KEY) { return Promise.resolve(mailto()); }
 
-  var payload = { access_key: window.DCP_FORM_KEY, subject: subject,
-                  from_name: fields.name || fields.Name || 'Datacore website' };
+  var payload = {};
   for (var f in fields) { if (fields.hasOwnProperty(f)) payload[f] = fields[f]; }
+  // set after the form fields, so a field with one of these names cannot replace them
+  payload.access_key = window.DCP_FORM_KEY;
+  payload.subject = subject;
+  payload.from_name = 'Datacore website';   // the visitor's name stays in the message as an ordinary field
+  payload.botcheck = fields.botcheck || '';   // a hidden field people leave empty; Web3Forms drops the message when it is filled
 
   return fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
     body: JSON.stringify(payload)
-  }).then(function (r) { return r.ok ? 'sent' : mailto(); })
-    .catch(function () { return mailto(); });
+  }).then(function (r) {
+    if (!r.ok) return mailto();
+    // Web3Forms can answer 200 with success: false; only success: true counts as delivered
+    return r.json().then(function (j) { return j && j.success === true ? 'sent' : mailto(); },
+                         function () { return mailto(); });
+  }).catch(function () { return mailto(); });
 };

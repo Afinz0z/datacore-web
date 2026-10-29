@@ -5,12 +5,13 @@
 <html lang="en" dir="ltr">
 
 <head>
-<script>try{if(localStorage.getItem("dc-theme")==="dark")document.documentElement.classList.add("dc-dark");}catch(e){}</script>
-<link rel="stylesheet" href="dc-overlay.css?v=76">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'">
+<script>try{if((localStorage.getItem("datacore-web.theme")||localStorage.getItem("dc-theme"))==="dark")document.documentElement.classList.add("dc-dark");}catch(e){}</script>
+<link rel="stylesheet" href="dc-overlay.css?v=77">
 
 
 
-  <script src="dc-consent.js?v=76"></script>
+  <script src="dc-consent.js?v=77"></script>
 
 
 
@@ -70,7 +71,7 @@
 
   
   <!-- Vendor CSS Files -->
-  <link rel="stylesheet" href="assets1/css/legacy-capture.css?v=76">
+  <link rel="stylesheet" href="assets1/css/legacy-capture.css?v=77">
 
 
   <!-- css -->
@@ -1253,7 +1254,7 @@
 
 
 
-<script src="dc-overlay.js?v=76"></script>
+<script src="dc-overlay.js?v=77"></script>
 </body>
 
 </html>
@@ -1895,7 +1896,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (targetSlug) {
         window.addEventListener('load', function() {
             setTimeout(function() {
-                const targetSection = document.querySelector('[slug="' + targetSlug + '"]');
+                const targetSection = document.querySelector('[slug="' + CSS.escape(targetSlug) + '"]');
                 
                 if (targetSection) {
                     const header = document.querySelector('header') || 
@@ -2172,6 +2173,7 @@ sections.forEach(sec => sec.classList.add("active"));
             <div class="d-flex justify-content-center justify-content-lg-start footer-links">
               <a href="terms.html">Terms of Service</a>
               <a href="privacy.html">Privacy Policy</a>
+              <a href="#" data-cookie-settings>Cookie settings</a>
             </div>
           </div>
 

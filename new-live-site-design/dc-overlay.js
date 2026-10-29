@@ -2,13 +2,19 @@
    toggle, language, consultation button) grafted onto the live pages, with the
    Services dropdown + dark/light + EN/AR. Live body HTML is untouched. */
 (function () {
+  // dc-forms.js is loaded on demand with this script's own ?v= stamp, so VER stays in one place
+  var me = document.currentScript, ver = me && /[?&]v=([^&#]+)/.exec(me.src);
+  var FORMS = 'dc-forms.js' + (ver ? '?v=' + ver[1] : '');
   var path = (location.pathname.split('/').pop() || 'index.html');
   var isAR = /-ar\.html$/.test(path);
   var stem = path.replace(/-ar\.html$/, '').replace(/\.html$/, '') || 'index';
+  // the language link is built from the address, so only a plain page name goes into it
+  // (two service pages end in a hyphen: service-grms-solutions-.html, service-data-centre-migration-services-.html)
+  var page = /^[a-z0-9]+(?:-[a-z0-9]+)*-?$/.test(stem) ? stem : 'index';
   var live = 'https://www.datacore.com.sa/';
   var q = isAR ? '?lang=ar' : '';
   function localName(base) { return base + (isAR ? '-ar' : '') + '.html'; }
-  function langSwap() { return isAR ? (stem + '.html') : (stem + '-ar.html'); }
+  function langSwap() { return isAR ? (page + '.html') : (page + '-ar.html'); }
 
   var T = isAR ? {
     about: 'من نحن', services: 'خدماتنا', products: 'المنتجات', projects: 'مشاريعنا',
@@ -22,7 +28,8 @@
     rep_p: 'أخبرنا بما يبدو خطأ هنا: رابط لا يعمل، أو معلومة غير صحيحة، أو خطأ إملائي.',
     rep_q: 'ما الخطأ؟', rep_mail: 'بريدك الإلكتروني (اختياري، إن أردت رداً)', rep_send: 'أرسل البلاغ', rep_back: 'رجوع',
     rep_note: 'يُرسل عنوان هذه الصفحة مع ملاحظتك.', rep_need: 'اكتب ما الخطأ قبل الإرسال.',
-    rep_ok: 'شكراً لك. وصلنا بلاغك وسنراجعه.', rep_mailed: 'فُتح بريدك الإلكتروني وفيه البلاغ. أرسله من هناك.'
+    rep_ok: 'شكراً لك. وصلنا بلاغك وسنراجعه.', rep_mailed: 'فُتح بريدك الإلكتروني وفيه البلاغ. أرسله من هناك.',
+    rep_fail: 'تعذّر إرسال البلاغ. حاول لاحقاً أو راسلنا على sales@datacore.com.sa.'
   } : {
     about: 'About', services: 'Services', products: 'Products', projects: 'Projects',
     insights: 'Insights', contact: 'Contact', lang: 'العربية',
@@ -35,7 +42,8 @@
     rep_p: 'Tell us what looks wrong here: a broken link, a wrong detail, a typo.',
     rep_q: 'What is wrong?', rep_mail: 'Your email (optional, if you would like a reply)', rep_send: 'Send report', rep_back: 'Back',
     rep_note: "This page's address is sent with your note.", rep_need: 'Write what is wrong before sending.',
-    rep_ok: 'Thank you. We have your report and will look at it.', rep_mailed: 'Your email app opened with the report. Send it from there.'
+    rep_ok: 'Thank you. We have your report and will look at it.', rep_mailed: 'Your email app opened with the report. Send it from there.',
+    rep_fail: 'We could not send the report. Please try again later, or email sales@datacore.com.sa.'
   };
 
   // 9 disciplines, each with its own services (second-level fly-out)
@@ -154,7 +162,6 @@
   // the document level as the guarantee, which works no matter when a link
   // appears or whether the rewrite reached it.
   function localSvc(slug) { return 'service-' + slug + (isAR ? '-ar' : '') + '.html'; }
-  function slugOf(href) { var m = (href || '').match(/service-details\/([a-z0-9-]+)/i); return m && m[1]; }
   // live absolute path (first segment) -> local page base
   var LINKMAP = {
     '': 'index', 'career': 'careers', 'careers': 'careers',
@@ -165,9 +172,13 @@
     'about-us': 'about-us', 'about': 'about-us', 'services': 'services', 'service': 'services',
     'service-details': 'services', 'products': 'products', 'product': 'products'
   };
+  // only the link's host and path count, so a maker's link with this text in its query stays as it is
   function localFor(href) {
-    var s = slugOf(href); if (s) return localSvc(s);
-    var m = (href || '').match(/datacore\.com\.sa\/([a-z0-9-]*)/i);
+    var u; try { u = new URL(href || '', location.href); } catch (e) { return null; }
+    var onLive = /^(www\.)?datacore\.com\.sa$/i.test(u.hostname);
+    if (!onLive && u.origin !== location.origin) return null;
+    var s = u.pathname.match(/\/service-details\/([a-z0-9-]+)/i); if (s) return localSvc(s[1]);
+    var m = onLive && u.pathname.match(/^\/([a-z0-9-]*)/i);
     if (m && LINKMAP.hasOwnProperty(m[1].toLowerCase())) return localName(LINKMAP[m[1].toLowerCase()]);
     return null;   // unmapped datacore link (or external) — leave it alone
   }
@@ -225,7 +236,7 @@
 
     document.getElementById('themeT').addEventListener('click', function () {
       var dark = document.documentElement.classList.toggle('dc-dark');
-      try { localStorage.setItem('dc-theme', dark ? 'dark' : 'light'); } catch (e) {}
+      try { localStorage.setItem('datacore-web.theme', dark ? 'dark' : 'light'); localStorage.removeItem('dc-theme'); } catch (e) {}
     });
     var nv = document.getElementById('mainnav');
     var bg = hdr.querySelector('.burger');
@@ -363,7 +374,7 @@
     // the delivery helper is on most pages; the home, about and services pages load it on first use
     function withForms(cb) {
       if (window.dcpDeliver) { cb(); return; }
-      var s = document.createElement('script'); s.src = 'dc-forms.js'; s.onload = s.onerror = cb;
+      var s = document.createElement('script'); s.src = FORMS; s.onload = s.onerror = cb;
       document.head.appendChild(s);
     }
     repForm.addEventListener('submit', function (e) {
@@ -376,12 +387,16 @@
       };
       if (chat.querySelector('#dcxRepBot').checked) { done('sent'); return; }   // filled in by a bot, not a person
       var go = chat.querySelector('#dcxRepGo'); go.disabled = true;
-      var fields = { report: note, email: chat.querySelector('#dcxRepM').value.trim(), page: location.href,
-        came_from: document.referrer, page_title: document.title, language: isAR ? 'ar' : 'en',
+      // origin and path only: the query can hold a visitor's request list, and the referrer can be another site
+      var from = ''; try { var r = new URL(document.referrer); from = r.origin + r.pathname; } catch (x) {}
+      var fields = { report: note, email: chat.querySelector('#dcxRepM').value.trim(), page: location.origin + location.pathname,
+        came_from: from, page_title: document.title, language: isAR ? 'ar' : 'en',
         screen: innerWidth + 'x' + innerHeight };
       var subj = (isAR ? 'بلاغ عن خطأ في الموقع' : 'Website mistake report') + ': ' + (location.pathname.split('/').pop() || 'index.html');
       withForms(function () {
-        (window.dcpDeliver ? window.dcpDeliver(fields, subj) : Promise.resolve('mail')).then(function (how) {
+        // no delivery script means nothing was sent: say so and keep the note
+        if (!window.dcpDeliver) { go.disabled = false; repNote.textContent = T.rep_fail; return; }
+        window.dcpDeliver(fields, subj).then(function (how) {
           go.disabled = false; done(how);
         });
       });
@@ -416,7 +431,7 @@
     var dc = document.getElementById('dc-content');
     if (!dc || document.body.classList.contains('dcp')) return;
     var keep = { 'dcx-skip':1, 'dcx-hdr':1, 'dc-content':1, 'dcx-chat':1,
-                 'dcx-prog':1, 'dcx-top':1, 'dcx-sticky':1 };
+                 'dcx-prog':1, 'dcx-top':1, 'dcx-sticky':1, 'dc-cookie':1 };
     var kids = [].slice.call(document.body.children), c;
     for (var i = 0; i < kids.length; i++) {
       c = kids[i];
@@ -440,14 +455,17 @@
 (function () {
   if (!(window.HTMLScriptElement && HTMLScriptElement.supports &&
         HTMLScriptElement.supports('speculationrules'))) return;
+  // only this site's folder (the github.io address is shared with the account's other sites), and
+  // no link with a query, such as a shared request list
+  var base = location.pathname.replace(/[^\/]*$/, '').replace(/[\\:*?+(){}]/g, '\\$&');
   var rules = document.createElement('script');
   rules.type = 'speculationrules';
   rules.textContent = JSON.stringify({
     prerender: [{
       source: 'document',
       where: { and: [
-        { href_matches: '/*' },
-        { not: { selector_matches: '[target=_blank], [download], [href^="mailto:"], [href^="tel:"]' } }
+        { href_matches: base + '*' },
+        { not: { selector_matches: '[target=_blank], [download], [href^="mailto:"], [href^="tel:"], [href*="?"]' } }
       ] },
       eagerness: 'moderate'
     }]
