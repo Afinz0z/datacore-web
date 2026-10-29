@@ -48,8 +48,8 @@ LEGAL = {
     ("How we use it", ["We use those details only to answer your enquiry and to prepare a quotation or a site "
       "survey. We do not sell your data."]),
     ("Analytics & third parties", ["Google Tag Manager, which runs our analytics, loads only after you accept cookies, "
-      "and then sets its own cookies. The contact page can show an office map from Google Maps. Nothing loads "
-      "from Google until you press Show the map; Google's privacy policy then applies to it.",
+      "and then sets its own cookies. The contact page shows an office map from Google Maps, which loads "
+      "from Google by itself while you are on that page; Google's privacy policy applies to it.",
       "Some product pages show the maker's official videos. Nothing loads from YouTube until you press play; the video "
       "then plays from youtube-nocookie.com and YouTube's privacy policy applies to it.",
       "Enquiries, quotation requests and mistake reports reach us through Web3Forms, a form delivery service "
@@ -67,8 +67,8 @@ LEGAL = {
     ("كيف نستخدمها", ["نستخدم هذه البيانات فقط للرد على استفسارك ولإعداد عرض سعر أو زيارة ومسح للموقع. ولا نبيع "
       "بياناتك."]),
     ("التحليلات والأطراف الثالثة", ["لا يُحمَّل Google Tag Manager، الذي يشغّل أدوات التحليل لدينا، إلا بعد موافقتك على ملفات "
-      "تعريف الارتباط، ويضع عندها ملفات خاصة به. ويمكن أن تعرض صفحة التواصل خريطة لمكاتبنا من خرائط Google، "
-      "ولا يُحمَّل شيء من Google قبل أن تضغط على «اعرض الخريطة»، ثم تنطبق عليها سياسة الخصوصية الخاصة بـ Google.",
+      "تعريف الارتباط، ويضع عندها ملفات خاصة به. وتعرض صفحة التواصل خريطة لمكاتبنا من خرائط Google، "
+      "تُحمَّل من Google تلقائياً أثناء تصفّحك تلك الصفحة، وتنطبق عليها سياسة الخصوصية الخاصة بـ Google.",
       "تعرض بعض صفحات المنتجات مقاطع فيديو رسمية من الشركات المصنعة. لا يُحمَّل شيء من YouTube قبل أن تضغط على التشغيل، "
       "ثم يُعرض المقطع من youtube-nocookie.com وتنطبق عليه سياسة الخصوصية الخاصة بـ YouTube.",
       "تصلنا الاستفسارات وطلبات عروض الأسعار والبلاغات عن الأخطاء عبر Web3Forms، وهي خدمة لإيصال النماذج تنقل ما "
