@@ -11,7 +11,7 @@ import datetime, itertools, os, re, sys, json, hashlib, urllib.parse
 from collections import Counter
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER, SITE, meta_desc
+from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, VER, SITE, meta_desc, ld_json
 from product_data import safe_name, load_categories
 
 DATA = os.path.dirname(os.path.abspath(__file__))  # data files bundled in _build/
@@ -30,26 +30,100 @@ def _tidy(label, value):
     return [label[:1].upper() + label[1:], value]
 
 
+_TEXT = ("sku", "n", "b", "c", "dept", "g", "avail", "d", "src", "checked", "model", "src_kind", "src_name")
+_YT = re.compile(r"[A-Za-z0-9_-]{11}")
+
+
+def _is_list(v, item):
+    return v is None or (isinstance(v, list) and all(item(x) for x in v))
+
+
+def _texts(x, req, opt=()):
+    return (isinstance(x, dict) and all(isinstance(x.get(k), str) for k in req)
+            and all(x.get(k) is None or isinstance(x[k], str) for k in opt))
+
+
+def _bad_field(e):
+    """What is wrong with the types in a product file, or '' when nothing is."""
+    if not isinstance(e, dict):
+        return "the file must hold one object"
+    if not isinstance(e.get("sku"), str) or not e["sku"].strip():
+        return "sku must be text"
+    for k in _TEXT:
+        if e.get(k) is not None and not isinstance(e[k], str):
+            return f"{k} must be text"
+    if e.get("order") is not None and (isinstance(e["order"], bool) or not isinstance(e["order"], (int, float))):
+        return "order must be a number"
+    for k in ("acc", "for"):
+        if not _is_list(e.get(k), lambda x: isinstance(x, str)):
+            return f"{k} must be a list of part numbers"
+    if not _is_list(e.get("specs"), lambda x: _texts(x, (), ("label", "value"))):
+        return "specs must be a list of label and value pairs (text)"
+    if not _is_list(e.get("videos"), lambda x: _texts(x, ("id", "title"), ("channel",))):
+        return "videos must be a list of id, title and channel (text)"
+    return ""
+
+
 def _load_products():
     """One file per product under content/products/<sku>.json (written by import_products.py or
-    the CMS). Specs stay an ordered list of [label, value]."""
+    the CMS). Specs stay an ordered list of [label, value]. A field of the wrong type stops the build;
+    a maker's link that is not https and a video id that is not a YouTube id are left out."""
     import glob
-    items = [json.load(open(f, encoding="utf-8"))
-             for f in glob.glob(os.path.join(DATA, "content", "products", "*.json"))]
-    items.sort(key=lambda e: (e.get("order", 999999), str(e.get("sku", ""))))
+    items = []
+    for f in sorted(glob.glob(os.path.join(DATA, "content", "products", "*.json"))):
+        name = "content/products/" + os.path.basename(f)
+        try:
+            e = json.load(open(f, encoding="utf-8"))
+        except ValueError as err:
+            sys.exit(f"{name}: {err}")
+        bad = _bad_field(e)
+        if bad:
+            sys.exit(f"{name}: {bad}")
+        if e.get("src") and not e["src"].startswith("https://"):
+            print(f"{name}: src is not an https:// address, left out")
+            e["src"] = ""
+        vids = e.get("videos") or []
+        e["videos"] = [v for v in vids if _YT.fullmatch(v["id"])]
+        if len(e["videos"]) < len(vids):
+            print(f"{name}: left out {len(vids) - len(e['videos'])} video(s) without a YouTube id")
+        items.append(e)
+    items.sort(key=lambda e: (999999 if e.get("order") is None else e["order"], e["sku"]))
     out = []
     for e in items:
         cat = RESOLVE(e.get("c"), e.get("dept"))
-        out.append({"sku": str(e["sku"]), "n": e.get("n") or str(e["sku"]), "b": e.get("b") or "",
+        out.append({"sku": e["sku"], "n": e.get("n") or e["sku"], "b": e.get("b") or "",
                     "cat": cat, "g": e.get("g") or cat["g"], "avail": e.get("avail") or "lead",
                     "d": e.get("d") or "", "acc": e.get("acc") or [], "for": e.get("for") or [],
                     "src": e.get("src") or "", "checked": e.get("checked") or "", "model": e.get("model") or "",
                     "src_kind": e.get("src_kind") or "maker", "src_name": e.get("src_name") or "",
-                    "videos": e.get("videos") or [],
+                    "videos": e["videos"],
                     "specs": [_tidy(s["label"], s["value"]) for s in (e.get("specs") or [])
                               if s.get("label") and s.get("value")]})
     return out
-GLYPHS = json.load(open(os.path.join(DATA, "glyphs.json"), encoding="utf-8"))
+
+
+# Card icons go into pages as they are, so each must be plain shape markup: these elements,
+# lower-case double-quoted attributes, no event handlers and no links.
+_SHAPES = "path|rect|circle|ellipse|line|polyline|polygon|g"
+_GLYPH = re.compile(rf'(?:\s*<(?:{_SHAPES})(?:\s+(?!on|href)[a-z][a-z0-9-]*="[^"<>]*")*\s*/?>|\s*</(?:{_SHAPES})>)*\s*')
+
+
+def _load_glyphs():
+    """glyphs.json: {icon key: SVG child markup}. Keys are the icons product_categories.json names
+    (and rack, the fallback). Anything else stops the build."""
+    glyphs = json.load(open(os.path.join(DATA, "glyphs.json"), encoding="utf-8"))
+    cats = json.load(open(os.path.join(DATA, "product_categories.json"), encoding="utf-8"))["categories"]
+    known = {v[3] for v in cats.values()} | {"rack"}
+    if not isinstance(glyphs, dict):
+        sys.exit("glyphs.json: must hold one object of icon key to SVG markup")
+    for k, v in glyphs.items():
+        if k not in known:
+            sys.exit(f'glyphs.json: "{k}" is not an icon key in product_categories.json')
+        if not isinstance(v, str) or not _GLYPH.fullmatch(v):
+            sys.exit(f'glyphs.json: "{k}" must be plain SVG shapes ({_SHAPES.replace("|", ", ")}) '
+                     'with no event handlers or links')
+    return glyphs
+GLYPHS = _load_glyphs()
 
 # product photos live at assets1/images/products/<safe_name(sku)>.webp, 600 x 600
 _PDIR = os.path.join(ROOT, "assets1", "images", "products")
@@ -127,6 +201,12 @@ for _p in PRODUCTS:
         while _s in _taken:
             _s = f"{_stem}-{_n}"; _n += 1
         _taken.add(_s); PAGES[_p["sku"]] = _s
+_files = {}                  # a stem ending in -ar can name another product's Arabic page
+for _sku, _s in PAGES.items():
+    for _f in (loc(_s, False), loc(_s, True)):
+        if _f in _files:
+            sys.exit(f"{_f} would be the page of both {_files[_f]} and {_sku}: change the SKU or brand of one")
+        _files[_f] = _sku
 def page_url(p, ar):
     return loc(PAGES[p["sku"]], ar) if p["sku"] in PAGES else ""
 
@@ -199,6 +279,10 @@ LABELS = {
    "r_name": "Your name", "r_co": "Company", "r_mail": "Email", "r_tel": "Phone",
    "r_msg": "Notes (optional)", "r_send": "Request a quotation",
    "ok_h": "Request sent", "ok_p": "Your reference is {ref}. We’ll price {n} item(s) and reply within one working day.",
+   "mail_h": "Finish in your email app",
+   "mail_p": "Your email app should have opened with the request (reference {ref}). Send it from there and we will reply within one working day. Your list stays here.",
+   "fail_h": "Request not sent",
+   "fail_p": "We could not send your request. Your list is still here: try again, or email it to sales@datacore.com.sa.",
    "sort": "Sort", "sort_rec": "Recommended", "sort_name": "Name, A to Z", "sort_brand": "Brand, A to Z",
    "cmp": "Compare", "cmp_n": "Compare {n}", "cmp_h": "Compare products", "cmp_max": "You can compare up to 4 products.",
    "cmp_clear": "Clear", "cmp_more": "Show {n} more details", "cmp_less": "Show fewer details", "part": "Part number", "product": "Product", "qty": "Quantity",
@@ -235,6 +319,10 @@ LABELS = {
    "r_name": "الاسم", "r_co": "الشركة", "r_mail": "البريد الإلكتروني", "r_tel": "رقم الجوال",
    "r_msg": "ملاحظات (اختياري)", "r_send": "اطلب عرض سعر",
    "ok_h": "تم إرسال الطلب", "ok_p": "رقمك المرجعي {ref}. سنسعّر {n} عنصراً ونرد خلال يوم عمل واحد.",
+   "mail_h": "أكمل الإرسال من بريدك",
+   "mail_p": "يُفترض أن يكون تطبيق البريد قد فُتح وفيه الطلب (المرجع {ref}). أرسله من هناك وسنرد خلال يوم عمل واحد. تبقى قائمتك محفوظة هنا.",
+   "fail_h": "لم يُرسل الطلب",
+   "fail_p": "تعذّر إرسال طلبك. قائمتك ما زالت محفوظة: حاول مرة أخرى أو أرسلها إلى sales@datacore.com.sa.",
    "sort": "الترتيب", "sort_rec": "المقترح", "sort_name": "الاسم أبجدياً", "sort_brand": "العلامة التجارية أبجدياً",
    "cmp": "مقارنة", "cmp_n": "قارن {n}", "cmp_h": "مقارنة المنتجات", "cmp_max": "يمكنك مقارنة 4 منتجات كحد أقصى.",
    "cmp_clear": "مسح", "cmp_more": "اعرض {n} تفاصيل أخرى", "cmp_less": "اعرض تفاصيل أقل", "part": "رقم القطعة", "product": "المنتج", "qty": "الكمية",
@@ -309,14 +397,15 @@ def rel_html(p, L):
     return f'<div class="dcp-card-rel">{b}</div>' if b else ''
 
 
-def img_html(p, i=0, big=False):
+def img_html(p, i=0, big=False, priority=False):
     """The product's photo (or maker's logo), with the 300 px copy offered to standard screens.
-    Same markup as imgHTML() in dc-products.js."""
+    Same markup as imgHTML() in dc-products.js. priority marks a page's main image."""
     photo = _photo(p)
     sm = '' if big else _small(photo)
     srcset = f' srcset="{PHOTO_DIR}{_jesc(sm)} 300w, {PHOTO_DIR}{_jesc(photo)} 600w" sizes="{SIZES}"' if sm else ''
     return (f'<img src="{PHOTO_DIR}{_jesc(photo)}"{srcset} alt="{_jesc(_alt(p))}" width="600" height="600" '
-            'decoding="async"' + (' fetchpriority="low"' if i >= LOW_AFTER else '') + '>')
+            + ('fetchpriority="high" ' if priority else '')
+            + 'decoding="async"' + (' fetchpriority="low"' if i >= LOW_AFTER else '') + '>')
 
 
 def qty_html(p, L):
@@ -357,16 +446,16 @@ def card_html(p, ar, i=0):
             + qty_html(p, L) + '</article>')
 
 
-def _fgroup(title, dim, counts, label, order=None, limit=8, more=''):
-    """Starting state of one facet group (nothing selected). Mirrors fgroup() in dc-products.js: brands
-    and types list their largest eight and open the rest in the picker window."""
+def _fgroup(title, dim, counts, label, order=None, limit=8, more='', on=None):
+    """Starting state of one facet group (nothing selected, or on ticked). Mirrors fgroup() in
+    dc-products.js: brands and types list their largest eight and open the rest in the picker window."""
     keys = order if order else sorted(counts, key=lambda k: (-counts[k], label(k).lower()))
     keys = [k for k in keys if counts.get(k)]
     shown = keys if len(keys) <= limit else keys[:limit]
     h = f'<div class="dcp-fgroup"><h4>{_jesc(title)}</h4>'
     for k in shown:
-        h += (f'<label><input type="checkbox" data-dim="{dim}" value="{_jesc(k)}"><span>{_jesc(label(k))}</span>'
-              f'<span class="dcp-fc">{counts[k]}</span></label>')
+        h += (f'<label><input type="checkbox" data-dim="{dim}" value="{_jesc(k)}"{" checked" if k == on else ""}>'
+              f'<span>{_jesc(label(k))}</span><span class="dcp-fc">{counts[k]}</span></label>')
     if more and len(keys) > limit:
         h += f'<button class="dcp-more" type="button" data-pick="{dim}">{_jesc(more.replace("{n}", f"{len(keys):,}"))}</button>'
     elif len(keys) > len(shown):
@@ -388,10 +477,7 @@ def facets_html(ar, items=None, on=None):
         if p['b']:
             brand[p['b']] = brand.get(p['b'], 0) + 1
     h = f'<div class="dcp-fhead"><span>{_jesc(L["refine"])}</span></div>'
-    g = _fgroup(L['category'], 'grp', grp_all, lambda k: GROUPS[k][lang], order=list(GROUPS), limit=12)
-    if on:
-        g = g.replace(f'data-dim="grp" value="{_jesc(on)}">', f'data-dim="grp" value="{_jesc(on)}" checked>')
-    h += g
+    h += _fgroup(L['category'], 'grp', grp_all, lambda k: GROUPS[k][lang], order=list(GROUPS), limit=12, on=on)
     h += _fgroup(L['type'], 'cat', cat, lambda k: names[k], more=L['all_types'])
     h += _fgroup(L['brand'], 'brand', brand, lambda k: k, more=L['all_brands'])
     return h
@@ -437,7 +523,7 @@ def write_data():
 
 
 def _write_js(name, var, obj):
-    js = f'window.{var}=' + json.dumps(obj, ensure_ascii=False, separators=(',', ':')) + ';\n'
+    js = f'window.{var}=' + ld_json(obj, separators=(',', ':')) + ';\n'
     d = os.path.join(ROOT, 'assets1', 'data')
     os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, name), 'w', encoding='utf-8', newline='\n') as f:
@@ -549,6 +635,7 @@ def build_products(ar, urls, g=None):
       <div class="dcp-field"><label for="r-mail">{esc(L['r_mail'])}</label><input id="r-mail" type="email" required></div>
       <div class="dcp-field"><label for="r-tel">{esc(L['r_tel'])}</label><input id="r-tel" type="tel"></div>
       <div class="dcp-field"><label for="r-msg">{esc(L['r_msg'])}</label><textarea id="r-msg" rows="3"></textarea></div>
+      <input type="text" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" hidden>
       <button class="dcp-btn" type="submit">{esc(L['r_send'])} {I_ARROW}</button>
     </form>
   </div>
@@ -569,7 +656,7 @@ def build_products(ar, urls, g=None):
     data = {"lang": lang, "labels": L, "glyphs": GLYPHS, "page": PAGE, "lowAfter": LOW_AFTER, "photoDir": PHOTO_DIR,
             "logoAlt": LOGO_ALT, "sizes": SIZES, "textUrl": text_url,
             "specNames": [[k, SPEC_LABEL[k][1 if ar else 0]] for k in SPEC_ORDER], "preset": {"grp": [g]} if g else {}}
-    js = ('<script>window.DCP_DATA=' + json.dumps(data, ensure_ascii=False) + ';</script>'
+    js = ('<script>window.DCP_DATA=' + ld_json(data) + ';</script>'
           f'<script src="{data_url}"></script>'
           '<script src="dc-products.js?v=' + VER + '"></script>')
     # CollectionPage + ItemList: the full count, and the products on the first page (the rest are
@@ -590,7 +677,7 @@ def build_products(ar, urls, g=None):
                 **({"brand": {"@type": "Brand", "name": p["b"]}} if p["b"] else {}),
                 **({"url": SITE + "/" + page_url(p, ar)} if p["sku"] in PAGES else {}))}
                 for i, p in enumerate(first)]}}
-    sch = ('<script type="application/ld+json">' + json.dumps(prodschema, ensure_ascii=False)
+    sch = ('<script type="application/ld+json">' + ld_json(prodschema)
            + '</script><style>' + CAT_CSS + '</style>')
     return shell(ar, 'products', title, desc, body, extra_head=sch, extra_js=js,
                  canon=("products-" + g) if g else None)
@@ -621,8 +708,7 @@ def build_product_page(p, ar):
         lede = (f'{brand_html} ' if p['b'] else '') + esc(_lower(cat) if p['b'] else cat) + f', {esc(L["part"]).lower()} <bdi>{esc(sku)}</bdi>'
     photo = _photo(p)
     if photo:
-        big = img_html(p, 0, big=True).replace(' decoding=', ' fetchpriority="high" decoding=', 1)   # the page's main image
-        media = f'<div class="dcp-card-photo">{big}</div>'
+        media = f'<div class="dcp-card-photo">{img_html(p, 0, big=True, priority=True)}</div>'
     else:
         media = ('<div class="dcp-card-photo dcp-noimg"><span class="dcp-card-ic"><svg viewBox="0 0 24 24" width="48" height="48" '
                  'fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
@@ -695,25 +781,32 @@ def build_product_page(p, ar):
     else:
         d = f'{name} ({who}), {cat}. Specifications, photos and related products. Request a quotation from Datacore Solutions in Riyadh.'
         title = f'{name}' + (f' | {p["b"]}' if p['b'] and p['b'].lower() not in name.lower() else '') + ' | Datacore'
-    # the request lives in the visitor's browser (same key as the catalogue), so a product page can add to it
-    script = ('<script>(function(){var K="dcp-rfq2",b={};try{b=JSON.parse(localStorage.getItem(K))||{};}catch(e){}'
-              'if(Array.isArray(b)){var o={};b.forEach(function(s){o[s]=1;});b=o;}'
+    # the request lives in the visitor's browser (same keys as the catalogue), so a product page can add to it.
+    # The old dcp- keys are read when the new ones are missing and removed on write. A prerendered page
+    # writes nothing until it is shown, then reads the request again.
+    script = ('<script>(function(){'
+              'function get(k,old){try{var v=localStorage.getItem(k);return JSON.parse(v===null?localStorage.getItem(old):v);}catch(e){return null;}}'
+              'function put(k,old,v){try{localStorage.setItem(k,JSON.stringify(v));localStorage.removeItem(old);}catch(e){}}'
+              'var K="datacore-web.rfq",K0="dcp-rfq2",b;'
+              'function load(){var v=get(K,K0);if(Array.isArray(v)){var o={};v.forEach(function(s){o[s]=1;});v=o;}b=v&&typeof v==="object"?v:{};}load();'
               'var row=document.querySelector("[data-pp]");if(!row)return;var sku=row.getAttribute("data-pp"),'
               'inp=row.querySelector(".dcp-qn"),btn=row.querySelector(".dcp-add"),go=document.getElementById("dcp-pp-req");'
-              'var A=' + json.dumps(L['add'], ensure_ascii=False) + ',AD=' + json.dumps(L['added'], ensure_ascii=False) + ';'
-              'function save(){try{localStorage.setItem(K,JSON.stringify(b));}catch(e){}}'
+              'var A=' + ld_json(L['add']) + ',AD=' + ld_json(L['added']) + ';'
+              'function save(){put(K,K0,b);}'
               'function sync(){var on=b[sku]>0;btn.textContent=on?AD:A;btn.classList.toggle("on",on);if(on)inp.value=b[sku];go.hidden=!on;}'
               'row.addEventListener("click",function(e){var q=e.target.closest(".dcp-qb");'
-              'if(q){inp.value=Math.max(1,(parseInt(inp.value,10)||1)+(+q.getAttribute("data-q")));if(b[sku]>0){b[sku]=+inp.value;save();}return;}'
-              'if(e.target.closest(".dcp-add")){if(b[sku]>0)delete b[sku];else b[sku]=Math.max(1,parseInt(inp.value,10)||1);save();sync();}});'
-              'inp.addEventListener("change",function(){inp.value=Math.max(1,parseInt(inp.value,10)||1);if(b[sku]>0){b[sku]=+inp.value;save();}});'
-              'try{var S="dcp-seen",v=JSON.parse(localStorage.getItem(S))||[];v=[sku].concat(v.filter(function(x){return x!==sku;})).slice(0,12);'
-              'localStorage.setItem(S,JSON.stringify(v));}catch(e){}sync();'
+              'if(q){inp.value=Math.min(999,Math.max(1,(parseInt(inp.value,10)||1)+(+q.getAttribute("data-q"))));if(b[sku]>0){b[sku]=+inp.value;save();}return;}'
+              'if(e.target.closest(".dcp-add")){if(b[sku]>0)delete b[sku];else b[sku]=Math.min(999,Math.max(1,parseInt(inp.value,10)||1));save();sync();}});'
+              'inp.addEventListener("change",function(){inp.value=Math.min(999,Math.max(1,parseInt(inp.value,10)||1));if(b[sku]>0){b[sku]=+inp.value;save();}});'
+              'function seen(){var v=get("datacore-web.seen","dcp-seen");v=Array.isArray(v)?v:[];'
+              'put("datacore-web.seen","dcp-seen",[sku].concat(v.filter(function(x){return x!==sku;})).slice(0,12));}'
+              'if(document.prerendering)document.addEventListener("prerenderingchange",function(){load();sync();seen();},{once:true});'
+              'else seen();sync();'
               'document.addEventListener("click",function(e){var b=e.target.closest("[data-yt]");if(!b)return;'
               'var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(b.getAttribute("data-yt"))+"?autoplay=1&rel=0";'
               'f.title=b.getAttribute("aria-label");f.allow="autoplay; encrypted-media; picture-in-picture";f.allowFullscreen=true;'
               'f.className="dcp-vid-frame";b.replaceWith(f);});})();</script>')
-    head = ('<script type="application/ld+json">' + json.dumps(prod, ensure_ascii=False) + '</script>'
+    head = ('<script type="application/ld+json">' + ld_json(prod) + '</script>'
             '<style>' + PP_CSS + '</style>')
     return shell(ar, 'products', title, meta_desc(d), body, extra_head=head, extra_js=script, canon=stem)
 
@@ -896,12 +989,18 @@ CAT_CSS = (
 
 if __name__ == '__main__':
     urls = write_data()
+    cats = set()
     for ar in (False, True):
         name = loc('products', ar)
+        cats.add(name)
         open(os.path.join(ROOT, name), "w", encoding="utf-8").write(build_products(ar, urls))
         for g in GROUP_PAGES:
+            cats.add(loc('products-' + g, ar))
             open(os.path.join(ROOT, loc('products-' + g, ar)), "w", encoding="utf-8").write(build_products(ar, urls, g))
-    print('wrote products.html, products-ar.html and', 2 * len(GROUP_PAGES), 'category pages')
+    gone = [f for f in os.listdir(ROOT) if f.startswith('products-') and f.endswith('.html') and f not in cats]
+    for f in gone:                     # groups that no longer exist or have no products left
+        os.remove(os.path.join(ROOT, f))
+    print('wrote products.html, products-ar.html and', 2 * len(GROUP_PAGES), 'category pages, removed', len(gone))
     keep = set()
     for p in PRODUCTS:
         if p['sku'] in PAGES:
