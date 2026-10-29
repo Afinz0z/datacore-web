@@ -110,7 +110,7 @@
    ],
    [
     "Data centre tier",
-    "The Uptime Institute's I–IV rating of a facility's physical resilience. Tier III (concurrently maintainable) and Tier IV (fault-tolerant) are the enterprise targets; the tier sets the redundancy of power, cooling and distribution paths."
+    "The Uptime Institute's I to IV rating of a facility's physical resilience. Tier III (concurrently maintainable) and Tier IV (fault-tolerant) are the enterprise targets; the tier sets the redundancy of power, cooling and distribution paths."
    ],
    [
     "ONVIF",

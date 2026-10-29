@@ -1221,9 +1221,9 @@ def build_contact(ar):
                    for i,t in enumerate(s['map_tabs']))
     types = ''.join(f'<option>{esc(t)}</option>' for t in s['c_types'])
     # Riyadh gets verified coordinates for a precise pin; the others use an
-    # address query. The Google embed is added once the page itself has loaded and the
-    # map is near the screen, so its ~600 KB never holds up the page, then follows the
-    # selected office.
+    # address query. The Google embed is added only when the visitor presses the button,
+    # so nothing goes to Google before then and its ~600 KB never holds up the page; it
+    # then follows the selected office.
     map_val = ['24.6675676,46.7045394', MAP_Q[1], MAP_Q[2]]
     map_src = ['https://www.google.com/maps?q=' + v + '&output=embed' for v in map_val]
     map_dir = ['https://www.google.com/maps/search/?api=1&query=' + q for q in MAP_Q]
@@ -1232,7 +1232,8 @@ def build_contact(ar):
            f'<div class="dcp-head"><h2>{esc(s["c_offices_h"])}</h2></div>'
            f'<div class="dcp-geo"><div class="dcp-offices-list" id="dcp-offices">{offices}</div>'
            f'<div class="dcp-map-col"><div class="dcp-tabs" id="dcp-mtabs">{tabs}</div>'
-           f'<div class="dcp-map" id="dcp-map"><div class="dcp-map-off"><p>{esc(s["map_loading"])}</p></div></div>'
+           f'<div class="dcp-map" id="dcp-map"><div class="dcp-map-off"><p>{esc(s["map_note"])}</p>'
+           f'<button type="button" class="dcp-btn dcp-map-go">{esc(s["map_show"])}</button></div></div>'
            f'<p class="dcp-mapcap"><span id="dcp-mapcap">{esc(map_cap[0])}</span> &middot; '
            f'<a id="dcp-mapdir" href="{esc(map_dir[0])}" target="_blank" rel="noopener">{esc(s["directions"])}</a></p>'
            f'</div></div></div></section>')
@@ -1284,21 +1285,9 @@ def build_contact(ar):
     fr.title=TITLE;fr.src=SRC[cur];fr.referrerPolicy='strict-origin-when-cross-origin';fr.allowFullscreen=true;
     map.innerHTML='';map.appendChild(fr);
   }}
-  // after the page has loaded, once the map is on or near the screen (a prerendered page waits
-  // until the visitor actually opens it): Google's map code never competes with the page itself
-  function watch(){{
-    if(!('IntersectionObserver' in window)){{showMap();return;}}
-    var io=new IntersectionObserver(function(es){{
-      if(es.some(function(e){{return e.isIntersecting;}})){{io.disconnect();showMap();}}
-    }},{{rootMargin:'200px 0px'}});
-    io.observe(map);
-  }}
-  function whenShown(){{
-    if(document.prerendering)document.addEventListener('prerenderingchange',watch,{{once:true}});
-    else watch();
-  }}
-  if(document.readyState==='complete')whenShown();
-  else window.addEventListener('load',whenShown);
+  // the map loads from Google only when the visitor asks for it
+  var go=map.querySelector('.dcp-map-go');
+  if(go)go.addEventListener('click',showMap);
   function pick(i){{
     cur=i;
     offs.forEach(function(o,j){{var on=j===i;o.classList.toggle('on',on);o.setAttribute('aria-pressed',String(on));}});
