@@ -6,7 +6,7 @@ placeholders and it is not legal advice."""
 import os, sys, json
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT
+from build_pages import shell, hero, cta_band, footer, esc, loc, STR, ROOT, POST_SLUG, POST_ISO
 
 BASE = "https://www.datacore.com.sa"  # canonical destination domain
 
@@ -51,10 +51,13 @@ LEGAL = {
       "and then sets its own cookies. The contact page shows an office map from Google Maps, which loads "
       "from Google by itself while you are on that page; Google's privacy policy applies to it.",
       "Some product pages show the maker's official videos. Nothing loads from YouTube until you press play; the video "
-      "then plays from youtube-nocookie.com and YouTube's privacy policy applies to it."]),
+      "then plays from youtube-nocookie.com and YouTube's privacy policy applies to it.",
+      "Enquiries, quotation requests and mistake reports reach us through Web3Forms, a form delivery service "
+      "that passes what you type on to our email. Web3Forms' privacy policy applies to it."]),
     ("Retention", ["We keep enquiry correspondence for as long as needed to serve the request and to meet our "
       "record-keeping obligations."]),
-    ("Your choices", ["You can ask us what we hold about you, or ask us to delete it, through the contact page."]),
+    ("Your choices", ["You can ask us what we hold about you, or ask us to delete it, through the contact page.",
+      "You can change your cookie choice at any time with the {cookie} link at the foot of every page."]),
   ]),
   "ar": ("سياسة الخصوصية", "ما نجمعه عبر هذا الموقع وكيف نستخدمه.", [
     ("ما نجمعه", ["عند إرسالك استفساراً أو طلب عرض سعر، نستلم البيانات التي تكتبها: عادةً الاسم والشركة والبريد "
@@ -67,9 +70,12 @@ LEGAL = {
       "تعريف الارتباط، ويضع عندها ملفات خاصة به. وتعرض صفحة التواصل خريطة لمكاتبنا من خرائط Google، "
       "تُحمَّل من Google تلقائياً أثناء تصفّحك تلك الصفحة، وتنطبق عليها سياسة الخصوصية الخاصة بـ Google.",
       "تعرض بعض صفحات المنتجات مقاطع فيديو رسمية من الشركات المصنعة. لا يُحمَّل شيء من YouTube قبل أن تضغط على التشغيل، "
-      "ثم يُعرض المقطع من youtube-nocookie.com وتنطبق عليه سياسة الخصوصية الخاصة بـ YouTube."]),
+      "ثم يُعرض المقطع من youtube-nocookie.com وتنطبق عليه سياسة الخصوصية الخاصة بـ YouTube.",
+      "تصلنا الاستفسارات وطلبات عروض الأسعار والبلاغات عن الأخطاء عبر Web3Forms، وهي خدمة لإيصال النماذج تنقل ما "
+      "تكتبه إلى بريدنا الإلكتروني، وتنطبق عليها سياسة الخصوصية الخاصة بـ Web3Forms."]),
     ("الاحتفاظ", ["نحتفظ بمراسلات الاستفسار للمدة اللازمة لخدمة الطلب والوفاء بالتزاماتنا في حفظ السجلات."]),
-    ("خياراتك", ["يمكنك أن تسألنا عمّا نحتفظ به عنك، أو أن تطلب حذفه، عبر صفحة التواصل."]),
+    ("خياراتك", ["يمكنك أن تسألنا عمّا نحتفظ به عنك، أو أن تطلب حذفه، عبر صفحة التواصل.",
+      "يمكنك تغيير اختيارك بشأن ملفات تعريف الارتباط في أي وقت من رابط {cookie} أسفل كل صفحة."]),
   ]),
  },
 }
@@ -94,10 +100,12 @@ def build_legal(kind, ar):
         return out.strip('-') or 'sec'
     toc_label = 'الوصول السريع' if ar else 'Quick access'
     toc = ''.join(f'<li><a href="#{_slug(h)}">{esc(h)}</a></li>' for h, _ in sections)
+    cookie = ('<a href="#" data-cookie-settings>إعدادات ملفات تعريف الارتباط</a>' if ar
+              else '<a href="#" data-cookie-settings>Cookie settings</a>')
     inner = ""
     for h, ps in sections:
         inner += (f'<section id="{_slug(h)}"><h2>{esc(h)}</h2>'
-                  + "".join("<p>" + esc(p) + "</p>" for p in ps) + "</section>")
+                  + "".join("<p>" + esc(p).replace("{cookie}", cookie) + "</p>" for p in ps) + "</section>")
     body += (f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-legal">'
              f'<nav class="dcp-toc" aria-label="{esc(toc_label)}"><h2>{esc(toc_label)}</h2><ul>{toc}</ul></nav>'
              f'<div class="dcp-legal-body">{inner}</div>'
@@ -136,8 +144,10 @@ def build_404(ar):
     tt = h + (" | داتاكور" if ar else " | Datacore Solutions")
     # a 404 page is never a search result, even when opened directly at /404.html
     # a missing page is recorded in analytics (GTM reads the queue only once the visitor accepts cookies)
-    nf = ('<script>window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:"page_not_found",'
-          'page_path:location.pathname,page_referrer:document.referrer});</script>')
+    # the referring page goes as origin and path only: its query string can carry a visitor's details
+    nf = ('<script>(function(){var r="";try{var u=new URL(document.referrer);r=u.origin+u.pathname;}catch(e){}'
+          'window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:"page_not_found",'
+          'page_path:location.pathname,page_referrer:r});})();</script>')
     return shell(ar, "", tt, p, body, extra_head='<meta name="robots" content="noindex">', extra_js=nf)
 
 CAREERS = {
@@ -209,26 +219,19 @@ for _start in ("products-", "product-"):
         if _f.startswith(_start) and _f.endswith(".html") and not _f.endswith("-ar.html") \
                 and os.path.exists(os.path.join(ROOT, _f[:-5] + "-ar.html")):
             urls += [_f, _f[:-5] + "-ar.html"]
-import glob as _glob
-_ins_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "content", "insights")
 _lastmod = {}   # per-URL content date, so the sitemap doesn't drift on every rebuild
-_ins = []
-for _f in _glob.glob(os.path.join(_ins_dir, "*.json")):
-    _d = json.load(open(_f, encoding="utf-8"))
-    _slug = os.path.splitext(os.path.basename(_f))[0]
-    _ins.append((_d.get("order", 9999), _slug))
-    _iso = str(_d.get("iso", ""))[:10]
+for _slug, _iso in zip(POST_SLUG, POST_ISO):   # checked by build_pages, in hub order
+    urls += ["insight-" + _slug + ".html", "insight-" + _slug + "-ar.html"]
     if _iso:
         _lastmod["insight-" + _slug + ".html"] = _iso
         _lastmod["insight-" + _slug + "-ar.html"] = _iso
-for _o, _slug in sorted(_ins):
-    urls += ["insight-" + _slug + ".html", "insight-" + _slug + "-ar.html"]
 for slug in ["av-solutions-provider-saudi-arabia", "elv-low-current-systems-saudi-arabia",
              "network-solutions-provider-riyadh", "structured-cabling-company-riyadh",
              "av-network-integrator-saudi-arabia"]:
     urls += [slug + ".html", slug + "-ar.html"]
 
-import datetime, re, hashlib, subprocess, html as _html
+import datetime, re, hashlib, subprocess, shutil, html as _html
+from xml.sax.saxutils import escape as _xesc
 
 
 def _visible(doc):
@@ -251,8 +254,16 @@ def _page_dates(urls):
     commit to _build/ (e.g. a CMS edit that CI rebuilt). Returns {} without a full
     git history (not a checkout, or a shallow clone); the sitemap then falls back
     to the article dates."""
+    git_exe = shutil.which("git")
+    repo = os.path.normcase(os.path.realpath(os.path.dirname(ROOT)))
+    # on Windows which() also looks in the current folder, so a git.exe planted in _build would win
+    if not git_exe or os.path.normcase(os.path.realpath(git_exe)).startswith(repo + os.sep):
+        if git_exe:
+            print("ignoring git inside the repository:", git_exe, file=sys.stderr)
+        return {}
+
     def git(*args):
-        return subprocess.run(["git", "-C", ROOT] + list(args), capture_output=True, check=True).stdout
+        return subprocess.run([git_exe, "-C", ROOT] + list(args), capture_output=True, check=True).stdout
     try:
         if git("rev-parse", "--is-shallow-repository").strip() == b"true":
             return {}
@@ -272,7 +283,7 @@ def _page_dates(urls):
             name, fields = path[len(prefix):], meta.split()
             if path.startswith(prefix) and "/" not in name and fields[4] != "D":
                 versions.setdefault(name, []).append((day, fields[3]))
-    cat = subprocess.Popen(["git", "-C", ROOT, "cat-file", "--batch"],
+    cat = subprocess.Popen([git_exe, "-C", ROOT, "cat-file", "--batch"],
                            stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 
     def blob(sha):
@@ -313,7 +324,7 @@ LASTMOD = (max(_dates.values()) if _dates
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">'.replace("www.sitemap.org", "www.sitemaps.org")]
 for u in urls:
-    sm.append(f"  <url><loc>{BASE}/{u}</loc><lastmod>{_dates.get(u) or _lastmod.get(u, LASTMOD)}</lastmod>"
+    sm.append(f"  <url><loc>{_xesc(BASE + '/' + u)}</loc><lastmod>{_xesc(_dates.get(u) or _lastmod.get(u, LASTMOD))}</lastmod>"
               f"<changefreq>monthly</changefreq></url>")
 sm.append("</urlset>")
 open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm))
@@ -428,12 +439,17 @@ open(os.path.join(ROOT, "humans.txt"), "w", encoding="utf-8").write(humans)
 
 # security.txt (RFC 9116) — a contact path for anyone reporting a vulnerability
 import datetime as _dt
-# Expiry derived from the content date (stable across rebuilds), kept well in the future.
-_expires = (_dt.date.fromisoformat(LASTMOD) + _dt.timedelta(days=730)).isoformat() + "T00:00:00.000Z"
+# RFC 9116 asks for an expiry less than a year ahead. It counts from the content date so a rebuild
+# doesn't move it, but from no more than 270 days back, so a quiet site never serves an expired file.
+_today = _dt.date.today()
+_from = min(max(_dt.date.fromisoformat(LASTMOD), _today - _dt.timedelta(days=270)), _today)
+_expires = (_from + _dt.timedelta(days=364)).isoformat() + "T00:00:00.000Z"
+# one Canonical line per address the file is served from (the GitHub Pages copy serves it today)
 security = (f"Contact: mailto:info@datacore.com.sa\n"
             f"Expires: {_expires}\n"
             f"Preferred-Languages: en, ar\n"
-            f"Canonical: {BASE}/.well-known/security.txt\n")
+            f"Canonical: {BASE}/.well-known/security.txt\n"
+            f"Canonical: https://afinz0z.github.io/datacore-web/.well-known/security.txt\n")
 os.makedirs(os.path.join(ROOT, ".well-known"), exist_ok=True)
 open(os.path.join(ROOT, ".well-known", "security.txt"), "w", encoding="utf-8").write(security)
 open(os.path.join(ROOT, "security.txt"), "w", encoding="utf-8").write(security)  # root fallback for scanners that check /

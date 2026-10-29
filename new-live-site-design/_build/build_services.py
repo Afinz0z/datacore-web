@@ -7,7 +7,7 @@ pages stay byte-for-byte untouched. Adds the methodology band (design #4)."""
 import os, sys, json, html
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS, FAQ_CSS, wrap_ltr, meta_desc
+from build_pages import shell, cta_band, footer, esc, loc, STR, ROOT, I_ARROW, SITE, INSIGHTS, FAQ_CSS, wrap_ltr, meta_desc, ld_json, site_path, prune
 
 # slug -> (EN title, AR title) so service pages can link the matching guides
 _ITITLE = {e["slug"]: (e["title"], a.get("title", e["title"]))
@@ -25,6 +25,9 @@ DISC_INSIGHTS = {
   7: ["iptv-for-enterprise-hospitality"],
   8: ["why-annual-maintenance-contracts-matter", "choosing-an-elv-contractor-saudi-arabia"],
 }
+_missing = sorted({sl for v in DISC_INSIGHTS.values() for sl in v} - set(_ITITLE))
+if _missing:
+    sys.exit("DISC_INSIGHTS links insights with no file in content/insights/: " + ", ".join(_missing))
 def related_reading(di, ar):
     slugs = DISC_INSIGHTS.get(di, [])
     if not slugs:
@@ -266,7 +269,7 @@ def build(slug, ar):
     _fq = faq_schema(di, ar)
     if _fq:
         _schemas.append(_fq)
-    head = "".join('<script type="application/ld+json">' + json.dumps(x, ensure_ascii=False) + '</script>'
+    head = "".join('<script type="application/ld+json">' + ld_json(x) + '</script>'
                    for x in _schemas) + FAQ_CSS
     title = c.get("title") or (h1 + (" | داتاكور للحلول" if ar else " | Datacore Solutions"))
     _loc = ("السعودية", "الرياض") if ar else ("Saudi Arabia", "Riyadh")
@@ -275,9 +278,11 @@ def build(slug, ar):
         title = title.replace(" | ", _ins + " | ", 1) if " | " in title else title + _ins
     return shell(ar, "services", title, meta_desc(c.get("desc", intro)), body, extra_head=head, canon="service-" + slug)
 
-n = 0
+n, made = 0, set()
 for slug in SLUGS:
     for ar in (False, True):
-        open(os.path.join(ROOT, svc_file(slug, ar)), "w", encoding="utf-8").write(build(slug, ar))
+        open(site_path(svc_file(slug, ar)), "w", encoding="utf-8").write(build(slug, ar))
+        made.add(svc_file(slug, ar))
         n += 1
 print("wrote", n, "service pages")
+prune(r'service-[a-z0-9-]+\.html', made)   # services no longer in services-copy.json

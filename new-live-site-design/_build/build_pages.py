@@ -3,13 +3,18 @@
 in the live Texta look. Each page loads the developed-site header + dark mode via
 dc-overlay.css/js and the live-look content styles via dc-pages.css. Live body
 HTML is not touched: these are brand-new pages the header's nav links point to."""
-import os, json, html, sys, re, urllib.parse
+import os, json, html, sys, re, urllib.parse, datetime
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # the site root (parent of _build)
 STR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mirror_strings.json"), encoding="utf-8"))
 
 def esc(s): return html.escape(str(s), quote=True)
+
+def ld_json(obj, **kw):
+    """JSON text that is safe inside a <script> element: <, > and & can never close it."""
+    return (json.dumps(obj, ensure_ascii=False, **kw)
+            .replace('&', '\\u0026').replace('<', '\\u003c').replace('>', '\\u003e'))
 
 # wrap Latin/acronym runs in dir="ltr" for correct rendering inside RTL Arabic.
 # run on ALREADY-escaped text; only wraps runs that contain a letter.
@@ -55,6 +60,62 @@ DISCIPLINES = [  # (services.html?id=, EN, AR) — matches the header dropdown
   ('iptv-solutions','IPTV Solutions','حلول IPTV'),
   ('professional-services','Professional Services','الخدمات الاحترافية'),
 ]
+BUILD = os.path.dirname(os.path.abspath(__file__))
+# CMS content reaches file names, tags and addresses, so each file is checked as it loads.
+# A bad value stops the build with the file name and the field.
+SLUG_RE = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*')
+IMG_RE = re.compile(r'assets1/images/(?:[A-Za-z0-9_][A-Za-z0-9._-]*/)*[A-Za-z0-9_][A-Za-z0-9._-]*\.(?i:webp|jpe?g|png)')
+DISC_IDS = {d[0] for d in DISCIPLINES}
+SERVICE_SLUGS = set(json.load(open(os.path.join(BUILD, "services-copy.json"), encoding="utf-8"))["services"])
+# page names the generators or the hand-kept core pages already use
+RESERVED = {'index', 'about-us', 'services', 'products', 'projects', 'insights', 'contact', 'faq',
+            'glossary', 'careers', 'terms', 'privacy', '404'}
+GEN_PREFIX = ('insight-', 'project-', 'service-', 'product-', 'products-')
+
+def _bad(f, field, value, why):
+    sys.exit(f"{os.path.relpath(f, BUILD)}: {field} {value!r} {why}")
+
+def _slug(f, field, v):
+    if not isinstance(v, str) or not SLUG_RE.fullmatch(v):
+        _bad(f, field, v, "must be lowercase letters, digits and single hyphens")
+    if v.endswith('-ar'):
+        _bad(f, field, v, "must not end in -ar, which names an Arabic page")
+    return v
+
+def _entry(f, e, seen):
+    """slug of a one-file-per-entry content file: well formed, equal to the file name, unique."""
+    slug = _slug(f, "slug", e.get("slug"))
+    if os.path.splitext(os.path.basename(f))[0] != slug:
+        _bad(f, "slug", slug, "must match the file name")
+    if slug in seen:
+        _bad(f, "slug", slug, "is used by another entry")
+    seen.add(slug)
+    return slug
+
+def _img(f, field, v):
+    if v and (not isinstance(v, str) or '..' in v or not IMG_RE.fullmatch(v)):
+        _bad(f, field, v, "must be a webp, jpg, jpeg or png file under assets1/images/")
+
+def _date(f, field, v, partial=False):
+    """YYYY-MM-DD (partial=True also takes YYYY and YYYY-MM, as schema.org does)."""
+    pat = r'\d{4}(?:-\d{2}(?:-\d{2})?)?' if partial else r'\d{4}-\d{2}-\d{2}'
+    ok = isinstance(v, str) and bool(re.fullmatch(pat, v))
+    if ok and len(v) == 10:
+        try: datetime.date.fromisoformat(v)
+        except ValueError: ok = False
+    if not ok:
+        _bad(f, field, v, "must be a date in YYYY-MM-DD form")
+
+def _blocks(f, field, types):
+    for t in types:
+        if t not in ('p', 'h2'):
+            _bad(f, field, t, "must be p or h2")
+
+def _related(f, field, slugs):
+    for sl in slugs:
+        if sl not in SERVICE_SLUGS:
+            _bad(f, field, sl, "is not a service page")
+
 # case-study hero/card images (index-aligned with the hub's project list). The
 # showcase cards' images are appended from content/showcase/ once SHOWCASE loads.
 PROJ_IMG = ['dc-proj-owis.webp','dc-proj-aou-council.webp','dc-proj-psau.webp','dc-proj-taqeem.webp','dc-proj-auditorium.webp']
@@ -88,11 +149,21 @@ def _load_cases():
     ({slug, order, img (full assets1/images/ path), en, ar}). Rebuild the
     {slug: {img, en, ar}} dict build_case() expects."""
     import glob
-    d = os.path.dirname(os.path.abspath(__file__))
     cases = {}
-    for f in glob.glob(os.path.join(d, "content", "projects", "*.json")):
+    for f in glob.glob(os.path.join(BUILD, "content", "projects", "*.json")):
         e = json.load(open(f, encoding="utf-8"))
-        cases[e["slug"]] = {"img": e.get("img", ""), "en": e.get("en", {}), "ar": e.get("ar", {})}
+        slug = _entry(f, e, set(cases))
+        _img(f, "img", e.get("img", ""))
+        for lang in ("en", "ar"):
+            x = e.get(lang, {})
+            for g in x.get("gallery") or []:
+                _img(f, lang + ".gallery.img", g.get("img"))
+            if x.get("date_iso"):
+                _date(f, lang + ".date_iso", x["date_iso"], partial=True)
+        cases[slug] = {"img": e.get("img", ""), "en": e.get("en", {}), "ar": e.get("ar", {})}
+    for slug in CASE_SLUG:
+        if slug not in cases:
+            sys.exit(f"content/projects/{slug}.json is missing: the projects hub links a case study with that slug")
     return cases
 CASES = _load_cases()
 def _load_showcase():
@@ -100,15 +171,21 @@ def _load_showcase():
     file each under content/showcase/<slug>.json ({slug, order, img, disc, en, ar}),
     editable in Pages CMS. They render on the projects hub after the case studies."""
     import glob
-    d = os.path.dirname(os.path.abspath(__file__))
-    items = [json.load(open(f, encoding="utf-8"))
-             for f in glob.glob(os.path.join(d, "content", "showcase", "*.json"))]
+    items, seen = [], set()
+    for f in glob.glob(os.path.join(BUILD, "content", "showcase", "*.json")):
+        e = json.load(open(f, encoding="utf-8"))
+        _entry(f, e, seen)
+        _img(f, "img", e.get("img", ""))
+        for di in e.get("disc", []):
+            if di not in DISC_IDS:
+                _bad(f, "disc", di, "is not a known discipline id")
+        items.append(e)
     items.sort(key=lambda e: (e["order"], e["slug"]))  # lower order first; ties break by slug
     return items
 SHOWCASE = _load_showcase()
 # the hub lists the 5 case studies first, then the showcase cards; extend the
 # index-aligned arrays so build_projects can treat all of them uniformly.
-PROJ_IMG += [os.path.basename(s["img"]) for s in SHOWCASE]
+PROJ_IMG += [s["img"][len("assets1/images/"):] for s in SHOWCASE]
 PROJ_DISC += [s["disc"] for s in SHOWCASE]
 CASE_SLUG += ["" for _ in SHOWCASE]
 FAQ = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "faq.json"), encoding="utf-8"))
@@ -119,9 +196,18 @@ def _load_insights():
     CMS-editable shape. Rebuild the legacy en/ar parallel-array structure the rest of
     this module uses."""
     import glob
-    d = os.path.dirname(os.path.abspath(__file__))
-    entries = [json.load(open(f, encoding="utf-8"))
-               for f in glob.glob(os.path.join(d, "content", "insights", "*.json"))]
+    entries, seen = [], set()
+    for f in glob.glob(os.path.join(BUILD, "content", "insights", "*.json")):
+        e = json.load(open(f, encoding="utf-8"))
+        _entry(f, e, seen)
+        _img(f, "img", e.get("img", ""))
+        if e.get("iso"):
+            _date(f, "iso", e["iso"])
+        for lang in ("en", "ar"):
+            x = e.get(lang, {})
+            _blocks(f, lang + ".blocks.type", [b.get("type") for b in x.get("blocks", [])])
+            _related(f, lang + ".related.slug", [r.get("slug") for r in x.get("related", [])])
+        entries.append(e)
     entries.sort(key=lambda e: (e.get("order", 9999), e.get("slug", "")))
     def _post(e, lang):
         x = e.get(lang, {})
@@ -134,7 +220,24 @@ def _load_insights():
     return {"en": {"posts": [_post(e, "en") for e in entries]},
             "ar": {"posts": [_post(e, "ar") for e in entries]}}
 INSIGHTS = _load_insights()
-LANDING = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "landing.json"), encoding="utf-8"))
+def _load_landing():
+    """landing.json: the query-targeted solution pages. Each slug is a page name at the site
+    root, so it may not take the name of another page; EN and AR list the same pages in order."""
+    f = os.path.join(BUILD, "landing.json")
+    L = json.load(open(f, encoding="utf-8"))
+    for lang in ("en", "ar"):
+        seen = set()
+        for p in L[lang]["pages"]:
+            slug = _slug(f, lang + ".slug", p.get("slug"))
+            if slug in seen or slug in RESERVED or slug.startswith(GEN_PREFIX):
+                _bad(f, lang + ".slug", slug, "is already the name of another page")
+            seen.add(slug)
+            _blocks(f, lang + ".blocks", [b[0] for b in p.get("blocks", [])])
+            _related(f, lang + ".related", [r[0] for r in p.get("related", [])])
+    if [p["slug"] for p in L["en"]["pages"]] != [p["slug"] for p in L["ar"]["pages"]]:
+        _bad(f, "ar.pages", [p["slug"] for p in L["ar"]["pages"]], "must list the English pages in the same order")
+    return L
+LANDING = _load_landing()
 CASE_UI = {
  'en': {'read': 'Read the case study', 'projects': 'Projects', 'at_glance': 'At a glance',
         'client': 'Client', 'sector': 'Sector', 'location': 'Location', 'completed': 'Completed',
@@ -191,10 +294,10 @@ def seo_meta(ar, active, title, desc):
     if active:
         en_url, ar_url = _abs(active, False), _abs(active, True)
         page_url = ar_url if ar else en_url
-        alts = (f'<link rel="canonical" href="{page_url}">'
-                f'<link rel="alternate" hreflang="en" href="{en_url}">'
-                f'<link rel="alternate" hreflang="ar" href="{ar_url}">'
-                f'<link rel="alternate" hreflang="x-default" href="{en_url}">')
+        alts = (f'<link rel="canonical" href="{esc(page_url)}">'
+                f'<link rel="alternate" hreflang="en" href="{esc(en_url)}">'
+                f'<link rel="alternate" hreflang="ar" href="{esc(ar_url)}">'
+                f'<link rel="alternate" hreflang="x-default" href="{esc(en_url)}">')
     else:
         page_url, alts = SITE + "/", ''
     lc = 'ar_SA' if ar else 'en_US'
@@ -205,14 +308,14 @@ def seo_meta(ar, active, title, desc):
         f'<meta property="og:locale" content="{lc}">'
         f'<meta property="og:title" content="{esc(title)}">'
         f'<meta property="og:description" content="{esc(desc)}">'
-        f'<meta property="og:url" content="{page_url}">'
-        f'<meta property="og:image" content="{og}">'
+        f'<meta property="og:url" content="{esc(page_url)}">'
+        f'<meta property="og:image" content="{esc(og)}">'
         '<meta property="og:image:width" content="1200">'
         '<meta property="og:image:height" content="630">'
         '<meta name="twitter:card" content="summary_large_image">'
         f'<meta name="twitter:title" content="{esc(title)}">'
         f'<meta name="twitter:description" content="{esc(desc)}">'
-        f'<meta name="twitter:image" content="{og}">')
+        f'<meta name="twitter:image" content="{esc(og)}">')
 
 # Organization + three regional offices + WebSite — the entity graph that answer
 # engines (Google, ChatGPT, Perplexity) read. Facts only; no invented data.
@@ -247,7 +350,7 @@ def site_jsonld(ar):
         {"@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/", "name": "Datacore Solutions",
          "publisher": {"@id": SITE + "/#org"}, "inLanguage": ["en", "ar"]}
     ]}
-    return '<script type="application/ld+json">' + json.dumps(g, ensure_ascii=False) + '</script>'
+    return '<script type="application/ld+json">' + ld_json(g) + '</script>'
 
 def breadcrumb_jsonld(ar, active, title):
     if not active or active == 'index':
@@ -256,7 +359,7 @@ def breadcrumb_jsonld(ar, active, title):
     g = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": home, "item": _abs('index', ar)},
         {"@type": "ListItem", "position": 2, "name": title, "item": _abs(active, ar)}]}
-    return '<script type="application/ld+json">' + json.dumps(g, ensure_ascii=False) + '</script>'
+    return '<script type="application/ld+json">' + ld_json(g) + '</script>'
 
 # ── page shell ──────────────────────────────────────────────────────────
 def meta_desc(text, limit=160):
@@ -280,8 +383,9 @@ def shell(ar, active, title, desc, body, extra_head='', extra_js='', canon=None)
     return f"""<!DOCTYPE html>
 <html lang="{lang}" dir="{dr}">
 <head>
-<script>try{{if(localStorage.getItem("dc-theme")==="dark")document.documentElement.classList.add("dc-dark");}}catch(e){{}}</script>
+<script>(function(){{try{{var t=localStorage.getItem("datacore-web.theme");if(t===null)t=localStorage.getItem("dc-theme");if(t==="dark")document.documentElement.classList.add("dc-dark");}}catch(e){{}}}})();</script>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="dc-consent.js?v={VER}"></script>
 <title>{esc(title)}</title>
@@ -335,14 +439,15 @@ def footer(ar, page=None):
                else 'Add us as a preferred source on Google')
         pref = (f'<p class="dcp-foot-pref" style="margin-top:16px;font-size:.88rem">'
                 f'<a href="{PREFSRC}" target="_blank" rel="noopener">{lab}</a></p>')
-    disc = ''.join(f'<li><a href="{loc("services",ar)}?id={d[0]}">{esc(d[1] if not ar else d[2])}</a></li>'
+    disc = ''.join(f'<li><a href="{esc(loc("services",ar) + "?id=" + d[0])}">{esc(d[1] if not ar else d[2])}</a></li>'
                    for d in DISCIPLINES[:4])
-    land = ''.join(f'<li><a href="{loc(p["slug"],ar)}">{esc(p["nav"])}</a></li>'
+    land = ''.join(f'<li><a href="{esc(loc(p["slug"],ar))}">{esc(p["nav"])}</a></li>'
                    for p in LANDING['ar' if ar else 'en']['pages'])
-    comp = ''.join(f'<li><a href="{loc(k,ar)}">{esc(lab)}</a></li>' for k,lab in s['f_links'])
+    comp = ''.join(f'<li><a href="{esc(loc(k,ar))}">{esc(lab)}</a></li>' for k,lab in s['f_links'])
     o0 = s['offices'][0]
+    cookies = 'إعدادات ملفات تعريف الارتباط' if ar else 'Cookie settings'
     touch = (f'<li><a href="{loc("contact",ar)}">{esc(o0[2])}, {esc(o0[3])}</a></li>'
-             f'<li><a href="tel:{o0[5]}">{esc(o0[4])}</a></li>'
+             f'<li><a href="{esc("tel:" + o0[5])}">{esc(o0[4])}</a></li>'
              f'<li><a href="{loc("careers",ar)}">{esc(s["f_careers"])}</a></li>')
     return f"""<footer class="dcp-foot" role="contentinfo"><div class="dcp-wrap">
 <div class="dcp-foot-top">
@@ -360,7 +465,8 @@ def footer(ar, page=None):
 <div class="dcp-foot-btm"><span class="legal">{esc(s['f_rights'])}</span>
   <span class="legal">{esc(s['f_legal'])}</span>
   <a href="{loc('terms',ar)}">{esc(s['f_terms'])}</a>
-  <a href="{loc('privacy',ar)}">{esc(s['f_privacy'])}</a></div>
+  <a href="{loc('privacy',ar)}">{esc(s['f_privacy'])}</a>
+  <a href="#" data-cookie-settings>{cookies}</a></div>
 </div></footer>"""
 
 # real manufacturer partners (from the product catalogue) — text marquee
@@ -629,9 +735,10 @@ def photo_attrs(path, sizes):
     """src/srcset/sizes for a project photo: browsers pick the 720px copy unless the slot
     (or the screen density) needs the full-size file."""
     small = path[:-5] + '-720.webp' if path.endswith('.webp') else None
-    if small and os.path.exists(os.path.join(ROOT, small)):
-        return f'src="{small}" srcset="{small} 720w, {path} 1200w" sizes="{sizes}"'
-    return f'src="{path}"'
+    # only a checked site path is looked up on disk (a UNC path would reach another machine)
+    if small and IMG_RE.fullmatch(small) and '..' not in small and os.path.exists(os.path.join(ROOT, small)):
+        return f'src="{esc(small)}" srcset="{esc(small)} 720w, {esc(path)} 1200w" sizes="{esc(sizes)}"'
+    return f'src="{esc(path)}"'
 
 
 def build_projects(ar):
@@ -648,14 +755,14 @@ def build_projects(ar):
         kits = ''.join(f'<span>{E(k)}</span>' for k in kit)
         # only the five projects with a dedicated case-study page get a "read more" link;
         # the portfolio-deck showcase cards (CASE_SLUG[i] == '') show image + detail only.
-        read_link = (f'<a class="dcp-dir" href="{loc("project-"+CASE_SLUG[i], ar)}">{esc(U["read"])} {I_ARROW}</a>'
+        read_link = (f'<a class="dcp-dir" href="{esc(loc("project-"+CASE_SLUG[i], ar))}">{esc(U["read"])} {I_ARROW}</a>'
                      if CASE_SLUG[i] else '')
         # Eager (not native lazy, which can fail to trigger for lower cards) with
         # priority tiering: first card is the LCP, the tail loads low-priority.
         _pia = ('fetchpriority="high" decoding="async"' if i == 0
                 else 'decoding="async"' if i < 3
                 else 'fetchpriority="low" decoding="async"')
-        cards += f"""<article class="dcp-proj" data-disc="{' '.join(PROJ_DISC[i])}">
+        cards += f"""<article class="dcp-proj" data-disc="{esc(' '.join(PROJ_DISC[i]))}">
   <div class="ph"><img {photo_attrs('assets1/images/' + PROJ_IMG[i], '(max-width: 760px) 94vw, 420px')} alt="{esc(name)}" {_pia} width="1200" height="750"></div>
   <div class="band"><span class="c">{E(sector)}</span><span>{E(city)}</span></div>
   <div class="in"><h3>{E(name)}</h3><p class="body">{E(body)}</p>
@@ -688,7 +795,7 @@ def build_projects(ar):
     present = [d for d in DISCIPLINES if any(d[0] in dd for dd in PROJ_DISC)]
     alllbl = 'كل الخدمات' if ar else 'All Services'
     optl = (f'<li role="option" data-value="" data-label="{esc(alllbl)}" class="is-sel" aria-selected="true"><span>{esc(alllbl)}</span><span class="tick" aria-hidden="true">✓</span></li>'
-            + ''.join(f'<li role="option" data-value="{d[0]}" data-label="{esc(d[2] if ar else d[1])}" aria-selected="false"><span>{esc(d[2] if ar else d[1])}</span><span class="tick" aria-hidden="true">✓</span></li>' for d in present))
+            + ''.join(f'<li role="option" data-value="{esc(d[0])}" data-label="{esc(d[2] if ar else d[1])}" aria-selected="false"><span>{esc(d[2] if ar else d[1])}</span><span class="tick" aria-hidden="true">✓</span></li>' for d in present))
     ph = 'ابحث في المشاريع…' if ar else 'Search projects…'
     noresult = 'لا توجد مشاريع مطابقة.' if ar else 'No projects match your search.'
     search_svg = ('<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" '
@@ -783,16 +890,16 @@ def build_case(slug, ar):
                f'<h2>{esc(U["gallery"])}</h2></div><div class="dcp-gal">{figs}</div></div></section>')
     # related services + projects — crawl depth + topical association (reuses existing CSS, no VER bump)
     _idx = CASE_SLUG.index(slug) if slug in CASE_SLUG else -1
-    _svc = ''.join(f'<a class="dcp-dir" href="{loc("services",ar)}?id={ds}">'
+    _svc = ''.join(f'<a class="dcp-dir" href="{esc(loc("services",ar) + "?id=" + ds)}">'
                    f'{esc(next((d[2] if ar else d[1] for d in DISCIPLINES if d[0]==ds), ds))} {I_ARROW}</a>'
                    for ds in (PROJ_DISC[_idx] if _idx >= 0 else []))
-    _oth = ''.join(f'<a class="dcp-dir" href="{loc("project-"+sl, ar)}">{E(CASES[sl][lang]["name"])} {I_ARROW}</a>'
+    _oth = ''.join(f'<a class="dcp-dir" href="{esc(loc("project-"+sl, ar))}">{E(CASES[sl][lang]["name"])} {I_ARROW}</a>'
                    for sl in CASE_SLUG if sl and sl != slug and CASES.get(sl, {}).get(lang, {}).get("name"))
     # makers the case study names, each linked to its products in the catalogue
     _txt = json.dumps(c, ensure_ascii=False)
     _brands = [b for b in catalogue_brands()
                if re.search(r'(?<![A-Za-z0-9])' + re.escape(b) + r'(?![A-Za-z0-9])', _txt)]
-    _br = ''.join(f'<a class="dcp-dir" href="{loc("products", ar)}?brand={urllib.parse.quote(b)}" dir="ltr">{esc(b)} {I_ARROW}</a>'
+    _br = ''.join(f'<a class="dcp-dir" href="{esc(loc("products", ar) + "?brand=" + urllib.parse.quote(b))}" dir="ltr">{esc(b)} {I_ARROW}</a>'
                   for b in _brands)
     _related = ''
     if _svc or _oth or _br:
@@ -813,7 +920,7 @@ def build_case(slug, ar):
               "publisher": {"@id": SITE + "/#org"},
               "image": SITE + "/" + C["img"], "inLanguage": lang}
     if c.get("date_iso"): schema["datePublished"] = c["date_iso"]
-    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
+    head = '<script type="application/ld+json">' + ld_json(schema) + '</script>'
     title = c["name"] + (" | داتاكور للحلول" if ar else " | Datacore Solutions")
     return shell(ar, "projects", title, meta_desc(c.get("desc", c["lede"])), body, extra_head=head, canon="project-" + slug)
 
@@ -845,7 +952,7 @@ def build_faq(ar):
               "mainEntity": [{"@type": "Question", "name": q,
                               "acceptedAnswer": {"@type": "Answer", "text": a}}
                              for q, a in F['items']]}
-    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + FAQ_CSS
+    head = '<script type="application/ld+json">' + ld_json(schema) + '</script>' + FAQ_CSS
     return shell(ar, 'faq', F['title'], F.get('desc', F['lede']), body, extra_head=head, canon='faq')
 
 # ── GLOSSARY ────────────────────────────────────────────────────────────────
@@ -874,7 +981,7 @@ def build_glossary(ar):
               "name": G['title'], "inLanguage": lang,
               "hasDefinedTerm": [{"@type": "DefinedTerm", "name": t, "description": d,
                                   "inDefinedTermSet": {"@id": setid}} for t, d in G['terms']]}
-    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + GLOSSARY_CSS
+    head = '<script type="application/ld+json">' + ld_json(schema) + '</script>' + GLOSSARY_CSS
     return shell(ar, 'glossary', G['title'], G['lede'], body, extra_head=head, canon='glossary')
 
 # ── INSIGHTS ────────────────────────────────────────────────────────────
@@ -893,10 +1000,10 @@ def build_insights(ar):
                else 'decoding="async"' if i < 6
                else 'fetchpriority="low" decoding="async"')
         cards += f"""<article class="dcp-post">
-  <div class="ph"><a href="{loc('insight-'+p['slug'],ar)}"><img src="{POST_IMG[i]}?v={VER}" alt="{esc(p['title'])}" {_ia} width="561" height="306"></a></div>
+  <div class="ph"><a href="{esc(loc('insight-'+p['slug'],ar))}"><img src="{esc(POST_IMG[i])}?v={VER}" alt="{esc(p['title'])}" {_ia} width="561" height="306"></a></div>
   <div class="in"><span class="by">{E(p['date'])} &middot; {E(p['team'])}</span>
-    <h3><a href="{loc('insight-'+p['slug'],ar)}">{E(p['title'])}</a></h3><p>{E(p['dek'])}</p>
-    <a class="dcp-dir" href="{loc('insight-'+p['slug'],ar)}">{esc(read)} {I_ARROW}</a></div></article>"""
+    <h3><a href="{esc(loc('insight-'+p['slug'],ar))}">{E(p['title'])}</a></h3><p>{E(p['dek'])}</p>
+    <a class="dcp-dir" href="{esc(loc('insight-'+p['slug'],ar))}">{esc(read)} {I_ARROW}</a></div></article>"""
     body = (hero(ar, 'NOTES' if not ar else 'ملاحظات', s['i_title'], s['i_title'], s['i_lede'])
       + f'<section class="dcp-sec"><div class="dcp-wrap"><div class="dcp-posts">{cards}</div></div></section>'
       + cta_band(ar) + footer(ar))
@@ -976,7 +1083,7 @@ def build_post(i, ar):
                  f'<h1>{E(P["title"])}</h1><p class="dcp-lede">{E(P["dek"])}</p></div></section>')
     # Hero image = LCP element (text hero above it carries no image); prioritise it
     # instead of lazy-loading, which Lighthouse flags as an LCP anti-pattern.
-    fig = (f'<figure class="dcp-art-fig"><img src="{POST_IMG[i]}?v={VER}" '
+    fig = (f'<figure class="dcp-art-fig"><img src="{esc(POST_IMG[i])}?v={VER}" '
            f'alt="{esc(P["title"])}" width="561" height="306" fetchpriority="high" decoding="async"></figure>')
     blocks = ''.join(f'<{typ}>{E(txt)}</{typ}>' for typ, txt in P['blocks'])
     faq = P.get('faq', [])
@@ -987,7 +1094,7 @@ def build_post(i, ar):
         faq_h = 'أسئلة شائعة' if ar else 'Frequently asked'
         faq_html = (f'<div class="dcp-faqwrap" style="max-width:720px;margin:36px auto 0">'
                     f'<h2 style="font-size:1.4rem;margin:0 0 6px">{esc(faq_h)}</h2>{items}</div>')
-    rel = ''.join(f'<a href="{loc("service-"+slug,ar)}">{E(anchor)} {I_ARROW}</a>'
+    rel = ''.join(f'<a href="{esc(loc("service-"+slug,ar))}">{E(anchor)} {I_ARROW}</a>'
                   for slug, anchor in P['related'])
     rel_h = 'خدمات ذات صلة' if ar else 'Related services'
     # related insights — other articles that share a service with this one (auto topic cluster)
@@ -995,7 +1102,7 @@ def build_post(i, ar):
     _scored = sorted(((len(_mine & {sl for sl, _ in q['related']}), j)
                       for j, q in enumerate(INSIGHTS['en']['posts'])
                       if j != i and (_mine & {sl for sl, _ in q['related']})), reverse=True)
-    _relins = ''.join(f'<a href="{loc("insight-"+INSIGHTS["en"]["posts"][j]["slug"], ar)}">'
+    _relins = ''.join(f'<a href="{esc(loc("insight-"+INSIGHTS["en"]["posts"][j]["slug"], ar))}">'
                       f'{E(INSIGHTS[lang]["posts"][j]["title"])} {I_ARROW}</a>' for _, j in _scored[:3])
     relins_block = (f'<div class="dcp-related"><h2>{esc("مقالات ذات صلة" if ar else "Related insights")}</h2>{_relins}</div>'
                     if _relins else '')
@@ -1035,7 +1142,7 @@ def build_post(i, ar):
         schema.append({"@context": "https://schema.org", "@type": "FAQPage",
                        "mainEntity": [{"@type": "Question", "name": q,
                                        "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]})
-    head = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>' + FAQ_CSS + POST_CSS
+    head = '<script type="application/ld+json">' + ld_json(schema) + '</script>' + FAQ_CSS + POST_CSS
     title = P['title'] + (' | داتاكور للحلول' if ar else ' | Datacore Solutions')
     return shell(ar, 'insights', title, P['meta'], body, extra_head=head, canon='insight-' + P['slug'])
 
@@ -1074,7 +1181,7 @@ def build_landing(idx, ar):
         f'<details class="dcp-faq"><summary><span>{E(q)}</span></summary>'
         f'<div class="dcp-faq-a"><p>{E(a)}</p></div></details>' for q, a in Pg['faq'])
     faq_h = 'أسئلة شائعة' if ar else 'Frequently asked'
-    rel = ''.join(f'<a href="{loc("service-"+sl,ar)}">{E(an)} {I_ARROW}</a>' for sl, an in Pg['related'])
+    rel = ''.join(f'<a href="{esc(loc("service-"+sl,ar))}">{E(an)} {I_ARROW}</a>' for sl, an in Pg['related'])
     rel_h = 'خدمات ذات صلة' if ar else 'Related services'
     body = (hero_html
             + f'<section class="dcp-sec"><div class="dcp-wrap" style="max-width:820px"><div class="dcp-land">'
@@ -1092,7 +1199,7 @@ def build_landing(idx, ar):
         {"@context": "https://schema.org", "@type": "FAQPage",
          "mainEntity": [{"@type": "Question", "name": q,
                          "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in Pg['faq']]}]
-    head = ('<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False) + '</script>'
+    head = ('<script type="application/ld+json">' + ld_json(schema) + '</script>'
             + FAQ_CSS + POST_CSS + LANDING_CSS)
     return shell(ar, 'services', Pg['title'], Pg['meta'], body, extra_head=head, canon=Pg['slug'])
 
@@ -1127,7 +1234,7 @@ def build_contact(ar):
            f'<div class="dcp-map-col"><div class="dcp-tabs" id="dcp-mtabs">{tabs}</div>'
            f'<div class="dcp-map" id="dcp-map"><div class="dcp-map-off"><p>{esc(s["map_loading"])}</p></div></div>'
            f'<p class="dcp-mapcap"><span id="dcp-mapcap">{esc(map_cap[0])}</span> &middot; '
-           f'<a id="dcp-mapdir" href="{map_dir[0]}" target="_blank" rel="noopener">{esc(s["directions"])}</a></p>'
+           f'<a id="dcp-mapdir" href="{esc(map_dir[0])}" target="_blank" rel="noopener">{esc(s["directions"])}</a></p>'
            f'</div></div></div></section>')
     form = f"""<form class="dcp-form" id="dcp-enq" novalidate>
   <div class="dcp-head"><h2>{esc(s['c_form_h'])}</h2></div>
@@ -1142,6 +1249,7 @@ def build_contact(ar):
   <div class="dcp-field"><label for="q-type">{esc(f['type'])}</label><select id="q-type" name="type">{types}</select></div>
   <div class="dcp-field"><label for="q-proj">{esc(f['project'])}</label><input id="q-proj" name="project" placeholder="{esc(f['project_hint'])}"></div>
   <div class="dcp-field"><label for="q-msg">{esc(f['msg'])}</label><textarea id="q-msg" name="message" rows="5" required></textarea></div>
+  <input type="text" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" hidden>
   <button class="dcp-btn" type="submit">{esc(f['send'])} {I_ARROW}</button>
   <p class="dcp-note">{esc(f['note'])}</p>
 </form>"""
@@ -1164,15 +1272,16 @@ def build_contact(ar):
             + geo + formsec + footer(ar))
     js = f"""<script>
 (function(){{
-  var SRC={json.dumps(map_src)}, CAP={json.dumps(map_cap, ensure_ascii=False)}, DIR={json.dumps(map_dir)};
-  var TITLE={json.dumps(s['map_h'], ensure_ascii=False)};
+  var SRC={ld_json(map_src)}, CAP={ld_json(map_cap)}, DIR={ld_json(map_dir)};
+  var TITLE={ld_json(s['map_h'])};
+  var FAIL={ld_json("تعذّر إرسال رسالتك. حاول مرة أخرى أو راسلنا على sales@datacore.com.sa." if ar else "We could not send your message. Please try again, or email sales@datacore.com.sa.")};
   var offs=document.querySelectorAll('#dcp-offices .dcp-office');
   var tabs=document.querySelectorAll('#dcp-mtabs button');
   var map=document.getElementById('dcp-map'), cur=0;
   function showMap(){{
     if(map.querySelector('iframe'))return;
     var fr=document.createElement('iframe');
-    fr.title=TITLE;fr.src=SRC[cur];fr.referrerPolicy='no-referrer-when-downgrade';fr.allowFullscreen=true;
+    fr.title=TITLE;fr.src=SRC[cur];fr.referrerPolicy='strict-origin-when-cross-origin';fr.allowFullscreen=true;
     map.innerHTML='';map.appendChild(fr);
   }}
   // after the page has loaded, once the map is on or near the screen (a prerendered page waits
@@ -1211,22 +1320,31 @@ def build_contact(ar):
     var ref='DC-'+Date.now().toString(36).toUpperCase().slice(-6);
     var g=function(id){{var el=form.querySelector(id);return el?el.value:'';}};
     var fd={{name:g('#q-name'),company:g('#q-co'),email:g('#q-mail'),phone:g('#q-tel'),
-             type:g('#q-type'),project:g('#q-proj'),message:g('#q-msg'),reference:ref}};
-    var btn=form.querySelector('button[type=submit]');if(btn){{btn.disabled=true;}}
-    window.dcpDeliver(fd,'{("استفسار من الموقع" if ar else "Website enquiry")} — '+(fd.name||'')).then(function(mode){{
+             type:g('#q-type'),project:g('#q-proj'),message:g('#q-msg'),reference:ref,botcheck:g('[name=botcheck]')}};
+    var btn=form.querySelector('button[type=submit]');
+    // nothing was sent: say so, and leave the form filled in so the visitor can try again
+    var fail=function(){{
+      if(btn)btn.disabled=false;
+      var p=form.querySelector('.dcp-form-err');
+      if(!p){{p=document.createElement('p');p.className='dcp-note dcp-form-err';p.setAttribute('role','alert');form.insertBefore(p,btn?btn.nextSibling:null);}}
+      p.textContent=FAIL;
+    }};
+    if(typeof window.dcpDeliver!=='function'){{fail();return;}}
+    if(btn){{btn.disabled=true;}}
+    window.dcpDeliver(fd,'{("استفسار من الموقع" if ar else "Website enquiry")}: '+(fd.name||'')).then(function(mode){{
       var ok=document.createElement('div');
       ok.className='dcp-form';ok.setAttribute('role','status');
       var msg=(mode==='sent')
         ?'{("رقمك المرجعي" if ar else "Your reference number is")} <strong>'+ref+'</strong>. {("سنرد خلال يوم عمل واحد." if ar else "We will reply within one working day.")}'
-        :'{("فتحنا رسالتك في تطبيق البريد لديك، أرسلها وسنرد خلال يوم عمل واحد." if ar else "Your message is ready in your email app، send it and we will reply within one working day.")} {("المرجع" if ar else "Ref")} <strong>'+ref+'</strong>.';
+        :'{("فتحنا رسالتك في تطبيق البريد لديك، أرسلها وسنرد خلال يوم عمل واحد." if ar else "Your message is ready in your email app. Send it and we will reply within one working day.")} {("المرجع" if ar else "Ref")} <strong>'+ref+'</strong>.';
       ok.innerHTML='<h2>{("تم استلام استفسارك" if ar else "Enquiry received")}</h2>'
         +'<p style="color:var(--dcp-ink2)">'+msg+'</p>';
       form.replaceWith(ok);
-    }});
+    }},fail);
   }});
 }})();
 </script>"""
-    schema = ('<script type="application/ld+json">' + json.dumps({
+    schema = ('<script type="application/ld+json">' + ld_json({
         "@context":"https://schema.org","@type":"LocalBusiness",
         "name":"Datacore Solutions",
         "description":s['brand_line'],
@@ -1235,14 +1353,34 @@ def build_contact(ar):
         "address":{"@type":"PostalAddress","streetAddress":s['offices'][0][2],
                    "addressLocality":"Riyadh","postalCode":"12626","addressCountry":"SA"},
         "areaServed":["SA","AE","IN"]
-      }, ensure_ascii=False) + '</script>')
+      }) + '</script>')
     title = ('تواصل معنا | داتاكور للحلول' if ar else 'Contact | Datacore Solutions')
     return shell(ar, 'contact', title, s['c_lede'], body, extra_head=schema, extra_js=js)
 
 # ── write all ───────────────────────────────────────────────────────────
+CORE_PAGES = {'index.html', 'index-ar.html', 'about-us.html', 'about-us-ar.html', 'services.html', 'services-ar.html'}
+
+def site_path(name):
+    """Full path of a generated page. Anything that is not a file directly in the site
+    folder, or is one of the hand-kept core pages, stops the build."""
+    p = os.path.realpath(os.path.join(ROOT, name))
+    if (os.path.normcase(os.path.dirname(p)) != os.path.normcase(os.path.realpath(ROOT))
+            or os.path.normcase(os.path.basename(p)) in CORE_PAGES):
+        sys.exit(f"refusing to write {name!r}: not a generated page in the site folder")
+    return p
+
+WROTE = set()
 def w(name, s):
-    open(os.path.join(ROOT, name), "w", encoding="utf-8").write(s)
+    open(site_path(name), "w", encoding="utf-8").write(s)
+    WROTE.add(name)
     print("wrote", name, len(s), "chars")
+
+def prune(pattern, keep):
+    """Delete generated pages matching pattern that this run did not produce."""
+    for f in sorted(os.listdir(ROOT)):
+        if re.fullmatch(pattern, f) and f not in keep:
+            os.remove(site_path(f))
+            print("removed", f)
 
 if __name__ == "__main__":
     for ar in (False, True):
@@ -1258,4 +1396,5 @@ if __name__ == "__main__":
         for slug in CASE_SLUG:
             if not slug: continue   # showcase-only cards have no dedicated case page
             w(loc('project-' + slug, ar), build_case(slug, ar))
+    prune(r'insight-[a-z0-9-]+\.html', WROTE)   # articles whose entry was deleted
     print("done")
